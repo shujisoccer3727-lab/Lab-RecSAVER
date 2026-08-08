@@ -1,0 +1,9 @@
+# CPUのみで動作する基礎分析環境。GPU関連ライブラリを含めない。
+pandas>=1.5,<3
+numpy>=1.23,<3
+matplotlib>=3.6,<4
+scikit-learn>=1.2,<2
+scipy>=1.9,<2
+jupyter>=1.0,<2
+openpyxl>=3.0,<4
+nbformat>=5.7,<6

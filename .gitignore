@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.pytest_cache/
+.mplconfig/
+outputs/tables/*.csv
+outputs/figures/*.png
+!outputs/tables/.gitkeep
+!outputs/figures/.gitkeep
+# raw data / models / large generated artifacts
+data/*
+!data/.gitkeep
+models/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+outputs/gpu/
+outputs/basic_analysis/
