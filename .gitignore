@@ -9,8 +9,11 @@ outputs/figures/*.png
 !outputs/tables/.gitkeep
 !outputs/figures/.gitkeep
 # raw data / models / large generated artifacts
-data/*
-!data/.gitkeep
+data/raw/*
+data/processed/*
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 models/
 checkpoints/
 *.safetensors
