@@ -1,0 +1,11 @@
+target_id,rater_id,gold_overall,predicted_overall,exact_correct,absolute_error,squared_error,bleu_max,bleu_mean,rouge1_f1_max,rouge1_f1_mean,meteor_max,meteor_mean,bertscore_f1_max,bertscore_f1_mean,num_verified_references,metric_note
+1328:1,rater_23,3,3,True,0,0,,,,,,,,,,
+2092:1,rater_18,3,3,True,0,0,0.0196753169144095,0.0130452989282769,0.1301775147928994,0.0482944657152802,,,,,3.0,METEOR/BERTScore unavailable: optional dependencies not installed
+5294:1,rater_15,4,3,False,1,1,0.0101213698285524,0.0101213698285524,0.0148148148148148,0.0148148148148148,,,,,1.0,METEOR/BERTScore unavailable: optional dependencies not installed
+5329:1,rater_15,4,3,False,1,1,,,,,,,,,,
+5494:1,rater_6,2,3,False,1,1,0.0625180690324398,0.0578675127519646,0.4545454545454545,0.4264914772727273,,,,,2.0,METEOR/BERTScore unavailable: optional dependencies not installed
+7351:2,rater_16,2,3,False,1,1,,,,,,,,,,
+7997:1,rater_6,4,3,False,1,1,,,,,,,,,,
+8699:1,rater_7,2,3,False,1,1,0.0211303963247502,0.0163665536162214,0.1063829787234042,0.0617384979087106,,,,,2.0,METEOR/BERTScore unavailable: optional dependencies not installed
+873:1,rater_7,3,3,True,0,0,0.1440855622967784,0.1418889420353748,0.50187265917603,0.4843993646074702,,,,,2.0,METEOR/BERTScore unavailable: optional dependencies not installed
+897:2,rater_16,3,3,True,0,0,0.0148720796759305,0.0148720796759305,0.037037037037037,0.037037037037037,,,,,1.0,METEOR/BERTScore unavailable: optional dependencies not installed
