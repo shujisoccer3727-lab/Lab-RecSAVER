@@ -75,7 +75,7 @@ raw、processed、モデル、GPU入力、生成された分析出力は`.gitign
 
 設定は`configs/recsaver_mvp.yaml`、プロンプトは`prompts/`、実装は
 `src/recsaver/`に分離しています。各Phaseは中間結果を
-`outputs/recsaver/`へ保存します。
+`outputs/recsaver_mvp/`へ保存します。
 
 ```bash
 conda activate qwen3
@@ -97,6 +97,7 @@ context lengthと固定history sizeの収容率分析は次で再実行できま
 
 ```bash
 python -m src.recsaver.context_analysis \
+  --config configs/context_analysis.yaml \
   --max-model-len 4096 8192 16384 32768 \
   --min-rater-samples 100
 ```

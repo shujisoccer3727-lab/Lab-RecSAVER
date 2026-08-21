@@ -1,0 +1,9 @@
+max_model_len,model_load_success,inference_success,oom,gpu_memory_used_mib,after_load_gpu_memory_used_mib,after_inference_gpu_memory_used_mib,error,test_output
+4096,True,True,False,1535.0,45213.1,45213.1,,"
+OK"
+8192,True,True,False,1546.9,44614.2,44614.2,,"
+OK"
+16384,True,True,False,1550.1,42522.6,42522.6,,"
+OK"
+32768,True,True,False,1542.3,38429.1,38429.1,,"
+OK"

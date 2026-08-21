@@ -31,7 +31,7 @@ def token_counts(tokenizer, prompts: list[str]) -> list[int]:
 
 
 def representative_reasonings(config: dict) -> list[str]:
-    outdir = project_path(config, config["output_dir"])
+    outdir = project_path(config, config.get("mvp_output_dir", config["output_dir"]))
     candidates = read_jsonl(outdir / "reference_candidates.jsonl")
     values = [r["reference_reasoning"] for r in candidates if r.get("reference_reasoning")]
     if not values:
@@ -100,7 +100,7 @@ def run(config: dict, max_lengths: list[int], min_rater_samples: int = 100) -> t
                                  "fit_rate": float(fit.mean()), "output_budget": int(group.output_budget.iloc[0]),
                                  **stats})
     summary = pd.DataFrame(summary_rows)
-    outdir = project_path(config, "outputs/context_analysis")
+    outdir = project_path(config, config["output_dir"])
     outdir.mkdir(parents=True, exist_ok=True)
     detail_frame.to_csv(outdir / "context_token_statistics.csv", index=False)
     summary.to_csv(outdir / "context_fit_summary.csv", index=False)
@@ -114,7 +114,7 @@ def run(config: dict, max_lengths: list[int], min_rater_samples: int = 100) -> t
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", default="configs/recsaver_mvp.yaml")
+    parser.add_argument("--config", default="configs/context_analysis.yaml")
     parser.add_argument("--max-model-len", nargs="+", type=int, required=True)
     parser.add_argument("--min-rater-samples", type=int, default=100)
     args = parser.parse_args()

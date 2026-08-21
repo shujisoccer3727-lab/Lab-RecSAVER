@@ -4,10 +4,6 @@ __pycache__/
 .venv/
 .pytest_cache/
 .mplconfig/
-outputs/tables/*.csv
-outputs/figures/*.png
-!outputs/tables/.gitkeep
-!outputs/figures/.gitkeep
 # raw data / models / large generated artifacts
 data/*
 !data/.gitkeep
@@ -17,5 +13,6 @@ checkpoints/
 *.pt
 *.pth
 outputs/gpu/
-outputs/context_analysis/
-outputs/k_history_robustness/
+outputs/**/tmp/
+outputs/**/cache/
+outputs/**/*.log

@@ -1,0 +1,12 @@
+seed: 20260808
+data:
+  processed_path: data/processed/rater_essay_wide.csv
+model:
+  model_id: Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4
+  max_model_len: 4096
+generation:
+  prediction: {max_tokens: 384}
+  reference: {max_tokens: 384}
+  verification: {max_tokens: 64}
+mvp_output_dir: outputs/recsaver_mvp
+output_dir: outputs/context_analysis
