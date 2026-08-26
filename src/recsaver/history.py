@@ -24,6 +24,8 @@ def sample_history(frame, target, size: int, seed: int, strategy: str = "random"
 
 
 def format_history(history) -> str:
+    if history.empty:
+        return "No rating history is provided."
     blocks = []
     for number, (_, row) in enumerate(history.iterrows(), 1):
         traits = "\n".join(f"{name}: {int(row[name])}" for name in TRAITS)

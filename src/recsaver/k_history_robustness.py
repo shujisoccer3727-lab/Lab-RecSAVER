@@ -10,7 +10,7 @@ from .history import sample_history
 from .model import VLLMGenerator
 from .parsing import parse_prediction
 from .phase4_analysis import quadratic_weighted_kappa
-from .prompts import render
+from .prompts import prompt_metadata, render
 from .utils import read_jsonl, write_jsonl, experiment_metadata
 
 
@@ -30,7 +30,7 @@ def prepare_seed(config, frame, targets, seed, tokenizer):
             history=pool.iloc[:k]; ids=history.target_id.tolist()
             assert target.target_id not in ids
             assert pool.iloc[:3].target_id.tolist()==pool.iloc[:5].target_id.tolist()[:3]
-            prompt=render('zero_shot_prediction.txt',history,target)
+            prompt=render('zero_shot_prediction.txt',history,target,prompt_dir=config['prompt_dir'])
             n=len(tokenizer.apply_chat_template([{'role':'user','content':prompt}],tokenize=True,add_generation_prompt=True))
             assert n+config['generation']['prediction']['max_tokens']<=config['model']['max_model_len']
             rows.append({'seed':seed,'K':k,'target':target,'history':history,'prompt':prompt,'prompt_tokens':n})
@@ -69,7 +69,7 @@ def run(config):
     records=reuse_base(config) if config.get('reuse_base_seed') else []
     existing=read_jsonl(out/'k3_k5_seed_predictions.jsonl'); records.extend(existing)
     completed={(r['seed'],r['K'],r['target_id']) for r in records}
-    pending_seeds=[s for s in config['history_seeds'] if s!=20260814]
+    pending_seeds=[s for s in config['history_seeds'] if not (config.get('reuse_base_seed') and s==20260814)]
     if pending_seeds:
         generator=VLLMGenerator(config); frame=load_valid_data(config); targets=fixed_targets(config,frame)
         for seed in pending_seeds:
@@ -95,9 +95,9 @@ def run(config):
                           'inference_time_seconds':elapsed/len(chunk),'raw_model_output':raw,'prompt':item['prompt'],
                           'reused_from_base_pilot':False})
                     write_jsonl(out/'k3_k5_seed_predictions.jsonl',[r for r in records if r['seed']!=20260814])
-    all_records=reuse_base(config)+read_jsonl(out/'k3_k5_seed_predictions.jsonl')
+    all_records=(reuse_base(config) if config.get('reuse_base_seed') else [])+read_jsonl(out/'k3_k5_seed_predictions.jsonl')
     write_jsonl(out/'k3_k5_seed_predictions_all.jsonl',all_records)
-    (out/'experiment_metadata.json').write_text(json.dumps({**experiment_metadata(config),'history_seeds':config['history_seeds']},indent=2),encoding='utf-8')
+    (out/'experiment_metadata.json').write_text(json.dumps({**experiment_metadata(config),**prompt_metadata(config),'history_seeds':config['history_seeds']},indent=2),encoding='utf-8')
     return aggregate(config,all_records)
 
 

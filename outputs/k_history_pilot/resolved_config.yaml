@@ -5,7 +5,12 @@ data:
 experiment:
   num_targets: 100
   min_rater_samples: 100
-  k_values: [0, 1, 3, 5, 7]
+  k_values:
+  - 0
+  - 1
+  - 3
+  - 5
+  - 7
   fixed_targets_metadata: outputs/k_history_pilot_ja/experiment_metadata.json
   prediction_mode: reasoning
   max_parse_retries: 1
@@ -15,10 +20,11 @@ model:
   quantization: gptq_marlin
   tensor_parallel_size: 1
   max_model_len: 8192
-  gpu_memory_utilization: 0.90
+  gpu_memory_utilization: 0.9
 generation:
   prediction:
     temperature: 0.2
     top_p: 0.8
     max_tokens: 384
 output_dir: outputs/k_history_pilot
+_config_path: /mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/configs/k_history_pilot.yaml

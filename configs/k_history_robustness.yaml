@@ -1,6 +1,7 @@
 base_pilot_dir: outputs/k_history_pilot
+prompt_dir: prompts/en
 history_seeds: [20260814, 20260815, 20260816]
-reuse_base_seed: true
+reuse_base_seed: false
 data:
   processed_path: data/processed/rater_essay_wide.csv
 experiment:

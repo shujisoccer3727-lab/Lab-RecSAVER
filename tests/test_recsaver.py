@@ -5,7 +5,7 @@ import pandas as pd
 from src.recsaver.history import sample_history
 from src.recsaver.k_history_pilot import select_pilot_targets
 from src.recsaver.parsing import leaks_score, parse_prediction
-from src.recsaver.prompts import render
+from src.recsaver.prompts import prompt_metadata, render
 
 
 class RecSaverTest(unittest.TestCase):
@@ -36,6 +36,23 @@ class RecSaverTest(unittest.TestCase):
         self.assertIn("99", reference); self.assertNotIn("98", reference)
         self.assertNotIn("99", verification); self.assertIn("REFERENCE_MARKER", verification)
 
+    def test_both_prompt_languages_render_and_metadata_has_hashes(self):
+        for prompt_dir in ("prompts/ja", "prompts/en"):
+            values = {
+                "zero_shot_prediction.txt": {},
+                "score_only_prediction.txt": {},
+                "reference_generation.txt": {"gold_overall": 3},
+                "self_verification.txt": {"reference_reasoning": "REFERENCE_MARKER"},
+            }
+            for name, extra in values.items():
+                rendered = render(name, self.history, self.target, prompt_dir=prompt_dir, **extra)
+                self.assertIn("essay 0", rendered)
+                self.assertNotIn("{history}", rendered)
+                self.assertNotIn("{target_essay}", rendered)
+            metadata = prompt_metadata({"prompt_dir": prompt_dir})
+            self.assertEqual(metadata["prompt_language"], prompt_dir.rsplit("/", 1)[-1])
+            self.assertEqual(len(metadata["zero_shot_prediction_prompt_sha256"]), 64)
+
     def test_safe_parsing_and_leak_detection(self):
         parsed = parse_prediction('prefix {"predicted_overall": 4, "reasoning": "clear"} suffix')
         self.assertEqual(parsed["predicted_overall"], 4)
@@ -50,6 +67,14 @@ class RecSaverTest(unittest.TestCase):
         first = select_pilot_targets(self.frame, config).target_id.tolist()
         second = select_pilot_targets(self.frame, config).target_id.tolist()
         self.assertEqual(first, second)
+
+    def test_k0_prompt_has_explicit_empty_history_and_no_target_scores(self):
+        target = self.target.copy(); target["Overall"] = 99
+        for trait in ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"]:
+            target[trait] = 98
+        prompt = render("zero_shot_prediction.txt", self.frame.iloc[:0], target, prompt_dir="prompts/en")
+        self.assertIn("No rating history is provided.", prompt)
+        self.assertNotIn("99", prompt); self.assertNotIn("98", prompt)
 
 
 if __name__ == "__main__": unittest.main()

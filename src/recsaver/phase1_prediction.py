@@ -8,7 +8,7 @@ from .data import load_valid_data, select_targets
 from .history import sample_history
 from .model import VLLMGenerator
 from .parsing import parse_prediction
-from .prompts import fit_history
+from .prompts import fit_history, prompt_metadata
 from .utils import experiment_metadata, write_jsonl
 
 
@@ -25,7 +25,7 @@ def run(config: dict, generator=None) -> list[dict]:
         prepared.append((target, used, prompt, estimate))
     generator = generator or VLLMGenerator(config)
     outputs = generator.generate([x[2] for x in prepared], config["generation"]["prediction"])
-    metadata = experiment_metadata(config)
+    metadata = {**experiment_metadata(config), **prompt_metadata(config)}
     records = []
     for (target, history, prompt, estimate), generated in zip(prepared, outputs):
         raw = generated[0]

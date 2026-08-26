@@ -11,7 +11,7 @@ from transformers import AutoTokenizer
 from .config import load_config, project_path
 from .data import load_valid_data
 from .history import sample_history
-from .prompts import render
+from .prompts import prompt_metadata, render
 from .utils import read_jsonl
 
 KS = (1, 3, 5, 7, 10)
@@ -75,7 +75,7 @@ def run(config: dict, max_lengths: list[int], min_rater_samples: int = 100) -> t
                 "self_verification": {"reference_reasoning": reasonings[row_number % len(reasonings)]},
             }
             for phase, (template, generation_key) in PHASES.items():
-                prompt = render(template, history, target, **values_by_phase[phase])
+                prompt = render(template, history, target, prompt_dir=config["prompt_dir"], **values_by_phase[phase])
                 pending_prompts.append(prompt)
                 pending_metadata.append({"target_id": target["target_id"], "rater_id": target["rater_id"],
                                          "phase": phase, "k": k,
@@ -107,7 +107,8 @@ def run(config: dict, max_lengths: list[int], min_rater_samples: int = 100) -> t
     metadata = {"eligible_raters": len(eligible_raters), "eligible_targets": len(frame),
                 "min_rater_samples": min_rater_samples, "seed": config["seed"],
                 "reasoning_samples_used": len(reasonings), "tokenizer": config["model"]["model_id"],
-                "notes": "Full target/history text; fixed K; no fallback or truncation."}
+                "notes": "Full target/history text; fixed K; no fallback or truncation.",
+                **prompt_metadata(config)}
     (outdir / "context_analysis_metadata.json").write_text(json.dumps(metadata, indent=2), encoding="utf-8")
     return detail_frame, summary
 

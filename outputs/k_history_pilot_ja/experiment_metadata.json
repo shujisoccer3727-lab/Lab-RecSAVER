@@ -1,7 +1,7 @@
 {
-  "experiment_id": "k_history_pilot_20260821T155717Z",
-  "timestamp": "2026-08-21T15:57:17.764589+00:00",
-  "git_commit": "5729ab78cc7156de8edb19c21521be6b6fa17009",
+  "experiment_id": "k_history_pilot_20260814T054324Z",
+  "timestamp": "2026-08-14T05:43:24.744753+00:00",
+  "git_commit": "1fe7196ade39f8f08ef0324b8f9981ac06cacbfd",
   "seed": 20260814,
   "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
   "max_model_len": 8192,
@@ -10,12 +10,6 @@
     "top_p": 0.8,
     "max_tokens": 384
   },
-  "prompt_language": "en",
-  "prompt_dir": "prompts/en",
-  "reference_generation_prompt_sha256": "aee164da51225f7dc8d51459bfdbcac3809621cf9cffafc6d9a11d858fa3a7f9",
-  "score_only_prediction_prompt_sha256": "d4d5c5a93e4c99969587159997900b941b812418bdbf2bda45beea3f1e1d8c90",
-  "self_verification_prompt_sha256": "e4ed7a4f6dfb7c3f0450946e98bfe47abedc1fd25f40b82020519ed1e0ef6ab7",
-  "zero_shot_prediction_prompt_sha256": "3b0643237aab4925cfeed3750e0aa182a3c0e5afa07fe69c29d3e33ace589767",
   "target_ids": [
     "104:1",
     "1125:2",
@@ -1019,6 +1013,5 @@
       "3398:1",
       "4951:1"
     ]
-  },
-  "fixed_targets_metadata": "outputs/k_history_pilot_ja/experiment_metadata.json"
+  }
 }

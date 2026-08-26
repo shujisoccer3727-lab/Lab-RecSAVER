@@ -29,13 +29,20 @@ Lab-RecSAVER/
 │   │   └── tables/
 │   ├── recsaver_mvp/
 │   ├── context_analysis/
-│   ├── k_history_pilot/
+│   ├── k_history_pilot/       # English prompt official Pilot (K=0/1/3/5/7)
+│   ├── k_history_pilot_ja/    # Preserved Japanese prompt Pilot (K=1/3/5/7)
 │   └── k_history_robustness/
 ├── prompts/
-│   ├── zero_shot_prediction.txt
-│   ├── score_only_prediction.txt
-│   ├── reference_generation.txt
-│   └── self_verification.txt
+│   ├── ja/                  # 過去実験の再現・比較用
+│   │   ├── zero_shot_prediction.txt
+│   │   ├── score_only_prediction.txt
+│   │   ├── reference_generation.txt
+│   │   └── self_verification.txt
+│   └── en/                  # 今後の新規実験用（default）
+│       ├── zero_shot_prediction.txt
+│       ├── score_only_prediction.txt
+│       ├── reference_generation.txt
+│       └── self_verification.txt
 ├── src/
 │   ├── basic_analysis.py
 │   ├── create_rater_essay_wide.py
@@ -76,9 +83,11 @@ Lab-RecSAVER/
 | `outputs/basic_analysis/` | 基礎分析の表と図。 |
 | `outputs/recsaver_mvp/` | 10 targetの初期Rec-SAVER MVP。Phase 1～4の結果を含む。 |
 | `outputs/context_analysis/` | max contextロード試験と固定K収容率分析。 |
-| `outputs/k_history_pilot/` | 同一100 targetにおけるK=1/3/5/7比較。 |
+| `outputs/k_history_pilot/` | 英語prompt・同一100 targetにおけるK=0/1/3/5/7比較（公式Pilot）。 |
+| `outputs/k_history_pilot_ja/` | 旧日本語prompt Pilot（K=1/3/5/7）。履歴成果物として内容不変で保存。 |
 | `outputs/k_history_robustness/` | K=3/5の複数history seed確認。完了した結果のみ格納する。 |
-| `prompts/` | Phase別の外部prompt template。 |
+| `prompts/ja/` | 日本語prompt。過去実験の再現・言語比較用として内容を保持する。 |
+| `prompts/en/` | 英語prompt。今後の新規実験でconfigから選択する既定template。 |
 | `src/` | データ変換、基礎分析、Rec-SAVER実験コード。 |
 | `tests/` | データ整合性、漏洩防止、nested sampling等のCPUテスト。 |
 
@@ -95,7 +104,7 @@ Lab-RecSAVER/
 | `python -m src.recsaver.phase4_analysis` | 初期MVPの予測性能集計 | 同上 | `outputs/recsaver_mvp/` |
 | `python -m src.recsaver.context_analysis` | 固定Kのcontext収容率分析 | `configs/context_analysis.yaml`＋CLI | `outputs/context_analysis/` |
 | `python -m src.recsaver.max_model_len_probe` | 1条件のモデルロード・短文推論probe | CLI引数 | 指定したJSON path |
-| `python -m src.recsaver.k_history_pilot` | 同一targetのK=1/3/5/7比較 | `configs/k_history_pilot.yaml` | `outputs/k_history_pilot/` |
+| `python -m src.recsaver.k_history_pilot` | 英語prompt・同一targetのK=0/1/3/5/7比較 | `configs/k_history_pilot.yaml` | `outputs/k_history_pilot/` |
 | `python -m src.recsaver.k_history_robustness` | K=3/5の複数seed比較 | `configs/k_history_robustness.yaml` | `outputs/k_history_robustness/` |
 
 ## D. Git管理方針
@@ -117,6 +126,14 @@ Lab-RecSAVER/
 - `outputs/gpu/`の大規模GPU入力・生成物
 - `outputs/**/tmp/`、`outputs/**/cache/`、`outputs/**/*.log`
 
+## Prompt言語方針
+
+今後の新規実験では`prompt_dir: prompts/en`を使用する。日本語版は削除せず、
+過去実験の再現・比較用に`prompts/ja/`へ保存する。prompt言語の変更は実験条件の
+変更として扱い、resolved configとmetadataにprompt directory、language、各ファイルの
+SHA-256を記録する。既存output内のmetadata/config snapshotは変更しない。
+2026-08-22以降の新規実験では、原則として英語promptを正式条件とする。
+
 ## Outputsのサイズ方針
 
 2026-08-21時点で100 MB以上の単一ファイルはない。最大は
@@ -134,3 +151,11 @@ outputs/recsaver/ -> outputs/recsaver_mvp/
 
 11ファイルを内容変更せず移動した。`outputs/recsaver_mvp/resolved_config.json`は
 実験実行時のsnapshotであるため、内部の旧output pathは履歴情報として維持する。
+
+2026-08-22に、日本語prompt版K History Pilotを次のとおり内容不変で移動した。
+
+```text
+outputs/k_history_pilot/ -> outputs/k_history_pilot_ja/
+```
+
+以後、`outputs/k_history_pilot/`は英語prompt版の正式Pilot（K=0/1/3/5/7）に使用する。

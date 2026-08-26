@@ -77,6 +77,15 @@ raw、processed、モデル、GPU入力、生成された分析出力は`.gitign
 `src/recsaver/`に分離しています。各Phaseは中間結果を
 `outputs/recsaver_mvp/`へ保存します。
 
+Prompt templateは言語別に管理します。
+
+- `prompts/ja/`: 過去の日本語prompt実験の再現・比較用
+- `prompts/en/`: 今後の新規実験で使用する英語prompt（configの既定値）
+
+各configの`prompt_dir`で切り替えられます。新しいmetadataにはprompt language、
+directory、および各prompt fileのSHA-256が記録されます。保存済みの過去outputと
+そのconfig snapshotは日本語prompt実行時の履歴として変更していません。
+
 ```bash
 conda activate qwen3
 export VLLM_USE_V1=0
