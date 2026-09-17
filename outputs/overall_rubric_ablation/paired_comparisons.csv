@@ -1,0 +1,4 @@
+from_condition,to_condition,improved_targets,unchanged_targets,worsened_targets,mean_ae_difference,median_ae_difference,accuracy_delta,mae_delta,rmse_delta,qwk_delta
+k0,k0_with_rubric,8,85,7,0.01,0.0,-0.010000000000000009,-0.010000000000000009,-0.033873188434277,-0.07931023247108593
+raw_k3,raw_k3_with_rubric,8,90,2,0.06,0.0,0.030000000000000027,-0.06000000000000005,-0.0762896477687438,0.13628358957059938
+k0_with_rubric,raw_k3_with_rubric,8,84,8,0.0,0.0,0.020000000000000018,0.0,0.02722122226199042,0.07991422591127462

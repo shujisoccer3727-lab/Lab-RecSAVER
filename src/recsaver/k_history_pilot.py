@@ -51,7 +51,8 @@ def prepare(config: dict, tokenizer) -> tuple[pd.DataFrame, list[dict]]:
     maximum = max(exp["k_values"])
     prepared = []
     for _, target in targets.iterrows():
-        pool = sample_history(frame, target, maximum, config["seed"], "random")
+        history_seed = exp.get("history_seed", config["seed"])
+        pool = sample_history(frame, target, maximum, history_seed, "random")
         previous_ids: list[str] = []
         for k in exp["k_values"]:
             history = pool.iloc[:k]
@@ -81,11 +82,26 @@ def metadata(config: dict, targets: pd.DataFrame, prepared: list[dict]) -> dict:
     for item in prepared:
         if item["k"] == max(config["experiment"]["k_values"]):
             pools[item["target"]["target_id"]] = item["history"]["target_id"].tolist()
-    return {"experiment_id": "k_history_pilot_" + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ"),
+    experiment_name = config.get("experiment_name", "k_history_pilot")
+    try:
+        gpu_query = subprocess.run(
+            ["nvidia-smi", "--query-gpu=name,memory.total,driver_version", "--format=csv,noheader,nounits"],
+            check=True, capture_output=True, text=True).stdout.strip()
+    except Exception:
+        gpu_query = "unknown"
+    exp = config["experiment"]
+    return {"experiment_name": experiment_name,
+            "experiment_id": experiment_name + "_" + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ"),
             "timestamp": datetime.now(timezone.utc).isoformat(), "git_commit": commit,
-            "seed": config["seed"], "model_id": config["model"]["model_id"],
+            "seed": config["seed"], "target_seed": exp.get("target_seed", config["seed"]),
+            "history_seed": exp.get("history_seed", config["seed"]),
+            "model_id": config["model"]["model_id"], "quantization": config["model"]["quantization"],
+            "tensor_parallel_size": config["model"]["tensor_parallel_size"],
             "max_model_len": config["model"]["max_model_len"],
+            "gpu_memory_utilization": config["model"]["gpu_memory_utilization"], "gpu": gpu_query,
+            "k_values": exp["k_values"],
             "sampling_parameters": config["generation"]["prediction"], **prompt_metadata(config),
+            "prompt_path": str(Path(config["prompt_dir"]) / "zero_shot_prediction.txt"),
             "target_ids": targets["target_id"].tolist(), "nested_history_pools": pools,
             "fixed_targets_metadata": config["experiment"].get("fixed_targets_metadata")}
 

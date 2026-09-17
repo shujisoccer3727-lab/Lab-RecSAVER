@@ -1,0 +1,50 @@
+experiment_name: reasoning_eval_large
+seed: 20260916
+sample_seed: 20260916
+bootstrap_seed: 20260916
+bootstrap_repetitions: 2000
+num_targets: 1000
+history_size: 3
+num_reference_candidates: 3
+max_reference_retries: 5
+max_verification_parse_retries: 1
+batch_size: 10
+rubric_path: rubrics/ellipse_overall_rubric.md
+reference_prompt: prompts/en/reference_generation_rubric.txt
+self_verification_prompt: prompts/en/self_verification_rubric.txt
+prediction_prompt: prompts/en/rubric_based_prediction.txt
+prediction_source: outputs/full_prediction_experiment
+source_metadata: outputs/full_prediction_experiment/metadata.json
+source_predictions: outputs/full_prediction_experiment/predictions_correct_k3_rubric.jsonl
+population_filter_predictions: outputs/full_prediction_experiment/predictions_k0.jsonl
+source_manifest: outputs/full_prediction_experiment/target_manifest.jsonl
+prediction_condition: correct_k3_overall_rubric
+data:
+  processed_path: data/processed/rater_essay_wide.csv
+model:
+  model_id: Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4
+  quantization: gptq_marlin
+  tensor_parallel_size: 1
+  max_model_len: 8192
+  gpu_memory_utilization: 0.9
+generation:
+  reference:
+    temperature: 0.2
+    top_p: 0.8
+    max_tokens: 384
+  verification:
+    temperature: 0.2
+    top_p: 0.8
+    max_tokens: 64
+metrics:
+  bertscore_model: roberta-large
+  bertscore_layers: 17
+  bertscore_idf: false
+  bertscore_rescale_with_baseline: false
+  bertscore_use_fast_tokenizer: false
+  batch_size: 16
+  device: cuda
+  include_reference_bertscore: true
+resume: true
+skip_completed: true
+output_dir: outputs/reasoning_eval_large

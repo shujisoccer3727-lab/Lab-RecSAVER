@@ -1,0 +1,4 @@
+heuristic,count,n,rate,pattern,formal_metric
+history_explicitly_referenced,74,100,0.74,\bhistor\w*|\bpast\b|\bprevious\w*|\brater\b|\bexample\w*,False
+rubric_explicitly_referenced,12,100,0.12,\brubric\b|\bdescriptor\w*|\bscoring criteri\w*,False
+neighboring_score_comparison_present,33,100,0.33,\b(?:rather than|instead of|compared (?:with|to)|unlike|whereas|higher|lower|neighbor\w*|boundary|boundaries|but not)\b,False

@@ -1,0 +1,113 @@
+{
+  "selection": "First up to five per focal transition, then target order; exploratory, not representative",
+  "examples": [
+    {
+      "target_id": "1881:2",
+      "target_rater": "rater_24",
+      "gold": 2,
+      "existing_prediction": 3,
+      "boundary_prediction": 2,
+      "existing_error": 1,
+      "boundary_error": 0,
+      "transition": "3 -> 2",
+      "existing_reasoning": "The essay demonstrates limited facility in the use of language, with frequent errors in grammar, syntax, and usage. The organization is generally controlled, but there are instances where connections between ideas are absent or unsuccessful. The communication is impeded by language inaccuracies in some cases, which aligns with the characteristics of a Score 3 essay according to the rubric.",
+      "boundary_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics. There are frequent errors in grammar, syntax, and usage, which impede communication in many instances. The organization is partially developed but often missing or unsuccessful, aligning more closely with a Score 2 than a Score 3."
+    },
+    {
+      "target_id": "2016:1",
+      "target_rater": "rater_7",
+      "gold": 3,
+      "existing_prediction": 3,
+      "boundary_prediction": 2,
+      "existing_error": 0,
+      "boundary_error": 1,
+      "transition": "3 -> 2",
+      "existing_reasoning": "The essay demonstrates limited facility in the use of language, with frequent errors in grammar, syntax, and usage. The organization is generally controlled, but there are instances where connections are absent or unsuccessful. The communication is impeded by language inaccuracies in some cases, which aligns with the rubric for a score of 3.",
+      "boundary_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, with frequent grammatical errors and awkward phrasing. The organization is partially developed but often unsuccessful, and communication is impeded in many instances by language inaccuracies. This aligns more closely with a Score 2 than a Score 3, as the language inaccuracies and organizational issues are more severe than in the historical examples rated as 3."
+    },
+    {
+      "target_id": "3076:1",
+      "target_rater": "rater_18",
+      "gold": 3,
+      "existing_prediction": 3,
+      "boundary_prediction": 2,
+      "existing_error": 0,
+      "boundary_error": 1,
+      "transition": "3 -> 2",
+      "existing_reasoning": "The essay demonstrates limited facility in the use of language, with inconsistent sentence formation, word choice, and mechanics. The organization is partially developed but sometimes missing or unsuccessful. There are errors in grammar and syntax, and usage issues that impede communication in some cases. This aligns with the rubric for a score of 3.",
+      "boundary_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics. The organization is partially developed but often missing or unsuccessful. Communication is impeded in many instances by language inaccuracies, which aligns more closely with a Score 2 than a Score 3. Compared to the historical examples, this essay shows more significant language inaccuracies and less coherent organization."
+    },
+    {
+      "target_id": "2840:1",
+      "target_rater": "rater_19",
+      "gold": 4,
+      "existing_prediction": 3,
+      "boundary_prediction": 4,
+      "existing_error": 1,
+      "boundary_error": 0,
+      "transition": "3 -> 4",
+      "existing_reasoning": "The target essay demonstrates a limited range of vocabulary and occasional errors in grammar and syntax, which aligns with the rubric for a score of 3. The essay is generally organized, but there are instances where the connection between ideas is not always clear. The writer's argument is understandable, but the language inaccuracies and occasional structural issues impede communication in some cases.",
+      "boundary_reasoning": "The essay demonstrates a range of vocabulary and syntactic variety, with controlled organization and accuracy in grammar and conventions, aligning with the Score 4 criteria. While there are occasional inaccuracies, they rarely impede communication. Comparing with the historical examples, this essay shows more syntactic variety and fewer language inaccuracies than the Score 3 essays, supporting a Score 4."
+    },
+    {
+      "target_id": "2993:2",
+      "target_rater": "rater_12",
+      "gold": 3,
+      "existing_prediction": 3,
+      "boundary_prediction": 4,
+      "existing_error": 0,
+      "boundary_error": 1,
+      "transition": "3 -> 4",
+      "existing_reasoning": "The essay demonstrates a limited facility in the use of language, with occasional syntactic variety and a range of vocabulary, but there are noticeable errors in grammar and syntax that impede communication. The organization is generally controlled, but there are instances where the connection between ideas is absent or unsuccessful. The essay provides a mix of positive and negative points about technology, but the language inaccuracies and occasional structural issues suggest a score of 3 according to the rubric.",
+      "boundary_reasoning": "The essay demonstrates facility in the use of language with syntactic variety and a range of words and phrases. The organization is generally controlled, and while there are occasional language inaccuracies, they rarely impede communication. This aligns with the rubric for Score 4. The historical examples, particularly the essays with Overall scores of 4, show similar levels of language facility and organization, with occasional inaccuracies that do not significantly hinder understanding."
+    },
+    {
+      "target_id": "8415:1",
+      "target_rater": "rater_7",
+      "gold": 5,
+      "existing_prediction": 3,
+      "boundary_prediction": 4,
+      "existing_error": 2,
+      "boundary_error": 1,
+      "transition": "3 -> 4",
+      "existing_reasoning": "The essay demonstrates a range of vocabulary and syntactic variety, but there are occasional errors in grammar and syntax that impede communication. The organization is generally controlled, but there are some instances where the connection between ideas is not as clear as it could be. Based on the rubric, this essay aligns most closely with a score of 3, as it shows facility limited to the use of common structures and generic vocabulary with some errors in grammar and usage that impede communication in some cases.",
+      "boundary_reasoning": "The target essay demonstrates facility in the use of language with syntactic variety and a range of words and phrases. The organization is generally controlled, and while there are some errors in grammar and conventions, they rarely impede communication. This aligns more closely with a Score 4 than a Score 3, where communication is more frequently impeded by language inaccuracies. Comparing with the historical examples, the target essay shows a higher level of syntactic variety and fewer errors that impede communication."
+    },
+    {
+      "target_id": "2615:2",
+      "target_rater": "rater_11",
+      "gold": 2,
+      "existing_prediction": 2,
+      "boundary_prediction": 3,
+      "existing_error": 0,
+      "boundary_error": 1,
+      "transition": "2 -> 3",
+      "existing_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics. The organization is partially developed but often missing or unsuccessful. There are frequent errors in grammar, syntax, and usage, which impede communication in many instances. The essay does not meet the criteria for a score of 3, as the language inaccuracies are more frequent and impactful. Therefore, the predicted overall score is 2.",
+      "boundary_reasoning": "The essay demonstrates limited facility in sentence formation, word choice, and mechanics, with frequent errors in grammar and syntax. The organization is partially developed but sometimes missing or unsuccessful. Communication is impeded in many instances by language inaccuracies, which aligns more closely with a Score 3 than a Score 4. Compared to the historical examples, this essay has similar issues with grammar and syntax, and the organization is not as controlled as in the Score 4 example (ID=5269:2)."
+    },
+    {
+      "target_id": "4718:2",
+      "target_rater": "rater_10",
+      "gold": 5,
+      "existing_prediction": 4,
+      "boundary_prediction": 3,
+      "existing_error": 1,
+      "boundary_error": 2,
+      "transition": "4 -> 3",
+      "existing_reasoning": "The target essay demonstrates a range of vocabulary and syntactic variety, with controlled organization and generally accurate grammar and conventions. While there are occasional inaccuracies, they do not significantly impede communication. This aligns with the rubric for a score of 4, which indicates facility in the use of language with syntactic variety and range of words and phrases, controlled organization, and accuracy in grammar and conventions with occasional language inaccuracies that rarely impede communication.",
+      "boundary_reasoning": "The essay demonstrates a reasonable level of language facility, with some syntactic variety and range of vocabulary, but there are noticeable errors in grammar and syntax that occasionally impede communication. The organization is generally controlled, though some connections are weak. This aligns more closely with a Score 3 than a Score 4, where the language would be more accurate and controlled. Compared to the Score 4 essay in History 3, this essay has more errors and less syntactic variety. It also shows more control and fewer errors than the Score 2 essay in History 2."
+    },
+    {
+      "target_id": "4869:1",
+      "target_rater": "rater_18",
+      "gold": 3,
+      "existing_prediction": 2,
+      "boundary_prediction": 3,
+      "existing_error": 1,
+      "boundary_error": 0,
+      "transition": "2 -> 3",
+      "existing_reasoning": "The essay demonstrates limited facility in sentence formation, word choice, and mechanics. There are frequent errors in grammar, syntax, and usage, which impede communication in many instances. The organization is partially developed but may be missing or unsuccessful. The essay's content and structure suggest a score of 2 according to the rubric.",
+      "boundary_reasoning": "The essay demonstrates a reasonable level of language facility, with some syntactic variety and range of vocabulary. The organization is generally controlled, though there are occasional lapses in coherence and some errors in grammar and syntax. While communication is impeded at times, it is not as frequently as in the examples scored as 2. The essay does not reach the level of a score 4 due to the presence of errors and less controlled language use."
+    }
+  ]
+}

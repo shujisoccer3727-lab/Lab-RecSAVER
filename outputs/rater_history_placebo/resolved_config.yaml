@@ -1,0 +1,32 @@
+experiment_name: rater_history_placebo
+seed: 20260814
+wrong_rater_seed: 20260906
+prompt_dir: prompts/en
+data:
+  processed_path: data/processed/rater_essay_wide.csv
+experiment:
+  num_targets: 100
+  history_size: 3
+  conditions:
+  - k0
+  - wrong_rater_history
+  - correct_rater_history
+  target_seed: 20260814
+  history_seed: 20260814
+  source_metadata: outputs/history_ablation/metadata.json
+  source_predictions: outputs/history_ablation/history_ablation_predictions.jsonl
+  max_parse_retries: 1
+  batch_size: 10
+model:
+  model_id: Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4
+  quantization: gptq_marlin
+  tensor_parallel_size: 1
+  max_model_len: 8192
+  gpu_memory_utilization: 0.9
+generation:
+  prediction:
+    temperature: 0.2
+    top_p: 0.8
+    max_tokens: 384
+output_dir: outputs/rater_history_placebo
+_config_path: /mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/configs/rater_history_placebo.yaml

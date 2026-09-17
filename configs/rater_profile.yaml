@@ -1,0 +1,33 @@
+experiment_name: rater_profile
+seed: 20260814
+profile_generation_seed: 20260912
+profile_sensitivity_seeds: [20260913, 20260914]
+profile_history_size: 10
+profile_num_raters_initial: 20
+profile_sensitivity_num_raters: 3
+profile_prompt: prompts/en/rater_profile_generation.txt
+prediction_prompt: prompts/en/profile_based_prediction.txt
+prompt_dir: prompts/en
+num_targets: 100
+data:
+  processed_path: data/processed/rater_essay_wide.csv
+source_metadata: outputs/history_ablation/metadata.json
+source_predictions: outputs/history_ablation/history_ablation_predictions.jsonl
+model:
+  model_id: Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4
+  quantization: gptq_marlin
+  tensor_parallel_size: 1
+  max_model_len: 8192
+  gpu_memory_utilization: 0.90
+generation:
+  profile:
+    temperature: 0.2
+    top_p: 0.8
+    max_tokens: 512
+  prediction:
+    temperature: 0.2
+    top_p: 0.8
+    max_tokens: 384
+max_parse_retries: 1
+batch_size: 10
+output_dir: outputs/rater_profile

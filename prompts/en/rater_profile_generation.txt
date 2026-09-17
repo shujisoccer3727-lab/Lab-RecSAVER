@@ -1,0 +1,15 @@
+You are analyzing the past scoring history of one essay rater.
+
+Summarize this rater's observable scoring tendencies using only the rating history below. Do not speculate about personality, background, nationality, education, age, gender, teaching experience, intentions, or hidden preferences.
+
+Focus on recurring evidence about:
+- how the six Trait scores relate to Overall;
+- patterns associated with higher and lower Overall scores;
+- weaknesses or strengths that appear to influence Overall;
+- possible boundaries between Overall scores such as 2, 3, and 4.
+
+Do not restate every example. If the evidence is limited or mixed, say so. The profile must contain 150-300 English words.
+Return JSON only: {{"rater_profile": "..."}}
+
+RATING HISTORY
+{history}

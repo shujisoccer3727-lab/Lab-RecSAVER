@@ -1,0 +1,4 @@
+target_id,target_rater,gold_overall,predicted_overall,prediction_correct,absolute_score_error,verified_reference_count,metric_status,bleu_max,bleu_mean,rouge1_f1_max,rouge1_f1_mean,meteor_max,meteor_mean,bertscore_f1_max,bertscore_f1_mean
+104:1,rater_5,3,3,True,0,0,no_verified_reference,,,,,,,,
+1125:2,rater_13,3,3,True,0,3,evaluated,0.3214563547100931,0.2624065715423751,0.6474820143884893,0.593418011704626,0.49421098336659536,0.42697773886718365,0.9264990091323853,0.9210255146026611
+156:2,rater_3,3,3,True,0,0,no_verified_reference,,,,,,,,

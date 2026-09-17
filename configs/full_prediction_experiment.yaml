@@ -1,0 +1,33 @@
+experiment_name: full_prediction_experiment
+conditions:
+  - k0
+  - k0_overall_rubric
+  - wrong_k3_overall_rubric
+  - correct_k3_overall_rubric
+history_size: 3
+target_seed: 20260814
+history_seed: 20260814
+wrong_rater_seed: 20260906
+generation_seed: 20260814
+bootstrap_seed: 20260914
+bootstrap_repetitions: 2000
+rubric_path: rubrics/ellipse_overall_rubric.md
+zero_shot_prompt: prompts/en/zero_shot_prediction.txt
+rubric_prompt: prompts/en/rubric_based_prediction.txt
+data:
+  processed_path: data/processed/rater_essay_wide.csv
+model:
+  model_id: Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4
+  quantization: gptq_marlin
+  tensor_parallel_size: 1
+  max_model_len: 8192
+  gpu_memory_utilization: 0.90
+generation:
+  temperature: 0.2
+  top_p: 0.8
+  max_tokens: 384
+max_parse_retries: 1
+batch_size: 10
+output_dir: outputs/full_prediction_experiment
+resume: true
+skip_completed: true

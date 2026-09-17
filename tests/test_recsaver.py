@@ -1,8 +1,9 @@
 from __future__ import annotations
 
 import unittest
+from pathlib import Path
 import pandas as pd
-from src.recsaver.history import sample_history
+from src.recsaver.history import sample_history, sample_wrong_rater_history
 from src.recsaver.k_history_pilot import select_pilot_targets
 from src.recsaver.parsing import leaks_score, parse_prediction
 from src.recsaver.prompts import prompt_metadata, render
@@ -74,6 +75,32 @@ class RecSaverTest(unittest.TestCase):
             target[trait] = 98
         prompt = render("zero_shot_prediction.txt", self.frame.iloc[:0], target, prompt_dir="prompts/en")
         self.assertIn("No rating history is provided.", prompt)
+        self.assertNotIn("99", prompt); self.assertNotIn("98", prompt)
+
+    def test_wrong_rater_history_is_single_rater_deterministic_and_excludes_target_essay(self):
+        other = self.frame.copy()
+        other["rater_id"] = "rater_2"
+        other["rater_position"] = 2
+        other["target_id"] = other.source_row_id.astype(str) + ":2"
+        combined = pd.concat([self.frame, other], ignore_index=True)
+        wrong_rater, history = sample_wrong_rater_history(combined, self.target, 3, 20260906)
+        again_rater, again = sample_wrong_rater_history(combined, self.target, 3, 20260906)
+        self.assertEqual(wrong_rater, "rater_2")
+        self.assertEqual(wrong_rater, again_rater)
+        self.assertEqual(history.target_id.tolist(), again.target_id.tolist())
+        self.assertEqual(history.rater_id.nunique(), 1)
+        self.assertNotIn(self.target.source_row_id, set(history.source_row_id))
+
+    def test_overall_rubric_prompt_has_exact_rubric_and_no_target_scores(self):
+        target = self.target.copy(); target["Overall"] = 99
+        for trait in ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"]:
+            target[trait] = 98
+        root = Path(__file__).resolve().parents[1]
+        rubric = (root / "rubrics/ellipse_overall_rubric.md").read_text(encoding="utf-8")
+        template = (root / "prompts/en/rubric_based_prediction.txt").read_text(encoding="utf-8")
+        prompt = template.format(overall_rubric=rubric, rating_history="No rating history is provided.",
+                                 target_essay=target["Text"])
+        self.assertIn(rubric, prompt)
         self.assertNotIn("99", prompt); self.assertNotIn("98", prompt)
 
 

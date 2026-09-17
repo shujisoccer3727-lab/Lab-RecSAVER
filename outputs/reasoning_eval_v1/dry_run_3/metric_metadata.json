@@ -1,0 +1,19 @@
+{
+  "bertscore_model": "roberta-large",
+  "bertscore_layers": 17,
+  "bertscore_idf": false,
+  "bertscore_rescale_with_baseline": false,
+  "bertscore_use_fast_tokenizer": false,
+  "batch_size": 16,
+  "device": "cuda",
+  "model_revision": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+  "bertscore_hash": "/home/guestuser/.cache/huggingface/hub/models--roberta-large/snapshots/722cf37b1afa9454edce342e7895e588b6ff1d59_L17_no-idf_version=0.3.12(hug_trans=4.48.3)",
+  "bleu_definition": "MVP sentence BLEU-4, add-one smoothing for every n-gram order, lower-case regex word tokens",
+  "rouge_definition": "MVP unigram multiset F1, lower-case regex word tokens",
+  "meteor_definition": "NLTK single_meteor_score; same word tokens, default Porter stemmer/WordNet; alpha=.9 beta=3 gamma=.5",
+  "aggregation": "per-reference pairs; per-target max and mean; macro-average over covered targets only",
+  "metric_seconds": 6.864195553000172,
+  "evaluated_targets": 1,
+  "completed_targets": 3,
+  "pair_count": 3
+}
