@@ -241,3 +241,11 @@ Reference候補枠は3、各枠の生成は初回を含め最大5回。Self-veri
 実行順は `--stage audit` の後、`--stage run --condition k0`、`k0_overall_rubric`、`wrong_k3_overall_rubric`、`correct_k3_overall_rubric`。各condition完了時に中間summaryを保存する。
 各request seedはgeneration seed・condition・target ID・attemptから決まり、完了済みtargetをskipする。config/input hash変更時のresumeは拒否する。
 主比較は4条件すべてでparse成功した共通target集合。AE differenceはfrom minus to、QWK deltaはto minus from。
+
+## Reasoning Evaluation Large-scale
+
+- `configs/reasoning_eval_large.yaml`: 全件Predictionの主比較17,728件からGold Overall × raterで比例抽出する1,000-target設定。
+- `src/recsaver/reasoning_eval_large.py`: 層化sampling、全件CPU監査、V1生成処理のresume、coverage/bias/bootstrap/runtime分析、最終レポート。
+- `outputs/reasoning_eval_large/`: sampling監査、Reference/Self-verification正本、Reasoning指標、coverage分析、integrity監査、レポート。
+
+実行は `--stage validate`、`--stage generate`、`--stage evaluate` の順。Predictionは再生成せず、V1と同じReference生成、漏洩検出、Self-verification、Reasoning metricsを使用する。

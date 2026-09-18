@@ -352,22 +352,51 @@ def analyze(config):
     pd.DataFrame(bias).to_csv(out/'coverage_bias_analysis.csv',index=False)
     warnings=pd.read_csv(out/'quality_warnings.csv')
     md=json.loads((out/'metadata.json').read_text(encoding='utf-8'));metric_md=json.loads((out/'metric_metadata.json').read_text())
+    progress=json.loads((out/'progress.json').read_text(encoding='utf-8'))
+    persisted_attempts=len(refs);persisted_leaks=sum(x['leaked'] for x in refs)
+    generated_attempts=max(persisted_attempts,int(md.get('reference_attempts',0)))
+    leaked_attempts=max(persisted_leaks,int(progress.get('leakage_count',0)))
+    accepted_slots={(r['target_id'],r['candidate_index']) for r in refs if r['accepted_as_leakage_free']}
+    verification_slots={(v['target_id'],v['candidate_index']) for v in verifications}
+    orphan_verification_slots=verification_slots-accepted_slots
+    integrity=dict(reference_journal_rows=persisted_attempts,generated_attempts_recorded=generated_attempts,
+                   unjournaled_attempt_count=generated_attempts-persisted_attempts,
+                   persisted_leaked_attempts=persisted_leaks,leaked_attempts_recorded=leaked_attempts,
+                   unjournaled_leaked_attempt_count=leaked_attempts-persisted_leaks,
+                   orphan_verification_slot_count=len(orphan_verification_slots),
+                   orphan_slots_present_in_verified_pool=sum((r['target_id'],r['candidate_index']) in orphan_verification_slots for r in pool),
+                   unique_persisted_reference_attempt_keys=len({(r['target_id'],r['candidate_index'],r['attempt_index']) for r in refs}),
+                   unique_verification_attempt_keys=len({(v['target_id'],v['candidate_index'],v['attempt_index']) for v in verifications}),
+                   metric_pair_count=len(pd.read_csv(out/'reasoning_metrics_pairwise.csv')),
+                   verified_reference_pool_count=len(pool),prediction_regeneration_count=0,
+                   note=('A stopped launcher left 190 generated reference attempts in the in-memory completion counters but outside '
+                         'the append-only reference journal. Of these, 171 were leaked and 19 were accepted. The 19 accepted '
+                         'candidate texts remain recoverable in self-verification prompts and the verified pool; all 2,056 metric '
+                         'pairs are persisted. Aggregate generation/leakage counts use completion counters, while Gold/rater leakage '
+                         'breakdowns use the 8,111-row persisted journal.'))
+    atomic_json(out/'integrity_checks.json',integrity)
     generation_seconds=md['reference_gpu_seconds'];verification_seconds=md['verification_gpu_seconds']
     total=generation_seconds+verification_seconds+metric_md['metric_seconds']
+    wall_generation_seconds=float(progress['elapsed_seconds'])
     runtime=pd.DataFrame([{'reference_generation_seconds':generation_seconds,'self_verification_seconds':verification_seconds,
                            'reasoning_metric_seconds':metric_md['metric_seconds'],'total_measured_seconds':total,
                            'seconds_per_target':total/config['num_targets'],
                            'estimated_seconds_for_17728':total/config['num_targets']*17728,
-                           'estimated_hours_for_17728':total/config['num_targets']*17728/3600}])
+                           'estimated_hours_for_17728':total/config['num_targets']*17728/3600,
+                           'generation_wall_seconds':wall_generation_seconds,
+                           'generation_plus_metrics_wall_seconds':wall_generation_seconds+metric_md['metric_seconds'],
+                           'wall_seconds_per_target':(wall_generation_seconds+metric_md['metric_seconds'])/config['num_targets'],
+                           'estimated_wall_hours_for_17728':(wall_generation_seconds+metric_md['metric_seconds'])/config['num_targets']*17728/3600}])
     runtime.to_csv(out/'runtime_summary.csv',index=False)
     coverage=pd.DataFrame([{'target_count':len(summary),'covered_targets':int((summary.verified_count>0).sum()),
                             'uncovered_targets':int((summary.verified_count==0).sum()),
                             'coverage_rate':float((summary.verified_count>0).mean()),
                             'mean_verified_refs':summary.verified_count.mean(),'median_verified_refs':summary.verified_count.median()}])
     distribution=pd.DataFrame([{'verified_reference_count':n,'targets':int((summary.verified_count==n).sum())} for n in range(4)])
-    attempts=pd.DataFrame([{'generated_attempts':len(refs),'leaked_attempts':sum(x['leaked'] for x in refs),
-                            'leakage_rate':sum(x['leaked'] for x in refs)/len(refs),'retry_attempts':sum(x['attempt_index']>1 for x in refs),
-                            'leakage_free_candidates':sum(x['accepted_as_leakage_free'] for x in refs)}])
+    attempts=pd.DataFrame([{'generated_attempts':generated_attempts,'leaked_attempts':leaked_attempts,
+                            'leakage_rate':leaked_attempts/generated_attempts,'persisted_journal_rows':persisted_attempts,
+                            'retry_attempts_in_persisted_journal':sum(x['attempt_index']>1 for x in refs),
+                            'leakage_free_candidates':len(latest)}])
     verified=pd.DataFrame([{'candidate_n':len(latest),'verification_attempts':len(verifications),'verified_n':len(pool),
                             'pass_rate':len(pool)/len(latest)}])
     diversity=pd.read_csv(out/'reference_diversity.csv')
@@ -375,7 +404,21 @@ def analyze(config):
         def fmt(x): return f'{x:.4f}' if isinstance(x,float) else str(x).replace('|','\\|')
         return '\n'.join(['| '+' | '.join(map(str,frame.columns))+' |','| '+' | '.join(['---']*len(frame.columns))+' |']+
                          ['| '+' | '.join(fmt(x) for x in row)+' |' for row in frame.itertuples(index=False,name=None)])
-    lines=['# Rec-SAVER AES: Reasoning Evaluation Large-scale (1,000 targets)','## Sampling',
+    v1_comparison=pd.DataFrame([
+        {'measure':'coverage_rate','v1_100':.84,'large_1000':float(coverage.coverage_rate.iloc[0])},
+        {'measure':'gold_2_coverage_rate','v1_100':.50,'large_1000':float(coverage_rows[0].loc[coverage_rows[0].gold_overall==2,'coverage_rate'].iloc[0])},
+        {'measure':'reference_leakage_rate','v1_100':.7138,'large_1000':leaked_attempts/generated_attempts},
+        {'measure':'self_verification_pass_rate','v1_100':.9060,'large_1000':len(pool)/len(latest)},
+        {'measure':'mean_verified_refs_per_target','v1_100':2.12,'large_1000':float(summary.verified_count.mean())},
+    ])
+    lines=['# Rec-SAVER AES: Reasoning Evaluation Large-scale (1,000 targets)','## Executive summary',
+           ('1,000件中845件（84.5%）が少なくとも1件の漏洩なしSelf-verified Referenceを持ち、Reasoning類似度評価の対象になった。'
+            'Coverageは100件V1の84.0%とほぼ同じで、scale-up後も全体coverageは安定した。'),
+           ('Gold 2のCoverageは52.5%で、V1の50.0%という低coverageが再現された。Prediction正解群のCoverageは89.4%、'
+            '不正解群は78.2%であり、covered subsetは正解targetを11.2ポイント多く含む。Reasoning指標のCorrect/Incorrect差にはこの選択性が含まれる。'),
+           ('Prediction正解群はBLEU、ROUGE-1、METEOR、BERTScoreのmean/maxすべてで不正解群を上回り、'
+            'correct-minus-incorrectのbootstrap 95% CIは全8集計でゼロを跨がなかった。これは関連であり、Reasoning品質が予測正解を因果的に生む証拠ではない。'),
+           '## V1との比較',table(v1_comparison),'## Sampling',
            table(pd.read_csv(out/'population_vs_sample_distribution.csv')),
            'Gold Overall × target raterの比例配分と固定hash rankで1,000件を決定した。Predictionは再生成していない。',
            '## Reference generation',table(attempts),'## Self-verification',table(verified),
@@ -391,10 +434,22 @@ def analyze(config):
                'mean_lexical_jaccard':diversity.lexical_jaccard.mean(),'median_lexical_jaccard':diversity.lexical_jaccard.median(),
                'mean_bertscore_similarity':diversity.bertscore_similarity.mean() if 'bertscore_similarity' in diversity else np.nan}])) ,
            '## Quality warnings',table(pd.DataFrame([{'warning_count':len(warnings),'warning_rate_per_attempt':len(warnings)/len(refs)}])),
+           '## Integrity note',table(pd.DataFrame([integrity])),
+           ('停止・再開時のlauncher競合により190 attemptの個別journal行が欠落した。うち171件は漏洩、19件は採用候補である。'
+            '採用19件の本文はSelf-verification promptとVerified Reference poolに残り、2,056件のmetric pairと845件のcoverage計算は保存済み正本から再現できる。'
+            '全体attempt/leakage率には完了時counterを使い、Gold/rater別leakage率には8,111件のpersisted journalのみを使った。'),
            '## Runtime',table(runtime),
            '## Interpretation rule','Coverageは、漏洩のないSelf-verified Referenceを1件以上持ちReasoning類似度評価に含められる割合である。Prediction accuracyや人間の実思考との一致を意味しない。',
-           '## Recommendation',('1,000件がparse/context errorなく完了し、外挿時間が運用可能なら全件化は技術的に実行可能。'
-                                'この判断は計算可能性とpipeline安定性だけに基づき、研究手法の変更や全件実行を自動的には行わない。')]
+           '## Parse/context status',
+           table(pd.DataFrame([{'reference_parse_errors':md['reference_parse_errors'],
+                                'verification_parse_errors':md['verification_parse_errors'],
+                                'context_errors':md['context_errors']}])) ,
+           'Reference parse error 12件は既存retry方針内で処理され、全1,000 targetが終端まで完了した。',
+           '## Recommendation',('resumeを含むpipelineは1,000件を完了でき、技術的な全件化は可能である。単一GPUで17,728件へ外挿すると'
+                                f"実測GPU処理ベースで約{runtime.estimated_hours_for_17728.iloc[0]:.1f}時間、wall timeベースで約"
+                                f"{runtime.estimated_wall_hours_for_17728.iloc[0]:.1f}時間（約9.2日）となる。"
+                                'したがって安定性は確認できたが、計算時間だけを基準にしても直ちに全件実行するより、実行資源とGold 2 coverage問題を検討してから判断するのが妥当である。'
+                                '研究手法の変更や全件実行は自動的には行わない。')]
     (out/'report.md').write_text('\n\n'.join(lines)+'\n',encoding='utf-8')
     md.update(status='completed',analysis_timestamp=datetime.now(timezone.utc).isoformat(),quality_warning_count=len(warnings),
               runtime_summary=runtime.iloc[0].to_dict())
