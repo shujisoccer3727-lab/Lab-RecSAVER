@@ -1,0 +1,28 @@
+experiment_name: full_history_only_experiment
+condition: correct_k3_no_rubric
+history_size: 3
+prediction_prompt: prompts/en/zero_shot_prediction.txt
+expected_prompt_sha256: 3b0643237aab4925cfeed3750e0aa182a3c0e5afa07fe69c29d3e33ace589767
+target_source: outputs/full_prediction_experiment
+history_assignment_source: outputs/full_prediction_experiment
+output_dir: outputs/full_history_only_experiment
+data:
+  processed_path: data/processed/rater_essay_wide.csv
+model:
+  model_id: Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4
+  quantization: gptq_marlin
+  tensor_parallel_size: 1
+  max_model_len: 8192
+  gpu_memory_utilization: 0.90
+generation:
+  temperature: 0.2
+  top_p: 0.8
+  max_tokens: 384
+generation_seed: 20260814
+history_seed: 20260814
+bootstrap_seed: 20260914
+bootstrap_repetitions: 2000
+max_parse_retries: 1
+batch_size: 100
+resume: true
+skip_completed: true

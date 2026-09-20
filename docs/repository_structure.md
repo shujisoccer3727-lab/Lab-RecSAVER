@@ -249,3 +249,29 @@ Reference候補枠は3、各枠の生成は初回を含め最大5回。Self-veri
 - `outputs/reasoning_eval_large/`: sampling監査、Reference/Self-verification正本、Reasoning指標、coverage分析、integrity監査、レポート。
 
 実行は `--stage validate`、`--stage generate`、`--stage evaluate` の順。Predictionは再生成せず、V1と同じReference生成、漏洩検出、Self-verification、Reasoning metricsを使用する。
+
+## Full-scale Correct Raw History K=3 without Rubric
+
+Correct-rater Raw History K=3をRubricなしで全件評価し、Raw Historyそのものの効果とOverall Rubric追加効果を全件規模で検証する実験。
+
+- `configs/full_history_only_experiment.yaml`: 既存全件target/historyの参照先、固定model/generation、resume設定。
+- `src/recsaver/full_history_only_experiment.py`: 保存済みmanifestと実際のCorrect+Rubric Promptを全件照合し、再samplingせずRaw K=3のみ推論。targetのscore非依存性、同一source/本文の除外、context fitをCPUで監査。
+- `src/recsaver/full_history_only_analysis.py`: 既存K=0・Correct+Rubricを読み取り専用で再利用。共通targetの3条件比較、paired bootstrap、分布、Gold/rater/calibration/same-essay分析、Pilot対比、report生成。
+- `tests/test_full_history_only_experiment.py`: 履歴改変・漏洩検出、target score分離、parse retry、末尾復旧・skip、共通集合分析と参照ファイル不変性。
+- `outputs/full_history_only_experiment/`: 新規prediction JSONL、全件監査、比較CSV、metadata、progress、resolved config、report。大容量のためGit管理外。
+
+WSL2のConda `qwen3` で実行する。
+
+```bash
+python -m src.recsaver.full_history_only_experiment --stage audit
+python -m src.recsaver.full_history_only_experiment --stage run --wait-for-gpu
+python -m src.recsaver.full_history_only_experiment --stage analyze
+```
+
+`run`はCPU全件監査を再実行してからGPUを初期化し、完了後に分析を自動実行する。
+`--wait-for-gpu`は既存GPUプロセスが終了し指定メモリ予算が空くまで60秒間隔で待つ。
+再開も同じコマンドを使い、完了済み（最終parse errorを含む）targetは再生成しない。
+各行をflush/fsyncし、破損した最終行は退避・回復する。config/input変更や順序不一致は拒否する。
+監査を通過しない限り推論せず、overflow時のtruncateやtarget除外は行わない。
+指定のzero-shotとrubric Promptは指示文も異なるため、厳密にRubric本文だけを除去した比較ではないことをreportに明記する。
+生成seedは既存と同じ条件名依存の方針を用いるため、新条件の個々の乱数drawは既存条件と異なる。
