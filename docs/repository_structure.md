@@ -269,7 +269,7 @@ python -m src.recsaver.full_history_only_experiment --stage analyze
 ```
 
 `run`はCPU全件監査を再実行してからGPUを初期化し、完了後に分析を自動実行する。
-`--wait-for-gpu`は既存GPUプロセスが終了し指定メモリ予算が空くまで60秒間隔で待つ。
+`--wait-for-gpu`は指定メモリ予算が空くまで60秒間隔で待つ。他のGPUプロセスが存在しても空きメモリが十分なら開始し、他ジョブは停止しない。
 再開も同じコマンドを使い、完了済み（最終parse errorを含む）targetは再生成しない。
 各行をflush/fsyncし、破損した最終行は退避・回復する。config/input変更や順序不一致は拒否する。
 監査を通過しない限り推論せず、overflow時のtruncateやtarget除外は行わない。

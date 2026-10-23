@@ -1,0 +1,64 @@
+{
+  "sampling_seed": 20261012,
+  "profile_history_seed": 20261012,
+  "wrong_profile_seed": 20261012,
+  "seed_derivation": "SHA256 of base seed, role/condition, target/rater, attempt; first 32 bits",
+  "population_n": 17725,
+  "target_n": 1000,
+  "conditions": [
+    "A_current_trait_history",
+    "B_traitfree_direct_correct",
+    "B_traitfree_direct_wrong",
+    "B_nohistory_rubric",
+    "C_traitfree_joint_profile",
+    "D_twostage_correct_profile",
+    "D_twostage_wrong_profile"
+  ],
+  "profile_k": 20,
+  "maximum_common_profile_k": 26,
+  "model": {
+    "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+    "quantization": "gptq_marlin",
+    "tensor_parallel_size": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.9
+  },
+  "generation": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384
+  },
+  "profile_max_tokens": 768,
+  "max_parse_retries": 3,
+  "bootstrap": {
+    "samples": 2000,
+    "seed": 20260914,
+    "method": "paired percentile, target_id unit"
+  },
+  "prompts": {
+    "direct": "traitfree_direct_prediction.txt",
+    "joint": "traitfree_joint_profile_prediction.txt",
+    "profile": "rater_profile_generation_traitfree_mvp_1000.txt",
+    "prediction": "profile_based_prediction_traitfree_mvp_1000.txt"
+  },
+  "input_sha256": {
+    "outputs/full_prediction_main_results/common_targets.csv": "1e98e17d82244d2355a56190e87a68ac784b004de3c67e131ea7d233c7415095",
+    "data/processed/rater_essay_wide.csv": "36e0d243eaf3a6237ac666a04a835c8206123295cf6a7b2e9476c4c28bc5e920",
+    "outputs/full_prediction_experiment/target_manifest.jsonl": "8be81345326784e5c441d7ef18b663a8590fac0ef6a32d70ebc2de8545b76778",
+    "outputs/full_prediction_experiment/predictions_correct_k3_rubric.jsonl": "006f4cf70aaa15eeae1798879e188b65edeccf6db91cb394110a204923055f37",
+    "outputs/full_prediction_experiment/predictions_k0_rubric.jsonl": "51e77370f808807e294363c6e5bf5f0bebdf75f1a5d6311bfeb322dfdf26e640",
+    "rubrics/ellipse_overall_rubric.md": "eeba3fda10942e4c36e938b6d0f5e39efe39a65e3ead5ba14aa57d0040d0313d",
+    "rubrics/ellipse_rubric_structured.json": "af5cf3309801793d630f83f3828eade60254c6e60b2968e75abc27591a7e32bb",
+    "prompts/en/traitfree_direct_prediction.txt": "422b3131af02db9acda2bf1e7e7319d335c82d32be2978400bbfaeacbacfb733",
+    "prompts/en/traitfree_joint_profile_prediction.txt": "2986eaadc11bf7c5069c69eba6dbfb32bcee2f49eab2f0a6f987f80f0c9af7d8",
+    "prompts/en/rater_profile_generation_traitfree_mvp_1000.txt": "943013cce093d6b5522feda4a9adb40f60e0e9e64fbdc034aa5bdd6638a226e3",
+    "prompts/en/profile_based_prediction_traitfree_mvp_1000.txt": "abf500bdd95da6964044bf8d8dde17187cb0d37ec09781bf5d1c89b23ae03e6b",
+    "outputs/rater_profile_mvp_1000/common_targets_1000.csv": "a1e950d9ddae504f4668ce784d37427a9d6ec8d8ad31cdcf3bb31574b72038fb",
+    "outputs/rater_profile_mvp_1000/target_history_manifest.jsonl": "aefec4e6393b633f80e04817419787ae8414388683ba4b752de288e8a41969d7",
+    "outputs/rater_profile_mvp_1000/profiles/profile_history_manifest.csv": "69502c1788f2a30b010723b73f7b2fae63302bd1e0f1464c328ca5941bba3f46",
+    "outputs/rater_profile_mvp_1000/wrong_profile_assignments.csv": "6387f81a9e4b6bfd8198dcf10d7f9bea828def3080ca0757a572a10f39ab43ef"
+  },
+  "profile_history_eligibility": "Valid Overall and nonempty text; no Trait-score validity restriction. All selected target sources, filenames and exact texts excluded.",
+  "profile_token_reason": "Eight descriptive fields plus arrays, rater ID and explicit evidence citations exceed a reliable 384-token budget; profile-only max_tokens=768.",
+  "status": "prepared; inference not performed"
+}

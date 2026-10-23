@@ -1,0 +1,144 @@
+{
+  "source": "outputs/full_prediction_experiment/predictions_k0.jsonl",
+  "source_sha256": "d632f3e0dd041addb57c030c246c66e228ef7f374e448f1c968d01d0d8c88355",
+  "source_unchanged": true,
+  "parser_sha256": "f44c80bbb5a04ccc0437f45194b5573c89ba68074aa29940ba44b00eaa17836e",
+  "parser_matches_experiment_metadata": true,
+  "validation": "Python json.loads and existing parse_prediction(require_reasoning=True)",
+  "findings": [
+    {
+      "target_id": "3499:2",
+      "source_line": 5548,
+      "classification": "A",
+      "decision": "SAFE_REPAIR",
+      "parse_error": "ValueError: JSON object not found",
+      "retry_count": 1,
+      "final_output_tokens": 145,
+      "initial_output_tokens": null,
+      "finish_reason_recorded": false,
+      "context_fit": true,
+      "final_matches_last_attempt": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "output_tokens": null,
+          "json_error": {
+            "message": "Invalid \\escape",
+            "position": 215,
+            "line": 1,
+            "column": 216
+          },
+          "original_parser_error": "JSON object not found",
+          "edit": "Delete the single backslash before the apostrophe in you\\'er; preserve all other characters.",
+          "repaired_overall": 2,
+          "original_parser_accepts_repair": true,
+          "expected_reasoning_equal": true
+        },
+        {
+          "attempt": 2,
+          "output_tokens": 145,
+          "json_error": {
+            "message": "Invalid \\escape",
+            "position": 215,
+            "line": 1,
+            "column": 216
+          },
+          "original_parser_error": "JSON object not found",
+          "edit": "Delete the single backslash before the apostrophe in you\\'er; preserve all other characters.",
+          "repaired_overall": 2,
+          "original_parser_accepts_repair": true,
+          "expected_reasoning_equal": true
+        }
+      ]
+    },
+    {
+      "target_id": "3703:1",
+      "source_line": 6002,
+      "classification": "A",
+      "decision": "SAFE_REPAIR",
+      "parse_error": "ValueError: JSON object not found",
+      "retry_count": 1,
+      "final_output_tokens": 178,
+      "initial_output_tokens": null,
+      "finish_reason_recorded": false,
+      "context_fit": true,
+      "final_matches_last_attempt": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "output_tokens": null,
+          "json_error": {
+            "message": "Expecting ',' delimiter",
+            "position": 400,
+            "line": 1,
+            "column": 401
+          },
+          "original_parser_error": "JSON object not found",
+          "edit": "Escape only the two double quotes around qualify; preserve the decoded reasoning exactly.",
+          "repaired_overall": 3,
+          "original_parser_accepts_repair": true,
+          "expected_reasoning_equal": true
+        },
+        {
+          "attempt": 2,
+          "output_tokens": 178,
+          "json_error": {
+            "message": "Expecting ',' delimiter",
+            "position": 476,
+            "line": 1,
+            "column": 477
+          },
+          "original_parser_error": "JSON object not found",
+          "edit": "Escape only the two double quotes around qualify; preserve the decoded reasoning exactly.",
+          "repaired_overall": 3,
+          "original_parser_accepts_repair": true,
+          "expected_reasoning_equal": true
+        }
+      ]
+    },
+    {
+      "target_id": "5595:2",
+      "source_line": 10203,
+      "classification": "C",
+      "decision": "REGENERATE_REQUIRED",
+      "parse_error": "ValueError: JSON object not found",
+      "retry_count": 1,
+      "final_output_tokens": 384,
+      "initial_output_tokens": null,
+      "finish_reason_recorded": false,
+      "context_fit": true,
+      "final_matches_last_attempt": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "output_tokens": null,
+          "json_error": {
+            "message": "Unterminated string starting at",
+            "position": 38,
+            "line": 1,
+            "column": 39
+          },
+          "original_parser_error": "JSON object not found",
+          "repair_attempted": false,
+          "reason": "Reasoning is unfinished; do not append or infer missing content."
+        },
+        {
+          "attempt": 2,
+          "output_tokens": 384,
+          "json_error": {
+            "message": "Unterminated string starting at",
+            "position": 38,
+            "line": 1,
+            "column": 39
+          },
+          "original_parser_error": "JSON object not found",
+          "repair_attempted": false,
+          "reason": "Reasoning is unfinished; do not append or infer missing content."
+        }
+      ]
+    }
+  ],
+  "safe_repair_count": 2,
+  "manual_recoverable_count": 0,
+  "regenerate_required_count": 1
+}

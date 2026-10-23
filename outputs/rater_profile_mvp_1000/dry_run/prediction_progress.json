@@ -1,0 +1,18 @@
+{
+  "updated_at": "2026-10-14T04:46:56.993649+09:00",
+  "phase": "dry",
+  "completed_by_condition": {
+    "B_traitfree_direct_correct": 5,
+    "B_traitfree_direct_wrong": 5,
+    "C_traitfree_joint_profile": 5,
+    "D_twostage_correct_profile": 5,
+    "D_twostage_wrong_profile": 5
+  },
+  "new_prediction_successes": 25,
+  "total_requested": 25,
+  "last_batch_seconds": 509.6036333950469,
+  "measured_predictions_per_hour": 81.02751498976987,
+  "estimated_remaining_seconds": 0.0,
+  "estimated_inference_finish_jst": "2026-10-14T04:46:56.993649+09:00",
+  "eta_note": "Extrapolated from this run; retries, condition changes and other GPU jobs can change completion time; analysis follows inference."
+}

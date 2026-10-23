@@ -1,0 +1,24 @@
+{
+  "started_at": "2026-10-13T12:37:03.753050+09:00",
+  "status": "failed",
+  "stages": [
+    {
+      "phase": "profiles",
+      "started_at": "2026-10-13T12:37:03.753064+09:00",
+      "status": "completed",
+      "log": "profiles.log",
+      "exit_code": 0,
+      "ended_at": "2026-10-13T13:05:59.699929+09:00"
+    },
+    {
+      "phase": "dry",
+      "started_at": "2026-10-13T13:05:59.722263+09:00",
+      "status": "failed",
+      "log": "dry.log",
+      "exit_code": 1,
+      "ended_at": "2026-10-13T13:06:45.876845+09:00"
+    }
+  ],
+  "current_phase": "dry",
+  "ended_at": "2026-10-13T13:06:45.876871+09:00"
+}

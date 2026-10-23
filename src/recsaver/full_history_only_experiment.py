@@ -194,7 +194,7 @@ def wait_for_gpu(config, out):
         total, used = map(int,result.stdout.strip().splitlines()[0].split(','))
         processes = subprocess.run(['nvidia-smi','--query-compute-apps=pid','--format=csv,noheader,nounits'],
                                    capture_output=True,text=True,check=True).stdout.strip()
-        if not processes and total-used >= total*config['model']['gpu_memory_utilization']:
+        if total-used >= total*config['model']['gpu_memory_utilization']:
             print('GPU available; starting full CPU re-audit before inference',flush=True)
             return
         status_path = out/'progress.json'
@@ -277,7 +277,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--config',default='configs/full_history_only_experiment.yaml')
     parser.add_argument('--stage',choices=['audit','run','analyze'],default='audit')
-    parser.add_argument('--wait-for-gpu',action='store_true',help='Wait for existing GPU jobs to exit; never stop them')
+    parser.add_argument('--wait-for-gpu',action='store_true',help='Wait for sufficient free GPU memory; never stop other jobs')
     args = parser.parse_args()
     config = load_config(args.config)
     out = output_path(config)

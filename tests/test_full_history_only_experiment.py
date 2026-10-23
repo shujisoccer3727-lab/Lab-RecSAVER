@@ -130,7 +130,7 @@ class HistoryOnlyTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             out = Path(directory)
             config = {'model':{'gpu_memory_utilization':.9}}
-            responses = [SimpleNamespace(stdout=s) for s in ['49000,12000','1234','49000,500','']]
+            responses = [SimpleNamespace(stdout=s) for s in ['49000,12000','1234','49000,3000','1234']]
             with patch('src.recsaver.full_history_only_experiment.subprocess.run',side_effect=responses), \
                  patch('src.recsaver.full_history_only_experiment.time.sleep') as sleep:
                 wait_for_gpu(config,out)

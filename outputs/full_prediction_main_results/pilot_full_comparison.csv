@@ -1,0 +1,11 @@
+scope,Condition,N,Accuracy,MAE,RMSE,QWK,provenance
+Pilot,K=0,100,0.55,0.49,0.7549834435270749,0.2892768079800497,outputs/rubric_rater_placebo/rubric_rater_placebo_summary.csv
+Full-scale common N,K=0,17725,0.5360789844851904,0.4992947813822285,0.7550114655533824,0.2650289090664606,main_5condition_results.csv
+Pilot,Correct Raw K=3,100,0.53,0.54,0.8246,0.1536,outputs/full_history_only_experiment/pilot_full_comparison.csv; user supplied; rounded existing values
+Full-scale common N,Correct Raw K=3,17725,0.5386177715091679,0.49297602256699574,0.7459906940812688,0.31413758255875546,main_5condition_results.csv
+Pilot,K=0 + Overall Rubric,100,0.54,0.48,0.7211102550927979,0.2099665755089638,outputs/rubric_rater_placebo/rubric_rater_placebo_summary.csv
+Full-scale common N,K=0 + Overall Rubric,17725,0.5414386459802539,0.48857545839210154,0.7406778430173353,0.17825638373747088,main_5condition_results.csv
+Pilot,Wrong K=3 + Overall Rubric,100,0.52,0.5,0.7348469228349535,0.3448192186362532,outputs/rubric_rater_placebo/rubric_rater_placebo_summary.csv
+Full-scale common N,Wrong K=3 + Overall Rubric,17725,0.5313963328631875,0.5022284908321579,0.7549367378384912,0.3177739849481981,main_5condition_results.csv
+Pilot,Correct K=3 + Overall Rubric,100,0.56,0.48,0.7483314773547883,0.2898808014202384,outputs/rubric_rater_placebo/rubric_rater_placebo_summary.csv
+Full-scale common N,Correct K=3 + Overall Rubric,17725,0.5492242595204513,0.4780253878702398,0.730052068394437,0.3555803498230242,main_5condition_results.csv

@@ -1,0 +1,50 @@
+{
+  "model": {
+    "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+    "quantization": "gptq_marlin",
+    "tensor_parallel_size": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.9
+  },
+  "generation": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 768
+  },
+  "baseline_max_tokens": 384,
+  "max_parse_retries": 1,
+  "seed": 20260914,
+  "pilot_selection": "Byte-identical pilot_targets.csv reused from v1; no resampling",
+  "bootstrap": {
+    "samples": 2000,
+    "seed": 20260914,
+    "method": "paired percentile"
+  },
+  "full_run_requires": "Explicit user approval after pilot, recorded in approval.json with config_sha256",
+  "input_sha256": {
+    "outputs/rater_profile_mvp_1000/common_targets_1000.csv": "a1e950d9ddae504f4668ce784d37427a9d6ec8d8ad31cdcf3bb31574b72038fb",
+    "outputs/rater_profile_mvp_1000/target_history_manifest.jsonl": "aefec4e6393b633f80e04817419787ae8414388683ba4b752de288e8a41969d7",
+    "outputs/rater_profile_mvp_1000/predictions/A_current_trait_history.jsonl": "72a4d3b320d9e1d23fd0a713dcc705d6737428ef77ebcb18c5408e9f6809b26b",
+    "outputs/rater_profile_mvp_1000/experiment_config.json": "3f28974d2ef10661836b18aa3c2a5678a08ce7bb1b4a5a12624ccd228eaab360",
+    "outputs/full_prediction_experiment/predictions_correct_k3_rubric.jsonl": "006f4cf70aaa15eeae1798879e188b65edeccf6db91cb394110a204923055f37",
+    "outputs/full_prediction_experiment/target_manifest.jsonl": "8be81345326784e5c441d7ef18b663a8590fac0ef6a32d70ebc2de8545b76778",
+    "data/processed/rater_essay_wide.csv": "36e0d243eaf3a6237ac666a04a835c8206123295cf6a7b2e9476c4c28bc5e920",
+    "rubrics/ellipse_overall_rubric.md": "eeba3fda10942e4c36e938b6d0f5e39efe39a65e3ead5ba14aa57d0040d0313d",
+    "prompts/en/rubric_based_prediction.txt": "0f7eba01a6bd8cafcb97826a664ff889a2d5c38818457d276ff81f3807160f0e",
+    "prompts/en/rater_tendency_joint_prediction.txt": "db63b17d6beb0dcf5b9c233c34cccf39bf09e4a0b51c358365617f7dae4e1952",
+    "outputs/rater_tendency_joint_mvp_1000/target_manifest.csv": "a1e950d9ddae504f4668ce784d37427a9d6ec8d8ad31cdcf3bb31574b72038fb",
+    "outputs/rater_tendency_joint_mvp_1000/pilot_targets.csv": "d995784bf0f27b7cb839ea95a6ff23192a8f7a7926d38c8fe42c4636f9066f18",
+    "outputs/rater_tendency_joint_mvp_1000/target_history_manifest.jsonl": "aefec4e6393b633f80e04817419787ae8414388683ba4b752de288e8a41969d7",
+    "src/recsaver/rater_tendency_joint_mvp_1000.py": "b45a6bb30cdcdf132b27668d8e61543ca935c09a3e8f74af2c14f05fa1f1cc44",
+    "prompts/en/rater_tendency_joint_prediction_grounded_v2.txt": "aa70d4cdc5e608c65d6ea079d6ceddee91737cb52e6bc7ceaa7f9e04c63b19a1",
+    "src/recsaver/rater_tendency_grounded_pilot_v2.py": "cbdc17d743d32a5eab1d9607f5130bc252469ab96167bd6f38a2f18a4d35a0b1",
+    "outputs/rater_tendency_joint_mvp_1000/experiment_config.json": "60fdba5f8bc78f4c397efef646b38aa80f526c51a6415768324c1ccf85aa5bec",
+    "outputs/rater_tendency_joint_mvp_1000/predictions.jsonl": "188669fb7dfa76516bd06ba57930bc2ac8d04c6dcf959f059e46b712276aafb3",
+    "outputs/rater_tendency_joint_mvp_1000_grounded_v2/target_manifest.csv": "a1e950d9ddae504f4668ce784d37427a9d6ec8d8ad31cdcf3bb31574b72038fb",
+    "outputs/rater_tendency_joint_mvp_1000_grounded_v2/pilot_targets.csv": "d995784bf0f27b7cb839ea95a6ff23192a8f7a7926d38c8fe42c4636f9066f18",
+    "outputs/rater_tendency_joint_mvp_1000_grounded_v2/target_history_manifest.jsonl": "aefec4e6393b633f80e04817419787ae8414388683ba4b752de288e8a41969d7",
+    "outputs/rater_tendency_joint_mvp_1000_grounded_v2/baseline_A.jsonl": "72a4d3b320d9e1d23fd0a713dcc705d6737428ef77ebcb18c5408e9f6809b26b"
+  },
+  "revision": "grounded_v2",
+  "changes": "Prompt only: exact target/history quotes, recorded history score grounding, neutral anonymization markers"
+}

@@ -1,0 +1,15 @@
+condition,scope,N,missing,parse_errors,retry_count,Accuracy,MAE,RMSE,QWK
+A_current_trait_history,available_only,1000,0.0,0.0,0.0,0.538,0.484,0.726636084983398,0.35043206109875313
+A_current_trait_history,common_all_seven,1000,,,,0.538,0.484,0.726636084983398,0.35043206109875313
+B_traitfree_direct_correct,available_only,1000,0.0,0.0,0.0,0.498,0.548,0.8,0.3327105298278392
+B_traitfree_direct_correct,common_all_seven,1000,,,,0.498,0.548,0.8,0.3327105298278392
+B_traitfree_direct_wrong,available_only,1000,0.0,0.0,0.0,0.467,0.586,0.8330666239863411,0.2965797966365571
+B_traitfree_direct_wrong,common_all_seven,1000,,,,0.467,0.586,0.8330666239863411,0.2965797966365571
+B_nohistory_rubric,available_only,1000,0.0,0.0,0.0,0.539,0.491,0.7422937423958255,0.17348677578840777
+B_nohistory_rubric,common_all_seven,1000,,,,0.539,0.491,0.7422937423958255,0.17348677578840777
+C_traitfree_joint_profile,available_only,1000,0.0,0.0,1.0,0.482,0.556,0.7949842765740717,0.2879033711916339
+C_traitfree_joint_profile,common_all_seven,1000,,,,0.482,0.556,0.7949842765740717,0.2879033711916339
+D_twostage_correct_profile,available_only,1000,0.0,0.0,0.0,0.555,0.465,0.7106335201775947,0.36088893388680787
+D_twostage_correct_profile,common_all_seven,1000,,,,0.555,0.465,0.7106335201775947,0.36088893388680787
+D_twostage_wrong_profile,available_only,1000,0.0,0.0,2.0,0.525,0.501,0.7436396977031283,0.27729800936767945
+D_twostage_wrong_profile,common_all_seven,1000,,,,0.525,0.501,0.7436396977031283,0.27729800936767945
