@@ -1,0 +1,141 @@
+{
+  "raw_rows": 8890,
+  "unique_texts": 8890,
+  "unique_filenames": 8880,
+  "filename_collisions": [
+    {
+      "Filename": "AAAUUP138180000089192125_OR",
+      "rows": [
+        479,
+        480
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.985691573926868,
+      "action": "different_texts_kept_separate; all_filename_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000093712125_OR",
+      "rows": [
+        501,
+        502
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9833804809052333,
+      "action": "different_texts_kept_separate; all_filename_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000097532125_OR",
+      "rows": [
+        547,
+        548
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.954284401562141,
+      "action": "different_texts_kept_separate; all_filename_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000112122125_OR",
+      "rows": [
+        616,
+        617
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9554367201426025,
+      "action": "different_texts_kept_separate; all_filename_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000117392125_OR",
+      "rows": [
+        641,
+        642
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.990094552003602,
+      "action": "different_texts_kept_separate; all_filename_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000133182125_OR",
+      "rows": [
+        744,
+        745
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9444122756224667,
+      "action": "different_texts_kept_separate; all_filename_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000193682125_OR",
+      "rows": [
+        816,
+        817
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9337885371404925,
+      "action": "different_texts_kept_separate; all_filename_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000294872125_OR",
+      "rows": [
+        931,
+        932
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9956017592962815,
+      "action": "different_texts_kept_separate; all_filename_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAXMP138200000496552810_OR",
+      "rows": [
+        4947,
+        4948
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9875074360499703,
+      "action": "different_texts_kept_separate; all_filename_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAXMP138200000777942850_OR",
+      "rows": [
+        5081,
+        5082
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9975494200294069,
+      "action": "different_texts_kept_separate; all_filename_aliases_excluded_from_history"
+    }
+  ],
+  "essay_rater_duplicates": [],
+  "essays_with_three_or_more_raters": 0,
+  "missing_rater_records": 0,
+  "invalid_overall_records": 44,
+  "invalid_trait_records": 41,
+  "raw_row_gap_distribution_including_invalid": {
+    "0": 4705,
+    "1": 3911,
+    "2": 258,
+    "3": 15,
+    "4": 1
+  },
+  "gaps": {
+    "3": {
+      "essays": 7,
+      "pairs": 7
+    },
+    "2": {
+      "essays": 251,
+      "pairs": 251
+    }
+  },
+  "expected_counts": {
+    "gap3_approx": 15,
+    "gap2_approx": 215
+  },
+  "identity_policy": "exact Text SHA256; duplicate Filename with different text is not merged; all aliases excluded from history",
+  "score_policy": "pair extraction: both Overall integer 1..5; histories/eligible targets: existing Overall+all Traits integer 1..5",
+  "target_preprocessing_failures": [
+    {
+      "target_id": "8135:2",
+      "failure_reason": "target_trait_profile_invalid_under_existing_preprocessing"
+    }
+  ]
+}

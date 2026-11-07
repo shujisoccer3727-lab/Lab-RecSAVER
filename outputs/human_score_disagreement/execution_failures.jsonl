@@ -1,0 +1,2 @@
+{"timestamp": "2026-11-06T07:19:25.383318+00:00", "stage": "pilot", "error_type": "TypeError", "error": "Object of type bool_ is not JSON serializable"}
+{"timestamp": "2026-11-06T07:19:26.832335+00:00", "stage": "all", "error_type": "CalledProcessError", "error": "Command '['/home/guestuser/miniforge3/envs/qwen3/bin/python', '-m', 'src.recsaver.human_score_disagreement', '--config', 'configs/human_score_disagreement.yaml', '--stage', 'pilot']' returned non-zero exit status 1."}

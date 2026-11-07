@@ -1,0 +1,1121 @@
+# essay_08745__rater_7__rater_9
+
+参照理由は実Overallを条件としてLLMが生成した説明であり、採点者本人の実際の思考を示すものではありません。自己検証通過は説明の正しさを保証しません。予測点差の縮小や理由の生成だけで、採点者バイアスの是正・人間採点者間の点差縮小・フィードバックの効果は結論できません。
+
+## エッセイと人間の採点
+
+```
+{
+  "essay_id": "AAAUUP138190002488472139_OR",
+  "essay_key": "a215a2598aa24cffc992531f723e26ae2262182145db68d8ebe371ea9d680eb2",
+  "filename_aliases": [
+    "AAAUUP138190002488472139_OR"
+  ],
+  "source_row_ids": [
+    8745
+  ],
+  "rater_a": "rater_7",
+  "actual_a": 5,
+  "rater_b": "rater_9",
+  "actual_b": 3,
+  "gap": 2
+}
+```
+
+```
+In many student's life, there is a set goal of succeeding in school in order to open doors in the future. Doors that will allow them to obtain a job position with great salary and that will give them an opportunity to do what they are most passionate about. Just like many of these individuals, my goal is to open myself to new opportunities and experiences in order to achieve my desired career field. Internships are a great way to get hands-on experience of one's pursuing type of employment. However, companies do not just pick any person;
+
+they must choose interns that show promising characteristics and work ethic: someone who will stand out from others. To be en engineer is my dream job, and I would appreciate it greatly if I were to be chosen as an intern in this company. It would be to your greatest interest to have me as an intern because I show promising results and diversity in multiple ways.
+
+I am not a stranger to the engineering field. I have been exposed to a series of people in this career. My father is one of the best engineers at his company, and he leads several big projects. He is the person I aspire to become or surpass. Still, my father is not my sole relative following this career. Several of my uncles have pursued this job choice, and my aunt who, even though her current job is that of a nurse, is currently studying to obtain her degree in engineering. Adding to this, I am also surrounded by non-relatives who have jobs as engineers, since I live in a city with multiple engineering companies. This shows that I have been exposed to engineering in several ways, which has given me an insight of what to expect while studying for the role.
+
+It is no secret that engineering is one of the fields that require numerous math classes. Many would see this as a negative aspect of becoming an engineer; yet, I do not. Mathematics have been one of my passions since I was a little girl. It would fascinate me how much critical thinking and solving-problem skills it required. This, of course, has not changed much. Although the classes are getting more difficult as the years pass, my passion for math has not ceased; instead, one could say it has grown. I am not the type of person to give up on a math problem because it is "too hard." If I am faced with a challenge, I will use all of my available sources of aid to find the answer. It is this kind of dedication and hard work that has led me to where I am today.
+
+Diversity stands out in applications, and many companies and organizations search for those individuals that stand out from the rest. There are not many women that choose engineering as their first career choice, yet I, a woman, am studying and aiming for engineering. I would be the the second woman in my family to aim for this position: the first being my aunt. Nevertheless, although being a woman already stands out in the engineering field, there is more of me to show. For example, I am a Latina from Generic_City. I lived in Generic_City up to the age of eight, which has consequently made me bilingual. However, I do not only speak Spanish and English; this upcoming year, I will finish my fifth year in French. Knowing multiple languages breaks many language barriers and provide more opportunities. Knowing this, I decided to take part in Spanish and French Honor Society. Standing out from the rest is not only an individual's goal, but also a companies'.
+
+The path to success in not an easy one. One must submit to hours of work and dedication. In this year's internship, I would be fascinated to participate in your company. Since it is many students' goal to open doors for the future, I am sure there is competition involved. Despite of this, I show a variety of characteristics that many would appreciate. My goal is to become a successful engineer, just like my father. My father, other relatives, and friends have allowed me to experience an insight into what being an engineering is like. One of the things I picked up on was that there is a lot of math involved in this career; still, this is not a downfall. For many years, I have been fascinated by mathematics and problem-solving. The fact that math is required to be an engineer is not a complication; instead, it is an opportunity to study further what I enjoy. Not only am I passionate about becoming an engineering, I also show diversity; which will make me, and the company, stand out. I am the minority of female Mexican engineers, and I break the language barrier with three languages. I am one out of many applicants in this internship; however, I am passionate, hardworking, and unique. I am one of a kind.
+```
+
+
+## 共通ルーブリック
+
+[使用したルーブリック全文](../rubric_used.md)
+
+
+## 処理概要
+
+```
+{
+  "case_id": "essay_08745__rater_7__rater_9",
+  "essay_key": "a215a2598aa24cffc992531f723e26ae2262182145db68d8ebe371ea9d680eb2",
+  "essay_id": "AAAUUP138190002488472139_OR",
+  "filename_aliases": [
+    "AAAUUP138190002488472139_OR"
+  ],
+  "source_row_ids": [
+    8745
+  ],
+  "canonical_text_source_row_id": 8745,
+  "target_a": "8745:1",
+  "target_b": "8745:2",
+  "rater_a": "rater_7",
+  "rater_b": "rater_9",
+  "actual_a": 5,
+  "actual_b": 3,
+  "rater_count": 2,
+  "gap": 2,
+  "predicted_a": 4,
+  "predicted_b": 3,
+  "signed_error_a": -1,
+  "signed_error_b": 0,
+  "absolute_error_a": 1,
+  "absolute_error_b": 0,
+  "predicted_gap": 1,
+  "status_a": "completed",
+  "status_b": "completed",
+  "verified_a": 3,
+  "verified_b": 2,
+  "failure_a": null,
+  "failure_b": null,
+  "processing_status": "success",
+  "reference_acquisition": "both"
+}
+```
+
+
+## 採点者 A: rater_7
+
+状態: completed / 参照理由取得数: 3 / 失敗理由: None
+
+
+### 使用した本人の履歴（全文・実スコア・Trait）
+
+```
+[History 1; ID=8716:1]
+Essay:
+Dear Futer bus
+
+my name is Generic_Name and I wath to be one of your employers because I well like to work at your company.
+
+First, I am very resonsable for all woork i do it god and when we have work to do I tied to do more faster and if you teel me that I have to do one work i am going to do y best job for can the work get ready on time and it's gona luck so good.
+
+Secon,I am one very hard-worker because if you need help i can help you and if i finsh my work and can heps to my others frins on the work aand finsh the works more faster because if we finsh more faster then the person for we are doing the work they can tell others people that
+
+we work fast and we doit good so then the other people can come and we going to have more work and that maend the company well have more work to do and also that good idea because the company were going to have more mony
+
+and the employers to so what i wath to, to said is if like me the others workers work more faster and help eachother then we can win more money and also if we are good orkers nd we do the works more faster and we do one good job then the company can be famous and have more persons that can waht awer job.
+
+Also ,I tell you this because I have a lot of experience doing this and i one good worker i doit fast but all that can not (sirve) because if we are not going to do one very good job and put very ditel on the work and we responsable, whit doing it then we are not helping to the cmpany and the people we are doing thatt
+
+the company come dow and the people can get angry whit us so waht i waht to said whiit this is if we work fast but not duing good job so the company can come dow and we don't waht that raid i tell you this because i have much expirense doing it and I see that most of the pople like more that the job be look very good and have ditels i lern all this and i think if we not going to do fast so we can o one good job because some of the peplo do't what to be faster they what one good job.
+
+So finally I am one worker responsable whit the jobs, I am one hard-worker i can doit faster and very good and also i fave a lot of ideas for how to do it and i hve experience and wecan use my ideas for doit more good and have more people that can what aour job and the company can be famous and also the company were going to win more money and the workers to
+
+so this are my reasons for why am one good worker and why is good to you (contrate) , writh this leter to you for can you now how i work and how much a can hellp to your company i now that have persons more good
+
+then me but i doit faster and aperons oredy now me because i doit one god job
+
+Dear future bus
+
+i waht to to sadi thanks fot read all this and i realy like what your conpany do and how you doit
+
+and thta's is my reason why i what to work at your conpany and i fave a lot of ideas for your conpany thaks for read all this.      
+
+Overall: 2
+
+Trait Scores:
+Cohesion: 2
+Syntax: 2
+Vocabulary: 3
+Phraseology: 2
+Grammar: 2
+Conventions: 2
+
+---
+
+[History 2; ID=517:1]
+Essay:
+In our life going to success it`s a goul for everyone who wants to bulid his or her skills. Although I agree with Churchill`s statement about the important role that failure plays in the pursuit of success.
+
+There are many reasons that failure plays need to pursuit to success.
+
+First some time when I play in video game with my friends on online we make squad first. Seconed we to discuss about plan to defeat against the player to win. Next we were playing as a team, but each round we are loseing in the game. Some of my friend get bored and they are not excited to continue in the game because of losing, but I said them that losing in the game make us to find the problem in squad. Later the problem was from the plan, one of my friend didn`t follow their plan and was playing alone so I told him that we can win in the game
+
+if you playing as a team. Later I saw that each round
+
+won in the game cause we were follow the plan and working as the team.
+
+Seconed example that I learn in my life is in the school. Back home when I was taking a class in Math, my teacher was giving a lot of test, It was challange for me to study with her. When I take a test I fail in the test and Iam thinking that I can`t pass in Math. I always thinking that I said before this my
+
+challange and I should pass no matter I fail I believe in my self that can do. So I took a lot of practic solve the porblem with the teacher and she gives also a homework to do at home. I was study for a while to understand lesson and to be ready in the test next time. Later I took the test and I got B+ and next test I got A, so that`s comes form study hard and believe in my self.
+
+In conclusion failure it`s not means that you are fail, but it`s important to look at what we have problem in our life to fixed and encourage our self to take one more time to success and believes in yourself.
+
+Overall: 3
+
+Trait Scores:
+Cohesion: 3
+Syntax: 3
+Vocabulary: 2
+Phraseology: 3
+Grammar: 2
+Conventions: 3
+
+---
+
+[History 3; ID=8724:1]
+Essay:
+Do you think that setting our aim to low and achieving your mark is a bad idea of a good idea?
+
+Many people believe that setting your aim to low is a good idea because you have to go step by step to get to greatness and improve youself. However In my opinion I agree with Michelangelo beacuse we always have to set our goals high and falling short even it is hard because: you can challenge yourself, get self confidence, and better rewards.
+
+Many people like to challenge themselfves and see what they're capable of. Challenging yourself will show you what are you capable of and the greatest things that you can do when you try your best. For example:Taking Ap classes they are harder classes than the regular classes but you will gain more knowlegde and expirence from them that will help you later with life.
+
+Another reason why i agree with Michelangelo is because you will get self confidence by doing hard goals, Doing harder goals will give you more expirence and confidence to keep improving yourself and it will help you in many ways, you will feel more confidence about yourself when it comes to hard situations and won't panic about it, you will know how to react to the situation and comfront it in a mature way.
+
+Finally aiming too high for our goals will give us better rewards, Going for hardest things are usually beneficial for all the experince and cofidence that they give us but they also come with better rewards all that hard work and sacrafices that you did will be pay off, For example: A better job, Better opportunities, A better life. All your hard work will finally show it results and you will benefit from them.
+
+In conclusion, I recommend you to always aim high for your goals even to if you failed at the beginnig. Because it will be benecial for you and your future, you will have to challenge yourself, you will gain more self condifence, you will feel good about yourself, and it comes with better rewards all that hard work will be finally payed off at the end and you will enjoy it .
+
+Overall: 4
+
+Trait Scores:
+Cohesion: 4
+Syntax: 3
+Vocabulary: 4
+Phraseology: 4
+Grammar: 4
+Conventions: 3
+```
+
+
+### 実スコアを与えない予測Overall・予測理由
+
+```
+{
+  "predicted_overall": 4,
+  "prediction_reasoning": "The essay demonstrates a good level of syntactic variety and range of vocabulary, with controlled organization and accuracy in grammar and conventions. While there are occasional inaccuracies, they rarely impede communication. The essay shows a clear structure and coherence, with a focus on personal experiences and aspirations, which aligns well with the criteria for a score of 4.",
+  "parse_success": true,
+  "reused": true,
+  "reused_from": "outputs/full_prediction_experiment/predictions_correct_k3_rubric.jsonl"
+}
+```
+
+
+### 実スコア条件付き参照理由候補・全再試行・リーク検査
+
+```
+{
+  "target_id": "8745:1",
+  "candidate_index": 1,
+  "attempt_index": 1,
+  "seed": 3555876482,
+  "prompt_tokens": 3267,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates native-like facility in the use of language, showcasing syntactic variety and appropriate word choice. The text organization is well-controlled, with clear and logical progression of ideas. The writer effectively uses a range of vocabulary and phrases, such as 'stand out from the rest,' 'hands-on experience,' and 'critical thinking and solving-problem skills,' which contribute to the overall coherence and clarity of the essay. The grammar and conventions are accurate, with rare language inaccuracies that do not impede communication. The essay provides a compelling narrative with personal anecdotes and specific examples, further enhancing its persuasive quality.\"}",
+  "target_rater": "rater_7",
+  "history_ids": [
+    "8716:1",
+    "517:1",
+    "8724:1"
+  ],
+  "gold_overall": 5,
+  "inference_seconds": 4.962148718281242,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 3555876482
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates native-like facility in the use of language, showcasing syntactic variety and appropriate word choice. The text organization is well-controlled, with clear and logical progression of ideas. The writer effectively uses a range of vocabulary and phrases, such as 'stand out from the rest,' 'hands-on experience,' and 'critical thinking and solving-problem skills,' which contribute to the overall coherence and clarity of the essay. The grammar and conventions are accurate, with rare language inaccuracies that do not impede communication. The essay provides a compelling narrative with personal anecdotes and specific examples, further enhancing its persuasive quality.",
+  "leaked": false,
+  "leakage_reason": "",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": true
+}
+```
+
+```
+{
+  "target_id": "8745:1",
+  "candidate_index": 2,
+  "attempt_index": 1,
+  "seed": 3428817798,
+  "prompt_tokens": 3267,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates native-like facility in the use of language, showcasing syntactic variety and appropriate word choice. The text organization is well-controlled, with clear and logical progression of ideas. The writer effectively uses a range of vocabulary and phrases, such as 'stand out from the rest,' 'hands-on experience,' and 'critical thinking and solving-problem skills,' which contribute to the overall coherence and clarity of the essay. The grammar and conventions are accurate, with rare language inaccuracies that do not impede communication. The essay provides a compelling narrative that is both engaging and articulate, making it plausible for this evaluation.\"}",
+  "target_rater": "rater_7",
+  "history_ids": [
+    "8716:1",
+    "517:1",
+    "8724:1"
+  ],
+  "gold_overall": 5,
+  "inference_seconds": 4.962148718281242,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 3428817798
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates native-like facility in the use of language, showcasing syntactic variety and appropriate word choice. The text organization is well-controlled, with clear and logical progression of ideas. The writer effectively uses a range of vocabulary and phrases, such as 'stand out from the rest,' 'hands-on experience,' and 'critical thinking and solving-problem skills,' which contribute to the overall coherence and clarity of the essay. The grammar and conventions are accurate, with rare language inaccuracies that do not impede communication. The essay provides a compelling narrative that is both engaging and articulate, making it plausible for this evaluation.",
+  "leaked": false,
+  "leakage_reason": "",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": true
+}
+```
+
+```
+{
+  "target_id": "8745:1",
+  "candidate_index": 3,
+  "attempt_index": 1,
+  "seed": 2329247397,
+  "prompt_tokens": 3267,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates native-like facility in the use of language, showcasing syntactic variety and appropriate word choice. The text organization is well-controlled, with clear and logical progression of ideas. The writer effectively uses a range of vocabulary and phrases, such as 'stand out from the rest,' 'hands-on experience,' and 'critical thinking and solving-problem skills,' which contribute to the overall coherence and clarity of the essay. Grammar and conventions are accurately used, with rare language inaccuracies that do not impede communication. The essay provides a compelling narrative that connects personal experiences and aspirations, making it a strong example of native-like proficiency.\"}",
+  "target_rater": "rater_7",
+  "history_ids": [
+    "8716:1",
+    "517:1",
+    "8724:1"
+  ],
+  "gold_overall": 5,
+  "inference_seconds": 4.962148718281242,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 2329247397
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates native-like facility in the use of language, showcasing syntactic variety and appropriate word choice. The text organization is well-controlled, with clear and logical progression of ideas. The writer effectively uses a range of vocabulary and phrases, such as 'stand out from the rest,' 'hands-on experience,' and 'critical thinking and solving-problem skills,' which contribute to the overall coherence and clarity of the essay. Grammar and conventions are accurately used, with rare language inaccuracies that do not impede communication. The essay provides a compelling narrative that connects personal experiences and aspirations, making it a strong example of native-like proficiency.",
+  "leaked": false,
+  "leakage_reason": "",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": true
+}
+```
+
+
+### 自己検証の全試行
+
+````
+{
+  "target_id": "8745:1",
+  "candidate_index": 1,
+  "attempt_index": 1,
+  "reference_attempt_index": 1,
+  "seed": 727252840,
+  "prompt_tokens": 3315,
+  "raw_model_output": "```json\n{\n  \"predicted_overall\": 5\n}\n```",
+  "target_rater": "rater_7",
+  "history_ids": [
+    "8716:1",
+    "517:1",
+    "8724:1"
+  ],
+  "gold_overall": 5,
+  "inference_seconds": 3.213624183718707,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 64,
+    "seed": 727252840
+  },
+  "parse_success": true,
+  "reconstructed_overall": 5,
+  "verified": true
+}
+````
+
+````
+{
+  "target_id": "8745:1",
+  "candidate_index": 2,
+  "attempt_index": 1,
+  "reference_attempt_index": 1,
+  "seed": 3236025505,
+  "prompt_tokens": 3316,
+  "raw_model_output": "```json\n{\n  \"predicted_overall\": 5\n}\n```",
+  "target_rater": "rater_7",
+  "history_ids": [
+    "8716:1",
+    "517:1",
+    "8724:1"
+  ],
+  "gold_overall": 5,
+  "inference_seconds": 3.213624183718707,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 64,
+    "seed": 3236025505
+  },
+  "parse_success": true,
+  "reconstructed_overall": 5,
+  "verified": true
+}
+````
+
+````
+{
+  "target_id": "8745:1",
+  "candidate_index": 3,
+  "attempt_index": 1,
+  "reference_attempt_index": 1,
+  "seed": 3944841116,
+  "prompt_tokens": 3319,
+  "raw_model_output": "```json\n{\n  \"predicted_overall\": 5\n}\n```",
+  "target_rater": "rater_7",
+  "history_ids": [
+    "8716:1",
+    "517:1",
+    "8724:1"
+  ],
+  "gold_overall": 5,
+  "inference_seconds": 3.213624183718707,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 64,
+    "seed": 3944841116
+  },
+  "parse_success": true,
+  "reconstructed_overall": 5,
+  "verified": true
+}
+````
+
+
+### 検証済み参照理由（すべて）
+
+```
+[
+  {
+    "target_id": "8745:1",
+    "target_rater": "rater_7",
+    "candidate_index": 1,
+    "attempt_index": 1,
+    "gold_overall": 5,
+    "reference_reasoning": "The essay demonstrates native-like facility in the use of language, showcasing syntactic variety and appropriate word choice. The text organization is well-controlled, with clear and logical progression of ideas. The writer effectively uses a range of vocabulary and phrases, such as 'stand out from the rest,' 'hands-on experience,' and 'critical thinking and solving-problem skills,' which contribute to the overall coherence and clarity of the essay. The grammar and conventions are accurate, with rare language inaccuracies that do not impede communication. The essay provides a compelling narrative with personal anecdotes and specific examples, further enhancing its persuasive quality.",
+    "history_ids": [
+      "8716:1",
+      "517:1",
+      "8724:1"
+    ],
+    "reconstructed_overall": 5,
+    "verified": true
+  },
+  {
+    "target_id": "8745:1",
+    "target_rater": "rater_7",
+    "candidate_index": 2,
+    "attempt_index": 1,
+    "gold_overall": 5,
+    "reference_reasoning": "The essay demonstrates native-like facility in the use of language, showcasing syntactic variety and appropriate word choice. The text organization is well-controlled, with clear and logical progression of ideas. The writer effectively uses a range of vocabulary and phrases, such as 'stand out from the rest,' 'hands-on experience,' and 'critical thinking and solving-problem skills,' which contribute to the overall coherence and clarity of the essay. The grammar and conventions are accurate, with rare language inaccuracies that do not impede communication. The essay provides a compelling narrative that is both engaging and articulate, making it plausible for this evaluation.",
+    "history_ids": [
+      "8716:1",
+      "517:1",
+      "8724:1"
+    ],
+    "reconstructed_overall": 5,
+    "verified": true
+  },
+  {
+    "target_id": "8745:1",
+    "target_rater": "rater_7",
+    "candidate_index": 3,
+    "attempt_index": 1,
+    "gold_overall": 5,
+    "reference_reasoning": "The essay demonstrates native-like facility in the use of language, showcasing syntactic variety and appropriate word choice. The text organization is well-controlled, with clear and logical progression of ideas. The writer effectively uses a range of vocabulary and phrases, such as 'stand out from the rest,' 'hands-on experience,' and 'critical thinking and solving-problem skills,' which contribute to the overall coherence and clarity of the essay. Grammar and conventions are accurately used, with rare language inaccuracies that do not impede communication. The essay provides a compelling narrative that connects personal experiences and aspirations, making it a strong example of native-like proficiency.",
+    "history_ids": [
+      "8716:1",
+      "517:1",
+      "8724:1"
+    ],
+    "reconstructed_overall": 5,
+    "verified": true
+  }
+]
+```
+
+
+### 予測理由と各検証済み参照理由の既存指標
+
+```
+[
+  {
+    "target_id": "8745:1",
+    "candidate_index": 1,
+    "bleu": 0.07456427624209298,
+    "rouge1_f1": 0.47798742138364775,
+    "meteor": 0.27509371768355745,
+    "bertscore_f1": 0.8943517804145813
+  },
+  {
+    "target_id": "8745:1",
+    "candidate_index": 2,
+    "bleu": 0.07281531258959509,
+    "rouge1_f1": 0.4625,
+    "meteor": 0.2725569928278689,
+    "bertscore_f1": 0.8936132192611694
+  },
+  {
+    "target_id": "8745:1",
+    "candidate_index": 3,
+    "bleu": 0.08781035055765019,
+    "rouge1_f1": 0.49079754601226994,
+    "meteor": 0.2755989401410282,
+    "bertscore_f1": 0.8965696096420288
+  }
+]
+```
+
+```
+{
+  "bleu": {
+    "mean": 0.07839664646311274,
+    "max": 0.08781035055765019
+  },
+  "rouge1_f1": {
+    "mean": 0.4770949891319726,
+    "max": 0.49079754601226994
+  },
+  "meteor": {
+    "mean": 0.27441655021748484,
+    "max": 0.2755989401410282
+  },
+  "bertscore_f1": {
+    "mean": 0.8948448697725931,
+    "max": 0.8965696096420288
+  }
+}
+```
+
+
+## 採点者 B: rater_9
+
+状態: completed / 参照理由取得数: 2 / 失敗理由: None
+
+
+### 使用した本人の履歴（全文・実スコア・Trait）
+
+```
+[History 1; ID=5137:1]
+Essay:
+Everyone would eventually ask an advice if they need help on a particular subject or ask for an opinion if they ever get confuse. Advises or opinions would solve one's problem. For example, to prevent making poor choices or decisions, to determine which advice is accurate, and to allow someone to feel secure with choices. Seeking multiple opinions can help someone make a better choice.
+
+First, seeking multiple opinions can help someone make a better choice by preventing making poor choices or decisions. For instant, if someone attempts to steal. If there's something you want but it's expensive. Also, if someone gets in a fight. If there's someone you don't like or disagree with. Lastly, if someone lies. When someone did something wrong
+
+and lied about it. Seeking multiple opinions can help some make a better choice.
+
+Furthermore, seeking multiple opinions can help people make a better choice by determining which advice is accurate. For example, to be sure that it's reliable. If many said the same thing while others said a different thing. Also,if someone wasn't sure about the advice. Ask people for more advice if the advice is inaccurate. Lastly, if the advice is inaccurate. If someone said one thing while others said the other thing. Seeking multiple opinions can help someone make a better choice.
+
+Finally, seeking multiple opinions can help someone make a better choice by allowing someone to feel secure with
+
+choices. For instant, if someone gets confuse. If you're lost on one subject. Also, if someone gets lonely. if someone doesn't have a baseball team. Lastly, if someone gets worried or afraid. If someone you know is absent or gone. Seeking multiple opinions can help someone make a better choice.
+
+In summary, viewing many opinions can benefit people to make a better choice by preventing making poor choices or decisions, determining which advice is accurate, and by allowing someone to feel secure with choices. I believe that asking yourself for advice is also necessary. but, viewing many opinions from people is probably more necessary than viewing your own advice.
+
+Overall: 2
+
+Trait Scores:
+Cohesion: 2
+Syntax: 2
+Vocabulary: 3
+Phraseology: 3
+Grammar: 3
+Conventions: 2
+
+---
+
+[History 2; ID=4487:1]
+Essay:
+Some School districts programs want to graduate in three years because they don't have time for stay one more year, because is old or they don't want to stay to much time in high School because they don't like school. Same family don't want that the student can stay one more year in high school because all the time the family want that the student have to pay tax or he have to work for play own things, that's why the student want to graduate in three years, because the family don't help to much for the student finish the school, and also the student want to graduate in three years because they want to go to college. Most the students who take Summers class because is it a good idea for finish high school in three years.
+
+Some school district programs want to graduate in four years because they can take class what they want it and some time is very hard to pass a class, if the people difficult pass a class they have time to take againt, the people don't have to preocupation anithing because they have a lot time for do a lot things in high school for example get more education,play gamen and stary for exams. Same people want to stay more time in high school because they have friends and some people love work together and also some people have a favorite teachers that's why the people love to go for four years a hight school.
+
+Overall: 2
+
+Trait Scores:
+Cohesion: 2
+Syntax: 3
+Vocabulary: 3
+Phraseology: 2
+Grammar: 2
+Conventions: 2
+
+---
+
+[History 3; ID=4584:1]
+Essay:
+Yes i agree for
+
+that all we have that be our selves for put to go out a head we live in the own world where the people judges our behavior and not sees its errors. because in this world to be bieng you yourself
+
+and don't matter how you are, you have that yourself, always we need remmerber that you can change the world, not the world change you.
+
+all of them we have a problem but we need learn, follow our dreams i want graduate this year sometimes i think i can't anymore but i have a son i need to follow because he follow me i want change the
+
+world for my son he need make a better person because he need help other people i want that he follow her dreams.
+
+we need change our to think for that change the world we need make major people i need make better people i need help to the people poor, and the ancient people we need change our character because we want a better future for our children they need learn to be bette people they knoe our future.
+
+in the school i learn about no judge the people if we have a different type of skin and different color and nationality don"t matter in this world all the peole are the same.
+
+i don't change my manner of to think because you need to be yourself. don't chage your ideas to be a big person in the world
+
+in conclusion don't worry be happy because the life is short you need live the life don't matter that the people think follow your dreams " i want study in the university
+
+i want to pass my tests i want a be a big person that my son see that all can you can make whattever you want if you can and you want you can.
+
+We can change the world for a world better.                                         
+
+Overall: 2
+
+Trait Scores:
+Cohesion: 1
+Syntax: 2
+Vocabulary: 2
+Phraseology: 2
+Grammar: 2
+Conventions: 2
+```
+
+
+### 実スコアを与えない予測Overall・予測理由
+
+```
+{
+  "predicted_overall": 3,
+  "prediction_reasoning": "The essay demonstrates a reasonable level of language facility with a mix of syntactic variety and range of vocabulary, although there are occasional errors in grammar and syntax. The organization is generally controlled, with clear sections and logical progression, though some connections between ideas are not as strong. The essay communicates effectively despite some inaccuracies, aligning with the criteria for a score of 3.",
+  "parse_success": true,
+  "reused": true,
+  "reused_from": "outputs/full_prediction_experiment/predictions_correct_k3_rubric.jsonl"
+}
+```
+
+
+### 実スコア条件付き参照理由候補・全再試行・リーク検査
+
+```
+{
+  "target_id": "8745:2",
+  "candidate_index": 1,
+  "attempt_index": 1,
+  "seed": 2406904711,
+  "prompt_tokens": 2755,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a reasonable level of language facility, with a range of vocabulary and phrases used appropriately. The text organization is generally controlled, with clear sections that support the main argument. However, there are occasional errors in grammar and syntax that sometimes impede communication. The writer provides relevant examples and personal experiences to support their points, but the language inaccuracies and some structural issues prevent the essay from achieving a higher score. The essay aligns with the criteria for a Score 3 as outlined in the rubric.\"}",
+  "target_rater": "rater_9",
+  "history_ids": [
+    "5137:1",
+    "4487:1",
+    "4584:1"
+  ],
+  "gold_overall": 3,
+  "inference_seconds": 4.962148718281242,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 2406904711
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a reasonable level of language facility, with a range of vocabulary and phrases used appropriately. The text organization is generally controlled, with clear sections that support the main argument. However, there are occasional errors in grammar and syntax that sometimes impede communication. The writer provides relevant examples and personal experiences to support their points, but the language inaccuracies and some structural issues prevent the essay from achieving a higher score. The essay aligns with the criteria for a Score 3 as outlined in the rubric.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 3",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8745:2",
+  "candidate_index": 2,
+  "attempt_index": 1,
+  "seed": 859487260,
+  "prompt_tokens": 2755,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a range of vocabulary and phrases, with some syntactic variety, which aligns with the criteria for a Score 3. The writer shows an understanding of the topic and attempts to organize the text logically, though there are occasional lapses in coherence and connection between ideas. The essay includes some errors in grammar, syntax, and usage that occasionally impede communication, but the overall message is still understandable. The writer's passion for engineering and their unique background are clearly communicated, despite the language inaccuracies.\"}",
+  "target_rater": "rater_9",
+  "history_ids": [
+    "5137:1",
+    "4487:1",
+    "4584:1"
+  ],
+  "gold_overall": 3,
+  "inference_seconds": 4.962148718281242,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 859487260
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a range of vocabulary and phrases, with some syntactic variety, which aligns with the criteria for a Score 3. The writer shows an understanding of the topic and attempts to organize the text logically, though there are occasional lapses in coherence and connection between ideas. The essay includes some errors in grammar, syntax, and usage that occasionally impede communication, but the overall message is still understandable. The writer's passion for engineering and their unique background are clearly communicated, despite the language inaccuracies.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 3",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8745:2",
+  "candidate_index": 3,
+  "attempt_index": 1,
+  "seed": 3603158205,
+  "prompt_tokens": 2755,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a reasonable level of language facility, with a mix of common and some less generic vocabulary. The writer shows an understanding of text organization, though there are instances where the connections between ideas are not as clear or successful as they could be. There are occasional errors in grammar and syntax that sometimes impede communication, but the overall message is still understandable. The essay provides a coherent argument about the writer's passion for engineering and their unique qualifications, but the language inaccuracies and organizational lapses prevent it from achieving a higher score.\"}",
+  "target_rater": "rater_9",
+  "history_ids": [
+    "5137:1",
+    "4487:1",
+    "4584:1"
+  ],
+  "gold_overall": 3,
+  "inference_seconds": 4.962148718281242,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 3603158205
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a reasonable level of language facility, with a mix of common and some less generic vocabulary. The writer shows an understanding of text organization, though there are instances where the connections between ideas are not as clear or successful as they could be. There are occasional errors in grammar and syntax that sometimes impede communication, but the overall message is still understandable. The essay provides a coherent argument about the writer's passion for engineering and their unique qualifications, but the language inaccuracies and organizational lapses prevent it from achieving a higher score.",
+  "leaked": false,
+  "leakage_reason": "",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": true
+}
+```
+
+```
+{
+  "target_id": "8745:2",
+  "candidate_index": 1,
+  "attempt_index": 2,
+  "seed": 2225139595,
+  "prompt_tokens": 2755,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a reasonable level of language facility, with a mix of common and some less generic vocabulary. The writer shows an ability to organize thoughts and present a coherent argument, though there are occasional lapses in connection and flow. There are noticeable errors in grammar, syntax, and usage that sometimes impede clear communication, but the overall message is understandable. The essay provides a personal narrative with relevant examples and maintains a clear focus on the topic, which aligns with the criteria for a Score 3.\"}",
+  "target_rater": "rater_9",
+  "history_ids": [
+    "5137:1",
+    "4487:1",
+    "4584:1"
+  ],
+  "gold_overall": 3,
+  "inference_seconds": 5.2214152485937575,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 2225139595
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a reasonable level of language facility, with a mix of common and some less generic vocabulary. The writer shows an ability to organize thoughts and present a coherent argument, though there are occasional lapses in connection and flow. There are noticeable errors in grammar, syntax, and usage that sometimes impede clear communication, but the overall message is understandable. The essay provides a personal narrative with relevant examples and maintains a clear focus on the topic, which aligns with the criteria for a Score 3.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 3",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8745:2",
+  "candidate_index": 2,
+  "attempt_index": 2,
+  "seed": 717229289,
+  "prompt_tokens": 2755,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a range of vocabulary and phrases, with some syntactic variety, which aligns with the criteria for a Score 3. The writer shows an ability to organize the text generally, though there are instances where the connections between ideas are not fully successful. There are also errors in grammar and syntax that occasionally impede communication. The essay discusses the writer's passion for engineering and their unique qualifications, but these points are sometimes presented in a way that lacks clarity or coherence. Overall, the writing quality and the occasional inaccuracies support a Score 3 evaluation.\"}",
+  "target_rater": "rater_9",
+  "history_ids": [
+    "5137:1",
+    "4487:1",
+    "4584:1"
+  ],
+  "gold_overall": 3,
+  "inference_seconds": 5.2214152485937575,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 717229289
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a range of vocabulary and phrases, with some syntactic variety, which aligns with the criteria for a Score 3. The writer shows an ability to organize the text generally, though there are instances where the connections between ideas are not fully successful. There are also errors in grammar and syntax that occasionally impede communication. The essay discusses the writer's passion for engineering and their unique qualifications, but these points are sometimes presented in a way that lacks clarity or coherence. Overall, the writing quality and the occasional inaccuracies support a Score 3 evaluation.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 3",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8745:2",
+  "candidate_index": 1,
+  "attempt_index": 3,
+  "seed": 4231904264,
+  "prompt_tokens": 2755,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a reasonable level of language facility, with a range of vocabulary and phrases used appropriately. The text organization is generally controlled, though there are instances where the connections between ideas could be clearer. The writer shows a good understanding of the topic and provides relevant examples and personal experiences to support their points. However, there are occasional errors in grammar and syntax that sometimes impede communication. These factors align with a score that reflects a moderate level of proficiency, where the writing is generally clear but not without some inaccuracies that affect the overall coherence and fluency.\"}",
+  "target_rater": "rater_9",
+  "history_ids": [
+    "5137:1",
+    "4487:1",
+    "4584:1"
+  ],
+  "gold_overall": 3,
+  "inference_seconds": 4.994186977312495,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 4231904264
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a reasonable level of language facility, with a range of vocabulary and phrases used appropriately. The text organization is generally controlled, though there are instances where the connections between ideas could be clearer. The writer shows a good understanding of the topic and provides relevant examples and personal experiences to support their points. However, there are occasional errors in grammar and syntax that sometimes impede communication. These factors align with a score that reflects a moderate level of proficiency, where the writing is generally clear but not without some inaccuracies that affect the overall coherence and fluency.",
+  "leaked": false,
+  "leakage_reason": "",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": true
+}
+```
+
+```
+{
+  "target_id": "8745:2",
+  "candidate_index": 2,
+  "attempt_index": 3,
+  "seed": 2066374399,
+  "prompt_tokens": 2755,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a reasonable level of language facility, with a range of vocabulary and phrases used appropriately. The text organization is generally controlled, with clear sections that support the main argument. However, there are occasional errors in grammar and syntax that sometimes impede communication. The writer provides relevant examples and personal experiences to support the argument, but there are instances where the language inaccuracies affect the clarity of the message. Overall, the essay aligns with the criteria for a Score 3, showing a balance between effective communication and areas needing improvement in language accuracy and structure.\"}",
+  "target_rater": "rater_9",
+  "history_ids": [
+    "5137:1",
+    "4487:1",
+    "4584:1"
+  ],
+  "gold_overall": 3,
+  "inference_seconds": 4.994186977312495,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 2066374399
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a reasonable level of language facility, with a range of vocabulary and phrases used appropriately. The text organization is generally controlled, with clear sections that support the main argument. However, there are occasional errors in grammar and syntax that sometimes impede communication. The writer provides relevant examples and personal experiences to support the argument, but there are instances where the language inaccuracies affect the clarity of the message. Overall, the essay aligns with the criteria for a Score 3, showing a balance between effective communication and areas needing improvement in language accuracy and structure.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 3",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8745:2",
+  "candidate_index": 2,
+  "attempt_index": 4,
+  "seed": 2081765683,
+  "prompt_tokens": 2755,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a reasonable level of language facility, with a range of vocabulary and phrases used appropriately. The organization is generally controlled, with clear sections that develop the argument logically. However, there are occasional errors in grammar and syntax that sometimes impede communication. The writer provides personal examples and details to support the argument, but these are occasionally marred by inaccuracies or awkward phrasing. The essay does not reach the level of syntactic variety and precise language control required for a higher score, but it is still coherent and largely understandable.\"}",
+  "target_rater": "rater_9",
+  "history_ids": [
+    "5137:1",
+    "4487:1",
+    "4584:1"
+  ],
+  "gold_overall": 3,
+  "inference_seconds": 5.03963152482811,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 2081765683
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a reasonable level of language facility, with a range of vocabulary and phrases used appropriately. The organization is generally controlled, with clear sections that develop the argument logically. However, there are occasional errors in grammar and syntax that sometimes impede communication. The writer provides personal examples and details to support the argument, but these are occasionally marred by inaccuracies or awkward phrasing. The essay does not reach the level of syntactic variety and precise language control required for a higher score, but it is still coherent and largely understandable.",
+  "leaked": false,
+  "leakage_reason": "",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": true
+}
+```
+
+
+### 自己検証の全試行
+
+````
+{
+  "target_id": "8745:2",
+  "candidate_index": 3,
+  "attempt_index": 1,
+  "reference_attempt_index": 1,
+  "seed": 1108507109,
+  "prompt_tokens": 2789,
+  "raw_model_output": "```json\n{\n  \"predicted_overall\": 3\n}\n```",
+  "target_rater": "rater_9",
+  "history_ids": [
+    "5137:1",
+    "4487:1",
+    "4584:1"
+  ],
+  "gold_overall": 3,
+  "inference_seconds": 3.213624183718707,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 64,
+    "seed": 1108507109
+  },
+  "parse_success": true,
+  "reconstructed_overall": 3,
+  "verified": true
+}
+````
+
+````
+{
+  "target_id": "8745:2",
+  "candidate_index": 1,
+  "attempt_index": 1,
+  "reference_attempt_index": 3,
+  "seed": 1691485088,
+  "prompt_tokens": 2794,
+  "raw_model_output": "```json\n{\n  \"predicted_overall\": 3\n}\n```",
+  "target_rater": "rater_9",
+  "history_ids": [
+    "5137:1",
+    "4487:1",
+    "4584:1"
+  ],
+  "gold_overall": 3,
+  "inference_seconds": 3.3789252996875234,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 64,
+    "seed": 1691485088
+  },
+  "parse_success": true,
+  "reconstructed_overall": 3,
+  "verified": true
+}
+````
+
+````
+{
+  "target_id": "8745:2",
+  "candidate_index": 2,
+  "attempt_index": 1,
+  "reference_attempt_index": 4,
+  "seed": 347542029,
+  "prompt_tokens": 2789,
+  "raw_model_output": "```json\n{\n  \"predicted_overall\": 4\n}\n```",
+  "target_rater": "rater_9",
+  "history_ids": [
+    "5137:1",
+    "4487:1",
+    "4584:1"
+  ],
+  "gold_overall": 3,
+  "inference_seconds": 3.3789252996875234,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 64,
+    "seed": 347542029
+  },
+  "parse_success": true,
+  "reconstructed_overall": 4,
+  "verified": false
+}
+````
+
+
+### 検証済み参照理由（すべて）
+
+```
+[
+  {
+    "target_id": "8745:2",
+    "target_rater": "rater_9",
+    "candidate_index": 3,
+    "attempt_index": 1,
+    "gold_overall": 3,
+    "reference_reasoning": "The essay demonstrates a reasonable level of language facility, with a mix of common and some less generic vocabulary. The writer shows an understanding of text organization, though there are instances where the connections between ideas are not as clear or successful as they could be. There are occasional errors in grammar and syntax that sometimes impede communication, but the overall message is still understandable. The essay provides a coherent argument about the writer's passion for engineering and their unique qualifications, but the language inaccuracies and organizational lapses prevent it from achieving a higher score.",
+    "history_ids": [
+      "5137:1",
+      "4487:1",
+      "4584:1"
+    ],
+    "reconstructed_overall": 3,
+    "verified": true
+  },
+  {
+    "target_id": "8745:2",
+    "target_rater": "rater_9",
+    "candidate_index": 1,
+    "attempt_index": 3,
+    "gold_overall": 3,
+    "reference_reasoning": "The essay demonstrates a reasonable level of language facility, with a range of vocabulary and phrases used appropriately. The text organization is generally controlled, though there are instances where the connections between ideas could be clearer. The writer shows a good understanding of the topic and provides relevant examples and personal experiences to support their points. However, there are occasional errors in grammar and syntax that sometimes impede communication. These factors align with a score that reflects a moderate level of proficiency, where the writing is generally clear but not without some inaccuracies that affect the overall coherence and fluency.",
+    "history_ids": [
+      "5137:1",
+      "4487:1",
+      "4584:1"
+    ],
+    "reconstructed_overall": 3,
+    "verified": true
+  }
+]
+```
+
+
+### 予測理由と各検証済み参照理由の既存指標
+
+```
+[
+  {
+    "target_id": "8745:2",
+    "candidate_index": 3,
+    "bleu": 0.25263115204046627,
+    "rouge1_f1": 0.5499999999999999,
+    "meteor": 0.3503643012129064,
+    "bertscore_f1": 0.9118095636367798
+  },
+  {
+    "target_id": "8745:2",
+    "candidate_index": 1,
+    "bleu": 0.22172449487422877,
+    "rouge1_f1": 0.5487804878048781,
+    "meteor": 0.39289419087136923,
+    "bertscore_f1": 0.9160138964653015
+  }
+]
+```
+
+```
+{
+  "bleu": {
+    "mean": 0.2371778234573475,
+    "max": 0.25263115204046627
+  },
+  "rouge1_f1": {
+    "mean": 0.549390243902439,
+    "max": 0.5499999999999999
+  },
+  "meteor": {
+    "mean": 0.3716292460421378,
+    "max": 0.39289419087136923
+  },
+  "bertscore_f1": {
+    "mean": 0.9139117300510406,
+    "max": 0.9160138964653015
+  }
+}
+```
+
+
+## 人手確認欄（未評価）
+
+記入は human_review.csv に保存してください。このレポートの再生成時もCSVの記入内容は維持します。
+
+
+- 両者の着目点・判断の違い：
+- 本文や履歴に裏付けられない説明：
+- ルーブリックに照らして再確認すべき判断：
+
+- 点差の縮小に役立ちそうか：[ ] 役立ちそう / [ ] 判断できない / [ ] 役立ちにくい
+- 上記の判断根拠：
+
+## 参照理由の枠ごとの取得・未取得理由
+
+
+採点者 A (rater_7)
+
+```json
+[
+  {
+    "candidate_index": 1,
+    "generation_attempts": 1,
+    "verified": true,
+    "failure_reason": null,
+    "reconstructed_overall": 5
+  },
+  {
+    "candidate_index": 2,
+    "generation_attempts": 1,
+    "verified": true,
+    "failure_reason": null,
+    "reconstructed_overall": 5
+  },
+  {
+    "candidate_index": 3,
+    "generation_attempts": 1,
+    "verified": true,
+    "failure_reason": null,
+    "reconstructed_overall": 5
+  }
+]
+```
+
+採点者 B (rater_9)
+
+```json
+[
+  {
+    "candidate_index": 1,
+    "generation_attempts": 3,
+    "verified": true,
+    "failure_reason": null,
+    "reconstructed_overall": 3
+  },
+  {
+    "candidate_index": 2,
+    "generation_attempts": 4,
+    "verified": false,
+    "failure_reason": "reconstructed_score_did_not_match_actual",
+    "reconstructed_overall": 4
+  },
+  {
+    "candidate_index": 3,
+    "generation_attempts": 1,
+    "verified": true,
+    "failure_reason": null,
+    "reconstructed_overall": 3
+  }
+]
+```

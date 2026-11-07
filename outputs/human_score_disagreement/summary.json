@@ -1,0 +1,67 @@
+{
+  "by_gap": [
+    {
+      "gap": 3,
+      "essays": 7,
+      "pairs": 7,
+      "processing_success": 7,
+      "processing_failed": 0,
+      "processing_pending": 0,
+      "reference_both": 3,
+      "reference_one": 3,
+      "reference_neither": 1,
+      "mae_a": 1.2857142857142858,
+      "mae_b": 1.5714285714285714,
+      "predicted_gap_mean": 0.14285714285714285,
+      "predicted_gap_distribution": {
+        "0.0": 6,
+        "1.0": 1
+      },
+      "predicted_gap_smaller": 7,
+      "signed_error_a_distribution": {
+        "1.0": 5,
+        "-2.0": 2
+      },
+      "signed_error_b_distribution": {
+        "-2": 4,
+        "1": 2,
+        "-1": 1
+      }
+    },
+    {
+      "gap": 2,
+      "essays": 252,
+      "pairs": 252,
+      "processing_success": 251,
+      "processing_failed": 1,
+      "processing_pending": 0,
+      "reference_both": 140,
+      "reference_one": 96,
+      "reference_neither": 16,
+      "mae_a": 0.848605577689243,
+      "mae_b": 1.0515873015873016,
+      "predicted_gap_mean": 0.2350597609561753,
+      "predicted_gap_distribution": {
+        "0.0": 192,
+        "1.0": 59
+      },
+      "predicted_gap_smaller": 251,
+      "signed_error_a_distribution": {
+        "-1.0": 87,
+        "1.0": 70,
+        "0.0": 66,
+        "-2.0": 25,
+        "2.0": 3
+      },
+      "signed_error_b_distribution": {
+        "1": 76,
+        "-1": 73,
+        "-2": 54,
+        "0": 45,
+        "2": 4
+      }
+    }
+  ],
+  "notice": "参照理由は実Overallを条件としてLLMが生成した説明であり、採点者本人の実際の思考を示すものではありません。自己検証通過は説明の正しさを保証しません。予測点差の縮小や理由の生成だけで、採点者バイアスの是正・人間採点者間の点差縮小・フィードバックの効果は結論できません。",
+  "all_human_reviews_unfilled_by_llm": true
+}

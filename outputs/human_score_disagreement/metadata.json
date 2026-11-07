@@ -1,0 +1,170 @@
+{
+  "timestamp": "2026-11-06T07:17:00.401511+00:00",
+  "fingerprint": "e9591997bbf769f97382c125eff2d6a9dac5ca4a7d54e7dec930a766acfbd204",
+  "model": {
+    "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+    "quantization": "gptq_marlin",
+    "tensor_parallel_size": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.9
+  },
+  "source_paths": {
+    "source_metadata": "outputs/full_prediction_experiment/metadata.json",
+    "source_predictions": "outputs/full_prediction_experiment/predictions_correct_k3_rubric.jsonl",
+    "source_manifest": "outputs/full_prediction_experiment/target_manifest.jsonl",
+    "rubric_path": "rubrics/ellipse_overall_rubric.md",
+    "prediction_prompt": "prompts/en/rubric_based_prediction.txt",
+    "reference_prompt": "prompts/en/reference_generation_rubric.txt",
+    "self_verification_prompt": "prompts/en/self_verification_rubric.txt",
+    "raw": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+    "processed": "data/processed/rater_essay_wide.csv",
+    "implementation": "src/recsaver/human_score_disagreement.py",
+    "parser": "src/recsaver/parsing.py",
+    "leakage": "src/recsaver/reference_audit.py",
+    "generation": "src/recsaver/reasoning_eval_v1.py",
+    "metrics": "src/recsaver/reasoning_eval_metrics.py",
+    "history": "src/recsaver/full_prediction_experiment.py"
+  },
+  "source_sha256": {
+    "source_metadata": "f325a833a9ee1dcaf2aff0404c6b8062c0092c2283d885abd4b374a6e1f1c604",
+    "source_predictions": "006f4cf70aaa15eeae1798879e188b65edeccf6db91cb394110a204923055f37",
+    "source_manifest": "8be81345326784e5c441d7ef18b663a8590fac0ef6a32d70ebc2de8545b76778",
+    "rubric_path": "eeba3fda10942e4c36e938b6d0f5e39efe39a65e3ead5ba14aa57d0040d0313d",
+    "prediction_prompt": "0f7eba01a6bd8cafcb97826a664ff889a2d5c38818457d276ff81f3807160f0e",
+    "reference_prompt": "0586cb7a4a655601a5ed1f0fbd253a5ca621eab3a61bf16f8d52e4d8c91c33d7",
+    "self_verification_prompt": "56142da314c314a88a937918d46083498cc051225b2bdb414a2f0f65e4f5546a",
+    "raw": "6972b8a960fc9f1986046aacef18792438bf90326ec55a89272932453e2f519b",
+    "processed": "36e0d243eaf3a6237ac666a04a835c8206123295cf6a7b2e9476c4c28bc5e920",
+    "implementation": "174ffd5ff48759fd54a6ccb5a9b9582767168c56beacfec8aae478e906088983",
+    "parser": "f44c80bbb5a04ccc0437f45194b5573c89ba68074aa29940ba44b00eaa17836e",
+    "leakage": "47a8f75e20f57431e97fe40005f9d51bb5272cef9fb238a483991b6236877349",
+    "generation": "0f3e1f3f6e9a0cb129af054fef078719fdd9d29dd1868ead1562917501fd951c",
+    "metrics": "36f285136056dd467f0ea3ce0cf0aed130a4a3a91c6f84c73b1c0dd17bef8eba",
+    "history": "322e836c21e981e0c9fcab60796a4af1c9236b95c1863f3403ca25b2660c06be"
+  },
+  "status": "completed_with_exclusions",
+  "target_count": 517,
+  "prediction_reused_count": 478,
+  "generation_config": {
+    "prediction": {
+      "temperature": 0.2,
+      "top_p": 0.8,
+      "max_tokens": 384
+    },
+    "reference": {
+      "temperature": 0.2,
+      "top_p": 0.8,
+      "max_tokens": 384
+    },
+    "verification": {
+      "temperature": 0.2,
+      "top_p": 0.8,
+      "max_tokens": 64
+    }
+  },
+  "notice": "参照理由は実Overallを条件としてLLMが生成した説明であり、採点者本人の実際の思考を示すものではありません。自己検証通過は説明の正しさを保証しません。予測点差の縮小や理由の生成だけで、採点者バイアスの是正・人間採点者間の点差縮小・フィードバックの効果は結論できません。",
+  "completed_targets": 517,
+  "reference_attempts": 4429,
+  "verification_attempts": 1102,
+  "reference_gpu_seconds": 21056.401483474358,
+  "verification_gpu_seconds": 3667.493002846652,
+  "reference_parse_errors": 2,
+  "verification_parse_errors": 0,
+  "context_errors": 0,
+  "code_migrations": [
+    {
+      "timestamp": "2026-11-06T07:21:26.991887+00:00",
+      "previous_fingerprint": "d7b6af609a6d3a4f9a793aaf6afda17cc9b356eec8ecdc23dcf81ad26407eeb5",
+      "reason": "Only cast pandas/numpy boolean to Python bool for phase-validation JSON; generation, prompts, seeds, inputs unchanged",
+      "previous_source_snapshot": "serialization_fix/source_before.py"
+    },
+    {
+      "timestamp": "2026-11-07T09:53:32.018888+00:00",
+      "previous_fingerprint": "084ac327224fde0d8ecd94977248a5640ca6578f99910c18dc485347abb288ca",
+      "affected_targets": [
+        "479:1",
+        "479:2",
+        "5081:1",
+        "816:2"
+      ],
+      "quarantined_records": {
+        "reference_candidates.jsonl": 30,
+        "self_verification_results.jsonl": 11,
+        "verified_reference_pool.jsonl": 11,
+        "metric_pairs.jsonl": 11
+      },
+      "reason": "Reference renderer incorrectly used original text for four anonymization variants; use identical canonical essay for prediction/reference/verification. Unaffected target outputs and all predictions retained.",
+      "previous_source_snapshot": "reference_text_fix/source_before.py"
+    }
+  ],
+  "runtime_migrations": [
+    {
+      "timestamp": "2026-11-06T07:35:44.207751+00:00",
+      "previous_fingerprint": "2d47e54cfddf58f9d3313381d21a0776698eff202e74ab34f1cfd12434a84c2f",
+      "old_gpu_memory_utilization": 0.6,
+      "new_gpu_memory_utilization": 0.5,
+      "reason": "VRAM usage reached 48GB and one batch stalled; reduce GPU reservation only; model/prompts/history/sampling/seeds unchanged"
+    },
+    {
+      "timestamp": "2026-11-06T07:51:07.439291+00:00",
+      "previous_fingerprint": "81a8fffaff171d5b16572407920153b87af68e8fb1e738dc99e9f50749c73ac7",
+      "old_batch_size": 10,
+      "new_batch_size": 64,
+      "reason": "Scheduler throughput adjustment only; per-request prompts, seeds, model and SamplingParams unchanged"
+    }
+  ],
+  "completed_at": "2026-11-07T10:00:55.871127+00:00",
+  "validation": {
+    "timestamp": "2026-11-07T10:00:55.871127+00:00",
+    "all_checks_passed": true,
+    "pairs": 259,
+    "targets": 518,
+    "processed_targets": 517,
+    "unavailable_targets": [
+      "8135:2"
+    ],
+    "predictions_reused": 478,
+    "new_predictions": 39,
+    "runtime_model": {
+      "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+      "quantization": "gptq_marlin",
+      "tensor_parallel_size": 1,
+      "max_model_len": 8192,
+      "gpu_memory_utilization": 0.5
+    },
+    "runtime_batch_size": 64,
+    "reference_attempts": 4429,
+    "verification_attempts": 1102,
+    "verified_reference_count": 938,
+    "metric_pairs": 938,
+    "reference_attempts_reused": 301,
+    "reference_slot_failure_counts": {
+      "no_leakage_free_candidate_within_five_attempts": 449,
+      "reconstructed_score_did_not_match_actual": 164,
+      "target_trait_profile_invalid_under_existing_preprocessing": 3
+    },
+    "remaining_reference_jobs": 0,
+    "remaining_verification_jobs": 0,
+    "human_evaluation": "not_performed",
+    "duplicate_pair_count": 0,
+    "all_target_essay_aliases_excluded": true,
+    "score_inputs_audited": true,
+    "packages": {
+      "vllm": "0.6.6.post1",
+      "torch": "2.5.1+cu121",
+      "transformers": "4.48.3",
+      "pandas": "2.3.3",
+      "nltk": "3.9.1",
+      "bert-score": "0.3.13"
+    },
+    "model_cache_revision": null,
+    "gpu": "NVIDIA RTX 6000 Ada Generation, 596.72, 49140 MiB"
+  },
+  "runtime_model": {
+    "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+    "quantization": "gptq_marlin",
+    "tensor_parallel_size": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.5
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "raw_rows": 8890,
+  "unique_texts": 8890,
+  "unique_filenames": 8880,
+  "filename_collisions": [
+    {
+      "Filename": "AAAUUP138180000089192125_OR",
+      "rows": [
+        479,
+        480
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.985691573926868,
+      "canonical_text_source_row_id": 480,
+      "action": "same_essay_anonymization_whitespace_variants; latest_text_used_for_both_raters; all_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000093712125_OR",
+      "rows": [
+        501,
+        502
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9833804809052333,
+      "canonical_text_source_row_id": 502,
+      "action": "same_essay_anonymization_whitespace_variants; latest_text_used_for_both_raters; all_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000097532125_OR",
+      "rows": [
+        547,
+        548
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.954284401562141,
+      "canonical_text_source_row_id": 548,
+      "action": "same_essay_anonymization_whitespace_variants; latest_text_used_for_both_raters; all_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000112122125_OR",
+      "rows": [
+        616,
+        617
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9554367201426025,
+      "canonical_text_source_row_id": 617,
+      "action": "same_essay_anonymization_whitespace_variants; latest_text_used_for_both_raters; all_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000117392125_OR",
+      "rows": [
+        641,
+        642
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.990094552003602,
+      "canonical_text_source_row_id": 642,
+      "action": "same_essay_anonymization_whitespace_variants; latest_text_used_for_both_raters; all_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000133182125_OR",
+      "rows": [
+        744,
+        745
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9444122756224667,
+      "canonical_text_source_row_id": 745,
+      "action": "same_essay_anonymization_whitespace_variants; latest_text_used_for_both_raters; all_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000193682125_OR",
+      "rows": [
+        816,
+        817
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9337885371404925,
+      "canonical_text_source_row_id": 817,
+      "action": "same_essay_anonymization_whitespace_variants; latest_text_used_for_both_raters; all_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAUUP138180000294872125_OR",
+      "rows": [
+        931,
+        932
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9956017592962815,
+      "canonical_text_source_row_id": 932,
+      "action": "same_essay_anonymization_whitespace_variants; latest_text_used_for_both_raters; all_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAXMP138200000496552810_OR",
+      "rows": [
+        4947,
+        4948
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9875074360499703,
+      "canonical_text_source_row_id": 4948,
+      "action": "same_essay_anonymization_whitespace_variants; latest_text_used_for_both_raters; all_aliases_excluded_from_history"
+    },
+    {
+      "Filename": "AAAXMP138200000777942850_OR",
+      "rows": [
+        5081,
+        5082
+      ],
+      "distinct_texts": 2,
+      "text_similarity": 0.9975494200294069,
+      "canonical_text_source_row_id": 5082,
+      "action": "same_essay_anonymization_whitespace_variants; latest_text_used_for_both_raters; all_aliases_excluded_from_history"
+    }
+  ],
+  "essay_rater_duplicates": [
+    {
+      "essay_key": "26224f3f8f2a7e573562e3a2c1ce32e698c8a1e82ec91c03dd765983d7814ba9",
+      "rater_id": "rater_2",
+      "target_ids": [
+        "816:1",
+        "817:2"
+      ],
+      "identical_overall": true,
+      "identical_traits": false,
+      "original_records": [
+        {
+          "target_id": "816:1",
+          "Overall": 4,
+          "Cohesion": 4,
+          "Syntax": 4,
+          "Vocabulary": 4,
+          "Phraseology": 4,
+          "Grammar": 3,
+          "Conventions": 3
+        },
+        {
+          "target_id": "817:2",
+          "Overall": 4,
+          "Cohesion": 4,
+          "Syntax": 3,
+          "Vocabulary": 4,
+          "Phraseology": 3,
+          "Grammar": 4,
+          "Conventions": 3
+        }
+      ],
+      "action": "keep_last_same_overall; preserve_trait_differences_in_audit"
+    }
+  ],
+  "essays_with_three_or_more_raters": 10,
+  "missing_rater_records": 0,
+  "invalid_overall_records": 44,
+  "invalid_trait_records": 41,
+  "raw_row_gap_distribution_including_invalid": {
+    "0": 4705,
+    "1": 3911,
+    "2": 258,
+    "3": 15,
+    "4": 1
+  },
+  "gaps": {
+    "3": {
+      "essays": 7,
+      "pairs": 7
+    },
+    "2": {
+      "essays": 252,
+      "pairs": 252
+    }
+  },
+  "expected_counts": {
+    "gap3_approx": 15,
+    "gap2_approx": 215
+  },
+  "identity_policy": "Filename identity; 10 duplicate Filename text variants manually inspected (whitespace/anonymization); latest variant used for all raters; same-essay aliases excluded from history",
+  "score_policy": "pair extraction: both Overall integer 1..5; histories/eligible targets: existing Overall+all Traits integer 1..5",
+  "target_preprocessing_failures": [
+    {
+      "target_id": "8135:2",
+      "failure_reason": "target_trait_profile_invalid_under_existing_preprocessing"
+    }
+  ]
+}

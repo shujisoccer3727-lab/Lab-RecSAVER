@@ -1,0 +1,16 @@
+{
+  "affected_targets": [
+    "479:1",
+    "479:2",
+    "5081:1",
+    "816:2"
+  ],
+  "quarantined_records": {
+    "reference_candidates.jsonl": 30,
+    "self_verification_results.jsonl": 11,
+    "verified_reference_pool.jsonl": 11,
+    "metric_pairs.jsonl": 11
+  },
+  "prediction_records_unchanged": true,
+  "unaffected_reference_records_unchanged": true
+}

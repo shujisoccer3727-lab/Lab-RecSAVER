@@ -1,0 +1,1440 @@
+# essay_08045__rater_1__rater_6
+
+参照理由は実Overallを条件としてLLMが生成した説明であり、採点者本人の実際の思考を示すものではありません。自己検証通過は説明の正しさを保証しません。予測点差の縮小や理由の生成だけで、採点者バイアスの是正・人間採点者間の点差縮小・フィードバックの効果は結論できません。
+
+## エッセイと人間の採点
+
+```
+{
+  "essay_id": "AAAUUP138190003472622148_OR",
+  "essay_key": "9eb97449886a6d8c7d9104a94e77d13abdaabd7e46c13b3abab6f3e6b8faafc3",
+  "filename_aliases": [
+    "AAAUUP138190003472622148_OR"
+  ],
+  "source_row_ids": [
+    8045
+  ],
+  "rater_a": "rater_1",
+  "actual_a": 4,
+  "rater_b": "rater_6",
+  "actual_b": 2,
+  "gap": 2
+}
+```
+
+```
+Students in school need to learn even if they don't have self-esteem because it's not all about self-esteem, sometimes it's all about the achievement, this is true because achievement is all about hard work, self-motivation, and increasing skills.
+
+True self-esteem come from praise because it keeps students to motivate. Some people think it increase self-confident because people are judging their work, even if the work is not the student's effort. Others believe that
+
+studying more is the best way to get student's work done.
+
+Firstly, self-esteem come from achievement because of self motivation, we have this mind-set that you can set your goals. For example, I am setting my goal to study my reviewer for my test, it motivates me because i know what i'm going to do ,and I know what i'm going to answer ,and i am Confident because i studied, this is why we have to study because people think that you can do it, this mind-set can lead you to success like passing all your subjects and get straight A's, that's because of motivating yourself. Additionally, Self motivation has positive attitude by influencing others, if you influence others, they will be proud of you because students know that you help them from doing their best effort to their school work and being strict to yourself like my brother is being strict to his self because if our mom see that he didn't do his homework, he is going to get smack and that is his responsibility as a son and student that needs to get his homework done.
+
+Secondly, Self-esteem can increase your skills by learning new things like reading books, For example, my sister saw an interesting books about driving, while she is reading it, she learned, that's how she achieve it, she taught her self, she is confident taking the test at DMV ,and she did her best effort. Sometimes students need to learn by themselves not relying to other people. Another reason why you need to learn new things is by experiencing summer camps, summer camp at universities helps you to be confident because people in universities are matured people, but they are still students, most people in college thinks that self-esteem come from the achievement and colleges they are confident to learn new things. If you down yourself that you will not graduate or pass the subjects, then, how about your achievements?. Increasing new skills need to have Originality, one of the thing is brainstorming. For example, My classmates have Writing SOL, they have to brainstorm their mind or else they will not pass the SOL, and I think they need to do their effort and self-esteem to their mind.
+
+Lastly, achievement needs to have an hardwork, hardwork can lead you to success, it may help students to study more, For example, my friend in high school, he doesn't really study at all, but then he realized, he was not going to graduate because he didn't pass al the exam, he didn't care about it, but after that he realize that he is not going to disappoint his mom, and then he worked hard, so that he can graduate. Success helps students to achieve their goals, If you really are a goal keeper, then you should work hard like immigrahts, they went here in the U.S. to work hard and get money, or to be successful because their country is still developing. Additionally, students should focus on what they are doing because it's easy to finish their work. For example, My classmates and i do our laboratory test on science, we didn't do anyrhing like talking, we just did what we have to do, and then after that we finished. Distractions is a part of achieving goals, Distractions is the enemy of focusing, that's why we have a source of being Self-esteem like taking a test, and there's so much noise that you hear, but you have the confidence that you are going to perfect or pass the it because you listen, and learned.
+
+I agree that true self-esteem come from achievement, this is only my opinion, but when you have self-esteem, it's easy for you to get on to the goals that you really want like you want to be a teacher, engineer, doctor, etc., like the last paragraph that I said about "hardwork", if you don't know what you are doing , then you don't quit, you work hard, and have a self-esteem not by listening to other people's opinion ,or just because someone is praising you kindly that doesn't mean you will rely on that person forever, It's much better if you have inspiration, but no matter what you need to achieve what you've been dreaming ever since you are in the high school, because let's be honest high school is tough, like what i said you do need to work hard, self-motivation, and increase your skills about learning, and we all know that "Education is a key to success".
+```
+
+
+## 共通ルーブリック
+
+[使用したルーブリック全文](../rubric_used.md)
+
+
+## 処理概要
+
+```
+{
+  "case_id": "essay_08045__rater_1__rater_6",
+  "essay_key": "9eb97449886a6d8c7d9104a94e77d13abdaabd7e46c13b3abab6f3e6b8faafc3",
+  "essay_id": "AAAUUP138190003472622148_OR",
+  "filename_aliases": [
+    "AAAUUP138190003472622148_OR"
+  ],
+  "source_row_ids": [
+    8045
+  ],
+  "canonical_text_source_row_id": 8045,
+  "target_a": "8045:2",
+  "target_b": "8045:1",
+  "rater_a": "rater_1",
+  "rater_b": "rater_6",
+  "actual_a": 4,
+  "actual_b": 2,
+  "rater_count": 2,
+  "gap": 2,
+  "predicted_a": 3,
+  "predicted_b": 4,
+  "signed_error_a": -1,
+  "signed_error_b": 2,
+  "absolute_error_a": 1,
+  "absolute_error_b": 2,
+  "predicted_gap": 1,
+  "status_a": "completed",
+  "status_b": "completed",
+  "verified_a": 1,
+  "verified_b": 0,
+  "failure_a": null,
+  "failure_b": "no_leakage_free_candidate",
+  "processing_status": "success",
+  "reference_acquisition": "one"
+}
+```
+
+
+## 採点者 A: rater_1
+
+状態: completed / 参照理由取得数: 1 / 失敗理由: None
+
+
+### 使用した本人の履歴（全文・実スコア・Trait）
+
+```
+[History 1; ID=435:1]
+Essay:
+Former British Prime Minister Winston Churchill once said that "success consists of going from failure to failure without loss of enthusiasm" and I agree with what former said because to succeed in something you have to accomplish many steps to get there. Feeling motivated helps you succeed and accomplish your goal. Its better to keep failing at something over and over again because you can see what you need improvements on but eventually you're going to succeed.
+
+For an example, my sophomore year I was taking geometry and I didnt do very well during the school year but there was a point where I just didn't even care anymore. I failed all four quarters for that class during the year and I don't blame anyone but myself because I know I was capable of passing and succeeding the class. The reason why I didn't pass the class was because I didn't feel motivated and I just gave up too quickly just by a few fails I made. I kept failing constantly so I didnt even try anymore but If i would've followed from what Former said, I know I would've succeeded during the year.
+
+However, I took the class again that same year during summer school and I knew I had to pass and give it my all. From all the fails and mistakes I made, I learned from them. I kept practicing and I kept motivating myself, there wasn't a moment when I doubted myself. By the end of summer school I passed the class and all I had to pass was my SOL and I know I had to work hard to pass the SOL so I kept studying. The same day I took the test, I was going to receive my score and I took my time on it but eventually, my teacher told me I passed and I ended up getting the highest score from the class. I was proud of myself even though I failed many time I eventually succeeded.
+
+Former British Prime Minister Winston Churchill once said that "success consists of going from failure to failure without loss of enthusiasm" and from my experience thats why I agree with what Former said. The most important thing you can't do it do is give up because If i would've gave up I would've never succeeded. Its worth it to fail over
+
+and over again but without loss of enthusiasm and eventually succeeding.
+
+Overall: 4
+
+Trait Scores:
+Cohesion: 4
+Syntax: 4
+Vocabulary: 4
+Phraseology: 4
+Grammar: 3
+Conventions: 4
+
+---
+
+[History 2; ID=7878:2]
+Essay:
+Dear Principal,
+
+I do not think it is right for students to not play any sports, if they do not have at least a B as their grades. For some people it may be hard to get a B as their grades. Students that want to play sports should. They should get at least a C. Some of them may have a weakness in a subject. Some may want to maybe get fit in a sport and make sure their health is good. They cant get that, because they have to get a B as their grades. Then there would be less players in a team of soccer, basketball, or volleyball. Less than half the school will raise their grades up just to be in a sport they may be passionate about. Making the students get a B average to be on a sport could get us students a little upset, because we may not agree on the fact that you do not ask for our opinion. It should be about getting a passing grade, because a C is a passing grade. Many of us have a C average in this school. Please change your mind and see if most of the school agrees or disagrees wit your decision.
+
+Sincerely,
+
+STUDENT_NAME      
+
+Overall: 3
+
+Trait Scores:
+Cohesion: 2
+Syntax: 3
+Vocabulary: 3
+Phraseology: 3
+Grammar: 3
+Conventions: 3
+
+---
+
+[History 3; ID=3442:2]
+Essay:
+Many people believe that self-esteem comes from achievement.
+
+They believe that the source of true self-esteem is achievement.
+
+True self-esteem comes from achievement because accomplishing a goal pushes you to try harder, help you praise yourself, and it is a long lasting satisfaction for you to remember.
+
+Accomplishing a goal pushes you to try harder.
+
+This is important because achievements comes from all your goals you have accomplished and that helps you want to try harder and to achieve many other goals you might have that you want to achieve.
+
+This helps you build self-esteem by making you feel good for what you have accomplished.
+
+Also since it makes you feel good it helps you want to accomplish other things because it makes your self-confidence grow stronger.
+
+Also achievement helps you praise yourself.
+
+What this means is praising yourself inspires you to continue to do many other things.
+
+Praising yourself keeps you wanting to keep on achieving your goals.
+
+It is like an inspiration because you know that after any achievement you are going to praise yourself and that is going to make you feel good.
+
+So praising yourself makes you have a higher self-esteem by helping you feel good within yourself.
+
+Moreover, achievement is a long lasting satisfaction.
+
+For example, you have jsut achieved a goal you've had for three years now it makes you feel very satisfied that you finally made it.
+
+Eventhough some may think satisfaction on something you achieve is not important you should because satisfaction with yourself makes your self-esteem go up.
+
+satisfaction is a result of an achievement and a achievement helps you be more confident with yourself.
+
+Achievement is the key to higher self-steem because it pushes you to try harder, helps you praise yourself a little more, and it is a long lasting satisfaction for you to remember.
+
+If you want to have higher self-steem then achievement is the key.                   
+
+Overall: 3
+
+Trait Scores:
+Cohesion: 3
+Syntax: 3
+Vocabulary: 4
+Phraseology: 3
+Grammar: 4
+Conventions: 4
+```
+
+
+### 実スコアを与えない予測Overall・予測理由
+
+```
+{
+  "predicted_overall": 3,
+  "prediction_reasoning": "The essay demonstrates a limited facility in the use of language, with occasional syntactic variety and a range of vocabulary, but there are noticeable errors in grammar and syntax that impede communication. The organization is generally controlled, but there are instances where the connections between ideas are absent or unsuccessful. The essay's argument is somewhat coherent, but the language inaccuracies and occasional lapses in clarity reduce the overall effectiveness of the communication.",
+  "parse_success": true,
+  "reused": true,
+  "reused_from": "outputs/full_prediction_experiment/predictions_correct_k3_rubric.jsonl"
+}
+```
+
+
+### 実スコア条件付き参照理由候補・全再試行・リーク検査
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 1,
+  "attempt_index": 1,
+  "seed": 3309132031,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates facility in the use of language with a range of syntactic variety and word choice, aligning with the criteria for a Score 4. The writer uses a variety of sentence structures and vocabulary, though there are occasional inaccuracies that do not significantly impede communication. The organization is generally controlled, with clear sections that support the main argument, although there are some lapses in coherence and connection between ideas. The grammar and conventions are mostly accurate, with some errors that do not severely affect the overall clarity. The essay effectively argues that true self-esteem comes from achievement, supported by personal examples and logical reasoning, which contributes to a well-rounded and persuasive argument.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.727828143937501,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 3309132031
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates facility in the use of language with a range of syntactic variety and word choice, aligning with the criteria for a Score 4. The writer uses a variety of sentence structures and vocabulary, though there are occasional inaccuracies that do not significantly impede communication. The organization is generally controlled, with clear sections that support the main argument, although there are some lapses in coherence and connection between ideas. The grammar and conventions are mostly accurate, with some errors that do not severely affect the overall clarity. The essay effectively argues that true self-esteem comes from achievement, supported by personal examples and logical reasoning, which contributes to a well-rounded and persuasive argument.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 4",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 2,
+  "attempt_index": 1,
+  "seed": 3017088204,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a facility in the use of language with a range of syntactic variety and word choice, aligning with the criteria for a Score 4. The writer uses varied sentence structures and a mix of vocabulary, though there are occasional inaccuracies that do not significantly impede communication. The organization of the essay is generally controlled, with clear sections addressing different aspects of the topic, although some connections between ideas could be more explicit. The grammar and conventions are mostly accurate, with some errors present but not frequent enough to substantially hinder understanding. The essay effectively conveys the writer's perspective on the importance of achievement and self-esteem, supported by personal examples and logical reasoning.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.727828143937501,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 3017088204
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a facility in the use of language with a range of syntactic variety and word choice, aligning with the criteria for a Score 4. The writer uses varied sentence structures and a mix of vocabulary, though there are occasional inaccuracies that do not significantly impede communication. The organization of the essay is generally controlled, with clear sections addressing different aspects of the topic, although some connections between ideas could be more explicit. The grammar and conventions are mostly accurate, with some errors present but not frequent enough to substantially hinder understanding. The essay effectively conveys the writer's perspective on the importance of achievement and self-esteem, supported by personal examples and logical reasoning.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 4",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 3,
+  "attempt_index": 1,
+  "seed": 3651297960,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are not always clear. The writer provides examples and personal anecdotes to support the argument, which enhances the coherence of the essay. While there are occasional inaccuracies in grammar and syntax, they rarely impede communication. The essay effectively conveys the main idea that true self-esteem comes from achievement, supported by various examples and personal experiences. The use of varied sentence structures and vocabulary contributes to the overall quality of the writing, aligning with the criteria for a Score 4.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.727828143937501,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 3651297960
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are not always clear. The writer provides examples and personal anecdotes to support the argument, which enhances the coherence of the essay. While there are occasional inaccuracies in grammar and syntax, they rarely impede communication. The essay effectively conveys the main idea that true self-esteem comes from achievement, supported by various examples and personal experiences. The use of varied sentence structures and vocabulary contributes to the overall quality of the writing, aligning with the criteria for a Score 4.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 4",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 1,
+  "attempt_index": 2,
+  "seed": 1121865884,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are missing or unsuccessful. The writer provides examples and personal anecdotes to support the argument that true self-esteem comes from achievement, which adds depth to the essay. However, there are occasional inaccuracies in grammar and syntax that sometimes impede communication, such as the inconsistent use of punctuation and some awkward phrasing. These elements align with the criteria for a Score 4, indicating a controlled organization and accuracy in grammar and conventions with occasional inaccuracies that rarely impede communication.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.580075221859374,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 1121865884
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are missing or unsuccessful. The writer provides examples and personal anecdotes to support the argument that true self-esteem comes from achievement, which adds depth to the essay. However, there are occasional inaccuracies in grammar and syntax that sometimes impede communication, such as the inconsistent use of punctuation and some awkward phrasing. These elements align with the criteria for a Score 4, indicating a controlled organization and accuracy in grammar and conventions with occasional inaccuracies that rarely impede communication.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 4",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 2,
+  "attempt_index": 2,
+  "seed": 1237495527,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are missing or unsuccessful. The writer provides examples and personal anecdotes to support the argument, which enhances the coherence of the essay. While there are occasional language inaccuracies, such as grammatical errors and awkward phrasing, these inaccuracies rarely impede communication. The essay effectively conveys the writer's perspective on the importance of achievement and self-motivation in building self-esteem, aligning with the criteria for a Score 4.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.580075221859374,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 1237495527
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are missing or unsuccessful. The writer provides examples and personal anecdotes to support the argument, which enhances the coherence of the essay. While there are occasional language inaccuracies, such as grammatical errors and awkward phrasing, these inaccuracies rarely impede communication. The essay effectively conveys the writer's perspective on the importance of achievement and self-motivation in building self-esteem, aligning with the criteria for a Score 4.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 4",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 3,
+  "attempt_index": 2,
+  "seed": 4294750582,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are less successful. The writer provides examples and personal anecdotes to support the argument, which enhances the coherence of the essay. While there are occasional inaccuracies in grammar and syntax, these do not significantly impede communication. The essay aligns with the criteria for a Score 4, as it shows a good command of language and structure, with only occasional errors that do not substantially hinder understanding.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.580075221859374,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 4294750582
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are less successful. The writer provides examples and personal anecdotes to support the argument, which enhances the coherence of the essay. While there are occasional inaccuracies in grammar and syntax, these do not significantly impede communication. The essay aligns with the criteria for a Score 4, as it shows a good command of language and structure, with only occasional errors that do not substantially hinder understanding.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 4",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 1,
+  "attempt_index": 3,
+  "seed": 2632549131,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a facility in the use of language with syntactic variety and a range of words and phrases, aligning with the criteria for a Score 4. The writer uses varied sentence structures and a mix of vocabulary, though there are occasional inaccuracies that do not significantly impede communication. The organization of the essay is generally controlled, with clear sections addressing different aspects of the topic. While there are some errors in grammar and syntax, they are infrequent enough that they do not substantially hinder the overall coherence and readability of the essay. The writer's argument is supported by personal examples and logical reasoning, contributing to a well-structured and persuasive piece.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.724739892015634,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 2632549131
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a facility in the use of language with syntactic variety and a range of words and phrases, aligning with the criteria for a Score 4. The writer uses varied sentence structures and a mix of vocabulary, though there are occasional inaccuracies that do not significantly impede communication. The organization of the essay is generally controlled, with clear sections addressing different aspects of the topic. While there are some errors in grammar and syntax, they are infrequent enough that they do not substantially hinder the overall coherence and readability of the essay. The writer's argument is supported by personal examples and logical reasoning, contributing to a well-structured and persuasive piece.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 4",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 2,
+  "attempt_index": 3,
+  "seed": 3672455925,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are less successful. The writer provides examples and personal anecdotes to support the argument, which enhances the coherence of the essay. While there are occasional inaccuracies in grammar and syntax, these do not significantly impede communication. The essay aligns with the criteria for a Score 4, as it shows a good command of language and structure, with only occasional errors that do not substantially hinder understanding.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.724739892015634,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 3672455925
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are less successful. The writer provides examples and personal anecdotes to support the argument, which enhances the coherence of the essay. While there are occasional inaccuracies in grammar and syntax, these do not significantly impede communication. The essay aligns with the criteria for a Score 4, as it shows a good command of language and structure, with only occasional errors that do not substantially hinder understanding.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 4",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 3,
+  "attempt_index": 3,
+  "seed": 2441210132,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a facility in the use of language with a range of words and phrases, and shows controlled organization. The writer presents a clear argument that true self-esteem comes from achievement, supported by personal examples and logical reasoning. The text is generally well-structured, with ideas logically connected, though there are occasional lapses in coherence. The grammar and conventions are mostly accurate, with some errors that do not significantly impede communication. The occasional language inaccuracies are minor and do not detract from the overall clarity of the message. This evaluation aligns with the rater's previous scoring patterns, where essays with similar levels of language facility and organization have received a score of 4.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.724739892015634,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 2441210132
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a facility in the use of language with a range of words and phrases, and shows controlled organization. The writer presents a clear argument that true self-esteem comes from achievement, supported by personal examples and logical reasoning. The text is generally well-structured, with ideas logically connected, though there are occasional lapses in coherence. The grammar and conventions are mostly accurate, with some errors that do not significantly impede communication. The occasional language inaccuracies are minor and do not detract from the overall clarity of the message. This evaluation aligns with the rater's previous scoring patterns, where essays with similar levels of language facility and organization have received a score of 4.",
+  "leaked": true,
+  "leakage_reason": "score_context: score of 4",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 1,
+  "attempt_index": 4,
+  "seed": 1251097597,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates facility in the use of language with a range of syntactic structures and vocabulary, aligning with the criteria for a Score 4. The writer employs varied sentence structures and a mix of vocabulary, though there are occasional inaccuracies that do not significantly impede communication. The organization of the essay is generally controlled, with clear sections discussing self-esteem, achievement, and hard work. Despite some grammatical errors and minor inconsistencies in word choice, the overall message is coherent and understandable. The essay provides examples and personal anecdotes that support the main argument, contributing to a well-structured and persuasive piece.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.519530780656254,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 1251097597
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates facility in the use of language with a range of syntactic structures and vocabulary, aligning with the criteria for a Score 4. The writer employs varied sentence structures and a mix of vocabulary, though there are occasional inaccuracies that do not significantly impede communication. The organization of the essay is generally controlled, with clear sections discussing self-esteem, achievement, and hard work. Despite some grammatical errors and minor inconsistencies in word choice, the overall message is coherent and understandable. The essay provides examples and personal anecdotes that support the main argument, contributing to a well-structured and persuasive piece.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 4",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 2,
+  "attempt_index": 4,
+  "seed": 1451911433,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates facility in the use of language with a variety of syntactic structures and a range of vocabulary and phrases. The organization is generally controlled, with the essay presenting a clear argument on the importance of achievement and self-esteem. The writer uses examples and personal anecdotes to support their points, which enhances the coherence of the essay. While there are occasional inaccuracies in grammar and syntax, such as the use of incorrect verb forms and some awkward phrasing, these do not significantly impede communication. The essay effectively conveys the writer's perspective on the relationship between self-esteem and achievement, making it plausible for this rater to assign a score that reflects a controlled level of language use and organization with occasional inaccuracies.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.519530780656254,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 1451911433
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates facility in the use of language with a variety of syntactic structures and a range of vocabulary and phrases. The organization is generally controlled, with the essay presenting a clear argument on the importance of achievement and self-esteem. The writer uses examples and personal anecdotes to support their points, which enhances the coherence of the essay. While there are occasional inaccuracies in grammar and syntax, such as the use of incorrect verb forms and some awkward phrasing, these do not significantly impede communication. The essay effectively conveys the writer's perspective on the relationship between self-esteem and achievement, making it plausible for this rater to assign a score that reflects a controlled level of language use and organization with occasional inaccuracies.",
+  "leaked": false,
+  "leakage_reason": "",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": true
+}
+```
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 3,
+  "attempt_index": 4,
+  "seed": 1211912889,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are not always clear. The writer provides examples and personal anecdotes to support the argument, which enhances the coherence of the essay. While there are occasional inaccuracies in grammar and syntax, they rarely impede communication. The essay effectively conveys the main argument that true self-esteem comes from achievement, supported by various examples and personal experiences. The overall quality aligns with the criteria for a Score 4, as the language use and organization are controlled, and the inaccuracies do not significantly hinder understanding.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.519530780656254,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 1211912889
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are not always clear. The writer provides examples and personal anecdotes to support the argument, which enhances the coherence of the essay. While there are occasional inaccuracies in grammar and syntax, they rarely impede communication. The essay effectively conveys the main argument that true self-esteem comes from achievement, supported by various examples and personal experiences. The overall quality aligns with the criteria for a Score 4, as the language use and organization are controlled, and the inaccuracies do not significantly hinder understanding.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 4",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 1,
+  "attempt_index": 5,
+  "seed": 2626464986,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are not always clear. The writer provides examples and personal anecdotes to support the argument, which enhances the coherence of the essay. While there are occasional inaccuracies in grammar and syntax, they rarely impede communication. The essay effectively conveys the writer's perspective on the importance of achievement and self-motivation in building self-esteem, aligning with the criteria for a Score 4.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.493089559578095,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 2626464986
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, though some connections are not always clear. The writer provides examples and personal anecdotes to support the argument, which enhances the coherence of the essay. While there are occasional inaccuracies in grammar and syntax, they rarely impede communication. The essay effectively conveys the writer's perspective on the importance of achievement and self-motivation in building self-esteem, aligning with the criteria for a Score 4.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 4",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:2",
+  "candidate_index": 3,
+  "attempt_index": 5,
+  "seed": 2579283815,
+  "prompt_tokens": 2790,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates a facility in the use of language with syntactic variety and a range of words and phrases, aligning with the criteria for a Score 4. The writer uses varied sentence structures and a mix of vocabulary, though there are occasional inaccuracies that do not significantly impede communication. The organization of the essay is generally controlled, with clear sections addressing self-esteem, achievement, and hard work. Despite some grammatical errors and minor inconsistencies in syntax, the overall communication is effective, supporting the plausibility of the assigned score.\"}",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 4.493089559578095,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 2579283815
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates a facility in the use of language with syntactic variety and a range of words and phrases, aligning with the criteria for a Score 4. The writer uses varied sentence structures and a mix of vocabulary, though there are occasional inaccuracies that do not significantly impede communication. The organization of the essay is generally controlled, with clear sections addressing self-esteem, achievement, and hard work. Despite some grammatical errors and minor inconsistencies in syntax, the overall communication is effective, supporting the plausibility of the assigned score.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 4",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+
+### 自己検証の全試行
+
+````
+{
+  "target_id": "8045:2",
+  "candidate_index": 2,
+  "attempt_index": 1,
+  "reference_attempt_index": 4,
+  "seed": 3000634177,
+  "prompt_tokens": 2860,
+  "raw_model_output": "```json\n{\n  \"predicted_overall\": 4\n}\n```",
+  "target_rater": "rater_1",
+  "history_ids": [
+    "435:1",
+    "7878:2",
+    "3442:2"
+  ],
+  "gold_overall": 4,
+  "inference_seconds": 3.0133284208125133,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 64,
+    "seed": 3000634177
+  },
+  "parse_success": true,
+  "reconstructed_overall": 4,
+  "verified": true
+}
+````
+
+
+### 検証済み参照理由（すべて）
+
+```
+[
+  {
+    "target_id": "8045:2",
+    "target_rater": "rater_1",
+    "candidate_index": 2,
+    "attempt_index": 4,
+    "gold_overall": 4,
+    "reference_reasoning": "The essay demonstrates facility in the use of language with a variety of syntactic structures and a range of vocabulary and phrases. The organization is generally controlled, with the essay presenting a clear argument on the importance of achievement and self-esteem. The writer uses examples and personal anecdotes to support their points, which enhances the coherence of the essay. While there are occasional inaccuracies in grammar and syntax, such as the use of incorrect verb forms and some awkward phrasing, these do not significantly impede communication. The essay effectively conveys the writer's perspective on the relationship between self-esteem and achievement, making it plausible for this rater to assign a score that reflects a controlled level of language use and organization with occasional inaccuracies.",
+    "history_ids": [
+      "435:1",
+      "7878:2",
+      "3442:2"
+    ],
+    "reconstructed_overall": 4,
+    "verified": true
+  }
+]
+```
+
+
+### 予測理由と各検証済み参照理由の既存指標
+
+```
+[
+  {
+    "target_id": "8045:2",
+    "candidate_index": 2,
+    "bleu": 0.14108719311787,
+    "rouge1_f1": 0.4723618090452262,
+    "meteor": 0.20298260149130076,
+    "bertscore_f1": 0.900100827217102
+  }
+]
+```
+
+```
+{
+  "bleu": {
+    "mean": 0.14108719311787,
+    "max": 0.14108719311787
+  },
+  "rouge1_f1": {
+    "mean": 0.4723618090452262,
+    "max": 0.4723618090452262
+  },
+  "meteor": {
+    "mean": 0.20298260149130076,
+    "max": 0.20298260149130076
+  },
+  "bertscore_f1": {
+    "mean": 0.900100827217102,
+    "max": 0.900100827217102
+  }
+}
+```
+
+
+## 採点者 B: rater_6
+
+状態: completed / 参照理由取得数: 0 / 失敗理由: no_leakage_free_candidate
+
+
+### 使用した本人の履歴（全文・実スコア・Trait）
+
+```
+[History 1; ID=8170:1]
+Essay:
+A strong self-esteem is what everyone wants to have, especially students. Lately people have been agreeing on the fact that students should be praised for their work even though their best effort was not given. Others might say that the root of self-esteem is achievement. I believe that the true source of self-esteem is achievement.
+
+Students that receive praise for their accomplished work won't actually build up any confidence because they' re depending on someone's praise, in this case their teacher. Teachers usually want their students to end up being independent in the future and see their students accomplish their dream. If all the teacher will ever do is praise the student for an effortless job, then the student won't get anywhere eventually. If the student does not receive any praise from their teacher, then the student wont try at all which is the opposite of a teachers goal. There are people in the world that accomplish their dream because they have given it there all by themselves. Those who get to where they wanted to be usually have a high self-esteem because of their achievement.
+
+Achievement can lead to so much good in ones life, especially starting from a young age. Although the word "achievement" can sometimes sound overwhelming because there has to be some effort involved, take it from my experience. I have never really studied for a history test because I would always depend on my teacher. I came to a point where I gave up depending on others for my history tests and started chomping down every single one of my notes. Eventually I got a perfect score, no one praised me for it, the best part is that I have become more independent to when studying for my history tests. Students shouldn't be waiting on anyone' s praise for the good of themselves.
+
+Students pay attention to what their peers say and do, this is important when it comes to achievement in a student' s life. Sometimes we have students who are more independent and who are more dependent. But most of the students will eventually grow out of their nests by the time they get to high school. That's great because then that will mean that more students will get out have more achievement in their lives equaling more self-esteem in their lives. But the student never really needed praise in their life, all they needed was a little push of independence.
+
+In conclusion, Students self-esteem will never root itself from praise, it will have the opposite result of what teacher wants in their students lives and future. Even though achievement takes a little time to see in ones life you will always find one. Students can also become more independent when they dont have any praise in their life. Praise might work for a toddler, but not for a student whose in school trying to achieve something in life. Just knowing that achievement can always be seen in others, its contagious.
+
+Overall: 5
+
+Trait Scores:
+Cohesion: 5
+Syntax: 5
+Vocabulary: 4
+Phraseology: 5
+Grammar: 4
+Conventions: 5
+
+---
+
+[History 2; ID=5958:1]
+Essay:
+American jazz legend Duke Ellington once said, ''A problem is a chance for you to do your best." The meaning of this quote is about how whenever there is a problem how you can have a chance to do your best. For example:If you fail a math you could get determination to learn and study hard for every single test not only math so you can pass the test,semester,class and school year also be the the bast in the class or even grade. If you end up getting determinant for any subject not even school related it could be possible for that to turn in to your future job. Another example: Let's say you like riding bikes fora hobby and you get into a bad crash. Once you have healed from the crash you remember how fun it was riding. You always have had a part of you wanting to do it competitively for a full time job and you finally have the chance to. After the crash you dont want your old boring job of sitting in front of the computer all day. Now your going to go and try riding competitively and racing for your new job.
+
+I agree with Duke Ellington's quote. I have had some problems and it made me do my best. What Duke would have most likely said that it wasent easy for him to get to where he got with his jazz music. It most likely took him lots of months or years to lean to play and than to get really good at it he also made his own songs and become a hit
+
+for being one of the first black man in America to get famous from playing jazz. Duke Ellington made jazz music a hit in the entire world.       
+
+Overall: 4
+
+Trait Scores:
+Cohesion: 4
+Syntax: 4
+Vocabulary: 4
+Phraseology: 3
+Grammar: 3
+Conventions: 4
+
+---
+
+[History 3; ID=3779:1]
+Essay:
+Who would not want to accomplish more in life? Well let me tell you a little story about a year ago, right before I turn 17. My mom told me when I turn 17 I should get a job, but me on the other hand didn't want to get a job. I liked my life just the way it was, because my dad and she always gave me whatever I wanted. For me back then, I always
+
+thought that to accomplish something was easy. But when I turned 17 I had to get a job. It questioned my mind through the day I went there, Because it was such a pain and uneasy job. But if I had not stayed at that job, my life would have been a completely total disaster. That's why I think that we accomplish more if we are always doing something because of hard-works, volunteers and professions.
+
+First, we accomplished more because of hard-works. If we don't work how would we be able to pay tasks, take care of ourselves, and eat or/drink? Well none of these stuff would be possible. For some people when they hear work in their minds they think it's just a peace of cake, but in reality, such works requires: sweat, tears, and pain. I said these things because I have seen people who experienced them in their lives. For instance, about a week ago I went to work, I perceived
+
+a struggled man emotionally working outside in the rain, It was so painful to watch. So I questioned him why was he so emotional and he answered he has no family or nowhere to go. That was when I realize that working can be painful too. But if he had give up, he would not have been able to accomplish anything in his life. If we continuously be doing something in our lives the world will be a better place.
+
+Secondly, we can volunteer to be accomplished in something. We don't necessarily have get paid to volunteer in something. For instance, when my parents or the school are doing tasks I always volunteer. But that doesn't mean I'm useless, it means That I am grateful and willing to help people in needs. By all means, I think that volunteer is a wonderful thing to do. And if we stop ourselves from helping other human like us in needs, then we are literally the worst. We shall always do something to accomplish more, including: help people, treat people equally, and keep positive attitudes around others. Because these little things in life always help people to be successful.
+
+Thirdly, some people view professions as an easy thing. Well to be a professional is not easy, it include: high education, a diploma, and work skills. Which means students have to be well educated, graduate from high school, get a diploma, and have experiences in life. professionals work hard to be successful in life. Some students nowadays, mostly like to drop out of school, when things are getting hard for them. However, they need to never question themselves or tell themselves they cannot do more. That reminds me of a quote that states "You can do more than you know." Of course we can do more, we shall fight to be successful, and never stop for anything. As a matter of fact, we shall not be afraid to face anything that come to us at all. We should have confident, and hope that tomorrow will be better. So we always need to do more things in order to accomplish.
+
+In order to be successful in life, we should continuously be doing something to accomplish more, because that is what matter. We shall never give up on important things, Because, then at the end we will regret it. The least important we can do is sit back and watch people successfully walking onto us. That's why I think if we are always doing somethings we will accomplish more, and a lot of things may be done because of hard-works, volunteers, and professions. The world needs more active people than lazy. So let us all come together and do more works to accomplish more.
+
+Overall: 4
+
+Trait Scores:
+Cohesion: 4
+Syntax: 3
+Vocabulary: 4
+Phraseology: 3
+Grammar: 3
+Conventions: 4
+```
+
+
+### 実スコアを与えない予測Overall・予測理由
+
+```
+{
+  "predicted_overall": 4,
+  "prediction_reasoning": "The essay demonstrates facility in the use of language with a range of words and phrases, and the organization is generally controlled, though there are occasional lapses in coherence. The essay contains occasional language inaccuracies, such as grammatical errors and awkward phrasing, but these do not significantly impede communication. The content is coherent and the arguments are generally well-supported, aligning with the criteria for a score of 4.",
+  "parse_success": true,
+  "reused": true,
+  "reused_from": "outputs/full_prediction_experiment/predictions_correct_k3_rubric.jsonl"
+}
+```
+
+
+### 実スコア条件付き参照理由候補・全再試行・リーク検査
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 1,
+  "attempt_index": 1,
+  "seed": 3389589180,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The writer struggles with syntax and grammar, leading to sentences that are often unclear or difficult to follow. For example, the phrase 'this is true because achievement is all about hard work, self-motivation, and increasing skills' lacks coherence and clarity. Additionally, the organization of the essay is partially developed but may be missing or unsuccessful, with ideas not always logically connected. The essay also contains frequent language inaccuracies that impede communication, such as 'True self-esteem come from praise because it keeps students to motivate' and 'If you really are a goal keeper, then you should work hard like immigrahts'. These issues collectively suggest that the communication is impeded in many instances by language inaccuracies, fitting the criteria for a score of 2.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.727828143937501,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 3389589180
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The writer struggles with syntax and grammar, leading to sentences that are often unclear or difficult to follow. For example, the phrase 'this is true because achievement is all about hard work, self-motivation, and increasing skills' lacks coherence and clarity. Additionally, the organization of the essay is partially developed but may be missing or unsuccessful, with ideas not always logically connected. The essay also contains frequent language inaccuracies that impede communication, such as 'True self-esteem come from praise because it keeps students to motivate' and 'If you really are a goal keeper, then you should work hard like immigrahts'. These issues collectively suggest that the communication is impeded in many instances by language inaccuracies, fitting the criteria for a score of 2.",
+  "leaked": true,
+  "leakage_reason": "score_context: score of 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 2,
+  "attempt_index": 1,
+  "seed": 2809593706,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The text contains numerous grammatical errors, such as incorrect verb forms, missing punctuation, and awkward phrasing, which impede communication. The organization is partially developed but often lacks coherence, making it difficult to follow the argument. Additionally, the essay relies heavily on personal anecdotes and examples that are not always clearly connected to the main points, further complicating the reader's understanding. These factors collectively suggest a score that reflects significant language inaccuracies and organizational issues.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.727828143937501,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 2809593706
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The text contains numerous grammatical errors, such as incorrect verb forms, missing punctuation, and awkward phrasing, which impede communication. The organization is partially developed but often lacks coherence, making it difficult to follow the argument. Additionally, the essay relies heavily on personal anecdotes and examples that are not always clearly connected to the main points, further complicating the reader's understanding. These factors collectively suggest a score that reflects significant language inaccuracies and organizational issues.",
+  "leaked": true,
+  "leakage_reason": "score_context: score of 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 1,
+  "attempt_index": 2,
+  "seed": 4271213571,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The text contains numerous grammatical errors, such as incorrect verb forms, punctuation issues, and awkward phrasing, which impede clear communication. The organization is partially developed but often lacks coherence, with ideas not always logically connected. The essay occasionally presents relevant examples, but the overall structure and language inaccuracies significantly hinder the clarity and effectiveness of the argument.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.580075221859374,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 4271213571
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The text contains numerous grammatical errors, such as incorrect verb forms, punctuation issues, and awkward phrasing, which impede clear communication. The organization is partially developed but often lacks coherence, with ideas not always logically connected. The essay occasionally presents relevant examples, but the overall structure and language inaccuracies significantly hinder the clarity and effectiveness of the argument.",
+  "leaked": true,
+  "leakage_reason": "score_context: score of 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 2,
+  "attempt_index": 2,
+  "seed": 1216606202,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the criteria for an Overall score of 2. The text contains numerous grammatical errors, such as incorrect verb forms, missing punctuation, and awkward phrasing, which impede communication. The organization is partially developed but often lacks clear connections between ideas, making it difficult to follow the argument. Additionally, the essay relies heavily on personal anecdotes without fully developing the points, leading to a disjointed and less coherent structure. These factors collectively support the evaluation of the essay at this level.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.580075221859374,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 1216606202
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the criteria for an Overall score of 2. The text contains numerous grammatical errors, such as incorrect verb forms, missing punctuation, and awkward phrasing, which impede communication. The organization is partially developed but often lacks clear connections between ideas, making it difficult to follow the argument. Additionally, the essay relies heavily on personal anecdotes without fully developing the points, leading to a disjointed and less coherent structure. These factors collectively support the evaluation of the essay at this level.",
+  "leaked": true,
+  "leakage_reason": "score_context: Overall score of 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 3,
+  "attempt_index": 1,
+  "seed": 3025659565,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the characteristics of a Score 2 essay. The writer struggles with syntax and grammar, leading to occasional language inaccuracies that impede communication. For example, the essay contains numerous run-on sentences, such as 'True self-esteem come from praise because it keeps students to motivate. Some people think it increase self-confident because people are judging their work, even if the work is not the student's effort.' Additionally, there are errors in grammar and usage, such as 'studying more is the best way to get student's work done,' which further hinders the clarity of the message. The organization is partially developed but may be missing or unsuccessful, as evidenced by the lack of a clear structure and the abrupt transitions between ideas. Overall, the essay's language inaccuracies impede communication in many instances, making a Score 2 evaluation plausible.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.580075221859374,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 3025659565
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the characteristics of a Score 2 essay. The writer struggles with syntax and grammar, leading to occasional language inaccuracies that impede communication. For example, the essay contains numerous run-on sentences, such as 'True self-esteem come from praise because it keeps students to motivate. Some people think it increase self-confident because people are judging their work, even if the work is not the student's effort.' Additionally, there are errors in grammar and usage, such as 'studying more is the best way to get student's work done,' which further hinders the clarity of the message. The organization is partially developed but may be missing or unsuccessful, as evidenced by the lack of a clear structure and the abrupt transitions between ideas. Overall, the essay's language inaccuracies impede communication in many instances, making a Score 2 evaluation plausible.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 1,
+  "attempt_index": 3,
+  "seed": 2290800347,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the criteria for a Score 2. The text contains numerous grammatical errors, such as incorrect verb forms, punctuation issues, and awkward phrasing, which impede communication. The organization is partially developed but often missing or unsuccessful, with ideas not always clearly connected or logically structured. The essay lacks a cohesive flow, making it difficult for the reader to follow the argument. Additionally, the vocabulary and phraseology are limited, with a reliance on common structures and generic vocabulary, further contributing to the overall impression of language inaccuracies that impede communication.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.724739892015634,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 2290800347
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the criteria for a Score 2. The text contains numerous grammatical errors, such as incorrect verb forms, punctuation issues, and awkward phrasing, which impede communication. The organization is partially developed but often missing or unsuccessful, with ideas not always clearly connected or logically structured. The essay lacks a cohesive flow, making it difficult for the reader to follow the argument. Additionally, the vocabulary and phraseology are limited, with a reliance on common structures and generic vocabulary, further contributing to the overall impression of language inaccuracies that impede communication.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 2,
+  "attempt_index": 3,
+  "seed": 11101789,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The text contains numerous grammatical errors, such as incorrect verb forms, punctuation issues, and awkward phrasing, which impede communication. The organization is partially developed but often missing or unsuccessful, with unclear transitions and a lack of cohesive structure. The writer attempts to make points about self-esteem and achievement, but the essay's structure and language inaccuracies significantly hinder the clarity and effectiveness of the argument.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.724739892015634,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 11101789
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The text contains numerous grammatical errors, such as incorrect verb forms, punctuation issues, and awkward phrasing, which impede communication. The organization is partially developed but often missing or unsuccessful, with unclear transitions and a lack of cohesive structure. The writer attempts to make points about self-esteem and achievement, but the essay's structure and language inaccuracies significantly hinder the clarity and effectiveness of the argument.",
+  "leaked": true,
+  "leakage_reason": "score_context: score of 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 3,
+  "attempt_index": 2,
+  "seed": 2152267857,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the criteria for an Overall score of 2. The text contains numerous grammatical errors, such as incorrect verb forms, missing punctuation, and awkward phrasing, which impede clear communication. The organization is partially developed but often lacks coherence, with ideas not always logically connected. The essay also shows a limited range of vocabulary and phrases, relying on common structures and generic terms. These factors collectively suggest that the communication is impeded in many instances by language inaccuracies, fitting the rubric's description for a score of 2.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.724739892015634,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 2152267857
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the criteria for an Overall score of 2. The text contains numerous grammatical errors, such as incorrect verb forms, missing punctuation, and awkward phrasing, which impede clear communication. The organization is partially developed but often lacks coherence, with ideas not always logically connected. The essay also shows a limited range of vocabulary and phrases, relying on common structures and generic terms. These factors collectively suggest that the communication is impeded in many instances by language inaccuracies, fitting the rubric's description for a score of 2.",
+  "leaked": true,
+  "leakage_reason": "score_context: Overall score of 2; score_context: score of 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 1,
+  "attempt_index": 4,
+  "seed": 585664013,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the criteria for a Score 2. The text contains numerous grammatical errors, such as incorrect verb forms, punctuation issues, and awkward phrasing, which impede communication. The organization is partially developed but often lacks clear connections between ideas, making it difficult to follow the argument. The writer attempts to provide examples and personal anecdotes to support the points, but the language inaccuracies and structural issues detract from the clarity and coherence of the essay.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.519530780656254,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 585664013
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the criteria for a Score 2. The text contains numerous grammatical errors, such as incorrect verb forms, punctuation issues, and awkward phrasing, which impede communication. The organization is partially developed but often lacks clear connections between ideas, making it difficult to follow the argument. The writer attempts to provide examples and personal anecdotes to support the points, but the language inaccuracies and structural issues detract from the clarity and coherence of the essay.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 2,
+  "attempt_index": 4,
+  "seed": 1137813788,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the characteristics of a Score 2 essay. The text contains frequent errors in grammar, syntax, and usage, which impede communication in many instances. The organization is partially developed but often missing or unsuccessful, leading to a disjointed flow of ideas. For example, the essay frequently shifts between topics without clear transitions, and there are numerous grammatical errors and awkward phrasings that disrupt the reader's understanding. These factors collectively justify the provided evaluation.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.519530780656254,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 1137813788
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the characteristics of a Score 2 essay. The text contains frequent errors in grammar, syntax, and usage, which impede communication in many instances. The organization is partially developed but often missing or unsuccessful, leading to a disjointed flow of ideas. For example, the essay frequently shifts between topics without clear transitions, and there are numerous grammatical errors and awkward phrasings that disrupt the reader's understanding. These factors collectively justify the provided evaluation.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 3,
+  "attempt_index": 3,
+  "seed": 455861653,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The writer struggles with syntax and grammar, leading to occasional incoherence and errors that impede communication. For example, the sentence 'True self-esteem come from praise because it keeps students to motivate' contains grammatical errors and lacks clarity. Additionally, the organization of ideas is partially developed, with some sections missing logical connections or being unsuccessful in conveying the intended message. The essay also includes frequent language inaccuracies, such as 'i know what i'm going to do' and 'i am Confident because i studied,' which further impede the overall communication.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.519530780656254,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 455861653
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The writer struggles with syntax and grammar, leading to occasional incoherence and errors that impede communication. For example, the sentence 'True self-esteem come from praise because it keeps students to motivate' contains grammatical errors and lacks clarity. Additionally, the organization of ideas is partially developed, with some sections missing logical connections or being unsuccessful in conveying the intended message. The essay also includes frequent language inaccuracies, such as 'i know what i'm going to do' and 'i am Confident because i studied,' which further impede the overall communication.",
+  "leaked": true,
+  "leakage_reason": "score_context: score of 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 1,
+  "attempt_index": 5,
+  "seed": 1528838571,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The text contains numerous grammatical errors, such as incorrect verb forms, missing punctuation, and awkward phrasing, which impede clear communication. The organization is partially developed but often lacks coherence, making it difficult to follow the argument. The essay occasionally presents relevant examples and ideas, but the overall structure and language inaccuracies significantly hinder the reader's understanding.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.493089559578095,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 1528838571
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The text contains numerous grammatical errors, such as incorrect verb forms, missing punctuation, and awkward phrasing, which impede clear communication. The organization is partially developed but often lacks coherence, making it difficult to follow the argument. The essay occasionally presents relevant examples and ideas, but the overall structure and language inaccuracies significantly hinder the reader's understanding.",
+  "leaked": true,
+  "leakage_reason": "score_context: score of 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 2,
+  "attempt_index": 5,
+  "seed": 2952787973,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the characteristics of a Score 2 essay. The text contains numerous grammatical errors, such as incorrect verb forms, punctuation issues, and awkward phrasing, which impede communication. The organization is partially developed but often lacks coherence, with ideas not always logically connected. The essay also shows a limited range of vocabulary and structures, further supporting the evaluation.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.493089559578095,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 2952787973
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the characteristics of a Score 2 essay. The text contains numerous grammatical errors, such as incorrect verb forms, punctuation issues, and awkward phrasing, which impede communication. The organization is partially developed but often lacks coherence, with ideas not always logically connected. The essay also shows a limited range of vocabulary and structures, further supporting the evaluation.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 3,
+  "attempt_index": 4,
+  "seed": 3317671685,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the characteristics of a Score 2 essay. The writer struggles with syntax and grammar, leading to occasional incoherence and errors that impede communication. For example, the sentence 'True self-esteem come from praise because it keeps students to motivate.' contains grammatical errors and lacks clarity. Additionally, the organization of the essay is partially developed, with some sections lacking clear connections, such as the transition from discussing self-motivation to the importance of learning new skills. These issues collectively suggest that the essay's language inaccuracies significantly impede communication, consistent with a Score 2 evaluation.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.493089559578095,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 3317671685
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with the characteristics of a Score 2 essay. The writer struggles with syntax and grammar, leading to occasional incoherence and errors that impede communication. For example, the sentence 'True self-esteem come from praise because it keeps students to motivate.' contains grammatical errors and lacks clarity. Additionally, the organization of the essay is partially developed, with some sections lacking clear connections, such as the transition from discussing self-motivation to the importance of learning new skills. These issues collectively suggest that the essay's language inaccuracies significantly impede communication, consistent with a Score 2 evaluation.",
+  "leaked": true,
+  "leakage_reason": "score_context: Score 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+```
+{
+  "target_id": "8045:1",
+  "candidate_index": 3,
+  "attempt_index": 5,
+  "seed": 3615375447,
+  "prompt_tokens": 3456,
+  "raw_model_output": "{\"reasoning\": \"The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The text contains numerous grammatical errors, such as incorrect punctuation, subject-verb agreement issues, and awkward phrasing. The organization is partially developed but often missing or unsuccessful, with ideas not always clearly connected. The essay's communication is impeded in many instances due to these language inaccuracies, making it difficult to follow the writer's arguments and examples.\"}",
+  "target_rater": "rater_6",
+  "history_ids": [
+    "8170:1",
+    "5958:1",
+    "3779:1"
+  ],
+  "gold_overall": 2,
+  "inference_seconds": 4.868574953984421,
+  "parse_error": null,
+  "sampling_parameters": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 384,
+    "seed": 3615375447
+  },
+  "parse_success": true,
+  "reference_reasoning": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics, which aligns with a score of 2. The text contains numerous grammatical errors, such as incorrect punctuation, subject-verb agreement issues, and awkward phrasing. The organization is partially developed but often missing or unsuccessful, with ideas not always clearly connected. The essay's communication is impeded in many instances due to these language inaccuracies, making it difficult to follow the writer's arguments and examples.",
+  "leaked": true,
+  "leakage_reason": "score_context: score of 2",
+  "other_score_disclosure": false,
+  "other_score_reason": "",
+  "accepted_as_leakage_free": false
+}
+```
+
+
+### 自己検証の全試行
+
+
+### 検証済み参照理由（すべて）
+
+```
+[]
+```
+
+
+### 予測理由と各検証済み参照理由の既存指標
+
+```
+[]
+```
+
+
+## 人手確認欄（未評価）
+
+記入は human_review.csv に保存してください。このレポートの再生成時もCSVの記入内容は維持します。
+
+
+- 両者の着目点・判断の違い：
+- 本文や履歴に裏付けられない説明：
+- ルーブリックに照らして再確認すべき判断：
+
+- 点差の縮小に役立ちそうか：[ ] 役立ちそう / [ ] 判断できない / [ ] 役立ちにくい
+- 上記の判断根拠：
+
+## 参照理由の枠ごとの取得・未取得理由
+
+
+採点者 A (rater_1)
+
+```json
+[
+  {
+    "candidate_index": 1,
+    "generation_attempts": 5,
+    "verified": false,
+    "failure_reason": "no_leakage_free_candidate_within_five_attempts",
+    "reconstructed_overall": null
+  },
+  {
+    "candidate_index": 2,
+    "generation_attempts": 4,
+    "verified": true,
+    "failure_reason": null,
+    "reconstructed_overall": 4
+  },
+  {
+    "candidate_index": 3,
+    "generation_attempts": 5,
+    "verified": false,
+    "failure_reason": "no_leakage_free_candidate_within_five_attempts",
+    "reconstructed_overall": null
+  }
+]
+```
+
+採点者 B (rater_6)
+
+```json
+[
+  {
+    "candidate_index": 1,
+    "generation_attempts": 5,
+    "verified": false,
+    "failure_reason": "no_leakage_free_candidate_within_five_attempts",
+    "reconstructed_overall": null
+  },
+  {
+    "candidate_index": 2,
+    "generation_attempts": 5,
+    "verified": false,
+    "failure_reason": "no_leakage_free_candidate_within_five_attempts",
+    "reconstructed_overall": null
+  },
+  {
+    "candidate_index": 3,
+    "generation_attempts": 5,
+    "verified": false,
+    "failure_reason": "no_leakage_free_candidate_within_five_attempts",
+    "reconstructed_overall": null
+  }
+]
+```

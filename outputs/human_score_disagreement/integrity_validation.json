@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-11-07T10:00:55.871127+00:00",
+  "all_checks_passed": true,
+  "pairs": 259,
+  "targets": 518,
+  "processed_targets": 517,
+  "unavailable_targets": [
+    "8135:2"
+  ],
+  "predictions_reused": 478,
+  "new_predictions": 39,
+  "runtime_model": {
+    "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+    "quantization": "gptq_marlin",
+    "tensor_parallel_size": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.5
+  },
+  "runtime_batch_size": 64,
+  "reference_attempts": 4429,
+  "verification_attempts": 1102,
+  "verified_reference_count": 938,
+  "metric_pairs": 938,
+  "reference_attempts_reused": 301,
+  "reference_slot_failure_counts": {
+    "no_leakage_free_candidate_within_five_attempts": 449,
+    "reconstructed_score_did_not_match_actual": 164,
+    "target_trait_profile_invalid_under_existing_preprocessing": 3
+  },
+  "remaining_reference_jobs": 0,
+  "remaining_verification_jobs": 0,
+  "human_evaluation": "not_performed",
+  "duplicate_pair_count": 0,
+  "all_target_essay_aliases_excluded": true,
+  "score_inputs_audited": true,
+  "packages": {
+    "vllm": "0.6.6.post1",
+    "torch": "2.5.1+cu121",
+    "transformers": "4.48.3",
+    "pandas": "2.3.3",
+    "nltk": "3.9.1",
+    "bert-score": "0.3.13"
+  },
+  "model_cache_revision": null,
+  "gpu": "NVIDIA RTX 6000 Ada Generation, 596.72, 49140 MiB"
+}
