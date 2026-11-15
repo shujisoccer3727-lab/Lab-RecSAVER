@@ -1,0 +1,7 @@
+版: feedback-pilot-v2/integrate/1.0
+採用された新規個別理由の答案単位整理から、この採点者の評価傾向候補を最大2件まとめてください。参照推論からの推定であり、本人の真の思考ではありません。Traitの高低からOverallへの重みや固有バイアスを断定しません。
+「どの特徴を持つ答案で、どんな評価判断が繰り返し説明されるか」を具体的に書きます。単に文法を評価する・誤りが低評価につながるでは不足です。証拠が一般論以上を支持しない場合、patternsを空にして限界を記録してください。架空の得点上限・減点規則は禁止です。
+候補ごとの支持に最低2件の異なるtarget_idが必要です。同じ答案の候補を2件と数えません。支持、反例、非該当、証拠不足を別々にします。候補不足を反例や非該当にしません。
+日本語のJSONのみ。patterns配列の各要素: pattern_id（P1等）、feature_context、repeated_judgment、inferred_tendency、support（target_idとclaim_idsを持つ要素の配列）、counterexamples（target_idとclaim_idsとreasonの配列）、non_applicable（target_idとreasonの配列）、insufficient_target_ids（ID配列）、limits。最上位にunknownsも返します。有効なeligible claim_idsのみ参照してください。
+
+INPUT_JSON:
