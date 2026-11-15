@@ -1,0 +1,142 @@
+{
+  "fingerprint": "6206c0a99a944476fe2840f393dfbcdc4bba57269a260c8e25c10d12cca80bcb",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates limited facility in the use of language, with occasional syntactic variety but frequent errors in sentence formation and word choice.",
+        "scope": "target",
+        "feature": "syntactic range",
+        "direction": "negative",
+        "quotes": [
+          "mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.",
+          "And if that still dont work then go to somewhere u think is a nice pleas to be and mediated."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes show frequent errors in sentence formation and word choice, such as 'Is aren by working hard' and 'somewhere u think is a nice pleas to be and mediated', supporting the claim of limited facility in language use.",
+        "overall_relation": "The rationale suggests that the essay's syntactic limitations align with a score indicating limited facility in language use.",
+        "limitations": "The essay does contain some syntactic variety, but the errors are frequent and significant enough to impede communication.",
+        "evidence_id": "8608:1.E1",
+        "target_id": "8608:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.",
+            "occurrences": [
+              {
+                "start": 0,
+                "end": 151,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "And if that still dont work then go to somewhere u think is a nice pleas to be and mediated.",
+            "occurrences": [
+              {
+                "start": 592,
+                "end": 684,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The organization is generally controlled, though connections between ideas are sometimes absent or unsuccessful.",
+        "scope": "target",
+        "feature": "global coherence",
+        "direction": "mixed",
+        "quotes": [
+          "And true to who you are as a person. And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.",
+          "Also if u really really want to get you self-esteem go to the gym be cues there is noting like work out and feeling a new look or u can buy a nice car and that well help to."
+        ],
+        "semantic_support": "uncertain",
+        "semantic_explanation": "The quotes show some control over the organization, but the connections between ideas are not always clear, such as the transition from 'true to who you are' to 'go for a run' and the abrupt shift to 'buy a nice car'.",
+        "overall_relation": "The rationale indicates that the essay's organization is somewhat controlled but lacks clear connections between ideas, which aligns with a score indicating limited coherence.",
+        "limitations": "The essay's organization is somewhat controlled, but the lack of clear connections between ideas can make the essay difficult to follow.",
+        "evidence_id": "8608:1.E2",
+        "target_id": "8608:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "And true to who you are as a person. And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.",
+            "occurrences": [
+              {
+                "start": 152,
+                "end": 307,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "Also if u really really want to get you self-esteem go to the gym be cues there is noting like work out and feeling a new look or u can buy a nice car and that well help to.",
+            "occurrences": [
+              {
+                "start": 685,
+                "end": 858,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "There are errors in grammar and syntax that impede communication in some cases.",
+        "scope": "target",
+        "feature": "communication impact",
+        "direction": "negative",
+        "quotes": [
+          "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.",
+          "That can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes contain grammatical and syntactical errors, such as 'u feel like every one and life get to hard' and 'if that dont help you the go buy a dog or a cat', which impede clear communication.",
+        "overall_relation": "The rationale suggests that these errors align with a score indicating that communication is impeded by language inaccuracies.",
+        "limitations": "While there are errors that impede communication, the essay does contain some coherent sentences and ideas.",
+        "evidence_id": "8608:1.E3",
+        "target_id": "8608:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.",
+            "occurrences": [
+              {
+                "start": 189,
+                "end": 307,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "That can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat.",
+            "occurrences": [
+              {
+                "start": 311,
+                "end": 404,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The essay attempts to convey ideas about self-esteem and ways to improve it, but the essay lacks coherence and clarity, with several grammatical inaccuracies and awkward phrasing.",
+    "history_separation": "None"
+  },
+  "timestamp": "2026-11-15T15:57:59.212092+09:00"
+}

@@ -1,0 +1,142 @@
+{
+  "fingerprint": "fbbeda449409c4362ca88eb93c01766e630f68bc64325da2109898d88a9db6bb",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates limited facility in the use of language, with some syntactic variety and a range of words and phrases, but also includes errors in grammar and syntax that impede communication.",
+        "scope": "target",
+        "feature": "language facility",
+        "direction": "negative",
+        "quotes": [
+          "I think if the student want to required for community service.",
+          "They cant make the students to do community service."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes show grammatical errors and syntax issues that align with the claim of limited facility in language use and communication impediments.",
+        "overall_relation": "The claim supports the observed Overall score of 3, indicating that while there is some language use, it is marred by errors.",
+        "limitations": "The claim does not account for the presence of some coherent sentences and ideas.",
+        "evidence_id": "7836:1.E1",
+        "target_id": "7836:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "I think if the student want to required for community service.",
+            "occurrences": [
+              {
+                "start": 19,
+                "end": 81,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "They cant make the students to do community service.",
+            "occurrences": [
+              {
+                "start": 82,
+                "end": 134,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The organization is generally controlled, but there are instances where connections between ideas are absent or unsuccessful.",
+        "scope": "target",
+        "feature": "organization",
+        "direction": "mixed",
+        "quotes": [
+          "I think if the student want to required for community service. They cant make the students to do community service. I am pretty sure they can't make the students to do community service because the parents won't. But if the student get in trouble then yes they have to because they have to do community service.",
+          "Also some student care about the community so they do those stuff like clean the streets pick up trash and all those stuff."
+        ],
+        "semantic_support": "uncertain",
+        "semantic_explanation": "The quotes show a lack of clear structure and development of ideas, but it is not entirely clear if the organization is controlled or not, as the ideas are somewhat disjointed.",
+        "overall_relation": "The claim supports the observed Overall score of 3, indicating that while there is some control over organization, it is not fully successful.",
+        "limitations": "The claim does not specify which parts of the essay are well-organized and which are not.",
+        "evidence_id": "7836:1.E2",
+        "target_id": "7836:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "I think if the student want to required for community service. They cant make the students to do community service. I am pretty sure they can't make the students to do community service because the parents won't. But if the student get in trouble then yes they have to because they have to do community service.",
+            "occurrences": [
+              {
+                "start": 19,
+                "end": 330,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "Also some student care about the community so they do those stuff like clean the streets pick up trash and all those stuff.",
+            "occurrences": [
+              {
+                "start": 331,
+                "end": 454,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer's intent is somewhat clear, but the presence of language inaccuracies, such as 'I think if the student want to required for community service' and 'They cant make the students to do community service,' hinders the overall coherence and clarity of the message.",
+        "scope": "target",
+        "feature": "clarity and coherence",
+        "direction": "negative",
+        "quotes": [
+          "I think if the student want to required for community service.",
+          "They cant make the students to do community service."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes show language inaccuracies that hinder the clarity and coherence of the message, supporting the claim.",
+        "overall_relation": "The claim supports the observed Overall score of 3, indicating that while the intent is somewhat clear, it is hindered by language inaccuracies.",
+        "limitations": "The claim does not address the presence of some clear and coherent sentences.",
+        "evidence_id": "7836:1.E3",
+        "target_id": "7836:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "I think if the student want to required for community service.",
+            "occurrences": [
+              {
+                "start": 19,
+                "end": 81,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "They cant make the students to do community service.",
+            "occurrences": [
+              {
+                "start": 82,
+                "end": 134,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "Claims about the frequency of errors and the impact on communication were not extracted as they were not substantively distinct from the extracted claims.",
+    "history_separation": "There are no explicit mentions of historical inputs in the rationale, and there are no ambiguities suggesting a mix of target and historical claims."
+  },
+  "timestamp": "2026-11-15T16:22:30.059735+09:00"
+}

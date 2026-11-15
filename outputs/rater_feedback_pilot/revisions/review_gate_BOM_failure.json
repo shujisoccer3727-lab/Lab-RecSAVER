@@ -1,0 +1,7 @@
+{
+  "phase": "pilot-and-expand",
+  "started_at": "2026-11-15T16:10:47.143249+09:00",
+  "status": "failed",
+  "error": "Traceback (most recent call last):\n  File \"/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/src/recsaver/rater_feedback_pilot.py\", line 547, in main\n    review = json.loads(gate.read_text())\n  File \"/home/guestuser/miniforge3/envs/qwen3/lib/python3.10/json/__init__.py\", line 335, in loads\n    raise JSONDecodeError(\"Unexpected UTF-8 BOM (decode using utf-8-sig)\",\njson.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)\n",
+  "ended_at": "2026-11-15T16:14:35.354402+09:00"
+}

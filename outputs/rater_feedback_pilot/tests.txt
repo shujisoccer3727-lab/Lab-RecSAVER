@@ -1,0 +1,16 @@
+test_absent_quote_excluded (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_exact_offsets_and_repeated_occurrences (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_history_never_target_support (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_invented_rationale_claim_excluded (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_missing_evidence_is_unassessed_not_nonapplicable (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_multiple_candidates_one_target_do_not_establish_pattern (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_review_cannot_promote_uncertain_evidence (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_review_downgrade_excludes_and_preserves_model_label (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_structured_C_keeps_actual_scores_and_exact_quotes (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_uncertain_semantics_not_rescued_by_exact_quote (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_unsupported_rule_review_preserves_raw_but_excludes_rule (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.004s
+
+OK

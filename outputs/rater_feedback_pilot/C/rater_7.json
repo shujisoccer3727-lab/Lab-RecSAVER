@@ -1,0 +1,270 @@
+{
+  "timestamp": "2026-11-15T16:13:29.133169+09:00",
+  "assembly": "C relation and text are model-generated; source metadata, full rubric, IDs, scores and exact quotations deterministically assembled",
+  "result": {
+    "elements": [
+      {
+        "number": 1,
+        "text": "Overall.S2: Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.\n\nOverall.S3: Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "evidence_ids": [],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3"
+        ],
+        "pattern_ids": [],
+        "relation_ids": []
+      },
+      {
+        "number": 2,
+        "text": "以下は観測Overallを条件として生成された参照推論から推定された傾向の候補であり、採点者本人の真の思考や評価の重みを示すものではない。2件以上の支持だけでは妥当性は証明されない。\n\n複数の答案から、文法と構文の誤りがコミュニケーションを阻害し、全体的な評価に影響を与えるという傾向が見られる。ただし、この傾向は完全に確立されていないため、他の評価パターンも考慮する必要がある。",
+        "evidence_ids": [
+          "1514:1.E1",
+          "1868:1.E3",
+          "8487:1.E1",
+          "8487:1.E3",
+          "8608:1.E1",
+          "8608:1.E3"
+        ],
+        "rubric_ids": [],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": [],
+        "model_text_before_scope_guard": "複数の答案から、文法と構文の誤りがコミュニケーションを阻害し、全体的な評価に影響を与えるという傾向が見られる。ただし、この傾向は完全に確立されていないため、他の評価パターンも考慮する必要がある。"
+      },
+      {
+        "number": 3,
+        "text": "引用された部分が全体の頻度や範囲を正確に反映しているかどうかを判断するための情報が不足している。全体の頻度や範囲を正確に評価するためには、文章全体を調査する必要がある。\n\n8487:1 / 8487:1.E1: \"something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\"\n\n8487:1 / 8487:1.E1: \"my goals is i want to be a police but first need to finish the school graduate i have a dora and she is my inpiration to be a big person because i have a beautiful girl went\"\n\n8487:1 / 8487:1.E2: \"in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing\"\n\n8487:1 / 8487:1.E2: \"my mom tell me one day i not in this life for so much time so you are lonely and i need to know you have your goals you need to complete the school you need the paper to say you graduate if you not finish school you are not nothing in your life because the principal thing if you need\"\n\n8608:1 / 8608:1.E1: \"mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.\"\n\n8608:1 / 8608:1.E1: \"And if that still dont work then go to somewhere u think is a nice pleas to be and mediated.\"\n\n8608:1 / 8608:1.E3: \"And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.\"\n\n8608:1 / 8608:1.E3: \"That can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat.\"",
+        "evidence_ids": [
+          "8487:1.E1",
+          "8487:1.E2",
+          "8608:1.E1",
+          "8608:1.E3"
+        ],
+        "rubric_ids": [],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": []
+      },
+      {
+        "number": 4,
+        "text": "与えられた個別の照合結果は、文法と構文の誤りがコミュニケーションを阻害するという点で一致しているが、誤りの頻度や範囲、組織化の程度については具体的な評価が不足している。これらの点を評価するためには、文章全体を調査する必要がある。\n\n8487:1（観測Overall 2、Overall.S2、比較先 Overall.S3）: 引用された文章は、文の形成、単語の選択、および機械的な要素（文法やスペル）において一貫性が欠けていることを示しています。例えば、「they doesn't work」や「i have a dora and she is my inpiration」などの表現は、公式条件で指摘されている「文の形成、単語の選択、および機械的な要素における一貫性の欠如」を支持します。 参照推論は、文の形成と機械的な要素における一貫性の欠如が全体的な得点に影響を与えることを示唆しています。また、組織の部分では、アイデアの不明瞭なつながりと断片的な思考が、全体的なスコアにネガティブな影響を与えると説明しています。 隣接段階との比較において、頻度や適切さの違いについての具体的な評価が不足しています。また、引用された部分が全体の頻度や範囲を正確に反映しているかどうかを判断するための情報が不足しています。\n\n8608:1（観測Overall 3、Overall.S3、比較先 Overall.S2）: 具体的な語形・文構造・接続が、公式条件の「Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.」の部分を検討する証拠になる。特に「errors in grammar and syntax and usage」や「Communication is impeded by language inaccuracies in some cases」の部分が該当する。 参照推論の「The essay demonstrates limited facility in the use of language, with occasional syntactic variety but frequent errors in sentence formation and word choice.」や「There are errors in grammar and syntax that impede communication in some cases.」の評価判断を観測Overallに対する説明として検討できる。 隣接段階との程度・頻度・適切さの違いについて、全体が正確、誤りがまれ、頻繁などの判断には全体を調べる必要がある。特に「Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.」との違いが不明瞭で、頻度や適切さの解釈差が残る。",
+        "evidence_ids": [
+          "8487:1.E1",
+          "8487:1.E2",
+          "8608:1.E1",
+          "8608:1.E3"
+        ],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3"
+        ],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": [
+          "R1",
+          "R2"
+        ]
+      },
+      {
+        "number": 5,
+        "text": "次の採点では、全体的な頻度と範囲を確認するために、文章全体を調査し、文法的誤りや組織の問題がどの程度頻繁に発生するかを評価する必要がある。また、引用された部分が全体の文章を代表しているかどうかを確認するための追加の前後文や段落を検討する必要がある。\n\nR1の論点から: 次の採点では、全体的な頻度と範囲を確認するために、文章全体を調査し、文法的誤りや組織の問題がどの程度頻繁に発生するかを評価する必要があります。また、引用された部分が全体の文章を代表しているかどうかを確認するための追加の前後文や段落を検討する必要があります。\n\nR2の論点から: その不足を踏まえ、次の採点で具体的に全体の頻度や誤りの範囲（語彙・構文）を確認する。また、誤りが頻繁に発生するか、全体が正確であるか、誤りがまれであるかを確認する。さらに、組織化の程度や接続の成功度を評価する。",
+        "evidence_ids": [
+          "8487:1.E1",
+          "8487:1.E2",
+          "8608:1.E1",
+          "8608:1.E3"
+        ],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3"
+        ],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": [
+          "R1",
+          "R2"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "R1",
+        "pattern_id": "P1",
+        "target_id": "8487:1",
+        "observed_overall": 2,
+        "evidence_ids": [
+          "8487:1.E1",
+          "8487:1.E2"
+        ],
+        "evidence_anchor": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words",
+        "rubric_id": "Overall.S2",
+        "condition_quote": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+        "comparison_rubric_id": "Overall.S3",
+        "comparison_condition_quote": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "model_explanations": {
+          "evidence_to_condition": "引用された文章は、文の形成、単語の選択、および機械的な要素（文法やスペル）において一貫性が欠けていることを示しています。例えば、「they doesn't work」や「i have a dora and she is my inpiration」などの表現は、公式条件で指摘されている「文の形成、単語の選択、および機械的な要素における一貫性の欠如」を支持します。",
+          "judgment_to_condition": "参照推論は、文の形成と機械的な要素における一貫性の欠如が全体的な得点に影響を与えることを示唆しています。また、組織の部分では、アイデアの不明瞭なつながりと断片的な思考が、全体的なスコアにネガティブな影響を与えると説明しています。",
+          "interpretation_or_missing_evidence": "隣接段階との比較において、頻度や適切さの違いについての具体的な評価が不足しています。また、引用された部分が全体の頻度や範囲を正確に反映しているかどうかを判断するための情報が不足しています。",
+          "next_check": "次の採点では、全体的な頻度と範囲を確認するために、文章全体を調査し、文法的誤りや組織の問題がどの程度頻繁に発生するかを評価する必要があります。また、引用された部分が全体の文章を代表しているかどうかを確認するための追加の前後文や段落を検討する必要があります。"
+        },
+        "evidence_to_condition": "8487:1 / 原文 \"something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\"。引用された文章は、文の形成、単語の選択、および機械的な要素（文法やスペル）において一貫性が欠けていることを示しています。例えば、「they doesn't work」や「i have a dora and she is my inpiration」などの表現は、公式条件で指摘されている「文の形成、単語の選択、および機械的な要素における一貫性の欠如」を支持します。",
+        "judgment_to_condition": "観測Overall 2。参照推論は、文の形成と機械的な要素における一貫性の欠如が全体的な得点に影響を与えることを示唆しています。また、組織の部分では、アイデアの不明瞭なつながりと断片的な思考が、全体的なスコアにネガティブな影響を与えると説明しています。",
+        "interpretation_or_missing_evidence": "隣接段階との比較において、頻度や適切さの違いについての具体的な評価が不足しています。また、引用された部分が全体の頻度や範囲を正確に反映しているかどうかを判断するための情報が不足しています。",
+        "next_check": "次の採点では、全体的な頻度と範囲を確認するために、文章全体を調査し、文法的誤りや組織の問題がどの程度頻繁に発生するかを評価する必要があります。また、引用された部分が全体の文章を代表しているかどうかを確認するための追加の前後文や段落を検討する必要があります。"
+      },
+      {
+        "relation_id": "R2",
+        "pattern_id": "P1",
+        "target_id": "8608:1",
+        "observed_overall": 3,
+        "evidence_ids": [
+          "8608:1.E1",
+          "8608:1.E3"
+        ],
+        "evidence_anchor": "mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.",
+        "rubric_id": "Overall.S3",
+        "condition_quote": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "comparison_rubric_id": "Overall.S2",
+        "comparison_condition_quote": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+        "model_explanations": {
+          "evidence_to_condition": "具体的な語形・文構造・接続が、公式条件の「Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.」の部分を検討する証拠になる。特に「errors in grammar and syntax and usage」や「Communication is impeded by language inaccuracies in some cases」の部分が該当する。",
+          "judgment_to_condition": "参照推論の「The essay demonstrates limited facility in the use of language, with occasional syntactic variety but frequent errors in sentence formation and word choice.」や「There are errors in grammar and syntax that impede communication in some cases.」の評価判断を観測Overallに対する説明として検討できる。",
+          "interpretation_or_missing_evidence": "隣接段階との程度・頻度・適切さの違いについて、全体が正確、誤りがまれ、頻繁などの判断には全体を調べる必要がある。特に「Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.」との違いが不明瞭で、頻度や適切さの解釈差が残る。",
+          "next_check": "その不足を踏まえ、次の採点で具体的に全体の頻度や誤りの範囲（語彙・構文）を確認する。また、誤りが頻繁に発生するか、全体が正確であるか、誤りがまれであるかを確認する。さらに、組織化の程度や接続の成功度を評価する。"
+        },
+        "evidence_to_condition": "8608:1 / 原文 \"mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.\"。具体的な語形・文構造・接続が、公式条件の「Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.」の部分を検討する証拠になる。特に「errors in grammar and syntax and usage」や「Communication is impeded by language inaccuracies in some cases」の部分が該当する。",
+        "judgment_to_condition": "観測Overall 3。参照推論の「The essay demonstrates limited facility in the use of language, with occasional syntactic variety but frequent errors in sentence formation and word choice.」や「There are errors in grammar and syntax that impede communication in some cases.」の評価判断を観測Overallに対する説明として検討できる。",
+        "interpretation_or_missing_evidence": "隣接段階との程度・頻度・適切さの違いについて、全体が正確、誤りがまれ、頻繁などの判断には全体を調べる必要がある。特に「Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.」との違いが不明瞭で、頻度や適切さの解釈差が残る。",
+        "next_check": "その不足を踏まえ、次の採点で具体的に全体の頻度や誤りの範囲（語彙・構文）を確認する。また、誤りが頻繁に発生するか、全体が正確であるか、誤りがまれであるかを確認する。さらに、組織化の程度や接続の成功度を評価する。"
+      }
+    ],
+    "limits": "このフィードバックは予備的なものであり、モデルの暫定判断に基づいています。真の思考や有効性を実証するものではありません。",
+    "assembly": "C relation and text are model-generated; source metadata, full rubric, IDs, scores and exact quotations deterministically assembled",
+    "citations": [
+      {
+        "evidence_id": "8487:1.E1",
+        "target_id": "8487:1",
+        "quote": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words",
+        "positions": [
+          {
+            "start": 0,
+            "end": 289,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "8487:1.E1",
+        "target_id": "8487:1",
+        "quote": "my goals is i want to be a police but first need to finish the school graduate i have a dora and she is my inpiration to be a big person because i have a beautiful girl went",
+        "positions": [
+          {
+            "start": 2303,
+            "end": 2476,
+            "line_start": 23,
+            "line_end": 23
+          }
+        ]
+      },
+      {
+        "evidence_id": "8487:1.E2",
+        "target_id": "8487:1",
+        "quote": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing",
+        "positions": [
+          {
+            "start": 293,
+            "end": 443,
+            "line_start": 3,
+            "line_end": 3
+          }
+        ]
+      },
+      {
+        "evidence_id": "8487:1.E2",
+        "target_id": "8487:1",
+        "quote": "my mom tell me one day i not in this life for so much time so you are lonely and i need to know you have your goals you need to complete the school you need the paper to say you graduate if you not finish school you are not nothing in your life because the principal thing if you need",
+        "positions": [
+          {
+            "start": 847,
+            "end": 1131,
+            "line_start": 13,
+            "line_end": 13
+          }
+        ]
+      },
+      {
+        "evidence_id": "8608:1.E1",
+        "target_id": "8608:1",
+        "quote": "mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.",
+        "positions": [
+          {
+            "start": 0,
+            "end": 151,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "8608:1.E1",
+        "target_id": "8608:1",
+        "quote": "And if that still dont work then go to somewhere u think is a nice pleas to be and mediated.",
+        "positions": [
+          {
+            "start": 592,
+            "end": 684,
+            "line_start": 5,
+            "line_end": 5
+          }
+        ]
+      },
+      {
+        "evidence_id": "8608:1.E3",
+        "target_id": "8608:1",
+        "quote": "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.",
+        "positions": [
+          {
+            "start": 189,
+            "end": 307,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "8608:1.E3",
+        "target_id": "8608:1",
+        "quote": "That can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat.",
+        "positions": [
+          {
+            "start": 311,
+            "end": 404,
+            "line_start": 3,
+            "line_end": 3
+          }
+        ]
+      }
+    ],
+    "scope_guard": "Programmatically added source-conditioning and candidate-status caveat; raw model text retained in C_text and calls.jsonl",
+    "quality_status": "pilot_outputs_require_revision_before_delivery",
+    "content_review": [
+      {
+        "rater_id": "rater_7",
+        "relation_id": "R1",
+        "relation_review": "they doesn't workなどの局所例と文形成の不安定さを結び付ける説明はある。一方、many instancesとsome casesの違いは具体的に判断できていない。",
+        "next_check_review": "引用の代表性・前後文・全体の確認を挙げており④の不足には対応するが、どの意味理解を再確認するかはなお抽象的。"
+      },
+      {
+        "rater_id": "rater_7",
+        "relation_id": "R2",
+        "relation_review": "生成説明は公式文と参照推論の引用・言い換えが中心。具体的な語形・文構造が条件にどう関わるかの説明が不足。固定アンカーの挿入だけで意味的対応が成立したとは扱わない。",
+        "next_check_review": "全体の頻度・語彙構文範囲・組織化を列挙し、特定した局所的論点からの具体的な確認方法にはなっていない。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "fingerprint": "c32d61b4241ae1b50f5434d856ea6f2fb39f7f74ac0209c149a93e4b4c21f6a6",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates limited facility in the use of language, with common structures and generic vocabulary.",
+        "scope": "target",
+        "feature": "language facility",
+        "direction": "negative",
+        "quotes": [
+          "First, when i mastered a high level degree, i can have better life.",
+          "In addition, i can get rich.",
+          "Last, i can achieve my goals."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay uses simple and repetitive structures, such as 'First, ...', 'In addition, ...', and 'Last, ...', which aligns with the claim of limited facility in language use.",
+        "overall_relation": "This claim supports the provided Overall score of 3, indicating that the essay shows some control but is limited in language use.",
+        "limitations": "The essay's repetitive structure may be seen as a lack of variety, but it also shows an attempt to organize ideas.",
+        "evidence_id": "8690:2.E1",
+        "target_id": "8690:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "First, when i mastered a high level degree, i can have better life.",
+            "occurrences": [
+              {
+                "start": 168,
+                "end": 235,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "In addition, i can get rich.",
+            "occurrences": [
+              {
+                "start": 576,
+                "end": 604,
+                "line_start": 7,
+                "line_end": 7
+              }
+            ]
+          },
+          {
+            "quote": "Last, i can achieve my goals.",
+            "occurrences": [
+              {
+                "start": 265,
+                "end": 294,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The organization is generally controlled, but connections between ideas are sometimes absent or unsuccessful.",
+        "scope": "target",
+        "feature": "organization",
+        "direction": "mixed",
+        "quotes": [
+          "First, i can have better life. by doing hard work in life. First, i can have my house. second, my kids can go to high level schools. finally, buying things i wants. with out doing nothing you will never have great life.",
+          "In addition, i can get rich. having money in your account. First, working with big Campinas. second, i will have my own businesses. Last, i will have cars and house. by having high level degrees."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay attempts to organize ideas into sections, but the connections between ideas are often unclear or missing, such as the transition from 'i can have better life' to 'having money in your account'.",
+        "overall_relation": "This claim aligns with the Overall score, indicating that while there is some control over organization, it is not fully successful.",
+        "limitations": "The essay's organization is somewhat controlled, but the lack of clear transitions between ideas reduces its effectiveness.",
+        "evidence_id": "8690:2.E2",
+        "target_id": "8690:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "First, i can have better life. by doing hard work in life. First, i can have my house. second, my kids can go to high level schools. finally, buying things i wants. with out doing nothing you will never have great life.",
+            "occurrences": []
+          },
+          {
+            "quote": "In addition, i can get rich. having money in your account. First, working with big Campinas. second, i will have my own businesses. Last, i will have cars and house. by having high level degrees.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "There are errors in grammar and syntax that occasionally impede communication.",
+        "scope": "target",
+        "feature": "grammar and syntax",
+        "direction": "negative",
+        "quotes": [
+          "First, when i mastered a high level degree, i can have better life.",
+          "With out degree you can not get best jobs in your life.",
+          "First, i can have my house. second, my kids can go to high level schools. finally, buying things i wants."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay contains numerous grammatical and syntactical errors, such as 'i can have better life' and 'With out degree', which impede clear communication.",
+        "overall_relation": "This claim supports the Overall score, indicating that the essay has errors that affect its clarity.",
+        "limitations": "While there are errors, the essay still conveys its main points, albeit with some difficulty.",
+        "evidence_id": "8690:2.E3",
+        "target_id": "8690:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "First, when i mastered a high level degree, i can have better life.",
+            "occurrences": [
+              {
+                "start": 168,
+                "end": 235,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "With out degree you can not get best jobs in your life.",
+            "occurrences": [
+              {
+                "start": 295,
+                "end": 350,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "First, i can have my house. second, my kids can go to high level schools. finally, buying things i wants.",
+            "occurrences": [
+              {
+                "start": 412,
+                "end": 517,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The writer attempts to support their argument with examples, but the language inaccuracies and structural issues make the communication less effective.",
+    "history_separation": "None"
+  },
+  "timestamp": "2026-11-15T16:21:23.163603+09:00"
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-11-14T12:42:14.480423+09:00",
+  "source_sha256": {
+    "outputs/reasoning_eval_large/resolved_config.yaml": "8407809f27659dbd6ea71879c180747cdcfd42b7dbc4ad38c6b3b5aabbe83a8e",
+    "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv": "6972b8a960fc9f1986046aacef18792438bf90326ec55a89272932453e2f519b",
+    "data/processed/rater_essay_wide.csv": "36e0d243eaf3a6237ac666a04a835c8206123295cf6a7b2e9476c4c28bc5e920",
+    "prompts/en/reference_generation_rubric.txt": "0586cb7a4a655601a5ed1f0fbd253a5ca621eab3a61bf16f8d52e4d8c91c33d7",
+    "prompts/en/self_verification_rubric.txt": "56142da314c314a88a937918d46083498cc051225b2bdb414a2f0f65e4f5546a",
+    "rubrics/ellipse_overall_rubric.md": "eeba3fda10942e4c36e938b6d0f5e39efe39a65e3ead5ba14aa57d0040d0313d",
+    "rubrics/ellipse_rubric_structured.json": "af5cf3309801793d630f83f3828eade60254c6e60b2968e75abc27591a7e32bb",
+    "outputs/reasoning_eval_large/verified_reference_pool.jsonl": "e62185f9cd61a5be093a3ab179721005dde6a2f7e886ac22de1a5a6771bd48e7",
+    "outputs/reasoning_eval_large/reference_candidates.jsonl": "1a882c8c3a3ed39718c99feff08ecca9c6c93734c0ded134539efd4c18f30fa4",
+    "outputs/reasoning_eval_large/self_verification_results.jsonl": "8619f3c5404724f19558b21a81027f2198ad0efda95d4ead19e35d94d9fffe47",
+    "outputs/reasoning_eval_large/metadata.json": "150759931989a84fa1c746ce30fe70ccc7595fae28c2f6ca60f5b6a7fa31e0c8",
+    "outputs/reasoning_eval_large/integrity_checks.json": "aa3cf3959e46095b57bea1cc9288708fe39e67b6624518792f4c71acb3e32df1"
+  },
+  "confirmed": [
+    "Overall score-conditioned reference reasoning",
+    "verification reconstructs rationale score, not evidence validity",
+    "actual IDs from raw Rater_1/Rater_2 values",
+    "raw logical row index + position target ID",
+    "exact target text and historical prompt reconstruction",
+    "Overall rubric MD matches stored structured transcription"
+  ],
+  "not_confirmed": [
+    "Source DOCX ELL_Rubrics (1).docx is absent; official transcription authenticity cannot be independently checked against original DOCX",
+    "Human rater true reasoning; actual trait weights; semantic correctness of generated rationales"
+  ],
+  "original_model": {
+    "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+    "quantization": "gptq_marlin",
+    "tensor_parallel_size": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.9
+  },
+  "original_generation": {
+    "reference": {
+      "temperature": 0.2,
+      "top_p": 0.8,
+      "max_tokens": 384
+    },
+    "verification": {
+      "temperature": 0.2,
+      "top_p": 0.8,
+      "max_tokens": 64
+    }
+  },
+  "original_prompt_paths": [
+    "prompts/en/reference_generation_rubric.txt",
+    "prompts/en/self_verification_rubric.txt"
+  ]
+}

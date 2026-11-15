@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-15T16:02:34.775584+09:00",
+  "completed_raters": 1,
+  "target_count": 10,
+  "extracted_claims": 30,
+  "semantic_support_counts": {
+    "supported": 19,
+    "uncertain": 11
+  },
+  "scope_counts": {
+    "target": 30
+  },
+  "usable_claims": 8,
+  "invalid_quote_count": 15,
+  "quote_count": 64,
+  "rationale_span_failures": 1,
+  "failed_calls": 2,
+  "successful_calls": 12,
+  "interpretation": "Claim rates describe at most three model-extracted claims per essay; not all rationale assertions or human validity rates."
+}

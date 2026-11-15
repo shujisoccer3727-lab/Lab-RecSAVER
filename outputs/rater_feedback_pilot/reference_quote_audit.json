@@ -1,0 +1,116 @@
+{
+  "method": "Heuristic double, smart and single quotation mark extraction; not exhaustive claim detection",
+  "explicit_quote_count": 8,
+  "target_count_with_explicit_quotes": 4,
+  "quotes": [
+    {
+      "target_id": "474:1",
+      "quote": "We all dose mistake in our life",
+      "target_occurrences": [
+        {
+          "start": 0,
+          "end": 31,
+          "line_start": 1,
+          "line_end": 1
+        }
+      ],
+      "punctuation_trimmed_match": true,
+      "history_matches": []
+    },
+    {
+      "target_id": "474:1",
+      "quote": "you will not going to learn from your mistake,",
+      "target_occurrences": [
+        {
+          "start": 99,
+          "end": 145,
+          "line_start": 3,
+          "line_end": 3
+        }
+      ],
+      "punctuation_trimmed_match": true,
+      "history_matches": []
+    },
+    {
+      "target_id": "2832:2",
+      "quote": "Some people thinks",
+      "target_occurrences": [
+        {
+          "start": 231,
+          "end": 249,
+          "line_start": 1,
+          "line_end": 1
+        }
+      ],
+      "punctuation_trimmed_match": true,
+      "history_matches": []
+    },
+    {
+      "target_id": "2832:2",
+      "quote": "people prefers,",
+      "target_occurrences": [],
+      "punctuation_trimmed_match": true,
+      "history_matches": []
+    },
+    {
+      "target_id": "7836:1",
+      "quote": "I think if the student want to required for community service",
+      "target_occurrences": [
+        {
+          "start": 19,
+          "end": 80,
+          "line_start": 3,
+          "line_end": 3
+        }
+      ],
+      "punctuation_trimmed_match": true,
+      "history_matches": []
+    },
+    {
+      "target_id": "7836:1",
+      "quote": "They cant make the students to do community service,",
+      "target_occurrences": [],
+      "punctuation_trimmed_match": true,
+      "history_matches": []
+    },
+    {
+      "target_id": "515:1",
+      "quote": "attend to school everyday",
+      "target_occurrences": [
+        {
+          "start": 300,
+          "end": 325,
+          "line_start": 1,
+          "line_end": 1
+        },
+        {
+          "start": 818,
+          "end": 843,
+          "line_start": 5,
+          "line_end": 5
+        },
+        {
+          "start": 891,
+          "end": 916,
+          "line_start": 5,
+          "line_end": 5
+        },
+        {
+          "start": 1655,
+          "end": 1680,
+          "line_start": 11,
+          "line_end": 11
+        }
+      ],
+      "punctuation_trimmed_match": true,
+      "history_matches": []
+    },
+    {
+      "target_id": "515:1",
+      "quote": "you can attend to classes from anywhere,",
+      "target_occurrences": [],
+      "punctuation_trimmed_match": true,
+      "history_matches": []
+    }
+  ]
+}

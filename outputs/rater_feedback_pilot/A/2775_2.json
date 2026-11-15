@@ -1,0 +1,128 @@
+{
+  "fingerprint": "c2ee87092d9c7d0f4882f0b1142dd612a9f22a8d6bef8cf66720d880e235677a",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates facility in the use of language with a range of words and phrases, though there are occasional inaccuracies and errors in grammar and syntax that do not significantly impede communication.",
+        "scope": "target",
+        "feature": "language facility",
+        "direction": "positive",
+        "quotes": [
+          "trying new things can help you to be successful, sometimes you inserted that into your mind that you have never done that thing then, you end up saying that you can't do that, but never ever make that egregious decision in you life unless you never try you never going to know.",
+          "Moreover, it is important for you to have more experience of everything than you have in order to flourish."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay uses a variety of phrases and words, such as 'trying new things can help you to be successful' and 'it is important for you to have more experience of everything', which demonstrates a range of language use. However, there are grammatical errors, such as 'you inserted that into your mind' and 'you never going to know', which do not significantly impede the overall communication.",
+        "overall_relation": "The rationale suggests that despite some inaccuracies, the essay effectively communicates its main points.",
+        "limitations": "The essay contains some grammatical errors, but these do not significantly impede communication.",
+        "evidence_id": "2775:2.E1",
+        "target_id": "2775:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "trying new things can help you to be successful, sometimes you inserted that into your mind that you have never done that thing then, you end up saying that you can't do that, but never ever make that egregious decision in you life unless you never try you never going to know.",
+            "occurrences": []
+          },
+          {
+            "quote": "Moreover, it is important for you to have more experience of everything than you have in order to flourish.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The text organization is generally controlled, with a clear introduction, body, and conclusion, although some connections between ideas are somewhat loose.",
+        "scope": "target",
+        "feature": "text organization",
+        "direction": "mixed",
+        "quotes": [
+          "The research study has shown that there are 25% of people thinks that trying same things over and over can never make you flourish in you life.",
+          "In Conclusion, it is salient to all of us to be good and stay active in everything that we can, because you never know when that all stuff that you have experience on can help you so we just need to be prepare it can flourish your future life."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay has a clear introduction and conclusion, but the connections between ideas are somewhat loose, as seen in the transition from the introduction to the body and the conclusion.",
+        "overall_relation": "The rationale indicates that the essay has a clear structure but with loose connections between ideas.",
+        "limitations": "The essay has a clear structure but lacks tight connections between ideas.",
+        "evidence_id": "2775:2.E2",
+        "target_id": "2775:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "The research study has shown that there are 25% of people thinks that trying same things over and over can never make you flourish in you life.",
+            "occurrences": [
+              {
+                "start": 0,
+                "end": 143,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "In Conclusion, it is salient to all of us to be good and stay active in everything that we can, because you never know when that all stuff that you have experience on can help you so we just need to be prepare it can flourish your future life.",
+            "occurrences": [
+              {
+                "start": 3521,
+                "end": 3764,
+                "line_start": 17,
+                "line_end": 17
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer provides examples and reasoning to support the argument that trying new things can lead to success and more opportunities, which contributes to the overall coherence of the essay.",
+        "scope": "target",
+        "feature": "argument support",
+        "direction": "positive",
+        "quotes": [
+          "For Example, a friend of mine named Generic_Name, once said that \"Try Try but don't Cry\" it means that don't ever think that you can't do it, you can and you can do it in better way than anyone else",
+          "For Example, a student at Generic_school named Generic_Name had said that \"if I take classes that related to my career in high school it can make myself to be prepare for career in future.\""
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay provides examples, such as the friend's quote and the student's statement, to support the argument that trying new things can lead to success and more opportunities.",
+        "overall_relation": "The rationale states that the essay effectively communicates its main points with relevant examples.",
+        "limitations": "The examples provided are somewhat generic and lack specificity.",
+        "evidence_id": "2775:2.E3",
+        "target_id": "2775:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "For Example, a friend of mine named Generic_Name, once said that \"Try Try but don't Cry\" it means that don't ever think that you can't do it, you can and you can do it in better way than anyone else",
+            "occurrences": [
+              {
+                "start": 877,
+                "end": 1075,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "For Example, a student at Generic_school named Generic_Name had said that \"if I take classes that related to my career in high school it can make myself to be prepare for career in future.\"",
+            "occurrences": [
+              {
+                "start": 1953,
+                "end": 2142,
+                "line_start": 9,
+                "line_end": 9
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The rationale does not make any other substantive claims about the essay.",
+    "history_separation": "There are no explicit mentions of historical inputs or ambiguities related to historical claims."
+  },
+  "timestamp": "2026-11-15T16:17:38.130503+09:00"
+}

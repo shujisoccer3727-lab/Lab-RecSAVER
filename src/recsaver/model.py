@@ -13,6 +13,7 @@ class VLLMGenerator:
             model=model["model_id"], quantization=model["quantization"],
             tensor_parallel_size=model["tensor_parallel_size"], max_model_len=model["max_model_len"],
             gpu_memory_utilization=model["gpu_memory_utilization"], trust_remote_code=True,
+            **model.get("runtime_options", {}),
         )
         self.tokenizer = self.llm.get_tokenizer()
 

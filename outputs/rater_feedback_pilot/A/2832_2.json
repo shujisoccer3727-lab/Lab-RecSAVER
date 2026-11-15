@@ -1,0 +1,135 @@
+{
+  "fingerprint": "ab75a5f4f3453908462f165fc5cdce66be622eab48834a9d56b554601093f15a",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates a limited range of vocabulary and syntactic structures, with occasional errors in grammar and syntax that impede communication.",
+        "scope": "target",
+        "feature": "syntactic range",
+        "direction": "negative",
+        "quotes": [
+          "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or",
+          "Today, people prefers to shop by online than stores."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay contains several instances of grammatical errors and awkward phrasing, such as 'Some people thinks' and 'people prefers,' which support the claim of limited syntactic range and occasional errors.",
+        "overall_relation": "The reference reasoning suggests that these errors prevent the essay from achieving a higher score.",
+        "limitations": "The essay does provide some clear arguments and examples, but the language inaccuracies and occasional lapses in syntax and grammar detract from the overall coherence.",
+        "evidence_id": "2832:2.E1",
+        "target_id": "2832:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or",
+            "occurrences": [
+              {
+                "start": 231,
+                "end": 457,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "Today, people prefers to shop by online than stores.",
+            "occurrences": [
+              {
+                "start": 772,
+                "end": 824,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer's arguments are generally clear, but the essay contains several language inaccuracies, such as 'Some people thinks' and 'people prefers,' which detract from the overall coherence.",
+        "scope": "target",
+        "feature": "coherence",
+        "direction": "negative",
+        "quotes": [
+          "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or",
+          "Today, people prefers to shop by online than stores."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay includes clear arguments about the negative effects of technology on human interaction, but the presence of language inaccuracies like 'Some people thinks' and 'people prefers' detracts from the overall coherence.",
+        "overall_relation": "The reference reasoning indicates that these inaccuracies prevent the essay from achieving a higher score.",
+        "limitations": "While the arguments are clear, the language inaccuracies and occasional lapses in syntax and grammar detract from the overall coherence.",
+        "evidence_id": "2832:2.E2",
+        "target_id": "2832:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or",
+            "occurrences": [
+              {
+                "start": 231,
+                "end": 457,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "Today, people prefers to shop by online than stores.",
+            "occurrences": [
+              {
+                "start": 772,
+                "end": 824,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The organization of ideas is generally controlled, but there are instances where the connections between ideas are not fully developed or are somewhat disjointed.",
+        "scope": "target",
+        "feature": "organization",
+        "direction": "negative",
+        "quotes": [
+          "Today, people prefers to shop by online than stores. I saw and lived this experience many times about buy by online but I not feel comfortable as a store. Online shops makes feel lazy, alone, and when you have questions obout the product nobody can answer you.",
+          "People use more technology to talk, as facetime, facebook, whatssap or others applicationes. I agree to talk with this aplications with people who lives far away but I prefer to join with my friends or family to talk who lives close."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay provides examples and elaboration on the negative effects of technology on human interaction, but the connections between ideas are not fully developed, leading to somewhat disjointed sections.",
+        "overall_relation": "The reference reasoning suggests that these disjointed connections prevent the essay from achieving a higher score.",
+        "limitations": "The essay does provide some clear arguments and examples, but the disjointed connections between ideas detract from the overall coherence.",
+        "evidence_id": "2832:2.E3",
+        "target_id": "2832:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Today, people prefers to shop by online than stores. I saw and lived this experience many times about buy by online but I not feel comfortable as a store. Online shops makes feel lazy, alone, and when you have questions obout the product nobody can answer you.",
+            "occurrences": [
+              {
+                "start": 772,
+                "end": 1032,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          },
+          {
+            "quote": "People use more technology to talk, as facetime, facebook, whatssap or others applicationes. I agree to talk with this aplications with people who lives far away but I prefer to join with my friends or family to talk who lives close.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The essay does provide examples and elaboration on the negative effects of technology on human interaction, but the language inaccuracies and occasional lapses in syntax and grammar prevent the essay from achieving a higher score.",
+    "history_separation": "None"
+  },
+  "timestamp": "2026-11-15T16:19:54.359799+09:00"
+}

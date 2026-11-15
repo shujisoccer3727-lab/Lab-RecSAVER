@@ -1,0 +1,128 @@
+{
+  "fingerprint": "6b7c4e19815eaaa21abd72b2ed7aa0ca1ff0a15f2e0d03e5ac9dfd885290b5df",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, although some connections are missing or unsuccessful.",
+        "scope": "target",
+        "feature": "language facility and organization",
+        "direction": "positive",
+        "quotes": [
+          "One of the best thing about homeschooling is that it can be done at anytime.Because it can be done at any time,children have a flexible time schedule which means that the parents can help.",
+          "When you are taking a test or taking notes at a public school there are many distraction that can make students lose focus on what they are doing."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay uses a variety of phrases and demonstrates a range of syntactic structures, such as the use of complex sentences and varied vocabulary. However, there are instances where the connections between ideas are not clear, such as the transition from discussing the benefits of homeschooling to the drawbacks.",
+        "overall_relation": "The rationale suggests that the essay's language facility and organization contribute to its overall score.",
+        "limitations": "The essay contains some grammatical inaccuracies and occasional unsuccessful connections, which could impact the clarity of the argument.",
+        "evidence_id": "8317:2.E1",
+        "target_id": "8317:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "One of the best thing about homeschooling is that it can be done at anytime.Because it can be done at any time,children have a flexible time schedule which means that the parents can help.",
+            "occurrences": [
+              {
+                "start": 667,
+                "end": 855,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "When you are taking a test or taking notes at a public school there are many distraction that can make students lose focus on what they are doing.",
+            "occurrences": [
+              {
+                "start": 1375,
+                "end": 1521,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer presents a coherent argument about the benefits and drawbacks of homeschooling, with a focus on the reduced stress and increased flexibility.",
+        "scope": "target",
+        "feature": "coherence and argumentation",
+        "direction": "positive",
+        "quotes": [
+          "Learning at home and not at schools helps kids succeed and have better grades.Not only does learning at home provides less distraction, it provides student with flexible schedule.",
+          "There are still a few not to do schools from home. there are much more opportunities with public schools."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay clearly presents both the benefits and drawbacks of homeschooling, focusing on the reduced stress and increased flexibility. The writer provides specific examples and reasons for each point.",
+        "overall_relation": "The rationale indicates that the coherent argument contributes to the overall score.",
+        "limitations": "The essay could benefit from a more balanced discussion of the drawbacks, as the benefits are emphasized more heavily.",
+        "evidence_id": "8317:2.E2",
+        "target_id": "8317:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Learning at home and not at schools helps kids succeed and have better grades.Not only does learning at home provides less distraction, it provides student with flexible schedule.",
+            "occurrences": []
+          },
+          {
+            "quote": "There are still a few not to do schools from home. there are much more opportunities with public schools.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The essay includes a variety of syntactic structures, and while there are occasional inaccuracies in grammar and conventions, they rarely impede communication.",
+        "scope": "target",
+        "feature": "syntactic range and communication",
+        "direction": "positive",
+        "quotes": [
+          "Students being educated at home gain more freedom to create their own schedule and their own rules.",
+          "Because of this students will feel less pressure and get better grades than they would have if they were at school."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay demonstrates a variety of syntactic structures, including complex sentences and varied sentence lengths. While there are some grammatical inaccuracies, they do not significantly impede the overall communication of the argument.",
+        "overall_relation": "The rationale suggests that the syntactic range and communication contribute to the overall score.",
+        "limitations": "The essay contains some grammatical errors, such as incorrect punctuation and word usage, which could be improved.",
+        "evidence_id": "8317:2.E3",
+        "target_id": "8317:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Students being educated at home gain more freedom to create their own schedule and their own rules.",
+            "occurrences": [
+              {
+                "start": 386,
+                "end": 485,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "Because of this students will feel less pressure and get better grades than they would have if they were at school.",
+            "occurrences": [
+              {
+                "start": 2266,
+                "end": 2381,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "Claims about the writer's points being clear and the essay providing a balanced view of the topic were not assessed due to the three-claim limit.",
+    "history_separation": "There are no explicit mentions of historical inputs in the rationale or the target text, indicating that the claims are focused on the target essay."
+  },
+  "timestamp": "2026-11-15T16:22:51.106542+09:00"
+}

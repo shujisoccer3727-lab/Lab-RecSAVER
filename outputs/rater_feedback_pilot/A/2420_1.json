@@ -1,0 +1,106 @@
+{
+  "fingerprint": "65cbb8eda90b84e3a2d531f74e7cd0df90a0e180995cda85afe7f4e72f7e9778",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates a limited range of vocabulary and sentence structures, with occasional errors in grammar and syntax that impede communication.",
+        "scope": "target",
+        "feature": "syntactic range",
+        "direction": "negative",
+        "quotes": [
+          "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The quote demonstrates a lack of syntactic range and contains grammatical errors, such as incorrect use of articles and verb forms, which impede clear communication.",
+        "overall_relation": "The rationale suggests that the writing quality aligns with a score reflecting limitations in language facility, which is consistent with the observed Overall score of 3.",
+        "limitations": "The quote is representative of the essay's overall style, but it is not the only instance of such errors. The frequency and impact of these errors should be considered.",
+        "evidence_id": "2420:1.E1",
+        "target_id": "2420:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.",
+            "occurrences": [
+              {
+                "start": 276,
+                "end": 640,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer's argument is somewhat coherent, but the organization is not consistently controlled, with some connections between ideas missing or unsuccessful.",
+        "scope": "target",
+        "feature": "global coherence",
+        "direction": "mixed",
+        "quotes": [
+          "Although some says that determine to be idle or inactivity also serve a purpose in the way of one day they will accomplish something even though they are lazy, and people determine to not be idle when they want to accomplish something and when people decide to not being wasting their time without doing anything, inactivity doesn't serve a purpose in the life and in the way of accomplish something"
+        ],
+        "semantic_support": "uncertain",
+        "semantic_explanation": "The quote shows some coherence in the argument but lacks clear connections between ideas, making it difficult to assess the overall coherence of the essay.",
+        "overall_relation": "The rationale suggests that the writing quality aligns with a score reflecting limitations in organizational control, which is consistent with the observed Overall score of 3.",
+        "limitations": "The quote is somewhat coherent but lacks clear transitions, which may affect the overall coherence of the essay.",
+        "evidence_id": "2420:1.E2",
+        "target_id": "2420:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Although some says that determine to be idle or inactivity also serve a purpose in the way of one day they will accomplish something even though they are lazy, and people determine to not be idle when they want to accomplish something and when people decide to not being wasting their time without doing anything, inactivity doesn't serve a purpose in the life and in the way of accomplish something",
+            "occurrences": [
+              {
+                "start": 644,
+                "end": 1043,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The essay occasionally uses appropriate phrases and words, but there are instances of language inaccuracies that affect clarity.",
+        "scope": "target",
+        "feature": "clarity",
+        "direction": "mixed",
+        "quotes": [
+          "Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accomplish something in my life."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The quote contains appropriate phrases but also language inaccuracies, such as incorrect verb forms and word order, which affect clarity.",
+        "overall_relation": "The rationale suggests that the writing quality aligns with a score reflecting limitations in language facility, which is consistent with the observed Overall score of 3.",
+        "limitations": "The quote is representative of the essay's overall style, but it is not the only instance of such inaccuracies. The frequency and impact of these inaccuracies should be considered.",
+        "evidence_id": "2420:1.E3",
+        "target_id": "2420:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accomplish something in my life.",
+            "occurrences": [
+              {
+                "start": 1047,
+                "end": 1494,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The rationale mentions limitations in language facility and organizational control, but does not provide specific claims about the use of historical references or the writer's engagement with historical context.",
+    "history_separation": "There are no explicit mentions of historical inputs in the rationale or the target text, and no ambiguities regarding the separation of historical claims from the target claims."
+  },
+  "timestamp": "2026-11-15T16:21:45.953732+09:00"
+}

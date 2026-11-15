@@ -1,0 +1,140 @@
+{
+  "fingerprint": "c5bcff0a19c2f22a3b2e9d9b24583efb8468c33d988b856f48481b084a3d12b2",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates limited facility in the use of language, with common structures and generic vocabulary.",
+        "scope": "target",
+        "feature": "language facility",
+        "direction": "negative",
+        "quotes": [
+          "Nevertheless not everybody agree this opinion, some people disagree because sometime people with not have mastered make better the job than the people with mastered.",
+          "Third. you get better position than the people no have the mastered, because you show your experience."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The quotes demonstrate the use of generic vocabulary and common structures, such as 'not everybody agree' and 'some people disagree', which align with the claim of limited language facility.",
+        "overall_relation": "The rationale suggests that the language facility issues contribute to the observed Overall score.",
+        "limitations": "The claim does not provide specific examples of the generic vocabulary or common structures used.",
+        "evidence_id": "2910:1.E1",
+        "target_id": "2910:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Nevertheless not everybody agree this opinion, some people disagree because sometime people with not have mastered make better the job than the people with mastered.",
+            "occurrences": [
+              {
+                "start": 222,
+                "end": 387,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "Third. you get better position than the people no have the mastered, because you show your experience.",
+            "occurrences": [
+              {
+                "start": 1016,
+                "end": 1118,
+                "line_start": 13,
+                "line_end": 13
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The organization is generally controlled, but there are instances where connections between ideas are absent or unsuccessful.",
+        "scope": "target",
+        "feature": "organization",
+        "direction": "mixed",
+        "quotes": [
+          "First, when you have a mastered your work better on this sometime to do, because this people have years to study and practice.",
+          "Second, with the mastered you get better opportunities, because you have a title show you already prepared for the job.",
+          "Third. you get better position than the people no have the mastered, because you show your experience."
+        ],
+        "semantic_support": "uncertain",
+        "semantic_explanation": "The essay uses numbered points (First, Second, Third), which suggests some level of organization. However, the connections between ideas are not always clear, such as the transition from the first point to the second.",
+        "overall_relation": "The rationale indicates that the organization issues contribute to the observed Overall score.",
+        "limitations": "The claim does not specify which connections are absent or unsuccessful.",
+        "evidence_id": "2910:1.E2",
+        "target_id": "2910:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "First, when you have a mastered your work better on this sometime to do, because this people have years to study and practice.",
+            "occurrences": [
+              {
+                "start": 391,
+                "end": 517,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          },
+          {
+            "quote": "Second, with the mastered you get better opportunities, because you have a title show you already prepared for the job.",
+            "occurrences": []
+          },
+          {
+            "quote": "Third. you get better position than the people no have the mastered, because you show your experience.",
+            "occurrences": [
+              {
+                "start": 1016,
+                "end": 1118,
+                "line_start": 13,
+                "line_end": 13
+              }
+            ]
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "There are errors in grammar and syntax, which sometimes impede communication.",
+        "scope": "target",
+        "feature": "grammar and syntax",
+        "direction": "negative",
+        "quotes": [
+          "you get better position than the people no have the mastered.",
+          "For example in restaurant wen you have a mastered on chef you only need to memorize the recipes, other people need to memorize the condiment's, the tools, and the machines is used."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The quotes contain grammatical and syntactical errors, such as 'no have the mastered' and 'condiment's, the tools, and the machines is used', which impede clear communication.",
+        "overall_relation": "The rationale suggests that these errors contribute to the observed Overall score.",
+        "limitations": "The claim does not specify the frequency or impact of these errors on the overall communication.",
+        "evidence_id": "2910:1.E3",
+        "target_id": "2910:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "you get better position than the people no have the mastered.",
+            "occurrences": [
+              {
+                "start": 157,
+                "end": 218,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "For example in restaurant wen you have a mastered on chef you only need to memorize the recipes, other people need to memorize the condiment's, the tools, and the machines is used.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The essay argues that having a mastery in a field leads to better job opportunities and positions, but the writing contains several language inaccuracies and structural issues that make the argument less clear and coherent.",
+    "history_separation": "None"
+  },
+  "timestamp": "2026-11-15T16:23:32.825967+09:00"
+}

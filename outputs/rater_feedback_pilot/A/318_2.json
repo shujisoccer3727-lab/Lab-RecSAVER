@@ -1,0 +1,178 @@
+{
+  "fingerprint": "f64ec00e1d987cba333c28b3f2a662c65ad0d9a71fea1985f2d169412f0390f7",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates a limited facility in the use of language, with occasional syntactic variety and a range of vocabulary, but it also contains errors in grammar and syntax that sometimes impede communication.",
+        "scope": "target",
+        "feature": "language facility",
+        "direction": "negative",
+        "quotes": [
+          "I am agree with Churchill's statement about the impotant role that ailure plays in the pursuit of success for 3 reazon.",
+          "Also, I can help people by motiation and showing to do or to carry something easy.",
+          "In a company many people used to loss the enthusiasm, and that is okay because we are here do do mistakes and do not be perfects."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes show instances of grammatical errors and syntax issues that impede clear communication, supporting the claim about limited language facility.",
+        "overall_relation": "The rationale suggests that the essay's score reflects its limitations in language use, which is consistent with the observed Overall score of 3.",
+        "limitations": "The essay does show some syntactic variety and vocabulary range, but the errors are frequent enough to impact communication.",
+        "evidence_id": "318:2.E1",
+        "target_id": "318:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "I am agree with Churchill's statement about the impotant role that ailure plays in the pursuit of success for 3 reazon.",
+            "occurrences": [
+              {
+                "start": 62,
+                "end": 181,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "Also, I can help people by motiation and showing to do or to carry something easy.",
+            "occurrences": [
+              {
+                "start": 685,
+                "end": 767,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          },
+          {
+            "quote": "In a company many people used to loss the enthusiasm, and that is okay because we are here do do mistakes and do not be perfects.",
+            "occurrences": [
+              {
+                "start": 1202,
+                "end": 1331,
+                "line_start": 11,
+                "line_end": 11
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The organization is generally controlled, though there are instances where the connections between ideas are absent or unsuccessful.",
+        "scope": "target",
+        "feature": "organization",
+        "direction": "mixed",
+        "quotes": [
+          "These are my reasons that I would like to talk about.\r\n\r\nfirst,\r\n\r\nenthusiasm not just depends in oneself.",
+          "secondly, failure is not always\r\n\r\nbad because by doing mistake we can learn how to do our job better.",
+          "The third reason that I would like to talk about is that\r\n\r\nwe have enthusiasm we can do and be better in this life, work or any buisness."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay attempts to organize its points into numbered reasons, but the transitions between ideas are often abrupt or unclear, supporting the claim of mixed organizational control.",
+        "overall_relation": "The rationale indicates that the essay's score reflects its organizational limitations, which aligns with the observed Overall score of 3.",
+        "limitations": "While the essay attempts to structure its arguments, the lack of clear transitions between ideas can disrupt the flow of the essay.",
+        "evidence_id": "318:2.E2",
+        "target_id": "318:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "These are my reasons that I would like to talk about.\r\n\r\nfirst,\r\n\r\nenthusiasm not just depends in oneself.",
+            "occurrences": [
+              {
+                "start": 415,
+                "end": 521,
+                "line_start": 1,
+                "line_end": 5
+              }
+            ]
+          },
+          {
+            "quote": "secondly, failure is not always\r\n\r\nbad because by doing mistake we can learn how to do our job better.",
+            "occurrences": [
+              {
+                "start": 1335,
+                "end": 1437,
+                "line_start": 13,
+                "line_end": 15
+              }
+            ]
+          },
+          {
+            "quote": "The third reason that I would like to talk about is that\r\n\r\nwe have enthusiasm we can do and be better in this life, work or any buisness.",
+            "occurrences": [
+              {
+                "start": 2460,
+                "end": 2598,
+                "line_start": 19,
+                "line_end": 21
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer provides examples and personal anecdotes to support their points, which contributes to the overall coherence of the essay.",
+        "scope": "target",
+        "feature": "supporting evidence",
+        "direction": "positive",
+        "quotes": [
+          "For example, if I giving up by failing, then other person sees me failing and helps me to do something better.",
+          "when I am working hard and then something is wrong, but my manager says that I can do it, he is motiving me.",
+          "when I was 11, my that always excites me when I was in school, and to do my homework."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay includes several examples and personal anecdotes that illustrate the writer's points, contributing to the coherence of the essay.",
+        "overall_relation": "The rationale suggests that the essay's score acknowledges the writer's attempt to convey their ideas effectively through examples, which is consistent with the observed Overall score of 3.",
+        "limitations": "While the examples and anecdotes do support the writer's points, the overall coherence is still impacted by the language and organizational issues.",
+        "evidence_id": "318:2.E3",
+        "target_id": "318:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "For example, if I giving up by failing, then other person sees me failing and helps me to do something better.",
+            "occurrences": [
+              {
+                "start": 574,
+                "end": 684,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          },
+          {
+            "quote": "when I am working hard and then something is wrong, but my manager says that I can do it, he is motiving me.",
+            "occurrences": [
+              {
+                "start": 1451,
+                "end": 1559,
+                "line_start": 15,
+                "line_end": 15
+              }
+            ]
+          },
+          {
+            "quote": "when I was 11, my that always excites me when I was in school, and to do my homework.",
+            "occurrences": [
+              {
+                "start": 2707,
+                "end": 2792,
+                "line_start": 21,
+                "line_end": 21
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The rationale mentions the presence of language inaccuracies and occasional lapses in clarity, but these are not extracted as separate claims due to the three-claim limit.",
+    "history_separation": "The rationale does not explicitly mention any historical inputs, and there are no ambiguities suggesting that the claims are about historical inputs."
+  },
+  "timestamp": "2026-11-15T16:18:49.044539+09:00"
+}

@@ -1,0 +1,121 @@
+{
+  "fingerprint": "ce37c66876395537b725121333141734ac1c85677581e218cd2040823ee1d160",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics.",
+        "scope": "target",
+        "feature": "sentence formation, word choice, mechanics",
+        "direction": "negative",
+        "quotes": [
+          "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+          "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes show inconsistent sentence formation, word choice, and mechanics, such as 'influening', 'ued', 'believe', 'kinll', and 'benfic'. These errors support the claim that the essay demonstrates inconsistent facility in these areas.",
+        "overall_relation": "The claim aligns with the overall score of 2, indicating limited control over language and organization.",
+        "limitations": "The claim does not account for any coherent sentences or correct usage that may exist in the essay.",
+        "evidence_id": "2348:1.E1",
+        "target_id": "2348:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+            "occurrences": [
+              {
+                "start": 0,
+                "end": 333,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The organization is partially developed but often missing or unsuccessful, leading to fragmented thoughts and unclear arguments.",
+        "scope": "target",
+        "feature": "organization",
+        "direction": "negative",
+        "quotes": [
+          "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+          "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes show fragmented thoughts and unclear arguments, such as the lack of clear transitions and the mixing of unrelated ideas, supporting the claim about the essay's organization.",
+        "overall_relation": "The claim aligns with the overall score of 2, indicating limited control over language and organization.",
+        "limitations": "The claim does not consider any coherent sections or arguments that may exist in the essay.",
+        "evidence_id": "2348:1.E2",
+        "target_id": "2348:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+            "occurrences": [
+              {
+                "start": 0,
+                "end": 333,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "There are frequent errors in grammar, syntax, and usage, which impede communication in many instances.",
+        "scope": "target",
+        "feature": "grammar, syntax, usage",
+        "direction": "negative",
+        "quotes": [
+          "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+          "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes show frequent errors in grammar, syntax, and usage, such as 'influening', 'ued', 'believe', 'kinll', and 'benfic', which impede communication.",
+        "overall_relation": "The claim aligns with the overall score of 2, indicating limited control over language and organization.",
+        "limitations": "The claim does not consider any grammatically correct sentences or sections that may exist in the essay.",
+        "evidence_id": "2348:1.E3",
+        "target_id": "2348:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+            "occurrences": [
+              {
+                "start": 0,
+                "end": 333,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The essay attempts to convey ideas about the influence of friends and the consequences of bad decisions, but the language inaccuracies and structural issues make it difficult to follow the intended message.",
+    "history_separation": "There are no explicit mentions of historical inputs or ambiguities related to historical claims in the rationale."
+  },
+  "timestamp": "2026-11-15T16:24:23.862914+09:00"
+}

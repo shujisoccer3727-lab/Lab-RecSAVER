@@ -1,0 +1,13 @@
+{
+  "reviewer": "Codex assistant qualitative review; not an independent human assessment",
+  "scope": "Targeted review of obvious insufficiency in first-rater outputs; not exhaustive validation of every retained claim",
+  "overrides": {
+    "5268:1.E1": {"semantic_support": "uncertain", "reason": "we were kids自体は文法誤りではない。局所的な句読点・一致の問題と、答案全体の構文・語彙の範囲や伝達阻害を一括してsupportedとする根拠が不足。"},
+    "5268:1.E2": {"semantic_support": "uncertain", "reason": "全文では人物像の選択・他者の影響からKobe Bryantの具体例へ進み、That right there is a character traitという説明もある。離れた引用のみから唐突な移行と断定できない。"},
+    "5268:1.E3": {"semantic_support": "uncertain", "reason": "引用は主題への言及を支持するが、展開全体のuneven・lacks depthを立証しない。深さ自体をOverallにない独立基準として統合できない。"},
+    "4902:1.E1": {"semantic_support": "uncertain", "reason": "引用に局所的な文法・用法上の問題はあるが、全体の語彙・構文の範囲および伝達阻害を支持するとする説明は不足。"},
+    "1514:1.E2": {"semantic_support": "uncertain", "reason": "引用にはBased on my experienceやAnother exampleなど明示的な接続が存在する。前後の段落を示さず、接続の欠如・不成功を断定できない。"},
+    "1961:1.E1": {"semantic_support": "uncertain", "reason": "例示された構文にはone of the nicest cultureやWhen節の断片などがあり、awesome等の語があることだけでnative-like facilityを支持できない。参照推論の高評価と本文の解釈差として保持する。"},
+    "1961:1.E3": {"semantic_support": "uncertain", "reason": "二つの短い正しい文だけでは答案全体のrare inaccuraciesを確認できない。It's an amusement parkのIt'sは適切なit isの短縮形であり、モデルのitsとの取り違えの説明も不正確。"}
+  }
+}

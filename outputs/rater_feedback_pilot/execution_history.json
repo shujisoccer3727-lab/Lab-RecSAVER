@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-11-14T12:48:05.905787+09:00",
+  "events": [
+    {
+      "status": "passed",
+      "stage": "prepare",
+      "detail": "2056 references joined to raw, processed and exact saved prompts"
+    },
+    {
+      "status": "passed",
+      "stage": "unit_tests",
+      "detail": "6 evidence gate tests"
+    },
+    {
+      "status": "interrupted",
+      "stage": "Qwen initialization",
+      "detail": "GPU occupied by existing local inference service; only pilot process terminated; no generated feedback"
+    },
+    {
+      "status": "approval_blocked",
+      "stage": "local endpoint probe",
+      "detail": "Automatic approval rejected reading credentials from /proc; probe not executed"
+    },
+    {
+      "status": "user_deferred",
+      "stage": "generation",
+      "detail": "User declined local Gemma reuse and requested deferral until Qwen GPU is free; unused credential helper removed"
+    }
+  ],
+  "resumption_and_revisions": {
+    "timestamp": "2026-11-15T16:32:43.157489+09:00",
+    "events": [
+      "2026-11-15: user requested resume; free GPU confirmed; Qwen used, no Gemma access",
+      "A completed for first 10 targets; 7 obvious semantic insufficiencies conservatively downgraded; raw labels retained",
+      "B exceeded 8192 context (9397 prompt tokens on logged retry); no input truncation; expanded runtime context to 16384",
+      "First C lacked concrete anchors and element-level references; all first-pass outputs archived in revisions/first_pass",
+      "C v2 one-shot failed twice; no final result accepted from it. Raw responses retained.",
+      "Final C split into C_relation and C_text. Actual target/score, observed and adjacent official descriptions, element links and exact quotations are deterministically assembled; only explanatory prose is generated.",
+      "Windows BOM in pilot review JSON caused a controller error; status archived, UTF-8-sig reading added; successful generations reused.",
+      "Missing evidence reclassified from non-applicable to unassessed, with original model classification retained",
+      "Rater 4 B invented an unsupported score cap; removed in a transparent synthesis review, original B and propagated C_text archived, only affected C_text regenerated from a clean synthesis input."
+    ],
+    "failed_calls": [
+      {
+        "timestamp": "2026-11-15T15:58:22.136784+09:00",
+        "stage": "B",
+        "key": "rater_7",
+        "attempt": 0,
+        "error": "AssertionError: context limit exceeded; no truncation applied",
+        "prompt_tokens": 9371
+      },
+      {
+        "timestamp": "2026-11-15T15:58:22.157030+09:00",
+        "stage": "B",
+        "key": "rater_7",
+        "attempt": 1,
+        "error": "AssertionError: context limit exceeded; no truncation applied",
+        "prompt_tokens": 9397
+      },
+      {
+        "timestamp": "2026-11-15T16:07:15.543168+09:00",
+        "stage": "C",
+        "key": "rater_7",
+        "attempt": 0,
+        "error": "AssertionError: explain the named target, not a generic criterion",
+        "prompt_tokens": 4261
+      },
+      {
+        "timestamp": "2026-11-15T16:08:00.335732+09:00",
+        "stage": "C",
+        "key": "rater_7",
+        "attempt": 1,
+        "error": "AssertionError: explain the named target, not a generic criterion",
+        "prompt_tokens": 4288
+      }
+    ]
+  }
+}

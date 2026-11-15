@@ -1,0 +1,1652 @@
+{
+  "rater_id": "rater_4",
+  "target_count": 10,
+  "observed_scores": {
+    "7817:1": 4,
+    "8690:2": 3,
+    "2420:1": 3,
+    "61:1": 3,
+    "7836:1": 3,
+    "8317:2": 4,
+    "515:1": 3,
+    "2910:1": 3,
+    "2953:1": 3,
+    "2348:1": 2
+  },
+  "A": [
+    {
+      "target_id": "7817:1",
+      "gold_overall": 4,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates a facility in the use of language with a range of words and phrases, although there are occasional inaccuracies in word choice and syntax.",
+          "scope": "target",
+          "feature": "language facility",
+          "direction": "positive",
+          "quotes": [
+            "Since technology developed really fast now, we can't live without these technologies.",
+            "Using computers are the mean reason of why we are lazy now.",
+            "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay uses a variety of phrases and words, though with some inaccuracies, such as 'mean reason' and 'walked on a street'. These examples show a range of language use, supporting the claim.",
+          "overall_relation": "The reference reasoning suggests that the language facility contributes to the overall score, despite some inaccuracies.",
+          "limitations": "The claim does not account for the frequency and impact of these inaccuracies on the overall communication.",
+          "evidence_id": "7817:1.E1",
+          "target_id": "7817:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Since technology developed really fast now, we can't live without these technologies.",
+              "occurrences": [
+                {
+                  "start": 0,
+                  "end": 85,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Using computers are the mean reason of why we are lazy now.",
+              "occurrences": [
+                {
+                  "start": 647,
+                  "end": 706,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.",
+              "occurrences": [
+                {
+                  "start": 1183,
+                  "end": 1331,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The organization of the essay is generally controlled, with clear sections addressing different points about the negative effects of technology.",
+          "scope": "target",
+          "feature": "organization",
+          "direction": "positive",
+          "quotes": [
+            "Some people says that use of technology had positive effects on people's lives because it's easier for people to work and context with friends. Most technologies helped a lots in our life but I think use of technology had negative effects, because we are getting very lazy of doing things people are using cellphone to complete everything, eye problems make a lots of young teens are wearing glasses now, because they are using too much electronic devises, and I think most people are getting addicted to their cellphones because they can't live without it.",
+            "Using computers are the mean reason of why we are lazy now.",
+            "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay is divided into sections that discuss different negative impacts of technology, such as laziness, eye health, and addiction, supporting the claim of controlled organization.",
+          "overall_relation": "The reference reasoning indicates that the controlled organization contributes to the overall score.",
+          "limitations": "The claim does not address the clarity and coherence of the transitions between these sections.",
+          "evidence_id": "7817:1.E2",
+          "target_id": "7817:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Some people says that use of technology had positive effects on people's lives because it's easier for people to work and context with friends. Most technologies helped a lots in our life but I think use of technology had negative effects, because we are getting very lazy of doing things people are using cellphone to complete everything, eye problems make a lots of young teens are wearing glasses now, because they are using too much electronic devises, and I think most people are getting addicted to their cellphones because they can't live without it.",
+              "occurrences": [
+                {
+                  "start": 86,
+                  "end": 643,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Using computers are the mean reason of why we are lazy now.",
+              "occurrences": [
+                {
+                  "start": 647,
+                  "end": 706,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.",
+              "occurrences": [
+                {
+                  "start": 1183,
+                  "end": 1331,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "While there are some grammatical errors and occasional language inaccuracies, they do not significantly impede communication.",
+          "scope": "target",
+          "feature": "communication impact",
+          "direction": "mixed",
+          "quotes": [
+            "Since technology developed really fast now, we can't live without these technologies.",
+            "Using computers are the mean reason of why we are lazy now.",
+            "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The essay contains several grammatical errors and language inaccuracies, but the overall message is still understandable, making the support uncertain.",
+          "overall_relation": "The reference reasoning suggests that these errors do not significantly affect the overall communication, which is reflected in the overall score.",
+          "limitations": "The claim does not specify the frequency or severity of these errors and their impact on the overall communication.",
+          "evidence_id": "7817:1.E3",
+          "target_id": "7817:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Since technology developed really fast now, we can't live without these technologies.",
+              "occurrences": [
+                {
+                  "start": 0,
+                  "end": 85,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Using computers are the mean reason of why we are lazy now.",
+              "occurrences": [
+                {
+                  "start": 647,
+                  "end": 706,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.",
+              "occurrences": [
+                {
+                  "start": 1183,
+                  "end": 1331,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "Claims about the specific historical inputs are not present in the reference reasoning.",
+      "history_separation": "There are no explicit mentions of historical inputs in the reference reasoning, and there are no ambiguities regarding the separation of target claims from historical claims."
+    },
+    {
+      "target_id": "8690:2",
+      "gold_overall": 3,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates limited facility in the use of language, with common structures and generic vocabulary.",
+          "scope": "target",
+          "feature": "language facility",
+          "direction": "negative",
+          "quotes": [
+            "First, when i mastered a high level degree, i can have better life.",
+            "In addition, i can get rich.",
+            "Last, i can achieve my goals."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay uses simple and repetitive structures, such as 'First, ...', 'In addition, ...', and 'Last, ...', which aligns with the claim of limited facility in language use.",
+          "overall_relation": "This claim supports the provided Overall score of 3, indicating that the essay shows some control but is limited in language use.",
+          "limitations": "The essay's repetitive structure may be seen as a lack of variety, but it also shows an attempt to organize ideas.",
+          "evidence_id": "8690:2.E1",
+          "target_id": "8690:2",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "First, when i mastered a high level degree, i can have better life.",
+              "occurrences": [
+                {
+                  "start": 168,
+                  "end": 235,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "In addition, i can get rich.",
+              "occurrences": [
+                {
+                  "start": 576,
+                  "end": 604,
+                  "line_start": 7,
+                  "line_end": 7
+                }
+              ]
+            },
+            {
+              "quote": "Last, i can achieve my goals.",
+              "occurrences": [
+                {
+                  "start": 265,
+                  "end": 294,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The organization is generally controlled, but connections between ideas are sometimes absent or unsuccessful.",
+          "scope": "target",
+          "feature": "organization",
+          "direction": "mixed",
+          "quotes": [
+            "First, i can have better life. by doing hard work in life. First, i can have my house. second, my kids can go to high level schools. finally, buying things i wants. with out doing nothing you will never have great life.",
+            "In addition, i can get rich. having money in your account. First, working with big Campinas. second, i will have my own businesses. Last, i will have cars and house. by having high level degrees."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay attempts to organize ideas into sections, but the connections between ideas are often unclear or missing, such as the transition from 'i can have better life' to 'having money in your account'.",
+          "overall_relation": "This claim aligns with the Overall score, indicating that while there is some control over organization, it is not fully successful.",
+          "limitations": "The essay's organization is somewhat controlled, but the lack of clear transitions between ideas reduces its effectiveness.",
+          "evidence_id": "8690:2.E2",
+          "target_id": "8690:2",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "First, i can have better life. by doing hard work in life. First, i can have my house. second, my kids can go to high level schools. finally, buying things i wants. with out doing nothing you will never have great life.",
+              "occurrences": []
+            },
+            {
+              "quote": "In addition, i can get rich. having money in your account. First, working with big Campinas. second, i will have my own businesses. Last, i will have cars and house. by having high level degrees.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "There are errors in grammar and syntax that occasionally impede communication.",
+          "scope": "target",
+          "feature": "grammar and syntax",
+          "direction": "negative",
+          "quotes": [
+            "First, when i mastered a high level degree, i can have better life.",
+            "With out degree you can not get best jobs in your life.",
+            "First, i can have my house. second, my kids can go to high level schools. finally, buying things i wants."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay contains numerous grammatical and syntactical errors, such as 'i can have better life' and 'With out degree', which impede clear communication.",
+          "overall_relation": "This claim supports the Overall score, indicating that the essay has errors that affect its clarity.",
+          "limitations": "While there are errors, the essay still conveys its main points, albeit with some difficulty.",
+          "evidence_id": "8690:2.E3",
+          "target_id": "8690:2",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "First, when i mastered a high level degree, i can have better life.",
+              "occurrences": [
+                {
+                  "start": 168,
+                  "end": 235,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "With out degree you can not get best jobs in your life.",
+              "occurrences": [
+                {
+                  "start": 295,
+                  "end": 350,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "First, i can have my house. second, my kids can go to high level schools. finally, buying things i wants.",
+              "occurrences": [
+                {
+                  "start": 412,
+                  "end": 517,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "The writer attempts to support their argument with examples, but the language inaccuracies and structural issues make the communication less effective.",
+      "history_separation": "None"
+    },
+    {
+      "target_id": "2420:1",
+      "gold_overall": 3,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates a limited range of vocabulary and sentence structures, with occasional errors in grammar and syntax that impede communication.",
+          "scope": "target",
+          "feature": "syntactic range",
+          "direction": "negative",
+          "quotes": [
+            "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The quote demonstrates a lack of syntactic range and contains grammatical errors, such as incorrect use of articles and verb forms, which impede clear communication.",
+          "overall_relation": "The rationale suggests that the writing quality aligns with a score reflecting limitations in language facility, which is consistent with the observed Overall score of 3.",
+          "limitations": "The quote is representative of the essay's overall style, but it is not the only instance of such errors. The frequency and impact of these errors should be considered.",
+          "evidence_id": "2420:1.E1",
+          "target_id": "2420:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.",
+              "occurrences": [
+                {
+                  "start": 276,
+                  "end": 640,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The writer's argument is somewhat coherent, but the organization is not consistently controlled, with some connections between ideas missing or unsuccessful.",
+          "scope": "target",
+          "feature": "global coherence",
+          "direction": "mixed",
+          "quotes": [
+            "Although some says that determine to be idle or inactivity also serve a purpose in the way of one day they will accomplish something even though they are lazy, and people determine to not be idle when they want to accomplish something and when people decide to not being wasting their time without doing anything, inactivity doesn't serve a purpose in the life and in the way of accomplish something"
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The quote shows some coherence in the argument but lacks clear connections between ideas, making it difficult to assess the overall coherence of the essay.",
+          "overall_relation": "The rationale suggests that the writing quality aligns with a score reflecting limitations in organizational control, which is consistent with the observed Overall score of 3.",
+          "limitations": "The quote is somewhat coherent but lacks clear transitions, which may affect the overall coherence of the essay.",
+          "evidence_id": "2420:1.E2",
+          "target_id": "2420:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Although some says that determine to be idle or inactivity also serve a purpose in the way of one day they will accomplish something even though they are lazy, and people determine to not be idle when they want to accomplish something and when people decide to not being wasting their time without doing anything, inactivity doesn't serve a purpose in the life and in the way of accomplish something",
+              "occurrences": [
+                {
+                  "start": 644,
+                  "end": 1043,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The essay occasionally uses appropriate phrases and words, but there are instances of language inaccuracies that affect clarity.",
+          "scope": "target",
+          "feature": "clarity",
+          "direction": "mixed",
+          "quotes": [
+            "Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accomplish something in my life."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The quote contains appropriate phrases but also language inaccuracies, such as incorrect verb forms and word order, which affect clarity.",
+          "overall_relation": "The rationale suggests that the writing quality aligns with a score reflecting limitations in language facility, which is consistent with the observed Overall score of 3.",
+          "limitations": "The quote is representative of the essay's overall style, but it is not the only instance of such inaccuracies. The frequency and impact of these inaccuracies should be considered.",
+          "evidence_id": "2420:1.E3",
+          "target_id": "2420:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accomplish something in my life.",
+              "occurrences": [
+                {
+                  "start": 1047,
+                  "end": 1494,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "The rationale mentions limitations in language facility and organizational control, but does not provide specific claims about the use of historical references or the writer's engagement with historical context.",
+      "history_separation": "There are no explicit mentions of historical inputs in the rationale or the target text, and no ambiguities regarding the separation of historical claims from the target claims."
+    },
+    {
+      "target_id": "61:1",
+      "gold_overall": 3,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates a limited range of vocabulary and sentence structures, with some errors in grammar and syntax that occasionally impede communication.",
+          "scope": "target",
+          "feature": "syntactic range",
+          "direction": "negative",
+          "quotes": [
+            "I'll show little kids to think of others and not just them self's because when they get older the little kids aren't going to care but if they see the older kids help maybe the little kids would think how the big kids helped n see how much they helped them and would still want to help others when they get older.",
+            "Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The provided quotes show a lack of varied vocabulary and sentence structures, with grammatical errors such as 'them self's', 'n', and 'them self's' that affect the clarity and coherence of the argument.",
+          "overall_relation": "The rationale suggests that the limited syntactic range and grammatical errors contribute to the overall score of 3.",
+          "limitations": "The quotes are representative of the essay's language use, but they do not cover the entire text, and other parts may show better control.",
+          "evidence_id": "61:1.E1",
+          "target_id": "61:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "I'll show little kids to think of others and not just them self's because when they get older the little kids aren't going to care but if they see the older kids help maybe the little kids would think how the big kids helped n see how much they helped them and would still want to help others when they get older.",
+              "occurrences": [
+                {
+                  "start": 83,
+                  "end": 396,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            },
+            {
+              "quote": "Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community.",
+              "occurrences": [
+                {
+                  "start": 495,
+                  "end": 751,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The writer's argument is somewhat coherent, but the organization is not fully developed, and there are instances where the connection between ideas is weak or absent.",
+          "scope": "target",
+          "feature": "global coherence",
+          "direction": "negative",
+          "quotes": [
+            "The little kids always look up to the big kids. Also maybe the little kids won't gave up so easy. Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The provided quote shows a lack of clear connection between ideas, such as the transition from 'the little kids always look up to the big kids' to 'maybe the little kids won't gave up so easy', which lacks a clear link.",
+          "overall_relation": "The rationale indicates that the lack of coherent organization and weak connections between ideas contribute to the overall score of 3.",
+          "limitations": "The quote is representative of the essay's coherence issues, but it does not cover all parts of the essay, and other sections may show better organization.",
+          "evidence_id": "61:1.E2",
+          "target_id": "61:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "The little kids always look up to the big kids. Also maybe the little kids won't gave up so easy. Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community.",
+              "occurrences": [
+                {
+                  "start": 397,
+                  "end": 751,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The essay occasionally uses appropriate phrases and demonstrates a basic understanding of the topic, but the overall language use is not consistently controlled, leading to some inaccuracies that can affect clarity.",
+          "scope": "target",
+          "feature": "language use",
+          "direction": "mixed",
+          "quotes": [
+            "The little kids always look up to the big kids.",
+            "Helping others is the right way to go and to never give up in what you believe in."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay includes appropriate phrases like 'The little kids always look up to the big kids' and 'Helping others is the right way to go and to never give up in what you believe in', which show a basic understanding of the topic. However, the language use is not consistently controlled, as seen in the grammatical errors and lack of clarity in other parts of the essay.",
+          "overall_relation": "The rationale suggests that while there are some appropriate phrases, the inconsistent language use affects the overall score of 3.",
+          "limitations": "The quotes are representative of the essay's language use, but they do not cover all parts of the essay, and other sections may show better or worse language control.",
+          "evidence_id": "61:1.E3",
+          "target_id": "61:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "The little kids always look up to the big kids.",
+              "occurrences": [
+                {
+                  "start": 397,
+                  "end": 444,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            },
+            {
+              "quote": "Helping others is the right way to go and to never give up in what you believe in.",
+              "occurrences": [
+                {
+                  "start": 886,
+                  "end": 968,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "The rater's previous evaluations suggest a pattern of assigning scores based on the essay's adherence to the rubric criteria, which supports this evaluation.",
+      "history_separation": "There are no explicit mentions of historical inputs in the rationale."
+    },
+    {
+      "target_id": "7836:1",
+      "gold_overall": 3,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates limited facility in the use of language, with some syntactic variety and a range of words and phrases, but also includes errors in grammar and syntax that impede communication.",
+          "scope": "target",
+          "feature": "language facility",
+          "direction": "negative",
+          "quotes": [
+            "I think if the student want to required for community service.",
+            "They cant make the students to do community service."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The provided quotes show grammatical errors and syntax issues that align with the claim of limited facility in language use and communication impediments.",
+          "overall_relation": "The claim supports the observed Overall score of 3, indicating that while there is some language use, it is marred by errors.",
+          "limitations": "The claim does not account for the presence of some coherent sentences and ideas.",
+          "evidence_id": "7836:1.E1",
+          "target_id": "7836:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "I think if the student want to required for community service.",
+              "occurrences": [
+                {
+                  "start": 19,
+                  "end": 81,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "They cant make the students to do community service.",
+              "occurrences": [
+                {
+                  "start": 82,
+                  "end": 134,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The organization is generally controlled, but there are instances where connections between ideas are absent or unsuccessful.",
+          "scope": "target",
+          "feature": "organization",
+          "direction": "mixed",
+          "quotes": [
+            "I think if the student want to required for community service. They cant make the students to do community service. I am pretty sure they can't make the students to do community service because the parents won't. But if the student get in trouble then yes they have to because they have to do community service.",
+            "Also some student care about the community so they do those stuff like clean the streets pick up trash and all those stuff."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The quotes show a lack of clear structure and development of ideas, but it is not entirely clear if the organization is controlled or not, as the ideas are somewhat disjointed.",
+          "overall_relation": "The claim supports the observed Overall score of 3, indicating that while there is some control over organization, it is not fully successful.",
+          "limitations": "The claim does not specify which parts of the essay are well-organized and which are not.",
+          "evidence_id": "7836:1.E2",
+          "target_id": "7836:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "I think if the student want to required for community service. They cant make the students to do community service. I am pretty sure they can't make the students to do community service because the parents won't. But if the student get in trouble then yes they have to because they have to do community service.",
+              "occurrences": [
+                {
+                  "start": 19,
+                  "end": 330,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "Also some student care about the community so they do those stuff like clean the streets pick up trash and all those stuff.",
+              "occurrences": [
+                {
+                  "start": 331,
+                  "end": 454,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The writer's intent is somewhat clear, but the presence of language inaccuracies, such as 'I think if the student want to required for community service' and 'They cant make the students to do community service,' hinders the overall coherence and clarity of the message.",
+          "scope": "target",
+          "feature": "clarity and coherence",
+          "direction": "negative",
+          "quotes": [
+            "I think if the student want to required for community service.",
+            "They cant make the students to do community service."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The provided quotes show language inaccuracies that hinder the clarity and coherence of the message, supporting the claim.",
+          "overall_relation": "The claim supports the observed Overall score of 3, indicating that while the intent is somewhat clear, it is hindered by language inaccuracies.",
+          "limitations": "The claim does not address the presence of some clear and coherent sentences.",
+          "evidence_id": "7836:1.E3",
+          "target_id": "7836:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "I think if the student want to required for community service.",
+              "occurrences": [
+                {
+                  "start": 19,
+                  "end": 81,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "They cant make the students to do community service.",
+              "occurrences": [
+                {
+                  "start": 82,
+                  "end": 134,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "Claims about the frequency of errors and the impact on communication were not extracted as they were not substantively distinct from the extracted claims.",
+      "history_separation": "There are no explicit mentions of historical inputs in the rationale, and there are no ambiguities suggesting a mix of target and historical claims."
+    },
+    {
+      "target_id": "8317:2",
+      "gold_overall": 4,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates a facility in the use of language with a range of words and phrases, and the organization is generally controlled, although some connections are missing or unsuccessful.",
+          "scope": "target",
+          "feature": "language facility and organization",
+          "direction": "positive",
+          "quotes": [
+            "One of the best thing about homeschooling is that it can be done at anytime.Because it can be done at any time,children have a flexible time schedule which means that the parents can help.",
+            "When you are taking a test or taking notes at a public school there are many distraction that can make students lose focus on what they are doing."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay uses a variety of phrases and demonstrates a range of syntactic structures, such as the use of complex sentences and varied vocabulary. However, there are instances where the connections between ideas are not clear, such as the transition from discussing the benefits of homeschooling to the drawbacks.",
+          "overall_relation": "The rationale suggests that the essay's language facility and organization contribute to its overall score.",
+          "limitations": "The essay contains some grammatical inaccuracies and occasional unsuccessful connections, which could impact the clarity of the argument.",
+          "evidence_id": "8317:2.E1",
+          "target_id": "8317:2",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "One of the best thing about homeschooling is that it can be done at anytime.Because it can be done at any time,children have a flexible time schedule which means that the parents can help.",
+              "occurrences": [
+                {
+                  "start": 667,
+                  "end": 855,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "When you are taking a test or taking notes at a public school there are many distraction that can make students lose focus on what they are doing.",
+              "occurrences": [
+                {
+                  "start": 1375,
+                  "end": 1521,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The writer presents a coherent argument about the benefits and drawbacks of homeschooling, with a focus on the reduced stress and increased flexibility.",
+          "scope": "target",
+          "feature": "coherence and argumentation",
+          "direction": "positive",
+          "quotes": [
+            "Learning at home and not at schools helps kids succeed and have better grades.Not only does learning at home provides less distraction, it provides student with flexible schedule.",
+            "There are still a few not to do schools from home. there are much more opportunities with public schools."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay clearly presents both the benefits and drawbacks of homeschooling, focusing on the reduced stress and increased flexibility. The writer provides specific examples and reasons for each point.",
+          "overall_relation": "The rationale indicates that the coherent argument contributes to the overall score.",
+          "limitations": "The essay could benefit from a more balanced discussion of the drawbacks, as the benefits are emphasized more heavily.",
+          "evidence_id": "8317:2.E2",
+          "target_id": "8317:2",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Learning at home and not at schools helps kids succeed and have better grades.Not only does learning at home provides less distraction, it provides student with flexible schedule.",
+              "occurrences": []
+            },
+            {
+              "quote": "There are still a few not to do schools from home. there are much more opportunities with public schools.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The essay includes a variety of syntactic structures, and while there are occasional inaccuracies in grammar and conventions, they rarely impede communication.",
+          "scope": "target",
+          "feature": "syntactic range and communication",
+          "direction": "positive",
+          "quotes": [
+            "Students being educated at home gain more freedom to create their own schedule and their own rules.",
+            "Because of this students will feel less pressure and get better grades than they would have if they were at school."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay demonstrates a variety of syntactic structures, including complex sentences and varied sentence lengths. While there are some grammatical inaccuracies, they do not significantly impede the overall communication of the argument.",
+          "overall_relation": "The rationale suggests that the syntactic range and communication contribute to the overall score.",
+          "limitations": "The essay contains some grammatical errors, such as incorrect punctuation and word usage, which could be improved.",
+          "evidence_id": "8317:2.E3",
+          "target_id": "8317:2",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Students being educated at home gain more freedom to create their own schedule and their own rules.",
+              "occurrences": [
+                {
+                  "start": 386,
+                  "end": 485,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Because of this students will feel less pressure and get better grades than they would have if they were at school.",
+              "occurrences": [
+                {
+                  "start": 2266,
+                  "end": 2381,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "Claims about the writer's points being clear and the essay providing a balanced view of the topic were not assessed due to the three-claim limit.",
+      "history_separation": "There are no explicit mentions of historical inputs in the rationale or the target text, indicating that the claims are focused on the target essay."
+    },
+    {
+      "target_id": "515:1",
+      "gold_overall": 3,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates a limited range of vocabulary and structures, with some errors in grammar and syntax that occasionally impede communication.",
+          "scope": "target",
+          "feature": "syntactic range",
+          "direction": "negative",
+          "quotes": [
+            "Distance learning students attend classes on time by online.",
+            "Distance learning students also attend to school everyday.",
+            "By way online you can attend to classes from anywhere."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The quotes show repetitive and simplistic language use, with grammatical errors like 'by online' and 'attend to school everyday', supporting the claim of limited vocabulary and structures.",
+          "overall_relation": "The rationale suggests that the observed Overall score of 3 is consistent with the essay's limited language facility and occasional inaccuracies.",
+          "limitations": "The claim is supported by the provided quotes, but it does not account for the clarity of the writer's points, which are generally clear despite the language issues.",
+          "evidence_id": "515:1.E1",
+          "target_id": "515:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Distance learning students attend classes on time by online.",
+              "occurrences": []
+            },
+            {
+              "quote": "Distance learning students also attend to school everyday.",
+              "occurrences": [
+                {
+                  "start": 268,
+                  "end": 326,
+                  "line_start": 1,
+                  "line_end": 1
+                },
+                {
+                  "start": 1623,
+                  "end": 1681,
+                  "line_start": 11,
+                  "line_end": 11
+                }
+              ]
+            },
+            {
+              "quote": "By way online you can attend to classes from anywhere.",
+              "occurrences": [
+                {
+                  "start": 327,
+                  "end": 381,
+                  "line_start": 1,
+                  "line_end": 1
+                },
+                {
+                  "start": 1176,
+                  "end": 1230,
+                  "line_start": 7,
+                  "line_end": 7
+                },
+                {
+                  "start": 1682,
+                  "end": 1736,
+                  "line_start": 11,
+                  "line_end": 11
+                }
+              ]
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The writer's points are generally clear, but the organization is somewhat disjointed, with some connections between ideas missing or unsuccessful.",
+          "scope": "target",
+          "feature": "global coherence",
+          "direction": "mixed",
+          "quotes": [
+            "First, distance learning students attend classes on time by online. In many states students live far from schools. Sometimes they can't be on time because of highway traffic. Sometimes cause of bad weather you have to drive slow than speed limit. And you can be late for school. If they late in every first classes they might fail that classes. Suppose they use the online conferencing they can be on time in every classes.",
+            "Also, attend to school everyday. Even if you sick for a week you still able to attend to school everyday by way of online or video conferencing. If weather is such a bad you can't go out of the house still able to attend classes from home. Although none is home to drop you off to the school. You can attend school by way of online or video conferencing."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The quotes show that the writer's points are clear, but the organization is somewhat disjointed, with some connections between ideas missing or unsuccessful. However, the quotes alone do not fully capture the overall coherence of the essay.",
+          "overall_relation": "The rationale suggests that the observed Overall score of 3 is consistent with the essay's somewhat disjointed organization.",
+          "limitations": "The claim is supported by the provided quotes, but the quotes do not fully capture the overall coherence of the essay, which may be more or less coherent than suggested.",
+          "evidence_id": "515:1.E2",
+          "target_id": "515:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "First, distance learning students attend classes on time by online. In many states students live far from schools. Sometimes they can't be on time because of highway traffic. Sometimes cause of bad weather you have to drive slow than speed limit. And you can be late for school. If they late in every first classes they might fail that classes. Suppose they use the online conferencing they can be on time in every classes.",
+              "occurrences": []
+            },
+            {
+              "quote": "Also, attend to school everyday. Even if you sick for a week you still able to attend to school everyday by way of online or video conferencing. If weather is such a bad you can't go out of the house still able to attend classes from home. Although none is home to drop you off to the school. You can attend school by way of online or video conferencing.",
+              "occurrences": [
+                {
+                  "start": 812,
+                  "end": 1166,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The essay provides a few examples to support the argument for distance learning, but the language used is often simplistic and repetitive, which affects the overall coherence and persuasiveness of the argument.",
+          "scope": "target",
+          "feature": "coherence and persuasiveness",
+          "direction": "negative",
+          "quotes": [
+            "First, distance learning students attend classes on time by online.",
+            "Also, attend to school everyday.",
+            "Then, By way online you can attend to classes from anywhere."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The quotes show that the essay provides a few examples to support the argument for distance learning, but the language used is often simplistic and repetitive, affecting the overall coherence and persuasiveness of the argument.",
+          "overall_relation": "The rationale suggests that the observed Overall score of 3 is consistent with the essay's simplistic and repetitive language use.",
+          "limitations": "The claim is supported by the provided quotes, but it does not account for the clarity of the writer's points, which are generally clear despite the language issues.",
+          "evidence_id": "515:1.E3",
+          "target_id": "515:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "First, distance learning students attend classes on time by online.",
+              "occurrences": []
+            },
+            {
+              "quote": "Also, attend to school everyday.",
+              "occurrences": [
+                {
+                  "start": 812,
+                  "end": 844,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            },
+            {
+              "quote": "Then, By way online you can attend to classes from anywhere.",
+              "occurrences": [
+                {
+                  "start": 1170,
+                  "end": 1230,
+                  "line_start": 7,
+                  "line_end": 7
+                }
+              ]
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "The essay's occasional inaccuracies in grammar and usage, such as 'attend to school everyday' and 'you can attend to classes from anywhere,' further contribute to the communication being impeded in some cases.",
+      "history_separation": "None"
+    },
+    {
+      "target_id": "2910:1",
+      "gold_overall": 3,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates limited facility in the use of language, with common structures and generic vocabulary.",
+          "scope": "target",
+          "feature": "language facility",
+          "direction": "negative",
+          "quotes": [
+            "Nevertheless not everybody agree this opinion, some people disagree because sometime people with not have mastered make better the job than the people with mastered.",
+            "Third. you get better position than the people no have the mastered, because you show your experience."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The quotes demonstrate the use of generic vocabulary and common structures, such as 'not everybody agree' and 'some people disagree', which align with the claim of limited language facility.",
+          "overall_relation": "The rationale suggests that the language facility issues contribute to the observed Overall score.",
+          "limitations": "The claim does not provide specific examples of the generic vocabulary or common structures used.",
+          "evidence_id": "2910:1.E1",
+          "target_id": "2910:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Nevertheless not everybody agree this opinion, some people disagree because sometime people with not have mastered make better the job than the people with mastered.",
+              "occurrences": [
+                {
+                  "start": 222,
+                  "end": 387,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "Third. you get better position than the people no have the mastered, because you show your experience.",
+              "occurrences": [
+                {
+                  "start": 1016,
+                  "end": 1118,
+                  "line_start": 13,
+                  "line_end": 13
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The organization is generally controlled, but there are instances where connections between ideas are absent or unsuccessful.",
+          "scope": "target",
+          "feature": "organization",
+          "direction": "mixed",
+          "quotes": [
+            "First, when you have a mastered your work better on this sometime to do, because this people have years to study and practice.",
+            "Second, with the mastered you get better opportunities, because you have a title show you already prepared for the job.",
+            "Third. you get better position than the people no have the mastered, because you show your experience."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The essay uses numbered points (First, Second, Third), which suggests some level of organization. However, the connections between ideas are not always clear, such as the transition from the first point to the second.",
+          "overall_relation": "The rationale indicates that the organization issues contribute to the observed Overall score.",
+          "limitations": "The claim does not specify which connections are absent or unsuccessful.",
+          "evidence_id": "2910:1.E2",
+          "target_id": "2910:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "First, when you have a mastered your work better on this sometime to do, because this people have years to study and practice.",
+              "occurrences": [
+                {
+                  "start": 391,
+                  "end": 517,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            },
+            {
+              "quote": "Second, with the mastered you get better opportunities, because you have a title show you already prepared for the job.",
+              "occurrences": []
+            },
+            {
+              "quote": "Third. you get better position than the people no have the mastered, because you show your experience.",
+              "occurrences": [
+                {
+                  "start": 1016,
+                  "end": 1118,
+                  "line_start": 13,
+                  "line_end": 13
+                }
+              ]
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "There are errors in grammar and syntax, which sometimes impede communication.",
+          "scope": "target",
+          "feature": "grammar and syntax",
+          "direction": "negative",
+          "quotes": [
+            "you get better position than the people no have the mastered.",
+            "For example in restaurant wen you have a mastered on chef you only need to memorize the recipes, other people need to memorize the condiment's, the tools, and the machines is used."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The quotes contain grammatical and syntactical errors, such as 'no have the mastered' and 'condiment's, the tools, and the machines is used', which impede clear communication.",
+          "overall_relation": "The rationale suggests that these errors contribute to the observed Overall score.",
+          "limitations": "The claim does not specify the frequency or impact of these errors on the overall communication.",
+          "evidence_id": "2910:1.E3",
+          "target_id": "2910:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "you get better position than the people no have the mastered.",
+              "occurrences": [
+                {
+                  "start": 157,
+                  "end": 218,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "For example in restaurant wen you have a mastered on chef you only need to memorize the recipes, other people need to memorize the condiment's, the tools, and the machines is used.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "The essay argues that having a mastery in a field leads to better job opportunities and positions, but the writing contains several language inaccuracies and structural issues that make the argument less clear and coherent.",
+      "history_separation": "None"
+    },
+    {
+      "target_id": "2953:1",
+      "gold_overall": 3,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates a limited range of vocabulary and occasional syntactic variety, with some generic phrases and structures.",
+          "scope": "target",
+          "feature": "lexical range and syntactic variety",
+          "direction": "negative",
+          "quotes": [
+            "First reason is on point of view if you're already mastered in something and you're keep doing it , to be better or go beyond then my opinion is that you're wasting your time on something unnesesary because you're already mastered , just be happy with what you have and knows a sample are the Childrens they always wanna something if they have it they want more and more or when they are playing they wanna play possiblely the all day when they realize the day is already gone but they don't care because they think that they have enough time to play so it is the same with us. sometimes we wanna be betters than another people or just feel good but we're wasting our time in somethin that we already mastered."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The provided text shows a limited range of vocabulary and repetitive structures, such as the repeated use of 'you're' and 'something', which supports the claim.",
+          "overall_relation": "This claim aligns with the overall score of 3, indicating a limited range of vocabulary and occasional syntactic variety.",
+          "limitations": "The text does not provide a wide variety of vocabulary or complex syntactic structures, which supports the claim but does not necessarily indicate a lack of potential for improvement.",
+          "evidence_id": "2953:1.E1",
+          "target_id": "2953:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "First reason is on point of view if you're already mastered in something and you're keep doing it , to be better or go beyond then my opinion is that you're wasting your time on something unnesesary because you're already mastered , just be happy with what you have and knows a sample are the Childrens they always wanna something if they have it they want more and more or when they are playing they wanna play possiblely the all day when they realize the day is already gone but they don't care because they think that they have enough time to play so it is the same with us. sometimes we wanna be betters than another people or just feel good but we're wasting our time in somethin that we already mastered.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The organization is generally controlled, but there are instances where the connection between ideas is absent or unsuccessful.",
+          "scope": "target",
+          "feature": "organization and coherence",
+          "direction": "mixed",
+          "quotes": [
+            "First reason is on point of view if you're already mastered in something and you're keep doing it , to be better or go beyond then my opinion is that you're wasting your time on something unnesesary because you're already mastered , just be happy with what you have and knows a sample are the Childrens they always wanna something if they have it they want more and more or when they are playing they wanna play possiblely the all day when they realize the day is already gone but they don't care because they think that they have enough time to play so it is the same with us. sometimes we wanna be betters than another people or just feel good but we're wasting our time in somethin that we already mastered."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The text shows some control in organization, but the connection between ideas is often unclear, such as the transition from discussing mastery to children's behavior, which makes the overall coherence uncertain.",
+          "overall_relation": "This claim aligns with the overall score of 3, indicating controlled organization with some coherence issues.",
+          "limitations": "The text lacks clear transitions between ideas, which can make the overall argument less coherent.",
+          "evidence_id": "2953:1.E2",
+          "target_id": "2953:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "First reason is on point of view if you're already mastered in something and you're keep doing it , to be better or go beyond then my opinion is that you're wasting your time on something unnesesary because you're already mastered , just be happy with what you have and knows a sample are the Childrens they always wanna something if they have it they want more and more or when they are playing they wanna play possiblely the all day when they realize the day is already gone but they don't care because they think that they have enough time to play so it is the same with us. sometimes we wanna be betters than another people or just feel good but we're wasting our time in somethin that we already mastered.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "There are errors in grammar and syntax, which sometimes impede communication.",
+          "scope": "target",
+          "feature": "grammar and syntax",
+          "direction": "negative",
+          "quotes": [
+            "First reason is on point of view if you're already mastered in something and you're keep doing it , to be better or go beyond then my opinion is that you're wasting your time on something unnesesary because you're already mastered , just be happy with what you have and knows a sample are the Childrens they always wanna something if they have it they want more and more or when they are playing they wanna play possiblely the all day when they realize the day is already gone but they don't care because they think that they have enough time to play so it is the same with us. sometimes we wanna be betters than another people or just feel good but we're wasting our time in somethin that we already mastered."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The text contains numerous grammatical and syntactical errors, such as 'you're keep doing it', 'wanna', and 'somethin', which impede clear communication.",
+          "overall_relation": "This claim aligns with the overall score of 3, indicating that errors in grammar and syntax sometimes impede communication.",
+          "limitations": "The text contains multiple errors that can make the message difficult to understand, but it also includes some clear examples that support the argument.",
+          "evidence_id": "2953:1.E3",
+          "target_id": "2953:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "First reason is on point of view if you're already mastered in something and you're keep doing it , to be better or go beyond then my opinion is that you're wasting your time on something unnesesary because you're already mastered , just be happy with what you have and knows a sample are the Childrens they always wanna something if they have it they want more and more or when they are playing they wanna play possiblely the all day when they realize the day is already gone but they don't care because they think that they have enough time to play so it is the same with us. sometimes we wanna be betters than another people or just feel good but we're wasting our time in somethin that we already mastered.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "The writer's arguments are supported with examples, but the language inaccuracies and structural issues make the essay less coherent and clear.",
+      "history_separation": "There are no explicit mentions of historical inputs in the target text."
+    },
+    {
+      "target_id": "2348:1",
+      "gold_overall": 2,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics.",
+          "scope": "target",
+          "feature": "sentence formation, word choice, mechanics",
+          "direction": "negative",
+          "quotes": [
+            "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+            "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The provided quotes show inconsistent sentence formation, word choice, and mechanics, such as 'influening', 'ued', 'believe', 'kinll', and 'benfic'. These errors support the claim that the essay demonstrates inconsistent facility in these areas.",
+          "overall_relation": "The claim aligns with the overall score of 2, indicating limited control over language and organization.",
+          "limitations": "The claim does not account for any coherent sentences or correct usage that may exist in the essay.",
+          "evidence_id": "2348:1.E1",
+          "target_id": "2348:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+              "occurrences": [
+                {
+                  "start": 0,
+                  "end": 333,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The organization is partially developed but often missing or unsuccessful, leading to fragmented thoughts and unclear arguments.",
+          "scope": "target",
+          "feature": "organization",
+          "direction": "negative",
+          "quotes": [
+            "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+            "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The provided quotes show fragmented thoughts and unclear arguments, such as the lack of clear transitions and the mixing of unrelated ideas, supporting the claim about the essay's organization.",
+          "overall_relation": "The claim aligns with the overall score of 2, indicating limited control over language and organization.",
+          "limitations": "The claim does not consider any coherent sections or arguments that may exist in the essay.",
+          "evidence_id": "2348:1.E2",
+          "target_id": "2348:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+              "occurrences": [
+                {
+                  "start": 0,
+                  "end": 333,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "There are frequent errors in grammar, syntax, and usage, which impede communication in many instances.",
+          "scope": "target",
+          "feature": "grammar, syntax, usage",
+          "direction": "negative",
+          "quotes": [
+            "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+            "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The provided quotes show frequent errors in grammar, syntax, and usage, such as 'influening', 'ued', 'believe', 'kinll', and 'benfic', which impede communication.",
+          "overall_relation": "The claim aligns with the overall score of 2, indicating limited control over language and organization.",
+          "limitations": "The claim does not consider any grammatically correct sentences or sections that may exist in the essay.",
+          "evidence_id": "2348:1.E3",
+          "target_id": "2348:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+              "occurrences": [
+                {
+                  "start": 0,
+                  "end": 333,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "The essay attempts to convey ideas about the influence of friends and the consequences of bad decisions, but the language inaccuracies and structural issues make it difficult to follow the intended message.",
+      "history_separation": "There are no explicit mentions of historical inputs or ambiguities related to historical claims in the rationale."
+    }
+  ],
+  "B": {
+    "patterns": [
+      {
+        "pattern_id": "P1",
+        "inferred_tendency": "参照推論から推定された傾向の候補は、語彙・構文の使用範囲、文法上の不正確さ、組織の制御を評価の説明に用いることである。ただし、各特徴の重視度や採点者固有性、特定の得点に至る規則は判断できない。",
+        "support_evidence_ids": [
+          "7817:1.E1",
+          "8690:2.E1",
+          "2420:1.E1",
+          "61:1.E1",
+          "7836:1.E1",
+          "2910:1.E1"
+        ],
+        "evaluation_score_relation": "支持答案の観測Overallと参照推論の定性的な評価判断を対比する候補である。誤りの存在だけから得点の上限や因果的な減点規則を導くことはできない。",
+        "counterexample_evidence_ids": [],
+        "non_applicable_target_ids": [
+          "8317:2"
+        ],
+        "unknowns": "評価者の特定性、強度、範囲、および矛盾または不十分な証拠",
+        "model_non_applicable_target_ids": [
+          "8317:2",
+          "515:1",
+          "2953:1",
+          "2348:1"
+        ],
+        "unassessed_target_ids": [
+          "515:1",
+          "2953:1",
+          "2348:1"
+        ],
+        "classification_note": "No usable target evidence => unassessed, not a negative or non-applicable example. Original classification retained.",
+        "model_inferred_tendency_before_review": "参照推論から推定された傾向は、言語の使用範囲と構成の制御が評価に影響を与えることである。言語の使用範囲が限られている場合や、文法と構文のエラーが存在する場合、評価は低くなる傾向がある。ただし、これらの要素が完全にコミュニケーションを妨げない限り、評価は3点程度に留まる。",
+        "model_evaluation_score_relation_before_review": "言語の使用範囲と構成の制御が評価に影響を与えるが、これらの要素が完全にコミュニケーションを妨げない限り、評価は3点程度に留まる。"
+      }
+    ],
+    "undetermined": "共通傾向は判断できない。",
+    "cross_essay_review": "複数の参照推論で言語特徴と組織が評価の説明に用いられている。ただし、引用による意味的支持は暫定的であり、証拠不足の答案と反例・非該当を区別する必要がある。特定得点への一般則は抽出できない。",
+    "model_cross_essay_review_before_review": "選択されたエッセイ全体で、言語の使用範囲と構成の制御が評価に影響を与えるという傾向が見られる。ただし、これらの要素が完全にコミュニケーションを妨げない限り、評価は3点程度に留まる。反例や適用されないケースは見つからなかった。",
+    "reviewed_for_unsupported_scoring_rules": true,
+    "review_reason": "本文証拠・公式条件から導けない得点上限の一般化を除外。モデルの原表現は保持するが、Cの入力には渡さない。"
+  },
+  "C": {
+    "elements": [
+      {
+        "number": 1,
+        "text": "Overall.S2: Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.\n\nOverall.S3: Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.\n\nOverall.S4: Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+        "evidence_ids": [],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3",
+          "Overall.S4"
+        ],
+        "pattern_ids": [],
+        "relation_ids": []
+      },
+      {
+        "number": 2,
+        "text": "以下は観測Overallを条件として生成された参照推論から推定された傾向の候補であり、採点者本人の真の思考や評価の重みを示すものではない。2件以上の支持だけでは妥当性は証明されない。\n\n複数の評価パターン候補は、語彙・構文の使用範囲、文法上の不正確さ、組織の制御を評価の説明に用いることである。ただし、各特徴の重視度や採点者固有性、特定の得点に至る規則は判断できないため、共通傾向は明確に判断できない。",
+        "evidence_ids": [
+          "2420:1.E1",
+          "2910:1.E1",
+          "61:1.E1",
+          "7817:1.E1",
+          "7836:1.E1",
+          "8690:2.E1"
+        ],
+        "rubric_ids": [],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": []
+      },
+      {
+        "number": 3,
+        "text": "引用の存在と意味的支持の違い、複数文や段落を必要とする判断の範囲、証拠不足の留保は、評価の範囲を限定する。特に、誤りの頻度とそれがコミュニケーションに及ぼす影響を正確に評価するためには、全体の文章を調査する必要がある。\n\n2420:1 / 2420:1.E1: \"Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.\"\n\n2420:1 / 2420:1.E3: \"Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accomplish something in my life.\"\n\n7817:1 / 7817:1.E1: \"Since technology developed really fast now, we can't live without these technologies.\"\n\n7817:1 / 7817:1.E1: \"Using computers are the mean reason of why we are lazy now.\"\n\n7817:1 / 7817:1.E1: \"Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.\"\n\n7817:1 / 7817:1.E2: \"Some people says that use of technology had positive effects on people's lives because it's easier for people to work and context with friends. Most technologies helped a lots in our life but I think use of technology had negative effects, because we are getting very lazy of doing things people are using cellphone to complete everything, eye problems make a lots of young teens are wearing glasses now, because they are using too much electronic devises, and I think most people are getting addicted to their cellphones because they can't live without it.\"\n\n7817:1 / 7817:1.E2: \"Using computers are the mean reason of why we are lazy now.\"\n\n7817:1 / 7817:1.E2: \"Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.\"",
+        "evidence_ids": [
+          "2420:1.E1",
+          "2420:1.E3",
+          "7817:1.E1",
+          "7817:1.E2"
+        ],
+        "rubric_ids": [],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": []
+      },
+      {
+        "number": 4,
+        "text": "与えられた個別の照合結果は、誤りの存在と伝達阻害の頻度・程度の差を自然につなぎ、参照推論と本文の解釈差を説明する。ただし、誤りの頻度とそれがコミュニケーションに及ぼす影響を正確に評価するためには、全体の文章を調査する必要がある。\n\n2420:1（観測Overall 3、Overall.S3、比較先 Overall.S2）: 引用された文章は、一般的な構造と一般的な語彙の使用に制限されていることを示しており、これは公式Overall.S3の条件と一致します。また、文法や語法の誤りがコミュニケーションを妨げている点も、Overall.S3の説明と一致します。 参照推論は、文章の品質が言語能力の制限を反映していることを示しており、これは観測Overallスコア3と一致します。ただし、誤りの頻度と影響度を考慮する必要があります。 隣接段階との程度や頻度、適切さの違いについて、具体的な評価が不足しています。誤りの頻度とそれがコミュニケーションに及ぼす影響を正確に評価するためには、全体の文章を調査する必要があります。\n\n7817:1（観測Overall 4、Overall.S4、比較先 Overall.S3）: 文章は多様な語彙と句構造を使用しているが、時折言葉の選択や文法の不正確さがある。例えば、'mean reason'や'walked on a street'といった表現が、公式条件で言及される「言語の使用における句構造の多様性と単語・フレーズの範囲」を検討する証拠となる。 参照推論は、言語の使用と組織の制御が全体的なスコアに寄与することを示唆している。ただし、言葉の選択や文法の不正確さがコミュニケーションを阻害する頻度や程度については評価していない。 隣接段階との比較において、言語の正確性と頻度、適切さの違いについての具体的な評価が不足している。特に、誤りがコミュニケーションを阻害する頻度や程度についての明確な判断が不足している。",
+        "evidence_ids": [
+          "2420:1.E1",
+          "2420:1.E3",
+          "7817:1.E1",
+          "7817:1.E2"
+        ],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3",
+          "Overall.S4"
+        ],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": [
+          "R1",
+          "R2"
+        ]
+      },
+      {
+        "number": 5,
+        "text": "次の採点では、誤りの頻度とそれがコミュニケーションに及ぼす影響を具体的に評価するため、全体の文章を調査し、誤りの頻度とその影響を詳細に確認する必要がある。また、段落間のつながりが成功しているか、または失敗しているかを評価する。\n\nR1の論点から: 次の採点では、誤りの頻度とそれがコミュニケーションに及ぼす影響を具体的に評価するため、全体の文章を調査し、誤りの頻度とその影響を詳細に確認する必要があります。\n\nR2の論点から: 次の採点では、誤りがコミュニケーションを阻害する頻度と程度を具体的に確認する。また、段落間のつながりが成功しているか、または失敗しているかを評価する。",
+        "evidence_ids": [
+          "2420:1.E1",
+          "2420:1.E3",
+          "7817:1.E1",
+          "7817:1.E2"
+        ],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3",
+          "Overall.S4"
+        ],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": [
+          "R1",
+          "R2"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "R1",
+        "pattern_id": "P1",
+        "target_id": "2420:1",
+        "observed_overall": 3,
+        "evidence_ids": [
+          "2420:1.E1",
+          "2420:1.E3"
+        ],
+        "evidence_anchor": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.",
+        "rubric_id": "Overall.S3",
+        "condition_quote": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "comparison_rubric_id": "Overall.S2",
+        "comparison_condition_quote": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+        "model_explanations": {
+          "evidence_to_condition": "引用された文章は、一般的な構造と一般的な語彙の使用に制限されていることを示しており、これは公式Overall.S3の条件と一致します。また、文法や語法の誤りがコミュニケーションを妨げている点も、Overall.S3の説明と一致します。",
+          "judgment_to_condition": "参照推論は、文章の品質が言語能力の制限を反映していることを示しており、これは観測Overallスコア3と一致します。ただし、誤りの頻度と影響度を考慮する必要があります。",
+          "interpretation_or_missing_evidence": "隣接段階との程度や頻度、適切さの違いについて、具体的な評価が不足しています。誤りの頻度とそれがコミュニケーションに及ぼす影響を正確に評価するためには、全体の文章を調査する必要があります。",
+          "next_check": "次の採点では、誤りの頻度とそれがコミュニケーションに及ぼす影響を具体的に評価するため、全体の文章を調査し、誤りの頻度とその影響を詳細に確認する必要があります。"
+        },
+        "evidence_to_condition": "2420:1 / 原文 \"Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.\"。引用された文章は、一般的な構造と一般的な語彙の使用に制限されていることを示しており、これは公式Overall.S3の条件と一致します。また、文法や語法の誤りがコミュニケーションを妨げている点も、Overall.S3の説明と一致します。",
+        "judgment_to_condition": "観測Overall 3。参照推論は、文章の品質が言語能力の制限を反映していることを示しており、これは観測Overallスコア3と一致します。ただし、誤りの頻度と影響度を考慮する必要があります。",
+        "interpretation_or_missing_evidence": "隣接段階との程度や頻度、適切さの違いについて、具体的な評価が不足しています。誤りの頻度とそれがコミュニケーションに及ぼす影響を正確に評価するためには、全体の文章を調査する必要があります。",
+        "next_check": "次の採点では、誤りの頻度とそれがコミュニケーションに及ぼす影響を具体的に評価するため、全体の文章を調査し、誤りの頻度とその影響を詳細に確認する必要があります。"
+      },
+      {
+        "relation_id": "R2",
+        "pattern_id": "P1",
+        "target_id": "7817:1",
+        "observed_overall": 4,
+        "evidence_ids": [
+          "7817:1.E1",
+          "7817:1.E2"
+        ],
+        "evidence_anchor": "Since technology developed really fast now, we can't live without these technologies.",
+        "rubric_id": "Overall.S4",
+        "condition_quote": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+        "comparison_rubric_id": "Overall.S3",
+        "comparison_condition_quote": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "model_explanations": {
+          "evidence_to_condition": "文章は多様な語彙と句構造を使用しているが、時折言葉の選択や文法の不正確さがある。例えば、'mean reason'や'walked on a street'といった表現が、公式条件で言及される「言語の使用における句構造の多様性と単語・フレーズの範囲」を検討する証拠となる。",
+          "judgment_to_condition": "参照推論は、言語の使用と組織の制御が全体的なスコアに寄与することを示唆している。ただし、言葉の選択や文法の不正確さがコミュニケーションを阻害する頻度や程度については評価していない。",
+          "interpretation_or_missing_evidence": "隣接段階との比較において、言語の正確性と頻度、適切さの違いについての具体的な評価が不足している。特に、誤りがコミュニケーションを阻害する頻度や程度についての明確な判断が不足している。",
+          "next_check": "次の採点では、誤りがコミュニケーションを阻害する頻度と程度を具体的に確認する。また、段落間のつながりが成功しているか、または失敗しているかを評価する。"
+        },
+        "evidence_to_condition": "7817:1 / 原文 \"Since technology developed really fast now, we can't live without these technologies.\"。文章は多様な語彙と句構造を使用しているが、時折言葉の選択や文法の不正確さがある。例えば、'mean reason'や'walked on a street'といった表現が、公式条件で言及される「言語の使用における句構造の多様性と単語・フレーズの範囲」を検討する証拠となる。",
+        "judgment_to_condition": "観測Overall 4。参照推論は、言語の使用と組織の制御が全体的なスコアに寄与することを示唆している。ただし、言葉の選択や文法の不正確さがコミュニケーションを阻害する頻度や程度については評価していない。",
+        "interpretation_or_missing_evidence": "隣接段階との比較において、言語の正確性と頻度、適切さの違いについての具体的な評価が不足している。特に、誤りがコミュニケーションを阻害する頻度や程度についての明確な判断が不足している。",
+        "next_check": "次の採点では、誤りがコミュニケーションを阻害する頻度と程度を具体的に確認する。また、段落間のつながりが成功しているか、または失敗しているかを評価する。"
+      }
+    ],
+    "limits": "このフィードバックは予備的な便宜標本・モデルの暫定判断であり、真の思考や有効性を実証していないという制約がある。",
+    "assembly": "C relation and text are model-generated; source metadata, full rubric, IDs, scores and exact quotations deterministically assembled",
+    "citations": [
+      {
+        "evidence_id": "2420:1.E1",
+        "target_id": "2420:1",
+        "quote": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.",
+        "positions": [
+          {
+            "start": 276,
+            "end": 640,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "2420:1.E3",
+        "target_id": "2420:1",
+        "quote": "Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accomplish something in my life.",
+        "positions": [
+          {
+            "start": 1047,
+            "end": 1494,
+            "line_start": 5,
+            "line_end": 5
+          }
+        ]
+      },
+      {
+        "evidence_id": "7817:1.E1",
+        "target_id": "7817:1",
+        "quote": "Since technology developed really fast now, we can't live without these technologies.",
+        "positions": [
+          {
+            "start": 0,
+            "end": 85,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "7817:1.E1",
+        "target_id": "7817:1",
+        "quote": "Using computers are the mean reason of why we are lazy now.",
+        "positions": [
+          {
+            "start": 647,
+            "end": 706,
+            "line_start": 3,
+            "line_end": 3
+          }
+        ]
+      },
+      {
+        "evidence_id": "7817:1.E1",
+        "target_id": "7817:1",
+        "quote": "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.",
+        "positions": [
+          {
+            "start": 1183,
+            "end": 1331,
+            "line_start": 5,
+            "line_end": 5
+          }
+        ]
+      },
+      {
+        "evidence_id": "7817:1.E2",
+        "target_id": "7817:1",
+        "quote": "Some people says that use of technology had positive effects on people's lives because it's easier for people to work and context with friends. Most technologies helped a lots in our life but I think use of technology had negative effects, because we are getting very lazy of doing things people are using cellphone to complete everything, eye problems make a lots of young teens are wearing glasses now, because they are using too much electronic devises, and I think most people are getting addicted to their cellphones because they can't live without it.",
+        "positions": [
+          {
+            "start": 86,
+            "end": 643,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "7817:1.E2",
+        "target_id": "7817:1",
+        "quote": "Using computers are the mean reason of why we are lazy now.",
+        "positions": [
+          {
+            "start": 647,
+            "end": 706,
+            "line_start": 3,
+            "line_end": 3
+          }
+        ]
+      },
+      {
+        "evidence_id": "7817:1.E2",
+        "target_id": "7817:1",
+        "quote": "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.",
+        "positions": [
+          {
+            "start": 1183,
+            "end": 1331,
+            "line_start": 5,
+            "line_end": 5
+          }
+        ]
+      }
+    ],
+    "scope_guard": "Programmatically added source-conditioning and candidate-status caveat; raw model text retained in C_text and calls.jsonl",
+    "quality_status": "pilot_outputs_require_revision_before_delivery",
+    "content_review": [
+      {
+        "rater_id": "rater_4",
+        "relation_id": "R1",
+        "relation_review": "一般的な構造・語彙に制限されるという基準の言い換えが中心で、具体的な言語特徴と条件の対応を説明しきれていない。引用だけから全体の語彙範囲を確定できない点も残る。",
+        "next_check_review": "頻度・理解阻害の全体確認にはつながるが、どの文で何を再確認するかが抽象的。"
+      },
+      {
+        "rater_id": "rater_4",
+        "relation_id": "R2",
+        "relation_review": "mean reason等の例は挙げるが、walked on a streetはそれ自体で誤りとは言えない。短い語句から語彙・構文の多様性を支持する説明も不十分。",
+        "next_check_review": "語句の適切さから段落間接続へ論点が移り、④との対応が一部弱い。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reviewer": "Codex assistant qualitative inspection; not independent human evaluation",
+  "status": "pilot_outputs_require_revision_before_delivery",
+  "relations": [
+    {"rater_id":"rater_7","relation_id":"R1","relation_review":"they doesn't workなどの局所例と文形成の不安定さを結び付ける説明はある。一方、many instancesとsome casesの違いは具体的に判断できていない。","next_check_review":"引用の代表性・前後文・全体の確認を挙げており④の不足には対応するが、どの意味理解を再確認するかはなお抽象的。"},
+    {"rater_id":"rater_7","relation_id":"R2","relation_review":"生成説明は公式文と参照推論の引用・言い換えが中心。具体的な語形・文構造が条件にどう関わるかの説明が不足。固定アンカーの挿入だけで意味的対応が成立したとは扱わない。","next_check_review":"全体の頻度・語彙構文範囲・組織化を列挙し、特定した局所的論点からの具体的な確認方法にはなっていない。"},
+    {"rater_id":"rater_17","relation_id":"R1","relation_review":"dose等の実例は挙がるが、doseをdoに直すだけではdo mistakesとなり自然な表現にはならない。またlanguage inaccuraciesの意味を言語の正確性と訳す箇所があり、説明の正確性に問題が残る。","next_check_review":"頻度や理解阻害を全体で確認する論点は④に対応するが、具体的な理解不能箇所や比較例を指定できていない。"},
+    {"rater_id":"rater_17","relation_id":"R2","relation_review":"明確な導入・本題・結論や接続の緩さを、文法と規則の正確性にも結び付けており、組織と文法の条件の対応が混在。具体的な接続箇所の説明も不足。","next_check_review":"接続の解釈差から始まるのに文法頻度・語彙構文範囲へ論点が広がり、⑤の④からの導出が弱い。"},
+    {"rater_id":"rater_4","relation_id":"R1","relation_review":"一般的な構造・語彙に制限されるという基準の言い換えが中心で、具体的な言語特徴と条件の対応を説明しきれていない。引用だけから全体の語彙範囲を確定できない点も残る。","next_check_review":"頻度・理解阻害の全体確認にはつながるが、どの文で何を再確認するかが抽象的。"},
+    {"rater_id":"rater_4","relation_id":"R2","relation_review":"mean reason等の例は挙げるが、walked on a streetはそれ自体で誤りとは言えない。短い語句から語彙・構文の多様性を支持する説明も不十分。","next_check_review":"語句の適切さから段落間接続へ論点が移り、④との対応が一部弱い。"}
+  ]
+}

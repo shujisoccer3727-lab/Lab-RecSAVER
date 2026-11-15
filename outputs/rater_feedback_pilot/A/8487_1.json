@@ -1,0 +1,142 @@
+{
+  "fingerprint": "e1b12a2622960e3d66ee53204385e3e195a5bac21b7aeeb5a0b27546e7be94dc",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics.",
+        "scope": "target",
+        "feature": "mechanics",
+        "direction": "negative",
+        "quotes": [
+          "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words",
+          "my goals is i want to be a police but first need to finish the school graduate i have a dora and she is my inpiration to be a big person because i have a beautiful girl went"
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes show inconsistent sentence formation and word choice, such as 'they doesn't work' and 'i have a dora and she is my inpiration', which support the claim of inconsistent facility in mechanics.",
+        "overall_relation": "The rationale suggests that the inconsistent facility in sentence formation and mechanics contributes to the low score.",
+        "limitations": "The claim does not account for potential strengths in other areas of the essay.",
+        "evidence_id": "8487:1.E1",
+        "target_id": "8487:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words",
+            "occurrences": [
+              {
+                "start": 0,
+                "end": 289,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "my goals is i want to be a police but first need to finish the school graduate i have a dora and she is my inpiration to be a big person because i have a beautiful girl went",
+            "occurrences": [
+              {
+                "start": 2303,
+                "end": 2476,
+                "line_start": 23,
+                "line_end": 23
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The organization is partially developed but often missing or unsuccessful, leading to fragmented ideas and unclear connections between points.",
+        "scope": "target",
+        "feature": "organization",
+        "direction": "negative",
+        "quotes": [
+          "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing",
+          "my mom tell me one day i not in this life for so much time so you are lonely and i need to know you have your goals you need to complete the school you need the paper to say you graduate if you not finish school you are not nothing in your life because the principal thing if you need"
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The quotes show a lack of clear connections between ideas and fragmented thoughts, supporting the claim of poor organization.",
+        "overall_relation": "The rationale indicates that the poor organization impacts the overall score negatively.",
+        "limitations": "The claim does not consider the possibility of some coherent sections within the essay.",
+        "evidence_id": "8487:1.E2",
+        "target_id": "8487:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing",
+            "occurrences": [
+              {
+                "start": 293,
+                "end": 443,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "my mom tell me one day i not in this life for so much time so you are lonely and i need to know you have your goals you need to complete the school you need the paper to say you graduate if you not finish school you are not nothing in your life because the principal thing if you need",
+            "occurrences": [
+              {
+                "start": 847,
+                "end": 1131,
+                "line_start": 13,
+                "line_end": 13
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "There are frequent errors in grammar, syntax, and usage, which impede communication in many instances.",
+        "scope": "target",
+        "feature": "grammar",
+        "direction": "negative",
+        "quotes": [
+          "you life are sad and this is how the people die because they drink you think a bad things in your head you smook marihuana or other sustances this people are not have future in the life they dont have a nothing",
+          "some little girls are violate and have a children when she was a 13 o 14 years and the boy who's pregnant live or her dont know where is he, is bad because the family too dont help her so she need to work for have a good future the her boy or girl and is a working hard because you are the mother and the father too you have so much responsabilities to pay the babysitter for you baby when you working and when you comback you are tired but you children need to earing or some is sick you need to go to the hospital you not a good life and other people are chilling they know not about they future"
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The quotes contain numerous grammatical errors and unclear syntax, such as 'you smook marihuana or other sustances' and 'some little girls are violate', which support the claim of frequent errors.",
+        "overall_relation": "The rationale suggests that frequent errors in grammar and syntax contribute to the low score.",
+        "limitations": "The claim does not consider the potential for some grammatically correct sentences within the essay.",
+        "evidence_id": "8487:1.E3",
+        "target_id": "8487:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "you life are sad and this is how the people die because they drink you think a bad things in your head you smook marihuana or other sustances this people are not have future in the life they dont have a nothing",
+            "occurrences": [
+              {
+                "start": 552,
+                "end": 762,
+                "line_start": 9,
+                "line_end": 9
+              }
+            ]
+          },
+          {
+            "quote": "some little girls are violate and have a children when she was a 13 o 14 years and the boy who's pregnant live or her dont know where is he, is bad because the family too dont help her so she need to work for have a good future the her boy or girl and is a working hard because you are the mother and the father too you have so much responsabilities to pay the babysitter for you baby when you working and when you comback you are tired but you children need to earing or some is sick you need to go to the hospital you not a good life and other people are chilling they know not about they future",
+            "occurrences": [
+              {
+                "start": 1702,
+                "end": 2299,
+                "line_start": 21,
+                "line_end": 21
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The essay attempts to convey personal experiences and goals but struggles with coherence and clarity, making it difficult for the reader to follow the intended message.",
+    "history_separation": "There are no explicit mentions of historical inputs in the rationale."
+  },
+  "timestamp": "2026-11-15T15:56:03.944922+09:00"
+}

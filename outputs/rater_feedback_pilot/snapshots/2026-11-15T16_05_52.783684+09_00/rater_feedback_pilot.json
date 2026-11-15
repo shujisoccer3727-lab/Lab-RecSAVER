@@ -1,0 +1,18 @@
+{
+  "version": "rater-feedback-pilot/1.0",
+  "seed": 20261113,
+  "max_raters": 3,
+  "max_essays_per_rater": 10,
+  "min_essays_per_rater": 3,
+  "runtime_model_max_len": 16384,
+  "prompt_versions": {"A": "v1", "B": "v1", "C": "v2"},
+  "source_dir": "outputs/reasoning_eval_large",
+  "output_dir": "outputs/rater_feedback_pilot",
+  "source_config": "outputs/reasoning_eval_large/resolved_config.yaml",
+  "raw_path": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+  "rubric_structured": "rubrics/ellipse_rubric_structured.json",
+  "generation": {"temperature": 0.2, "top_p": 0.8, "max_tokens": 2400},
+  "max_output_tokens": {"A": 1800, "B": 1800, "C": 5000},
+  "validation_retries": 1,
+  "selection": "SHA256(seed:rater:ID), then SHA256(seed:essay:target_id); unique text_id_kaggle else Filename else exact Text hash; smallest numeric candidate_index then attempt_index within verified pool; no outcome-based replacement"
+}

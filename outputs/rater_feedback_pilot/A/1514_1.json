@@ -1,0 +1,142 @@
+{
+  "fingerprint": "ca61887f0629089c23a33cc5585f9ab4de0f744c3ad1b911ee1f11e6ac547876",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates a limited facility in the use of language, with occasional syntactic variety and a range of vocabulary, but it also contains errors in grammar and syntax that sometimes impede communication.",
+        "scope": "target",
+        "feature": "syntactic range",
+        "direction": "negative",
+        "quotes": [
+          "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+          "Some people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes show a mix of correct and incorrect grammar and syntax, with some sentences being difficult to understand due to grammatical errors. This supports the claim that the essay has errors that sometimes impede communication.",
+        "overall_relation": "The rationale suggests that the essay's syntactic issues contribute to a moderate level of proficiency with notable inaccuracies.",
+        "limitations": "The essay contains both clear and unclear sentences, which may not fully support the claim of consistently impeding communication.",
+        "evidence_id": "1514:1.E1",
+        "target_id": "1514:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+            "occurrences": [
+              {
+                "start": 0,
+                "end": 202,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "Some people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life.",
+            "occurrences": [
+              {
+                "start": 1646,
+                "end": 1997,
+                "line_start": 7,
+                "line_end": 7
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The organization is generally controlled, but there are instances where the connection between ideas is absent or unsuccessful.",
+        "scope": "target",
+        "feature": "global coherence",
+        "direction": "negative",
+        "quotes": [
+          "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement.",
+          "Another example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The quotes show a lack of clear transitions and connections between ideas, supporting the claim of unsuccessful connections between ideas.",
+        "overall_relation": "The rationale indicates that the essay's organizational issues contribute to a moderate level of proficiency with notable inaccuracies.",
+        "limitations": "The essay does provide some examples, but the transitions between them are often unclear, which may not fully support the claim of generally controlled organization.",
+        "evidence_id": "1514:1.E2",
+        "target_id": "1514:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement.",
+            "occurrences": [
+              {
+                "start": 0,
+                "end": 316,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "Another example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life.",
+            "occurrences": [
+              {
+                "start": 1139,
+                "end": 1515,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer provides examples to support their argument, such as the experiences of their brother and Hitler, but the writing includes some language inaccuracies and lacks precision in word choice and phrasing.",
+        "scope": "target",
+        "feature": "evidence and support",
+        "direction": "mixed",
+        "quotes": [
+          "My brother for example wanted to be an engineer, with hard work and effort he made it.",
+          "Another example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The quotes show that the writer does provide examples to support their argument, but the language used is imprecise and contains inaccuracies, supporting the claim.",
+        "overall_relation": "The rationale suggests that the essay's use of examples, despite inaccuracies, contributes to a moderate level of proficiency.",
+        "limitations": "The examples provided are somewhat relevant but lack precision and detail, which may not fully support the argument.",
+        "evidence_id": "1514:1.E3",
+        "target_id": "1514:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "My brother for example wanted to be an engineer, with hard work and effort he made it.",
+            "occurrences": [
+              {
+                "start": 317,
+                "end": 403,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "Another example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.",
+            "occurrences": [
+              {
+                "start": 1139,
+                "end": 1256,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "Claims about the frequency of errors and the impact on communication were not assessed due to the three-claim limit.",
+    "history_separation": "The rationale mentions the use of examples from the writer's brother and Hitler, which are explicitly historical inputs. There are no ambiguities in the separation of these historical examples from the target essay's claims."
+  },
+  "timestamp": "2026-11-15T15:57:19.604238+09:00"
+}

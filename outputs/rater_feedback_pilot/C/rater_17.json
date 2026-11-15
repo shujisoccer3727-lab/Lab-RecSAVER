@@ -1,0 +1,277 @@
+{
+  "timestamp": "2026-11-15T16:27:10.719228+09:00",
+  "assembly": "C relation and text are model-generated; source metadata, full rubric, IDs, scores and exact quotations deterministically assembled",
+  "result": {
+    "elements": [
+      {
+        "number": 1,
+        "text": "Overall.S2: Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.\n\nOverall.S3: Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.\n\nOverall.S4: Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+        "evidence_ids": [],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3",
+          "Overall.S4"
+        ],
+        "pattern_ids": [],
+        "relation_ids": []
+      },
+      {
+        "number": 2,
+        "text": "以下は観測Overallを条件として生成された参照推論から推定された傾向の候補であり、採点者本人の真の思考や評価の重みを示すものではない。2件以上の支持だけでは妥当性は証明されない。\n\n複数の答案から、言語の使用と組織の制御が評価に影響を与えるという評価パターンが候補として挙げられます。ただし、共通傾向を明確に判断することは難しいです。",
+        "evidence_ids": [
+          "2775:2.E2",
+          "2775:2.E3",
+          "2832:2.E1",
+          "2832:2.E2",
+          "2853:2.E1",
+          "2853:2.E2",
+          "2853:2.E3",
+          "318:2.E1",
+          "318:2.E2",
+          "474:1.E1",
+          "474:1.E3"
+        ],
+        "rubric_ids": [],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": []
+      },
+      {
+        "number": 3,
+        "text": "引用された文は、特定の評価要素を支持する証拠として使用されていますが、全体的な文章の品質や誤りの頻度、組織化の程度を完全に評価するためには、より広範な文や段落が必要です。また、証拠が不足しているため、隣接段階との程度の違いを正確に評価することは困難です。\n\n2775:2 / 2775:2.E2: \"The research study has shown that there are 25% of people thinks that trying same things over and over can never make you flourish in you life.\"\n\n2775:2 / 2775:2.E2: \"In Conclusion, it is salient to all of us to be good and stay active in everything that we can, because you never know when that all stuff that you have experience on can help you so we just need to be prepare it can flourish your future life.\"\n\n2775:2 / 2775:2.E3: \"For Example, a friend of mine named Generic_Name, once said that \\\"Try Try but don't Cry\\\" it means that don't ever think that you can't do it, you can and you can do it in better way than anyone else\"\n\n2775:2 / 2775:2.E3: \"For Example, a student at Generic_school named Generic_Name had said that \\\"if I take classes that related to my career in high school it can make myself to be prepare for career in future.\\\"\"\n\n474:1 / 474:1.E1: \"We all dose mistake in our life . If your going from failure to failure without loss enthusiasm\"\n\n474:1 / 474:1.E1: \"you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\"\n\n474:1 / 474:1.E3: \"We all dose mistake in our life . If your going from failure to failure without loss enthusiasm\"\n\n474:1 / 474:1.E3: \"you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\"",
+        "evidence_ids": [
+          "2775:2.E2",
+          "2775:2.E3",
+          "474:1.E1",
+          "474:1.E3"
+        ],
+        "rubric_ids": [],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": []
+      },
+      {
+        "number": 4,
+        "text": "与えられた個別の照合結果は、言語の使用と組織の制御が評価に影響を与えることを示しています。ただし、誤りの頻度や組織化の程度がどの程度コミュニケーションを阻害するかについては、具体的な情報が不足しています。\n\n474:1（観測Overall 2、Overall.S2、比較先 Overall.S3）: 引用された文章は、'dose' が 'do' の誤り、'going' が 'go' の誤りなど、文法、構文、および機械的なスキルの不一致を示しています。これは公式Overall条件の「文の形成、単語の選択、および機械的なスキルの不一致」を検討する証拠となります。 これらの引用は、文法と構文の誤りがコミュニケーションを阻害していることを示しています。これはOverall評価が2である理由の一部を説明し、公式Overall条件の「言語の正確性により多くの場合にコミュニケーションが阻害される」という部分を支持します。 これらの引用だけでは、全体的な文章の品質や誤りの頻度、隣接段階との程度の違いを完全に評価するための十分な情報がありません。特に、誤りが全体的にどの程度頻繁に起こるか、組織化の程度がどの程度制御されているかを判断するための情報が不足しています。\n\n2775:2（観測Overall 4、Overall.S4、比較先 Overall.S3）: 本文は一般的に制御されたテキスト構造を持ち、明確な導入部、本題、結論があります。ただし、アイデア間の接続が若干緩い点が、公式Overall条件の「制御された組織」や「文法と規則の正確性」の部分を検討する証拠となります。 参照推論は、本文が明確な構造を持つが、アイデア間の接続が緩いことを指摘しています。これは、Overall条件の「言語の使用における技術」や「文法と規則の正確性」に対する評価判断を観測Overallに対する説明として検討できます。 隣接段階との程度・頻度・適切さの違いについて、具体的な文法誤りの頻度や範囲を確定するための証拠が不足しています。また、本文の語彙や構文の範囲が公式Overall条件の「文法と規則の正確性」や「言語の使用における技術」にどの程度適合しているかを判断するための情報も不足しています。",
+        "evidence_ids": [
+          "2775:2.E2",
+          "2775:2.E3",
+          "474:1.E1",
+          "474:1.E3"
+        ],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3",
+          "Overall.S4"
+        ],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": [
+          "R1",
+          "R2"
+        ]
+      },
+      {
+        "number": 5,
+        "text": "次の採点では、全体的な文章の品質と誤りの頻度を確認し、組織化の程度がどの程度制御されているかを評価する必要があります。また、具体的な文法誤りの頻度と範囲を確認し、それらがコミュニケーションを阻害する頻度を評価する必要があります。\n\nR1の論点から: 次の採点では、全体的な文章の品質と誤りの頻度を確認し、組織化の程度がどの程度制御されているかを評価する必要があります。また、誤りがコミュニケーションをどの程度阻害しているかを詳細に観察する必要があります。\n\nR2の論点から: 次の採点では、具体的な文法誤りの頻度と範囲を確認し、それらがコミュニケーションを阻害する頻度を評価する必要があります。また、語彙と構文の範囲が公式Overall条件にどの程度適合しているかを評価するため、具体的な例を挙げて確認する必要があります。",
+        "evidence_ids": [
+          "2775:2.E2",
+          "2775:2.E3",
+          "474:1.E1",
+          "474:1.E3"
+        ],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3",
+          "Overall.S4"
+        ],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": [
+          "R1",
+          "R2"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "R1",
+        "pattern_id": "P1",
+        "target_id": "474:1",
+        "observed_overall": 2,
+        "evidence_ids": [
+          "474:1.E1",
+          "474:1.E3"
+        ],
+        "evidence_anchor": "We all dose mistake in our life . If your going from failure to failure without loss enthusiasm",
+        "rubric_id": "Overall.S2",
+        "condition_quote": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+        "comparison_rubric_id": "Overall.S3",
+        "comparison_condition_quote": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "model_explanations": {
+          "evidence_to_condition": "引用された文章は、'dose' が 'do' の誤り、'going' が 'go' の誤りなど、文法、構文、および機械的なスキルの不一致を示しています。これは公式Overall条件の「文の形成、単語の選択、および機械的なスキルの不一致」を検討する証拠となります。",
+          "judgment_to_condition": "これらの引用は、文法と構文の誤りがコミュニケーションを阻害していることを示しています。これはOverall評価が2である理由の一部を説明し、公式Overall条件の「言語の正確性により多くの場合にコミュニケーションが阻害される」という部分を支持します。",
+          "interpretation_or_missing_evidence": "これらの引用だけでは、全体的な文章の品質や誤りの頻度、隣接段階との程度の違いを完全に評価するための十分な情報がありません。特に、誤りが全体的にどの程度頻繁に起こるか、組織化の程度がどの程度制御されているかを判断するための情報が不足しています。",
+          "next_check": "次の採点では、全体的な文章の品質と誤りの頻度を確認し、組織化の程度がどの程度制御されているかを評価する必要があります。また、誤りがコミュニケーションをどの程度阻害しているかを詳細に観察する必要があります。"
+        },
+        "evidence_to_condition": "474:1 / 原文 \"We all dose mistake in our life . If your going from failure to failure without loss enthusiasm\"。引用された文章は、'dose' が 'do' の誤り、'going' が 'go' の誤りなど、文法、構文、および機械的なスキルの不一致を示しています。これは公式Overall条件の「文の形成、単語の選択、および機械的なスキルの不一致」を検討する証拠となります。",
+        "judgment_to_condition": "観測Overall 2。これらの引用は、文法と構文の誤りがコミュニケーションを阻害していることを示しています。これはOverall評価が2である理由の一部を説明し、公式Overall条件の「言語の正確性により多くの場合にコミュニケーションが阻害される」という部分を支持します。",
+        "interpretation_or_missing_evidence": "これらの引用だけでは、全体的な文章の品質や誤りの頻度、隣接段階との程度の違いを完全に評価するための十分な情報がありません。特に、誤りが全体的にどの程度頻繁に起こるか、組織化の程度がどの程度制御されているかを判断するための情報が不足しています。",
+        "next_check": "次の採点では、全体的な文章の品質と誤りの頻度を確認し、組織化の程度がどの程度制御されているかを評価する必要があります。また、誤りがコミュニケーションをどの程度阻害しているかを詳細に観察する必要があります。"
+      },
+      {
+        "relation_id": "R2",
+        "pattern_id": "P1",
+        "target_id": "2775:2",
+        "observed_overall": 4,
+        "evidence_ids": [
+          "2775:2.E2",
+          "2775:2.E3"
+        ],
+        "evidence_anchor": "The research study has shown that there are 25% of people thinks that trying same things over and over can never make you flourish in you life.",
+        "rubric_id": "Overall.S4",
+        "condition_quote": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+        "comparison_rubric_id": "Overall.S3",
+        "comparison_condition_quote": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "model_explanations": {
+          "evidence_to_condition": "本文は一般的に制御されたテキスト構造を持ち、明確な導入部、本題、結論があります。ただし、アイデア間の接続が若干緩い点が、公式Overall条件の「制御された組織」や「文法と規則の正確性」の部分を検討する証拠となります。",
+          "judgment_to_condition": "参照推論は、本文が明確な構造を持つが、アイデア間の接続が緩いことを指摘しています。これは、Overall条件の「言語の使用における技術」や「文法と規則の正確性」に対する評価判断を観測Overallに対する説明として検討できます。",
+          "interpretation_or_missing_evidence": "隣接段階との程度・頻度・適切さの違いについて、具体的な文法誤りの頻度や範囲を確定するための証拠が不足しています。また、本文の語彙や構文の範囲が公式Overall条件の「文法と規則の正確性」や「言語の使用における技術」にどの程度適合しているかを判断するための情報も不足しています。",
+          "next_check": "次の採点では、具体的な文法誤りの頻度と範囲を確認し、それらがコミュニケーションを阻害する頻度を評価する必要があります。また、語彙と構文の範囲が公式Overall条件にどの程度適合しているかを評価するため、具体的な例を挙げて確認する必要があります。"
+        },
+        "evidence_to_condition": "2775:2 / 原文 \"The research study has shown that there are 25% of people thinks that trying same things over and over can never make you flourish in you life.\"。本文は一般的に制御されたテキスト構造を持ち、明確な導入部、本題、結論があります。ただし、アイデア間の接続が若干緩い点が、公式Overall条件の「制御された組織」や「文法と規則の正確性」の部分を検討する証拠となります。",
+        "judgment_to_condition": "観測Overall 4。参照推論は、本文が明確な構造を持つが、アイデア間の接続が緩いことを指摘しています。これは、Overall条件の「言語の使用における技術」や「文法と規則の正確性」に対する評価判断を観測Overallに対する説明として検討できます。",
+        "interpretation_or_missing_evidence": "隣接段階との程度・頻度・適切さの違いについて、具体的な文法誤りの頻度や範囲を確定するための証拠が不足しています。また、本文の語彙や構文の範囲が公式Overall条件の「文法と規則の正確性」や「言語の使用における技術」にどの程度適合しているかを判断するための情報も不足しています。",
+        "next_check": "次の採点では、具体的な文法誤りの頻度と範囲を確認し、それらがコミュニケーションを阻害する頻度を評価する必要があります。また、語彙と構文の範囲が公式Overall条件にどの程度適合しているかを評価するため、具体的な例を挙げて確認する必要があります。"
+      }
+    ],
+    "limits": "このフィードバックは、予備的な便宜標本・モデルの暫定判断であり、真の思考や有効性を実証しているわけではありません。",
+    "assembly": "C relation and text are model-generated; source metadata, full rubric, IDs, scores and exact quotations deterministically assembled",
+    "citations": [
+      {
+        "evidence_id": "2775:2.E2",
+        "target_id": "2775:2",
+        "quote": "The research study has shown that there are 25% of people thinks that trying same things over and over can never make you flourish in you life.",
+        "positions": [
+          {
+            "start": 0,
+            "end": 143,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "2775:2.E2",
+        "target_id": "2775:2",
+        "quote": "In Conclusion, it is salient to all of us to be good and stay active in everything that we can, because you never know when that all stuff that you have experience on can help you so we just need to be prepare it can flourish your future life.",
+        "positions": [
+          {
+            "start": 3521,
+            "end": 3764,
+            "line_start": 17,
+            "line_end": 17
+          }
+        ]
+      },
+      {
+        "evidence_id": "2775:2.E3",
+        "target_id": "2775:2",
+        "quote": "For Example, a friend of mine named Generic_Name, once said that \"Try Try but don't Cry\" it means that don't ever think that you can't do it, you can and you can do it in better way than anyone else",
+        "positions": [
+          {
+            "start": 877,
+            "end": 1075,
+            "line_start": 3,
+            "line_end": 3
+          }
+        ]
+      },
+      {
+        "evidence_id": "2775:2.E3",
+        "target_id": "2775:2",
+        "quote": "For Example, a student at Generic_school named Generic_Name had said that \"if I take classes that related to my career in high school it can make myself to be prepare for career in future.\"",
+        "positions": [
+          {
+            "start": 1953,
+            "end": 2142,
+            "line_start": 9,
+            "line_end": 9
+          }
+        ]
+      },
+      {
+        "evidence_id": "474:1.E1",
+        "target_id": "474:1",
+        "quote": "We all dose mistake in our life . If your going from failure to failure without loss enthusiasm",
+        "positions": [
+          {
+            "start": 0,
+            "end": 95,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "474:1.E1",
+        "target_id": "474:1",
+        "quote": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.",
+        "positions": [
+          {
+            "start": 99,
+            "end": 324,
+            "line_start": 3,
+            "line_end": 3
+          }
+        ]
+      },
+      {
+        "evidence_id": "474:1.E3",
+        "target_id": "474:1",
+        "quote": "We all dose mistake in our life . If your going from failure to failure without loss enthusiasm",
+        "positions": [
+          {
+            "start": 0,
+            "end": 95,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "474:1.E3",
+        "target_id": "474:1",
+        "quote": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.",
+        "positions": [
+          {
+            "start": 99,
+            "end": 324,
+            "line_start": 3,
+            "line_end": 3
+          }
+        ]
+      }
+    ],
+    "scope_guard": "Programmatically added source-conditioning and candidate-status caveat; raw model text retained in C_text and calls.jsonl",
+    "quality_status": "pilot_outputs_require_revision_before_delivery",
+    "content_review": [
+      {
+        "rater_id": "rater_17",
+        "relation_id": "R1",
+        "relation_review": "dose等の実例は挙がるが、doseをdoに直すだけではdo mistakesとなり自然な表現にはならない。またlanguage inaccuraciesの意味を言語の正確性と訳す箇所があり、説明の正確性に問題が残る。",
+        "next_check_review": "頻度や理解阻害を全体で確認する論点は④に対応するが、具体的な理解不能箇所や比較例を指定できていない。"
+      },
+      {
+        "rater_id": "rater_17",
+        "relation_id": "R2",
+        "relation_review": "明確な導入・本題・結論や接続の緩さを、文法と規則の正確性にも結び付けており、組織と文法の条件の対応が混在。具体的な接続箇所の説明も不足。",
+        "next_check_review": "接続の解釈差から始まるのに文法頻度・語彙構文範囲へ論点が広がり、⑤の④からの導出が弱い。"
+      }
+    ]
+  }
+}

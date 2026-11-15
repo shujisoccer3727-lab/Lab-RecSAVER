@@ -1,0 +1,39 @@
+{
+  "patterns": [
+    {
+      "pattern_id": "P1",
+      "inferred_tendency": "参照推論から推定された傾向は、文法と構文の誤りがコミュニケーションを阻害し、全体的な評価に影響を与えるという傾向がある。",
+      "support_evidence_ids": [
+        "8487:1.E1",
+        "8487:1.E3",
+        "1514:1.E1",
+        "8608:1.E1",
+        "8608:1.E3",
+        "1868:1.E3"
+      ],
+      "evaluation_score_relation": "これらの誤りは、評価が低くなる要因として評価されている。",
+      "counterexample_evidence_ids": [],
+      "non_applicable_target_ids": [],
+      "unknowns": "評価者の特定性、強度、範囲、および矛盾または不十分な証拠",
+      "model_non_applicable_target_ids": [
+        "5627:1",
+        "5268:1",
+        "2444:1",
+        "4902:1",
+        "8538:1",
+        "1961:1"
+      ],
+      "unassessed_target_ids": [
+        "5627:1",
+        "5268:1",
+        "2444:1",
+        "4902:1",
+        "8538:1",
+        "1961:1"
+      ],
+      "classification_note": "No usable target evidence => unassessed, not a negative or non-applicable example. Original classification retained."
+    }
+  ],
+  "undetermined": "共通傾向は判断できない。",
+  "cross_essay_review": "文法と構文の誤りがコミュニケーションを阻害し、全体的な評価に影響を与えるという傾向が見られる。ただし、いくつかのエッセイでは、誤りがコミュニケーションを阻害するという証拠が不十分であるため、この傾向は完全に確立されていない。"
+}

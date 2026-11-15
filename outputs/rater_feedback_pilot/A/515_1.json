@@ -1,0 +1,163 @@
+{
+  "fingerprint": "d9a94aa6f68e4f1bff767714136eb22464064d288c69d30c23ad623c1db37563",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates a limited range of vocabulary and structures, with some errors in grammar and syntax that occasionally impede communication.",
+        "scope": "target",
+        "feature": "syntactic range",
+        "direction": "negative",
+        "quotes": [
+          "Distance learning students attend classes on time by online.",
+          "Distance learning students also attend to school everyday.",
+          "By way online you can attend to classes from anywhere."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The quotes show repetitive and simplistic language use, with grammatical errors like 'by online' and 'attend to school everyday', supporting the claim of limited vocabulary and structures.",
+        "overall_relation": "The rationale suggests that the observed Overall score of 3 is consistent with the essay's limited language facility and occasional inaccuracies.",
+        "limitations": "The claim is supported by the provided quotes, but it does not account for the clarity of the writer's points, which are generally clear despite the language issues.",
+        "evidence_id": "515:1.E1",
+        "target_id": "515:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Distance learning students attend classes on time by online.",
+            "occurrences": []
+          },
+          {
+            "quote": "Distance learning students also attend to school everyday.",
+            "occurrences": [
+              {
+                "start": 268,
+                "end": 326,
+                "line_start": 1,
+                "line_end": 1
+              },
+              {
+                "start": 1623,
+                "end": 1681,
+                "line_start": 11,
+                "line_end": 11
+              }
+            ]
+          },
+          {
+            "quote": "By way online you can attend to classes from anywhere.",
+            "occurrences": [
+              {
+                "start": 327,
+                "end": 381,
+                "line_start": 1,
+                "line_end": 1
+              },
+              {
+                "start": 1176,
+                "end": 1230,
+                "line_start": 7,
+                "line_end": 7
+              },
+              {
+                "start": 1682,
+                "end": 1736,
+                "line_start": 11,
+                "line_end": 11
+              }
+            ]
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer's points are generally clear, but the organization is somewhat disjointed, with some connections between ideas missing or unsuccessful.",
+        "scope": "target",
+        "feature": "global coherence",
+        "direction": "mixed",
+        "quotes": [
+          "First, distance learning students attend classes on time by online. In many states students live far from schools. Sometimes they can't be on time because of highway traffic. Sometimes cause of bad weather you have to drive slow than speed limit. And you can be late for school. If they late in every first classes they might fail that classes. Suppose they use the online conferencing they can be on time in every classes.",
+          "Also, attend to school everyday. Even if you sick for a week you still able to attend to school everyday by way of online or video conferencing. If weather is such a bad you can't go out of the house still able to attend classes from home. Although none is home to drop you off to the school. You can attend school by way of online or video conferencing."
+        ],
+        "semantic_support": "uncertain",
+        "semantic_explanation": "The quotes show that the writer's points are clear, but the organization is somewhat disjointed, with some connections between ideas missing or unsuccessful. However, the quotes alone do not fully capture the overall coherence of the essay.",
+        "overall_relation": "The rationale suggests that the observed Overall score of 3 is consistent with the essay's somewhat disjointed organization.",
+        "limitations": "The claim is supported by the provided quotes, but the quotes do not fully capture the overall coherence of the essay, which may be more or less coherent than suggested.",
+        "evidence_id": "515:1.E2",
+        "target_id": "515:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "First, distance learning students attend classes on time by online. In many states students live far from schools. Sometimes they can't be on time because of highway traffic. Sometimes cause of bad weather you have to drive slow than speed limit. And you can be late for school. If they late in every first classes they might fail that classes. Suppose they use the online conferencing they can be on time in every classes.",
+            "occurrences": []
+          },
+          {
+            "quote": "Also, attend to school everyday. Even if you sick for a week you still able to attend to school everyday by way of online or video conferencing. If weather is such a bad you can't go out of the house still able to attend classes from home. Although none is home to drop you off to the school. You can attend school by way of online or video conferencing.",
+            "occurrences": [
+              {
+                "start": 812,
+                "end": 1166,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The essay provides a few examples to support the argument for distance learning, but the language used is often simplistic and repetitive, which affects the overall coherence and persuasiveness of the argument.",
+        "scope": "target",
+        "feature": "coherence and persuasiveness",
+        "direction": "negative",
+        "quotes": [
+          "First, distance learning students attend classes on time by online.",
+          "Also, attend to school everyday.",
+          "Then, By way online you can attend to classes from anywhere."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The quotes show that the essay provides a few examples to support the argument for distance learning, but the language used is often simplistic and repetitive, affecting the overall coherence and persuasiveness of the argument.",
+        "overall_relation": "The rationale suggests that the observed Overall score of 3 is consistent with the essay's simplistic and repetitive language use.",
+        "limitations": "The claim is supported by the provided quotes, but it does not account for the clarity of the writer's points, which are generally clear despite the language issues.",
+        "evidence_id": "515:1.E3",
+        "target_id": "515:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "First, distance learning students attend classes on time by online.",
+            "occurrences": []
+          },
+          {
+            "quote": "Also, attend to school everyday.",
+            "occurrences": [
+              {
+                "start": 812,
+                "end": 844,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          },
+          {
+            "quote": "Then, By way online you can attend to classes from anywhere.",
+            "occurrences": [
+              {
+                "start": 1170,
+                "end": 1230,
+                "line_start": 7,
+                "line_end": 7
+              }
+            ]
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The essay's occasional inaccuracies in grammar and usage, such as 'attend to school everyday' and 'you can attend to classes from anywhere,' further contribute to the communication being impeded in some cases.",
+    "history_separation": "None"
+  },
+  "timestamp": "2026-11-15T16:23:14.400504+09:00"
+}

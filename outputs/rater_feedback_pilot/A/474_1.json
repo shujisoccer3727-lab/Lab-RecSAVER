@@ -1,0 +1,128 @@
+{
+  "fingerprint": "02bc9f33f08a52bb5299131da64a0388dcbfb6abf73b90759474047dca4a615c",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics.",
+        "scope": "target",
+        "feature": "mechanics",
+        "direction": "negative",
+        "quotes": [
+          "We all dose mistake in our life . If your going from failure to failure without loss enthusiasm",
+          "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "これらの引用は、文の形成、単語の選択、および機械的なスキルの不一致を示しています。例えば、'dose' は 'do' の誤りであり、'going' は 'go' の誤りです。",
+        "overall_relation": "この主張は、全体的な評価が2である理由の一部を説明しています。",
+        "limitations": "これらの引用は、全体的な文章の品質を完全に反映していない可能性があります。",
+        "evidence_id": "474:1.E1",
+        "target_id": "474:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "We all dose mistake in our life . If your going from failure to failure without loss enthusiasm",
+            "occurrences": [
+              {
+                "start": 0,
+                "end": 95,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.",
+            "occurrences": [
+              {
+                "start": 99,
+                "end": 324,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The organization is partially developed, with some ideas not clearly connected or expressed.",
+        "scope": "target",
+        "feature": "organization",
+        "direction": "negative",
+        "quotes": [
+          "Me and My friend we took IB math together , last year it was so hard for us. one day she talked to me and she says: Generic_Name you will not pass this class because your grade is not good you better change it or you will take it next year .",
+          "I went home i felt stressed for one hour a about what she says to me , later i told to my self that she is true about every thing she says meanwhile i didnt t study for the exam and i didnt want to study ."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "これらの引用は、アイデアが明確に結びついていないことを示しています。例えば、友人の言葉に対する反応と試験の準備不足の間のつながりが不明確です。",
+        "overall_relation": "この主張は、全体的な評価が2である理由の一部を説明しています。",
+        "limitations": "これらの引用は、全体的な組織の品質を完全に反映していない可能性があります。",
+        "evidence_id": "474:1.E2",
+        "target_id": "474:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Me and My friend we took IB math together , last year it was so hard for us. one day she talked to me and she says: Generic_Name you will not pass this class because your grade is not good you better change it or you will take it next year .",
+            "occurrences": []
+          },
+          {
+            "quote": "I went home i felt stressed for one hour a about what she says to me , later i told to my self that she is true about every thing she says meanwhile i didnt t study for the exam and i didnt want to study .",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "There are frequent errors in grammar, syntax, and usage, which impede communication in many instances.",
+        "scope": "target",
+        "feature": "grammar",
+        "direction": "negative",
+        "quotes": [
+          "We all dose mistake in our life . If your going from failure to failure without loss enthusiasm",
+          "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "これらの引用は、文法、構文、および使用法の頻繁な誤りを示しています。例えば、'dose' は 'do' の誤りであり、'going' は 'go' の誤りです。",
+        "overall_relation": "この主張は、全体的な評価が2である理由の一部を説明しています。",
+        "limitations": "これらの引用は、全体的なコミュニケーションの品質を完全に反映していない可能性があります。",
+        "evidence_id": "474:1.E3",
+        "target_id": "474:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "We all dose mistake in our life . If your going from failure to failure without loss enthusiasm",
+            "occurrences": [
+              {
+                "start": 0,
+                "end": 95,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.",
+            "occurrences": [
+              {
+                "start": 99,
+                "end": 324,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The essay lacks syntactic variety and uses a limited range of vocabulary, further impeding the overall coherence and effectiveness of the writing.",
+    "history_separation": "None"
+  },
+  "timestamp": "2026-11-15T16:17:59.749593+09:00"
+}

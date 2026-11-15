@@ -1,0 +1,114 @@
+{
+  "fingerprint": "1d3050cd002de0dbd36882ea00860064322e5dff1886c55069a8621e4e790b68",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates a limited facility in the use of language, with occasional syntactic variety and a range of vocabulary, but it also contains errors in grammar and syntax that sometimes impede communication.",
+        "scope": "target",
+        "feature": "language facility",
+        "direction": "mixed",
+        "quotes": [
+          "My Mom, she always shares wisdom with me and shows how to be a wise person and she also introduce me to this world.",
+          "friends that are doing bad things are influences you don't need to follow their actions in order to become a better person just talk to a wise person they might give you a good advice."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay contains a mix of varied vocabulary and occasional syntactic variety, such as the use of complex sentences and varied sentence structures. However, there are also numerous grammatical and syntactical errors, such as the incorrect use of 'introduce' and the run-on sentence structure, which can impede clear communication.",
+        "overall_relation": "The rationale suggests that the essay's language facility is limited, which aligns with the observed Overall score of 3.",
+        "limitations": "The essay's language facility is impacted by the presence of errors, but it also shows some syntactic variety and vocabulary range.",
+        "evidence_id": "5627:1.E1",
+        "target_id": "5627:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "My Mom, she always shares wisdom with me and shows how to be a wise person and she also introduce me to this world.",
+            "occurrences": [
+              {
+                "start": 0,
+                "end": 115,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "friends that are doing bad things are influences you don't need to follow their actions in order to become a better person just talk to a wise person they might give you a good advice.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The organization is generally controlled, although there are instances where the connection between ideas is absent or unsuccessful.",
+        "scope": "target",
+        "feature": "organization",
+        "direction": "mixed",
+        "quotes": [
+          "One day she decided to leave everything behind and start all over, because she wanted us to have a better life in the United States.",
+          "However don't learn from bad influences they'll bring you down."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay generally follows a coherent structure, discussing the writer's mother and grandmother and their advice. However, there are instances where the connection between ideas is unclear, such as the abrupt shift from discussing the mother's advice to mentioning bad influences.",
+        "overall_relation": "The rationale indicates that the essay's organization is generally controlled but has some issues, which is consistent with the observed Overall score of 3.",
+        "limitations": "The essay's organization is generally controlled, but there are some instances where the connection between ideas is unclear.",
+        "evidence_id": "5627:1.E2",
+        "target_id": "5627:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "One day she decided to leave everything behind and start all over, because she wanted us to have a better life in the United States.",
+            "occurrences": []
+          },
+          {
+            "quote": "However don't learn from bad influences they'll bring you down.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer conveys personal experiences and advice from family members effectively, but the presence of language inaccuracies, such as misspellings and grammatical errors, occasionally hinders clarity.",
+        "scope": "target",
+        "feature": "clarity and effectiveness",
+        "direction": "mixed",
+        "quotes": [
+          "When you learn from others experience you become a better person.",
+          "Imagine being the person, the person you want to follow."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay effectively conveys personal experiences and advice from family members, such as the mother's and grandmother's advice. However, there are language inaccuracies, such as misspellings and grammatical errors, which can hinder clarity, for example, the incorrect use of 'experience' and the run-on sentence structure.",
+        "overall_relation": "The rationale suggests that the essay effectively conveys personal experiences but is hindered by language inaccuracies, which aligns with the observed Overall score of 3.",
+        "limitations": "The essay effectively conveys personal experiences and advice, but language inaccuracies can hinder clarity.",
+        "evidence_id": "5627:1.E3",
+        "target_id": "5627:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "When you learn from others experience you become a better person.",
+            "occurrences": [
+              {
+                "start": 380,
+                "end": 445,
+                "line_start": 13,
+                "line_end": 13
+              }
+            ]
+          },
+          {
+            "quote": "Imagine being the person, the person you want to follow.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The essay reflects the writer's ability to share personal insights and draw from life experiences, but the overall quality is impacted by the inaccuracies in language use.",
+    "history_separation": "None"
+  },
+  "timestamp": "2026-11-15T15:54:51.860497+09:00"
+}

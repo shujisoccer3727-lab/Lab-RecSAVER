@@ -1,0 +1,178 @@
+{
+  "fingerprint": "dd8557833e5db7dcb5e365fc8e353fd4bc61e4317562c29195112a141197c0a9",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates native-like facility in the use of language, with syntactic variety and appropriate word choice and phrases.",
+        "scope": "target",
+        "feature": "language facility",
+        "direction": "positive",
+        "quotes": [
+          "the warm climate is one of the best things in Brazil because it is so near the equator.",
+          "I already imagine myself walking in a blue dress, with some white sandals, my hair is french braided, eating a strawberry ice cream.",
+          "I might even learn how to speak a little Portugal or what ever language they speak."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay includes varied sentence structures and appropriate vocabulary, such as 'french braided' and 'strawberry ice cream', which support the claim of native-like language facility.",
+        "overall_relation": "The reference reasoning suggests that the essay's language facility contributes to its high overall score.",
+        "limitations": "The essay contains some grammatical errors and awkward phrasing, such as 'what ever language they speak', which may slightly detract from the claim.",
+        "evidence_id": "7418:2.E1",
+        "target_id": "7418:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "the warm climate is one of the best things in Brazil because it is so near the equator.",
+            "occurrences": [
+              {
+                "start": 230,
+                "end": 317,
+                "line_start": 11,
+                "line_end": 11
+              }
+            ]
+          },
+          {
+            "quote": "I already imagine myself walking in a blue dress, with some white sandals, my hair is french braided, eating a strawberry ice cream.",
+            "occurrences": [
+              {
+                "start": 321,
+                "end": 453,
+                "line_start": 13,
+                "line_end": 13
+              }
+            ]
+          },
+          {
+            "quote": "I might even learn how to speak a little Portugal or what ever language they speak.",
+            "occurrences": [
+              {
+                "start": 897,
+                "end": 980,
+                "line_start": 25,
+                "line_end": 25
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The text organization is well-controlled, and the grammar and conventions are precise, with rare language inaccuracies that do not impede communication.",
+        "scope": "target",
+        "feature": "text organization and grammar",
+        "direction": "positive",
+        "quotes": [
+          "Additionally, I would love to spend my time learning about the culture in Brazil.",
+          "The culture of Brazil is going to be a great experience.",
+          "Brazil is going to be an important point of my life!"
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay is organized around the main topic of visiting Brazil, with clear transitions between sections on climate and culture, supporting the claim of well-controlled text organization.",
+        "overall_relation": "The reference reasoning indicates that the essay's organization and grammar contribute to its high overall score.",
+        "limitations": "There are some grammatical errors and awkward phrasing, such as 'what ever language they speak', which may slightly detract from the claim.",
+        "evidence_id": "7418:2.E2",
+        "target_id": "7418:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Additionally, I would love to spend my time learning about the culture in Brazil.",
+            "occurrences": [
+              {
+                "start": 759,
+                "end": 840,
+                "line_start": 21,
+                "line_end": 21
+              }
+            ]
+          },
+          {
+            "quote": "The culture of Brazil is going to be a great experience.",
+            "occurrences": [
+              {
+                "start": 1248,
+                "end": 1304,
+                "line_start": 33,
+                "line_end": 33
+              }
+            ]
+          },
+          {
+            "quote": "Brazil is going to be an important point of my life!",
+            "occurrences": [
+              {
+                "start": 1460,
+                "end": 1512,
+                "line_start": 39,
+                "line_end": 39
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer effectively conveys their desire to visit Brazil, detailing the warm climate and cultural experiences they wish to have.",
+        "scope": "target",
+        "feature": "content and detail",
+        "direction": "positive",
+        "quotes": [
+          "the warm climate is one of the best things in Brazil because it is so near the equator.",
+          "I will love to learn about their typical foods.",
+          "Also the parade is one of the awesome things I want to see, all those dancers, music where every body is excited and joyful."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay provides vivid descriptions of the warm climate and cultural experiences, such as food and parades, which support the claim of effectively conveying the writer's desire to visit Brazil.",
+        "overall_relation": "The reference reasoning suggests that the essay's content and detail contribute to its high overall score.",
+        "limitations": "The essay contains some grammatical errors and awkward phrasing, such as 'what ever language they speak', which may slightly detract from the claim.",
+        "evidence_id": "7418:2.E3",
+        "target_id": "7418:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "the warm climate is one of the best things in Brazil because it is so near the equator.",
+            "occurrences": [
+              {
+                "start": 230,
+                "end": 317,
+                "line_start": 11,
+                "line_end": 11
+              }
+            ]
+          },
+          {
+            "quote": "I will love to learn about their typical foods.",
+            "occurrences": [
+              {
+                "start": 984,
+                "end": 1031,
+                "line_start": 27,
+                "line_end": 27
+              }
+            ]
+          },
+          {
+            "quote": "Also the parade is one of the awesome things I want to see, all those dancers, music where every body is excited and joyful.",
+            "occurrences": [
+              {
+                "start": 1120,
+                "end": 1244,
+                "line_start": 31,
+                "line_end": 31
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The essay is coherent and engaging, with vivid descriptions that enhance the reader's understanding and interest in the topic.",
+    "history_separation": "None"
+  },
+  "timestamp": "2026-11-15T16:19:08.828629+09:00"
+}

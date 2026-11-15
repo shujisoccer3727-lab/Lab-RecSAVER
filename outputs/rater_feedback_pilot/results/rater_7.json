@@ -1,0 +1,1687 @@
+{
+  "rater_id": "rater_7",
+  "target_count": 10,
+  "observed_scores": {
+    "5627:1": 3,
+    "5268:1": 3,
+    "2444:1": 4,
+    "8487:1": 2,
+    "4902:1": 3,
+    "8538:1": 4,
+    "1514:1": 3,
+    "1961:1": 5,
+    "8608:1": 3,
+    "1868:1": 3
+  },
+  "A": [
+    {
+      "target_id": "5627:1",
+      "gold_overall": 3,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates a limited facility in the use of language, with occasional syntactic variety and a range of vocabulary, but it also contains errors in grammar and syntax that sometimes impede communication.",
+          "scope": "target",
+          "feature": "language facility",
+          "direction": "mixed",
+          "quotes": [
+            "My Mom, she always shares wisdom with me and shows how to be a wise person and she also introduce me to this world.",
+            "friends that are doing bad things are influences you don't need to follow their actions in order to become a better person just talk to a wise person they might give you a good advice."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay contains a mix of varied vocabulary and occasional syntactic variety, such as the use of complex sentences and varied sentence structures. However, there are also numerous grammatical and syntactical errors, such as the incorrect use of 'introduce' and the run-on sentence structure, which can impede clear communication.",
+          "overall_relation": "The rationale suggests that the essay's language facility is limited, which aligns with the observed Overall score of 3.",
+          "limitations": "The essay's language facility is impacted by the presence of errors, but it also shows some syntactic variety and vocabulary range.",
+          "evidence_id": "5627:1.E1",
+          "target_id": "5627:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "My Mom, she always shares wisdom with me and shows how to be a wise person and she also introduce me to this world.",
+              "occurrences": [
+                {
+                  "start": 0,
+                  "end": 115,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "friends that are doing bad things are influences you don't need to follow their actions in order to become a better person just talk to a wise person they might give you a good advice.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The organization is generally controlled, although there are instances where the connection between ideas is absent or unsuccessful.",
+          "scope": "target",
+          "feature": "organization",
+          "direction": "mixed",
+          "quotes": [
+            "One day she decided to leave everything behind and start all over, because she wanted us to have a better life in the United States.",
+            "However don't learn from bad influences they'll bring you down."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay generally follows a coherent structure, discussing the writer's mother and grandmother and their advice. However, there are instances where the connection between ideas is unclear, such as the abrupt shift from discussing the mother's advice to mentioning bad influences.",
+          "overall_relation": "The rationale indicates that the essay's organization is generally controlled but has some issues, which is consistent with the observed Overall score of 3.",
+          "limitations": "The essay's organization is generally controlled, but there are some instances where the connection between ideas is unclear.",
+          "evidence_id": "5627:1.E2",
+          "target_id": "5627:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "One day she decided to leave everything behind and start all over, because she wanted us to have a better life in the United States.",
+              "occurrences": []
+            },
+            {
+              "quote": "However don't learn from bad influences they'll bring you down.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The writer conveys personal experiences and advice from family members effectively, but the presence of language inaccuracies, such as misspellings and grammatical errors, occasionally hinders clarity.",
+          "scope": "target",
+          "feature": "clarity and effectiveness",
+          "direction": "mixed",
+          "quotes": [
+            "When you learn from others experience you become a better person.",
+            "Imagine being the person, the person you want to follow."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay effectively conveys personal experiences and advice from family members, such as the mother's and grandmother's advice. However, there are language inaccuracies, such as misspellings and grammatical errors, which can hinder clarity, for example, the incorrect use of 'experience' and the run-on sentence structure.",
+          "overall_relation": "The rationale suggests that the essay effectively conveys personal experiences but is hindered by language inaccuracies, which aligns with the observed Overall score of 3.",
+          "limitations": "The essay effectively conveys personal experiences and advice, but language inaccuracies can hinder clarity.",
+          "evidence_id": "5627:1.E3",
+          "target_id": "5627:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "When you learn from others experience you become a better person.",
+              "occurrences": [
+                {
+                  "start": 380,
+                  "end": 445,
+                  "line_start": 13,
+                  "line_end": 13
+                }
+              ]
+            },
+            {
+              "quote": "Imagine being the person, the person you want to follow.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "The essay reflects the writer's ability to share personal insights and draw from life experiences, but the overall quality is impacted by the inaccuracies in language use.",
+      "history_separation": "None"
+    },
+    {
+      "target_id": "5268:1",
+      "gold_overall": 3,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates a limited range of syntactic variety and vocabulary, with some errors in grammar and usage that occasionally impede communication.",
+          "scope": "target",
+          "feature": "syntactic range and vocabulary",
+          "direction": "negative",
+          "quotes": [
+            "Ever since, we were kids we started choosing our own character traits.",
+            "We choose who influence us. we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The provided quotes show a limited range of syntactic structures and vocabulary, with grammatical errors such as 'we were kids' and 'we decide if we want to be happy or sad,making good and bad decisions'. These examples support the claim of limited syntactic variety and vocabulary.",
+          "overall_relation": "The rationale suggests that the essay's syntactic limitations and vocabulary contribute to an overall score reflecting moderate language facility with inaccuracies.",
+          "limitations": "The claim is supported, but it does not account for the clarity of ideas and the overall theme development. / Review: we were kids自体は文法誤りではない。局所的な句読点・一致の問題と、答案全体の構文・語彙の範囲や伝達阻害を一括してsupportedとする根拠が不足。",
+          "evidence_id": "5268:1.E1",
+          "target_id": "5268:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Ever since, we were kids we started choosing our own character traits.",
+              "occurrences": [
+                {
+                  "start": 0,
+                  "end": 70,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "We choose who influence us. we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.",
+              "occurrences": [
+                {
+                  "start": 275,
+                  "end": 434,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated",
+          "model_semantic_support": "supported",
+          "review_reason": "we were kids自体は文法誤りではない。局所的な句読点・一致の問題と、答案全体の構文・語彙の範囲や伝達阻害を一括してsupportedとする根拠が不足。",
+          "reviewer": "Codex assistant qualitative review; not an independent human assessment"
+        },
+        {
+          "rationale_claim": "The writer's ideas are generally clear, but the organization is somewhat disjointed, with occasional lapses in coherence.",
+          "scope": "target",
+          "feature": "organization and coherence",
+          "direction": "mixed",
+          "quotes": [
+            "Ever since, we were kids we started choosing our own character traits. it can be good or bad based of the environment we live in, how we were raised, and personal experiences.",
+            "Lets say you are inspired by Kobe Bryant. You look up to him as an idol because, of what he accomplished in his lifetime."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The quotes show that the writer's ideas are clear, but the organization is disjointed, with abrupt shifts in topic and lack of clear transitions. For example, the transition from discussing character traits to Kobe Bryant is abrupt and lacks coherence.",
+          "overall_relation": "The rationale indicates that the essay's clarity of ideas is somewhat offset by its disjointed organization, contributing to an overall score that reflects moderate language facility.",
+          "limitations": "The claim is supported, but it does not fully address the depth of the argument or the impact of the disjointedness on the overall communication. / Review: 全文では人物像の選択・他者の影響からKobe Bryantの具体例へ進み、That right there is a character traitという説明もある。離れた引用のみから唐突な移行と断定できない。",
+          "evidence_id": "5268:1.E2",
+          "target_id": "5268:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Ever since, we were kids we started choosing our own character traits. it can be good or bad based of the environment we live in, how we were raised, and personal experiences.",
+              "occurrences": [
+                {
+                  "start": 0,
+                  "end": 175,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Lets say you are inspired by Kobe Bryant. You look up to him as an idol because, of what he accomplished in his lifetime.",
+              "occurrences": [
+                {
+                  "start": 438,
+                  "end": 559,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated",
+          "model_semantic_support": "supported",
+          "review_reason": "全文では人物像の選択・他者の影響からKobe Bryantの具体例へ進み、That right there is a character traitという説明もある。離れた引用のみから唐突な移行と断定できない。",
+          "reviewer": "Codex assistant qualitative review; not an independent human assessment"
+        },
+        {
+          "rationale_claim": "The essay touches on the theme of choosing character traits and the influence of external factors, but the development is uneven and lacks depth.",
+          "scope": "target",
+          "feature": "theme development",
+          "direction": "negative",
+          "quotes": [
+            "We choose who influence us. we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.",
+            "Some people believe we can't choose our character traits because we did not decide nor choose the way we wanted to be born, we did not choose if we wanted to be tall, short, black, white etc.."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The quotes show that the essay touches on the theme of choosing character traits and the influence of external factors, but the development is uneven and lacks depth. The writer does not fully explore the implications of these ideas, leading to an uneven development.",
+          "overall_relation": "The rationale suggests that the essay's uneven development contributes to an overall score that reflects moderate language facility with some inaccuracies.",
+          "limitations": "The claim is supported, but it does not fully address the clarity of ideas or the impact of the uneven development on the overall communication. / Review: 引用は主題への言及を支持するが、展開全体のuneven・lacks depthを立証しない。深さ自体をOverallにない独立基準として統合できない。",
+          "evidence_id": "5268:1.E3",
+          "target_id": "5268:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "We choose who influence us. we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.",
+              "occurrences": [
+                {
+                  "start": 275,
+                  "end": 434,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Some people believe we can't choose our character traits because we did not decide nor choose the way we wanted to be born, we did not choose if we wanted to be tall, short, black, white etc..",
+              "occurrences": [
+                {
+                  "start": 724,
+                  "end": 916,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated",
+          "model_semantic_support": "supported",
+          "review_reason": "引用は主題への言及を支持するが、展開全体のuneven・lacks depthを立証しない。深さ自体をOverallにない独立基準として統合できない。",
+          "reviewer": "Codex assistant qualitative review; not an independent human assessment"
+        }
+      ],
+      "unassessed_claims": "Claims about the frequency of errors and the impact on communication were not assessed due to the three-claim limit.",
+      "history_separation": "There are no explicit mentions of historical inputs in the rationale, and there are no ambiguities regarding the separation of target claims from historical claims."
+    },
+    {
+      "target_id": "2444:1",
+      "gold_overall": 4,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates facility in the use of language with a range of words and phrases, and controlled organization.",
+          "scope": "target",
+          "feature": "syntactic range",
+          "direction": "positive",
+          "quotes": [
+            "I should be selected to visit the 'AD Assets Inc'. The AD Assets Inc, is the most important company of Assets in United States for the last 35 years.",
+            "This opportunity is one of the most important things in my life. I need to go to the field trip, since I was six years old I was secured that be in the business world it was my purpose."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay uses a variety of phrases and demonstrates controlled organization, as evidenced by the structured argument and use of different sentence structures.",
+          "overall_relation": "The rationale supports the overall score by highlighting the syntactic variety and controlled organization, which aligns with the high overall score.",
+          "limitations": "The essay contains some minor grammatical errors, which slightly detract from the syntactic range.",
+          "evidence_id": "2444:1.E1",
+          "target_id": "2444:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "I should be selected to visit the 'AD Assets Inc'. The AD Assets Inc, is the most important company of Assets in United States for the last 35 years.",
+              "occurrences": []
+            },
+            {
+              "quote": "This opportunity is one of the most important things in my life. I need to go to the field trip, since I was six years old I was secured that be in the business world it was my purpose.",
+              "occurrences": [
+                {
+                  "start": 418,
+                  "end": 603,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The writer presents a clear argument for why they should be selected to visit AD Assets Inc., supported by personal experiences and aspirations.",
+          "scope": "target",
+          "feature": "global coherence",
+          "direction": "positive",
+          "quotes": [
+            "Since I was six years old I was secured that the Assets was going to be my job. Learn about business and assets without a persons that really know what they are doing is almost impossible.",
+            "I've have been learning a lot by myself about the business and assets my whole life. For example I'm in a group called 'FBLA' (Future Business Leaders of America), this group is so important for me."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay presents a clear argument supported by personal experiences and aspirations, which is evident from the detailed personal history and future goals mentioned.",
+          "overall_relation": "The rationale supports the overall score by indicating that the essay is well-structured and coherent, which is consistent with the high overall score.",
+          "limitations": "The essay occasionally lacks coherence due to grammatical errors, but the overall argument remains clear.",
+          "evidence_id": "2444:1.E2",
+          "target_id": "2444:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Since I was six years old I was secured that the Assets was going to be my job. Learn about business and assets without a persons that really know what they are doing is almost impossible.",
+              "occurrences": [
+                {
+                  "start": 226,
+                  "end": 414,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "I've have been learning a lot by myself about the business and assets my whole life. For example I'm in a group called 'FBLA' (Future Business Leaders of America), this group is so important for me.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The text shows syntactic variety and accuracy in grammar and conventions, with occasional language inaccuracies that rarely impede communication.",
+          "scope": "target",
+          "feature": "syntactic range",
+          "direction": "mixed",
+          "quotes": [
+            "Some people argue that this partnerships with companies are useless because the teens do not know what they want; however, this view is mistaken because the best way to teens to know what they want to study is let then explore and see, that's the best way to decide.",
+            "I am the most completely student to go and learn about the assets business. Nobody want to go to this field trip as much as me."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "While the essay does show syntactic variety, there are occasional inaccuracies that can affect communication, such as the misuse of grammar and syntax in the provided quotes.",
+          "overall_relation": "The rationale suggests that the syntactic variety and occasional inaccuracies do not significantly detract from the overall clarity, which is consistent with the high overall score.",
+          "limitations": "The essay contains some grammatical errors that can affect the clarity of the message, but these do not significantly detract from the overall coherence.",
+          "evidence_id": "2444:1.E3",
+          "target_id": "2444:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Some people argue that this partnerships with companies are useless because the teens do not know what they want; however, this view is mistaken because the best way to teens to know what they want to study is let then explore and see, that's the best way to decide.",
+              "occurrences": [
+                {
+                  "start": 1588,
+                  "end": 1854,
+                  "line_start": 9,
+                  "line_end": 9
+                }
+              ]
+            },
+            {
+              "quote": "I am the most completely student to go and learn about the assets business. Nobody want to go to this field trip as much as me.",
+              "occurrences": [
+                {
+                  "start": 2178,
+                  "end": 2305,
+                  "line_start": 11,
+                  "line_end": 11
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "Claims about the frequency of errors and communication impact were not assessed due to the three-claim limit.",
+      "history_separation": "There are no explicit mentions of historical inputs in the rationale, and there are no ambiguities regarding the separation of target claims from historical claims."
+    },
+    {
+      "target_id": "8487:1",
+      "gold_overall": 2,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates inconsistent facility in sentence formation, word choice, and mechanics.",
+          "scope": "target",
+          "feature": "mechanics",
+          "direction": "negative",
+          "quotes": [
+            "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words",
+            "my goals is i want to be a police but first need to finish the school graduate i have a dora and she is my inpiration to be a big person because i have a beautiful girl went"
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The provided quotes show inconsistent sentence formation and word choice, such as 'they doesn't work' and 'i have a dora and she is my inpiration', which support the claim of inconsistent facility in mechanics.",
+          "overall_relation": "The rationale suggests that the inconsistent facility in sentence formation and mechanics contributes to the low score.",
+          "limitations": "The claim does not account for potential strengths in other areas of the essay.",
+          "evidence_id": "8487:1.E1",
+          "target_id": "8487:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words",
+              "occurrences": [
+                {
+                  "start": 0,
+                  "end": 289,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "my goals is i want to be a police but first need to finish the school graduate i have a dora and she is my inpiration to be a big person because i have a beautiful girl went",
+              "occurrences": [
+                {
+                  "start": 2303,
+                  "end": 2476,
+                  "line_start": 23,
+                  "line_end": 23
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The organization is partially developed but often missing or unsuccessful, leading to fragmented ideas and unclear connections between points.",
+          "scope": "target",
+          "feature": "organization",
+          "direction": "negative",
+          "quotes": [
+            "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing",
+            "my mom tell me one day i not in this life for so much time so you are lonely and i need to know you have your goals you need to complete the school you need the paper to say you graduate if you not finish school you are not nothing in your life because the principal thing if you need"
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The quotes show a lack of clear connections between ideas and fragmented thoughts, supporting the claim of poor organization.",
+          "overall_relation": "The rationale indicates that the poor organization impacts the overall score negatively.",
+          "limitations": "The claim does not consider the possibility of some coherent sections within the essay.",
+          "evidence_id": "8487:1.E2",
+          "target_id": "8487:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing",
+              "occurrences": [
+                {
+                  "start": 293,
+                  "end": 443,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "my mom tell me one day i not in this life for so much time so you are lonely and i need to know you have your goals you need to complete the school you need the paper to say you graduate if you not finish school you are not nothing in your life because the principal thing if you need",
+              "occurrences": [
+                {
+                  "start": 847,
+                  "end": 1131,
+                  "line_start": 13,
+                  "line_end": 13
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "There are frequent errors in grammar, syntax, and usage, which impede communication in many instances.",
+          "scope": "target",
+          "feature": "grammar",
+          "direction": "negative",
+          "quotes": [
+            "you life are sad and this is how the people die because they drink you think a bad things in your head you smook marihuana or other sustances this people are not have future in the life they dont have a nothing",
+            "some little girls are violate and have a children when she was a 13 o 14 years and the boy who's pregnant live or her dont know where is he, is bad because the family too dont help her so she need to work for have a good future the her boy or girl and is a working hard because you are the mother and the father too you have so much responsabilities to pay the babysitter for you baby when you working and when you comback you are tired but you children need to earing or some is sick you need to go to the hospital you not a good life and other people are chilling they know not about they future"
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The quotes contain numerous grammatical errors and unclear syntax, such as 'you smook marihuana or other sustances' and 'some little girls are violate', which support the claim of frequent errors.",
+          "overall_relation": "The rationale suggests that frequent errors in grammar and syntax contribute to the low score.",
+          "limitations": "The claim does not consider the potential for some grammatically correct sentences within the essay.",
+          "evidence_id": "8487:1.E3",
+          "target_id": "8487:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "you life are sad and this is how the people die because they drink you think a bad things in your head you smook marihuana or other sustances this people are not have future in the life they dont have a nothing",
+              "occurrences": [
+                {
+                  "start": 552,
+                  "end": 762,
+                  "line_start": 9,
+                  "line_end": 9
+                }
+              ]
+            },
+            {
+              "quote": "some little girls are violate and have a children when she was a 13 o 14 years and the boy who's pregnant live or her dont know where is he, is bad because the family too dont help her so she need to work for have a good future the her boy or girl and is a working hard because you are the mother and the father too you have so much responsabilities to pay the babysitter for you baby when you working and when you comback you are tired but you children need to earing or some is sick you need to go to the hospital you not a good life and other people are chilling they know not about they future",
+              "occurrences": [
+                {
+                  "start": 1702,
+                  "end": 2299,
+                  "line_start": 21,
+                  "line_end": 21
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "The essay attempts to convey personal experiences and goals but struggles with coherence and clarity, making it difficult for the reader to follow the intended message.",
+      "history_separation": "There are no explicit mentions of historical inputs in the rationale."
+    },
+    {
+      "target_id": "4902:1",
+      "gold_overall": 3,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates a limited range of vocabulary and structures, with some errors in grammar and syntax that impede communication.",
+          "scope": "target",
+          "feature": "syntactic range",
+          "direction": "negative",
+          "quotes": [
+            "The reason why i agree with this quote is because people now a day don't try to be them self.",
+            "Others may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The provided quotes show a limited range of vocabulary and structures, with grammatical errors such as incorrect verb forms and punctuation issues, which support the claim of limited syntactic range and communication impediments.",
+          "overall_relation": "The claim aligns with the observed Overall score of 3, indicating limited facility with language structures and vocabulary.",
+          "limitations": "The claim does not account for the coherent ideas present in the essay, which could be seen as a positive aspect. / Review: 引用に局所的な文法・用法上の問題はあるが、全体の語彙・構文の範囲および伝達阻害を支持するとする説明は不足。",
+          "evidence_id": "4902:1.E1",
+          "target_id": "4902:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+              "occurrences": [
+                {
+                  "start": 150,
+                  "end": 243,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Others may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree.",
+              "occurrences": [
+                {
+                  "start": 866,
+                  "end": 1038,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated",
+          "model_semantic_support": "supported",
+          "review_reason": "引用に局所的な文法・用法上の問題はあるが、全体の語彙・構文の範囲および伝達阻害を支持するとする説明は不足。",
+          "reviewer": "Codex assistant qualitative review; not an independent human assessment"
+        },
+        {
+          "rationale_claim": "The writer's ideas are somewhat coherent, but the organization is not fully controlled, with some missing or unsuccessful connections between ideas.",
+          "scope": "target",
+          "feature": "global coherence",
+          "direction": "mixed",
+          "quotes": [
+            "The reason why i agree with this quote is because people now a day don't try to be them self.",
+            "I guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in.",
+            "in conucluesion"
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The quotes show somewhat coherent ideas but lack clear transitions and organization, making it difficult to assess the overall coherence definitively.",
+          "overall_relation": "The claim aligns with the observed Overall score of 3, indicating partial coherence and organizational issues.",
+          "limitations": "The claim does not provide specific examples of missing or unsuccessful connections, which could clarify the extent of the organizational issues.",
+          "evidence_id": "4902:1.E2",
+          "target_id": "4902:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+              "occurrences": [
+                {
+                  "start": 150,
+                  "end": 243,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "I guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in.",
+              "occurrences": [
+                {
+                  "start": 493,
+                  "end": 617,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "in conucluesion",
+              "occurrences": [
+                {
+                  "start": 1288,
+                  "end": 1303,
+                  "line_start": 7,
+                  "line_end": 7
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The essay occasionally lapses into informal language and contains several grammatical errors, which can make the text difficult to follow.",
+          "scope": "target",
+          "feature": "communication impact",
+          "direction": "negative",
+          "quotes": [
+            "The reason why i agree with this quote is because people now a day don't try to be them self.",
+            "friend are't forever so just be yourself it'll be your greatest accomplishment."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The provided quotes contain informal language and grammatical errors, such as incorrect verb forms and punctuation issues, which support the claim of difficulty in following the text.",
+          "overall_relation": "The claim aligns with the observed Overall score of 3, indicating that the text's informal language and grammatical errors impede communication.",
+          "limitations": "The claim does not account for the coherent ideas present in the essay, which could be seen as a positive aspect.",
+          "evidence_id": "4902:1.E3",
+          "target_id": "4902:1",
+          "rationale_span_verified": false,
+          "quote_checks": [
+            {
+              "quote": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+              "occurrences": [
+                {
+                  "start": 150,
+                  "end": 243,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "friend are't forever so just be yourself it'll be your greatest accomplishment.",
+              "occurrences": [
+                {
+                  "start": 783,
+                  "end": 862,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "Claims about the frequency of errors and the impact on communication were not fully addressed due to the three-claim limit.",
+      "history_separation": "There are no explicit mentions of historical inputs in the rationale, and no ambiguities regarding the separation of target claims from historical claims."
+    },
+    {
+      "target_id": "8538:1",
+      "gold_overall": 4,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates facility in the use of language with a range of words and phrases, and controlled organization.",
+          "scope": "target",
+          "feature": "language facility and organization",
+          "direction": "positive",
+          "quotes": [
+            "I agree with John Lubbock's idea, that your character is build by you and your decisions that you take during your life, because people may told to be and act a certain way but at the end is your decision to do so or not.",
+            "One example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you.",
+            "Another example will be of someone that was raises surrounded by a very christian family decides to change religion and to be a Buddhist monk rater then a priest, altought his or her family work hard and always surrounded their child christian influences he or she simply took the decision that morals of Buddhism are better then those of Christianity."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay uses a variety of phrases and maintains a logical flow, supporting the claim of facility in language use and organization.",
+          "overall_relation": "The reference reasoning suggests that the essay's language facility and organization contribute to its overall quality.",
+          "limitations": "The essay contains minor grammatical errors and awkward phrasing, which are noted but do not significantly impede communication.",
+          "evidence_id": "8538:1.E1",
+          "target_id": "8538:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "I agree with John Lubbock's idea, that your character is build by you and your decisions that you take during your life, because people may told to be and act a certain way but at the end is your decision to do so or not.",
+              "occurrences": []
+            },
+            {
+              "quote": "One example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you.",
+              "occurrences": [
+                {
+                  "start": 230,
+                  "end": 487,
+                  "line_start": 7,
+                  "line_end": 7
+                }
+              ]
+            },
+            {
+              "quote": "Another example will be of someone that was raises surrounded by a very christian family decides to change religion and to be a Buddhist monk rater then a priest, altought his or her family work hard and always surrounded their child christian influences he or she simply took the decision that morals of Buddhism are better then those of Christianity.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The writer presents clear examples and arguments to support the thesis, showing a good understanding of the topic.",
+          "scope": "target",
+          "feature": "argumentation and examples",
+          "direction": "positive",
+          "quotes": [
+            "One example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you. those kids have been thought all those values during their childhood and some of them still grow up to be such jerks because they decided to ignore those values that their parents try so hard to teach them.",
+            "Another example will be of someone that was raises surrounded by a very christian family decides to change religion and to be a Buddhist monk rater then a priest, altought his or her family work hard and always surrounded their child christian influences he or she simply took the decision that morals of Buddhism are better then those of Christianity."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay provides clear examples of individuals making decisions that shape their character, supporting the thesis that character is built by personal decisions.",
+          "overall_relation": "The reference reasoning indicates that the clear examples and arguments contribute to the essay's overall quality.",
+          "limitations": "The examples are somewhat repetitive and could benefit from more varied illustrations.",
+          "evidence_id": "8538:1.E2",
+          "target_id": "8538:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "One example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you. those kids have been thought all those values during their childhood and some of them still grow up to be such jerks because they decided to ignore those values that their parents try so hard to teach them.",
+              "occurrences": []
+            },
+            {
+              "quote": "Another example will be of someone that was raises surrounded by a very christian family decides to change religion and to be a Buddhist monk rater then a priest, altought his or her family work hard and always surrounded their child christian influences he or she simply took the decision that morals of Buddhism are better then those of Christianity.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "While there are occasional language inaccuracies, such as minor grammatical errors and awkward phrasing, these do not significantly impede communication.",
+          "scope": "target",
+          "feature": "language accuracy",
+          "direction": "negative",
+          "quotes": [
+            "I agree with John Lubbock's idea, that your character is build by you and your decisions that you take during your life, because people may told to be and act a certain way but at the end is your decision to do so or not.",
+            "One example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you. those kids have been thought all those values during their childhood and some of them still grow up to be such jerks because they decided to ignore those values that their parents try so hard to teach them.",
+            "Another example will be of someone that was raises surrounded by a very christian family decides to change religion and to be a Buddhist monk rater then a priest, altought his or her family work hard and always surrounded their child christian influences he or she simply took the decision that morals of Buddhism are better then those of Christianity."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay contains several grammatical errors and awkward phrasings, but these do not significantly hinder the overall communication of the ideas.",
+          "overall_relation": "The reference reasoning acknowledges the presence of language inaccuracies but notes that they do not significantly impede communication.",
+          "limitations": "The essay could benefit from proofreading to correct minor grammatical errors and awkward phrasing.",
+          "evidence_id": "8538:1.E3",
+          "target_id": "8538:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "I agree with John Lubbock's idea, that your character is build by you and your decisions that you take during your life, because people may told to be and act a certain way but at the end is your decision to do so or not.",
+              "occurrences": []
+            },
+            {
+              "quote": "One example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you. those kids have been thought all those values during their childhood and some of them still grow up to be such jerks because they decided to ignore those values that their parents try so hard to teach them.",
+              "occurrences": []
+            },
+            {
+              "quote": "Another example will be of someone that was raises surrounded by a very christian family decides to change religion and to be a Buddhist monk rater then a priest, altought his or her family work hard and always surrounded their child christian influences he or she simply took the decision that morals of Buddhism are better then those of Christianity.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "The essay effectively conveys the writer's ideas and maintains coherence throughout, making it plausible for this evaluation.",
+      "history_separation": "None"
+    },
+    {
+      "target_id": "1514:1",
+      "gold_overall": 3,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates a limited facility in the use of language, with occasional syntactic variety and a range of vocabulary, but it also contains errors in grammar and syntax that sometimes impede communication.",
+          "scope": "target",
+          "feature": "syntactic range",
+          "direction": "negative",
+          "quotes": [
+            "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+            "Some people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The provided quotes show a mix of correct and incorrect grammar and syntax, with some sentences being difficult to understand due to grammatical errors. This supports the claim that the essay has errors that sometimes impede communication.",
+          "overall_relation": "The rationale suggests that the essay's syntactic issues contribute to a moderate level of proficiency with notable inaccuracies.",
+          "limitations": "The essay contains both clear and unclear sentences, which may not fully support the claim of consistently impeding communication.",
+          "evidence_id": "1514:1.E1",
+          "target_id": "1514:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+              "occurrences": [
+                {
+                  "start": 0,
+                  "end": 202,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Some people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life.",
+              "occurrences": [
+                {
+                  "start": 1646,
+                  "end": 1997,
+                  "line_start": 7,
+                  "line_end": 7
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The organization is generally controlled, but there are instances where the connection between ideas is absent or unsuccessful.",
+          "scope": "target",
+          "feature": "global coherence",
+          "direction": "negative",
+          "quotes": [
+            "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement.",
+            "Another example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The quotes show a lack of clear transitions and connections between ideas, supporting the claim of unsuccessful connections between ideas.",
+          "overall_relation": "The rationale indicates that the essay's organizational issues contribute to a moderate level of proficiency with notable inaccuracies.",
+          "limitations": "The essay does provide some examples, but the transitions between them are often unclear, which may not fully support the claim of generally controlled organization. / Review: 引用にはBased on my experienceやAnother exampleなど明示的な接続が存在する。前後の段落を示さず、接続の欠如・不成功を断定できない。",
+          "evidence_id": "1514:1.E2",
+          "target_id": "1514:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement.",
+              "occurrences": [
+                {
+                  "start": 0,
+                  "end": 316,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Another example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life.",
+              "occurrences": [
+                {
+                  "start": 1139,
+                  "end": 1515,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated",
+          "model_semantic_support": "supported",
+          "review_reason": "引用にはBased on my experienceやAnother exampleなど明示的な接続が存在する。前後の段落を示さず、接続の欠如・不成功を断定できない。",
+          "reviewer": "Codex assistant qualitative review; not an independent human assessment"
+        },
+        {
+          "rationale_claim": "The writer provides examples to support their argument, such as the experiences of their brother and Hitler, but the writing includes some language inaccuracies and lacks precision in word choice and phrasing.",
+          "scope": "target",
+          "feature": "evidence and support",
+          "direction": "mixed",
+          "quotes": [
+            "My brother for example wanted to be an engineer, with hard work and effort he made it.",
+            "Another example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The quotes show that the writer does provide examples to support their argument, but the language used is imprecise and contains inaccuracies, supporting the claim.",
+          "overall_relation": "The rationale suggests that the essay's use of examples, despite inaccuracies, contributes to a moderate level of proficiency.",
+          "limitations": "The examples provided are somewhat relevant but lack precision and detail, which may not fully support the argument.",
+          "evidence_id": "1514:1.E3",
+          "target_id": "1514:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "My brother for example wanted to be an engineer, with hard work and effort he made it.",
+              "occurrences": [
+                {
+                  "start": 317,
+                  "end": 403,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Another example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.",
+              "occurrences": [
+                {
+                  "start": 1139,
+                  "end": 1256,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "Claims about the frequency of errors and the impact on communication were not assessed due to the three-claim limit.",
+      "history_separation": "The rationale mentions the use of examples from the writer's brother and Hitler, which are explicitly historical inputs. There are no ambiguities in the separation of these historical examples from the target essay's claims."
+    },
+    {
+      "target_id": "1961:1",
+      "gold_overall": 5,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates native-like facility in the use of language, showcasing syntactic variety and appropriate word choice.",
+          "scope": "target",
+          "feature": "syntactic range",
+          "direction": "positive",
+          "quotes": [
+            "First, it is known for it's parks. Secondly, the food is amazing. Lastly, Pakistan is one of the nicest culture.",
+            "When I wake in the morning after an awesome night. I will be hungry. So I start my day first by going to the local breakfast shop."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The essay includes a variety of sentence structures and appropriate word choices, such as the use of 'awesome' and 'local breakfast shop', which support the claim of native-like facility in language use.",
+          "overall_relation": "The reference reasoning suggests that the syntactic variety contributes to the overall coherence and engagement of the essay.",
+          "limitations": "The essay contains some minor grammatical errors, such as 'it's' instead of 'its', which slightly detract from the native-like facility. / Review: 例示された構文にはone of the nicest cultureやWhen節の断片などがあり、awesome等の語があることだけでnative-like facilityを支持できない。参照推論の高評価と本文の解釈差として保持する。",
+          "evidence_id": "1961:1.E1",
+          "target_id": "1961:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "First, it is known for it's parks. Secondly, the food is amazing. Lastly, Pakistan is one of the nicest culture.",
+              "occurrences": [
+                {
+                  "start": 171,
+                  "end": 283,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "When I wake in the morning after an awesome night. I will be hungry. So I start my day first by going to the local breakfast shop.",
+              "occurrences": [
+                {
+                  "start": 1280,
+                  "end": 1410,
+                  "line_start": 7,
+                  "line_end": 7
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated",
+          "model_semantic_support": "supported",
+          "review_reason": "例示された構文にはone of the nicest cultureやWhen節の断片などがあり、awesome等の語があることだけでnative-like facilityを支持できない。参照推論の高評価と本文の解釈差として保持する。",
+          "reviewer": "Codex assistant qualitative review; not an independent human assessment"
+        },
+        {
+          "rationale_claim": "The text organization is well-controlled, with clear sections dedicated to different aspects of the destination, such as parks, food, and culture.",
+          "scope": "target",
+          "feature": "global coherence",
+          "direction": "positive",
+          "quotes": [
+            "First, it is known for it's parks. Secondly, the food is amazing. Lastly, Pakistan is one of the nicest culture.",
+            "Food. It's the most important thing..right?",
+            "The people are very nice in Pakistan."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The essay is divided into clear sections focusing on parks, food, and culture, which supports the claim of well-controlled text organization.",
+          "overall_relation": "The reference reasoning indicates that the clear sections enhance the overall coherence and engagement of the essay.",
+          "limitations": "While the sections are clear, some transitions between sections could be smoother to improve coherence.",
+          "evidence_id": "1961:1.E2",
+          "target_id": "1961:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "First, it is known for it's parks. Secondly, the food is amazing. Lastly, Pakistan is one of the nicest culture.",
+              "occurrences": [
+                {
+                  "start": 171,
+                  "end": 283,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Food. It's the most important thing..right?",
+              "occurrences": [
+                {
+                  "start": 1236,
+                  "end": 1279,
+                  "line_start": 7,
+                  "line_end": 7
+                }
+              ]
+            },
+            {
+              "quote": "The people are very nice in Pakistan.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The grammar and conventions are accurate, with rare language inaccuracies that do not impede communication.",
+          "scope": "target",
+          "feature": "accuracy",
+          "direction": "positive",
+          "quotes": [
+            "It's an amusement park with a lot of thrilling rides.",
+            "They are very welcoming and kind."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The essay contains accurate grammar and conventions, with only minor inaccuracies such as 'it's' instead of 'its', which do not impede communication.",
+          "overall_relation": "The reference reasoning suggests that the accuracy of grammar and conventions contributes to the overall effectiveness of the essay.",
+          "limitations": "There are some minor grammatical errors, such as the use of 'it's' instead of 'its', which could be improved. / Review: 二つの短い正しい文だけでは答案全体のrare inaccuraciesを確認できない。It's an amusement parkのIt'sは適切なit isの短縮形であり、モデルのitsとの取り違えの説明も不正確。",
+          "evidence_id": "1961:1.E3",
+          "target_id": "1961:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "It's an amusement park with a lot of thrilling rides.",
+              "occurrences": [
+                {
+                  "start": 442,
+                  "end": 495,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "They are very welcoming and kind.",
+              "occurrences": [
+                {
+                  "start": 2077,
+                  "end": 2110,
+                  "line_start": 11,
+                  "line_end": 11
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated",
+          "model_semantic_support": "supported",
+          "review_reason": "二つの短い正しい文だけでは答案全体のrare inaccuraciesを確認できない。It's an amusement parkのIt'sは適切なit isの短縮形であり、モデルのitsとの取り違えの説明も不正確。",
+          "reviewer": "Codex assistant qualitative review; not an independent human assessment"
+        }
+      ],
+      "unassessed_claims": "The essay effectively communicates the writer's enthusiasm for visiting Pakistan, providing detailed descriptions and personal touches that enhance the overall coherence and engagement.",
+      "history_separation": "There are no explicit mentions of historical inputs in the rationale or the target text."
+    },
+    {
+      "target_id": "8608:1",
+      "gold_overall": 3,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates limited facility in the use of language, with occasional syntactic variety but frequent errors in sentence formation and word choice.",
+          "scope": "target",
+          "feature": "syntactic range",
+          "direction": "negative",
+          "quotes": [
+            "mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.",
+            "And if that still dont work then go to somewhere u think is a nice pleas to be and mediated."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The provided quotes show frequent errors in sentence formation and word choice, such as 'Is aren by working hard' and 'somewhere u think is a nice pleas to be and mediated', supporting the claim of limited facility in language use.",
+          "overall_relation": "The rationale suggests that the essay's syntactic limitations align with a score indicating limited facility in language use.",
+          "limitations": "The essay does contain some syntactic variety, but the errors are frequent and significant enough to impede communication.",
+          "evidence_id": "8608:1.E1",
+          "target_id": "8608:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.",
+              "occurrences": [
+                {
+                  "start": 0,
+                  "end": 151,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "And if that still dont work then go to somewhere u think is a nice pleas to be and mediated.",
+              "occurrences": [
+                {
+                  "start": 592,
+                  "end": 684,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The organization is generally controlled, though connections between ideas are sometimes absent or unsuccessful.",
+          "scope": "target",
+          "feature": "global coherence",
+          "direction": "mixed",
+          "quotes": [
+            "And true to who you are as a person. And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.",
+            "Also if u really really want to get you self-esteem go to the gym be cues there is noting like work out and feeling a new look or u can buy a nice car and that well help to."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The quotes show some control over the organization, but the connections between ideas are not always clear, such as the transition from 'true to who you are' to 'go for a run' and the abrupt shift to 'buy a nice car'.",
+          "overall_relation": "The rationale indicates that the essay's organization is somewhat controlled but lacks clear connections between ideas, which aligns with a score indicating limited coherence.",
+          "limitations": "The essay's organization is somewhat controlled, but the lack of clear connections between ideas can make the essay difficult to follow.",
+          "evidence_id": "8608:1.E2",
+          "target_id": "8608:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "And true to who you are as a person. And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.",
+              "occurrences": [
+                {
+                  "start": 152,
+                  "end": 307,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "Also if u really really want to get you self-esteem go to the gym be cues there is noting like work out and feeling a new look or u can buy a nice car and that well help to.",
+              "occurrences": [
+                {
+                  "start": 685,
+                  "end": 858,
+                  "line_start": 5,
+                  "line_end": 5
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "There are errors in grammar and syntax that impede communication in some cases.",
+          "scope": "target",
+          "feature": "communication impact",
+          "direction": "negative",
+          "quotes": [
+            "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.",
+            "That can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The provided quotes contain grammatical and syntactical errors, such as 'u feel like every one and life get to hard' and 'if that dont help you the go buy a dog or a cat', which impede clear communication.",
+          "overall_relation": "The rationale suggests that these errors align with a score indicating that communication is impeded by language inaccuracies.",
+          "limitations": "While there are errors that impede communication, the essay does contain some coherent sentences and ideas.",
+          "evidence_id": "8608:1.E3",
+          "target_id": "8608:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.",
+              "occurrences": [
+                {
+                  "start": 189,
+                  "end": 307,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "That can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat.",
+              "occurrences": [
+                {
+                  "start": 311,
+                  "end": 404,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "The essay attempts to convey ideas about self-esteem and ways to improve it, but the essay lacks coherence and clarity, with several grammatical inaccuracies and awkward phrasing.",
+      "history_separation": "None"
+    },
+    {
+      "target_id": "1868:1",
+      "gold_overall": 3,
+      "claims": [
+        {
+          "rationale_claim": "The essay demonstrates a range of vocabulary and syntactic variety, with occasional language inaccuracies that sometimes impede communication.",
+          "scope": "target",
+          "feature": "vocabulary and syntactic variety",
+          "direction": "mixed",
+          "quotes": [
+            "The main piece to improve your skills is during the process of keep learning.",
+            "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things."
+          ],
+          "semantic_support": "uncertain",
+          "semantic_explanation": "The essay does show a range of vocabulary and some syntactic variety, but the provided quotes are not sufficient to fully support the claim about the range of vocabulary and syntactic variety. The quotes also contain language inaccuracies that impede communication.",
+          "overall_relation": "The claim suggests that the essay has a moderate level of proficiency with room for improvement in clarity and coherence, which aligns with the observed Overall score of 3.",
+          "limitations": "The claim does not provide enough evidence to fully support the range of vocabulary and syntactic variety. The quotes show some inaccuracies that disrupt the flow of the text.",
+          "evidence_id": "1868:1.E1",
+          "target_id": "1868:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "The main piece to improve your skills is during the process of keep learning.",
+              "occurrences": [
+                {
+                  "start": 0,
+                  "end": 77,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.",
+              "occurrences": [
+                {
+                  "start": 611,
+                  "end": 765,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The writer's ideas are generally clear, but there are instances where the organization and connection between ideas are not fully controlled, leading to some confusion.",
+          "scope": "target",
+          "feature": "organization and connection between ideas",
+          "direction": "negative",
+          "quotes": [
+            "The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.",
+            "If you have been studying for years, since first grade and still have to go to an University, it could make you think if it would be necessary those extra years."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The quotes show that the writer's ideas are generally clear, but the organization and connection between ideas are not fully controlled, leading to some confusion. The quotes are coherent but lack a clear structure, which supports the claim.",
+          "overall_relation": "The claim suggests that the essay has a moderate level of proficiency with room for improvement in clarity and coherence, which aligns with the observed Overall score of 3.",
+          "limitations": "The claim is supported by the provided quotes, but it does not cover all instances of confusion in the essay.",
+          "evidence_id": "1868:1.E2",
+          "target_id": "1868:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.",
+              "occurrences": [
+                {
+                  "start": 1173,
+                  "end": 1424,
+                  "line_start": 3,
+                  "line_end": 3
+                }
+              ]
+            },
+            {
+              "quote": "If you have been studying for years, since first grade and still have to go to an University, it could make you think if it would be necessary those extra years.",
+              "occurrences": []
+            }
+          ],
+          "quotes_verified": false,
+          "usable_for_synthesis": false,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        },
+        {
+          "rationale_claim": "The grammar and conventions are mostly accurate, but there are errors that occasionally disrupt the flow of the text.",
+          "scope": "target",
+          "feature": "grammar and conventions",
+          "direction": "negative",
+          "quotes": [
+            "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.",
+            "The years where you have been taking classes that does not look that t would help you in the future in any way."
+          ],
+          "semantic_support": "supported",
+          "semantic_explanation": "The quotes show that there are grammatical errors and inaccuracies in conventions that disrupt the flow of the text, supporting the claim.",
+          "overall_relation": "The claim suggests that the essay has a moderate level of proficiency with room for improvement in clarity and coherence, which aligns with the observed Overall score of 3.",
+          "limitations": "The claim is supported by the provided quotes, but it does not cover all grammatical errors in the essay.",
+          "evidence_id": "1868:1.E3",
+          "target_id": "1868:1",
+          "rationale_span_verified": true,
+          "quote_checks": [
+            {
+              "quote": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.",
+              "occurrences": [
+                {
+                  "start": 238,
+                  "end": 367,
+                  "line_start": 1,
+                  "line_end": 1
+                }
+              ]
+            },
+            {
+              "quote": "The years where you have been taking classes that does not look that t would help you in the future in any way.",
+              "occurrences": [
+                {
+                  "start": 2205,
+                  "end": 2316,
+                  "line_start": 9,
+                  "line_end": 9
+                }
+              ]
+            }
+          ],
+          "quotes_verified": true,
+          "usable_for_synthesis": true,
+          "semantic_validation": "model-assessed; not independently human-validated"
+        }
+      ],
+      "unassessed_claims": "Claims about the three historical inputs are not present in the reference reasoning.",
+      "history_separation": "There are no explicit mentions of historical inputs in the reference reasoning, and there are no ambiguities."
+    }
+  ],
+  "B": {
+    "patterns": [
+      {
+        "pattern_id": "P1",
+        "inferred_tendency": "参照推論から推定された傾向は、文法と構文の誤りがコミュニケーションを阻害し、全体的な評価に影響を与えるという傾向がある。",
+        "support_evidence_ids": [
+          "8487:1.E1",
+          "8487:1.E3",
+          "1514:1.E1",
+          "8608:1.E1",
+          "8608:1.E3",
+          "1868:1.E3"
+        ],
+        "evaluation_score_relation": "これらの誤りは、評価が低くなる要因として評価されている。",
+        "counterexample_evidence_ids": [],
+        "non_applicable_target_ids": [],
+        "unknowns": "評価者の特定性、強度、範囲、および矛盾または不十分な証拠",
+        "model_non_applicable_target_ids": [
+          "5627:1",
+          "5268:1",
+          "2444:1",
+          "4902:1",
+          "8538:1",
+          "1961:1"
+        ],
+        "unassessed_target_ids": [
+          "5627:1",
+          "5268:1",
+          "2444:1",
+          "4902:1",
+          "8538:1",
+          "1961:1"
+        ],
+        "classification_note": "No usable target evidence => unassessed, not a negative or non-applicable example. Original classification retained."
+      }
+    ],
+    "undetermined": "共通傾向は判断できない。",
+    "cross_essay_review": "文法と構文の誤りがコミュニケーションを阻害し、全体的な評価に影響を与えるという傾向が見られる。ただし、いくつかのエッセイでは、誤りがコミュニケーションを阻害するという証拠が不十分であるため、この傾向は完全に確立されていない。"
+  },
+  "C": {
+    "elements": [
+      {
+        "number": 1,
+        "text": "Overall.S2: Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.\n\nOverall.S3: Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "evidence_ids": [],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3"
+        ],
+        "pattern_ids": [],
+        "relation_ids": []
+      },
+      {
+        "number": 2,
+        "text": "以下は観測Overallを条件として生成された参照推論から推定された傾向の候補であり、採点者本人の真の思考や評価の重みを示すものではない。2件以上の支持だけでは妥当性は証明されない。\n\n複数の答案から、文法と構文の誤りがコミュニケーションを阻害し、全体的な評価に影響を与えるという傾向が見られる。ただし、この傾向は完全に確立されていないため、他の評価パターンも考慮する必要がある。",
+        "evidence_ids": [
+          "1514:1.E1",
+          "1868:1.E3",
+          "8487:1.E1",
+          "8487:1.E3",
+          "8608:1.E1",
+          "8608:1.E3"
+        ],
+        "rubric_ids": [],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": [],
+        "model_text_before_scope_guard": "複数の答案から、文法と構文の誤りがコミュニケーションを阻害し、全体的な評価に影響を与えるという傾向が見られる。ただし、この傾向は完全に確立されていないため、他の評価パターンも考慮する必要がある。"
+      },
+      {
+        "number": 3,
+        "text": "引用された部分が全体の頻度や範囲を正確に反映しているかどうかを判断するための情報が不足している。全体の頻度や範囲を正確に評価するためには、文章全体を調査する必要がある。\n\n8487:1 / 8487:1.E1: \"something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\"\n\n8487:1 / 8487:1.E1: \"my goals is i want to be a police but first need to finish the school graduate i have a dora and she is my inpiration to be a big person because i have a beautiful girl went\"\n\n8487:1 / 8487:1.E2: \"in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing\"\n\n8487:1 / 8487:1.E2: \"my mom tell me one day i not in this life for so much time so you are lonely and i need to know you have your goals you need to complete the school you need the paper to say you graduate if you not finish school you are not nothing in your life because the principal thing if you need\"\n\n8608:1 / 8608:1.E1: \"mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.\"\n\n8608:1 / 8608:1.E1: \"And if that still dont work then go to somewhere u think is a nice pleas to be and mediated.\"\n\n8608:1 / 8608:1.E3: \"And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.\"\n\n8608:1 / 8608:1.E3: \"That can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat.\"",
+        "evidence_ids": [
+          "8487:1.E1",
+          "8487:1.E2",
+          "8608:1.E1",
+          "8608:1.E3"
+        ],
+        "rubric_ids": [],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": []
+      },
+      {
+        "number": 4,
+        "text": "与えられた個別の照合結果は、文法と構文の誤りがコミュニケーションを阻害するという点で一致しているが、誤りの頻度や範囲、組織化の程度については具体的な評価が不足している。これらの点を評価するためには、文章全体を調査する必要がある。\n\n8487:1（観測Overall 2、Overall.S2、比較先 Overall.S3）: 引用された文章は、文の形成、単語の選択、および機械的な要素（文法やスペル）において一貫性が欠けていることを示しています。例えば、「they doesn't work」や「i have a dora and she is my inpiration」などの表現は、公式条件で指摘されている「文の形成、単語の選択、および機械的な要素における一貫性の欠如」を支持します。 参照推論は、文の形成と機械的な要素における一貫性の欠如が全体的な得点に影響を与えることを示唆しています。また、組織の部分では、アイデアの不明瞭なつながりと断片的な思考が、全体的なスコアにネガティブな影響を与えると説明しています。 隣接段階との比較において、頻度や適切さの違いについての具体的な評価が不足しています。また、引用された部分が全体の頻度や範囲を正確に反映しているかどうかを判断するための情報が不足しています。\n\n8608:1（観測Overall 3、Overall.S3、比較先 Overall.S2）: 具体的な語形・文構造・接続が、公式条件の「Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.」の部分を検討する証拠になる。特に「errors in grammar and syntax and usage」や「Communication is impeded by language inaccuracies in some cases」の部分が該当する。 参照推論の「The essay demonstrates limited facility in the use of language, with occasional syntactic variety but frequent errors in sentence formation and word choice.」や「There are errors in grammar and syntax that impede communication in some cases.」の評価判断を観測Overallに対する説明として検討できる。 隣接段階との程度・頻度・適切さの違いについて、全体が正確、誤りがまれ、頻繁などの判断には全体を調べる必要がある。特に「Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.」との違いが不明瞭で、頻度や適切さの解釈差が残る。",
+        "evidence_ids": [
+          "8487:1.E1",
+          "8487:1.E2",
+          "8608:1.E1",
+          "8608:1.E3"
+        ],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3"
+        ],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": [
+          "R1",
+          "R2"
+        ]
+      },
+      {
+        "number": 5,
+        "text": "次の採点では、全体的な頻度と範囲を確認するために、文章全体を調査し、文法的誤りや組織の問題がどの程度頻繁に発生するかを評価する必要がある。また、引用された部分が全体の文章を代表しているかどうかを確認するための追加の前後文や段落を検討する必要がある。\n\nR1の論点から: 次の採点では、全体的な頻度と範囲を確認するために、文章全体を調査し、文法的誤りや組織の問題がどの程度頻繁に発生するかを評価する必要があります。また、引用された部分が全体の文章を代表しているかどうかを確認するための追加の前後文や段落を検討する必要があります。\n\nR2の論点から: その不足を踏まえ、次の採点で具体的に全体の頻度や誤りの範囲（語彙・構文）を確認する。また、誤りが頻繁に発生するか、全体が正確であるか、誤りがまれであるかを確認する。さらに、組織化の程度や接続の成功度を評価する。",
+        "evidence_ids": [
+          "8487:1.E1",
+          "8487:1.E2",
+          "8608:1.E1",
+          "8608:1.E3"
+        ],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3"
+        ],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": [
+          "R1",
+          "R2"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "R1",
+        "pattern_id": "P1",
+        "target_id": "8487:1",
+        "observed_overall": 2,
+        "evidence_ids": [
+          "8487:1.E1",
+          "8487:1.E2"
+        ],
+        "evidence_anchor": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words",
+        "rubric_id": "Overall.S2",
+        "condition_quote": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+        "comparison_rubric_id": "Overall.S3",
+        "comparison_condition_quote": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "model_explanations": {
+          "evidence_to_condition": "引用された文章は、文の形成、単語の選択、および機械的な要素（文法やスペル）において一貫性が欠けていることを示しています。例えば、「they doesn't work」や「i have a dora and she is my inpiration」などの表現は、公式条件で指摘されている「文の形成、単語の選択、および機械的な要素における一貫性の欠如」を支持します。",
+          "judgment_to_condition": "参照推論は、文の形成と機械的な要素における一貫性の欠如が全体的な得点に影響を与えることを示唆しています。また、組織の部分では、アイデアの不明瞭なつながりと断片的な思考が、全体的なスコアにネガティブな影響を与えると説明しています。",
+          "interpretation_or_missing_evidence": "隣接段階との比較において、頻度や適切さの違いについての具体的な評価が不足しています。また、引用された部分が全体の頻度や範囲を正確に反映しているかどうかを判断するための情報が不足しています。",
+          "next_check": "次の採点では、全体的な頻度と範囲を確認するために、文章全体を調査し、文法的誤りや組織の問題がどの程度頻繁に発生するかを評価する必要があります。また、引用された部分が全体の文章を代表しているかどうかを確認するための追加の前後文や段落を検討する必要があります。"
+        },
+        "evidence_to_condition": "8487:1 / 原文 \"something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\"。引用された文章は、文の形成、単語の選択、および機械的な要素（文法やスペル）において一貫性が欠けていることを示しています。例えば、「they doesn't work」や「i have a dora and she is my inpiration」などの表現は、公式条件で指摘されている「文の形成、単語の選択、および機械的な要素における一貫性の欠如」を支持します。",
+        "judgment_to_condition": "観測Overall 2。参照推論は、文の形成と機械的な要素における一貫性の欠如が全体的な得点に影響を与えることを示唆しています。また、組織の部分では、アイデアの不明瞭なつながりと断片的な思考が、全体的なスコアにネガティブな影響を与えると説明しています。",
+        "interpretation_or_missing_evidence": "隣接段階との比較において、頻度や適切さの違いについての具体的な評価が不足しています。また、引用された部分が全体の頻度や範囲を正確に反映しているかどうかを判断するための情報が不足しています。",
+        "next_check": "次の採点では、全体的な頻度と範囲を確認するために、文章全体を調査し、文法的誤りや組織の問題がどの程度頻繁に発生するかを評価する必要があります。また、引用された部分が全体の文章を代表しているかどうかを確認するための追加の前後文や段落を検討する必要があります。"
+      },
+      {
+        "relation_id": "R2",
+        "pattern_id": "P1",
+        "target_id": "8608:1",
+        "observed_overall": 3,
+        "evidence_ids": [
+          "8608:1.E1",
+          "8608:1.E3"
+        ],
+        "evidence_anchor": "mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.",
+        "rubric_id": "Overall.S3",
+        "condition_quote": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "comparison_rubric_id": "Overall.S2",
+        "comparison_condition_quote": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+        "model_explanations": {
+          "evidence_to_condition": "具体的な語形・文構造・接続が、公式条件の「Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.」の部分を検討する証拠になる。特に「errors in grammar and syntax and usage」や「Communication is impeded by language inaccuracies in some cases」の部分が該当する。",
+          "judgment_to_condition": "参照推論の「The essay demonstrates limited facility in the use of language, with occasional syntactic variety but frequent errors in sentence formation and word choice.」や「There are errors in grammar and syntax that impede communication in some cases.」の評価判断を観測Overallに対する説明として検討できる。",
+          "interpretation_or_missing_evidence": "隣接段階との程度・頻度・適切さの違いについて、全体が正確、誤りがまれ、頻繁などの判断には全体を調べる必要がある。特に「Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.」との違いが不明瞭で、頻度や適切さの解釈差が残る。",
+          "next_check": "その不足を踏まえ、次の採点で具体的に全体の頻度や誤りの範囲（語彙・構文）を確認する。また、誤りが頻繁に発生するか、全体が正確であるか、誤りがまれであるかを確認する。さらに、組織化の程度や接続の成功度を評価する。"
+        },
+        "evidence_to_condition": "8608:1 / 原文 \"mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.\"。具体的な語形・文構造・接続が、公式条件の「Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.」の部分を検討する証拠になる。特に「errors in grammar and syntax and usage」や「Communication is impeded by language inaccuracies in some cases」の部分が該当する。",
+        "judgment_to_condition": "観測Overall 3。参照推論の「The essay demonstrates limited facility in the use of language, with occasional syntactic variety but frequent errors in sentence formation and word choice.」や「There are errors in grammar and syntax that impede communication in some cases.」の評価判断を観測Overallに対する説明として検討できる。",
+        "interpretation_or_missing_evidence": "隣接段階との程度・頻度・適切さの違いについて、全体が正確、誤りがまれ、頻繁などの判断には全体を調べる必要がある。特に「Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.」との違いが不明瞭で、頻度や適切さの解釈差が残る。",
+        "next_check": "その不足を踏まえ、次の採点で具体的に全体の頻度や誤りの範囲（語彙・構文）を確認する。また、誤りが頻繁に発生するか、全体が正確であるか、誤りがまれであるかを確認する。さらに、組織化の程度や接続の成功度を評価する。"
+      }
+    ],
+    "limits": "このフィードバックは予備的なものであり、モデルの暫定判断に基づいています。真の思考や有効性を実証するものではありません。",
+    "assembly": "C relation and text are model-generated; source metadata, full rubric, IDs, scores and exact quotations deterministically assembled",
+    "citations": [
+      {
+        "evidence_id": "8487:1.E1",
+        "target_id": "8487:1",
+        "quote": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words",
+        "positions": [
+          {
+            "start": 0,
+            "end": 289,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "8487:1.E1",
+        "target_id": "8487:1",
+        "quote": "my goals is i want to be a police but first need to finish the school graduate i have a dora and she is my inpiration to be a big person because i have a beautiful girl went",
+        "positions": [
+          {
+            "start": 2303,
+            "end": 2476,
+            "line_start": 23,
+            "line_end": 23
+          }
+        ]
+      },
+      {
+        "evidence_id": "8487:1.E2",
+        "target_id": "8487:1",
+        "quote": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing",
+        "positions": [
+          {
+            "start": 293,
+            "end": 443,
+            "line_start": 3,
+            "line_end": 3
+          }
+        ]
+      },
+      {
+        "evidence_id": "8487:1.E2",
+        "target_id": "8487:1",
+        "quote": "my mom tell me one day i not in this life for so much time so you are lonely and i need to know you have your goals you need to complete the school you need the paper to say you graduate if you not finish school you are not nothing in your life because the principal thing if you need",
+        "positions": [
+          {
+            "start": 847,
+            "end": 1131,
+            "line_start": 13,
+            "line_end": 13
+          }
+        ]
+      },
+      {
+        "evidence_id": "8608:1.E1",
+        "target_id": "8608:1",
+        "quote": "mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.",
+        "positions": [
+          {
+            "start": 0,
+            "end": 151,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "8608:1.E1",
+        "target_id": "8608:1",
+        "quote": "And if that still dont work then go to somewhere u think is a nice pleas to be and mediated.",
+        "positions": [
+          {
+            "start": 592,
+            "end": 684,
+            "line_start": 5,
+            "line_end": 5
+          }
+        ]
+      },
+      {
+        "evidence_id": "8608:1.E3",
+        "target_id": "8608:1",
+        "quote": "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.",
+        "positions": [
+          {
+            "start": 189,
+            "end": 307,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "8608:1.E3",
+        "target_id": "8608:1",
+        "quote": "That can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat.",
+        "positions": [
+          {
+            "start": 311,
+            "end": 404,
+            "line_start": 3,
+            "line_end": 3
+          }
+        ]
+      }
+    ],
+    "scope_guard": "Programmatically added source-conditioning and candidate-status caveat; raw model text retained in C_text and calls.jsonl",
+    "quality_status": "pilot_outputs_require_revision_before_delivery",
+    "content_review": [
+      {
+        "rater_id": "rater_7",
+        "relation_id": "R1",
+        "relation_review": "they doesn't workなどの局所例と文形成の不安定さを結び付ける説明はある。一方、many instancesとsome casesの違いは具体的に判断できていない。",
+        "next_check_review": "引用の代表性・前後文・全体の確認を挙げており④の不足には対応するが、どの意味理解を再確認するかはなお抽象的。"
+      },
+      {
+        "rater_id": "rater_7",
+        "relation_id": "R2",
+        "relation_review": "生成説明は公式文と参照推論の引用・言い換えが中心。具体的な語形・文構造が条件にどう関わるかの説明が不足。固定アンカーの挿入だけで意味的対応が成立したとは扱わない。",
+        "next_check_review": "全体の頻度・語彙構文範囲・組織化を列挙し、特定した局所的論点からの具体的な確認方法にはなっていない。"
+      }
+    ]
+  }
+}

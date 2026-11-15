@@ -1,0 +1,147 @@
+{
+  "fingerprint": "1136576ba39aa5154a95ff1a6b87b13882b43a314b3dd8f27f37cdf79916cbac",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates native-like facility in the use of language, showcasing syntactic variety and appropriate word choice.",
+        "scope": "target",
+        "feature": "syntactic range",
+        "direction": "positive",
+        "quotes": [
+          "First, it is known for it's parks. Secondly, the food is amazing. Lastly, Pakistan is one of the nicest culture.",
+          "When I wake in the morning after an awesome night. I will be hungry. So I start my day first by going to the local breakfast shop."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay includes a variety of sentence structures and appropriate word choices, such as the use of 'awesome' and 'local breakfast shop', which support the claim of native-like facility in language use.",
+        "overall_relation": "The reference reasoning suggests that the syntactic variety contributes to the overall coherence and engagement of the essay.",
+        "limitations": "The essay contains some minor grammatical errors, such as 'it's' instead of 'its', which slightly detract from the native-like facility.",
+        "evidence_id": "1961:1.E1",
+        "target_id": "1961:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "First, it is known for it's parks. Secondly, the food is amazing. Lastly, Pakistan is one of the nicest culture.",
+            "occurrences": [
+              {
+                "start": 171,
+                "end": 283,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "When I wake in the morning after an awesome night. I will be hungry. So I start my day first by going to the local breakfast shop.",
+            "occurrences": [
+              {
+                "start": 1280,
+                "end": 1410,
+                "line_start": 7,
+                "line_end": 7
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The text organization is well-controlled, with clear sections dedicated to different aspects of the destination, such as parks, food, and culture.",
+        "scope": "target",
+        "feature": "global coherence",
+        "direction": "positive",
+        "quotes": [
+          "First, it is known for it's parks. Secondly, the food is amazing. Lastly, Pakistan is one of the nicest culture.",
+          "Food. It's the most important thing..right?",
+          "The people are very nice in Pakistan."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay is divided into clear sections focusing on parks, food, and culture, which supports the claim of well-controlled text organization.",
+        "overall_relation": "The reference reasoning indicates that the clear sections enhance the overall coherence and engagement of the essay.",
+        "limitations": "While the sections are clear, some transitions between sections could be smoother to improve coherence.",
+        "evidence_id": "1961:1.E2",
+        "target_id": "1961:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "First, it is known for it's parks. Secondly, the food is amazing. Lastly, Pakistan is one of the nicest culture.",
+            "occurrences": [
+              {
+                "start": 171,
+                "end": 283,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "Food. It's the most important thing..right?",
+            "occurrences": [
+              {
+                "start": 1236,
+                "end": 1279,
+                "line_start": 7,
+                "line_end": 7
+              }
+            ]
+          },
+          {
+            "quote": "The people are very nice in Pakistan.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The grammar and conventions are accurate, with rare language inaccuracies that do not impede communication.",
+        "scope": "target",
+        "feature": "accuracy",
+        "direction": "positive",
+        "quotes": [
+          "It's an amusement park with a lot of thrilling rides.",
+          "They are very welcoming and kind."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay contains accurate grammar and conventions, with only minor inaccuracies such as 'it's' instead of 'its', which do not impede communication.",
+        "overall_relation": "The reference reasoning suggests that the accuracy of grammar and conventions contributes to the overall effectiveness of the essay.",
+        "limitations": "There are some minor grammatical errors, such as the use of 'it's' instead of 'its', which could be improved.",
+        "evidence_id": "1961:1.E3",
+        "target_id": "1961:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "It's an amusement park with a lot of thrilling rides.",
+            "occurrences": [
+              {
+                "start": 442,
+                "end": 495,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "They are very welcoming and kind.",
+            "occurrences": [
+              {
+                "start": 2077,
+                "end": 2110,
+                "line_start": 11,
+                "line_end": 11
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The essay effectively communicates the writer's enthusiasm for visiting Pakistan, providing detailed descriptions and personal touches that enhance the overall coherence and engagement.",
+    "history_separation": "There are no explicit mentions of historical inputs in the rationale or the target text."
+  },
+  "timestamp": "2026-11-15T15:57:38.395887+09:00"
+}

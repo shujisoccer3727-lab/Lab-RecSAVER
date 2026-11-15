@@ -1,0 +1,1862 @@
+{
+  "timestamp": "2026-11-15T16:31:44.940480+09:00",
+  "sources_unchanged": true,
+  "source_checks": [
+    {
+      "path": "outputs/reasoning_eval_large/resolved_config.yaml",
+      "unchanged": true
+    },
+    {
+      "path": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+      "unchanged": true
+    },
+    {
+      "path": "data/processed/rater_essay_wide.csv",
+      "unchanged": true
+    },
+    {
+      "path": "prompts/en/reference_generation_rubric.txt",
+      "unchanged": true
+    },
+    {
+      "path": "prompts/en/self_verification_rubric.txt",
+      "unchanged": true
+    },
+    {
+      "path": "rubrics/ellipse_overall_rubric.md",
+      "unchanged": true
+    },
+    {
+      "path": "rubrics/ellipse_rubric_structured.json",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/reasoning_eval_large/verified_reference_pool.jsonl",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/reasoning_eval_large/reference_candidates.jsonl",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/reasoning_eval_large/self_verification_results.jsonl",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/reasoning_eval_large/metadata.json",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/reasoning_eval_large/integrity_checks.json",
+      "unchanged": true
+    }
+  ],
+  "raters": [
+    {
+      "rater_id": "rater_17",
+      "target_count": 7,
+      "quotation_checks": [
+        {
+          "evidence_id": "2775:2.E1",
+          "quote": "trying new things can help you to be successful, sometimes you inserted that into your mind that you have never done that thing then, you end up saying that you can't do that, but never ever make that egregious decision in you life unless you never try you never going to know.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": false,
+          "whitespace_casefold_match": false,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2775:2.E1",
+          "quote": "Moreover, it is important for you to have more experience of everything than you have in order to flourish.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2775:2.E2",
+          "quote": "The research study has shown that there are 25% of people thinks that trying same things over and over can never make you flourish in you life.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2775:2.E2",
+          "quote": "In Conclusion, it is salient to all of us to be good and stay active in everything that we can, because you never know when that all stuff that you have experience on can help you so we just need to be prepare it can flourish your future life.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2775:2.E3",
+          "quote": "For Example, a friend of mine named Generic_Name, once said that \"Try Try but don't Cry\" it means that don't ever think that you can't do it, you can and you can do it in better way than anyone else",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2775:2.E3",
+          "quote": "For Example, a student at Generic_school named Generic_Name had said that \"if I take classes that related to my career in high school it can make myself to be prepare for career in future.\"",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "474:1.E1",
+          "quote": "We all dose mistake in our life . If your going from failure to failure without loss enthusiasm",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "474:1.E1",
+          "quote": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "474:1.E2",
+          "quote": "Me and My friend we took IB math together , last year it was so hard for us. one day she talked to me and she says: Generic_Name you will not pass this class because your grade is not good you better change it or you will take it next year .",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "474:1.E2",
+          "quote": "I went home i felt stressed for one hour a about what she says to me , later i told to my self that she is true about every thing she says meanwhile i didnt t study for the exam and i didnt want to study .",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "474:1.E3",
+          "quote": "We all dose mistake in our life . If your going from failure to failure without loss enthusiasm",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "474:1.E3",
+          "quote": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2853:2.E1",
+          "quote": "some pleople will say yes but some will say no and they are not wrong or right anwer in thise question is depending in your point of view and how fast you want to achive your goal and how good you want to be in your carrer and work.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2853:2.E1",
+          "quote": "If you dind't have a scholarchip and finish college and you are working in a career that you don't like and you dind't have a sholarchip you are going to be in debt and you are going to pay alot.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2853:2.E2",
+          "quote": "The people that say yes they say that because when you know what career you want to take before entering high school you wiil choose you classes better depending in your career and what high school you want to attend because come schools have programs that count like college classes, and in high school you have only four years and that is not enough time for you to choose and you will end up in a carrer that you don't like if you choose the wrong one.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2853:2.E2",
+          "quote": "People that say that you don't have to know what you want to be before you get in to high school. They say that you can join different programs and see wich one you like the most and you will choose your career from that decition and you will know what's about because some people choose careers that they don't like them maybe because they dind't know the stuff you have to do or they dind't expect to be like that.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2853:2.E3",
+          "quote": "some pleople will say yes but some will say no and they are not wrong or right anwer in thise question is depending in your point of view and how fast you want to achive your goal and how good you want to be in your carrer and work.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2853:2.E3",
+          "quote": "If you dind't have a scholarchip and finish college and you are working in a career that you don't like and you dind't have a sholarchip you are going to be in debt and you are going to pay alot.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "318:2.E1",
+          "quote": "I am agree with Churchill's statement about the impotant role that ailure plays in the pursuit of success for 3 reazon.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "318:2.E1",
+          "quote": "Also, I can help people by motiation and showing to do or to carry something easy.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "318:2.E1",
+          "quote": "In a company many people used to loss the enthusiasm, and that is okay because we are here do do mistakes and do not be perfects.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "318:2.E2",
+          "quote": "These are my reasons that I would like to talk about.\r\n\r\nfirst,\r\n\r\nenthusiasm not just depends in oneself.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "318:2.E2",
+          "quote": "secondly, failure is not always\r\n\r\nbad because by doing mistake we can learn how to do our job better.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "318:2.E2",
+          "quote": "The third reason that I would like to talk about is that\r\n\r\nwe have enthusiasm we can do and be better in this life, work or any buisness.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "318:2.E3",
+          "quote": "For example, if I giving up by failing, then other person sees me failing and helps me to do something better.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "318:2.E3",
+          "quote": "when I am working hard and then something is wrong, but my manager says that I can do it, he is motiving me.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "318:2.E3",
+          "quote": "when I was 11, my that always excites me when I was in school, and to do my homework.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7418:2.E1",
+          "quote": "the warm climate is one of the best things in Brazil because it is so near the equator.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7418:2.E1",
+          "quote": "I already imagine myself walking in a blue dress, with some white sandals, my hair is french braided, eating a strawberry ice cream.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7418:2.E1",
+          "quote": "I might even learn how to speak a little Portugal or what ever language they speak.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7418:2.E2",
+          "quote": "Additionally, I would love to spend my time learning about the culture in Brazil.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7418:2.E2",
+          "quote": "The culture of Brazil is going to be a great experience.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7418:2.E2",
+          "quote": "Brazil is going to be an important point of my life!",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7418:2.E3",
+          "quote": "the warm climate is one of the best things in Brazil because it is so near the equator.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7418:2.E3",
+          "quote": "I will love to learn about their typical foods.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7418:2.E3",
+          "quote": "Also the parade is one of the awesome things I want to see, all those dancers, music where every body is excited and joyful.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "406:1.E1",
+          "quote": "Churchill statement is right because failing in life is part of succeeding. Those obsticals you go through in life are part of who you become and how you handle those obsticals.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "406:1.E1",
+          "quote": "Of course a lot of friends stopped talking to me but that just proves who's there for you and who's not. I was starting a new chapter in my life and I'm not saying having my son was a mistake but it was just at the wrong time; cant change the past though, you just have to keep moving forward.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "406:1.E2",
+          "quote": "My example is when i got pregnant my junior year and when I found out i just wanted to drop out because I was still a kid myself and I kept thinking how people would look at me or what would they say, but I already had an idea.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "406:1.E2",
+          "quote": "Here I am now my senior year, eight more months until I graduate and I'm proud of myself because I am a mother now and I'm still going to school, I didnt let that stop me from getting my education and I'm planning to go to college too because all I want is the best for my son and myself;",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "406:1.E3",
+          "quote": "My parents didnt even support me so what motivation did I have? I had myself and my son.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "406:1.E3",
+          "quote": "Of course a lot of friends stopped talking to me but that just proves who's there for you and who's not.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2832:2.E1",
+          "quote": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2832:2.E1",
+          "quote": "Today, people prefers to shop by online than stores.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2832:2.E2",
+          "quote": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2832:2.E2",
+          "quote": "Today, people prefers to shop by online than stores.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2832:2.E3",
+          "quote": "Today, people prefers to shop by online than stores. I saw and lived this experience many times about buy by online but I not feel comfortable as a store. Online shops makes feel lazy, alone, and when you have questions obout the product nobody can answer you.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2832:2.E3",
+          "quote": "People use more technology to talk, as facetime, facebook, whatssap or others applicationes. I agree to talk with this aplications with people who lives far away but I prefer to join with my friends or family to talk who lives close.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        }
+      ],
+      "element3_narrative_quotes": [
+        {
+          "quote": "The research study has shown that there are 25% of people thinks that trying same things over and over can never make you flourish in you life.",
+          "target_matches": [
+            "2775:2"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "In Conclusion, it is salient to all of us to be good and stay active in everything that we can, because you never know when that all stuff that you have experience on can help you so we just need to be prepare it can flourish your future life.",
+          "target_matches": [
+            "2775:2"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "For Example, a friend of mine named Generic_Name, once said that \"Try Try but don't Cry\" it means that don't ever think that you can't do it, you can and you can do it in better way than anyone else",
+          "target_matches": [
+            "2775:2"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "For Example, a student at Generic_school named Generic_Name had said that \"if I take classes that related to my career in high school it can make myself to be prepare for career in future.\"",
+          "target_matches": [
+            "2775:2"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "We all dose mistake in our life . If your going from failure to failure without loss enthusiasm",
+          "target_matches": [
+            "474:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.",
+          "target_matches": [
+            "474:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "We all dose mistake in our life . If your going from failure to failure without loss enthusiasm",
+          "target_matches": [
+            "474:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.",
+          "target_matches": [
+            "474:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        }
+      ],
+      "valid_B_C_references": true,
+      "semantic_claims": "model-assessed, no independent human judgment"
+    },
+    {
+      "rater_id": "rater_4",
+      "target_count": 10,
+      "quotation_checks": [
+        {
+          "evidence_id": "7817:1.E1",
+          "quote": "Since technology developed really fast now, we can't live without these technologies.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7817:1.E1",
+          "quote": "Using computers are the mean reason of why we are lazy now.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7817:1.E1",
+          "quote": "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7817:1.E2",
+          "quote": "Some people says that use of technology had positive effects on people's lives because it's easier for people to work and context with friends. Most technologies helped a lots in our life but I think use of technology had negative effects, because we are getting very lazy of doing things people are using cellphone to complete everything, eye problems make a lots of young teens are wearing glasses now, because they are using too much electronic devises, and I think most people are getting addicted to their cellphones because they can't live without it.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7817:1.E2",
+          "quote": "Using computers are the mean reason of why we are lazy now.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7817:1.E2",
+          "quote": "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7817:1.E3",
+          "quote": "Since technology developed really fast now, we can't live without these technologies.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7817:1.E3",
+          "quote": "Using computers are the mean reason of why we are lazy now.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7817:1.E3",
+          "quote": "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8690:2.E1",
+          "quote": "First, when i mastered a high level degree, i can have better life.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8690:2.E1",
+          "quote": "In addition, i can get rich.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8690:2.E1",
+          "quote": "Last, i can achieve my goals.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8690:2.E2",
+          "quote": "First, i can have better life. by doing hard work in life. First, i can have my house. second, my kids can go to high level schools. finally, buying things i wants. with out doing nothing you will never have great life.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": false,
+          "whitespace_casefold_match": false,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8690:2.E2",
+          "quote": "In addition, i can get rich. having money in your account. First, working with big Campinas. second, i will have my own businesses. Last, i will have cars and house. by having high level degrees.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": false,
+          "whitespace_casefold_match": false,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8690:2.E3",
+          "quote": "First, when i mastered a high level degree, i can have better life.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8690:2.E3",
+          "quote": "With out degree you can not get best jobs in your life.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8690:2.E3",
+          "quote": "First, i can have my house. second, my kids can go to high level schools. finally, buying things i wants.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2420:1.E1",
+          "quote": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2420:1.E2",
+          "quote": "Although some says that determine to be idle or inactivity also serve a purpose in the way of one day they will accomplish something even though they are lazy, and people determine to not be idle when they want to accomplish something and when people decide to not being wasting their time without doing anything, inactivity doesn't serve a purpose in the life and in the way of accomplish something",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2420:1.E3",
+          "quote": "Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accomplish something in my life.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "61:1.E1",
+          "quote": "I'll show little kids to think of others and not just them self's because when they get older the little kids aren't going to care but if they see the older kids help maybe the little kids would think how the big kids helped n see how much they helped them and would still want to help others when they get older.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "61:1.E1",
+          "quote": "Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "61:1.E2",
+          "quote": "The little kids always look up to the big kids. Also maybe the little kids won't gave up so easy. Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "61:1.E3",
+          "quote": "The little kids always look up to the big kids.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "61:1.E3",
+          "quote": "Helping others is the right way to go and to never give up in what you believe in.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7836:1.E1",
+          "quote": "I think if the student want to required for community service.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7836:1.E1",
+          "quote": "They cant make the students to do community service.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7836:1.E2",
+          "quote": "I think if the student want to required for community service. They cant make the students to do community service. I am pretty sure they can't make the students to do community service because the parents won't. But if the student get in trouble then yes they have to because they have to do community service.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7836:1.E2",
+          "quote": "Also some student care about the community so they do those stuff like clean the streets pick up trash and all those stuff.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7836:1.E3",
+          "quote": "I think if the student want to required for community service.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "7836:1.E3",
+          "quote": "They cant make the students to do community service.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8317:2.E1",
+          "quote": "One of the best thing about homeschooling is that it can be done at anytime.Because it can be done at any time,children have a flexible time schedule which means that the parents can help.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8317:2.E1",
+          "quote": "When you are taking a test or taking notes at a public school there are many distraction that can make students lose focus on what they are doing.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8317:2.E2",
+          "quote": "Learning at home and not at schools helps kids succeed and have better grades.Not only does learning at home provides less distraction, it provides student with flexible schedule.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": false,
+          "whitespace_casefold_match": false,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8317:2.E2",
+          "quote": "There are still a few not to do schools from home. there are much more opportunities with public schools.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": false,
+          "whitespace_casefold_match": false,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8317:2.E3",
+          "quote": "Students being educated at home gain more freedom to create their own schedule and their own rules.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8317:2.E3",
+          "quote": "Because of this students will feel less pressure and get better grades than they would have if they were at school.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "515:1.E1",
+          "quote": "Distance learning students attend classes on time by online.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "515:1.E1",
+          "quote": "Distance learning students also attend to school everyday.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "515:1.E1",
+          "quote": "By way online you can attend to classes from anywhere.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "515:1.E2",
+          "quote": "First, distance learning students attend classes on time by online. In many states students live far from schools. Sometimes they can't be on time because of highway traffic. Sometimes cause of bad weather you have to drive slow than speed limit. And you can be late for school. If they late in every first classes they might fail that classes. Suppose they use the online conferencing they can be on time in every classes.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "515:1.E2",
+          "quote": "Also, attend to school everyday. Even if you sick for a week you still able to attend to school everyday by way of online or video conferencing. If weather is such a bad you can't go out of the house still able to attend classes from home. Although none is home to drop you off to the school. You can attend school by way of online or video conferencing.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "515:1.E3",
+          "quote": "First, distance learning students attend classes on time by online.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "515:1.E3",
+          "quote": "Also, attend to school everyday.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "515:1.E3",
+          "quote": "Then, By way online you can attend to classes from anywhere.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2910:1.E1",
+          "quote": "Nevertheless not everybody agree this opinion, some people disagree because sometime people with not have mastered make better the job than the people with mastered.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2910:1.E1",
+          "quote": "Third. you get better position than the people no have the mastered, because you show your experience.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2910:1.E2",
+          "quote": "First, when you have a mastered your work better on this sometime to do, because this people have years to study and practice.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2910:1.E2",
+          "quote": "Second, with the mastered you get better opportunities, because you have a title show you already prepared for the job.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2910:1.E2",
+          "quote": "Third. you get better position than the people no have the mastered, because you show your experience.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2910:1.E3",
+          "quote": "you get better position than the people no have the mastered.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2910:1.E3",
+          "quote": "For example in restaurant wen you have a mastered on chef you only need to memorize the recipes, other people need to memorize the condiment's, the tools, and the machines is used.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2953:1.E1",
+          "quote": "First reason is on point of view if you're already mastered in something and you're keep doing it , to be better or go beyond then my opinion is that you're wasting your time on something unnesesary because you're already mastered , just be happy with what you have and knows a sample are the Childrens they always wanna something if they have it they want more and more or when they are playing they wanna play possiblely the all day when they realize the day is already gone but they don't care because they think that they have enough time to play so it is the same with us. sometimes we wanna be betters than another people or just feel good but we're wasting our time in somethin that we already mastered.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2953:1.E2",
+          "quote": "First reason is on point of view if you're already mastered in something and you're keep doing it , to be better or go beyond then my opinion is that you're wasting your time on something unnesesary because you're already mastered , just be happy with what you have and knows a sample are the Childrens they always wanna something if they have it they want more and more or when they are playing they wanna play possiblely the all day when they realize the day is already gone but they don't care because they think that they have enough time to play so it is the same with us. sometimes we wanna be betters than another people or just feel good but we're wasting our time in somethin that we already mastered.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2953:1.E3",
+          "quote": "First reason is on point of view if you're already mastered in something and you're keep doing it , to be better or go beyond then my opinion is that you're wasting your time on something unnesesary because you're already mastered , just be happy with what you have and knows a sample are the Childrens they always wanna something if they have it they want more and more or when they are playing they wanna play possiblely the all day when they realize the day is already gone but they don't care because they think that they have enough time to play so it is the same with us. sometimes we wanna be betters than another people or just feel good but we're wasting our time in somethin that we already mastered.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2348:1.E1",
+          "quote": "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2348:1.E1",
+          "quote": "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2348:1.E2",
+          "quote": "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2348:1.E2",
+          "quote": "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2348:1.E3",
+          "quote": "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2348:1.E3",
+          "quote": "Influence sometime is when you have friends,the friends say do this not happen or make bad decision like rob,kinll other people.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        }
+      ],
+      "element3_narrative_quotes": [
+        {
+          "quote": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.",
+          "target_matches": [
+            "2420:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accomplish something in my life.",
+          "target_matches": [
+            "2420:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "Since technology developed really fast now, we can't live without these technologies.",
+          "target_matches": [
+            "7817:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "Using computers are the mean reason of why we are lazy now.",
+          "target_matches": [
+            "7817:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.",
+          "target_matches": [
+            "7817:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "Some people says that use of technology had positive effects on people's lives because it's easier for people to work and context with friends. Most technologies helped a lots in our life but I think use of technology had negative effects, because we are getting very lazy of doing things people are using cellphone to complete everything, eye problems make a lots of young teens are wearing glasses now, because they are using too much electronic devises, and I think most people are getting addicted to their cellphones because they can't live without it.",
+          "target_matches": [
+            "7817:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "Using computers are the mean reason of why we are lazy now.",
+          "target_matches": [
+            "7817:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.",
+          "target_matches": [
+            "7817:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        }
+      ],
+      "valid_B_C_references": true,
+      "semantic_claims": "model-assessed, no independent human judgment"
+    },
+    {
+      "rater_id": "rater_7",
+      "target_count": 10,
+      "quotation_checks": [
+        {
+          "evidence_id": "5627:1.E1",
+          "quote": "My Mom, she always shares wisdom with me and shows how to be a wise person and she also introduce me to this world.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "5627:1.E1",
+          "quote": "friends that are doing bad things are influences you don't need to follow their actions in order to become a better person just talk to a wise person they might give you a good advice.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "5627:1.E2",
+          "quote": "One day she decided to leave everything behind and start all over, because she wanted us to have a better life in the United States.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": false,
+          "whitespace_casefold_match": false,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "5627:1.E2",
+          "quote": "However don't learn from bad influences they'll bring you down.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "5627:1.E3",
+          "quote": "When you learn from others experience you become a better person.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "5627:1.E3",
+          "quote": "Imagine being the person, the person you want to follow.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "5268:1.E1",
+          "quote": "Ever since, we were kids we started choosing our own character traits.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "5268:1.E1",
+          "quote": "We choose who influence us. we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "5268:1.E2",
+          "quote": "Ever since, we were kids we started choosing our own character traits. it can be good or bad based of the environment we live in, how we were raised, and personal experiences.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "5268:1.E2",
+          "quote": "Lets say you are inspired by Kobe Bryant. You look up to him as an idol because, of what he accomplished in his lifetime.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "5268:1.E3",
+          "quote": "We choose who influence us. we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "5268:1.E3",
+          "quote": "Some people believe we can't choose our character traits because we did not decide nor choose the way we wanted to be born, we did not choose if we wanted to be tall, short, black, white etc..",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2444:1.E1",
+          "quote": "I should be selected to visit the 'AD Assets Inc'. The AD Assets Inc, is the most important company of Assets in United States for the last 35 years.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": false,
+          "whitespace_casefold_match": false,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2444:1.E1",
+          "quote": "This opportunity is one of the most important things in my life. I need to go to the field trip, since I was six years old I was secured that be in the business world it was my purpose.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2444:1.E2",
+          "quote": "Since I was six years old I was secured that the Assets was going to be my job. Learn about business and assets without a persons that really know what they are doing is almost impossible.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2444:1.E2",
+          "quote": "I've have been learning a lot by myself about the business and assets my whole life. For example I'm in a group called 'FBLA' (Future Business Leaders of America), this group is so important for me.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": false,
+          "whitespace_casefold_match": false,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2444:1.E3",
+          "quote": "Some people argue that this partnerships with companies are useless because the teens do not know what they want; however, this view is mistaken because the best way to teens to know what they want to study is let then explore and see, that's the best way to decide.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "2444:1.E3",
+          "quote": "I am the most completely student to go and learn about the assets business. Nobody want to go to this field trip as much as me.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8487:1.E1",
+          "quote": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8487:1.E1",
+          "quote": "my goals is i want to be a police but first need to finish the school graduate i have a dora and she is my inpiration to be a big person because i have a beautiful girl went",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8487:1.E2",
+          "quote": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8487:1.E2",
+          "quote": "my mom tell me one day i not in this life for so much time so you are lonely and i need to know you have your goals you need to complete the school you need the paper to say you graduate if you not finish school you are not nothing in your life because the principal thing if you need",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8487:1.E3",
+          "quote": "you life are sad and this is how the people die because they drink you think a bad things in your head you smook marihuana or other sustances this people are not have future in the life they dont have a nothing",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8487:1.E3",
+          "quote": "some little girls are violate and have a children when she was a 13 o 14 years and the boy who's pregnant live or her dont know where is he, is bad because the family too dont help her so she need to work for have a good future the her boy or girl and is a working hard because you are the mother and the father too you have so much responsabilities to pay the babysitter for you baby when you working and when you comback you are tired but you children need to earing or some is sick you need to go to the hospital you not a good life and other people are chilling they know not about they future",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "4902:1.E1",
+          "quote": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "4902:1.E1",
+          "quote": "Others may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "4902:1.E2",
+          "quote": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "4902:1.E2",
+          "quote": "I guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "4902:1.E2",
+          "quote": "in conucluesion",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "4902:1.E3",
+          "quote": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "4902:1.E3",
+          "quote": "friend are't forever so just be yourself it'll be your greatest accomplishment.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8538:1.E1",
+          "quote": "I agree with John Lubbock's idea, that your character is build by you and your decisions that you take during your life, because people may told to be and act a certain way but at the end is your decision to do so or not.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": false,
+          "whitespace_casefold_match": false,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8538:1.E1",
+          "quote": "One example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8538:1.E1",
+          "quote": "Another example will be of someone that was raises surrounded by a very christian family decides to change religion and to be a Buddhist monk rater then a priest, altought his or her family work hard and always surrounded their child christian influences he or she simply took the decision that morals of Buddhism are better then those of Christianity.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8538:1.E2",
+          "quote": "One example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you. those kids have been thought all those values during their childhood and some of them still grow up to be such jerks because they decided to ignore those values that their parents try so hard to teach them.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8538:1.E2",
+          "quote": "Another example will be of someone that was raises surrounded by a very christian family decides to change religion and to be a Buddhist monk rater then a priest, altought his or her family work hard and always surrounded their child christian influences he or she simply took the decision that morals of Buddhism are better then those of Christianity.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8538:1.E3",
+          "quote": "I agree with John Lubbock's idea, that your character is build by you and your decisions that you take during your life, because people may told to be and act a certain way but at the end is your decision to do so or not.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": false,
+          "whitespace_casefold_match": false,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8538:1.E3",
+          "quote": "One example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you. those kids have been thought all those values during their childhood and some of them still grow up to be such jerks because they decided to ignore those values that their parents try so hard to teach them.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8538:1.E3",
+          "quote": "Another example will be of someone that was raises surrounded by a very christian family decides to change religion and to be a Buddhist monk rater then a priest, altought his or her family work hard and always surrounded their child christian influences he or she simply took the decision that morals of Buddhism are better then those of Christianity.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1514:1.E1",
+          "quote": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1514:1.E1",
+          "quote": "Some people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1514:1.E2",
+          "quote": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1514:1.E2",
+          "quote": "Another example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1514:1.E3",
+          "quote": "My brother for example wanted to be an engineer, with hard work and effort he made it.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1514:1.E3",
+          "quote": "Another example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1961:1.E1",
+          "quote": "First, it is known for it's parks. Secondly, the food is amazing. Lastly, Pakistan is one of the nicest culture.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1961:1.E1",
+          "quote": "When I wake in the morning after an awesome night. I will be hungry. So I start my day first by going to the local breakfast shop.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1961:1.E2",
+          "quote": "First, it is known for it's parks. Secondly, the food is amazing. Lastly, Pakistan is one of the nicest culture.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1961:1.E2",
+          "quote": "Food. It's the most important thing..right?",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1961:1.E2",
+          "quote": "The people are very nice in Pakistan.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1961:1.E3",
+          "quote": "It's an amusement park with a lot of thrilling rides.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1961:1.E3",
+          "quote": "They are very welcoming and kind.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8608:1.E1",
+          "quote": "mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8608:1.E1",
+          "quote": "And if that still dont work then go to somewhere u think is a nice pleas to be and mediated.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8608:1.E2",
+          "quote": "And true to who you are as a person. And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8608:1.E2",
+          "quote": "Also if u really really want to get you self-esteem go to the gym be cues there is noting like work out and feeling a new look or u can buy a nice car and that well help to.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8608:1.E3",
+          "quote": "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "8608:1.E3",
+          "quote": "That can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1868:1.E1",
+          "quote": "The main piece to improve your skills is during the process of keep learning.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1868:1.E1",
+          "quote": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1868:1.E2",
+          "quote": "The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.",
+          "exists": true,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1868:1.E2",
+          "quote": "If you have been studying for years, since first grade and still have to go to an University, it could make you think if it would be necessary those extra years.",
+          "exists": false,
+          "eligible": false,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1868:1.E3",
+          "quote": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        },
+        {
+          "evidence_id": "1868:1.E3",
+          "quote": "The years where you have been taking classes that does not look that t would help you in the future in any way.",
+          "exists": true,
+          "eligible": true,
+          "whitespace_normalized_match": true,
+          "whitespace_casefold_match": true,
+          "note": "Normalization is diagnostic only; never restores evidence eligibility"
+        }
+      ],
+      "element3_narrative_quotes": [
+        {
+          "quote": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words",
+          "target_matches": [
+            "8487:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "my goals is i want to be a police but first need to finish the school graduate i have a dora and she is my inpiration to be a big person because i have a beautiful girl went",
+          "target_matches": [
+            "8487:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing",
+          "target_matches": [
+            "8487:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "my mom tell me one day i not in this life for so much time so you are lonely and i need to know you have your goals you need to complete the school you need the paper to say you graduate if you not finish school you are not nothing in your life because the principal thing if you need",
+          "target_matches": [
+            "8487:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.",
+          "target_matches": [
+            "8608:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "And if that still dont work then go to somewhere u think is a nice pleas to be and mediated.",
+          "target_matches": [
+            "8608:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.",
+          "target_matches": [
+            "8608:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        },
+        {
+          "quote": "That can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat.",
+          "target_matches": [
+            "8608:1"
+          ],
+          "rubric_match": false,
+          "ok": true,
+          "origin": "programmatically inserted from exact-validated evidence"
+        }
+      ],
+      "valid_B_C_references": true,
+      "semantic_claims": "model-assessed, no independent human judgment"
+    }
+  ],
+  "narrative_quote_failures": 0,
+  "exact_quote_failures": 35,
+  "failed_quotes_whitespace_only": 25
+}

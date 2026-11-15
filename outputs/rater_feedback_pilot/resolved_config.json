@@ -1,0 +1,124 @@
+{
+  "pilot_config": {
+    "version": "rater-feedback-pilot/1.0",
+    "seed": 20261113,
+    "max_raters": 3,
+    "max_essays_per_rater": 10,
+    "min_essays_per_rater": 3,
+    "runtime_model_max_len": 16384,
+    "prompt_versions": {
+      "A": "v1",
+      "B": "v1",
+      "C": "v2"
+    },
+    "c_strategy": "fixed_metadata_relation_then_text_v1",
+    "c_relation_selection": "From usable pattern-support targets (else usable targets), sort by observed Overall then target ID; choose first and last distinct targets, at most two. Within target choose at most two usable claims by evidence ID. All selected essays remain in A/B and report.",
+    "source_dir": "outputs/reasoning_eval_large",
+    "output_dir": "outputs/rater_feedback_pilot",
+    "source_config": "outputs/reasoning_eval_large/resolved_config.yaml",
+    "raw_path": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+    "rubric_structured": "rubrics/ellipse_rubric_structured.json",
+    "generation": {
+      "temperature": 0.2,
+      "top_p": 0.8,
+      "max_tokens": 2400
+    },
+    "max_output_tokens": {
+      "A": 1800,
+      "B": 1800,
+      "C": 5000,
+      "C_relation": 1400,
+      "C_text": 1600
+    },
+    "validation_retries": 1,
+    "selection": "SHA256(seed:rater:ID), then SHA256(seed:essay:target_id); unique text_id_kaggle else Filename else exact Text hash; smallest numeric candidate_index then attempt_index within verified pool; no outcome-based replacement"
+  },
+  "source_config": {
+    "experiment_name": "reasoning_eval_large",
+    "seed": 20260916,
+    "sample_seed": 20260916,
+    "bootstrap_seed": 20260916,
+    "bootstrap_repetitions": 2000,
+    "num_targets": 1000,
+    "history_size": 3,
+    "num_reference_candidates": 3,
+    "max_reference_retries": 5,
+    "max_verification_parse_retries": 1,
+    "batch_size": 10,
+    "rubric_path": "rubrics/ellipse_overall_rubric.md",
+    "reference_prompt": "prompts/en/reference_generation_rubric.txt",
+    "self_verification_prompt": "prompts/en/self_verification_rubric.txt",
+    "prediction_prompt": "prompts/en/rubric_based_prediction.txt",
+    "prediction_source": "outputs/full_prediction_experiment",
+    "source_metadata": "outputs/full_prediction_experiment/metadata.json",
+    "source_predictions": "outputs/full_prediction_experiment/predictions_correct_k3_rubric.jsonl",
+    "population_filter_predictions": "outputs/full_prediction_experiment/predictions_k0.jsonl",
+    "source_manifest": "outputs/full_prediction_experiment/target_manifest.jsonl",
+    "prediction_condition": "correct_k3_overall_rubric",
+    "data": {
+      "processed_path": "data/processed/rater_essay_wide.csv"
+    },
+    "model": {
+      "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+      "quantization": "gptq_marlin",
+      "tensor_parallel_size": 1,
+      "max_model_len": 8192,
+      "gpu_memory_utilization": 0.9
+    },
+    "generation": {
+      "reference": {
+        "temperature": 0.2,
+        "top_p": 0.8,
+        "max_tokens": 384
+      },
+      "verification": {
+        "temperature": 0.2,
+        "top_p": 0.8,
+        "max_tokens": 64
+      }
+    },
+    "metrics": {
+      "bertscore_model": "roberta-large",
+      "bertscore_layers": 17,
+      "bertscore_idf": false,
+      "bertscore_rescale_with_baseline": false,
+      "bertscore_use_fast_tokenizer": false,
+      "batch_size": 16,
+      "device": "cuda",
+      "include_reference_bertscore": true
+    },
+    "resume": true,
+    "skip_completed": true,
+    "output_dir": "outputs/reasoning_eval_large"
+  },
+  "timestamp": "2026-11-14T12:42:15.572337+09:00",
+  "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+  "finalized_at": "2026-11-15T16:32:43.087271+09:00",
+  "runtime_model": {
+    "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+    "quantization": "gptq_marlin",
+    "tensor_parallel_size": 1,
+    "max_model_len": 16384,
+    "gpu_memory_utilization": 0.9
+  },
+  "source_code_sha256": {
+    "src/recsaver/rater_feedback_pilot.py": "b80701dbf07db283d65210b7bdf22221aec2aaffed2f73f2b6e80d8d14408805",
+    "configs/rater_feedback_pilot.json": "4fa00ad14f7e6441489e8315018d2c3cf5250217d39cdae858731dbeac6d78ab",
+    "prompts/en/rater_feedback_pilot_A_v1.txt": "f46db4f3999acf5b662c0925eac1acd6288372cc3c0da9b2f3af0947c13d4e98",
+    "prompts/en/rater_feedback_pilot_B_v1.txt": "7db941304fa2acb0a23ac76c3c321e205e8dfbb2a177a5beb066e79fff525306",
+    "prompts/en/rater_feedback_pilot_C_relation_v1.txt": "081e89b4a8dfef1200425545bec788cd82765c9ca8b3bac86a56f29d253ec382",
+    "prompts/en/rater_feedback_pilot_C_text_v1.txt": "1dd667e5036847236065c58d0699b96e987f984366fa30f28bfa6a49c2e6517c",
+    "prompts/en/rater_feedback_pilot_C_v1.txt": "ef9bde035f2bcd5e3793c5f0d09f498e2df94f50c144d5223110d46116264c9c",
+    "prompts/en/rater_feedback_pilot_C_v2.txt": "d1d228010745e499f2b6d58df4eae8c8f8616ff9abb3efb7f7ccb5b3572e6fc0"
+  },
+  "context_policy": "Initial A calls: 8192. B context check failed without truncation. Reused A; later calls: 16384. Actual model and params saved per call.",
+  "pilot_input_sha256": {
+    "inputs.json": "dee1126ed128c41775a5775964cf5e9fa4bfbf0f250c38d7857b0d73cd7e36c7",
+    "selection.json": "961a872689e4ced5bbab316dd274822c1e99a0832688ee8c28b626cc736231c5",
+    "rubric.json": "80e64e52cb6e7369e83bce100476593ac48ebfcc33900ccc3d02a1b711c106ce",
+    "semantic_review.json": "2419f7c8df5214fc94bf3e50f548fe4e956e57ddee334498f8bc4f89052f3b05",
+    "tendency_review.json": "8e7dcb5ffeedc5a1d2a92a05f313f9db483d71f49a7b72ed43848c1d017c44e0",
+    "content_review.json": "e5fcffa057eef2a51570ee75b683523a496ec6796bb13f5ba94f0c16e986d79a",
+    "pilot_review.json": "c214144f960d03c9df256aff016d3018b2a074deb3efeeea1ef353ffca03cbcd"
+  }
+}

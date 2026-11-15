@@ -1,0 +1,75 @@
+{
+  "fingerprint": "4e6df48b847c7276b18c6d9b246e9a9c285794ed001d1a81e0a51093b2db55c4",
+  "result": {
+    "elements": [
+      {
+        "number": 1,
+        "text": "Overall.S3: Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "evidence_ids": [],
+        "rubric_ids": [
+          "Overall.S3"
+        ],
+        "pattern_ids": [],
+        "relation_ids": []
+      },
+      {
+        "number": 2,
+        "text": "文法と構文の誤りがコミュニケーションを阻害し、全体的な評価に影響を与えるという傾向が見られる。ただし、いくつかのエッセイでは、誤りがコミュニケーションを阻害するという証拠が不十分であるため、この傾向は完全に確立されていない。",
+        "evidence_ids": [],
+        "rubric_ids": [],
+        "pattern_ids": [],
+        "relation_ids": []
+      },
+      {
+        "number": 3,
+        "text": "target_ids: [\"8487:1\", \"1514:1\", \"8608:1\", \"1868:1\"]\nquotes: [\"something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\", \"Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.\", \"mean people think that self-esteem. Is aren by working hard. but really people just need to be happy with people that dont even care about self-esteem.\", \"The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.\"]\nscope caveats: 証拠は一部のエッセイに限定され、他のエッセイでは誤りがコミュニケーションを阻害する証拠が不十分である。",
+        "evidence_ids": [],
+        "rubric_ids": [],
+        "pattern_ids": [],
+        "relation_ids": []
+      },
+      {
+        "number": 4,
+        "text": "エッセイの証拠は、文法と構文の誤りがコミュニケーションを阻害するという条件に関連している。これらの誤りは、評価が低くなる要因として評価されている。ただし、一部のエッセイでは、誤りがコミュニケーションを阻害する証拠が不十分であるため、この条件が完全に満たされているとは限らない。",
+        "evidence_ids": [],
+        "rubric_ids": [],
+        "pattern_ids": [],
+        "relation_ids": [
+          "R1"
+        ]
+      },
+      {
+        "number": 5,
+        "text": "エッセイの各部分で、文法と構文の誤りがコミュニケーションを阻害するかどうかを再確認する。特に、誤りがコミュニケーションを阻害する証拠が不十分なエッセイについて、誤りの頻度と影響を詳細に評価する。",
+        "evidence_ids": [],
+        "rubric_ids": [],
+        "pattern_ids": [],
+        "relation_ids": [
+          "R1"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "R1",
+        "pattern_id": "P1",
+        "evidence_ids": [
+          "8487:1.E1",
+          "8487:1.E3",
+          "1514:1.E1",
+          "8608:1.E1",
+          "8608:1.E3",
+          "1868:1.E3"
+        ],
+        "rubric_id": "Overall.S3",
+        "condition_quote": "errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "evidence_to_condition": "エッセイの証拠は、文法と構文の誤りがコミュニケーションを阻害するという条件に関連している。",
+        "judgment_to_condition": "これらの誤りは、評価が低くなる要因として評価されている。",
+        "interpretation_or_missing_evidence": "一部のエッセイでは、誤りがコミュニケーションを阻害する証拠が不十分であるため、この条件が完全に満たされているとは限らない。",
+        "next_check": "エッセイの各部分で、文法と構文の誤りがコミュニケーションを阻害するかどうかを再確認する。特に、誤りがコミュニケーションを阻害する証拠が不十分なエッセイについて、誤りの頻度と影響を詳細に評価する。"
+      }
+    ],
+    "limits": "exploratory convenience sample; model semantic assessments; no effectiveness or bias claims"
+  },
+  "timestamp": "2026-11-15T16:02:34.667764+09:00"
+}

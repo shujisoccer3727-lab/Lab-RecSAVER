@@ -1,0 +1,128 @@
+{
+  "fingerprint": "c7448a26559bd0486a5dd2bd77526eca3643078d020e8b31d6e4302498633b8f",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates facility in the use of language with a range of words and phrases, and controlled organization.",
+        "scope": "target",
+        "feature": "syntactic range",
+        "direction": "positive",
+        "quotes": [
+          "I should be selected to visit the 'AD Assets Inc'. The AD Assets Inc, is the most important company of Assets in United States for the last 35 years.",
+          "This opportunity is one of the most important things in my life. I need to go to the field trip, since I was six years old I was secured that be in the business world it was my purpose."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay uses a variety of phrases and demonstrates controlled organization, as evidenced by the structured argument and use of different sentence structures.",
+        "overall_relation": "The rationale supports the overall score by highlighting the syntactic variety and controlled organization, which aligns with the high overall score.",
+        "limitations": "The essay contains some minor grammatical errors, which slightly detract from the syntactic range.",
+        "evidence_id": "2444:1.E1",
+        "target_id": "2444:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "I should be selected to visit the 'AD Assets Inc'. The AD Assets Inc, is the most important company of Assets in United States for the last 35 years.",
+            "occurrences": []
+          },
+          {
+            "quote": "This opportunity is one of the most important things in my life. I need to go to the field trip, since I was six years old I was secured that be in the business world it was my purpose.",
+            "occurrences": [
+              {
+                "start": 418,
+                "end": 603,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer presents a clear argument for why they should be selected to visit AD Assets Inc., supported by personal experiences and aspirations.",
+        "scope": "target",
+        "feature": "global coherence",
+        "direction": "positive",
+        "quotes": [
+          "Since I was six years old I was secured that the Assets was going to be my job. Learn about business and assets without a persons that really know what they are doing is almost impossible.",
+          "I've have been learning a lot by myself about the business and assets my whole life. For example I'm in a group called 'FBLA' (Future Business Leaders of America), this group is so important for me."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay presents a clear argument supported by personal experiences and aspirations, which is evident from the detailed personal history and future goals mentioned.",
+        "overall_relation": "The rationale supports the overall score by indicating that the essay is well-structured and coherent, which is consistent with the high overall score.",
+        "limitations": "The essay occasionally lacks coherence due to grammatical errors, but the overall argument remains clear.",
+        "evidence_id": "2444:1.E2",
+        "target_id": "2444:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Since I was six years old I was secured that the Assets was going to be my job. Learn about business and assets without a persons that really know what they are doing is almost impossible.",
+            "occurrences": [
+              {
+                "start": 226,
+                "end": 414,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "I've have been learning a lot by myself about the business and assets my whole life. For example I'm in a group called 'FBLA' (Future Business Leaders of America), this group is so important for me.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The text shows syntactic variety and accuracy in grammar and conventions, with occasional language inaccuracies that rarely impede communication.",
+        "scope": "target",
+        "feature": "syntactic range",
+        "direction": "mixed",
+        "quotes": [
+          "Some people argue that this partnerships with companies are useless because the teens do not know what they want; however, this view is mistaken because the best way to teens to know what they want to study is let then explore and see, that's the best way to decide.",
+          "I am the most completely student to go and learn about the assets business. Nobody want to go to this field trip as much as me."
+        ],
+        "semantic_support": "uncertain",
+        "semantic_explanation": "While the essay does show syntactic variety, there are occasional inaccuracies that can affect communication, such as the misuse of grammar and syntax in the provided quotes.",
+        "overall_relation": "The rationale suggests that the syntactic variety and occasional inaccuracies do not significantly detract from the overall clarity, which is consistent with the high overall score.",
+        "limitations": "The essay contains some grammatical errors that can affect the clarity of the message, but these do not significantly detract from the overall coherence.",
+        "evidence_id": "2444:1.E3",
+        "target_id": "2444:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "Some people argue that this partnerships with companies are useless because the teens do not know what they want; however, this view is mistaken because the best way to teens to know what they want to study is let then explore and see, that's the best way to decide.",
+            "occurrences": [
+              {
+                "start": 1588,
+                "end": 1854,
+                "line_start": 9,
+                "line_end": 9
+              }
+            ]
+          },
+          {
+            "quote": "I am the most completely student to go and learn about the assets business. Nobody want to go to this field trip as much as me.",
+            "occurrences": [
+              {
+                "start": 2178,
+                "end": 2305,
+                "line_start": 11,
+                "line_end": 11
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "Claims about the frequency of errors and communication impact were not assessed due to the three-claim limit.",
+    "history_separation": "There are no explicit mentions of historical inputs in the rationale, and there are no ambiguities regarding the separation of target claims from historical claims."
+  },
+  "timestamp": "2026-11-15T15:55:38.668301+09:00"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "target_id": "61:1",
+    "history_ids": [
+      "7813:1",
+      "1812:2",
+      "2027:2"
+    ],
+    "history_statements": [
+      "The rater's previous evaluations suggest a pattern of assigning scores based on the essay's adherence to the rubric criteria, which supports this evaluation."
+    ],
+    "scope": "input history, not target essay evidence",
+    "A_history_separation": "There are no explicit mentions of historical inputs in the rationale.",
+    "A_unassessed_claims": "The rater's previous evaluations suggest a pattern of assigning scores based on the essay's adherence to the rubric criteria, which supports this evaluation.",
+    "A_history_denial_needs_review": true,
+    "support_policy": "never treated as target evidence; claims about history accuracy not independently validated"
+  },
+  {
+    "target_id": "515:1",
+    "history_ids": [
+      "8706:2",
+      "8674:2",
+      "1922:2"
+    ],
+    "history_statements": [
+      "This aligns with the rater's previous evaluations, where essays with similar levels of language facility and occasional inaccuracies have also been scored at this level."
+    ],
+    "scope": "input history, not target essay evidence",
+    "A_history_separation": "None",
+    "A_unassessed_claims": "The essay's occasional inaccuracies in grammar and usage, such as 'attend to school everyday' and 'you can attend to classes from anywhere,' further contribute to the communication being impeded in some cases.",
+    "A_history_denial_needs_review": true,
+    "support_policy": "never treated as target evidence; claims about history accuracy not independently validated"
+  },
+  {
+    "target_id": "2348:1",
+    "history_ids": [
+      "8653:2",
+      "84:1",
+      "8672:2"
+    ],
+    "history_statements": [
+      "This aligns with the rater's previous evaluations, where essays with similar issues received a score indicating limited control over language and organization."
+    ],
+    "scope": "input history, not target essay evidence",
+    "A_history_separation": "There are no explicit mentions of historical inputs or ambiguities related to historical claims in the rationale.",
+    "A_unassessed_claims": "The essay attempts to convey ideas about the influence of friends and the consequences of bad decisions, but the language inaccuracies and structural issues make it difficult to follow the intended message.",
+    "A_history_denial_needs_review": true,
+    "support_policy": "never treated as target evidence; claims about history accuracy not independently validated"
+  }
+]

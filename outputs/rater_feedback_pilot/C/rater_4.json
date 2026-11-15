@@ -1,0 +1,272 @@
+{
+  "timestamp": "2026-11-15T16:29:32.814069+09:00",
+  "assembly": "C relation and text are model-generated; source metadata, full rubric, IDs, scores and exact quotations deterministically assembled",
+  "result": {
+    "elements": [
+      {
+        "number": 1,
+        "text": "Overall.S2: Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.\n\nOverall.S3: Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.\n\nOverall.S4: Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+        "evidence_ids": [],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3",
+          "Overall.S4"
+        ],
+        "pattern_ids": [],
+        "relation_ids": []
+      },
+      {
+        "number": 2,
+        "text": "以下は観測Overallを条件として生成された参照推論から推定された傾向の候補であり、採点者本人の真の思考や評価の重みを示すものではない。2件以上の支持だけでは妥当性は証明されない。\n\n複数の評価パターン候補は、語彙・構文の使用範囲、文法上の不正確さ、組織の制御を評価の説明に用いることである。ただし、各特徴の重視度や採点者固有性、特定の得点に至る規則は判断できないため、共通傾向は明確に判断できない。",
+        "evidence_ids": [
+          "2420:1.E1",
+          "2910:1.E1",
+          "61:1.E1",
+          "7817:1.E1",
+          "7836:1.E1",
+          "8690:2.E1"
+        ],
+        "rubric_ids": [],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": []
+      },
+      {
+        "number": 3,
+        "text": "引用の存在と意味的支持の違い、複数文や段落を必要とする判断の範囲、証拠不足の留保は、評価の範囲を限定する。特に、誤りの頻度とそれがコミュニケーションに及ぼす影響を正確に評価するためには、全体の文章を調査する必要がある。\n\n2420:1 / 2420:1.E1: \"Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.\"\n\n2420:1 / 2420:1.E3: \"Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accomplish something in my life.\"\n\n7817:1 / 7817:1.E1: \"Since technology developed really fast now, we can't live without these technologies.\"\n\n7817:1 / 7817:1.E1: \"Using computers are the mean reason of why we are lazy now.\"\n\n7817:1 / 7817:1.E1: \"Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.\"\n\n7817:1 / 7817:1.E2: \"Some people says that use of technology had positive effects on people's lives because it's easier for people to work and context with friends. Most technologies helped a lots in our life but I think use of technology had negative effects, because we are getting very lazy of doing things people are using cellphone to complete everything, eye problems make a lots of young teens are wearing glasses now, because they are using too much electronic devises, and I think most people are getting addicted to their cellphones because they can't live without it.\"\n\n7817:1 / 7817:1.E2: \"Using computers are the mean reason of why we are lazy now.\"\n\n7817:1 / 7817:1.E2: \"Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.\"",
+        "evidence_ids": [
+          "2420:1.E1",
+          "2420:1.E3",
+          "7817:1.E1",
+          "7817:1.E2"
+        ],
+        "rubric_ids": [],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": []
+      },
+      {
+        "number": 4,
+        "text": "与えられた個別の照合結果は、誤りの存在と伝達阻害の頻度・程度の差を自然につなぎ、参照推論と本文の解釈差を説明する。ただし、誤りの頻度とそれがコミュニケーションに及ぼす影響を正確に評価するためには、全体の文章を調査する必要がある。\n\n2420:1（観測Overall 3、Overall.S3、比較先 Overall.S2）: 引用された文章は、一般的な構造と一般的な語彙の使用に制限されていることを示しており、これは公式Overall.S3の条件と一致します。また、文法や語法の誤りがコミュニケーションを妨げている点も、Overall.S3の説明と一致します。 参照推論は、文章の品質が言語能力の制限を反映していることを示しており、これは観測Overallスコア3と一致します。ただし、誤りの頻度と影響度を考慮する必要があります。 隣接段階との程度や頻度、適切さの違いについて、具体的な評価が不足しています。誤りの頻度とそれがコミュニケーションに及ぼす影響を正確に評価するためには、全体の文章を調査する必要があります。\n\n7817:1（観測Overall 4、Overall.S4、比較先 Overall.S3）: 文章は多様な語彙と句構造を使用しているが、時折言葉の選択や文法の不正確さがある。例えば、'mean reason'や'walked on a street'といった表現が、公式条件で言及される「言語の使用における句構造の多様性と単語・フレーズの範囲」を検討する証拠となる。 参照推論は、言語の使用と組織の制御が全体的なスコアに寄与することを示唆している。ただし、言葉の選択や文法の不正確さがコミュニケーションを阻害する頻度や程度については評価していない。 隣接段階との比較において、言語の正確性と頻度、適切さの違いについての具体的な評価が不足している。特に、誤りがコミュニケーションを阻害する頻度や程度についての明確な判断が不足している。",
+        "evidence_ids": [
+          "2420:1.E1",
+          "2420:1.E3",
+          "7817:1.E1",
+          "7817:1.E2"
+        ],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3",
+          "Overall.S4"
+        ],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": [
+          "R1",
+          "R2"
+        ]
+      },
+      {
+        "number": 5,
+        "text": "次の採点では、誤りの頻度とそれがコミュニケーションに及ぼす影響を具体的に評価するため、全体の文章を調査し、誤りの頻度とその影響を詳細に確認する必要がある。また、段落間のつながりが成功しているか、または失敗しているかを評価する。\n\nR1の論点から: 次の採点では、誤りの頻度とそれがコミュニケーションに及ぼす影響を具体的に評価するため、全体の文章を調査し、誤りの頻度とその影響を詳細に確認する必要があります。\n\nR2の論点から: 次の採点では、誤りがコミュニケーションを阻害する頻度と程度を具体的に確認する。また、段落間のつながりが成功しているか、または失敗しているかを評価する。",
+        "evidence_ids": [
+          "2420:1.E1",
+          "2420:1.E3",
+          "7817:1.E1",
+          "7817:1.E2"
+        ],
+        "rubric_ids": [
+          "Overall.S2",
+          "Overall.S3",
+          "Overall.S4"
+        ],
+        "pattern_ids": [
+          "P1"
+        ],
+        "relation_ids": [
+          "R1",
+          "R2"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "relation_id": "R1",
+        "pattern_id": "P1",
+        "target_id": "2420:1",
+        "observed_overall": 3,
+        "evidence_ids": [
+          "2420:1.E1",
+          "2420:1.E3"
+        ],
+        "evidence_anchor": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.",
+        "rubric_id": "Overall.S3",
+        "condition_quote": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "comparison_rubric_id": "Overall.S2",
+        "comparison_condition_quote": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+        "model_explanations": {
+          "evidence_to_condition": "引用された文章は、一般的な構造と一般的な語彙の使用に制限されていることを示しており、これは公式Overall.S3の条件と一致します。また、文法や語法の誤りがコミュニケーションを妨げている点も、Overall.S3の説明と一致します。",
+          "judgment_to_condition": "参照推論は、文章の品質が言語能力の制限を反映していることを示しており、これは観測Overallスコア3と一致します。ただし、誤りの頻度と影響度を考慮する必要があります。",
+          "interpretation_or_missing_evidence": "隣接段階との程度や頻度、適切さの違いについて、具体的な評価が不足しています。誤りの頻度とそれがコミュニケーションに及ぼす影響を正確に評価するためには、全体の文章を調査する必要があります。",
+          "next_check": "次の採点では、誤りの頻度とそれがコミュニケーションに及ぼす影響を具体的に評価するため、全体の文章を調査し、誤りの頻度とその影響を詳細に確認する必要があります。"
+        },
+        "evidence_to_condition": "2420:1 / 原文 \"Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.\"。引用された文章は、一般的な構造と一般的な語彙の使用に制限されていることを示しており、これは公式Overall.S3の条件と一致します。また、文法や語法の誤りがコミュニケーションを妨げている点も、Overall.S3の説明と一致します。",
+        "judgment_to_condition": "観測Overall 3。参照推論は、文章の品質が言語能力の制限を反映していることを示しており、これは観測Overallスコア3と一致します。ただし、誤りの頻度と影響度を考慮する必要があります。",
+        "interpretation_or_missing_evidence": "隣接段階との程度や頻度、適切さの違いについて、具体的な評価が不足しています。誤りの頻度とそれがコミュニケーションに及ぼす影響を正確に評価するためには、全体の文章を調査する必要があります。",
+        "next_check": "次の採点では、誤りの頻度とそれがコミュニケーションに及ぼす影響を具体的に評価するため、全体の文章を調査し、誤りの頻度とその影響を詳細に確認する必要があります。"
+      },
+      {
+        "relation_id": "R2",
+        "pattern_id": "P1",
+        "target_id": "7817:1",
+        "observed_overall": 4,
+        "evidence_ids": [
+          "7817:1.E1",
+          "7817:1.E2"
+        ],
+        "evidence_anchor": "Since technology developed really fast now, we can't live without these technologies.",
+        "rubric_id": "Overall.S4",
+        "condition_quote": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+        "comparison_rubric_id": "Overall.S3",
+        "comparison_condition_quote": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "model_explanations": {
+          "evidence_to_condition": "文章は多様な語彙と句構造を使用しているが、時折言葉の選択や文法の不正確さがある。例えば、'mean reason'や'walked on a street'といった表現が、公式条件で言及される「言語の使用における句構造の多様性と単語・フレーズの範囲」を検討する証拠となる。",
+          "judgment_to_condition": "参照推論は、言語の使用と組織の制御が全体的なスコアに寄与することを示唆している。ただし、言葉の選択や文法の不正確さがコミュニケーションを阻害する頻度や程度については評価していない。",
+          "interpretation_or_missing_evidence": "隣接段階との比較において、言語の正確性と頻度、適切さの違いについての具体的な評価が不足している。特に、誤りがコミュニケーションを阻害する頻度や程度についての明確な判断が不足している。",
+          "next_check": "次の採点では、誤りがコミュニケーションを阻害する頻度と程度を具体的に確認する。また、段落間のつながりが成功しているか、または失敗しているかを評価する。"
+        },
+        "evidence_to_condition": "7817:1 / 原文 \"Since technology developed really fast now, we can't live without these technologies.\"。文章は多様な語彙と句構造を使用しているが、時折言葉の選択や文法の不正確さがある。例えば、'mean reason'や'walked on a street'といった表現が、公式条件で言及される「言語の使用における句構造の多様性と単語・フレーズの範囲」を検討する証拠となる。",
+        "judgment_to_condition": "観測Overall 4。参照推論は、言語の使用と組織の制御が全体的なスコアに寄与することを示唆している。ただし、言葉の選択や文法の不正確さがコミュニケーションを阻害する頻度や程度については評価していない。",
+        "interpretation_or_missing_evidence": "隣接段階との比較において、言語の正確性と頻度、適切さの違いについての具体的な評価が不足している。特に、誤りがコミュニケーションを阻害する頻度や程度についての明確な判断が不足している。",
+        "next_check": "次の採点では、誤りがコミュニケーションを阻害する頻度と程度を具体的に確認する。また、段落間のつながりが成功しているか、または失敗しているかを評価する。"
+      }
+    ],
+    "limits": "このフィードバックは予備的な便宜標本・モデルの暫定判断であり、真の思考や有効性を実証していないという制約がある。",
+    "assembly": "C relation and text are model-generated; source metadata, full rubric, IDs, scores and exact quotations deterministically assembled",
+    "citations": [
+      {
+        "evidence_id": "2420:1.E1",
+        "target_id": "2420:1",
+        "quote": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.",
+        "positions": [
+          {
+            "start": 276,
+            "end": 640,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "2420:1.E3",
+        "target_id": "2420:1",
+        "quote": "Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accomplish something in my life.",
+        "positions": [
+          {
+            "start": 1047,
+            "end": 1494,
+            "line_start": 5,
+            "line_end": 5
+          }
+        ]
+      },
+      {
+        "evidence_id": "7817:1.E1",
+        "target_id": "7817:1",
+        "quote": "Since technology developed really fast now, we can't live without these technologies.",
+        "positions": [
+          {
+            "start": 0,
+            "end": 85,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "7817:1.E1",
+        "target_id": "7817:1",
+        "quote": "Using computers are the mean reason of why we are lazy now.",
+        "positions": [
+          {
+            "start": 647,
+            "end": 706,
+            "line_start": 3,
+            "line_end": 3
+          }
+        ]
+      },
+      {
+        "evidence_id": "7817:1.E1",
+        "target_id": "7817:1",
+        "quote": "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.",
+        "positions": [
+          {
+            "start": 1183,
+            "end": 1331,
+            "line_start": 5,
+            "line_end": 5
+          }
+        ]
+      },
+      {
+        "evidence_id": "7817:1.E2",
+        "target_id": "7817:1",
+        "quote": "Some people says that use of technology had positive effects on people's lives because it's easier for people to work and context with friends. Most technologies helped a lots in our life but I think use of technology had negative effects, because we are getting very lazy of doing things people are using cellphone to complete everything, eye problems make a lots of young teens are wearing glasses now, because they are using too much electronic devises, and I think most people are getting addicted to their cellphones because they can't live without it.",
+        "positions": [
+          {
+            "start": 86,
+            "end": 643,
+            "line_start": 1,
+            "line_end": 1
+          }
+        ]
+      },
+      {
+        "evidence_id": "7817:1.E2",
+        "target_id": "7817:1",
+        "quote": "Using computers are the mean reason of why we are lazy now.",
+        "positions": [
+          {
+            "start": 647,
+            "end": 706,
+            "line_start": 3,
+            "line_end": 3
+          }
+        ]
+      },
+      {
+        "evidence_id": "7817:1.E2",
+        "target_id": "7817:1",
+        "quote": "Walked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see.",
+        "positions": [
+          {
+            "start": 1183,
+            "end": 1331,
+            "line_start": 5,
+            "line_end": 5
+          }
+        ]
+      }
+    ],
+    "scope_guard": "Programmatically added source-conditioning and candidate-status caveat; raw model text retained in C_text and calls.jsonl",
+    "quality_status": "pilot_outputs_require_revision_before_delivery",
+    "content_review": [
+      {
+        "rater_id": "rater_4",
+        "relation_id": "R1",
+        "relation_review": "一般的な構造・語彙に制限されるという基準の言い換えが中心で、具体的な言語特徴と条件の対応を説明しきれていない。引用だけから全体の語彙範囲を確定できない点も残る。",
+        "next_check_review": "頻度・理解阻害の全体確認にはつながるが、どの文で何を再確認するかが抽象的。"
+      },
+      {
+        "rater_id": "rater_4",
+        "relation_id": "R2",
+        "relation_review": "mean reason等の例は挙げるが、walked on a streetはそれ自体で誤りとは言えない。短い語句から語彙・構文の多様性を支持する説明も不十分。",
+        "next_check_review": "語句の適切さから段落間接続へ論点が移り、④との対応が一部弱い。"
+      }
+    ]
+  }
+}

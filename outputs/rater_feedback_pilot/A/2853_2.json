@@ -1,0 +1,142 @@
+{
+  "fingerprint": "10ebf8bcdc205d306b03690934ea78d337a8d5e4cdcb308f54b13e11ec5bb433",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates a limited facility in the use of language, with occasional syntactic variety and a mix of common and less common vocabulary.",
+        "scope": "target",
+        "feature": "language facility",
+        "direction": "negative",
+        "quotes": [
+          "some pleople will say yes but some will say no and they are not wrong or right anwer in thise question is depending in your point of view and how fast you want to achive your goal and how good you want to be in your carrer and work.",
+          "If you dind't have a scholarchip and finish college and you are working in a career that you don't like and you dind't have a sholarchip you are going to be in debt and you are going to pay alot."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes show a mix of common and less common vocabulary, but also contain grammatical and syntactical errors, supporting the claim of limited language facility.",
+        "overall_relation": "This claim aligns with the overall score of 3, indicating that the essay's language use is limited and occasionally impeded by inaccuracies.",
+        "limitations": "The essay's language facility is not uniformly poor; there are instances of correct usage and varied vocabulary.",
+        "evidence_id": "2853:2.E1",
+        "target_id": "2853:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "some pleople will say yes but some will say no and they are not wrong or right anwer in thise question is depending in your point of view and how fast you want to achive your goal and how good you want to be in your carrer and work.",
+            "occurrences": [
+              {
+                "start": 113,
+                "end": 345,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "If you dind't have a scholarchip and finish college and you are working in a career that you don't like and you dind't have a sholarchip you are going to be in debt and you are going to pay alot.",
+            "occurrences": [
+              {
+                "start": 2340,
+                "end": 2535,
+                "line_start": 11,
+                "line_end": 11
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The organization is generally controlled, though there are instances where the connections between ideas are absent or unsuccessful.",
+        "scope": "target",
+        "feature": "organization",
+        "direction": "mixed",
+        "quotes": [
+          "The people that say yes they say that because when you know what career you want to take before entering high school you wiil choose you classes better depending in your career and what high school you want to attend because come schools have programs that count like college classes, and in high school you have only four years and that is not enough time for you to choose and you will end up in a carrer that you don't like if you choose the wrong one.",
+          "People that say that you don't have to know what you want to be before you get in to high school. They say that you can join different programs and see wich one you like the most and you will choose your career from that decition and you will know what's about because some people choose careers that they don't like them maybe because they dind't know the stuff you have to do or they dind't expect to be like that."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay presents arguments for both sides of the question, but the transitions between ideas are sometimes unclear or absent, supporting the claim of mixed organizational control.",
+        "overall_relation": "This claim aligns with the overall score of 3, indicating that while the essay has a general structure, it lacks smooth transitions and clear connections between ideas.",
+        "limitations": "The essay's organization is somewhat controlled, but the lack of clear transitions can make the argument less coherent.",
+        "evidence_id": "2853:2.E2",
+        "target_id": "2853:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "The people that say yes they say that because when you know what career you want to take before entering high school you wiil choose you classes better depending in your career and what high school you want to attend because come schools have programs that count like college classes, and in high school you have only four years and that is not enough time for you to choose and you will end up in a carrer that you don't like if you choose the wrong one.",
+            "occurrences": [
+              {
+                "start": 349,
+                "end": 804,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "People that say that you don't have to know what you want to be before you get in to high school. They say that you can join different programs and see wich one you like the most and you will choose your career from that decition and you will know what's about because some people choose careers that they don't like them maybe because they dind't know the stuff you have to do or they dind't expect to be like that.",
+            "occurrences": [
+              {
+                "start": 1756,
+                "end": 2172,
+                "line_start": 9,
+                "line_end": 9
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "There are errors in grammar, syntax, and usage that occasionally impede communication.",
+        "scope": "target",
+        "feature": "errors",
+        "direction": "negative",
+        "quotes": [
+          "some pleople will say yes but some will say no and they are not wrong or right anwer in thise question is depending in your point of view and how fast you want to achive your goal and how good you want to be in your carrer and work.",
+          "If you dind't have a scholarchip and finish college and you are working in a career that you don't like and you dind't have a sholarchip you are going to be in debt and you are going to pay alot."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes contain multiple grammatical and syntactical errors, such as misspellings and incorrect word usage, which impede clear communication.",
+        "overall_relation": "This claim aligns with the overall score of 3, indicating that the essay contains errors that occasionally impede communication.",
+        "limitations": "While errors are present, the essay still manages to convey its main points, albeit with some difficulty.",
+        "evidence_id": "2853:2.E3",
+        "target_id": "2853:2",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "some pleople will say yes but some will say no and they are not wrong or right anwer in thise question is depending in your point of view and how fast you want to achive your goal and how good you want to be in your carrer and work.",
+            "occurrences": [
+              {
+                "start": 113,
+                "end": 345,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "If you dind't have a scholarchip and finish college and you are working in a career that you don't like and you dind't have a sholarchip you are going to be in debt and you are going to pay alot.",
+            "occurrences": [
+              {
+                "start": 2340,
+                "end": 2535,
+                "line_start": 11,
+                "line_end": 11
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The writer presents arguments for both sides of the question and provides examples, but the language inaccuracies and structural issues sometimes make the points less clear.",
+    "history_separation": "There are no explicit mentions of historical inputs or ambiguities related to historical claims."
+  },
+  "timestamp": "2026-11-15T16:18:25.904136+09:00"
+}

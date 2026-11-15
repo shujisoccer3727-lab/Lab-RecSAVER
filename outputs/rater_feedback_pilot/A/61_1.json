@@ -1,0 +1,130 @@
+{
+  "fingerprint": "7e176840c9d42f18a43238a0cf2201c32ff0c0a5b3995217cfb929e88a9897b4",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates a limited range of vocabulary and sentence structures, with some errors in grammar and syntax that occasionally impede communication.",
+        "scope": "target",
+        "feature": "syntactic range",
+        "direction": "negative",
+        "quotes": [
+          "I'll show little kids to think of others and not just them self's because when they get older the little kids aren't going to care but if they see the older kids help maybe the little kids would think how the big kids helped n see how much they helped them and would still want to help others when they get older.",
+          "Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes show a lack of varied vocabulary and sentence structures, with grammatical errors such as 'them self's', 'n', and 'them self's' that affect the clarity and coherence of the argument.",
+        "overall_relation": "The rationale suggests that the limited syntactic range and grammatical errors contribute to the overall score of 3.",
+        "limitations": "The quotes are representative of the essay's language use, but they do not cover the entire text, and other parts may show better control.",
+        "evidence_id": "61:1.E1",
+        "target_id": "61:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "I'll show little kids to think of others and not just them self's because when they get older the little kids aren't going to care but if they see the older kids help maybe the little kids would think how the big kids helped n see how much they helped them and would still want to help others when they get older.",
+            "occurrences": [
+              {
+                "start": 83,
+                "end": 396,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          },
+          {
+            "quote": "Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community.",
+            "occurrences": [
+              {
+                "start": 495,
+                "end": 751,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer's argument is somewhat coherent, but the organization is not fully developed, and there are instances where the connection between ideas is weak or absent.",
+        "scope": "target",
+        "feature": "global coherence",
+        "direction": "negative",
+        "quotes": [
+          "The little kids always look up to the big kids. Also maybe the little kids won't gave up so easy. Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quote shows a lack of clear connection between ideas, such as the transition from 'the little kids always look up to the big kids' to 'maybe the little kids won't gave up so easy', which lacks a clear link.",
+        "overall_relation": "The rationale indicates that the lack of coherent organization and weak connections between ideas contribute to the overall score of 3.",
+        "limitations": "The quote is representative of the essay's coherence issues, but it does not cover all parts of the essay, and other sections may show better organization.",
+        "evidence_id": "61:1.E2",
+        "target_id": "61:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "The little kids always look up to the big kids. Also maybe the little kids won't gave up so easy. Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community.",
+            "occurrences": [
+              {
+                "start": 397,
+                "end": 751,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The essay occasionally uses appropriate phrases and demonstrates a basic understanding of the topic, but the overall language use is not consistently controlled, leading to some inaccuracies that can affect clarity.",
+        "scope": "target",
+        "feature": "language use",
+        "direction": "mixed",
+        "quotes": [
+          "The little kids always look up to the big kids.",
+          "Helping others is the right way to go and to never give up in what you believe in."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The essay includes appropriate phrases like 'The little kids always look up to the big kids' and 'Helping others is the right way to go and to never give up in what you believe in', which show a basic understanding of the topic. However, the language use is not consistently controlled, as seen in the grammatical errors and lack of clarity in other parts of the essay.",
+        "overall_relation": "The rationale suggests that while there are some appropriate phrases, the inconsistent language use affects the overall score of 3.",
+        "limitations": "The quotes are representative of the essay's language use, but they do not cover all parts of the essay, and other sections may show better or worse language control.",
+        "evidence_id": "61:1.E3",
+        "target_id": "61:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "The little kids always look up to the big kids.",
+            "occurrences": [
+              {
+                "start": 397,
+                "end": 444,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          },
+          {
+            "quote": "Helping others is the right way to go and to never give up in what you believe in.",
+            "occurrences": [
+              {
+                "start": 886,
+                "end": 968,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "The rater's previous evaluations suggest a pattern of assigning scores based on the essay's adherence to the rubric criteria, which supports this evaluation.",
+    "history_separation": "There are no explicit mentions of historical inputs in the rationale."
+  },
+  "timestamp": "2026-11-15T16:22:09.960344+09:00"
+}

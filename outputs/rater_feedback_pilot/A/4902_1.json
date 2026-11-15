@@ -1,0 +1,154 @@
+{
+  "fingerprint": "1783a66c7d8619c457b145489aa3ddf7e1534ba03defe33a6d553e72712b3be8",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates a limited range of vocabulary and structures, with some errors in grammar and syntax that impede communication.",
+        "scope": "target",
+        "feature": "syntactic range",
+        "direction": "negative",
+        "quotes": [
+          "The reason why i agree with this quote is because people now a day don't try to be them self.",
+          "Others may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes show a limited range of vocabulary and structures, with grammatical errors such as incorrect verb forms and punctuation issues, which support the claim of limited syntactic range and communication impediments.",
+        "overall_relation": "The claim aligns with the observed Overall score of 3, indicating limited facility with language structures and vocabulary.",
+        "limitations": "The claim does not account for the coherent ideas present in the essay, which could be seen as a positive aspect.",
+        "evidence_id": "4902:1.E1",
+        "target_id": "4902:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+            "occurrences": [
+              {
+                "start": 150,
+                "end": 243,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "Others may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree.",
+            "occurrences": [
+              {
+                "start": 866,
+                "end": 1038,
+                "line_start": 5,
+                "line_end": 5
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer's ideas are somewhat coherent, but the organization is not fully controlled, with some missing or unsuccessful connections between ideas.",
+        "scope": "target",
+        "feature": "global coherence",
+        "direction": "mixed",
+        "quotes": [
+          "The reason why i agree with this quote is because people now a day don't try to be them self.",
+          "I guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in.",
+          "in conucluesion"
+        ],
+        "semantic_support": "uncertain",
+        "semantic_explanation": "The quotes show somewhat coherent ideas but lack clear transitions and organization, making it difficult to assess the overall coherence definitively.",
+        "overall_relation": "The claim aligns with the observed Overall score of 3, indicating partial coherence and organizational issues.",
+        "limitations": "The claim does not provide specific examples of missing or unsuccessful connections, which could clarify the extent of the organizational issues.",
+        "evidence_id": "4902:1.E2",
+        "target_id": "4902:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+            "occurrences": [
+              {
+                "start": 150,
+                "end": 243,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "I guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in.",
+            "occurrences": [
+              {
+                "start": 493,
+                "end": 617,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "in conucluesion",
+            "occurrences": [
+              {
+                "start": 1288,
+                "end": 1303,
+                "line_start": 7,
+                "line_end": 7
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The essay occasionally lapses into informal language and contains several grammatical errors, which can make the text difficult to follow.",
+        "scope": "target",
+        "feature": "communication impact",
+        "direction": "negative",
+        "quotes": [
+          "The reason why i agree with this quote is because people now a day don't try to be them self.",
+          "friend are't forever so just be yourself it'll be your greatest accomplishment."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The provided quotes contain informal language and grammatical errors, such as incorrect verb forms and punctuation issues, which support the claim of difficulty in following the text.",
+        "overall_relation": "The claim aligns with the observed Overall score of 3, indicating that the text's informal language and grammatical errors impede communication.",
+        "limitations": "The claim does not account for the coherent ideas present in the essay, which could be seen as a positive aspect.",
+        "evidence_id": "4902:1.E3",
+        "target_id": "4902:1",
+        "rationale_span_verified": false,
+        "quote_checks": [
+          {
+            "quote": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+            "occurrences": [
+              {
+                "start": 150,
+                "end": 243,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "friend are't forever so just be yourself it'll be your greatest accomplishment.",
+            "occurrences": [
+              {
+                "start": 783,
+                "end": 862,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "Claims about the frequency of errors and the impact on communication were not fully addressed due to the three-claim limit.",
+    "history_separation": "There are no explicit mentions of historical inputs in the rationale, and no ambiguities regarding the separation of target claims from historical claims."
+  },
+  "timestamp": "2026-11-15T15:56:24.261387+09:00"
+}

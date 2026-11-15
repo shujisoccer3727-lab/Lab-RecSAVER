@@ -1,0 +1,135 @@
+{
+  "fingerprint": "0bafa7eaf6f3964d76db69c455ad0f5bf96d1fbd195c82684a75e0aad9f8d9d0",
+  "result": {
+    "claims": [
+      {
+        "rationale_claim": "The essay demonstrates a range of vocabulary and syntactic variety, with occasional language inaccuracies that sometimes impede communication.",
+        "scope": "target",
+        "feature": "vocabulary and syntactic variety",
+        "direction": "mixed",
+        "quotes": [
+          "The main piece to improve your skills is during the process of keep learning.",
+          "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things."
+        ],
+        "semantic_support": "uncertain",
+        "semantic_explanation": "The essay does show a range of vocabulary and some syntactic variety, but the provided quotes are not sufficient to fully support the claim about the range of vocabulary and syntactic variety. The quotes also contain language inaccuracies that impede communication.",
+        "overall_relation": "The claim suggests that the essay has a moderate level of proficiency with room for improvement in clarity and coherence, which aligns with the observed Overall score of 3.",
+        "limitations": "The claim does not provide enough evidence to fully support the range of vocabulary and syntactic variety. The quotes show some inaccuracies that disrupt the flow of the text.",
+        "evidence_id": "1868:1.E1",
+        "target_id": "1868:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "The main piece to improve your skills is during the process of keep learning.",
+            "occurrences": [
+              {
+                "start": 0,
+                "end": 77,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.",
+            "occurrences": [
+              {
+                "start": 611,
+                "end": 765,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The writer's ideas are generally clear, but there are instances where the organization and connection between ideas are not fully controlled, leading to some confusion.",
+        "scope": "target",
+        "feature": "organization and connection between ideas",
+        "direction": "negative",
+        "quotes": [
+          "The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.",
+          "If you have been studying for years, since first grade and still have to go to an University, it could make you think if it would be necessary those extra years."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The quotes show that the writer's ideas are generally clear, but the organization and connection between ideas are not fully controlled, leading to some confusion. The quotes are coherent but lack a clear structure, which supports the claim.",
+        "overall_relation": "The claim suggests that the essay has a moderate level of proficiency with room for improvement in clarity and coherence, which aligns with the observed Overall score of 3.",
+        "limitations": "The claim is supported by the provided quotes, but it does not cover all instances of confusion in the essay.",
+        "evidence_id": "1868:1.E2",
+        "target_id": "1868:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.",
+            "occurrences": [
+              {
+                "start": 1173,
+                "end": 1424,
+                "line_start": 3,
+                "line_end": 3
+              }
+            ]
+          },
+          {
+            "quote": "If you have been studying for years, since first grade and still have to go to an University, it could make you think if it would be necessary those extra years.",
+            "occurrences": []
+          }
+        ],
+        "quotes_verified": false,
+        "usable_for_synthesis": false,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      },
+      {
+        "rationale_claim": "The grammar and conventions are mostly accurate, but there are errors that occasionally disrupt the flow of the text.",
+        "scope": "target",
+        "feature": "grammar and conventions",
+        "direction": "negative",
+        "quotes": [
+          "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.",
+          "The years where you have been taking classes that does not look that t would help you in the future in any way."
+        ],
+        "semantic_support": "supported",
+        "semantic_explanation": "The quotes show that there are grammatical errors and inaccuracies in conventions that disrupt the flow of the text, supporting the claim.",
+        "overall_relation": "The claim suggests that the essay has a moderate level of proficiency with room for improvement in clarity and coherence, which aligns with the observed Overall score of 3.",
+        "limitations": "The claim is supported by the provided quotes, but it does not cover all grammatical errors in the essay.",
+        "evidence_id": "1868:1.E3",
+        "target_id": "1868:1",
+        "rationale_span_verified": true,
+        "quote_checks": [
+          {
+            "quote": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.",
+            "occurrences": [
+              {
+                "start": 238,
+                "end": 367,
+                "line_start": 1,
+                "line_end": 1
+              }
+            ]
+          },
+          {
+            "quote": "The years where you have been taking classes that does not look that t would help you in the future in any way.",
+            "occurrences": [
+              {
+                "start": 2205,
+                "end": 2316,
+                "line_start": 9,
+                "line_end": 9
+              }
+            ]
+          }
+        ],
+        "quotes_verified": true,
+        "usable_for_synthesis": true,
+        "semantic_validation": "model-assessed; not independently human-validated"
+      }
+    ],
+    "unassessed_claims": "Claims about the three historical inputs are not present in the reference reasoning.",
+    "history_separation": "There are no explicit mentions of historical inputs in the reference reasoning, and there are no ambiguities."
+  },
+  "timestamp": "2026-11-15T15:58:22.123667+09:00"
+}
