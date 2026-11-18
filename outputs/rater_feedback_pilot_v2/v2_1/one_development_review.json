@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-11-16T16:47:59.976875+09:00",
+  "reviewer": "Codex development review; not independent human evaluation",
+  "result_sha256": "7388382e75586266d15dc2cc0d915c529e9c5868b128f01087659c53fcd2b8a0",
+  "proceed_to_fixed_three": true,
+  "purpose": "Only the user-fixed development cases, under unchanged version 2.1, to inspect processing and remaining errors; not quality acceptance or expansion to 27",
+  "confirmed": [
+    "Both actual verification payloads contain no direct target scores; target fields are essay_id/text only.",
+    "K2 all four claims marked insufficient with evaluation_supported=false; none entered integration.",
+    "Single-essay integration correctly returned empty common_features/judgment_patterns.",
+    "Comparison cites only Cohesion clauses and declares local scope, without concluding the Overall grade.",
+    "Final sentences retain claim, issue and criterion IDs within the single topic."
+  ],
+  "remaining": [
+    {
+      "source": "generate/K1,K2",
+      "issue": "Japanese requested, but individual reasons are English. Every claim cites all 19 spans and remains generic; concrete feature evidence was not localized."
+    },
+    {
+      "source": "ground/K1",
+      "issue": "After retry, atomic flags became true without changing the broad original claims. Mechanical acceptance does not establish atomicity or semantic support."
+    },
+    {
+      "source": "compare/I1",
+      "issue": "The same organization description repeats; selected Cohesion clauses are not explained condition by condition. Observed Cohesion=4 versus selected level-3 wording is not examined."
+    },
+    {
+      "source": "text/element1,2,3",
+      "issue": "Element1 describes the essay rather than stating the criterion; element2 recasts the future distinction as a tendency; element3 gives no concrete passage in the reader text."
+    },
+    {
+      "source": "text/element5,limits",
+      "issue": "Next action is a rater check rather than an explicit rewrite, but remains broad. limits contains writing-improvement advice rather than research limitations."
+    }
+  ],
+  "no_prompt_change_for_three": true,
+  "no_replacement": true,
+  "usable_with_real_raters": false
+}

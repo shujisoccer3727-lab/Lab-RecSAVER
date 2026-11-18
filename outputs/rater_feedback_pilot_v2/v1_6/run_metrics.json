@@ -1,0 +1,866 @@
+{
+  "timestamp": "2026-11-16T01:27:03.646194+09:00",
+  "stages": {
+    "generate": {
+      "calls": 121,
+      "ok": 106,
+      "reused_call_records": 14,
+      "new_model_calls": 107,
+      "length_finish": 0,
+      "failed": 15
+    },
+    "verify": {
+      "calls": 106,
+      "ok": 106,
+      "reused_call_records": 10,
+      "new_model_calls": 96,
+      "length_finish": 0
+    },
+    "ground": {
+      "calls": 70,
+      "ok": 69,
+      "reused_call_records": 6,
+      "new_model_calls": 64,
+      "length_finish": 0,
+      "failed": 1
+    },
+    "merge": {
+      "calls": 30,
+      "ok": 30,
+      "reused_call_records": 2,
+      "new_model_calls": 28,
+      "length_finish": 0
+    },
+    "integrate": {
+      "calls": 8,
+      "ok": 8,
+      "reused_call_records": 2,
+      "new_model_calls": 6,
+      "length_finish": 0
+    },
+    "compare": {
+      "calls": 69,
+      "failed": 41,
+      "reused_call_records": 0,
+      "new_model_calls": 69,
+      "length_finish": 0,
+      "ok": 28
+    },
+    "text": {
+      "calls": 8,
+      "ok": 8,
+      "reused_call_records": 0,
+      "new_model_calls": 8,
+      "length_finish": 0
+    }
+  },
+  "failures": [
+    {
+      "stage": "generate",
+      "key": "A|1514:1|K2",
+      "attempt": 0,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 899
+    },
+    {
+      "stage": "generate",
+      "key": "B|1514:1|K2",
+      "attempt": 0,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 812
+    },
+    {
+      "stage": "generate",
+      "key": "A|1514:1|K2",
+      "attempt": 1,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 928
+    },
+    {
+      "stage": "generate",
+      "key": "B|1514:1|K2",
+      "attempt": 1,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 1078
+    },
+    {
+      "stage": "compare",
+      "key": "A|pilot_1514:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 673
+    },
+    {
+      "stage": "compare",
+      "key": "A|pilot_1868:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 781
+    },
+    {
+      "stage": "compare",
+      "key": "B|pilot_1514:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 916
+    },
+    {
+      "stage": "compare",
+      "key": "B|pilot_1868:1",
+      "attempt": 0,
+      "error": "AssertionError: analysis tokens must occur exactly in the selected span; do not invent or silently correct forms",
+      "finish_reason": "stop",
+      "output_tokens": 1007
+    },
+    {
+      "stage": "generate",
+      "key": "A|5627:1|K1",
+      "attempt": 0,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 482
+    },
+    {
+      "stage": "generate",
+      "key": "A|5268:1|K1",
+      "attempt": 0,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 899
+    },
+    {
+      "stage": "generate",
+      "key": "A|474:1|K2",
+      "attempt": 0,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 824
+    },
+    {
+      "stage": "generate",
+      "key": "A|2853:2|K2",
+      "attempt": 0,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 780
+    },
+    {
+      "stage": "generate",
+      "key": "A|7418:2|K1",
+      "attempt": 0,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 639
+    },
+    {
+      "stage": "generate",
+      "key": "A|2420:1|K1",
+      "attempt": 0,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 830
+    },
+    {
+      "stage": "generate",
+      "key": "B|474:1|K1",
+      "attempt": 0,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 892
+    },
+    {
+      "stage": "generate",
+      "key": "B|2832:2|K2",
+      "attempt": 0,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 879
+    },
+    {
+      "stage": "generate",
+      "key": "B|7817:1|K2",
+      "attempt": 0,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 848
+    },
+    {
+      "stage": "generate",
+      "key": "B|61:1|K2",
+      "attempt": 0,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 767
+    },
+    {
+      "stage": "generate",
+      "key": "B|515:1|K1",
+      "attempt": 0,
+      "error": "AssertionError: ",
+      "finish_reason": "stop",
+      "output_tokens": 987
+    },
+    {
+      "stage": "ground",
+      "key": "A|8487:1|K2",
+      "attempt": 0,
+      "error": "JSONDecodeError: Expecting ',' delimiter: line 18 column 52 (char 488)",
+      "finish_reason": "stop",
+      "output_tokens": 322
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_2444:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 1058
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_4902:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 811
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_1514:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 701
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_2444:1",
+      "attempt": 1,
+      "error": "AssertionError: analysis tokens must occur exactly in the selected span; do not invent or silently correct forms",
+      "finish_reason": "stop",
+      "output_tokens": 751
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_1514:1",
+      "attempt": 1,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 774
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_474:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 537
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_2853:2",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 1541
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_406:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 846
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_2832:2",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 817
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_61:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 816
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_7836:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 667
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_474:1",
+      "attempt": 1,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 574
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_406:1",
+      "attempt": 1,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 647
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_2832:2",
+      "attempt": 1,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 867
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_61:1",
+      "attempt": 1,
+      "error": "AssertionError: analysis tokens must occur exactly in the selected span; do not invent or silently correct forms",
+      "finish_reason": "stop",
+      "output_tokens": 853
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_7836:1",
+      "attempt": 1,
+      "error": "AssertionError: analysis tokens must occur exactly in the selected span; do not invent or silently correct forms",
+      "finish_reason": "stop",
+      "output_tokens": 1646
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_515:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 1013
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_2348:1",
+      "attempt": 0,
+      "error": "AssertionError: analysis tokens must occur exactly in the selected span; do not invent or silently correct forms",
+      "finish_reason": "stop",
+      "output_tokens": 1072
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_4902:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 788
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_515:1",
+      "attempt": 1,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 691
+    },
+    {
+      "stage": "compare",
+      "key": "A|full_2348:1",
+      "attempt": 1,
+      "error": "AssertionError: analysis tokens must occur exactly in the selected span; do not invent or silently correct forms",
+      "finish_reason": "stop",
+      "output_tokens": 875
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_1514:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 1047
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_2775:2",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 1173
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_318:2",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 1191
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_406:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 897
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_2832:2",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 1027
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_1514:1",
+      "attempt": 1,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 1019
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_318:2",
+      "attempt": 1,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 1206
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_406:1",
+      "attempt": 1,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 776
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_2832:2",
+      "attempt": 1,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 1204
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_2420:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 1124
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_61:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 810
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_7836:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 615
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_2910:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 718
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_2348:1",
+      "attempt": 0,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 920
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_61:1",
+      "attempt": 1,
+      "error": "AssertionError: analysis tokens must occur exactly in the selected span; do not invent or silently correct forms",
+      "finish_reason": "stop",
+      "output_tokens": 818
+    },
+    {
+      "stage": "compare",
+      "key": "B|full_2348:1",
+      "attempt": 1,
+      "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check",
+      "finish_reason": "stop",
+      "output_tokens": 790
+    }
+  ],
+  "phase": "full",
+  "target_count": 27,
+  "conditions": {
+    "A": {
+      "candidates": 54,
+      "generated": 53,
+      "accepted": 35,
+      "accepted_targets": [
+        "1514:1",
+        "1868:1",
+        "2348:1",
+        "2420:1",
+        "2444:1",
+        "2832:2",
+        "2853:2",
+        "2910:1",
+        "406:1",
+        "474:1",
+        "4902:1",
+        "515:1",
+        "5268:1",
+        "5627:1",
+        "61:1",
+        "7836:1",
+        "8317:2",
+        "8487:1",
+        "8538:1",
+        "8608:1"
+      ],
+      "eligible_evidence_targets": [
+        "1514:1",
+        "1868:1",
+        "2348:1",
+        "2420:1",
+        "2444:1",
+        "2832:2",
+        "2853:2",
+        "2910:1",
+        "406:1",
+        "474:1",
+        "4902:1",
+        "515:1",
+        "5268:1",
+        "5627:1",
+        "61:1",
+        "7836:1",
+        "8317:2",
+        "8487:1",
+        "8538:1",
+        "8608:1"
+      ],
+      "claims": 201,
+      "history_claims": 0,
+      "mechanically_invalid": 0,
+      "reviewed_claims": 130,
+      "semantic_support_counts": {
+        "supported": 129,
+        "uncertain": 1
+      },
+      "eligible_claims": 129,
+      "adoption_by_observed_overall": {
+        "2": {
+          "candidate_count": 6,
+          "generated": 6,
+          "accepted": 6,
+          "selected_targets": 3,
+          "accepted_targets": 3
+        },
+        "3": {
+          "candidate_count": 32,
+          "generated": 31,
+          "accepted": 23,
+          "selected_targets": 16,
+          "accepted_targets": 13
+        },
+        "4": {
+          "candidate_count": 12,
+          "generated": 12,
+          "accepted": 6,
+          "selected_targets": 6,
+          "accepted_targets": 4
+        },
+        "5": {
+          "candidate_count": 4,
+          "generated": 4,
+          "accepted": 0,
+          "selected_targets": 2,
+          "accepted_targets": 0
+        }
+      }
+    },
+    "B": {
+      "candidates": 54,
+      "generated": 53,
+      "accepted": 34,
+      "accepted_targets": [
+        "1514:1",
+        "1868:1",
+        "2348:1",
+        "2420:1",
+        "2775:2",
+        "2832:2",
+        "2853:2",
+        "2910:1",
+        "318:2",
+        "406:1",
+        "474:1",
+        "4902:1",
+        "515:1",
+        "5268:1",
+        "61:1",
+        "7836:1",
+        "8317:2",
+        "8487:1",
+        "8538:1"
+      ],
+      "eligible_evidence_targets": [
+        "1514:1",
+        "1868:1",
+        "2348:1",
+        "2420:1",
+        "2775:2",
+        "2832:2",
+        "2853:2",
+        "2910:1",
+        "318:2",
+        "406:1",
+        "474:1",
+        "4902:1",
+        "515:1",
+        "5268:1",
+        "61:1",
+        "7836:1",
+        "8317:2",
+        "8487:1",
+        "8538:1"
+      ],
+      "claims": 210,
+      "history_claims": 0,
+      "mechanically_invalid": 0,
+      "reviewed_claims": 136,
+      "semantic_support_counts": {
+        "supported": 135,
+        "uncertain": 1
+      },
+      "eligible_claims": 135,
+      "adoption_by_observed_overall": {
+        "2": {
+          "candidate_count": 6,
+          "generated": 6,
+          "accepted": 6,
+          "selected_targets": 3,
+          "accepted_targets": 3
+        },
+        "3": {
+          "candidate_count": 32,
+          "generated": 31,
+          "accepted": 22,
+          "selected_targets": 16,
+          "accepted_targets": 12
+        },
+        "4": {
+          "candidate_count": 12,
+          "generated": 12,
+          "accepted": 6,
+          "selected_targets": 6,
+          "accepted_targets": 4
+        },
+        "5": {
+          "candidate_count": 4,
+          "generated": 4,
+          "accepted": 0,
+          "selected_targets": 2,
+          "accepted_targets": 0
+        }
+      }
+    }
+  },
+  "raters": [
+    {
+      "condition": "A",
+      "rater_id": "rater_7",
+      "generation_status": {
+        "integration_succeeded": true,
+        "text_succeeded": true,
+        "compared_targets": 7
+      },
+      "patterns": 2,
+      "relationships": 7,
+      "official_level_counts": {
+        "3": 25,
+        "2": 4,
+        "4": 4
+      },
+      "official_aspect_counts": {
+        "Overall": 12,
+        "Grammar": 5,
+        "Vocabulary": 6,
+        "Syntax": 5,
+        "Conventions": 3,
+        "Cohesion": 2
+      }
+    },
+    {
+      "condition": "A",
+      "rater_id": "rater_17",
+      "generation_status": {
+        "integration_succeeded": true,
+        "text_succeeded": true,
+        "compared_targets": 1
+      },
+      "patterns": 2,
+      "relationships": 1,
+      "official_level_counts": {
+        "3": 4
+      },
+      "official_aspect_counts": {
+        "Overall": 1,
+        "Cohesion": 1,
+        "Grammar": 1,
+        "Conventions": 1
+      }
+    },
+    {
+      "condition": "A",
+      "rater_id": "rater_4",
+      "generation_status": {
+        "integration_succeeded": true,
+        "text_succeeded": true,
+        "compared_targets": 3
+      },
+      "patterns": 2,
+      "relationships": 3,
+      "official_level_counts": {
+        "3": 9,
+        "4": 4
+      },
+      "official_aspect_counts": {
+        "Overall": 3,
+        "Grammar": 3,
+        "Vocabulary": 4,
+        "Phraseology": 1,
+        "Cohesion": 1,
+        "Conventions": 1
+      }
+    },
+    {
+      "condition": "B",
+      "rater_id": "rater_7",
+      "generation_status": {
+        "integration_succeeded": true,
+        "text_succeeded": true,
+        "compared_targets": 5
+      },
+      "patterns": 2,
+      "relationships": 5,
+      "official_level_counts": {
+        "3": 19,
+        "2": 11,
+        "4": 16
+      },
+      "official_aspect_counts": {
+        "Overall": 10,
+        "Grammar": 5,
+        "Vocabulary": 8,
+        "Conventions": 7,
+        "Cohesion": 7,
+        "Phraseology": 4,
+        "Syntax": 5
+      }
+    },
+    {
+      "condition": "B",
+      "rater_id": "rater_17",
+      "generation_status": {
+        "integration_succeeded": true,
+        "text_succeeded": true,
+        "compared_targets": 3
+      },
+      "patterns": 2,
+      "relationships": 3,
+      "official_level_counts": {
+        "4": 16,
+        "2": 9,
+        "3": 5
+      },
+      "official_aspect_counts": {
+        "Overall": 6,
+        "Cohesion": 5,
+        "Syntax": 4,
+        "Vocabulary": 5,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    {
+      "condition": "B",
+      "rater_id": "rater_4",
+      "generation_status": {
+        "integration_succeeded": true,
+        "text_succeeded": true,
+        "compared_targets": 5
+      },
+      "patterns": 2,
+      "relationships": 5,
+      "official_level_counts": {
+        "3": 26,
+        "4": 16
+      },
+      "official_aspect_counts": {
+        "Overall": 12,
+        "Phraseology": 5,
+        "Syntax": 6,
+        "Grammar": 5,
+        "Vocabulary": 6,
+        "Cohesion": 4,
+        "Conventions": 4
+      }
+    }
+  ],
+  "adoption_difference": {
+    "A_only": [
+      "2444:1",
+      "5627:1",
+      "8608:1"
+    ],
+    "B_only": [
+      "2775:2",
+      "318:2"
+    ],
+    "common": [
+      "1514:1",
+      "1868:1",
+      "2348:1",
+      "2420:1",
+      "2832:2",
+      "2853:2",
+      "2910:1",
+      "406:1",
+      "474:1",
+      "4902:1",
+      "515:1",
+      "5268:1",
+      "61:1",
+      "7836:1",
+      "8317:2",
+      "8487:1",
+      "8538:1"
+    ]
+  }
+}

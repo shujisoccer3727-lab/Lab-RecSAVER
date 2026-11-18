@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-11-16T16:25:56.985277+09:00",
+  "version": "feedback-pilot-v2/2.1",
+  "changes": [
+    "v2.1: scrub direct score labels without separators, e.g. evaluation3 / 評価3; v2.0 verification was contaminated",
+    "v2.1: evidence-first schema order and explicit counterchecks",
+    "v2.1: single-essay common arrays constrained empty",
+    "new claim fields separate feature/evaluation/score relationships",
+    "supported/contradicted/insufficient review with explicit additional evidence",
+    "separate common features from repeated evaluation judgments",
+    "remove arbitrary word-count/grammar anchors and generic action regex",
+    "local rubric comparisons; per-topic sentence-level provenance"
+  ],
+  "unchanged": "model, sampling settings, seed policy, two candidates, one format retry, fixed source data and histories",
+  "impact": "All reasons changed; no v1.6 generation or dependent stage is reused",
+  "handoff": "If prompts/code/config change after execution, use a new version. Score mismatch never triggers regeneration."
+}

@@ -1,0 +1,119 @@
+{
+  "candidate_key": "A|2953:1|K1",
+  "masked_reason": {
+    "rationale": "本文は一般的な組織と構成を示しているが、文法的正確性と語彙の多様性に課題がある。複雑な文法構造の使用は限られており、誤用や誤解がコミュニケーションを阻害している。",
+    "unexplained": "文法と語彙の正確性がコミュニケーションを阻害しているが、具体的な誤りの種類や頻度は不明瞭である。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U002",
+          "2953:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "組織と構成は一般的に制御されているが、文法的正確性と語彙の多様性に課題がある。",
+        "score_relation": "観測評価と一致",
+        "support_explanation": "組織は制御されているが、文法的正確性と語彙の多様性に課題がある。",
+        "limits": "一部の文は複雑な構造を持つが、誤用や誤解が存在する。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U002",
+          "2953:1@U003"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "複雑な文法構造の使用は限られている。",
+        "score_relation": "観測評価と一致",
+        "support_explanation": "複雑な文法構造の使用は限られている。",
+        "limits": "一部の文は複雑な構造を持つが、誤用や誤解が存在する。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U002",
+          "2953:1@U003"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "語彙の範囲は限定的で、微妙な単語の意味の正確な使用がない。",
+        "score_relation": "観測評価と一致",
+        "support_explanation": "語彙の範囲は限定的で、微妙な単語の意味の正確な使用がない。",
+        "limits": "一部の単語は適切に使用されているが、全体的に範囲が限定的である。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U002",
+          "2953:1@U003"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文法と使用にいくつかの誤りがある。",
+        "score_relation": "観測評価と一致",
+        "support_explanation": "文法と使用にいくつかの誤りがある。",
+        "limits": "一部の文は正確に形成されているが、全体的に誤りが多い。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C01",
+        "Overall.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S3.C01",
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C01",
+        "Vocabulary.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

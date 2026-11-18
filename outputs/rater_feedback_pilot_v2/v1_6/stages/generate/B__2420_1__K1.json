@@ -1,0 +1,211 @@
+{
+  "fingerprint": "ec8eb96727ace48d60ac93ae44fe8fb4d4347a710ecf2d2745c324dec4741b93",
+  "result": {
+    "rationale": "文章は全体的に組織化されており、トピックに関連する単語やフレーズが使用されているが、文法や構文の誤りがいくつか見られる。また、一部の表現が繰り返し使用され、複雑な文の形成に困難がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2420:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章は全体的に組織化されているが、文法や構文の誤りがいくつか見られる。",
+        "span_ids": [
+          "2420:1@U001",
+          "2420:1@U002",
+          "2420:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Overall.S3.C02",
+          "Overall.S3.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "全体的な組織化が確認できるが、文法や構文の誤りが存在する。",
+        "limits": "一部の誤りが伝達を阻害する可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U001",
+            "start": 0,
+            "end": 57,
+            "text": "As Thomas Jefferson said \"Determine never to be idle ... "
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U002",
+            "start": 57,
+            "end": 276,
+            "text": "It is wonderful how much may be done if we are always doing.\" I believe that Thomas Jefferson's quote is right because if people determine to never be idle, they can accomplish more than those who determine to be idle. "
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U003",
+            "start": 276,
+            "end": 642,
+            "text": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2420:1",
+        "aspect": "Phraseology",
+        "kind": "frequency",
+        "feature": "表現が繰り返し使用されている。",
+        "span_ids": [
+          "2420:1@U003",
+          "2420:1@U004",
+          "2420:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Phraseology.S3.C01",
+          "Phraseology.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "同じ表現が複数回使用されている。",
+        "limits": "表現の多様性が不足している可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U003",
+            "start": 276,
+            "end": 642,
+            "text": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.\r\n"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U004",
+            "start": 642,
+            "end": 1047,
+            "text": "\r\nAlthough some says that determine to be idle or inactivity also serve a purpose in the way of one day they will accomplish something even though they are lazy, and people determine to not be idle when they want to accomplish something and when people decide to not being wasting their time without doing anything, inactivity doesn't serve a purpose in the life and in the way of accomplish something\r\n\r\n"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U005",
+            "start": 1047,
+            "end": 1467,
+            "text": "Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accom"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2420:1",
+        "aspect": "Syntax",
+        "kind": "presence",
+        "feature": "複雑な文の形成に困難がある。",
+        "span_ids": [
+          "2420:1@U004",
+          "2420:1@U005",
+          "2420:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C01",
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に困難がある。",
+        "limits": "複雑な文の形成が全体の伝達に影響する可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U004",
+            "start": 642,
+            "end": 1047,
+            "text": "\r\nAlthough some says that determine to be idle or inactivity also serve a purpose in the way of one day they will accomplish something even though they are lazy, and people determine to not be idle when they want to accomplish something and when people decide to not being wasting their time without doing anything, inactivity doesn't serve a purpose in the life and in the way of accomplish something\r\n\r\n"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U005",
+            "start": 1047,
+            "end": 1467,
+            "text": "Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accom"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U006",
+            "start": 1467,
+            "end": 1496,
+            "text": "plish something in my life.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2420:1",
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "feature": "トピックに関連する単語やフレーズが使用されている。",
+        "span_ids": [
+          "2420:1@U001",
+          "2420:1@U002",
+          "2420:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "トピックに関連する単語やフレーズが使用されている。",
+        "limits": "単語の使用が正確でない場合がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U001",
+            "start": 0,
+            "end": 57,
+            "text": "As Thomas Jefferson said \"Determine never to be idle ... "
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U002",
+            "start": 57,
+            "end": 276,
+            "text": "It is wonderful how much may be done if we are always doing.\" I believe that Thomas Jefferson's quote is right because if people determine to never be idle, they can accomplish more than those who determine to be idle. "
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U003",
+            "start": 276,
+            "end": 642,
+            "text": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "一部の誤りが伝達を阻害する可能性があるため、全体的な評価が3に留まっている可能性がある。"
+  },
+  "timestamp": "2026-11-15T19:41:32.896618+09:00"
+}

@@ -1,0 +1,23 @@
+{
+  "fingerprint": "e9200b053809b51a0d293a7a1495dba2a9b01b48a4412551c83021ca57f8cbdb",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文章は一般的な構造と単純な文法を使用しており、全体的な組織は理解しやすい。複雑な文法や単語の使用は限られているが、その結果、文章は明確で読みやすい。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "文章中に文法と慣用句の誤用が見られる。例えば、\"In the other hand\" は \"On the other hand\" の誤用であり、\"he fail the first time\" は \"he failed the first time\" の誤用である。これらの誤用は全体的な意味の理解を妨げないが、文法的な正確さには影響を与える。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T18:30:50.716725+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_3/stages/ground/A__1514_1__K1.json",
+  "source_fingerprint": "400a3ef9ec7ae605cff31d6f26d727299e825fbb8874d398d0601c015cfe590f",
+  "reuse_recorded_at": "2026-11-15T18:40:05.439265+09:00"
+}

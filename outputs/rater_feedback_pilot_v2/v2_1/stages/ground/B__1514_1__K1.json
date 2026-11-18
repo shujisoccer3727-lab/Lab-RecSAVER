@@ -1,0 +1,48 @@
+{
+  "fingerprint": "b2a22056ff7d7348bf1fc2da54f91868aa85aa982bfc9c51103bf1ee8fe1a864",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "文章は接続詞や例を用いてアイデアを接続し、全体的な組織が適切に制御されている。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "文章には単純、複合、複雑な文が含まれており、特に複雑な文での誤りや不適切さが見られる。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "文章には話題に適した最小限の単語の範囲が使用されており、より一般的でない単語を使用する試みがあるが、正確さに欠ける。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "文章には文法と使用に関するいくつかの誤りがあり、それがコミュニケーションを妨げる可能性がある。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-16T16:42:23.290415+09:00"
+}

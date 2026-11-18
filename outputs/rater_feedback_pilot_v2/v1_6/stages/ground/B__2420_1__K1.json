@@ -1,0 +1,32 @@
+{
+  "fingerprint": "bd7050b7327f5352a674cbf0c1522ab0e2dfc4c7a1e4a3d2eec619bf336af374",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文章は全体的に組織化されており、トピックに関する主張が明確に展開されている。ただし、文法や構文の誤りがいくつか見られる。例えば、「Determine never to be idle is much better because we accomplish more」や「I have done many things in school and accomplish many goals in my life」など、文法的な誤りが存在する。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "同じ表現が複数回使用されている。例えば、「Determine never to be idle is much better because we accomplish more」や「Determine never to be idle is much better because people can growth having a better future in their life」など、同じフレーズが繰り返し使用されている。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "複雑な文の形成に困難がある。例えば、「Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.」など、複雑な文が難解である。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "トピックに関連する単語やフレーズが使用されている。例えば、「accomplish more」、「make proud their family」、「growth having a better future」など、トピックに関連する単語やフレーズが使用されている。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:57:48.580513+09:00"
+}

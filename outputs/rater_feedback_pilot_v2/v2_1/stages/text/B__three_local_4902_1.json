@@ -1,0 +1,126 @@
+{
+  "fingerprint": "ed79d927269e0c7c89543fa8371ca37da451be3476fbe13e937a50c531518735",
+  "result": {
+    "sentences": [
+      {
+        "element": 1,
+        "text": "組織は一般的に制御されているが、結びつきの装置の種類が限定的で、繰り返し使用されている。",
+        "claim_ids": [
+          "4902:1/K1/C1"
+        ],
+        "issue_ids": [],
+        "condition_ids": [
+          "Cohesion.S3.C01",
+          "Cohesion.S3.C02"
+        ],
+        "source_target_ids": [
+          "4902:1"
+        ]
+      },
+      {
+        "element": 2,
+        "text": "具体的な共通傾向は未確定だが、評価傾向は3点評価に影響する可能性がある。",
+        "claim_ids": [
+          "4902:1/K1/C1",
+          "4902:1/K1/C2",
+          "4902:1/K1/C3",
+          "4902:1/K1/C4"
+        ],
+        "issue_ids": [
+          "B|three_local_4902:1_4902:1/I1"
+        ],
+        "condition_ids": [
+          "Cohesion.S3.C01",
+          "Cohesion.S3.C02",
+          "Cohesion.S3.C03"
+        ],
+        "source_target_ids": [
+          "4902:1"
+        ]
+      },
+      {
+        "element": 3,
+        "text": "具体的な箇所は、'but'や'don't you want to'の繰り返し使用が見られる。",
+        "claim_ids": [
+          "4902:1/K1/C1"
+        ],
+        "issue_ids": [],
+        "condition_ids": [],
+        "source_target_ids": [
+          "4902:1"
+        ]
+      },
+      {
+        "element": 4,
+        "text": "この評価は局所的なもので、全体の評価に影響を与える可能性がある。",
+        "claim_ids": [
+          "4902:1/K1/C1",
+          "4902:1/K1/C2",
+          "4902:1/K1/C3",
+          "4902:1/K1/C4"
+        ],
+        "issue_ids": [
+          "B|three_local_4902:1_4902:1/I1"
+        ],
+        "condition_ids": [
+          "Cohesion.S3.C01",
+          "Cohesion.S3.C02",
+          "Cohesion.S3.C03"
+        ],
+        "source_target_ids": [
+          "4902:1"
+        ]
+      },
+      {
+        "element": 5,
+        "text": "次回の評価では、結びつきの装置の多様性と効果を評価する。",
+        "claim_ids": [
+          "4902:1/K1/C1"
+        ],
+        "issue_ids": [
+          "B|three_local_4902:1_4902:1/I1"
+        ],
+        "condition_ids": [
+          "Cohesion.S3.C01",
+          "Cohesion.S3.C02",
+          "Cohesion.S3.C03"
+        ],
+        "source_target_ids": [
+          "4902:1"
+        ]
+      },
+      {
+        "element": 1,
+        "text": "文法と使用に誤りがあるが、頻繁ではない。",
+        "claim_ids": [
+          "4902:1/K1/C4"
+        ],
+        "issue_ids": [],
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "source_target_ids": [
+          "4902:1"
+        ]
+      },
+      {
+        "element": 2,
+        "text": "評価傾向は3点評価に影響する可能性がある。",
+        "claim_ids": [
+          "4902:1/K1/C4"
+        ],
+        "issue_ids": [
+          "B|three_local_4902:1_4902:1/I1"
+        ],
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "source_target_ids": [
+          "4902:1"
+        ]
+      }
+    ],
+    "limits": "このエッセイは、より正確な語彙の使用と多様な結びつきの装置の使用により、論理の流れと明確さが改善される可能性がある。"
+  },
+  "timestamp": "2026-11-16T19:22:43.252718+09:00"
+}

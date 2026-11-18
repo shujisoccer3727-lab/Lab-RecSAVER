@@ -1,0 +1,207 @@
+{
+  "fingerprint": "5de218d24d60495f63496340162d4aae818d7b71e6c1ab20c7b87d8868b25c11",
+  "result": {
+    "rationale": "文章は全体的に組織化されており、主張が明確で、個人的な経験を用いて説明しています。しかし、文法や構文の誤りが見られ、表現の多様性が不足しています。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "406:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "明確な主張と個人的な経験の使用",
+        "span_ids": [
+          "406:1@U001",
+          "406:1@U004",
+          "406:1@U010"
+        ],
+        "direction": "positive",
+        "score_relation": "評価に寄与",
+        "condition_ids": [
+          "Overall.S4.C01",
+          "Overall.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "主張が明確で、具体的な例が提供されている",
+        "limits": "他の観点の誤りが全体の評価を引き下げている可能性がある",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U001",
+            "start": 0,
+            "end": 76,
+            "text": "Churchill statement is right because failing in life is part of succeeding. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U004",
+            "start": 266,
+            "end": 494,
+            "text": "My example is when i got pregnant my junior year and when I found out i just wanted to drop out because I was still a kid myself and I kept thinking how people would look at me or what would they say, but I already had an idea. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U010",
+            "start": 1010,
+            "end": 1388,
+            "text": "\r\nHere I am now my senior year, eight more months until I graduate and I'm proud of myself because I am a mother now and I'm still going to school, I didnt let that stop me from getting my education and I'm planning to go to college too because all I want is the best for my son and myself; its not me I have to think about now, I have another responsibility to look after for. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "406:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "文法と構文の誤り",
+        "span_ids": [
+          "406:1@U002",
+          "406:1@U004",
+          "406:1@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "評価を下げる",
+        "condition_ids": [
+          "Syntax.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "誤りが頻繁に見られる",
+        "limits": "誤りの頻度が全体の評価に影響する",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U002",
+            "start": 76,
+            "end": 178,
+            "text": "Those obsticals you go through in life are part of who you become and how you handle those obsticals. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U004",
+            "start": 266,
+            "end": 494,
+            "text": "My example is when i got pregnant my junior year and when I found out i just wanted to drop out because I was still a kid myself and I kept thinking how people would look at me or what would they say, but I already had an idea. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U008",
+            "start": 715,
+            "end": 820,
+            "text": "Of course a lot of friends stopped talking to me but that just proves who's there for you and who's not. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "406:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "表現の多様性不足",
+        "span_ids": [
+          "406:1@U001",
+          "406:1@U005",
+          "406:1@U011"
+        ],
+        "direction": "negative",
+        "score_relation": "評価を下げる",
+        "condition_ids": [
+          "Vocabulary.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "表現が限定的で、より複雑な単語やフレーズの使用が少ない",
+        "limits": "表現の多様性が全体の評価に影響する",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U001",
+            "start": 0,
+            "end": 76,
+            "text": "Churchill statement is right because failing in life is part of succeeding. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U005",
+            "start": 494,
+            "end": 558,
+            "text": "My parents didnt even support me so what motivation did I have? "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U011",
+            "start": 1388,
+            "end": 1547,
+            "text": "There are many examples of failing in life and later on succeeding but this is one I went through, I had to grow up fast but it made me the person I am today. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "406:1",
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "feature": "慣用句や熟語の使用の不適切さ",
+        "span_ids": [
+          "406:1@U002",
+          "406:1@U004",
+          "406:1@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "評価を下げる",
+        "condition_ids": [
+          "Phraseology.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "慣用句や熟語の使用が不適切で、誤用が見られる",
+        "limits": "慣用句や熟語の使用が全体の評価に影響する",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U002",
+            "start": 76,
+            "end": 178,
+            "text": "Those obsticals you go through in life are part of who you become and how you handle those obsticals. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U004",
+            "start": 266,
+            "end": 494,
+            "text": "My example is when i got pregnant my junior year and when I found out i just wanted to drop out because I was still a kid myself and I kept thinking how people would look at me or what would they say, but I already had an idea. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U008",
+            "start": 715,
+            "end": 820,
+            "text": "Of course a lot of friends stopped talking to me but that just proves who's there for you and who's not. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "評価が4である理由は、全体的な組織化と明確な主張が評価に寄与している一方で、文法や構文の誤り、表現の多様性不足、慣用句や熟語の使用の不適切さが評価を引き下げているためと考えられる。"
+  },
+  "timestamp": "2026-11-15T19:22:57.435468+09:00"
+}

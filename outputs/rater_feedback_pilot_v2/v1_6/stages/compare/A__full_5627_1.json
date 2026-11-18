@@ -1,0 +1,394 @@
+{
+  "fingerprint": "ab90a1f5eb0820229201e03a52d442fa61aec967958d674c61b0583b7bf7a5bc",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "5627:1/K1/C1",
+          "5627:1/K1/C2",
+          "5627:1/K1/C3",
+          "5627:1/K1/C4"
+        ],
+        "span_ids": [
+          "5627:1@U001",
+          "5627:1@U002",
+          "5627:1@U003",
+          "5627:1@U004",
+          "5627:1@U005",
+          "5627:1@U006",
+          "5627:1@U007",
+          "5627:1@U008",
+          "5627:1@U009",
+          "5627:1@U010",
+          "5627:1@U011",
+          "5627:1@U012",
+          "5627:1@U013",
+          "5627:1@U014",
+          "5627:1@U015",
+          "5627:1@U016",
+          "5627:1@U017",
+          "5627:1@U018",
+          "5627:1@U019",
+          "5627:1@U020",
+          "5627:1@U021",
+          "5627:1@U022",
+          "5627:1@U023",
+          "5627:1@U024",
+          "5627:1@U025",
+          "5627:1@U026",
+          "5627:1@U027",
+          "5627:1@U028",
+          "5627:1@U029",
+          "5627:1@U030",
+          "5627:1@U031"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "5627:1@U001",
+            "tokens": [
+              "My",
+              "Mom"
+            ],
+            "relation": "主語と目的語の関係",
+            "interpretation": "「My Mom」は文の主語であり、その後の「she」も同じ人物を指す。しかし、「she」の使用は冗長で、文の簡潔さを損なう可能性がある。",
+            "token_positions": [
+              {
+                "token": "My",
+                "start": 0,
+                "end": 2
+              },
+              {
+                "token": "Mom",
+                "start": 3,
+                "end": 6
+              }
+            ]
+          },
+          {
+            "span_id": "5627:1@U004",
+            "tokens": [
+              "whats",
+              "right"
+            ],
+            "relation": "指示代名詞と形容詞の関係",
+            "interpretation": "「whats」は「what's」の誤用で、「what's」が適切。この誤用は文の意味を理解する上で問題を引き起こす可能性がある。",
+            "token_positions": [
+              {
+                "token": "whats",
+                "start": 270,
+                "end": 275
+              },
+              {
+                "token": "right",
+                "start": 276,
+                "end": 281
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S3.C02",
+          "Grammar.S3.C01",
+          "Vocabulary.S3.C01",
+          "Syntax.S3.C02"
+        ],
+        "feature_confirmed": "文章は全体的に組織が保たれており、各段落が関連するアイデアを提供しているが、一部の段落間のつながりが不明瞭な場合がある。複雑な文の形成に課題があり、特に文の構造に誤りがあるが、単純な文は適切に形成されている。語彙の範囲が限定的で、より広範な単語の使用が見られないが、一部の単語は適切に使用されている。文法と慣用句の使用に誤りがあり、特に複雑な文の形成において。ただし、誤りがコミュニケーションを阻害するほど頻繁ではない。",
+        "inferred_judgment": "文章は全体的に組織が保たれており、各段落が関連するアイデアを提供しているが、一部の段落間のつながりが不明瞭な場合がある。複雑な文の形成に課題があり、特に文の構造に誤りがあるが、単純な文は適切に形成されている。語彙の範囲が限定的で、より広範な単語の使用が見られないが、一部の単語は適切に使用されている。文法と慣用句の使用に誤りがあり、特に複雑な文の形成において。ただし、誤りがコミュニケーションを阻害するほど頻繁ではない。",
+        "rubric_based_proposal": "Overall.S3.C02の条件を満たす。文章は全体的に組織が保たれており、各段落が関連するアイデアを提供しているが、一部の段落間のつながりが不明瞭な場合がある。複雑な文の形成に課題があり、特に文の構造に誤りがあるが、単純な文は適切に形成されている。語彙の範囲が限定的で、より広範な単語の使用が見られないが、一部の単語は適切に使用されている。文法と慣用句の使用に誤りがあり、特に複雑な文の形成において。ただし、誤りがコミュニケーションを阻害するほど頻繁ではない。",
+        "agreement_review_unknown": "文章の全体的な組織と文法の正確性が評価された理由は説明できるが、具体的な誤りの頻度や範囲は個々の文から推測しにくい場合がある。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "5627:1@U001",
+              "5627:1@U004"
+            ],
+            "finding": "「My Mom, she」の冗長性と「whats」の誤用が確認された。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "「My Mom, she」の冗長性と「whats」の誤用を確認する",
+          "where_span_ids": [
+            "5627:1@U001",
+            "5627:1@U004"
+          ],
+          "action": "冗長性と誤用を確認し、その影響を評価する",
+          "reason": "冗長性と誤用は文章の理解に影響を与える可能性があるため、確認が必要である。"
+        },
+        "scope_limit": "文章全体の組織と文法の正確性を評価する。",
+        "citations": [
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U001",
+            "start": 0,
+            "end": 117,
+            "text": "My Mom, she always shares wisdom with me and shows how to be a wise person and she also introduce me to this world.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U002",
+            "start": 117,
+            "end": 200,
+            "text": "\r\nOne day she decided to leave everything behind and start all over,because she\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U003",
+            "start": 200,
+            "end": 221,
+            "text": "wanted us to have\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U004",
+            "start": 221,
+            "end": 296,
+            "text": "a better life in the United States.She taught me whats right and wrong,\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U005",
+            "start": 296,
+            "end": 351,
+            "text": "she told me \"son always go for whats good but don't\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U006",
+            "start": 351,
+            "end": 380,
+            "text": "go through the bad path.\"\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U007",
+            "start": 380,
+            "end": 447,
+            "text": "When you learn from others experience you become a better person.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U008",
+            "start": 447,
+            "end": 477,
+            "text": "\r\nHowever don't learn from\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U009",
+            "start": 477,
+            "end": 517,
+            "text": "bad influences they'll bring you down.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U010",
+            "start": 517,
+            "end": 610,
+            "text": "\r\nfriends that are doing bad things are influences you don't need to follow their actions\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U011",
+            "start": 610,
+            "end": 708,
+            "text": "in order to become a better person just talk to a wise person they might give you a good advice.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U012",
+            "start": 708,
+            "end": 733,
+            "text": "\r\nMy Grandmother also\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U013",
+            "start": 733,
+            "end": 743,
+            "text": "shared\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U014",
+            "start": 743,
+            "end": 772,
+            "text": "how to do the right choices. "
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U015",
+            "start": 772,
+            "end": 780,
+            "text": "Once\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U016",
+            "start": 780,
+            "end": 811,
+            "text": "she told me doing the right\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U017",
+            "start": 811,
+            "end": 847,
+            "text": "choices will always have a reward.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U018",
+            "start": 847,
+            "end": 873,
+            "text": "\r\nso I always remember\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U019",
+            "start": 873,
+            "end": 895,
+            "text": "to do right choices.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U020",
+            "start": 895,
+            "end": 941,
+            "text": "\r\nIf you learn how to be a wise individual\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U021",
+            "start": 941,
+            "end": 969,
+            "text": "other people will follow\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U022",
+            "start": 969,
+            "end": 983,
+            "text": "your steps\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U023",
+            "start": 983,
+            "end": 995,
+            "text": "like M.L.K. "
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U024",
+            "start": 995,
+            "end": 1062,
+            "text": "and his famous I have a dream speech he was an example of wisdom.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U025",
+            "start": 1062,
+            "end": 1123,
+            "text": "\r\nIt is important to learn from the experiences of others\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U026",
+            "start": 1123,
+            "end": 1178,
+            "text": "because you want to be know as a person of character.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U027",
+            "start": 1178,
+            "end": 1220,
+            "text": "\r\nImagine being the person, the person\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U028",
+            "start": 1220,
+            "end": 1241,
+            "text": "you want to follow.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U029",
+            "start": 1241,
+            "end": 1290,
+            "text": "\r\nDo what your Mom says trust she's not lying\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U030",
+            "start": 1290,
+            "end": 1336,
+            "text": "one day you might not get that same advice\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U031",
+            "start": 1336,
+            "end": 1511,
+            "text": "wisdom shows what is true and what is right this is important in a person's life because you develop those skills that your Mom and Dad show you and use them when you grow up."
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C02",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "organization generally controlled although connection sometimes absent or unsuccessful;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 73,
+            "end": 160,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C01",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "Minimally adequate range of vocabulary for the topic;",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 0,
+            "end": 53,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S3.C02",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "some apparent errors in sentence formation, especially in more complex sentences.",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 94,
+            "end": 175,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:16:44.539276+09:00"
+}

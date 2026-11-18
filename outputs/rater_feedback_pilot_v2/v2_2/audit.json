@@ -1,0 +1,120 @@
+{
+  "timestamp": "2026-11-16T19:34:51.312762+09:00",
+  "phase": "three",
+  "source_files_unchanged": true,
+  "all_old_output_hashes_unchanged": true,
+  "verification_payloads": [
+    {
+      "path": "stage_inputs/verify/B__1514_1__K1.json",
+      "target_fields_exact": true,
+      "free_text_direct_scores_absent": true
+    },
+    {
+      "path": "stage_inputs/verify/B__1514_1__K2.json",
+      "target_fields_exact": true,
+      "free_text_direct_scores_absent": true
+    },
+    {
+      "path": "stage_inputs/verify/B__1868_1__K1.json",
+      "target_fields_exact": true,
+      "free_text_direct_scores_absent": true
+    },
+    {
+      "path": "stage_inputs/verify/B__1868_1__K2.json",
+      "target_fields_exact": true,
+      "free_text_direct_scores_absent": true
+    },
+    {
+      "path": "stage_inputs/verify/B__4902_1__K1.json",
+      "target_fields_exact": true,
+      "free_text_direct_scores_absent": true
+    },
+    {
+      "path": "stage_inputs/verify/B__4902_1__K2.json",
+      "target_fields_exact": true,
+      "free_text_direct_scores_absent": true
+    }
+  ],
+  "exact_citations": 71,
+  "final_sentences_with_lineage": 7,
+  "stage_calls": {
+    "generate": {
+      "calls": 7,
+      "success": 6,
+      "failed_attempts": 1
+    },
+    "verify": {
+      "calls": 6,
+      "success": 6,
+      "failed_attempts": 0
+    },
+    "ground": {
+      "calls": 10,
+      "success": 6,
+      "failed_attempts": 4
+    },
+    "merge": {
+      "calls": 3,
+      "success": 3,
+      "failed_attempts": 0
+    },
+    "integrate": {
+      "calls": 1,
+      "success": 1,
+      "failed_attempts": 0
+    },
+    "compare": {
+      "calls": 3,
+      "success": 3,
+      "failed_attempts": 0
+    },
+    "text": {
+      "calls": 1,
+      "success": 1,
+      "failed_attempts": 0
+    }
+  },
+  "failed_attempts": [
+    {
+      "stage": "ground",
+      "key": "B|1514:1|K1",
+      "attempt": 0,
+      "status": "failed",
+      "error": "AssertionError: Partial or composite support cannot be supported",
+      "raw_output": "{\"reviews\": [{\"claim_id\": \"C1\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay uses cohesive devices such as transitional phrases and examples to connect ideas across sentences and paragraphs, supporting the evaluation that the text organization is generally well-controlled.\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C2\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay includes a mix of simple, compound, and complex sentences, supporting the evaluation that there are occasional errors or inappropriateness in sentence formation, particularly in more complex sentences.\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C3\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay uses a minimally adequate range of vocabulary for the topic, supporting the evaluation that there are attempts to use less common vocabulary but with some inaccuracy.\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C4\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay contains some errors in grammar and usage, supporting the evaluation that there are occasional inaccuracies in grammar and usage, which can impede communication.\", \"added_span_ids\": [], \"counter_span_ids\": []}]}"
+    },
+    {
+      "stage": "ground",
+      "key": "B|1514:1|K2",
+      "attempt": 0,
+      "status": "failed",
+      "error": "AssertionError: Partial or composite support cannot be supported",
+      "raw_output": "{\"reviews\": [{\"claim_id\": \"C1\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"文章中确实提到了简单句和复合句的混合使用，但也有在更复杂的句子中出现的错误，这与语法判断一致。\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C2\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"文章中确实使用了基本范围的词汇，尝试使用不太常见的词汇，但有时不准确，这与词汇判断一致。\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C3\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"文章中确实包含了一些语法和用法错误，这与语法判断一致。\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C4\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"文章中确实展示了使用惯例来传达意义的发展，但有一些拼写、大写和标点符号的错误，这与惯例判断一致。\", \"added_span_ids\": [], \"counter_span_ids\": []}]}"
+    },
+    {
+      "stage": "generate",
+      "key": "B|1868:1|K1",
+      "attempt": 0,
+      "status": "failed",
+      "error": "JSONDecodeError: Unterminated string starting at: line 1 column 5717 (char 5716)",
+      "raw_output": "{\"claims\":[{\"claim_id\":\"C1\",\"scope\":\"target\",\"essay_id\":\"1868:1\",\"aspect\":\"Cohesion\",\"span_ids\":[\"1868:1@U001\",\"1868:1@U002\",\"1868:1@U003\",\"1868:1@U004\",\"1868:1@U005\",\"1868:1@U006\",\"1868:1@U007\",\"1868:1@U008\",\"1868:1@U009\",\"1868:1@U010\",\"1868:1@U011\",\"1868:1@U012\",\"1868:1@U013\",\"1868:1@U014\",\"1868:1@U015\",\"1868:1@U016\",\"1868:1@U017\",\"1868:1@U018\",\"1868:1@U019\",\"1868:1@U020\",\"1868:1@U021\",\"1868:1@U022\",\"1868:1@U023\",\"1868:1@U024\",\"1868:1@U025\",\"1868:1@U026\",\"1868:1@U027\",\"1868:1@U028\",\"1868:1@U029\",\"1868:1@U030\",\"1868:1@U031\",\"1868:1@U032\",\"1868:1@U033\",\"1868:1@U034\",\"1868:1@U035\",\"1868:1@U036\",\"1868:1@U037\",\"1868:1@U038\",\"1868:1@U039\",\"1868:1@U040\"],\"feature\":\"The essay uses cohesive devices such as transitional phrases and references to connect ideas, but there are some repetitive and mechanical uses.\",\"evaluation\":\"The organization is generally controlled, but the use of cohesive devices is limited and sometimes repetitive, which can affect the flow of ideas.\",\"judgment_type\":\"presence\",\"direction\":\"negative\",\"overall_relation\":\"The presence of repetitive cohesive devices impacts the overall coherence, but the general control of organization aligns with the overall score.\",\"trait_relation\":\"The repetitive use of cohesive devices is noted in the Cohesion score, but the overall control of organization is reflected in the overall score.\",\"limits\":\"The repetitive use of cohesive devices may not be consistent throughout the essay, and there may be instances where the flow is maintained without repetition.\"},{\"claim_id\":\"C2\",\"scope\":\"target\",\"essay_id\":\"1868:1\",\"aspect\":\"Syntax\",\"span_ids\":[\"1868:1@U001\",\"1868:1@U002\",\"1868:1@U003\",\"1868:1@U004\",\"1868:1@U005\",\"1868:1@U006\",\"1868:1@U007\",\"1868:1@U008\",\"1868:1@U009\",\"1868:1@U010\",\"1868:1@U011\",\"1868:1@U012\",\"1868:1@U013\",\"1868:1@U014\",\"1868:1@U015\",\"1868:1@U016\",\"1868:1@U017\",\"1868:1@U018\",\"1868:1@U019\",\"1868:1@U020\",\"1868:1@U021\",\"1868:1@U022\",\"1868:1@U023\",\"1868:1@U024\",\"1868:1@U025\",\"1868:1@U026\",\"1868:1@U027\",\"1868:1@U028\",\"1868:1@U029\",\"1868:1@U030\",\"1868:1@U031\",\"1868:1@U032\",\"1868:1@U033\",\"1868:1@U034\",\"1868:1@U035\",\"1868:1@U036\",\"1868:1@U037\",\"1868:1@U038\",\"1868:1@U039\",\"1868:1@U040\"],\"feature\":\"The essay includes a mix of simple, compound, and complex sentences, but there are occasional errors in sentence formation, especially in more complex sentences.\",\"evaluation\":\"The syntax is generally appropriate, but there are some errors in sentence formation that can affect the clarity of the message.\",\"judgment_type\":\"extent\",\"direction\":\"negative\",\"overall_relation\":\"The extent of syntactic errors impacts the overall clarity, but the general use of varied sentence structures aligns with the overall score.\",\"trait_relation\":\"The syntactic errors are noted in the Syntax score, but the varied sentence structures are reflected in the overall score.\",\"limits\":\"The syntactic errors may not be consistent throughout the essay, and there may be instances where the sentence structures are clear and varied.\"},{\"claim_id\":\"C3\",\"scope\":\"target\",\"essay_id\":\"1868:1\",\"aspect\":\"Vocabulary\",\"span_ids\":[\"1868:1@U001\",\"1868:1@U002\",\"1868:1@U003\",\"1868:1@U004\",\"1868:1@U005\",\"1868:1@U006\",\"1868:1@U007\",\"1868:1@U008\",\"1868:1@U009\",\"1868:1@U010\",\"1868:1@U011\",\"1868:1@U012\",\"1868:1@U013\",\"1868:1@U014\",\"1868:1@U015\",\"1868:1@U016\",\"1868:1@U017\",\"1868:1@U018\",\"1868:1@U019\",\"1868:1@U020\",\"1868:1@U021\",\"1868:1@U022\",\"1868:1@U023\",\"1868:1@U024\",\"1868:1@U025\",\"1868:1@U026\",\"1868:1@U027\",\"1868:1@U028\",\"1868:1@U029\",\"1868:1@U030\",\"1868:1@U031\",\"1868:1@U032\",\"1868:1@U033\",\"1868:1@U034\",\"1868:1@U035\",\"1868:1@U036\",\"1868:1@U037\",\"1868:1@U038\",\"1868:1@U039\",\"1868:1@U040\"],\"feature\":\"The essay uses a minimally adequate range of vocabulary for the topic, with attempts to use less common vocabulary but with some inaccuracy.\",\"evaluation\":\"The vocabulary is minimally adequate, but there are some inaccuracies in the use of less common words, which can affect the precision of the message.\",\"judgment_type\":\"appropriateness\",\"direction\":\"negative\",\"overall_relation\":\"The appropriateness of vocabulary impacts the overall precision, but the minimally adequate range aligns with the overall score.\",\"trait_relation\":\"The vocabulary inaccuracies are noted in the Vocabulary score, but the minimally adequate range is reflected in the overall score.\",\"limits\":\"The vocabulary inaccuracies may not be consistent throughout the essay, and there may be instances where the vocabulary is used accurately and effectively.\"},{\"claim_id\":\"C4\",\"scope\":\"target\",\"essay_id\":\"1868:1\",\"aspect\":\"Grammar\",\"span_ids\":[\"1868:1@U001\",\"1868:1@U002\",\"1868:1@U003\",\"1868:1@U004\",\"1868:1@U005\",\"1868:1@U006\",\"1868:1@U007\",\"1868:1@U008\",\"1868:1@U009\",\"1868:1@U010\",\"1868:1@U011\",\"1868:1@U012\",\"1868:1@U013\",\"1868:1@U014\",\"1868:1@U015\",\"1868:1@U016\",\"1868:1@U017\",\"1868:1@U018\",\"1868:1@U019\",\"1868:1@U020\",\"1868:1@U021\",\"1868:1@U022\",\"1868:1@U023\",\"1868:1@U024\",\"1868:1@U025\",\"1868:1@U026\",\"1868:1@U027\",\"1868:1@U028\",\"1868:1@U029\",\"1868:1@U030\",\"1868:1@U031\",\"1868:1@U032\",\"1868:1@U033\",\"1868:1@U034\",\"1868:1@U035\",\"1868:1@U036\",\"1868:1@U037\",\"1868:1@U038\",\"1868:1@U039\",\"1868:1@U040\"],\"feature\":\"The essay contains some errors in grammar and usage, but the majority of the sentences are grammatically correct.\",\"evaluation\":\"The grammar is generally accurate, but there are some errors that can affect the clarity and correctness of the message.\",\"judgment_type\":\"impact\",\"direction\":\"negative\",\"overall_relation\":\"The impact of grammatical errors on the overall clarity and correctness aligns with the overall score.\",\"trait_relation\":\"The grammatical errors are noted in the Grammar score, but the overall accuracy is reflected in the overall score.\",\"limits\":\"The grammatical"
+    },
+    {
+      "stage": "ground",
+      "key": "B|4902:1|K1",
+      "attempt": 0,
+      "status": "failed",
+      "error": "AssertionError: Partial or composite support cannot be supported",
+      "raw_output": "{\"reviews\": [{\"claim_id\": \"C1\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay uses cohesive devices but with repetitive usage, such as 'but' and 'don't you want to', which aligns with the feature and evaluation.\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C2\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay includes simple and compound sentences but has occasional errors in sentence formation, especially in more complex sentences, which aligns with the feature and evaluation.\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C3\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay uses a minimally adequate range of vocabulary with occasional attempts to use less common vocabulary but with some inaccuracy, which aligns with the feature and evaluation.\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C4\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay contains some errors in grammar and usage, such as 'i agree' and 'friend are't', but they are not frequent, which aligns with the feature and evaluation.\", \"added_span_ids\": [], \"counter_span_ids\": []}]}"
+    },
+    {
+      "stage": "ground",
+      "key": "B|4902:1|K2",
+      "attempt": 0,
+      "status": "failed",
+      "error": "AssertionError: Additional evidence must be explicitly new",
+      "raw_output": "{\"reviews\": [{\"claim_id\": \"C1\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay uses some cohesive devices but has repetitive and mechanical uses, which is reflected in the evaluation of generally controlled organization but sometimes unsuccessful connections between ideas.\", \"added_span_ids\": [\"4902:1@U001\", \"4902:1@U002\", \"4902:1@U003\", \"4902:1@U004\", \"4902:1@U005\", \"4902:1@U006\", \"4902:1@U007\", \"4902:1@U008\", \"4902:1@U009\", \"4902:1@U010\", \"4902:1@U011\", \"4902:1@U012\"], \"counter_span_ids\": []}, {\"claim_id\": \"C2\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay includes simple, compound, and complex sentences, but there are some apparent errors in sentence formation, which is reflected in the evaluation of present syntactic structures but problematic formation of more complex sentences.\", \"added_span_ids\": [\"4902:1@U001\", \"4902:1@U002\", \"4902:1@U003\", \"4902:1@U004\", \"4902:1@U005\", \"4902:1@U006\", \"4902:1@U007\", \"4902:1@U008\", \"4902:1@U009\", \"4902:1@U010\", \"4902:1@U011\", \"4902:1@U012\"], \"counter_span_ids\": []}, {\"claim_id\": \"C3\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay uses a minimally adequate range of vocabulary with attempts to use less common vocabulary but with some inaccuracy, which is reflected in the evaluation of sufficient vocabulary but occasional inaccuracies.\", \"added_span_ids\": [\"4902:1@U001\", \"4902:1@U002\", \"4902:1@U003\", \"4902:1@U004\", \"4902:1@U005\", \"4902:1@U006\", \"4902:1@U007\", \"4902:1@U008\", \"4902:1@U009\", \"4902:1@U010\", \"4902:1@U011\", \"4902:1@U012\"], \"counter_span_ids\": []}, {\"claim_id\": \"C4\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay contains some errors in grammar and usage, which is reflected in the evaluation of present errors but not significantly impeding communication.\", \"added_span_ids\": [\"4902:1@U001\", \"4902:1@U002\", \"4902:1@U003\", \"4902:1@U004\", \"4902:1@U005\", \"4902:1@U006\", \"4902:1@U007\", \"4902:1@U008\", \"4902:1@U009\", \"4902:1@U010\", \"4902:1@U011\", \"4902:1@U012\"], \"counter_span_ids\": []}]}"
+    }
+  ],
+  "limitation": "Mechanical checks do not establish semantic correctness; Codex review is development review, not independent human evaluation."
+}

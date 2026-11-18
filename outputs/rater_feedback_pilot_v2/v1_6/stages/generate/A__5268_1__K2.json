@@ -1,0 +1,206 @@
+{
+  "fingerprint": "a738d50fce7a61faae85d0fd95c925df46d6d130fb31c10b9b244effbc8eb82f",
+  "result": {
+    "rationale": "文章組織は一般的に制御されているが、複雑な文法構造の使用に誤りがあり、単語の選択が時折正確でない。全体的なコミュニケーションは、言語の不正確さにより一部阻害される。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "一般的に制御された組織",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U002",
+          "5268:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章は全体的に論理的に展開されている。",
+        "limits": "一部の文は複雑な構造を持つが、全体的な組織は明確である。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U001",
+            "start": 0,
+            "end": 71,
+            "text": "Ever since, we were kids we started choosing our own character traits. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U002",
+            "start": 71,
+            "end": 176,
+            "text": "it can be good or bad based of the environment we live in, how we were raised, and personal experiences. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U003",
+            "start": 176,
+            "end": 275,
+            "text": "But we can always change our character traits, it's similar to an opinion on something or someone. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文法構造の誤り",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U005",
+          "5268:1@U015"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文法構造の使用に誤りがある。",
+        "limits": "一部の文は単純な構造を持つが、複雑な文法構造の誤りが存在する。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U001",
+            "start": 0,
+            "end": 71,
+            "text": "Ever since, we were kids we started choosing our own character traits. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U005",
+            "start": 303,
+            "end": 436,
+            "text": "we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.\r\n"
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U015",
+            "start": 1253,
+            "end": 1470,
+            "text": "Unlike,most kids that dont care about the consequences nor judgments, kids usually choose careless traits but as they get older and become adults, they realized their mistakes and they choose traits with precautions. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "feature": "単語の選択が時折正確でない",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U005",
+          "5268:1@U011"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C04"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語の選択が時折正確でない。",
+        "limits": "一部の単語は適切に使用されているが、全体的に正確さに欠ける。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U001",
+            "start": 0,
+            "end": 71,
+            "text": "Ever since, we were kids we started choosing our own character traits. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U005",
+            "start": 303,
+            "end": 436,
+            "text": "we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.\r\n"
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U011",
+            "start": 917,
+            "end": 1095,
+            "text": "But, they miss the fact that character trait is not about the things we can't change, its about the things we can change and decide for ourselves to become a better person or\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "文法と使用の誤り",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U005",
+          "5268:1@U015"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と使用の誤りがある。",
+        "limits": "一部の文は正確だが、全体的に誤りが存在する。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U001",
+            "start": 0,
+            "end": 71,
+            "text": "Ever since, we were kids we started choosing our own character traits. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U005",
+            "start": 303,
+            "end": 436,
+            "text": "we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.\r\n"
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U015",
+            "start": 1253,
+            "end": 1470,
+            "text": "Unlike,most kids that dont care about the consequences nor judgments, kids usually choose careless traits but as they get older and become adults, they realized their mistakes and they choose traits with precautions. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体的なコミュニケーションが言語の不正確さにより阻害される具体的な例が不明瞭。"
+  },
+  "timestamp": "2026-11-15T19:13:33.507001+09:00"
+}

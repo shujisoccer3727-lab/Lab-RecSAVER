@@ -1,0 +1,116 @@
+{
+  "candidate_key": "B|1514:1|K1",
+  "masked_reason": {
+    "rationale": "文章の組織と文法は比較的良好だが、語彙の使用と文法の正確性に若干の問題がある。複雑な文法構造の使用は限られており、一部の単語の使用が正確でない。",
+    "unexplained": "Hitlerの例が適切かどうかは議論の余地がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U002",
+          "1514:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "文章の組織と文法は比較的良好",
+        "score_relation": "一致",
+        "support_explanation": "文章の組織と文法は比較的良好で、全体的な流れは理解しやすい。",
+        "limits": "文法構造の多様性が不足している可能性がある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "span_ids": [
+          "1514:1@U005",
+          "1514:1@U006",
+          "1514:1@U007"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "語彙の使用に若干の問題がある",
+        "score_relation": "一致",
+        "support_explanation": "語彙の使用に若干の問題があり、正確さに欠ける部分がある。",
+        "limits": "一部の単語の使用が正確でないが、全体的な意味伝達に影響は少ない。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "span_ids": [
+          "1514:1@U008",
+          "1514:1@U010",
+          "1514:1@U011"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "文法の正確性に若干の問題がある",
+        "score_relation": "一致",
+        "support_explanation": "文法の正確性に若干の問題があり、誤りが見られる。",
+        "limits": "誤りが頻繁ではないが、正確さに影響する可能性がある。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "span_ids": [
+          "1514:1@U012",
+          "1514:1@U013",
+          "1514:1@U014"
+        ],
+        "aspect": "Syntax",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "複雑な文法構造の使用は限られている",
+        "score_relation": "一致",
+        "support_explanation": "複雑な文法構造の使用は限られており、文の多様性に欠ける。",
+        "limits": "複雑な文法構造の使用が限られているが、全体的な意味伝達に影響は少ない。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Vocabulary.S3.C04"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Syntax.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

@@ -1,0 +1,86 @@
+{
+  "fingerprint": "0611ea26f46555e810ee02f66bf7ce927bf22c00d0967ae2b6091e59f3444955",
+  "result": {
+    "groups": [
+      {
+        "summary": "言語の使用に多様な文法構造と単語の範囲が見られ、文法と規則の正確さが保たれているが、まれな言語の不正確さがある。",
+        "claim_ids": [
+          "8538:1/K1/C1",
+          "8538:1/K1/C3",
+          "8538:1/K2/C1",
+          "8538:1/K2/C4"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "組織が制御されているが、一部の接続詞の使用が適切でない可能性がある。",
+        "claim_ids": [
+          "8538:1/K1/C2",
+          "8538:1/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "トピックに関連する用語が適切に使用されている。",
+        "claim_ids": [
+          "8538:1/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "まれな言語の不正確さがある。",
+        "claim_ids": [
+          "8538:1/K1/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "differences": [
+      {
+        "description": "文法と規則の正確さが保たれているが、まれな言語の不正確さがある。",
+        "claim_ids": [
+          "8538:1/K1/C3",
+          "8538:1/K2/C4"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "description": "言語の使用に柔軟性があり、文法と規則の正確さも保たれている。",
+        "claim_ids": [
+          "8538:1/K2/C1"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "組織が制御されているが、一部の接続詞の使用が適切でない可能性がある。",
+        "claim_ids": [
+          "8538:1/K1/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "組織が制御されており、適切な接続詞とトピックに関連する用語が使用されている。",
+        "claim_ids": [
+          "8538:1/K2/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "トピックに関連する用語が適切に使用されている。",
+        "claim_ids": [
+          "8538:1/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "まれな言語の不正確さがある。",
+        "claim_ids": [
+          "8538:1/K1/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:00:13.077623+09:00"
+}

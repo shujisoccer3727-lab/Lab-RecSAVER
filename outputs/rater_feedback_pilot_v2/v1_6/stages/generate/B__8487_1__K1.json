@@ -1,0 +1,178 @@
+{
+  "fingerprint": "48d7cdf338251e67bc5e75633dbd23244985fc7f4fcb5a14635b46eac169831b",
+  "result": {
+    "rationale": "文章組織が不明瞭で、文法と構文に多くの誤りがあり、単語の選択とフレーズの使用が制限的で正確性に欠けるため、コミュニケーションが阻害される。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Overall",
+        "kind": "communication",
+        "feature": "文章組織が不明瞭で、文法と構文に多くの誤りがあり。",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Overall.S2.C01",
+          "Overall.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と構文の誤りが頻繁に見られる。",
+        "limits": "全体の頻度を断定しない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U002",
+            "start": 293,
+            "end": 447,
+            "text": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Cohesion",
+        "kind": "organization",
+        "feature": "文章のつながりが不明瞭で、論理的な順序が欠けている。",
+        "span_ids": [
+          "8487:1@U003",
+          "8487:1@U004"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Cohesion.S2.C01",
+          "Cohesion.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章のつながりが不明瞭。",
+        "limits": "全体の頻度を断定しない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U003",
+            "start": 447,
+            "end": 496,
+            "text": "example you dont have money you something not\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U004",
+            "start": 496,
+            "end": 552,
+            "text": "earing you need to pay the rent you phone some thing\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "単語の選択が制限的で、正確性に欠ける。",
+        "span_ids": [
+          "8487:1@U005",
+          "8487:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Vocabulary.S2.C01",
+          "Vocabulary.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語の選択が制限的。",
+        "limits": "全体の頻度を断定しない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U005",
+            "start": 552,
+            "end": 766,
+            "text": "you life are sad and this is how the people die because they drink you think a bad things in your head you smook marihuana or other sustances this people are not have future in the life they dont have a nothing\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U006",
+            "start": 766,
+            "end": 847,
+            "text": "planing the life they think in only drink and bad things are you going to die\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "feature": "フレーズの使用が制限的で、誤用が多い。",
+        "span_ids": [
+          "8487:1@U007",
+          "8487:1@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Phraseology.S2.C01",
+          "Phraseology.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "フレーズの使用が制限的。",
+        "limits": "全体の頻度を断定しない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U007",
+            "start": 847,
+            "end": 1135,
+            "text": "my mom tell me one day i not in this life for so much time so you are lonely and i need to know you have your goals you need to complete the school you need the paper to say you graduate if you not finish school you are not nothing in your life because the principal thing if you need\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U008",
+            "start": 1135,
+            "end": 1207,
+            "text": "is graduate for star your goals and the other thing you have planing\r\n\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体の頻度を断定しない。"
+  },
+  "timestamp": "2026-11-15T19:29:57.373216+09:00"
+}

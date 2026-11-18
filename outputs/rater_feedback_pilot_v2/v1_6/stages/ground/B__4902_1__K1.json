@@ -1,0 +1,32 @@
+{
+  "fingerprint": "345ce3632d61fb95cd42b8d0ed1ea2ebf4f654180967485760fd19ac7c17a829",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "本文のアイデアのつながりが完全でないことが観測評価と一致しています。特に、主張と反対意見の間のつながりが不明瞭です。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "複雑な文の形成に課題があることが観測評価と一致しています。特に、文の構造が不明瞭な部分があります。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "単語の使用に正確さがないことが観測評価と一致しています。具体的な単語の使用の正確さに問題がある部分が見られます。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "文法の誤りがあることが観測評価と一致しています。具体的な文法の誤りが見られます。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:55:53.255420+09:00"
+}

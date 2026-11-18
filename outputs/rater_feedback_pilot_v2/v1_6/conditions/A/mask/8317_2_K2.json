@@ -1,0 +1,112 @@
+{
+  "candidate_key": "A|8317:2|K2",
+  "masked_reason": {
+    "rationale": "本文は、家庭学習の利点を説明するが、文法と構成に一貫性があり、適切な単語とフレーズを使用している。しかし、文法と構文に時折誤りがあり、文章のつながりが完全ではない。全体的にコミュニケーションは妨げられないが、改善の余地がある。",
+    "unexplained": "文法と構文の誤りの頻度とその影響について詳細な説明が不足している。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "適切な単語とフレーズの使用",
+        "score_relation": "一致",
+        "support_explanation": "適切な単語とフレーズが使用されている。",
+        "limits": "一部の単語が適切でない可能性がある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U003",
+          "8317:2@U004"
+        ],
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "direction": "negative",
+        "feature": "文章のつながりが完全ではない",
+        "score_relation": "不一致",
+        "support_explanation": "文章のつながりが完全ではないが、一部の文章はつながっている。",
+        "limits": "一部の文章はつながりが不明瞭である。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U005",
+          "8317:2@U006"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "文法と構文に時折誤りがある",
+        "score_relation": "不一致",
+        "support_explanation": "文法と構文に時折誤りがある。",
+        "limits": "誤りの頻度が不明瞭である。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U007",
+          "8317:2@U008"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "文法と使用に最小限の誤りがある",
+        "score_relation": "一致",
+        "support_explanation": "文法と使用に最小限の誤りがある。",
+        "limits": "誤りの頻度が不明瞭である。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Cohesion.S4.C03"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Syntax.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Grammar.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

@@ -1,0 +1,120 @@
+{
+  "candidate_key": "B|8690:2|K1",
+  "masked_reason": {
+    "rationale": "文章組織は一般的に制御されているが、接続詞や転換語の使用が限られている。文法と慣用句の使用にはいくつかの誤りがあり、コミュニケーションが一部阻害される。単純な文法構造が主に使用され、複雑な文では誤りが見られる。",
+    "unexplained": "全体の組織と単語の範囲は制御されているが、接続詞や転換語の使用が限られているため、一部の段落間のつながりが不明瞭な場合がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "span_ids": [
+          "8690:2@U001",
+          "8690:2@U002",
+          "8690:2@U003"
+        ],
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "組織は制御されているが、接続詞や転換語の使用が限られている。",
+        "score_relation": "一致",
+        "support_explanation": "組織は制御されているが、接続詞や転換語の使用が限られている。",
+        "limits": "一部の段落間のつながりが不明瞭な場合がある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "span_ids": [
+          "8690:2@U004",
+          "8690:2@U005",
+          "8690:2@U006"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "文法と慣用句の使用にはいくつかの誤りがある。",
+        "score_relation": "一致",
+        "support_explanation": "文法と慣用句の使用にはいくつかの誤りがある。",
+        "limits": "誤りの頻度が全体のコミュニケーションに影響を与える可能性がある。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "span_ids": [
+          "8690:2@U007",
+          "8690:2@U008",
+          "8690:2@U009"
+        ],
+        "aspect": "Syntax",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "単純な文法構造が主に使用され、複雑な文では誤りが見られる。",
+        "score_relation": "一致",
+        "support_explanation": "単純な文法構造が主に使用され、複雑な文では誤りが見られる。",
+        "limits": "複雑な文の誤りがコミュニケーションを阻害する可能性がある。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "span_ids": [
+          "8690:2@U010",
+          "8690:2@U011",
+          "8690:2@U012"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "direction": "negative",
+        "feature": "単語の範囲は十分だが、微妙な単語の意味の正確な使用は見られない。",
+        "score_relation": "一致",
+        "support_explanation": "単語の範囲は十分だが、微妙な単語の意味の正確な使用は見られない。",
+        "limits": "単語の範囲が十分であるが、正確な使用が不足している。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Cohesion.S3.C01",
+        "Cohesion.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Grammar.S3.C01",
+        "Phraseology.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Syntax.S3.C01",
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Vocabulary.S3.C01",
+        "Vocabulary.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

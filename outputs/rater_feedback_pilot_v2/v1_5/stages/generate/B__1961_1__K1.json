@@ -1,0 +1,113 @@
+{
+  "fingerprint": "19d10db0f0e23e1b9c3ff19ef89548916fa80e56e87fee656a3caf6a52b3faf3",
+  "result": {
+    "rationale": "文章展示了良好的组织结构和语法使用，但词汇选择和句法结构的多样性有限。文章中的语法错误较少，但存在一些词汇使用不当的情况。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章展示了良好的组织结构和语法使用",
+        "span_ids": [
+          "1961:1@U001",
+          "1961:1@U002",
+          "1961:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "支持高分",
+        "condition_ids": [
+          "Overall.S5.C02",
+          "Grammar.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章结构清晰，段落间逻辑连贯，语法错误极少。",
+        "limits": "词汇和句法结构的多样性有限。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U001",
+            "start": 0,
+            "end": 61,
+            "text": "If you could visit one place in the world where would it be? "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U002",
+            "start": 61,
+            "end": 111,
+            "text": "One place that I would like to visit is Pakistan. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U003",
+            "start": 111,
+            "end": 171,
+            "text": "Here are some reasons why I would like to visit this place. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "词汇选择和句法结构的多样性有限",
+        "span_ids": [
+          "1961:1@U004",
+          "1961:1@U005",
+          "1961:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "影响高分",
+        "condition_ids": [
+          "Vocabulary.S5.C01",
+          "Syntax.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章中使用了有限的词汇和句法结构。",
+        "limits": "词汇和句法结构的多样性不足。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U004",
+            "start": 171,
+            "end": 206,
+            "text": "First, it is known for it's parks. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U005",
+            "start": 206,
+            "end": 237,
+            "text": "Secondly, the food is amazing. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U006",
+            "start": 237,
+            "end": 284,
+            "text": "Lastly, Pakistan is one of the nicest culture. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文章中存在一些词汇使用不当的情况，但未明确影响整体评分。"
+  },
+  "timestamp": "2026-11-15T18:21:04.133053+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_3/stages/generate/B__1961_1__K1.json",
+  "source_fingerprint": "da8c35d6ba55cf7109fe6625d779eae49971c5cec4965c0936e9d890ce921e43",
+  "reuse_recorded_at": "2026-11-15T18:46:26.620558+09:00"
+}

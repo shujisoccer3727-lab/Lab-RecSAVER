@@ -1,0 +1,158 @@
+{
+  "candidate_key": "A|4902:1|K2",
+  "masked_reason": {
+    "rationale": "文章の組織と文法の正確性が一般的に制御されており、一部の言語的不正確さがコミュニケーションを妨げている。",
+    "unexplained": "文法と使用の誤りがコミュニケーションを阻害する頻度について具体的な評価が難しい。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "組織が一般的に制御されているが、一部の言語的不正確さが存在する",
+        "score_relation": "一致",
+        "support_explanation": "文章の組織は全体的に制御されているが、言語的不正確さが存在する。",
+        "limits": "一部の不正確さがコミュニケーションを妨げているが、全体的な組織は制御されている。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "組織が一般的に制御されているが、一部の繋ぎが不適切",
+        "score_relation": "一致",
+        "support_explanation": "組織は全体的に制御されているが、一部の繋ぎが不適切。",
+        "limits": "一部の繋ぎが不適切だが、全体的な組織は制御されている。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文法と使用にいくつかの誤りがある",
+        "score_relation": "一致",
+        "support_explanation": "文法と使用にいくつかの誤りがある。",
+        "limits": "誤りが存在するが、全体的なコミュニケーションは制御されている。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "aspect": "Conventions",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "スペリング、大文字、句読点の誤りが時々存在する",
+        "score_relation": "一致",
+        "support_explanation": "スペリング、大文字、句読点の誤りが時々存在する。",
+        "limits": "誤りが存在するが、全体的なコミュニケーションは制御されている。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C01",
+        "Overall.S3.C02",
+        "Overall.S3.C03",
+        "Overall.S3.C04"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Cohesion.S3.C01",
+        "Cohesion.S3.C02",
+        "Cohesion.S3.C03"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Conventions.S3.C01",
+        "Conventions.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

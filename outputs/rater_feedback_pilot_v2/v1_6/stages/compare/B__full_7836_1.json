@@ -1,0 +1,257 @@
+{
+  "fingerprint": "e4b0ede49688ed3f84e08f2f6e34e7057a0ca3ed5eeee65421712b8a26cd48fc",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "7836:1/K1/C1",
+          "7836:1/K1/C2",
+          "7836:1/K1/C3",
+          "7836:1/K1/C4"
+        ],
+        "span_ids": [
+          "7836:1@U002",
+          "7836:1@U004",
+          "7836:1@U005",
+          "7836:1@U003"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "7836:1@U002",
+            "tokens": [
+              "student",
+              "want",
+              "to",
+              "required",
+              "for",
+              "community",
+              "service"
+            ],
+            "relation": "Subject-Verb Agreement",
+            "interpretation": "「student want」は主語と動詞の一致に問題がある。この誤りは文の意味を理解する上で阻害要因となる。",
+            "token_positions": [
+              {
+                "token": "student",
+                "start": 34,
+                "end": 41
+              },
+              {
+                "token": "want",
+                "start": 42,
+                "end": 46
+              },
+              {
+                "token": "to",
+                "start": 47,
+                "end": 49
+              },
+              {
+                "token": "required",
+                "start": 50,
+                "end": 58
+              },
+              {
+                "token": "for",
+                "start": 59,
+                "end": 62
+              },
+              {
+                "token": "community",
+                "start": 63,
+                "end": 72
+              },
+              {
+                "token": "service",
+                "start": 73,
+                "end": 80
+              }
+            ]
+          },
+          {
+            "span_id": "7836:1@U004",
+            "tokens": [
+              "they",
+              "can't",
+              "make",
+              "students",
+              "to",
+              "do",
+              "community",
+              "service"
+            ],
+            "relation": "Infinitive Usage",
+            "interpretation": "「make students to do」は「make students do」の形が適切である。この誤用は文の正確性を損なう。",
+            "token_positions": [
+              {
+                "token": "they",
+                "start": 152,
+                "end": 156
+              },
+              {
+                "token": "can't",
+                "start": 157,
+                "end": 162
+              },
+              {
+                "token": "make",
+                "start": 163,
+                "end": 167
+              },
+              {
+                "token": "students",
+                "start": 172,
+                "end": 180
+              },
+              {
+                "token": "to",
+                "start": 181,
+                "end": 183
+              },
+              {
+                "token": "do",
+                "start": 184,
+                "end": 186
+              },
+              {
+                "token": "community",
+                "start": 187,
+                "end": 196
+              },
+              {
+                "token": "service",
+                "start": 197,
+                "end": 204
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S3.C03",
+          "Grammar.S3.C01",
+          "Syntax.S3.C02",
+          "Vocabulary.S3.C01",
+          "Phraseology.S3.C02"
+        ],
+        "feature_confirmed": "主語と動詞の一致の問題と不定詞の使用誤りが確認された。",
+        "inferred_judgment": "これらの誤りはコミュニケーションに影響を与えるが、全体的な理解は可能である。",
+        "rubric_based_proposal": "Overall.S3.C03の条件を満たす。文法と構文の誤りがコミュニケーションを阻害するが、全体的な理解は可能である。",
+        "agreement_review_unknown": "主語と動詞の一致の問題と不定詞の使用誤りが確認されたが、全体的な頻度は不明瞭。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "7836:1@U002",
+              "7836:1@U004"
+            ],
+            "finding": "主語と動詞の一致の問題と不定詞の使用誤りが確認された。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "主語と動詞の一致と不定詞の使用",
+          "where_span_ids": [
+            "7836:1@U002",
+            "7836:1@U004"
+          ],
+          "action": "主語と動詞の一致と不定詞の使用を確認する",
+          "reason": "これらの誤りがコミュニケーションに影響を与える可能性があるため。"
+        },
+        "scope_limit": "主語と動詞の一致と不定詞の使用の確認",
+        "citations": [
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U002",
+            "start": 19,
+            "end": 82,
+            "text": "I think if the student want to required for community service. "
+          },
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U004",
+            "start": 135,
+            "end": 232,
+            "text": "I am pretty sure they can't make the students to do community service because the parents won't. "
+          },
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U005",
+            "start": 232,
+            "end": 331,
+            "text": "But if the student get in trouble then yes they have to because they have to do community service. "
+          },
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U003",
+            "start": 82,
+            "end": 135,
+            "text": "They cant make the students to do community service. "
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C03",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "errors in grammar and syntax and usage.",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 161,
+            "end": 200,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S3.C02",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "some apparent errors in sentence formation, especially in more complex sentences.",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 94,
+            "end": 175,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C01",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "Minimally adequate range of vocabulary for the topic;",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 0,
+            "end": 53,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Phraseology.S3.C02",
+            "aspect": "Phraseology",
+            "level": 3,
+            "text": "some noticeable repetitions and misuses.",
+            "parent_id": "Phraseology.S3",
+            "parent_text": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+            "start": 99,
+            "end": 139,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:51:52.606432+09:00"
+}

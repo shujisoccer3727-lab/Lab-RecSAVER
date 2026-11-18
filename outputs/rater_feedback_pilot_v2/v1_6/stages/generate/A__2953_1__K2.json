@@ -1,0 +1,206 @@
+{
+  "fingerprint": "a46f84846ae10124245fb761913ea5039ed64af0e10f33dd0ccd4c317b98efc4",
+  "result": {
+    "rationale": "文章の組織と文法に一貫性があり、基本的なアイデアは伝わるが、複雑な文の形成や正確な単語の使用に問題がある。また、スペルや句読点の誤りが見られる。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "組織と文法の基本的な一貫性",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U002",
+          "2953:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "評価に反映",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章の組織と文法の基本的な一貫性が確認できる。",
+        "limits": "複雑な文の形成や正確な単語の使用に問題がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U001",
+            "start": 0,
+            "end": 313,
+            "text": "The author Waldo Emerson wrote a statement or quote that it say ,\"Unless you try to do something beyond what you have already mastered, you will never grow\" basing on my point of view or experiences, I agree with him, I think the same, we will never grow if we keep doing the samething that we already mastered.\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U002",
+            "start": 313,
+            "end": 409,
+            "text": "\r\nI'm taking this position on this issue becasue I have my reasos to sopport my position and\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U003",
+            "start": 409,
+            "end": 423,
+            "text": "to explain\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文の形成に問題がある",
+        "span_ids": [
+          "2953:1@U004",
+          "2953:1@U005",
+          "2953:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に反映",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に問題があることが確認できる。",
+        "limits": "基本的な文の形成は一貫している。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U004",
+            "start": 423,
+            "end": 450,
+            "text": "why this author is right.\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U005",
+            "start": 450,
+            "end": 528,
+            "text": "\r\nFirst reason is on point of view if you're already mastered in something\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U006",
+            "start": 528,
+            "end": 584,
+            "text": "and you're keep doing it , to be better or go beyond\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "feature": "単語の使用に誤りがある",
+        "span_ids": [
+          "2953:1@U007",
+          "2953:1@U008",
+          "2953:1@U009"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に反映",
+        "condition_ids": [
+          "Vocabulary.S3.C04"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語の使用に誤りがあることが確認できる。",
+        "limits": "基本的な単語の使用は適切である。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U007",
+            "start": 584,
+            "end": 708,
+            "text": "then my opinion is that you're wasting your time on something unnesesary because you're already mastered , just be happy\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U008",
+            "start": 708,
+            "end": 757,
+            "text": "with what you have and knows a sample are the\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U009",
+            "start": 757,
+            "end": 890,
+            "text": "Childrens they always wanna something if they have it they want more and more or when they are playing they wanna play possiblely\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "aspect": "Conventions",
+        "kind": "frequency",
+        "feature": "スペルや句読点の誤りがある",
+        "span_ids": [
+          "2953:1@U010",
+          "2953:1@U011",
+          "2953:1@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に反映",
+        "condition_ids": [
+          "Conventions.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "スペルや句読点の誤りがあることが確認できる。",
+        "limits": "誤りは一部に限られる。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U010",
+            "start": 890,
+            "end": 905,
+            "text": "the all day\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U011",
+            "start": 905,
+            "end": 1024,
+            "text": "when they realize the day is already gone but they don't care because they think that they have enough time to play\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U012",
+            "start": 1024,
+            "end": 1051,
+            "text": "so it is the same with us. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文の組織や文法の正確性についての詳細な評価が不明瞭。"
+  },
+  "timestamp": "2026-11-15T19:28:25.680152+09:00"
+}

@@ -1,0 +1,162 @@
+{
+  "masked_reason": {
+    "rationale": "対象の文章は、全体的に組織が制御されており、文法と規則の使用は正確だが、複雑な文の形成に誤りがある。また、単語の選択とフレーズの使用は適切だが、より広範な語彙の使用は限定的である。これらの特徴は、評価の[得点表現除去]と一致する。",
+    "unexplained": "複雑な文の形成に誤りがあるが、全体的な文章の品質に与える影響は限定的である可能性がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Overall",
+        "judgment_type": "presence",
+        "direction": "negative",
+        "span_ids": [
+          "1514:1@U004",
+          "1514:1@U014"
+        ],
+        "feature": "複雑な文の形成に誤りがある",
+        "evaluation": "全体的な文章の品質を少し損なっている",
+        "overall_relation": "評価の[得点表現除去]と一致",
+        "trait_relation": "評価の[得点表現除去]と一致",
+        "limits": "複雑な文の誤りが全体的な品質に与える影響は限定的である可能性がある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Vocabulary",
+        "judgment_type": "range",
+        "direction": "negative",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U015"
+        ],
+        "feature": "語彙の使用が限定的",
+        "evaluation": "文章の表現力に影響を与える可能性がある",
+        "overall_relation": "評価の[得点表現除去]と一致",
+        "trait_relation": "評価の[得点表現除去]と一致",
+        "limits": "特定の文脈では、語彙の使用が適切である可能性がある。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Cohesion",
+        "judgment_type": "organization",
+        "direction": "positive",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U017"
+        ],
+        "feature": "文章の組織が制御されている",
+        "evaluation": "文章の流れが明確で、読者に理解しやすい",
+        "overall_relation": "評価の[得点表現除去]と一致",
+        "trait_relation": "評価の[得点表現除去]と一致",
+        "limits": "一部の文では、より効果的な接続詞の使用が可能である可能性がある。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Grammar",
+        "judgment_type": "presence",
+        "direction": "positive",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U017"
+        ],
+        "feature": "文法と規則の使用は正確",
+        "evaluation": "文章の品質を向上させる",
+        "overall_relation": "評価の[得点表現除去]と一致",
+        "trait_relation": "評価の[得点表現除去]と一致",
+        "limits": "一部の文では、より複雑な文の形成が可能である可能性がある。"
+      }
+    ]
+  },
+  "logs": [
+    {
+      "path": "rationale",
+      "start": 101,
+      "end": 103,
+      "original": "3点",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_score",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C1.overall_relation",
+      "start": 3,
+      "end": 5,
+      "original": "3点",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_score",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C1.trait_relation",
+      "start": 3,
+      "end": 5,
+      "original": "3点",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_score",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C2.overall_relation",
+      "start": 3,
+      "end": 5,
+      "original": "3点",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_score",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C2.trait_relation",
+      "start": 3,
+      "end": 5,
+      "original": "3点",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_score",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C3.overall_relation",
+      "start": 3,
+      "end": 5,
+      "original": "3点",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_score",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C3.trait_relation",
+      "start": 3,
+      "end": 5,
+      "original": "3点",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_score",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C4.overall_relation",
+      "start": 3,
+      "end": 5,
+      "original": "3点",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_score",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C4.trait_relation",
+      "start": 3,
+      "end": 5,
+      "original": "3点",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_score",
+      "offset_basis": "current sequential text"
+    }
+  ],
+  "residual": [],
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true
+}

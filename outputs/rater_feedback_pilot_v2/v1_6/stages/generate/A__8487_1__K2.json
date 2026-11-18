@@ -1,0 +1,178 @@
+{
+  "fingerprint": "7aa37c7000abbe7dc88d3d6c08e627e870a998c4771c845b8168d14a31d548b5",
+  "result": {
+    "rationale": "文章の構成と文法に問題があり、単語の選択や表現も限定的で、全体的なコミュニケーションが阻害されている。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Overall",
+        "kind": "communication",
+        "feature": "文章の構成と文法の問題がコミュニケーションを阻害",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い",
+        "condition_ids": [
+          "Overall.S2.C01",
+          "Overall.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章の構成と文法の問題が具体的に見られる",
+        "limits": "全体の頻度を断定しない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U002",
+            "start": 293,
+            "end": 447,
+            "text": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "多くの文法と構文の問題",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い",
+        "condition_ids": [
+          "Syntax.S2.C01",
+          "Syntax.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な文法と構文の問題が見られる",
+        "limits": "全体の頻度を断定しない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U002",
+            "start": 293,
+            "end": 447,
+            "text": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "単語の選択が限定的",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い",
+        "condition_ids": [
+          "Vocabulary.S2.C01",
+          "Vocabulary.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な単語の選択が限定的であることが見られる",
+        "limits": "全体の頻度を断定しない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U002",
+            "start": 293,
+            "end": 447,
+            "text": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "feature": "表現が限定的で繰り返し多い",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い",
+        "condition_ids": [
+          "Phraseology.S2.C01",
+          "Phraseology.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な表現の繰り返しが見られる",
+        "limits": "全体の頻度を断定しない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U002",
+            "start": 293,
+            "end": 447,
+            "text": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing\r\n\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体的な評価が低い理由の一部は、具体的なエビデンスから説明しきれていない可能性がある。"
+  },
+  "timestamp": "2026-11-15T19:13:33.583876+09:00"
+}

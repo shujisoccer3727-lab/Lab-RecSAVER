@@ -1,0 +1,209 @@
+{
+  "fingerprint": "c8deb945953e95bc9cdb889e7bae2479ef8c129bd41ef30034c35adbc0af1851",
+  "result": {
+    "rationale": "文章の構成と文法に問題があり、表現力も限られている。しかし、単語の選択と一般的な意味伝達は適切で、誤りがコミュニケーションを阻害する頻度は低い。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "318:2",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章の構成と文法に問題がある",
+        "span_ids": [
+          "318:2@U001",
+          "318:2@U002",
+          "318:2@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Overall.S3.C02",
+          "Syntax.S3.C01",
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "span_idsの文は構成と文法に問題がある",
+        "limits": "全体の頻度を断定しない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U001",
+            "start": 0,
+            "end": 62,
+            "text": "First, the importance of enthusiasm is when we never give up. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U002",
+            "start": 62,
+            "end": 182,
+            "text": "I am agree with Churchill's statement about the impotant role that ailure plays in the pursuit of success for 3 reazon. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U003",
+            "start": 182,
+            "end": 415,
+            "text": "The first reason is that enthuasiasm is a good way to motivate people to keep going, the second reason is failure teaches us to be batter in this life and the last reason is that we have enthisiasm, we can do wathever we want to do. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "318:2",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "単語の選択は適切だが表現力が限られている",
+        "span_ids": [
+          "318:2@U003",
+          "318:2@U004",
+          "318:2@U005"
+        ],
+        "direction": "mixed",
+        "score_relation": "評価が中程度の理由",
+        "condition_ids": [
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "span_idsの文は単語の選択が適切だが、表現力が限られている",
+        "limits": "全体の頻度を断定しない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U003",
+            "start": 182,
+            "end": 415,
+            "text": "The first reason is that enthuasiasm is a good way to motivate people to keep going, the second reason is failure teaches us to be batter in this life and the last reason is that we have enthisiasm, we can do wathever we want to do. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U004",
+            "start": 415,
+            "end": 470,
+            "text": "These are my reasons that I would like to talk about.\r\n"
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U005",
+            "start": 470,
+            "end": 482,
+            "text": "\r\nfirst,\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "318:2",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "文法に誤りがあるが、コミュニケーションを阻害する頻度は低い",
+        "span_ids": [
+          "318:2@U006",
+          "318:2@U007",
+          "318:2@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "span_idsの文は文法に誤りがあるが、コミュニケーションを阻害する頻度は低い",
+        "limits": "全体の頻度を断定しない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U006",
+            "start": 482,
+            "end": 522,
+            "text": "enthusiasm not just depends in oneself. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U007",
+            "start": 522,
+            "end": 574,
+            "text": "It could be that others people can help each other. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U008",
+            "start": 574,
+            "end": 685,
+            "text": "For example, if I giving up by failing, then other person sees me failing and helps me to do something better. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "318:2",
+        "aspect": "Conventions",
+        "kind": "presence",
+        "feature": "スペリングや句読点の誤りがあるが、時折しか目立たない",
+        "span_ids": [
+          "318:2@U009",
+          "318:2@U010",
+          "318:2@U011"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Conventions.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "span_idsの文はスペリングや句読点の誤りがあるが、時折しか目立たない",
+        "limits": "全体の頻度を断定しない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U009",
+            "start": 685,
+            "end": 768,
+            "text": "Also, I can help people by motiation and showing to do or to carry something easy. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U010",
+            "start": 768,
+            "end": 890,
+            "text": "Many people that take a job and then the fail, but they have the enthusiasm to do it again and better than the first one. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U011",
+            "start": 890,
+            "end": 939,
+            "text": "Of course some people do not think the same way. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "評価が低い理由の一部は、具体的な証拠が不足しているため説明しきれていない。"
+  },
+  "timestamp": "2026-11-15T19:35:02.722049+09:00"
+}

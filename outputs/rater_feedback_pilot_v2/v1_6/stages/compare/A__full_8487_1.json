@@ -1,0 +1,1276 @@
+{
+  "fingerprint": "888908a8fa7828fa5cf155a4f203c9d99ce126ab7dad0c8e444591f66a61ac64",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "8487:1/K1/C1",
+          "8487:1/K1/C2",
+          "8487:1/K1/C3",
+          "8487:1/K1/C4"
+        ],
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U005"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "8487:1@U001",
+            "tokens": [
+              "something",
+              "the",
+              "people",
+              "are",
+              "idle",
+              "they",
+              "doesn't",
+              "work",
+              "for",
+              "they",
+              "life",
+              "the",
+              "future",
+              "are",
+              "preparing",
+              "in",
+              "the",
+              "life",
+              "if",
+              "you",
+              "are",
+              "idle",
+              "you",
+              "not",
+              "a",
+              "good",
+              "person",
+              "because",
+              "you",
+              "need",
+              "to",
+              "know",
+              "how",
+              "is",
+              "your",
+              "future",
+              "your",
+              "goals",
+              "if",
+              "you",
+              "want",
+              "a",
+              "good",
+              "work",
+              "or",
+              "something",
+              "how",
+              "a",
+              "big",
+              "home",
+              "a",
+              "car",
+              "of",
+              "the",
+              "year",
+              "a",
+              "good",
+              "life",
+              "in",
+              "little",
+              "words"
+            ],
+            "relation": "主語と動詞の関係が不明瞭で、複数の節がつながりを欠いている。",
+            "interpretation": "「something the people are idle they doesn't work for they life」など、複数の主語と動詞の関係が不明瞭な節が見られる。全体的な組織が弱く、アイデアの並び順が不明瞭である。",
+            "token_positions": [
+              {
+                "token": "something",
+                "start": 0,
+                "end": 9
+              },
+              {
+                "token": "something",
+                "start": 219,
+                "end": 228
+              },
+              {
+                "token": "the",
+                "start": 10,
+                "end": 13
+              },
+              {
+                "token": "the",
+                "start": 62,
+                "end": 65
+              },
+              {
+                "token": "the",
+                "start": 90,
+                "end": 93
+              },
+              {
+                "token": "the",
+                "start": 253,
+                "end": 256
+              },
+              {
+                "token": "people",
+                "start": 14,
+                "end": 20
+              },
+              {
+                "token": "are",
+                "start": 21,
+                "end": 24
+              },
+              {
+                "token": "are",
+                "start": 73,
+                "end": 76
+              },
+              {
+                "token": "are",
+                "start": 106,
+                "end": 109
+              },
+              {
+                "token": "idle",
+                "start": 25,
+                "end": 29
+              },
+              {
+                "token": "idle",
+                "start": 110,
+                "end": 114
+              },
+              {
+                "token": "they",
+                "start": 30,
+                "end": 34
+              },
+              {
+                "token": "they",
+                "start": 52,
+                "end": 56
+              },
+              {
+                "token": "doesn't",
+                "start": 35,
+                "end": 42
+              },
+              {
+                "token": "work",
+                "start": 43,
+                "end": 47
+              },
+              {
+                "token": "work",
+                "start": 211,
+                "end": 215
+              },
+              {
+                "token": "for",
+                "start": 48,
+                "end": 51
+              },
+              {
+                "token": "they",
+                "start": 30,
+                "end": 34
+              },
+              {
+                "token": "they",
+                "start": 52,
+                "end": 56
+              },
+              {
+                "token": "life",
+                "start": 57,
+                "end": 61
+              },
+              {
+                "token": "life",
+                "start": 94,
+                "end": 98
+              },
+              {
+                "token": "life",
+                "start": 269,
+                "end": 273
+              },
+              {
+                "token": "the",
+                "start": 10,
+                "end": 13
+              },
+              {
+                "token": "the",
+                "start": 62,
+                "end": 65
+              },
+              {
+                "token": "the",
+                "start": 90,
+                "end": 93
+              },
+              {
+                "token": "the",
+                "start": 253,
+                "end": 256
+              },
+              {
+                "token": "future",
+                "start": 66,
+                "end": 72
+              },
+              {
+                "token": "future",
+                "start": 174,
+                "end": 180
+              },
+              {
+                "token": "are",
+                "start": 21,
+                "end": 24
+              },
+              {
+                "token": "are",
+                "start": 73,
+                "end": 76
+              },
+              {
+                "token": "are",
+                "start": 106,
+                "end": 109
+              },
+              {
+                "token": "preparing",
+                "start": 77,
+                "end": 86
+              },
+              {
+                "token": "in",
+                "start": 87,
+                "end": 89
+              },
+              {
+                "token": "in",
+                "start": 274,
+                "end": 276
+              },
+              {
+                "token": "the",
+                "start": 10,
+                "end": 13
+              },
+              {
+                "token": "the",
+                "start": 62,
+                "end": 65
+              },
+              {
+                "token": "the",
+                "start": 90,
+                "end": 93
+              },
+              {
+                "token": "the",
+                "start": 253,
+                "end": 256
+              },
+              {
+                "token": "life",
+                "start": 57,
+                "end": 61
+              },
+              {
+                "token": "life",
+                "start": 94,
+                "end": 98
+              },
+              {
+                "token": "life",
+                "start": 269,
+                "end": 273
+              },
+              {
+                "token": "if",
+                "start": 99,
+                "end": 101
+              },
+              {
+                "token": "if",
+                "start": 192,
+                "end": 194
+              },
+              {
+                "token": "you",
+                "start": 102,
+                "end": 105
+              },
+              {
+                "token": "you",
+                "start": 115,
+                "end": 118
+              },
+              {
+                "token": "you",
+                "start": 145,
+                "end": 148
+              },
+              {
+                "token": "you",
+                "start": 195,
+                "end": 198
+              },
+              {
+                "token": "are",
+                "start": 21,
+                "end": 24
+              },
+              {
+                "token": "are",
+                "start": 73,
+                "end": 76
+              },
+              {
+                "token": "are",
+                "start": 106,
+                "end": 109
+              },
+              {
+                "token": "idle",
+                "start": 25,
+                "end": 29
+              },
+              {
+                "token": "idle",
+                "start": 110,
+                "end": 114
+              },
+              {
+                "token": "you",
+                "start": 102,
+                "end": 105
+              },
+              {
+                "token": "you",
+                "start": 115,
+                "end": 118
+              },
+              {
+                "token": "you",
+                "start": 145,
+                "end": 148
+              },
+              {
+                "token": "you",
+                "start": 195,
+                "end": 198
+              },
+              {
+                "token": "not",
+                "start": 119,
+                "end": 122
+              },
+              {
+                "token": "a",
+                "start": 123,
+                "end": 124
+              },
+              {
+                "token": "a",
+                "start": 204,
+                "end": 205
+              },
+              {
+                "token": "a",
+                "start": 233,
+                "end": 234
+              },
+              {
+                "token": "a",
+                "start": 244,
+                "end": 245
+              },
+              {
+                "token": "a",
+                "start": 262,
+                "end": 263
+              },
+              {
+                "token": "good",
+                "start": 125,
+                "end": 129
+              },
+              {
+                "token": "good",
+                "start": 206,
+                "end": 210
+              },
+              {
+                "token": "good",
+                "start": 264,
+                "end": 268
+              },
+              {
+                "token": "person",
+                "start": 130,
+                "end": 136
+              },
+              {
+                "token": "because",
+                "start": 137,
+                "end": 144
+              },
+              {
+                "token": "you",
+                "start": 102,
+                "end": 105
+              },
+              {
+                "token": "you",
+                "start": 115,
+                "end": 118
+              },
+              {
+                "token": "you",
+                "start": 145,
+                "end": 148
+              },
+              {
+                "token": "you",
+                "start": 195,
+                "end": 198
+              },
+              {
+                "token": "need",
+                "start": 149,
+                "end": 153
+              },
+              {
+                "token": "to",
+                "start": 154,
+                "end": 156
+              },
+              {
+                "token": "know",
+                "start": 157,
+                "end": 161
+              },
+              {
+                "token": "how",
+                "start": 162,
+                "end": 165
+              },
+              {
+                "token": "how",
+                "start": 229,
+                "end": 232
+              },
+              {
+                "token": "is",
+                "start": 166,
+                "end": 168
+              },
+              {
+                "token": "your",
+                "start": 169,
+                "end": 173
+              },
+              {
+                "token": "your",
+                "start": 181,
+                "end": 185
+              },
+              {
+                "token": "future",
+                "start": 66,
+                "end": 72
+              },
+              {
+                "token": "future",
+                "start": 174,
+                "end": 180
+              },
+              {
+                "token": "your",
+                "start": 169,
+                "end": 173
+              },
+              {
+                "token": "your",
+                "start": 181,
+                "end": 185
+              },
+              {
+                "token": "goals",
+                "start": 186,
+                "end": 191
+              },
+              {
+                "token": "if",
+                "start": 99,
+                "end": 101
+              },
+              {
+                "token": "if",
+                "start": 192,
+                "end": 194
+              },
+              {
+                "token": "you",
+                "start": 102,
+                "end": 105
+              },
+              {
+                "token": "you",
+                "start": 115,
+                "end": 118
+              },
+              {
+                "token": "you",
+                "start": 145,
+                "end": 148
+              },
+              {
+                "token": "you",
+                "start": 195,
+                "end": 198
+              },
+              {
+                "token": "want",
+                "start": 199,
+                "end": 203
+              },
+              {
+                "token": "a",
+                "start": 123,
+                "end": 124
+              },
+              {
+                "token": "a",
+                "start": 204,
+                "end": 205
+              },
+              {
+                "token": "a",
+                "start": 233,
+                "end": 234
+              },
+              {
+                "token": "a",
+                "start": 244,
+                "end": 245
+              },
+              {
+                "token": "a",
+                "start": 262,
+                "end": 263
+              },
+              {
+                "token": "good",
+                "start": 125,
+                "end": 129
+              },
+              {
+                "token": "good",
+                "start": 206,
+                "end": 210
+              },
+              {
+                "token": "good",
+                "start": 264,
+                "end": 268
+              },
+              {
+                "token": "work",
+                "start": 43,
+                "end": 47
+              },
+              {
+                "token": "work",
+                "start": 211,
+                "end": 215
+              },
+              {
+                "token": "or",
+                "start": 216,
+                "end": 218
+              },
+              {
+                "token": "something",
+                "start": 0,
+                "end": 9
+              },
+              {
+                "token": "something",
+                "start": 219,
+                "end": 228
+              },
+              {
+                "token": "how",
+                "start": 162,
+                "end": 165
+              },
+              {
+                "token": "how",
+                "start": 229,
+                "end": 232
+              },
+              {
+                "token": "a",
+                "start": 123,
+                "end": 124
+              },
+              {
+                "token": "a",
+                "start": 204,
+                "end": 205
+              },
+              {
+                "token": "a",
+                "start": 233,
+                "end": 234
+              },
+              {
+                "token": "a",
+                "start": 244,
+                "end": 245
+              },
+              {
+                "token": "a",
+                "start": 262,
+                "end": 263
+              },
+              {
+                "token": "big",
+                "start": 235,
+                "end": 238
+              },
+              {
+                "token": "home",
+                "start": 239,
+                "end": 243
+              },
+              {
+                "token": "a",
+                "start": 123,
+                "end": 124
+              },
+              {
+                "token": "a",
+                "start": 204,
+                "end": 205
+              },
+              {
+                "token": "a",
+                "start": 233,
+                "end": 234
+              },
+              {
+                "token": "a",
+                "start": 244,
+                "end": 245
+              },
+              {
+                "token": "a",
+                "start": 262,
+                "end": 263
+              },
+              {
+                "token": "car",
+                "start": 246,
+                "end": 249
+              },
+              {
+                "token": "of",
+                "start": 250,
+                "end": 252
+              },
+              {
+                "token": "the",
+                "start": 10,
+                "end": 13
+              },
+              {
+                "token": "the",
+                "start": 62,
+                "end": 65
+              },
+              {
+                "token": "the",
+                "start": 90,
+                "end": 93
+              },
+              {
+                "token": "the",
+                "start": 253,
+                "end": 256
+              },
+              {
+                "token": "year",
+                "start": 257,
+                "end": 261
+              },
+              {
+                "token": "a",
+                "start": 123,
+                "end": 124
+              },
+              {
+                "token": "a",
+                "start": 204,
+                "end": 205
+              },
+              {
+                "token": "a",
+                "start": 233,
+                "end": 234
+              },
+              {
+                "token": "a",
+                "start": 244,
+                "end": 245
+              },
+              {
+                "token": "a",
+                "start": 262,
+                "end": 263
+              },
+              {
+                "token": "good",
+                "start": 125,
+                "end": 129
+              },
+              {
+                "token": "good",
+                "start": 206,
+                "end": 210
+              },
+              {
+                "token": "good",
+                "start": 264,
+                "end": 268
+              },
+              {
+                "token": "life",
+                "start": 57,
+                "end": 61
+              },
+              {
+                "token": "life",
+                "start": 94,
+                "end": 98
+              },
+              {
+                "token": "life",
+                "start": 269,
+                "end": 273
+              },
+              {
+                "token": "in",
+                "start": 87,
+                "end": 89
+              },
+              {
+                "token": "in",
+                "start": 274,
+                "end": 276
+              },
+              {
+                "token": "little",
+                "start": 277,
+                "end": 283
+              },
+              {
+                "token": "words",
+                "start": 284,
+                "end": 289
+              }
+            ]
+          },
+          {
+            "span_id": "8487:1@U005",
+            "tokens": [
+              "you",
+              "life",
+              "are",
+              "sad",
+              "and",
+              "this",
+              "is",
+              "how",
+              "the",
+              "people",
+              "die",
+              "because",
+              "they",
+              "drink",
+              "you",
+              "think",
+              "a",
+              "bad",
+              "things",
+              "in",
+              "your",
+              "head",
+              "you",
+              "smook",
+              "marihuana",
+              "or",
+              "other",
+              "sustances",
+              "this",
+              "people",
+              "are",
+              "not",
+              "have",
+              "future",
+              "in",
+              "the",
+              "life",
+              "they",
+              "dont",
+              "have",
+              "a",
+              "nothing"
+            ],
+            "relation": "複雑な文構造に誤りがあり、文法と使用に多くの誤りがある。",
+            "interpretation": "「you life are sad and this is how the people die because they drink you think a bad things in your head」など、複雑な文構造に誤りがある。全体的に文法と使用に多くの誤りがある。",
+            "token_positions": [
+              {
+                "token": "you",
+                "start": 552,
+                "end": 555
+              },
+              {
+                "token": "you",
+                "start": 619,
+                "end": 622
+              },
+              {
+                "token": "you",
+                "start": 655,
+                "end": 658
+              },
+              {
+                "token": "life",
+                "start": 556,
+                "end": 560
+              },
+              {
+                "token": "life",
+                "start": 733,
+                "end": 737
+              },
+              {
+                "token": "are",
+                "start": 561,
+                "end": 564
+              },
+              {
+                "token": "are",
+                "start": 706,
+                "end": 709
+              },
+              {
+                "token": "sad",
+                "start": 565,
+                "end": 568
+              },
+              {
+                "token": "and",
+                "start": 569,
+                "end": 572
+              },
+              {
+                "token": "this",
+                "start": 573,
+                "end": 577
+              },
+              {
+                "token": "this",
+                "start": 694,
+                "end": 698
+              },
+              {
+                "token": "is",
+                "start": 578,
+                "end": 580
+              },
+              {
+                "token": "how",
+                "start": 581,
+                "end": 584
+              },
+              {
+                "token": "the",
+                "start": 585,
+                "end": 588
+              },
+              {
+                "token": "the",
+                "start": 729,
+                "end": 732
+              },
+              {
+                "token": "people",
+                "start": 589,
+                "end": 595
+              },
+              {
+                "token": "people",
+                "start": 699,
+                "end": 705
+              },
+              {
+                "token": "die",
+                "start": 596,
+                "end": 599
+              },
+              {
+                "token": "because",
+                "start": 600,
+                "end": 607
+              },
+              {
+                "token": "they",
+                "start": 608,
+                "end": 612
+              },
+              {
+                "token": "they",
+                "start": 738,
+                "end": 742
+              },
+              {
+                "token": "drink",
+                "start": 613,
+                "end": 618
+              },
+              {
+                "token": "you",
+                "start": 552,
+                "end": 555
+              },
+              {
+                "token": "you",
+                "start": 619,
+                "end": 622
+              },
+              {
+                "token": "you",
+                "start": 655,
+                "end": 658
+              },
+              {
+                "token": "think",
+                "start": 623,
+                "end": 628
+              },
+              {
+                "token": "a",
+                "start": 629,
+                "end": 630
+              },
+              {
+                "token": "a",
+                "start": 753,
+                "end": 754
+              },
+              {
+                "token": "bad",
+                "start": 631,
+                "end": 634
+              },
+              {
+                "token": "things",
+                "start": 635,
+                "end": 641
+              },
+              {
+                "token": "in",
+                "start": 642,
+                "end": 644
+              },
+              {
+                "token": "in",
+                "start": 726,
+                "end": 728
+              },
+              {
+                "token": "your",
+                "start": 645,
+                "end": 649
+              },
+              {
+                "token": "head",
+                "start": 650,
+                "end": 654
+              },
+              {
+                "token": "you",
+                "start": 552,
+                "end": 555
+              },
+              {
+                "token": "you",
+                "start": 619,
+                "end": 622
+              },
+              {
+                "token": "you",
+                "start": 655,
+                "end": 658
+              },
+              {
+                "token": "smook",
+                "start": 659,
+                "end": 664
+              },
+              {
+                "token": "marihuana",
+                "start": 665,
+                "end": 674
+              },
+              {
+                "token": "or",
+                "start": 675,
+                "end": 677
+              },
+              {
+                "token": "other",
+                "start": 678,
+                "end": 683
+              },
+              {
+                "token": "sustances",
+                "start": 684,
+                "end": 693
+              },
+              {
+                "token": "this",
+                "start": 573,
+                "end": 577
+              },
+              {
+                "token": "this",
+                "start": 694,
+                "end": 698
+              },
+              {
+                "token": "people",
+                "start": 589,
+                "end": 595
+              },
+              {
+                "token": "people",
+                "start": 699,
+                "end": 705
+              },
+              {
+                "token": "are",
+                "start": 561,
+                "end": 564
+              },
+              {
+                "token": "are",
+                "start": 706,
+                "end": 709
+              },
+              {
+                "token": "not",
+                "start": 710,
+                "end": 713
+              },
+              {
+                "token": "have",
+                "start": 714,
+                "end": 718
+              },
+              {
+                "token": "have",
+                "start": 748,
+                "end": 752
+              },
+              {
+                "token": "future",
+                "start": 719,
+                "end": 725
+              },
+              {
+                "token": "in",
+                "start": 642,
+                "end": 644
+              },
+              {
+                "token": "in",
+                "start": 726,
+                "end": 728
+              },
+              {
+                "token": "the",
+                "start": 585,
+                "end": 588
+              },
+              {
+                "token": "the",
+                "start": 729,
+                "end": 732
+              },
+              {
+                "token": "life",
+                "start": 556,
+                "end": 560
+              },
+              {
+                "token": "life",
+                "start": 733,
+                "end": 737
+              },
+              {
+                "token": "they",
+                "start": 608,
+                "end": 612
+              },
+              {
+                "token": "they",
+                "start": 738,
+                "end": 742
+              },
+              {
+                "token": "dont",
+                "start": 743,
+                "end": 747
+              },
+              {
+                "token": "have",
+                "start": 714,
+                "end": 718
+              },
+              {
+                "token": "have",
+                "start": 748,
+                "end": 752
+              },
+              {
+                "token": "a",
+                "start": 629,
+                "end": 630
+              },
+              {
+                "token": "a",
+                "start": 753,
+                "end": 754
+              },
+              {
+                "token": "nothing",
+                "start": 755,
+                "end": 762
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S2.C02",
+          "Syntax.S2.C02",
+          "Vocabulary.S2.C01",
+          "Grammar.S2.C01"
+        ],
+        "feature_confirmed": "複数の主語と動詞の関係が不明瞭な節と、複雑な文構造に誤りがある節が確認された。",
+        "inferred_judgment": "文章の構成と文法の問題がコミュニケーションを阻害し、全体的な組織が弱い。",
+        "rubric_based_proposal": "Overall.S2.C02、Syntax.S2.C02、Vocabulary.S2.C01、Grammar.S2.C01の条件を満たす。複雑な文構造に誤りがあり、文法と使用に多くの誤りがあるため、Overallの段階2が適切。",
+        "agreement_review_unknown": "一部のアイデアはつながっているが、全体的な組織は弱い。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "8487:1@U001",
+              "8487:1@U005"
+            ],
+            "finding": "複数の主語と動詞の関係が不明瞭な節と、複雑な文構造に誤りがある節が確認された。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "複数の主語と動詞の関係が不明瞭な節と、複雑な文構造に誤りがある節を確認。",
+          "where_span_ids": [
+            "8487:1@U001",
+            "8487:1@U005"
+          ],
+          "action": "複雑な文構造の誤りと主語と動詞の関係を確認。",
+          "reason": "複雑な文構造に誤りがあり、主語と動詞の関係が不明瞭な節が見られるため。"
+        },
+        "scope_limit": "一部のアイデアはつながっているが、全体的な組織は弱い。",
+        "citations": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U005",
+            "start": 552,
+            "end": 766,
+            "text": "you life are sad and this is how the people die because they drink you think a bad things in your head you smook marihuana or other sustances this people are not have future in the life they dont have a nothing\r\n\r\n"
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S2.C02",
+            "aspect": "Overall",
+            "level": 2,
+            "text": "organization partially developed but may be missing or unsuccessful.",
+            "parent_id": "Overall.S2",
+            "parent_text": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+            "start": 73,
+            "end": 141,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Syntax.S2.C02",
+            "aspect": "Syntax",
+            "level": 2,
+            "text": "many sentence structure problems.",
+            "parent_id": "Syntax.S2",
+            "parent_text": "Some sentence variation used; many sentence structure problems.",
+            "start": 30,
+            "end": 63,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S2.C01",
+            "aspect": "Vocabulary",
+            "level": 2,
+            "text": "Narrow range of vocabulary to convey basic and elementary meaning;",
+            "parent_id": "Vocabulary.S2",
+            "parent_text": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+            "start": 0,
+            "end": 66,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Grammar.S2.C01",
+            "aspect": "Grammar",
+            "level": 2,
+            "text": "Many errors in grammar and usage.",
+            "parent_id": "Grammar.S2",
+            "parent_text": "Many errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:16:44.595198+09:00"
+}

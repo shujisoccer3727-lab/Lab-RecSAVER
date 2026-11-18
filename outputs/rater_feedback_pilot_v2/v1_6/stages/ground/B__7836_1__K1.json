@@ -1,0 +1,32 @@
+{
+  "fingerprint": "65444046bf8fb2bd0345bfb4c5aec4f7cf73b6c2a9513181d75dcc4f0fc2d789",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文中には組織と文法の誤りが見られ、それがコミュニケーションを阻害している。例えば、「I think if the student want to required for community service.」や「They cant make the students to do community service.」など、文法的な誤りが存在する。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "文中には単純な構文と複雑な文の誤りが見られる。例えば、「They cant make the students to do community service.」や「I am pretty sure they can't make the students to do community service because the parents won't.」など、文法的な誤りが存在する。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "文中には基本的な単語と単純な構文が使用されている。例えば、「They cant make the students to do community service.」や「But if the student get in trouble then yes they have to because they have to do community service.」など、単純な単語と構文が使用されている。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "文中には基本的なフレーズが繰り返し使用されている。例えば、「they have to do community service.」が繰り返し使用されている。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:57:48.661120+09:00"
+}

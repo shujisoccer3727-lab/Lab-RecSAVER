@@ -1,0 +1,32 @@
+{
+  "fingerprint": "3e14a06129d8a4a63dcf1877a3b68e59dd8fc98dea8ee6017bba6bfc5cc706fb",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文中には頻繁な文法エラーと誤用が見られ、例えば「We all dose mistake in our life .」や「If your going from failure to failure without loss enthusiasm」など、コミュニケーションを阻害する可能性がある。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "文中には多くの文構造の問題が見られ、例えば「If your going from failure to failure without loss enthusiasm」や「you will not going to learn from your mistake」など、文の構造が適切でない。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "文中の単語の範囲が狭く、同じ単語が繰り返し使用されている。例えば「mistake」や「failure」など、より多様な単語の使用が望ましい。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "文中にはスペル、大文字、句読点のエラーが頻繁に見られ、例えば「dose」の代わりに「do」、「your」の代わりに「you're」、「loss」の代わりに「lose」など。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:52:12.355221+09:00"
+}

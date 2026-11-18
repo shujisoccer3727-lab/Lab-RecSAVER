@@ -1,0 +1,959 @@
+{
+  "fingerprint": "8da24f7ad499e74a70e46b00bd8a1820bca17589a214214349d7a81275e57987",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "2775:2/K1/C1",
+          "2775:2/K1/C2",
+          "2775:2/K1/C3",
+          "2775:2/K1/C4"
+        ],
+        "span_ids": [
+          "2775:2@U001",
+          "2775:2@U002",
+          "2775:2@U003",
+          "2775:2@U004",
+          "2775:2@U005",
+          "2775:2@U006",
+          "2775:2@U007",
+          "2775:2@U008",
+          "2775:2@U009",
+          "2775:2@U010",
+          "2775:2@U011",
+          "2775:2@U012",
+          "2775:2@U013",
+          "2775:2@U014",
+          "2775:2@U015",
+          "2775:2@U016",
+          "2775:2@U017",
+          "2775:2@U018",
+          "2775:2@U019",
+          "2775:2@U020",
+          "2775:2@U021",
+          "2775:2@U022",
+          "2775:2@U023",
+          "2775:2@U024"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "2775:2@U001",
+            "tokens": [
+              "The",
+              "research",
+              "study",
+              "has",
+              "shown",
+              "that",
+              "there",
+              "are",
+              "25",
+              "of",
+              "people",
+              "thinks",
+              "trying",
+              "same",
+              "things",
+              "over",
+              "and",
+              "can",
+              "never",
+              "make",
+              "you",
+              "flourish",
+              "in",
+              "you",
+              "life"
+            ],
+            "relation": "主語と動詞の関係",
+            "interpretation": "「people thinks」は「people think」の誤り。全体の意味は理解可能だが、文法的な誤りが存在する。",
+            "token_positions": [
+              {
+                "token": "The",
+                "start": 0,
+                "end": 3
+              },
+              {
+                "token": "research",
+                "start": 4,
+                "end": 12
+              },
+              {
+                "token": "study",
+                "start": 13,
+                "end": 18
+              },
+              {
+                "token": "has",
+                "start": 19,
+                "end": 22
+              },
+              {
+                "token": "shown",
+                "start": 23,
+                "end": 28
+              },
+              {
+                "token": "that",
+                "start": 29,
+                "end": 33
+              },
+              {
+                "token": "that",
+                "start": 65,
+                "end": 69
+              },
+              {
+                "token": "there",
+                "start": 34,
+                "end": 39
+              },
+              {
+                "token": "are",
+                "start": 40,
+                "end": 43
+              },
+              {
+                "token": "25",
+                "start": 44,
+                "end": 46
+              },
+              {
+                "token": "of",
+                "start": 48,
+                "end": 50
+              },
+              {
+                "token": "people",
+                "start": 51,
+                "end": 57
+              },
+              {
+                "token": "thinks",
+                "start": 58,
+                "end": 64
+              },
+              {
+                "token": "trying",
+                "start": 70,
+                "end": 76
+              },
+              {
+                "token": "same",
+                "start": 77,
+                "end": 81
+              },
+              {
+                "token": "things",
+                "start": 82,
+                "end": 88
+              },
+              {
+                "token": "over",
+                "start": 89,
+                "end": 93
+              },
+              {
+                "token": "over",
+                "start": 98,
+                "end": 102
+              },
+              {
+                "token": "and",
+                "start": 94,
+                "end": 97
+              },
+              {
+                "token": "can",
+                "start": 103,
+                "end": 106
+              },
+              {
+                "token": "never",
+                "start": 107,
+                "end": 112
+              },
+              {
+                "token": "make",
+                "start": 113,
+                "end": 117
+              },
+              {
+                "token": "you",
+                "start": 118,
+                "end": 121
+              },
+              {
+                "token": "you",
+                "start": 134,
+                "end": 137
+              },
+              {
+                "token": "flourish",
+                "start": 122,
+                "end": 130
+              },
+              {
+                "token": "in",
+                "start": 131,
+                "end": 133
+              },
+              {
+                "token": "you",
+                "start": 118,
+                "end": 121
+              },
+              {
+                "token": "you",
+                "start": 134,
+                "end": 137
+              },
+              {
+                "token": "life",
+                "start": 138,
+                "end": 142
+              }
+            ]
+          },
+          {
+            "span_id": "2775:2@U007",
+            "tokens": [
+              "A",
+              "myriad",
+              "of",
+              "people",
+              "thinks",
+              "that",
+              "when",
+              "they",
+              "don't",
+              "know",
+              "what",
+              "to",
+              "do",
+              "they",
+              "always",
+              "give",
+              "up",
+              "instead",
+              "of",
+              "trying",
+              "but",
+              "its",
+              "salient",
+              "for",
+              "all",
+              "of",
+              "us",
+              "to",
+              "put",
+              "that",
+              "confident",
+              "into",
+              "your",
+              "mind"
+            ],
+            "relation": "接続詞と主節の関係",
+            "interpretation": "「A myriad of people thinks」は「A myriad of people think」の誤り。全体の意味は理解可能だが、文法的な誤りが存在する。",
+            "token_positions": [
+              {
+                "token": "A",
+                "start": 1244,
+                "end": 1245
+              },
+              {
+                "token": "myriad",
+                "start": 1246,
+                "end": 1252
+              },
+              {
+                "token": "of",
+                "start": 1253,
+                "end": 1255
+              },
+              {
+                "token": "of",
+                "start": 1335,
+                "end": 1337
+              },
+              {
+                "token": "of",
+                "start": 1370,
+                "end": 1372
+              },
+              {
+                "token": "people",
+                "start": 1256,
+                "end": 1262
+              },
+              {
+                "token": "thinks",
+                "start": 1263,
+                "end": 1269
+              },
+              {
+                "token": "that",
+                "start": 1270,
+                "end": 1274
+              },
+              {
+                "token": "that",
+                "start": 1383,
+                "end": 1387
+              },
+              {
+                "token": "that",
+                "start": 1525,
+                "end": 1529
+              },
+              {
+                "token": "when",
+                "start": 1275,
+                "end": 1279
+              },
+              {
+                "token": "when",
+                "start": 1458,
+                "end": 1462
+              },
+              {
+                "token": "they",
+                "start": 1280,
+                "end": 1284
+              },
+              {
+                "token": "they",
+                "start": 1307,
+                "end": 1311
+              },
+              {
+                "token": "don't",
+                "start": 1285,
+                "end": 1290
+              },
+              {
+                "token": "know",
+                "start": 1291,
+                "end": 1295
+              },
+              {
+                "token": "what",
+                "start": 1296,
+                "end": 1300
+              },
+              {
+                "token": "to",
+                "start": 1301,
+                "end": 1303
+              },
+              {
+                "token": "to",
+                "start": 1376,
+                "end": 1378
+              },
+              {
+                "token": "to",
+                "start": 1476,
+                "end": 1478
+              },
+              {
+                "token": "to",
+                "start": 1490,
+                "end": 1492
+              },
+              {
+                "token": "to",
+                "start": 1556,
+                "end": 1558
+              },
+              {
+                "token": "do",
+                "start": 1304,
+                "end": 1306
+              },
+              {
+                "token": "do",
+                "start": 1559,
+                "end": 1561
+              },
+              {
+                "token": "they",
+                "start": 1280,
+                "end": 1284
+              },
+              {
+                "token": "they",
+                "start": 1307,
+                "end": 1311
+              },
+              {
+                "token": "always",
+                "start": 1312,
+                "end": 1318
+              },
+              {
+                "token": "give",
+                "start": 1319,
+                "end": 1323
+              },
+              {
+                "token": "up",
+                "start": 1324,
+                "end": 1326
+              },
+              {
+                "token": "instead",
+                "start": 1327,
+                "end": 1334
+              },
+              {
+                "token": "of",
+                "start": 1253,
+                "end": 1255
+              },
+              {
+                "token": "of",
+                "start": 1335,
+                "end": 1337
+              },
+              {
+                "token": "of",
+                "start": 1370,
+                "end": 1372
+              },
+              {
+                "token": "trying",
+                "start": 1338,
+                "end": 1344
+              },
+              {
+                "token": "but",
+                "start": 1346,
+                "end": 1349
+              },
+              {
+                "token": "its",
+                "start": 1350,
+                "end": 1353
+              },
+              {
+                "token": "salient",
+                "start": 1354,
+                "end": 1361
+              },
+              {
+                "token": "for",
+                "start": 1362,
+                "end": 1365
+              },
+              {
+                "token": "all",
+                "start": 1366,
+                "end": 1369
+              },
+              {
+                "token": "of",
+                "start": 1253,
+                "end": 1255
+              },
+              {
+                "token": "of",
+                "start": 1335,
+                "end": 1337
+              },
+              {
+                "token": "of",
+                "start": 1370,
+                "end": 1372
+              },
+              {
+                "token": "us",
+                "start": 1373,
+                "end": 1375
+              },
+              {
+                "token": "to",
+                "start": 1301,
+                "end": 1303
+              },
+              {
+                "token": "to",
+                "start": 1376,
+                "end": 1378
+              },
+              {
+                "token": "to",
+                "start": 1476,
+                "end": 1478
+              },
+              {
+                "token": "to",
+                "start": 1490,
+                "end": 1492
+              },
+              {
+                "token": "to",
+                "start": 1556,
+                "end": 1558
+              },
+              {
+                "token": "put",
+                "start": 1379,
+                "end": 1382
+              },
+              {
+                "token": "that",
+                "start": 1270,
+                "end": 1274
+              },
+              {
+                "token": "that",
+                "start": 1383,
+                "end": 1387
+              },
+              {
+                "token": "that",
+                "start": 1525,
+                "end": 1529
+              },
+              {
+                "token": "confident",
+                "start": 1388,
+                "end": 1397
+              },
+              {
+                "token": "into",
+                "start": 1398,
+                "end": 1402
+              },
+              {
+                "token": "your",
+                "start": 1403,
+                "end": 1407
+              },
+              {
+                "token": "your",
+                "start": 1445,
+                "end": 1449
+              },
+              {
+                "token": "mind",
+                "start": 1408,
+                "end": 1412
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S4.C01",
+          "Overall.S4.C02",
+          "Overall.S4.C03",
+          "Overall.S4.C04",
+          "Cohesion.S4.C01",
+          "Cohesion.S4.C02",
+          "Cohesion.S4.C03",
+          "Syntax.S4.C01",
+          "Syntax.S4.C02",
+          "Vocabulary.S4.C01",
+          "Vocabulary.S4.C02",
+          "Phraseology.S4.C01",
+          "Phraseology.S4.C02",
+          "Grammar.S4.C01",
+          "Conventions.S4.C01",
+          "Conventions.S4.C02"
+        ],
+        "feature_confirmed": "適切な語彙と文法の使用、接続詞とトランスィショナルフレーズの使用、単純、複合、複雑な文の適切な使用、文法と使用の最小限の誤りが確認された。ただし、一部の文法と構文の誤りが存在する。",
+        "inferred_judgment": "全体的なコミュニケーションは阻害されないが、一部の文法と構文の誤りが存在する。",
+        "rubric_based_proposal": "Overall.S4.C01, Overall.S4.C02, Overall.S4.C03, Overall.S4.C04の条件を満たす。全体的な組織と文法に一貫性があるが、複雑な文の形成や正確な単語の使用に課題がある。",
+        "agreement_review_unknown": "一部の文法と構文の誤りが存在するが、全体的なコミュニケーションは阻害されない。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "2775:2@U001",
+              "2775:2@U007"
+            ],
+            "finding": "「people thinks」は「people think」の誤り。全体の意味は理解可能だが、文法的な誤りが存在する。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "主語と動詞の一致",
+          "where_span_ids": [
+            "2775:2@U001",
+            "2775:2@U007"
+          ],
+          "action": "主語と動詞の一致を確認する",
+          "reason": "一部の文法と構文の誤りが存在するが、全体的なコミュニケーションは阻害されない。"
+        },
+        "scope_limit": "一部の文法と構文の誤りが存在するが、全体的なコミュニケーションは阻害されない。",
+        "citations": [
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U001",
+            "start": 0,
+            "end": 144,
+            "text": "The research study has shown that there are 25% of people thinks that trying same things over and over can never make you flourish in you life. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U002",
+            "start": 144,
+            "end": 313,
+            "text": "Some people believed that you always have to try something new everyday, while other believed that they always want to work in something that they always flourished in. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U003",
+            "start": 313,
+            "end": 591,
+            "text": "Although, doing what they know can make people feel confident but, its salient for us to flourish in our life, because you can learn new things to be successful, you can have more experience, you can also mastered in more things than you are in right now for more opportunity.\r\n"
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U004",
+            "start": 591,
+            "end": 877,
+            "text": "\r\nFirst, trying new things can help you to be successful, sometimes you inserted that into your mind that you have never done that thing then,you end up saying that you can't do that, but never ever make that egregious decision in you life unless you never try you never going to know. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U005",
+            "start": 877,
+            "end": 1079,
+            "text": "For Example, a friend of mine named Generic_Name, once said that \"Try Try but don't Cry\" it means that don't ever think that you can't do it, you can and you can do it in better way than anyone else\r\n\r\n"
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U006",
+            "start": 1079,
+            "end": 1244,
+            "text": "don't ever break your confident because of you nervous or for any other reason, but that's not how it works, you just need to fight through whatever reason you had. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U007",
+            "start": 1244,
+            "end": 1567,
+            "text": "A myriad of people thinks that when they don't know what to do they always give up instead of trying, but its salient for all of us to put that confident into your mind.Also sometimes it can erroneous your feeling when nobody going to gives work to you because you never have done that work and also you refused to do it.\r\n"
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U008",
+            "start": 1567,
+            "end": 1633,
+            "text": "\r\nMoreover, it is important for you to have more experience of\r\n\r\n"
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U009",
+            "start": 1633,
+            "end": 1680,
+            "text": "everything than you have in order to flourish. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U010",
+            "start": 1680,
+            "end": 1953,
+            "text": "Experience can make such a difference in what you have learn because it can prepares you from the beginning, so then you can't struggle any more in future, it can be harder at the beginning for some people, but it will get way more easier as you work through it in future. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U011",
+            "start": 1953,
+            "end": 2373,
+            "text": "For Example, a student at Generic_school named Generic_Name had said that \"if I take classes that related to my career in high school it can make myself to be prepare for career in future.\" It means that he can have a myriad of experience in high school since, he is a flourishing student, also he can learn and experience things very quickly, so then its easy for him when he'll going to enter into his own career field"
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U012",
+            "start": 2373,
+            "end": 2375,
+            "text": ". "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U013",
+            "start": 2375,
+            "end": 2656,
+            "text": "He'll not going to have that much trouble of being in that field like now a days other people have, and also He'll not going to be full of experience when he will go their or how it works, but he can learn basic things that he suppose to have in order to be in that career field.\r\n"
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U014",
+            "start": 2656,
+            "end": 2712,
+            "text": "\r\nLastly, you can mastered more than you are right now. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U015",
+            "start": 2712,
+            "end": 2794,
+            "text": "If you mastered more their are more opportunity for you to get more scholarships. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U016",
+            "start": 2794,
+            "end": 2932,
+            "text": "Scholarships can help you to graduated from high school with more credits and their are more chances for you to get accepted in collages. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U017",
+            "start": 2932,
+            "end": 2992,
+            "text": "you can get to the collage that you really want to go into. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U018",
+            "start": 2992,
+            "end": 3260,
+            "text": "There are myriad of collages that want you to be more intelligent and have mastered in everything because that's what they stand for since, it higher level of education they need, so its hard if you don't mastered more its not always like how you think that that's\r\n\r\n"
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U019",
+            "start": 3260,
+            "end": 3269,
+            "text": "going\r\n\r\n"
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U020",
+            "start": 3269,
+            "end": 3389,
+            "text": "happened sometime collages look for some staff that you never good at, so its important for all of us always be active. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U021",
+            "start": 3389,
+            "end": 3519,
+            "text": "Its not fun to mastered more but sometimes you just have to make fun by working hard and putting you best effort into that work.\r\n"
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U022",
+            "start": 3519,
+            "end": 3765,
+            "text": "\r\nIn Conclusion, it is salient to all of us to be good and stay active in everything that we can, because you never know when that all stuff that you have experience on can help you so we just need to be prepare it can flourish your future life. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U023",
+            "start": 3765,
+            "end": 3944,
+            "text": "Its better for you to try flourishing from beginning of everything you have to have little bit of experience about everything it can also open up your future door to get success. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U024",
+            "start": 3944,
+            "end": 4171,
+            "text": "For instants job, career and many other things that can help you to grow you experience that's the reason why we have to know or learn everything that is important it can help you to get into a career that can change your life."
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S4.C01",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "Facility in the use of language with syntactic variety and range of words and phrases;",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 0,
+            "end": 86,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S4.C02",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "controlled organization;",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 87,
+            "end": 111,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S4.C03",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "accuracy in grammar and conventions;",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 112,
+            "end": 148,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S4.C04",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "occasional language inaccuracies that rarely impede communication.",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 149,
+            "end": 215,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Cohesion.S4.C01",
+            "aspect": "Cohesion",
+            "level": 4,
+            "text": "Organization generally well controlled;",
+            "parent_id": "Cohesion.S4",
+            "parent_text": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+            "start": 0,
+            "end": 39,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Cohesion.S4.C02",
+            "aspect": "Cohesion",
+            "level": 4,
+            "text": "a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas;",
+            "parent_id": "Cohesion.S4",
+            "parent_text": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+            "start": 40,
+            "end": 157,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Cohesion.S4.C03",
+            "aspect": "Cohesion",
+            "level": 4,
+            "text": "generally appropriate overlap of ideas",
+            "parent_id": "Cohesion.S4",
+            "parent_text": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+            "start": 158,
+            "end": 196,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S4.C01",
+            "aspect": "Syntax",
+            "level": 4,
+            "text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences;",
+            "parent_id": "Syntax.S4",
+            "parent_text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+            "start": 0,
+            "end": 102,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S4.C02",
+            "aspect": "Syntax",
+            "level": 4,
+            "text": "occasional errors or inappropriateness in sentence formation.",
+            "parent_id": "Syntax.S4",
+            "parent_text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+            "start": 103,
+            "end": 164,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S4.C01",
+            "aspect": "Vocabulary",
+            "level": 4,
+            "text": "Sufficient range of vocabulary to allow flexibility and precision;",
+            "parent_id": "Vocabulary.S4",
+            "parent_text": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+            "start": 0,
+            "end": 66,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S4.C02",
+            "aspect": "Vocabulary",
+            "level": 4,
+            "text": "appropriate use of topic-related terms and less common lexical items",
+            "parent_id": "Vocabulary.S4",
+            "parent_text": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+            "start": 67,
+            "end": 135,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Phraseology.S4.C01",
+            "aspect": "Phraseology",
+            "level": 4,
+            "text": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles;",
+            "parent_id": "Phraseology.S4",
+            "parent_text": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+            "start": 0,
+            "end": 91,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Phraseology.S4.C02",
+            "aspect": "Phraseology",
+            "level": 4,
+            "text": "occasional inaccuracies and colloquialisms.",
+            "parent_id": "Phraseology.S4",
+            "parent_text": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+            "start": 92,
+            "end": 135,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Grammar.S4.C01",
+            "aspect": "Grammar",
+            "level": 4,
+            "text": "Minimal errors in grammar and usage.",
+            "parent_id": "Grammar.S4",
+            "parent_text": "Minimal errors in grammar and usage.",
+            "start": 0,
+            "end": 36,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S4.C01",
+            "aspect": "Conventions",
+            "level": 4,
+            "text": "Generally consistent use of appropriate conventions to convey meaning;",
+            "parent_id": "Conventions.S4",
+            "parent_text": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting.",
+            "start": 0,
+            "end": 70,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S4.C02",
+            "aspect": "Conventions",
+            "level": 4,
+            "text": "spelling, capitalizatio n, and punctuation errors few and not distracting.",
+            "parent_id": "Conventions.S4",
+            "parent_text": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting.",
+            "start": 71,
+            "end": 145,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:44:33.147399+09:00"
+}

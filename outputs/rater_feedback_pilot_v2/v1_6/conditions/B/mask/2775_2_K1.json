@@ -1,0 +1,114 @@
+{
+  "candidate_key": "B|2775:2|K1",
+  "masked_reason": {
+    "rationale": "本文は全体的に組織化がうまく行われており、適切な語彙と文法が使用されているが、細部に誤りがある。全体的なコミュニケーションは阻害されないが、一部の文法と構文の誤りが存在する。",
+    "unexplained": "一部の文法と構文の誤りが存在するが、全体的なコミュニケーションは阻害されない。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "span_ids": [
+          "2775:2@U001",
+          "2775:2@U002"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "適切な語彙と文法の使用",
+        "score_relation": "一致",
+        "support_explanation": "適切な語彙と文法が使用されている。",
+        "limits": "一部の文法と構文の誤りが存在する。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "span_ids": [
+          "2775:2@U003",
+          "2775:2@U004"
+        ],
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "適切な接続詞とトランスィショナルフレーズの使用",
+        "score_relation": "一致",
+        "support_explanation": "接続詞とトランスィショナルフレーズが適切に使用されている。",
+        "limits": "一部の接続が不明瞭な場合がある。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "span_ids": [
+          "2775:2@U005",
+          "2775:2@U006"
+        ],
+        "aspect": "Syntax",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "単純、複合、複雑な文の適切な使用",
+        "score_relation": "一致",
+        "support_explanation": "単純、複合、複雑な文が適切に使用されている。",
+        "limits": "一部の文法と構文の誤りが存在する。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "span_ids": [
+          "2775:2@U007",
+          "2775:2@U008"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "文法と使用の最小限の誤り",
+        "score_relation": "一致",
+        "support_explanation": "文法と使用の誤りが最小限である。",
+        "limits": "一部の文法と構文の誤りが存在する。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C01",
+        "Overall.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Cohesion.S4.C01",
+        "Cohesion.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Syntax.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Grammar.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

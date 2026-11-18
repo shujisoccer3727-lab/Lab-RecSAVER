@@ -1,0 +1,32 @@
+{
+  "fingerprint": "34b889fa0cde244f06280e445047b863f54ea4c49eb808fb8ef70e69f2309c6f",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文章の構成と文法の問題により、コミュニケーションが阻害されるという主張は、具体的な文法と構成の問題が引用されているため、支持される。例えば、「The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.」という文は、文法的に不正確で、意味が不明瞭である。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "多くの文法と構文の問題があるという主張は、具体的な文法と構成の問題が引用されているため、支持される。例えば、「The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.」という文は、文法的に不正確で、構成が不明瞭である。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "単語の選択が限定的で正確さに欠けるという主張は、具体的な単語の使用例が引用されているため、支持される。例えば、「The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.」という文は、単語の選択が正確でないため、コミュニケーションが阻害される。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "表現が限定的で、誤用や反復が多いという主張は、具体的な表現の問題が引用されているため、支持される。例えば、「The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.」という文は、表現が限定的で、誤用や反復が多い。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:54:54.624047+09:00"
+}

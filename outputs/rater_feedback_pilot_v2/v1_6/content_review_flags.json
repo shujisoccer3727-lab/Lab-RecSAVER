@@ -1,0 +1,1086 @@
+{
+  "timestamp": "2026-11-16T01:27:44.472972+09:00",
+  "phase": "full",
+  "flags": [
+    {
+      "candidate": "A|5627:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法と慣用句の使用に誤りがある",
+      "accepted": true
+    },
+    {
+      "candidate": "A|5627:1|K1",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成に課題がある",
+      "accepted": true
+    },
+    {
+      "candidate": "A|5627:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成に誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "A|5627:1|K2",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法の誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "A|5268:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法の誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "A|5268:1|K1",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "スペリングと文法の誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "A|5268:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文法構造の誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2444:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "不適切な単語選択",
+      "accepted": false
+    },
+    {
+      "candidate": "A|2444:1|K2",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2444:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些语法错误",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2444:1|K2",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在拼写错误",
+      "accepted": true
+    },
+    {
+      "candidate": "A|8487:1|K2",
+      "claim_id": "C2",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "多くの文法と構文の問題",
+      "accepted": true
+    },
+    {
+      "candidate": "A|4902:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成の誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "A|1514:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法と慣用句の誤用",
+      "accepted": true
+    },
+    {
+      "candidate": "A|1961:1|K1",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": false
+    },
+    {
+      "candidate": "A|1961:1|K2",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": false
+    },
+    {
+      "candidate": "A|8608:1|K1",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": false
+    },
+    {
+      "candidate": "A|8608:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "复杂句结构使用中存在错误",
+      "accepted": false
+    },
+    {
+      "candidate": "A|8608:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些語法錯誤",
+      "accepted": true
+    },
+    {
+      "candidate": "A|8608:1|K2",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些語法錯誤",
+      "accepted": true
+    },
+    {
+      "candidate": "A|1868:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "組織と文法の一部に誤りがある",
+      "accepted": true
+    },
+    {
+      "candidate": "A|1868:1|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "組織と文法の正確性",
+      "accepted": true
+    },
+    {
+      "candidate": "A|1868:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成の誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2775:2|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法の誤りが見られる",
+      "accepted": false
+    },
+    {
+      "candidate": "A|2775:2|K1",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "文構造の誤りが見られる",
+      "accepted": false
+    },
+    {
+      "candidate": "A|2775:2|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法と構文の誤りが時折見られる",
+      "accepted": false
+    },
+    {
+      "candidate": "A|2775:2|K2",
+      "claim_id": "C2",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文法と構文の誤りが時折見られる",
+      "accepted": false
+    },
+    {
+      "candidate": "A|2775:2|K2",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法と構文の誤りが時折見られる",
+      "accepted": false
+    },
+    {
+      "candidate": "A|2775:2|K2",
+      "claim_id": "C4",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文法と構文の誤りが時折見られる",
+      "accepted": false
+    },
+    {
+      "candidate": "A|474:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文の構造の問題",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2853:2|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2853:2|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法と構文の誤りが存在する",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2853:2|K2",
+      "claim_id": "C2",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文法と構文の誤りが存在する",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2853:2|K2",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "単純な文法と構文の問題が存在する",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2853:2|K2",
+      "claim_id": "C3",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "単純な文法と構文の問題が存在する",
+      "accepted": true
+    },
+    {
+      "candidate": "A|318:2|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文章組織と文法の誤りがコミュニケーションを阻害",
+      "accepted": false
+    },
+    {
+      "candidate": "A|318:2|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文章組織と文法の正確性に問題があり、コミュニケーションが阻害される部分がある。",
+      "accepted": false
+    },
+    {
+      "candidate": "A|7418:2|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法の正確性",
+      "accepted": false
+    },
+    {
+      "candidate": "A|406:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法と構文の誤り",
+      "accepted": false
+    },
+    {
+      "candidate": "A|406:1|K1",
+      "claim_id": "C2",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文法と構文の誤り",
+      "accepted": false
+    },
+    {
+      "candidate": "A|406:1|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文章は全体的に組織化されており、文法と慣用句の使用は正確で、コミュニケーションがほとんど阻害されない。",
+      "accepted": true
+    },
+    {
+      "candidate": "A|406:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法と慣用句の使用に時折見られる誤りが、評価を4に抑えている。",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2832:2|K1",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2832:2|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些语法错误",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2832:2|K2",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2832:2|K2",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "句子结构较为简单，如 'Today, people prefers to interact with technology than people.'",
+      "accepted": true
+    },
+    {
+      "candidate": "A|7817:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "適切な組織と文法",
+      "accepted": false
+    },
+    {
+      "candidate": "A|7817:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法的な誤り",
+      "accepted": false
+    },
+    {
+      "candidate": "A|7817:1|K1",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "構文の誤り",
+      "accepted": false
+    },
+    {
+      "candidate": "A|7817:1|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "適切な組織と文法",
+      "accepted": false
+    },
+    {
+      "candidate": "A|7817:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法の誤り",
+      "accepted": false
+    },
+    {
+      "candidate": "A|7817:1|K2",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "構文の誤り",
+      "accepted": false
+    },
+    {
+      "candidate": "A|8690:2|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法に誤りがある",
+      "accepted": false
+    },
+    {
+      "candidate": "A|8690:2|K1",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "慣用句の使用に誤りがある",
+      "accepted": false
+    },
+    {
+      "candidate": "A|8690:2|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文章の組織と文法に一貫性がある",
+      "accepted": false
+    },
+    {
+      "candidate": "A|8690:2|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文法構造の使用に誤りがある",
+      "accepted": false
+    },
+    {
+      "candidate": "A|61:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "組織と構成は一般的に制御されているが、文法と語彙の正確性に問題がある。",
+      "accepted": true
+    },
+    {
+      "candidate": "A|61:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法に誤りがあり、コミュニケーションに影響を及ぼす。",
+      "accepted": true
+    },
+    {
+      "candidate": "A|61:1|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "組織と構成は一般的に制御されているが、文法と語彙の正確性に問題がある。",
+      "accepted": true
+    },
+    {
+      "candidate": "A|61:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法と慣用句の使用に誤りがある。",
+      "accepted": true
+    },
+    {
+      "candidate": "A|7836:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "組織が制限され、文法と構文の誤りがコミュニケーションを妨げる",
+      "accepted": true
+    },
+    {
+      "candidate": "A|7836:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "単純な文法構造が使用され、複雑な文では誤りが見られる",
+      "accepted": true
+    },
+    {
+      "candidate": "A|7836:1|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "組織が制限され、文法と構文の誤りがコミュニケーションを妨げる",
+      "accepted": true
+    },
+    {
+      "candidate": "A|8317:2|K2",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法と構文に時折誤りがある",
+      "accepted": true
+    },
+    {
+      "candidate": "A|8317:2|K2",
+      "claim_id": "C3",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文法と構文に時折誤りがある",
+      "accepted": true
+    },
+    {
+      "candidate": "A|515:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "組織は一般的に制御されているが、複雑な文法と構文の使用は限られている。",
+      "accepted": true
+    },
+    {
+      "candidate": "A|515:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "単純な文法と構文のエラーがいくつか見られる。",
+      "accepted": true
+    },
+    {
+      "candidate": "A|515:1|K1",
+      "claim_id": "C2",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "単純な文法と構文のエラーがいくつか見られる。",
+      "accepted": true
+    },
+    {
+      "candidate": "A|515:1|K1",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法と使用にいくつかの誤りがある。",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2910:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "組織と文法のエラーがいくつか見られる",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2910:1|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "組織と文法の正確性",
+      "accepted": false
+    },
+    {
+      "candidate": "A|2910:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成の誤り",
+      "accepted": false
+    },
+    {
+      "candidate": "A|2953:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "組織と構成は一般的に制御されているが、文法的正確性と語彙の多様性に課題がある。",
+      "accepted": false
+    },
+    {
+      "candidate": "A|2953:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文法構造の使用は限られている。",
+      "accepted": false
+    },
+    {
+      "candidate": "A|2953:1|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "組織と文法の基本的な一貫性",
+      "accepted": false
+    },
+    {
+      "candidate": "A|2953:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成に問題がある",
+      "accepted": false
+    },
+    {
+      "candidate": "A|2953:1|K2",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "スペルや句読点の誤りがある",
+      "accepted": false
+    },
+    {
+      "candidate": "A|2348:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "頻繁な文法と構文の誤りがコミュニケーションを阻害する",
+      "accepted": true
+    },
+    {
+      "candidate": "A|2348:1|K2",
+      "claim_id": "C2",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "多くの文法と構文の問題がある。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|5627:1|K1",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": false
+    },
+    {
+      "candidate": "B|5627:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "句法错误",
+      "accepted": false
+    },
+    {
+      "candidate": "B|5627:1|K1",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "语法错误",
+      "accepted": false
+    },
+    {
+      "candidate": "B|5627:1|K1",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "拼写和标点错误",
+      "accepted": false
+    },
+    {
+      "candidate": "B|5627:1|K2",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": false
+    },
+    {
+      "candidate": "B|5627:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "句法错误",
+      "accepted": false
+    },
+    {
+      "candidate": "B|5627:1|K2",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "语法错误",
+      "accepted": false
+    },
+    {
+      "candidate": "B|5268:1|K1",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": true
+    },
+    {
+      "candidate": "B|5268:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些语法错误，影响表达。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|5268:1|K2",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": true
+    },
+    {
+      "candidate": "B|5268:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些语法错误，影响表达。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|2444:1|K1",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": false
+    },
+    {
+      "candidate": "B|2444:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些语法错误",
+      "accepted": false
+    },
+    {
+      "candidate": "B|2444:1|K1",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些句法错误",
+      "accepted": false
+    },
+    {
+      "candidate": "B|2444:1|K2",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": false
+    },
+    {
+      "candidate": "B|2444:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些语法错误",
+      "accepted": false
+    },
+    {
+      "candidate": "B|2444:1|K2",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些句法错误",
+      "accepted": false
+    },
+    {
+      "candidate": "B|8487:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文章組織が不明瞭で、文法と構文に多くの誤りがあり。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|8487:1|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "頻繁な文法と構文の誤りがコミュニケーションを阻害する",
+      "accepted": true
+    },
+    {
+      "candidate": "B|4902:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成に課題がある",
+      "accepted": true
+    },
+    {
+      "candidate": "B|4902:1|K1",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法の誤りがある",
+      "accepted": true
+    },
+    {
+      "candidate": "B|4902:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法と構文の誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "B|4902:1|K2",
+      "claim_id": "C2",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文法と構文の誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "B|4902:1|K2",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成における誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "B|8538:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "B|1514:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文章の組織と文法は比較的良好",
+      "accepted": true
+    },
+    {
+      "candidate": "B|1514:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "語彙の使用に若干の問題がある",
+      "accepted": true
+    },
+    {
+      "candidate": "B|1514:1|K1",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法の正確性に若干の問題がある",
+      "accepted": true
+    },
+    {
+      "candidate": "B|1961:1|K1",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": false
+    },
+    {
+      "candidate": "B|1961:1|K2",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": false
+    },
+    {
+      "candidate": "B|1961:1|K2",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "句法多样性不足",
+      "accepted": false
+    },
+    {
+      "candidate": "B|8608:1|K1",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": false
+    },
+    {
+      "candidate": "B|8608:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法エラーがコミュニケーションを阻害している",
+      "accepted": false
+    },
+    {
+      "candidate": "B|1868:1|K2",
+      "claim_id": "C2",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文法と構文の誤りがいくつかある。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|474:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "多くの文法と構文のエラー",
+      "accepted": true
+    },
+    {
+      "candidate": "B|2853:2|K1",
+      "claim_id": "C3",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文法と構文の誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "B|2853:2|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "一般的な組織と文法の維持",
+      "accepted": true
+    },
+    {
+      "candidate": "B|2853:2|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成の課題",
+      "accepted": true
+    },
+    {
+      "candidate": "B|318:2|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文章の組織と文法に一貫性がある",
+      "accepted": true
+    },
+    {
+      "candidate": "B|318:2|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成に課題がある",
+      "accepted": true
+    },
+    {
+      "candidate": "B|318:2|K1",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法的な誤りが存在する",
+      "accepted": true
+    },
+    {
+      "candidate": "B|7418:2|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "アイデアの重複",
+      "accepted": false
+    },
+    {
+      "candidate": "B|7418:2|K2",
+      "claim_id": "C3",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "適切な文法と構文",
+      "accepted": false
+    },
+    {
+      "candidate": "B|406:1|K1",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": true
+    },
+    {
+      "candidate": "B|406:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些语法错误。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|406:1|K1",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些拼写和标点错误。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|406:1|K2",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": true
+    },
+    {
+      "candidate": "B|406:1|K2",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些语言不准确的情况，偶尔影响沟通。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|2832:2|K1",
+      "kind": "language_mismatch_flag",
+      "detail": "Japanese requested, Chinese phrases present in rationale; not a language ground-truth label",
+      "accepted": true
+    },
+    {
+      "candidate": "B|2832:2|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "存在一些语法错误，如时态不一致和主谓不一致。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|2832:2|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法の誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "B|7817:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "適切な組織と文法",
+      "accepted": false
+    },
+    {
+      "candidate": "B|7817:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文の形成に問題がある",
+      "accepted": false
+    },
+    {
+      "candidate": "B|7817:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文法構造の使用に誤りがある。",
+      "accepted": false
+    },
+    {
+      "candidate": "B|8690:2|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法と慣用句の使用にはいくつかの誤りがある。",
+      "accepted": false
+    },
+    {
+      "candidate": "B|8690:2|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文章組織は一般的に制御されているが、複雑な文法構造の使用に誤りがある。",
+      "accepted": false
+    },
+    {
+      "candidate": "B|8690:2|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "単純な文が主に使用されている。",
+      "accepted": false
+    },
+    {
+      "candidate": "B|8690:2|K2",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "フレーズの使用は限られている。",
+      "accepted": false
+    },
+    {
+      "candidate": "B|2420:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文章は全体的に組織化されているが、文法や構文の誤りがいくつか見られる。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|2420:1|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文章は全体的に組織化されているが、文法や構文の誤りが見られる。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|2420:1|K2",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成に困難がある。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|2420:1|K2",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法の誤りが見られる。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|61:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法と構文に誤りがある",
+      "accepted": true
+    },
+    {
+      "candidate": "B|61:1|K1",
+      "claim_id": "C2",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文法と構文に誤りがある",
+      "accepted": true
+    },
+    {
+      "candidate": "B|61:1|K1",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "スペリングと文法の誤りがある",
+      "accepted": true
+    },
+    {
+      "candidate": "B|61:1|K2",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "文章は全体的に組織化されており、主張が明確だが、文法や構文の誤りが見られる。",
+      "accepted": true
+    },
+    {
+      "candidate": "B|7836:1|K1",
+      "claim_id": "C1",
+      "kind": "atomic_judgment_requires_review",
+      "feature": "組織と文法の正確性が制限され、誤りがコミュニケーションを妨げる",
+      "accepted": true
+    },
+    {
+      "candidate": "B|7836:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "単純な構文と複雑な文の誤り",
+      "accepted": true
+    },
+    {
+      "candidate": "B|7836:1|K2",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文法構造の使用が限られている",
+      "accepted": true
+    },
+    {
+      "candidate": "B|8317:2|K1",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "occasional inaccuracies",
+      "accepted": true
+    },
+    {
+      "candidate": "B|8317:2|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "occasional errors in sentence formation",
+      "accepted": true
+    },
+    {
+      "candidate": "B|515:1|K2",
+      "claim_id": "C3",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成に課題がある",
+      "accepted": true
+    },
+    {
+      "candidate": "B|2910:1|K1",
+      "claim_id": "C1",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成に困難がある",
+      "accepted": true
+    },
+    {
+      "candidate": "B|2910:1|K2",
+      "claim_id": "C1",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文構造の使用に問題がある",
+      "accepted": true
+    },
+    {
+      "candidate": "B|2953:1|K1",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "単純な文法構造の使用",
+      "accepted": false
+    },
+    {
+      "candidate": "B|2953:1|K2",
+      "claim_id": "C2",
+      "kind": "frequency_label_requires_review",
+      "feature": "複雑な文の形成に困難がある。",
+      "accepted": false
+    },
+    {
+      "candidate": "B|2953:1|K2",
+      "claim_id": "C4",
+      "kind": "frequency_label_requires_review",
+      "feature": "文法の誤りが存在する。",
+      "accepted": false
+    }
+  ],
+  "counts": {
+    "frequency_label_requires_review": 94,
+    "language_mismatch_flag": 18,
+    "atomic_judgment_requires_review": 44
+  },
+  "meaning": "Inspection flags only; not an automatic finding that the claim is false"
+}

@@ -1,0 +1,176 @@
+{
+  "fingerprint": "e28f492cbef8f35fc003d23ae1e369aa43a7a4b9b100f260e14dcae30d9c89e9",
+  "result": {
+    "rationale": "文章展示了语言使用的灵活性和词汇范围，但存在一些语法和拼写错误，这些错误偶尔会干扰沟通。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2444:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章展示了语言使用的灵活性和词汇范围",
+        "span_ids": [
+          "2444:1@U013",
+          "2444:1@U014"
+        ],
+        "direction": "positive",
+        "score_relation": "支持4分",
+        "condition_ids": [
+          "Overall.S4.C01",
+          "Overall.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章中使用了多样化的词汇和表达方式，如'FBLA'和'AD Assets Inc'。",
+        "limits": "无",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U013",
+            "start": 995,
+            "end": 1111,
+            "text": "For example I'm in a group called ''FBLA'' (Future Business Leaders of America), this group is so important for me. "
+          },
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U014",
+            "start": 1111,
+            "end": 1254,
+            "text": "Because I've learn so many things about the assets there, and acquired a lot of knowledge, so important to my future career as a business man. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2444:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "存在一些语法错误",
+        "span_ids": [
+          "2444:1@U004",
+          "2444:1@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "支持4分",
+        "condition_ids": [
+          "Grammar.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "例如，'Improve my knowledge is one of the reason'。",
+        "limits": "无",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U004",
+            "start": 226,
+            "end": 306,
+            "text": "Since I was six years old I was secured that the Assets was going to be my job. "
+          },
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U012",
+            "start": 908,
+            "end": 995,
+            "text": "\r\nI've have been learning a lot by myself about the business and assets my whole life. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2444:1",
+        "aspect": "Conventions",
+        "kind": "frequency",
+        "feature": "存在拼写错误",
+        "span_ids": [
+          "2444:1@U012",
+          "2444:1@U018"
+        ],
+        "direction": "negative",
+        "score_relation": "支持4分",
+        "condition_ids": [
+          "Conventions.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "例如，'Improve my knowledge is one of the reason'。",
+        "limits": "无",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U012",
+            "start": 908,
+            "end": 995,
+            "text": "\r\nI've have been learning a lot by myself about the business and assets my whole life. "
+          },
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U018",
+            "start": 1474,
+            "end": 1586,
+            "text": "Because every day I learn something new and I am very exited to learn new thing in the AD Assents Inc company.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2444:1",
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "feature": "文章组织良好，但有些地方连接不够流畅",
+        "span_ids": [
+          "2444:1@U001",
+          "2444:1@U002"
+        ],
+        "direction": "mixed",
+        "score_relation": "支持4分",
+        "condition_ids": [
+          "Cohesion.S4.C01",
+          "Cohesion.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章整体结构清晰，但有些句子之间的连接不够流畅。",
+        "limits": "无",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U001",
+            "start": 0,
+            "end": 53,
+            "text": "I should be selected to visit the ''AD Assets Inc''. "
+          },
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U002",
+            "start": 53,
+            "end": 152,
+            "text": "The AD Assets Inc, is the most important company of Assets in United States for the last 35 years. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文章中的一些语法错误和拼写错误可能对沟通造成干扰，但这些错误并不频繁，不足以影响整体评分。"
+  },
+  "timestamp": "2026-11-15T19:13:33.534899+09:00"
+}

@@ -1,0 +1,210 @@
+{
+  "fingerprint": "250b305b214cb207647dda6a56caa8f6f21d67082552ca42356a425ebb804609",
+  "result": {
+    "rationale": "文章組織は一般的に制御されているが、接続詞や転換語の使用が限られている。文法と慣用句の使用にはいくつかの誤りがあり、コミュニケーションが一部阻害される。単純な文法構造が主に使用され、複雑な文では誤りが見られる。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "feature": "組織は制御されているが、接続詞や転換語の使用が限られている。",
+        "span_ids": [
+          "8690:2@U001",
+          "8690:2@U002",
+          "8690:2@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Cohesion.S3.C01",
+          "Cohesion.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "組織は制御されているが、接続詞や転換語の使用が限られている。",
+        "limits": "一部の段落間のつながりが不明瞭な場合がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U001",
+            "start": 0,
+            "end": 79,
+            "text": "Based on your experiences, do you agree or disagree with Emerson's statement?\r\n"
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U002",
+            "start": 79,
+            "end": 168,
+            "text": "\r\nWhen you try to do something in your life you need to have high level mastered degree. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U003",
+            "start": 168,
+            "end": 236,
+            "text": "First, when i mastered a high level degree, i can have better life. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法と慣用句の使用にはいくつかの誤りがある。",
+        "span_ids": [
+          "8690:2@U004",
+          "8690:2@U005",
+          "8690:2@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S3.C01",
+          "Phraseology.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と慣用句の使用にはいくつかの誤りがある。",
+        "limits": "誤りの頻度が全体のコミュニケーションに影響を与える可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U004",
+            "start": 236,
+            "end": 265,
+            "text": "In addition, I can get rich. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U005",
+            "start": 265,
+            "end": 295,
+            "text": "Last, i can achieve my goals. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U006",
+            "start": 295,
+            "end": 352,
+            "text": "With out degree you can not get best jobs in your life.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Syntax",
+        "kind": "range",
+        "feature": "単純な文法構造が主に使用され、複雑な文では誤りが見られる。",
+        "span_ids": [
+          "8690:2@U007",
+          "8690:2@U008",
+          "8690:2@U009"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C01",
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単純な文法構造が主に使用され、複雑な文では誤りが見られる。",
+        "limits": "複雑な文の誤りがコミュニケーションを阻害する可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U007",
+            "start": 352,
+            "end": 412,
+            "text": "\r\nFirst, i can have better life.by doing hard work in life. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U008",
+            "start": 412,
+            "end": 440,
+            "text": "First, i can have my house. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U009",
+            "start": 440,
+            "end": 486,
+            "text": "second, my kids can go to high level schools. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "feature": "単語の範囲は十分だが、微妙な単語の意味の正確な使用は見られない。",
+        "span_ids": [
+          "8690:2@U010",
+          "8690:2@U011",
+          "8690:2@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語の範囲は十分だが、微妙な単語の意味の正確な使用は見られない。",
+        "limits": "単語の範囲が十分であるが、正確な使用が不足している。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U010",
+            "start": 486,
+            "end": 518,
+            "text": "finally, buying things i wants. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U011",
+            "start": 518,
+            "end": 574,
+            "text": "with out doing nothing you will never have great life.\r\n"
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U012",
+            "start": 574,
+            "end": 606,
+            "text": "\r\nIn addition, i can get rich.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体の組織と単語の範囲は制御されているが、接続詞や転換語の使用が限られているため、一部の段落間のつながりが不明瞭な場合がある。"
+  },
+  "timestamp": "2026-11-15T19:38:28.458537+09:00"
+}

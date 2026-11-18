@@ -1,0 +1,115 @@
+{
+  "candidate_key": "A|8538:1|K1",
+  "masked_reason": {
+    "rationale": "この文章は、言語の使用に多様な文法構造と単語の範囲が見られ、組織が制御されており、文法と規則性に正確さがある。しかし、まれな言語の不正確さがコミュニケーションを妨げることもある。",
+    "unexplained": "一部の単語や文法の使用が正確でない可能性があるため、全体的な評価がより高いとは限らない。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8538:1",
+        "span_ids": [
+          "8538:1@U001",
+          "8538:1@U004",
+          "8538:1@U008"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "言語の使用に多様な文法構造と単語の範囲が見られる",
+        "score_relation": "一致",
+        "support_explanation": "多様な文法構造と単語の範囲が見られる",
+        "limits": "一部の単語の使用が正確でない可能性がある"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8538:1",
+        "span_ids": [
+          "8538:1@U001",
+          "8538:1@U004",
+          "8538:1@U008"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "組織が制御されている",
+        "score_relation": "一致",
+        "support_explanation": "文章の組織が制御されている",
+        "limits": "一部の接続詞の使用が適切でない可能性がある"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8538:1",
+        "span_ids": [
+          "8538:1@U001",
+          "8538:1@U004",
+          "8538:1@U008"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "文法と規則性に正確さがある",
+        "score_relation": "一致",
+        "support_explanation": "文法と規則性に正確さがある",
+        "limits": "まれな言語の不正確さがある"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8538:1",
+        "span_ids": [
+          "8538:1@U003",
+          "8538:1@U005"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "まれな言語の不正確さがある",
+        "score_relation": "一致",
+        "support_explanation": "まれな言語の不正確さがある",
+        "limits": "不正確さがコミュニケーションを妨げることもある"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Overall.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Overall.S4.C03"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Overall.S4.C04"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

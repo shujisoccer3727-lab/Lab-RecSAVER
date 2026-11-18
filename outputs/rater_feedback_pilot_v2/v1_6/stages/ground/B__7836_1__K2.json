@@ -1,0 +1,32 @@
+{
+  "fingerprint": "8a678ba1d185a5df40af1a7ba567875e7471e634d5d9dd8aae7ad86ee6b862a8",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文中に「student want to required for community service」や「They cant make the students to do community service」などの文法と慣用句の誤用が見られる。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "「They cant make the students to do community service.」と「I am pretty sure they can't make the students to do community service because the parents won't.」の間の論理的つながりが不明瞭で、文の流れが不自然である。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "「some student care about the community so they do those stuff like clean the streets pick up trash and all those stuff.」と「One of my family cares about the community so every Saturdays she goes with some her friends and clean so she one the person that care about the community.」の単語の範囲が限られている。特に「stuff」や「clean」などの単語が頻繁に使用されている。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "「I think if the student want to required for community service.」と「They cant make the students to do community service.」の文法構造が単純で、複雑な文法構造の使用が限られている。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:57:48.675408+09:00"
+}

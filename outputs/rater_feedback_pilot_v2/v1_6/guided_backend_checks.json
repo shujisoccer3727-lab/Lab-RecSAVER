@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-11-15T19:01:06.856443+09:00",
+  "backend": "outlines",
+  "model_called": false,
+  "checks": [
+    {
+      "stage": "merge",
+      "complete_json_and_eos_passed": true,
+      "tokens": 12,
+      "elapsed_seconds": 2.5789077969966456
+    },
+    {
+      "stage": "integrate",
+      "complete_json_and_eos_passed": true,
+      "tokens": 8,
+      "elapsed_seconds": 0.4554669209755957
+    },
+    {
+      "stage": "compare",
+      "complete_json_and_eos_passed": true,
+      "tokens": 4,
+      "elapsed_seconds": 56.532050671987236
+    },
+    {
+      "stage": "text",
+      "complete_json_and_eos_passed": true,
+      "tokens": 36,
+      "elapsed_seconds": 0.4803777140332386
+    }
+  ]
+}

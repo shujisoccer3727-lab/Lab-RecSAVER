@@ -1,0 +1,500 @@
+{
+  "fingerprint": "45dc580b84e0d3fa6d3f1690433590862c58b7b8688f22c4edd7722128048177",
+  "result": {
+    "rationale": "文章の組織と文法の正確性が一般的に制御されており、一部の言語的不正確さがコミュニケーションを妨げている。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "組織が一般的に制御されているが、一部の言語的不正確さが存在する",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Overall.S3.C02",
+          "Overall.S3.C03",
+          "Overall.S3.C04"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章の組織は全体的に制御されているが、言語的不正確さが存在する。",
+        "limits": "一部の不正確さがコミュニケーションを妨げているが、全体的な組織は制御されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U002",
+            "start": 307,
+            "end": 491,
+            "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U003",
+            "start": 491,
+            "end": 618,
+            "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U004",
+            "start": 618,
+            "end": 655,
+            "text": "but Why be basic like everyone else. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U005",
+            "start": 655,
+            "end": 721,
+            "text": "Don't you want to be different from everybody else in the world?? "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U006",
+            "start": 721,
+            "end": 783,
+            "text": "Acting or pretending just so you can fit in with your friend. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U007",
+            "start": 783,
+            "end": 864,
+            "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U008",
+            "start": 864,
+            "end": 1039,
+            "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U009",
+            "start": 1039,
+            "end": 1132,
+            "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U010",
+            "start": 1132,
+            "end": 1286,
+            "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U011",
+            "start": 1286,
+            "end": 1307,
+            "text": "\r\nin conucluesion\r\n\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U012",
+            "start": 1307,
+            "end": 1442,
+            "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "feature": "組織が一般的に制御されているが、一部の繋ぎが不適切",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Cohesion.S3.C01",
+          "Cohesion.S3.C02",
+          "Cohesion.S3.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "組織は全体的に制御されているが、一部の繋ぎが不適切。",
+        "limits": "一部の繋ぎが不適切だが、全体的な組織は制御されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U002",
+            "start": 307,
+            "end": 491,
+            "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U003",
+            "start": 491,
+            "end": 618,
+            "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U004",
+            "start": 618,
+            "end": 655,
+            "text": "but Why be basic like everyone else. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U005",
+            "start": 655,
+            "end": 721,
+            "text": "Don't you want to be different from everybody else in the world?? "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U006",
+            "start": 721,
+            "end": 783,
+            "text": "Acting or pretending just so you can fit in with your friend. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U007",
+            "start": 783,
+            "end": 864,
+            "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U008",
+            "start": 864,
+            "end": 1039,
+            "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U009",
+            "start": 1039,
+            "end": 1132,
+            "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U010",
+            "start": 1132,
+            "end": 1286,
+            "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U011",
+            "start": 1286,
+            "end": 1307,
+            "text": "\r\nin conucluesion\r\n\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U012",
+            "start": 1307,
+            "end": 1442,
+            "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "文法と使用にいくつかの誤りがある",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と使用にいくつかの誤りがある。",
+        "limits": "誤りが存在するが、全体的なコミュニケーションは制御されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U002",
+            "start": 307,
+            "end": 491,
+            "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U003",
+            "start": 491,
+            "end": 618,
+            "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U004",
+            "start": 618,
+            "end": 655,
+            "text": "but Why be basic like everyone else. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U005",
+            "start": 655,
+            "end": 721,
+            "text": "Don't you want to be different from everybody else in the world?? "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U006",
+            "start": 721,
+            "end": 783,
+            "text": "Acting or pretending just so you can fit in with your friend. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U007",
+            "start": 783,
+            "end": 864,
+            "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U008",
+            "start": 864,
+            "end": 1039,
+            "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U009",
+            "start": 1039,
+            "end": 1132,
+            "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U010",
+            "start": 1132,
+            "end": 1286,
+            "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U011",
+            "start": 1286,
+            "end": 1307,
+            "text": "\r\nin conucluesion\r\n\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U012",
+            "start": 1307,
+            "end": 1442,
+            "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Conventions",
+        "kind": "presence",
+        "feature": "スペリング、大文字、句読点の誤りが時々存在する",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Conventions.S3.C01",
+          "Conventions.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "スペリング、大文字、句読点の誤りが時々存在する。",
+        "limits": "誤りが存在するが、全体的なコミュニケーションは制御されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U002",
+            "start": 307,
+            "end": 491,
+            "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U003",
+            "start": 491,
+            "end": 618,
+            "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U004",
+            "start": 618,
+            "end": 655,
+            "text": "but Why be basic like everyone else. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U005",
+            "start": 655,
+            "end": 721,
+            "text": "Don't you want to be different from everybody else in the world?? "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U006",
+            "start": 721,
+            "end": 783,
+            "text": "Acting or pretending just so you can fit in with your friend. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U007",
+            "start": 783,
+            "end": 864,
+            "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U008",
+            "start": 864,
+            "end": 1039,
+            "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U009",
+            "start": 1039,
+            "end": 1132,
+            "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U010",
+            "start": 1132,
+            "end": 1286,
+            "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U011",
+            "start": 1286,
+            "end": 1307,
+            "text": "\r\nin conucluesion\r\n\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U012",
+            "start": 1307,
+            "end": 1442,
+            "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と使用の誤りがコミュニケーションを阻害する頻度について具体的な評価が難しい。"
+  },
+  "timestamp": "2026-11-15T19:17:27.538739+09:00"
+}

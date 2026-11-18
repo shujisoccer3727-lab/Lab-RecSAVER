@@ -1,0 +1,463 @@
+{
+  "input": {
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Cohesion",
+        "span_ids": {
+          "$ref": "D1"
+        },
+        "feature": "The essay uses some cohesive devices, but there are repetitive and mechanical uses of cohesive devices, such as 'but' and 'don't you want to'.",
+        "evaluation": "The organization is generally controlled, but the use of cohesive devices is limited in type and sometimes repetitive.",
+        "judgment_type": "presence",
+        "direction": "negative",
+        "overall_relation": "The essay's cohesion score of 2 aligns with the presence of repetitive cohesive devices and limited variety.",
+        "trait_relation": "The limited use of cohesive devices impacts the Cohesion score but does not affect other traits significantly.",
+        "limits": "The essay could benefit from a wider range of cohesive devices to improve the flow and clarity of ideas.",
+        "evidence": {
+          "$ref": "D2"
+        },
+        "id": "4902:1/K1/C1",
+        "target_id": "4902:1",
+        "candidate_index": 1,
+        "grounding_review": {
+          "claim_id": "C1",
+          "verdict": "supported",
+          "atomic": true,
+          "feature_supported": true,
+          "evaluation_supported": true,
+          "explanation": "本文は、結びつきの装置が限定的で、繰り返し使用されていることを示しています。これは、主張の特徴と評価を支持します。",
+          "added_span_ids": [],
+          "counter_span_ids": []
+        },
+        "eligible_for_integration": true,
+        "effective_evidence_ids": {
+          "$ref": "D1"
+        }
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Syntax",
+        "span_ids": {
+          "$ref": "D1"
+        },
+        "feature": "The essay includes simple and compound sentences, but there are occasional errors in sentence formation, especially in more complex sentences.",
+        "evaluation": "The syntax is generally controlled, but there are some apparent errors in sentence formation.",
+        "judgment_type": "presence",
+        "direction": "negative",
+        "overall_relation": "The essay's syntax score of 3 aligns with the presence of occasional errors in sentence formation.",
+        "trait_relation": "The errors in sentence formation impact the Syntax score but do not significantly affect other traits.",
+        "limits": "The essay could benefit from more complex sentence structures and fewer errors to improve the overall syntax.",
+        "evidence": {
+          "$ref": "D2"
+        },
+        "id": "4902:1/K1/C2",
+        "target_id": "4902:1",
+        "candidate_index": 1,
+        "grounding_review": {
+          "claim_id": "C2",
+          "verdict": "supported",
+          "atomic": true,
+          "feature_supported": true,
+          "evaluation_supported": true,
+          "explanation": "本文は、文法構造が制御されているが、複雑な文の形成に誤りがあることを示しています。これは、主張の特徴と評価を支持します。",
+          "added_span_ids": [],
+          "counter_span_ids": []
+        },
+        "eligible_for_integration": true,
+        "effective_evidence_ids": {
+          "$ref": "D1"
+        }
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Vocabulary",
+        "span_ids": {
+          "$ref": "D1"
+        },
+        "feature": "The essay uses a minimally adequate range of vocabulary for the topic, with occasional attempts to use less common vocabulary but with some inaccuracy.",
+        "evaluation": "The vocabulary is minimally adequate, but there are attempts to use less common vocabulary with some inaccuracy.",
+        "judgment_type": "presence",
+        "direction": "negative",
+        "overall_relation": "The essay's vocabulary score of 3 aligns with the minimally adequate range and occasional inaccuracies.",
+        "trait_relation": "The inaccuracy in less common vocabulary impacts the Vocabulary score but does not significantly affect other traits.",
+        "limits": "The essay could benefit from a more precise use of vocabulary to improve the clarity and depth of the argument.",
+        "evidence": {
+          "$ref": "D2"
+        },
+        "id": "4902:1/K1/C3",
+        "target_id": "4902:1",
+        "candidate_index": 1,
+        "grounding_review": {
+          "claim_id": "C3",
+          "verdict": "supported",
+          "atomic": true,
+          "feature_supported": true,
+          "evaluation_supported": true,
+          "explanation": "本文は、語彙が限定的で、まれな語彙の使用に不正確さがあることを示しています。これは、主張の特徴と評価を支持します。",
+          "added_span_ids": [],
+          "counter_span_ids": []
+        },
+        "eligible_for_integration": true,
+        "effective_evidence_ids": {
+          "$ref": "D1"
+        }
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Grammar",
+        "span_ids": {
+          "$ref": "D1"
+        },
+        "feature": "The essay contains some errors in grammar and usage, such as 'i agree' and 'friend are't'.",
+        "evaluation": "There are some errors in grammar and usage, but they are not frequent.",
+        "judgment_type": "presence",
+        "direction": "negative",
+        "overall_relation": "The essay's grammar score of 3 aligns with the presence of some errors but not frequent ones.",
+        "trait_relation": "The errors in grammar and usage impact the Grammar score but do not significantly affect other traits.",
+        "limits": "The essay could benefit from fewer grammatical errors to improve the clarity and correctness of the writing.",
+        "evidence": {
+          "$ref": "D2"
+        },
+        "id": "4902:1/K1/C4",
+        "target_id": "4902:1",
+        "candidate_index": 1,
+        "grounding_review": {
+          "claim_id": "C4",
+          "verdict": "supported",
+          "atomic": true,
+          "feature_supported": true,
+          "evaluation_supported": true,
+          "explanation": "本文は、文法と使用に誤りがあるが、頻繁ではないことを示しています。これは、主張の特徴と評価を支持します。",
+          "added_span_ids": [],
+          "counter_span_ids": []
+        },
+        "eligible_for_integration": true,
+        "effective_evidence_ids": {
+          "$ref": "D1"
+        }
+      },
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Cohesion",
+        "span_ids": {
+          "$ref": "D1"
+        },
+        "feature": "The essay uses some cohesive devices such as transitional words and phrases, but there are repetitive and mechanical uses.",
+        "evaluation": "The organization is generally controlled, but the connection between ideas is sometimes absent or unsuccessful.",
+        "judgment_type": "presence",
+        "direction": "negative",
+        "overall_relation": "The essay's overall score of 3 is consistent with the limited control of organization.",
+        "trait_relation": "The cohesion score of 2 reflects the repetitive and mechanical use of cohesive devices.",
+        "limits": "The essay could benefit from more varied and effective use of cohesive devices to improve the logical sequencing of ideas.",
+        "evidence": {
+          "$ref": "D2"
+        },
+        "id": "4902:1/K2/C1",
+        "target_id": "4902:1",
+        "candidate_index": 2,
+        "grounding_review": {
+          "claim_id": "C1",
+          "verdict": "supported",
+          "atomic": true,
+          "feature_supported": true,
+          "evaluation_supported": true,
+          "explanation": "本文は、エッセイが接続詞や移行語を使用しているが、それらの使用が繰り返し的で機械的であることを示している。また、アイデア間のつながりが時折欠如していることも確認できる。",
+          "added_span_ids": [],
+          "counter_span_ids": []
+        },
+        "eligible_for_integration": true,
+        "effective_evidence_ids": {
+          "$ref": "D1"
+        }
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Syntax",
+        "span_ids": {
+          "$ref": "D1"
+        },
+        "feature": "The essay includes simple, compound, and complex sentences, but there are some apparent errors in sentence formation.",
+        "evaluation": "The range of syntactic structures is present, but the formation of more complex sentences is sometimes problematic.",
+        "judgment_type": "extent",
+        "direction": "negative",
+        "overall_relation": "The essay's overall score of 3 is consistent with the presence of some errors in sentence formation.",
+        "trait_relation": "The syntax score of 3 reflects the occasional errors in sentence formation.",
+        "limits": "The essay could benefit from more precise control over complex sentence structures to enhance clarity.",
+        "evidence": {
+          "$ref": "D2"
+        },
+        "id": "4902:1/K2/C2",
+        "target_id": "4902:1",
+        "candidate_index": 2,
+        "grounding_review": {
+          "claim_id": "C2",
+          "verdict": "supported",
+          "atomic": true,
+          "feature_supported": true,
+          "evaluation_supported": true,
+          "explanation": "エッセイは単純、複合、複雑な文を含むが、複雑な文の形成に時折問題があることを示している。これは、文法構造の範囲が存在するが、複雑な文の形成に問題があることを反映している。",
+          "added_span_ids": [],
+          "counter_span_ids": []
+        },
+        "eligible_for_integration": true,
+        "effective_evidence_ids": {
+          "$ref": "D1"
+        }
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Vocabulary",
+        "span_ids": {
+          "$ref": "D1"
+        },
+        "feature": "The essay uses a minimally adequate range of vocabulary for the topic, with attempts to use less common vocabulary but with some inaccuracy.",
+        "evaluation": "The vocabulary is sufficient to convey the intended meaning, but there are occasional inaccuracies in word use.",
+        "judgment_type": "appropriateness",
+        "direction": "negative",
+        "overall_relation": "The essay's overall score of 3 is consistent with the occasional inaccuracies in vocabulary use.",
+        "trait_relation": "The vocabulary score of 3 reflects the attempts to use less common vocabulary but with some inaccuracy.",
+        "limits": "The essay could benefit from more precise use of vocabulary to convey more nuanced meanings.",
+        "evidence": {
+          "$ref": "D2"
+        },
+        "id": "4902:1/K2/C3",
+        "target_id": "4902:1",
+        "candidate_index": 2,
+        "grounding_review": {
+          "claim_id": "C3",
+          "verdict": "supported",
+          "atomic": true,
+          "feature_supported": true,
+          "evaluation_supported": true,
+          "explanation": "エッセイはトピックに適切な語彙範囲を使用しているが、より一般的でない語彙を使用する試みがある一方で、その使用に時折不正確さがあることを示している。これは、語彙が意図された意味を伝えるのに十分であるが、語彙使用に時折不正確さがあることを反映している。",
+          "added_span_ids": [],
+          "counter_span_ids": []
+        },
+        "eligible_for_integration": true,
+        "effective_evidence_ids": {
+          "$ref": "D1"
+        }
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Grammar",
+        "span_ids": {
+          "$ref": "D1"
+        },
+        "feature": "The essay contains some errors in grammar and usage.",
+        "evaluation": "The errors in grammar and usage are present but do not significantly impede communication.",
+        "judgment_type": "impact",
+        "direction": "negative",
+        "overall_relation": "The essay's overall score of 3 is consistent with the presence of some errors in grammar and usage.",
+        "trait_relation": "The grammar score of 3 reflects the presence of some errors.",
+        "limits": "The essay could benefit from more careful proofreading to eliminate grammatical errors.",
+        "evidence": {
+          "$ref": "D2"
+        },
+        "id": "4902:1/K2/C4",
+        "target_id": "4902:1",
+        "candidate_index": 2,
+        "grounding_review": {
+          "claim_id": "C4",
+          "verdict": "supported",
+          "atomic": true,
+          "feature_supported": true,
+          "evaluation_supported": true,
+          "explanation": "エッセイは文法と使用の誤りを含むが、それらがコミュニケーションを著しく妨げないことを示している。これは、文法と使用の誤りが存在するが、それらがコミュニケーションを著しく妨げないことを反映している。",
+          "added_span_ids": [],
+          "counter_span_ids": []
+        },
+        "eligible_for_integration": true,
+        "effective_evidence_ids": {
+          "$ref": "D1"
+        }
+      }
+    ]
+  },
+  "reference_catalog": {
+    "D1": [
+      "4902:1@U001",
+      "4902:1@U002",
+      "4902:1@U003",
+      "4902:1@U004",
+      "4902:1@U005",
+      "4902:1@U006",
+      "4902:1@U007",
+      "4902:1@U008",
+      "4902:1@U009",
+      "4902:1@U010",
+      "4902:1@U011",
+      "4902:1@U012"
+    ],
+    "D4": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. ",
+    "D3": {
+      "essay_id": "4902:1",
+      "span_id": "4902:1@U001",
+      "start": 0,
+      "end": 307,
+      "text": {
+        "$ref": "D4"
+      }
+    },
+    "D6": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n",
+    "D5": {
+      "essay_id": "4902:1",
+      "span_id": "4902:1@U002",
+      "start": 307,
+      "end": 491,
+      "text": {
+        "$ref": "D6"
+      }
+    },
+    "D8": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. ",
+    "D7": {
+      "essay_id": "4902:1",
+      "span_id": "4902:1@U003",
+      "start": 491,
+      "end": 618,
+      "text": {
+        "$ref": "D8"
+      }
+    },
+    "D9": {
+      "essay_id": "4902:1",
+      "span_id": "4902:1@U004",
+      "start": 618,
+      "end": 655,
+      "text": "but Why be basic like everyone else. "
+    },
+    "D11": "Don't you want to be different from everybody else in the world?? ",
+    "D10": {
+      "essay_id": "4902:1",
+      "span_id": "4902:1@U005",
+      "start": 655,
+      "end": 721,
+      "text": {
+        "$ref": "D11"
+      }
+    },
+    "D13": "Acting or pretending just so you can fit in with your friend. ",
+    "D12": {
+      "essay_id": "4902:1",
+      "span_id": "4902:1@U006",
+      "start": 721,
+      "end": 783,
+      "text": {
+        "$ref": "D13"
+      }
+    },
+    "D15": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n",
+    "D14": {
+      "essay_id": "4902:1",
+      "span_id": "4902:1@U007",
+      "start": 783,
+      "end": 864,
+      "text": {
+        "$ref": "D15"
+      }
+    },
+    "D17": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. ",
+    "D16": {
+      "essay_id": "4902:1",
+      "span_id": "4902:1@U008",
+      "start": 864,
+      "end": 1039,
+      "text": {
+        "$ref": "D17"
+      }
+    },
+    "D19": "if i want to accomplish something i need to be like everyone and follow what they are doing. ",
+    "D18": {
+      "essay_id": "4902:1",
+      "span_id": "4902:1@U009",
+      "start": 1039,
+      "end": 1132,
+      "text": {
+        "$ref": "D19"
+      }
+    },
+    "D21": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n",
+    "D20": {
+      "essay_id": "4902:1",
+      "span_id": "4902:1@U010",
+      "start": 1132,
+      "end": 1286,
+      "text": {
+        "$ref": "D21"
+      }
+    },
+    "D22": {
+      "essay_id": "4902:1",
+      "span_id": "4902:1@U011",
+      "start": 1286,
+      "end": 1307,
+      "text": "\r\nin conucluesion\r\n\r\n"
+    },
+    "D24": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. ",
+    "D23": {
+      "essay_id": "4902:1",
+      "span_id": "4902:1@U012",
+      "start": 1307,
+      "end": 1442,
+      "text": {
+        "$ref": "D24"
+      }
+    },
+    "D2": [
+      {
+        "$ref": "D3"
+      },
+      {
+        "$ref": "D5"
+      },
+      {
+        "$ref": "D7"
+      },
+      {
+        "$ref": "D9"
+      },
+      {
+        "$ref": "D10"
+      },
+      {
+        "$ref": "D12"
+      },
+      {
+        "$ref": "D14"
+      },
+      {
+        "$ref": "D16"
+      },
+      {
+        "$ref": "D18"
+      },
+      {
+        "$ref": "D20"
+      },
+      {
+        "$ref": "D22"
+      },
+      {
+        "$ref": "D23"
+      }
+    ]
+  },
+  "serialization": "Every {$ref: ID} substitutes the exact full value in reference_catalog, recursively. All original input information and full essay context are present; references only remove duplicate storage."
+}

@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-11-16T17:04:40.343336+09:00",
+  "phase": "one",
+  "source_files_unchanged": true,
+  "all_old_output_hashes_unchanged": true,
+  "verification_payloads": [
+    {
+      "path": "stage_inputs/verify/B__1514_1__K1.json",
+      "target_fields_exact": true,
+      "free_text_direct_scores_absent": true
+    },
+    {
+      "path": "stage_inputs/verify/B__1514_1__K2.json",
+      "target_fields_exact": true,
+      "free_text_direct_scores_absent": true
+    }
+  ],
+  "exact_citations": 19,
+  "final_sentences_with_lineage": 5,
+  "stage_calls": {
+    "generate": {
+      "calls": 2,
+      "success": 2,
+      "failed_attempts": 0
+    },
+    "verify": {
+      "calls": 2,
+      "success": 2,
+      "failed_attempts": 0
+    },
+    "ground": {
+      "calls": 4,
+      "success": 2,
+      "failed_attempts": 2
+    },
+    "merge": {
+      "calls": 1,
+      "success": 1,
+      "failed_attempts": 0
+    },
+    "integrate": {
+      "calls": 1,
+      "success": 1,
+      "failed_attempts": 0
+    },
+    "compare": {
+      "calls": 1,
+      "success": 1,
+      "failed_attempts": 0
+    },
+    "text": {
+      "calls": 1,
+      "success": 1,
+      "failed_attempts": 0
+    }
+  },
+  "failed_attempts": [
+    {
+      "stage": "ground",
+      "key": "B|1514:1|K1",
+      "attempt": 0,
+      "status": "failed",
+      "error": "AssertionError: Partial or composite support cannot be supported",
+      "raw_output": "{\"reviews\": [{\"claim_id\": \"C1\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay uses cohesive devices such as transitional phrases and examples to connect ideas across sentences and paragraphs, supporting the evaluation that the text organization is generally well-controlled.\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C2\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay includes a mix of simple, compound, and complex sentences, supporting the evaluation that there are occasional errors or inappropriateness in sentence formation, particularly in more complex sentences.\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C3\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay uses a minimally adequate range of vocabulary for the topic, supporting the evaluation that there are attempts to use less common vocabulary but with some inaccuracy.\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C4\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"The essay contains some errors in grammar and usage, supporting the evaluation that there are occasional inaccuracies in grammar and usage, which can impede communication.\", \"added_span_ids\": [], \"counter_span_ids\": []}]}"
+    },
+    {
+      "stage": "ground",
+      "key": "B|1514:1|K2",
+      "attempt": 0,
+      "status": "failed",
+      "error": "AssertionError: Partial or composite support cannot be supported",
+      "raw_output": "{\"reviews\": [{\"claim_id\": \"C1\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"文章中确实提到了简单句和复合句的混合使用，但也有在更复杂的句子中出现的错误，这与语法判断一致。\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C2\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"文章中确实使用了基本范围的词汇，尝试使用不太常见的词汇，但有时不准确，这与词汇判断一致。\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C3\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"文章中确实包含了一些语法和用法错误，这与语法判断一致。\", \"added_span_ids\": [], \"counter_span_ids\": []}, {\"claim_id\": \"C4\", \"verdict\": \"supported\", \"atomic\": false, \"feature_supported\": true, \"evaluation_supported\": true, \"explanation\": \"文章中确实展示了使用惯例来传达意义的发展，但有一些拼写、大写和标点符号的错误，这与惯例判断一致。\", \"added_span_ids\": [], \"counter_span_ids\": []}]}"
+    }
+  ],
+  "limitation": "Mechanical checks do not establish semantic correctness; Codex review is development review, not independent human evaluation."
+}

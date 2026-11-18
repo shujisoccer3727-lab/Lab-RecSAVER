@@ -1,0 +1,129 @@
+{
+  "candidate_key": "A|318:2|K1",
+  "masked_reason": {
+    "rationale": "文章組織と文法の不正確さがコミュニケーションを阻害している。単語の選択と文法の誤りが頻繁に見られ、全体的な表現力が制限されている。",
+    "unexplained": "全体的な[得点表現除去]である理由は、具体的な誤りと制限的な表現力による。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "318:2",
+        "span_ids": [
+          "318:2@U001",
+          "318:2@U002",
+          "318:2@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "communication",
+        "direction": "negative",
+        "feature": "文章組織と文法の誤りがコミュニケーションを阻害",
+        "score_relation": "評価に一致",
+        "support_explanation": "具体的な誤りが引用されている",
+        "limits": "全体的な頻度を断定できない"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "318:2",
+        "span_ids": [
+          "318:2@U003",
+          "318:2@U004",
+          "318:2@U005"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "単語の選択が制限的で正確さに欠ける",
+        "score_relation": "評価に一致",
+        "support_explanation": "具体的な単語の誤りが引用されている",
+        "limits": "全体的な頻度を断定できない"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "318:2",
+        "span_ids": [
+          "318:2@U002",
+          "318:2@U003",
+          "318:2@U004"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "文法の誤りが頻繁に見られる",
+        "score_relation": "評価に一致",
+        "support_explanation": "具体的な文法の誤りが引用されている",
+        "limits": "全体的な頻度を断定できない"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "318:2",
+        "span_ids": [
+          "318:2@U001",
+          "318:2@U002",
+          "318:2@U003"
+        ],
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "アイデアのつながりが不十分で、組織が制限的",
+        "score_relation": "評価に一致",
+        "support_explanation": "具体的なつながりの欠如が引用されている",
+        "limits": "全体的な頻度を断定できない"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "unexplained",
+      "start": 4,
+      "end": 8,
+      "original": "評価が3",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_label",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C04",
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Vocabulary.S3.C01",
+        "Vocabulary.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Syntax.S3.C01",
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Cohesion.S3.C01",
+        "Cohesion.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

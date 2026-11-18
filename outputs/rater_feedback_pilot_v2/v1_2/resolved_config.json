@@ -1,0 +1,80 @@
+{
+  "config": {
+    "version": "feedback-pilot-v2/1.2",
+    "output_dir": "outputs/rater_feedback_pilot_v2/v1_2",
+    "source_inputs": "outputs/rater_feedback_pilot/inputs.json",
+    "source_selection": "outputs/rater_feedback_pilot/selection.json",
+    "raw_path": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+    "wide_path": "data/processed/rater_essay_wide.csv",
+    "rubric_path": "rubrics/ellipse_rubric_structured.json",
+    "prompt_dir": "prompts/rater_feedback_pilot_v2/v1",
+    "seed": 20261115,
+    "conditions": [
+      "A",
+      "B"
+    ],
+    "candidates_per_target": 2,
+    "format_retries": 1,
+    "batch_size": 8,
+    "span_max_chars": 420,
+    "pilot_rule": "rater_7 targets sorted by numeric source row then rater_position; first three; never replace by outcomes",
+    "model": {
+      "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+      "quantization": "gptq_marlin",
+      "tensor_parallel_size": 1,
+      "max_model_len": 32768,
+      "gpu_memory_utilization": 0.9,
+      "runtime_options": {
+        "max_num_seqs": 8,
+        "enforce_eager": true,
+        "enable_prefix_caching": true
+      }
+    },
+    "generation": {
+      "temperature": 0.2,
+      "top_p": 0.8
+    },
+    "max_tokens": {
+      "generate": 1800,
+      "verify": 96,
+      "ground": 1100,
+      "merge": 800,
+      "integrate": 1800,
+      "compare": 1900,
+      "text": 1600
+    },
+    "seed_policy": "SHA256(seed, stage, target/candidate or rater, attempt), same paired seeds across A/B",
+    "acceptance": "masked candidate Overall reconstruction equals observed Overall; no regeneration on score mismatch; evidence eligibility separately requires valid target spans and model-assessed semantic support",
+    "scope": "preliminary execution and content inspection only; no final evaluation design, training, bias or efficacy claims"
+  },
+  "timestamp": "2026-11-15T17:50:36.687019+09:00",
+  "source_sha256": {
+    "outputs/rater_feedback_pilot/inputs.json": "dee1126ed128c41775a5775964cf5e9fa4bfbf0f250c38d7857b0d73cd7e36c7",
+    "outputs/rater_feedback_pilot/selection.json": "961a872689e4ced5bbab316dd274822c1e99a0832688ee8c28b626cc736231c5",
+    "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv": "6972b8a960fc9f1986046aacef18792438bf90326ec55a89272932453e2f519b",
+    "data/processed/rater_essay_wide.csv": "36e0d243eaf3a6237ac666a04a835c8206123295cf6a7b2e9476c4c28bc5e920",
+    "rubrics/ellipse_rubric_structured.json": "af5cf3309801793d630f83f3828eade60254c6e60b2968e75abc27591a7e32bb",
+    "outputs/rater_feedback_pilot/README.md": "8074305bef7f015e48e748668648166fdb28375918a5887b803ca81ad4e718c5",
+    "outputs/rater_feedback_pilot/report.md": "695597f6f617330614898a3f761d9739252b471b9d0cdb53a4978c664e24061a",
+    "outputs/rater_feedback_pilot/assessment.md": "0c5cc2bb6636f40a71a404a7337f66a6b9f368eb7a19d7627431bc37a55a3bb7",
+    "outputs/rater_feedback_pilot/resolved_config.json": "487d34759e04c6185deeae9ba1929326fe17bb887c60a6df0f4c2adde72cb1c3",
+    "outputs/rater_feedback_pilot/feedback.json": "91706576c480b95aedf62732f340c098aa3293b7ced4b439dad8910f3b077c13",
+    "src/recsaver/rater_feedback_pilot_v2.py": "4906595c6586d87857a5ceeb1d86551f793ba91990147b72735b593731da17a3",
+    "src/recsaver/model.py": "b7a3f41d2393a3d68e0b7b38ac574be83fe2b6bb4fafe1b5d5717ab7bf7db0ef",
+    "src/recsaver/rater_feedback_pilot.py": "b80701dbf07db283d65210b7bdf22221aec2aaffed2f73f2b6e80d8d14408805",
+    "scripts/check_feedback_v2.py": "f444e099ae401bfe2b6f8ba35a5a5584c3e44f51fce7df307e2cead9ea334acf",
+    "scripts/audit_feedback_v2.py": "9665cbb19b589537a18887d2f7131d3b9ea409529075beb58f23d55d21e3bdc8",
+    "tests/test_rater_feedback_pilot_v2.py": "90c3daf61f4b76bea506857f4b3645dae019cb5074b9c2792983a486e5382e97",
+    "configs/rater_feedback_pilot_v2.json": "6d72e8747d117a3f72b9c370e6ccbe1fc1ec5aa441f7e5111e95f7d3759bea7e",
+    "prompts/rater_feedback_pilot_v2/v1/compare.txt": "3383986b0426b11d2e8debe0d77999326d2bafc761c91379885cdb24ec159fae",
+    "prompts/rater_feedback_pilot_v2/v1/generate.txt": "2bf18e2cefdd08e25bdd2867369634b975dee7b83bc2348130feb076ea7f364b",
+    "prompts/rater_feedback_pilot_v2/v1/ground.txt": "46c77c9e803cfaf9279723605833d7067cb1579cde46d1a107c57169f256e6a0",
+    "prompts/rater_feedback_pilot_v2/v1/integrate.txt": "67a3dda8770685e0040ce9b125a3d29cf2fce3a81d6898f00fc537ccd356b3a6",
+    "prompts/rater_feedback_pilot_v2/v1/merge.txt": "5e5057ec6c887e6bd126000c07db3e4da8267d87d239b2cab79baa62a662ba72",
+    "prompts/rater_feedback_pilot_v2/v1/text.txt": "7149c562e358d87e35cc8c1761a169c11e9bdc9177c48d459d42bea71862d720",
+    "prompts/rater_feedback_pilot_v2/v1/verify.txt": "dbcc45b80204ef8731755dae84c828d2569d398ea85da2ce67de6337d065d024"
+  },
+  "prior_reference_text_reused": false,
+  "trait_source": "Actual raw Rater_1/Rater_2 value matched to rater_id; own profile only",
+  "rubric_limitation": "Source DOCX absent; stored official transcription used; clause offsets return to complete source wording"
+}

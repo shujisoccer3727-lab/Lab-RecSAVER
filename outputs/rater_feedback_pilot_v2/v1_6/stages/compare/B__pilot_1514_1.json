@@ -1,0 +1,366 @@
+{
+  "fingerprint": "db932adde39b97e26ccd042210c8eae25eca879168ac9dfc6142868f4cb4da13",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "1514:1/K1/C1",
+          "1514:1/K1/C2",
+          "1514:1/K1/C3",
+          "1514:1/K1/C4"
+        ],
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U002",
+          "1514:1@U003",
+          "1514:1@U004",
+          "1514:1@U005",
+          "1514:1@U006",
+          "1514:1@U007",
+          "1514:1@U008",
+          "1514:1@U009",
+          "1514:1@U010",
+          "1514:1@U011",
+          "1514:1@U012",
+          "1514:1@U013",
+          "1514:1@U014",
+          "1514:1@U015",
+          "1514:1@U016",
+          "1514:1@U017",
+          "1514:1@U018",
+          "1514:1@U019"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "1514:1@U001",
+            "tokens": [
+              "Based",
+              "on",
+              "Emerson's",
+              "statement"
+            ],
+            "relation": "prepositional phrase",
+            "interpretation": "この文はEmersonの主張に基づいて意見を述べているが、主張の具体的な内容が明確に示されていない。",
+            "token_positions": [
+              {
+                "token": "Based",
+                "start": 0,
+                "end": 5
+              },
+              {
+                "token": "on",
+                "start": 6,
+                "end": 8
+              },
+              {
+                "token": "Emerson's",
+                "start": 9,
+                "end": 18
+              },
+              {
+                "token": "statement",
+                "start": 19,
+                "end": 28
+              }
+            ]
+          },
+          {
+            "span_id": "1514:1@U011",
+            "tokens": [
+              "he",
+              "apply",
+              "to",
+              "college"
+            ],
+            "relation": "subject-verb-object",
+            "interpretation": "「apply」の動詞形が「applied」のほうが正確である。",
+            "token_positions": [
+              {
+                "token": "he",
+                "start": 1292,
+                "end": 1294
+              },
+              {
+                "token": "he",
+                "start": 1317,
+                "end": 1319
+              },
+              {
+                "token": "he",
+                "start": 1352,
+                "end": 1354
+              },
+              {
+                "token": "he",
+                "start": 1372,
+                "end": 1374
+              },
+              {
+                "token": "apply",
+                "start": 1355,
+                "end": 1360
+              },
+              {
+                "token": "to",
+                "start": 1302,
+                "end": 1304
+              },
+              {
+                "token": "to",
+                "start": 1361,
+                "end": 1363
+              },
+              {
+                "token": "college",
+                "start": 1364,
+                "end": 1371
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S3.C02",
+          "Vocabulary.S3.C04",
+          "Grammar.S3.C01",
+          "Syntax.S3.C01"
+        ],
+        "feature_confirmed": "文章の組織と文法は比較的良好だが、複雑な文法構造の使用が限られている。文法の正確性に若干の問題がある。",
+        "inferred_judgment": "全体的な組織と文法は理解しやすいが、文法の正確性と複雑な文法構造の使用に改善の余地がある。",
+        "rubric_based_proposal": "Overall.S3.C02の条件を満たすが、文法の正確性と複雑な文法構造の使用に改善の余地があるため、Overall.S4.C04への改善提案が適切である。",
+        "agreement_review_unknown": "Hitlerの例が適切かどうかは議論の余地がある。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "1514:1@U001",
+              "1514:1@U002",
+              "1514:1@U003"
+            ],
+            "finding": "文章の組織と文法は比較的良好で、全体的な流れは理解しやすい。"
+          },
+          {
+            "span_ids": [
+              "1514:1@U005",
+              "1514:1@U006",
+              "1514:1@U007"
+            ],
+            "finding": "語彙の使用に若干の問題があり、正確さに欠ける部分がある。"
+          },
+          {
+            "span_ids": [
+              "1514:1@U008",
+              "1514:1@U010",
+              "1514:1@U011"
+            ],
+            "finding": "文法の正確性に若干の問題があり、誤りが見られる。"
+          },
+          {
+            "span_ids": [
+              "1514:1@U012",
+              "1514:1@U013",
+              "1514:1@U014"
+            ],
+            "finding": "複雑な文法構造の使用は限られており、文の多様性に欠ける。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "「apply」の動詞形が「applied」のほうが正確である。",
+          "where_span_ids": [
+            "1514:1@U011"
+          ],
+          "action": "「apply」を「applied」に修正する。",
+          "reason": "動詞の過去形が正確に使用されていないため、意味理解に影響する可能性がある。"
+        },
+        "scope_limit": "Hitlerの例が適切かどうかは議論の余地がある。",
+        "citations": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U002",
+            "start": 203,
+            "end": 317,
+            "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U003",
+            "start": 317,
+            "end": 404,
+            "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U004",
+            "start": 404,
+            "end": 529,
+            "text": "In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n"
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U005",
+            "start": 529,
+            "end": 685,
+            "text": "\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U006",
+            "start": 685,
+            "end": 825,
+            "text": "He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U007",
+            "start": 825,
+            "end": 926,
+            "text": "Also, he took classes that would help him improve his skills and understanding of his future career. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U008",
+            "start": 926,
+            "end": 1050,
+            "text": "Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U009",
+            "start": 1050,
+            "end": 1137,
+            "text": "This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n"
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U010",
+            "start": 1137,
+            "end": 1257,
+            "text": "\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U011",
+            "start": 1257,
+            "end": 1392,
+            "text": "At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U012",
+            "start": 1392,
+            "end": 1516,
+            "text": "That was the moment when Hitler decided to do something different, and experience something new that could change his life. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U013",
+            "start": 1516,
+            "end": 1555,
+            "text": "With hard work and patience he did it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U014",
+            "start": 1555,
+            "end": 1644,
+            "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U015",
+            "start": 1644,
+            "end": 1998,
+            "text": "\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U016",
+            "start": 1998,
+            "end": 2156,
+            "text": "You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n"
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U017",
+            "start": 2156,
+            "end": 2355,
+            "text": "\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U018",
+            "start": 2355,
+            "end": 2365,
+            "text": "You'll\r\n\r\n"
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U019",
+            "start": 2365,
+            "end": 2583,
+            "text": "never know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. "
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C02",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "organization generally controlled although connection sometimes absent or unsuccessful;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 73,
+            "end": 160,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C04",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "attempts to use less common vocabulary but with some inaccuracy",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 138,
+            "end": 201,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S3.C01",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "Simple, compound, and complex syntactic structures present although the range may be limited;",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 0,
+            "end": 93,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:09:33.118592+09:00"
+}

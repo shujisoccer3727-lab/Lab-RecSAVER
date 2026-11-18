@@ -1,0 +1,240 @@
+{
+  "fingerprint": "777d7b1c7dfa8262fcec1a41158859cbefdf64e7cba5d2aa43629d4db68ad702",
+  "result": {
+    "rationale": "このエッセイは、全体的な組織と文法、構文、慣用句の使用において一定の制御が見られますが、より複雑な文の形成や、より広範な語彙の使用においては改善の余地があります。また、文法と慣用句の使用においては、誤用や不適切な使用が見られ、それがコミュニケーションに影響を及ぼす場合があります。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "一定の組織と文法、構文、慣用句の使用",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U002",
+          "1514:1@U003",
+          "1514:1@U004"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "エッセイは全体的な組織と文法、構文、慣用句の使用において一定の制御が見られます。",
+        "limits": "複雑な文の形成や広範な語彙の使用においては改善の余地があります。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U002",
+            "start": 203,
+            "end": 317,
+            "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U003",
+            "start": 317,
+            "end": 404,
+            "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U004",
+            "start": 404,
+            "end": 529,
+            "text": "In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文の形成における誤用",
+        "span_ids": [
+          "1514:1@U004",
+          "1514:1@U005",
+          "1514:1@U006",
+          "1514:1@U007"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成において誤用が見られます。",
+        "limits": "一部の文は適切に形成されています。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U004",
+            "start": 404,
+            "end": 529,
+            "text": "In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n"
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U005",
+            "start": 529,
+            "end": 685,
+            "text": "\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U006",
+            "start": 685,
+            "end": 825,
+            "text": "He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U007",
+            "start": 825,
+            "end": 926,
+            "text": "Also, he took classes that would help him improve his skills and understanding of his future career. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "語彙の範囲が限定的",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U002",
+          "1514:1@U003",
+          "1514:1@U004"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "語彙の範囲が限定的で、より広範な語彙の使用が見られません。",
+        "limits": "一部の語彙は適切に使用されています。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U002",
+            "start": 203,
+            "end": 317,
+            "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U003",
+            "start": 317,
+            "end": 404,
+            "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U004",
+            "start": 404,
+            "end": 529,
+            "text": "In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "feature": "慣用句の誤用",
+        "span_ids": [
+          "1514:1@U005",
+          "1514:1@U006",
+          "1514:1@U007",
+          "1514:1@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Phraseology.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "慣用句の誤用が見られます。",
+        "limits": "一部の慣用句は適切に使用されています。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U005",
+            "start": 529,
+            "end": 685,
+            "text": "\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U006",
+            "start": 685,
+            "end": 825,
+            "text": "He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U007",
+            "start": 825,
+            "end": 926,
+            "text": "Also, he took classes that would help him improve his skills and understanding of his future career. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U008",
+            "start": 926,
+            "end": 1050,
+            "text": "Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. "
+          }
+        ]
+      }
+    ],
+    "unexplained": [
+      "文法と慣用句の使用における誤用や不適切な使用がコミュニケーションに影響を及ぼす場合があります。"
+    ]
+  },
+  "timestamp": "2026-11-15T18:04:51.001568+09:00"
+}

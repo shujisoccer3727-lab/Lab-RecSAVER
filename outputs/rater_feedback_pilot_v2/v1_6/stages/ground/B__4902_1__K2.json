@@ -1,0 +1,32 @@
+{
+  "fingerprint": "30b083d7bd2df5d5e370f64da03e3794c4b3a2023ab8cce390e9b219a3d8718d",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "span_idsの内容が重複と機械的なつながりを示している。具体的には、最初の段落で「To be yourself in a world that is trying to make you something else is the greatest accomplishment.」という引用が繰り返し使用されており、アイデアの重複が見られる。また、各段落間のつながりが機械的で、自然な流れが欠けている。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "span_idsの内容が文法と構文の誤りを示している。例えば、「people now a day don't try to be them self」や「They're trying or acting like to be someone else not them self」など、人称代名詞の使用や文の構造に誤りがある。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "span_idsの内容が微妙な単語の意味の正確な使用の欠如を示している。例えば、「They're trying or acting like to be someone else not them self」の「like to be」は「like being」の誤用であり、単語の意味の正確な使用が欠けている。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "span_idsの内容が複雑な文の形成における誤りを示している。例えば、「The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self.」は複雑な文構造であり、誤りが含まれている。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:55:53.283787+09:00"
+}

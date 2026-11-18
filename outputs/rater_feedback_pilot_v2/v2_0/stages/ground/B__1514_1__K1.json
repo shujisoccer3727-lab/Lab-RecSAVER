@@ -1,0 +1,48 @@
+{
+  "fingerprint": "072eb04dd4517072ba15e3349d27bcc0383f14df1d1f6a3edbe2ba8199d6dc9d",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "文中に「you'll never know if what you could have done was worth your time」の文法的な誤りが見られる。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "文章は限定的な語彙を使用しており、より広範な単語やフレーズの使用が見られない。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "文章は全体的に組織が制御されており、アイデアのつながりが適切に示されている。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "文法の正確さは保たれているが、一部の文法と構文の誤りが見られる。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-16T16:20:36.466543+09:00"
+}

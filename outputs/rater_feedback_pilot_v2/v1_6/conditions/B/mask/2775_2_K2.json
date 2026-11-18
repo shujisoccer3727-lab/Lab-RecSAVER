@@ -1,0 +1,114 @@
+{
+  "candidate_key": "B|2775:2|K2",
+  "masked_reason": {
+    "rationale": "本文は全体的に組織化がうまく行われており、適切な語彙と文法が使用されている。しかし、文法や構文に時折見られる誤りがコミュニケーションを阻害する場合がある。",
+    "unexplained": "一部の誤りが全体の評価にどのように影響を与えたかは不明瞭。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "span_ids": [
+          "2775:2@U001",
+          "2775:2@U002"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "適切な語彙と文法の使用",
+        "score_relation": "一致",
+        "support_explanation": "適切な語彙と文法が使用されている。",
+        "limits": "文法や構文に時折見られる誤りがコミュニケーションを阻害する場合がある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "span_ids": [
+          "2775:2@U003",
+          "2775:2@U004"
+        ],
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "適切な接続詞とトランスィショナルフレーズの使用",
+        "score_relation": "一致",
+        "support_explanation": "接続詞とトランスィショナルフレーズが適切に使用されている。",
+        "limits": "一部の接続が不明瞭な場合がある。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "span_ids": [
+          "2775:2@U005",
+          "2775:2@U006"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "文法誤りの頻度",
+        "score_relation": "不一致",
+        "support_explanation": "文法誤りが見られる。",
+        "limits": "誤りがコミュニケーションを阻害する場合がある。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "span_ids": [
+          "2775:2@U007",
+          "2775:2@U008"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "構文誤りの頻度",
+        "score_relation": "不一致",
+        "support_explanation": "構文誤りが見られる。",
+        "limits": "誤りがコミュニケーションを阻害する場合がある。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C01",
+        "Overall.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Cohesion.S4.C01",
+        "Cohesion.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Grammar.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Syntax.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

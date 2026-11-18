@@ -1,0 +1,114 @@
+{
+  "candidate_key": "B|7836:1|K1",
+  "masked_reason": {
+    "rationale": "文章の組織と文法の正確性が制限され、文法と構文の誤りがコミュニケーションを妨げている。しかし、単純な構文と基本的な単語の使用は理解可能である。",
+    "unexplained": "文法と構文の誤りの頻度と影響についての詳細な評価が不足している。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "7836:1",
+        "span_ids": [
+          "7836:1@U002",
+          "7836:1@U004",
+          "7836:1@U005"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "組織と文法の正確性が制限され、誤りがコミュニケーションを妨げる",
+        "score_relation": "評価が低い",
+        "support_explanation": "誤りが具体的に見られる",
+        "limits": "全体の頻度を断定できない"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "7836:1",
+        "span_ids": [
+          "7836:1@U003",
+          "7836:1@U004"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "単純な構文と複雑な文の誤り",
+        "score_relation": "評価が低い",
+        "support_explanation": "具体的な誤りが見られる",
+        "limits": "全体の頻度を断定できない"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "7836:1",
+        "span_ids": [
+          "7836:1@U002",
+          "7836:1@U005"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "基本的な単語と単純な構文の使用",
+        "score_relation": "評価が低い",
+        "support_explanation": "具体的な単語が見られる",
+        "limits": "全体の頻度を断定できない"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "7836:1",
+        "span_ids": [
+          "7836:1@U004",
+          "7836:1@U005"
+        ],
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "direction": "negative",
+        "feature": "基本的なフレーズの繰り返し",
+        "score_relation": "評価が低い",
+        "support_explanation": "具体的なフレーズが見られる",
+        "limits": "全体の頻度を断定できない"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C03",
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Phraseology.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

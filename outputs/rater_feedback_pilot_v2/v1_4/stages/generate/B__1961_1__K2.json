@@ -1,0 +1,209 @@
+{
+  "fingerprint": "17a10bdf8b92eec89a254315d66b8623bb2faf4c83df65afdd4f13d4b6301b1d",
+  "result": {
+    "rationale": "文章展示了良好的组织结构和语法使用，但词汇选择和句法多样性有待提高。文章中的错误较少，且不影响整体理解。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章结构清晰，逻辑连贯",
+        "span_ids": [
+          "1961:1@U001",
+          "1961:1@U002",
+          "1961:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "支持高分",
+        "condition_ids": [
+          "Overall.S5.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章开头明确，段落间过渡自然",
+        "limits": "无",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U001",
+            "start": 0,
+            "end": 61,
+            "text": "If you could visit one place in the world where would it be? "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U002",
+            "start": 61,
+            "end": 111,
+            "text": "One place that I would like to visit is Pakistan. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U003",
+            "start": 111,
+            "end": 171,
+            "text": "Here are some reasons why I would like to visit this place. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "语法错误较少",
+        "span_ids": [
+          "1961:1@U004",
+          "1961:1@U005",
+          "1961:1@U006"
+        ],
+        "direction": "positive",
+        "score_relation": "支持高分",
+        "condition_ids": [
+          "Grammar.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文中未发现明显的语法错误",
+        "limits": "无",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U004",
+            "start": 171,
+            "end": 206,
+            "text": "First, it is known for it's parks. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U005",
+            "start": 206,
+            "end": 237,
+            "text": "Secondly, the food is amazing. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U006",
+            "start": 237,
+            "end": 284,
+            "text": "Lastly, Pakistan is one of the nicest culture. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "词汇选择有限",
+        "span_ids": [
+          "1961:1@U007",
+          "1961:1@U008",
+          "1961:1@U009"
+        ],
+        "direction": "negative",
+        "score_relation": "影响高分",
+        "condition_ids": [
+          "Vocabulary.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章中使用了较多常见词汇",
+        "limits": "无",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U007",
+            "start": 284,
+            "end": 342,
+            "text": "As you can see, Pakistan is an excellent place to visit.\r\n"
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U008",
+            "start": 342,
+            "end": 401,
+            "text": "\r\nPakistan is known for some of it's best amusement parks. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U009",
+            "start": 401,
+            "end": 442,
+            "text": "One place I would go to is Aladdin park. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "句法多样性不足",
+        "span_ids": [
+          "1961:1@U010",
+          "1961:1@U011",
+          "1961:1@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "影响高分",
+        "condition_ids": [
+          "Syntax.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章中简单句较多，复杂句较少",
+        "limits": "无",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U010",
+            "start": 442,
+            "end": 496,
+            "text": "It's an amusement park with a lot of thrilling rides. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U011",
+            "start": 496,
+            "end": 527,
+            "text": "I could go on the chair lifts. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U012",
+            "start": 527,
+            "end": 548,
+            "text": "They are so awesome. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文章中关于文化部分的描述较为笼统，缺乏具体细节，这可能是影响评分的一个因素。"
+  },
+  "timestamp": "2026-11-15T18:21:04.147102+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_3/stages/generate/B__1961_1__K2.json",
+  "source_fingerprint": "da8c35d6ba55cf7109fe6625d779eae49971c5cec4965c0936e9d890ce921e43",
+  "reuse_recorded_at": "2026-11-15T18:40:04.926208+09:00"
+}

@@ -1,0 +1,116 @@
+{
+  "candidate_key": "B|2910:1|K1",
+  "masked_reason": {
+    "rationale": "文章の構成と文法に問題があり、正確な表現が不足している。単語の選択と用法は適切だが、複雑な文の形成に困難がある。",
+    "unexplained": "文の構成と文法の誤りが全体的に散見されるが、その頻度と影響度は明確に評価しづらい。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2910:1",
+        "span_ids": [
+          "2910:1@U001",
+          "2910:1@U004",
+          "2910:1@U008"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "複雑な文の形成に困難がある",
+        "score_relation": "評価が反映",
+        "support_explanation": "複雑な文の形成に困難がある例が複数見られる。",
+        "limits": "一部の文は適切に形成されている。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2910:1",
+        "span_ids": [
+          "2910:1@U001",
+          "2910:1@U004",
+          "2910:1@U008"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文法の誤りが存在する",
+        "score_relation": "評価が反映",
+        "support_explanation": "文法の誤りが複数見られる。",
+        "limits": "一部の文は正確に形成されている。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2910:1",
+        "span_ids": [
+          "2910:1@U001",
+          "2910:1@U004",
+          "2910:1@U008"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "direction": "positive",
+        "feature": "単語の選択と用法は適切",
+        "score_relation": "評価が反映",
+        "support_explanation": "単語の選択と用法は適切に見られる。",
+        "limits": "一部の単語の使用は改善の余地がある。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2910:1",
+        "span_ids": [
+          "2910:1@U001",
+          "2910:1@U004",
+          "2910:1@U008"
+        ],
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "direction": "negative",
+        "feature": "文章の構成と文法に問題がある",
+        "score_relation": "評価が反映",
+        "support_explanation": "文章の構成と文法に問題がある例が複数見られる。",
+        "limits": "一部の文章は適切に構成されている。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Cohesion.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

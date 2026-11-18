@@ -1,0 +1,209 @@
+{
+  "fingerprint": "a46f84846ae10124245fb761913ea5039ed64af0e10f33dd0ccd4c317b98efc4",
+  "result": {
+    "rationale": "本文は一般的な組織と構成を示しているが、文法的正確性と語彙の多様性に課題がある。複雑な文法構造の使用は限られており、誤用や誤解がコミュニケーションを阻害している。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "組織と構成は一般的に制御されているが、文法的正確性と語彙の多様性に課題がある。",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U002",
+          "2953:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "組織は制御されているが、文法的正確性と語彙の多様性に課題がある。",
+        "limits": "一部の文は複雑な構造を持つが、誤用や誤解が存在する。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U001",
+            "start": 0,
+            "end": 313,
+            "text": "The author Waldo Emerson wrote a statement or quote that it say ,\"Unless you try to do something beyond what you have already mastered, you will never grow\" basing on my point of view or experiences, I agree with him, I think the same, we will never grow if we keep doing the samething that we already mastered.\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U002",
+            "start": 313,
+            "end": 409,
+            "text": "\r\nI'm taking this position on this issue becasue I have my reasos to sopport my position and\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U003",
+            "start": 409,
+            "end": 423,
+            "text": "to explain\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文法構造の使用は限られている。",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U002",
+          "2953:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Syntax.S3.C01",
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文法構造の使用は限られている。",
+        "limits": "一部の文は複雑な構造を持つが、誤用や誤解が存在する。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U001",
+            "start": 0,
+            "end": 313,
+            "text": "The author Waldo Emerson wrote a statement or quote that it say ,\"Unless you try to do something beyond what you have already mastered, you will never grow\" basing on my point of view or experiences, I agree with him, I think the same, we will never grow if we keep doing the samething that we already mastered.\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U002",
+            "start": 313,
+            "end": 409,
+            "text": "\r\nI'm taking this position on this issue becasue I have my reasos to sopport my position and\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U003",
+            "start": 409,
+            "end": 423,
+            "text": "to explain\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "語彙の範囲は限定的で、微妙な単語の意味の正確な使用がない。",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U002",
+          "2953:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "語彙の範囲は限定的で、微妙な単語の意味の正確な使用がない。",
+        "limits": "一部の単語は適切に使用されているが、全体的に範囲が限定的である。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U001",
+            "start": 0,
+            "end": 313,
+            "text": "The author Waldo Emerson wrote a statement or quote that it say ,\"Unless you try to do something beyond what you have already mastered, you will never grow\" basing on my point of view or experiences, I agree with him, I think the same, we will never grow if we keep doing the samething that we already mastered.\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U002",
+            "start": 313,
+            "end": 409,
+            "text": "\r\nI'm taking this position on this issue becasue I have my reasos to sopport my position and\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U003",
+            "start": 409,
+            "end": 423,
+            "text": "to explain\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "文法と使用にいくつかの誤りがある。",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U002",
+          "2953:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と使用にいくつかの誤りがある。",
+        "limits": "一部の文は正確に形成されているが、全体的に誤りが多い。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U001",
+            "start": 0,
+            "end": 313,
+            "text": "The author Waldo Emerson wrote a statement or quote that it say ,\"Unless you try to do something beyond what you have already mastered, you will never grow\" basing on my point of view or experiences, I agree with him, I think the same, we will never grow if we keep doing the samething that we already mastered.\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U002",
+            "start": 313,
+            "end": 409,
+            "text": "\r\nI'm taking this position on this issue becasue I have my reasos to sopport my position and\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U003",
+            "start": 409,
+            "end": 423,
+            "text": "to explain\r\n\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と語彙の正確性がコミュニケーションを阻害しているが、具体的な誤りの種類や頻度は不明瞭である。"
+  },
+  "timestamp": "2026-11-15T19:28:25.666170+09:00"
+}

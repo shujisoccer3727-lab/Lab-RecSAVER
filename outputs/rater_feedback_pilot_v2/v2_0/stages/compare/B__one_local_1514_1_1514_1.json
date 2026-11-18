@@ -1,0 +1,77 @@
+{
+  "fingerprint": "8f0bf547ffa28ccb7938dbaea6705c31246336905496bb0f2e9281dba60d9f32",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "1514:1/K1/C1"
+        ],
+        "span_ids": [
+          "1514:1@U019"
+        ],
+        "feature_confirmed": "文法と構文の誤り",
+        "inferred_judgment": "文章には文法と構文の誤りが見られる。例えば、\"you'll never know if what you could have done was worth your time\" という文は、文法的に不正確である。",
+        "condition_ids": [
+          "Overall.S3.C04",
+          "Grammar.S3.C01"
+        ],
+        "rubric_based_proposal": "この誤りはOverall.S3.C04とGrammar.S3.C01に該当します。文法と構文の誤りが存在し、コミュニケーションに影響を及ぼす可能性があります。",
+        "agreement": "文中に「you'll never know if what you could have done was worth your time」の文法的な誤りが見られる。",
+        "review": "この誤りが全体のコミュニケーションに影響を及ぼすかどうかは不明。",
+        "unknowns": "",
+        "conclusion_scope": "local_only",
+        "next_action": {
+          "actor": "rater",
+          "evaluation_target": "文法と構文の誤り",
+          "distinguish": "誤りがコミュニケーションに影響を及ぼすかどうか",
+          "procedure": "誤りの頻度と誤りがコミュニケーションに及ぼす影響を評価",
+          "criterion_relation": "Overall.S3.C04とGrammar.S3.C01"
+        },
+        "id": "B|one_local_1514:1_1514:1/I1",
+        "target_id": "1514:1",
+        "citations": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U019",
+            "start": 2365,
+            "end": 2583,
+            "text": "never know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. "
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C04",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "Communication is impeded by language inaccuracies in some cases.",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 201,
+            "end": 265,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "machine_checks": {
+          "citations_exact": true,
+          "condition_ids_exact": true,
+          "overall_score_not_determined": true
+        }
+      }
+    ]
+  },
+  "timestamp": "2026-11-16T16:22:19.728269+09:00"
+}

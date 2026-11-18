@@ -1,0 +1,32 @@
+{
+  "fingerprint": "8273729ae8aac970aa7782fa34380f75f04eacfc823b9245413f5d120341f710",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "適切な単語とフレーズが使用されている。一部の単語が適切でない可能性があるが、全体的に適切な単語とフレーズが使用されている。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "uncertain",
+        "explanation": "文章のつながりが完全ではないが、一部の文章はつながっている。一部の文章はつながりが不明瞭であるため、全体的なつながりが完全かどうかは不明瞭である。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "文法と構文に時折誤りがある。これは文書全体を通じて確認できるため、この主張は支持される。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "文法と使用に最小限の誤りがある。これは文書全体を通じて確認できるため、この主張は支持される。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:54:54.545317+09:00"
+}

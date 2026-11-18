@@ -1,0 +1,174 @@
+{
+  "fingerprint": "fb3e93618752b2cb1ff5f632b6f34b8cefc1b1e521ea97b18977d3627e06cfa2",
+  "result": {
+    "rationale": "文章の組織と文法に一貫性があり、基本的なアイデアは伝わるが、複雑な文法構造や単語の使用に誤りがある。また、文章のつながりが時折不明瞭で、表現の多様性が不足している。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章の組織と文法に一貫性がある",
+        "span_ids": [
+          "8690:2@U001",
+          "8690:2@U025"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章の組織と文法に一貫性があることが確認できる。",
+        "limits": "複雑な文法構造や単語の使用に誤りがある可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U001",
+            "start": 0,
+            "end": 79,
+            "text": "Based on your experiences, do you agree or disagree with Emerson's statement?\r\n"
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U025",
+            "start": 1023,
+            "end": 1133,
+            "text": "\r\nIn conclusion, when you want to achieve something in your life you need to have high level mastered degree. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文法構造の使用に誤りがある",
+        "span_ids": [
+          "8690:2@U002",
+          "8690:2@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文法構造の使用に誤りがあることが確認できる。",
+        "limits": "単純な文法構造は正確に使用されている可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U002",
+            "start": 79,
+            "end": 168,
+            "text": "\r\nWhen you try to do something in your life you need to have high level mastered degree. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U003",
+            "start": 168,
+            "end": 236,
+            "text": "First, when i mastered a high level degree, i can have better life. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "feature": "文章のつながりが時折不明瞭",
+        "span_ids": [
+          "8690:2@U004",
+          "8690:2@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Cohesion.S3.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章のつながりが時折不明瞭であることが確認できる。",
+        "limits": "一部のアイデアは明確に表現されている可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U004",
+            "start": 236,
+            "end": 265,
+            "text": "In addition, I can get rich. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U005",
+            "start": 265,
+            "end": 295,
+            "text": "Last, i can achieve my goals. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Phraseology",
+        "kind": "range",
+        "feature": "表現の多様性が不足している",
+        "span_ids": [
+          "8690:2@U006",
+          "8690:2@U007"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Phraseology.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "表現の多様性が不足していることが確認できる。",
+        "limits": "基本的な表現は適切に使用されている可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U006",
+            "start": 295,
+            "end": 352,
+            "text": "With out degree you can not get best jobs in your life.\r\n"
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U007",
+            "start": 352,
+            "end": 412,
+            "text": "\r\nFirst, i can have better life.by doing hard work in life. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と構文の誤りが頻繁に見られるが、全体的なコミュニケーションは阻害されていない。"
+  },
+  "timestamp": "2026-11-15T19:22:57.593705+09:00"
+}

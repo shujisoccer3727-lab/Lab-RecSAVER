@@ -1,0 +1,206 @@
+{
+  "fingerprint": "f0e6d726ad3d86dd6fb57a3afaca26c29ac5c0520724146bf22c9e7ebcd3c265",
+  "result": {
+    "rationale": "文章は一般的な組織が保たれており、一部の文法と構文の誤りがコミュニケーションを阻害する場合がある。単純な文法と構文の問題が見られるが、全体的な意味は理解できる。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "一般的な組織が保たれている",
+        "span_ids": [
+          "2853:2@U001",
+          "2853:2@U002",
+          "2853:2@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章は全体的に組織が保たれており、主要なアイデアが明確に示されている。",
+        "limits": "一部の段落間のつながりが弱い可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U001",
+            "start": 0,
+            "end": 113,
+            "text": "Is better for students that are entering high school to know what they want to do after they finish high school? "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U002",
+            "start": 113,
+            "end": 347,
+            "text": "some pleople will say yes but some will say no and they are not wrong or right anwer in thise question is depending in your point of view and how fast you want to achive your goal and how good you want to be in your carrer and work.\r\n"
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U003",
+            "start": 347,
+            "end": 767,
+            "text": "\r\nThe people that say yes they say that because when you know what career you want to take before entering high school you wiil choose you classes better depending in your career and what high school you want to attend because come schools have programs that count like college classes, and in high school you have only four years and that is not enough time for you to choose and you will end up in a carrer that you do"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法と構文の誤りが存在する",
+        "span_ids": [
+          "2853:2@U004",
+          "2853:2@U005",
+          "2853:2@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章中に文法と構文の誤りが見られ、コミュニケーションを阻害する場合がある。",
+        "limits": "誤りの頻度が全体的な理解を阻害するほどではない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U004",
+            "start": 767,
+            "end": 805,
+            "text": "n't like if you choose the wrong one. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U005",
+            "start": 805,
+            "end": 876,
+            "text": "If you know what you want to be you will cofus better in that career . "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U006",
+            "start": 876,
+            "end": 936,
+            "text": "You can join programs to help you more in your goals and\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "単純な文法と構文の問題が存在する",
+        "span_ids": [
+          "2853:2@U007",
+          "2853:2@U008",
+          "2853:2@U009"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章中に単純な文法と構文の問題が見られ、一部の複雑な文では誤りが見られる。",
+        "limits": "誤りが全体的な理解を阻害するほどではない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U007",
+            "start": 936,
+            "end": 989,
+            "text": "when you know your goals you can achive them better. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U008",
+            "start": 989,
+            "end": 1180,
+            "text": "You also will try to see how can you get a scholarchip for your carrer and what college are better for you, and you will mead people that like the same thing as you and you can make friends. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U009",
+            "start": 1180,
+            "end": 1256,
+            "text": "When you join programs some time you can get a scholarchip if you are good. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "適切な単語の使用",
+        "span_ids": [
+          "2853:2@U010",
+          "2853:2@U011",
+          "2853:2@U012"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章は適切な単語を使用しており、全体的な意味は理解できる。",
+        "limits": "一部の単語の使用が正確でない可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U010",
+            "start": 1256,
+            "end": 1337,
+            "text": "For example my friend want to join the army so he is taking jrotc to help hem\r\n\r\n"
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U011",
+            "start": 1337,
+            "end": 1439,
+            "text": "do better in the army but my other friend wants to do soccer for college so he is taking advance p.e. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U012",
+            "start": 1439,
+            "end": 1754,
+            "text": "to be in shape and he is also in the school team to get a scholarchip, and me I'm taking business classes to help me know more about business marketing because I want to put my own store and Im putting everything of me to do that because that is my goal and i want to do the best of me in that project of my life.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と構文の誤りの頻度とその影響についての詳細な評価が不足している。"
+  },
+  "timestamp": "2026-11-15T19:19:51.113387+09:00"
+}

@@ -1,0 +1,112 @@
+{
+  "candidate_key": "A|2832:2|K1",
+  "masked_reason": {
+    "rationale": "文章在语法和词汇使用上存在一些错误，影响了整体的流畅性和准确性。虽然文章结构基本清晰，但语言表达不够精准，导致部分段落难以理解。",
+    "unexplained": "文章中存在一些表达清晰的段落，但这些段落未能显著提升整体评分。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "span_ids": [
+          "2832:2@U004",
+          "2832:2@U005"
+        ],
+        "aspect": "Overall",
+        "kind": "communication",
+        "direction": "negative",
+        "feature": "语言表达不够精准，影响了整体的流畅性和准确性",
+        "score_relation": "部分段落难以理解，影响了整体评分",
+        "support_explanation": "引用了具体的段落，说明了语言表达的问题",
+        "limits": "个别段落表达清晰，可能影响整体判断"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "span_ids": [
+          "2832:2@U004",
+          "2832:2@U005"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "存在一些语法错误",
+        "score_relation": "语法错误影响了整体评分",
+        "support_explanation": "引用了具体的段落，说明了语法错误的存在",
+        "limits": "部分语法使用正确，可能影响整体判断"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "span_ids": [
+          "2832:2@U004",
+          "2832:2@U005"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "词汇使用不够精准",
+        "score_relation": "词汇使用不够精准影响了整体评分",
+        "support_explanation": "引用了具体的段落，说明了词汇使用的问题",
+        "limits": "部分词汇使用正确，可能影响整体判断"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "span_ids": [
+          "2832:2@U004",
+          "2832:2@U005"
+        ],
+        "aspect": "Cohesion",
+        "kind": "organization",
+        "direction": "mixed",
+        "feature": "文章结构基本清晰，但部分段落连接不够紧密",
+        "score_relation": "文章结构基本清晰，但部分段落连接不够紧密影响了整体评分",
+        "support_explanation": "引用了具体的段落，说明了文章结构的问题",
+        "limits": "部分段落连接紧密，可能影响整体判断"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C04"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Cohesion.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

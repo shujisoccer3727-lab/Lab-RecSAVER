@@ -1,0 +1,218 @@
+{
+  "fingerprint": "96902bcdeb41a42e061fb0f30b95b720aa37d8201b3adb5346500964f5c7ca5b",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "1514:1/K1/C1",
+          "1514:1/K1/C2"
+        ],
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U002",
+          "1514:1@U003",
+          "1514:1@U014"
+        ],
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Grammar.S3.C01"
+        ],
+        "feature_confirmed": "文章は一般的な構造と単純な文法を使用しており、全体的な組織は理解しやすい。しかし、文法と慣用句の誤用が見られ、誤解を招く可能性がある。",
+        "inferred_judgment": "評価に影響",
+        "rubric_based_proposal": "Overall.S3.C01とGrammar.S3.C01の条件を満たす。文章は一般的な構造と単純な文法を使用しているが、文法と慣用句の誤用が見られる。これらの誤用は全体的な意味の理解を妨げないが、文法的な正確さには影響を与える。",
+        "agreement_review_unknown": "見解の一致",
+        "system_checked": [
+          {
+            "span_ids": [
+              "1514:1@U001",
+              "1514:1@U002"
+            ],
+            "finding": "一般的な構造と単純な文法の使用が観察される。"
+          },
+          {
+            "span_ids": [
+              "1514:1@U003",
+              "1514:1@U014"
+            ],
+            "finding": "文法と慣用句の誤用が観察される。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "文法と慣用句の誤用が全体的な意味の理解に影響を与えるかどうか",
+          "where_span_ids": [
+            "1514:1@U003",
+            "1514:1@U014"
+          ],
+          "action": "確認",
+          "reason": "誤用が全体的な意味の理解に影響を与えるかどうかを確認するため。"
+        },
+        "scope_limit": "全体的な意味の理解に影響を与える誤用の頻度と程度を確認する。",
+        "citations": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U002",
+            "start": 203,
+            "end": 317,
+            "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U003",
+            "start": 317,
+            "end": 404,
+            "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U014",
+            "start": 1555,
+            "end": 1644,
+            "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C01",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "Facility limited to the use of common structures and generic vocabulary;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 0,
+            "end": 72,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      },
+      {
+        "issue_id": "I2",
+        "claim_ids": [
+          "1514:1/K1/C1",
+          "1514:1/K1/C2"
+        ],
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U002",
+          "1514:1@U003",
+          "1514:1@U014"
+        ],
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Grammar.S3.C01"
+        ],
+        "feature_confirmed": "文章は一般的な構造と単純な文法を使用しており、全体的な組織は理解しやすい。しかし、文法と慣用句の誤用が見られ、誤解を招く可能性がある。",
+        "inferred_judgment": "評価に影響",
+        "rubric_based_proposal": "Overall.S3.C01とGrammar.S3.C01の条件を満たす。文章は一般的な構造と単純な文法を使用しているが、文法と慣用句の誤用が見られる。これらの誤用は全体的な意味の理解を妨げないが、文法的な正確さには影響を与える。",
+        "agreement_review_unknown": "見解の一致",
+        "system_checked": [
+          {
+            "span_ids": [
+              "1514:1@U001",
+              "1514:1@U002"
+            ],
+            "finding": "一般的な構造と単純な文法の使用が観察される。"
+          },
+          {
+            "span_ids": [
+              "1514:1@U003",
+              "1514:1@U014"
+            ],
+            "finding": "文法と慣用句の誤用が観察される。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "文法と慣用句の誤用が全体的な意味の理解に影響を与えるかどうか",
+          "where_span_ids": [
+            "1514:1@U003",
+            "1514:1@U014"
+          ],
+          "action": "確認",
+          "reason": "誤用が全体的な意味の理解に影響を与えるかどうかを確認するため。"
+        },
+        "scope_limit": "全体的な意味の理解に影響を与える誤用の頻度と程度を確認する。",
+        "citations": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U002",
+            "start": 203,
+            "end": 317,
+            "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U003",
+            "start": 317,
+            "end": 404,
+            "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U014",
+            "start": 1555,
+            "end": 1644,
+            "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C01",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "Facility limited to the use of common structures and generic vocabulary;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 0,
+            "end": 72,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T18:53:42.741284+09:00"
+}

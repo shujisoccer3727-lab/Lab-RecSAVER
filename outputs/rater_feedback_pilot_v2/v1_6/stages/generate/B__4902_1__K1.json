@@ -1,0 +1,177 @@
+{
+  "fingerprint": "e1d6f483f21b926edf3327a18e6edf5e9cc087d8e28297cc855d38f389e29c4f",
+  "result": {
+    "rationale": "本文は一般的な文法と構文を理解しているが、複雑な文の形成や正確な単語の使用に課題がある。また、文章のつながりが完全ではなく、一部のアイデアが明確に結びついていない。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "feature": "アイデアのつながりが完全でない",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Cohesion.S3.C01",
+          "Cohesion.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "アイデアのつながりが完全でないことが観測評価と一致",
+        "limits": "一部のアイデアが明確に結びついていない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U008",
+            "start": 864,
+            "end": 1039,
+            "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文の形成に課題がある",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U004"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Syntax.S3.C01",
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に課題があることが観測評価と一致",
+        "limits": "一部の文が正確に形成されていない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U004",
+            "start": 618,
+            "end": 655,
+            "text": "but Why be basic like everyone else. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "単語の使用に正確さがない",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語の使用に正確さがないことが観測評価と一致",
+        "limits": "単語の使用に正確さがない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U008",
+            "start": 864,
+            "end": 1039,
+            "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法の誤りがある",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法の誤りがあることが観測評価と一致",
+        "limits": "文法の誤りがある",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U008",
+            "start": 864,
+            "end": 1039,
+            "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体的な組織とアイデアのつながりが完全でないため、全体的な評価が3である理由を完全に説明できない。"
+  },
+  "timestamp": "2026-11-15T19:32:45.032320+09:00"
+}

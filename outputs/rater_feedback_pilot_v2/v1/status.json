@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "phase": "pilot-and-full",
+  "started_at": "2026-11-15T17:45:43.280132+09:00",
+  "error": "Traceback (most recent call last):\n  File \"/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/src/recsaver/rater_feedback_pilot_v2.py\", line 634, in main\n    snapshot=run_pipeline(cfg,out,engine,phase)\n  File \"/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/src/recsaver/rater_feedback_pilot_v2.py\", line 372, in run_pipeline\n    generated=engine.batch('generate',jobs)\n  File \"/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/src/recsaver/rater_feedback_pilot_v2.py\", line 262, in batch\n    assert int(free.stdout.strip().splitlines()[0])>=24000,'GPU busy: do not stop other jobs'\nAssertionError: GPU busy: do not stop other jobs\n",
+  "ended_at": "2026-11-15T17:45:46.495180+09:00"
+}

@@ -1,0 +1,209 @@
+{
+  "fingerprint": "967475544e2a0489991647ccb0c0f0e99f4090067e2ace22cb49b6a6a747efcc",
+  "result": {
+    "rationale": "文章は一般的な構造を持ち、主張を展開するが、文法や語彙の正確性に問題があり、複雑な文の形成に困難がある。全体的に理解可能だが、誤解を招く可能性がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章は一般的な構造を持ち、主張を展開するが、文法や語彙の正確性に問題がある。",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U005",
+          "2953:1@U010"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "引用が存在し、全体的な文章の構造と誤解を招く可能性を示している。",
+        "limits": "短い引用から全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U001",
+            "start": 0,
+            "end": 313,
+            "text": "The author Waldo Emerson wrote a statement or quote that it say ,\"Unless you try to do something beyond what you have already mastered, you will never grow\" basing on my point of view or experiences, I agree with him, I think the same, we will never grow if we keep doing the samething that we already mastered.\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U005",
+            "start": 450,
+            "end": 528,
+            "text": "\r\nFirst reason is on point of view if you're already mastered in something\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U010",
+            "start": 890,
+            "end": 905,
+            "text": "the all day\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文の形成に困難がある。",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U010",
+          "2953:1@U020"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Syntax.S3.C01",
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に困難があることが引用から明らか。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U001",
+            "start": 0,
+            "end": 313,
+            "text": "The author Waldo Emerson wrote a statement or quote that it say ,\"Unless you try to do something beyond what you have already mastered, you will never grow\" basing on my point of view or experiences, I agree with him, I think the same, we will never grow if we keep doing the samething that we already mastered.\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U010",
+            "start": 890,
+            "end": 905,
+            "text": "the all day\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U020",
+            "start": 1450,
+            "end": 1590,
+            "text": "we start to learn about differents things so we have more knowledge and we can survive and we can realize or knows how the life looks like. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "feature": "語彙の正確性に問題がある。",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U005",
+          "2953:1@U010"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "語彙の正確性に問題があることが引用から明らか。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U001",
+            "start": 0,
+            "end": 313,
+            "text": "The author Waldo Emerson wrote a statement or quote that it say ,\"Unless you try to do something beyond what you have already mastered, you will never grow\" basing on my point of view or experiences, I agree with him, I think the same, we will never grow if we keep doing the samething that we already mastered.\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U005",
+            "start": 450,
+            "end": 528,
+            "text": "\r\nFirst reason is on point of view if you're already mastered in something\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U010",
+            "start": 890,
+            "end": 905,
+            "text": "the all day\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法の誤りが存在する。",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U005",
+          "2953:1@U010"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法の誤りが存在することが引用から明らか。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U001",
+            "start": 0,
+            "end": 313,
+            "text": "The author Waldo Emerson wrote a statement or quote that it say ,\"Unless you try to do something beyond what you have already mastered, you will never grow\" basing on my point of view or experiences, I agree with him, I think the same, we will never grow if we keep doing the samething that we already mastered.\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U005",
+            "start": 450,
+            "end": 528,
+            "text": "\r\nFirst reason is on point of view if you're already mastered in something\r\n\r\n"
+          },
+          {
+            "essay_id": "2953:1",
+            "span_id": "2953:1@U010",
+            "start": 890,
+            "end": 905,
+            "text": "the all day\r\n\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体的な文章の構造と誤解を招く可能性についての評価が不明瞭な点がある。"
+  },
+  "timestamp": "2026-11-15T19:44:31.033836+09:00"
+}

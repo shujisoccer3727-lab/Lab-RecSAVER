@@ -1,0 +1,410 @@
+{
+  "fingerprint": "1cf7c47b1a28ea4c824ebefce5c416d07ac93bc431fe7260b109849bbc520cbe",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "8538:1/K1/C1",
+          "8538:1/K1/C2",
+          "8538:1/K1/C3",
+          "8538:1/K1/C4"
+        ],
+        "span_ids": [
+          "8538:1@U001",
+          "8538:1@U003",
+          "8538:1@U004",
+          "8538:1@U005",
+          "8538:1@U008"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "8538:1@U003",
+            "tokens": [
+              "people",
+              "may",
+              "told",
+              "to",
+              "be",
+              "and",
+              "act",
+              "a",
+              "certain",
+              "way"
+            ],
+            "relation": "誤用",
+            "interpretation": "「may told」は「may be told」の誤用で、文法的に不正確。この誤用はコミュニケーションに影響を与える可能性がある。",
+            "token_positions": [
+              {
+                "token": "people",
+                "start": 134,
+                "end": 140
+              },
+              {
+                "token": "may",
+                "start": 141,
+                "end": 144
+              },
+              {
+                "token": "told",
+                "start": 145,
+                "end": 149
+              },
+              {
+                "token": "to",
+                "start": 150,
+                "end": 152
+              },
+              {
+                "token": "to",
+                "start": 210,
+                "end": 212
+              },
+              {
+                "token": "be",
+                "start": 153,
+                "end": 155
+              },
+              {
+                "token": "and",
+                "start": 156,
+                "end": 159
+              },
+              {
+                "token": "act",
+                "start": 160,
+                "end": 163
+              },
+              {
+                "token": "a",
+                "start": 164,
+                "end": 165
+              },
+              {
+                "token": "certain",
+                "start": 166,
+                "end": 173
+              },
+              {
+                "token": "way",
+                "start": 174,
+                "end": 177
+              }
+            ]
+          },
+          {
+            "span_id": "8538:1@U005",
+            "tokens": [
+              "those",
+              "values",
+              "during",
+              "their",
+              "childhood",
+              "and",
+              "some",
+              "of",
+              "them",
+              "still",
+              "grow",
+              "up",
+              "to",
+              "be",
+              "such",
+              "jerks",
+              "because",
+              "they",
+              "decided",
+              "to",
+              "ignore",
+              "those",
+              "values"
+            ],
+            "relation": "誤用",
+            "interpretation": "「grow up to be such jerks」は文法的に正確だが、用語が適切でない可能性がある。この表現はコミュニケーションを阻害する可能性がある。",
+            "token_positions": [
+              {
+                "token": "those",
+                "start": 488,
+                "end": 493
+              },
+              {
+                "token": "those",
+                "start": 521,
+                "end": 526
+              },
+              {
+                "token": "those",
+                "start": 636,
+                "end": 641
+              },
+              {
+                "token": "values",
+                "start": 527,
+                "end": 533
+              },
+              {
+                "token": "values",
+                "start": 642,
+                "end": 648
+              },
+              {
+                "token": "during",
+                "start": 534,
+                "end": 540
+              },
+              {
+                "token": "their",
+                "start": 541,
+                "end": 546
+              },
+              {
+                "token": "childhood",
+                "start": 547,
+                "end": 556
+              },
+              {
+                "token": "and",
+                "start": 557,
+                "end": 560
+              },
+              {
+                "token": "some",
+                "start": 561,
+                "end": 565
+              },
+              {
+                "token": "of",
+                "start": 566,
+                "end": 568
+              },
+              {
+                "token": "them",
+                "start": 569,
+                "end": 573
+              },
+              {
+                "token": "still",
+                "start": 574,
+                "end": 579
+              },
+              {
+                "token": "grow",
+                "start": 580,
+                "end": 584
+              },
+              {
+                "token": "up",
+                "start": 585,
+                "end": 587
+              },
+              {
+                "token": "to",
+                "start": 588,
+                "end": 590
+              },
+              {
+                "token": "to",
+                "start": 626,
+                "end": 628
+              },
+              {
+                "token": "be",
+                "start": 591,
+                "end": 593
+              },
+              {
+                "token": "such",
+                "start": 594,
+                "end": 598
+              },
+              {
+                "token": "jerks",
+                "start": 599,
+                "end": 604
+              },
+              {
+                "token": "because",
+                "start": 605,
+                "end": 612
+              },
+              {
+                "token": "they",
+                "start": 613,
+                "end": 617
+              },
+              {
+                "token": "decided",
+                "start": 618,
+                "end": 625
+              },
+              {
+                "token": "to",
+                "start": 588,
+                "end": 590
+              },
+              {
+                "token": "to",
+                "start": 626,
+                "end": 628
+              },
+              {
+                "token": "ignore",
+                "start": 629,
+                "end": 635
+              },
+              {
+                "token": "those",
+                "start": 488,
+                "end": 493
+              },
+              {
+                "token": "those",
+                "start": 521,
+                "end": 526
+              },
+              {
+                "token": "those",
+                "start": 636,
+                "end": 641
+              },
+              {
+                "token": "values",
+                "start": 527,
+                "end": 533
+              },
+              {
+                "token": "values",
+                "start": 642,
+                "end": 648
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S4.C01",
+          "Overall.S4.C02",
+          "Overall.S4.C03",
+          "Overall.S4.C04"
+        ],
+        "feature_confirmed": "言語の使用に多様な文法構造と単語の範囲が見られ、組織が制御されているが、まれな言語の不正確さがある。",
+        "inferred_judgment": "評価は4段階が妥当。文法と規則性に正確さがあるが、まれな言語の不正確さがある。",
+        "rubric_based_proposal": "Overall.S4.C01, Overall.S4.C02, Overall.S4.C03, Overall.S4.C04の条件を満たす。まれな言語の不正確さがあるが、全体的な組織と文法の正確さは4段階にふさわしい。",
+        "agreement_review_unknown": "まれな言語の不正確さがコミュニケーションを阻害する可能性があるため、評価を見直す余地がある。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "8538:1@U003"
+            ],
+            "finding": "「may told」は「may be told」の誤用で、文法的に不正確。"
+          },
+          {
+            "span_ids": [
+              "8538:1@U005"
+            ],
+            "finding": "「grow up to be such jerks」は文法的に正確だが、用語が適切でない可能性がある。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "「may told」が「may be told」の誤用であるか、および「grow up to be such jerks」が適切な表現であるかを確認する。",
+          "where_span_ids": [
+            "8538:1@U003",
+            "8538:1@U005"
+          ],
+          "action": "誤用の確認と適切な用語の確認",
+          "reason": "これらの誤用や不適切な用語がコミュニケーションを阻害する可能性があるため。"
+        },
+        "scope_limit": "Overall.S4.C01, Overall.S4.C02, Overall.S4.C03, Overall.S4.C04の条件に基づく評価",
+        "citations": [
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U001",
+            "start": 0,
+            "end": 91,
+            "text": "I agree with John Lubbock's idea,that your character is build by you and your decisions\r\n\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U003",
+            "start": 134,
+            "end": 228,
+            "text": "people may told to be and act a certain way but at the end is your decision to do so or not.\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U004",
+            "start": 228,
+            "end": 488,
+            "text": "\r\nOne example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you. "
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U005",
+            "start": 488,
+            "end": 657,
+            "text": "those kids have been thought all those values during their childhood and some of them still grow up to be such jerks because they decided to ignore those values that\r\n\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U008",
+            "start": 701,
+            "end": 786,
+            "text": "Another example will be of someone that was raises surrounded by a very christian\r\n\r\n"
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S4.C01",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "Facility in the use of language with syntactic variety and range of words and phrases;",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 0,
+            "end": 86,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S4.C02",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "controlled organization;",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 87,
+            "end": 111,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S4.C03",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "accuracy in grammar and conventions;",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 112,
+            "end": 148,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S4.C04",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "occasional language inaccuracies that rarely impede communication.",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 149,
+            "end": 215,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:16:44.624102+09:00"
+}

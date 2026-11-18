@@ -1,0 +1,7305 @@
+{
+  "timestamp": "2026-11-16T01:27:09.160121+09:00",
+  "phase": "full",
+  "all_machine_checks_passed": true,
+  "errors": [],
+  "counts": {
+    "A_generated": 53,
+    "A_accepted": 35,
+    "B_generated": 53,
+    "B_accepted": 34
+  },
+  "semantic_model_assessments": {
+    "supported": 264,
+    "uncertain": 2
+  },
+  "mask_events": 431,
+  "checks": [
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/inputs.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/selection.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: data/processed/rater_essay_wide.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: rubrics/ellipse_rubric_structured.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/report.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/assessment.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/resolved_config.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/feedback.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: src/recsaver/rater_feedback_pilot_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: src/recsaver/model.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: src/recsaver/rater_feedback_pilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: scripts/check_feedback_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: scripts/audit_feedback_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: tests/test_rater_feedback_pilot_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: src/recsaver/feedback_output_schema.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: configs/rater_feedback_pilot_v2.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v4/compare.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v4/generate.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v4/ground.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v4/integrate.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v4/merge.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v4/text.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v4/verify.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "27 unique targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "same three raters and counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5627:1/5627:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 5627:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 5627:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5627:1/1681:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1681:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1681:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5627:1/8744:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8744:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8744:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5627:1/8698:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8698:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8698:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5268:1/5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5268:1/501:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 501:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 501:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5268:1/1684:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1684:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1684:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5268:1/2391:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2391:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2391:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2444:1/2444:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2444:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2444:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2444:1/3588:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 3588:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 3588:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2444:1/2055:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2055:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2055:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2444:1/1476:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1476:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1476:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8487:1/8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8487:1/7865:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7865:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7865:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8487:1/2920:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2920:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2920:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8487:1/1461:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1461:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1461:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 4902:1/4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 4902:1/8630:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8630:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8630:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 4902:1/1462:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1462:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1462:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 4902:1/8722:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8722:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8722:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8538:1/8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8538:1/748:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 748:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 748:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8538:1/8712:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8712:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8712:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8538:1/8404:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8404:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8404:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1514:1/1514:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1514:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1514:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1514:1/217:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 217:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 217:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1514:1/1440:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1440:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1440:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1514:1/8745:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8745:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8745:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1961:1/1961:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1961:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1961:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1961:1/242:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 242:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 242:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1961:1/1992:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1992:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1992:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1961:1/468:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 468:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 468:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8608:1/8608:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8608:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8608:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8608:1/7863:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7863:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7863:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8608:1/1683:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1683:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1683:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8608:1/5440:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 5440:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 5440:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1868:1/1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1868:1/5783:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 5783:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 5783:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1868:1/239:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 239:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 239:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1868:1/8666:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8666:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8666:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2775:2/2775:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2775:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2775:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2775:2/504:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 504:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 504:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2775:2/2830:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2830:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2830:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2775:2/2801:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2801:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2801:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 474:1/474:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 474:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 474:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 474:1/494:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 494:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 494:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 474:1/7051:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7051:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7051:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 474:1/7433:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7433:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7433:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2853:2/2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2853:2/459:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 459:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 459:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2853:2/2773:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2773:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2773:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2853:2/2859:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2859:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2859:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 318:2/318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 318:2/7407:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7407:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7407:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 318:2/406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 318:2/7046:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7046:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7046:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7418:2/7418:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7418:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7418:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7418:2/2815:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2815:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2815:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7418:2/318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7418:2/2854:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2854:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2854:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 406:1/406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 406:1/2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 406:1/404:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 404:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 404:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 406:1/2811:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2811:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2811:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2832:2/2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2832:2/7048:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7048:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7048:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2832:2/7049:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7049:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7049:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2832:2/2859:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2859:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2859:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7817:1/7817:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7817:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7817:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7817:1/1249:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1249:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1249:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7817:1/585:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 585:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 585:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7817:1/1336:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1336:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1336:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8690:2/8690:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8690:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8690:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8690:2/7823:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7823:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7823:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8690:2/2061:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2061:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2061:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8690:2/1927:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1927:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1927:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2420:1/2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2420:1/1613:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1613:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1613:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2420:1/503:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 503:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 503:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2420:1/2061:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2061:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2061:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 61:1/61:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 61:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 61:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 61:1/7813:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7813:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7813:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 61:1/1812:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1812:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1812:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 61:1/2027:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2027:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2027:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7836:1/7836:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7836:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7836:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7836:1/1696:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1696:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1696:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7836:1/1514:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1514:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1514:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7836:1/410:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 410:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 410:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8317:2/8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8317:2/8679:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8679:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8679:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8317:2/1086:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1086:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1086:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8317:2/1159:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1159:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1159:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 515:1/515:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 515:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 515:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 515:1/8706:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8706:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8706:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 515:1/8674:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8674:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8674:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 515:1/1922:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1922:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1922:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2910:1/2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2910:1/8323:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8323:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8323:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2910:1/7798:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7798:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7798:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2910:1/7766:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7766:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7766:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2953:1/2953:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2953:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2953:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2953:1/8665:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8665:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8665:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2953:1/5860:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 5860:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 5860:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2953:1/3142:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 3142:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 3142:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2348:1/2348:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2348:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2348:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2348:1/8653:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8653:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8653:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2348:1/84:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 84:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 84:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2348:1/8672:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8672:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8672:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S5.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S5.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S5.C04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S5.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S5.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S5.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S5.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S5.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Grammar.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S5.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S4.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S4.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S4.C04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S4.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S4.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S4.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S4.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S4.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Grammar.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S4.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S3.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S3.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S3.C04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S3.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S3.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S3.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S3.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S3.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S3.C04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S3.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Grammar.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S3.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S2.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S2.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S2.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S2.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S2.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S2.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S2.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Grammar.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S2.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S1.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S1.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S1.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S1.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S1.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S1.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S1.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S1.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Grammar.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S1.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|5627:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|5627:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|5627:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|5627:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|5627:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|5627:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|5627:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|5627:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|5627:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|5627:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|5627:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|5627:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|5268:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|5268:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|5268:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|5268:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|5268:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|5268:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|5268:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|5268:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|5268:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|5268:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|5268:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|5268:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|2444:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2444:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2444:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2444:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2444:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|2444:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2444:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2444:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2444:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2444:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|2444:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|8487:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|8487:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|8487:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|8487:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|8487:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|8487:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|8487:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|8487:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|8487:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|8487:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|8487:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|8487:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|4902:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|4902:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|4902:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|4902:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|4902:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|4902:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|4902:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|4902:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|4902:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|4902:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|4902:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|4902:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|8538:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|8538:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|8538:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|8538:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|8538:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|8538:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|8538:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|8538:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|8538:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|8538:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|8538:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|8538:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|1514:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|1514:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|1514:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|1514:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|1514:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|1514:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|1961:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|1961:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|1961:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|1961:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|1961:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|1961:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|1961:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|1961:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|1961:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|1961:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|8608:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|8608:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|8608:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|8608:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|8608:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|8608:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|8608:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|8608:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|8608:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|8608:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|8608:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|1868:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|1868:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|1868:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|1868:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|1868:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|1868:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|1868:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|1868:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|1868:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|1868:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|1868:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|1868:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|2775:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2775:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2775:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2775:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2775:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|2775:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2775:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2775:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2775:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2775:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|474:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|474:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|474:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|474:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|474:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|474:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|474:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|474:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|474:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|474:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|474:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|474:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|2853:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2853:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2853:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2853:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2853:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|2853:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|2853:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2853:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2853:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2853:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2853:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|2853:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|318:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|318:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|318:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|318:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|318:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|318:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|318:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|318:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|318:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|318:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|7418:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|7418:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|7418:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|7418:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|7418:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|7418:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|7418:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|7418:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|7418:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|7418:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|406:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|406:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|406:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|406:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|406:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|406:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|406:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|406:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|406:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|406:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|406:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|2832:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2832:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2832:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2832:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2832:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|2832:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|2832:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2832:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2832:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2832:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2832:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|2832:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|7817:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|7817:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|7817:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|7817:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|7817:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|7817:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|7817:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|7817:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|7817:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|7817:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|8690:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|8690:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|8690:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|8690:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|8690:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|8690:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|8690:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|8690:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|8690:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|8690:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|2420:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2420:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2420:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2420:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2420:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|2420:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|2420:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2420:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2420:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2420:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2420:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|2420:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|61:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|61:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|61:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|61:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|61:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|61:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|61:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|61:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|61:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|61:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|61:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|61:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|7836:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|7836:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|7836:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|7836:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|7836:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|7836:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|7836:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|7836:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|7836:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|7836:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|7836:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|7836:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|8317:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|8317:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|8317:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|8317:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|8317:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|8317:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|8317:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|8317:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|8317:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|8317:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|8317:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|8317:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|515:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|515:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|515:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|515:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|515:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|515:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|515:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|515:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|515:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|515:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|515:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|515:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|2910:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2910:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2910:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2910:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2910:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|2910:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|2910:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2910:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2910:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2910:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2910:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|2953:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2953:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2953:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2953:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2953:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|2953:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2953:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2953:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2953:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2953:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist A|2348:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2348:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2348:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2348:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2348:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|2348:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist A|2348:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text A|2348:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist A|2348:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs A|2348:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan A|2348:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall A|2348:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|5627:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|5627:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|5627:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|5627:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|5627:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|5627:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|5627:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|5627:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|5627:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|5627:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|5268:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|5268:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|5268:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|5268:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|5268:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|5268:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|5268:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|5268:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|5268:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|5268:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|5268:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|5268:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|2444:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2444:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2444:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2444:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2444:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|2444:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2444:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2444:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2444:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2444:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|8487:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|8487:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|8487:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|8487:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|8487:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|8487:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|8487:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|8487:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|8487:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|8487:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|8487:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|8487:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|4902:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|4902:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|4902:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|4902:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|4902:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|4902:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|4902:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|4902:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|4902:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|4902:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|4902:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|4902:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|8538:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|8538:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|8538:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|8538:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|8538:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|8538:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|8538:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|8538:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|8538:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|8538:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|8538:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|1514:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|1514:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|1514:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|1514:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|1514:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|1514:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|1961:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|1961:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|1961:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|1961:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|1961:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|1961:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|1961:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|1961:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|1961:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|1961:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|8608:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|8608:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|8608:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|8608:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|8608:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|8608:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|8608:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|8608:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|8608:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|8608:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|1868:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|1868:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|1868:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|1868:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|1868:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|1868:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|1868:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|1868:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|1868:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|1868:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|1868:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|1868:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|2775:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2775:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2775:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2775:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2775:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|2775:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|2775:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2775:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2775:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2775:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2775:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|474:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|474:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|474:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|474:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|474:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|474:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|474:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|474:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|474:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|474:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|474:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|474:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|2853:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2853:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2853:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2853:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2853:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|2853:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|2853:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2853:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2853:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2853:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2853:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|2853:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|318:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|318:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|318:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|318:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|318:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|318:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|318:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|318:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|318:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|318:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|318:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|7418:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|7418:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|7418:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|7418:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|7418:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|7418:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|7418:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|7418:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|7418:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|7418:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|406:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|406:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|406:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|406:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|406:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|406:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|406:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|406:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|406:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|406:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|406:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|406:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|2832:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2832:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2832:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2832:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2832:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|2832:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|2832:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2832:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2832:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2832:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2832:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|2832:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|7817:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|7817:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|7817:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|7817:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|7817:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|7817:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|7817:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|7817:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|7817:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|7817:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|8690:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|8690:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|8690:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|8690:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|8690:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|8690:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|8690:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|8690:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|8690:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|8690:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|2420:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2420:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2420:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2420:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2420:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|2420:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|2420:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2420:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2420:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2420:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2420:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|2420:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|61:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|61:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|61:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|61:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|61:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|61:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|61:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|61:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|61:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|61:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|61:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|61:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|7836:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|7836:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|7836:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|7836:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|7836:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|7836:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|7836:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|7836:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|7836:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|7836:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|7836:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|7836:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|8317:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|8317:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|8317:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|8317:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|8317:2|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|8317:2|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|8317:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|8317:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|8317:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|8317:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|8317:2|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|8317:2|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|515:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|515:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|515:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|515:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|515:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|515:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|515:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|515:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|515:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|515:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|515:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|515:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|2910:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2910:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2910:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2910:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2910:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|2910:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|2910:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2910:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2910:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2910:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2910:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|2910:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|2953:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2953:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2953:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2953:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2953:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|2953:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2953:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2953:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2953:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2953:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "verify target whitelist B|2348:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2348:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2348:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2348:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2348:1|K1",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|2348:1|K1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target whitelist B|2348:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify target exact text B|2348:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify history whitelist B|2348:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify no linked condition IDs B|2348:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "verify direct score scan B|2348:1|K2",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "accepted only on exact Overall B|2348:1|K2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A5627:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5627:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5627:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5627:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5627:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5627:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5627:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5627:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5627:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A2444:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2444:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2444:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2444:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2444:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8538:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8538:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8538:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8538:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8538:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8538:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8538:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8538:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A1514:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1514:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1514:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A1961:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A8608:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8608:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8608:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8608:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8608:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A2775:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A474:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A7418:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 406:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 406:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A7817:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A8690:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A61:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A7836:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 7836:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 7836:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 7836:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 7836:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A515:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2910:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2910:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2910:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2910:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A2953:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay A2348:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B5627:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 5268:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B2444:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8487:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 4902:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8538:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8538:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8538:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8538:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B1514:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1514:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1514:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1514:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1514:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B1961:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B8608:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 1868:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B2775:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2775:2/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2775:2/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2775:2/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2775:2/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B474:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 474:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2853:2/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 318:2/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 318:2/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 318:2/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 318:2/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B7418:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 406:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 406:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 406:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 406:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 406:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 406:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 406:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2832:2/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B7817:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B8690:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2420:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B61:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 61:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B7836:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 7836:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 7836:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 7836:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 7836:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 7836:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 7836:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 7836:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 7836:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 8317:2/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B515:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 515:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2910:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2910:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2910:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2910:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2910:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2910:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2910:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2910:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B2953:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "one independent essay B2348:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K1/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K1/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K1/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K1/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K2/C1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K2/C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K2/C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "eligible target supported 2348:1/K2/C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two distinct supports AP1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two distinct supports AP2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 5627:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 5627:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 5627:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 5627:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 8608:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 8608:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 8608:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 8608:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two distinct supports AP1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two distinct supports AP2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two distinct supports AP1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two distinct supports AP2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two distinct supports BP1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two distinct supports BP2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two distinct supports BP1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two distinct supports BP2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 2775:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 2775:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 2775:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 2775:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 474:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 474:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 474:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 474:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two distinct supports BP1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "two distinct supports BP2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 7836:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 7836:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 7836:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 7836:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 515:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 515:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 515:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 515:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison full target 2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison official IDs 2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "comparison exact quotes 2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action linked to issue 2910:1",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "limitation": "Semantic correctness, usefulness, true rater reasoning and causal Trait effects are not established."
+}

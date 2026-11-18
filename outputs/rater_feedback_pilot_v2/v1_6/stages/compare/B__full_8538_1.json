@@ -1,0 +1,591 @@
+{
+  "fingerprint": "b279503aa5a855b3cd5454f71978461ac2e6402e215e29e31d22c898ecb2b01d",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "8538:1/K2/C1",
+          "8538:1/K2/C2",
+          "8538:1/K2/C3",
+          "8538:1/K2/C4"
+        ],
+        "span_ids": [
+          "8538:1@U001",
+          "8538:1@U002",
+          "8538:1@U003",
+          "8538:1@U004",
+          "8538:1@U005",
+          "8538:1@U006",
+          "8538:1@U007",
+          "8538:1@U008",
+          "8538:1@U009",
+          "8538:1@U010",
+          "8538:1@U011",
+          "8538:1@U012"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "8538:1@U003",
+            "tokens": [
+              "people",
+              "may",
+              "told",
+              "to",
+              "be",
+              "and",
+              "act",
+              "a",
+              "certain",
+              "way",
+              "but",
+              "at",
+              "the",
+              "end",
+              "is",
+              "your",
+              "decision",
+              "to",
+              "do",
+              "so",
+              "or",
+              "not"
+            ],
+            "relation": "連接詞",
+            "interpretation": "「but」は文の前後を対比する役割を果たしているが、文全体の構造が不明瞭で、主語と動詞の関係が曖昧である。",
+            "token_positions": [
+              {
+                "token": "people",
+                "start": 134,
+                "end": 140
+              },
+              {
+                "token": "may",
+                "start": 141,
+                "end": 144
+              },
+              {
+                "token": "told",
+                "start": 145,
+                "end": 149
+              },
+              {
+                "token": "to",
+                "start": 150,
+                "end": 152
+              },
+              {
+                "token": "to",
+                "start": 210,
+                "end": 212
+              },
+              {
+                "token": "be",
+                "start": 153,
+                "end": 155
+              },
+              {
+                "token": "and",
+                "start": 156,
+                "end": 159
+              },
+              {
+                "token": "act",
+                "start": 160,
+                "end": 163
+              },
+              {
+                "token": "a",
+                "start": 164,
+                "end": 165
+              },
+              {
+                "token": "certain",
+                "start": 166,
+                "end": 173
+              },
+              {
+                "token": "way",
+                "start": 174,
+                "end": 177
+              },
+              {
+                "token": "but",
+                "start": 178,
+                "end": 181
+              },
+              {
+                "token": "at",
+                "start": 182,
+                "end": 184
+              },
+              {
+                "token": "the",
+                "start": 185,
+                "end": 188
+              },
+              {
+                "token": "end",
+                "start": 189,
+                "end": 192
+              },
+              {
+                "token": "is",
+                "start": 193,
+                "end": 195
+              },
+              {
+                "token": "your",
+                "start": 196,
+                "end": 200
+              },
+              {
+                "token": "decision",
+                "start": 201,
+                "end": 209
+              },
+              {
+                "token": "to",
+                "start": 150,
+                "end": 152
+              },
+              {
+                "token": "to",
+                "start": 210,
+                "end": 212
+              },
+              {
+                "token": "do",
+                "start": 213,
+                "end": 215
+              },
+              {
+                "token": "so",
+                "start": 216,
+                "end": 218
+              },
+              {
+                "token": "or",
+                "start": 219,
+                "end": 221
+              },
+              {
+                "token": "not",
+                "start": 222,
+                "end": 225
+              }
+            ]
+          },
+          {
+            "span_id": "8538:1@U011",
+            "tokens": [
+              "that",
+              "morals",
+              "of",
+              "Buddhism",
+              "are",
+              "better",
+              "then",
+              "those",
+              "of",
+              "Christianity"
+            ],
+            "relation": "比較",
+            "interpretation": "「better then」は「better than」の誤用であり、比較の表現が不適切である。",
+            "token_positions": [
+              {
+                "token": "that",
+                "start": 1000,
+                "end": 1004
+              },
+              {
+                "token": "morals",
+                "start": 1005,
+                "end": 1011
+              },
+              {
+                "token": "of",
+                "start": 1012,
+                "end": 1014
+              },
+              {
+                "token": "of",
+                "start": 1046,
+                "end": 1048
+              },
+              {
+                "token": "Buddhism",
+                "start": 1015,
+                "end": 1023
+              },
+              {
+                "token": "are",
+                "start": 1024,
+                "end": 1027
+              },
+              {
+                "token": "better",
+                "start": 1028,
+                "end": 1034
+              },
+              {
+                "token": "then",
+                "start": 1035,
+                "end": 1039
+              },
+              {
+                "token": "those",
+                "start": 1040,
+                "end": 1045
+              },
+              {
+                "token": "of",
+                "start": 1012,
+                "end": 1014
+              },
+              {
+                "token": "of",
+                "start": 1046,
+                "end": 1048
+              },
+              {
+                "token": "Christianity",
+                "start": 1049,
+                "end": 1061
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S4.C01",
+          "Overall.S4.C02",
+          "Overall.S4.C03",
+          "Overall.S4.C04",
+          "Grammar.S4.C01",
+          "Vocabulary.S4.C01",
+          "Vocabulary.S4.C02",
+          "Cohesion.S4.C01",
+          "Cohesion.S4.C02",
+          "Cohesion.S4.C03",
+          "Syntax.S4.C01",
+          "Syntax.S4.C02",
+          "Phraseology.S4.C01",
+          "Phraseology.S4.C02",
+          "Conventions.S4.C01",
+          "Conventions.S4.C02"
+        ],
+        "feature_confirmed": "文章は全体的に適切な文法と構造を持つが、一部の文は誤用や構造の問題がある。単語の選択と表現は適切だが、より複雑な文脈では誤解を招く可能性がある。",
+        "inferred_judgment": "評価は全体的に妥当だが、一部の文法誤りや単語の誤用が観察評価と完全に一致しない点がある。",
+        "rubric_based_proposal": "文章の組織と文法は比較的良好だが、語彙の使用に問題がある。文法の正確性に若干の問題がある。複雑な文法構造の使用は限られている。",
+        "agreement_review_unknown": "複雑な文の形成や微妙な単語の正確な使用に問題があるが、全体的なコミュニケーションが阻害されない。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "8538:1@U003"
+            ],
+            "finding": "「people may told to be and act a certain way but at the end is your decision to do so or not」の文構造が不明瞭で、主語と動詞の関係が曖昧である。"
+          },
+          {
+            "span_ids": [
+              "8538:1@U011"
+            ],
+            "finding": "「better then」は「better than」の誤用であり、比較の表現が不適切である。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "「better then」の誤用と「people may told to be and act a certain way but at the end is your decision to do so or not」の文構造の問題を確認する。",
+          "where_span_ids": [
+            "8538:1@U003",
+            "8538:1@U011"
+          ],
+          "action": "「better then」の誤用と「people may told to be and act a certain way but at the end is your decision to do so or not」の文構造の問題を確認し、誤用が意味理解に影響するかを確認する。",
+          "reason": "これらの誤用が全体的なコミュニケーションに影響を与える可能性があるため、確認が必要である。"
+        },
+        "scope_limit": "全体的なコミュニケーションが阻害されないが、一部の文法誤りや単語の誤用が観察評価と完全に一致しない点がある。",
+        "citations": [
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U001",
+            "start": 0,
+            "end": 91,
+            "text": "I agree with John Lubbock's idea,that your character is build by you and your decisions\r\n\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U002",
+            "start": 91,
+            "end": 134,
+            "text": "that you take during your life, because\r\n\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U003",
+            "start": 134,
+            "end": 228,
+            "text": "people may told to be and act a certain way but at the end is your decision to do so or not.\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U004",
+            "start": 228,
+            "end": 488,
+            "text": "\r\nOne example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you. "
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U005",
+            "start": 488,
+            "end": 657,
+            "text": "those kids have been thought all those values during their childhood and some of them still grow up to be such jerks because they decided to ignore those values that\r\n\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U006",
+            "start": 657,
+            "end": 695,
+            "text": "their parents try so hard to teach\r\n\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U007",
+            "start": 695,
+            "end": 701,
+            "text": "them. "
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U008",
+            "start": 701,
+            "end": 786,
+            "text": "Another example will be of someone that was raises surrounded by a very christian\r\n\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U009",
+            "start": 786,
+            "end": 972,
+            "text": "family decides to change religion and to be a Buddhist monk rater then a priest, altought his or her family work hard and always surrounded their child christian influences he or she\r\n\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U010",
+            "start": 972,
+            "end": 1000,
+            "text": "simply took the decision\r\n\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U011",
+            "start": 1000,
+            "end": 1064,
+            "text": "that morals of Buddhism are better then those of Christianity.\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U012",
+            "start": 1064,
+            "end": 1361,
+            "text": "\r\nI know that some people may believe that a person character can be influences by forces outside of our control like video games, the news, and social media but no matter how much things influences our daily life may at the end is you who makes the conscious decision to act in a certain manner. "
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S4.C01",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "Facility in the use of language with syntactic variety and range of words and phrases;",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 0,
+            "end": 86,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S4.C02",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "controlled organization;",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 87,
+            "end": 111,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S4.C03",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "accuracy in grammar and conventions;",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 112,
+            "end": 148,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S4.C04",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "occasional language inaccuracies that rarely impede communication.",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 149,
+            "end": 215,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Grammar.S4.C01",
+            "aspect": "Grammar",
+            "level": 4,
+            "text": "Minimal errors in grammar and usage.",
+            "parent_id": "Grammar.S4",
+            "parent_text": "Minimal errors in grammar and usage.",
+            "start": 0,
+            "end": 36,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S4.C01",
+            "aspect": "Vocabulary",
+            "level": 4,
+            "text": "Sufficient range of vocabulary to allow flexibility and precision;",
+            "parent_id": "Vocabulary.S4",
+            "parent_text": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+            "start": 0,
+            "end": 66,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S4.C02",
+            "aspect": "Vocabulary",
+            "level": 4,
+            "text": "appropriate use of topic-related terms and less common lexical items",
+            "parent_id": "Vocabulary.S4",
+            "parent_text": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+            "start": 67,
+            "end": 135,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Cohesion.S4.C01",
+            "aspect": "Cohesion",
+            "level": 4,
+            "text": "Organization generally well controlled;",
+            "parent_id": "Cohesion.S4",
+            "parent_text": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+            "start": 0,
+            "end": 39,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Cohesion.S4.C02",
+            "aspect": "Cohesion",
+            "level": 4,
+            "text": "a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas;",
+            "parent_id": "Cohesion.S4",
+            "parent_text": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+            "start": 40,
+            "end": 157,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Cohesion.S4.C03",
+            "aspect": "Cohesion",
+            "level": 4,
+            "text": "generally appropriate overlap of ideas",
+            "parent_id": "Cohesion.S4",
+            "parent_text": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+            "start": 158,
+            "end": 196,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S4.C01",
+            "aspect": "Syntax",
+            "level": 4,
+            "text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences;",
+            "parent_id": "Syntax.S4",
+            "parent_text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+            "start": 0,
+            "end": 102,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S4.C02",
+            "aspect": "Syntax",
+            "level": 4,
+            "text": "occasional errors or inappropriateness in sentence formation.",
+            "parent_id": "Syntax.S4",
+            "parent_text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+            "start": 103,
+            "end": 164,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Phraseology.S4.C01",
+            "aspect": "Phraseology",
+            "level": 4,
+            "text": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles;",
+            "parent_id": "Phraseology.S4",
+            "parent_text": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+            "start": 0,
+            "end": 91,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Phraseology.S4.C02",
+            "aspect": "Phraseology",
+            "level": 4,
+            "text": "occasional inaccuracies and colloquialisms.",
+            "parent_id": "Phraseology.S4",
+            "parent_text": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+            "start": 92,
+            "end": 135,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S4.C01",
+            "aspect": "Conventions",
+            "level": 4,
+            "text": "Generally consistent use of appropriate conventions to convey meaning;",
+            "parent_id": "Conventions.S4",
+            "parent_text": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting.",
+            "start": 0,
+            "end": 70,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S4.C02",
+            "aspect": "Conventions",
+            "level": 4,
+            "text": "spelling, capitalizatio n, and punctuation errors few and not distracting.",
+            "parent_id": "Conventions.S4",
+            "parent_text": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting.",
+            "start": 71,
+            "end": 145,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:35:27.165024+09:00"
+}

@@ -1,0 +1,71 @@
+{
+  "fingerprint": "59e4741bc87c2ca68e84a6015eb273713015fc8565669c30d5162e60f430462b",
+  "result": {
+    "groups": [
+      {
+        "summary": "文章の構成と文法の問題により、コミュニケーションが阻害されている。",
+        "claim_ids": [
+          "2348:1/K1/C1",
+          "2348:1/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "アイデアの論理的な順序付けが欠けているため、文章の組織が部分的にしか発展していない。",
+        "claim_ids": [
+          "2348:1/K1/C2",
+          "2348:1/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "文構造の問題が多いため、文のバリエーションが制限的である。",
+        "claim_ids": [
+          "2348:1/K1/C3",
+          "2348:1/K2/C3"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "単語の選択が制限的で、トピックに関連する用語が適切に使用されていない。",
+        "claim_ids": [
+          "2348:1/K1/C4",
+          "2348:1/K2/C4"
+        ],
+        "candidate_count": 2
+      }
+    ],
+    "differences": [
+      {
+        "description": "文法の誤りが多いため、全体的なコミュニケーションが阻害されている。",
+        "claim_ids": [
+          "2348:1/K2/C1"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "アイデアの論理的な順序付けが欠けているため、文章の組織が部分的にしか発展していない。",
+        "claim_ids": [
+          "2348:1/K2/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "文構造の問題が多いため、文のバリエーションが制限的である。",
+        "claim_ids": [
+          "2348:1/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "単語の選択が制限的で、トピックに関連する用語が適切に使用されていない。",
+        "claim_ids": [
+          "2348:1/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:03:49.708849+09:00"
+}

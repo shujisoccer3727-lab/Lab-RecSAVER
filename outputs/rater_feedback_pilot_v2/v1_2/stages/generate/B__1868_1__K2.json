@@ -1,0 +1,211 @@
+{
+  "fingerprint": "5ed599d56fc448c34689b7172eb35554e75b0358642ccc76e47c96ce7b0062de",
+  "result": {
+    "rationale": "このエッセイは、全体的な組織と文法、構文、慣用句の使用に一定の制御が見られますが、より複雑な文の形成や正確な語彙の使用に課題があるようです。また、一部の文は誤用や不適切な表現が見られ、全体的なコミュニケーションに影響を与えています。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1868:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "組織が一般的に制御されているが、一部の文は誤用や不適切な表現が見られる",
+        "span_ids": [
+          "1868:1@U001",
+          "1868:1@U002",
+          "1868:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が観察結果と一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "エッセイの組織は全体的に制御されているが、一部の文は誤用や不適切な表現が見られる",
+        "limits": "一部の文は誤用や不適切な表現が見られるが、全体的な組織は制御されている",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U001",
+            "start": 0,
+            "end": 78,
+            "text": "The main piece to improve your skills is during the process of keep learning. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U002",
+            "start": 78,
+            "end": 238,
+            "text": "Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U003",
+            "start": 238,
+            "end": 368,
+            "text": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1868:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文の形成に課題がある",
+        "span_ids": [
+          "1868:1@U004",
+          "1868:1@U005",
+          "1868:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が観察結果と一致",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に課題がある",
+        "limits": "複雑な文の形成に課題があるが、単純な文は適切に形成されている",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U004",
+            "start": 368,
+            "end": 611,
+            "text": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U005",
+            "start": 611,
+            "end": 767,
+            "text": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n"
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U006",
+            "start": 767,
+            "end": 882,
+            "text": "\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1868:1",
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "feature": "語彙の使用に課題がある",
+        "span_ids": [
+          "1868:1@U007",
+          "1868:1@U008",
+          "1868:1@U009"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が観察結果と一致",
+        "condition_ids": [
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "語彙の使用に課題がある",
+        "limits": "語彙の使用に課題があるが、一部の単語は適切に使用されている",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U007",
+            "start": 882,
+            "end": 1043,
+            "text": "Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U008",
+            "start": 1043,
+            "end": 1173,
+            "text": "Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U009",
+            "start": 1173,
+            "end": 1269,
+            "text": "The process of being a mother for the first time, does not end when you give birth to the baby. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "1868:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法に誤りがある",
+        "span_ids": [
+          "1868:1@U010",
+          "1868:1@U011",
+          "1868:1@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が観察結果と一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法に誤りがある",
+        "limits": "文法に誤りがあるが、一部の文は正確に形成されている",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U010",
+            "start": 1269,
+            "end": 1426,
+            "text": "There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n"
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U011",
+            "start": 1426,
+            "end": 1666,
+            "text": "\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U012",
+            "start": 1666,
+            "end": 1747,
+            "text": "Even adult mothers have said that they keep learning how to be mother everyday.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": [
+      "一部の文は誤用や不適切な表現が見られるが、全体的な組織は制御されている",
+      "複雑な文の形成に課題があるが、単純な文は適切に形成されている",
+      "語彙の使用に課題があるが、一部の単語は適切に使用されている",
+      "文法に誤りがあるが、一部の文は正確に形成されている"
+    ]
+  },
+  "timestamp": "2026-11-15T18:07:34.698589+09:00"
+}

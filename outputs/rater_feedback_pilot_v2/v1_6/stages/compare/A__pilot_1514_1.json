@@ -1,0 +1,205 @@
+{
+  "fingerprint": "bd6ac74f157e4deb03a166471e4c4723f0a997a3f72662a97b0548bd25413510",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "1514:1/K1/C1",
+          "1514:1/K1/C2"
+        ],
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U002",
+          "1514:1@U003",
+          "1514:1@U014"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "1514:1@U001",
+            "tokens": [
+              "Based",
+              "on",
+              "Emerson's",
+              "statement"
+            ],
+            "relation": "prepositional phrase modifying the main clause",
+            "interpretation": "この文はEmersonの主張に基づいて意見を述べているが、文法的には問題がない。",
+            "token_positions": [
+              {
+                "token": "Based",
+                "start": 0,
+                "end": 5
+              },
+              {
+                "token": "on",
+                "start": 6,
+                "end": 8
+              },
+              {
+                "token": "Emerson's",
+                "start": 9,
+                "end": 18
+              },
+              {
+                "token": "statement",
+                "start": 19,
+                "end": 28
+              }
+            ]
+          },
+          {
+            "span_id": "1514:1@U003",
+            "tokens": [
+              "My",
+              "brother",
+              "for",
+              "example",
+              "wanted",
+              "to",
+              "be",
+              "an",
+              "engineer"
+            ],
+            "relation": "subject-verb-object relationship",
+            "interpretation": "この文は主語と動詞の関係が明確だが、'for example'の使用が適切かどうか確認が必要。",
+            "token_positions": [
+              {
+                "token": "My",
+                "start": 317,
+                "end": 319
+              },
+              {
+                "token": "brother",
+                "start": 320,
+                "end": 327
+              },
+              {
+                "token": "for",
+                "start": 328,
+                "end": 331
+              },
+              {
+                "token": "example",
+                "start": 332,
+                "end": 339
+              },
+              {
+                "token": "wanted",
+                "start": 340,
+                "end": 346
+              },
+              {
+                "token": "to",
+                "start": 347,
+                "end": 349
+              },
+              {
+                "token": "be",
+                "start": 350,
+                "end": 352
+              },
+              {
+                "token": "an",
+                "start": 353,
+                "end": 355
+              },
+              {
+                "token": "engineer",
+                "start": 356,
+                "end": 364
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Grammar.S3.C01"
+        ],
+        "feature_confirmed": "一般的な構造と単純な文法の使用が確認された。ただし、文法と慣用句の誤用が見られる。",
+        "inferred_judgment": "評価に影響",
+        "rubric_based_proposal": "Overall.S3.C01とGrammar.S3.C01に基づき、評価は3段階が妥当。",
+        "agreement_review_unknown": "Hitlerの例が適切かどうかは議論の余地がある。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "1514:1@U001",
+              "1514:1@U002",
+              "1514:1@U003",
+              "1514:1@U014"
+            ],
+            "finding": "一般的な構造と単純な文法の使用が確認された。文法と慣用句の誤用が見られる。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "'for example'の使用が適切かどうか",
+          "where_span_ids": [
+            "1514:1@U003"
+          ],
+          "action": "'for example'の使用が適切かどうかを確認する",
+          "reason": "'for example'の使用が全体の組織とアイデアのつながりに影響を与える可能性がある。"
+        },
+        "scope_limit": "全体的な組織とアイデアのつながりは理解しやすいが、文法と慣用句の誤用が見られる。",
+        "citations": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U002",
+            "start": 203,
+            "end": 317,
+            "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U003",
+            "start": 317,
+            "end": 404,
+            "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U014",
+            "start": 1555,
+            "end": 1644,
+            "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C01",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "Facility limited to the use of common structures and generic vocabulary;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 0,
+            "end": 72,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:09:33.059523+09:00"
+}

@@ -1,0 +1,174 @@
+{
+  "fingerprint": "5b844be4170e234fb8d4c4ce5b2a6f43c95bf8626b988dc34e4c10d2a864ff4f",
+  "result": {
+    "rationale": "本文は、家庭学習の利点を説明するが、文法と構成に一貫性があり、適切な単語とフレーズを使用している。しかし、文法と構文に時折誤りがあり、文章のつながりが完全ではない。全体的にコミュニケーションは妨げられないが、改善の余地がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "適切な単語とフレーズの使用",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "適切な単語とフレーズが使用されている。",
+        "limits": "一部の単語が適切でない可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U001",
+            "start": 0,
+            "end": 420,
+            "text": "Would it be surprising to know that kids that learn at home don't have to stress as much?Stress is mainly caused by students getting to much school work that cannot all be handled in one night.Everyday kids complain about having too much homework and when working in home there is not any homework.Allowing children to work on their own schedule help them become more motivated to work.Students being educated at home ga"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U002",
+            "start": 420,
+            "end": 665,
+            "text": "in more freedom to create their own schedule and their own rules.Learning at home and not at schools helps kids succeed and have better grades.Not only does learning at home provides less distraction,it provides student with flexible schedule.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "feature": "文章のつながりが完全ではない",
+        "span_ids": [
+          "8317:2@U003",
+          "8317:2@U004"
+        ],
+        "direction": "negative",
+        "score_relation": "不一致",
+        "condition_ids": [
+          "Cohesion.S4.C03"
+        ],
+        "semantic_support": "uncertain",
+        "support_explanation": "文章のつながりが完全ではないが、一部の文章はつながっている。",
+        "limits": "一部の文章はつながりが不明瞭である。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U003",
+            "start": 665,
+            "end": 1085,
+            "text": "\r\nOne of the best thing about homeschooling is that it can be done at anytime.Because it can be done at any time,children have a flexible time schedule which means that the parents can help.The student can work around the parent schedule instead of the parent working around the students schedule.Some students have trouble working around at a school because they cannot understand the materials at the place set by teac"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U004",
+            "start": 1085,
+            "end": 1373,
+            "text": "hers.Homeschooling allows student to work at their own place and at their own schedule.Another thing about homeschooling is that there are no misguided rules about technology or how to dress.This is good because instead of working about the rules,the student can focus on their studies.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "文法と構文に時折誤りがある",
+        "span_ids": [
+          "8317:2@U005",
+          "8317:2@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "不一致",
+        "condition_ids": [
+          "Syntax.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と構文に時折誤りがある。",
+        "limits": "誤りの頻度が不明瞭である。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U005",
+            "start": 1373,
+            "end": 1793,
+            "text": "\r\nWhen you are taking a test or taking notes at a public school there are many distraction that can make students lose focus on what they are doing.This is another reason that learning from home would be a benefit for students.Learning from home won't be a distraction that a classroom has.As a result of this,students won't lose focus on the work they are doing and get better grades.One of the reason students get dist"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U006",
+            "start": 1793,
+            "end": 2213,
+            "text": "racted in the first place i because they are in an environment that they are not familiar with,which makes them feel uncomfortable.If a student learns from home they will feel more relaxed and comfortable and won't stress about work.In a school,you are stuck at desk for6 hours and have limited time to eat and limited bathroom break.this does not help a student's learning at all.on the other hand,if you are at home yo"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "文法と使用に最小限の誤りがある",
+        "span_ids": [
+          "8317:2@U007",
+          "8317:2@U008"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と使用に最小限の誤りがある。",
+        "limits": "誤りの頻度が不明瞭である。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U007",
+            "start": 2213,
+            "end": 2472,
+            "text": "u can eat and do whatever you want and when you want.Because of this students will feel less pressure and get better grades than they would have if they were at school.In conclusion,the environment at home will benefit students by giving them better grades.\r\n"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U008",
+            "start": 2472,
+            "end": 2892,
+            "text": "\r\nThere are still a few not to do schools from home.there are much more opportunities with public schools.People from different colleges don't go to students' homes and try to advertise their career options.It's also pretty hard to make friends if you stay at home every day.Public schools are great places to socialize during free time.If everyone goes home to do schooling,funding for public schooling will fall and te"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と構文の誤りの頻度とその影響について詳細な説明が不足している。"
+  },
+  "timestamp": "2026-11-15T19:24:59.830360+09:00"
+}

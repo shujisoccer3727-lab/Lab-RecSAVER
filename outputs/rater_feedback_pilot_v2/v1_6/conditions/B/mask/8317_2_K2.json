@@ -1,0 +1,116 @@
+{
+  "candidate_key": "B|8317:2|K2",
+  "masked_reason": {
+    "rationale": "The essay demonstrates a controlled organization and use of a variety of syntactic structures, though occasional errors in sentence formation are present. Vocabulary usage is adequate, with some attempts to use less common words. Grammar is mostly accurate, but minor inaccuracies exist. Conventions are generally consistent, with few distracting errors.",
+    "unexplained": "The essay's argumentation and logical flow are not explicitly addressed, which may affect the overall coherence.",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002",
+          "8317:2@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "controlled organization and use of a variety of syntactic structures",
+        "score_relation": "aligned",
+        "support_explanation": "The essay shows a clear structure with varied sentence types.",
+        "limits": "Some sentences are complex and may contain errors."
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U003",
+          "8317:2@U005"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "occasional errors in sentence formation",
+        "score_relation": "aligned",
+        "support_explanation": "There are some errors in sentence structure.",
+        "limits": "Errors are not frequent enough to significantly impede communication."
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U004",
+          "8317:2@U006"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "positive",
+        "feature": "adequate range of vocabulary with some attempts to use less common words",
+        "score_relation": "aligned",
+        "support_explanation": "The essay uses a variety of vocabulary.",
+        "limits": "Attempts to use less common words are sometimes inaccurate."
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002",
+          "8317:2@U003"
+        ],
+        "aspect": "Conventions",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "generally consistent use of conventions with few distracting errors",
+        "score_relation": "aligned",
+        "support_explanation": "Spelling, capitalization, and punctuation are mostly correct.",
+        "limits": "Minor errors are present but not distracting."
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Conventions.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

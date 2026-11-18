@@ -1,0 +1,32 @@
+{
+  "fingerprint": "c5a2901f7c65544b348f36c300cd2891867eaf7a1d9039091de4c8884842e867",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "複雑な文の形成に誤りがあることが具体的に示されている。例えば、'Distance learning students attend classes on time by online.' という文は、'by online' の使用が不自然で、文法的にも適切でない。また、'Suppose they use the online conferencing they can be on time in every classes.' という文も、'Suppose' の使用と 'classes' の複数形が不自然である。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "単語の選択が限定的であることが具体的に示されている。例えば、'attend to school everyday' という表現は、'attend school everyday' の方が適切である。また、'By way online' も 'Through online' の方が適切である。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "文法と慣用句の使用に誤りがあることが具体的に示されている。例えば、'If they late in every first classes they might fail that classes.' という文は、'If they are late for every first class, they might fail that class.' の方が適切である。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "スペリング、大文字、句読点の誤りが時々目立つことが具体的に示されている。例えば、'they're' の代わりに 'they're' が使用されていない。また、'online or video conferencing' の 'online' の前に大文字が使用されていない。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:54:54.586342+09:00"
+}

@@ -1,0 +1,126 @@
+{
+  "candidate_key": "A|406:1|K1",
+  "masked_reason": {
+    "rationale": "文章は全体的に組織化されており、主張が明確で、個人的な経験を用いて説明しています。しかし、文法や構文の誤りが見られ、表現の多様性が不足しています。",
+    "unexplained": "[得点表現除去]である理由は、全体的な組織化と明確な主張が評価に寄与している一方で、文法や構文の誤り、表現の多様性不足、慣用句や熟語の使用の不適切さが評価を引き下げているためと考えられる。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "406:1",
+        "span_ids": [
+          "406:1@U001",
+          "406:1@U004",
+          "406:1@U010"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "明確な主張と個人的な経験の使用",
+        "score_relation": "評価に寄与",
+        "support_explanation": "主張が明確で、具体的な例が提供されている",
+        "limits": "他の観点の誤りが全体の評価を引き下げている可能性がある"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "406:1",
+        "span_ids": [
+          "406:1@U002",
+          "406:1@U004",
+          "406:1@U008"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "文法と構文の誤り",
+        "score_relation": "評価を下げる",
+        "support_explanation": "誤りが頻繁に見られる",
+        "limits": "誤りの頻度が全体の評価に影響する"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "406:1",
+        "span_ids": [
+          "406:1@U001",
+          "406:1@U005",
+          "406:1@U011"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "表現の多様性不足",
+        "score_relation": "評価を下げる",
+        "support_explanation": "表現が限定的で、より複雑な単語やフレーズの使用が少ない",
+        "limits": "表現の多様性が全体の評価に影響する"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "406:1",
+        "span_ids": [
+          "406:1@U002",
+          "406:1@U004",
+          "406:1@U008"
+        ],
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "direction": "negative",
+        "feature": "慣用句や熟語の使用の不適切さ",
+        "score_relation": "評価を下げる",
+        "support_explanation": "慣用句や熟語の使用が不適切で、誤用が見られる",
+        "limits": "慣用句や熟語の使用が全体の評価に影響する"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "unexplained",
+      "start": 0,
+      "end": 4,
+      "original": "評価が4",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_label",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C01",
+        "Overall.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Phraseology.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

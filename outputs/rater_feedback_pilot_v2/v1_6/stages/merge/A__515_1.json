@@ -1,0 +1,75 @@
+{
+  "fingerprint": "2a2c1113dda7845947b8823706670643e37d1ef90a6e8c547505f20022315b41",
+  "result": {
+    "groups": [
+      {
+        "summary": "組織は全体的に制御されているが、複雑な文の形成に誤りがある。",
+        "claim_ids": [
+          "515:1/K1/C1",
+          "515:1/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "単語の選択が限定的で、微妙な単語の意味を正確に使用していない。",
+        "claim_ids": [
+          "515:1/K1/C3",
+          "515:1/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "文法と慣用句の使用に誤りがある。",
+        "claim_ids": [
+          "515:1/K1/C2",
+          "515:1/K1/C4",
+          "515:1/K2/C3"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "スペリング、大文字、句読点の誤りが時々目立つ。",
+        "claim_ids": [
+          "515:1/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "differences": [
+      {
+        "description": "文法と構文のエラーの範囲が広い。",
+        "claim_ids": [
+          "515:1/K1/C2",
+          "515:1/K1/C4"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "単語の選択が限定的で、複雑な文の形成に誤りがある。",
+        "claim_ids": [
+          "515:1/K1/C3",
+          "515:1/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "description": "文法と慣用句の使用に誤りがある。",
+        "claim_ids": [
+          "515:1/K1/C2",
+          "515:1/K1/C4",
+          "515:1/K2/C3"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "description": "スペリング、大文字、句読点の誤りが時々目立つ。",
+        "claim_ids": [
+          "515:1/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:01:35.850008+09:00"
+}

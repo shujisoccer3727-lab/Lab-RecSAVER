@@ -1,0 +1,177 @@
+{
+  "fingerprint": "37002e47723e808499df72e79ed7a7c96e120e0a7ab77acb214e8c9962f0a082",
+  "result": {
+    "rationale": "文章は一般的な構造を保有しているが、文法や語彙の正確性に問題があり、コミュニケーションに影響を及ぼす可能性がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "515:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章は一般的な構造を保有しているが、文法や語彙の正確性に問題があり。",
+        "span_ids": [
+          "515:1@U001",
+          "515:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章は全体的な構造を保有しているが、文法や語彙の正確性に問題がある。",
+        "limits": "全体的な構造が保たれているが、具体的な文法や語彙の問題が存在する。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U001",
+            "start": 0,
+            "end": 131,
+            "text": "Some schools offer distance learning as an option for students to attend classes from home by way of online or video conferencing. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U002",
+            "start": 131,
+            "end": 207,
+            "text": "I think students would benefit from being able to attend classes from home. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "515:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法の誤りが頻繁に見られる。",
+        "span_ids": [
+          "515:1@U003",
+          "515:1@U004"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法の誤りが頻繁に見られる。",
+        "limits": "文法の誤りが存在するが、その頻度や影響度は異なる可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U003",
+            "start": 207,
+            "end": 268,
+            "text": "Distance learning students attend classes on time by online. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U004",
+            "start": 268,
+            "end": 327,
+            "text": "Distance learning students also attend to school everyday. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "515:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "語彙の範囲が限定的で、正確な単語の使用が不足している。",
+        "span_ids": [
+          "515:1@U005",
+          "515:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "語彙の範囲が限定的で、正確な単語の使用が不足している。",
+        "limits": "語彙の範囲が限定的であるが、一部の単語は適切に使用されている可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U005",
+            "start": 327,
+            "end": 383,
+            "text": "By way online you can attend to classes from anywhere.\r\n"
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U006",
+            "start": 383,
+            "end": 453,
+            "text": "\r\nFirst, distance learning students attend classes on time by online. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "515:1",
+        "aspect": "Conventions",
+        "kind": "communication",
+        "feature": "スペリングや句読点の誤りが存在し、コミュニケーションに影響を及ぼす。",
+        "span_ids": [
+          "515:1@U007",
+          "515:1@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Conventions.S3.C01",
+          "Conventions.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "スペリングや句読点の誤りが存在し、コミュニケーションに影響を及ぼす。",
+        "limits": "誤りが存在するが、その頻度や影響度は異なる可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U007",
+            "start": 453,
+            "end": 500,
+            "text": "In many states students live far from schools. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U008",
+            "start": 500,
+            "end": 560,
+            "text": "Sometimes they can't be on time because of highway traffic. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法や語彙の正確性に問題があるが、全体的な構造が保たれているため、コミュニケーションが完全に阻害されているわけではない。"
+  },
+  "timestamp": "2026-11-15T19:45:05.087419+09:00"
+}

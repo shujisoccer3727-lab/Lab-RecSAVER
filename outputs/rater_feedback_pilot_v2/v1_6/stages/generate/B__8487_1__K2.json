@@ -1,0 +1,211 @@
+{
+  "fingerprint": "48d7cdf338251e67bc5e75633dbd23244985fc7f4fcb5a14635b46eac169831b",
+  "result": {
+    "rationale": "文章組織が不明瞭で、文法と構文の誤りが頻繁に見られ、コミュニケーションが阻害される。単語の選択と用法も限定的で、複雑な文の形成に困難がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Overall",
+        "kind": "communication",
+        "feature": "頻繁な文法と構文の誤りがコミュニケーションを阻害する",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U002",
+          "8487:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Overall.S2.C03",
+          "Grammar.S2.C01",
+          "Syntax.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な文法と構文の誤りが引用されている",
+        "limits": "全体の頻度を断定できない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U002",
+            "start": 293,
+            "end": 447,
+            "text": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U003",
+            "start": 447,
+            "end": 496,
+            "text": "example you dont have money you something not\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Cohesion",
+        "kind": "organization",
+        "feature": "文章の組織が部分的にしか開発されておらず、アイデアの論理的な順序付けが欠けている",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U002",
+          "8487:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Cohesion.S2.C01",
+          "Cohesion.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な組織の問題が引用されている",
+        "limits": "全体の頻度を断定できない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U002",
+            "start": 293,
+            "end": 447,
+            "text": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U003",
+            "start": 447,
+            "end": 496,
+            "text": "example you dont have money you something not\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "単語の選択と用法が限定的で、トピックに関連する用語が不適切に使用されている",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U002",
+          "8487:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Vocabulary.S2.C01",
+          "Vocabulary.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な単語の誤用が引用されている",
+        "limits": "全体の頻度を断定できない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U002",
+            "start": 293,
+            "end": 447,
+            "text": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U003",
+            "start": 447,
+            "end": 496,
+            "text": "example you dont have money you something not\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "feature": "用いられるフレーズの範囲が狭く、多くの繰り返しと誤用がある",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U002",
+          "8487:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Phraseology.S2.C01",
+          "Phraseology.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的なフレーズの誤用が引用されている",
+        "limits": "全体の頻度を断定できない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U002",
+            "start": 293,
+            "end": 447,
+            "text": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U003",
+            "start": 447,
+            "end": 496,
+            "text": "example you dont have money you something not\r\n\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体の組織とアイデアのつながりが不明瞭な部分がある。"
+  },
+  "timestamp": "2026-11-15T19:29:57.403920+09:00"
+}

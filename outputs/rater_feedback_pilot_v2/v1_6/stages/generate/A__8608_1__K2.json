@@ -1,0 +1,201 @@
+{
+  "fingerprint": "21f19a6cd15715c9a7e31d16dff66d9dd0eb36c7d64e581acafd275265ea46ba",
+  "result": {
+    "rationale": "文章組織一般控制得當，但存在一些連貫性問題。語法和詞彙使用有限，且有錯誤，影響了部分溝通。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "feature": "組織一般控制得當，但連貫性有限",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "符合",
+        "condition_ids": [
+          "Cohesion.S3.C01",
+          "Cohesion.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文本組織大致有序，但連貫性不足",
+        "limits": "可能有其他因素影響組織",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U001",
+            "start": 0,
+            "end": 36,
+            "text": "mean people think that self-esteem. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U002",
+            "start": 36,
+            "end": 61,
+            "text": "Is aren by working hard. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U003",
+            "start": 61,
+            "end": 152,
+            "text": "but really people just need to be happy with people that dont even care about self-esteem. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "存在一些語法錯誤",
+        "span_ids": [
+          "8608:1@U004",
+          "8608:1@U005",
+          "8608:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "符合",
+        "condition_ids": [
+          "Syntax.S3.C01",
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文本中存在語法錯誤",
+        "limits": "可能有其他語法問題未被注意到",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U004",
+            "start": 152,
+            "end": 189,
+            "text": "And true to who you are as a person. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U005",
+            "start": 189,
+            "end": 309,
+            "text": "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.\r\n"
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U006",
+            "start": 309,
+            "end": 405,
+            "text": "\r\nThat can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "詞彙使用有限",
+        "span_ids": [
+          "8608:1@U007",
+          "8608:1@U008",
+          "8608:1@U009"
+        ],
+        "direction": "negative",
+        "score_relation": "符合",
+        "condition_ids": [
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "詞彙使用範圍有限",
+        "limits": "可能有其他詞彙問題未被注意到",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U007",
+            "start": 405,
+            "end": 445,
+            "text": "and they we make u feel like u mater\r\n\r\n"
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U008",
+            "start": 445,
+            "end": 592,
+            "text": "and they will love u even when u feel sad,mad,or if u just want something that u can cuddle with and just doing that well help u with self-esteem. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U009",
+            "start": 592,
+            "end": 685,
+            "text": "And if that still dont work then go to somewhere u think is a nice pleas to be and mediated. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "存在一些語法錯誤",
+        "span_ids": [
+          "8608:1@U010",
+          "8608:1@U011"
+        ],
+        "direction": "negative",
+        "score_relation": "符合",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文本中存在語法錯誤",
+        "limits": "可能有其他語法問題未被注意到",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U010",
+            "start": 685,
+            "end": 859,
+            "text": "Also if u really really want to get you self-esteem go to the gym be cues there is noting like work out and feeling a new look or u can buy a nice car and that well help to. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U011",
+            "start": 859,
+            "end": 1047,
+            "text": "Well if u really really want to bring your self-esteem up just go for run an be with family,friends or buy a dog or work out or just do all of them and that well help your self-esteem.    "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文章中某些部分的組織和連貫性問題可能需要進一步分析。"
+  },
+  "timestamp": "2026-11-15T19:17:27.636547+09:00"
+}

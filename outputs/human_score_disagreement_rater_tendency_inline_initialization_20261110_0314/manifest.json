@@ -1,0 +1,49 @@
+{
+  "fingerprint": "9ef964b2605eee0e4e5f5ea6bc70976ed9b4b8dd95c9578a7b7b9efe55e9597f",
+  "config": {
+    "seed": 20260914,
+    "source_dir": "outputs/human_score_disagreement",
+    "output_dir": "outputs/human_score_disagreement_rater_tendency_inline",
+    "template": "prompts/en/rater_tendency_in_reasoning_prediction.txt",
+    "batch_size": 6,
+    "max_attempts": 2,
+    "model": {
+      "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+      "quantization": "gptq_marlin",
+      "tensor_parallel_size": 1,
+      "max_model_len": 8192,
+      "gpu_memory_utilization": 0.38,
+      "runtime_options": {
+        "cpu_offload_gb": 6,
+        "enforce_eager": true,
+        "max_num_seqs": 2,
+        "max_num_batched_tokens": 8192
+      }
+    },
+    "generation": {
+      "temperature": 0.2,
+      "top_p": 0.8,
+      "max_tokens": 768
+    }
+  },
+  "source_hashes": {
+    "extracted_pairs.jsonl": "db585078ae4a27ff9047f4ff5dff6d911b3b2186e6f3aa9b0377e5d52525b179",
+    "prepared_targets.jsonl": "89dd59c3c2411dba6221aabe0c569d8fefde539b1efb1f7c4a95886e70a2b220",
+    "rubric_used.md": "78cf01cf2dad4b63640aee9fa8805d3e0bc3b7e0771d582030cdaae38645654b",
+    "unavailable_targets.csv": "d39662949dbf2dff0d4a71c018486195dba3350b3a1fb7fd014ba8194d380645"
+  },
+  "created_at": "2026-11-09T18:04:32.460973+00:00",
+  "pilot_target_ids": [
+    "6788:1",
+    "6788:2",
+    "7114:2",
+    "7114:1",
+    "7366:2",
+    "7366:1"
+  ],
+  "source_exclusions": {
+    "8135:2": "target_trait_profile_invalid_under_existing_preprocessing"
+  },
+  "scope": "prediction_only",
+  "source_inputs_validated": true
+}

@@ -1,0 +1,174 @@
+{
+  "fingerprint": "7827ec2ffb60c48c42d68b5f92654a7caba0f1ab38597fc614e2ba79a2d69195",
+  "result": {
+    "rationale": "このエッセイは、文法と構文が正確で、適切な単語とフレーズが使用されている。しかし、文章のつながりやアイデアの重複が見られる。全体的に、コミュニケーションは妨げられていない。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "適切な単語とフレーズの使用",
+        "span_ids": [
+          "7418:2@U006",
+          "7418:2@U016"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "適切な単語とフレーズが使用されている。",
+        "limits": "単語の使用が常に正確とは限らない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U006",
+            "start": 230,
+            "end": 319,
+            "text": "the warm climate is one of the best things in Brazil because it is so near the equator.\r\n"
+          },
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U016",
+            "start": 1118,
+            "end": 1246,
+            "text": "\r\nAlso the parade is one of the awesome things I want to see, all those dancers, music where every body is excited and joyful.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "aspect": "Cohesion",
+        "kind": "frequency",
+        "feature": "アイデアの重複",
+        "span_ids": [
+          "7418:2@U010",
+          "7418:2@U017"
+        ],
+        "direction": "negative",
+        "score_relation": "一部一致",
+        "condition_ids": [
+          "Cohesion.S4.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "アイデアの重複が見られる。",
+        "limits": "全体的なつながりは良好。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U010",
+            "start": 706,
+            "end": 757,
+            "text": "\r\nThe climate in Brazil is going to be wonderful.\r\n"
+          },
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U017",
+            "start": 1246,
+            "end": 1306,
+            "text": "\r\nThe culture of Brazil is going to be a great experience.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "文法の正確性",
+        "span_ids": [
+          "7418:2@U006",
+          "7418:2@U016"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法は正確。",
+        "limits": "一部の文法的誤りが存在する可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U006",
+            "start": 230,
+            "end": 319,
+            "text": "the warm climate is one of the best things in Brazil because it is so near the equator.\r\n"
+          },
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U016",
+            "start": 1118,
+            "end": 1246,
+            "text": "\r\nAlso the parade is one of the awesome things I want to see, all those dancers, music where every body is excited and joyful.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "aspect": "Syntax",
+        "kind": "presence",
+        "feature": "複雑な文法構造の使用",
+        "span_ids": [
+          "7418:2@U006",
+          "7418:2@U016"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文法構造が使用されている。",
+        "limits": "一部の文法構造が適切でない可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U006",
+            "start": 230,
+            "end": 319,
+            "text": "the warm climate is one of the best things in Brazil because it is so near the equator.\r\n"
+          },
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U016",
+            "start": 1118,
+            "end": 1246,
+            "text": "\r\nAlso the parade is one of the awesome things I want to see, all those dancers, music where every body is excited and joyful.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体的な組織の制御とアイデアの重複が評価に影響を与える可能性がある。"
+  },
+  "timestamp": "2026-11-15T19:35:02.733936+09:00"
+}

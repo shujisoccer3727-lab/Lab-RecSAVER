@@ -1,0 +1,245 @@
+{
+  "fingerprint": "45134f75fbc893253ef6475835482cac353901a02669ab72b193b2855ad145c2",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "5268:1/K1/C1",
+          "5268:1/K1/C2",
+          "5268:1/K1/C3",
+          "5268:1/K1/C4"
+        ],
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U002",
+          "5268:1@U003",
+          "5268:1@U005",
+          "5268:1@U010",
+          "5268:1@U015"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "5268:1@U001",
+            "tokens": [
+              "Ever",
+              "since"
+            ],
+            "relation": "time expression",
+            "interpretation": "「Ever since」は時間表現であり、文章の始まりを示す。しかし、その後の文法構造は複雑さを欠く。",
+            "token_positions": [
+              {
+                "token": "Ever",
+                "start": 0,
+                "end": 4
+              },
+              {
+                "token": "since",
+                "start": 5,
+                "end": 10
+              }
+            ]
+          },
+          {
+            "span_id": "5268:1@U005",
+            "tokens": [
+              "making",
+              "good"
+            ],
+            "relation": "gerund phrase",
+            "interpretation": "「making good」は動名詞短語として使われているが、文法的に不完全で、全体の意味理解に影響を与える可能性がある。",
+            "token_positions": [
+              {
+                "token": "making",
+                "start": 343,
+                "end": 349
+              },
+              {
+                "token": "good",
+                "start": 350,
+                "end": 354
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Overall.S3.C02",
+          "Overall.S3.C03",
+          "Overall.S3.C04",
+          "Grammar.S3.C01",
+          "Vocabulary.S3.C01",
+          "Conventions.S3.C01",
+          "Conventions.S3.C02"
+        ],
+        "feature_confirmed": "文章の組織と文法は一般的に制御されているが、複雑な文の形成に誤りがある。文法と使用に誤りがあるが、全体のコミュニケーションは阻害されない。微妙な単語の意味の正確な使用が不足しているが、一部は正確に使用されている。",
+        "inferred_judgment": "文章は全体的に理解可能だが、複雑な文の形成や微妙な単語の正確な使用に問題がある。",
+        "rubric_based_proposal": "Overall.S3.C01, Overall.S3.C02, Overall.S3.C03, Overall.S3.C04の条件を満たす。文章の組織と文法は一般的に制御されているが、複雑な文の形成に誤りがある。文法と使用に誤りがあるが、全体のコミュニケーションは阻害されない。微妙な単語の意味の正確な使用が不足しているが、一部は正確に使用されている。",
+        "agreement_review_unknown": "文章の組織と文法は一般的に制御されているが、複雑な文の形成に誤りがある。文法と使用に誤りがあるが、全体のコミュニケーションは阻害されない。微妙な単語の意味の正確な使用が不足しているが、一部は正確に使用されている。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "5268:1@U001",
+              "5268:1@U005"
+            ],
+            "finding": "複雑な文の形成に誤りがあるが、全体のコミュニケーションは阻害されない。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "「making good」の使用が全体の意味理解に影響を与えるかどうかを確認する。",
+          "where_span_ids": [
+            "5268:1@U005"
+          ],
+          "action": "「making good」の使用が全体の意味理解に影響を与えるかどうかを確認する。",
+          "reason": "「making good」の使用が全体の意味理解に影響を与える可能性があるため。"
+        },
+        "scope_limit": "文章の組織と文法は一般的に制御されているが、複雑な文の形成に誤りがある。文法と使用に誤りがあるが、全体のコミュニケーションは阻害されない。微妙な単語の意味の正確な使用が不足しているが、一部は正確に使用されている。",
+        "citations": [
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U001",
+            "start": 0,
+            "end": 71,
+            "text": "Ever since, we were kids we started choosing our own character traits. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U002",
+            "start": 71,
+            "end": 176,
+            "text": "it can be good or bad based of the environment we live in, how we were raised, and personal experiences. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U003",
+            "start": 176,
+            "end": 275,
+            "text": "But we can always change our character traits, it's similar to an opinion on something or someone. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U005",
+            "start": 303,
+            "end": 436,
+            "text": "we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.\r\n"
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U010",
+            "start": 724,
+            "end": 917,
+            "text": "Some people believe we can't choose our character traits because we did not decide nor choose the way we wanted to be born, we did not choose if we wanted to be tall, short, black, white etc.. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U015",
+            "start": 1253,
+            "end": 1470,
+            "text": "Unlike,most kids that dont care about the consequences nor judgments, kids usually choose careless traits but as they get older and become adults, they realized their mistakes and they choose traits with precautions. "
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C01",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "Facility limited to the use of common structures and generic vocabulary;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 0,
+            "end": 72,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S3.C02",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "organization generally controlled although connection sometimes absent or unsuccessful;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 73,
+            "end": 160,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S3.C03",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "errors in grammar and syntax and usage.",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 161,
+            "end": 200,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S3.C04",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "Communication is impeded by language inaccuracies in some cases.",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 201,
+            "end": 265,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C01",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "Minimally adequate range of vocabulary for the topic;",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 0,
+            "end": 53,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S3.C01",
+            "aspect": "Conventions",
+            "level": 3,
+            "text": "Developing use of conventions to convey meaning;",
+            "parent_id": "Conventions.S3",
+            "parent_text": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+            "start": 0,
+            "end": 48,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S3.C02",
+            "aspect": "Conventions",
+            "level": 3,
+            "text": "errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+            "parent_id": "Conventions.S3",
+            "parent_text": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+            "start": 49,
+            "end": 132,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:35:27.092358+09:00"
+}

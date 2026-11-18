@@ -1,0 +1,69 @@
+{
+  "fingerprint": "5d3f8b5105b9e4cdae88b992156ada8d7deaa327a157fe59dbe8fbf4455d1f4b",
+  "result": {
+    "patterns": [
+      {
+        "pattern_id": "P1",
+        "feature_context": "文章の組織と文法に一貫性があるが、複雑な文の形成や正確な単語の使用に課題がある。",
+        "repeated_judgment": "複雑な文の形成や正確な単語の使用に課題があるため、評価が下がる。",
+        "inferred_tendency": "複雑な文法構造や正確な単語の使用に課題がある答案に対して、評価を下げることがある。",
+        "support": [
+          {
+            "target_id": "2853:2",
+            "claim_ids": [
+              "2853:2/K2/C1",
+              "2853:2/K2/C2",
+              "2853:2/K2/C3",
+              "2853:2/K2/C4"
+            ]
+          },
+          {
+            "target_id": "318:2",
+            "claim_ids": [
+              "318:2/K1/C1",
+              "318:2/K1/C2",
+              "318:2/K1/C3",
+              "318:2/K1/C4"
+            ]
+          }
+        ],
+        "counterexamples": [],
+        "non_applicable": [],
+        "insufficient_target_ids": [],
+        "limits": "複雑な文の形成や正確な単語の使用に課題があるため、評価が下がる傾向があるが、全体的な組織と文法に一貫性がある場合は、評価が下がる可能性がある。"
+      },
+      {
+        "pattern_id": "P2",
+        "feature_context": "多くの文法と構文のエラーがあり、全体的な流れが乱れている。一部の文は理解可能だが、全体的な流れが乱れる。",
+        "repeated_judgment": "文法と構文のエラーが多いため、評価が下がる。",
+        "inferred_tendency": "文法と構文のエラーが多い答案に対して、評価を下げることがある。",
+        "support": [
+          {
+            "target_id": "474:1",
+            "claim_ids": [
+              "474:1/K1/C1",
+              "474:1/K1/C2",
+              "474:1/K1/C3",
+              "474:1/K1/C4"
+            ]
+          },
+          {
+            "target_id": "2832:2",
+            "claim_ids": [
+              "2832:2/K1/C1",
+              "2832:2/K1/C2",
+              "2832:2/K1/C3",
+              "2832:2/K1/C4"
+            ]
+          }
+        ],
+        "counterexamples": [],
+        "non_applicable": [],
+        "insufficient_target_ids": [],
+        "limits": "文法と構文のエラーが多い答案に対して、評価を下げることがあるが、一部の文が理解可能であれば、評価が下がる可能性がある。"
+      }
+    ],
+    "unknowns": "No two eligible candidates; cross-candidate agreement cannot be judged"
+  },
+  "timestamp": "2026-11-15T20:08:52.182975+09:00"
+}

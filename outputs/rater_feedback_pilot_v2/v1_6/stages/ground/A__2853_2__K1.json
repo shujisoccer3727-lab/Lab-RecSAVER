@@ -1,0 +1,32 @@
+{
+  "fingerprint": "50c98b719b5d3f50bb57c47e3095c173770d3959009b05dc995785092fc6d24b",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "span_idsの内容は、文章間の機械的なつながりを示しています。具体的には、2853:2@U003と2853:2@U004の間で、議論が機械的に展開していることが確認できます。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "span_idsの内容は、文法誤りを示しています。具体的には、2853:2@U005と2853:2@U015の文法誤りが確認できます。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "span_idsの内容は、慣用句の使用の限られた範囲を示しています。具体的には、2853:2@U007と2853:2@U012の範囲内で慣用句の使用が限定的であることが確認できます。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "span_idsの内容は、スペリングと句読点の誤りを示しています。具体的には、2853:2@U001と2853:2@U027のスペリングと句読点の誤りが確認できます。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:52:12.392624+09:00"
+}

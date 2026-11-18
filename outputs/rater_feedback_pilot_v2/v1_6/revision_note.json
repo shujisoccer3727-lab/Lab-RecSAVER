@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-15T19:02:13.085648+09:00",
+  "previous_version": "1.5",
+  "preserved_stages": [
+    "generate",
+    "verify",
+    "ground",
+    "merge",
+    "integrate"
+  ],
+  "changes": [
+    "one relationship per target",
+    "exact actual tokens and character offsets anchored to a target span",
+    "reject vague next_action.action",
+    "compact repeated citation metadata in comparison input, keeping the full target and adopted reasons",
+    "regenerate only comparison and final text; all remaining full-scope targets use the same specification"
+  ]
+}

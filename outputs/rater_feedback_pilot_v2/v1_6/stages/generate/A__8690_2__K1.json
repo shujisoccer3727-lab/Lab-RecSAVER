@@ -1,0 +1,206 @@
+{
+  "fingerprint": "fb3e93618752b2cb1ff5f632b6f34b8cefc1b1e521ea97b18977d3627e06cfa2",
+  "result": {
+    "rationale": "文章組織と文法の正確性が一定程度保たれているが、複雑な文の形成や単語の正確な使用に課題がある。また、文法と慣用句の使用に誤りが見られる。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "組織が一定程度保たれているが、複雑な文の形成に課題がある",
+        "span_ids": [
+          "8690:2@U001",
+          "8690:2@U002",
+          "8690:2@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章の組織は一定程度保たれているが、複雑な文の形成に課題がある",
+        "limits": "全体の頻度を断定できない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U001",
+            "start": 0,
+            "end": 79,
+            "text": "Based on your experiences, do you agree or disagree with Emerson's statement?\r\n"
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U002",
+            "start": 79,
+            "end": 168,
+            "text": "\r\nWhen you try to do something in your life you need to have high level mastered degree. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U003",
+            "start": 168,
+            "end": 236,
+            "text": "First, when i mastered a high level degree, i can have better life. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法に誤りがある",
+        "span_ids": [
+          "8690:2@U004",
+          "8690:2@U005",
+          "8690:2@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法に誤りがある",
+        "limits": "全体の頻度を断定できない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U004",
+            "start": 236,
+            "end": 265,
+            "text": "In addition, I can get rich. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U005",
+            "start": 265,
+            "end": 295,
+            "text": "Last, i can achieve my goals. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U006",
+            "start": 295,
+            "end": 352,
+            "text": "With out degree you can not get best jobs in your life.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "feature": "単語の正確な使用に課題がある",
+        "span_ids": [
+          "8690:2@U007",
+          "8690:2@U008",
+          "8690:2@U009"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語の正確な使用に課題がある",
+        "limits": "全体の頻度を断定できない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U007",
+            "start": 352,
+            "end": 412,
+            "text": "\r\nFirst, i can have better life.by doing hard work in life. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U008",
+            "start": 412,
+            "end": 440,
+            "text": "First, i can have my house. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U009",
+            "start": 440,
+            "end": 486,
+            "text": "second, my kids can go to high level schools. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Phraseology",
+        "kind": "frequency",
+        "feature": "慣用句の使用に誤りがある",
+        "span_ids": [
+          "8690:2@U010",
+          "8690:2@U011",
+          "8690:2@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Phraseology.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "慣用句の使用に誤りがある",
+        "limits": "全体の頻度を断定できない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U010",
+            "start": 486,
+            "end": 518,
+            "text": "finally, buying things i wants. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U011",
+            "start": 518,
+            "end": 574,
+            "text": "with out doing nothing you will never have great life.\r\n"
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U012",
+            "start": 574,
+            "end": 606,
+            "text": "\r\nIn addition, i can get rich.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と慣用句の誤りの頻度や全体的な影響について、より詳細な分析が必要"
+  },
+  "timestamp": "2026-11-15T19:22:57.569513+09:00"
+}

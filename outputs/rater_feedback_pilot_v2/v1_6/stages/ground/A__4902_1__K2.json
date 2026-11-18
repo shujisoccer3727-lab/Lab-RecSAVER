@@ -1,0 +1,32 @@
+{
+  "fingerprint": "25492d79be7a212601f99062f381cf86610c9e5d507ee6285aeea378515f476a",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文章の組織は全体的に制御されており、各段落が論点を明確に展開している。ただし、言語的不正確さが存在するが、全体的な組織が制御されているため、この主張は支持される。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "組織は全体的に制御されているが、一部の繋ぎが不適切である。これは主張が支持される理由である。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "文法と使用にいくつかの誤りがあるが、全体的なコミュニケーションは制御されているため、この主張は支持される。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "スペリング、大文字、句読点の誤りが時々存在するが、全体的なコミュニケーションは制御されているため、この主張は支持される。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:52:12.275864+09:00"
+}

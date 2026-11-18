@@ -1,0 +1,120 @@
+{
+  "fingerprint": "bad61e7193f7438b0996fb3a678b1a7ef88f393d59e30dc28d6706fe7cdea93b",
+  "result": {
+    "sentences": [
+      {
+        "element": 1,
+        "text": "文章は接続詞や例を用いてアイデアを接続し、全体的な組織が適切に制御されている。",
+        "claim_ids": [
+          "1514:1/K1/C1"
+        ],
+        "issue_ids": [],
+        "condition_ids": [
+          "Cohesion.S3.C01"
+        ],
+        "source_target_ids": [
+          "1514:1"
+        ]
+      },
+      {
+        "element": 2,
+        "text": "共通傾向は未確定だが、評価傾向は接続詞の使用が限られていることを示唆している。",
+        "claim_ids": [
+          "1514:1/K1/C1"
+        ],
+        "issue_ids": [
+          "B|three_local_1514:1_1514:1/I1"
+        ],
+        "condition_ids": [
+          "Cohesion.S3.C02"
+        ],
+        "source_target_ids": [
+          "1514:1"
+        ]
+      },
+      {
+        "element": 3,
+        "text": "具体的な例としては、Hitlerの例が接続詞の使用が限られている箇所である。",
+        "claim_ids": [
+          "1514:1/K1/C1"
+        ],
+        "issue_ids": [
+          "B|three_local_1514:1_1514:1/I1"
+        ],
+        "condition_ids": [
+          "Cohesion.S3.C02"
+        ],
+        "source_target_ids": [
+          "1514:1"
+        ]
+      },
+      {
+        "element": 4,
+        "text": "この評価は局所的なものであり、全体的な組織は適切に制御されている。",
+        "claim_ids": [
+          "1514:1/K1/C1"
+        ],
+        "issue_ids": [
+          "B|three_local_1514:1_1514:1/I1"
+        ],
+        "condition_ids": [
+          "Cohesion.S3.C01",
+          "Cohesion.S3.C02"
+        ],
+        "source_target_ids": [
+          "1514:1"
+        ]
+      },
+      {
+        "element": 5,
+        "text": "次回の採点では、接続詞の使用が限られている箇所を特定し、より多様な接続詞を使用する可能性を評価する。",
+        "claim_ids": [
+          "1514:1/K1/C1"
+        ],
+        "issue_ids": [
+          "B|three_local_1514:1_1514:1/I1"
+        ],
+        "condition_ids": [
+          "Cohesion.S3.C02"
+        ],
+        "source_target_ids": [
+          "1514:1"
+        ]
+      },
+      {
+        "element": 5,
+        "text": "また、接続詞の使用が限られている箇所と、より多様な接続詞を使用する箇所の違いを評価する。",
+        "claim_ids": [
+          "1514:1/K1/C1"
+        ],
+        "issue_ids": [
+          "B|three_local_1514:1_1514:1/I1"
+        ],
+        "condition_ids": [
+          "Cohesion.S3.C02"
+        ],
+        "source_target_ids": [
+          "1514:1"
+        ]
+      },
+      {
+        "element": 5,
+        "text": "この評価は、文章の組織が適切に制御されていることを前提としている。",
+        "claim_ids": [
+          "1514:1/K1/C1"
+        ],
+        "issue_ids": [
+          "B|three_local_1514:1_1514:1/I1"
+        ],
+        "condition_ids": [
+          "Cohesion.S3.C01"
+        ],
+        "source_target_ids": [
+          "1514:1"
+        ]
+      }
+    ],
+    "limits": "文章は接続詞の使用が限られているが、全体的な組織は適切に制御されている。"
+  },
+  "timestamp": "2026-11-16T19:22:43.240227+09:00"
+}

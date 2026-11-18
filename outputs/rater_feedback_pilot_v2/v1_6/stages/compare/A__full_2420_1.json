@@ -1,0 +1,891 @@
+{
+  "fingerprint": "aae30945d35b20441bdcd369bf0be122aed09d809de0c812bf08d163c47dd748",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "2420:1/K1/C1",
+          "2420:1/K1/C2",
+          "2420:1/K1/C3",
+          "2420:1/K1/C4",
+          "2420:1/K2/C1",
+          "2420:1/K2/C2"
+        ],
+        "span_ids": [
+          "2420:1@U003",
+          "2420:1@U004",
+          "2420:1@U005",
+          "2420:1@U008",
+          "2420:1@U010"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "2420:1@U003",
+            "tokens": [
+              "Although",
+              "some",
+              "says",
+              "that",
+              "determine",
+              "to",
+              "be",
+              "idle",
+              "or",
+              "inactivity",
+              "also",
+              "serve",
+              "a",
+              "purpose",
+              "because",
+              "they",
+              "can",
+              "accomplish",
+              "something",
+              "with",
+              "the",
+              "time",
+              "or",
+              "when",
+              "people",
+              "make",
+              "a",
+              "purpose",
+              "to",
+              "don't",
+              "be",
+              "idle"
+            ],
+            "relation": "因果関係",
+            "interpretation": "「idle」や「inactivity」が「purpose」を持つという主張が不正確で、文の意味が不明瞭になる。",
+            "token_positions": [
+              {
+                "token": "Although",
+                "start": 276,
+                "end": 284
+              },
+              {
+                "token": "some",
+                "start": 285,
+                "end": 289
+              },
+              {
+                "token": "says",
+                "start": 290,
+                "end": 294
+              },
+              {
+                "token": "that",
+                "start": 295,
+                "end": 299
+              },
+              {
+                "token": "determine",
+                "start": 300,
+                "end": 309
+              },
+              {
+                "token": "to",
+                "start": 310,
+                "end": 312
+              },
+              {
+                "token": "to",
+                "start": 438,
+                "end": 440
+              },
+              {
+                "token": "to",
+                "start": 481,
+                "end": 483
+              },
+              {
+                "token": "be",
+                "start": 313,
+                "end": 315
+              },
+              {
+                "token": "be",
+                "start": 447,
+                "end": 449
+              },
+              {
+                "token": "be",
+                "start": 484,
+                "end": 486
+              },
+              {
+                "token": "idle",
+                "start": 316,
+                "end": 320
+              },
+              {
+                "token": "idle",
+                "start": 450,
+                "end": 454
+              },
+              {
+                "token": "idle",
+                "start": 487,
+                "end": 491
+              },
+              {
+                "token": "or",
+                "start": 321,
+                "end": 323
+              },
+              {
+                "token": "or",
+                "start": 408,
+                "end": 410
+              },
+              {
+                "token": "inactivity",
+                "start": 324,
+                "end": 334
+              },
+              {
+                "token": "also",
+                "start": 335,
+                "end": 339
+              },
+              {
+                "token": "serve",
+                "start": 340,
+                "end": 345
+              },
+              {
+                "token": "a",
+                "start": 346,
+                "end": 347
+              },
+              {
+                "token": "a",
+                "start": 428,
+                "end": 429
+              },
+              {
+                "token": "a",
+                "start": 624,
+                "end": 625
+              },
+              {
+                "token": "purpose",
+                "start": 348,
+                "end": 355
+              },
+              {
+                "token": "purpose",
+                "start": 430,
+                "end": 437
+              },
+              {
+                "token": "because",
+                "start": 356,
+                "end": 363
+              },
+              {
+                "token": "because",
+                "start": 507,
+                "end": 514
+              },
+              {
+                "token": "they",
+                "start": 364,
+                "end": 368
+              },
+              {
+                "token": "can",
+                "start": 369,
+                "end": 372
+              },
+              {
+                "token": "can",
+                "start": 567,
+                "end": 570
+              },
+              {
+                "token": "accomplish",
+                "start": 373,
+                "end": 383
+              },
+              {
+                "token": "accomplish",
+                "start": 518,
+                "end": 528
+              },
+              {
+                "token": "something",
+                "start": 384,
+                "end": 393
+              },
+              {
+                "token": "something",
+                "start": 550,
+                "end": 559
+              },
+              {
+                "token": "with",
+                "start": 394,
+                "end": 398
+              },
+              {
+                "token": "the",
+                "start": 399,
+                "end": 402
+              },
+              {
+                "token": "time",
+                "start": 403,
+                "end": 407
+              },
+              {
+                "token": "or",
+                "start": 321,
+                "end": 323
+              },
+              {
+                "token": "or",
+                "start": 408,
+                "end": 410
+              },
+              {
+                "token": "when",
+                "start": 411,
+                "end": 415
+              },
+              {
+                "token": "people",
+                "start": 416,
+                "end": 422
+              },
+              {
+                "token": "people",
+                "start": 560,
+                "end": 566
+              },
+              {
+                "token": "people",
+                "start": 599,
+                "end": 605
+              },
+              {
+                "token": "make",
+                "start": 423,
+                "end": 427
+              },
+              {
+                "token": "make",
+                "start": 571,
+                "end": 575
+              },
+              {
+                "token": "a",
+                "start": 346,
+                "end": 347
+              },
+              {
+                "token": "a",
+                "start": 428,
+                "end": 429
+              },
+              {
+                "token": "a",
+                "start": 624,
+                "end": 625
+              },
+              {
+                "token": "purpose",
+                "start": 348,
+                "end": 355
+              },
+              {
+                "token": "purpose",
+                "start": 430,
+                "end": 437
+              },
+              {
+                "token": "to",
+                "start": 310,
+                "end": 312
+              },
+              {
+                "token": "to",
+                "start": 438,
+                "end": 440
+              },
+              {
+                "token": "to",
+                "start": 481,
+                "end": 483
+              },
+              {
+                "token": "don't",
+                "start": 441,
+                "end": 446
+              },
+              {
+                "token": "be",
+                "start": 313,
+                "end": 315
+              },
+              {
+                "token": "be",
+                "start": 447,
+                "end": 449
+              },
+              {
+                "token": "be",
+                "start": 484,
+                "end": 486
+              },
+              {
+                "token": "idle",
+                "start": 316,
+                "end": 320
+              },
+              {
+                "token": "idle",
+                "start": 450,
+                "end": 454
+              },
+              {
+                "token": "idle",
+                "start": 487,
+                "end": 491
+              }
+            ]
+          },
+          {
+            "span_id": "2420:1@U005",
+            "tokens": [
+              "I",
+              "have",
+              "done",
+              "many",
+              "things",
+              "in",
+              "school",
+              "and",
+              "accomplish",
+              "many",
+              "goals",
+              "in",
+              "my",
+              "life",
+              "so",
+              "my",
+              "parents",
+              "always",
+              "tell",
+              "me",
+              "that",
+              "I",
+              "make",
+              "them",
+              "feel",
+              "proud",
+              "of",
+              "me",
+              "for",
+              "all",
+              "that",
+              "I",
+              "have",
+              "been",
+              "done"
+            ],
+            "relation": "主語と動詞の関係",
+            "interpretation": "「accomplish」の動詞形が不適切で、文の意味が不明瞭になる。",
+            "token_positions": [
+              {
+                "token": "I",
+                "start": 1182,
+                "end": 1183
+              },
+              {
+                "token": "I",
+                "start": 1287,
+                "end": 1288
+              },
+              {
+                "token": "I",
+                "start": 1329,
+                "end": 1330
+              },
+              {
+                "token": "I",
+                "start": 1412,
+                "end": 1413
+              },
+              {
+                "token": "I",
+                "start": 1445,
+                "end": 1446
+              },
+              {
+                "token": "have",
+                "start": 1184,
+                "end": 1188
+              },
+              {
+                "token": "have",
+                "start": 1331,
+                "end": 1335
+              },
+              {
+                "token": "done",
+                "start": 1189,
+                "end": 1193
+              },
+              {
+                "token": "done",
+                "start": 1341,
+                "end": 1345
+              },
+              {
+                "token": "many",
+                "start": 1194,
+                "end": 1198
+              },
+              {
+                "token": "many",
+                "start": 1231,
+                "end": 1235
+              },
+              {
+                "token": "things",
+                "start": 1199,
+                "end": 1205
+              },
+              {
+                "token": "in",
+                "start": 1206,
+                "end": 1208
+              },
+              {
+                "token": "in",
+                "start": 1242,
+                "end": 1244
+              },
+              {
+                "token": "school",
+                "start": 1209,
+                "end": 1215
+              },
+              {
+                "token": "and",
+                "start": 1216,
+                "end": 1219
+              },
+              {
+                "token": "and",
+                "start": 1441,
+                "end": 1444
+              },
+              {
+                "token": "accomplish",
+                "start": 1100,
+                "end": 1110
+              },
+              {
+                "token": "accomplish",
+                "start": 1220,
+                "end": 1230
+              },
+              {
+                "token": "many",
+                "start": 1194,
+                "end": 1198
+              },
+              {
+                "token": "many",
+                "start": 1231,
+                "end": 1235
+              },
+              {
+                "token": "goals",
+                "start": 1236,
+                "end": 1241
+              },
+              {
+                "token": "in",
+                "start": 1206,
+                "end": 1208
+              },
+              {
+                "token": "in",
+                "start": 1242,
+                "end": 1244
+              },
+              {
+                "token": "my",
+                "start": 1245,
+                "end": 1247
+              },
+              {
+                "token": "my",
+                "start": 1256,
+                "end": 1258
+              },
+              {
+                "token": "life",
+                "start": 1176,
+                "end": 1180
+              },
+              {
+                "token": "life",
+                "start": 1248,
+                "end": 1252
+              },
+              {
+                "token": "so",
+                "start": 1253,
+                "end": 1255
+              },
+              {
+                "token": "my",
+                "start": 1245,
+                "end": 1247
+              },
+              {
+                "token": "my",
+                "start": 1256,
+                "end": 1258
+              },
+              {
+                "token": "parents",
+                "start": 1259,
+                "end": 1266
+              },
+              {
+                "token": "always",
+                "start": 1267,
+                "end": 1273
+              },
+              {
+                "token": "always",
+                "start": 1447,
+                "end": 1453
+              },
+              {
+                "token": "tell",
+                "start": 1274,
+                "end": 1278
+              },
+              {
+                "token": "me",
+                "start": 1279,
+                "end": 1281
+              },
+              {
+                "token": "me",
+                "start": 1313,
+                "end": 1315
+              },
+              {
+                "token": "that",
+                "start": 1282,
+                "end": 1286
+              },
+              {
+                "token": "that",
+                "start": 1324,
+                "end": 1328
+              },
+              {
+                "token": "that",
+                "start": 1368,
+                "end": 1372
+              },
+              {
+                "token": "that",
+                "start": 1383,
+                "end": 1387
+              },
+              {
+                "token": "that",
+                "start": 1407,
+                "end": 1411
+              },
+              {
+                "token": "I",
+                "start": 1182,
+                "end": 1183
+              },
+              {
+                "token": "I",
+                "start": 1287,
+                "end": 1288
+              },
+              {
+                "token": "I",
+                "start": 1329,
+                "end": 1330
+              },
+              {
+                "token": "I",
+                "start": 1412,
+                "end": 1413
+              },
+              {
+                "token": "I",
+                "start": 1445,
+                "end": 1446
+              },
+              {
+                "token": "make",
+                "start": 1120,
+                "end": 1124
+              },
+              {
+                "token": "make",
+                "start": 1289,
+                "end": 1293
+              },
+              {
+                "token": "them",
+                "start": 1294,
+                "end": 1298
+              },
+              {
+                "token": "feel",
+                "start": 1299,
+                "end": 1303
+              },
+              {
+                "token": "proud",
+                "start": 1125,
+                "end": 1130
+              },
+              {
+                "token": "proud",
+                "start": 1304,
+                "end": 1309
+              },
+              {
+                "token": "of",
+                "start": 1310,
+                "end": 1312
+              },
+              {
+                "token": "me",
+                "start": 1279,
+                "end": 1281
+              },
+              {
+                "token": "me",
+                "start": 1313,
+                "end": 1315
+              },
+              {
+                "token": "for",
+                "start": 1316,
+                "end": 1319
+              },
+              {
+                "token": "all",
+                "start": 1320,
+                "end": 1323
+              },
+              {
+                "token": "that",
+                "start": 1282,
+                "end": 1286
+              },
+              {
+                "token": "that",
+                "start": 1324,
+                "end": 1328
+              },
+              {
+                "token": "that",
+                "start": 1368,
+                "end": 1372
+              },
+              {
+                "token": "that",
+                "start": 1383,
+                "end": 1387
+              },
+              {
+                "token": "that",
+                "start": 1407,
+                "end": 1411
+              },
+              {
+                "token": "I",
+                "start": 1182,
+                "end": 1183
+              },
+              {
+                "token": "I",
+                "start": 1287,
+                "end": 1288
+              },
+              {
+                "token": "I",
+                "start": 1329,
+                "end": 1330
+              },
+              {
+                "token": "I",
+                "start": 1412,
+                "end": 1413
+              },
+              {
+                "token": "I",
+                "start": 1445,
+                "end": 1446
+              },
+              {
+                "token": "have",
+                "start": 1184,
+                "end": 1188
+              },
+              {
+                "token": "have",
+                "start": 1331,
+                "end": 1335
+              },
+              {
+                "token": "been",
+                "start": 1336,
+                "end": 1340
+              },
+              {
+                "token": "done",
+                "start": 1189,
+                "end": 1193
+              },
+              {
+                "token": "done",
+                "start": 1341,
+                "end": 1345
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S3.C02",
+          "Grammar.S3.C01",
+          "Vocabulary.S3.C02",
+          "Phraseology.S3.C02"
+        ],
+        "feature_confirmed": "複雑な文の形成に誤りがあり、単語の選択とフレーズの使用が時折正確でない。",
+        "inferred_judgment": "観察評価と一致。",
+        "rubric_based_proposal": "Overall.S3.C02, Grammar.S3.C01, Vocabulary.S3.C02, Phraseology.S3.C02の条件を満たす。複雑な文の形成に誤りがあり、単語の選択とフレーズの使用が時折正確でないため、Overallの評価が3に妥当。",
+        "agreement_review_unknown": "全体の頻度を断定しない。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "2420:1@U003",
+              "2420:1@U005"
+            ],
+            "finding": "複雑な文の形成に誤りがあり、単語の選択とフレーズの使用が時折正確でない。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "「idle」や「inactivity」が「purpose」を持つという主張の正確性と「accomplish」の動詞形の適切性を確認。",
+          "where_span_ids": [
+            "2420:1@U003",
+            "2420:1@U005"
+          ],
+          "action": "「idle」や「inactivity」が「purpose」を持つという主張の正確性と「accomplish」の動詞形の適切性を確認。",
+          "reason": "これらの誤りがコミュニケーションに影響を及ぼす可能性があるため。"
+        },
+        "scope_limit": "全体の頻度を断定しない。",
+        "citations": [
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U003",
+            "start": 276,
+            "end": 642,
+            "text": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.\r\n"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U004",
+            "start": 642,
+            "end": 1047,
+            "text": "\r\nAlthough some says that determine to be idle or inactivity also serve a purpose in the way of one day they will accomplish something even though they are lazy, and people determine to not be idle when they want to accomplish something and when people decide to not being wasting their time without doing anything, inactivity doesn't serve a purpose in the life and in the way of accomplish something\r\n\r\n"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U005",
+            "start": 1047,
+            "end": 1467,
+            "text": "Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accom"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U008",
+            "start": 1748,
+            "end": 1859,
+            "text": "\r\nDetermine never to be idle is much better because people can growth having a better future in their life,\r\n\r\n"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U010",
+            "start": 1898,
+            "end": 2202,
+            "text": "For example, I want to growth by studying a career and have a better job in the future.Make more proud my family and myself I know it is hard, but all the effort that I put on it right now it will pay it back later, and I will so be thankful to myself to be a person who never determine to idle in life. "
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C02",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "organization generally controlled although connection sometimes absent or unsuccessful;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 73,
+            "end": 160,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C02",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "no precise use of subtle word meanings;",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 54,
+            "end": 93,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Phraseology.S3.C02",
+            "aspect": "Phraseology",
+            "level": 3,
+            "text": "some noticeable repetitions and misuses.",
+            "parent_id": "Phraseology.S3",
+            "parent_text": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+            "start": 99,
+            "end": 139,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:25:44.236856+09:00"
+}

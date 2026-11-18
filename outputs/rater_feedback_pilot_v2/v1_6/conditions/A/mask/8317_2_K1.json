@@ -1,0 +1,116 @@
+{
+  "candidate_key": "A|8317:2|K1",
+  "masked_reason": {
+    "rationale": "本文は、家庭学習の利点を説明するが、文法や構成に一貫性があり、誤解を招くような言葉遣いが少ない。しかし、複雑な文法構造の使用や、より高度な単語やフレーズの使用は限定的である。",
+    "unexplained": "文の構成や単語の使用に関する評価が完全に説明しきれていない部分がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "文法と構成の正確性",
+        "score_relation": "一致",
+        "support_explanation": "文法と構成は正確で、誤解を招くような言葉遣いが少ない。",
+        "limits": "複雑な文法構造の使用は限定的である。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U003",
+          "8317:2@U004"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "mixed",
+        "feature": "単語の範囲",
+        "score_relation": "部分一致",
+        "support_explanation": "単語の範囲は十分だが、より高度な単語やフレーズの使用は限定的である。",
+        "limits": "単語の範囲が十分であるが、より高度な単語やフレーズの使用は限定的である。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U005",
+          "8317:2@U006"
+        ],
+        "aspect": "Syntax",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文法構造の使用",
+        "score_relation": "部分一致",
+        "support_explanation": "文法構造の使用は限定的で、複雑な文法構造の使用は少ない。",
+        "limits": "複雑な文法構造の使用が少ない。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U007",
+          "8317:2@U008"
+        ],
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "direction": "mixed",
+        "feature": "フレーズの使用",
+        "score_relation": "部分一致",
+        "support_explanation": "フレーズの使用は適切だが、誤用や口語表現が見られる。",
+        "limits": "フレーズの使用は適切だが、誤用や口語表現が見られる。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C03",
+        "Grammar.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Vocabulary.S4.C01",
+        "Vocabulary.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Syntax.S4.C01",
+        "Syntax.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Phraseology.S4.C01",
+        "Phraseology.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

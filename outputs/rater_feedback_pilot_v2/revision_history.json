@@ -1,0 +1,32 @@
+[
+  {
+    "version": "1.0",
+    "output": "v1",
+    "status": "GPU busy before model load; no calls",
+    "changes": [
+      "New paired A/B pipeline and atomic structured reasons",
+      "Portable stage cache filenames"
+    ],
+    "failure_file": "v1/status.json"
+  },
+  {
+    "version": "1.1",
+    "output": "v1_1",
+    "status": "preparation only; no calls",
+    "changes": [
+      "Deduplicated repeated quote metadata in integration and text input; no evidence truncated"
+    ]
+  },
+  {
+    "version": "1.2",
+    "output": "v1_2",
+    "status": "prepared and waiting for GPU; no calls at documentation time",
+    "changes": [
+      "Additional Japanese/English score expressions masked",
+      "Counterevidence IDs checked within the referenced essay",
+      "GPU threshold follows configured allocation",
+      "Independent audit, preserved input manifest and 18 regression tests",
+      "scripts namespace collides with installed package; scripts invoked with runpy from repository root"
+    ]
+  }
+]

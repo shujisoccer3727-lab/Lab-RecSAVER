@@ -1,0 +1,116 @@
+{
+  "candidate_key": "A|2853:2|K2",
+  "masked_reason": {
+    "rationale": "文章は一般的な組織が保たれており、一部の文法と構文の誤りがコミュニケーションを阻害する場合がある。単純な文法と構文の問題が見られるが、全体的な意味は理解できる。",
+    "unexplained": "文法と構文の誤りの頻度とその影響についての詳細な評価が不足している。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "span_ids": [
+          "2853:2@U001",
+          "2853:2@U002",
+          "2853:2@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "一般的な組織が保たれている",
+        "score_relation": "一致",
+        "support_explanation": "文章は全体的に組織が保たれており、主要なアイデアが明確に示されている。",
+        "limits": "一部の段落間のつながりが弱い可能性がある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "span_ids": [
+          "2853:2@U004",
+          "2853:2@U005",
+          "2853:2@U006"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "文法と構文の誤りが存在する",
+        "score_relation": "一致",
+        "support_explanation": "文章中に文法と構文の誤りが見られ、コミュニケーションを阻害する場合がある。",
+        "limits": "誤りの頻度が全体的な理解を阻害するほどではない。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "span_ids": [
+          "2853:2@U007",
+          "2853:2@U008",
+          "2853:2@U009"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "単純な文法と構文の問題が存在する",
+        "score_relation": "一致",
+        "support_explanation": "文章中に単純な文法と構文の問題が見られ、一部の複雑な文では誤りが見られる。",
+        "limits": "誤りが全体的な理解を阻害するほどではない。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "span_ids": [
+          "2853:2@U010",
+          "2853:2@U011",
+          "2853:2@U012"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "positive",
+        "feature": "適切な単語の使用",
+        "score_relation": "一致",
+        "support_explanation": "文章は適切な単語を使用しており、全体的な意味は理解できる。",
+        "limits": "一部の単語の使用が正確でない可能性がある。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Vocabulary.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

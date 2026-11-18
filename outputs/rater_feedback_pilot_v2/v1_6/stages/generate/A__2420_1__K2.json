@@ -1,0 +1,94 @@
+{
+  "fingerprint": "49d9b91326f02cc1508269757d2525584b6a3f19a72b0eb0476ca2513547c748",
+  "result": {
+    "rationale": "文章の組織と文法に一貫性があり、しかし、複雑な文の形成や正確な単語の使用に誤りがあるため、コミュニケーションが一部阻害される。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2420:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "組織が一般的に制御されているが、複雑な文の形成に誤りがある",
+        "span_ids": [
+          "2420:1@U003",
+          "2420:1@U004"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が反映されている",
+        "condition_ids": [
+          "Overall.S3.C02",
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に誤りがあるため、組織が完全に制御されていない",
+        "limits": "一部の文は適切に形成されている",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U003",
+            "start": 276,
+            "end": 642,
+            "text": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.\r\n"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U004",
+            "start": 642,
+            "end": 1047,
+            "text": "\r\nAlthough some says that determine to be idle or inactivity also serve a purpose in the way of one day they will accomplish something even though they are lazy, and people determine to not be idle when they want to accomplish something and when people decide to not being wasting their time without doing anything, inactivity doesn't serve a purpose in the life and in the way of accomplish something\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2420:1",
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "feature": "トピックに関連する用語が時折使用されるが、正確な単語の使用に誤りがある",
+        "span_ids": [
+          "2420:1@U005",
+          "2420:1@U010"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が反映されている",
+        "condition_ids": [
+          "Vocabulary.S3.C03",
+          "Vocabulary.S3.C04"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "トピックに関連する用語が時折使用されるが、正確な単語の使用に誤りがある",
+        "limits": "一部の単語は正確に使用されている",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U005",
+            "start": 1047,
+            "end": 1467,
+            "text": "Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accom"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U010",
+            "start": 1898,
+            "end": 2202,
+            "text": "For example, I want to growth by studying a career and have a better job in the future.Make more proud my family and myself I know it is hard, but all the effort that I put on it right now it will pay it back later, and I will so be thankful to myself to be a person who never determine to idle in life. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と慣例の誤りが一部存在するが、具体的な例が不足しているため、詳細な説明が難しい。"
+  },
+  "timestamp": "2026-11-15T19:24:59.710110+09:00"
+}

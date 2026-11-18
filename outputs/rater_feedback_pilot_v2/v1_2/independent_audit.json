@@ -1,0 +1,2167 @@
+{
+  "timestamp": "2026-11-15T17:50:41.789357+09:00",
+  "phase": "prepared; no generated results",
+  "all_machine_checks_passed": true,
+  "errors": [],
+  "counts": {},
+  "semantic_model_assessments": {},
+  "mask_events": 0,
+  "checks": [
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/inputs.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/selection.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: data/processed/rater_essay_wide.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: rubrics/ellipse_rubric_structured.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/report.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/assessment.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/resolved_config.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: outputs/rater_feedback_pilot/feedback.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: src/recsaver/rater_feedback_pilot_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: src/recsaver/model.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: src/recsaver/rater_feedback_pilot.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: scripts/check_feedback_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: scripts/audit_feedback_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: tests/test_rater_feedback_pilot_v2.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: configs/rater_feedback_pilot_v2.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v1/compare.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v1/generate.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v1/ground.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v1/integrate.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v1/merge.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v1/text.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source unchanged: prompts/rater_feedback_pilot_v2/v1/verify.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "27 unique targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "same three raters and counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5627:1/5627:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 5627:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 5627:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5627:1/1681:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1681:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1681:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5627:1/8744:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8744:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8744:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5627:1/8698:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8698:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8698:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5268:1/5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 5268:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5268:1/501:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 501:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 501:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5268:1/1684:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1684:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1684:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 5268:1/2391:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2391:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2391:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2444:1/2444:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2444:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2444:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2444:1/3588:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 3588:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 3588:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2444:1/2055:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2055:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2055:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2444:1/1476:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1476:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1476:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8487:1/8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8487:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8487:1/7865:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7865:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7865:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8487:1/2920:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2920:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2920:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8487:1/1461:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1461:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1461:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 4902:1/4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 4902:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 4902:1/8630:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8630:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8630:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 4902:1/1462:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1462:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1462:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 4902:1/8722:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8722:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8722:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8538:1/8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8538:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8538:1/748:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 748:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 748:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8538:1/8712:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8712:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8712:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8538:1/8404:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8404:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8404:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1514:1/1514:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1514:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1514:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1514:1/217:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 217:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 217:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1514:1/1440:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1440:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1440:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1514:1/8745:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8745:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8745:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1961:1/1961:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1961:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1961:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1961:1/242:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 242:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 242:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1961:1/1992:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1992:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1992:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1961:1/468:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 468:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 468:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8608:1/8608:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8608:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8608:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8608:1/7863:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7863:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7863:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8608:1/1683:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1683:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1683:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8608:1/5440:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 5440:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 5440:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1868:1/1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1868:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1868:1/5783:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 5783:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 5783:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1868:1/239:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 239:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 239:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 1868:1/8666:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8666:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8666:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2775:2/2775:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2775:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2775:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2775:2/504:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 504:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 504:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2775:2/2830:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2830:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2830:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2775:2/2801:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2801:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2801:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 474:1/474:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 474:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 474:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 474:1/494:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 494:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 494:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 474:1/7051:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7051:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7051:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 474:1/7433:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7433:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7433:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2853:2/2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2853:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2853:2/459:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 459:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 459:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2853:2/2773:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2773:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2773:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2853:2/2859:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2859:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2859:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 318:2/318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 318:2/7407:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7407:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7407:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 318:2/406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 318:2/7046:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7046:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7046:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7418:2/7418:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7418:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7418:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7418:2/2815:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2815:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2815:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7418:2/318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 318:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7418:2/2854:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2854:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2854:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 406:1/406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 406:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 406:1/2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 406:1/404:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 404:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 404:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 406:1/2811:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2811:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2811:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2832:2/2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2832:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2832:2/7048:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7048:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7048:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2832:2/7049:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7049:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7049:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2832:2/2859:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2859:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2859:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7817:1/7817:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7817:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7817:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7817:1/1249:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1249:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1249:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7817:1/585:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 585:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 585:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7817:1/1336:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1336:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1336:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8690:2/8690:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8690:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8690:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8690:2/7823:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7823:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7823:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8690:2/2061:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2061:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2061:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8690:2/1927:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1927:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1927:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2420:1/2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2420:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2420:1/1613:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1613:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1613:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2420:1/503:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 503:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 503:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2420:1/2061:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2061:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2061:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 61:1/61:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 61:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 61:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 61:1/7813:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7813:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7813:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 61:1/1812:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1812:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1812:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 61:1/2027:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2027:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2027:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7836:1/7836:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7836:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7836:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7836:1/1696:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1696:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1696:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7836:1/1514:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1514:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1514:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 7836:1/410:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 410:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 410:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8317:2/8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8317:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8317:2/8679:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8679:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8679:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8317:2/1086:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1086:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1086:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 8317:2/1159:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1159:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1159:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 515:1/515:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 515:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 515:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 515:1/8706:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8706:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8706:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 515:1/8674:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8674:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8674:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 515:1/1922:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 1922:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 1922:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2910:1/2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2910:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2910:1/8323:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8323:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8323:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2910:1/7798:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7798:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7798:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2910:1/7766:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 7766:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 7766:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2953:1/2953:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2953:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2953:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2953:1/8665:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8665:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8665:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2953:1/5860:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 5860:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 5860:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2953:1/3142:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 3142:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 3142:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2348:1/2348:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 2348:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 2348:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2348:1/8653:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8653:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8653:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2348:1/84:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 84:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 84:1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "own rater 2348:1/8672:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "lossless spans 8672:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact offsets 8672:2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S5.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S5.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S5.C04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S5.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S5.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S5.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S5.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S5.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Grammar.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S5.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S5.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S4.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S4.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S4.C04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S4.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S4.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S4.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S4.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S4.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Grammar.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S4.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S4.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S3.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S3.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S3.C04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S3.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S3.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S3.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S3.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S3.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S3.C04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S3.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Grammar.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S3.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S3.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S2.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S2.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S2.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S2.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S2.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S2.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S2.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Grammar.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S2.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S2.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S1.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Overall.S1.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S1.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Cohesion.S1.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Syntax.S1.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S1.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Vocabulary.S1.C03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Phraseology.S1.C02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Grammar.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S1.C01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "official condition Conventions.S1.C02",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "limitation": "Semantic correctness, usefulness, true rater reasoning and causal Trait effects are not established."
+}

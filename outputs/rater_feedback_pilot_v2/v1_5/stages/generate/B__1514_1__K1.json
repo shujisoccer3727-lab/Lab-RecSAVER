@@ -1,0 +1,209 @@
+{
+  "fingerprint": "47b3091501ed5ab4066bafd4c5cdeb20658a136bf41e05e1e89789f74b42597d",
+  "result": {
+    "rationale": "文章の組織と文法は比較的良好だが、語彙の使用と文法の正確性に若干の問題がある。複雑な文法構造の使用は限られており、一部の単語の使用が正確でない。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章の組織と文法は比較的良好",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U002",
+          "1514:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章の組織と文法は比較的良好で、全体的な流れは理解しやすい。",
+        "limits": "文法構造の多様性が不足している可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U002",
+            "start": 203,
+            "end": 317,
+            "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U003",
+            "start": 317,
+            "end": 404,
+            "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Vocabulary",
+        "kind": "frequency",
+        "feature": "語彙の使用に若干の問題がある",
+        "span_ids": [
+          "1514:1@U005",
+          "1514:1@U006",
+          "1514:1@U007"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C04"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "語彙の使用に若干の問題があり、正確さに欠ける部分がある。",
+        "limits": "一部の単語の使用が正確でないが、全体的な意味伝達に影響は少ない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U005",
+            "start": 529,
+            "end": 685,
+            "text": "\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U006",
+            "start": 685,
+            "end": 825,
+            "text": "He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U007",
+            "start": 825,
+            "end": 926,
+            "text": "Also, he took classes that would help him improve his skills and understanding of his future career. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法の正確性に若干の問題がある",
+        "span_ids": [
+          "1514:1@U008",
+          "1514:1@U010",
+          "1514:1@U011"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法の正確性に若干の問題があり、誤りが見られる。",
+        "limits": "誤りが頻繁ではないが、正確さに影響する可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U008",
+            "start": 926,
+            "end": 1050,
+            "text": "Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U010",
+            "start": 1137,
+            "end": 1257,
+            "text": "\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U011",
+            "start": 1257,
+            "end": 1392,
+            "text": "At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Syntax",
+        "kind": "range",
+        "feature": "複雑な文法構造の使用は限られている",
+        "span_ids": [
+          "1514:1@U012",
+          "1514:1@U013",
+          "1514:1@U014"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文法構造の使用は限られており、文の多様性に欠ける。",
+        "limits": "複雑な文法構造の使用が限られているが、全体的な意味伝達に影響は少ない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U012",
+            "start": 1392,
+            "end": 1516,
+            "text": "That was the moment when Hitler decided to do something different, and experience something new that could change his life. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U013",
+            "start": 1516,
+            "end": 1555,
+            "text": "With hard work and patience he did it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U014",
+            "start": 1555,
+            "end": 1644,
+            "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "Hitlerの例が適切かどうかは議論の余地がある。"
+  },
+  "timestamp": "2026-11-15T18:19:17.365928+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_3/stages/generate/B__1514_1__K1.json",
+  "source_fingerprint": "4c25dcc3f5be7d38894443e75b441a90a209ac9287f89e47f2ad53d87c303311",
+  "reuse_recorded_at": "2026-11-15T18:46:26.520959+09:00"
+}

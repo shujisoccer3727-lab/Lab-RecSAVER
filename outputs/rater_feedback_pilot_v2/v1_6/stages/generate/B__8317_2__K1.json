@@ -1,0 +1,208 @@
+{
+  "fingerprint": "5e7eba33ed2f606d40d18c96ec201807b2d432d657099ca8d299b7113e0f516a",
+  "result": {
+    "rationale": "The essay demonstrates a controlled organization and a range of vocabulary, but occasional inaccuracies in grammar and usage slightly impede communication. The text uses cohesive devices effectively, though some minor errors in sentence formation are present.",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "controlled organization and range of vocabulary",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002",
+          "8317:2@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "aligned",
+        "condition_ids": [
+          "Overall.S4.C01",
+          "Overall.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "The essay presents a clear structure and uses a variety of vocabulary.",
+        "limits": "The text occasionally lacks precision in word choice.",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U001",
+            "start": 0,
+            "end": 420,
+            "text": "Would it be surprising to know that kids that learn at home don't have to stress as much?Stress is mainly caused by students getting to much school work that cannot all be handled in one night.Everyday kids complain about having too much homework and when working in home there is not any homework.Allowing children to work on their own schedule help them become more motivated to work.Students being educated at home ga"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U002",
+            "start": 420,
+            "end": 665,
+            "text": "in more freedom to create their own schedule and their own rules.Learning at home and not at schools helps kids succeed and have better grades.Not only does learning at home provides less distraction,it provides student with flexible schedule.\r\n"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U003",
+            "start": 665,
+            "end": 1085,
+            "text": "\r\nOne of the best thing about homeschooling is that it can be done at anytime.Because it can be done at any time,children have a flexible time schedule which means that the parents can help.The student can work around the parent schedule instead of the parent working around the students schedule.Some students have trouble working around at a school because they cannot understand the materials at the place set by teac"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "feature": "effective use of cohesive devices",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002",
+          "8317:2@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "aligned",
+        "condition_ids": [
+          "Cohesion.S4.C01",
+          "Cohesion.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "The essay uses transitional phrases and references to connect ideas.",
+        "limits": "Some minor errors in cohesion are present.",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U001",
+            "start": 0,
+            "end": 420,
+            "text": "Would it be surprising to know that kids that learn at home don't have to stress as much?Stress is mainly caused by students getting to much school work that cannot all be handled in one night.Everyday kids complain about having too much homework and when working in home there is not any homework.Allowing children to work on their own schedule help them become more motivated to work.Students being educated at home ga"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U002",
+            "start": 420,
+            "end": 665,
+            "text": "in more freedom to create their own schedule and their own rules.Learning at home and not at schools helps kids succeed and have better grades.Not only does learning at home provides less distraction,it provides student with flexible schedule.\r\n"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U003",
+            "start": 665,
+            "end": 1085,
+            "text": "\r\nOne of the best thing about homeschooling is that it can be done at anytime.Because it can be done at any time,children have a flexible time schedule which means that the parents can help.The student can work around the parent schedule instead of the parent working around the students schedule.Some students have trouble working around at a school because they cannot understand the materials at the place set by teac"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "occasional inaccuracies",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002",
+          "8317:2@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "aligned",
+        "condition_ids": [
+          "Grammar.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "The essay contains some errors in grammar and usage.",
+        "limits": "These inaccuracies do not significantly impede communication.",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U001",
+            "start": 0,
+            "end": 420,
+            "text": "Would it be surprising to know that kids that learn at home don't have to stress as much?Stress is mainly caused by students getting to much school work that cannot all be handled in one night.Everyday kids complain about having too much homework and when working in home there is not any homework.Allowing children to work on their own schedule help them become more motivated to work.Students being educated at home ga"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U002",
+            "start": 420,
+            "end": 665,
+            "text": "in more freedom to create their own schedule and their own rules.Learning at home and not at schools helps kids succeed and have better grades.Not only does learning at home provides less distraction,it provides student with flexible schedule.\r\n"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U003",
+            "start": 665,
+            "end": 1085,
+            "text": "\r\nOne of the best thing about homeschooling is that it can be done at anytime.Because it can be done at any time,children have a flexible time schedule which means that the parents can help.The student can work around the parent schedule instead of the parent working around the students schedule.Some students have trouble working around at a school because they cannot understand the materials at the place set by teac"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "aspect": "Syntax",
+        "kind": "presence",
+        "feature": "occasional errors in sentence formation",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002",
+          "8317:2@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "aligned",
+        "condition_ids": [
+          "Syntax.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "The essay includes some minor errors in sentence structure.",
+        "limits": "The range of syntactic structures is generally appropriate.",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U001",
+            "start": 0,
+            "end": 420,
+            "text": "Would it be surprising to know that kids that learn at home don't have to stress as much?Stress is mainly caused by students getting to much school work that cannot all be handled in one night.Everyday kids complain about having too much homework and when working in home there is not any homework.Allowing children to work on their own schedule help them become more motivated to work.Students being educated at home ga"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U002",
+            "start": 420,
+            "end": 665,
+            "text": "in more freedom to create their own schedule and their own rules.Learning at home and not at schools helps kids succeed and have better grades.Not only does learning at home provides less distraction,it provides student with flexible schedule.\r\n"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U003",
+            "start": 665,
+            "end": 1085,
+            "text": "\r\nOne of the best thing about homeschooling is that it can be done at anytime.Because it can be done at any time,children have a flexible time schedule which means that the parents can help.The student can work around the parent schedule instead of the parent working around the students schedule.Some students have trouble working around at a school because they cannot understand the materials at the place set by teac"
+          }
+        ]
+      }
+    ],
+    "unexplained": "The essay's use of phraseology and conventions is not fully explained by the provided data."
+  },
+  "timestamp": "2026-11-15T19:41:32.966885+09:00"
+}

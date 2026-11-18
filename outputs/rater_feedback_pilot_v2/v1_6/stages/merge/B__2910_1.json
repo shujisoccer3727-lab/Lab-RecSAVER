@@ -1,0 +1,71 @@
+{
+  "fingerprint": "6ffd3f595a35febf0c8ba2252e2a4719ff1849840a2b323a36655203ab36610c",
+  "result": {
+    "groups": [
+      {
+        "summary": "複雑な文の形成に困難がある。複雑な文構造の誤用が確認された。",
+        "claim_ids": [
+          "2910:1/K1/C1",
+          "2910:1/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "文法の誤りが存在する。文法の誤りが頻繁に見られる。",
+        "claim_ids": [
+          "2910:1/K1/C2",
+          "2910:1/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "単語の選択と用法は適切。適切な単語の選択。",
+        "claim_ids": [
+          "2910:1/K1/C3",
+          "2910:1/K2/C4"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "文章の構成と文法に問題がある。アイデアのつながりが不明瞭。",
+        "claim_ids": [
+          "2910:1/K1/C4",
+          "2910:1/K2/C3"
+        ],
+        "candidate_count": 2
+      }
+    ],
+    "differences": [
+      {
+        "description": "文法の誤りが存在するが、一部の文は正確に形成されている。",
+        "claim_ids": [
+          "2910:1/K1/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "文法の誤りが頻繁に見られるが、一部の文は正確。",
+        "claim_ids": [
+          "2910:1/K2/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "文章の構成と文法に問題があるが、一部の文章は適切に構成されている。",
+        "claim_ids": [
+          "2910:1/K1/C4"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "アイデアのつながりが不明瞭だが、一部の文は明瞭。",
+        "claim_ids": [
+          "2910:1/K2/C3"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:03:49.696409+09:00"
+}

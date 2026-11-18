@@ -1,0 +1,49 @@
+{
+  "fingerprint": "9cb9c79e7ddb187c4919585c31175aa4ac29fc77ab63ce69ab27083465f7848b",
+  "result": {
+    "groups": [
+      {
+        "summary": "文章结构较为清晰，逻辑连贯。",
+        "claim_ids": [
+          "5268:1/K1/C1",
+          "5268:1/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "存在一些语法错误，影响表达。",
+        "claim_ids": [
+          "5268:1/K1/C2",
+          "5268:1/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "拼写和标点符号错误影响了文章的规范性。",
+        "claim_ids": [
+          "5268:1/K1/C4",
+          "5268:1/K2/C4"
+        ],
+        "candidate_count": 2
+      }
+    ],
+    "differences": [
+      {
+        "description": "词汇使用较为基础，缺乏多样性。",
+        "claim_ids": [
+          "5268:1/K1/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "词汇使用较为广泛，但存在一些不准确的用词。",
+        "claim_ids": [
+          "5268:1/K2/C3"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:01:35.873698+09:00"
+}

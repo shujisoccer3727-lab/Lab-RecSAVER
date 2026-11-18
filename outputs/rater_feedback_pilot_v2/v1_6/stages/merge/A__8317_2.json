@@ -1,0 +1,61 @@
+{
+  "fingerprint": "3355f7a5a3903ab1dc9c0c5f81c3dd4c2fb550e2840be35cf67d30ce70c515c2",
+  "result": {
+    "groups": [
+      {
+        "summary": "文法と構成の正確性が確認され、誤解を招くような言葉遣いが少ない。ただし、複雑な文法構造の使用は限定的である。",
+        "claim_ids": [
+          "8317:2/K1/C1",
+          "8317:2/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "文法と構文に時折誤りがある。これは文書全体を通じて確認できるため、この主張は支持される。",
+        "claim_ids": [
+          "8317:2/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "文法と使用に最小限の誤りがある。これは文書全体を通じて確認できるため、この主張は支持される。",
+        "claim_ids": [
+          "8317:2/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "differences": [
+      {
+        "description": "文法と構成の正確性が確認され、誤解を招くような言葉遣いが少ないが、複雑な文法構造の使用は限定的である。",
+        "claim_ids": [
+          "8317:2/K1/C1"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "適切な単語とフレーズが使用されているが、一部の単語が適切でない可能性がある。",
+        "claim_ids": [
+          "8317:2/K2/C1"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "文法と構文に時折誤りがあるが、誤りの頻度が不明瞭である。",
+        "claim_ids": [
+          "8317:2/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "文法と使用に最小限の誤りがあるが、誤りの頻度が不明瞭である。",
+        "claim_ids": [
+          "8317:2/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:01:35.824597+09:00"
+}

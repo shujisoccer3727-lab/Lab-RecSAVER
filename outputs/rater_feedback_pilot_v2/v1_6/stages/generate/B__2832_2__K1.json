@@ -1,0 +1,211 @@
+{
+  "fingerprint": "03f02ef6f1101ee7de62cd81a7c50b3bca32f7ae9ae1c824f57a4bc0121d2c94",
+  "result": {
+    "rationale": "文章展示了对主题的理解，但存在一些语法错误和词汇使用不当，影响了整体表达的流畅性和准确性。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章展示了对主题的理解，但存在一些语法错误和词汇使用不当，影响了整体表达的流畅性和准确性。",
+        "span_ids": [
+          "2832:2@U001",
+          "2832:2@U002",
+          "2832:2@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "部分符合",
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Overall.S3.C02",
+          "Overall.S3.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章内容展示了对主题的理解，但存在语法错误和词汇使用不当。",
+        "limits": "个别句子的语法错误可能影响整体理解。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U001",
+            "start": 0,
+            "end": 84,
+            "text": "Technology allows people to complete many tasks without having contact with others. "
+          },
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U002",
+            "start": 84,
+            "end": 147,
+            "text": "Today, people prefers to interact with technology than people. "
+          },
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U003",
+            "start": 147,
+            "end": 231,
+            "text": "They can check out books, shops, and play games without speaking to another person. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "存在一些语法错误，如时态不一致和主谓不一致。",
+        "span_ids": [
+          "2832:2@U004",
+          "2832:2@U005",
+          "2832:2@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "部分符合",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章中存在一些语法错误，影响了表达的准确性。",
+        "limits": "个别语法错误可能影响整体理解。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U004",
+            "start": 231,
+            "end": 461,
+            "text": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or\r\n\r\n"
+          },
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U005",
+            "start": 461,
+            "end": 505,
+            "text": "to joint with another person to play games. "
+          },
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U006",
+            "start": 505,
+            "end": 770,
+            "text": "However, I think the limitation of human contact due to the use of technology have negative effects because people prefers to shop on online than stores, people use more technology to talk, and also children plays with technology than with another person or toys.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "词汇使用较为有限，尝试使用一些较复杂的词汇但存在一些错误。",
+        "span_ids": [
+          "2832:2@U007",
+          "2832:2@U008",
+          "2832:2@U009"
+        ],
+        "direction": "negative",
+        "score_relation": "部分符合",
+        "condition_ids": [
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C02",
+          "Vocabulary.S3.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章中词汇使用较为有限，尝试使用一些较复杂的词汇但存在一些错误。",
+        "limits": "词汇使用有限可能影响表达的丰富性。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U007",
+            "start": 770,
+            "end": 825,
+            "text": "\r\nToday, people prefers to shop by online than stores. "
+          },
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U008",
+            "start": 825,
+            "end": 927,
+            "text": "I saw and lived this experience many times about buy by online but I not feel comfortable as a store. "
+          },
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U009",
+            "start": 927,
+            "end": 1033,
+            "text": "Online shops makes feel lazy, alone, and when you have questions obout the product nobody can answer you. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "aspect": "Conventions",
+        "kind": "appropriateness",
+        "feature": "拼写和标点符号错误较少，但存在一些。",
+        "span_ids": [
+          "2832:2@U010",
+          "2832:2@U011",
+          "2832:2@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "部分符合",
+        "condition_ids": [
+          "Conventions.S3.C01",
+          "Conventions.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章中拼写和标点符号错误较少，但存在一些。",
+        "limits": "拼写和标点符号错误可能影响整体表达的准确性。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U010",
+            "start": 1033,
+            "end": 1280,
+            "text": "I bought by online many times but one day I understand that online shop is not healthy for me because when I go to stores I'm practicing my English vocabulary, I walk alot that means that I doing a little exercise, and meet new places and people. "
+          },
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U011",
+            "start": 1280,
+            "end": 1366,
+            "text": "Shop by online avoid the human contact and gives negative effects on people's lives.\r\n"
+          },
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U012",
+            "start": 1366,
+            "end": 1461,
+            "text": "\r\nPeople use more technology to talk, as facetime, facebook, whatssap or others applicationes. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文章中存在一些表达不清晰的地方，可能影响整体理解。"
+  },
+  "timestamp": "2026-11-15T19:38:28.414528+09:00"
+}

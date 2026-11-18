@@ -1,0 +1,146 @@
+{
+  "timestamp": "2026-11-16T01:30:05.269022+09:00",
+  "version": "feedback-pilot-v2/1.6",
+  "saved_status": {
+    "status": "completed",
+    "phase": "pilot-and-full",
+    "started_at": "2026-11-15T19:01:24.652108+09:00",
+    "scope": "full",
+    "target_count": 27,
+    "ended_at": "2026-11-15T20:54:01.744135+09:00"
+  },
+  "conditions": {
+    "A": {
+      "selected_unique_targets": 27,
+      "candidates": 54,
+      "generated_success": 53,
+      "generated_failed_keys": [
+        "A|1514:1|K2"
+      ],
+      "verification_success": 53,
+      "verification_matches": 35,
+      "integration_input_unique_targets": 20,
+      "pattern_support_unique_targets": 11,
+      "comparison_success": 11,
+      "comparison_exhausted": 9,
+      "comparison_failures": [
+        {
+          "target_id": "1514:1",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/A__full_1514_1.json",
+          "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check"
+        },
+        {
+          "target_id": "2348:1",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/A__full_2348_1.json",
+          "error": "AssertionError: analysis tokens must occur exactly in the selected span; do not invent or silently correct forms"
+        },
+        {
+          "target_id": "2444:1",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/A__full_2444_1.json",
+          "error": "AssertionError: analysis tokens must occur exactly in the selected span; do not invent or silently correct forms"
+        },
+        {
+          "target_id": "2832:2",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/A__full_2832_2.json",
+          "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check"
+        },
+        {
+          "target_id": "406:1",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/A__full_406_1.json",
+          "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check"
+        },
+        {
+          "target_id": "474:1",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/A__full_474_1.json",
+          "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check"
+        },
+        {
+          "target_id": "515:1",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/A__full_515_1.json",
+          "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check"
+        },
+        {
+          "target_id": "61:1",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/A__full_61_1.json",
+          "error": "AssertionError: analysis tokens must occur exactly in the selected span; do not invent or silently correct forms"
+        },
+        {
+          "target_id": "7836:1",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/A__full_7836_1.json",
+          "error": "AssertionError: analysis tokens must occur exactly in the selected span; do not invent or silently correct forms"
+        }
+      ],
+      "integrations": 3,
+      "feedback_texts": 3
+    },
+    "B": {
+      "selected_unique_targets": 27,
+      "candidates": 54,
+      "generated_success": 53,
+      "generated_failed_keys": [
+        "B|1514:1|K2"
+      ],
+      "verification_success": 53,
+      "verification_matches": 34,
+      "integration_input_unique_targets": 19,
+      "pattern_support_unique_targets": 12,
+      "comparison_success": 13,
+      "comparison_exhausted": 6,
+      "comparison_failures": [
+        {
+          "target_id": "1514:1",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/B__full_1514_1.json",
+          "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check"
+        },
+        {
+          "target_id": "2348:1",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/B__full_2348_1.json",
+          "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check"
+        },
+        {
+          "target_id": "2832:2",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/B__full_2832_2.json",
+          "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check"
+        },
+        {
+          "target_id": "318:2",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/B__full_318_2.json",
+          "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check"
+        },
+        {
+          "target_id": "406:1",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/B__full_406_1.json",
+          "error": "AssertionError: next_action.action is too vague: name the concrete relation or form to check"
+        },
+        {
+          "target_id": "61:1",
+          "cache": "outputs/rater_feedback_pilot_v2/v1_6/stages/compare/B__full_61_1.json",
+          "error": "AssertionError: analysis tokens must occur exactly in the selected span; do not invent or silently correct forms"
+        }
+      ],
+      "integrations": 3,
+      "feedback_texts": 3
+    }
+  },
+  "pending_batches": 0,
+  "model_calls_during_resume": 0,
+  "protocol_changed": false,
+  "experiment_code_changed_during_resume": false,
+  "old_outputs_and_failed_attempts_retained": true,
+  "progress_note": "The old progress snapshot was stale; rebuilt from stage caches and calls.jsonl.",
+  "process_observation": {
+    "gpu_memory_used_mib": 516,
+    "gpu_memory_free_mib": 47892,
+    "gpu_utilization_percent": 2,
+    "gpu_compute_processes": [],
+    "note": "Read-only nvidia-smi observation during resume; other CPU Python processes were not stopped."
+  },
+  "documentation_command": {
+    "path": "scripts/document_feedback_v2_revisions.py",
+    "previous_rejection": "Automatic approval review could not complete because of usage limit; not a safety determination.",
+    "executed_during_resume": false,
+    "bypassed": false,
+    "note": "Independent historical revision aggregation remains unexecuted. Current result audit and final README are separate reporting work."
+  },
+  "handoff": "No pending inference. Exhausted generation/comparison failures are terminal under the saved retry budget. Do not regenerate for score mismatch or silently retry exhausted failures. Preserve config, prompts, selected targets and prior outputs."
+}

@@ -1,0 +1,539 @@
+{
+  "fingerprint": "90db97f1770c7d397d7c443c4beead619104c374607fd9115b92d048316f291e",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "474:1/K1/C1",
+          "474:1/K1/C2",
+          "474:1/K1/C3",
+          "474:1/K1/C4"
+        ],
+        "span_ids": [
+          "474:1@U001",
+          "474:1@U002",
+          "474:1@U003",
+          "474:1@U004",
+          "474:1@U005",
+          "474:1@U006",
+          "474:1@U007",
+          "474:1@U008",
+          "474:1@U009",
+          "474:1@U010",
+          "474:1@U011",
+          "474:1@U012",
+          "474:1@U013",
+          "474:1@U014",
+          "474:1@U015",
+          "474:1@U016",
+          "474:1@U017",
+          "474:1@U018",
+          "474:1@U019",
+          "474:1@U020",
+          "474:1@U021",
+          "474:1@U022",
+          "474:1@U023",
+          "474:1@U024",
+          "474:1@U025",
+          "474:1@U026",
+          "474:1@U027",
+          "474:1@U028",
+          "474:1@U029",
+          "474:1@U030"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "474:1@U001",
+            "tokens": [
+              "We",
+              "all",
+              "dose",
+              "mistake",
+              "in",
+              "our",
+              "life"
+            ],
+            "relation": "主語と動詞の不一致",
+            "interpretation": "「dose」は「do」の誤用で、主語「We」と動詞の一致が欠けている。全体的な理解に影響する。",
+            "token_positions": [
+              {
+                "token": "We",
+                "start": 0,
+                "end": 2
+              },
+              {
+                "token": "all",
+                "start": 3,
+                "end": 6
+              },
+              {
+                "token": "dose",
+                "start": 7,
+                "end": 11
+              },
+              {
+                "token": "mistake",
+                "start": 12,
+                "end": 19
+              },
+              {
+                "token": "in",
+                "start": 20,
+                "end": 22
+              },
+              {
+                "token": "our",
+                "start": 23,
+                "end": 26
+              },
+              {
+                "token": "life",
+                "start": 27,
+                "end": 31
+              }
+            ]
+          },
+          {
+            "span_id": "474:1@U002",
+            "tokens": [
+              "If",
+              "your",
+              "going",
+              "from",
+              "failure",
+              "to",
+              "failure",
+              "without",
+              "loss",
+              "enthusiasm"
+            ],
+            "relation": "主語と動詞の不一致",
+            "interpretation": "「your」は「you're」の誤用で、主語と動詞の一致が欠けている。全体的な理解に影響する。",
+            "token_positions": [
+              {
+                "token": "If",
+                "start": 34,
+                "end": 36
+              },
+              {
+                "token": "your",
+                "start": 37,
+                "end": 41
+              },
+              {
+                "token": "going",
+                "start": 42,
+                "end": 47
+              },
+              {
+                "token": "from",
+                "start": 48,
+                "end": 52
+              },
+              {
+                "token": "failure",
+                "start": 53,
+                "end": 60
+              },
+              {
+                "token": "failure",
+                "start": 64,
+                "end": 71
+              },
+              {
+                "token": "to",
+                "start": 61,
+                "end": 63
+              },
+              {
+                "token": "failure",
+                "start": 53,
+                "end": 60
+              },
+              {
+                "token": "failure",
+                "start": 64,
+                "end": 71
+              },
+              {
+                "token": "without",
+                "start": 72,
+                "end": 79
+              },
+              {
+                "token": "loss",
+                "start": 80,
+                "end": 84
+              },
+              {
+                "token": "enthusiasm",
+                "start": 85,
+                "end": 95
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S2.C01",
+          "Grammar.S2.C01",
+          "Syntax.S2.C01",
+          "Cohesion.S2.C01",
+          "Cohesion.S2.C02",
+          "Vocabulary.S2.C01",
+          "Vocabulary.S2.C02",
+          "Conventions.S2.C01",
+          "Conventions.S2.C02"
+        ],
+        "feature_confirmed": "文法と構文のエラーが頻繁に見られ、全体的な理解を阻害する。一部の文は理解可能だが、全体的な流れが乱れる。",
+        "inferred_judgment": "評価に一致。文法と構文のエラーが頻繁に見られ、全体的な理解を阻害する。",
+        "rubric_based_proposal": "Overall.S2.C01, Grammar.S2.C01, Syntax.S2.C01, Cohesion.S2.C01, Cohesion.S2.C02, Vocabulary.S2.C01, Vocabulary.S2.C02, Conventions.S2.C01, Conventions.S2.C02の条件を満たす。",
+        "agreement_review_unknown": "評価に一致。文法と構文のエラーが頻繁に見られ、全体的な理解を阻害する。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "474:1@U001",
+              "474:1@U002"
+            ],
+            "finding": "主語と動詞の不一致が確認された。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "主語と動詞の一致を確認",
+          "where_span_ids": [
+            "474:1@U001",
+            "474:1@U002"
+          ],
+          "action": "主語と動詞の一致を確認",
+          "reason": "主語と動詞の不一致が全体的な理解を阻害する可能性がある。"
+        },
+        "scope_limit": "Overall.S2.C01, Grammar.S2.C01, Syntax.S2.C01, Cohesion.S2.C01, Cohesion.S2.C02, Vocabulary.S2.C01, Vocabulary.S2.C02, Conventions.S2.C01, Conventions.S2.C02の条件を満たす。",
+        "citations": [
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U001",
+            "start": 0,
+            "end": 34,
+            "text": "We all dose mistake in our life . "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U002",
+            "start": 34,
+            "end": 99,
+            "text": "If your going from failure to failure without loss enthusiasm\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U003",
+            "start": 99,
+            "end": 326,
+            "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U004",
+            "start": 326,
+            "end": 356,
+            "text": "\r\nMe and My friend we took\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U005",
+            "start": 356,
+            "end": 408,
+            "text": "IB math together , last year it was so hard for us. "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U006",
+            "start": 408,
+            "end": 574,
+            "text": "one day she talked to me and she says: Generic_Name you will not pass this class because your grade is not good you better change it or you will take it next year .\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U007",
+            "start": 574,
+            "end": 728,
+            "text": "\r\nI went home i felt stressed for one hour a about what she says to me , later i told to my self that she is true about every thing she says meanwhile\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U008",
+            "start": 728,
+            "end": 786,
+            "text": "i didnt t study for the exam and i didnt want to study .\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U009",
+            "start": 786,
+            "end": 872,
+            "text": "\r\nOn the exam day i didnt stressed my self I was OK , I ask my friend did you study ? "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U010",
+            "start": 872,
+            "end": 949,
+            "text": "She says i didnt study ,I feel happy because its Friday .We took the exam\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U011",
+            "start": 949,
+            "end": 1018,
+            "text": "both of us didnt pass but the thing i felt so bad, When i went home. "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U012",
+            "start": 1018,
+            "end": 1107,
+            "text": "My dad ask me about my grade , i told him that i didnt pass because it is hard for me .\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U013",
+            "start": 1107,
+            "end": 1174,
+            "text": "\r\nI remember he got mad at me and i didnt says nothing that time . "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U014",
+            "start": 1174,
+            "end": 1211,
+            "text": "i remember he told me that is one\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U015",
+            "start": 1211,
+            "end": 1224,
+            "text": "of my big\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U016",
+            "start": 1224,
+            "end": 1236,
+            "text": "mistakes\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U017",
+            "start": 1236,
+            "end": 1363,
+            "text": "that i didn't try or study for the exam also he says that it is nooses nothing is hard if you try your beast , you can do it . "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U018",
+            "start": 1363,
+            "end": 1474,
+            "text": "he make me feel so bad about my grade, self so called my friend because i thought she will feel bad like me\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U019",
+            "start": 1474,
+            "end": 1532,
+            "text": "but she was so happy and she didnt care about her grade.\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U020",
+            "start": 1532,
+            "end": 1583,
+            "text": "\r\nI took decision that i need to be A + student\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U021",
+            "start": 1583,
+            "end": 1670,
+            "text": "in this class , all my class , I decide to pursuit of success and push my self hard\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U022",
+            "start": 1670,
+            "end": 1687,
+            "text": "no mater what .\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U023",
+            "start": 1687,
+            "end": 1717,
+            "text": "\r\nI start to study all the\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U024",
+            "start": 1717,
+            "end": 1770,
+            "text": "weekend for my math IB class also I exert my best .\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U025",
+            "start": 1770,
+            "end": 1846,
+            "text": "\r\nOn Monday i ask my teacher if i can retake the exam for me , my friend .\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U026",
+            "start": 1846,
+            "end": 1873,
+            "text": "\r\nThe exalt was so easy\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U027",
+            "start": 1873,
+            "end": 1911,
+            "text": "because i studied very good for it\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U028",
+            "start": 1911,
+            "end": 2222,
+            "text": ", my friend didnt impact from me , She got a bad grade, She kept going from failure to failure with out loss any enthusiasm that why she didnt change and she is the one who took the this class this year because she didnt pass it .for example if she felt something she will be success in the class and her life. "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U029",
+            "start": 2222,
+            "end": 2265,
+            "text": "Moreover Failure should impact negative\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U030",
+            "start": 2265,
+            "end": 2343,
+            "text": "because if its not negative the people will neglect their failure and mistake."
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S2.C01",
+            "aspect": "Overall",
+            "level": 2,
+            "text": "Inconsistent facility in sentence formation, word choice, and mechanics;",
+            "parent_id": "Overall.S2",
+            "parent_text": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+            "start": 0,
+            "end": 72,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Grammar.S2.C01",
+            "aspect": "Grammar",
+            "level": 2,
+            "text": "Many errors in grammar and usage.",
+            "parent_id": "Grammar.S2",
+            "parent_text": "Many errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S2.C01",
+            "aspect": "Syntax",
+            "level": 2,
+            "text": "Some sentence variation used;",
+            "parent_id": "Syntax.S2",
+            "parent_text": "Some sentence variation used; many sentence structure problems.",
+            "start": 0,
+            "end": 29,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Cohesion.S2.C01",
+            "aspect": "Cohesion",
+            "level": 2,
+            "text": "Organization only partially developed with a lack of logical sequencing of ideas;",
+            "parent_id": "Cohesion.S2",
+            "parent_text": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+            "start": 0,
+            "end": 81,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Cohesion.S2.C02",
+            "aspect": "Cohesion",
+            "level": 2,
+            "text": "some basic cohesive devices used but with inaccuracy or repetition.",
+            "parent_id": "Cohesion.S2",
+            "parent_text": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+            "start": 82,
+            "end": 149,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S2.C01",
+            "aspect": "Vocabulary",
+            "level": 2,
+            "text": "Narrow range of vocabulary to convey basic and elementary meaning;",
+            "parent_id": "Vocabulary.S2",
+            "parent_text": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+            "start": 0,
+            "end": 66,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S2.C02",
+            "aspect": "Vocabulary",
+            "level": 2,
+            "text": "topic related terms used inappropri ately;",
+            "parent_id": "Vocabulary.S2",
+            "parent_text": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+            "start": 67,
+            "end": 109,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S2.C01",
+            "aspect": "Conventions",
+            "level": 2,
+            "text": "Variable use of conventions;",
+            "parent_id": "Conventions.S2",
+            "parent_text": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting.",
+            "start": 0,
+            "end": 28,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S2.C02",
+            "aspect": "Conventions",
+            "level": 2,
+            "text": "spelling, capitalization, and punctuation errors frequent and distracting.",
+            "parent_id": "Conventions.S2",
+            "parent_text": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting.",
+            "start": 29,
+            "end": 103,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:42:49.141273+09:00"
+}

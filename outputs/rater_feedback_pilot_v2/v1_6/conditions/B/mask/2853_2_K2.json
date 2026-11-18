@@ -1,0 +1,112 @@
+{
+  "candidate_key": "B|2853:2|K2",
+  "masked_reason": {
+    "rationale": "本文は一般的な組織と文法を維持しているが、複雑な文の形成や正確な単語の使用に課題がある。一部の文は繰り返しや誤用が見られ、全体的なコミュニケーションは時折阻害される。",
+    "unexplained": "全体的なコミュニケーションが時折阻害される理由は、具体的な例が不足している。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "span_ids": [
+          "2853:2@U001",
+          "2853:2@U002"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "一般的な組織と文法の維持",
+        "score_relation": "評価に一致",
+        "support_explanation": "全体的な組織と文法は維持されている。",
+        "limits": "複雑な文の形成や正確な単語の使用に課題がある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "span_ids": [
+          "2853:2@U003",
+          "2853:2@U004"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "複雑な文の形成の課題",
+        "score_relation": "評価に一致",
+        "support_explanation": "複雑な文の形成に課題がある。",
+        "limits": "一部の文は正確に形成されている。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "span_ids": [
+          "2853:2@U005",
+          "2853:2@U006"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "direction": "negative",
+        "feature": "単語の正確な使用の課題",
+        "score_relation": "評価に一致",
+        "support_explanation": "単語の正確な使用に課題がある。",
+        "limits": "一部の単語は適切に使用されている。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "span_ids": [
+          "2853:2@U007",
+          "2853:2@U008"
+        ],
+        "aspect": "Phraseology",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "フレーズの繰り返しと誤用",
+        "score_relation": "評価に一致",
+        "support_explanation": "フレーズの繰り返しと誤用が見られる。",
+        "limits": "一部のフレーズは適切に使用されている。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C04"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Phraseology.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

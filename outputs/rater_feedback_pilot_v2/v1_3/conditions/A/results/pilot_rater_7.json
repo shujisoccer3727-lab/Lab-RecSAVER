@@ -1,0 +1,677 @@
+{
+  "condition": "A",
+  "rater_id": "rater_7",
+  "target_ids": [
+    "1514:1",
+    "1961:1",
+    "1868:1"
+  ],
+  "essay_groups": [
+    {
+      "condition": "A",
+      "target_id": "1514:1",
+      "rater_id": "rater_7",
+      "observed_overall": 3,
+      "accepted_candidate_keys": [
+        "A|1514:1|K1"
+      ],
+      "eligible_claims": [
+        {
+          "claim_id": "C1",
+          "scope": "target",
+          "essay_id": "1514:1",
+          "aspect": "Overall",
+          "kind": "presence",
+          "feature": "一般的な構造と単純な文法の使用",
+          "span_ids": [
+            "1514:1@U001",
+            "1514:1@U002"
+          ],
+          "direction": "negative",
+          "score_relation": "評価に影響",
+          "condition_ids": [
+            "Overall.S3.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "一般的な構造と単純な文法の使用が観察される。",
+          "limits": "複雑な文法や単語の使用が限られているが、全体的な組織は理解しやすい。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "1514:1",
+              "span_id": "1514:1@U001",
+              "start": 0,
+              "end": 203,
+              "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+            },
+            {
+              "essay_id": "1514:1",
+              "span_id": "1514:1@U002",
+              "start": 203,
+              "end": 317,
+              "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C1",
+            "support": "supported",
+            "explanation": "文章は一般的な構造と単純な文法を使用しており、全体的な組織は理解しやすい。複雑な文法や単語の使用は限られているが、その結果、文章は明確で読みやすい。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "1514:1/K1/C1",
+          "target_id": "1514:1",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C2",
+          "scope": "target",
+          "essay_id": "1514:1",
+          "aspect": "Grammar",
+          "kind": "frequency",
+          "feature": "文法と慣用句の誤用",
+          "span_ids": [
+            "1514:1@U003",
+            "1514:1@U014"
+          ],
+          "direction": "negative",
+          "score_relation": "評価に影響",
+          "condition_ids": [
+            "Grammar.S3.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "文法と慣用句の誤用が観察される。",
+          "limits": "誤解を招く可能性があるが、全体的な意味は理解できる。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "1514:1",
+              "span_id": "1514:1@U003",
+              "start": 317,
+              "end": 404,
+              "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+            },
+            {
+              "essay_id": "1514:1",
+              "span_id": "1514:1@U014",
+              "start": 1555,
+              "end": 1644,
+              "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C2",
+            "support": "supported",
+            "explanation": "文章中に文法と慣用句の誤用が見られる。例えば、\"In the other hand\" は \"On the other hand\" の誤用であり、\"he fail the first time\" は \"he failed the first time\" の誤用である。これらの誤用は全体的な意味の理解を妨げないが、文法的な正確さには影響を与える。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "1514:1/K1/C2",
+          "target_id": "1514:1",
+          "candidate_index": 1
+        }
+      ],
+      "candidate_comparison": {
+        "groups": [
+          {
+            "summary": "一般的な構造と単純な文法の使用",
+            "claim_ids": [
+              "1514:1/K1/C1"
+            ],
+            "candidate_count": 1
+          },
+          {
+            "summary": "文法と慣用句の誤用",
+            "claim_ids": [
+              "1514:1/K1/C2"
+            ],
+            "candidate_count": 1
+          }
+        ],
+        "differences": [],
+        "unknowns": "No two eligible candidates; cross-candidate agreement cannot be judged"
+      },
+      "independent_essay_count": 1
+    },
+    {
+      "condition": "A",
+      "target_id": "1961:1",
+      "rater_id": "rater_7",
+      "observed_overall": 5,
+      "accepted_candidate_keys": [],
+      "eligible_claims": [],
+      "candidate_comparison": {
+        "groups": [],
+        "differences": [],
+        "unknowns": "No two eligible candidates; cross-candidate agreement cannot be judged"
+      },
+      "independent_essay_count": 0
+    },
+    {
+      "condition": "A",
+      "target_id": "1868:1",
+      "rater_id": "rater_7",
+      "observed_overall": 3,
+      "accepted_candidate_keys": [
+        "A|1868:1|K1",
+        "A|1868:1|K2"
+      ],
+      "eligible_claims": [
+        {
+          "claim_id": "C1",
+          "scope": "target",
+          "essay_id": "1868:1",
+          "aspect": "Overall",
+          "kind": "presence",
+          "feature": "組織と文法の一部に誤りがある",
+          "span_ids": [
+            "1868:1@U001",
+            "1868:1@U002",
+            "1868:1@U003"
+          ],
+          "direction": "negative",
+          "score_relation": "評価と一致",
+          "condition_ids": [
+            "Overall.S3.C03"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "複雑な文の形成と単語の使用に誤りがある",
+          "limits": "全体の頻度を断定できない",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U001",
+              "start": 0,
+              "end": 78,
+              "text": "The main piece to improve your skills is during the process of keep learning. "
+            },
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U002",
+              "start": 78,
+              "end": 238,
+              "text": "Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. "
+            },
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U003",
+              "start": 238,
+              "end": 368,
+              "text": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C1",
+            "support": "supported",
+            "explanation": "複雑な文の形成と単語の使用に誤りがあるという指摘は、対象の文において確認できる。例えば、「The main piece to improve your skills is during the process of keep learning.」という文は、「keep learning」の前に「to」が欠けている。また、「Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward.」という文も、「got to the point」の代わりに「have reached the point」のような表現がより適切である可能性がある。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "1868:1/K1/C1",
+          "target_id": "1868:1",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C2",
+          "scope": "target",
+          "essay_id": "1868:1",
+          "aspect": "Cohesion",
+          "kind": "presence",
+          "feature": "組織が一貫性があるが、一部に誤りがある",
+          "span_ids": [
+            "1868:1@U004",
+            "1868:1@U005",
+            "1868:1@U006"
+          ],
+          "direction": "negative",
+          "score_relation": "評価と一致",
+          "condition_ids": [
+            "Cohesion.S3.C01",
+            "Cohesion.S3.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "組織が一貫性があるが、一部に誤りがある",
+          "limits": "全体の頻度を断定できない",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U004",
+              "start": 368,
+              "end": 611,
+              "text": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. "
+            },
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U005",
+              "start": 611,
+              "end": 767,
+              "text": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n"
+            },
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U006",
+              "start": 767,
+              "end": 882,
+              "text": "\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C2",
+            "support": "supported",
+            "explanation": "組織が一貫性があるが、一部に誤りがあるという指摘は、対象の文において確認できる。例えば、「I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career.」という文は、文の構造が複雑で、一部の単語の使用に誤りがある。また、「The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.」という文も、「keep learning」の前に「to」が欠けている。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "1868:1/K1/C2",
+          "target_id": "1868:1",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C3",
+          "scope": "target",
+          "essay_id": "1868:1",
+          "aspect": "Syntax",
+          "kind": "presence",
+          "feature": "複雑な文の形成に誤りがある",
+          "span_ids": [
+            "1868:1@U007",
+            "1868:1@U008",
+            "1868:1@U009"
+          ],
+          "direction": "negative",
+          "score_relation": "評価と一致",
+          "condition_ids": [
+            "Syntax.S3.C01",
+            "Syntax.S3.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "複雑な文の形成に誤りがある",
+          "limits": "全体の頻度を断定できない",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U007",
+              "start": 882,
+              "end": 1043,
+              "text": "Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. "
+            },
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U008",
+              "start": 1043,
+              "end": 1173,
+              "text": "Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. "
+            },
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U009",
+              "start": 1173,
+              "end": 1269,
+              "text": "The process of being a mother for the first time, does not end when you give birth to the baby. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C3",
+            "support": "supported",
+            "explanation": "複雑な文の形成に誤りがあるという指摘は、対象の文において確認できる。例えば、「Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother.」という文は、文の構造が複雑で、一部の単語の使用に誤りがある。「have to been each to be a mother」の部分は、「have to be taught to be a mother」のような表現がより適切である可能性がある。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "1868:1/K1/C3",
+          "target_id": "1868:1",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C4",
+          "scope": "target",
+          "essay_id": "1868:1",
+          "aspect": "Vocabulary",
+          "kind": "presence",
+          "feature": "単語の使用に誤りがある",
+          "span_ids": [
+            "1868:1@U010",
+            "1868:1@U011",
+            "1868:1@U012"
+          ],
+          "direction": "negative",
+          "score_relation": "評価と一致",
+          "condition_ids": [
+            "Vocabulary.S3.C01",
+            "Vocabulary.S3.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "単語の使用に誤りがある",
+          "limits": "全体の頻度を断定できない",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U010",
+              "start": 1269,
+              "end": 1426,
+              "text": "There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n"
+            },
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U011",
+              "start": 1426,
+              "end": 1666,
+              "text": "\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. "
+            },
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U012",
+              "start": 1666,
+              "end": 1747,
+              "text": "Even adult mothers have said that they keep learning how to be mother everyday.\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C4",
+            "support": "supported",
+            "explanation": "単語の使用に誤りがあるという指摘は、対象の文において確認できる。例えば、「There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.」という文は、「details you how」の部分が不自然で、「details how」や「explains how」のような表現がより適切である可能性がある。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "1868:1/K1/C4",
+          "target_id": "1868:1",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C1",
+          "scope": "target",
+          "essay_id": "1868:1",
+          "aspect": "Overall",
+          "kind": "presence",
+          "feature": "組織と文法の正確性",
+          "span_ids": [
+            "1868:1@U001",
+            "1868:1@U002"
+          ],
+          "direction": "positive",
+          "score_relation": "一致",
+          "condition_ids": [
+            "Overall.S3.C02",
+            "Grammar.S3.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "文章は組織が整っており、文法の誤りは少ない。",
+          "limits": "複雑な文の形成に誤りがある。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U001",
+              "start": 0,
+              "end": 78,
+              "text": "The main piece to improve your skills is during the process of keep learning. "
+            },
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U002",
+              "start": 78,
+              "end": 238,
+              "text": "Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C1",
+            "support": "supported",
+            "explanation": "文章は全体的に組織が整っており、文法の誤りは少ない。ただし、複雑な文の形成に誤りがあるため、完全に正確とは言えない。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "1868:1/K2/C1",
+          "target_id": "1868:1",
+          "candidate_index": 2
+        },
+        {
+          "claim_id": "C2",
+          "scope": "target",
+          "essay_id": "1868:1",
+          "aspect": "Syntax",
+          "kind": "frequency",
+          "feature": "複雑な文の形成の誤り",
+          "span_ids": [
+            "1868:1@U003",
+            "1868:1@U004"
+          ],
+          "direction": "negative",
+          "score_relation": "一致",
+          "condition_ids": [
+            "Syntax.S3.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "複雑な文の形成に誤りが見られる。",
+          "limits": "単純な文は正確に形成されている。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U003",
+              "start": 238,
+              "end": 368,
+              "text": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. "
+            },
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U004",
+              "start": 368,
+              "end": 611,
+              "text": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C2",
+            "support": "supported",
+            "explanation": "複雑な文の形成に誤りが見られる一方で、単純な文は正確に形成されているため、この主張は支持される。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "1868:1/K2/C2",
+          "target_id": "1868:1",
+          "candidate_index": 2
+        },
+        {
+          "claim_id": "C3",
+          "scope": "target",
+          "essay_id": "1868:1",
+          "aspect": "Vocabulary",
+          "kind": "appropriateness",
+          "feature": "単語の正確な使用",
+          "span_ids": [
+            "1868:1@U005",
+            "1868:1@U006"
+          ],
+          "direction": "negative",
+          "score_relation": "一致",
+          "condition_ids": [
+            "Vocabulary.S3.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "単語の使用に誤りがある。",
+          "limits": "一部の単語は適切に使用されている。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U005",
+              "start": 611,
+              "end": 767,
+              "text": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n"
+            },
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U006",
+              "start": 767,
+              "end": 882,
+              "text": "\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C3",
+            "support": "supported",
+            "explanation": "一部の単語は適切に使用されているが、単語の使用に誤りがあるため、この主張は支持される。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "1868:1/K2/C3",
+          "target_id": "1868:1",
+          "candidate_index": 2
+        },
+        {
+          "claim_id": "C4",
+          "scope": "target",
+          "essay_id": "1868:1",
+          "aspect": "Phraseology",
+          "kind": "range",
+          "feature": "フレーズの使用の多様性",
+          "span_ids": [
+            "1868:1@U007",
+            "1868:1@U008"
+          ],
+          "direction": "negative",
+          "score_relation": "一致",
+          "condition_ids": [
+            "Phraseology.S3.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "フレーズの使用は単調で、誤りがある。",
+          "limits": "一部のフレーズは適切に使用されている。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U007",
+              "start": 882,
+              "end": 1043,
+              "text": "Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. "
+            },
+            {
+              "essay_id": "1868:1",
+              "span_id": "1868:1@U008",
+              "start": 1043,
+              "end": 1173,
+              "text": "Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C4",
+            "support": "supported",
+            "explanation": "フレーズの使用は単調で、誤りがあるが、一部のフレーズは適切に使用されているため、この主張は支持される。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "1868:1/K2/C4",
+          "target_id": "1868:1",
+          "candidate_index": 2
+        }
+      ],
+      "candidate_comparison": {
+        "groups": [],
+        "differences": [],
+        "unknowns": "merge format failure; original eligible claims retained"
+      },
+      "independent_essay_count": 1
+    }
+  ],
+  "synthesis": {
+    "patterns": [],
+    "unknowns": "integration failed; no inferred tendency asserted"
+  },
+  "generation_status": {
+    "integration_succeeded": false,
+    "text_succeeded": true,
+    "compared_targets": 0
+  },
+  "comparisons": {
+    "1514:1": null,
+    "1961:1": null,
+    "1868:1": null
+  },
+  "elements": [
+    {
+      "number": 1,
+      "text": "新規の採用個別理由を統合し、公式条件に照合した結果から、採点者向けのフィードバックを作成します。このプロセスでは、5つの要素に対応する本文を作成します。",
+      "condition_ids": [],
+      "pattern_ids": [],
+      "target_ids": []
+    },
+    {
+      "number": 2,
+      "text": "統合された採用理由のパターンが不明瞭であり、統合フォーマットに失敗している可能性があります。これにより、特定の傾向を明確に判断することが困難です。",
+      "condition_ids": [],
+      "pattern_ids": [],
+      "target_ids": []
+    },
+    {
+      "number": 3,
+      "text": "以下は、評価対象のエッセイと比較した結果です。ただし、一部のエッセイについては適切な比較対象が見つからなかったため、評価が困難な状況にあります。",
+      "condition_ids": [],
+      "pattern_ids": [],
+      "target_ids": []
+    },
+    {
+      "number": 4,
+      "text": "評価対象のエッセイID 1514:1と1868:1は、公式条件に照らして適切な評価が行われたと判断されます。しかし、エッセイID 1961:1については、適切な評価対象が見つからず、評価が困難な状況にあります。",
+      "condition_ids": [],
+      "pattern_ids": [],
+      "target_ids": []
+    },
+    {
+      "number": 5,
+      "text": "今後の評価では、エッセイID 1961:1について、より詳細な情報や適切な比較対象を検討する必要があります。また、統合フォーマットの改善も検討すべきです。",
+      "condition_ids": [],
+      "pattern_ids": [],
+      "target_ids": []
+    }
+  ],
+  "example_target_rule": "first two numerically ordered eligible comparison targets",
+  "example_relationships": [],
+  "official_conditions": {},
+  "limits": "統合フォーマットの失敗により、特定の傾向やパターンを明確に判断することができませんでした。また、エッセイID 1961:1の評価については、適切な比較対象が見つからなかったため、評価が困難な状況にあります。",
+  "quality_status": "pilot; semantic judgments provisional, not independently validated"
+}

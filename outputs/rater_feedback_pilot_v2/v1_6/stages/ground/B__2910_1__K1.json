@@ -1,0 +1,32 @@
+{
+  "fingerprint": "af3c06d7f568d6e6019db832768e3277c08702a0528be08e661fabcffcc633a8",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "複雑な文の形成に困難がある例が複数見られる。例えば、\"For example in restaurant wen you have a mastered on chef you only need to memorize the recipes, other people need to memorize the condiment's, the tools, and the machines\" は文の構造が複雑で、理解しにくい。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "文法の誤りが複数見られる。例えば、\"wen you have a mastered on chef\" は \"when you have mastered as a chef\" のように修正が必要。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "単語の選択と用法は適切に見られる。ただし、「mastered」は「master」の形態変化が間違っているが、全体的な単語の選択は適切。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "文章の構成と文法に問題がある例が複数見られる。例えば、\"For example in restaurant wen you have a mastered on chef you only need to memorize the recipes, other people need to memorize the condiment's, the tools, and the machines\" は文の構成が不適切。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:58:39.883627+09:00"
+}

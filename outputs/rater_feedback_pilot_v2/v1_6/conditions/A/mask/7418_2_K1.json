@@ -1,0 +1,116 @@
+{
+  "candidate_key": "A|7418:2|K1",
+  "masked_reason": {
+    "rationale": "本文は全体的に組織化がうまく行われており、文法と慣用句の使用も正確で、コミュニケーションが妨げられるような言語的不正確さはほとんど見られません。",
+    "unexplained": "一部の文法的な誤りや単語の使用がより適切に改善できる可能性があるが、全体的には高い評価が得られている。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "span_ids": [
+          "7418:2@U001",
+          "7418:2@U002",
+          "7418:2@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "well-controlled text organization",
+        "score_relation": "aligned",
+        "support_explanation": "本文は明確な構造を持ち、各段落が論点を明確に伝えています。",
+        "limits": "全体の組織化が良好であるが、一部の段落間のつながりがより強化できる可能性がある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "span_ids": [
+          "7418:2@U004",
+          "7418:2@U005",
+          "7418:2@U006"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "command of grammar and usage with few or no errors",
+        "score_relation": "aligned",
+        "support_explanation": "文法的な誤りはほとんど見られず、文の形成も正確です。",
+        "limits": "一部の文法的な誤りが存在する可能性があるが、全体的には正確である。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "span_ids": [
+          "7418:2@U007",
+          "7418:2@U008",
+          "7418:2@U009"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "wide range of vocabulary flexibly and effectively used to convey precise meanings",
+        "score_relation": "aligned",
+        "support_explanation": "多様な単語が適切に使用され、正確な意味を伝えています。",
+        "limits": "一部の単語の使用がより適切に改善できる可能性がある。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "span_ids": [
+          "7418:2@U010",
+          "7418:2@U011",
+          "7418:2@U012"
+        ],
+        "aspect": "Phraseology",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "flexible and effective use of a variety of phrases",
+        "score_relation": "aligned",
+        "support_explanation": "慣用句や熟語が適切に使用され、文章が自然に読めます。",
+        "limits": "慣用句の使用がより多様化できる可能性がある。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S5.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Grammar.S5.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S5.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Phraseology.S5.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

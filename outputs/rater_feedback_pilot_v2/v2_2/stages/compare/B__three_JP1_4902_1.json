@@ -1,0 +1,166 @@
+{
+  "fingerprint": "43753a5f118ee3e409f88cda992b3085130e8803d9db7f46a2daf84ff663844f",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "4902:1/K1/C2",
+          "4902:1/K2/C2"
+        ],
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "feature_confirmed": "The essay includes simple, compound, and complex sentences, but there are some apparent errors in sentence formation.",
+        "inferred_judgment": "The syntax is generally controlled, but there are some apparent errors in sentence formation.",
+        "condition_ids": [
+          "Syntax.S3.C01",
+          "Syntax.S3.C02"
+        ],
+        "rubric_based_proposal": "The essay demonstrates the presence of simple, compound, and complex sentences, which aligns with the Syntax level 3 criteria. However, the occasional errors in sentence formation, particularly in more complex sentences, indicate that the essay does not fully meet the criteria for a higher level. These errors do not significantly affect other traits but suggest a need for improvement in sentence structure.",
+        "agreement": "The essay's syntax score of 3 is consistent with the presence of occasional errors in sentence formation.",
+        "review": "The essay could benefit from more precise control over complex sentence structures to enhance clarity.",
+        "unknowns": "The impact of occasional errors on the overall score is not fully clear.",
+        "conclusion_scope": "local_only",
+        "next_action": {
+          "actor": "rater",
+          "evaluation_target": "sentence formation",
+          "distinguish": "errors in complex sentences",
+          "procedure": "focus on sentence structure",
+          "criterion_relation": "evaluate against Syntax level 3 criteria"
+        },
+        "id": "B|three_JP1_4902:1/I1",
+        "target_id": "4902:1",
+        "citations": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U002",
+            "start": 307,
+            "end": 491,
+            "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U003",
+            "start": 491,
+            "end": 618,
+            "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U004",
+            "start": 618,
+            "end": 655,
+            "text": "but Why be basic like everyone else. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U005",
+            "start": 655,
+            "end": 721,
+            "text": "Don't you want to be different from everybody else in the world?? "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U006",
+            "start": 721,
+            "end": 783,
+            "text": "Acting or pretending just so you can fit in with your friend. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U007",
+            "start": 783,
+            "end": 864,
+            "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U008",
+            "start": 864,
+            "end": 1039,
+            "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U009",
+            "start": 1039,
+            "end": 1132,
+            "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U010",
+            "start": 1132,
+            "end": 1286,
+            "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U011",
+            "start": 1286,
+            "end": 1307,
+            "text": "\r\nin conucluesion\r\n\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U012",
+            "start": 1307,
+            "end": 1442,
+            "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Syntax.S3.C01",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "Simple, compound, and complex syntactic structures present although the range may be limited;",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 0,
+            "end": 93,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S3.C02",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "some apparent errors in sentence formation, especially in more complex sentences.",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 94,
+            "end": 175,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "machine_checks": {
+          "citations_exact": true,
+          "condition_ids_exact": true,
+          "overall_score_not_determined": true
+        }
+      }
+    ]
+  },
+  "timestamp": "2026-11-16T19:31:03.714325+09:00"
+}

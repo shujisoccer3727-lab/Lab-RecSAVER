@@ -1,0 +1,207 @@
+{
+  "fingerprint": "873dd3bb1d0d38dfbcc6028997b6cd2bd71992769365442ab082905157114cb5",
+  "result": {
+    "rationale": "文章展示了良好的语言使用能力，语法和词汇使用准确，但存在一些语言不准确的情况，偶尔影响沟通。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "406:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章展示了良好的语言使用能力，语法和词汇使用准确。",
+        "span_ids": [
+          "406:1@U001",
+          "406:1@U002",
+          "406:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "符合4级标准",
+        "condition_ids": [
+          "Overall.S4.C01",
+          "Overall.S4.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "引用了多个段落，展示了语法和词汇的准确使用。",
+        "limits": "未提及语言不准确的情况。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U001",
+            "start": 0,
+            "end": 76,
+            "text": "Churchill statement is right because failing in life is part of succeeding. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U002",
+            "start": 76,
+            "end": 178,
+            "text": "Those obsticals you go through in life are part of who you become and how you handle those obsticals. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U003",
+            "start": 178,
+            "end": 266,
+            "text": "It gives some type of motivation to keep moving forward and get to whatever goal it is. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "406:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "语法和词汇使用准确。",
+        "span_ids": [
+          "406:1@U001",
+          "406:1@U002",
+          "406:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "符合4级标准",
+        "condition_ids": [
+          "Grammar.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "引用了多个段落，展示了语法和词汇的准确使用。",
+        "limits": "未提及语言不准确的情况。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U001",
+            "start": 0,
+            "end": 76,
+            "text": "Churchill statement is right because failing in life is part of succeeding. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U002",
+            "start": 76,
+            "end": 178,
+            "text": "Those obsticals you go through in life are part of who you become and how you handle those obsticals. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U003",
+            "start": 178,
+            "end": 266,
+            "text": "It gives some type of motivation to keep moving forward and get to whatever goal it is. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "406:1",
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "feature": "词汇使用准确。",
+        "span_ids": [
+          "406:1@U001",
+          "406:1@U002",
+          "406:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "符合4级标准",
+        "condition_ids": [
+          "Vocabulary.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "引用了多个段落，展示了词汇的准确使用。",
+        "limits": "未提及语言不准确的情况。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U001",
+            "start": 0,
+            "end": 76,
+            "text": "Churchill statement is right because failing in life is part of succeeding. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U002",
+            "start": 76,
+            "end": 178,
+            "text": "Those obsticals you go through in life are part of who you become and how you handle those obsticals. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U003",
+            "start": 178,
+            "end": 266,
+            "text": "It gives some type of motivation to keep moving forward and get to whatever goal it is. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "406:1",
+        "aspect": "Overall",
+        "kind": "frequency",
+        "feature": "存在一些语言不准确的情况，偶尔影响沟通。",
+        "span_ids": [
+          "406:1@U004",
+          "406:1@U005",
+          "406:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "符合4级标准",
+        "condition_ids": [
+          "Overall.S4.C04"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "引用了多个段落，展示了语言不准确的情况。",
+        "limits": "未详细说明具体不准确的情况。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U004",
+            "start": 266,
+            "end": 494,
+            "text": "My example is when i got pregnant my junior year and when I found out i just wanted to drop out because I was still a kid myself and I kept thinking how people would look at me or what would they say, but I already had an idea. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U005",
+            "start": 494,
+            "end": 558,
+            "text": "My parents didnt even support me so what motivation did I have? "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U006",
+            "start": 558,
+            "end": 583,
+            "text": "I had myself and my son. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文章的组织结构和句法结构的具体情况未详细说明。"
+  },
+  "timestamp": "2026-11-15T19:38:28.402480+09:00"
+}

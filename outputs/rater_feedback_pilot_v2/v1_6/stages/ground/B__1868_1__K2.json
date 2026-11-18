@@ -1,0 +1,35 @@
+{
+  "fingerprint": "ddeb1020bac0b5ae3149d0e9c1d5d922a26261d158b49974fbb4c6fd19bfcdd9",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "本文は全体的に組織が制御されており、アイデアの重複や誤用が一部見られるが、全体的な組織に大きな影響を与えていない。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "文中にいくつかの文法と構文の誤りが見られ、それがコミュニケーションに一定程度の影響を与える可能性がある。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "本文は単純な文構造が主であり、複雑な文構造の使用が少ないため、表現力が制限される可能性がある。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "トピックに関連する用語が時折使用されているが、その使用が限定的であるため、表現力が制限される可能性がある。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T18:30:50.829811+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_5/stages/ground/B__1868_1__K2.json",
+  "source_fingerprint": "b08353231a25c8bd336c0368bb06390a469323bfc3ca9ac217afb5689889f075",
+  "reuse_recorded_at": "2026-11-15T19:01:10.766002+09:00"
+}

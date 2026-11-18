@@ -1,0 +1,116 @@
+{
+  "candidate_key": "B|8608:1|K1",
+  "masked_reason": {
+    "rationale": "文章在语法和词汇使用上存在一些错误，导致表达不够清晰。句子结构较为简单，缺乏复杂句的使用，影响了整体的流畅性和连贯性。",
+    "unexplained": "文本中某些部分的表达方式和词汇选择难以解释其对整体评分的影响。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "语言准确性影响沟通",
+        "score_relation": "符合",
+        "support_explanation": "文本中存在语言准确性问题，影响了沟通。",
+        "limits": "个别句子表达清晰，但整体影响沟通。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U003"
+        ],
+        "aspect": "Syntax",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "句子结构简单",
+        "score_relation": "符合",
+        "support_explanation": "文本中句子结构较为简单。",
+        "limits": "部分句子结构较为复杂，但整体简单。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U003"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "词汇使用不够精准",
+        "score_relation": "符合",
+        "support_explanation": "文本中词汇使用不够精准。",
+        "limits": "部分词汇使用恰当，但整体不够精准。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U003"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "语法错误",
+        "score_relation": "符合",
+        "support_explanation": "文本中存在语法错误。",
+        "limits": "部分语法正确，但整体存在错误。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C04"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

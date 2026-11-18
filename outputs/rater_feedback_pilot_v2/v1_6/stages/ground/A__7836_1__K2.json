@@ -1,0 +1,20 @@
+{
+  "fingerprint": "bde138e51bf98c6bdd1788ddf843f41e8d715548af9498a3b1ba1452fad8f6a1",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "本文は組織が制限され、文法と構文の誤りがコミュニケーションを妨げるという特徴を示しています。例えば、「I think if the student want to required for community service.」や「They cant make the students to do community service.」などの文は文法と構文の誤りを含んでいます。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "本文は単純な文法構造が主に使用され、より複雑な文法構造の使用が制限されているという特徴を示しています。例えば、「They cant make the students to do community service.」や「But if the student get in trouble then yes they have to because they have to do community service.」などの文は単純な文法構造を使用しています。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:54:54.499163+09:00"
+}

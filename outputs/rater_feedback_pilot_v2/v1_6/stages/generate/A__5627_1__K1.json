@@ -1,0 +1,206 @@
+{
+  "fingerprint": "6396df06b7ad7e9891a78a11651a14cbfdcb2ede09bbff3d1785df70979c9712",
+  "result": {
+    "rationale": "文章は一般的な組織が保たれており、文法と慣用句の使用には誤りが見られるが、全体的なコミュニケーションは阻害されない。しかし、複雑な文の形成や、より広範な語彙の使用には課題がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "5627:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "一般的な組織が保たれている",
+        "span_ids": [
+          "5627:1@U001",
+          "5627:1@U002",
+          "5627:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章は全体的に組織が保たれており、各段落が関連するアイデアを提供している。",
+        "limits": "一部の段落間のつながりが不明瞭な場合がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U001",
+            "start": 0,
+            "end": 117,
+            "text": "My Mom, she always shares wisdom with me and shows how to be a wise person and she also introduce me to this world.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U002",
+            "start": 117,
+            "end": 200,
+            "text": "\r\nOne day she decided to leave everything behind and start all over,because she\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U003",
+            "start": 200,
+            "end": 221,
+            "text": "wanted us to have\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "5627:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法と慣用句の使用に誤りがある",
+        "span_ids": [
+          "5627:1@U004",
+          "5627:1@U005",
+          "5627:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と慣用句の使用に誤りがあり、特に複雑な文の形成において。",
+        "limits": "誤りがコミュニケーションを阻害するほど頻繁ではない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U004",
+            "start": 221,
+            "end": 296,
+            "text": "a better life in the United States.She taught me whats right and wrong,\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U005",
+            "start": 296,
+            "end": 351,
+            "text": "she told me \"son always go for whats good but don't\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U006",
+            "start": 351,
+            "end": 380,
+            "text": "go through the bad path.\"\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "5627:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "語彙の範囲が限定的",
+        "span_ids": [
+          "5627:1@U007",
+          "5627:1@U008",
+          "5627:1@U009"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "語彙の範囲が限定的で、より広範な単語の使用が見られない。",
+        "limits": "一部の単語は適切に使用されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U007",
+            "start": 380,
+            "end": 447,
+            "text": "When you learn from others experience you become a better person.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U008",
+            "start": 447,
+            "end": 477,
+            "text": "\r\nHowever don't learn from\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U009",
+            "start": 477,
+            "end": 517,
+            "text": "bad influences they'll bring you down.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "5627:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文の形成に課題がある",
+        "span_ids": [
+          "5627:1@U010",
+          "5627:1@U011",
+          "5627:1@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に課題があり、特に文の構造に誤りがある。",
+        "limits": "単純な文は適切に形成されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U010",
+            "start": 517,
+            "end": 610,
+            "text": "\r\nfriends that are doing bad things are influences you don't need to follow their actions\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U011",
+            "start": 610,
+            "end": 708,
+            "text": "in order to become a better person just talk to a wise person they might give you a good advice.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U012",
+            "start": 708,
+            "end": 733,
+            "text": "\r\nMy Grandmother also\r\n\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文の全体的な組織とコミュニケーションの流れは理解しやすいが、文法と語彙の使用に一貫性がない部分がある。"
+  },
+  "timestamp": "2026-11-15T19:14:08.119593+09:00"
+}

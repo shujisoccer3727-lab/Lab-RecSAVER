@@ -1,0 +1,162 @@
+{
+  "fingerprint": "c6fcb529af7b4cdcf6ae137269b07cd76dbeab2d78c505df6cf6e013960ab18b",
+  "result": {
+    "rationale": "文章展示了广泛的词汇和句法结构，使用了多种过渡词和短语来连接想法，语法和拼写错误很少，这些因素共同支持了较高的评分。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "使用了广泛的词汇和句法结构",
+        "span_ids": [
+          "1961:1@U004",
+          "1961:1@U005",
+          "1961:1@U006"
+        ],
+        "direction": "positive",
+        "score_relation": "支持较高评分",
+        "condition_ids": [
+          "Overall.S5.C01",
+          "Syntax.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文本中使用了广泛的词汇和句法结构，如简单句、复合句和复杂句。",
+        "limits": "需要更多样化的词汇和句法结构来进一步提高评分。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U004",
+            "start": 171,
+            "end": 206,
+            "text": "First, it is known for it's parks. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U005",
+            "start": 206,
+            "end": 237,
+            "text": "Secondly, the food is amazing. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U006",
+            "start": 237,
+            "end": 284,
+            "text": "Lastly, Pakistan is one of the nicest culture. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "feature": "使用了多种过渡词和短语来连接想法",
+        "span_ids": [
+          "1961:1@U003",
+          "1961:1@U004",
+          "1961:1@U005"
+        ],
+        "direction": "positive",
+        "score_relation": "支持较高评分",
+        "condition_ids": [
+          "Cohesion.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文本中使用了多种过渡词和短语来连接想法，如“First, Secondly, Lastly”。",
+        "limits": "需要更复杂的过渡词和短语来进一步提高评分。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U003",
+            "start": 111,
+            "end": 171,
+            "text": "Here are some reasons why I would like to visit this place. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U004",
+            "start": 171,
+            "end": 206,
+            "text": "First, it is known for it's parks. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U005",
+            "start": 206,
+            "end": 237,
+            "text": "Secondly, the food is amazing. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "语法和拼写错误很少",
+        "span_ids": [
+          "1961:1@U004",
+          "1961:1@U005",
+          "1961:1@U006"
+        ],
+        "direction": "positive",
+        "score_relation": "支持较高评分",
+        "condition_ids": [
+          "Grammar.S5.C01",
+          "Conventions.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文本中语法和拼写错误很少，如“First, Secondly, Lastly”。",
+        "limits": "需要更少的语法和拼写错误来进一步提高评分。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U004",
+            "start": 171,
+            "end": 206,
+            "text": "First, it is known for it's parks. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U005",
+            "start": 206,
+            "end": 237,
+            "text": "Secondly, the food is amazing. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U006",
+            "start": 237,
+            "end": 284,
+            "text": "Lastly, Pakistan is one of the nicest culture. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文章中存在一些语法和拼写错误，但这些错误并未显著影响整体沟通效果。"
+  },
+  "timestamp": "2026-11-15T18:19:17.300639+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_3/stages/generate/A__1961_1__K1.json",
+  "source_fingerprint": "c97d2de4c519faf5ba27eeb02cfb5b5c3cdf40d122dbb1f10a7842df3006c96f",
+  "reuse_recorded_at": "2026-11-15T18:46:26.446004+09:00"
+}

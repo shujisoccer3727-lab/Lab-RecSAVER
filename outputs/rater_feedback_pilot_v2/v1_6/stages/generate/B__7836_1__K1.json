@@ -1,0 +1,183 @@
+{
+  "fingerprint": "e5c95141045cf547429eaf438154314faeec192e10bfeec0a7b3d0944a1e8464",
+  "result": {
+    "rationale": "文章の組織と文法の正確性が制限され、文法と構文の誤りがコミュニケーションを妨げている。しかし、単純な構文と基本的な単語の使用は理解可能である。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "7836:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "組織と文法の正確性が制限され、誤りがコミュニケーションを妨げる",
+        "span_ids": [
+          "7836:1@U002",
+          "7836:1@U004",
+          "7836:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い",
+        "condition_ids": [
+          "Overall.S3.C03",
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "誤りが具体的に見られる",
+        "limits": "全体の頻度を断定できない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U002",
+            "start": 19,
+            "end": 82,
+            "text": "I think if the student want to required for community service. "
+          },
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U004",
+            "start": 135,
+            "end": 232,
+            "text": "I am pretty sure they can't make the students to do community service because the parents won't. "
+          },
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U005",
+            "start": 232,
+            "end": 331,
+            "text": "But if the student get in trouble then yes they have to because they have to do community service. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "7836:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "単純な構文と複雑な文の誤り",
+        "span_ids": [
+          "7836:1@U003",
+          "7836:1@U004"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な誤りが見られる",
+        "limits": "全体の頻度を断定できない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U003",
+            "start": 82,
+            "end": 135,
+            "text": "They cant make the students to do community service. "
+          },
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U004",
+            "start": 135,
+            "end": 232,
+            "text": "I am pretty sure they can't make the students to do community service because the parents won't. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "7836:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "基本的な単語と単純な構文の使用",
+        "span_ids": [
+          "7836:1@U002",
+          "7836:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い",
+        "condition_ids": [
+          "Vocabulary.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な単語が見られる",
+        "limits": "全体の頻度を断定できない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U002",
+            "start": 19,
+            "end": 82,
+            "text": "I think if the student want to required for community service. "
+          },
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U005",
+            "start": 232,
+            "end": 331,
+            "text": "But if the student get in trouble then yes they have to because they have to do community service. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "7836:1",
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "feature": "基本的なフレーズの繰り返し",
+        "span_ids": [
+          "7836:1@U004",
+          "7836:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い",
+        "condition_ids": [
+          "Phraseology.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的なフレーズが見られる",
+        "limits": "全体の頻度を断定できない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U004",
+            "start": 135,
+            "end": 232,
+            "text": "I am pretty sure they can't make the students to do community service because the parents won't. "
+          },
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U005",
+            "start": 232,
+            "end": 331,
+            "text": "But if the student get in trouble then yes they have to because they have to do community service. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と構文の誤りの頻度と影響についての詳細な評価が不足している。"
+  },
+  "timestamp": "2026-11-15T19:41:32.942521+09:00"
+}

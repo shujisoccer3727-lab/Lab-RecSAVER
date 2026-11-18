@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-11-16T17:00:19.236746+09:00",
+  "status": "prepared_not_executed",
+  "jobs": [
+    {
+      "key": "B|1868:1|K1",
+      "input_path": "pending_inputs/1868_1.json",
+      "sampling_parameters": {
+        "temperature": 0.2,
+        "top_p": 0.8,
+        "max_tokens": 2600,
+        "seed": 340720566
+      }
+    },
+    {
+      "key": "B|1868:1|K2",
+      "input_path": "pending_inputs/1868_1.json",
+      "sampling_parameters": {
+        "temperature": 0.2,
+        "top_p": 0.8,
+        "max_tokens": 2600,
+        "seed": 2017377280
+      }
+    },
+    {
+      "key": "B|4902:1|K1",
+      "input_path": "pending_inputs/4902_1.json",
+      "sampling_parameters": {
+        "temperature": 0.2,
+        "top_p": 0.8,
+        "max_tokens": 2600,
+        "seed": 588337574
+      }
+    },
+    {
+      "key": "B|4902:1|K2",
+      "input_path": "pending_inputs/4902_1.json",
+      "sampling_parameters": {
+        "temperature": 0.2,
+        "top_p": 0.8,
+        "max_tokens": 2600,
+        "seed": 3953867131
+      }
+    }
+  ],
+  "resume_command": "python -m src.recsaver.rater_feedback_development_v21 three"
+}

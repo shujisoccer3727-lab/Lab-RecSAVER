@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-11-16T01:27:03.234375+09:00",
+  "status": "completed",
+  "stages": {
+    "generate": {
+      "saved": 108,
+      "succeeded": 106,
+      "failed": 2
+    },
+    "verify": {
+      "saved": 106,
+      "succeeded": 106,
+      "failed": 0
+    },
+    "ground": {
+      "saved": 69,
+      "succeeded": 69,
+      "failed": 0
+    },
+    "merge": {
+      "saved": 30,
+      "succeeded": 30,
+      "failed": 0
+    },
+    "integrate": {
+      "saved": 8,
+      "succeeded": 8,
+      "failed": 0
+    },
+    "compare": {
+      "saved": 43,
+      "succeeded": 28,
+      "failed": 15
+    },
+    "text": {
+      "saved": 8,
+      "succeeded": 8,
+      "failed": 0
+    }
+  },
+  "new_model_calls": 378,
+  "reused_call_records": 34,
+  "latest_context_stage": "text",
+  "full_snapshot_saved": true
+}

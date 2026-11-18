@@ -1,0 +1,121 @@
+{
+  "candidate_key": "B|474:1|K1",
+  "masked_reason": {
+    "rationale": "文章は基本的な意味を伝えるが、文法や構成に多くの問題があり、全体的な理解を阻害する。単語やフレーズの選択も限られている。",
+    "unexplained": "全体的な組織とアイデアのつながりが不明瞭な部分がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "474:1",
+        "span_ids": [
+          "474:1@U001",
+          "474:1@U002",
+          "474:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "多くの文法と構文のエラー",
+        "score_relation": "評価に一致",
+        "support_explanation": "文法と構文のエラーが頻繁に見られる。",
+        "limits": "一部の文は理解可能だが、全体的な流れが乱れる。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "474:1",
+        "span_ids": [
+          "474:1@U003",
+          "474:1@U004",
+          "474:1@U005"
+        ],
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "direction": "negative",
+        "feature": "アイデアのつながりが不明瞭",
+        "score_relation": "評価に一致",
+        "support_explanation": "アイデアのつながりが不明瞭で、論理的な流れが欠けている。",
+        "limits": "一部の文は関連性があるが、全体的な組織が弱い。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "474:1",
+        "span_ids": [
+          "474:1@U001",
+          "474:1@U002",
+          "474:1@U003"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "単語の選択が限られている",
+        "score_relation": "評価に一致",
+        "support_explanation": "単語の選択が限られており、より正確な表現が不足している。",
+        "limits": "一部の単語は適切だが、全体的な表現力が低い。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "474:1",
+        "span_ids": [
+          "474:1@U001",
+          "474:1@U002",
+          "474:1@U003"
+        ],
+        "aspect": "Conventions",
+        "kind": "appropriateness",
+        "direction": "negative",
+        "feature": "スペルや大文字の使用が不適切",
+        "score_relation": "評価に一致",
+        "support_explanation": "スペルや大文字の使用に問題があり、全体的な理解を阻害する。",
+        "limits": "一部の単語は正しくスペルされているが、全体的な正確性が低い。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S2.C01",
+        "Grammar.S2.C01",
+        "Syntax.S2.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Cohesion.S2.C01",
+        "Cohesion.S2.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S2.C01",
+        "Vocabulary.S2.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Conventions.S2.C01",
+        "Conventions.S2.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

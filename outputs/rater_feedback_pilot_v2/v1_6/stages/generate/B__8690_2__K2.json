@@ -1,0 +1,206 @@
+{
+  "fingerprint": "250b305b214cb207647dda6a56caa8f6f21d67082552ca42356a425ebb804609",
+  "result": {
+    "rationale": "文章組織は一般的に制御されているが、複雑な文法構造の使用に誤りがあり、単純な文が主に使用されている。単語の選択は適切だが、より複雑なフレーズの使用は限られている。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章組織は一般的に制御されているが、複雑な文法構造の使用に誤りがある。",
+        "span_ids": [
+          "8690:2@U001",
+          "8690:2@U002",
+          "8690:2@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複数の引用が文章組織の制御と複雑な文法構造の誤りを示している。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U001",
+            "start": 0,
+            "end": 79,
+            "text": "Based on your experiences, do you agree or disagree with Emerson's statement?\r\n"
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U002",
+            "start": 79,
+            "end": 168,
+            "text": "\r\nWhen you try to do something in your life you need to have high level mastered degree. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U003",
+            "start": 168,
+            "end": 236,
+            "text": "First, when i mastered a high level degree, i can have better life. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "単純な文が主に使用されている。",
+        "span_ids": [
+          "8690:2@U004",
+          "8690:2@U005",
+          "8690:2@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複数の引用が単純な文の使用を示している。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U004",
+            "start": 236,
+            "end": 265,
+            "text": "In addition, I can get rich. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U005",
+            "start": 265,
+            "end": 295,
+            "text": "Last, i can achieve my goals. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U006",
+            "start": 295,
+            "end": 352,
+            "text": "With out degree you can not get best jobs in your life.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "feature": "単語の選択は適切だが、より複雑なフレーズの使用は限られている。",
+        "span_ids": [
+          "8690:2@U007",
+          "8690:2@U008",
+          "8690:2@U009"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複数の引用が単語の選択とフレーズの使用を示している。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U007",
+            "start": 352,
+            "end": 412,
+            "text": "\r\nFirst, i can have better life.by doing hard work in life. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U008",
+            "start": 412,
+            "end": 440,
+            "text": "First, i can have my house. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U009",
+            "start": 440,
+            "end": 486,
+            "text": "second, my kids can go to high level schools. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "aspect": "Phraseology",
+        "kind": "frequency",
+        "feature": "フレーズの使用は限られている。",
+        "span_ids": [
+          "8690:2@U010",
+          "8690:2@U011",
+          "8690:2@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Phraseology.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複数の引用がフレーズの使用を示している。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U010",
+            "start": 486,
+            "end": 518,
+            "text": "finally, buying things i wants. "
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U011",
+            "start": 518,
+            "end": 574,
+            "text": "with out doing nothing you will never have great life.\r\n"
+          },
+          {
+            "essay_id": "8690:2",
+            "span_id": "8690:2@U012",
+            "start": 574,
+            "end": 606,
+            "text": "\r\nIn addition, i can get rich.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と構文の誤りが頻繁に見られるが、具体的な例が不足している。"
+  },
+  "timestamp": "2026-11-15T19:38:28.470872+09:00"
+}

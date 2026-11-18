@@ -1,0 +1,174 @@
+{
+  "fingerprint": "3c14ef72d7e49cb1dda1ba7913b7586a9cf991b77969864b938b6902c1606eb0",
+  "result": {
+    "rationale": "文章在语法和词汇使用上存在一些错误，影响了整体的流畅性和准确性。虽然文章结构基本清晰，但语言表达不够精准，导致部分段落难以理解。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "aspect": "Overall",
+        "kind": "communication",
+        "feature": "语言表达不够精准，影响了整体的流畅性和准确性",
+        "span_ids": [
+          "2832:2@U004",
+          "2832:2@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "部分段落难以理解，影响了整体评分",
+        "condition_ids": [
+          "Overall.S3.C04"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "引用了具体的段落，说明了语言表达的问题",
+        "limits": "个别段落表达清晰，可能影响整体判断",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U004",
+            "start": 231,
+            "end": 461,
+            "text": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or\r\n\r\n"
+          },
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U005",
+            "start": 461,
+            "end": 505,
+            "text": "to joint with another person to play games. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "存在一些语法错误",
+        "span_ids": [
+          "2832:2@U004",
+          "2832:2@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "语法错误影响了整体评分",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "引用了具体的段落，说明了语法错误的存在",
+        "limits": "部分语法使用正确，可能影响整体判断",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U004",
+            "start": 231,
+            "end": 461,
+            "text": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or\r\n\r\n"
+          },
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U005",
+            "start": 461,
+            "end": 505,
+            "text": "to joint with another person to play games. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "词汇使用不够精准",
+        "span_ids": [
+          "2832:2@U004",
+          "2832:2@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "词汇使用不够精准影响了整体评分",
+        "condition_ids": [
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "引用了具体的段落，说明了词汇使用的问题",
+        "limits": "部分词汇使用正确，可能影响整体判断",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U004",
+            "start": 231,
+            "end": 461,
+            "text": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or\r\n\r\n"
+          },
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U005",
+            "start": 461,
+            "end": 505,
+            "text": "to joint with another person to play games. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "aspect": "Cohesion",
+        "kind": "organization",
+        "feature": "文章结构基本清晰，但部分段落连接不够紧密",
+        "span_ids": [
+          "2832:2@U004",
+          "2832:2@U005"
+        ],
+        "direction": "mixed",
+        "score_relation": "文章结构基本清晰，但部分段落连接不够紧密影响了整体评分",
+        "condition_ids": [
+          "Cohesion.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "引用了具体的段落，说明了文章结构的问题",
+        "limits": "部分段落连接紧密，可能影响整体判断",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U004",
+            "start": 231,
+            "end": 461,
+            "text": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or\r\n\r\n"
+          },
+          {
+            "essay_id": "2832:2",
+            "span_id": "2832:2@U005",
+            "start": 461,
+            "end": 505,
+            "text": "to joint with another person to play games. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文章中存在一些表达清晰的段落，但这些段落未能显著提升整体评分。"
+  },
+  "timestamp": "2026-11-15T19:22:57.500078+09:00"
+}

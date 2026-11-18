@@ -1,0 +1,234 @@
+{
+  "fingerprint": "0a5ff5d7f558ab16fea7eab61b2305924909c8f2d1ada9d6257401994892cf06",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "8608:1/K2/C1",
+          "8608:1/K2/C2",
+          "8608:1/K2/C3",
+          "8608:1/K2/C4"
+        ],
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U003",
+          "8608:1@U004",
+          "8608:1@U005",
+          "8608:1@U006",
+          "8608:1@U007",
+          "8608:1@U008",
+          "8608:1@U009",
+          "8608:1@U010",
+          "8608:1@U011"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "8608:1@U001",
+            "tokens": [
+              "mean",
+              "people"
+            ],
+            "relation": "subject-predicate",
+            "interpretation": "「mean people」は主語で、「think」は動詞。しかし、「think」の後ろに続く節が不明瞭で、全体の意味が不明瞭になる可能性がある。",
+            "token_positions": [
+              {
+                "token": "mean",
+                "start": 0,
+                "end": 4
+              },
+              {
+                "token": "people",
+                "start": 5,
+                "end": 11
+              }
+            ]
+          },
+          {
+            "span_id": "8608:1@U004",
+            "tokens": [
+              "true",
+              "who"
+            ],
+            "relation": "adjective-noun",
+            "interpretation": "「true to who you are」は形容詞と名詞の関係で、自己の本質を表現するが、文全体の構造が不明瞭で、意味が完全に伝わらない可能性がある。",
+            "token_positions": [
+              {
+                "token": "true",
+                "start": 156,
+                "end": 160
+              },
+              {
+                "token": "who",
+                "start": 164,
+                "end": 167
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Cohesion.S3.C01",
+          "Syntax.S3.C01",
+          "Vocabulary.S3.C01",
+          "Grammar.S3.C01"
+        ],
+        "feature_confirmed": "文章の組織は全体的に制御されているが、複雑な文の形成や単語の誤用、文法の誤りがある。",
+        "inferred_judgment": "文章の組織は全体的に制御されているが、複雑な文の形成や単語の誤用、文法の誤りがあるため、Overallの段階3が妥当。",
+        "rubric_based_proposal": "文章の組織は全体的に制御されているが、複雑な文の形成や単語の誤用、文法の誤りがあるため、Overallの段階3が妥当。",
+        "agreement_review_unknown": "文章の組織は全体的に制御されているが、複雑な文の形成や単語の誤用、文法の誤りがあるため、Overallの段階3が妥当。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "8608:1@U001",
+              "8608:1@U004"
+            ],
+            "finding": "複雑な文の形成や単語の誤用、文法の誤りがある。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "複雑な文の形成や単語の誤用、文法の誤りがあるかどうか",
+          "where_span_ids": [
+            "8608:1@U001",
+            "8608:1@U004"
+          ],
+          "action": "複雑な文の形成や単語の誤用、文法の誤りがあるかどうかを確認",
+          "reason": "複雑な文の形成や単語の誤用、文法の誤りがあるかどうかを確認することで、文章の組織が全体的に制御されているかを確認する。"
+        },
+        "scope_limit": "複雑な文の形成や単語の誤用、文法の誤りがあるかどうかを確認",
+        "citations": [
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U001",
+            "start": 0,
+            "end": 36,
+            "text": "mean people think that self-esteem. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U002",
+            "start": 36,
+            "end": 61,
+            "text": "Is aren by working hard. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U003",
+            "start": 61,
+            "end": 152,
+            "text": "but really people just need to be happy with people that dont even care about self-esteem. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U004",
+            "start": 152,
+            "end": 189,
+            "text": "And true to who you are as a person. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U005",
+            "start": 189,
+            "end": 309,
+            "text": "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.\r\n"
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U006",
+            "start": 309,
+            "end": 405,
+            "text": "\r\nThat can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U007",
+            "start": 405,
+            "end": 445,
+            "text": "and they we make u feel like u mater\r\n\r\n"
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U008",
+            "start": 445,
+            "end": 592,
+            "text": "and they will love u even when u feel sad,mad,or if u just want something that u can cuddle with and just doing that well help u with self-esteem. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U009",
+            "start": 592,
+            "end": 685,
+            "text": "And if that still dont work then go to somewhere u think is a nice pleas to be and mediated. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U010",
+            "start": 685,
+            "end": 859,
+            "text": "Also if u really really want to get you self-esteem go to the gym be cues there is noting like work out and feeling a new look or u can buy a nice car and that well help to. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U011",
+            "start": 859,
+            "end": 1047,
+            "text": "Well if u really really want to bring your self-esteem up just go for run an be with family,friends or buy a dog or work out or just do all of them and that well help your self-esteem.    "
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Cohesion.S3.C01",
+            "aspect": "Cohesion",
+            "level": 3,
+            "text": "Organization generally controlled;",
+            "parent_id": "Cohesion.S3",
+            "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+            "start": 0,
+            "end": 34,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S3.C01",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "Simple, compound, and complex syntactic structures present although the range may be limited;",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 0,
+            "end": 93,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C01",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "Minimally adequate range of vocabulary for the topic;",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 0,
+            "end": 53,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:16:44.645884+09:00"
+}

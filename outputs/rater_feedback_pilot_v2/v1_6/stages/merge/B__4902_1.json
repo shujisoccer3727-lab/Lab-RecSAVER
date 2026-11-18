@@ -1,0 +1,71 @@
+{
+  "fingerprint": "47357ad292fc3f8c285180605aaf70e6181a250828d9498ca8e350903eeb237f",
+  "result": {
+    "groups": [
+      {
+        "summary": "アイデアのつながりが完全でない。特に、主張と反対意見の間のつながりが不明瞭。",
+        "claim_ids": [
+          "4902:1/K1/C1",
+          "4902:1/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "複雑な文の形成に課題がある。特に、文の構造が不明瞭な部分がある。",
+        "claim_ids": [
+          "4902:1/K1/C2",
+          "4902:1/K2/C4"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "単語の使用に正確さがない。具体的な単語の使用の正確さに問題がある部分が見られる。",
+        "claim_ids": [
+          "4902:1/K1/C3",
+          "4902:1/K2/C3"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "文法の誤りがある。具体的な文法の誤りが見られる。",
+        "claim_ids": [
+          "4902:1/K1/C4",
+          "4902:1/K2/C2"
+        ],
+        "candidate_count": 2
+      }
+    ],
+    "differences": [
+      {
+        "description": "アイデアの重複と機械的なつながりがある。",
+        "claim_ids": [
+          "4902:1/K2/C1"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "文法と構文の誤りがある。",
+        "claim_ids": [
+          "4902:1/K2/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "微妙な単語の意味の正確な使用の欠如がある。",
+        "claim_ids": [
+          "4902:1/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "複雑な文の形成における誤りがある。",
+        "claim_ids": [
+          "4902:1/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:02:58.692795+09:00"
+}

@@ -1,0 +1,174 @@
+{
+  "fingerprint": "7aa37c7000abbe7dc88d3d6c08e627e870a998c4771c845b8168d14a31d548b5",
+  "result": {
+    "rationale": "文章の構成が不十分で、文法や語彙の使用に多くの誤りがあり、コミュニケーションが阻害される。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "組織が部分的に開発されており、論理的なアイデアの並び順が欠けている。",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章の構成が不十分で、アイデアの並び順が不明瞭。",
+        "limits": "一部のアイデアはつながっているが、全体的な組織は弱い。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U002",
+            "start": 293,
+            "end": 447,
+            "text": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "多くの文構造の問題がある。",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文構造に誤りがある。",
+        "limits": "単純な文は正確だが、複雑な文は誤りが多い。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U005",
+            "start": 552,
+            "end": 766,
+            "text": "you life are sad and this is how the people die because they drink you think a bad things in your head you smook marihuana or other sustances this people are not have future in the life they dont have a nothing\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "語彙の範囲が狭く、基本的な意味を伝えるのに適していない。",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S2.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "語彙が限定的で、正確な意味を伝えるのに不十分。",
+        "limits": "一部の単語は適切に使用されているが、全体的に語彙の範囲が狭い。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U005",
+            "start": 552,
+            "end": 766,
+            "text": "you life are sad and this is how the people die because they drink you think a bad things in your head you smook marihuana or other sustances this people are not have future in the life they dont have a nothing\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法と使用に多くの誤りがある。",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S2.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と使用に多くの誤りがある。",
+        "limits": "一部の文法は正確だが、全体的に誤りが多い。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U005",
+            "start": 552,
+            "end": 766,
+            "text": "you life are sad and this is how the people die because they drink you think a bad things in your head you smook marihuana or other sustances this people are not have future in the life they dont have a nothing\r\n\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文の構成と語彙の使用が不十分な理由は明確ではない。"
+  },
+  "timestamp": "2026-11-15T19:13:33.564439+09:00"
+}

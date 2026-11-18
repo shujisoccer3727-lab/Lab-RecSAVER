@@ -1,0 +1,57 @@
+{
+  "fingerprint": "e1e9d2f85614d4c495a85df96eaf69a427f8aa105b1f21345724c5072c2abc36",
+  "result": {
+    "groups": [
+      {
+        "summary": "文章は全体的に組織化されており、主張が明確だが、文法や構文の誤りが見られる。",
+        "claim_ids": [
+          "61:1/K1/C1",
+          "61:1/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "単純な文と複雑な文が混在するが、一部の文法誤りがある。",
+        "claim_ids": [
+          "61:1/K1/C2",
+          "61:1/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "単語やフレーズの使用が適切でない。",
+        "claim_ids": [
+          "61:1/K1/C3",
+          "61:1/K2/C3"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "スペリングと文法の誤りがある。",
+        "claim_ids": [
+          "61:1/K1/C4",
+          "61:1/K2/C4"
+        ],
+        "candidate_count": 2
+      }
+    ],
+    "differences": [
+      {
+        "description": "文法と構文の誤りが評価をサポートする。",
+        "claim_ids": [
+          "61:1/K1/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "文法誤りが評価に一致する。",
+        "claim_ids": [
+          "61:1/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:02:58.807220+09:00"
+}

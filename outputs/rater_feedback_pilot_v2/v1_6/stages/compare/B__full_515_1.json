@@ -1,0 +1,464 @@
+{
+  "fingerprint": "3c8131b6a592a3de49f6166a1de4d11baed0b797bd004d643b6ae040c3bb4530",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "515:1/K1/C1",
+          "515:1/K1/C2",
+          "515:1/K1/C3",
+          "515:1/K1/C4"
+        ],
+        "span_ids": [
+          "515:1@U001",
+          "515:1@U002",
+          "515:1@U003",
+          "515:1@U004",
+          "515:1@U005",
+          "515:1@U006",
+          "515:1@U007",
+          "515:1@U008",
+          "515:1@U009",
+          "515:1@U010",
+          "515:1@U011",
+          "515:1@U012",
+          "515:1@U013",
+          "515:1@U014",
+          "515:1@U015",
+          "515:1@U016",
+          "515:1@U017",
+          "515:1@U018",
+          "515:1@U019",
+          "515:1@U020",
+          "515:1@U021",
+          "515:1@U022",
+          "515:1@U023",
+          "515:1@U024",
+          "515:1@U025",
+          "515:1@U026",
+          "515:1@U027",
+          "515:1@U028"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "515:1@U003",
+            "tokens": [
+              "Distance",
+              "learning"
+            ],
+            "relation": "subject-verb",
+            "interpretation": "「Distance learning students attend classes on time by online.」の文では、主語と動詞の関係が不明確で、文法的に誤っている。",
+            "token_positions": [
+              {
+                "token": "Distance",
+                "start": 207,
+                "end": 215
+              },
+              {
+                "token": "learning",
+                "start": 216,
+                "end": 224
+              }
+            ]
+          },
+          {
+            "span_id": "515:1@U004",
+            "tokens": [
+              "Distance",
+              "learning",
+              "students",
+              "attend",
+              "to",
+              "school",
+              "everyday"
+            ],
+            "relation": "subject-verb-object",
+            "interpretation": "「Distance learning students also attend to school everyday.」の文では、「attend to」の使用が不適切で、文法的に誤っている。",
+            "token_positions": [
+              {
+                "token": "Distance",
+                "start": 268,
+                "end": 276
+              },
+              {
+                "token": "learning",
+                "start": 277,
+                "end": 285
+              },
+              {
+                "token": "students",
+                "start": 286,
+                "end": 294
+              },
+              {
+                "token": "attend",
+                "start": 300,
+                "end": 306
+              },
+              {
+                "token": "to",
+                "start": 307,
+                "end": 309
+              },
+              {
+                "token": "school",
+                "start": 310,
+                "end": 316
+              },
+              {
+                "token": "everyday",
+                "start": 317,
+                "end": 325
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Overall.S3.C02",
+          "Overall.S3.C03",
+          "Overall.S3.C04",
+          "Grammar.S3.C01",
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C02",
+          "Conventions.S3.C01",
+          "Conventions.S3.C02"
+        ],
+        "feature_confirmed": "文章は全体的な構造を保有しているが、文法や語彙の正確性に問題がある。",
+        "inferred_judgment": "文法や語彙の正確性に問題があるが、全体的な構造が保たれているため、コミュニケーションが完全に阻害されているわけではない。",
+        "rubric_based_proposal": "Overall.S3.C01, Overall.S3.C02, Overall.S3.C03, Overall.S3.C04の条件を満たす。文法や語彙の誤りが存在するが、全体的な構造が保たれているため、評価を3とするのが適切である。",
+        "agreement_review_unknown": "文法や語彙の誤りが存在するが、全体的な構造が保たれているため、評価を3とするのが適切である。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "515:1@U003",
+              "515:1@U004"
+            ],
+            "finding": "文法や語彙の誤りが存在するが、全体的な構造が保たれているため、評価を3とするのが適切である。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "「attend to」の使用が不適切であることを確認する",
+          "where_span_ids": [
+            "515:1@U004"
+          ],
+          "action": "「attend to」の使用が不適切であることを確認し、適切な表現に修正する",
+          "reason": "「attend to」の使用が不適切で、文法的に誤っているため、適切な表現に修正する必要がある。"
+        },
+        "scope_limit": "文法や語彙の誤りが存在するが、全体的な構造が保たれているため、評価を3とするのが適切である。",
+        "citations": [
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U001",
+            "start": 0,
+            "end": 131,
+            "text": "Some schools offer distance learning as an option for students to attend classes from home by way of online or video conferencing. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U002",
+            "start": 131,
+            "end": 207,
+            "text": "I think students would benefit from being able to attend classes from home. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U003",
+            "start": 207,
+            "end": 268,
+            "text": "Distance learning students attend classes on time by online. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U004",
+            "start": 268,
+            "end": 327,
+            "text": "Distance learning students also attend to school everyday. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U005",
+            "start": 327,
+            "end": 383,
+            "text": "By way online you can attend to classes from anywhere.\r\n"
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U006",
+            "start": 383,
+            "end": 453,
+            "text": "\r\nFirst, distance learning students attend classes on time by online. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U007",
+            "start": 453,
+            "end": 500,
+            "text": "In many states students live far from schools. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U008",
+            "start": 500,
+            "end": 560,
+            "text": "Sometimes they can't be on time because of highway traffic. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U009",
+            "start": 560,
+            "end": 632,
+            "text": "Sometimes cause of bad weather you have to drive slow than speed limit. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U010",
+            "start": 632,
+            "end": 664,
+            "text": "And you can be late for school. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U011",
+            "start": 664,
+            "end": 730,
+            "text": "If they late in every first classes they might fail that classes. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U012",
+            "start": 730,
+            "end": 810,
+            "text": "Suppose they use the online conferencing they can be on time in every classes.\r\n"
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U013",
+            "start": 810,
+            "end": 845,
+            "text": "\r\nAlso, attend to school everyday. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U014",
+            "start": 845,
+            "end": 957,
+            "text": "Even if you sick for a week you still able to attend to school everyday by way of online or video conferencing. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U015",
+            "start": 957,
+            "end": 1052,
+            "text": "If weather is such a bad you can't go out of the house still able to attend classes from home. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U016",
+            "start": 1052,
+            "end": 1105,
+            "text": "Although none is home to drop you off to the school. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U017",
+            "start": 1105,
+            "end": 1168,
+            "text": "You can attend school by way of online or video conferencing.\r\n"
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U018",
+            "start": 1168,
+            "end": 1231,
+            "text": "\r\nThen, By way online you can attend to classes from anywhere. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U019",
+            "start": 1231,
+            "end": 1295,
+            "text": "You can join to the class even if you go to your friends house. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U020",
+            "start": 1295,
+            "end": 1383,
+            "text": "Also if you plan to go out the state for few days you can attend to classes from there. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U021",
+            "start": 1383,
+            "end": 1423,
+            "text": "Students can enjoy also they can study. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U022",
+            "start": 1423,
+            "end": 1434,
+            "text": "They're\r\n\r\n"
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U023",
+            "start": 1434,
+            "end": 1459,
+            "text": "able to work in online.\r\n"
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U024",
+            "start": 1459,
+            "end": 1562,
+            "text": "\r\nIn conclusion, for online or video conferencing students doesn't need to worry about there attended. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U025",
+            "start": 1562,
+            "end": 1623,
+            "text": "Distance learning students attend classes on time by online. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U026",
+            "start": 1623,
+            "end": 1682,
+            "text": "Distance learning students also attend to school everyday. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U027",
+            "start": 1682,
+            "end": 1738,
+            "text": "By way online you can attend to classes from anywhere.\r\n"
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U028",
+            "start": 1738,
+            "end": 1815,
+            "text": "\r\nI think students would benefit from being able to attend classes from home."
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C01",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "Facility limited to the use of common structures and generic vocabulary;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 0,
+            "end": 72,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S3.C02",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "organization generally controlled although connection sometimes absent or unsuccessful;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 73,
+            "end": 160,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S3.C03",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "errors in grammar and syntax and usage.",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 161,
+            "end": 200,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S3.C04",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "Communication is impeded by language inaccuracies in some cases.",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 201,
+            "end": 265,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C01",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "Minimally adequate range of vocabulary for the topic;",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 0,
+            "end": 53,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C02",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "no precise use of subtle word meanings;",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 54,
+            "end": 93,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S3.C01",
+            "aspect": "Conventions",
+            "level": 3,
+            "text": "Developing use of conventions to convey meaning;",
+            "parent_id": "Conventions.S3",
+            "parent_text": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+            "start": 0,
+            "end": 48,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S3.C02",
+            "aspect": "Conventions",
+            "level": 3,
+            "text": "errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+            "parent_id": "Conventions.S3",
+            "parent_text": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+            "start": 49,
+            "end": 132,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:50:26.587053+09:00"
+}

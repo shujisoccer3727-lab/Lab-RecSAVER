@@ -1,0 +1,208 @@
+{
+  "fingerprint": "6891f28a8ae10bf1aad186f3585367dfc9effc0ea3c3b2976e523082f45fa288",
+  "result": {
+    "rationale": "The essay demonstrates a high level of language proficiency, with a well-structured text and a variety of syntactic structures. The vocabulary used is appropriate and varied, and the grammar and conventions are generally accurate, with only rare minor inaccuracies that do not impede communication.",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "Native-like facility in the use of language with syntactic variety, appropriate word choice and phrases",
+        "span_ids": [
+          "1961:1@U001",
+          "1961:1@U002",
+          "1961:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "aligned",
+        "condition_ids": [
+          "Overall.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "The essay uses a variety of syntactic structures and appropriate vocabulary.",
+        "limits": "The essay may have some minor inaccuracies that do not impede communication.",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U001",
+            "start": 0,
+            "end": 61,
+            "text": "If you could visit one place in the world where would it be? "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U002",
+            "start": 61,
+            "end": 111,
+            "text": "One place that I would like to visit is Pakistan. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U003",
+            "start": 111,
+            "end": 171,
+            "text": "Here are some reasons why I would like to visit this place. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "feature": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs",
+        "span_ids": [
+          "1961:1@U004",
+          "1961:1@U005",
+          "1961:1@U006"
+        ],
+        "direction": "positive",
+        "score_relation": "aligned",
+        "condition_ids": [
+          "Cohesion.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "The essay uses transitional words and phrases to connect ideas across sentences and paragraphs.",
+        "limits": "The essay may have some minor inaccuracies in cohesion.",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U004",
+            "start": 171,
+            "end": 206,
+            "text": "First, it is known for it's parks. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U005",
+            "start": 206,
+            "end": 237,
+            "text": "Secondly, the food is amazing. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U006",
+            "start": 237,
+            "end": 284,
+            "text": "Lastly, Pakistan is one of the nicest culture. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "feature": "Wide range of vocabulary flexibly and effectively used to convey precise meanings",
+        "span_ids": [
+          "1961:1@U007",
+          "1961:1@U008",
+          "1961:1@U009"
+        ],
+        "direction": "positive",
+        "score_relation": "aligned",
+        "condition_ids": [
+          "Vocabulary.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "The essay uses a wide range of vocabulary to convey precise meanings.",
+        "limits": "The essay may have some minor inaccuracies in word use.",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U007",
+            "start": 284,
+            "end": 342,
+            "text": "As you can see, Pakistan is an excellent place to visit.\r\n"
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U008",
+            "start": 342,
+            "end": 401,
+            "text": "\r\nPakistan is known for some of it's best amusement parks. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U009",
+            "start": 401,
+            "end": 442,
+            "text": "One place I would go to is Aladdin park. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "Command of grammar and usage with few or no errors",
+        "span_ids": [
+          "1961:1@U010",
+          "1961:1@U011",
+          "1961:1@U012"
+        ],
+        "direction": "positive",
+        "score_relation": "aligned",
+        "condition_ids": [
+          "Grammar.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "The essay demonstrates a command of grammar and usage with few or no errors.",
+        "limits": "The essay may have some rare minor inaccuracies.",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U010",
+            "start": 442,
+            "end": 496,
+            "text": "It's an amusement park with a lot of thrilling rides. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U011",
+            "start": 496,
+            "end": 527,
+            "text": "I could go on the chair lifts. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U012",
+            "start": 527,
+            "end": 548,
+            "text": "They are so awesome. "
+          }
+        ]
+      }
+    ],
+    "unexplained": [
+      "The essay's use of conventions is generally consistent, but there may be some minor errors in spelling, capitalization, and punctuation."
+    ]
+  },
+  "timestamp": "2026-11-15T18:04:50.913410+09:00"
+}

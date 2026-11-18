@@ -1,0 +1,179 @@
+{
+  "fingerprint": "be1d67231ace467787414246f2fa0c3686161170e3b729c8cc6f390c86790d56",
+  "result": {
+    "rationale": "文章の構成と文法に問題があり、単語の選択や表現も限定的で正確さに欠ける。全体的にコミュニケーションが阻害される箇所が多い。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2348:1",
+        "aspect": "Overall",
+        "kind": "communication",
+        "feature": "文章の構成と文法の問題により、コミュニケーションが阻害される。",
+        "span_ids": [
+          "2348:1@U001",
+          "2348:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由を説明する。",
+        "condition_ids": [
+          "Overall.S2.C01",
+          "Overall.S2.C02",
+          "Overall.S2.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な文法と構成の問題が引用されている。",
+        "limits": "全体の頻度を断定しない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2348:1",
+            "span_id": "2348:1@U001",
+            "start": 0,
+            "end": 335,
+            "text": "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.\r\n"
+          },
+          {
+            "essay_id": "2348:1",
+            "span_id": "2348:1@U003",
+            "start": 412,
+            "end": 816,
+            "text": "happen or make bad decision like rob,kinll other people.The friends you want or interest is because is the \"THE MOST POPULAR\" in the school or where you live.If you don't want this in you life you ask why are do this?,this I want in my life?.You need thing very caution for not make things in one day;Some people are in the jail beacuse they are do thebfriends said and now this people are in the jail.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2348:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "多くの文法と構文の問題がある。",
+        "span_ids": [
+          "2348:1@U001",
+          "2348:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由を説明する。",
+        "condition_ids": [
+          "Syntax.S2.C01",
+          "Syntax.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な文法と構成の問題が引用されている。",
+        "limits": "全体の頻度を断定しない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2348:1",
+            "span_id": "2348:1@U001",
+            "start": 0,
+            "end": 335,
+            "text": "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.\r\n"
+          },
+          {
+            "essay_id": "2348:1",
+            "span_id": "2348:1@U003",
+            "start": 412,
+            "end": 816,
+            "text": "happen or make bad decision like rob,kinll other people.The friends you want or interest is because is the \"THE MOST POPULAR\" in the school or where you live.If you don't want this in you life you ask why are do this?,this I want in my life?.You need thing very caution for not make things in one day;Some people are in the jail beacuse they are do thebfriends said and now this people are in the jail.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2348:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "単語の選択が限定的で正確さに欠ける。",
+        "span_ids": [
+          "2348:1@U001",
+          "2348:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由を説明する。",
+        "condition_ids": [
+          "Vocabulary.S2.C01",
+          "Vocabulary.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な単語の使用例が引用されている。",
+        "limits": "全体の頻度を断定しない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2348:1",
+            "span_id": "2348:1@U001",
+            "start": 0,
+            "end": 335,
+            "text": "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.\r\n"
+          },
+          {
+            "essay_id": "2348:1",
+            "span_id": "2348:1@U003",
+            "start": 412,
+            "end": 816,
+            "text": "happen or make bad decision like rob,kinll other people.The friends you want or interest is because is the \"THE MOST POPULAR\" in the school or where you live.If you don't want this in you life you ask why are do this?,this I want in my life?.You need thing very caution for not make things in one day;Some people are in the jail beacuse they are do thebfriends said and now this people are in the jail.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2348:1",
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "feature": "表現が限定的で、誤用や反復が多い。",
+        "span_ids": [
+          "2348:1@U001",
+          "2348:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由を説明する。",
+        "condition_ids": [
+          "Phraseology.S2.C01",
+          "Phraseology.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な表現の問題が引用されている。",
+        "limits": "全体の頻度を断定しない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2348:1",
+            "span_id": "2348:1@U001",
+            "start": 0,
+            "end": 335,
+            "text": "The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things,That he can do for you job or family has the life resolve and don't need said othre people help for have good life.\r\n"
+          },
+          {
+            "essay_id": "2348:1",
+            "span_id": "2348:1@U003",
+            "start": 412,
+            "end": 816,
+            "text": "happen or make bad decision like rob,kinll other people.The friends you want or interest is because is the \"THE MOST POPULAR\" in the school or where you live.If you don't want this in you life you ask why are do this?,this I want in my life?.You need thing very caution for not make things in one day;Some people are in the jail beacuse they are do thebfriends said and now this people are in the jail.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "評価が低い理由の全てが説明できるわけではない。"
+  },
+  "timestamp": "2026-11-15T19:28:25.705120+09:00"
+}

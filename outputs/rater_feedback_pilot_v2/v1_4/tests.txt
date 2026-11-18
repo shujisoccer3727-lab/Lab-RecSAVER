@@ -1,0 +1,3 @@
+23 tests passed; 0 failures/errors/skipped.
+Regression cases: unknowns array; comparison top-level array; singular span_id; invalid official ID; fewer than two support entries.
+Command: python -m unittest tests.test_feedback_output_schema tests.test_rater_feedback_pilot_v2 tests.test_rater_feedback_pilot -v

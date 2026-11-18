@@ -1,0 +1,32 @@
+{
+  "fingerprint": "2b68917a210c1e39a41b30f373e50bda782eb1211f6ac8b9e1ac4d8e4f82cb2d",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "span_idsの内容がアイデアの接続が不十分であることを示している。具体的には、2420:1@U003と2420:1@U004の間で、アイデアの流れが不明瞭で、接続詞やトランジションが不足している。これは、全体の頻度を断定しないという制限を満たしている。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "span_idsの内容が文法の誤りを示している。具体的には、2420:1@U005と2420:1@U008の間で、文法的な誤りが見られる。これは、全体の頻度を断定しないという制限を満たしている。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "span_idsの内容が単語の選択が正確でないことを示している。具体的には、2420:1@U003と2420:1@U005の間で、単語の選択が時折正確でないことが確認できる。これは、全体の頻度を断定しないという制限を満たしている。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "span_idsの内容がフレーズの使用が正確でないことを示している。具体的には、2420:1@U003と2420:1@U005の間で、フレーズの使用が時折正確でないことが確認できる。これは、全体の頻度を断定しないという制限を満たしている。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:53:59.534171+09:00"
+}

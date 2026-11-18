@@ -1,0 +1,174 @@
+{
+  "fingerprint": "45dc580b84e0d3fa6d3f1690433590862c58b7b8688f22c4edd7722128048177",
+  "result": {
+    "rationale": "文章の組織と文法に一貫性があり、基本的なアイデアは伝わるが、複雑な文の形成や正確な単語の使用に課題がある。誤用や誤文法がコミュニケーションを阻害する場合がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "基本的なアイデアの伝達",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "基本的なアイデアは明確に伝わる。",
+        "limits": "複雑な文の形成に課題がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U002",
+            "start": 307,
+            "end": 491,
+            "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文の形成の誤り",
+        "span_ids": [
+          "4902:1@U003",
+          "4902:1@U004"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に誤りがある。",
+        "limits": "単純な文は正確に形成されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U003",
+            "start": 491,
+            "end": 618,
+            "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U004",
+            "start": 618,
+            "end": 655,
+            "text": "but Why be basic like everyone else. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "feature": "単語の誤用",
+        "span_ids": [
+          "4902:1@U005",
+          "4902:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C04"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語の誤用が見られる。",
+        "limits": "基本的な単語の使用は正確。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U005",
+            "start": 655,
+            "end": 721,
+            "text": "Don't you want to be different from everybody else in the world?? "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U006",
+            "start": 721,
+            "end": 783,
+            "text": "Acting or pretending just so you can fit in with your friend. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "文法の誤り",
+        "span_ids": [
+          "4902:1@U007",
+          "4902:1@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法の誤りが見られる。",
+        "limits": "一部の文法は正確。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U007",
+            "start": 783,
+            "end": 864,
+            "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U008",
+            "start": 864,
+            "end": 1039,
+            "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体的な組織とアイデアの伝達は良好だが、複雑な文の形成や単語の正確な使用に課題がある。これらの要素が全体的な評価に影響している可能性がある。"
+  },
+  "timestamp": "2026-11-15T19:17:27.512570+09:00"
+}

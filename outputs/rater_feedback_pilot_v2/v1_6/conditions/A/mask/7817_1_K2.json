@@ -1,0 +1,125 @@
+{
+  "candidate_key": "A|7817:1|K2",
+  "masked_reason": {
+    "rationale": "本文は技術の利点と欠点について述べており、全体的な組織と文法は適切だが、文法や構文に時折誤りがあり、表現の多様性が限られている。これらの要素が観測評価に影響している。",
+    "unexplained": "全体的な[得点表現除去]である理由は、文法や構文の誤りと表現の多様性の限界が主な要因であるが、他の要素も影響している可能性がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "span_ids": [
+          "7817:1@U001",
+          "7817:1@U002",
+          "7817:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "適切な組織と文法",
+        "score_relation": "支持",
+        "support_explanation": "全体的な組織と文法は適切に保たれている。",
+        "limits": "文法や構文の誤りが存在する。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "span_ids": [
+          "7817:1@U003",
+          "7817:1@U005",
+          "7817:1@U011"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "文法の誤り",
+        "score_relation": "影響",
+        "support_explanation": "文法の誤りが存在する。",
+        "limits": "誤りの頻度が低い。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "span_ids": [
+          "7817:1@U003",
+          "7817:1@U005",
+          "7817:1@U011"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "構文の誤り",
+        "score_relation": "影響",
+        "support_explanation": "構文の誤りが存在する。",
+        "limits": "誤りの頻度が低い。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "span_ids": [
+          "7817:1@U003",
+          "7817:1@U005",
+          "7817:1@U011"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "表現の多様性",
+        "score_relation": "影響",
+        "support_explanation": "表現の多様性が限られている。",
+        "limits": "一部の単語が適切に使用されている。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "unexplained",
+      "start": 4,
+      "end": 8,
+      "original": "評価が4",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_label",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Grammar.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Syntax.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Vocabulary.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

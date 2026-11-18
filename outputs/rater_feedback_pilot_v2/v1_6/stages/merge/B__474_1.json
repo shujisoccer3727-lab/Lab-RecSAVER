@@ -1,0 +1,65 @@
+{
+  "fingerprint": "24a8d9eb1a99ed19130ab23b7bcc813bc4f7abe063e9f8be439efc77d902504e",
+  "result": {
+    "groups": [
+      {
+        "summary": "多くの文法と構文のエラーがあり、全体的な流れが乱れている。一部の文は理解可能だが、全体的な流れが乱れる。",
+        "claim_ids": [
+          "474:1/K1/C1",
+          "474:1/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "アイデアのつながりが不明瞭で、論理的な流れが欠けている。一部の文は関連性があるが、全体的な組織が弱い。",
+        "claim_ids": [
+          "474:1/K1/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "単語の選択が限られており、より正確な表現が不足している。一部の単語は適切だが、全体的な表現力が低い。",
+        "claim_ids": [
+          "474:1/K1/C3",
+          "474:1/K2/C3"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "スペルや大文字の使用に問題があり、全体的な理解を阻害する。一部の単語は正しくスペルされているが、全体的な正確性が低い。",
+        "claim_ids": [
+          "474:1/K1/C4",
+          "474:1/K2/C4"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "文章の最初の部分は、文法や構成の問題があり、論理的な流れが欠けている。特に「We all dose mistake in our life . If your going from failure to failure without loss enthusiasm」の部分は、文法的な誤りや構成の問題があり、全体の文章構成が不十分であるため、一部の文は理解しにくい。",
+        "claim_ids": [
+          "474:1/K2/C1"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "differences": [
+      {
+        "description": "最初の候補では、全体的な文法と構文のエラーが強調されているが、2つ目の候補では、特に文章の最初の部分の文法と構成の問題が強調されている。",
+        "claim_ids": [
+          "474:1/K1/C1",
+          "474:1/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "description": "最初の候補では、単語の選択が限られていると評価されているが、2つ目の候補では、語彙の範囲が狭く、基本的な意味しか伝えられないという評価がされている。",
+        "claim_ids": [
+          "474:1/K1/C3",
+          "474:1/K2/C3"
+        ],
+        "candidate_count": 2
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:02:58.725058+09:00"
+}

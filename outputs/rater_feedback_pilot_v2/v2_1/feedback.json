@@ -1,0 +1,94 @@
+{
+  "version": "feedback-pilot-v2/2.1",
+  "scope": "one",
+  "rater_id": "rater_7",
+  "target_ids": [
+    "1514:1"
+  ],
+  "texts": {
+    "B|one_local_1514:1": {
+      "sentences": [
+        {
+          "element": 1,
+          "text": "文章の組織は全体的に制御されており、接続詞や例を用いてアイデアを接続している。",
+          "claim_ids": [
+            "1514:1/K1/C1"
+          ],
+          "issue_ids": [],
+          "condition_ids": [
+            "Cohesion.S3.C01"
+          ],
+          "source_target_ids": [
+            "1514:1"
+          ]
+        },
+        {
+          "element": 2,
+          "text": "共通傾向が未確定だが、評価傾向は接続詞の使用が限られていることと、接続詞が適切に使用されていることを区別する。",
+          "claim_ids": [
+            "1514:1/K1/C1"
+          ],
+          "issue_ids": [
+            "B|one_local_1514:1_1514:1/I1"
+          ],
+          "condition_ids": [
+            "Cohesion.S3.C01"
+          ],
+          "source_target_ids": [
+            "1514:1"
+          ]
+        },
+        {
+          "element": 3,
+          "text": "具体的な対象箇所は、接続詞や例を用いてアイデアを接続している箇所である。",
+          "claim_ids": [
+            "1514:1/K1/C1"
+          ],
+          "issue_ids": [],
+          "condition_ids": [],
+          "source_target_ids": [
+            "1514:1"
+          ]
+        },
+        {
+          "element": 4,
+          "text": "局所的な評価では、接続詞の使用が限られているが、全体的な判断では組織が制御されている。",
+          "claim_ids": [
+            "1514:1/K1/C1"
+          ],
+          "issue_ids": [
+            "B|one_local_1514:1_1514:1/I1"
+          ],
+          "condition_ids": [
+            "Cohesion.S3.C01",
+            "Cohesion.S3.C02"
+          ],
+          "source_target_ids": [
+            "1514:1"
+          ]
+        },
+        {
+          "element": 5,
+          "text": "次回の採点では、接続詞の使用が限られている箇所と適切に使用されている箇所を確認する。",
+          "claim_ids": [
+            "1514:1/K1/C1"
+          ],
+          "issue_ids": [
+            "B|one_local_1514:1_1514:1/I1"
+          ],
+          "condition_ids": [
+            "Cohesion.S3.C01",
+            "Cohesion.S3.C02",
+            "Cohesion.S3.C03"
+          ],
+          "source_target_ids": [
+            "1514:1"
+          ]
+        }
+      ],
+      "limits": "文章は接続詞の使用が限られているため、より多様で高度な接続詞を使用することで論理的な流れを改善できる。"
+    }
+  },
+  "quality_status": "Generated development examples; known semantic problems; not approved for rater use",
+  "sentence_lineage": "sentence_lineage.json"
+}

@@ -1,0 +1,95 @@
+{
+  "fingerprint": "57f8d497fbde9da45795a73b181af14b99b540c8d6b8c3f1abeddfa0ee76feb7",
+  "result": {
+    "rationale": "文章は一般的な構造と単純な文法を使用しており、複雑な文法や単語の使用は限られている。しかし、全体的な組織とアイデアのつながりは理解しやすい。ただし、文法と慣用句の誤用が見られ、誤解を招く可能性がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "一般的な構造と単純な文法の使用",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に影響",
+        "condition_ids": [
+          "Overall.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "一般的な構造と単純な文法の使用が観察される。",
+        "limits": "複雑な文法や単語の使用が限られているが、全体的な組織は理解しやすい。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U002",
+            "start": 203,
+            "end": 317,
+            "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法と慣用句の誤用",
+        "span_ids": [
+          "1514:1@U003",
+          "1514:1@U014"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に影響",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と慣用句の誤用が観察される。",
+        "limits": "誤解を招く可能性があるが、全体的な意味は理解できる。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U003",
+            "start": 317,
+            "end": 404,
+            "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U014",
+            "start": 1555,
+            "end": 1644,
+            "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "Hitlerの例が適切かどうかは議論の余地がある。"
+  },
+  "timestamp": "2026-11-15T18:19:17.264507+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_5/stages/generate/A__1514_1__K1.json",
+  "source_fingerprint": "aa1e923197600d0ae20f6a06198eb2c1b694ff12be50d62b6d2beef5cd77d0ea",
+  "reuse_recorded_at": "2026-11-15T19:01:10.012958+09:00"
+}

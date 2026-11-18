@@ -1,0 +1,112 @@
+{
+  "candidate_key": "A|8690:2|K2",
+  "masked_reason": {
+    "rationale": "文章の組織と文法に一貫性があり、基本的なアイデアは伝わるが、複雑な文法構造や単語の使用に誤りがある。また、文章のつながりが時折不明瞭で、表現の多様性が不足している。",
+    "unexplained": "文法と構文の誤りが頻繁に見られるが、全体的なコミュニケーションは阻害されていない。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "span_ids": [
+          "8690:2@U001",
+          "8690:2@U025"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "文章の組織と文法に一貫性がある",
+        "score_relation": "一致",
+        "support_explanation": "文章の組織と文法に一貫性があることが確認できる。",
+        "limits": "複雑な文法構造や単語の使用に誤りがある可能性がある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "span_ids": [
+          "8690:2@U002",
+          "8690:2@U003"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "複雑な文法構造の使用に誤りがある",
+        "score_relation": "一致",
+        "support_explanation": "複雑な文法構造の使用に誤りがあることが確認できる。",
+        "limits": "単純な文法構造は正確に使用されている可能性がある。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "span_ids": [
+          "8690:2@U004",
+          "8690:2@U005"
+        ],
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "direction": "negative",
+        "feature": "文章のつながりが時折不明瞭",
+        "score_relation": "一致",
+        "support_explanation": "文章のつながりが時折不明瞭であることが確認できる。",
+        "limits": "一部のアイデアは明確に表現されている可能性がある。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "span_ids": [
+          "8690:2@U006",
+          "8690:2@U007"
+        ],
+        "aspect": "Phraseology",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "表現の多様性が不足している",
+        "score_relation": "一致",
+        "support_explanation": "表現の多様性が不足していることが確認できる。",
+        "limits": "基本的な表現は適切に使用されている可能性がある。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Cohesion.S3.C03"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Phraseology.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

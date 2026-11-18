@@ -1,0 +1,63 @@
+{
+  "fingerprint": "8988279b631c6284d83c3492076c34143d3fc4f9859a110816b51660d4d9d29f",
+  "result": {
+    "patterns": [
+      {
+        "pattern_id": "P1",
+        "feature_context": "文章の組織と文法は比較的良好だが、複雑な文法構造の使用が限られている。",
+        "repeated_judgment": "文法の正確性に若干の問題があるが、全体的な意味伝達に影響は少ない。",
+        "inferred_tendency": "採用された個別理由では、文章の組織と文法は比較的良好と評価されるが、複雑な文法構造の使用が限られていることや、文法の正確性に若干の問題があることが繰り返し説明されている。",
+        "support": [
+          {
+            "target_id": "1514:1",
+            "claim_ids": [
+              "1514:1/K1/C1",
+              "1514:1/K1/C3"
+            ]
+          },
+          {
+            "target_id": "1868:1",
+            "claim_ids": [
+              "1868:1/K1/C1",
+              "1868:1/K1/C3"
+            ]
+          }
+        ],
+        "counterexamples": [],
+        "non_applicable": [],
+        "insufficient_target_ids": [],
+        "limits": "複雑な文法構造の使用が限られているが、全体的な意味伝達に影響は少ない。"
+      },
+      {
+        "pattern_id": "P2",
+        "feature_context": "微妙な単語の意味の正確な使用が不足しているが、一部は正確に使用されている。",
+        "repeated_judgment": "微妙な単語の意味の正確な使用が不足しているが、全体的なコミュニケーションは阻害されない。",
+        "inferred_tendency": "採用された個別理由では、微妙な単語の意味の正確な使用が不足しているが、一部は正確に使用されていることが説明されている。全体的なコミュニケーションは阻害されない。",
+        "support": [
+          {
+            "target_id": "1868:1",
+            "claim_ids": [
+              "1868:1/K1/C2",
+              "1868:1/K2/C4"
+            ]
+          },
+          {
+            "target_id": "1514:1",
+            "claim_ids": [
+              "1514:1/K1/C2"
+            ]
+          }
+        ],
+        "counterexamples": [],
+        "non_applicable": [],
+        "insufficient_target_ids": [],
+        "limits": "微妙な単語の意味の正確な使用が不足しているが、全体的なコミュニケーションは阻害されない。"
+      }
+    ],
+    "unknowns": "No two eligible candidates; cross-candidate agreement cannot be judged"
+  },
+  "timestamp": "2026-11-15T18:50:15.020605+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_5/stages/integrate/B__pilot_rater_7.json",
+  "source_fingerprint": "a1e2bdb83f17cbc2705227f9956d2f42fca24f0d5cd7bed24caee5a56e41861f",
+  "reuse_recorded_at": "2026-11-15T19:01:11.074272+09:00"
+}

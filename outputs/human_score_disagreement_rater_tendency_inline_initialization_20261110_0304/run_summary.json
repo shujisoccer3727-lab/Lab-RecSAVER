@@ -1,0 +1,103 @@
+{
+  "fingerprint": "9276d037ad8ff0af72556b421397f5cafeeaadc49f7e4be2a1a0496232972237",
+  "updated_at": "2026-11-09T18:01:12.618006+00:00",
+  "by_gap": {
+    "3": {
+      "essay_count": 7,
+      "pair_count": 7,
+      "generation_target_count": 14,
+      "target_status": {
+        "success": 0,
+        "failed": 0,
+        "excluded": 0,
+        "unprocessed": 14
+      },
+      "pair_status": {
+        "success": 0,
+        "failed": 0,
+        "excluded": 0,
+        "unprocessed": 7
+      }
+    },
+    "2": {
+      "essay_count": 252,
+      "pair_count": 252,
+      "generation_target_count": 504,
+      "target_status": {
+        "success": 0,
+        "failed": 0,
+        "excluded": 1,
+        "unprocessed": 503
+      },
+      "pair_status": {
+        "success": 0,
+        "failed": 0,
+        "excluded": 1,
+        "unprocessed": 251
+      }
+    }
+  },
+  "total_unique_targets": 518,
+  "total_feasible_targets": 517,
+  "template": "prompts/en/rater_tendency_in_reasoning_prediction.txt",
+  "model": {
+    "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+    "quantization": "gptq_marlin",
+    "tensor_parallel_size": 1,
+    "max_model_len": 8192,
+    "gpu_memory_utilization": 0.5
+  },
+  "generation": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 768
+  },
+  "config": {
+    "seed": 20260914,
+    "source_dir": "outputs/human_score_disagreement",
+    "output_dir": "outputs/human_score_disagreement_rater_tendency_inline",
+    "template": "prompts/en/rater_tendency_in_reasoning_prediction.txt",
+    "batch_size": 6,
+    "max_attempts": 2,
+    "model": {
+      "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+      "quantization": "gptq_marlin",
+      "tensor_parallel_size": 1,
+      "max_model_len": 8192,
+      "gpu_memory_utilization": 0.5
+    },
+    "generation": {
+      "temperature": 0.2,
+      "top_p": 0.8,
+      "max_tokens": 768
+    }
+  },
+  "pilot_target_ids": [
+    "6788:1",
+    "6788:2",
+    "7114:2",
+    "7114:1",
+    "7366:2",
+    "7366:1"
+  ],
+  "pilot_structural_success": false,
+  "initialization_seconds": 0,
+  "generation_seconds": 0,
+  "generated_attempts": 0,
+  "seconds_per_attempt": null,
+  "remaining_estimated_seconds": null,
+  "time_cap_enforced": false,
+  "timing_records": [],
+  "method_changes": [
+    "New inline tendency prompt; no old prediction reused",
+    "768 output tokens versus old disagreement prediction 384",
+    "Same canonical essays, ordered K=3 histories, rubric and Qwen2.5-32B model",
+    "Prediction only: no reference generation, self-verification or similarity"
+  ],
+  "pair_status_precedence": [
+    "excluded",
+    "failed",
+    "unprocessed",
+    "success"
+  ]
+}

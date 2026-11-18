@@ -1,0 +1,270 @@
+{
+  "fingerprint": "a738d50fce7a61faae85d0fd95c925df46d6d130fb31c10b9b244effbc8eb82f",
+  "result": {
+    "rationale": "文章は一般的な組織と構成を保っているが、文法と語彙の正確性に問題があり、コミュニケーションに影響を及ぼす場合がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "一般的な組織と構成",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U002",
+          "5268:1@U003",
+          "5268:1@U004",
+          "5268:1@U005"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章は全体的に組織が保たれており、各段落が論点を明確に示している。",
+        "limits": "一部の段落間のつながりが弱い可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U001",
+            "start": 0,
+            "end": 71,
+            "text": "Ever since, we were kids we started choosing our own character traits. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U002",
+            "start": 71,
+            "end": 176,
+            "text": "it can be good or bad based of the environment we live in, how we were raised, and personal experiences. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U003",
+            "start": 176,
+            "end": 275,
+            "text": "But we can always change our character traits, it's similar to an opinion on something or someone. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U004",
+            "start": 275,
+            "end": 303,
+            "text": "We choose who influence us. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U005",
+            "start": 303,
+            "end": 436,
+            "text": "we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法の誤り",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U002",
+          "5268:1@U003",
+          "5268:1@U004",
+          "5268:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法の誤りが見られ、特に複雑な文で頻繁に発生する。",
+        "limits": "誤りの頻度が全体のコミュニケーションに影響を及ぼす可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U001",
+            "start": 0,
+            "end": 71,
+            "text": "Ever since, we were kids we started choosing our own character traits. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U002",
+            "start": 71,
+            "end": 176,
+            "text": "it can be good or bad based of the environment we live in, how we were raised, and personal experiences. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U003",
+            "start": 176,
+            "end": 275,
+            "text": "But we can always change our character traits, it's similar to an opinion on something or someone. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U004",
+            "start": 275,
+            "end": 303,
+            "text": "We choose who influence us. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U005",
+            "start": 303,
+            "end": 436,
+            "text": "we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "語彙の範囲",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U002",
+          "5268:1@U003",
+          "5268:1@U004",
+          "5268:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "語彙の範囲が限定的で、より正確な表現を欠いている。",
+        "limits": "一部の単語が適切に使用されていない可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U001",
+            "start": 0,
+            "end": 71,
+            "text": "Ever since, we were kids we started choosing our own character traits. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U002",
+            "start": 71,
+            "end": 176,
+            "text": "it can be good or bad based of the environment we live in, how we were raised, and personal experiences. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U003",
+            "start": 176,
+            "end": 275,
+            "text": "But we can always change our character traits, it's similar to an opinion on something or someone. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U004",
+            "start": 275,
+            "end": 303,
+            "text": "We choose who influence us. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U005",
+            "start": 303,
+            "end": 436,
+            "text": "we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "aspect": "Conventions",
+        "kind": "frequency",
+        "feature": "スペリングと文法の誤り",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U002",
+          "5268:1@U003",
+          "5268:1@U004",
+          "5268:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Conventions.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "スペリングと文法の誤りが見られ、コミュニケーションに影響を及ぼす。",
+        "limits": "誤りが全体の理解に影響を及ぼす可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U001",
+            "start": 0,
+            "end": 71,
+            "text": "Ever since, we were kids we started choosing our own character traits. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U002",
+            "start": 71,
+            "end": 176,
+            "text": "it can be good or bad based of the environment we live in, how we were raised, and personal experiences. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U003",
+            "start": 176,
+            "end": 275,
+            "text": "But we can always change our character traits, it's similar to an opinion on something or someone. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U004",
+            "start": 275,
+            "end": 303,
+            "text": "We choose who influence us. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U005",
+            "start": 303,
+            "end": 436,
+            "text": "we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と語彙の誤りがコミュニケーションに影響を及ぼす頻度について、具体的な例が不足している。"
+  },
+  "timestamp": "2026-11-15T19:14:08.156677+09:00"
+}

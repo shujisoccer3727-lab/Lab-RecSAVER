@@ -1,0 +1,32 @@
+{
+  "fingerprint": "54ca126dcdba83a92855e890d720f5cd89b31a6a8fee0f4c984eaea11df9ecc6",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文章は明確な導入（Technology allows people to complete many tasks without having contact with others.）、本題（人々がオンラインショッピングやテクノロジーを用いたコミュニケーション、子供たちのテクノロジー使用についての議論）、結論（These limitation of human contact due to the use of technology have negative effects on people's lives.）を持つ。ただし、組織が完全に成功しているわけではない。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "文法の誤りがいくつか見られる。例えば、\"Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives\" で、\"thinks\" は \"think\" に修正すべき。また、\"they not need to leave their houses\" は \"they do not need to leave their houses\" に修正すべき。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "一般的な語彙が使用されているが、より具体的な単語の使用が限られている。例えば、\"Technology allows people to complete many tasks without having contact with others\" は一般的な表現だが、より具体的な単語やフレーズの使用が少ない。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "複雑な文法構造の使用が限られている。例えば、\"However, I think the limitation of human contact due to the use of technology have negative effects because people prefers to shop on online than stores, people use more technology to talk, and also children plays with technology than with another person or toys.\" は複雑な構造だが、文法的にも誤りがある。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:57:48.549343+09:00"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "phase": "pilot-and-full",
+  "started_at": "2026-11-15T18:15:40.673556+09:00",
+  "error": "Traceback (most recent call last):\n  File \"/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/src/recsaver/rater_feedback_pilot_v2.py\", line 691, in main\n    phase='pilot' if args.phase in ['pilot','pilot-and-full'] else 'full'\nKeyboardInterrupt\n",
+  "ended_at": "2026-11-15T18:38:42.859153+09:00"
+}

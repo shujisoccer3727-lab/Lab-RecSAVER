@@ -1,0 +1,116 @@
+{
+  "candidate_key": "A|5268:1|K2",
+  "masked_reason": {
+    "rationale": "文章組織は一般的に制御されているが、複雑な文法構造の使用に誤りがあり、単語の選択が時折正確でない。全体的なコミュニケーションは、言語の不正確さにより一部阻害される。",
+    "unexplained": "全体的なコミュニケーションが言語の不正確さにより阻害される具体的な例が不明瞭。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U002",
+          "5268:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "一般的に制御された組織",
+        "score_relation": "一致",
+        "support_explanation": "文章は全体的に論理的に展開されている。",
+        "limits": "一部の文は複雑な構造を持つが、全体的な組織は明確である。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U005",
+          "5268:1@U015"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "複雑な文法構造の誤り",
+        "score_relation": "一致",
+        "support_explanation": "複雑な文法構造の使用に誤りがある。",
+        "limits": "一部の文は単純な構造を持つが、複雑な文法構造の誤りが存在する。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U005",
+          "5268:1@U011"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "direction": "negative",
+        "feature": "単語の選択が時折正確でない",
+        "score_relation": "一致",
+        "support_explanation": "単語の選択が時折正確でない。",
+        "limits": "一部の単語は適切に使用されているが、全体的に正確さに欠ける。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U005",
+          "5268:1@U015"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文法と使用の誤り",
+        "score_relation": "一致",
+        "support_explanation": "文法と使用の誤りがある。",
+        "limits": "一部の文は正確だが、全体的に誤りが存在する。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C04"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

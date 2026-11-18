@@ -1,0 +1,75 @@
+{
+  "fingerprint": "78319b5d1e28c56e9dffb8fe5c8f21e82aaa49e3c6fa5c9653cc99807b04236c",
+  "result": {
+    "patterns": [
+      {
+        "pattern_id": "P1",
+        "feature_context": "頻繁な文法エラーと誤用がコミュニケーションを阻害し、文法的ミスと単語の選択の不適切さが具体的に見られる。",
+        "repeated_judgment": "評価が低い理由",
+        "inferred_tendency": "採用された個別理由では、頻繁な文法エラーと誤用がコミュニケーションを阻害し、文法的ミスと単語の選択の不適切さが具体的に見られるため、評価が低い理由として説明されている。",
+        "support": [
+          {
+            "target_id": "474:1",
+            "claim_ids": [
+              "474:1/K1/C1",
+              "474:1/K1/C2",
+              "474:1/K1/C3",
+              "474:1/K1/C4",
+              "474:1/K2/C1",
+              "474:1/K2/C2",
+              "474:1/K2/C3",
+              "474:1/K2/C4"
+            ]
+          },
+          {
+            "target_id": "2832:2",
+            "claim_ids": [
+              "2832:2/K1/C1",
+              "2832:2/K1/C2",
+              "2832:2/K1/C3",
+              "2832:2/K1/C4",
+              "2832:2/K2/C1",
+              "2832:2/K2/C2",
+              "2832:2/K2/C3",
+              "2832:2/K2/C4"
+            ]
+          }
+        ],
+        "counterexamples": [],
+        "non_applicable": [],
+        "insufficient_target_ids": [],
+        "limits": "全体の頻度を断定できない。"
+      },
+      {
+        "pattern_id": "P2",
+        "feature_context": "文章は全体的に組織化されており、文法と慣用句の使用は正確で、コミュニケーションがほとんど阻害されないが、文法と慣用句の使用に時折見られる誤りが、評価を4に抑えている。",
+        "repeated_judgment": "評価が4に抑えられている理由",
+        "inferred_tendency": "採用された個別理由では、文章は全体的に組織化されており、文法と慣用句の使用は正確で、コミュニケーションがほとんど阻害されないが、文法と慣用句の使用に時折見られる誤りが、評価を4に抑えているため、評価が4に抑えられている理由として説明されている。",
+        "support": [
+          {
+            "target_id": "406:1",
+            "claim_ids": [
+              "406:1/K2/C1",
+              "406:1/K2/C2"
+            ]
+          },
+          {
+            "target_id": "2853:2",
+            "claim_ids": [
+              "2853:2/K2/C1",
+              "2853:2/K2/C2",
+              "2853:2/K2/C3",
+              "2853:2/K2/C4"
+            ]
+          }
+        ],
+        "counterexamples": [],
+        "non_applicable": [],
+        "insufficient_target_ids": [],
+        "limits": "誤りが全体的なコミュニケーションを阻害するほどではない。"
+      }
+    ],
+    "unknowns": "No two eligible candidates; cross-candidate agreement cannot be judged"
+  },
+  "timestamp": "2026-11-15T20:08:52.120488+09:00"
+}

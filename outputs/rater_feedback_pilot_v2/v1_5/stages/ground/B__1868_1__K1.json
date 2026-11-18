@@ -1,0 +1,35 @@
+{
+  "fingerprint": "5eb4e4d8b26456e791fdda96d8f7862096d29c68b83320c719a0bb2ea56b9017",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "複雑な文の形成に誤りがある例が見られる。例えば、「The main piece to improve your skills is during the process of keep learning.」は「keep」の前に「to」が欠けており、文法的に正確な複雑な文の形成に誤りがある。ただし、一部の複雑な文は正確に形成されているため、この主張は一部の範囲で支持される。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "微妙な単語の意味の正確な使用が不足している例が見られる。例えば、「The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.」では、「believe」の前に「to」が欠けている。しかし、一部の単語は正確に使用されているため、この主張は一部の範囲で支持される。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "文法と使用に誤りがある例が見られる。例えば、「The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.」では、「keep」の前に「to」が欠けている。しかし、誤りは一部であり、全体のコミュニケーションは阻害されないため、この主張は一部の範囲で支持される。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "スペリング、大文字、句読点の誤りが時々目立つ例が見られる。例えば、「teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother.」では、「considering a kid」や「have to been each」が不自然で、スペリングや句読点の誤りがある。しかし、誤りは一部であり、全体のコミュニケーションは阻害されないため、この主張は一部の範囲で支持される。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T18:30:50.816964+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_3/stages/ground/B__1868_1__K1.json",
+  "source_fingerprint": "bb46044821b8e4b4cad70178ed7052d1bc69aeefbc20400070ff0ab06859e254",
+  "reuse_recorded_at": "2026-11-15T18:46:27.023409+09:00"
+}

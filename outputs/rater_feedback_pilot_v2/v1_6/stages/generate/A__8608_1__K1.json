@@ -1,0 +1,206 @@
+{
+  "fingerprint": "21f19a6cd15715c9a7e31d16dff66d9dd0eb36c7d64e581acafd275265ea46ba",
+  "result": {
+    "rationale": "文章在语法和词汇使用上存在一些错误，影响了整体的流畅性和准确性。尽管有尝试使用较为复杂的句子结构，但错误的频率和类型限制了表达的清晰度。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "aspect": "Overall",
+        "kind": "communication",
+        "feature": "语言准确性不足，影响沟通",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "符合",
+        "condition_ids": [
+          "Overall.S3.C04"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "多个句子存在语法和词汇错误，影响了整体表达。",
+        "limits": "部分句子表达清晰，但错误影响整体效果。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U001",
+            "start": 0,
+            "end": 36,
+            "text": "mean people think that self-esteem. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U002",
+            "start": 36,
+            "end": 61,
+            "text": "Is aren by working hard. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U005",
+            "start": 189,
+            "end": 309,
+            "text": "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "复杂句结构使用中存在错误",
+        "span_ids": [
+          "8608:1@U005",
+          "8608:1@U006",
+          "8608:1@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "符合",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "复杂句结构中存在错误，影响句子的清晰度。",
+        "limits": "简单句结构使用较为准确。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U005",
+            "start": 189,
+            "end": 309,
+            "text": "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.\r\n"
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U006",
+            "start": 309,
+            "end": 405,
+            "text": "\r\nThat can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U008",
+            "start": 445,
+            "end": 592,
+            "text": "and they will love u even when u feel sad,mad,or if u just want something that u can cuddle with and just doing that well help u with self-esteem. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "词汇使用有限，尝试使用复杂词汇但不准确",
+        "span_ids": [
+          "8608:1@U005",
+          "8608:1@U006",
+          "8608:1@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "符合",
+        "condition_ids": [
+          "Vocabulary.S3.C04"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "尝试使用复杂词汇，但准确性不足。",
+        "limits": "部分词汇使用准确。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U005",
+            "start": 189,
+            "end": 309,
+            "text": "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.\r\n"
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U006",
+            "start": 309,
+            "end": 405,
+            "text": "\r\nThat can help a lot with you self-esteem and if that dont help you the go buy a dog or a cat. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U008",
+            "start": 445,
+            "end": 592,
+            "text": "and they will love u even when u feel sad,mad,or if u just want something that u can cuddle with and just doing that well help u with self-esteem. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "语法错误频繁",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "符合",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "多个句子存在语法错误。",
+        "limits": "部分句子语法正确。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U001",
+            "start": 0,
+            "end": 36,
+            "text": "mean people think that self-esteem. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U002",
+            "start": 36,
+            "end": 61,
+            "text": "Is aren by working hard. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U005",
+            "start": 189,
+            "end": 309,
+            "text": "And when u feel like every one and life get to hard just know that if u go for a run or go out with family or friends.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文章中关于自我价值提升的具体建议较为零散，缺乏系统性，这可能是评分较低的原因之一。"
+  },
+  "timestamp": "2026-11-15T19:17:27.622136+09:00"
+}

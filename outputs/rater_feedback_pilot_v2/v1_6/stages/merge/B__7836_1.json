@@ -1,0 +1,71 @@
+{
+  "fingerprint": "a9aedf762051a555066e287f32abbf9b775175cc044416e0918b4947b0499e77",
+  "result": {
+    "groups": [
+      {
+        "summary": "組織と文法の正確性が制限され、誤りがコミュニケーションを妨げる。具体的には、文法的な誤りや単純な構文の使用が見られる。",
+        "claim_ids": [
+          "7836:1/K1/C1",
+          "7836:1/K1/C2",
+          "7836:1/K2/C1",
+          "7836:1/K2/C4"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "基本的な単語と単純な構文の使用。単語の範囲が限られている。",
+        "claim_ids": [
+          "7836:1/K1/C3",
+          "7836:1/K2/C3"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "基本的なフレーズの繰り返し。",
+        "claim_ids": [
+          "7836:1/K1/C4"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "文のつながりが不明瞭で、論理的な流れが欠けている。",
+        "claim_ids": [
+          "7836:1/K2/C2"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "differences": [
+      {
+        "description": "文法と慣用句の誤用が強調されている。",
+        "claim_ids": [
+          "7836:1/K2/C1"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "文のつながりが不明瞭で、論理的な流れが欠けている。",
+        "claim_ids": [
+          "7836:1/K2/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "単語の範囲が限られている。",
+        "claim_ids": [
+          "7836:1/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "複雑な文法構造の使用が限られている。",
+        "claim_ids": [
+          "7836:1/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:02:58.818717+09:00"
+}

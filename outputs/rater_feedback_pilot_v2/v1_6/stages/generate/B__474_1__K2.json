@@ -1,0 +1,208 @@
+{
+  "fingerprint": "f69ad298d0f4b9b1579c303ed4fdba032545ed956e5ef6af20cb30386b2f7ecb",
+  "result": {
+    "rationale": "文章の構成が不十分で、文法や語彙の使用に多くの誤りがあり、全体的なコミュニケーションが阻害されている。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "474:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章の構成が不十分で、論理的な流れが欠けている。",
+        "span_ids": [
+          "474:1@U001",
+          "474:1@U002",
+          "474:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Overall.S2.C01",
+          "Overall.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章の最初の部分は論理的な流れが欠けている。",
+        "limits": "全体の文章構成が不十分であるため、一部の文は理解しにくい。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U001",
+            "start": 0,
+            "end": 34,
+            "text": "We all dose mistake in our life . "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U002",
+            "start": 34,
+            "end": 99,
+            "text": "If your going from failure to failure without loss enthusiasm\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U003",
+            "start": 99,
+            "end": 326,
+            "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "474:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法の誤りが頻繁に見られる。",
+        "span_ids": [
+          "474:1@U001",
+          "474:1@U002",
+          "474:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Grammar.S2.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法の誤りが頻繁に見られる。",
+        "limits": "一部の文法誤りは理解を阻害する可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U001",
+            "start": 0,
+            "end": 34,
+            "text": "We all dose mistake in our life . "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U002",
+            "start": 34,
+            "end": 99,
+            "text": "If your going from failure to failure without loss enthusiasm\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U003",
+            "start": 99,
+            "end": 326,
+            "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "474:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "語彙の範囲が狭く、基本的な意味しか伝えられない。",
+        "span_ids": [
+          "474:1@U001",
+          "474:1@U002",
+          "474:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Vocabulary.S2.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "語彙の範囲が狭く、基本的な意味しか伝えられない。",
+        "limits": "語彙の範囲が狭いため、より複雑な概念を表現する能力が制限される。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U001",
+            "start": 0,
+            "end": 34,
+            "text": "We all dose mistake in our life . "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U002",
+            "start": 34,
+            "end": 99,
+            "text": "If your going from failure to failure without loss enthusiasm\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U003",
+            "start": 99,
+            "end": 326,
+            "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "474:1",
+        "aspect": "Conventions",
+        "kind": "presence",
+        "feature": "スペル、大文字、句読点の誤りが頻繁に見られる。",
+        "span_ids": [
+          "474:1@U001",
+          "474:1@U002",
+          "474:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Conventions.S2.C01",
+          "Conventions.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "スペル、大文字、句読点の誤りが頻繁に見られる。",
+        "limits": "誤りが頻繁に見られるため、全体的な読みやすさが低下する。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U001",
+            "start": 0,
+            "end": 34,
+            "text": "We all dose mistake in our life . "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U002",
+            "start": 34,
+            "end": 99,
+            "text": "If your going from failure to failure without loss enthusiasm\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U003",
+            "start": 99,
+            "end": 326,
+            "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文章の一部は理解しにくいが、全体的な意味を把握するための十分な証拠が存在する。"
+  },
+  "timestamp": "2026-11-15T19:35:02.661247+09:00"
+}

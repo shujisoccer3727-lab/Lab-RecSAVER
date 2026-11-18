@@ -1,0 +1,1453 @@
+{
+  "fingerprint": "293d13e6795a05f6a1a95da8cf4e05bfd2a5aeb222056255ef649ed7e0a9efb2",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "8487:1/K1/C1",
+          "8487:1/K1/C2",
+          "8487:1/K1/C3",
+          "8487:1/K1/C4"
+        ],
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U002",
+          "8487:1@U003",
+          "8487:1@U004",
+          "8487:1@U005",
+          "8487:1@U006",
+          "8487:1@U007",
+          "8487:1@U008",
+          "8487:1@U009",
+          "8487:1@U010",
+          "8487:1@U011",
+          "8487:1@U012",
+          "8487:1@U013",
+          "8487:1@U014",
+          "8487:1@U015",
+          "8487:1@U016",
+          "8487:1@U017",
+          "8487:1@U018"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "8487:1@U001",
+            "tokens": [
+              "something",
+              "the",
+              "people",
+              "are",
+              "idle",
+              "they",
+              "doesn't",
+              "work",
+              "for",
+              "they",
+              "life",
+              "the",
+              "future",
+              "are",
+              "preparing",
+              "in",
+              "the",
+              "life",
+              "if",
+              "you",
+              "are",
+              "idle",
+              "you",
+              "not",
+              "a",
+              "good",
+              "person",
+              "because",
+              "you",
+              "need",
+              "to",
+              "know",
+              "how",
+              "is",
+              "your",
+              "future",
+              "your",
+              "goals",
+              "if",
+              "you",
+              "want",
+              "a",
+              "good",
+              "work",
+              "or",
+              "something",
+              "how",
+              "a",
+              "big",
+              "home",
+              "a",
+              "car",
+              "of",
+              "the",
+              "year",
+              "a",
+              "good",
+              "life",
+              "in",
+              "little",
+              "words"
+            ],
+            "relation": "主語と動詞の関係が不明瞭で、文法と構文に誤りがある。",
+            "interpretation": "「something the people are idle they doesn't work for they life」など、主語と動詞の関係が不明瞭な文が見られる。全体のコミュニケーションが阻害される。",
+            "token_positions": [
+              {
+                "token": "something",
+                "start": 0,
+                "end": 9
+              },
+              {
+                "token": "something",
+                "start": 219,
+                "end": 228
+              },
+              {
+                "token": "the",
+                "start": 10,
+                "end": 13
+              },
+              {
+                "token": "the",
+                "start": 62,
+                "end": 65
+              },
+              {
+                "token": "the",
+                "start": 90,
+                "end": 93
+              },
+              {
+                "token": "the",
+                "start": 253,
+                "end": 256
+              },
+              {
+                "token": "people",
+                "start": 14,
+                "end": 20
+              },
+              {
+                "token": "are",
+                "start": 21,
+                "end": 24
+              },
+              {
+                "token": "are",
+                "start": 73,
+                "end": 76
+              },
+              {
+                "token": "are",
+                "start": 106,
+                "end": 109
+              },
+              {
+                "token": "idle",
+                "start": 25,
+                "end": 29
+              },
+              {
+                "token": "idle",
+                "start": 110,
+                "end": 114
+              },
+              {
+                "token": "they",
+                "start": 30,
+                "end": 34
+              },
+              {
+                "token": "they",
+                "start": 52,
+                "end": 56
+              },
+              {
+                "token": "doesn't",
+                "start": 35,
+                "end": 42
+              },
+              {
+                "token": "work",
+                "start": 43,
+                "end": 47
+              },
+              {
+                "token": "work",
+                "start": 211,
+                "end": 215
+              },
+              {
+                "token": "for",
+                "start": 48,
+                "end": 51
+              },
+              {
+                "token": "they",
+                "start": 30,
+                "end": 34
+              },
+              {
+                "token": "they",
+                "start": 52,
+                "end": 56
+              },
+              {
+                "token": "life",
+                "start": 57,
+                "end": 61
+              },
+              {
+                "token": "life",
+                "start": 94,
+                "end": 98
+              },
+              {
+                "token": "life",
+                "start": 269,
+                "end": 273
+              },
+              {
+                "token": "the",
+                "start": 10,
+                "end": 13
+              },
+              {
+                "token": "the",
+                "start": 62,
+                "end": 65
+              },
+              {
+                "token": "the",
+                "start": 90,
+                "end": 93
+              },
+              {
+                "token": "the",
+                "start": 253,
+                "end": 256
+              },
+              {
+                "token": "future",
+                "start": 66,
+                "end": 72
+              },
+              {
+                "token": "future",
+                "start": 174,
+                "end": 180
+              },
+              {
+                "token": "are",
+                "start": 21,
+                "end": 24
+              },
+              {
+                "token": "are",
+                "start": 73,
+                "end": 76
+              },
+              {
+                "token": "are",
+                "start": 106,
+                "end": 109
+              },
+              {
+                "token": "preparing",
+                "start": 77,
+                "end": 86
+              },
+              {
+                "token": "in",
+                "start": 87,
+                "end": 89
+              },
+              {
+                "token": "in",
+                "start": 274,
+                "end": 276
+              },
+              {
+                "token": "the",
+                "start": 10,
+                "end": 13
+              },
+              {
+                "token": "the",
+                "start": 62,
+                "end": 65
+              },
+              {
+                "token": "the",
+                "start": 90,
+                "end": 93
+              },
+              {
+                "token": "the",
+                "start": 253,
+                "end": 256
+              },
+              {
+                "token": "life",
+                "start": 57,
+                "end": 61
+              },
+              {
+                "token": "life",
+                "start": 94,
+                "end": 98
+              },
+              {
+                "token": "life",
+                "start": 269,
+                "end": 273
+              },
+              {
+                "token": "if",
+                "start": 99,
+                "end": 101
+              },
+              {
+                "token": "if",
+                "start": 192,
+                "end": 194
+              },
+              {
+                "token": "you",
+                "start": 102,
+                "end": 105
+              },
+              {
+                "token": "you",
+                "start": 115,
+                "end": 118
+              },
+              {
+                "token": "you",
+                "start": 145,
+                "end": 148
+              },
+              {
+                "token": "you",
+                "start": 195,
+                "end": 198
+              },
+              {
+                "token": "are",
+                "start": 21,
+                "end": 24
+              },
+              {
+                "token": "are",
+                "start": 73,
+                "end": 76
+              },
+              {
+                "token": "are",
+                "start": 106,
+                "end": 109
+              },
+              {
+                "token": "idle",
+                "start": 25,
+                "end": 29
+              },
+              {
+                "token": "idle",
+                "start": 110,
+                "end": 114
+              },
+              {
+                "token": "you",
+                "start": 102,
+                "end": 105
+              },
+              {
+                "token": "you",
+                "start": 115,
+                "end": 118
+              },
+              {
+                "token": "you",
+                "start": 145,
+                "end": 148
+              },
+              {
+                "token": "you",
+                "start": 195,
+                "end": 198
+              },
+              {
+                "token": "not",
+                "start": 119,
+                "end": 122
+              },
+              {
+                "token": "a",
+                "start": 123,
+                "end": 124
+              },
+              {
+                "token": "a",
+                "start": 204,
+                "end": 205
+              },
+              {
+                "token": "a",
+                "start": 233,
+                "end": 234
+              },
+              {
+                "token": "a",
+                "start": 244,
+                "end": 245
+              },
+              {
+                "token": "a",
+                "start": 262,
+                "end": 263
+              },
+              {
+                "token": "good",
+                "start": 125,
+                "end": 129
+              },
+              {
+                "token": "good",
+                "start": 206,
+                "end": 210
+              },
+              {
+                "token": "good",
+                "start": 264,
+                "end": 268
+              },
+              {
+                "token": "person",
+                "start": 130,
+                "end": 136
+              },
+              {
+                "token": "because",
+                "start": 137,
+                "end": 144
+              },
+              {
+                "token": "you",
+                "start": 102,
+                "end": 105
+              },
+              {
+                "token": "you",
+                "start": 115,
+                "end": 118
+              },
+              {
+                "token": "you",
+                "start": 145,
+                "end": 148
+              },
+              {
+                "token": "you",
+                "start": 195,
+                "end": 198
+              },
+              {
+                "token": "need",
+                "start": 149,
+                "end": 153
+              },
+              {
+                "token": "to",
+                "start": 154,
+                "end": 156
+              },
+              {
+                "token": "know",
+                "start": 157,
+                "end": 161
+              },
+              {
+                "token": "how",
+                "start": 162,
+                "end": 165
+              },
+              {
+                "token": "how",
+                "start": 229,
+                "end": 232
+              },
+              {
+                "token": "is",
+                "start": 166,
+                "end": 168
+              },
+              {
+                "token": "your",
+                "start": 169,
+                "end": 173
+              },
+              {
+                "token": "your",
+                "start": 181,
+                "end": 185
+              },
+              {
+                "token": "future",
+                "start": 66,
+                "end": 72
+              },
+              {
+                "token": "future",
+                "start": 174,
+                "end": 180
+              },
+              {
+                "token": "your",
+                "start": 169,
+                "end": 173
+              },
+              {
+                "token": "your",
+                "start": 181,
+                "end": 185
+              },
+              {
+                "token": "goals",
+                "start": 186,
+                "end": 191
+              },
+              {
+                "token": "if",
+                "start": 99,
+                "end": 101
+              },
+              {
+                "token": "if",
+                "start": 192,
+                "end": 194
+              },
+              {
+                "token": "you",
+                "start": 102,
+                "end": 105
+              },
+              {
+                "token": "you",
+                "start": 115,
+                "end": 118
+              },
+              {
+                "token": "you",
+                "start": 145,
+                "end": 148
+              },
+              {
+                "token": "you",
+                "start": 195,
+                "end": 198
+              },
+              {
+                "token": "want",
+                "start": 199,
+                "end": 203
+              },
+              {
+                "token": "a",
+                "start": 123,
+                "end": 124
+              },
+              {
+                "token": "a",
+                "start": 204,
+                "end": 205
+              },
+              {
+                "token": "a",
+                "start": 233,
+                "end": 234
+              },
+              {
+                "token": "a",
+                "start": 244,
+                "end": 245
+              },
+              {
+                "token": "a",
+                "start": 262,
+                "end": 263
+              },
+              {
+                "token": "good",
+                "start": 125,
+                "end": 129
+              },
+              {
+                "token": "good",
+                "start": 206,
+                "end": 210
+              },
+              {
+                "token": "good",
+                "start": 264,
+                "end": 268
+              },
+              {
+                "token": "work",
+                "start": 43,
+                "end": 47
+              },
+              {
+                "token": "work",
+                "start": 211,
+                "end": 215
+              },
+              {
+                "token": "or",
+                "start": 216,
+                "end": 218
+              },
+              {
+                "token": "something",
+                "start": 0,
+                "end": 9
+              },
+              {
+                "token": "something",
+                "start": 219,
+                "end": 228
+              },
+              {
+                "token": "how",
+                "start": 162,
+                "end": 165
+              },
+              {
+                "token": "how",
+                "start": 229,
+                "end": 232
+              },
+              {
+                "token": "a",
+                "start": 123,
+                "end": 124
+              },
+              {
+                "token": "a",
+                "start": 204,
+                "end": 205
+              },
+              {
+                "token": "a",
+                "start": 233,
+                "end": 234
+              },
+              {
+                "token": "a",
+                "start": 244,
+                "end": 245
+              },
+              {
+                "token": "a",
+                "start": 262,
+                "end": 263
+              },
+              {
+                "token": "big",
+                "start": 235,
+                "end": 238
+              },
+              {
+                "token": "home",
+                "start": 239,
+                "end": 243
+              },
+              {
+                "token": "a",
+                "start": 123,
+                "end": 124
+              },
+              {
+                "token": "a",
+                "start": 204,
+                "end": 205
+              },
+              {
+                "token": "a",
+                "start": 233,
+                "end": 234
+              },
+              {
+                "token": "a",
+                "start": 244,
+                "end": 245
+              },
+              {
+                "token": "a",
+                "start": 262,
+                "end": 263
+              },
+              {
+                "token": "car",
+                "start": 246,
+                "end": 249
+              },
+              {
+                "token": "of",
+                "start": 250,
+                "end": 252
+              },
+              {
+                "token": "the",
+                "start": 10,
+                "end": 13
+              },
+              {
+                "token": "the",
+                "start": 62,
+                "end": 65
+              },
+              {
+                "token": "the",
+                "start": 90,
+                "end": 93
+              },
+              {
+                "token": "the",
+                "start": 253,
+                "end": 256
+              },
+              {
+                "token": "year",
+                "start": 257,
+                "end": 261
+              },
+              {
+                "token": "a",
+                "start": 123,
+                "end": 124
+              },
+              {
+                "token": "a",
+                "start": 204,
+                "end": 205
+              },
+              {
+                "token": "a",
+                "start": 233,
+                "end": 234
+              },
+              {
+                "token": "a",
+                "start": 244,
+                "end": 245
+              },
+              {
+                "token": "a",
+                "start": 262,
+                "end": 263
+              },
+              {
+                "token": "good",
+                "start": 125,
+                "end": 129
+              },
+              {
+                "token": "good",
+                "start": 206,
+                "end": 210
+              },
+              {
+                "token": "good",
+                "start": 264,
+                "end": 268
+              },
+              {
+                "token": "life",
+                "start": 57,
+                "end": 61
+              },
+              {
+                "token": "life",
+                "start": 94,
+                "end": 98
+              },
+              {
+                "token": "life",
+                "start": 269,
+                "end": 273
+              },
+              {
+                "token": "in",
+                "start": 87,
+                "end": 89
+              },
+              {
+                "token": "in",
+                "start": 274,
+                "end": 276
+              },
+              {
+                "token": "little",
+                "start": 277,
+                "end": 283
+              },
+              {
+                "token": "words",
+                "start": 284,
+                "end": 289
+              }
+            ]
+          },
+          {
+            "span_id": "8487:1@U002",
+            "tokens": [
+              "in",
+              "the",
+              "life",
+              "if",
+              "i",
+              "want",
+              "some",
+              "to",
+              "I",
+              "like",
+              "i",
+              "need",
+              "to",
+              "work",
+              "for",
+              "i",
+              "have",
+              "the",
+              "life",
+              "are",
+              "beautiful",
+              "but",
+              "if",
+              "you",
+              "not",
+              "proposing",
+              "to",
+              "be",
+              "a",
+              "good",
+              "person",
+              "you",
+              "are",
+              "not",
+              "nothing"
+            ],
+            "relation": "主語と動詞の関係が不明瞭で、文法と構文に誤りがある。",
+            "interpretation": "「in the life if i want some to I like i need to work for i have the life are beautiful」など、主語と動詞の関係が不明瞭な文が見られる。全体のコミュニケーションが阻害される。",
+            "token_positions": [
+              {
+                "token": "in",
+                "start": 293,
+                "end": 295
+              },
+              {
+                "token": "the",
+                "start": 296,
+                "end": 299
+              },
+              {
+                "token": "the",
+                "start": 356,
+                "end": 359
+              },
+              {
+                "token": "life",
+                "start": 300,
+                "end": 304
+              },
+              {
+                "token": "life",
+                "start": 360,
+                "end": 364
+              },
+              {
+                "token": "if",
+                "start": 305,
+                "end": 307
+              },
+              {
+                "token": "if",
+                "start": 383,
+                "end": 385
+              },
+              {
+                "token": "i",
+                "start": 308,
+                "end": 309
+              },
+              {
+                "token": "i",
+                "start": 330,
+                "end": 331
+              },
+              {
+                "token": "i",
+                "start": 349,
+                "end": 350
+              },
+              {
+                "token": "want",
+                "start": 310,
+                "end": 314
+              },
+              {
+                "token": "some",
+                "start": 315,
+                "end": 319
+              },
+              {
+                "token": "to",
+                "start": 320,
+                "end": 322
+              },
+              {
+                "token": "to",
+                "start": 337,
+                "end": 339
+              },
+              {
+                "token": "to",
+                "start": 404,
+                "end": 406
+              },
+              {
+                "token": "I",
+                "start": 323,
+                "end": 324
+              },
+              {
+                "token": "like",
+                "start": 325,
+                "end": 329
+              },
+              {
+                "token": "i",
+                "start": 308,
+                "end": 309
+              },
+              {
+                "token": "i",
+                "start": 330,
+                "end": 331
+              },
+              {
+                "token": "i",
+                "start": 349,
+                "end": 350
+              },
+              {
+                "token": "need",
+                "start": 332,
+                "end": 336
+              },
+              {
+                "token": "to",
+                "start": 320,
+                "end": 322
+              },
+              {
+                "token": "to",
+                "start": 337,
+                "end": 339
+              },
+              {
+                "token": "to",
+                "start": 404,
+                "end": 406
+              },
+              {
+                "token": "work",
+                "start": 340,
+                "end": 344
+              },
+              {
+                "token": "for",
+                "start": 345,
+                "end": 348
+              },
+              {
+                "token": "i",
+                "start": 308,
+                "end": 309
+              },
+              {
+                "token": "i",
+                "start": 330,
+                "end": 331
+              },
+              {
+                "token": "i",
+                "start": 349,
+                "end": 350
+              },
+              {
+                "token": "have",
+                "start": 351,
+                "end": 355
+              },
+              {
+                "token": "the",
+                "start": 296,
+                "end": 299
+              },
+              {
+                "token": "the",
+                "start": 356,
+                "end": 359
+              },
+              {
+                "token": "life",
+                "start": 300,
+                "end": 304
+              },
+              {
+                "token": "life",
+                "start": 360,
+                "end": 364
+              },
+              {
+                "token": "are",
+                "start": 365,
+                "end": 368
+              },
+              {
+                "token": "are",
+                "start": 428,
+                "end": 431
+              },
+              {
+                "token": "beautiful",
+                "start": 369,
+                "end": 378
+              },
+              {
+                "token": "but",
+                "start": 379,
+                "end": 382
+              },
+              {
+                "token": "if",
+                "start": 305,
+                "end": 307
+              },
+              {
+                "token": "if",
+                "start": 383,
+                "end": 385
+              },
+              {
+                "token": "you",
+                "start": 386,
+                "end": 389
+              },
+              {
+                "token": "you",
+                "start": 424,
+                "end": 427
+              },
+              {
+                "token": "not",
+                "start": 390,
+                "end": 393
+              },
+              {
+                "token": "not",
+                "start": 432,
+                "end": 435
+              },
+              {
+                "token": "proposing",
+                "start": 394,
+                "end": 403
+              },
+              {
+                "token": "to",
+                "start": 320,
+                "end": 322
+              },
+              {
+                "token": "to",
+                "start": 337,
+                "end": 339
+              },
+              {
+                "token": "to",
+                "start": 404,
+                "end": 406
+              },
+              {
+                "token": "be",
+                "start": 407,
+                "end": 409
+              },
+              {
+                "token": "a",
+                "start": 410,
+                "end": 411
+              },
+              {
+                "token": "good",
+                "start": 412,
+                "end": 416
+              },
+              {
+                "token": "person",
+                "start": 417,
+                "end": 423
+              },
+              {
+                "token": "you",
+                "start": 386,
+                "end": 389
+              },
+              {
+                "token": "you",
+                "start": 424,
+                "end": 427
+              },
+              {
+                "token": "are",
+                "start": 365,
+                "end": 368
+              },
+              {
+                "token": "are",
+                "start": 428,
+                "end": 431
+              },
+              {
+                "token": "not",
+                "start": 390,
+                "end": 393
+              },
+              {
+                "token": "not",
+                "start": 432,
+                "end": 435
+              },
+              {
+                "token": "nothing",
+                "start": 436,
+                "end": 443
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S2.C01",
+          "Overall.S2.C02",
+          "Cohesion.S2.C01",
+          "Cohesion.S2.C02",
+          "Vocabulary.S2.C01",
+          "Vocabulary.S2.C02",
+          "Phraseology.S2.C01",
+          "Phraseology.S2.C02",
+          "Grammar.S2.C01",
+          "Conventions.S2.C01",
+          "Conventions.S2.C02"
+        ],
+        "feature_confirmed": "文章組織が不明瞭で、文法と構文に多くの誤りがあり。単語の選択とフレーズの使用が制限的で正確性に欠けるため、コミュニケーションが阻害される。",
+        "inferred_judgment": "評価が低い理由は、文章組織が不明瞭で、文法と構文に多くの誤りがあり、単語の選択とフレーズの使用が制限的で正確性に欠けるため、コミュニケーションが阻害されるからである。",
+        "rubric_based_proposal": "Overall.S2.C01, Overall.S2.C02, Cohesion.S2.C01, Cohesion.S2.C02, Vocabulary.S2.C01, Vocabulary.S2.C02, Phraseology.S2.C01, Phraseology.S2.C02, Grammar.S2.C01, Conventions.S2.C01, Conventions.S2.C02の条件を満たす。頻繁な文法と構文の誤りがコミュニケーションを阻害するため、Overallの段階2が妥当である。",
+        "agreement_review_unknown": "全体の頻度を断定しない。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "8487:1@U001",
+              "8487:1@U002"
+            ],
+            "finding": "主語と動詞の関係が不明瞭で、文法と構文に誤りがある。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "主語と動詞の関係が不明瞭な文を確認する。",
+          "where_span_ids": [
+            "8487:1@U001",
+            "8487:1@U002"
+          ],
+          "action": "主語と動詞の関係を確認し、文法と構文の誤りを修正する。",
+          "reason": "主語と動詞の関係が不明瞭な文がコミュニケーションを阻害するため、これらの誤りを確認し、修正する必要がある。"
+        },
+        "scope_limit": "全体の頻度を断定しない。",
+        "citations": [
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U001",
+            "start": 0,
+            "end": 293,
+            "text": "something the people are idle they doesn't work for they life the future are preparing in the life if you are idle you not a good person because you need to know how is your future your goals if you want a good work or something how a big home a car of the year a good life in little words\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U002",
+            "start": 293,
+            "end": 447,
+            "text": "in the life if i want some to I like i need to work for i have the life are beautiful but if you not proposing to be a good person you are not nothing\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U003",
+            "start": 447,
+            "end": 496,
+            "text": "example you dont have money you something not\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U004",
+            "start": 496,
+            "end": 552,
+            "text": "earing you need to pay the rent you phone some thing\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U005",
+            "start": 552,
+            "end": 766,
+            "text": "you life are sad and this is how the people die because they drink you think a bad things in your head you smook marihuana or other sustances this people are not have future in the life they dont have a nothing\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U006",
+            "start": 766,
+            "end": 847,
+            "text": "planing the life they think in only drink and bad things are you going to die\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U007",
+            "start": 847,
+            "end": 1135,
+            "text": "my mom tell me one day i not in this life for so much time so you are lonely and i need to know you have your goals you need to complete the school you need the paper to say you graduate if you not finish school you are not nothing in your life because the principal thing if you need\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U008",
+            "start": 1135,
+            "end": 1207,
+            "text": "is graduate for star your goals and the other thing you have planing\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U009",
+            "start": 1207,
+            "end": 1286,
+            "text": "too she tell me you dont have friends in this life but you dont have enmity\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U010",
+            "start": 1286,
+            "end": 1688,
+            "text": "because the people are bad you need to ensure choose your friends who help you who with you in the good and bad moments in the only person to know is your mother you dont enmesh with the people who tell you coming with me to drink o other things because you go to the state to police and you life is finish in this little room pay for thing you dont have nothing but how you are with the bad person\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U011",
+            "start": 1688,
+            "end": 2108,
+            "text": "something too some little girls are violate and have a children when she was a 13 o 14 years and the boy who's pregnant live or her dont know where is he, is bad because the family too dont help her so she need to work for have a good future the her boy or girl and is a working hard because you are the mother and the father too you have so much responsabilities to pay the babysitter for you baby when you working and "
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U012",
+            "start": 2108,
+            "end": 2303,
+            "text": "when you comback you are tired but you children need to earing or some is sick you need to go to the hospital you not a good life and other people are chilling they know not about they future\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U013",
+            "start": 2303,
+            "end": 2480,
+            "text": "my goals is i want to be a police but first need to finish the school graduate i have a dora and she is my inpiration to be a big person because i have a beautiful girl went\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U014",
+            "start": 2480,
+            "end": 2717,
+            "text": "i wake up i see her and she is my motivation to go my dreams i go with so much countris with Generic_Name have a big house have my car too but for all this i need to working hard god is with you in all the time the only in this world\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U015",
+            "start": 2717,
+            "end": 3034,
+            "text": "so try to be a good person you are not a idle no body are a bad person only go your dreams your goals for a have a good future with you mom or your childrens you husband or youy woman the life is beautiful for to be a happy try and try because in your future you see your dreams and you dont need for other person\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U016",
+            "start": 3034,
+            "end": 3058,
+            "text": "because you have all\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U017",
+            "start": 3058,
+            "end": 3381,
+            "text": "you help other persons to dont no about the life and they is hurt but if you try you have all the life is beautiful for have all do you want but working hard and go your dreams for you are a good person in this life and you dont need to for a other person you are so big you are not idle only work hard and you have all\r\n\r\n"
+          },
+          {
+            "essay_id": "8487:1",
+            "span_id": "8487:1@U018",
+            "start": 3381,
+            "end": 3639,
+            "text": "some people too have not money live in houses not good but this people has a more dreams in the life how other person to have all so try and you have all taht my good word                                                                                       "
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S2.C01",
+            "aspect": "Overall",
+            "level": 2,
+            "text": "Inconsistent facility in sentence formation, word choice, and mechanics;",
+            "parent_id": "Overall.S2",
+            "parent_text": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+            "start": 0,
+            "end": 72,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S2.C02",
+            "aspect": "Overall",
+            "level": 2,
+            "text": "organization partially developed but may be missing or unsuccessful.",
+            "parent_id": "Overall.S2",
+            "parent_text": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+            "start": 73,
+            "end": 141,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Cohesion.S2.C01",
+            "aspect": "Cohesion",
+            "level": 2,
+            "text": "Organization only partially developed with a lack of logical sequencing of ideas;",
+            "parent_id": "Cohesion.S2",
+            "parent_text": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+            "start": 0,
+            "end": 81,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Cohesion.S2.C02",
+            "aspect": "Cohesion",
+            "level": 2,
+            "text": "some basic cohesive devices used but with inaccuracy or repetition.",
+            "parent_id": "Cohesion.S2",
+            "parent_text": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+            "start": 82,
+            "end": 149,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S2.C01",
+            "aspect": "Vocabulary",
+            "level": 2,
+            "text": "Narrow range of vocabulary to convey basic and elementary meaning;",
+            "parent_id": "Vocabulary.S2",
+            "parent_text": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+            "start": 0,
+            "end": 66,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S2.C02",
+            "aspect": "Vocabulary",
+            "level": 2,
+            "text": "topic related terms used inappropri ately;",
+            "parent_id": "Vocabulary.S2",
+            "parent_text": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+            "start": 67,
+            "end": 109,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Phraseology.S2.C01",
+            "aspect": "Phraseology",
+            "level": 2,
+            "text": "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning;",
+            "parent_id": "Phraseology.S2",
+            "parent_text": "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and /or misuses of phrases.",
+            "start": 0,
+            "end": 111,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Phraseology.S2.C02",
+            "aspect": "Phraseology",
+            "level": 2,
+            "text": "many repetitions and /or misuses of phrases.",
+            "parent_id": "Phraseology.S2",
+            "parent_text": "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and /or misuses of phrases.",
+            "start": 112,
+            "end": 156,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Grammar.S2.C01",
+            "aspect": "Grammar",
+            "level": 2,
+            "text": "Many errors in grammar and usage.",
+            "parent_id": "Grammar.S2",
+            "parent_text": "Many errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S2.C01",
+            "aspect": "Conventions",
+            "level": 2,
+            "text": "Variable use of conventions;",
+            "parent_id": "Conventions.S2",
+            "parent_text": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting.",
+            "start": 0,
+            "end": 28,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S2.C02",
+            "aspect": "Conventions",
+            "level": 2,
+            "text": "spelling, capitalization, and punctuation errors frequent and distracting.",
+            "parent_id": "Conventions.S2",
+            "parent_text": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting.",
+            "start": 29,
+            "end": 103,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:35:27.122973+09:00"
+}

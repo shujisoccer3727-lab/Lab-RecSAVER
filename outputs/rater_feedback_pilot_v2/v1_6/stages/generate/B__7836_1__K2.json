@@ -1,0 +1,177 @@
+{
+  "fingerprint": "e5c95141045cf547429eaf438154314faeec192e10bfeec0a7b3d0944a1e8464",
+  "result": {
+    "rationale": "本文は一般的な構造と単純な文法を使用しているが、複雑な文法構造や多様な単語の使用は限られている。文のつながりは一部で不明瞭で、文法と慣用句の誤用が見られる。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "7836:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文法と慣用句の誤用",
+        "span_ids": [
+          "7836:1@U002",
+          "7836:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Overall.S3.C03",
+          "Grammar.S3.C01",
+          "Phraseology.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と慣用句の誤用が見られる。",
+        "limits": "全体的な頻度は不明瞭",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U002",
+            "start": 19,
+            "end": 82,
+            "text": "I think if the student want to required for community service. "
+          },
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U003",
+            "start": 82,
+            "end": 135,
+            "text": "They cant make the students to do community service. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "7836:1",
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "feature": "文のつながりが不明瞭",
+        "span_ids": [
+          "7836:1@U004",
+          "7836:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Cohesion.S3.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文のつながりが不明瞭で、論理的な流れが欠けている。",
+        "limits": "全体的な頻度は不明瞭",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U004",
+            "start": 135,
+            "end": 232,
+            "text": "I am pretty sure they can't make the students to do community service because the parents won't. "
+          },
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U005",
+            "start": 232,
+            "end": 331,
+            "text": "But if the student get in trouble then yes they have to because they have to do community service. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "7836:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "単語の範囲が限られている",
+        "span_ids": [
+          "7836:1@U006",
+          "7836:1@U007"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語の範囲が限られている。",
+        "limits": "全体的な頻度は不明瞭",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U006",
+            "start": 331,
+            "end": 455,
+            "text": "Also some student care about the community so they do those stuff like clean the streets pick up trash and all those stuff. "
+          },
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U007",
+            "start": 455,
+            "end": 610,
+            "text": "One of my family cares about the community so every Saturdays she goes with some her friends and clean so she one the person that care about the community."
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "7836:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文法構造の使用が限られている",
+        "span_ids": [
+          "7836:1@U002",
+          "7836:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が低い理由",
+        "condition_ids": [
+          "Syntax.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文法構造の使用が限られている。",
+        "limits": "全体的な頻度は不明瞭",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U002",
+            "start": 19,
+            "end": 82,
+            "text": "I think if the student want to required for community service. "
+          },
+          {
+            "essay_id": "7836:1",
+            "span_id": "7836:1@U003",
+            "start": 82,
+            "end": 135,
+            "text": "They cant make the students to do community service. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体的な組織と文法の正確性についての評価が低い理由は不明瞭。"
+  },
+  "timestamp": "2026-11-15T19:41:32.954777+09:00"
+}

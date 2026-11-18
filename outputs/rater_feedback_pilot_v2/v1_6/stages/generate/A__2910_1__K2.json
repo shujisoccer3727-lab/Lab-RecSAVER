@@ -1,0 +1,207 @@
+{
+  "fingerprint": "f436f663586d943b46365109580ea027b209d8701e61bbdd8677b78428dff7ce",
+  "result": {
+    "rationale": "文章の組織と文法に一貫性があり、しかし、複雑な文の形成や正確な単語の使用に誤りがあるため、全体的な評価は3とされた。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2910:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "組織と文法の正確性",
+        "span_ids": [
+          "2910:1@U001",
+          "2910:1@U002",
+          "2910:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "支持",
+        "condition_ids": [
+          "Overall.S3.C02",
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章の組織と文法の正確性が観察される。",
+        "limits": "複雑な文の形成や単語の使用に誤りがある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U001",
+            "start": 0,
+            "end": 220,
+            "text": "I agree with the Emerson's statement because when you have a mastered you work better on the something to do, with the mastered you get better opportunities,you get better position than the people no have the mastered.\r\n"
+          },
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U002",
+            "start": 220,
+            "end": 389,
+            "text": "\r\nNevertheless not everybody agree this opinion, some people disagree because sometime people with not have mastered make better the job than the people with mastered.\r\n"
+          },
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U003",
+            "start": 389,
+            "end": 518,
+            "text": "\r\nFirst, when you have a mastered your work better on this sometime to do, because this people have years to study and practice. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2910:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文の形成の誤り",
+        "span_ids": [
+          "2910:1@U004",
+          "2910:1@U008",
+          "2910:1@U011"
+        ],
+        "direction": "negative",
+        "score_relation": "支持",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に誤りがある。",
+        "limits": "単純な文は正確に形成されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U004",
+            "start": 518,
+            "end": 693,
+            "text": "For example in restaurant wen you have a mastered on chef you only need to memorize the recipes, other people need to memorize the condiment's, the tools, and the machines\r\n\r\n"
+          },
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U008",
+            "start": 828,
+            "end": 1014,
+            "text": "For example some companies need you have a mastered for the job or the position, is like a some restaurants if you want to work like manager you need a mastered and you get more money.\r\n"
+          },
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U011",
+            "start": 1119,
+            "end": 1389,
+            "text": "For example if on restaurant need people for kitchen, manager and dish washer with mastered you get the position of manager and the people with not have mastered is more probably put in dish washer and if he want to work with manager need more time and work more hard.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2910:1",
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "feature": "単語の使用の正確性",
+        "span_ids": [
+          "2910:1@U001",
+          "2910:1@U002",
+          "2910:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "支持",
+        "condition_ids": [
+          "Vocabulary.S3.C04"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語の使用に誤りがある。",
+        "limits": "一部の単語は正確に使用されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U001",
+            "start": 0,
+            "end": 220,
+            "text": "I agree with the Emerson's statement because when you have a mastered you work better on the something to do, with the mastered you get better opportunities,you get better position than the people no have the mastered.\r\n"
+          },
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U002",
+            "start": 220,
+            "end": 389,
+            "text": "\r\nNevertheless not everybody agree this opinion, some people disagree because sometime people with not have mastered make better the job than the people with mastered.\r\n"
+          },
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U003",
+            "start": 389,
+            "end": 518,
+            "text": "\r\nFirst, when you have a mastered your work better on this sometime to do, because this people have years to study and practice. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2910:1",
+        "aspect": "Phraseology",
+        "kind": "range",
+        "feature": "フレーズの使用の多様性",
+        "span_ids": [
+          "2910:1@U004",
+          "2910:1@U008",
+          "2910:1@U011"
+        ],
+        "direction": "negative",
+        "score_relation": "支持",
+        "condition_ids": [
+          "Phraseology.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "フレーズの使用に誤りと繰り返しがある。",
+        "limits": "一部のフレーズは正確に使用されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U004",
+            "start": 518,
+            "end": 693,
+            "text": "For example in restaurant wen you have a mastered on chef you only need to memorize the recipes, other people need to memorize the condiment's, the tools, and the machines\r\n\r\n"
+          },
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U008",
+            "start": 828,
+            "end": 1014,
+            "text": "For example some companies need you have a mastered for the job or the position, is like a some restaurants if you want to work like manager you need a mastered and you get more money.\r\n"
+          },
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U011",
+            "start": 1119,
+            "end": 1389,
+            "text": "For example if on restaurant need people for kitchen, manager and dish washer with mastered you get the position of manager and the people with not have mastered is more probably put in dish washer and if he want to work with manager need more time and work more hard.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体的な評価が3である理由の一部は、複雑な文の形成や単語の使用に誤りがあるためであるが、それ以外の理由は不明である。"
+  },
+  "timestamp": "2026-11-15T19:28:25.630354+09:00"
+}

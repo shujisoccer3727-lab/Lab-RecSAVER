@@ -1,0 +1,32 @@
+{
+  "fingerprint": "9634a13cc4086ab0a2daf8398a4fc0616748f00f02a1c2238eeadfa040bba1bf",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文章展示了良好的语言使用能力，语法和词汇使用准确。引用了多个段落，展示了语法和词汇的准确使用。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "语法和词汇使用准确。引用了多个段落，展示了语法和词汇的准确使用。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "词汇使用准确。引用了多个段落，展示了词汇的准确使用。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "uncertain",
+        "explanation": "虽然提到了存在一些语言不准确的情况，但未详细说明具体不准确的情况，因此无法完全确认。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:56:57.285066+09:00"
+}

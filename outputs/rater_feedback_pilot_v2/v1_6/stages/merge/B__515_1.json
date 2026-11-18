@@ -1,0 +1,90 @@
+{
+  "fingerprint": "b341ef2ea24b971f2a722074942f5f2d2e9cbcb9a0d461be65c98cd5de395790",
+  "result": {
+    "groups": [
+      {
+        "summary": "文章は全体的な構造を保有しているが、文法や語彙の正確性に問題がある。ただし、全体的な一貫性は維持されている。",
+        "claim_ids": [
+          "515:1/K1/C1",
+          "515:1/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "特定のトピックに関連する用語を適切に使用しているが、微妙な単語の意味の正確な使用に課題がある。",
+        "claim_ids": [
+          "515:1/K2/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "複雑な文の形成に課題があり、理解が阻害される。単純な文と複雑な文の両方が存在する。",
+        "claim_ids": [
+          "515:1/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "文法に誤りがあり、理解が阻害される。ただし、誤りが頻繁に見られるわけではない。",
+        "claim_ids": [
+          "515:1/K1/C2",
+          "515:1/K2/C4"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "語彙の範囲が限定的で、正確な単語の使用が不足している。ただし、特定のトピックに関連する用語は適切に使用されている。",
+        "claim_ids": [
+          "515:1/K1/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "スペリングや句読点の誤りが存在し、コミュニケーションに影響を及ぼす。",
+        "claim_ids": [
+          "515:1/K1/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "differences": [
+      {
+        "description": "文法の誤りが頻繁に見られる。",
+        "claim_ids": [
+          "515:1/K1/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "複雑な文の形成に課題がある。",
+        "claim_ids": [
+          "515:1/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "文法に誤りがあるが、頻度は低い。",
+        "claim_ids": [
+          "515:1/K2/C4"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "文章の構成と文法に一貫性があるが、複雑な文の形成に課題がある。",
+        "claim_ids": [
+          "515:1/K2/C1"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "特定のトピックに関連する用語を適切に使用しているが、微妙な単語の意味の正確な使用に課題がある。",
+        "claim_ids": [
+          "515:1/K2/C2"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:03:49.676028+09:00"
+}

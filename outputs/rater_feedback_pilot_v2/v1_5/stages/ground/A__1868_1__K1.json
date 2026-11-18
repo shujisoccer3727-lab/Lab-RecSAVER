@@ -1,0 +1,35 @@
+{
+  "fingerprint": "e231b72d18ffcba62a709e85e1dfe93ddc83f9a44a2eefb91a005112f9e9cdcf",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "複雑な文の形成と単語の使用に誤りがあるという指摘は、対象の文において確認できる。例えば、「The main piece to improve your skills is during the process of keep learning.」という文は、「keep learning」の前に「to」が欠けている。また、「Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward.」という文も、「got to the point」の代わりに「have reached the point」のような表現がより適切である可能性がある。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "組織が一貫性があるが、一部に誤りがあるという指摘は、対象の文において確認できる。例えば、「I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career.」という文は、文の構造が複雑で、一部の単語の使用に誤りがある。また、「The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.」という文も、「keep learning」の前に「to」が欠けている。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "複雑な文の形成に誤りがあるという指摘は、対象の文において確認できる。例えば、「Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother.」という文は、文の構造が複雑で、一部の単語の使用に誤りがある。「have to been each to be a mother」の部分は、「have to be taught to be a mother」のような表現がより適切である可能性がある。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "単語の使用に誤りがあるという指摘は、対象の文において確認できる。例えば、「There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.」という文は、「details you how」の部分が不自然で、「details how」や「explains how」のような表現がより適切である可能性がある。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T18:30:50.753898+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_3/stages/ground/A__1868_1__K1.json",
+  "source_fingerprint": "7da557294b67b297860002bc16e68a505bc61b04260c126c417084365c390be8",
+  "reuse_recorded_at": "2026-11-15T18:46:26.945538+09:00"
+}

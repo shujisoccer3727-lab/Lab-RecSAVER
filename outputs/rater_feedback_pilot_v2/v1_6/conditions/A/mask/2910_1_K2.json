@@ -1,0 +1,135 @@
+{
+  "candidate_key": "A|2910:1|K2",
+  "masked_reason": {
+    "rationale": "文章の組織と文法に一貫性があり、しかし、複雑な文の形成や正確な単語の使用に誤りがあるため、全体的な[得点表現除去]とされた。",
+    "unexplained": "全体的な[得点表現除去]である理由の一部は、複雑な文の形成や単語の使用に誤りがあるためであるが、それ以外の理由は不明である。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2910:1",
+        "span_ids": [
+          "2910:1@U001",
+          "2910:1@U002",
+          "2910:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "組織と文法の正確性",
+        "score_relation": "支持",
+        "support_explanation": "文章の組織と文法の正確性が観察される。",
+        "limits": "複雑な文の形成や単語の使用に誤りがある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2910:1",
+        "span_ids": [
+          "2910:1@U004",
+          "2910:1@U008",
+          "2910:1@U011"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "複雑な文の形成の誤り",
+        "score_relation": "支持",
+        "support_explanation": "複雑な文の形成に誤りがある。",
+        "limits": "単純な文は正確に形成されている。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2910:1",
+        "span_ids": [
+          "2910:1@U001",
+          "2910:1@U002",
+          "2910:1@U003"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "direction": "negative",
+        "feature": "単語の使用の正確性",
+        "score_relation": "支持",
+        "support_explanation": "単語の使用に誤りがある。",
+        "limits": "一部の単語は正確に使用されている。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2910:1",
+        "span_ids": [
+          "2910:1@U004",
+          "2910:1@U008",
+          "2910:1@U011"
+        ],
+        "aspect": "Phraseology",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "フレーズの使用の多様性",
+        "score_relation": "支持",
+        "support_explanation": "フレーズの使用に誤りと繰り返しがある。",
+        "limits": "一部のフレーズは正確に使用されている。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "rationale",
+      "start": 49,
+      "end": 53,
+      "original": "評価は3",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_label",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "unexplained",
+      "start": 4,
+      "end": 8,
+      "original": "評価が3",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_label",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C02",
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C04"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Phraseology.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

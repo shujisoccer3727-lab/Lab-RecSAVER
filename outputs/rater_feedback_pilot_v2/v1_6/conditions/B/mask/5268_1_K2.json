@@ -1,0 +1,117 @@
+{
+  "candidate_key": "B|5268:1|K2",
+  "masked_reason": {
+    "rationale": "文章整体结构较为清晰，但存在一些语法和词汇使用上的小错误，影响了表达的准确性。",
+    "unexplained": "文章中存在一些表达上的不准确，但具体影响程度难以量化。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U002",
+          "5268:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "文章结构较为清晰，逻辑连贯。",
+        "score_relation": "支持整体评分",
+        "support_explanation": "文章结构清晰，逻辑连贯。",
+        "limits": "部分句子结构较为简单，缺乏复杂性。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U005",
+          "5268:1@U010"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "存在一些语法错误，影响表达。",
+        "score_relation": "影响整体评分",
+        "support_explanation": "存在一些语法错误，影响表达。",
+        "limits": "错误数量不多，但影响了表达的准确性。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "span_ids": [
+          "5268:1@U003",
+          "5268:1@U005",
+          "5268:1@U010"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "mixed",
+        "feature": "词汇使用较为广泛，但存在一些不准确的用词。",
+        "score_relation": "部分支持，部分影响整体评分",
+        "support_explanation": "词汇使用较为广泛，但存在一些不准确的用词。",
+        "limits": "不准确的用词影响了表达的准确性。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "5268:1",
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U005",
+          "5268:1@U010"
+        ],
+        "aspect": "Conventions",
+        "kind": "appropriateness",
+        "direction": "negative",
+        "feature": "拼写和标点符号错误较少，但存在。",
+        "score_relation": "影响整体评分",
+        "support_explanation": "拼写和标点符号错误较少，但存在。",
+        "limits": "错误数量不多，但影响了表达的准确性。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C01",
+        "Vocabulary.S3.C04"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Conventions.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

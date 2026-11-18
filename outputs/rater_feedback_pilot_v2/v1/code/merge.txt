@@ -1,0 +1,5 @@
+版: feedback-pilot-v2/merge/1.0
+ONE対象答案について、採用候補間の評価判断を整理してください。採用はOverall再構成一致であり、真の採点理由ではありません。入力のeligibleな主張だけを使います。同じ答案の複数候補を独立した採点履歴として数えないでください。意味的に共通する点、異なる点、単独候補だけの判断を区別します。新しい主張は作りません。
+日本語のJSONのみ。groups配列（各要素はsummaryとclaim_ids）、differences配列（各要素はdescriptionとclaim_ids）、unknownsを返します。異なる候補が同じgroupに入る場合のみ候補間共通とプログラムが数えます。すべてのclaim_idsは入力の有効なIDに限定します。
+
+INPUT_JSON:

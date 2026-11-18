@@ -1,0 +1,11 @@
+{
+  "version": "feedback-pilot-v2/1.3",
+  "previous": "v1_2",
+  "previous_failure": "array unexplained caused TypeError during masking after ten valid candidate outputs; two candidates exhausted bounded format retries",
+  "changes": [
+    "preserve and mask non-string explanations with an explicit normalization log",
+    "new generate prompt requires string unexplained and concise fields",
+    "increase fixed output budgets identically across A/B; regenerate candidates in new output directory"
+  ],
+  "old_outputs_retained": true
+}

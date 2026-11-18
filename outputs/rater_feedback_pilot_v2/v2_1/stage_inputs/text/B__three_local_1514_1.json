@@ -1,0 +1,485 @@
+{
+  "topic": {
+    "topic_id": "local_1514:1",
+    "status": "common_judgment_undetermined",
+    "pattern": null,
+    "claim_ids": [
+      "1514:1/K1/C1",
+      "1514:1/K1/C2",
+      "1514:1/K1/C3",
+      "1514:1/K1/C4"
+    ]
+  },
+  "claims": {
+    "1514:1/K1/C1": {
+      "claim_id": "C1",
+      "scope": "target",
+      "essay_id": "1514:1",
+      "aspect": "Cohesion",
+      "span_ids": [
+        "1514:1@U001",
+        "1514:1@U002",
+        "1514:1@U003",
+        "1514:1@U004",
+        "1514:1@U005",
+        "1514:1@U006",
+        "1514:1@U007",
+        "1514:1@U008",
+        "1514:1@U009",
+        "1514:1@U010",
+        "1514:1@U011",
+        "1514:1@U012",
+        "1514:1@U013",
+        "1514:1@U014",
+        "1514:1@U015",
+        "1514:1@U016",
+        "1514:1@U017",
+        "1514:1@U018",
+        "1514:1@U019"
+      ],
+      "feature": "The essay uses cohesive devices such as transitional phrases and examples to connect ideas across sentences and paragraphs.",
+      "evaluation": "The text organization is generally well-controlled, with appropriate overlap of ideas.",
+      "judgment_type": "presence",
+      "direction": "positive",
+      "overall_relation": "The cohesive structure supports the overall score of 3, indicating a controlled organization with some repetitive or mechanical use of cohesive devices.",
+      "trait_relation": "The cohesion judgment aligns with the trait score of 4, showing a generally well-controlled organization with a range of cohesive devices used appropriately.",
+      "limits": "The essay could benefit from more varied and sophisticated cohesive devices to enhance the logical flow between ideas.",
+      "evidence": [
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U001",
+          "start": 0,
+          "end": 203,
+          "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U002",
+          "start": 203,
+          "end": 317,
+          "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U003",
+          "start": 317,
+          "end": 404,
+          "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U004",
+          "start": 404,
+          "end": 529,
+          "text": "In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U005",
+          "start": 529,
+          "end": 685,
+          "text": "\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U006",
+          "start": 685,
+          "end": 825,
+          "text": "He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U007",
+          "start": 825,
+          "end": 926,
+          "text": "Also, he took classes that would help him improve his skills and understanding of his future career. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U008",
+          "start": 926,
+          "end": 1050,
+          "text": "Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U009",
+          "start": 1050,
+          "end": 1137,
+          "text": "This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U010",
+          "start": 1137,
+          "end": 1257,
+          "text": "\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U011",
+          "start": 1257,
+          "end": 1392,
+          "text": "At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U012",
+          "start": 1392,
+          "end": 1516,
+          "text": "That was the moment when Hitler decided to do something different, and experience something new that could change his life. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U013",
+          "start": 1516,
+          "end": 1555,
+          "text": "With hard work and patience he did it. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U014",
+          "start": 1555,
+          "end": 1644,
+          "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U015",
+          "start": 1644,
+          "end": 1998,
+          "text": "\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U016",
+          "start": 1998,
+          "end": 2156,
+          "text": "You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U017",
+          "start": 2156,
+          "end": 2355,
+          "text": "\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U018",
+          "start": 2355,
+          "end": 2365,
+          "text": "You'll\r\n\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U019",
+          "start": 2365,
+          "end": 2583,
+          "text": "never know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. "
+        }
+      ],
+      "id": "1514:1/K1/C1",
+      "target_id": "1514:1",
+      "candidate_index": 1,
+      "grounding_review": {
+        "claim_id": "C1",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "文章は接続詞や例を用いてアイデアを接続し、全体的な組織が適切に制御されている。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      "eligible_for_integration": true,
+      "effective_evidence_ids": [
+        "1514:1@U001",
+        "1514:1@U002",
+        "1514:1@U003",
+        "1514:1@U004",
+        "1514:1@U005",
+        "1514:1@U006",
+        "1514:1@U007",
+        "1514:1@U008",
+        "1514:1@U009",
+        "1514:1@U010",
+        "1514:1@U011",
+        "1514:1@U012",
+        "1514:1@U013",
+        "1514:1@U014",
+        "1514:1@U015",
+        "1514:1@U016",
+        "1514:1@U017",
+        "1514:1@U018",
+        "1514:1@U019"
+      ]
+    }
+  },
+  "issues": {
+    "B|three_local_1514:1_1514:1/I1": {
+      "issue_id": "I1",
+      "claim_ids": [
+        "1514:1/K1/C1"
+      ],
+      "span_ids": [
+        "1514:1@U001",
+        "1514:1@U002",
+        "1514:1@U003",
+        "1514:1@U004",
+        "1514:1@U005",
+        "1514:1@U006",
+        "1514:1@U007",
+        "1514:1@U008",
+        "1514:1@U009",
+        "1514:1@U010",
+        "1514:1@U011",
+        "1514:1@U012",
+        "1514:1@U013",
+        "1514:1@U014",
+        "1514:1@U015",
+        "1514:1@U016",
+        "1514:1@U017",
+        "1514:1@U018",
+        "1514:1@U019"
+      ],
+      "feature_confirmed": "文章は接続詞や例を用いてアイデアを接続し、全体的な組織が適切に制御されている。",
+      "inferred_judgment": "文章は接続詞や例を用いてアイデアを接続し、全体的な組織が適切に制御されている。",
+      "condition_ids": [
+        "Cohesion.S3.C01",
+        "Cohesion.S3.C02",
+        "Cohesion.S3.C03"
+      ],
+      "rubric_based_proposal": "文章は接続詞や例を用いてアイデアを接続し、全体的な組織が適切に制御されている。ただし、接続詞の使用は限られている。",
+      "agreement": "文章は接続詞や例を用いてアイデアを接続し、全体的な組織が適切に制御されている。",
+      "review": "文章は接続詞や例を用いてアイデアを接続し、全体的な組織が適切に制御されている。ただし、接続詞の使用は限られている。",
+      "unknowns": "",
+      "conclusion_scope": "local_only",
+      "next_action": {
+        "actor": "rater",
+        "evaluation_target": "Cohesion",
+        "distinguish": "接続詞の使用が限られていることと、より多様な接続詞を使用することの違い",
+        "procedure": "接続詞の使用が限られている箇所を特定し、より多様な接続詞を使用する可能性を評価する",
+        "criterion_relation": "Cohesion.S3.C02"
+      },
+      "id": "B|three_local_1514:1_1514:1/I1",
+      "target_id": "1514:1",
+      "citations": [
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U001",
+          "start": 0,
+          "end": 203,
+          "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U002",
+          "start": 203,
+          "end": 317,
+          "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U003",
+          "start": 317,
+          "end": 404,
+          "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U004",
+          "start": 404,
+          "end": 529,
+          "text": "In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U005",
+          "start": 529,
+          "end": 685,
+          "text": "\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U006",
+          "start": 685,
+          "end": 825,
+          "text": "He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U007",
+          "start": 825,
+          "end": 926,
+          "text": "Also, he took classes that would help him improve his skills and understanding of his future career. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U008",
+          "start": 926,
+          "end": 1050,
+          "text": "Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U009",
+          "start": 1050,
+          "end": 1137,
+          "text": "This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U010",
+          "start": 1137,
+          "end": 1257,
+          "text": "\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U011",
+          "start": 1257,
+          "end": 1392,
+          "text": "At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U012",
+          "start": 1392,
+          "end": 1516,
+          "text": "That was the moment when Hitler decided to do something different, and experience something new that could change his life. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U013",
+          "start": 1516,
+          "end": 1555,
+          "text": "With hard work and patience he did it. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U014",
+          "start": 1555,
+          "end": 1644,
+          "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U015",
+          "start": 1644,
+          "end": 1998,
+          "text": "\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U016",
+          "start": 1998,
+          "end": 2156,
+          "text": "You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U017",
+          "start": 2156,
+          "end": 2355,
+          "text": "\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U018",
+          "start": 2355,
+          "end": 2365,
+          "text": "You'll\r\n\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U019",
+          "start": 2365,
+          "end": 2583,
+          "text": "never know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. "
+        }
+      ],
+      "official_conditions": [
+        {
+          "condition_id": "Cohesion.S3.C01",
+          "aspect": "Cohesion",
+          "level": 3,
+          "text": "Organization generally controlled;",
+          "parent_id": "Cohesion.S3",
+          "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+          "start": 0,
+          "end": 34,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Cohesion.S3.C02",
+          "aspect": "Cohesion",
+          "level": 3,
+          "text": "cohesive devices used but limited in type;",
+          "parent_id": "Cohesion.S3",
+          "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+          "start": 35,
+          "end": 77,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Cohesion.S3.C03",
+          "aspect": "Cohesion",
+          "level": 3,
+          "text": "Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+          "parent_id": "Cohesion.S3",
+          "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+          "start": 78,
+          "end": 184,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        }
+      ],
+      "machine_checks": {
+        "citations_exact": true,
+        "condition_ids_exact": true,
+        "overall_score_not_determined": true
+      }
+    }
+  },
+  "conditions": {
+    "Cohesion.S3.C01": {
+      "condition_id": "Cohesion.S3.C01",
+      "aspect": "Cohesion",
+      "level": 3,
+      "text": "Organization generally controlled;",
+      "parent_id": "Cohesion.S3",
+      "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+      "start": 0,
+      "end": 34,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Cohesion.S3.C02": {
+      "condition_id": "Cohesion.S3.C02",
+      "aspect": "Cohesion",
+      "level": 3,
+      "text": "cohesive devices used but limited in type;",
+      "parent_id": "Cohesion.S3",
+      "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+      "start": 35,
+      "end": 77,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Cohesion.S3.C03": {
+      "condition_id": "Cohesion.S3.C03",
+      "aspect": "Cohesion",
+      "level": 3,
+      "text": "Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+      "parent_id": "Cohesion.S3",
+      "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+      "start": 78,
+      "end": 184,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    }
+  }
+}

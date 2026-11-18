@@ -1,0 +1,484 @@
+{
+  "fingerprint": "175e19089ff34bd85f2ecd0f792ebd9d10d0bd986bde942dbf183b7063d75ac8",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "8317:2/K1/C1",
+          "8317:2/K2/C1"
+        ],
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002",
+          "8317:2@U003",
+          "8317:2@U004"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "8317:2@U001",
+            "tokens": [
+              "Would",
+              "it",
+              "be",
+              "surprising",
+              "to",
+              "know",
+              "that",
+              "kids",
+              "that",
+              "learn",
+              "at",
+              "home",
+              "don't",
+              "have",
+              "to",
+              "stress",
+              "as",
+              "much"
+            ],
+            "relation": "conditional",
+            "interpretation": "この文は条件文であり、「家庭で学ぶ子供たちがストレスを感じないことは驚くべきことか？」という問いを投げかけている。文法的には正確だが、複雑な文法構造の使用は限定的である。",
+            "token_positions": [
+              {
+                "token": "Would",
+                "start": 0,
+                "end": 5
+              },
+              {
+                "token": "it",
+                "start": 6,
+                "end": 8
+              },
+              {
+                "token": "be",
+                "start": 9,
+                "end": 11
+              },
+              {
+                "token": "be",
+                "start": 169,
+                "end": 171
+              },
+              {
+                "token": "surprising",
+                "start": 12,
+                "end": 22
+              },
+              {
+                "token": "to",
+                "start": 23,
+                "end": 25
+              },
+              {
+                "token": "to",
+                "start": 71,
+                "end": 73
+              },
+              {
+                "token": "to",
+                "start": 133,
+                "end": 135
+              },
+              {
+                "token": "to",
+                "start": 316,
+                "end": 318
+              },
+              {
+                "token": "to",
+                "start": 378,
+                "end": 380
+              },
+              {
+                "token": "know",
+                "start": 26,
+                "end": 30
+              },
+              {
+                "token": "that",
+                "start": 31,
+                "end": 35
+              },
+              {
+                "token": "that",
+                "start": 41,
+                "end": 45
+              },
+              {
+                "token": "that",
+                "start": 153,
+                "end": 157
+              },
+              {
+                "token": "kids",
+                "start": 36,
+                "end": 40
+              },
+              {
+                "token": "kids",
+                "start": 202,
+                "end": 206
+              },
+              {
+                "token": "that",
+                "start": 31,
+                "end": 35
+              },
+              {
+                "token": "that",
+                "start": 41,
+                "end": 45
+              },
+              {
+                "token": "that",
+                "start": 153,
+                "end": 157
+              },
+              {
+                "token": "learn",
+                "start": 46,
+                "end": 51
+              },
+              {
+                "token": "at",
+                "start": 52,
+                "end": 54
+              },
+              {
+                "token": "at",
+                "start": 410,
+                "end": 412
+              },
+              {
+                "token": "home",
+                "start": 55,
+                "end": 59
+              },
+              {
+                "token": "home",
+                "start": 267,
+                "end": 271
+              },
+              {
+                "token": "home",
+                "start": 413,
+                "end": 417
+              },
+              {
+                "token": "don't",
+                "start": 60,
+                "end": 65
+              },
+              {
+                "token": "have",
+                "start": 66,
+                "end": 70
+              },
+              {
+                "token": "to",
+                "start": 23,
+                "end": 25
+              },
+              {
+                "token": "to",
+                "start": 71,
+                "end": 73
+              },
+              {
+                "token": "to",
+                "start": 133,
+                "end": 135
+              },
+              {
+                "token": "to",
+                "start": 316,
+                "end": 318
+              },
+              {
+                "token": "to",
+                "start": 378,
+                "end": 380
+              },
+              {
+                "token": "stress",
+                "start": 74,
+                "end": 80
+              },
+              {
+                "token": "as",
+                "start": 81,
+                "end": 83
+              },
+              {
+                "token": "much",
+                "start": 84,
+                "end": 88
+              },
+              {
+                "token": "much",
+                "start": 136,
+                "end": 140
+              },
+              {
+                "token": "much",
+                "start": 233,
+                "end": 237
+              }
+            ]
+          },
+          {
+            "span_id": "8317:2@U002",
+            "tokens": [
+              "Learning",
+              "at",
+              "home",
+              "and",
+              "not",
+              "at",
+              "schools",
+              "helps",
+              "kids",
+              "succeed",
+              "and",
+              "have",
+              "better",
+              "grades"
+            ],
+            "relation": "comparison",
+            "interpretation": "この文は学校教育と家庭学習の比較を行っている。文法的には正確だが、より高度な単語やフレーズの使用は限定的である。",
+            "token_positions": [
+              {
+                "token": "Learning",
+                "start": 485,
+                "end": 493
+              },
+              {
+                "token": "at",
+                "start": 494,
+                "end": 496
+              },
+              {
+                "token": "at",
+                "start": 510,
+                "end": 512
+              },
+              {
+                "token": "at",
+                "start": 586,
+                "end": 588
+              },
+              {
+                "token": "home",
+                "start": 497,
+                "end": 501
+              },
+              {
+                "token": "home",
+                "start": 589,
+                "end": 593
+              },
+              {
+                "token": "and",
+                "start": 465,
+                "end": 468
+              },
+              {
+                "token": "and",
+                "start": 502,
+                "end": 505
+              },
+              {
+                "token": "and",
+                "start": 540,
+                "end": 543
+              },
+              {
+                "token": "not",
+                "start": 506,
+                "end": 509
+              },
+              {
+                "token": "at",
+                "start": 494,
+                "end": 496
+              },
+              {
+                "token": "at",
+                "start": 510,
+                "end": 512
+              },
+              {
+                "token": "at",
+                "start": 586,
+                "end": 588
+              },
+              {
+                "token": "schools",
+                "start": 513,
+                "end": 520
+              },
+              {
+                "token": "helps",
+                "start": 521,
+                "end": 526
+              },
+              {
+                "token": "kids",
+                "start": 527,
+                "end": 531
+              },
+              {
+                "token": "succeed",
+                "start": 532,
+                "end": 539
+              },
+              {
+                "token": "and",
+                "start": 465,
+                "end": 468
+              },
+              {
+                "token": "and",
+                "start": 502,
+                "end": 505
+              },
+              {
+                "token": "and",
+                "start": 540,
+                "end": 543
+              },
+              {
+                "token": "have",
+                "start": 544,
+                "end": 548
+              },
+              {
+                "token": "better",
+                "start": 549,
+                "end": 555
+              },
+              {
+                "token": "grades",
+                "start": 556,
+                "end": 562
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S4.C03",
+          "Grammar.S4.C01",
+          "Vocabulary.S4.C01",
+          "Vocabulary.S4.C02"
+        ],
+        "feature_confirmed": "文法と構成は正確で、誤解を招くような言葉遣いが少ない。しかし、複雑な文法構造の使用や、より高度な単語やフレーズの使用は限定的である。",
+        "inferred_judgment": "文法と構成は正確で、誤解を招くような言葉遣いが少ない。しかし、複雑な文法構造の使用や、より高度な単語やフレーズの使用は限定的であるため、Overallの評価は4段階が妥当である。",
+        "rubric_based_proposal": "文法と構成は正確で、誤解を招くような言葉遣いが少ない。しかし、複雑な文法構造の使用や、より高度な単語やフレーズの使用は限定的であるため、Overallの評価は4段階が妥当である。",
+        "agreement_review_unknown": "文法と構成は正確で、誤解を招くような言葉遣いが少ない。しかし、複雑な文法構造の使用や、より高度な単語やフレーズの使用は限定的であるため、Overallの評価は4段階が妥当である。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "8317:2@U001",
+              "8317:2@U002"
+            ],
+            "finding": "文法と構成は正確で、誤解を招くような言葉遣いが少ない。しかし、複雑な文法構造の使用や、より高度な単語やフレーズの使用は限定的である。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "複雑な文法構造の使用や、より高度な単語やフレーズの使用が限定的であることを確認",
+          "where_span_ids": [
+            "8317:2@U001",
+            "8317:2@U002"
+          ],
+          "action": "複雑な文法構造の使用や、より高度な単語やフレーズの使用が限定的であることを確認",
+          "reason": "複雑な文法構造の使用や、より高度な単語やフレーズの使用が限定的であるため、Overallの評価は4段階が妥当である。"
+        },
+        "scope_limit": "複雑な文法構造の使用や、より高度な単語やフレーズの使用が限定的であることを確認",
+        "citations": [
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U001",
+            "start": 0,
+            "end": 420,
+            "text": "Would it be surprising to know that kids that learn at home don't have to stress as much?Stress is mainly caused by students getting to much school work that cannot all be handled in one night.Everyday kids complain about having too much homework and when working in home there is not any homework.Allowing children to work on their own schedule help them become more motivated to work.Students being educated at home ga"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U002",
+            "start": 420,
+            "end": 665,
+            "text": "in more freedom to create their own schedule and their own rules.Learning at home and not at schools helps kids succeed and have better grades.Not only does learning at home provides less distraction,it provides student with flexible schedule.\r\n"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U003",
+            "start": 665,
+            "end": 1085,
+            "text": "\r\nOne of the best thing about homeschooling is that it can be done at anytime.Because it can be done at any time,children have a flexible time schedule which means that the parents can help.The student can work around the parent schedule instead of the parent working around the students schedule.Some students have trouble working around at a school because they cannot understand the materials at the place set by teac"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U004",
+            "start": 1085,
+            "end": 1373,
+            "text": "hers.Homeschooling allows student to work at their own place and at their own schedule.Another thing about homeschooling is that there are no misguided rules about technology or how to dress.This is good because instead of working about the rules,the student can focus on their studies.\r\n"
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S4.C03",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "accuracy in grammar and conventions;",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 112,
+            "end": 148,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Grammar.S4.C01",
+            "aspect": "Grammar",
+            "level": 4,
+            "text": "Minimal errors in grammar and usage.",
+            "parent_id": "Grammar.S4",
+            "parent_text": "Minimal errors in grammar and usage.",
+            "start": 0,
+            "end": 36,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S4.C01",
+            "aspect": "Vocabulary",
+            "level": 4,
+            "text": "Sufficient range of vocabulary to allow flexibility and precision;",
+            "parent_id": "Vocabulary.S4",
+            "parent_text": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+            "start": 0,
+            "end": 66,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S4.C02",
+            "aspect": "Vocabulary",
+            "level": 4,
+            "text": "appropriate use of topic-related terms and less common lexical items",
+            "parent_id": "Vocabulary.S4",
+            "parent_text": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+            "start": 67,
+            "end": 135,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:35:26.995441+09:00"
+}

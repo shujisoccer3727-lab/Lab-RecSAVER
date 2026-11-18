@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-11-15T17:55:16.331500+09:00",
+  "target_summary": [
+    {
+      "rater_id": "rater_7",
+      "unique_targets": 10,
+      "overall_distribution": {
+        "2": 1,
+        "3": 6,
+        "4": 2,
+        "5": 1
+      }
+    },
+    {
+      "rater_id": "rater_17",
+      "unique_targets": 7,
+      "overall_distribution": {
+        "2": 1,
+        "3": 3,
+        "4": 2,
+        "5": 1
+      }
+    },
+    {
+      "rater_id": "rater_4",
+      "unique_targets": 10,
+      "overall_distribution": {
+        "2": 1,
+        "3": 7,
+        "4": 2
+      }
+    }
+  ],
+  "pilot_ids": [
+    "1514:1",
+    "1868:1",
+    "1961:1"
+  ],
+  "conditions": [
+    "A",
+    "B"
+  ],
+  "prepared_candidate_entries": 108,
+  "distinct_generation_inputs": 54,
+  "model_calls_made": 0,
+  "phase": "waiting for GPU; no generated reasoning/feedback yet"
+}

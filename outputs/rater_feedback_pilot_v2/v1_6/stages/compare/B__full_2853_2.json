@@ -1,0 +1,423 @@
+{
+  "fingerprint": "efb4380e6b0750d87f8edccf4259455c90f4f657ccafff13795f8138e6a8c4a7",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "2853:2/K2/C1",
+          "2853:2/K2/C2",
+          "2853:2/K2/C3",
+          "2853:2/K2/C4"
+        ],
+        "span_ids": [
+          "2853:2@U001",
+          "2853:2@U002",
+          "2853:2@U003",
+          "2853:2@U004",
+          "2853:2@U005",
+          "2853:2@U006",
+          "2853:2@U007",
+          "2853:2@U008",
+          "2853:2@U009",
+          "2853:2@U010",
+          "2853:2@U011",
+          "2853:2@U012",
+          "2853:2@U013",
+          "2853:2@U014",
+          "2853:2@U015",
+          "2853:2@U016",
+          "2853:2@U017",
+          "2853:2@U018",
+          "2853:2@U019",
+          "2853:2@U020",
+          "2853:2@U021",
+          "2853:2@U022",
+          "2853:2@U023",
+          "2853:2@U024",
+          "2853:2@U025",
+          "2853:2@U026",
+          "2853:2@U027",
+          "2853:2@U028"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "2853:2@U001",
+            "tokens": [
+              "Is",
+              "better"
+            ],
+            "relation": "主語と述語の関係",
+            "interpretation": "「Is better」の表現は文法的に不正確で、主語と述語の関係が不明瞭。",
+            "token_positions": [
+              {
+                "token": "Is",
+                "start": 0,
+                "end": 2
+              },
+              {
+                "token": "better",
+                "start": 3,
+                "end": 9
+              }
+            ]
+          },
+          {
+            "span_id": "2853:2@U003",
+            "tokens": [
+              "you",
+              "wiil"
+            ],
+            "relation": "主語と動詞の関係",
+            "interpretation": "「wiil」は「will」の誤用で、主語と動詞の関係が不明瞭。",
+            "token_positions": [
+              {
+                "token": "you",
+                "start": 400,
+                "end": 403
+              },
+              {
+                "token": "you",
+                "start": 421,
+                "end": 424
+              },
+              {
+                "token": "you",
+                "start": 466,
+                "end": 469
+              },
+              {
+                "token": "you",
+                "start": 482,
+                "end": 485
+              },
+              {
+                "token": "you",
+                "start": 547,
+                "end": 550
+              },
+              {
+                "token": "you",
+                "start": 653,
+                "end": 656
+              },
+              {
+                "token": "you",
+                "start": 710,
+                "end": 713
+              },
+              {
+                "token": "you",
+                "start": 728,
+                "end": 731
+              },
+              {
+                "token": "you",
+                "start": 761,
+                "end": 764
+              },
+              {
+                "token": "wiil",
+                "start": 470,
+                "end": 474
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S3.C02",
+          "Syntax.S3.C02",
+          "Grammar.S3.C01",
+          "Vocabulary.S3.C03",
+          "Phraseology.S3.C02"
+        ],
+        "feature_confirmed": "文章組織は一般的に制御されており、アイデアの重複や機械的なつながりが見られる。文法と慣用句の使用は正確だが、文法と構文にいくつかの誤りがある。",
+        "inferred_judgment": "観測評価と一致。複雑な文の形成や正確な単語の使用に課題があるため、評価が下がる。",
+        "rubric_based_proposal": "Overall.S3.C02, Syntax.S3.C02, Grammar.S3.C01, Vocabulary.S3.C03, Phraseology.S3.C02の条件を満たすため、評価は3段階が妥当。",
+        "agreement_review_unknown": "複雑な文の形成や正確な単語の使用に課題があるため、評価が下がる可能性がある。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "2853:2@U001",
+              "2853:2@U003"
+            ],
+            "finding": "文法と構文に誤りがある。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "主語と動詞の関係を確認",
+          "where_span_ids": [
+            "2853:2@U001",
+            "2853:2@U003"
+          ],
+          "action": "文法と構文の誤りを確認",
+          "reason": "主語と動詞の関係が不明瞭な箇所を確認する。"
+        },
+        "scope_limit": "複雑な文の形成や正確な単語の使用に課題があるため、評価が下がる可能性がある。",
+        "citations": [
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U001",
+            "start": 0,
+            "end": 113,
+            "text": "Is better for students that are entering high school to know what they want to do after they finish high school? "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U002",
+            "start": 113,
+            "end": 347,
+            "text": "some pleople will say yes but some will say no and they are not wrong or right anwer in thise question is depending in your point of view and how fast you want to achive your goal and how good you want to be in your carrer and work.\r\n"
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U003",
+            "start": 347,
+            "end": 767,
+            "text": "\r\nThe people that say yes they say that because when you know what career you want to take before entering high school you wiil choose you classes better depending in your career and what high school you want to attend because come schools have programs that count like college classes, and in high school you have only four years and that is not enough time for you to choose and you will end up in a carrer that you do"
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U004",
+            "start": 767,
+            "end": 805,
+            "text": "n't like if you choose the wrong one. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U005",
+            "start": 805,
+            "end": 876,
+            "text": "If you know what you want to be you will cofus better in that career . "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U006",
+            "start": 876,
+            "end": 936,
+            "text": "You can join programs to help you more in your goals and\r\n\r\n"
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U007",
+            "start": 936,
+            "end": 989,
+            "text": "when you know your goals you can achive them better. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U008",
+            "start": 989,
+            "end": 1180,
+            "text": "You also will try to see how can you get a scholarchip for your carrer and what college are better for you, and you will mead people that like the same thing as you and you can make friends. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U009",
+            "start": 1180,
+            "end": 1256,
+            "text": "When you join programs some time you can get a scholarchip if you are good. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U010",
+            "start": 1256,
+            "end": 1337,
+            "text": "For example my friend want to join the army so he is taking jrotc to help hem\r\n\r\n"
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U011",
+            "start": 1337,
+            "end": 1439,
+            "text": "do better in the army but my other friend wants to do soccer for college so he is taking advance p.e. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U012",
+            "start": 1439,
+            "end": 1754,
+            "text": "to be in shape and he is also in the school team to get a scholarchip, and me I'm taking business classes to help me know more about business marketing because I want to put my own store and Im putting everything of me to do that because that is my goal and i want to do the best of me in that project of my life.\r\n"
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U013",
+            "start": 1754,
+            "end": 1854,
+            "text": "\r\nPeople that say that you don't have to know what you want to be before you get in to high school. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U014",
+            "start": 1854,
+            "end": 2173,
+            "text": "They say that you can join different programs and see wich one you like the most and you will choose your career from that decition and you will know what's about because some people choose careers that they don't like them maybe because they dind't know the stuff you have to do or they dind't expect to be like that. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U015",
+            "start": 2173,
+            "end": 2266,
+            "text": "Is better to waste four years then wasting your entire live in a career that you don't like. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U016",
+            "start": 2266,
+            "end": 2338,
+            "text": "you sholl try to get a scholarchip that way you don't pay for college.\r\n"
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U017",
+            "start": 2338,
+            "end": 2536,
+            "text": "\r\nIf you dind't have a scholarchip and finish college and you are working in a career that you don't like and you dind't have a sholarchip you are going to be in debt and you are going to pay alot. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U018",
+            "start": 2536,
+            "end": 2861,
+            "text": "If you only study for one year in college and you fell like that career is not for you you have to play for that year and is not cheap so you have to choose your career when you are in high school and see what's about before entering and if you like it because if you don't like that career you are going to waste your time. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U019",
+            "start": 2861,
+            "end": 2995,
+            "text": "For example I dind't know what career I like before high school so I join jrotc and i dind't like it and a teacher told me to take\r\n\r\n"
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U020",
+            "start": 2995,
+            "end": 3068,
+            "text": "business classes and I like it so I chose to do business for my career.\r\n"
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U021",
+            "start": 3068,
+            "end": 3269,
+            "text": "\r\nIn conclution both of them are good options but if you know what you want to be before high school you can see what's that carrer is about in high school and if you dont like it you can change it\r\n\r\n"
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U022",
+            "start": 3269,
+            "end": 3391,
+            "text": "and the other one you will have more chooses because you will not focus in only one career you will see more oportunitis. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U023",
+            "start": 3391,
+            "end": 3428,
+            "text": "Is depending in the choose you make. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U024",
+            "start": 3428,
+            "end": 3539,
+            "text": "All of thise dipend in how you are because evryone is defferent and not everyone is going for the same opsion. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U025",
+            "start": 3539,
+            "end": 3673,
+            "text": "But for both of them you have to do your best in school to achive your goal and get a schoolarchip that way you dont pay for college. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U026",
+            "start": 3673,
+            "end": 3741,
+            "text": "But first of all we have to finish high school and get good greads. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U027",
+            "start": 3741,
+            "end": 3955,
+            "text": "and remember that is only one life so do your best and try to live the life that you want and don't let others tell you that you can't do something just belive in your self and that will be a big change adn wen\r\n\r\n"
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U028",
+            "start": 3955,
+            "end": 4028,
+            "text": "you are in college do your best and do your work and life the live chill."
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C02",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "organization generally controlled although connection sometimes absent or unsuccessful;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 73,
+            "end": 160,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Syntax.S3.C02",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "some apparent errors in sentence formation, especially in more complex sentences.",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 94,
+            "end": 175,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C03",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "topic related terms only used occasionally;",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 94,
+            "end": 137,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Phraseology.S3.C02",
+            "aspect": "Phraseology",
+            "level": 3,
+            "text": "some noticeable repetitions and misuses.",
+            "parent_id": "Phraseology.S3",
+            "parent_text": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+            "start": 99,
+            "end": 139,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:42:49.186961+09:00"
+}

@@ -1,0 +1,209 @@
+{
+  "fingerprint": "d6ca87c91c27aeef4b67e4db52b11db9858d65cf03c457d3ce292de1fadcb678",
+  "result": {
+    "rationale": "文章組織と文法の正確性が制限され、複雑な文の形成に問題があるため、評価が3とされた。また、単語の選択とフレーズの使用は適切だが、文法と構文のエラーがコミュニケーションを阻害している。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章組織が制限され、複雑な文の形成に問題がある",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が3とされた理由",
+        "condition_ids": [
+          "Overall.S3.C02",
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に問題があるため、文章組織が制限されている",
+        "limits": "全体の頻度を断定しない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U001",
+            "start": 0,
+            "end": 36,
+            "text": "mean people think that self-esteem. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U002",
+            "start": 36,
+            "end": 61,
+            "text": "Is aren by working hard. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U003",
+            "start": 61,
+            "end": 152,
+            "text": "but really people just need to be happy with people that dont even care about self-esteem. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法エラーがコミュニケーションを阻害している",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が3とされた理由",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法エラーがコミュニケーションを阻害している",
+        "limits": "全体の頻度を断定しない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U001",
+            "start": 0,
+            "end": 36,
+            "text": "mean people think that self-esteem. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U002",
+            "start": 36,
+            "end": 61,
+            "text": "Is aren by working hard. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U003",
+            "start": 61,
+            "end": 152,
+            "text": "but really people just need to be happy with people that dont even care about self-esteem. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "feature": "単語の選択とフレーズの使用は適切",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "評価が3とされた理由",
+        "condition_ids": [
+          "Vocabulary.S3.C01",
+          "Phraseology.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語の選択とフレーズの使用は適切",
+        "limits": "全体の頻度を断定しない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U001",
+            "start": 0,
+            "end": 36,
+            "text": "mean people think that self-esteem. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U002",
+            "start": 36,
+            "end": 61,
+            "text": "Is aren by working hard. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U003",
+            "start": 61,
+            "end": 152,
+            "text": "but really people just need to be happy with people that dont even care about self-esteem. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "feature": "アイデアの接続が部分的に成功している",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U003"
+        ],
+        "direction": "mixed",
+        "score_relation": "評価が3とされた理由",
+        "condition_ids": [
+          "Cohesion.S3.C01",
+          "Cohesion.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "アイデアの接続が部分的に成功している",
+        "limits": "全体の頻度を断定しない",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U001",
+            "start": 0,
+            "end": 36,
+            "text": "mean people think that self-esteem. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U002",
+            "start": 36,
+            "end": 61,
+            "text": "Is aren by working hard. "
+          },
+          {
+            "essay_id": "8608:1",
+            "span_id": "8608:1@U003",
+            "start": 61,
+            "end": 152,
+            "text": "but really people just need to be happy with people that dont even care about self-esteem. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と構文のエラーの頻度とその影響についての詳細な説明が不足している。"
+  },
+  "timestamp": "2026-11-15T19:32:45.182794+09:00"
+}

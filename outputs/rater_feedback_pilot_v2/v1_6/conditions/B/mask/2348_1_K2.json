@@ -1,0 +1,118 @@
+{
+  "candidate_key": "B|2348:1|K2",
+  "masked_reason": {
+    "rationale": "文章の構成と文法が不十分で、単語の選択や表現も制限的であるため、全体的なコミュニケーションが阻害されている。",
+    "unexplained": "全体的な評価が低い理由の一部は、具体的な引用が不足しているため説明しきれていない。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2348:1",
+        "span_ids": [
+          "2348:1@U001",
+          "2348:1@U002",
+          "2348:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "communication",
+        "direction": "negative",
+        "feature": "文章の構成が不十分で、文法の誤りが多いため、全体的なコミュニケーションが阻害されている。",
+        "score_relation": "評価が低い",
+        "support_explanation": "具体的な引用が存在する。",
+        "limits": "全体的な頻度を断定できない。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2348:1",
+        "span_ids": [
+          "2348:1@U004",
+          "2348:1@U005"
+        ],
+        "aspect": "Cohesion",
+        "kind": "organization",
+        "direction": "negative",
+        "feature": "アイデアの論理的な順序付けが欠けているため、文章の組織が部分的にしか発展していない。",
+        "score_relation": "評価が低い",
+        "support_explanation": "具体的な引用が存在する。",
+        "limits": "全体的な頻度を断定できない。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2348:1",
+        "span_ids": [
+          "2348:1@U006",
+          "2348:1@U007"
+        ],
+        "aspect": "Syntax",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文構造の問題が多いため、文のバリエーションが制限的である。",
+        "score_relation": "評価が低い",
+        "support_explanation": "具体的な引用が存在する。",
+        "limits": "全体的な頻度を断定できない。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2348:1",
+        "span_ids": [
+          "2348:1@U008",
+          "2348:1@U009"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "単語の選択が制限的で、トピックに関連する用語が適切に使用されていない。",
+        "score_relation": "評価が低い",
+        "support_explanation": "具体的な引用が存在する。",
+        "limits": "全体的な頻度を断定できない。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S2.C01",
+        "Overall.S2.C02",
+        "Overall.S2.C03"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Cohesion.S2.C01",
+        "Cohesion.S2.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Syntax.S2.C01",
+        "Syntax.S2.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Vocabulary.S2.C01",
+        "Vocabulary.S2.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

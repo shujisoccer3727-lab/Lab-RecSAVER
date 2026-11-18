@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-11-15T18:53:17.146020+09:00",
+  "status": "preliminary content observations; not efficacy evaluation",
+  "observations": [
+    {
+      "kind": "citation_semantic_alignment_gap",
+      "candidate": "A|1514:1|K1",
+      "claim_id": "C2",
+      "selected_span_ids": [
+        "1514:1@U003",
+        "1514:1@U014"
+      ],
+      "grounding_review": {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "文章中に文法と慣用句の誤用が見られる。例えば、\"In the other hand\" は \"On the other hand\" の誤用であり、\"he fail the first time\" は \"he failed the first time\" の誤用である。これらの誤用は全体的な意味の理解を妨げないが、文法的な正確さには影響を与える。",
+        "counter_span_ids": []
+      },
+      "phrase_location_in_full_target": [
+        "1514:1@U004"
+      ],
+      "finding": "The grounding explanation mentions In the other hand found in the full target, but this phrase is outside the selected evidence spans. The same claim also contains a tense example actually in the selected spans. Existence of support somewhere in full text does not validate every selected citation or every combined subclaim.",
+      "next_prompt_change": "Require separate support decision for each atomic proposition and each selected evidence span; additions of evidence IDs must be explicit and checked separately."
+    },
+    {
+      "kind": "generic_patterns",
+      "finding": "Pilot patterns include broad structures/grammar descriptions. Two distinct target IDs establish a count condition, not the semantic specificity or validity of a shared pattern."
+    },
+    {
+      "kind": "language_mismatch",
+      "finding": "Some generated high-score explanations are Chinese despite Japanese instructions. These high-score candidates failed Overall reconstruction and were not used as adopted evidence."
+    },
+    {
+      "kind": "grounding_overaffirmation_risk",
+      "finding": "All pilot reviewed claims were labeled supported by the same local model. This is a provisional model judgment, not independently measured support accuracy."
+    }
+  ]
+}

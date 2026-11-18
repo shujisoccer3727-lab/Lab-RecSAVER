@@ -1,0 +1,208 @@
+{
+  "fingerprint": "acfbc1ffb2e3e8b2251cf9a1961039f180664dcc50fadade07744ab5e1ac6f81",
+  "result": {
+    "rationale": "本文は技術の利点と欠点について述べており、全体的な組織と文法は適切だが、文法と構文に時折誤りがある。単純な文と複雑な文の組み合わせは適切だが、一部の文は形成に問題がある。単語の選択は適切だが、より高度な単語やフレーズの使用は限定的である。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "適切な組織と文法",
+        "span_ids": [
+          "7817:1@U001",
+          "7817:1@U002",
+          "7817:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S4.C02",
+          "Grammar.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "全体的な組織と文法は適切に保たれている。",
+        "limits": "一部の文法誤りがある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U001",
+            "start": 0,
+            "end": 86,
+            "text": "Since technology developed really fast now, we can't live without these technologies. "
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U002",
+            "start": 86,
+            "end": 230,
+            "text": "Some people says that use of technology had positive effects on people's lives because it's easier for people to work and context with friends. "
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U003",
+            "start": 230,
+            "end": 645,
+            "text": "Most technologies helped a lots in our life but I think use of technology had negative effects, because we are getting very lazy of doing things people are using cellphone to complete everything, eye problems make a lots of young teens are wearing glasses now, because they are using too much electronic devises, and I think most people are getting addicted to their cellphones because they can't live without it.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "文の形成に問題がある",
+        "span_ids": [
+          "7817:1@U004",
+          "7817:1@U005",
+          "7817:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に問題がある。",
+        "limits": "単純な文は適切に形成されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U004",
+            "start": 645,
+            "end": 707,
+            "text": "\r\nUsing computers are the mean reason of why we are lazy now. "
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U005",
+            "start": 707,
+            "end": 1005,
+            "text": "People are getting lazy now because they are using computer to do everything, for example they order foods instead of cooked by them self, just because they think it's going to save more time for them to get work done, but after a few times they are going to get use to ordering foods on computer. "
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U006",
+            "start": 1005,
+            "end": 1181,
+            "text": "Also a lots of young students are doing paper work on computer, thats will makes them forget how to write on paper in the future and they will have a really bad hand writing.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "単語の選択は適切だが、高度な単語の使用は限定的",
+        "span_ids": [
+          "7817:1@U007",
+          "7817:1@U008",
+          "7817:1@U009"
+        ],
+        "direction": "mixed",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S4.C01",
+          "Vocabulary.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語の選択は適切だが、高度な単語の使用は限定的。",
+        "limits": "一部の単語は適切に使用されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U007",
+            "start": 1181,
+            "end": 1332,
+            "text": "\r\nWalked on a street you can see a lots of students and young peoples are wearing glasses now, thats a really bad situation that we don't want to see. "
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U008",
+            "start": 1332,
+            "end": 1513,
+            "text": "Most of the families is buying iPad to their kids, kids don't know the effects of long time using iPad, and if parents don't control the time of using iPad it will hurt their eyes. "
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U009",
+            "start": 1513,
+            "end": 1659,
+            "text": "eyes is the most important part of our body, we need our eyes to see the beautiful things of this world not wasted it on the electronic devices.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "feature": "フレーズの使用に誤りがある",
+        "span_ids": [
+          "7817:1@U010",
+          "7817:1@U011",
+          "7817:1@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Phraseology.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "フレーズの使用に誤りがある。",
+        "limits": "一部のフレーズは適切に使用されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U010",
+            "start": 1659,
+            "end": 1770,
+            "text": "\r\nCellphone is the biggest problem for teenagers now it's also the biggest problem of school using cellphones. "
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U011",
+            "start": 1770,
+            "end": 1985,
+            "text": "Most teenagers are get addicted to their cellphones, they can't live without it, social medias is the most addicted thing to the students, because of the social media, most students can't gets focused during class. "
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U012",
+            "start": 1985,
+            "end": 2196,
+            "text": "If they don't listen in class then it will effect their grades, the mean reason of students can't get focused is they can't control their brain to not check their phone because they already get addicted to it.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と構文の誤りが全体的な評価にどのように影響したかは不明。"
+  },
+  "timestamp": "2026-11-15T19:38:28.433888+09:00"
+}

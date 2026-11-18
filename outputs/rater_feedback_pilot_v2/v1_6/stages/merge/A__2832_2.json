@@ -1,0 +1,93 @@
+{
+  "fingerprint": "3c84bd8dbb779d7db1e98be07ecd07d3ed34f664888fb86cb57e681c44dc7e2c",
+  "result": {
+    "groups": [
+      {
+        "summary": "文章中存在语言表达不精准的问题，影响了整体的流畅性和准确性。",
+        "claim_ids": [
+          "2832:2/K1/C1",
+          "2832:2/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "文章中存在一些语法错误，影响了整体评分。",
+        "claim_ids": [
+          "2832:2/K1/C2",
+          "2832:2/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "词汇使用不够精准，影响了整体评分。",
+        "claim_ids": [
+          "2832:2/K1/C3",
+          "2832:2/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "文章结构基本清晰，但部分段落连接不够紧密，影响了整体评分。",
+        "claim_ids": [
+          "2832:2/K1/C4"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "句子结构较为简单，缺乏复杂性，影响了整体评分。",
+        "claim_ids": [
+          "2832:2/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "拼写和标点错误影响了文章的可读性。",
+        "claim_ids": [
+          "2832:2/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "differences": [
+      {
+        "description": "第一个候选指出语言表达不精准，而第二个候选则强调语法错误。",
+        "claim_ids": [
+          "2832:2/K1/C1",
+          "2832:2/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "description": "第一个候选关注词汇使用不够精准，而第二个候选则指出词汇使用较为有限。",
+        "claim_ids": [
+          "2832:2/K1/C3",
+          "2832:2/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "description": "第一个候选提到文章结构基本清晰但连接不够紧密，而第二个候选则未提及结构问题。",
+        "claim_ids": [
+          "2832:2/K1/C4"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "第二个候选指出句子结构简单，缺乏复杂性，而第一个候选未提及此问题。",
+        "claim_ids": [
+          "2832:2/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "第二个候选指出拼写和标点错误影响了文章的可读性，而第一个候选未提及此问题。",
+        "claim_ids": [
+          "2832:2/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:00:13.114192+09:00"
+}

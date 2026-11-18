@@ -1,0 +1,177 @@
+{
+  "fingerprint": "ea9cecd5114fd50fdd46378bc72995bc237ab8b904f0c31b460edede1b38e6d0",
+  "result": {
+    "rationale": "文章の組織と文法は一般的に制御されているが、複雑な文の形成に誤りがあり、単語の選択と用法に正確さが不足している。また、文法と規範の使用に誤りがあり、コミュニケーションが一部で阻害される。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1868:1",
+        "aspect": "Syntax",
+        "kind": "presence",
+        "feature": "複雑な文の形成に誤りがある",
+        "span_ids": [
+          "1868:1@U001",
+          "1868:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に誤りがある例が見られる。",
+        "limits": "一部の複雑な文は正確に形成されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U001",
+            "start": 0,
+            "end": 78,
+            "text": "The main piece to improve your skills is during the process of keep learning. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U002",
+            "start": 78,
+            "end": 238,
+            "text": "Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1868:1",
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "feature": "微妙な単語の意味の正確な使用が不足している",
+        "span_ids": [
+          "1868:1@U003",
+          "1868:1@U004"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "微妙な単語の意味の正確な使用が不足している例が見られる。",
+        "limits": "一部の単語は正確に使用されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U003",
+            "start": 238,
+            "end": 368,
+            "text": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U004",
+            "start": 368,
+            "end": 611,
+            "text": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1868:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "文法と使用に誤りがある",
+        "span_ids": [
+          "1868:1@U005",
+          "1868:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と使用に誤りがある例が見られる。",
+        "limits": "誤りは一部であり、全体のコミュニケーションは阻害されない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U005",
+            "start": 611,
+            "end": 767,
+            "text": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n"
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U006",
+            "start": 767,
+            "end": 882,
+            "text": "\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "1868:1",
+        "aspect": "Conventions",
+        "kind": "presence",
+        "feature": "スペリング、大文字、句読点の誤りが時々目立つ",
+        "span_ids": [
+          "1868:1@U007",
+          "1868:1@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Conventions.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "スペリング、大文字、句読点の誤りが時々目立つ例が見られる。",
+        "limits": "誤りは一部であり、全体のコミュニケーションは阻害されない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U007",
+            "start": 882,
+            "end": 1043,
+            "text": "Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U008",
+            "start": 1043,
+            "end": 1173,
+            "text": "Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体の組織とアイデアの重複が適切であるかどうかは不明確である。"
+  },
+  "timestamp": "2026-11-15T18:21:04.158674+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_3/stages/generate/B__1868_1__K1.json",
+  "source_fingerprint": "00f1c83d7177a6f736fab002adf3cacb6e0fcc7d2a6eb9017fd5ce9bd6ffe268",
+  "reuse_recorded_at": "2026-11-15T18:46:26.586979+09:00"
+}

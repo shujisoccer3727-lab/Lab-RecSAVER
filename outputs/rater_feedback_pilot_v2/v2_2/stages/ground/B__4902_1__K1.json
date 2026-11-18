@@ -1,0 +1,48 @@
+{
+  "fingerprint": "6bd2c1be43001b45a41557abc7490ad4b7df2c441b6f3002f5cde9bafe830dc4",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "本文は、結びつきの装置が限定的で、繰り返し使用されていることを示しています。これは、主張の特徴と評価を支持します。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "本文は、文法構造が制御されているが、複雑な文の形成に誤りがあることを示しています。これは、主張の特徴と評価を支持します。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "本文は、語彙が限定的で、まれな語彙の使用に不正確さがあることを示しています。これは、主張の特徴と評価を支持します。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "本文は、文法と使用に誤りがあるが、頻繁ではないことを示しています。これは、主張の特徴と評価を支持します。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-16T19:19:21.863013+09:00"
+}

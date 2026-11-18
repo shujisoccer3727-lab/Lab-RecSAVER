@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-11-16T19:34:48.491611+09:00",
+  "retained": [
+    {
+      "stage": "2.1 downstream",
+      "kind": "context_overflow",
+      "record": "../v2_1/three_audit.json",
+      "events": [
+        {
+          "stage": "merge",
+          "key": "B|1868:1",
+          "prompt_tokens": 32927,
+          "max_tokens": 1100,
+          "fits": false,
+          "truncated": false
+        },
+        {
+          "stage": "integrate",
+          "key": "B|three_rater_7",
+          "prompt_tokens": 54531,
+          "max_tokens": 2400,
+          "fits": false,
+          "truncated": false
+        },
+        {
+          "stage": "compare",
+          "key": "B|three_local_1868:1_1868:1",
+          "prompt_tokens": 48254,
+          "max_tokens": 2600,
+          "fits": false,
+          "truncated": false
+        }
+      ],
+      "action": "No truncation or model call. Preserved and resumed changed downstream serialization in 2.2."
+    },
+    {
+      "stage": "2.2 CPU preflight first design",
+      "kind": "insufficient_compaction",
+      "record": "../v2_1/compaction_preflight.json",
+      "action": "No model call. Evidence-only interning still exceeded context; replaced with lossless repeated-value interning."
+    },
+    {
+      "stage": "2.2 bootstrap",
+      "kind": "ValueError_relative_path",
+      "record": "../v2_2_attempt_01.log",
+      "action": "No model call or downstream cache existed. Resolved __file__ before relative_to; retained traceback and upstream files."
+    },
+    {
+      "stage": "model format retries",
+      "record": "calls.jsonl",
+      "action": "All original outputs/errors retained, including reused upstream failed attempts; existing one-retry cap retained."
+    }
+  ]
+}

@@ -1,0 +1,872 @@
+{
+  "fingerprint": "d2d7ea8d08a94dfa5ad502fc4c30965695da948f49287c936789d5ebc9b2c8cd",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "2420:1/K1/C1",
+          "2420:1/K1/C2",
+          "2420:1/K1/C3",
+          "2420:1/K2/C1",
+          "2420:1/K2/C2",
+          "2420:1/K2/C3",
+          "2420:1/K2/C4"
+        ],
+        "span_ids": [
+          "2420:1@U001",
+          "2420:1@U002",
+          "2420:1@U003",
+          "2420:1@U004",
+          "2420:1@U005",
+          "2420:1@U006",
+          "2420:1@U007",
+          "2420:1@U008",
+          "2420:1@U009",
+          "2420:1@U010",
+          "2420:1@U011",
+          "2420:1@U012",
+          "2420:1@U013"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "2420:1@U003",
+            "tokens": [
+              "Although",
+              "some",
+              "says",
+              "that",
+              "determine",
+              "to",
+              "be",
+              "idle",
+              "or",
+              "inactivity",
+              "also",
+              "serve",
+              "a",
+              "purpose",
+              "because",
+              "they",
+              "can",
+              "accomplish",
+              "something",
+              "with",
+              "the",
+              "time",
+              "or",
+              "when",
+              "people",
+              "make",
+              "a",
+              "purpose",
+              "to",
+              "don't",
+              "be",
+              "idle"
+            ],
+            "relation": "subordinate clause",
+            "interpretation": "「Although some says that determine to be idle or inactivity also serve a purpose」は、主節と従属節の接続が不適切。主語と動詞の関係が不明瞭。",
+            "token_positions": [
+              {
+                "token": "Although",
+                "start": 276,
+                "end": 284
+              },
+              {
+                "token": "some",
+                "start": 285,
+                "end": 289
+              },
+              {
+                "token": "says",
+                "start": 290,
+                "end": 294
+              },
+              {
+                "token": "that",
+                "start": 295,
+                "end": 299
+              },
+              {
+                "token": "determine",
+                "start": 300,
+                "end": 309
+              },
+              {
+                "token": "to",
+                "start": 310,
+                "end": 312
+              },
+              {
+                "token": "to",
+                "start": 438,
+                "end": 440
+              },
+              {
+                "token": "to",
+                "start": 481,
+                "end": 483
+              },
+              {
+                "token": "be",
+                "start": 313,
+                "end": 315
+              },
+              {
+                "token": "be",
+                "start": 447,
+                "end": 449
+              },
+              {
+                "token": "be",
+                "start": 484,
+                "end": 486
+              },
+              {
+                "token": "idle",
+                "start": 316,
+                "end": 320
+              },
+              {
+                "token": "idle",
+                "start": 450,
+                "end": 454
+              },
+              {
+                "token": "idle",
+                "start": 487,
+                "end": 491
+              },
+              {
+                "token": "or",
+                "start": 321,
+                "end": 323
+              },
+              {
+                "token": "or",
+                "start": 408,
+                "end": 410
+              },
+              {
+                "token": "inactivity",
+                "start": 324,
+                "end": 334
+              },
+              {
+                "token": "also",
+                "start": 335,
+                "end": 339
+              },
+              {
+                "token": "serve",
+                "start": 340,
+                "end": 345
+              },
+              {
+                "token": "a",
+                "start": 346,
+                "end": 347
+              },
+              {
+                "token": "a",
+                "start": 428,
+                "end": 429
+              },
+              {
+                "token": "a",
+                "start": 624,
+                "end": 625
+              },
+              {
+                "token": "purpose",
+                "start": 348,
+                "end": 355
+              },
+              {
+                "token": "purpose",
+                "start": 430,
+                "end": 437
+              },
+              {
+                "token": "because",
+                "start": 356,
+                "end": 363
+              },
+              {
+                "token": "because",
+                "start": 507,
+                "end": 514
+              },
+              {
+                "token": "they",
+                "start": 364,
+                "end": 368
+              },
+              {
+                "token": "can",
+                "start": 369,
+                "end": 372
+              },
+              {
+                "token": "can",
+                "start": 567,
+                "end": 570
+              },
+              {
+                "token": "accomplish",
+                "start": 373,
+                "end": 383
+              },
+              {
+                "token": "accomplish",
+                "start": 518,
+                "end": 528
+              },
+              {
+                "token": "something",
+                "start": 384,
+                "end": 393
+              },
+              {
+                "token": "something",
+                "start": 550,
+                "end": 559
+              },
+              {
+                "token": "with",
+                "start": 394,
+                "end": 398
+              },
+              {
+                "token": "the",
+                "start": 399,
+                "end": 402
+              },
+              {
+                "token": "time",
+                "start": 403,
+                "end": 407
+              },
+              {
+                "token": "or",
+                "start": 321,
+                "end": 323
+              },
+              {
+                "token": "or",
+                "start": 408,
+                "end": 410
+              },
+              {
+                "token": "when",
+                "start": 411,
+                "end": 415
+              },
+              {
+                "token": "people",
+                "start": 416,
+                "end": 422
+              },
+              {
+                "token": "people",
+                "start": 560,
+                "end": 566
+              },
+              {
+                "token": "people",
+                "start": 599,
+                "end": 605
+              },
+              {
+                "token": "make",
+                "start": 423,
+                "end": 427
+              },
+              {
+                "token": "make",
+                "start": 571,
+                "end": 575
+              },
+              {
+                "token": "a",
+                "start": 346,
+                "end": 347
+              },
+              {
+                "token": "a",
+                "start": 428,
+                "end": 429
+              },
+              {
+                "token": "a",
+                "start": 624,
+                "end": 625
+              },
+              {
+                "token": "purpose",
+                "start": 348,
+                "end": 355
+              },
+              {
+                "token": "purpose",
+                "start": 430,
+                "end": 437
+              },
+              {
+                "token": "to",
+                "start": 310,
+                "end": 312
+              },
+              {
+                "token": "to",
+                "start": 438,
+                "end": 440
+              },
+              {
+                "token": "to",
+                "start": 481,
+                "end": 483
+              },
+              {
+                "token": "don't",
+                "start": 441,
+                "end": 446
+              },
+              {
+                "token": "be",
+                "start": 313,
+                "end": 315
+              },
+              {
+                "token": "be",
+                "start": 447,
+                "end": 449
+              },
+              {
+                "token": "be",
+                "start": 484,
+                "end": 486
+              },
+              {
+                "token": "idle",
+                "start": 316,
+                "end": 320
+              },
+              {
+                "token": "idle",
+                "start": 450,
+                "end": 454
+              },
+              {
+                "token": "idle",
+                "start": 487,
+                "end": 491
+              }
+            ]
+          },
+          {
+            "span_id": "2420:1@U005",
+            "tokens": [
+              "Determine",
+              "never",
+              "to",
+              "be",
+              "idle",
+              "is",
+              "much",
+              "better",
+              "because",
+              "we",
+              "accomplish",
+              "more",
+              "we",
+              "make",
+              "proud",
+              "our",
+              "family",
+              "when",
+              "we",
+              "do",
+              "something",
+              "great",
+              "to",
+              "our",
+              "life"
+            ],
+            "relation": "conjunction",
+            "interpretation": "「we accomplish more we make proud our family」の間の接続詞が欠けている。文の意味が不明瞭になる可能性がある。",
+            "token_positions": [
+              {
+                "token": "Determine",
+                "start": 1047,
+                "end": 1056
+              },
+              {
+                "token": "never",
+                "start": 1057,
+                "end": 1062
+              },
+              {
+                "token": "never",
+                "start": 1414,
+                "end": 1419
+              },
+              {
+                "token": "to",
+                "start": 1063,
+                "end": 1065
+              },
+              {
+                "token": "to",
+                "start": 1169,
+                "end": 1171
+              },
+              {
+                "token": "to",
+                "start": 1430,
+                "end": 1432
+              },
+              {
+                "token": "to",
+                "start": 1459,
+                "end": 1461
+              },
+              {
+                "token": "be",
+                "start": 1066,
+                "end": 1068
+              },
+              {
+                "token": "be",
+                "start": 1433,
+                "end": 1435
+              },
+              {
+                "token": "idle",
+                "start": 1069,
+                "end": 1073
+              },
+              {
+                "token": "idle",
+                "start": 1436,
+                "end": 1440
+              },
+              {
+                "token": "is",
+                "start": 1074,
+                "end": 1076
+              },
+              {
+                "token": "is",
+                "start": 1376,
+                "end": 1378
+              },
+              {
+                "token": "much",
+                "start": 1077,
+                "end": 1081
+              },
+              {
+                "token": "better",
+                "start": 1082,
+                "end": 1088
+              },
+              {
+                "token": "because",
+                "start": 1089,
+                "end": 1096
+              },
+              {
+                "token": "we",
+                "start": 1097,
+                "end": 1099
+              },
+              {
+                "token": "we",
+                "start": 1117,
+                "end": 1119
+              },
+              {
+                "token": "we",
+                "start": 1147,
+                "end": 1149
+              },
+              {
+                "token": "accomplish",
+                "start": 1100,
+                "end": 1110
+              },
+              {
+                "token": "accomplish",
+                "start": 1220,
+                "end": 1230
+              },
+              {
+                "token": "more",
+                "start": 1111,
+                "end": 1115
+              },
+              {
+                "token": "we",
+                "start": 1097,
+                "end": 1099
+              },
+              {
+                "token": "we",
+                "start": 1117,
+                "end": 1119
+              },
+              {
+                "token": "we",
+                "start": 1147,
+                "end": 1149
+              },
+              {
+                "token": "make",
+                "start": 1120,
+                "end": 1124
+              },
+              {
+                "token": "make",
+                "start": 1289,
+                "end": 1293
+              },
+              {
+                "token": "proud",
+                "start": 1125,
+                "end": 1130
+              },
+              {
+                "token": "proud",
+                "start": 1304,
+                "end": 1309
+              },
+              {
+                "token": "our",
+                "start": 1131,
+                "end": 1134
+              },
+              {
+                "token": "our",
+                "start": 1172,
+                "end": 1175
+              },
+              {
+                "token": "family",
+                "start": 1135,
+                "end": 1141
+              },
+              {
+                "token": "when",
+                "start": 1142,
+                "end": 1146
+              },
+              {
+                "token": "we",
+                "start": 1097,
+                "end": 1099
+              },
+              {
+                "token": "we",
+                "start": 1117,
+                "end": 1119
+              },
+              {
+                "token": "we",
+                "start": 1147,
+                "end": 1149
+              },
+              {
+                "token": "do",
+                "start": 1150,
+                "end": 1152
+              },
+              {
+                "token": "something",
+                "start": 1153,
+                "end": 1162
+              },
+              {
+                "token": "great",
+                "start": 1163,
+                "end": 1168
+              },
+              {
+                "token": "to",
+                "start": 1063,
+                "end": 1065
+              },
+              {
+                "token": "to",
+                "start": 1169,
+                "end": 1171
+              },
+              {
+                "token": "to",
+                "start": 1430,
+                "end": 1432
+              },
+              {
+                "token": "to",
+                "start": 1459,
+                "end": 1461
+              },
+              {
+                "token": "our",
+                "start": 1131,
+                "end": 1134
+              },
+              {
+                "token": "our",
+                "start": 1172,
+                "end": 1175
+              },
+              {
+                "token": "life",
+                "start": 1176,
+                "end": 1180
+              },
+              {
+                "token": "life",
+                "start": 1248,
+                "end": 1252
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Overall.S3.C02",
+          "Overall.S3.C03",
+          "Phraseology.S3.C01",
+          "Phraseology.S3.C02",
+          "Syntax.S3.C01",
+          "Syntax.S3.C02",
+          "Grammar.S3.C01"
+        ],
+        "feature_confirmed": "文章は全体的に組織化されているが、文法や構文の誤りがいくつか見られる。表現の繰り返しが見られる。複雑な文の形成に困難がある。",
+        "inferred_judgment": "文法や構文の誤り、表現の繰り返し、複雑な文の形成の困難が評価をサポートする。",
+        "rubric_based_proposal": "Overall.S3.C01, Overall.S3.C02, Overall.S3.C03の条件を満たす。文法や構文の誤りが伝達を阻害する可能性があるため、Overallの段階3が適切。",
+        "agreement_review_unknown": "文法や構文の誤りが伝達を阻害する可能性があるため、評価を見直す余地がある。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "2420:1@U003"
+            ],
+            "finding": "「Although some says that determine to be idle or inactivity also serve a purpose」の主節と従属節の接続が不適切。"
+          },
+          {
+            "span_ids": [
+              "2420:1@U005"
+            ],
+            "finding": "「we accomplish more we make proud our family」の間の接続詞が欠けている。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "接続詞の使用",
+          "where_span_ids": [
+            "2420:1@U005"
+          ],
+          "action": "接続詞の使用を確認し、文の意味が不明瞭にならないようにする。",
+          "reason": "接続詞の欠如により、文の意味が不明瞭になる可能性があるため。"
+        },
+        "scope_limit": "文法や構文の誤り、表現の繰り返し、複雑な文の形成の困難が評価をサポートする。",
+        "citations": [
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U001",
+            "start": 0,
+            "end": 57,
+            "text": "As Thomas Jefferson said \"Determine never to be idle ... "
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U002",
+            "start": 57,
+            "end": 276,
+            "text": "It is wonderful how much may be done if we are always doing.\" I believe that Thomas Jefferson's quote is right because if people determine to never be idle, they can accomplish more than those who determine to be idle. "
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U003",
+            "start": 276,
+            "end": 642,
+            "text": "Although some says that determine to be idle or inactivity also serve a purpose because they can accomplish something with the time or when people make a purpose to don't be idle, actually Determine never to be idle is much better because we accomplish more if we are doing something people can make proud their family and people may growth having a better future.\r\n"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U004",
+            "start": 642,
+            "end": 1047,
+            "text": "\r\nAlthough some says that determine to be idle or inactivity also serve a purpose in the way of one day they will accomplish something even though they are lazy, and people determine to not be idle when they want to accomplish something and when people decide to not being wasting their time without doing anything, inactivity doesn't serve a purpose in the life and in the way of accomplish something\r\n\r\n"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U005",
+            "start": 1047,
+            "end": 1467,
+            "text": "Determine never to be idle is much better because we accomplish more, we make proud our family when we do something great to our life, I have done many things in school and accomplish many goals in my life so my parents always tell me that I make them feel proud of me for all that I have been done even though they said that it is not that easy but they know that I never determine to be idle and I always like to accom"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U006",
+            "start": 1467,
+            "end": 1496,
+            "text": "plish something in my life.\r\n"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U007",
+            "start": 1496,
+            "end": 1748,
+            "text": "\r\nI always like to accomplish things like having a better grades in school and learn more each day even though some classes are harder than other once but I like to not be idle because if I determine to be idle I may just waste my time doing nothing.\r\n"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U008",
+            "start": 1748,
+            "end": 1859,
+            "text": "\r\nDetermine never to be idle is much better because people can growth having a better future in their life,\r\n\r\n"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U009",
+            "start": 1859,
+            "end": 1898,
+            "text": "people can growth having a better job. "
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U010",
+            "start": 1898,
+            "end": 2202,
+            "text": "For example, I want to growth by studying a career and have a better job in the future.Make more proud my family and myself I know it is hard, but all the effort that I put on it right now it will pay it back later, and I will so be thankful to myself to be a person who never determine to idle in life. "
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U011",
+            "start": 2202,
+            "end": 2303,
+            "text": "And it is wonderful how much I had done I never going to regret about what I had been accomplished.\r\n"
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U012",
+            "start": 2303,
+            "end": 2468,
+            "text": "\r\nIn conclusion, if people never do something in their life, they never will accomplish something that can be a benefit for their future or make their family proud. "
+          },
+          {
+            "essay_id": "2420:1",
+            "span_id": "2420:1@U013",
+            "start": 2468,
+            "end": 2731,
+            "text": "As Thomas Jefferson said if people determine never be idle they can accomplish and have done what they want to done in their life, and it is wonderful how much people may have done if they always been doing something and don't determine to be wasting their time. "
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C01",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "Facility limited to the use of common structures and generic vocabulary;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 0,
+            "end": 72,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S3.C02",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "organization generally controlled although connection sometimes absent or unsuccessful;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 73,
+            "end": 160,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S3.C03",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "errors in grammar and syntax and usage.",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 161,
+            "end": 200,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Phraseology.S3.C01",
+            "aspect": "Phraseology",
+            "level": 3,
+            "text": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety;",
+            "parent_id": "Phraseology.S3",
+            "parent_text": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+            "start": 0,
+            "end": 98,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Phraseology.S3.C02",
+            "aspect": "Phraseology",
+            "level": 3,
+            "text": "some noticeable repetitions and misuses.",
+            "parent_id": "Phraseology.S3",
+            "parent_text": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+            "start": 99,
+            "end": 139,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S3.C01",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "Simple, compound, and complex syntactic structures present although the range may be limited;",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 0,
+            "end": 93,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S3.C02",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "some apparent errors in sentence formation, especially in more complex sentences.",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 94,
+            "end": 175,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:51:52.546116+09:00"
+}

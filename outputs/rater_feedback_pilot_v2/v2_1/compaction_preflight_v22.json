@@ -1,0 +1,74 @@
+[
+  {
+    "stage": "merge",
+    "file": "B__1514_1.json",
+    "prompt_tokens": 3580,
+    "max_tokens": 1100,
+    "fits": true,
+    "lossless": true
+  },
+  {
+    "stage": "merge",
+    "file": "B__1868_1.json",
+    "prompt_tokens": 6806,
+    "max_tokens": 1100,
+    "fits": true,
+    "lossless": true
+  },
+  {
+    "stage": "merge",
+    "file": "B__4902_1.json",
+    "prompt_tokens": 4171,
+    "max_tokens": 1100,
+    "fits": true,
+    "lossless": true
+  },
+  {
+    "stage": "integrate",
+    "file": "B__three_rater_7.json",
+    "prompt_tokens": 15971,
+    "max_tokens": 2400,
+    "fits": true,
+    "lossless": true
+  },
+  {
+    "stage": "compare",
+    "file": "B__three_local_1514_1_1514_1.json",
+    "prompt_tokens": 14908,
+    "max_tokens": 2600,
+    "fits": true,
+    "lossless": true
+  },
+  {
+    "stage": "compare",
+    "file": "B__three_local_1868_1_1868_1.json",
+    "prompt_tokens": 19862,
+    "max_tokens": 2600,
+    "fits": true,
+    "lossless": true
+  },
+  {
+    "stage": "compare",
+    "file": "B__three_local_4902_1_4902_1.json",
+    "prompt_tokens": 14917,
+    "max_tokens": 2600,
+    "fits": true,
+    "lossless": true
+  },
+  {
+    "stage": "text",
+    "file": "B__three_local_1514_1.json",
+    "prompt_tokens": 3843,
+    "max_tokens": 2200,
+    "fits": true,
+    "lossless": true
+  },
+  {
+    "stage": "text",
+    "file": "B__three_local_4902_1.json",
+    "prompt_tokens": 5452,
+    "max_tokens": 2200,
+    "fits": true,
+    "lossless": true
+  }
+]

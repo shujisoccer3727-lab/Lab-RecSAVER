@@ -1,0 +1,118 @@
+{
+  "candidate_key": "A|8608:1|K2",
+  "masked_reason": {
+    "rationale": "文章組織一般控制得當，但存在一些連貫性問題。語法和詞彙使用有限，且有錯誤，影響了部分溝通。",
+    "unexplained": "文章中某些部分的組織和連貫性問題可能需要進一步分析。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U003"
+        ],
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "組織一般控制得當，但連貫性有限",
+        "score_relation": "符合",
+        "support_explanation": "文本組織大致有序，但連貫性不足",
+        "limits": "可能有其他因素影響組織"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "span_ids": [
+          "8608:1@U004",
+          "8608:1@U005",
+          "8608:1@U006"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "存在一些語法錯誤",
+        "score_relation": "符合",
+        "support_explanation": "文本中存在語法錯誤",
+        "limits": "可能有其他語法問題未被注意到"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "span_ids": [
+          "8608:1@U007",
+          "8608:1@U008",
+          "8608:1@U009"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "詞彙使用有限",
+        "score_relation": "符合",
+        "support_explanation": "詞彙使用範圍有限",
+        "limits": "可能有其他詞彙問題未被注意到"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "span_ids": [
+          "8608:1@U010",
+          "8608:1@U011"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "存在一些語法錯誤",
+        "score_relation": "符合",
+        "support_explanation": "文本中存在語法錯誤",
+        "limits": "可能有其他語法問題未被注意到"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Cohesion.S3.C01",
+        "Cohesion.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S3.C01",
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C01",
+        "Vocabulary.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

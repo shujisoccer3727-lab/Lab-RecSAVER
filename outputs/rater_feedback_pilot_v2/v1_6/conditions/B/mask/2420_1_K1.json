@@ -1,0 +1,130 @@
+{
+  "candidate_key": "B|2420:1|K1",
+  "masked_reason": {
+    "rationale": "文章は全体的に組織化されており、トピックに関連する単語やフレーズが使用されているが、文法や構文の誤りがいくつか見られる。また、一部の表現が繰り返し使用され、複雑な文の形成に困難がある。",
+    "unexplained": "一部の誤りが伝達を阻害する可能性があるため、全体的な[得点表現除去]に留まっている可能性がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2420:1",
+        "span_ids": [
+          "2420:1@U001",
+          "2420:1@U002",
+          "2420:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文章は全体的に組織化されているが、文法や構文の誤りがいくつか見られる。",
+        "score_relation": "一致",
+        "support_explanation": "全体的な組織化が確認できるが、文法や構文の誤りが存在する。",
+        "limits": "一部の誤りが伝達を阻害する可能性がある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2420:1",
+        "span_ids": [
+          "2420:1@U003",
+          "2420:1@U004",
+          "2420:1@U005"
+        ],
+        "aspect": "Phraseology",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "表現が繰り返し使用されている。",
+        "score_relation": "一致",
+        "support_explanation": "同じ表現が複数回使用されている。",
+        "limits": "表現の多様性が不足している可能性がある。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2420:1",
+        "span_ids": [
+          "2420:1@U004",
+          "2420:1@U005",
+          "2420:1@U006"
+        ],
+        "aspect": "Syntax",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "複雑な文の形成に困難がある。",
+        "score_relation": "一致",
+        "support_explanation": "複雑な文の形成に困難がある。",
+        "limits": "複雑な文の形成が全体の伝達に影響する可能性がある。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2420:1",
+        "span_ids": [
+          "2420:1@U001",
+          "2420:1@U002",
+          "2420:1@U003"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "トピックに関連する単語やフレーズが使用されている。",
+        "score_relation": "一致",
+        "support_explanation": "トピックに関連する単語やフレーズが使用されている。",
+        "limits": "単語の使用が正確でない場合がある。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "unexplained",
+      "start": 26,
+      "end": 30,
+      "original": "評価が3",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_label",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C01",
+        "Overall.S3.C02",
+        "Overall.S3.C03"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Phraseology.S3.C01",
+        "Phraseology.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Syntax.S3.C01",
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Vocabulary.S3.C01",
+        "Vocabulary.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

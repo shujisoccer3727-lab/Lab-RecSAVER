@@ -1,0 +1,174 @@
+{
+  "fingerprint": "e1d6f483f21b926edf3327a18e6edf5e9cc087d8e28297cc855d38f389e29c4f",
+  "result": {
+    "rationale": "文章の構成は一般的に制御されており、アイデアの重複や機械的なつながりが見られる。文法と慣用句の使用は正確だが、文法と構文の誤りがいくつかあり、コミュニケーションに影響を与える。語彙は十分だが、微妙な単語の意味の正確な使用は見られない。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "feature": "アイデアの重複と機械的なつながり",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に一致",
+        "condition_ids": [
+          "Cohesion.S3.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "span_idsの内容が重複と機械的なつながりを示している。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U002",
+            "start": 307,
+            "end": 491,
+            "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法と構文の誤り",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "span_idsの内容が文法と構文の誤りを示している。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U002",
+            "start": 307,
+            "end": 491,
+            "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "微妙な単語の意味の正確な使用の欠如",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に一致",
+        "condition_ids": [
+          "Vocabulary.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "span_idsの内容が微妙な単語の意味の正確な使用の欠如を示している。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U002",
+            "start": 307,
+            "end": 491,
+            "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文の形成における誤り",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に一致",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "span_idsの内容が複雑な文の形成における誤りを示している。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U002",
+            "start": 307,
+            "end": 491,
+            "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体の頻度を断定するための十分な証拠が不足している。"
+  },
+  "timestamp": "2026-11-15T19:32:45.049077+09:00"
+}

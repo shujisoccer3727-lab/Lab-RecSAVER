@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-11-15T18:38:42.798419+09:00",
+  "proceed": false,
+  "pilot_sha256": "9b6f77a9b376c827ce18e2fc94714831b68a85ecd1a4ce7a91392b2e06f8cb82",
+  "decision": "do not expand this version",
+  "issues": [
+    "merge unknowns array rejected because prompt did not define the type",
+    "integration unknowns type and insufficient distinct support",
+    "comparison returns a top-level array and singular span_id keys",
+    "comparison actions too general; revise affected downstream prompts and schema"
+  ],
+  "upstream_reuse": "generation/verification/grounding unchanged, preserve raw calls and cache provenance"
+}

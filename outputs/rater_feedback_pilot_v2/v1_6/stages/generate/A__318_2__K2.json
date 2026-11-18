@@ -1,0 +1,212 @@
+{
+  "fingerprint": "9a028a55af97d88ad7b59917c9d616ee5709fbb36d112b8778514637a95c9728",
+  "result": {
+    "rationale": "文章組織と文法の正確性に問題があり、単語の選択とフレーズの使用も限定的で、全体的なコミュニケーションが阻害される部分がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "318:2",
+        "aspect": "Overall",
+        "kind": "communication",
+        "feature": "文章組織と文法の正確性に問題があり、コミュニケーションが阻害される部分がある。",
+        "span_ids": [
+          "318:2@U002",
+          "318:2@U003",
+          "318:2@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が観察結果と一致",
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Overall.S3.C02",
+          "Overall.S3.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な引用が存在し、コミュニケーションの阻害が確認できる。",
+        "limits": "全体的な頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U002",
+            "start": 62,
+            "end": 182,
+            "text": "I am agree with Churchill's statement about the impotant role that ailure plays in the pursuit of success for 3 reazon. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U003",
+            "start": 182,
+            "end": 415,
+            "text": "The first reason is that enthuasiasm is a good way to motivate people to keep going, the second reason is failure teaches us to be batter in this life and the last reason is that we have enthisiasm, we can do wathever we want to do. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U005",
+            "start": 470,
+            "end": 482,
+            "text": "\r\nfirst,\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "318:2",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "単語の選択が限定的で、微妙な単語の意味を正確に使用していない。",
+        "span_ids": [
+          "318:2@U003",
+          "318:2@U004",
+          "318:2@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が観察結果と一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C02",
+          "Vocabulary.S3.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な引用が存在し、単語の選択が限定的であることが確認できる。",
+        "limits": "全体的な頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U003",
+            "start": 182,
+            "end": 415,
+            "text": "The first reason is that enthuasiasm is a good way to motivate people to keep going, the second reason is failure teaches us to be batter in this life and the last reason is that we have enthisiasm, we can do wathever we want to do. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U004",
+            "start": 415,
+            "end": 470,
+            "text": "These are my reasons that I would like to talk about.\r\n"
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U006",
+            "start": 482,
+            "end": 522,
+            "text": "enthusiasm not just depends in oneself. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "318:2",
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "feature": "フレーズの使用が限定的で、反復や誤用がある。",
+        "span_ids": [
+          "318:2@U003",
+          "318:2@U004",
+          "318:2@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が観察結果と一致",
+        "condition_ids": [
+          "Phraseology.S3.C01",
+          "Phraseology.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な引用が存在し、フレーズの使用が限定的であることが確認できる。",
+        "limits": "全体的な頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U003",
+            "start": 182,
+            "end": 415,
+            "text": "The first reason is that enthuasiasm is a good way to motivate people to keep going, the second reason is failure teaches us to be batter in this life and the last reason is that we have enthisiasm, we can do wathever we want to do. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U004",
+            "start": 415,
+            "end": 470,
+            "text": "These are my reasons that I would like to talk about.\r\n"
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U006",
+            "start": 482,
+            "end": 522,
+            "text": "enthusiasm not just depends in oneself. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "318:2",
+        "aspect": "Conventions",
+        "kind": "communication",
+        "feature": "スペリング、大文字、句読点の誤りが頻繁にあり、コミュニケーションを阻害する。",
+        "span_ids": [
+          "318:2@U002",
+          "318:2@U003",
+          "318:2@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "評価が観察結果と一致",
+        "condition_ids": [
+          "Conventions.S3.C01",
+          "Conventions.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "具体的な引用が存在し、スペリングや句読点の誤りが確認できる。",
+        "limits": "全体的な頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U002",
+            "start": 62,
+            "end": 182,
+            "text": "I am agree with Churchill's statement about the impotant role that ailure plays in the pursuit of success for 3 reazon. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U003",
+            "start": 182,
+            "end": 415,
+            "text": "The first reason is that enthuasiasm is a good way to motivate people to keep going, the second reason is failure teaches us to be batter in this life and the last reason is that we have enthisiasm, we can do wathever we want to do. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U005",
+            "start": 470,
+            "end": 482,
+            "text": "\r\nfirst,\r\n\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と構文の正確性についての詳細な評価が不明瞭である。"
+  },
+  "timestamp": "2026-11-15T19:19:16.200100+09:00"
+}

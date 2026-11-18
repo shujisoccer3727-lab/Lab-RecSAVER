@@ -1,0 +1,112 @@
+{
+  "candidate_key": "B|61:1|K2",
+  "masked_reason": {
+    "rationale": "文章は全体的に組織化されており、主張が明確だが、文法や構文の誤りが見られる。単純な文と複雑な文が混在し、一部の単語やフレーズの使用が適切でない。",
+    "unexplained": "一部の誤りが伝達を阻害する可能性があるが、全体的な組織化と主張の明確さが評価に影響している。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "61:1",
+        "span_ids": [
+          "61:1@U003",
+          "61:1@U006"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文章は全体的に組織化されており、主張が明確だが、文法や構文の誤りが見られる。",
+        "score_relation": "評価に一致",
+        "support_explanation": "全体的な組織化と主張の明確さが確認できる。",
+        "limits": "一部の誤りが伝達を阻害する可能性がある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "61:1",
+        "span_ids": [
+          "61:1@U003",
+          "61:1@U006"
+        ],
+        "aspect": "Syntax",
+        "kind": "range",
+        "direction": "mixed",
+        "feature": "単純な文と複雑な文が混在するが、一部の文法誤りがある。",
+        "score_relation": "評価に一致",
+        "support_explanation": "複雑な文が使用されているが、誤りも確認できる。",
+        "limits": "誤りが伝達を阻害する可能性がある。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "61:1",
+        "span_ids": [
+          "61:1@U003",
+          "61:1@U006"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "direction": "negative",
+        "feature": "単語やフレーズの使用が適切でない。",
+        "score_relation": "評価に一致",
+        "support_explanation": "単語やフレーズの使用が適切でない箇所が確認できる。",
+        "limits": "誤りが伝達を阻害する可能性がある。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "61:1",
+        "span_ids": [
+          "61:1@U003",
+          "61:1@U006"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文法誤りが見られる。",
+        "score_relation": "評価に一致",
+        "support_explanation": "文法誤りが確認できる。",
+        "limits": "誤りが伝達を阻害する可能性がある。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C04"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

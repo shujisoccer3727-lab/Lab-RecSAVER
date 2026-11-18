@@ -1,0 +1,1021 @@
+{
+  "topic": {
+    "topic_id": "local_4902:1",
+    "status": "common_judgment_undetermined",
+    "pattern": null,
+    "claim_ids": [
+      "4902:1/K1/C1",
+      "4902:1/K1/C2",
+      "4902:1/K1/C3",
+      "4902:1/K1/C4",
+      "4902:1/K2/C1",
+      "4902:1/K2/C2",
+      "4902:1/K2/C3",
+      "4902:1/K2/C4"
+    ]
+  },
+  "claims": {
+    "4902:1/K1/C3": {
+      "claim_id": "C3",
+      "scope": "target",
+      "essay_id": "4902:1",
+      "aspect": "Vocabulary",
+      "span_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ],
+      "feature": "The essay uses a minimally adequate range of vocabulary for the topic, with occasional attempts to use less common vocabulary but with some inaccuracy.",
+      "evaluation": "The vocabulary is minimally adequate, but there are attempts to use less common vocabulary with some inaccuracy.",
+      "judgment_type": "presence",
+      "direction": "negative",
+      "overall_relation": "The essay's vocabulary score of 3 aligns with the minimally adequate range and occasional inaccuracies.",
+      "trait_relation": "The inaccuracy in less common vocabulary impacts the Vocabulary score but does not significantly affect other traits.",
+      "limits": "The essay could benefit from a more precise use of vocabulary to improve the clarity and depth of the argument.",
+      "evidence": [
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U001",
+          "start": 0,
+          "end": 307,
+          "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U002",
+          "start": 307,
+          "end": 491,
+          "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U003",
+          "start": 491,
+          "end": 618,
+          "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U004",
+          "start": 618,
+          "end": 655,
+          "text": "but Why be basic like everyone else. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U005",
+          "start": 655,
+          "end": 721,
+          "text": "Don't you want to be different from everybody else in the world?? "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U006",
+          "start": 721,
+          "end": 783,
+          "text": "Acting or pretending just so you can fit in with your friend. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U007",
+          "start": 783,
+          "end": 864,
+          "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U008",
+          "start": 864,
+          "end": 1039,
+          "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U009",
+          "start": 1039,
+          "end": 1132,
+          "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U010",
+          "start": 1132,
+          "end": 1286,
+          "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U011",
+          "start": 1286,
+          "end": 1307,
+          "text": "\r\nin conucluesion\r\n\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U012",
+          "start": 1307,
+          "end": 1442,
+          "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+        }
+      ],
+      "id": "4902:1/K1/C3",
+      "target_id": "4902:1",
+      "candidate_index": 1,
+      "grounding_review": {
+        "claim_id": "C3",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "本文は、語彙が限定的で、まれな語彙の使用に不正確さがあることを示しています。これは、主張の特徴と評価を支持します。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      "eligible_for_integration": true,
+      "effective_evidence_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ]
+    },
+    "4902:1/K1/C4": {
+      "claim_id": "C4",
+      "scope": "target",
+      "essay_id": "4902:1",
+      "aspect": "Grammar",
+      "span_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ],
+      "feature": "The essay contains some errors in grammar and usage, such as 'i agree' and 'friend are't'.",
+      "evaluation": "There are some errors in grammar and usage, but they are not frequent.",
+      "judgment_type": "presence",
+      "direction": "negative",
+      "overall_relation": "The essay's grammar score of 3 aligns with the presence of some errors but not frequent ones.",
+      "trait_relation": "The errors in grammar and usage impact the Grammar score but do not significantly affect other traits.",
+      "limits": "The essay could benefit from fewer grammatical errors to improve the clarity and correctness of the writing.",
+      "evidence": [
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U001",
+          "start": 0,
+          "end": 307,
+          "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U002",
+          "start": 307,
+          "end": 491,
+          "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U003",
+          "start": 491,
+          "end": 618,
+          "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U004",
+          "start": 618,
+          "end": 655,
+          "text": "but Why be basic like everyone else. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U005",
+          "start": 655,
+          "end": 721,
+          "text": "Don't you want to be different from everybody else in the world?? "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U006",
+          "start": 721,
+          "end": 783,
+          "text": "Acting or pretending just so you can fit in with your friend. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U007",
+          "start": 783,
+          "end": 864,
+          "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U008",
+          "start": 864,
+          "end": 1039,
+          "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U009",
+          "start": 1039,
+          "end": 1132,
+          "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U010",
+          "start": 1132,
+          "end": 1286,
+          "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U011",
+          "start": 1286,
+          "end": 1307,
+          "text": "\r\nin conucluesion\r\n\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U012",
+          "start": 1307,
+          "end": 1442,
+          "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+        }
+      ],
+      "id": "4902:1/K1/C4",
+      "target_id": "4902:1",
+      "candidate_index": 1,
+      "grounding_review": {
+        "claim_id": "C4",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "本文は、文法と使用に誤りがあるが、頻繁ではないことを示しています。これは、主張の特徴と評価を支持します。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      "eligible_for_integration": true,
+      "effective_evidence_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ]
+    },
+    "4902:1/K1/C1": {
+      "claim_id": "C1",
+      "scope": "target",
+      "essay_id": "4902:1",
+      "aspect": "Cohesion",
+      "span_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ],
+      "feature": "The essay uses some cohesive devices, but there are repetitive and mechanical uses of cohesive devices, such as 'but' and 'don't you want to'.",
+      "evaluation": "The organization is generally controlled, but the use of cohesive devices is limited in type and sometimes repetitive.",
+      "judgment_type": "presence",
+      "direction": "negative",
+      "overall_relation": "The essay's cohesion score of 2 aligns with the presence of repetitive cohesive devices and limited variety.",
+      "trait_relation": "The limited use of cohesive devices impacts the Cohesion score but does not affect other traits significantly.",
+      "limits": "The essay could benefit from a wider range of cohesive devices to improve the flow and clarity of ideas.",
+      "evidence": [
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U001",
+          "start": 0,
+          "end": 307,
+          "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U002",
+          "start": 307,
+          "end": 491,
+          "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U003",
+          "start": 491,
+          "end": 618,
+          "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U004",
+          "start": 618,
+          "end": 655,
+          "text": "but Why be basic like everyone else. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U005",
+          "start": 655,
+          "end": 721,
+          "text": "Don't you want to be different from everybody else in the world?? "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U006",
+          "start": 721,
+          "end": 783,
+          "text": "Acting or pretending just so you can fit in with your friend. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U007",
+          "start": 783,
+          "end": 864,
+          "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U008",
+          "start": 864,
+          "end": 1039,
+          "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U009",
+          "start": 1039,
+          "end": 1132,
+          "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U010",
+          "start": 1132,
+          "end": 1286,
+          "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U011",
+          "start": 1286,
+          "end": 1307,
+          "text": "\r\nin conucluesion\r\n\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U012",
+          "start": 1307,
+          "end": 1442,
+          "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+        }
+      ],
+      "id": "4902:1/K1/C1",
+      "target_id": "4902:1",
+      "candidate_index": 1,
+      "grounding_review": {
+        "claim_id": "C1",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "本文は、結びつきの装置が限定的で、繰り返し使用されていることを示しています。これは、主張の特徴と評価を支持します。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      "eligible_for_integration": true,
+      "effective_evidence_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ]
+    },
+    "4902:1/K1/C2": {
+      "claim_id": "C2",
+      "scope": "target",
+      "essay_id": "4902:1",
+      "aspect": "Syntax",
+      "span_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ],
+      "feature": "The essay includes simple and compound sentences, but there are occasional errors in sentence formation, especially in more complex sentences.",
+      "evaluation": "The syntax is generally controlled, but there are some apparent errors in sentence formation.",
+      "judgment_type": "presence",
+      "direction": "negative",
+      "overall_relation": "The essay's syntax score of 3 aligns with the presence of occasional errors in sentence formation.",
+      "trait_relation": "The errors in sentence formation impact the Syntax score but do not significantly affect other traits.",
+      "limits": "The essay could benefit from more complex sentence structures and fewer errors to improve the overall syntax.",
+      "evidence": [
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U001",
+          "start": 0,
+          "end": 307,
+          "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U002",
+          "start": 307,
+          "end": 491,
+          "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U003",
+          "start": 491,
+          "end": 618,
+          "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U004",
+          "start": 618,
+          "end": 655,
+          "text": "but Why be basic like everyone else. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U005",
+          "start": 655,
+          "end": 721,
+          "text": "Don't you want to be different from everybody else in the world?? "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U006",
+          "start": 721,
+          "end": 783,
+          "text": "Acting or pretending just so you can fit in with your friend. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U007",
+          "start": 783,
+          "end": 864,
+          "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U008",
+          "start": 864,
+          "end": 1039,
+          "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U009",
+          "start": 1039,
+          "end": 1132,
+          "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U010",
+          "start": 1132,
+          "end": 1286,
+          "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U011",
+          "start": 1286,
+          "end": 1307,
+          "text": "\r\nin conucluesion\r\n\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U012",
+          "start": 1307,
+          "end": 1442,
+          "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+        }
+      ],
+      "id": "4902:1/K1/C2",
+      "target_id": "4902:1",
+      "candidate_index": 1,
+      "grounding_review": {
+        "claim_id": "C2",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "本文は、文法構造が制御されているが、複雑な文の形成に誤りがあることを示しています。これは、主張の特徴と評価を支持します。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      "eligible_for_integration": true,
+      "effective_evidence_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ]
+    }
+  },
+  "issues": {
+    "B|three_local_4902:1_4902:1/I1": {
+      "issue_id": "I1",
+      "claim_ids": [
+        "4902:1/K1/C1",
+        "4902:1/K1/C2",
+        "4902:1/K1/C3",
+        "4902:1/K1/C4"
+      ],
+      "span_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ],
+      "feature_confirmed": "The essay uses some cohesive devices, but there are repetitive and mechanical uses of cohesive devices, such as 'but' and 'don't you want to'.",
+      "inferred_judgment": "The organization is generally controlled, but the use of cohesive devices is limited in type and sometimes repetitive.",
+      "condition_ids": [
+        "Cohesion.S3.C01",
+        "Cohesion.S3.C02",
+        "Cohesion.S3.C03",
+        "Syntax.S3.C01",
+        "Syntax.S3.C02",
+        "Vocabulary.S3.C01",
+        "Vocabulary.S3.C02",
+        "Vocabulary.S3.C03",
+        "Vocabulary.S3.C04",
+        "Grammar.S3.C01",
+        "Conventions.S3.C01",
+        "Conventions.S3.C02"
+      ],
+      "rubric_based_proposal": "The essay's use of cohesive devices is limited in type and sometimes repetitive, which aligns with Cohesion.S3.C01, C02, and C03. The syntax includes simple, compound, and complex sentences, but there are some apparent errors, fitting Syntax.S3.C01 and C02. The vocabulary is minimally adequate, with attempts to use less common vocabulary but with some inaccuracy, matching Vocabulary.S3.C01, C02, C03, and C04. There are some errors in grammar and usage, aligning with Grammar.S3.C01. The conventions show developing use with some distracting errors, fitting Conventions.S3.C01 and C02.",
+      "agreement": "The essay's use of cohesive devices, syntax, vocabulary, grammar, and conventions aligns with the rubric conditions at level 3.",
+      "review": "The essay demonstrates a generally controlled organization but with limited and repetitive use of cohesive devices. The syntax includes a range of structures but with some errors, and the vocabulary is minimally adequate with some inaccuracy. There are some errors in grammar and usage, and the conventions show developing use with some distracting errors.",
+      "unknowns": "The essay could benefit from a wider range of cohesive devices and more precise use of vocabulary to improve clarity and depth.",
+      "conclusion_scope": "local_only",
+      "next_action": {
+        "actor": "rater",
+        "evaluation_target": "Cohesion",
+        "distinguish": "the variety and effectiveness of cohesive devices used",
+        "procedure": "Review the essay for a wider range of cohesive devices and their effectiveness in connecting ideas.",
+        "criterion_relation": "Cohesion.S3.C01, C02, C03"
+      },
+      "id": "B|three_local_4902:1_4902:1/I1",
+      "target_id": "4902:1",
+      "citations": [
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U001",
+          "start": 0,
+          "end": 307,
+          "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U002",
+          "start": 307,
+          "end": 491,
+          "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U003",
+          "start": 491,
+          "end": 618,
+          "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U004",
+          "start": 618,
+          "end": 655,
+          "text": "but Why be basic like everyone else. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U005",
+          "start": 655,
+          "end": 721,
+          "text": "Don't you want to be different from everybody else in the world?? "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U006",
+          "start": 721,
+          "end": 783,
+          "text": "Acting or pretending just so you can fit in with your friend. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U007",
+          "start": 783,
+          "end": 864,
+          "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U008",
+          "start": 864,
+          "end": 1039,
+          "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U009",
+          "start": 1039,
+          "end": 1132,
+          "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U010",
+          "start": 1132,
+          "end": 1286,
+          "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U011",
+          "start": 1286,
+          "end": 1307,
+          "text": "\r\nin conucluesion\r\n\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U012",
+          "start": 1307,
+          "end": 1442,
+          "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+        }
+      ],
+      "official_conditions": [
+        {
+          "condition_id": "Cohesion.S3.C01",
+          "aspect": "Cohesion",
+          "level": 3,
+          "text": "Organization generally controlled;",
+          "parent_id": "Cohesion.S3",
+          "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+          "start": 0,
+          "end": 34,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Cohesion.S3.C02",
+          "aspect": "Cohesion",
+          "level": 3,
+          "text": "cohesive devices used but limited in type;",
+          "parent_id": "Cohesion.S3",
+          "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+          "start": 35,
+          "end": 77,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Cohesion.S3.C03",
+          "aspect": "Cohesion",
+          "level": 3,
+          "text": "Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+          "parent_id": "Cohesion.S3",
+          "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+          "start": 78,
+          "end": 184,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Syntax.S3.C01",
+          "aspect": "Syntax",
+          "level": 3,
+          "text": "Simple, compound, and complex syntactic structures present although the range may be limited;",
+          "parent_id": "Syntax.S3",
+          "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+          "start": 0,
+          "end": 93,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Syntax.S3.C02",
+          "aspect": "Syntax",
+          "level": 3,
+          "text": "some apparent errors in sentence formation, especially in more complex sentences.",
+          "parent_id": "Syntax.S3",
+          "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+          "start": 94,
+          "end": 175,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Vocabulary.S3.C01",
+          "aspect": "Vocabulary",
+          "level": 3,
+          "text": "Minimally adequate range of vocabulary for the topic;",
+          "parent_id": "Vocabulary.S3",
+          "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+          "start": 0,
+          "end": 53,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Vocabulary.S3.C02",
+          "aspect": "Vocabulary",
+          "level": 3,
+          "text": "no precise use of subtle word meanings;",
+          "parent_id": "Vocabulary.S3",
+          "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+          "start": 54,
+          "end": 93,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Vocabulary.S3.C03",
+          "aspect": "Vocabulary",
+          "level": 3,
+          "text": "topic related terms only used occasionally;",
+          "parent_id": "Vocabulary.S3",
+          "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+          "start": 94,
+          "end": 137,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Vocabulary.S3.C04",
+          "aspect": "Vocabulary",
+          "level": 3,
+          "text": "attempts to use less common vocabulary but with some inaccuracy",
+          "parent_id": "Vocabulary.S3",
+          "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+          "start": 138,
+          "end": 201,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Grammar.S3.C01",
+          "aspect": "Grammar",
+          "level": 3,
+          "text": "Some errors in grammar and usage.",
+          "parent_id": "Grammar.S3",
+          "parent_text": "Some errors in grammar and usage.",
+          "start": 0,
+          "end": 33,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Conventions.S3.C01",
+          "aspect": "Conventions",
+          "level": 3,
+          "text": "Developing use of conventions to convey meaning;",
+          "parent_id": "Conventions.S3",
+          "parent_text": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+          "start": 0,
+          "end": 48,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Conventions.S3.C02",
+          "aspect": "Conventions",
+          "level": 3,
+          "text": "errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+          "parent_id": "Conventions.S3",
+          "parent_text": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+          "start": 49,
+          "end": 132,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        }
+      ],
+      "machine_checks": {
+        "citations_exact": true,
+        "condition_ids_exact": true,
+        "overall_score_not_determined": true
+      }
+    }
+  },
+  "conditions": {
+    "Cohesion.S3.C01": {
+      "condition_id": "Cohesion.S3.C01",
+      "aspect": "Cohesion",
+      "level": 3,
+      "text": "Organization generally controlled;",
+      "parent_id": "Cohesion.S3",
+      "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+      "start": 0,
+      "end": 34,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Cohesion.S3.C02": {
+      "condition_id": "Cohesion.S3.C02",
+      "aspect": "Cohesion",
+      "level": 3,
+      "text": "cohesive devices used but limited in type;",
+      "parent_id": "Cohesion.S3",
+      "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+      "start": 35,
+      "end": 77,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Cohesion.S3.C03": {
+      "condition_id": "Cohesion.S3.C03",
+      "aspect": "Cohesion",
+      "level": 3,
+      "text": "Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+      "parent_id": "Cohesion.S3",
+      "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+      "start": 78,
+      "end": 184,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Syntax.S3.C01": {
+      "condition_id": "Syntax.S3.C01",
+      "aspect": "Syntax",
+      "level": 3,
+      "text": "Simple, compound, and complex syntactic structures present although the range may be limited;",
+      "parent_id": "Syntax.S3",
+      "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+      "start": 0,
+      "end": 93,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Syntax.S3.C02": {
+      "condition_id": "Syntax.S3.C02",
+      "aspect": "Syntax",
+      "level": 3,
+      "text": "some apparent errors in sentence formation, especially in more complex sentences.",
+      "parent_id": "Syntax.S3",
+      "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+      "start": 94,
+      "end": 175,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Vocabulary.S3.C01": {
+      "condition_id": "Vocabulary.S3.C01",
+      "aspect": "Vocabulary",
+      "level": 3,
+      "text": "Minimally adequate range of vocabulary for the topic;",
+      "parent_id": "Vocabulary.S3",
+      "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+      "start": 0,
+      "end": 53,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Vocabulary.S3.C02": {
+      "condition_id": "Vocabulary.S3.C02",
+      "aspect": "Vocabulary",
+      "level": 3,
+      "text": "no precise use of subtle word meanings;",
+      "parent_id": "Vocabulary.S3",
+      "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+      "start": 54,
+      "end": 93,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Vocabulary.S3.C03": {
+      "condition_id": "Vocabulary.S3.C03",
+      "aspect": "Vocabulary",
+      "level": 3,
+      "text": "topic related terms only used occasionally;",
+      "parent_id": "Vocabulary.S3",
+      "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+      "start": 94,
+      "end": 137,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Vocabulary.S3.C04": {
+      "condition_id": "Vocabulary.S3.C04",
+      "aspect": "Vocabulary",
+      "level": 3,
+      "text": "attempts to use less common vocabulary but with some inaccuracy",
+      "parent_id": "Vocabulary.S3",
+      "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+      "start": 138,
+      "end": 201,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Grammar.S3.C01": {
+      "condition_id": "Grammar.S3.C01",
+      "aspect": "Grammar",
+      "level": 3,
+      "text": "Some errors in grammar and usage.",
+      "parent_id": "Grammar.S3",
+      "parent_text": "Some errors in grammar and usage.",
+      "start": 0,
+      "end": 33,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Conventions.S3.C01": {
+      "condition_id": "Conventions.S3.C01",
+      "aspect": "Conventions",
+      "level": 3,
+      "text": "Developing use of conventions to convey meaning;",
+      "parent_id": "Conventions.S3",
+      "parent_text": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+      "start": 0,
+      "end": 48,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Conventions.S3.C02": {
+      "condition_id": "Conventions.S3.C02",
+      "aspect": "Conventions",
+      "level": 3,
+      "text": "errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+      "parent_id": "Conventions.S3",
+      "parent_text": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+      "start": 49,
+      "end": 132,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    }
+  }
+}

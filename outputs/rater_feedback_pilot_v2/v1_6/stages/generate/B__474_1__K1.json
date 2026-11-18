@@ -1,0 +1,211 @@
+{
+  "fingerprint": "f69ad298d0f4b9b1579c303ed4fdba032545ed956e5ef6af20cb30386b2f7ecb",
+  "result": {
+    "rationale": "文章は基本的な意味を伝えるが、文法や構成に多くの問題があり、全体的な理解を阻害する。単語やフレーズの選択も限られている。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "474:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "多くの文法と構文のエラー",
+        "span_ids": [
+          "474:1@U001",
+          "474:1@U002",
+          "474:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に一致",
+        "condition_ids": [
+          "Overall.S2.C01",
+          "Grammar.S2.C01",
+          "Syntax.S2.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と構文のエラーが頻繁に見られる。",
+        "limits": "一部の文は理解可能だが、全体的な流れが乱れる。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U001",
+            "start": 0,
+            "end": 34,
+            "text": "We all dose mistake in our life . "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U002",
+            "start": 34,
+            "end": 99,
+            "text": "If your going from failure to failure without loss enthusiasm\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U003",
+            "start": 99,
+            "end": 326,
+            "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "474:1",
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "feature": "アイデアのつながりが不明瞭",
+        "span_ids": [
+          "474:1@U003",
+          "474:1@U004",
+          "474:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に一致",
+        "condition_ids": [
+          "Cohesion.S2.C01",
+          "Cohesion.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "アイデアのつながりが不明瞭で、論理的な流れが欠けている。",
+        "limits": "一部の文は関連性があるが、全体的な組織が弱い。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U003",
+            "start": 99,
+            "end": 326,
+            "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U004",
+            "start": 326,
+            "end": 356,
+            "text": "\r\nMe and My friend we took\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U005",
+            "start": 356,
+            "end": 408,
+            "text": "IB math together , last year it was so hard for us. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "474:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "単語の選択が限られている",
+        "span_ids": [
+          "474:1@U001",
+          "474:1@U002",
+          "474:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に一致",
+        "condition_ids": [
+          "Vocabulary.S2.C01",
+          "Vocabulary.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語の選択が限られており、より正確な表現が不足している。",
+        "limits": "一部の単語は適切だが、全体的な表現力が低い。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U001",
+            "start": 0,
+            "end": 34,
+            "text": "We all dose mistake in our life . "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U002",
+            "start": 34,
+            "end": 99,
+            "text": "If your going from failure to failure without loss enthusiasm\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U003",
+            "start": 99,
+            "end": 326,
+            "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "474:1",
+        "aspect": "Conventions",
+        "kind": "appropriateness",
+        "feature": "スペルや大文字の使用が不適切",
+        "span_ids": [
+          "474:1@U001",
+          "474:1@U002",
+          "474:1@U003"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に一致",
+        "condition_ids": [
+          "Conventions.S2.C01",
+          "Conventions.S2.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "スペルや大文字の使用に問題があり、全体的な理解を阻害する。",
+        "limits": "一部の単語は正しくスペルされているが、全体的な正確性が低い。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U001",
+            "start": 0,
+            "end": 34,
+            "text": "We all dose mistake in our life . "
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U002",
+            "start": 34,
+            "end": 99,
+            "text": "If your going from failure to failure without loss enthusiasm\r\n\r\n"
+          },
+          {
+            "essay_id": "474:1",
+            "span_id": "474:1@U003",
+            "start": 99,
+            "end": 326,
+            "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体的な組織とアイデアのつながりが不明瞭な部分がある。"
+  },
+  "timestamp": "2026-11-15T19:35:32.906539+09:00"
+}

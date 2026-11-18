@@ -1,0 +1,157 @@
+{
+  "masked_reason": {
+    "rationale": "The essay demonstrates a generally controlled organization and syntax, but there are occasional errors and limited use of cohesive devices. Vocabulary is minimally adequate with some inaccuracy, and there are some grammatical errors.",
+    "unexplained": "The essay's spelling and punctuation errors are sometimes distracting, but this aspect is not fully explained in the claims.",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Cohesion",
+        "judgment_type": "presence",
+        "direction": "negative",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "feature": "The essay uses some cohesive devices, but there are repetitive and mechanical uses of cohesive devices, such as 'but' and 'don't you want to'.",
+        "evaluation": "The organization is generally controlled, but the use of cohesive devices is limited in type and sometimes repetitive.",
+        "overall_relation": "The essay's [得点表現除去] aligns with the presence of repetitive cohesive devices and limited variety.",
+        "trait_relation": "The limited use of cohesive devices impacts the Cohesion score but does not affect other traits significantly.",
+        "limits": "The essay could benefit from a wider range of cohesive devices to improve the flow and clarity of ideas."
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Syntax",
+        "judgment_type": "presence",
+        "direction": "negative",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "feature": "The essay includes simple and compound sentences, but there are occasional errors in sentence formation, especially in more complex sentences.",
+        "evaluation": "The syntax is generally controlled, but there are some apparent errors in sentence formation.",
+        "overall_relation": "The essay's [得点表現除去] aligns with the presence of occasional errors in sentence formation.",
+        "trait_relation": "The errors in sentence formation impact the Syntax score but do not significantly affect other traits.",
+        "limits": "The essay could benefit from more complex sentence structures and fewer errors to improve the overall syntax."
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Vocabulary",
+        "judgment_type": "presence",
+        "direction": "negative",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "feature": "The essay uses a minimally adequate range of vocabulary for the topic, with occasional attempts to use less common vocabulary but with some inaccuracy.",
+        "evaluation": "The vocabulary is minimally adequate, but there are attempts to use less common vocabulary with some inaccuracy.",
+        "overall_relation": "The essay's [得点表現除去] aligns with the minimally adequate range and occasional inaccuracies.",
+        "trait_relation": "The inaccuracy in less common vocabulary impacts the Vocabulary score but does not significantly affect other traits.",
+        "limits": "The essay could benefit from a more precise use of vocabulary to improve the clarity and depth of the argument."
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "4902:1",
+        "aspect": "Grammar",
+        "judgment_type": "presence",
+        "direction": "negative",
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "feature": "The essay contains some errors in grammar and usage, such as 'i agree' and 'friend are't'.",
+        "evaluation": "There are some errors in grammar and usage, but they are not frequent.",
+        "overall_relation": "The essay's [得点表現除去] aligns with the presence of some errors but not frequent ones.",
+        "trait_relation": "The errors in grammar and usage impact the Grammar score but do not significantly affect other traits.",
+        "limits": "The essay could benefit from fewer grammatical errors to improve the clarity and correctness of the writing."
+      }
+    ]
+  },
+  "logs": [
+    {
+      "path": "C1.overall_relation",
+      "start": 12,
+      "end": 31,
+      "original": "cohesion score of 2",
+      "replacement": "[得点表現除去]",
+      "reason": "score_declaration",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C2.overall_relation",
+      "start": 12,
+      "end": 29,
+      "original": "syntax score of 3",
+      "replacement": "[得点表現除去]",
+      "reason": "score_declaration",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C3.overall_relation",
+      "start": 12,
+      "end": 33,
+      "original": "vocabulary score of 3",
+      "replacement": "[得点表現除去]",
+      "reason": "score_declaration",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C4.overall_relation",
+      "start": 12,
+      "end": 30,
+      "original": "grammar score of 3",
+      "replacement": "[得点表現除去]",
+      "reason": "score_declaration",
+      "offset_basis": "current sequential text"
+    }
+  ],
+  "residual": [],
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true
+}

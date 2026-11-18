@@ -1,0 +1,117 @@
+{
+  "candidate_key": "A|2348:1|K1",
+  "masked_reason": {
+    "rationale": "文章の組織と文法、語彙の使用に問題があり、コミュニケーションが阻害される。文法と構文の誤りが頻繁に見られ、単語の選択や使用も適切でない。",
+    "unexplained": "評価が低い理由として、文法と構文の誤り、単語の選択と使用の問題、文章の組織の不十分さ、スペリングや句読点の誤りが指摘される。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2348:1",
+        "span_ids": [
+          "2348:1@U001",
+          "2348:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "communication",
+        "direction": "negative",
+        "feature": "頻繁な文法と構文の誤りがコミュニケーションを阻害する",
+        "score_relation": "評価が低い理由",
+        "support_explanation": "具体的な文法と構文の誤りが引用されている",
+        "limits": "一部の誤りは個々の文脈により解釈が変わる可能性がある"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2348:1",
+        "span_ids": [
+          "2348:1@U003",
+          "2348:1@U005"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "direction": "negative",
+        "feature": "単語の選択と使用が適切でない",
+        "score_relation": "評価が低い理由",
+        "support_explanation": "具体的な単語の誤用が引用されている",
+        "limits": "一部の単語の使用は文脈により適切である可能性がある"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2348:1",
+        "span_ids": [
+          "2348:1@U001",
+          "2348:1@U004"
+        ],
+        "aspect": "Cohesion",
+        "kind": "organization",
+        "direction": "negative",
+        "feature": "文章の組織が不十分で、アイデアの論理的な順序付けが欠けている",
+        "score_relation": "評価が低い理由",
+        "support_explanation": "具体的な組織の問題が引用されている",
+        "limits": "一部のアイデアは文脈によりつながっている可能性がある"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2348:1",
+        "span_ids": [
+          "2348:1@U001",
+          "2348:1@U003"
+        ],
+        "aspect": "Conventions",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "スペリング、大文字、句読点の誤りが頻繁で、注意を散漫させる",
+        "score_relation": "評価が低い理由",
+        "support_explanation": "具体的な誤りが引用されている",
+        "limits": "一部の誤りは個々の文脈により影響が少ない可能性がある"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S2.C03",
+        "Grammar.S2.C01",
+        "Syntax.S2.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Vocabulary.S2.C02",
+        "Vocabulary.S2.C03"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Cohesion.S2.C01",
+        "Cohesion.S2.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Conventions.S2.C01",
+        "Conventions.S2.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

@@ -1,0 +1,119 @@
+{
+  "candidate_key": "A|7418:2|K2",
+  "masked_reason": {
+    "rationale": "この文章は、ブラジルを訪れる理由についての明確な主張を示しており、文法や構成が全体的に適切で、コミュニケーションが円滑に進行している。ただし、細部にわたる誤りや表現の改善余地がある。",
+    "unexplained": "一部の表現や文法に改善余地があるが、全体的なコミュニケーションは円滑に進行している。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "span_ids": [
+          "7418:2@U001",
+          "7418:2@U002",
+          "7418:2@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "明確な主張と適切な組織",
+        "score_relation": "一致",
+        "support_explanation": "ブラジルを訪れる理由についての明確な主張があり、全体的な組織が適切。",
+        "limits": "一部の表現や文法に改善余地がある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "span_ids": [
+          "7418:2@U004",
+          "7418:2@U005",
+          "7418:2@U006"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "positive",
+        "feature": "文法の正確性",
+        "score_relation": "一致",
+        "support_explanation": "文法的な誤りがほとんどない。",
+        "limits": "一部の文法的な誤りが存在する可能性がある。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "span_ids": [
+          "7418:2@U007",
+          "7418:2@U008",
+          "7418:2@U009"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "positive",
+        "feature": "適切な語彙の使用",
+        "score_relation": "一致",
+        "support_explanation": "適切な語彙が使用されている。",
+        "limits": "一部の語彙の使用に改善余地がある。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "span_ids": [
+          "7418:2@U010",
+          "7418:2@U011",
+          "7418:2@U012"
+        ],
+        "aspect": "Conventions",
+        "kind": "appropriateness",
+        "direction": "positive",
+        "feature": "規則の適切な使用",
+        "score_relation": "一致",
+        "support_explanation": "規則が適切に使用されている。",
+        "limits": "一部の規則の使用に改善余地がある。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S5.C01",
+        "Overall.S5.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Grammar.S5.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S5.C01",
+        "Vocabulary.S5.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Conventions.S5.C01",
+        "Conventions.S5.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

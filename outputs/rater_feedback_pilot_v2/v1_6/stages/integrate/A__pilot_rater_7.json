@@ -1,0 +1,62 @@
+{
+  "fingerprint": "58c95c7d098a58831a9d7697dcd774d8a455e48b4ef1a7e7ea1bfc6ab344d905",
+  "result": {
+    "patterns": [
+      {
+        "pattern_id": "P1",
+        "feature_context": "一般的な構造と単純な文法の使用",
+        "repeated_judgment": "評価に影響",
+        "inferred_tendency": "採用された個別理由では、一般的な構造と単純な文法の使用が評価に影響を与えると説明されている。",
+        "support": [
+          {
+            "target_id": "1514:1",
+            "claim_ids": [
+              "1514:1/K1/C1"
+            ]
+          },
+          {
+            "target_id": "1868:1",
+            "claim_ids": [
+              "1868:1/K1/C1",
+              "1868:1/K2/C1"
+            ]
+          }
+        ],
+        "counterexamples": [],
+        "non_applicable": [],
+        "insufficient_target_ids": [],
+        "limits": "複雑な文法や単語の使用が限られているが、全体的な組織は理解しやすい。"
+      },
+      {
+        "pattern_id": "P2",
+        "feature_context": "文法と慣用句の誤用",
+        "repeated_judgment": "評価に影響",
+        "inferred_tendency": "採用された個別理由では、文法と慣用句の誤用が評価に影響すると説明されている。",
+        "support": [
+          {
+            "target_id": "1514:1",
+            "claim_ids": [
+              "1514:1/K1/C2"
+            ]
+          },
+          {
+            "target_id": "1868:1",
+            "claim_ids": [
+              "1868:1/K1/C3",
+              "1868:1/K2/C2"
+            ]
+          }
+        ],
+        "counterexamples": [],
+        "non_applicable": [],
+        "insufficient_target_ids": [],
+        "limits": "誤解を招く可能性があるが、全体的な意味は理解できる。"
+      }
+    ],
+    "unknowns": "1961:1の評価傾向は不明。"
+  },
+  "timestamp": "2026-11-15T18:50:14.996015+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_5/stages/integrate/A__pilot_rater_7.json",
+  "source_fingerprint": "96152eaf88d30cbc023078abf221e80eb96dde622242f7b0a9743ff580771125",
+  "reuse_recorded_at": "2026-11-15T19:01:11.026026+09:00"
+}

@@ -1,0 +1,174 @@
+{
+  "fingerprint": "e28f492cbef8f35fc003d23ae1e369aa43a7a4b9b100f260e14dcae30d9c89e9",
+  "result": {
+    "rationale": "この文章は、適切な文法と構造を持つが、言葉の選択や表現に時折不適切な部分があり、コミュニケーションに若干の支障をきたす可能性がある。全体としては、組織がよく、必要な情報を提供しているが、より洗練された表現や文法の正確さが求められる。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2444:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "適切な文法と構造",
+        "span_ids": [
+          "2444:1@U001",
+          "2444:1@U002"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S4.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と構造は正確で、誤りが少ない。",
+        "limits": "文法と構造の正確さは評価の一部だが、全体の評価には影響しない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U001",
+            "start": 0,
+            "end": 53,
+            "text": "I should be selected to visit the ''AD Assets Inc''. "
+          },
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U002",
+            "start": 53,
+            "end": 152,
+            "text": "The AD Assets Inc, is the most important company of Assets in United States for the last 35 years. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2444:1",
+        "aspect": "Vocabulary",
+        "kind": "frequency",
+        "feature": "不適切な単語選択",
+        "span_ids": [
+          "2444:1@U004",
+          "2444:1@U005"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語の選択に時折不適切な部分がある。",
+        "limits": "単語の選択が全体の評価に影響するが、頻度が低い。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U004",
+            "start": 226,
+            "end": 306,
+            "text": "Since I was six years old I was secured that the Assets was going to be my job. "
+          },
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U005",
+            "start": 306,
+            "end": 416,
+            "text": "Learn about business and assets without a persons that really know what they are doing is almost impossible.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2444:1",
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "feature": "表現の不適切さ",
+        "span_ids": [
+          "2444:1@U014",
+          "2444:1@U015"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Phraseology.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "表現に時折不適切な部分がある。",
+        "limits": "表現の不適切さが全体の評価に影響するが、頻度が低い。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U014",
+            "start": 1111,
+            "end": 1254,
+            "text": "Because I've learn so many things about the assets there, and acquired a lot of knowledge, so important to my future career as a business man. "
+          },
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U015",
+            "start": 1254,
+            "end": 1393,
+            "text": "This new opportunity in ''AD Assets Inc'' let me acquire more information about my future career, prove myself, and increase my knowledge. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2444:1",
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "feature": "アイデアのつながり",
+        "span_ids": [
+          "2444:1@U001",
+          "2444:1@U002"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Cohesion.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "アイデアのつながりが適切で、全体として組織が良好。",
+        "limits": "アイデアのつながりが全体の評価に影響するが、他の要素も考慮される。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U001",
+            "start": 0,
+            "end": 53,
+            "text": "I should be selected to visit the ''AD Assets Inc''. "
+          },
+          {
+            "essay_id": "2444:1",
+            "span_id": "2444:1@U002",
+            "start": 53,
+            "end": 152,
+            "text": "The AD Assets Inc, is the most important company of Assets in United States for the last 35 years. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と構造の正確さが評価に影響するが、全体の評価には他の要素も考慮される。"
+  },
+  "timestamp": "2026-11-15T19:13:33.519998+09:00"
+}

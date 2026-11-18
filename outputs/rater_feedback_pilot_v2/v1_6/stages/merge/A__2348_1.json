@@ -1,0 +1,55 @@
+{
+  "fingerprint": "a744587f82d005c1fe6512c3eb16dc2967a1d916c917dcf99d7c392dec1da4d0",
+  "result": {
+    "groups": [
+      {
+        "summary": "頻繁な文法と構文の誤りがコミュニケーションを阻害する。",
+        "claim_ids": [
+          "2348:1/K1/C1",
+          "2348:1/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "単語の選択と使用が適切でない。",
+        "claim_ids": [
+          "2348:1/K1/C2",
+          "2348:1/K2/C3"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "文章の組織が不十分で、アイデアの論理的な順序付けが欠けている。",
+        "claim_ids": [
+          "2348:1/K1/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "スペリング、大文字、句読点の誤りが頻繁で、注意を散漫させる。",
+        "claim_ids": [
+          "2348:1/K1/C4"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "表現が限定的で、誤用や反復が多い。",
+        "claim_ids": [
+          "2348:1/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "differences": [
+      {
+        "description": "文章の構成と文法の問題により、コミュニケーションが阻害されるという具体的な説明が追加された。",
+        "claim_ids": [
+          "2348:1/K2/C1"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:01:35.861905+09:00"
+}

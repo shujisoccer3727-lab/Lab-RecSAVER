@@ -1,0 +1,48 @@
+{
+  "fingerprint": "749e8e20d32a13d2242f87293ac46646d3b36b42f2d392e0002d9277f588afe0",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "verdict": "insufficient",
+        "atomic": false,
+        "feature_supported": true,
+        "evaluation_supported": false,
+        "explanation": "文章は単純な文と複雑な文の両方を使用していますが、複雑な文での誤りがコミュニケーションを妨げているという評価は、具体的な誤りの頻度や影響が不明瞭です。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "verdict": "insufficient",
+        "atomic": false,
+        "feature_supported": true,
+        "evaluation_supported": false,
+        "explanation": "文章は適切な範囲の語彙を使用していますが、より珍しい語彙を使用する試みとその不正確さについての評価は、具体的な不正確さの頻度や影響が不明瞭です。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "verdict": "insufficient",
+        "atomic": false,
+        "feature_supported": true,
+        "evaluation_supported": false,
+        "explanation": "文章には文法と使用に関する誤りが含まれていますが、これらの誤りが文章の明確さに影響を与えるという評価は、具体的な誤りの頻度や影響が不明瞭です。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "verdict": "insufficient",
+        "atomic": false,
+        "feature_supported": true,
+        "evaluation_supported": false,
+        "explanation": "文章は意味伝達のための規範の発展的な使用を示していますが、スペル、大文字、句読点の誤りが時折気を散らすという評価は、具体的な誤りの頻度や影響が不明瞭です。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-16T16:42:23.304943+09:00"
+}

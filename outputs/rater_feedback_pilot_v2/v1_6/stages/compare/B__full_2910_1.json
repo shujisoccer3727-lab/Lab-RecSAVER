@@ -1,0 +1,350 @@
+{
+  "fingerprint": "e400e5ac6d2172b8f23bc7532aae247167d8890a623a1734e394bb039860ce99",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "2910:1/K1/C1",
+          "2910:1/K1/C2",
+          "2910:1/K1/C3",
+          "2910:1/K1/C4"
+        ],
+        "span_ids": [
+          "2910:1@U001",
+          "2910:1@U004",
+          "2910:1@U008"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "2910:1@U001",
+            "tokens": [
+              "mastered",
+              "you",
+              "work",
+              "better",
+              "on",
+              "the",
+              "something",
+              "to",
+              "do"
+            ],
+            "relation": "主語と動詞の関係",
+            "interpretation": "「mastered」が主語として使われているが、文法的に不適切。動詞「work」の主語は「you」であるべき。",
+            "token_positions": [
+              {
+                "token": "mastered",
+                "start": 61,
+                "end": 69
+              },
+              {
+                "token": "mastered",
+                "start": 119,
+                "end": 127
+              },
+              {
+                "token": "mastered",
+                "start": 209,
+                "end": 217
+              },
+              {
+                "token": "you",
+                "start": 50,
+                "end": 53
+              },
+              {
+                "token": "you",
+                "start": 70,
+                "end": 73
+              },
+              {
+                "token": "you",
+                "start": 128,
+                "end": 131
+              },
+              {
+                "token": "you",
+                "start": 157,
+                "end": 160
+              },
+              {
+                "token": "work",
+                "start": 74,
+                "end": 78
+              },
+              {
+                "token": "better",
+                "start": 79,
+                "end": 85
+              },
+              {
+                "token": "better",
+                "start": 136,
+                "end": 142
+              },
+              {
+                "token": "better",
+                "start": 165,
+                "end": 171
+              },
+              {
+                "token": "on",
+                "start": 86,
+                "end": 88
+              },
+              {
+                "token": "the",
+                "start": 13,
+                "end": 16
+              },
+              {
+                "token": "the",
+                "start": 89,
+                "end": 92
+              },
+              {
+                "token": "the",
+                "start": 115,
+                "end": 118
+              },
+              {
+                "token": "the",
+                "start": 186,
+                "end": 189
+              },
+              {
+                "token": "the",
+                "start": 205,
+                "end": 208
+              },
+              {
+                "token": "something",
+                "start": 93,
+                "end": 102
+              },
+              {
+                "token": "to",
+                "start": 103,
+                "end": 105
+              },
+              {
+                "token": "do",
+                "start": 106,
+                "end": 108
+              }
+            ]
+          },
+          {
+            "span_id": "2910:1@U004",
+            "tokens": [
+              "mastered",
+              "on",
+              "chef",
+              "you",
+              "only",
+              "need",
+              "to",
+              "memorize",
+              "the",
+              "recipes"
+            ],
+            "relation": "指示対象の明確さ",
+            "interpretation": "「mastered」が指示対象として使われているが、文法的に不適切。指示対象は「chef」であるべき。",
+            "token_positions": [
+              {
+                "token": "mastered",
+                "start": 559,
+                "end": 567
+              },
+              {
+                "token": "on",
+                "start": 568,
+                "end": 570
+              },
+              {
+                "token": "chef",
+                "start": 571,
+                "end": 575
+              },
+              {
+                "token": "you",
+                "start": 548,
+                "end": 551
+              },
+              {
+                "token": "you",
+                "start": 576,
+                "end": 579
+              },
+              {
+                "token": "only",
+                "start": 580,
+                "end": 584
+              },
+              {
+                "token": "need",
+                "start": 585,
+                "end": 589
+              },
+              {
+                "token": "need",
+                "start": 628,
+                "end": 632
+              },
+              {
+                "token": "to",
+                "start": 590,
+                "end": 592
+              },
+              {
+                "token": "to",
+                "start": 633,
+                "end": 635
+              },
+              {
+                "token": "memorize",
+                "start": 593,
+                "end": 601
+              },
+              {
+                "token": "memorize",
+                "start": 636,
+                "end": 644
+              },
+              {
+                "token": "the",
+                "start": 602,
+                "end": 605
+              },
+              {
+                "token": "the",
+                "start": 645,
+                "end": 648
+              },
+              {
+                "token": "the",
+                "start": 662,
+                "end": 665
+              },
+              {
+                "token": "the",
+                "start": 677,
+                "end": 680
+              },
+              {
+                "token": "recipes",
+                "start": 606,
+                "end": 613
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Syntax.S3.C02",
+          "Grammar.S3.C01",
+          "Vocabulary.S3.C01",
+          "Cohesion.S3.C01"
+        ],
+        "feature_confirmed": "複雑な文の形成に困難がある。文法の誤りが存在する。単語の選択と用法は適切。文章の構成と文法に問題がある。",
+        "inferred_judgment": "文法と構文の誤りが確認されたが、一部の文は適切に形成されている。",
+        "rubric_based_proposal": "Overall.S3.C01, Cohesion.S3.C01, Syntax.S3.C02, Grammar.S3.C01, Vocabulary.S3.C01",
+        "agreement_review_unknown": "文法と構文の誤りが確認されたが、一部の文は適切に形成されている。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "2910:1@U001",
+              "2910:1@U004"
+            ],
+            "finding": "複雑な文の形成に困難がある。文法の誤りが存在する。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "主語と動詞の関係",
+          "where_span_ids": [
+            "2910:1@U001",
+            "2910:1@U004"
+          ],
+          "action": "主語と動詞の関係を確認",
+          "reason": "主語と動詞の関係が不明確な箇所が複数見られる。"
+        },
+        "scope_limit": "一部の文は適切に形成されている。",
+        "citations": [
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U001",
+            "start": 0,
+            "end": 220,
+            "text": "I agree with the Emerson's statement because when you have a mastered you work better on the something to do, with the mastered you get better opportunities,you get better position than the people no have the mastered.\r\n"
+          },
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U004",
+            "start": 518,
+            "end": 693,
+            "text": "For example in restaurant wen you have a mastered on chef you only need to memorize the recipes, other people need to memorize the condiment's, the tools, and the machines\r\n\r\n"
+          },
+          {
+            "essay_id": "2910:1",
+            "span_id": "2910:1@U008",
+            "start": 828,
+            "end": 1014,
+            "text": "For example some companies need you have a mastered for the job or the position, is like a some restaurants if you want to work like manager you need a mastered and you get more money.\r\n"
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Syntax.S3.C02",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "some apparent errors in sentence formation, especially in more complex sentences.",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 94,
+            "end": 175,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C01",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "Minimally adequate range of vocabulary for the topic;",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 0,
+            "end": 53,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Cohesion.S3.C01",
+            "aspect": "Cohesion",
+            "level": 3,
+            "text": "Organization generally controlled;",
+            "parent_id": "Cohesion.S3",
+            "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+            "start": 0,
+            "end": 34,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:51:52.622388+09:00"
+}

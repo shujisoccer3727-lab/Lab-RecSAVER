@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-11-16T11:33:53.039375+09:00",
+  "config": {
+    "version": "feedback-pilot-v2/2.0",
+    "output_dir": "outputs/rater_feedback_pilot_v2/v2_0",
+    "source_inputs": "outputs/rater_feedback_pilot/inputs.json",
+    "source_selection": "outputs/rater_feedback_pilot/selection.json",
+    "raw_path": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+    "wide_path": "data/processed/rater_essay_wide.csv",
+    "rubric_path": "rubrics/ellipse_rubric_structured.json",
+    "prompt_dir": "prompts/rater_feedback_pilot_v2/v5",
+    "guided_stages": [
+      "generate",
+      "ground",
+      "merge",
+      "integrate",
+      "compare",
+      "text"
+    ],
+    "guided_backend": "outlines",
+    "seed": 20261115,
+    "conditions": [
+      "B"
+    ],
+    "candidates_per_target": 2,
+    "format_retries": 1,
+    "batch_size": 8,
+    "span_max_chars": 420,
+    "pilot_rule": "one=1514:1 only; three=exact fixed IDS after saved one-case development review",
+    "model": {
+      "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+      "quantization": "gptq_marlin",
+      "tensor_parallel_size": 1,
+      "max_model_len": 32768,
+      "gpu_memory_utilization": 0.9,
+      "runtime_options": {
+        "max_num_seqs": 8,
+        "enforce_eager": true,
+        "enable_prefix_caching": true
+      }
+    },
+    "generation": {
+      "temperature": 0.2,
+      "top_p": 0.8
+    },
+    "max_tokens": {
+      "generate": 2600,
+      "verify": 96,
+      "ground": 1600,
+      "merge": 1100,
+      "integrate": 2400,
+      "compare": 2600,
+      "text": 2200
+    },
+    "seed_policy": "SHA256(seed, stage, target/candidate or rater, attempt), same paired seeds across A/B",
+    "acceptance": "Overall reconstruction match recorded separately; evidence eligibility requires atomic fully supported claim",
+    "scope": "preliminary execution and content inspection only; no final evaluation design, training, bias or efficacy claims",
+    "target_ids": [
+      "1514:1",
+      "1868:1",
+      "4902:1"
+    ],
+    "selection_purpose": "fixed development examples requested by user; no replacement or expansion",
+    "changes": [
+      "new claim fields separate feature/evaluation/score relationships",
+      "supported/contradicted/insufficient review with explicit additional evidence",
+      "separate common features from repeated evaluation judgments",
+      "remove arbitrary word-count/grammar anchors and generic action regex",
+      "local rubric comparisons; per-topic sentence-level provenance"
+    ],
+    "reuse": "no old reasons or downstream outputs reused; one-to-three reuse only identical fingerprints"
+  },
+  "source_sha256": {
+    "src/recsaver/rater_feedback_development.py": "0a56eec4e37dc42429bd1796b56faae4c9c47da459f9c0d1b046174c9393382b",
+    "src/recsaver/feedback_development_schema.py": "eb2d11e5b96cad2d5c430c44a09aa806e58a129a11d59c426ed3c6bd6487c449",
+    "src/recsaver/feedback_development_engine.py": "06a28661ca62e303adf2abfb3a855c40e4c74c3f1133fbce0ee267f1e82bb74a",
+    "src/recsaver/rater_feedback_pilot_v2.py": "2d2b2c30f1d106892bac3c9f9146391fee63b8609d33d2a6b21501d0c6da8d19",
+    "src/recsaver/model.py": "b7a3f41d2393a3d68e0b7b38ac574be83fe2b6bb4fafe1b5d5717ab7bf7db0ef",
+    "src/recsaver/rater_feedback_pilot.py": "b80701dbf07db283d65210b7bdf22221aec2aaffed2f73f2b6e80d8d14408805",
+    "configs/rater_feedback_development.json": "0f4de467a64aa1f5d2c1255dce3aaec0f73bef234c556b1a32e5cfc15a18f40c",
+    "tests/test_feedback_development.py": "2b7b7edacd2cd840465340f1303744797a90f118e0c671620b542e71931bbeb1",
+    "prompts/rater_feedback_pilot_v2/v5/compare.txt": "8fc485d72bbe065e2776a42452031b9ec4841d268d1201a8f8e43cd53cd89e08",
+    "prompts/rater_feedback_pilot_v2/v5/generate.txt": "613c30b3f361ee5d4e5ea46368f3cde1cac1ddc77ab7ef83ca05f0b6a6981197",
+    "prompts/rater_feedback_pilot_v2/v5/ground.txt": "b27dd9493cf360677506dd5dcccc4b39c57f26810699009eae3af88c9f4834e8",
+    "prompts/rater_feedback_pilot_v2/v5/integrate.txt": "60360fdcfdcb2216d26a0b573ab87b8406731d0940ce13326a9ca9729083a711",
+    "prompts/rater_feedback_pilot_v2/v5/merge.txt": "55310644ba2978abcca853c9eb4c36b1b0d8690bd8dab34ca682477bbc16c797",
+    "prompts/rater_feedback_pilot_v2/v5/text.txt": "1603a57f783495c5df72db1c846c025c1557621570c41f52e7c6155bb62fd76c",
+    "prompts/rater_feedback_pilot_v2/v5/verify.txt": "dbcc45b80204ef8731755dae84c828d2569d398ea85da2ce67de6337d065d024",
+    "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv": "6972b8a960fc9f1986046aacef18792438bf90326ec55a89272932453e2f519b",
+    "data/processed/rater_essay_wide.csv": "36e0d243eaf3a6237ac666a04a835c8206123295cf6a7b2e9476c4c28bc5e920",
+    "rubrics/ellipse_rubric_structured.json": "af5cf3309801793d630f83f3828eade60254c6e60b2968e75abc27591a7e32bb",
+    "outputs/rater_feedback_pilot_v2/v1_6/inputs.json": "1849d84cceae3b2303dcef8c11cedc9ffed2041fae90b355631a9e682779ec9e"
+  },
+  "no_old_reasons_in_generation": true,
+  "rubric_limitation": "stored transcription; original DOCX unavailable"
+}

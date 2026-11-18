@@ -1,0 +1,206 @@
+{
+  "fingerprint": "48e74f99013b0b14f2e688338f4d4835fe6b393c3043be1414deab8daa5067a8",
+  "result": {
+    "rationale": "本文は技術の利点と欠点について述べており、全体的な組織と文法は適切だが、文法や構文に時折誤りがあり、表現の多様性が限られている。これらの要素が観測評価に影響している。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "適切な組織と文法",
+        "span_ids": [
+          "7817:1@U001",
+          "7817:1@U002",
+          "7817:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "支持",
+        "condition_ids": [
+          "Overall.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "全体的な組織と文法は適切に保たれている。",
+        "limits": "文法や構文の誤りが存在する。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U001",
+            "start": 0,
+            "end": 86,
+            "text": "Since technology developed really fast now, we can't live without these technologies. "
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U002",
+            "start": 86,
+            "end": 230,
+            "text": "Some people says that use of technology had positive effects on people's lives because it's easier for people to work and context with friends. "
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U003",
+            "start": 230,
+            "end": 645,
+            "text": "Most technologies helped a lots in our life but I think use of technology had negative effects, because we are getting very lazy of doing things people are using cellphone to complete everything, eye problems make a lots of young teens are wearing glasses now, because they are using too much electronic devises, and I think most people are getting addicted to their cellphones because they can't live without it.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法の誤り",
+        "span_ids": [
+          "7817:1@U003",
+          "7817:1@U005",
+          "7817:1@U011"
+        ],
+        "direction": "negative",
+        "score_relation": "影響",
+        "condition_ids": [
+          "Grammar.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法の誤りが存在する。",
+        "limits": "誤りの頻度が低い。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U003",
+            "start": 230,
+            "end": 645,
+            "text": "Most technologies helped a lots in our life but I think use of technology had negative effects, because we are getting very lazy of doing things people are using cellphone to complete everything, eye problems make a lots of young teens are wearing glasses now, because they are using too much electronic devises, and I think most people are getting addicted to their cellphones because they can't live without it.\r\n"
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U005",
+            "start": 707,
+            "end": 1005,
+            "text": "People are getting lazy now because they are using computer to do everything, for example they order foods instead of cooked by them self, just because they think it's going to save more time for them to get work done, but after a few times they are going to get use to ordering foods on computer. "
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U011",
+            "start": 1770,
+            "end": 1985,
+            "text": "Most teenagers are get addicted to their cellphones, they can't live without it, social medias is the most addicted thing to the students, because of the social media, most students can't gets focused during class. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "構文の誤り",
+        "span_ids": [
+          "7817:1@U003",
+          "7817:1@U005",
+          "7817:1@U011"
+        ],
+        "direction": "negative",
+        "score_relation": "影響",
+        "condition_ids": [
+          "Syntax.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "構文の誤りが存在する。",
+        "limits": "誤りの頻度が低い。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U003",
+            "start": 230,
+            "end": 645,
+            "text": "Most technologies helped a lots in our life but I think use of technology had negative effects, because we are getting very lazy of doing things people are using cellphone to complete everything, eye problems make a lots of young teens are wearing glasses now, because they are using too much electronic devises, and I think most people are getting addicted to their cellphones because they can't live without it.\r\n"
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U005",
+            "start": 707,
+            "end": 1005,
+            "text": "People are getting lazy now because they are using computer to do everything, for example they order foods instead of cooked by them self, just because they think it's going to save more time for them to get work done, but after a few times they are going to get use to ordering foods on computer. "
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U011",
+            "start": 1770,
+            "end": 1985,
+            "text": "Most teenagers are get addicted to their cellphones, they can't live without it, social medias is the most addicted thing to the students, because of the social media, most students can't gets focused during class. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "表現の多様性",
+        "span_ids": [
+          "7817:1@U003",
+          "7817:1@U005",
+          "7817:1@U011"
+        ],
+        "direction": "negative",
+        "score_relation": "影響",
+        "condition_ids": [
+          "Vocabulary.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "表現の多様性が限られている。",
+        "limits": "一部の単語が適切に使用されている。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U003",
+            "start": 230,
+            "end": 645,
+            "text": "Most technologies helped a lots in our life but I think use of technology had negative effects, because we are getting very lazy of doing things people are using cellphone to complete everything, eye problems make a lots of young teens are wearing glasses now, because they are using too much electronic devises, and I think most people are getting addicted to their cellphones because they can't live without it.\r\n"
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U005",
+            "start": 707,
+            "end": 1005,
+            "text": "People are getting lazy now because they are using computer to do everything, for example they order foods instead of cooked by them self, just because they think it's going to save more time for them to get work done, but after a few times they are going to get use to ordering foods on computer. "
+          },
+          {
+            "essay_id": "7817:1",
+            "span_id": "7817:1@U011",
+            "start": 1770,
+            "end": 1985,
+            "text": "Most teenagers are get addicted to their cellphones, they can't live without it, social medias is the most addicted thing to the students, because of the social media, most students can't gets focused during class. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体的な評価が4である理由は、文法や構文の誤りと表現の多様性の限界が主な要因であるが、他の要素も影響している可能性がある。"
+  },
+  "timestamp": "2026-11-15T19:22:57.552914+09:00"
+}

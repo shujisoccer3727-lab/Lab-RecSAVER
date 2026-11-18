@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-15T18:59:08.514476+09:00",
+  "proceed": false,
+  "pilot_sha256": "16564d4743188011dffc98353aad2e3ca1dd716242f9fe55a0e2949055095af3",
+  "decision": "revise comparison only before expansion",
+  "issues": [
+    "next_action.action is only 確認 in one output",
+    "duplicated issues",
+    "concrete linguistic/discourse relation insufficient despite valid schema"
+  ],
+  "upstream_stages_unchanged": [
+    "generate",
+    "verify",
+    "ground",
+    "merge",
+    "integrate"
+  ]
+}

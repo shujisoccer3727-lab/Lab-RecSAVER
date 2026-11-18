@@ -1,0 +1,116 @@
+{
+  "candidate_key": "B|7817:1|K2",
+  "masked_reason": {
+    "rationale": "文章は全体的にまとまりがあり、技術の利点と欠点について述べている。しかし、文法や構文に誤りがあり、表現の多様性が不足している。",
+    "unexplained": "文法や構文の誤りが全体的な評価にどのように影響したかは不明瞭。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "span_ids": [
+          "7817:1@U001",
+          "7817:1@U003",
+          "7817:1@U013"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "文章は全体的にまとまりがあり、技術の利点と欠点について述べている。",
+        "score_relation": "一致",
+        "support_explanation": "全体的な組織が良好で、主題が明確に述べられている。",
+        "limits": "文法や構文の誤りが存在する。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "span_ids": [
+          "7817:1@U002",
+          "7817:1@U005",
+          "7817:1@U011"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "複雑な文法構造の使用に誤りがある。",
+        "score_relation": "一致",
+        "support_explanation": "複雑な文法構造の使用に誤りがある。",
+        "limits": "誤りが頻繁に見られるわけではない。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "span_ids": [
+          "7817:1@U003",
+          "7817:1@U008",
+          "7817:1@U013"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "positive",
+        "feature": "用語の範囲が十分で、主題に関連する用語が適切に使用されている。",
+        "score_relation": "一致",
+        "support_explanation": "主題に関連する用語が適切に使用されている。",
+        "limits": "用語の範囲が広くない。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "span_ids": [
+          "7817:1@U002",
+          "7817:1@U005",
+          "7817:1@U011"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文法に誤りがある。",
+        "score_relation": "一致",
+        "support_explanation": "文法に誤りがある。",
+        "limits": "誤りが頻繁に見られるわけではない。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Grammar.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

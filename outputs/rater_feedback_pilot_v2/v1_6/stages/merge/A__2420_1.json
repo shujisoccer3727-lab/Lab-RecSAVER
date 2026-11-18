@@ -1,0 +1,83 @@
+{
+  "fingerprint": "987fe66c1595e079512e33e644c021ebd504aaaab5d80748cc77d167048536a4",
+  "result": {
+    "groups": [
+      {
+        "summary": "アイデアの接続が一部欠けている。複雑な文の形成に誤りがあるため、組織が完全に制御されていない。",
+        "claim_ids": [
+          "2420:1/K1/C1",
+          "2420:1/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "トピックに関連する用語が時折使用されるが、正確な単語の使用に誤りがある。単語の選択が時折正確でない。",
+        "claim_ids": [
+          "2420:1/K2/C2",
+          "2420:1/K1/C3"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "フレーズの使用が時折正確でない。",
+        "claim_ids": [
+          "2420:1/K1/C4"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "文法に誤りがある。",
+        "claim_ids": [
+          "2420:1/K1/C2"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "differences": [
+      {
+        "description": "組織が一般的に制御されているが、複雑な文の形成に誤りがあるという評価が反映されている。",
+        "claim_ids": [
+          "2420:1/K2/C1"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "トピックに関連する用語が時折使用されるが、正確な単語の使用に誤りがあるという評価が反映されている。",
+        "claim_ids": [
+          "2420:1/K2/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "アイデアの接続が一部欠けているという観測評価と一致。",
+        "claim_ids": [
+          "2420:1/K1/C1"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "単語の選択が時折正確でないという観測評価と一致。",
+        "claim_ids": [
+          "2420:1/K1/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "フレーズの使用が時折正確でないという観測評価と一致。",
+        "claim_ids": [
+          "2420:1/K1/C4"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "文法に誤りがあるという観測評価と一致。",
+        "claim_ids": [
+          "2420:1/K1/C2"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:01:35.751848+09:00"
+}

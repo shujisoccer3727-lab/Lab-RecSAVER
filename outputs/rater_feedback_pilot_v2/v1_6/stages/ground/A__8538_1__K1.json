@@ -1,0 +1,32 @@
+{
+  "fingerprint": "f7a14ba95fe8a90984f2f8bf452a461fc8d6b8389b4e9422459f023b0c93e1e3",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文中には多様な文法構造と単語の範囲が見られ、例えば「One example of these are those kids whose parents raise them using traditional values」や「Another example will be of someone that was raises surrounded by a very christian family」など、複雑な文法構造が使用されている。ただし、「their parents try so hard to teach them」や「altought his or her family work hard」など、一部の単語の使用が正確でない可能性がある。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "文章の組織が全体的に制御されており、主張が明確に展開されている。ただし、「One example of these are those kids whose parents raise them using traditional values」や「Another example will be of someone that was raises surrounded by a very christian family」など、一部の接続詞の使用が適切でない可能性がある。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "文法と規則性に全体的に正確さがある。ただし、「their parents try so hard to teach them」や「altought his or her family work hard」など、まれな言語の不正確さがある。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "まれな言語の不正確さがある。例えば、「people may told to be and act a certain way but at the end is your decision to do so or not」や「those kids have been thought all those values during their childhood」など、文法的な誤りがある。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:52:12.299101+09:00"
+}

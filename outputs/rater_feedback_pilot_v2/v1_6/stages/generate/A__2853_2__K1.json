@@ -1,0 +1,174 @@
+{
+  "fingerprint": "f0e6d726ad3d86dd6fb57a3afaca26c29ac5c0520724146bf22c9e7ebcd3c265",
+  "result": {
+    "rationale": "文章組織は一般的に制御されており、アイデアの重複や機械的なつながりが見られる。文法と慣用句の使用には誤りがあり、コミュニケーションに影響を与える場合がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "feature": "機械的なつながり",
+        "span_ids": [
+          "2853:2@U003",
+          "2853:2@U004"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Cohesion.S3.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "span_idsの内容が機械的なつながりを示す。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U003",
+            "start": 347,
+            "end": 767,
+            "text": "\r\nThe people that say yes they say that because when you know what career you want to take before entering high school you wiil choose you classes better depending in your career and what high school you want to attend because come schools have programs that count like college classes, and in high school you have only four years and that is not enough time for you to choose and you will end up in a carrer that you do"
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U004",
+            "start": 767,
+            "end": 805,
+            "text": "n't like if you choose the wrong one. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法誤り",
+        "span_ids": [
+          "2853:2@U005",
+          "2853:2@U015"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "span_idsの内容が文法誤りを示す。",
+        "limits": "誤りの頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U005",
+            "start": 805,
+            "end": 876,
+            "text": "If you know what you want to be you will cofus better in that career . "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U015",
+            "start": 2173,
+            "end": 2266,
+            "text": "Is better to waste four years then wasting your entire live in a career that you don't like. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "aspect": "Phraseology",
+        "kind": "range",
+        "feature": "慣用句の使用の限られた範囲",
+        "span_ids": [
+          "2853:2@U007",
+          "2853:2@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Phraseology.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "span_idsの内容が慣用句の使用の限られた範囲を示す。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U007",
+            "start": 936,
+            "end": 989,
+            "text": "when you know your goals you can achive them better. "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U012",
+            "start": 1439,
+            "end": 1754,
+            "text": "to be in shape and he is also in the school team to get a scholarchip, and me I'm taking business classes to help me know more about business marketing because I want to put my own store and Im putting everything of me to do that because that is my goal and i want to do the best of me in that project of my life.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2853:2",
+        "aspect": "Conventions",
+        "kind": "communication",
+        "feature": "スペリングと句読点の誤り",
+        "span_ids": [
+          "2853:2@U001",
+          "2853:2@U027"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Conventions.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "span_idsの内容がスペリングと句読点の誤りを示す。",
+        "limits": "全体の頻度を断定できない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U001",
+            "start": 0,
+            "end": 113,
+            "text": "Is better for students that are entering high school to know what they want to do after they finish high school? "
+          },
+          {
+            "essay_id": "2853:2",
+            "span_id": "2853:2@U027",
+            "start": 3741,
+            "end": 3955,
+            "text": "and remember that is only one life so do your best and try to live the life that you want and don't let others tell you that you can't do something just belive in your self and that will be a big change adn wen\r\n\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と慣用句の誤りの頻度や全体的な影響について、より詳細な情報が必要。"
+  },
+  "timestamp": "2026-11-15T19:19:16.150766+09:00"
+}

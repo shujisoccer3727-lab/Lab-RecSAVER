@@ -1,0 +1,121 @@
+{
+  "candidate_key": "B|1868:1|K1",
+  "masked_reason": {
+    "rationale": "文章の組織と[得点表現除去]般的に制御されているが、複雑な文の形成に誤りがあり、単語の選択と用法に正確さが不足している。また、文法と規範の使用に誤りがあり、コミュニケーションが一部で阻害される。",
+    "unexplained": "全体の組織とアイデアの重複が適切であるかどうかは不明確である。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1868:1",
+        "span_ids": [
+          "1868:1@U001",
+          "1868:1@U002"
+        ],
+        "aspect": "Syntax",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "複雑な文の形成に誤りがある",
+        "score_relation": "一致",
+        "support_explanation": "複雑な文の形成に誤りがある例が見られる。",
+        "limits": "一部の複雑な文は正確に形成されている。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1868:1",
+        "span_ids": [
+          "1868:1@U003",
+          "1868:1@U004"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "微妙な単語の意味の正確な使用が不足している",
+        "score_relation": "一致",
+        "support_explanation": "微妙な単語の意味の正確な使用が不足している例が見られる。",
+        "limits": "一部の単語は正確に使用されている。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1868:1",
+        "span_ids": [
+          "1868:1@U005",
+          "1868:1@U006"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文法と使用に誤りがある",
+        "score_relation": "一致",
+        "support_explanation": "文法と使用に誤りがある例が見られる。",
+        "limits": "誤りは一部であり、全体のコミュニケーションは阻害されない。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "1868:1",
+        "span_ids": [
+          "1868:1@U007",
+          "1868:1@U008"
+        ],
+        "aspect": "Conventions",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "スペリング、大文字、句読点の誤りが時々目立つ",
+        "score_relation": "一致",
+        "support_explanation": "スペリング、大文字、句読点の誤りが時々目立つ例が見られる。",
+        "limits": "誤りは一部であり、全体のコミュニケーションは阻害されない。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "rationale",
+      "start": 6,
+      "end": 10,
+      "original": "文法は一",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_label",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Vocabulary.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Conventions.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

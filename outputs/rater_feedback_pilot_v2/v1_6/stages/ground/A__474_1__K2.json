@@ -1,0 +1,32 @@
+{
+  "fingerprint": "4560dba738fb7e4fa467c55a518fb8d75e39e6764a5ccd828cce676e14833e36",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文中に文法的ミスと単語の選択の不適切さが見られる。例えば、「We all dose mistake in our life」や「If your going from failure to failure without loss enthusiasm」など、文法的な誤りや単語の選択の問題がある。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "複雑な文の構造で問題が見られる。例えば、「one day she talked to me and she says: Generic_Name you will not pass this class because your grade is not good you better change it or you will take it next year .」は、文の構造が複雑で理解しにくい。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "単語の選択が制限的で、適切でない場合がある。例えば、「I went home i felt stressed for one hour a about what she says to me」や「i didnt t study for the exam and i didnt want to study」など、単語の選択が適切でない。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "スペルや大文字の使用に問題がある。例えば、「your grade is not good」や「i didnt t study for the exam」など、スペルや大文字の使用に問題がある。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:52:12.381000+09:00"
+}

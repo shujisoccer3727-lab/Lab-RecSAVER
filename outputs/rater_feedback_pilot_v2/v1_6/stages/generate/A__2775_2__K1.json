@@ -1,0 +1,174 @@
+{
+  "fingerprint": "d12806a6d919af251ece0965f26711b4b04563fbfa1b7f5068cd1e22eb5c010a",
+  "result": {
+    "rationale": "このエッセイは、文法と構成が一般的に制御されており、適切な単語とフレーズの範囲が使用されています。しかし、文法と構文の誤りが見られ、コミュニケーションに時折支障をきたす可能性があります。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "適切な単語とフレーズの範囲が使用されている",
+        "span_ids": [
+          "2775:2@U001",
+          "2775:2@U002"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "適切な単語とフレーズが使用されている",
+        "limits": "一部の単語やフレーズが適切でない可能性がある",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U001",
+            "start": 0,
+            "end": 144,
+            "text": "The research study has shown that there are 25% of people thinks that trying same things over and over can never make you flourish in you life. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U002",
+            "start": 144,
+            "end": 313,
+            "text": "Some people believed that you always have to try something new everyday, while other believed that they always want to work in something that they always flourished in. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法の誤りが見られる",
+        "span_ids": [
+          "2775:2@U001",
+          "2775:2@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法の誤りが見られる",
+        "limits": "誤りの頻度が低い可能性がある",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U001",
+            "start": 0,
+            "end": 144,
+            "text": "The research study has shown that there are 25% of people thinks that trying same things over and over can never make you flourish in you life. "
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U002",
+            "start": 144,
+            "end": 313,
+            "text": "Some people believed that you always have to try something new everyday, while other believed that they always want to work in something that they always flourished in. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "文構造の誤りが見られる",
+        "span_ids": [
+          "2775:2@U003",
+          "2775:2@U004"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文構造の誤りが見られる",
+        "limits": "誤りの頻度が低い可能性がある",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U003",
+            "start": 313,
+            "end": 591,
+            "text": "Although, doing what they know can make people feel confident but, its salient for us to flourish in our life, because you can learn new things to be successful, you can have more experience, you can also mastered in more things than you are in right now for more opportunity.\r\n"
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U004",
+            "start": 591,
+            "end": 877,
+            "text": "\r\nFirst, trying new things can help you to be successful, sometimes you inserted that into your mind that you have never done that thing then,you end up saying that you can't do that, but never ever make that egregious decision in you life unless you never try you never going to know. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "feature": "アイデアのつながりが適切に表現されている",
+        "span_ids": [
+          "2775:2@U005",
+          "2775:2@U006"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Cohesion.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "アイデアのつながりが適切に表現されている",
+        "limits": "一部のアイデアのつながりが不明瞭な可能性がある",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U005",
+            "start": 877,
+            "end": 1079,
+            "text": "For Example, a friend of mine named Generic_Name, once said that \"Try Try but don't Cry\" it means that don't ever think that you can't do it, you can and you can do it in better way than anyone else\r\n\r\n"
+          },
+          {
+            "essay_id": "2775:2",
+            "span_id": "2775:2@U006",
+            "start": 1079,
+            "end": 1244,
+            "text": "don't ever break your confident because of you nervous or for any other reason, but that's not how it works, you just need to fight through whatever reason you had. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と構文の誤りがコミュニケーションに時折支障をきたす可能性があるが、具体的な頻度や影響は不明瞭である。"
+  },
+  "timestamp": "2026-11-15T19:17:27.649075+09:00"
+}

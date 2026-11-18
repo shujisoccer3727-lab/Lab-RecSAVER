@@ -1,0 +1,83 @@
+{
+  "fingerprint": "3fe866aa0a6e88310912ffcedc5742de7f054f7b7cc9bad4364cb9b6f520372b",
+  "result": {
+    "groups": [
+      {
+        "summary": "複雑な文の形成に誤りがあるが、一部は正確に形成されている。",
+        "claim_ids": [
+          "1868:1/K1/C1",
+          "1868:1/K2/C3"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "文法と使用に誤りがあるが、全体のコミュニケーションは阻害されない。",
+        "claim_ids": [
+          "1868:1/K1/C3",
+          "1868:1/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "微妙な単語の意味の正確な使用が不足しているが、一部は正確に使用されている。",
+        "claim_ids": [
+          "1868:1/K1/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "組織が一般的に制御されているが、一部のアイデアの重複や誤用がある。",
+        "claim_ids": [
+          "1868:1/K2/C1"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "トピックに関連する用語が時折使用されるが、その使用が限定的であるため、表現力が制限される可能性がある。",
+        "claim_ids": [
+          "1868:1/K2/C4"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "スペリング、大文字、句読点の誤りが時々目立つが、全体のコミュニケーションは阻害されない。",
+        "claim_ids": [
+          "1868:1/K1/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "differences": [
+      {
+        "description": "文法と構文の誤りがいくつかあるが、全体のコミュニケーションに影響を与える可能性がある。",
+        "claim_ids": [
+          "1868:1/K2/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "単純な文構造が主であり、表現力が制限される可能性がある。",
+        "claim_ids": [
+          "1868:1/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "トピックに関連する用語が時折使用されるが、その使用が限定的であるため、表現力が制限される可能性がある。",
+        "claim_ids": [
+          "1868:1/K2/C4"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "組織が一般的に制御されているが、一部のアイデアの重複や誤用がある。",
+        "claim_ids": [
+          "1868:1/K2/C1"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T18:49:12.502078+09:00"
+}

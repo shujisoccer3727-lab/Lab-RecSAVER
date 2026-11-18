@@ -1,0 +1,117 @@
+{
+  "candidate_key": "B|5627:1|K2",
+  "masked_reason": {
+    "rationale": "文章展示了基本的组织结构和词汇使用，但存在一些语法和句法错误，影响了整体的流畅性和准确性。",
+    "unexplained": "文章中存在一些拼写和标点错误，但这些错误是否频繁到影响整体的流畅性和准确性尚需进一步分析。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "5627:1",
+        "span_ids": [
+          "5627:1@U001",
+          "5627:1@U002",
+          "5627:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "基本的组织结构和词汇使用",
+        "score_relation": "支持",
+        "support_explanation": "文章展示了基本的组织结构和词汇使用。",
+        "limits": "存在一些语法和句法错误，影响了整体的流畅性和准确性。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "5627:1",
+        "span_ids": [
+          "5627:1@U004",
+          "5627:1@U005",
+          "5627:1@U006"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "句法错误",
+        "score_relation": "影响",
+        "support_explanation": "文章中存在一些句法错误，影响了句子的流畅性。",
+        "limits": "句法错误可能影响整体的流畅性和准确性。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "5627:1",
+        "span_ids": [
+          "5627:1@U007",
+          "5627:1@U008",
+          "5627:1@U009"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "语法错误",
+        "score_relation": "影响",
+        "support_explanation": "文章中存在一些语法错误，影响了句子的准确性。",
+        "limits": "语法错误可能影响整体的流畅性和准确性。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "5627:1",
+        "span_ids": [
+          "5627:1@U010",
+          "5627:1@U011",
+          "5627:1@U012"
+        ],
+        "aspect": "Conventions",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "拼写和标点错误",
+        "score_relation": "影响",
+        "support_explanation": "文章中存在一些拼写和标点错误，影响了整体的准确性。",
+        "limits": "拼写和标点错误可能影响整体的流畅性和准确性。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C01",
+        "Overall.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Conventions.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

@@ -1,0 +1,142 @@
+{
+  "fingerprint": "4eed1cf2445c0e61d9943f10fc403cbb72c4b15196299adb7de677dc399e92e1",
+  "result": {
+    "rationale": "対象の文章は、全体的に組織が制御されており、文法と規則の使用は正確だが、複雑な文の形成に誤りがある。また、単語の選択とフレーズの使用は適切だが、より広範な語彙の使用は限定的である。これらの特徴は、評価の3点と一致する。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Overall",
+        "judgment_type": "presence",
+        "feature": "複雑な文の形成に誤りがある",
+        "evaluation": "全体的な文章の品質を少し損なっている",
+        "span_ids": [
+          "1514:1@U004",
+          "1514:1@U014"
+        ],
+        "direction": "negative",
+        "overall_relation": "評価の3点と一致",
+        "trait_relation": "評価の3点と一致",
+        "limits": "複雑な文の誤りが全体的な品質に与える影響は限定的である可能性がある。",
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U004",
+            "start": 404,
+            "end": 529,
+            "text": "In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n"
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U014",
+            "start": 1555,
+            "end": 1644,
+            "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Vocabulary",
+        "judgment_type": "range",
+        "feature": "語彙の使用が限定的",
+        "evaluation": "文章の表現力に影響を与える可能性がある",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U015"
+        ],
+        "direction": "negative",
+        "overall_relation": "評価の3点と一致",
+        "trait_relation": "評価の3点と一致",
+        "limits": "特定の文脈では、語彙の使用が適切である可能性がある。",
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U015",
+            "start": 1644,
+            "end": 1998,
+            "text": "\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Cohesion",
+        "judgment_type": "organization",
+        "feature": "文章の組織が制御されている",
+        "evaluation": "文章の流れが明確で、読者に理解しやすい",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U017"
+        ],
+        "direction": "positive",
+        "overall_relation": "評価の3点と一致",
+        "trait_relation": "評価の3点と一致",
+        "limits": "一部の文では、より効果的な接続詞の使用が可能である可能性がある。",
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U017",
+            "start": 2156,
+            "end": 2355,
+            "text": "\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Grammar",
+        "judgment_type": "presence",
+        "feature": "文法と規則の使用は正確",
+        "evaluation": "文章の品質を向上させる",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U017"
+        ],
+        "direction": "positive",
+        "overall_relation": "評価の3点と一致",
+        "trait_relation": "評価の3点と一致",
+        "limits": "一部の文では、より複雑な文の形成が可能である可能性がある。",
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U017",
+            "start": 2156,
+            "end": 2355,
+            "text": "\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "複雑な文の形成に誤りがあるが、全体的な文章の品質に与える影響は限定的である可能性がある。"
+  },
+  "timestamp": "2026-11-16T16:19:52.629097+09:00"
+}

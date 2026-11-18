@@ -1,0 +1,118 @@
+{
+  "candidate_key": "B|8317:2|K1",
+  "masked_reason": {
+    "rationale": "The essay demonstrates a controlled organization and a range of vocabulary, but occasional inaccuracies in grammar and usage slightly impede communication. The text uses cohesive devices effectively, though some minor errors in sentence formation are present.",
+    "unexplained": "The essay's use of phraseology and conventions is not fully explained by the provided data.",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002",
+          "8317:2@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "controlled organization and range of vocabulary",
+        "score_relation": "aligned",
+        "support_explanation": "The essay presents a clear structure and uses a variety of vocabulary.",
+        "limits": "The text occasionally lacks precision in word choice."
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002",
+          "8317:2@U003"
+        ],
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "effective use of cohesive devices",
+        "score_relation": "aligned",
+        "support_explanation": "The essay uses transitional phrases and references to connect ideas.",
+        "limits": "Some minor errors in cohesion are present."
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002",
+          "8317:2@U003"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "occasional inaccuracies",
+        "score_relation": "aligned",
+        "support_explanation": "The essay contains some errors in grammar and usage.",
+        "limits": "These inaccuracies do not significantly impede communication."
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8317:2",
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002",
+          "8317:2@U003"
+        ],
+        "aspect": "Syntax",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "occasional errors in sentence formation",
+        "score_relation": "aligned",
+        "support_explanation": "The essay includes some minor errors in sentence structure.",
+        "limits": "The range of syntactic structures is generally appropriate."
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C01",
+        "Overall.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Cohesion.S4.C01",
+        "Cohesion.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Grammar.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Syntax.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

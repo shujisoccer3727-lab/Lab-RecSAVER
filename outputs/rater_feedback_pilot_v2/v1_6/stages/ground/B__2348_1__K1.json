@@ -1,0 +1,32 @@
+{
+  "fingerprint": "c14b96935929abfa99c94a9ed79be0e0e462cfecde0dea828672c996d34e6276",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文章の構成と文法の問題により、コミュニケーションが阻害されているという主張は、具体的な引用が存在し、全体的に文章が難解で理解しにくい状況を反映している。例えば、\"The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things\" という文は、文法的にも構成的にも問題があり、コミュニケーションが阻害されていることを示している。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "アイデアの論理的な順序付けが欠けているという主張は、具体的な引用が存在し、全体的に文章が論理的な流れを欠いている状況を反映している。例えば、\"The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things\" と続く文は、論理的なつながりが不明瞭で、アイデアの順序付けが欠けていることを示している。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "多くの文構造の問題があるという主張は、具体的な引用が存在し、全体的に文章が文法的に問題がある状況を反映している。例えば、\"The influening somepeople ued or beliefe that are for make a money or make more friends for have good relationship with people are rich and have many service with other country are so much rich,benfic,and other things\" という文は、文構造の問題を示している。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "単語の選択が制限的で、適切な単語の使用が不足しているという主張は、具体的な引用が存在し、全体的に文章が適切な単語の使用を欠いている状況を反映している。例えば、\"benfic\" という単語は「benefit」の誤りであり、適切な単語の使用が不足していることを示している。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:58:39.936364+09:00"
+}

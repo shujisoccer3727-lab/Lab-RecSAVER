@@ -1,0 +1,2947 @@
+{
+  "condition": "A",
+  "rater_id": "rater_17",
+  "target_ids": [
+    "2775:2",
+    "474:1",
+    "2853:2",
+    "318:2",
+    "7418:2",
+    "406:1",
+    "2832:2"
+  ],
+  "essay_groups": [
+    {
+      "condition": "A",
+      "target_id": "2775:2",
+      "rater_id": "rater_17",
+      "observed_overall": 4,
+      "accepted_candidate_keys": [],
+      "eligible_claims": [],
+      "candidate_comparison": {
+        "groups": [],
+        "differences": [],
+        "unknowns": "No two eligible candidates; cross-candidate agreement cannot be judged"
+      },
+      "independent_essay_count": 0
+    },
+    {
+      "condition": "A",
+      "target_id": "474:1",
+      "rater_id": "rater_17",
+      "observed_overall": 2,
+      "accepted_candidate_keys": [
+        "A|474:1|K1",
+        "A|474:1|K2"
+      ],
+      "eligible_claims": [
+        {
+          "claim_id": "C1",
+          "scope": "target",
+          "essay_id": "474:1",
+          "aspect": "Overall",
+          "kind": "communication",
+          "feature": "頻繁な文法エラーと誤用がコミュニケーションを阻害",
+          "span_ids": [
+            "474:1@U001",
+            "474:1@U002",
+            "474:1@U003"
+          ],
+          "direction": "negative",
+          "score_relation": "評価が低い理由",
+          "condition_ids": [
+            "Overall.S2.C03"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "文法エラーと誤用が頻繁に見られる",
+          "limits": "全体の頻度を断定できない",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U001",
+              "start": 0,
+              "end": 34,
+              "text": "We all dose mistake in our life . "
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U002",
+              "start": 34,
+              "end": 99,
+              "text": "If your going from failure to failure without loss enthusiasm\r\n\r\n"
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U003",
+              "start": 99,
+              "end": 326,
+              "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C1",
+            "support": "supported",
+            "explanation": "文中には頻繁な文法エラーと誤用が見られ、例えば「We all dose mistake in our life .」や「If your going from failure to failure without loss enthusiasm」など、コミュニケーションを阻害する可能性がある。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "474:1/K1/C1",
+          "target_id": "474:1",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C2",
+          "scope": "target",
+          "essay_id": "474:1",
+          "aspect": "Syntax",
+          "kind": "frequency",
+          "feature": "多くの文構造の問題",
+          "span_ids": [
+            "474:1@U001",
+            "474:1@U002",
+            "474:1@U003"
+          ],
+          "direction": "negative",
+          "score_relation": "評価が低い理由",
+          "condition_ids": [
+            "Syntax.S2.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "文構造の問題が頻繁に見られる",
+          "limits": "全体の頻度を断定できない",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U001",
+              "start": 0,
+              "end": 34,
+              "text": "We all dose mistake in our life . "
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U002",
+              "start": 34,
+              "end": 99,
+              "text": "If your going from failure to failure without loss enthusiasm\r\n\r\n"
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U003",
+              "start": 99,
+              "end": 326,
+              "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C2",
+            "support": "supported",
+            "explanation": "文中には多くの文構造の問題が見られ、例えば「If your going from failure to failure without loss enthusiasm」や「you will not going to learn from your mistake」など、文の構造が適切でない。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "474:1/K1/C2",
+          "target_id": "474:1",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C3",
+          "scope": "target",
+          "essay_id": "474:1",
+          "aspect": "Vocabulary",
+          "kind": "range",
+          "feature": "単語の範囲が狭い",
+          "span_ids": [
+            "474:1@U001",
+            "474:1@U002",
+            "474:1@U003"
+          ],
+          "direction": "negative",
+          "score_relation": "評価が低い理由",
+          "condition_ids": [
+            "Vocabulary.S2.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "単語の範囲が狭い",
+          "limits": "全体の頻度を断定できない",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U001",
+              "start": 0,
+              "end": 34,
+              "text": "We all dose mistake in our life . "
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U002",
+              "start": 34,
+              "end": 99,
+              "text": "If your going from failure to failure without loss enthusiasm\r\n\r\n"
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U003",
+              "start": 99,
+              "end": 326,
+              "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C3",
+            "support": "supported",
+            "explanation": "文中の単語の範囲が狭く、同じ単語が繰り返し使用されている。例えば「mistake」や「failure」など、より多様な単語の使用が望ましい。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "474:1/K1/C3",
+          "target_id": "474:1",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C4",
+          "scope": "target",
+          "essay_id": "474:1",
+          "aspect": "Conventions",
+          "kind": "frequency",
+          "feature": "スペル、大文字、句読点のエラーが頻繁",
+          "span_ids": [
+            "474:1@U001",
+            "474:1@U002",
+            "474:1@U003"
+          ],
+          "direction": "negative",
+          "score_relation": "評価が低い理由",
+          "condition_ids": [
+            "Conventions.S2.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "スペル、大文字、句読点のエラーが頻繁",
+          "limits": "全体の頻度を断定できない",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U001",
+              "start": 0,
+              "end": 34,
+              "text": "We all dose mistake in our life . "
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U002",
+              "start": 34,
+              "end": 99,
+              "text": "If your going from failure to failure without loss enthusiasm\r\n\r\n"
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U003",
+              "start": 99,
+              "end": 326,
+              "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C4",
+            "support": "supported",
+            "explanation": "文中にはスペル、大文字、句読点のエラーが頻繁に見られ、例えば「dose」の代わりに「do」、「your」の代わりに「you're」、「loss」の代わりに「lose」など。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "474:1/K1/C4",
+          "target_id": "474:1",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C1",
+          "scope": "target",
+          "essay_id": "474:1",
+          "aspect": "Overall",
+          "kind": "presence",
+          "feature": "文法的ミスと単語の選択の不適切さ",
+          "span_ids": [
+            "474:1@U001",
+            "474:1@U002",
+            "474:1@U003"
+          ],
+          "direction": "negative",
+          "score_relation": "評価に一致",
+          "condition_ids": [
+            "Overall.S2.C01",
+            "Overall.S2.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "文法的ミスと単語の選択の不適切さが具体的に見られる。",
+          "limits": "全体的な組織の弱さも影響している可能性がある。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U001",
+              "start": 0,
+              "end": 34,
+              "text": "We all dose mistake in our life . "
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U002",
+              "start": 34,
+              "end": 99,
+              "text": "If your going from failure to failure without loss enthusiasm\r\n\r\n"
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U003",
+              "start": 99,
+              "end": 326,
+              "text": "you will not going to learn from your mistake, Sometimes we need to feel bad about something wrong we did in our life because if we didnt feel bad or sad we will keep doing our mistake and we will not fail in the same things.\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C1",
+            "support": "supported",
+            "explanation": "文中に文法的ミスと単語の選択の不適切さが見られる。例えば、「We all dose mistake in our life」や「If your going from failure to failure without loss enthusiasm」など、文法的な誤りや単語の選択の問題がある。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "474:1/K2/C1",
+          "target_id": "474:1",
+          "candidate_index": 2
+        },
+        {
+          "claim_id": "C2",
+          "scope": "target",
+          "essay_id": "474:1",
+          "aspect": "Syntax",
+          "kind": "frequency",
+          "feature": "文の構造の問題",
+          "span_ids": [
+            "474:1@U004",
+            "474:1@U005",
+            "474:1@U006"
+          ],
+          "direction": "negative",
+          "score_relation": "評価に一致",
+          "condition_ids": [
+            "Syntax.S2.C01",
+            "Syntax.S2.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "複雑な文の構造で問題が見られる。",
+          "limits": "単純な文は問題ない場合がある。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U004",
+              "start": 326,
+              "end": 356,
+              "text": "\r\nMe and My friend we took\r\n\r\n"
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U005",
+              "start": 356,
+              "end": 408,
+              "text": "IB math together , last year it was so hard for us. "
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U006",
+              "start": 408,
+              "end": 574,
+              "text": "one day she talked to me and she says: Generic_Name you will not pass this class because your grade is not good you better change it or you will take it next year .\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C2",
+            "support": "supported",
+            "explanation": "複雑な文の構造で問題が見られる。例えば、「one day she talked to me and she says: Generic_Name you will not pass this class because your grade is not good you better change it or you will take it next year .」は、文の構造が複雑で理解しにくい。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "474:1/K2/C2",
+          "target_id": "474:1",
+          "candidate_index": 2
+        },
+        {
+          "claim_id": "C3",
+          "scope": "target",
+          "essay_id": "474:1",
+          "aspect": "Vocabulary",
+          "kind": "range",
+          "feature": "単語の選択の制限",
+          "span_ids": [
+            "474:1@U007",
+            "474:1@U008",
+            "474:1@U009"
+          ],
+          "direction": "negative",
+          "score_relation": "評価に一致",
+          "condition_ids": [
+            "Vocabulary.S2.C01",
+            "Vocabulary.S2.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "単語の選択が制限的で、適切でない場合がある。",
+          "limits": "一部の単語は適切に使用されている。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U007",
+              "start": 574,
+              "end": 728,
+              "text": "\r\nI went home i felt stressed for one hour a about what she says to me , later i told to my self that she is true about every thing she says meanwhile\r\n\r\n"
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U008",
+              "start": 728,
+              "end": 786,
+              "text": "i didnt t study for the exam and i didnt want to study .\r\n"
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U009",
+              "start": 786,
+              "end": 872,
+              "text": "\r\nOn the exam day i didnt stressed my self I was OK , I ask my friend did you study ? "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C3",
+            "support": "supported",
+            "explanation": "単語の選択が制限的で、適切でない場合がある。例えば、「I went home i felt stressed for one hour a about what she says to me」や「i didnt t study for the exam and i didnt want to study」など、単語の選択が適切でない。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "474:1/K2/C3",
+          "target_id": "474:1",
+          "candidate_index": 2
+        },
+        {
+          "claim_id": "C4",
+          "scope": "target",
+          "essay_id": "474:1",
+          "aspect": "Conventions",
+          "kind": "communication",
+          "feature": "スペルや大文字の使用の問題",
+          "span_ids": [
+            "474:1@U010",
+            "474:1@U011",
+            "474:1@U012"
+          ],
+          "direction": "negative",
+          "score_relation": "評価に一致",
+          "condition_ids": [
+            "Conventions.S2.C01",
+            "Conventions.S2.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "スペルや大文字の使用に問題がある。",
+          "limits": "一部の文は適切に書かれている。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U010",
+              "start": 872,
+              "end": 949,
+              "text": "She says i didnt study ,I feel happy because its Friday .We took the exam\r\n\r\n"
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U011",
+              "start": 949,
+              "end": 1018,
+              "text": "both of us didnt pass but the thing i felt so bad, When i went home. "
+            },
+            {
+              "essay_id": "474:1",
+              "span_id": "474:1@U012",
+              "start": 1018,
+              "end": 1107,
+              "text": "My dad ask me about my grade , i told him that i didnt pass because it is hard for me .\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C4",
+            "support": "supported",
+            "explanation": "スペルや大文字の使用に問題がある。例えば、「your grade is not good」や「i didnt t study for the exam」など、スペルや大文字の使用に問題がある。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "474:1/K2/C4",
+          "target_id": "474:1",
+          "candidate_index": 2
+        }
+      ],
+      "candidate_comparison": {
+        "groups": [
+          {
+            "summary": "頻繁な文法エラーと誤用がコミュニケーションを阻害し、文法的ミスと単語の選択の不適切さが具体的に見られる。",
+            "claim_ids": [
+              "474:1/K1/C1",
+              "474:1/K2/C1"
+            ],
+            "candidate_count": 2
+          },
+          {
+            "summary": "多くの文構造の問題が見られ、複雑な文の構造で問題が見られる。",
+            "claim_ids": [
+              "474:1/K1/C2",
+              "474:1/K2/C2"
+            ],
+            "candidate_count": 2
+          },
+          {
+            "summary": "単語の範囲が狭く、単語の選択が制限的で、適切でない場合がある。",
+            "claim_ids": [
+              "474:1/K1/C3",
+              "474:1/K2/C3"
+            ],
+            "candidate_count": 2
+          },
+          {
+            "summary": "スペル、大文字、句読点のエラーが頻繁に見られ、スペルや大文字の使用に問題がある。",
+            "claim_ids": [
+              "474:1/K1/C4",
+              "474:1/K2/C4"
+            ],
+            "candidate_count": 2
+          }
+        ],
+        "differences": [
+          {
+            "description": "文法エラーと誤用が頻繁に見られるが、文法的ミスと単語の選択の不適切さが具体的に見られる。",
+            "claim_ids": [
+              "474:1/K1/C1",
+              "474:1/K2/C1"
+            ],
+            "candidate_count": 2
+          },
+          {
+            "description": "文構造の問題が頻繁に見られるが、複雑な文の構造で問題が見られる。",
+            "claim_ids": [
+              "474:1/K1/C2",
+              "474:1/K2/C2"
+            ],
+            "candidate_count": 2
+          },
+          {
+            "description": "単語の範囲が狭く、単語の選択が制限的で、適切でない場合がある。",
+            "claim_ids": [
+              "474:1/K1/C3",
+              "474:1/K2/C3"
+            ],
+            "candidate_count": 2
+          },
+          {
+            "description": "スペル、大文字、句読点のエラーが頻繁に見られるが、スペルや大文字の使用に問題がある。",
+            "claim_ids": [
+              "474:1/K1/C4",
+              "474:1/K2/C4"
+            ],
+            "candidate_count": 2
+          }
+        ],
+        "unknowns": ""
+      },
+      "independent_essay_count": 1
+    },
+    {
+      "condition": "A",
+      "target_id": "2853:2",
+      "rater_id": "rater_17",
+      "observed_overall": 3,
+      "accepted_candidate_keys": [
+        "A|2853:2|K1",
+        "A|2853:2|K2"
+      ],
+      "eligible_claims": [
+        {
+          "claim_id": "C1",
+          "scope": "target",
+          "essay_id": "2853:2",
+          "aspect": "Cohesion",
+          "kind": "presence",
+          "feature": "機械的なつながり",
+          "span_ids": [
+            "2853:2@U003",
+            "2853:2@U004"
+          ],
+          "direction": "negative",
+          "score_relation": "観測評価と一致",
+          "condition_ids": [
+            "Cohesion.S3.C03"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "span_idsの内容が機械的なつながりを示す。",
+          "limits": "全体の頻度を断定できない。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U003",
+              "start": 347,
+              "end": 767,
+              "text": "\r\nThe people that say yes they say that because when you know what career you want to take before entering high school you wiil choose you classes better depending in your career and what high school you want to attend because come schools have programs that count like college classes, and in high school you have only four years and that is not enough time for you to choose and you will end up in a carrer that you do"
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U004",
+              "start": 767,
+              "end": 805,
+              "text": "n't like if you choose the wrong one. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C1",
+            "support": "supported",
+            "explanation": "span_idsの内容は、文章間の機械的なつながりを示しています。具体的には、2853:2@U003と2853:2@U004の間で、議論が機械的に展開していることが確認できます。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2853:2/K1/C1",
+          "target_id": "2853:2",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C2",
+          "scope": "target",
+          "essay_id": "2853:2",
+          "aspect": "Grammar",
+          "kind": "frequency",
+          "feature": "文法誤り",
+          "span_ids": [
+            "2853:2@U005",
+            "2853:2@U015"
+          ],
+          "direction": "negative",
+          "score_relation": "観測評価と一致",
+          "condition_ids": [
+            "Grammar.S3.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "span_idsの内容が文法誤りを示す。",
+          "limits": "誤りの頻度を断定できない。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U005",
+              "start": 805,
+              "end": 876,
+              "text": "If you know what you want to be you will cofus better in that career . "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U015",
+              "start": 2173,
+              "end": 2266,
+              "text": "Is better to waste four years then wasting your entire live in a career that you don't like. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C2",
+            "support": "supported",
+            "explanation": "span_idsの内容は、文法誤りを示しています。具体的には、2853:2@U005と2853:2@U015の文法誤りが確認できます。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2853:2/K1/C2",
+          "target_id": "2853:2",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C3",
+          "scope": "target",
+          "essay_id": "2853:2",
+          "aspect": "Phraseology",
+          "kind": "range",
+          "feature": "慣用句の使用の限られた範囲",
+          "span_ids": [
+            "2853:2@U007",
+            "2853:2@U012"
+          ],
+          "direction": "negative",
+          "score_relation": "観測評価と一致",
+          "condition_ids": [
+            "Phraseology.S3.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "span_idsの内容が慣用句の使用の限られた範囲を示す。",
+          "limits": "全体の頻度を断定できない。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U007",
+              "start": 936,
+              "end": 989,
+              "text": "when you know your goals you can achive them better. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U012",
+              "start": 1439,
+              "end": 1754,
+              "text": "to be in shape and he is also in the school team to get a scholarchip, and me I'm taking business classes to help me know more about business marketing because I want to put my own store and Im putting everything of me to do that because that is my goal and i want to do the best of me in that project of my life.\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C3",
+            "support": "supported",
+            "explanation": "span_idsの内容は、慣用句の使用の限られた範囲を示しています。具体的には、2853:2@U007と2853:2@U012の範囲内で慣用句の使用が限定的であることが確認できます。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2853:2/K1/C3",
+          "target_id": "2853:2",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C4",
+          "scope": "target",
+          "essay_id": "2853:2",
+          "aspect": "Conventions",
+          "kind": "communication",
+          "feature": "スペリングと句読点の誤り",
+          "span_ids": [
+            "2853:2@U001",
+            "2853:2@U027"
+          ],
+          "direction": "negative",
+          "score_relation": "観測評価と一致",
+          "condition_ids": [
+            "Conventions.S3.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "span_idsの内容がスペリングと句読点の誤りを示す。",
+          "limits": "全体の頻度を断定できない。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U001",
+              "start": 0,
+              "end": 113,
+              "text": "Is better for students that are entering high school to know what they want to do after they finish high school? "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U027",
+              "start": 3741,
+              "end": 3955,
+              "text": "and remember that is only one life so do your best and try to live the life that you want and don't let others tell you that you can't do something just belive in your self and that will be a big change adn wen\r\n\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C4",
+            "support": "supported",
+            "explanation": "span_idsの内容は、スペリングと句読点の誤りを示しています。具体的には、2853:2@U001と2853:2@U027のスペリングと句読点の誤りが確認できます。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2853:2/K1/C4",
+          "target_id": "2853:2",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C1",
+          "scope": "target",
+          "essay_id": "2853:2",
+          "aspect": "Overall",
+          "kind": "presence",
+          "feature": "一般的な組織が保たれている",
+          "span_ids": [
+            "2853:2@U001",
+            "2853:2@U002",
+            "2853:2@U003"
+          ],
+          "direction": "positive",
+          "score_relation": "一致",
+          "condition_ids": [
+            "Overall.S3.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "文章は全体的に組織が保たれており、主要なアイデアが明確に示されている。",
+          "limits": "一部の段落間のつながりが弱い可能性がある。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U001",
+              "start": 0,
+              "end": 113,
+              "text": "Is better for students that are entering high school to know what they want to do after they finish high school? "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U002",
+              "start": 113,
+              "end": 347,
+              "text": "some pleople will say yes but some will say no and they are not wrong or right anwer in thise question is depending in your point of view and how fast you want to achive your goal and how good you want to be in your carrer and work.\r\n"
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U003",
+              "start": 347,
+              "end": 767,
+              "text": "\r\nThe people that say yes they say that because when you know what career you want to take before entering high school you wiil choose you classes better depending in your career and what high school you want to attend because come schools have programs that count like college classes, and in high school you have only four years and that is not enough time for you to choose and you will end up in a carrer that you do"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C1",
+            "support": "supported",
+            "explanation": "文章は全体的に組織が保たれており、主要なアイデアが明確に示されている。ただし、一部の段落間のつながりが弱い可能性がある。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2853:2/K2/C1",
+          "target_id": "2853:2",
+          "candidate_index": 2
+        },
+        {
+          "claim_id": "C2",
+          "scope": "target",
+          "essay_id": "2853:2",
+          "aspect": "Grammar",
+          "kind": "frequency",
+          "feature": "文法と構文の誤りが存在する",
+          "span_ids": [
+            "2853:2@U004",
+            "2853:2@U005",
+            "2853:2@U006"
+          ],
+          "direction": "negative",
+          "score_relation": "一致",
+          "condition_ids": [
+            "Grammar.S3.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "文章中に文法と構文の誤りが見られ、コミュニケーションを阻害する場合がある。",
+          "limits": "誤りの頻度が全体的な理解を阻害するほどではない。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U004",
+              "start": 767,
+              "end": 805,
+              "text": "n't like if you choose the wrong one. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U005",
+              "start": 805,
+              "end": 876,
+              "text": "If you know what you want to be you will cofus better in that career . "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U006",
+              "start": 876,
+              "end": 936,
+              "text": "You can join programs to help you more in your goals and\r\n\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C2",
+            "support": "supported",
+            "explanation": "文章中に文法と構文の誤りが見られ、コミュニケーションを阻害する場合がある。ただし、誤りの頻度が全体的な理解を阻害するほどではない。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2853:2/K2/C2",
+          "target_id": "2853:2",
+          "candidate_index": 2
+        },
+        {
+          "claim_id": "C3",
+          "scope": "target",
+          "essay_id": "2853:2",
+          "aspect": "Syntax",
+          "kind": "frequency",
+          "feature": "単純な文法と構文の問題が存在する",
+          "span_ids": [
+            "2853:2@U007",
+            "2853:2@U008",
+            "2853:2@U009"
+          ],
+          "direction": "negative",
+          "score_relation": "一致",
+          "condition_ids": [
+            "Syntax.S3.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "文章中に単純な文法と構文の問題が見られ、一部の複雑な文では誤りが見られる。",
+          "limits": "誤りが全体的な理解を阻害するほどではない。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U007",
+              "start": 936,
+              "end": 989,
+              "text": "when you know your goals you can achive them better. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U008",
+              "start": 989,
+              "end": 1180,
+              "text": "You also will try to see how can you get a scholarchip for your carrer and what college are better for you, and you will mead people that like the same thing as you and you can make friends. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U009",
+              "start": 1180,
+              "end": 1256,
+              "text": "When you join programs some time you can get a scholarchip if you are good. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C3",
+            "support": "supported",
+            "explanation": "文章中に単純な文法と構文の問題が見られ、一部の複雑な文では誤りが見られる。ただし、誤りが全体的な理解を阻害するほどではない。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2853:2/K2/C3",
+          "target_id": "2853:2",
+          "candidate_index": 2
+        },
+        {
+          "claim_id": "C4",
+          "scope": "target",
+          "essay_id": "2853:2",
+          "aspect": "Vocabulary",
+          "kind": "range",
+          "feature": "適切な単語の使用",
+          "span_ids": [
+            "2853:2@U010",
+            "2853:2@U011",
+            "2853:2@U012"
+          ],
+          "direction": "positive",
+          "score_relation": "一致",
+          "condition_ids": [
+            "Vocabulary.S3.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "文章は適切な単語を使用しており、全体的な意味は理解できる。",
+          "limits": "一部の単語の使用が正確でない可能性がある。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U010",
+              "start": 1256,
+              "end": 1337,
+              "text": "For example my friend want to join the army so he is taking jrotc to help hem\r\n\r\n"
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U011",
+              "start": 1337,
+              "end": 1439,
+              "text": "do better in the army but my other friend wants to do soccer for college so he is taking advance p.e. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U012",
+              "start": 1439,
+              "end": 1754,
+              "text": "to be in shape and he is also in the school team to get a scholarchip, and me I'm taking business classes to help me know more about business marketing because I want to put my own store and Im putting everything of me to do that because that is my goal and i want to do the best of me in that project of my life.\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C4",
+            "support": "supported",
+            "explanation": "文章は適切な単語を使用しており、全体的な意味は理解できる。ただし、一部の単語の使用が正確でない可能性がある。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2853:2/K2/C4",
+          "target_id": "2853:2",
+          "candidate_index": 2
+        }
+      ],
+      "candidate_comparison": {
+        "groups": [
+          {
+            "summary": "文章は全体的に組織が保たれており、主要なアイデアが明確に示されているが、一部の段落間のつながりが弱い可能性がある。",
+            "claim_ids": [
+              "2853:2/K1/C1",
+              "2853:2/K2/C1"
+            ],
+            "candidate_count": 2
+          },
+          {
+            "summary": "文章中に文法と構文の誤りが見られ、コミュニケーションを阻害する場合があるが、誤りの頻度が全体的な理解を阻害するほどではない。",
+            "claim_ids": [
+              "2853:2/K1/C2",
+              "2853:2/K2/C2",
+              "2853:2/K2/C3"
+            ],
+            "candidate_count": 2
+          }
+        ],
+        "differences": [
+          {
+            "description": "文法と構文の問題が存在するが、誤りの頻度が全体的な理解を阻害するほどではない。",
+            "claim_ids": [
+              "2853:2/K2/C3"
+            ],
+            "candidate_count": 1
+          },
+          {
+            "description": "適切な単語の使用が確認され、全体的な意味は理解できるが、一部の単語の使用が正確でない可能性がある。",
+            "claim_ids": [
+              "2853:2/K2/C4"
+            ],
+            "candidate_count": 1
+          },
+          {
+            "description": "慣用句の使用の範囲が限定的である。",
+            "claim_ids": [
+              "2853:2/K1/C3"
+            ],
+            "candidate_count": 1
+          },
+          {
+            "description": "スペリングと句読点の誤りが確認される。",
+            "claim_ids": [
+              "2853:2/K1/C4"
+            ],
+            "candidate_count": 1
+          }
+        ],
+        "unknowns": ""
+      },
+      "independent_essay_count": 1
+    },
+    {
+      "condition": "A",
+      "target_id": "318:2",
+      "rater_id": "rater_17",
+      "observed_overall": 3,
+      "accepted_candidate_keys": [],
+      "eligible_claims": [],
+      "candidate_comparison": {
+        "groups": [],
+        "differences": [],
+        "unknowns": "No two eligible candidates; cross-candidate agreement cannot be judged"
+      },
+      "independent_essay_count": 0
+    },
+    {
+      "condition": "A",
+      "target_id": "7418:2",
+      "rater_id": "rater_17",
+      "observed_overall": 5,
+      "accepted_candidate_keys": [],
+      "eligible_claims": [],
+      "candidate_comparison": {
+        "groups": [],
+        "differences": [],
+        "unknowns": "No two eligible candidates; cross-candidate agreement cannot be judged"
+      },
+      "independent_essay_count": 0
+    },
+    {
+      "condition": "A",
+      "target_id": "406:1",
+      "rater_id": "rater_17",
+      "observed_overall": 4,
+      "accepted_candidate_keys": [
+        "A|406:1|K2"
+      ],
+      "eligible_claims": [
+        {
+          "claim_id": "C1",
+          "scope": "target",
+          "essay_id": "406:1",
+          "aspect": "Overall",
+          "kind": "presence",
+          "feature": "文章は全体的に組織化されており、文法と慣用句の使用は正確で、コミュニケーションがほとんど阻害されない。",
+          "span_ids": [
+            "406:1@U001",
+            "406:1@U002",
+            "406:1@U003",
+            "406:1@U004",
+            "406:1@U005",
+            "406:1@U006",
+            "406:1@U007",
+            "406:1@U008",
+            "406:1@U009",
+            "406:1@U010",
+            "406:1@U011",
+            "406:1@U012",
+            "406:1@U013"
+          ],
+          "direction": "positive",
+          "score_relation": "一致",
+          "condition_ids": [
+            "Overall.S4.C01",
+            "Overall.S4.C02",
+            "Overall.S4.C03"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "全体的な組織化と正確な文法・慣用句の使用が確認できる。",
+          "limits": "全体的な組織化と正確な文法・慣用句の使用が確認できるが、誤りが存在する。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U001",
+              "start": 0,
+              "end": 76,
+              "text": "Churchill statement is right because failing in life is part of succeeding. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U002",
+              "start": 76,
+              "end": 178,
+              "text": "Those obsticals you go through in life are part of who you become and how you handle those obsticals. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U003",
+              "start": 178,
+              "end": 266,
+              "text": "It gives some type of motivation to keep moving forward and get to whatever goal it is. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U004",
+              "start": 266,
+              "end": 494,
+              "text": "My example is when i got pregnant my junior year and when I found out i just wanted to drop out because I was still a kid myself and I kept thinking how people would look at me or what would they say, but I already had an idea. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U005",
+              "start": 494,
+              "end": 558,
+              "text": "My parents didnt even support me so what motivation did I have? "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U006",
+              "start": 558,
+              "end": 583,
+              "text": "I had myself and my son. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U007",
+              "start": 583,
+              "end": 715,
+              "text": "I took that as my motivation, yes it was difficult especially after I delivered and going back to school because I was very behind. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U008",
+              "start": 715,
+              "end": 820,
+              "text": "Of course a lot of friends stopped talking to me but that just proves who's there for you and who's not. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U009",
+              "start": 820,
+              "end": 1010,
+              "text": "I was starting a new chapter in my life and I'm not saying having my son was a mistake but it was just at the wrong time; cant change the past though, you just have to keep moving forward.\r\n"
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U010",
+              "start": 1010,
+              "end": 1388,
+              "text": "\r\nHere I am now my senior year, eight more months until I graduate and I'm proud of myself because I am a mother now and I'm still going to school, I didnt let that stop me from getting my education and I'm planning to go to college too because all I want is the best for my son and myself; its not me I have to think about now, I have another responsibility to look after for. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U011",
+              "start": 1388,
+              "end": 1547,
+              "text": "There are many examples of failing in life and later on succeeding but this is one I went through, I had to grow up fast but it made me the person I am today. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U012",
+              "start": 1547,
+              "end": 1670,
+              "text": "Just because of one mistake you make in life doesnt mean your life is over, its probably just the beginning, we are human! "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U013",
+              "start": 1670,
+              "end": 1774,
+              "text": "We all make mistakes but you just have to keep moving forward because life goes on with or without you. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C1",
+            "support": "supported",
+            "explanation": "文章は全体的に組織化されており、文法と慣用句の使用は正確で、コミュニケーションがほとんど阻害されない。全体的な組織化と正確な文法・慣用句の使用が確認できる。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "406:1/K2/C1",
+          "target_id": "406:1",
+          "candidate_index": 2
+        },
+        {
+          "claim_id": "C2",
+          "scope": "target",
+          "essay_id": "406:1",
+          "aspect": "Grammar",
+          "kind": "frequency",
+          "feature": "文法と慣用句の使用に時折見られる誤りが、評価を4に抑えている。",
+          "span_ids": [
+            "406:1@U004",
+            "406:1@U005",
+            "406:1@U006",
+            "406:1@U007",
+            "406:1@U008",
+            "406:1@U009",
+            "406:1@U010",
+            "406:1@U011",
+            "406:1@U012",
+            "406:1@U013"
+          ],
+          "direction": "negative",
+          "score_relation": "一致",
+          "condition_ids": [
+            "Grammar.S4.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "文法と慣用句の使用に時折見られる誤りが確認できる。",
+          "limits": "誤りが全体的なコミュニケーションを阻害するほどではない。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U004",
+              "start": 266,
+              "end": 494,
+              "text": "My example is when i got pregnant my junior year and when I found out i just wanted to drop out because I was still a kid myself and I kept thinking how people would look at me or what would they say, but I already had an idea. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U005",
+              "start": 494,
+              "end": 558,
+              "text": "My parents didnt even support me so what motivation did I have? "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U006",
+              "start": 558,
+              "end": 583,
+              "text": "I had myself and my son. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U007",
+              "start": 583,
+              "end": 715,
+              "text": "I took that as my motivation, yes it was difficult especially after I delivered and going back to school because I was very behind. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U008",
+              "start": 715,
+              "end": 820,
+              "text": "Of course a lot of friends stopped talking to me but that just proves who's there for you and who's not. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U009",
+              "start": 820,
+              "end": 1010,
+              "text": "I was starting a new chapter in my life and I'm not saying having my son was a mistake but it was just at the wrong time; cant change the past though, you just have to keep moving forward.\r\n"
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U010",
+              "start": 1010,
+              "end": 1388,
+              "text": "\r\nHere I am now my senior year, eight more months until I graduate and I'm proud of myself because I am a mother now and I'm still going to school, I didnt let that stop me from getting my education and I'm planning to go to college too because all I want is the best for my son and myself; its not me I have to think about now, I have another responsibility to look after for. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U011",
+              "start": 1388,
+              "end": 1547,
+              "text": "There are many examples of failing in life and later on succeeding but this is one I went through, I had to grow up fast but it made me the person I am today. "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U012",
+              "start": 1547,
+              "end": 1670,
+              "text": "Just because of one mistake you make in life doesnt mean your life is over, its probably just the beginning, we are human! "
+            },
+            {
+              "essay_id": "406:1",
+              "span_id": "406:1@U013",
+              "start": 1670,
+              "end": 1774,
+              "text": "We all make mistakes but you just have to keep moving forward because life goes on with or without you. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C2",
+            "support": "supported",
+            "explanation": "文法と慣用句の使用に時折見られる誤りが、評価を4に抑えている。文法と慣用句の使用に時折見られる誤りが確認できるが、誤りが全体的なコミュニケーションを阻害するほどではない。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "406:1/K2/C2",
+          "target_id": "406:1",
+          "candidate_index": 2
+        }
+      ],
+      "candidate_comparison": {
+        "groups": [
+          {
+            "summary": "文章は全体的に組織化されており、文法と慣用句の使用は正確で、コミュニケーションがほとんど阻害されない。",
+            "claim_ids": [
+              "406:1/K2/C1"
+            ],
+            "candidate_count": 1
+          },
+          {
+            "summary": "文法と慣用句の使用に時折見られる誤りが、評価を4に抑えている。",
+            "claim_ids": [
+              "406:1/K2/C2"
+            ],
+            "candidate_count": 1
+          }
+        ],
+        "differences": [],
+        "unknowns": "No two eligible candidates; cross-candidate agreement cannot be judged"
+      },
+      "independent_essay_count": 1
+    },
+    {
+      "condition": "A",
+      "target_id": "2832:2",
+      "rater_id": "rater_17",
+      "observed_overall": 3,
+      "accepted_candidate_keys": [
+        "A|2832:2|K1",
+        "A|2832:2|K2"
+      ],
+      "eligible_claims": [
+        {
+          "claim_id": "C1",
+          "scope": "target",
+          "essay_id": "2832:2",
+          "aspect": "Overall",
+          "kind": "communication",
+          "feature": "语言表达不够精准，影响了整体的流畅性和准确性",
+          "span_ids": [
+            "2832:2@U004",
+            "2832:2@U005"
+          ],
+          "direction": "negative",
+          "score_relation": "部分段落难以理解，影响了整体评分",
+          "condition_ids": [
+            "Overall.S3.C04"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "引用了具体的段落，说明了语言表达的问题",
+          "limits": "个别段落表达清晰，可能影响整体判断",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U004",
+              "start": 231,
+              "end": 461,
+              "text": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or\r\n\r\n"
+            },
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U005",
+              "start": 461,
+              "end": 505,
+              "text": "to joint with another person to play games. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C1",
+            "support": "supported",
+            "explanation": "文中确实存在语言表达不够精准的问题，尤其是在“2832:2@U004”和“2832:2@U005”段落中，如“they not need to leave their houses”和“to joint with another person to play games”，这些表达影响了整体的流畅性和准确性。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2832:2/K1/C1",
+          "target_id": "2832:2",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C2",
+          "scope": "target",
+          "essay_id": "2832:2",
+          "aspect": "Grammar",
+          "kind": "frequency",
+          "feature": "存在一些语法错误",
+          "span_ids": [
+            "2832:2@U004",
+            "2832:2@U005"
+          ],
+          "direction": "negative",
+          "score_relation": "语法错误影响了整体评分",
+          "condition_ids": [
+            "Grammar.S3.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "引用了具体的段落，说明了语法错误的存在",
+          "limits": "部分语法使用正确，可能影响整体判断",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U004",
+              "start": 231,
+              "end": 461,
+              "text": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or\r\n\r\n"
+            },
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U005",
+              "start": 461,
+              "end": 505,
+              "text": "to joint with another person to play games. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C2",
+            "support": "supported",
+            "explanation": "文中确实存在一些语法错误，如“2832:2@U004”段落中的“they not need to leave their houses”和“2832:2@U005”段落中的“to joint with another person to play games”，这些错误影响了整体评分。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2832:2/K1/C2",
+          "target_id": "2832:2",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C3",
+          "scope": "target",
+          "essay_id": "2832:2",
+          "aspect": "Vocabulary",
+          "kind": "range",
+          "feature": "词汇使用不够精准",
+          "span_ids": [
+            "2832:2@U004",
+            "2832:2@U005"
+          ],
+          "direction": "negative",
+          "score_relation": "词汇使用不够精准影响了整体评分",
+          "condition_ids": [
+            "Vocabulary.S3.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "引用了具体的段落，说明了词汇使用的问题",
+          "limits": "部分词汇使用正确，可能影响整体判断",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U004",
+              "start": 231,
+              "end": 461,
+              "text": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or\r\n\r\n"
+            },
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U005",
+              "start": 461,
+              "end": 505,
+              "text": "to joint with another person to play games. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C3",
+            "support": "supported",
+            "explanation": "文中词汇使用不够精准，如“2832:2@U004”段落中的“makes more easy their lives”和“2832:2@U005”段落中的“to joint with another person to play games”，这些词汇使用影响了整体评分。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2832:2/K1/C3",
+          "target_id": "2832:2",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C4",
+          "scope": "target",
+          "essay_id": "2832:2",
+          "aspect": "Cohesion",
+          "kind": "organization",
+          "feature": "文章结构基本清晰，但部分段落连接不够紧密",
+          "span_ids": [
+            "2832:2@U004",
+            "2832:2@U005"
+          ],
+          "direction": "mixed",
+          "score_relation": "文章结构基本清晰，但部分段落连接不够紧密影响了整体评分",
+          "condition_ids": [
+            "Cohesion.S3.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "引用了具体的段落，说明了文章结构的问题",
+          "limits": "部分段落连接紧密，可能影响整体判断",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U004",
+              "start": 231,
+              "end": 461,
+              "text": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or\r\n\r\n"
+            },
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U005",
+              "start": 461,
+              "end": 505,
+              "text": "to joint with another person to play games. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C4",
+            "support": "supported",
+            "explanation": "文章结构基本清晰，但部分段落连接不够紧密，如“2832:2@U004”和“2832:2@U005”段落之间的过渡不够自然，影响了整体评分。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2832:2/K1/C4",
+          "target_id": "2832:2",
+          "candidate_index": 1
+        },
+        {
+          "claim_id": "C1",
+          "scope": "target",
+          "essay_id": "2832:2",
+          "aspect": "Overall",
+          "kind": "presence",
+          "feature": "文章中存在一些语法错误，如 'Some people thinks' 和 'they not need to leave their houses'。",
+          "span_ids": [
+            "2832:2@U004",
+            "2832:2@U006"
+          ],
+          "direction": "negative",
+          "score_relation": "部分影响了评分",
+          "condition_ids": [
+            "Overall.S3.C03"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "这些错误影响了文章的流畅性和准确性。",
+          "limits": "这些错误可能只是偶然出现，不代表整体水平。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U004",
+              "start": 231,
+              "end": 461,
+              "text": "Some people thinks the limitation of human contact due to the use of technology have positive effects on people's lives because technology makes more easy their lives, for example they not need to leave their houses for buy or\r\n\r\n"
+            },
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U006",
+              "start": 505,
+              "end": 770,
+              "text": "However, I think the limitation of human contact due to the use of technology have negative effects because people prefers to shop on online than stores, people use more technology to talk, and also children plays with technology than with another person or toys.\r\n"
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C1",
+            "support": "supported",
+            "explanation": "文章中确实存在一些语法错误，如 'Some people thinks' 和 'they not need to leave their houses'，这些错误影响了文章的流畅性和准确性。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2832:2/K2/C1",
+          "target_id": "2832:2",
+          "candidate_index": 2
+        },
+        {
+          "claim_id": "C2",
+          "scope": "target",
+          "essay_id": "2832:2",
+          "aspect": "Vocabulary",
+          "kind": "range",
+          "feature": "词汇使用较为有限，如 'shop by online' 和 'play with technology'。",
+          "span_ids": [
+            "2832:2@U007",
+            "2832:2@U022"
+          ],
+          "direction": "negative",
+          "score_relation": "部分影响了评分",
+          "condition_ids": [
+            "Vocabulary.S3.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "这些表达较为简单，缺乏多样性。",
+          "limits": "词汇使用有限可能是因为主题限制。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U007",
+              "start": 770,
+              "end": 825,
+              "text": "\r\nToday, people prefers to shop by online than stores. "
+            },
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U022",
+              "start": 2345,
+              "end": 2479,
+              "text": "But today, children prefers to play with technology avoing come out and carring to be lazy, obesity, and addicting to the technology. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C2",
+            "support": "supported",
+            "explanation": "词汇使用较为有限，如 'shop by online' 和 'play with technology'，这些表达较为简单，缺乏多样性。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2832:2/K2/C2",
+          "target_id": "2832:2",
+          "candidate_index": 2
+        },
+        {
+          "claim_id": "C3",
+          "scope": "target",
+          "essay_id": "2832:2",
+          "aspect": "Syntax",
+          "kind": "frequency",
+          "feature": "句子结构较为简单，如 'Today, people prefers to interact with technology than people.'",
+          "span_ids": [
+            "2832:2@U002"
+          ],
+          "direction": "negative",
+          "score_relation": "部分影响了评分",
+          "condition_ids": [
+            "Syntax.S3.C01"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "句子结构简单，缺乏复杂性。",
+          "limits": "复杂句子的使用可能受限于作者的写作习惯。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U002",
+              "start": 84,
+              "end": 147,
+              "text": "Today, people prefers to interact with technology than people. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C3",
+            "support": "supported",
+            "explanation": "句子结构较为简单，如 'Today, people prefers to interact with technology than people.'，句子结构简单，缺乏复杂性。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2832:2/K2/C3",
+          "target_id": "2832:2",
+          "candidate_index": 2
+        },
+        {
+          "claim_id": "C4",
+          "scope": "target",
+          "essay_id": "2832:2",
+          "aspect": "Conventions",
+          "kind": "communication",
+          "feature": "拼写和标点错误，如 'whatssap' 和 'I not feel comfortable as a store.'",
+          "span_ids": [
+            "2832:2@U012",
+            "2832:2@U008"
+          ],
+          "direction": "negative",
+          "score_relation": "部分影响了评分",
+          "condition_ids": [
+            "Conventions.S3.C02"
+          ],
+          "semantic_support": "supported",
+          "support_explanation": "这些错误影响了文章的可读性。",
+          "limits": "这些错误可能只是偶然出现，不代表整体水平。",
+          "machine_check": {
+            "scope_valid": true,
+            "span_ids_valid": true,
+            "condition_ids_valid": true
+          },
+          "evidence": [
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U012",
+              "start": 1366,
+              "end": 1461,
+              "text": "\r\nPeople use more technology to talk, as facetime, facebook, whatssap or others applicationes. "
+            },
+            {
+              "essay_id": "2832:2",
+              "span_id": "2832:2@U008",
+              "start": 825,
+              "end": 927,
+              "text": "I saw and lived this experience many times about buy by online but I not feel comfortable as a store. "
+            }
+          ],
+          "grounding_review": {
+            "claim_id": "C4",
+            "support": "supported",
+            "explanation": "拼写和标点错误，如 'whatssap' 和 'I not feel comfortable as a store.'，这些错误影响了文章的可读性。",
+            "counter_span_ids": []
+          },
+          "eligible_for_integration": true,
+          "id": "2832:2/K2/C4",
+          "target_id": "2832:2",
+          "candidate_index": 2
+        }
+      ],
+      "candidate_comparison": {
+        "groups": [
+          {
+            "summary": "文章中存在语言表达不精准的问题，影响了整体的流畅性和准确性。",
+            "claim_ids": [
+              "2832:2/K1/C1",
+              "2832:2/K2/C1"
+            ],
+            "candidate_count": 2
+          },
+          {
+            "summary": "文章中存在一些语法错误，影响了整体评分。",
+            "claim_ids": [
+              "2832:2/K1/C2",
+              "2832:2/K2/C1"
+            ],
+            "candidate_count": 2
+          },
+          {
+            "summary": "词汇使用不够精准，影响了整体评分。",
+            "claim_ids": [
+              "2832:2/K1/C3",
+              "2832:2/K2/C2"
+            ],
+            "candidate_count": 2
+          },
+          {
+            "summary": "文章结构基本清晰，但部分段落连接不够紧密，影响了整体评分。",
+            "claim_ids": [
+              "2832:2/K1/C4"
+            ],
+            "candidate_count": 1
+          },
+          {
+            "summary": "句子结构较为简单，缺乏复杂性，影响了整体评分。",
+            "claim_ids": [
+              "2832:2/K2/C3"
+            ],
+            "candidate_count": 1
+          },
+          {
+            "summary": "拼写和标点错误影响了文章的可读性。",
+            "claim_ids": [
+              "2832:2/K2/C4"
+            ],
+            "candidate_count": 1
+          }
+        ],
+        "differences": [
+          {
+            "description": "第一个候选指出语言表达不精准，而第二个候选则强调语法错误。",
+            "claim_ids": [
+              "2832:2/K1/C1",
+              "2832:2/K2/C1"
+            ],
+            "candidate_count": 2
+          },
+          {
+            "description": "第一个候选关注词汇使用不够精准，而第二个候选则指出词汇使用较为有限。",
+            "claim_ids": [
+              "2832:2/K1/C3",
+              "2832:2/K2/C2"
+            ],
+            "candidate_count": 2
+          },
+          {
+            "description": "第一个候选提到文章结构基本清晰但连接不够紧密，而第二个候选则未提及结构问题。",
+            "claim_ids": [
+              "2832:2/K1/C4"
+            ],
+            "candidate_count": 1
+          },
+          {
+            "description": "第二个候选指出句子结构简单，缺乏复杂性，而第一个候选未提及此问题。",
+            "claim_ids": [
+              "2832:2/K2/C3"
+            ],
+            "candidate_count": 1
+          },
+          {
+            "description": "第二个候选指出拼写和标点错误影响了文章的可读性，而第一个候选未提及此问题。",
+            "claim_ids": [
+              "2832:2/K2/C4"
+            ],
+            "candidate_count": 1
+          }
+        ],
+        "unknowns": ""
+      },
+      "independent_essay_count": 1
+    }
+  ],
+  "synthesis": {
+    "patterns": [
+      {
+        "pattern_id": "P1",
+        "feature_context": "頻繁な文法エラーと誤用がコミュニケーションを阻害し、文法的ミスと単語の選択の不適切さが具体的に見られる。",
+        "repeated_judgment": "評価が低い理由",
+        "inferred_tendency": "採用された個別理由では、頻繁な文法エラーと誤用がコミュニケーションを阻害し、文法的ミスと単語の選択の不適切さが具体的に見られるため、評価が低い理由として説明されている。",
+        "support": [
+          {
+            "target_id": "474:1",
+            "claim_ids": [
+              "474:1/K1/C1",
+              "474:1/K1/C2",
+              "474:1/K1/C3",
+              "474:1/K1/C4",
+              "474:1/K2/C1",
+              "474:1/K2/C2",
+              "474:1/K2/C3",
+              "474:1/K2/C4"
+            ]
+          },
+          {
+            "target_id": "2832:2",
+            "claim_ids": [
+              "2832:2/K1/C1",
+              "2832:2/K1/C2",
+              "2832:2/K1/C3",
+              "2832:2/K1/C4",
+              "2832:2/K2/C1",
+              "2832:2/K2/C2",
+              "2832:2/K2/C3",
+              "2832:2/K2/C4"
+            ]
+          }
+        ],
+        "counterexamples": [],
+        "non_applicable": [],
+        "insufficient_target_ids": [],
+        "limits": "全体の頻度を断定できない。"
+      },
+      {
+        "pattern_id": "P2",
+        "feature_context": "文章は全体的に組織化されており、文法と慣用句の使用は正確で、コミュニケーションがほとんど阻害されないが、文法と慣用句の使用に時折見られる誤りが、評価を4に抑えている。",
+        "repeated_judgment": "評価が4に抑えられている理由",
+        "inferred_tendency": "採用された個別理由では、文章は全体的に組織化されており、文法と慣用句の使用は正確で、コミュニケーションがほとんど阻害されないが、文法と慣用句の使用に時折見られる誤りが、評価を4に抑えているため、評価が4に抑えられている理由として説明されている。",
+        "support": [
+          {
+            "target_id": "406:1",
+            "claim_ids": [
+              "406:1/K2/C1",
+              "406:1/K2/C2"
+            ]
+          },
+          {
+            "target_id": "2853:2",
+            "claim_ids": [
+              "2853:2/K2/C1",
+              "2853:2/K2/C2",
+              "2853:2/K2/C3",
+              "2853:2/K2/C4"
+            ]
+          }
+        ],
+        "counterexamples": [],
+        "non_applicable": [],
+        "insufficient_target_ids": [],
+        "limits": "誤りが全体的なコミュニケーションを阻害するほどではない。"
+      }
+    ],
+    "unknowns": "No two eligible candidates; cross-candidate agreement cannot be judged"
+  },
+  "generation_status": {
+    "integration_succeeded": true,
+    "text_succeeded": true,
+    "compared_targets": 1
+  },
+  "comparisons": {
+    "2775:2": null,
+    "474:1": null,
+    "2853:2": {
+      "relationships": [
+        {
+          "issue_id": "I1",
+          "claim_ids": [
+            "2853:2/K1/C1",
+            "2853:2/K1/C2",
+            "2853:2/K1/C3",
+            "2853:2/K1/C4",
+            "2853:2/K2/C1",
+            "2853:2/K2/C2",
+            "2853:2/K2/C3",
+            "2853:2/K2/C4"
+          ],
+          "span_ids": [
+            "2853:2@U001",
+            "2853:2@U002",
+            "2853:2@U003",
+            "2853:2@U004",
+            "2853:2@U005",
+            "2853:2@U006",
+            "2853:2@U007",
+            "2853:2@U008",
+            "2853:2@U009",
+            "2853:2@U010",
+            "2853:2@U011",
+            "2853:2@U012",
+            "2853:2@U013",
+            "2853:2@U014",
+            "2853:2@U015",
+            "2853:2@U016",
+            "2853:2@U017",
+            "2853:2@U018",
+            "2853:2@U019",
+            "2853:2@U020",
+            "2853:2@U021",
+            "2853:2@U022",
+            "2853:2@U023",
+            "2853:2@U024",
+            "2853:2@U025",
+            "2853:2@U026",
+            "2853:2@U027",
+            "2853:2@U028"
+          ],
+          "analysis_anchors": [
+            {
+              "span_id": "2853:2@U005",
+              "tokens": [
+                "you",
+                "will",
+                "cofus",
+                "better"
+              ],
+              "relation": "主語と動詞の関係",
+              "interpretation": "「cofus」は「confuse」の誤用で、主語「you」と動詞「confuse」の関係が不明瞭。この誤用は理解を阻害する可能性がある。",
+              "token_positions": [
+                {
+                  "token": "you",
+                  "start": 808,
+                  "end": 811
+                },
+                {
+                  "token": "you",
+                  "start": 822,
+                  "end": 825
+                },
+                {
+                  "token": "you",
+                  "start": 837,
+                  "end": 840
+                },
+                {
+                  "token": "will",
+                  "start": 841,
+                  "end": 845
+                },
+                {
+                  "token": "cofus",
+                  "start": 846,
+                  "end": 851
+                },
+                {
+                  "token": "better",
+                  "start": 852,
+                  "end": 858
+                }
+              ]
+            },
+            {
+              "span_id": "2853:2@U027",
+              "tokens": [
+                "just",
+                "belive",
+                "in",
+                "your",
+                "self"
+              ],
+              "relation": "動詞と目的語の関係",
+              "interpretation": "「belive」は「believe」の誤用で、動詞「believe」と目的語「in your self」の関係が不明瞭。この誤用は理解を阻害する可能性がある。",
+              "token_positions": [
+                {
+                  "token": "just",
+                  "start": 3889,
+                  "end": 3893
+                },
+                {
+                  "token": "belive",
+                  "start": 3894,
+                  "end": 3900
+                },
+                {
+                  "token": "in",
+                  "start": 3901,
+                  "end": 3903
+                },
+                {
+                  "token": "your",
+                  "start": 3782,
+                  "end": 3786
+                },
+                {
+                  "token": "your",
+                  "start": 3904,
+                  "end": 3908
+                },
+                {
+                  "token": "self",
+                  "start": 3909,
+                  "end": 3913
+                }
+              ]
+            }
+          ],
+          "condition_ids": [
+            "Overall.S3.C02",
+            "Cohesion.S3.C03",
+            "Grammar.S3.C01",
+            "Conventions.S3.C02"
+          ],
+          "feature_confirmed": "文章は全体的に組織が保たれており、主要なアイデアが明確に示されているが、一部の段落間のつながりが弱い可能性がある。文法と構文の誤りが存在するが、誤りの頻度が全体的な理解を阻害するほどではない。",
+          "inferred_judgment": "評価が3に抑えられている理由として、文法と構文の誤りが存在するが、誤りの頻度が全体的な理解を阻害するほどではない。",
+          "rubric_based_proposal": "文章は全体的に組織が保たれており、主要なアイデアが明確に示されているが、一部の段落間のつながりが弱い可能性がある。文法と構文の誤りが存在するが、誤りの頻度が全体的な理解を阻害するほどではない。",
+          "agreement_review_unknown": "評価が3に抑えられている理由として、文法と構文の誤りが存在するが、誤りの頻度が全体的な理解を阻害するほどではない。",
+          "system_checked": [
+            {
+              "span_ids": [
+                "2853:2@U005"
+              ],
+              "finding": "「cofus」は「confuse」の誤用で、主語「you」と動詞「confuse」の関係が不明瞭。"
+            },
+            {
+              "span_ids": [
+                "2853:2@U027"
+              ],
+              "finding": "「belive」は「believe」の誤用で、動詞「believe」と目的語「in your self」の関係が不明瞭。"
+            }
+          ],
+          "next_action": {
+            "distinguish": "「cofus」と「confuse」の関係を確認する",
+            "where_span_ids": [
+              "2853:2@U005"
+            ],
+            "action": "「cofus」が「confuse」の誤用であることを確認し、主語と動詞の関係を明確にする",
+            "reason": "この誤用は理解を阻害する可能性があるため、確認が必要である。"
+          },
+          "scope_limit": "一部の段落間のつながりが弱い可能性がある。",
+          "citations": [
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U001",
+              "start": 0,
+              "end": 113,
+              "text": "Is better for students that are entering high school to know what they want to do after they finish high school? "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U002",
+              "start": 113,
+              "end": 347,
+              "text": "some pleople will say yes but some will say no and they are not wrong or right anwer in thise question is depending in your point of view and how fast you want to achive your goal and how good you want to be in your carrer and work.\r\n"
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U003",
+              "start": 347,
+              "end": 767,
+              "text": "\r\nThe people that say yes they say that because when you know what career you want to take before entering high school you wiil choose you classes better depending in your career and what high school you want to attend because come schools have programs that count like college classes, and in high school you have only four years and that is not enough time for you to choose and you will end up in a carrer that you do"
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U004",
+              "start": 767,
+              "end": 805,
+              "text": "n't like if you choose the wrong one. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U005",
+              "start": 805,
+              "end": 876,
+              "text": "If you know what you want to be you will cofus better in that career . "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U006",
+              "start": 876,
+              "end": 936,
+              "text": "You can join programs to help you more in your goals and\r\n\r\n"
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U007",
+              "start": 936,
+              "end": 989,
+              "text": "when you know your goals you can achive them better. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U008",
+              "start": 989,
+              "end": 1180,
+              "text": "You also will try to see how can you get a scholarchip for your carrer and what college are better for you, and you will mead people that like the same thing as you and you can make friends. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U009",
+              "start": 1180,
+              "end": 1256,
+              "text": "When you join programs some time you can get a scholarchip if you are good. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U010",
+              "start": 1256,
+              "end": 1337,
+              "text": "For example my friend want to join the army so he is taking jrotc to help hem\r\n\r\n"
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U011",
+              "start": 1337,
+              "end": 1439,
+              "text": "do better in the army but my other friend wants to do soccer for college so he is taking advance p.e. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U012",
+              "start": 1439,
+              "end": 1754,
+              "text": "to be in shape and he is also in the school team to get a scholarchip, and me I'm taking business classes to help me know more about business marketing because I want to put my own store and Im putting everything of me to do that because that is my goal and i want to do the best of me in that project of my life.\r\n"
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U013",
+              "start": 1754,
+              "end": 1854,
+              "text": "\r\nPeople that say that you don't have to know what you want to be before you get in to high school. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U014",
+              "start": 1854,
+              "end": 2173,
+              "text": "They say that you can join different programs and see wich one you like the most and you will choose your career from that decition and you will know what's about because some people choose careers that they don't like them maybe because they dind't know the stuff you have to do or they dind't expect to be like that. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U015",
+              "start": 2173,
+              "end": 2266,
+              "text": "Is better to waste four years then wasting your entire live in a career that you don't like. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U016",
+              "start": 2266,
+              "end": 2338,
+              "text": "you sholl try to get a scholarchip that way you don't pay for college.\r\n"
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U017",
+              "start": 2338,
+              "end": 2536,
+              "text": "\r\nIf you dind't have a scholarchip and finish college and you are working in a career that you don't like and you dind't have a sholarchip you are going to be in debt and you are going to pay alot. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U018",
+              "start": 2536,
+              "end": 2861,
+              "text": "If you only study for one year in college and you fell like that career is not for you you have to play for that year and is not cheap so you have to choose your career when you are in high school and see what's about before entering and if you like it because if you don't like that career you are going to waste your time. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U019",
+              "start": 2861,
+              "end": 2995,
+              "text": "For example I dind't know what career I like before high school so I join jrotc and i dind't like it and a teacher told me to take\r\n\r\n"
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U020",
+              "start": 2995,
+              "end": 3068,
+              "text": "business classes and I like it so I chose to do business for my career.\r\n"
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U021",
+              "start": 3068,
+              "end": 3269,
+              "text": "\r\nIn conclution both of them are good options but if you know what you want to be before high school you can see what's that carrer is about in high school and if you dont like it you can change it\r\n\r\n"
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U022",
+              "start": 3269,
+              "end": 3391,
+              "text": "and the other one you will have more chooses because you will not focus in only one career you will see more oportunitis. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U023",
+              "start": 3391,
+              "end": 3428,
+              "text": "Is depending in the choose you make. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U024",
+              "start": 3428,
+              "end": 3539,
+              "text": "All of thise dipend in how you are because evryone is defferent and not everyone is going for the same opsion. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U025",
+              "start": 3539,
+              "end": 3673,
+              "text": "But for both of them you have to do your best in school to achive your goal and get a schoolarchip that way you dont pay for college. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U026",
+              "start": 3673,
+              "end": 3741,
+              "text": "But first of all we have to finish high school and get good greads. "
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U027",
+              "start": 3741,
+              "end": 3955,
+              "text": "and remember that is only one life so do your best and try to live the life that you want and don't let others tell you that you can't do something just belive in your self and that will be a big change adn wen\r\n\r\n"
+            },
+            {
+              "essay_id": "2853:2",
+              "span_id": "2853:2@U028",
+              "start": 3955,
+              "end": 4028,
+              "text": "you are in college do your best and do your work and life the live chill."
+            }
+          ],
+          "official_conditions": [
+            {
+              "condition_id": "Overall.S3.C02",
+              "aspect": "Overall",
+              "level": 3,
+              "text": "organization generally controlled although connection sometimes absent or unsuccessful;",
+              "parent_id": "Overall.S3",
+              "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+              "start": 73,
+              "end": 160,
+              "source": "rubrics/ellipse_rubric_structured.json",
+              "role": "primary"
+            },
+            {
+              "condition_id": "Cohesion.S3.C03",
+              "aspect": "Cohesion",
+              "level": 3,
+              "text": "Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+              "parent_id": "Cohesion.S3",
+              "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+              "start": 78,
+              "end": 184,
+              "source": "rubrics/ellipse_rubric_structured.json",
+              "role": "auxiliary analytic criterion"
+            },
+            {
+              "condition_id": "Grammar.S3.C01",
+              "aspect": "Grammar",
+              "level": 3,
+              "text": "Some errors in grammar and usage.",
+              "parent_id": "Grammar.S3",
+              "parent_text": "Some errors in grammar and usage.",
+              "start": 0,
+              "end": 33,
+              "source": "rubrics/ellipse_rubric_structured.json",
+              "role": "auxiliary analytic criterion"
+            },
+            {
+              "condition_id": "Conventions.S3.C02",
+              "aspect": "Conventions",
+              "level": 3,
+              "text": "errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+              "parent_id": "Conventions.S3",
+              "parent_text": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+              "start": 49,
+              "end": 132,
+              "source": "rubrics/ellipse_rubric_structured.json",
+              "role": "auxiliary analytic criterion"
+            }
+          ],
+          "full_target_seen": true,
+          "semantic_status": "model-provisional; machine validity is not semantic truth"
+        }
+      ]
+    },
+    "318:2": null,
+    "7418:2": null,
+    "406:1": null,
+    "2832:2": null
+  },
+  "elements": [
+    {
+      "number": 1,
+      "text": "評価が3に抑えられている理由として、文法と構文の誤りが存在するが、誤りの頻度が全体的な理解を阻害するほどではない。文章は全体的に組織が保たれており、主要なアイデアが明確に示されているが、一部の段落間のつながりが弱い可能性がある。",
+      "condition_ids": [
+        "Overall.S3.C02",
+        "Cohesion.S3.C03",
+        "Grammar.S3.C01",
+        "Conventions.S3.C02"
+      ],
+      "pattern_ids": [],
+      "target_ids": []
+    },
+    {
+      "number": 2,
+      "text": "採用された個別理由では、文章は全体的に組織化されており、文法と慣用句の使用は正確で、コミュニケーションがほとんど阻害されないが、文法と慣用句の使用に時折見られる誤りが、評価を4に抑えているため、評価が4に抑えられている理由として説明されている。",
+      "condition_ids": [],
+      "pattern_ids": [
+        "P1",
+        "P2"
+      ],
+      "target_ids": []
+    },
+    {
+      "number": 3,
+      "text": "「cofus」は「confuse」の誤用で、主語「you」と動詞「confuse」の関係が不明瞭。この誤用は理解を阻害する可能性がある。また、「belive」は「believe」の誤用で、動詞「believe」と目的語「in your self」の関係が不明瞭。これらの誤用は理解を阻害する可能性がある。",
+      "condition_ids": [],
+      "pattern_ids": [],
+      "target_ids": [
+        "2853:2"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "評価が3に抑えられている理由として、文法と構文の誤りが存在するが、誤りの頻度が全体的な理解を阻害するほどではない。一部の段落間のつながりが弱い可能性がある。",
+      "condition_ids": [
+        "Overall.S3.C02",
+        "Cohesion.S3.C03",
+        "Grammar.S3.C01",
+        "Conventions.S3.C02"
+      ],
+      "pattern_ids": [],
+      "target_ids": [
+        "2853:2"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "「cofus」が「confuse」の誤用であることを確認し、主語と動詞の関係を明確にする。この誤用は理解を阻害する可能性があるため、確認が必要である。",
+      "condition_ids": [
+        "Overall.S3.C02",
+        "Cohesion.S3.C03",
+        "Grammar.S3.C01",
+        "Conventions.S3.C02"
+      ],
+      "pattern_ids": [],
+      "target_ids": [
+        "2853:2"
+      ]
+    }
+  ],
+  "example_target_rule": "first two numerically ordered eligible comparison targets",
+  "example_relationships": [
+    {
+      "target_id": "2853:2",
+      "issue_id": "I1",
+      "claim_ids": [
+        "2853:2/K1/C1",
+        "2853:2/K1/C2",
+        "2853:2/K1/C3",
+        "2853:2/K1/C4",
+        "2853:2/K2/C1",
+        "2853:2/K2/C2",
+        "2853:2/K2/C3",
+        "2853:2/K2/C4"
+      ],
+      "span_ids": [
+        "2853:2@U001",
+        "2853:2@U002",
+        "2853:2@U003",
+        "2853:2@U004",
+        "2853:2@U005",
+        "2853:2@U006",
+        "2853:2@U007",
+        "2853:2@U008",
+        "2853:2@U009",
+        "2853:2@U010",
+        "2853:2@U011",
+        "2853:2@U012",
+        "2853:2@U013",
+        "2853:2@U014",
+        "2853:2@U015",
+        "2853:2@U016",
+        "2853:2@U017",
+        "2853:2@U018",
+        "2853:2@U019",
+        "2853:2@U020",
+        "2853:2@U021",
+        "2853:2@U022",
+        "2853:2@U023",
+        "2853:2@U024",
+        "2853:2@U025",
+        "2853:2@U026",
+        "2853:2@U027",
+        "2853:2@U028"
+      ],
+      "analysis_anchors": [
+        {
+          "span_id": "2853:2@U005",
+          "tokens": [
+            "you",
+            "will",
+            "cofus",
+            "better"
+          ],
+          "relation": "主語と動詞の関係",
+          "interpretation": "「cofus」は「confuse」の誤用で、主語「you」と動詞「confuse」の関係が不明瞭。この誤用は理解を阻害する可能性がある。",
+          "token_positions": [
+            {
+              "token": "you",
+              "start": 808,
+              "end": 811
+            },
+            {
+              "token": "you",
+              "start": 822,
+              "end": 825
+            },
+            {
+              "token": "you",
+              "start": 837,
+              "end": 840
+            },
+            {
+              "token": "will",
+              "start": 841,
+              "end": 845
+            },
+            {
+              "token": "cofus",
+              "start": 846,
+              "end": 851
+            },
+            {
+              "token": "better",
+              "start": 852,
+              "end": 858
+            }
+          ]
+        },
+        {
+          "span_id": "2853:2@U027",
+          "tokens": [
+            "just",
+            "belive",
+            "in",
+            "your",
+            "self"
+          ],
+          "relation": "動詞と目的語の関係",
+          "interpretation": "「belive」は「believe」の誤用で、動詞「believe」と目的語「in your self」の関係が不明瞭。この誤用は理解を阻害する可能性がある。",
+          "token_positions": [
+            {
+              "token": "just",
+              "start": 3889,
+              "end": 3893
+            },
+            {
+              "token": "belive",
+              "start": 3894,
+              "end": 3900
+            },
+            {
+              "token": "in",
+              "start": 3901,
+              "end": 3903
+            },
+            {
+              "token": "your",
+              "start": 3782,
+              "end": 3786
+            },
+            {
+              "token": "your",
+              "start": 3904,
+              "end": 3908
+            },
+            {
+              "token": "self",
+              "start": 3909,
+              "end": 3913
+            }
+          ]
+        }
+      ],
+      "condition_ids": [
+        "Overall.S3.C02",
+        "Cohesion.S3.C03",
+        "Grammar.S3.C01",
+        "Conventions.S3.C02"
+      ],
+      "feature_confirmed": "文章は全体的に組織が保たれており、主要なアイデアが明確に示されているが、一部の段落間のつながりが弱い可能性がある。文法と構文の誤りが存在するが、誤りの頻度が全体的な理解を阻害するほどではない。",
+      "inferred_judgment": "評価が3に抑えられている理由として、文法と構文の誤りが存在するが、誤りの頻度が全体的な理解を阻害するほどではない。",
+      "rubric_based_proposal": "文章は全体的に組織が保たれており、主要なアイデアが明確に示されているが、一部の段落間のつながりが弱い可能性がある。文法と構文の誤りが存在するが、誤りの頻度が全体的な理解を阻害するほどではない。",
+      "agreement_review_unknown": "評価が3に抑えられている理由として、文法と構文の誤りが存在するが、誤りの頻度が全体的な理解を阻害するほどではない。",
+      "system_checked": [
+        {
+          "span_ids": [
+            "2853:2@U005"
+          ],
+          "finding": "「cofus」は「confuse」の誤用で、主語「you」と動詞「confuse」の関係が不明瞭。"
+        },
+        {
+          "span_ids": [
+            "2853:2@U027"
+          ],
+          "finding": "「belive」は「believe」の誤用で、動詞「believe」と目的語「in your self」の関係が不明瞭。"
+        }
+      ],
+      "next_action": {
+        "distinguish": "「cofus」と「confuse」の関係を確認する",
+        "where_span_ids": [
+          "2853:2@U005"
+        ],
+        "action": "「cofus」が「confuse」の誤用であることを確認し、主語と動詞の関係を明確にする",
+        "reason": "この誤用は理解を阻害する可能性があるため、確認が必要である。"
+      },
+      "scope_limit": "一部の段落間のつながりが弱い可能性がある。",
+      "citations": [
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U001",
+          "start": 0,
+          "end": 113,
+          "text": "Is better for students that are entering high school to know what they want to do after they finish high school? "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U002",
+          "start": 113,
+          "end": 347,
+          "text": "some pleople will say yes but some will say no and they are not wrong or right anwer in thise question is depending in your point of view and how fast you want to achive your goal and how good you want to be in your carrer and work.\r\n"
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U003",
+          "start": 347,
+          "end": 767,
+          "text": "\r\nThe people that say yes they say that because when you know what career you want to take before entering high school you wiil choose you classes better depending in your career and what high school you want to attend because come schools have programs that count like college classes, and in high school you have only four years and that is not enough time for you to choose and you will end up in a carrer that you do"
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U004",
+          "start": 767,
+          "end": 805,
+          "text": "n't like if you choose the wrong one. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U005",
+          "start": 805,
+          "end": 876,
+          "text": "If you know what you want to be you will cofus better in that career . "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U006",
+          "start": 876,
+          "end": 936,
+          "text": "You can join programs to help you more in your goals and\r\n\r\n"
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U007",
+          "start": 936,
+          "end": 989,
+          "text": "when you know your goals you can achive them better. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U008",
+          "start": 989,
+          "end": 1180,
+          "text": "You also will try to see how can you get a scholarchip for your carrer and what college are better for you, and you will mead people that like the same thing as you and you can make friends. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U009",
+          "start": 1180,
+          "end": 1256,
+          "text": "When you join programs some time you can get a scholarchip if you are good. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U010",
+          "start": 1256,
+          "end": 1337,
+          "text": "For example my friend want to join the army so he is taking jrotc to help hem\r\n\r\n"
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U011",
+          "start": 1337,
+          "end": 1439,
+          "text": "do better in the army but my other friend wants to do soccer for college so he is taking advance p.e. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U012",
+          "start": 1439,
+          "end": 1754,
+          "text": "to be in shape and he is also in the school team to get a scholarchip, and me I'm taking business classes to help me know more about business marketing because I want to put my own store and Im putting everything of me to do that because that is my goal and i want to do the best of me in that project of my life.\r\n"
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U013",
+          "start": 1754,
+          "end": 1854,
+          "text": "\r\nPeople that say that you don't have to know what you want to be before you get in to high school. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U014",
+          "start": 1854,
+          "end": 2173,
+          "text": "They say that you can join different programs and see wich one you like the most and you will choose your career from that decition and you will know what's about because some people choose careers that they don't like them maybe because they dind't know the stuff you have to do or they dind't expect to be like that. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U015",
+          "start": 2173,
+          "end": 2266,
+          "text": "Is better to waste four years then wasting your entire live in a career that you don't like. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U016",
+          "start": 2266,
+          "end": 2338,
+          "text": "you sholl try to get a scholarchip that way you don't pay for college.\r\n"
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U017",
+          "start": 2338,
+          "end": 2536,
+          "text": "\r\nIf you dind't have a scholarchip and finish college and you are working in a career that you don't like and you dind't have a sholarchip you are going to be in debt and you are going to pay alot. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U018",
+          "start": 2536,
+          "end": 2861,
+          "text": "If you only study for one year in college and you fell like that career is not for you you have to play for that year and is not cheap so you have to choose your career when you are in high school and see what's about before entering and if you like it because if you don't like that career you are going to waste your time. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U019",
+          "start": 2861,
+          "end": 2995,
+          "text": "For example I dind't know what career I like before high school so I join jrotc and i dind't like it and a teacher told me to take\r\n\r\n"
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U020",
+          "start": 2995,
+          "end": 3068,
+          "text": "business classes and I like it so I chose to do business for my career.\r\n"
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U021",
+          "start": 3068,
+          "end": 3269,
+          "text": "\r\nIn conclution both of them are good options but if you know what you want to be before high school you can see what's that carrer is about in high school and if you dont like it you can change it\r\n\r\n"
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U022",
+          "start": 3269,
+          "end": 3391,
+          "text": "and the other one you will have more chooses because you will not focus in only one career you will see more oportunitis. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U023",
+          "start": 3391,
+          "end": 3428,
+          "text": "Is depending in the choose you make. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U024",
+          "start": 3428,
+          "end": 3539,
+          "text": "All of thise dipend in how you are because evryone is defferent and not everyone is going for the same opsion. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U025",
+          "start": 3539,
+          "end": 3673,
+          "text": "But for both of them you have to do your best in school to achive your goal and get a schoolarchip that way you dont pay for college. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U026",
+          "start": 3673,
+          "end": 3741,
+          "text": "But first of all we have to finish high school and get good greads. "
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U027",
+          "start": 3741,
+          "end": 3955,
+          "text": "and remember that is only one life so do your best and try to live the life that you want and don't let others tell you that you can't do something just belive in your self and that will be a big change adn wen\r\n\r\n"
+        },
+        {
+          "essay_id": "2853:2",
+          "span_id": "2853:2@U028",
+          "start": 3955,
+          "end": 4028,
+          "text": "you are in college do your best and do your work and life the live chill."
+        }
+      ],
+      "official_conditions": [
+        {
+          "condition_id": "Overall.S3.C02",
+          "aspect": "Overall",
+          "level": 3,
+          "text": "organization generally controlled although connection sometimes absent or unsuccessful;",
+          "parent_id": "Overall.S3",
+          "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+          "start": 73,
+          "end": 160,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "primary"
+        },
+        {
+          "condition_id": "Cohesion.S3.C03",
+          "aspect": "Cohesion",
+          "level": 3,
+          "text": "Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+          "parent_id": "Cohesion.S3",
+          "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+          "start": 78,
+          "end": 184,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Grammar.S3.C01",
+          "aspect": "Grammar",
+          "level": 3,
+          "text": "Some errors in grammar and usage.",
+          "parent_id": "Grammar.S3",
+          "parent_text": "Some errors in grammar and usage.",
+          "start": 0,
+          "end": 33,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Conventions.S3.C02",
+          "aspect": "Conventions",
+          "level": 3,
+          "text": "errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+          "parent_id": "Conventions.S3",
+          "parent_text": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+          "start": 49,
+          "end": 132,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        }
+      ],
+      "full_target_seen": true,
+      "semantic_status": "model-provisional; machine validity is not semantic truth"
+    }
+  ],
+  "official_conditions": {
+    "Overall.S3.C02": {
+      "condition_id": "Overall.S3.C02",
+      "aspect": "Overall",
+      "level": 3,
+      "text": "organization generally controlled although connection sometimes absent or unsuccessful;",
+      "parent_id": "Overall.S3",
+      "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+      "start": 73,
+      "end": 160,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "primary"
+    },
+    "Cohesion.S3.C03": {
+      "condition_id": "Cohesion.S3.C03",
+      "aspect": "Cohesion",
+      "level": 3,
+      "text": "Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+      "parent_id": "Cohesion.S3",
+      "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+      "start": 78,
+      "end": 184,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Grammar.S3.C01": {
+      "condition_id": "Grammar.S3.C01",
+      "aspect": "Grammar",
+      "level": 3,
+      "text": "Some errors in grammar and usage.",
+      "parent_id": "Grammar.S3",
+      "parent_text": "Some errors in grammar and usage.",
+      "start": 0,
+      "end": 33,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Conventions.S3.C02": {
+      "condition_id": "Conventions.S3.C02",
+      "aspect": "Conventions",
+      "level": 3,
+      "text": "errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+      "parent_id": "Conventions.S3",
+      "parent_text": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+      "start": 49,
+      "end": 132,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    }
+  },
+  "limits": "全体の頻度を断定できない。誤りが全体的なコミュニケーションを阻害するほどではない。",
+  "quality_status": "pilot; semantic judgments provisional, not independently validated"
+}

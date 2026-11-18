@@ -1,0 +1,32 @@
+{
+  "fingerprint": "225cffe0e9d1e3dc8aadc27e8cb0b3d87a7f664e2abecc4e2f4e018e541c03f3",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文章は全体的に組織化されており、主張が一貫して展開されている。ただし、文法や構文の誤りが存在する。例えば、「Determine never to be idle is much better because we accomplish more」や「I have done many things in school and accomplish many goals in my life」など、文法的な誤りが確認できる。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "文章中に「Determine never to be idle is much better because we accomplish more」や「Determine never to be idle is much better because people can growth having a better future in their life」など、表現の繰り返しが確認できる。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "複雑な文の形成に困難があることが確認できる。例えば、「Although some says that determine to be idle or inactivity also serve a purpose in the way of one day they will accomplish something even though they are lazy, and people determine to not be idle when they want to accomplish something and when people decide to not being wasting their time without doing anything, inactivity doesn't serve a purpose in the life and in the way of accomplish something」は複雑な構造を持ち、誤りも存在する。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "具体的な文法の誤りが確認できる。例えば、「Determine never to be idle is much better because we accomplish more」や「I have done many things in school and accomplish many goals in my life」など、文法的な誤りが存在する。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:57:48.603419+09:00"
+}

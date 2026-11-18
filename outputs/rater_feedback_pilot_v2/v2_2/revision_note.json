@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-11-16T19:25:17.903500+09:00",
+  "execution_revision": "2.2",
+  "first_failure": "2.1 repeated full evidence for each claim: merge1868=32927, integrate=54531, compare1868=48254 prompt tokens; no truncation/model call.",
+  "fix": "Only downstream repeated objects, arrays and long strings serialized once by reference ID; target full text, all original claims, review, exact evidence and official criteria preserved. Every compact payload is losslessly expanded and compared before a call; output JSON schemas still use original expanded data.",
+  "affected_stages": [
+    "merge",
+    "integrate",
+    "compare",
+    "text"
+  ],
+  "reused_stages": [
+    "generate",
+    "verify",
+    "ground"
+  ],
+  "reused_records": {
+    "stages/generate/B__1514_1__K1.json": {
+      "sha256": "823c5a8929047eb72ad6500efa3e89970b512ba99331aabb4fa6f8804b85e852",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/generate/B__1514_1__K1.json"
+    },
+    "stages/generate/B__1514_1__K2.json": {
+      "sha256": "1c13e9f169d4dc6bfc18df15990f063a1fe9bc9087dd991a32a8d179476fe21f",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/generate/B__1514_1__K2.json"
+    },
+    "stages/generate/B__1868_1__K1.json": {
+      "sha256": "84908dd1772abd25f03514a217646b046c3b9ef9de35e9369daa36b700514d9d",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/generate/B__1868_1__K1.json"
+    },
+    "stages/generate/B__1868_1__K2.json": {
+      "sha256": "5bf6c183663a02d627a12354259f0c911ddac270411f740439f82422a6a3e2ab",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/generate/B__1868_1__K2.json"
+    },
+    "stages/generate/B__4902_1__K1.json": {
+      "sha256": "553a7536e746a61a28827e1f3b74dc5937105ed0d5d54c053ca94998ca4279be",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/generate/B__4902_1__K1.json"
+    },
+    "stages/generate/B__4902_1__K2.json": {
+      "sha256": "7af6244a91d3ce6d3ced9c9bf54a3976b3af2678783d77fc9ae8b82eabf53a4c",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/generate/B__4902_1__K2.json"
+    },
+    "stages/verify/B__1514_1__K1.json": {
+      "sha256": "d994f374e4c44ae59d20a3463e66eaeb06768d11efb73fd25f0326f0d6019688",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/verify/B__1514_1__K1.json"
+    },
+    "stages/verify/B__1514_1__K2.json": {
+      "sha256": "7361fe7cea8417b44fe3a05989155b9aeaff31cd6b10ecf5f2a19e3292a72529",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/verify/B__1514_1__K2.json"
+    },
+    "stages/verify/B__1868_1__K1.json": {
+      "sha256": "7745be4d880d88b07b362926c56f0a7fe0da9edb507af685cc3260bfd3d9b906",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/verify/B__1868_1__K1.json"
+    },
+    "stages/verify/B__1868_1__K2.json": {
+      "sha256": "5e3342d0c23d5abc175119db9d3b0d4704329b51761f051f901440013ec6358e",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/verify/B__1868_1__K2.json"
+    },
+    "stages/verify/B__4902_1__K1.json": {
+      "sha256": "46f26ffd2fb4308d18602dd4202dce6df19fab9e96096effa769cfb30c656fb1",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/verify/B__4902_1__K1.json"
+    },
+    "stages/verify/B__4902_1__K2.json": {
+      "sha256": "ad33c24ed67cac6914e644bef39d81628e56c8e2c8fee2bc81328317b75fa411",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/verify/B__4902_1__K2.json"
+    },
+    "stages/ground/B__1514_1__K1.json": {
+      "sha256": "2ed6244fc5489e06ef80523198939f9616432d7895ff6e23cc8d4e3bb1a57f3c",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/ground/B__1514_1__K1.json"
+    },
+    "stages/ground/B__1514_1__K2.json": {
+      "sha256": "f1449fc40fbbddaa5586e251f19d861de51376d4ee3dccf7c8f8cb9c5e751119",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/ground/B__1514_1__K2.json"
+    },
+    "stages/ground/B__1868_1__K1.json": {
+      "sha256": "50e7003736be3d473d001116a301e05af37b9f3b21773980c8bfcaa792c9e680",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/ground/B__1868_1__K1.json"
+    },
+    "stages/ground/B__1868_1__K2.json": {
+      "sha256": "6c66be0b604620642cc97dbf4c55ab789871e2ca1174b89f77bcf69c1c8fa916",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/ground/B__1868_1__K2.json"
+    },
+    "stages/ground/B__4902_1__K1.json": {
+      "sha256": "2fdd6fbb97bd2eb9b2c07cec26183e9290f65ffc774e39a5e4011ee8c5659d9a",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/ground/B__4902_1__K1.json"
+    },
+    "stages/ground/B__4902_1__K2.json": {
+      "sha256": "7bcf903fe1886364e2fe1ea5b72049d9203bb13536b61c089b37e5af47625fd9",
+      "source": "outputs/rater_feedback_pilot_v2/v2_1/stages/ground/B__4902_1__K2.json"
+    }
+  },
+  "model_sampling_seed_candidate_retry_budget_changed": false,
+  "prompt_templates_changed": false,
+  "no_score_mismatch_regeneration": true,
+  "old_outputs_retained": true,
+  "not_a_new_research_condition": true
+}

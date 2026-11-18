@@ -1,0 +1,416 @@
+{
+  "fingerprint": "9fc5a02cd573b6fd4edb05205d22961151cb76440e74d162ae9b318e34c61f6e",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "1514:1/K1/C1",
+          "1514:1/K1/C2",
+          "1514:1/K1/C3",
+          "1514:1/K1/C4"
+        ],
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U002",
+          "1514:1@U003",
+          "1514:1@U005",
+          "1514:1@U006",
+          "1514:1@U007",
+          "1514:1@U010",
+          "1514:1@U011",
+          "1514:1@U012",
+          "1514:1@U013",
+          "1514:1@U014"
+        ],
+        "condition_ids": [
+          "Overall.S3.C02",
+          "Vocabulary.S3.C04",
+          "Grammar.S3.C01",
+          "Syntax.S3.C01"
+        ],
+        "feature_confirmed": "文章の組織と文法は比較的良好だが、複雑な文法構造の使用が限られている。語彙の使用に若干の問題がある。",
+        "inferred_judgment": "文章の組織と文法は比較的良好で、全体的な流れは理解しやすい。ただし、複雑な文法構造の使用が限られている。語彙の使用に若干の問題があるが、全体的な意味伝達に影響は少ない。",
+        "rubric_based_proposal": "Overall.S3.C02, Vocabulary.S3.C04, Grammar.S3.C01, Syntax.S3.C01の条件を満たす。全体的な組織と文法は良好だが、複雑な文法構造の使用が限られている。語彙の使用に若干の問題があるが、全体的な意味伝達に影響は少ない。",
+        "agreement_review_unknown": "Hitlerの例が適切かどうかは議論の余地がある。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "1514:1@U001",
+              "1514:1@U002",
+              "1514:1@U003"
+            ],
+            "finding": "文章の組織と文法は比較的良好で、全体的な流れは理解しやすい。"
+          },
+          {
+            "span_ids": [
+              "1514:1@U005",
+              "1514:1@U006",
+              "1514:1@U007"
+            ],
+            "finding": "語彙の使用に若干の問題があるが、全体的な意味伝達に影響は少ない。"
+          },
+          {
+            "span_ids": [
+              "1514:1@U010",
+              "1514:1@U011",
+              "1514:1@U012",
+              "1514:1@U013",
+              "1514:1@U014"
+            ],
+            "finding": "複雑な文法構造の使用が限られているが、全体的な意味伝達に影響は少ない。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "Hitlerの例が適切かどうかを確認する",
+          "where_span_ids": [
+            "1514:1@U010",
+            "1514:1@U011",
+            "1514:1@U012",
+            "1514:1@U013",
+            "1514:1@U014"
+          ],
+          "action": "Hitlerの例が適切かどうかを確認し、その影響を評価する",
+          "reason": "Hitlerの例が全体的な評価に影響を与える可能性があるため。"
+        },
+        "scope_limit": "Hitlerの例が適切かどうかを評価する。",
+        "citations": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U002",
+            "start": 203,
+            "end": 317,
+            "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U003",
+            "start": 317,
+            "end": 404,
+            "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U005",
+            "start": 529,
+            "end": 685,
+            "text": "\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U006",
+            "start": 685,
+            "end": 825,
+            "text": "He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U007",
+            "start": 825,
+            "end": 926,
+            "text": "Also, he took classes that would help him improve his skills and understanding of his future career. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U010",
+            "start": 1137,
+            "end": 1257,
+            "text": "\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U011",
+            "start": 1257,
+            "end": 1392,
+            "text": "At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U012",
+            "start": 1392,
+            "end": 1516,
+            "text": "That was the moment when Hitler decided to do something different, and experience something new that could change his life. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U013",
+            "start": 1516,
+            "end": 1555,
+            "text": "With hard work and patience he did it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U014",
+            "start": 1555,
+            "end": 1644,
+            "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C02",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "organization generally controlled although connection sometimes absent or unsuccessful;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 73,
+            "end": 160,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C04",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "attempts to use less common vocabulary but with some inaccuracy",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 138,
+            "end": 201,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S3.C01",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "Simple, compound, and complex syntactic structures present although the range may be limited;",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 0,
+            "end": 93,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      },
+      {
+        "issue_id": "I2",
+        "claim_ids": [
+          "1514:1/K1/C1",
+          "1514:1/K1/C2",
+          "1514:1/K1/C3",
+          "1514:1/K1/C4"
+        ],
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U002",
+          "1514:1@U003",
+          "1514:1@U005",
+          "1514:1@U006",
+          "1514:1@U007",
+          "1514:1@U010",
+          "1514:1@U011",
+          "1514:1@U012",
+          "1514:1@U013",
+          "1514:1@U014"
+        ],
+        "condition_ids": [
+          "Overall.S3.C02",
+          "Vocabulary.S3.C04",
+          "Grammar.S3.C01",
+          "Syntax.S3.C01"
+        ],
+        "feature_confirmed": "文章の組織と文法は比較的良好だが、複雑な文法構造の使用が限られている。語彙の使用に若干の問題がある。",
+        "inferred_judgment": "文章の組織と文法は比較的良好で、全体的な流れは理解しやすい。ただし、複雑な文法構造の使用が限られている。語彙の使用に若干の問題があるが、全体的な意味伝達に影響は少ない。",
+        "rubric_based_proposal": "Overall.S3.C02, Vocabulary.S3.C04, Grammar.S3.C01, Syntax.S3.C01の条件を満たす。全体的な組織と文法は良好だが、複雑な文法構造の使用が限られている。語彙の使用に若干の問題があるが、全体的な意味伝達に影響は少ない。",
+        "agreement_review_unknown": "Hitlerの例が適切かどうかは議論の余地がある。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "1514:1@U001",
+              "1514:1@U002",
+              "1514:1@U003"
+            ],
+            "finding": "文章の組織と文法は比較的良好で、全体的な流れは理解しやすい。"
+          },
+          {
+            "span_ids": [
+              "1514:1@U005",
+              "1514:1@U006",
+              "1514:1@U007"
+            ],
+            "finding": "語彙の使用に若干の問題があるが、全体的な意味伝達に影響は少ない。"
+          },
+          {
+            "span_ids": [
+              "1514:1@U010",
+              "1514:1@U011",
+              "1514:1@U012",
+              "1514:1@U013",
+              "1514:1@U014"
+            ],
+            "finding": "複雑な文法構造の使用が限られているが、全体的な意味伝達に影響は少ない。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "Hitlerの例が適切かどうかを確認する",
+          "where_span_ids": [
+            "1514:1@U010",
+            "1514:1@U011",
+            "1514:1@U012",
+            "1514:1@U013",
+            "1514:1@U014"
+          ],
+          "action": "Hitlerの例が適切かどうかを確認し、その影響を評価する",
+          "reason": "Hitlerの例が全体的な評価に影響を与える可能性があるため。"
+        },
+        "scope_limit": "Hitlerの例が適切かどうかを評価する。",
+        "citations": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U002",
+            "start": 203,
+            "end": 317,
+            "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U003",
+            "start": 317,
+            "end": 404,
+            "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U005",
+            "start": 529,
+            "end": 685,
+            "text": "\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U006",
+            "start": 685,
+            "end": 825,
+            "text": "He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U007",
+            "start": 825,
+            "end": 926,
+            "text": "Also, he took classes that would help him improve his skills and understanding of his future career. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U010",
+            "start": 1137,
+            "end": 1257,
+            "text": "\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U011",
+            "start": 1257,
+            "end": 1392,
+            "text": "At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U012",
+            "start": 1392,
+            "end": 1516,
+            "text": "That was the moment when Hitler decided to do something different, and experience something new that could change his life. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U013",
+            "start": 1516,
+            "end": 1555,
+            "text": "With hard work and patience he did it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U014",
+            "start": 1555,
+            "end": 1644,
+            "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C02",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "organization generally controlled although connection sometimes absent or unsuccessful;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 73,
+            "end": 160,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C04",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "attempts to use less common vocabulary but with some inaccuracy",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 138,
+            "end": 201,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S3.C01",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "Simple, compound, and complex syntactic structures present although the range may be limited;",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 0,
+            "end": 93,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T18:53:42.847431+09:00"
+}

@@ -1,0 +1,54 @@
+{
+  "fingerprint": "91215b98742d1f8ad9c6adf4eaa35a3d72487c265f483d96b7f2e194b76c8a30",
+  "result": {
+    "groups": [
+      {
+        "summary": "文章展示了良好的语言运用能力，词汇和句法结构丰富，语法和词汇使用准确。",
+        "claim_ids": [
+          "406:1/K1/C1",
+          "406:1/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "语法和词汇使用准确。",
+        "claim_ids": [
+          "406:1/K2/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "词汇使用准确。",
+        "claim_ids": [
+          "406:1/K2/C3"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "differences": [
+      {
+        "description": "存在一些语法错误。",
+        "claim_ids": [
+          "406:1/K1/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "存在一些拼写和标点错误。",
+        "claim_ids": [
+          "406:1/K1/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "文章结构一般，但部分段落间的连接不够清晰。",
+        "claim_ids": [
+          "406:1/K1/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:02:58.765426+09:00"
+}

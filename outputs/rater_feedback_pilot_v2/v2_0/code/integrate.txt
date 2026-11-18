@@ -1,0 +1,6 @@
+版 feedback-pilot-v2/2.0 integrate
+答案単位に整理された採用理由から、共通する文章特徴common_featuresと、共通する評価判断の候補judgment_patternsを別々に作る。日本語JSONのみ。各最大2件、十分な根拠がなければ空配列でよい。
+両者とも最低2件の異なるtarget_idの支持主張IDを必須とする。候補の複数件を別答案と数えない。共通する文章特徴しか確認できなければjudgment_patternsは空にする。
+評価判断候補には、どの特徴をどう評価し、その評価を観測Trait/Overallとどう関連づける説明が複数理由で反復されたかを書く。原主張のevaluationとoverall_relation/trait_relationを確かめる。単なる「文法や組織に問題がある」「低評価につながる」は共通評価判断の説明として不十分。説明が一般的すぎる・循環的なら未確定とする。重視度、厳しさ、得点規則、バイアスは創作しない。
+feature_contextとrepeated_judgmentを区別する。支持と反例はIDで追跡し、非該当・証拠不足はunknownsに具体的に記す。共通性がないことを隠すために一般化しない。本人の真の思考ではなく採用理由に反復された説明の候補と表現する。
+INPUT_JSON:

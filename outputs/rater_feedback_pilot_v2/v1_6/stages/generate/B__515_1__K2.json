@@ -1,0 +1,176 @@
+{
+  "fingerprint": "37002e47723e808499df72e79ed7a7c96e120e0a7ab77acb214e8c9962f0a082",
+  "result": {
+    "rationale": "文章の構成と文法に一貫性があり、特定のトピックに関連する用語を適切に使用していますが、複雑な文の形成や正確な語彙の使用に課題があります。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "515:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章の構成と文法に一貫性がある",
+        "span_ids": [
+          "515:1@U001",
+          "515:1@U002"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C01",
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章の構成と文法に一貫性があり、全体的に理解しやすい。",
+        "limits": "複雑な文の形成に課題がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U001",
+            "start": 0,
+            "end": 131,
+            "text": "Some schools offer distance learning as an option for students to attend classes from home by way of online or video conferencing. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U002",
+            "start": 131,
+            "end": 207,
+            "text": "I think students would benefit from being able to attend classes from home. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "515:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "特定のトピックに関連する用語を適切に使用している",
+        "span_ids": [
+          "515:1@U001",
+          "515:1@U005"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "特定のトピックに関連する用語を適切に使用している。",
+        "limits": "微妙な単語の意味の正確な使用に課題がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U001",
+            "start": 0,
+            "end": 131,
+            "text": "Some schools offer distance learning as an option for students to attend classes from home by way of online or video conferencing. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U005",
+            "start": 327,
+            "end": 383,
+            "text": "By way online you can attend to classes from anywhere.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "515:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文の形成に課題がある",
+        "span_ids": [
+          "515:1@U003",
+          "515:1@U004"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に課題があり、理解が阻害される。",
+        "limits": "単純な文と複雑な文の両方が存在する。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U003",
+            "start": 207,
+            "end": 268,
+            "text": "Distance learning students attend classes on time by online. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U004",
+            "start": 268,
+            "end": 327,
+            "text": "Distance learning students also attend to school everyday. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "515:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "文法に誤りがある",
+        "span_ids": [
+          "515:1@U003",
+          "515:1@U004"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法に誤りがあり、理解が阻害される。",
+        "limits": "誤りが頻繁に見られるわけではない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U003",
+            "start": 207,
+            "end": 268,
+            "text": "Distance learning students attend classes on time by online. "
+          },
+          {
+            "essay_id": "515:1",
+            "span_id": "515:1@U004",
+            "start": 268,
+            "end": 327,
+            "text": "Distance learning students also attend to school everyday. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体的な評価が3である理由の一部は、特定のトピックに関連する用語の使用や文章の構成に一貫性があることから説明できるが、複雑な文の形成や正確な語彙の使用に課題があるため、完全に説明しきれていない点がある。"
+  },
+  "timestamp": "2026-11-15T19:44:30.954802+09:00"
+}

@@ -1,0 +1,93 @@
+{
+  "candidate_key": "A|1961:1|K1",
+  "masked_reason": {
+    "rationale": "文章展示了广泛的词汇和句法结构，使用了多种过渡词和短语来连接想法，语法和拼写错误很少，这些因素共同支持了较高的评分。",
+    "unexplained": "文章中存在一些语法和拼写错误，但这些错误并未显著影响整体沟通效果。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "span_ids": [
+          "1961:1@U004",
+          "1961:1@U005",
+          "1961:1@U006"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "使用了广泛的词汇和句法结构",
+        "score_relation": "支持较高评分",
+        "support_explanation": "文本中使用了广泛的词汇和句法结构，如简单句、复合句和复杂句。",
+        "limits": "需要更多样化的词汇和句法结构来进一步提高评分。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "span_ids": [
+          "1961:1@U003",
+          "1961:1@U004",
+          "1961:1@U005"
+        ],
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "使用了多种过渡词和短语来连接想法",
+        "score_relation": "支持较高评分",
+        "support_explanation": "文本中使用了多种过渡词和短语来连接想法，如“First, Secondly, Lastly”。",
+        "limits": "需要更复杂的过渡词和短语来进一步提高评分。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "span_ids": [
+          "1961:1@U004",
+          "1961:1@U005",
+          "1961:1@U006"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "语法和拼写错误很少",
+        "score_relation": "支持较高评分",
+        "support_explanation": "文本中语法和拼写错误很少，如“First, Secondly, Lastly”。",
+        "limits": "需要更少的语法和拼写错误来进一步提高评分。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S5.C01",
+        "Syntax.S5.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Cohesion.S5.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Grammar.S5.C01",
+        "Conventions.S5.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

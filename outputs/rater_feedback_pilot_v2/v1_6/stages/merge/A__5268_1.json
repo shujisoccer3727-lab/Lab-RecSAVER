@@ -1,0 +1,71 @@
+{
+  "fingerprint": "62c64b3c4e2c3e63b343e5024d215e876c9a9796601fc83dcb60810fb16f903f",
+  "result": {
+    "groups": [
+      {
+        "summary": "文章は全体的に組織が保たれており、各段落が論点を明確に示しているが、一部の段落間のつながりが弱い可能性がある。",
+        "claim_ids": [
+          "5268:1/K1/C1",
+          "5268:1/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "文法の誤りが見られ、特に複雑な文で頻繁に発生する。誤りの頻度が全体のコミュニケーションに影響を及ぼす可能性がある。",
+        "claim_ids": [
+          "5268:1/K1/C2",
+          "5268:1/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "語彙の範囲が限定的で、より正確な表現を欠いている。一部の単語が適切に使用されていない可能性がある。",
+        "claim_ids": [
+          "5268:1/K1/C3",
+          "5268:1/K2/C3"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "スペリングと文法の誤りが見られ、コミュニケーションに影響を及ぼす。誤りが全体の理解に影響を及ぼす可能性がある。",
+        "claim_ids": [
+          "5268:1/K1/C4",
+          "5268:1/K2/C4"
+        ],
+        "candidate_count": 2
+      }
+    ],
+    "differences": [
+      {
+        "description": "一部の段落間のつながりが弱い可能性がある。",
+        "claim_ids": [
+          "5268:1/K1/C1"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "全体的な文章の流れは理解しやすい。",
+        "claim_ids": [
+          "5268:1/K2/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "全体的な文章の意味は伝わる。",
+        "claim_ids": [
+          "5268:1/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "一部の文は正確だが、全体的に誤りが存在する。",
+        "claim_ids": [
+          "5268:1/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:00:13.007935+09:00"
+}

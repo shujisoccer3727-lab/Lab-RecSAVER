@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-11-16T14:08:04.883107+09:00",
+  "gpu_owned_by_other_project": "/home/guestuser/lab-jobs/dialop/code",
+  "existing_service_model": "Qwen/Qwen3.6-35B-A3B-FP8",
+  "required_model": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+  "service_not_used": true,
+  "reason": "Different model; preserve v1.6 model for development comparison",
+  "credentials_accessed": false,
+  "old_process_interruption_cause": "unknown; no completed inference outputs",
+  "one_run_waits_for_gpu": true
+}

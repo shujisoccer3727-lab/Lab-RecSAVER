@@ -1,0 +1,467 @@
+{
+  "fingerprint": "49905521987ca46cc3219e85151889cf4c3775dc1e06a2a60bf8af68ebdaa6f1",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "4902:1/K1/C1",
+          "4902:1/K1/C2",
+          "4902:1/K1/C3",
+          "4902:1/K1/C4"
+        ],
+        "span_ids": [
+          "4902:1@U001",
+          "4902:1@U002",
+          "4902:1@U003",
+          "4902:1@U004",
+          "4902:1@U005",
+          "4902:1@U006",
+          "4902:1@U007",
+          "4902:1@U008",
+          "4902:1@U009",
+          "4902:1@U010",
+          "4902:1@U011",
+          "4902:1@U012"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "4902:1@U001",
+            "tokens": [
+              "I",
+              "agree",
+              "with",
+              "Author",
+              "Ralph",
+              "waldo",
+              "Emerson",
+              "quote"
+            ],
+            "relation": "引用の導入",
+            "interpretation": "「I agree with Author Ralph waldo Emerson quote」は、作者の引用を導入する文脈を提供しています。しかし、「quote」の後に直接引用が続くべきですが、その直後に「To be yourself...」という文が続き、引用の開始が不明瞭です。",
+            "token_positions": [
+              {
+                "token": "I",
+                "start": 0,
+                "end": 1
+              },
+              {
+                "token": "agree",
+                "start": 2,
+                "end": 7
+              },
+              {
+                "token": "agree",
+                "start": 167,
+                "end": 172
+              },
+              {
+                "token": "with",
+                "start": 8,
+                "end": 12
+              },
+              {
+                "token": "with",
+                "start": 173,
+                "end": 177
+              },
+              {
+                "token": "Author",
+                "start": 13,
+                "end": 19
+              },
+              {
+                "token": "Ralph",
+                "start": 20,
+                "end": 25
+              },
+              {
+                "token": "waldo",
+                "start": 26,
+                "end": 31
+              },
+              {
+                "token": "Emerson",
+                "start": 32,
+                "end": 39
+              },
+              {
+                "token": "quote",
+                "start": 40,
+                "end": 45
+              },
+              {
+                "token": "quote",
+                "start": 183,
+                "end": 188
+              }
+            ]
+          },
+          {
+            "span_id": "4902:1@U008",
+            "tokens": [
+              "Others",
+              "may",
+              "disagree",
+              "with",
+              "To",
+              "be",
+              "yourself",
+              "in",
+              "a",
+              "world",
+              "that",
+              "is",
+              "trying",
+              "to",
+              "make",
+              "you",
+              "something",
+              "else",
+              "is",
+              "the",
+              "greatest",
+              "accomplishment"
+            ],
+            "relation": "反対意見の導入",
+            "interpretation": "「Others may disagree with To be yourself in a world that is trying to make you something else is the greatest accomplishment」は反対意見を導入する文ですが、「To be yourself...」の部分が直接引用であるべきですが、引用符が欠けており、それが引用であることが不明瞭です。",
+            "token_positions": [
+              {
+                "token": "Others",
+                "start": 866,
+                "end": 872
+              },
+              {
+                "token": "may",
+                "start": 873,
+                "end": 876
+              },
+              {
+                "token": "disagree",
+                "start": 877,
+                "end": 885
+              },
+              {
+                "token": "disagree",
+                "start": 1029,
+                "end": 1037
+              },
+              {
+                "token": "with",
+                "start": 886,
+                "end": 890
+              },
+              {
+                "token": "To",
+                "start": 892,
+                "end": 894
+              },
+              {
+                "token": "be",
+                "start": 895,
+                "end": 897
+              },
+              {
+                "token": "yourself",
+                "start": 898,
+                "end": 906
+              },
+              {
+                "token": "in",
+                "start": 907,
+                "end": 909
+              },
+              {
+                "token": "a",
+                "start": 910,
+                "end": 911
+              },
+              {
+                "token": "world",
+                "start": 912,
+                "end": 917
+              },
+              {
+                "token": "that",
+                "start": 918,
+                "end": 922
+              },
+              {
+                "token": "is",
+                "start": 923,
+                "end": 925
+              },
+              {
+                "token": "is",
+                "start": 960,
+                "end": 962
+              },
+              {
+                "token": "trying",
+                "start": 926,
+                "end": 932
+              },
+              {
+                "token": "to",
+                "start": 933,
+                "end": 935
+              },
+              {
+                "token": "make",
+                "start": 936,
+                "end": 940
+              },
+              {
+                "token": "you",
+                "start": 941,
+                "end": 944
+              },
+              {
+                "token": "something",
+                "start": 945,
+                "end": 954
+              },
+              {
+                "token": "else",
+                "start": 955,
+                "end": 959
+              },
+              {
+                "token": "is",
+                "start": 923,
+                "end": 925
+              },
+              {
+                "token": "is",
+                "start": 960,
+                "end": 962
+              },
+              {
+                "token": "the",
+                "start": 963,
+                "end": 966
+              },
+              {
+                "token": "greatest",
+                "start": 967,
+                "end": 975
+              },
+              {
+                "token": "accomplishment",
+                "start": 976,
+                "end": 990
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Cohesion.S3.C01",
+          "Cohesion.S3.C02",
+          "Syntax.S3.C01",
+          "Syntax.S3.C02",
+          "Vocabulary.S3.C01",
+          "Vocabulary.S3.C02",
+          "Grammar.S3.C01"
+        ],
+        "feature_confirmed": "本文は一般的な文法と構文を理解しているが、複雑な文の形成や正確な単語の使用に課題がある。また、文章のつながりが完全ではなく、一部のアイデアが明確に結びついていない。",
+        "inferred_judgment": "観測評価と一致。複雑な文の形成や微妙な単語の正確な使用に問題があるが、全体的なコミュニケーションが阻害されない。",
+        "rubric_based_proposal": "Overall.S3.C01, Overall.S3.C02, Overall.S3.C03, Overall.S3.C04。文章の組織は一般的に制御されているが、アイデアのつながりが完全でない。文法と構文に誤りがあり、コミュニケーションに影響を与える。",
+        "agreement_review_unknown": "一部のアイデアが明確に結びついていない。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "4902:1@U001",
+              "4902:1@U008"
+            ],
+            "finding": "引用の開始と終了が不明瞭。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "引用の開始と終了の明瞭性",
+          "where_span_ids": [
+            "4902:1@U001",
+            "4902:1@U008"
+          ],
+          "action": "引用の開始と終了を明確に確認する",
+          "reason": "引用の開始と終了が不明瞭なため、それが引用であることが不明瞭で、文章のつながりに影響を及ぼしている。"
+        },
+        "scope_limit": "一部のアイデアが明確に結びついていない。",
+        "citations": [
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U001",
+            "start": 0,
+            "end": 307,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U002",
+            "start": 307,
+            "end": 491,
+            "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U003",
+            "start": 491,
+            "end": 618,
+            "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U004",
+            "start": 618,
+            "end": 655,
+            "text": "but Why be basic like everyone else. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U005",
+            "start": 655,
+            "end": 721,
+            "text": "Don't you want to be different from everybody else in the world?? "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U006",
+            "start": 721,
+            "end": 783,
+            "text": "Acting or pretending just so you can fit in with your friend. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U007",
+            "start": 783,
+            "end": 864,
+            "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U008",
+            "start": 864,
+            "end": 1039,
+            "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U009",
+            "start": 1039,
+            "end": 1132,
+            "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U010",
+            "start": 1132,
+            "end": 1286,
+            "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U011",
+            "start": 1286,
+            "end": 1307,
+            "text": "\r\nin conucluesion\r\n\r\n"
+          },
+          {
+            "essay_id": "4902:1",
+            "span_id": "4902:1@U012",
+            "start": 1307,
+            "end": 1442,
+            "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Cohesion.S3.C01",
+            "aspect": "Cohesion",
+            "level": 3,
+            "text": "Organization generally controlled;",
+            "parent_id": "Cohesion.S3",
+            "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+            "start": 0,
+            "end": 34,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Cohesion.S3.C02",
+            "aspect": "Cohesion",
+            "level": 3,
+            "text": "cohesive devices used but limited in type;",
+            "parent_id": "Cohesion.S3",
+            "parent_text": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+            "start": 35,
+            "end": 77,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S3.C01",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "Simple, compound, and complex syntactic structures present although the range may be limited;",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 0,
+            "end": 93,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S3.C02",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "some apparent errors in sentence formation, especially in more complex sentences.",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 94,
+            "end": 175,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C01",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "Minimally adequate range of vocabulary for the topic;",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 0,
+            "end": 53,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C02",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "no precise use of subtle word meanings;",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 54,
+            "end": 93,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:36:24.341519+09:00"
+}

@@ -1,0 +1,6 @@
+版 feedback-pilot-v2/2.0 ground
+各個別主張を本文全文と照合する。自己検証の得点一致は説明の正しさを示さない。公式基準の解釈差だけで排除しない。日本語でJSONを返す。
+featureとevaluationが両方とも指定証拠に支持され、単一の主要判断ならsupported。本文に反するならcontradicted、広がりや理解への影響などを判断する証拠が足りなければinsufficient。複合主張が一部だけ正しくても、全体をsupportedにしない。atomic=false、またはfeature/evaluationの片方が未支持ならsupportedにしない。
+誤りの存在、全体の広がり、意味理解への影響を区別する。正しい用法を誤用にしない。引用符・大文字・句読点の有無を主張する場合は実際の文字を調べる。元の指定span外の証拠が必要ならadded_span_idsに明記する。反する例はcounter_span_idsに明記する。別答案のspanを追加しない。説明文に新しい評価判断を創作しない。
+全主張を一度ずつ点検。機械的引用一致とは別の暫定的意味判定である。explanationは80字程度を目安とする。
+INPUT_JSON:

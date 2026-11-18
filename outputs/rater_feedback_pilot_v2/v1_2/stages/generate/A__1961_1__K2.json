@@ -1,0 +1,215 @@
+{
+  "fingerprint": "6891f28a8ae10bf1aad186f3585367dfc9effc0ea3c3b2976e523082f45fa288",
+  "result": {
+    "rationale": "この個別の理由は、観測された採点結果を説明するための簡潔な個別理由候補であり、採点者本人の思考の復元ではありません。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章全体にわたって、文法と慣用句の正確な使用が見られる。",
+        "span_ids": [
+          "1961:1@U001",
+          "1961:1@U002",
+          "1961:1@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "評価と一致",
+        "condition_ids": [
+          "Overall.S5.C03",
+          "Grammar.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と慣用句の正確な使用が全体的に見られる。",
+        "limits": "全体的な正確さが観察されるが、一部の文では誤りが見られる可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U001",
+            "start": 0,
+            "end": 61,
+            "text": "If you could visit one place in the world where would it be? "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U002",
+            "start": 61,
+            "end": 111,
+            "text": "One place that I would like to visit is Pakistan. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U003",
+            "start": 111,
+            "end": 171,
+            "text": "Here are some reasons why I would like to visit this place. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "feature": "文章全体にわたって、アイデアのつながりが適切に表現されている。",
+        "span_ids": [
+          "1961:1@U004",
+          "1961:1@U005",
+          "1961:1@U006"
+        ],
+        "direction": "positive",
+        "score_relation": "評価と一致",
+        "condition_ids": [
+          "Cohesion.S5.C01",
+          "Cohesion.S5.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "アイデアのつながりが全体的に適切に表現されている。",
+        "limits": "一部の文ではつながりが不明瞭な可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U004",
+            "start": 171,
+            "end": 206,
+            "text": "First, it is known for it's parks. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U005",
+            "start": 206,
+            "end": 237,
+            "text": "Secondly, the food is amazing. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U006",
+            "start": 237,
+            "end": 284,
+            "text": "Lastly, Pakistan is one of the nicest culture. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "feature": "広範囲の語彙が適切に使用されている。",
+        "span_ids": [
+          "1961:1@U007",
+          "1961:1@U008",
+          "1961:1@U009"
+        ],
+        "direction": "positive",
+        "score_relation": "評価と一致",
+        "condition_ids": [
+          "Vocabulary.S5.C01",
+          "Vocabulary.S5.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "広範囲の語彙が適切に使用されている。",
+        "limits": "一部の単語の使用が適切でない可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U007",
+            "start": 284,
+            "end": 342,
+            "text": "As you can see, Pakistan is an excellent place to visit.\r\n"
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U008",
+            "start": 342,
+            "end": 401,
+            "text": "\r\nPakistan is known for some of it's best amusement parks. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U009",
+            "start": 401,
+            "end": 442,
+            "text": "One place I would go to is Aladdin park. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "1961:1",
+        "aspect": "Syntax",
+        "kind": "presence",
+        "feature": "単純、複合、複雑な文法構造が適切に使用されている。",
+        "span_ids": [
+          "1961:1@U010",
+          "1961:1@U011",
+          "1961:1@U012"
+        ],
+        "direction": "positive",
+        "score_relation": "評価と一致",
+        "condition_ids": [
+          "Syntax.S5.C01",
+          "Syntax.S5.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単純、複合、複雑な文法構造が適切に使用されている。",
+        "limits": "一部の文では構造が不明瞭な可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U010",
+            "start": 442,
+            "end": 496,
+            "text": "It's an amusement park with a lot of thrilling rides. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U011",
+            "start": 496,
+            "end": 527,
+            "text": "I could go on the chair lifts. "
+          },
+          {
+            "essay_id": "1961:1",
+            "span_id": "1961:1@U012",
+            "start": 527,
+            "end": 548,
+            "text": "They are so awesome. "
+          }
+        ]
+      }
+    ],
+    "unexplained": [
+      "文法と慣用句の正確さが全体的に見られるが、一部の文では誤りが見られる可能性がある。",
+      "アイデアのつながりが全体的に適切に表現されているが、一部の文ではつながりが不明瞭な可能性がある。",
+      "広範囲の語彙が適切に使用されているが、一部の単語の使用が適切でない可能性がある。",
+      "単純、複合、複雑な文法構造が適切に使用されているが、一部の文では構造が不明瞭な可能性がある。"
+    ]
+  },
+  "timestamp": "2026-11-15T18:04:50.932826+09:00"
+}

@@ -1,0 +1,174 @@
+{
+  "fingerprint": "d952881744722e2ef0fbf1cd76ff04adc3a57820097cf2194e5abba97fb6cc28",
+  "result": {
+    "rationale": "文章は全体的に組織化されており、主張が明確だが、文法や構文の誤りが見られる。単純な文と複雑な文が混在し、一部の単語やフレーズの使用が適切でない。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "61:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章は全体的に組織化されており、主張が明確だが、文法や構文の誤りが見られる。",
+        "span_ids": [
+          "61:1@U003",
+          "61:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "全体的な組織化と主張の明確さが確認できる。",
+        "limits": "一部の誤りが伝達を阻害する可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "61:1",
+            "span_id": "61:1@U003",
+            "start": 83,
+            "end": 397,
+            "text": "I'll show little kids to think of others and not just them self's because when they get older the little kids aren't going to care but if they see the older kids help maybe the little kids would think how the big kids helped n see how much they helped them and would still want to help others when they get older. "
+          },
+          {
+            "essay_id": "61:1",
+            "span_id": "61:1@U006",
+            "start": 495,
+            "end": 752,
+            "text": "Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "61:1",
+        "aspect": "Syntax",
+        "kind": "range",
+        "feature": "単純な文と複雑な文が混在するが、一部の文法誤りがある。",
+        "span_ids": [
+          "61:1@U003",
+          "61:1@U006"
+        ],
+        "direction": "mixed",
+        "score_relation": "評価に一致",
+        "condition_ids": [
+          "Syntax.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文が使用されているが、誤りも確認できる。",
+        "limits": "誤りが伝達を阻害する可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "61:1",
+            "span_id": "61:1@U003",
+            "start": 83,
+            "end": 397,
+            "text": "I'll show little kids to think of others and not just them self's because when they get older the little kids aren't going to care but if they see the older kids help maybe the little kids would think how the big kids helped n see how much they helped them and would still want to help others when they get older. "
+          },
+          {
+            "essay_id": "61:1",
+            "span_id": "61:1@U006",
+            "start": 495,
+            "end": 752,
+            "text": "Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "61:1",
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "feature": "単語やフレーズの使用が適切でない。",
+        "span_ids": [
+          "61:1@U003",
+          "61:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に一致",
+        "condition_ids": [
+          "Vocabulary.S3.C04"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "単語やフレーズの使用が適切でない箇所が確認できる。",
+        "limits": "誤りが伝達を阻害する可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "61:1",
+            "span_id": "61:1@U003",
+            "start": 83,
+            "end": 397,
+            "text": "I'll show little kids to think of others and not just them self's because when they get older the little kids aren't going to care but if they see the older kids help maybe the little kids would think how the big kids helped n see how much they helped them and would still want to help others when they get older. "
+          },
+          {
+            "essay_id": "61:1",
+            "span_id": "61:1@U006",
+            "start": 495,
+            "end": 752,
+            "text": "Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "61:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "文法誤りが見られる。",
+        "span_ids": [
+          "61:1@U003",
+          "61:1@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法誤りが確認できる。",
+        "limits": "誤りが伝達を阻害する可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "61:1",
+            "span_id": "61:1@U003",
+            "start": 83,
+            "end": 397,
+            "text": "I'll show little kids to think of others and not just them self's because when they get older the little kids aren't going to care but if they see the older kids help maybe the little kids would think how the big kids helped n see how much they helped them and would still want to help others when they get older. "
+          },
+          {
+            "essay_id": "61:1",
+            "span_id": "61:1@U006",
+            "start": 495,
+            "end": 752,
+            "text": "Helping in community service would also help the big kids because they would be thinking of other, they will feel good about them self's when their done, and that well help them get into a good collage when they are older just for helping in the community. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "一部の誤りが伝達を阻害する可能性があるが、全体的な組織化と主張の明確さが評価に影響している。"
+  },
+  "timestamp": "2026-11-15T19:42:00.563433+09:00"
+}

@@ -1,0 +1,70 @@
+{
+  "fingerprint": "38a7c0cc6fea7ca5e3796775b7ab3eecb4d9e79fe78140758741a36694a4911f",
+  "result": {
+    "groups": [
+      {
+        "summary": "組織と構成は一般的に制御されているが、文法と語彙の正確性に問題がある。",
+        "claim_ids": [
+          "61:1/K1/C1",
+          "61:1/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "文法と慣用句の使用に誤りがあり、コミュニケーションに影響を及ぼす。",
+        "claim_ids": [
+          "61:1/K1/C2",
+          "61:1/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "語彙の範囲が限定的で、正確な意味を表現する能力が制限されている。",
+        "claim_ids": [
+          "61:1/K1/C3",
+          "61:1/K2/C3"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "スペリング、大文字、句読点の誤りが見られる。",
+        "claim_ids": [
+          "61:1/K2/C4"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "慣用句の使用に誤りがあり、コミュニケーションに影響を及ぼす。",
+        "claim_ids": [
+          "61:1/K1/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "differences": [
+      {
+        "description": "文法と慣用句の誤りを含む。",
+        "claim_ids": [
+          "61:1/K2/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "全体的な表現力が不明瞭。",
+        "claim_ids": [
+          "61:1/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "誤りの頻度が不明瞭。",
+        "claim_ids": [
+          "61:1/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:01:35.766415+09:00"
+}

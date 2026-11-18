@@ -1,0 +1,111 @@
+{
+  "candidate_key": "A|2832:2|K2",
+  "masked_reason": {
+    "rationale": "文章在语法和词汇使用上存在一些错误，影响了整体的流畅性和准确性。虽然文章结构大致清晰，但语言表达的准确性有待提高。",
+    "unexplained": "文章的某些部分可能因为主题限制而难以提高词汇和语法的复杂性。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "span_ids": [
+          "2832:2@U004",
+          "2832:2@U006"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文章中存在一些语法错误，如 'Some people thinks' 和 'they not need to leave their houses'。",
+        "score_relation": "部分影响了评分",
+        "support_explanation": "这些错误影响了文章的流畅性和准确性。",
+        "limits": "这些错误可能只是偶然出现，不代表整体水平。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "span_ids": [
+          "2832:2@U007",
+          "2832:2@U022"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "词汇使用较为有限，如 'shop by online' 和 'play with technology'。",
+        "score_relation": "部分影响了评分",
+        "support_explanation": "这些表达较为简单，缺乏多样性。",
+        "limits": "词汇使用有限可能是因为主题限制。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "span_ids": [
+          "2832:2@U002"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "句子结构较为简单，如 'Today, people prefers to interact with technology than people.'",
+        "score_relation": "部分影响了评分",
+        "support_explanation": "句子结构简单，缺乏复杂性。",
+        "limits": "复杂句子的使用可能受限于作者的写作习惯。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "span_ids": [
+          "2832:2@U012",
+          "2832:2@U008"
+        ],
+        "aspect": "Conventions",
+        "kind": "communication",
+        "direction": "negative",
+        "feature": "拼写和标点错误，如 'whatssap' 和 'I not feel comfortable as a store.'",
+        "score_relation": "部分影响了评分",
+        "support_explanation": "这些错误影响了文章的可读性。",
+        "limits": "这些错误可能只是偶然出现，不代表整体水平。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C03"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Vocabulary.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Syntax.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Conventions.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

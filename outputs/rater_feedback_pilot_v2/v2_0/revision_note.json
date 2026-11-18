@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-11-16T11:33:54.020522+09:00",
+  "version": "feedback-pilot-v2/2.0",
+  "changes": [
+    "new claim fields separate feature/evaluation/score relationships",
+    "supported/contradicted/insufficient review with explicit additional evidence",
+    "separate common features from repeated evaluation judgments",
+    "remove arbitrary word-count/grammar anchors and generic action regex",
+    "local rubric comparisons; per-topic sentence-level provenance"
+  ],
+  "unchanged": "model, sampling settings, seed policy, two candidates, one format retry, fixed source data and histories",
+  "impact": "All reasons changed; no v1.6 generation or dependent stage is reused",
+  "handoff": "If prompts/code/config change after execution, use a new version. Score mismatch never triggers regeneration."
+}

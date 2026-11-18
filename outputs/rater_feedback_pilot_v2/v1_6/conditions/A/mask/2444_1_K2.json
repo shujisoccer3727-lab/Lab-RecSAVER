@@ -1,0 +1,114 @@
+{
+  "candidate_key": "A|2444:1|K2",
+  "masked_reason": {
+    "rationale": "文章展示了语言使用的灵活性和词汇范围，但存在一些语法和拼写错误，这些错误偶尔会干扰沟通。",
+    "unexplained": "文章中的一些语法错误和拼写错误可能对沟通造成干扰，但这些错误并不频繁，不足以影响整体评分。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2444:1",
+        "span_ids": [
+          "2444:1@U013",
+          "2444:1@U014"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "文章展示了语言使用的灵活性和词汇范围",
+        "score_relation": "支持4分",
+        "support_explanation": "文章中使用了多样化的词汇和表达方式，如'FBLA'和'AD Assets Inc'。",
+        "limits": "无"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2444:1",
+        "span_ids": [
+          "2444:1@U004",
+          "2444:1@U012"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "存在一些语法错误",
+        "score_relation": "支持4分",
+        "support_explanation": "例如，'Improve my knowledge is one of the reason'。",
+        "limits": "无"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2444:1",
+        "span_ids": [
+          "2444:1@U012",
+          "2444:1@U018"
+        ],
+        "aspect": "Conventions",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "存在拼写错误",
+        "score_relation": "支持4分",
+        "support_explanation": "例如，'Improve my knowledge is one of the reason'。",
+        "limits": "无"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2444:1",
+        "span_ids": [
+          "2444:1@U001",
+          "2444:1@U002"
+        ],
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "direction": "mixed",
+        "feature": "文章组织良好，但有些地方连接不够流畅",
+        "score_relation": "支持4分",
+        "support_explanation": "文章整体结构清晰，但有些句子之间的连接不够流畅。",
+        "limits": "无"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C01",
+        "Overall.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Grammar.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Conventions.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Cohesion.S4.C01",
+        "Cohesion.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

@@ -1,0 +1,201 @@
+{
+  "fingerprint": "9b234d28b13a3cd29b410afbbd1b66aeed9f7ba356d7a6581c331f737ef6b487",
+  "result": {
+    "rationale": "この回答は、一般的な文法と構造を理解しているが、より複雑な文法構造や単語の使用に制限がある。また、文章のつながりが完全ではなく、一部のアイデアが明確に結びついていない。これらの要素がOverallの評価に影響を与えている可能性がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章のつながりが完全ではなく、一部のアイデアが明確に結びついていない。",
+        "span_ids": [
+          "1514:1@U004",
+          "1514:1@U010"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に影響",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "「Hitler」の例が二度登場し、それぞれの文脈が明確に結びついていない。",
+        "limits": "全体のつながりが一部の例によって乱されている可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U004",
+            "start": 404,
+            "end": 529,
+            "text": "In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n"
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U010",
+            "start": 1137,
+            "end": 1257,
+            "text": "\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文法構造の使用に制限がある。",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U005",
+          "1514:1@U015"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に影響",
+        "condition_ids": [
+          "Syntax.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文法構造が一部の文で見られるが、全体的に単純な構造が主。",
+        "limits": "複雑な文法構造の使用が全体の文法の正確性に影響を与える可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U005",
+            "start": 529,
+            "end": 685,
+            "text": "\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U015",
+            "start": 1644,
+            "end": 1998,
+            "text": "\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "単語の範囲が限定的で、より具体的な単語の使用が少ない。",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U005",
+          "1514:1@U015"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に影響",
+        "condition_ids": [
+          "Vocabulary.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "「generic_school」や「something beyond what you already know」などの表現が具体的でない。",
+        "limits": "より具体的な単語の使用が全体の表現力に影響を与える可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U005",
+            "start": 529,
+            "end": 685,
+            "text": "\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U015",
+            "start": 1644,
+            "end": 1998,
+            "text": "\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "1514:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "文法の誤りが存在する。",
+        "span_ids": [
+          "1514:1@U001",
+          "1514:1@U005",
+          "1514:1@U015"
+        ],
+        "direction": "negative",
+        "score_relation": "評価に影響",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "「you'll never know if what you could have done was worth your time」などの文法誤りが見られる。",
+        "limits": "文法の誤りが全体のコミュニケーションに影響を与える可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U001",
+            "start": 0,
+            "end": 203,
+            "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U005",
+            "start": 529,
+            "end": 685,
+            "text": "\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. "
+          },
+          {
+            "essay_id": "1514:1",
+            "span_id": "1514:1@U015",
+            "start": 1644,
+            "end": 1998,
+            "text": "\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. "
+          }
+        ]
+      }
+    ],
+    "unexplained": [
+      "Hitlerの例が二度登場し、それぞれの文脈が明確に結びついていないことの影響。",
+      "複雑な文法構造の使用が全体の文法の正確性に影響を与える可能性があること。"
+    ]
+  },
+  "timestamp": "2026-11-15T18:05:56.511020+09:00"
+}

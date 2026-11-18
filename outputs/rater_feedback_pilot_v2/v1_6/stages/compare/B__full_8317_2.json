@@ -1,0 +1,897 @@
+{
+  "fingerprint": "6c88fb1d7763bbae5160189d4794b3cd6d27027308995f76ec8164a485ba5c1a",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "8317:2/K1/C1",
+          "8317:2/K1/C2",
+          "8317:2/K1/C3",
+          "8317:2/K1/C4"
+        ],
+        "span_ids": [
+          "8317:2@U001",
+          "8317:2@U002",
+          "8317:2@U003",
+          "8317:2@U004",
+          "8317:2@U005",
+          "8317:2@U006",
+          "8317:2@U007",
+          "8317:2@U008",
+          "8317:2@U009",
+          "8317:2@U010",
+          "8317:2@U011"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "8317:2@U001",
+            "tokens": [
+              "Would",
+              "it",
+              "be",
+              "surprising",
+              "to",
+              "know",
+              "that",
+              "kids",
+              "that",
+              "learn",
+              "at",
+              "home",
+              "don't",
+              "have",
+              "to",
+              "stress",
+              "as",
+              "much"
+            ],
+            "relation": "conditional",
+            "interpretation": "この文は条件文であり、「家で学ぶ子供たちがストレスを感じない」ことが前提とされている。しかし、「don't have to stress」の表現は不正確で、「don't have to stress as much」の方が適切である。",
+            "token_positions": [
+              {
+                "token": "Would",
+                "start": 0,
+                "end": 5
+              },
+              {
+                "token": "it",
+                "start": 6,
+                "end": 8
+              },
+              {
+                "token": "be",
+                "start": 9,
+                "end": 11
+              },
+              {
+                "token": "be",
+                "start": 169,
+                "end": 171
+              },
+              {
+                "token": "surprising",
+                "start": 12,
+                "end": 22
+              },
+              {
+                "token": "to",
+                "start": 23,
+                "end": 25
+              },
+              {
+                "token": "to",
+                "start": 71,
+                "end": 73
+              },
+              {
+                "token": "to",
+                "start": 133,
+                "end": 135
+              },
+              {
+                "token": "to",
+                "start": 316,
+                "end": 318
+              },
+              {
+                "token": "to",
+                "start": 378,
+                "end": 380
+              },
+              {
+                "token": "know",
+                "start": 26,
+                "end": 30
+              },
+              {
+                "token": "that",
+                "start": 31,
+                "end": 35
+              },
+              {
+                "token": "that",
+                "start": 41,
+                "end": 45
+              },
+              {
+                "token": "that",
+                "start": 153,
+                "end": 157
+              },
+              {
+                "token": "kids",
+                "start": 36,
+                "end": 40
+              },
+              {
+                "token": "kids",
+                "start": 202,
+                "end": 206
+              },
+              {
+                "token": "that",
+                "start": 31,
+                "end": 35
+              },
+              {
+                "token": "that",
+                "start": 41,
+                "end": 45
+              },
+              {
+                "token": "that",
+                "start": 153,
+                "end": 157
+              },
+              {
+                "token": "learn",
+                "start": 46,
+                "end": 51
+              },
+              {
+                "token": "at",
+                "start": 52,
+                "end": 54
+              },
+              {
+                "token": "at",
+                "start": 410,
+                "end": 412
+              },
+              {
+                "token": "home",
+                "start": 55,
+                "end": 59
+              },
+              {
+                "token": "home",
+                "start": 267,
+                "end": 271
+              },
+              {
+                "token": "home",
+                "start": 413,
+                "end": 417
+              },
+              {
+                "token": "don't",
+                "start": 60,
+                "end": 65
+              },
+              {
+                "token": "have",
+                "start": 66,
+                "end": 70
+              },
+              {
+                "token": "to",
+                "start": 23,
+                "end": 25
+              },
+              {
+                "token": "to",
+                "start": 71,
+                "end": 73
+              },
+              {
+                "token": "to",
+                "start": 133,
+                "end": 135
+              },
+              {
+                "token": "to",
+                "start": 316,
+                "end": 318
+              },
+              {
+                "token": "to",
+                "start": 378,
+                "end": 380
+              },
+              {
+                "token": "stress",
+                "start": 74,
+                "end": 80
+              },
+              {
+                "token": "as",
+                "start": 81,
+                "end": 83
+              },
+              {
+                "token": "much",
+                "start": 84,
+                "end": 88
+              },
+              {
+                "token": "much",
+                "start": 136,
+                "end": 140
+              },
+              {
+                "token": "much",
+                "start": 233,
+                "end": 237
+              }
+            ]
+          },
+          {
+            "span_id": "8317:2@U005",
+            "tokens": [
+              "When",
+              "you",
+              "are",
+              "taking",
+              "a",
+              "test",
+              "or",
+              "taking",
+              "notes",
+              "at",
+              "a",
+              "public",
+              "school",
+              "there",
+              "are",
+              "many",
+              "distraction",
+              "that",
+              "can",
+              "make",
+              "students",
+              "lose",
+              "focus",
+              "on",
+              "what",
+              "they",
+              "are",
+              "doing"
+            ],
+            "relation": "causal",
+            "interpretation": "この文は因果関係を示しており、「公立学校で試験やノートを取るときには多くの分散要因がある」と述べている。ただし、「distraction」は単数形で「distractions」の方が適切である。",
+            "token_positions": [
+              {
+                "token": "When",
+                "start": 1375,
+                "end": 1379
+              },
+              {
+                "token": "you",
+                "start": 1380,
+                "end": 1383
+              },
+              {
+                "token": "are",
+                "start": 1384,
+                "end": 1387
+              },
+              {
+                "token": "are",
+                "start": 1443,
+                "end": 1446
+              },
+              {
+                "token": "are",
+                "start": 1511,
+                "end": 1514
+              },
+              {
+                "token": "are",
+                "start": 1726,
+                "end": 1729
+              },
+              {
+                "token": "taking",
+                "start": 1388,
+                "end": 1394
+              },
+              {
+                "token": "taking",
+                "start": 1405,
+                "end": 1411
+              },
+              {
+                "token": "a",
+                "start": 1395,
+                "end": 1396
+              },
+              {
+                "token": "a",
+                "start": 1421,
+                "end": 1422
+              },
+              {
+                "token": "a",
+                "start": 1577,
+                "end": 1578
+              },
+              {
+                "token": "a",
+                "start": 1628,
+                "end": 1629
+              },
+              {
+                "token": "a",
+                "start": 1647,
+                "end": 1648
+              },
+              {
+                "token": "a",
+                "start": 1666,
+                "end": 1667
+              },
+              {
+                "token": "test",
+                "start": 1397,
+                "end": 1401
+              },
+              {
+                "token": "or",
+                "start": 1402,
+                "end": 1404
+              },
+              {
+                "token": "taking",
+                "start": 1388,
+                "end": 1394
+              },
+              {
+                "token": "taking",
+                "start": 1405,
+                "end": 1411
+              },
+              {
+                "token": "notes",
+                "start": 1412,
+                "end": 1417
+              },
+              {
+                "token": "at",
+                "start": 1418,
+                "end": 1420
+              },
+              {
+                "token": "a",
+                "start": 1395,
+                "end": 1396
+              },
+              {
+                "token": "a",
+                "start": 1421,
+                "end": 1422
+              },
+              {
+                "token": "a",
+                "start": 1577,
+                "end": 1578
+              },
+              {
+                "token": "a",
+                "start": 1628,
+                "end": 1629
+              },
+              {
+                "token": "a",
+                "start": 1647,
+                "end": 1648
+              },
+              {
+                "token": "a",
+                "start": 1666,
+                "end": 1667
+              },
+              {
+                "token": "public",
+                "start": 1423,
+                "end": 1429
+              },
+              {
+                "token": "school",
+                "start": 1430,
+                "end": 1436
+              },
+              {
+                "token": "there",
+                "start": 1437,
+                "end": 1442
+              },
+              {
+                "token": "are",
+                "start": 1384,
+                "end": 1387
+              },
+              {
+                "token": "are",
+                "start": 1443,
+                "end": 1446
+              },
+              {
+                "token": "are",
+                "start": 1511,
+                "end": 1514
+              },
+              {
+                "token": "are",
+                "start": 1726,
+                "end": 1729
+              },
+              {
+                "token": "many",
+                "start": 1447,
+                "end": 1451
+              },
+              {
+                "token": "distraction",
+                "start": 1452,
+                "end": 1463
+              },
+              {
+                "token": "distraction",
+                "start": 1630,
+                "end": 1641
+              },
+              {
+                "token": "that",
+                "start": 1464,
+                "end": 1468
+              },
+              {
+                "token": "that",
+                "start": 1544,
+                "end": 1548
+              },
+              {
+                "token": "that",
+                "start": 1642,
+                "end": 1646
+              },
+              {
+                "token": "can",
+                "start": 1469,
+                "end": 1472
+              },
+              {
+                "token": "make",
+                "start": 1473,
+                "end": 1477
+              },
+              {
+                "token": "students",
+                "start": 1478,
+                "end": 1486
+              },
+              {
+                "token": "students",
+                "start": 1591,
+                "end": 1599
+              },
+              {
+                "token": "students",
+                "start": 1683,
+                "end": 1691
+              },
+              {
+                "token": "students",
+                "start": 1776,
+                "end": 1784
+              },
+              {
+                "token": "lose",
+                "start": 1487,
+                "end": 1491
+              },
+              {
+                "token": "lose",
+                "start": 1698,
+                "end": 1702
+              },
+              {
+                "token": "focus",
+                "start": 1492,
+                "end": 1497
+              },
+              {
+                "token": "focus",
+                "start": 1703,
+                "end": 1708
+              },
+              {
+                "token": "on",
+                "start": 1498,
+                "end": 1500
+              },
+              {
+                "token": "on",
+                "start": 1709,
+                "end": 1711
+              },
+              {
+                "token": "what",
+                "start": 1501,
+                "end": 1505
+              },
+              {
+                "token": "they",
+                "start": 1506,
+                "end": 1510
+              },
+              {
+                "token": "they",
+                "start": 1721,
+                "end": 1725
+              },
+              {
+                "token": "are",
+                "start": 1384,
+                "end": 1387
+              },
+              {
+                "token": "are",
+                "start": 1443,
+                "end": 1446
+              },
+              {
+                "token": "are",
+                "start": 1511,
+                "end": 1514
+              },
+              {
+                "token": "are",
+                "start": 1726,
+                "end": 1729
+              },
+              {
+                "token": "doing",
+                "start": 1515,
+                "end": 1520
+              },
+              {
+                "token": "doing",
+                "start": 1730,
+                "end": 1735
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S4.C01",
+          "Overall.S4.C02",
+          "Overall.S4.C03",
+          "Overall.S4.C04",
+          "Cohesion.S4.C01",
+          "Cohesion.S4.C02",
+          "Cohesion.S4.C03",
+          "Syntax.S4.C01",
+          "Syntax.S4.C02",
+          "Vocabulary.S4.C01",
+          "Vocabulary.S4.C02",
+          "Phraseology.S4.C01",
+          "Phraseology.S4.C02",
+          "Grammar.S4.C01",
+          "Conventions.S4.C01",
+          "Conventions.S4.C02"
+        ],
+        "feature_confirmed": "文章は全体的に組織化されており、多様な文法構造と単語が使用されているが、文法や構文の誤りが見られる。",
+        "inferred_judgment": "評価は全体的に適切であるが、文法や構文の誤りが評価に影響を与える可能性がある。",
+        "rubric_based_proposal": "文章は全体的に組織化されており、多様な文法構造と単語が使用されているが、文法や構文の誤りが評価に影響を与える可能性があるため、Overallの評価は4が適切である。",
+        "agreement_review_unknown": "評価の傾向は、文法や構文の誤りが評価に影響を与える可能性があるが、他の要素も評価に影響を与える可能性がある。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "8317:2@U001",
+              "8317:2@U005"
+            ],
+            "finding": "文法や構文の誤りが確認された。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "文法や構文の誤りを確認",
+          "where_span_ids": [
+            "8317:2@U001",
+            "8317:2@U005"
+          ],
+          "action": "誤用を確認し、その影響を評価",
+          "reason": "文法や構文の誤りが評価に影響を与える可能性があるため。"
+        },
+        "scope_limit": "評価の範囲はOverallの評価に限定する。",
+        "citations": [
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U001",
+            "start": 0,
+            "end": 420,
+            "text": "Would it be surprising to know that kids that learn at home don't have to stress as much?Stress is mainly caused by students getting to much school work that cannot all be handled in one night.Everyday kids complain about having too much homework and when working in home there is not any homework.Allowing children to work on their own schedule help them become more motivated to work.Students being educated at home ga"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U002",
+            "start": 420,
+            "end": 665,
+            "text": "in more freedom to create their own schedule and their own rules.Learning at home and not at schools helps kids succeed and have better grades.Not only does learning at home provides less distraction,it provides student with flexible schedule.\r\n"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U003",
+            "start": 665,
+            "end": 1085,
+            "text": "\r\nOne of the best thing about homeschooling is that it can be done at anytime.Because it can be done at any time,children have a flexible time schedule which means that the parents can help.The student can work around the parent schedule instead of the parent working around the students schedule.Some students have trouble working around at a school because they cannot understand the materials at the place set by teac"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U004",
+            "start": 1085,
+            "end": 1373,
+            "text": "hers.Homeschooling allows student to work at their own place and at their own schedule.Another thing about homeschooling is that there are no misguided rules about technology or how to dress.This is good because instead of working about the rules,the student can focus on their studies.\r\n"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U005",
+            "start": 1373,
+            "end": 1793,
+            "text": "\r\nWhen you are taking a test or taking notes at a public school there are many distraction that can make students lose focus on what they are doing.This is another reason that learning from home would be a benefit for students.Learning from home won't be a distraction that a classroom has.As a result of this,students won't lose focus on the work they are doing and get better grades.One of the reason students get dist"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U006",
+            "start": 1793,
+            "end": 2213,
+            "text": "racted in the first place i because they are in an environment that they are not familiar with,which makes them feel uncomfortable.If a student learns from home they will feel more relaxed and comfortable and won't stress about work.In a school,you are stuck at desk for6 hours and have limited time to eat and limited bathroom break.this does not help a student's learning at all.on the other hand,if you are at home yo"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U007",
+            "start": 2213,
+            "end": 2472,
+            "text": "u can eat and do whatever you want and when you want.Because of this students will feel less pressure and get better grades than they would have if they were at school.In conclusion,the environment at home will benefit students by giving them better grades.\r\n"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U008",
+            "start": 2472,
+            "end": 2892,
+            "text": "\r\nThere are still a few not to do schools from home.there are much more opportunities with public schools.People from different colleges don't go to students' homes and try to advertise their career options.It's also pretty hard to make friends if you stay at home every day.Public schools are great places to socialize during free time.If everyone goes home to do schooling,funding for public schooling will fall and te"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U009",
+            "start": 2892,
+            "end": 3110,
+            "text": "achers will lose their jobs because of budget cuts.In public schools,depending on the teacher,cheating is hard to do.But schooling at home,the student easily look up the answers on the internet on a different device.\r\n"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U010",
+            "start": 3110,
+            "end": 3530,
+            "text": "\r\nStudents should be offered classes online because the environment is less stressful,which could benefit test scores.at home there are less distractions,rather than at schools where there are many different things to worry about.The flexibility of the time students are allowed to complete work would benefit the mental health and grades of the student.Socialization and development wee factors when deciding a viewpoin"
+          },
+          {
+            "essay_id": "8317:2",
+            "span_id": "8317:2@U011",
+            "start": 3530,
+            "end": 3906,
+            "text": "t on this topic.Though socialization is an inevitable part of the school environment and experience,the conclusion of the argument was that it is highly doubtful that the lack of interaction could effect the student in adulthood.Many students successfully take some,and even all, classes from home.School systems and all districts should offer distance learning.              "
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S4.C01",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "Facility in the use of language with syntactic variety and range of words and phrases;",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 0,
+            "end": 86,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S4.C02",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "controlled organization;",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 87,
+            "end": 111,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S4.C03",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "accuracy in grammar and conventions;",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 112,
+            "end": 148,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Overall.S4.C04",
+            "aspect": "Overall",
+            "level": 4,
+            "text": "occasional language inaccuracies that rarely impede communication.",
+            "parent_id": "Overall.S4",
+            "parent_text": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+            "start": 149,
+            "end": 215,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Cohesion.S4.C01",
+            "aspect": "Cohesion",
+            "level": 4,
+            "text": "Organization generally well controlled;",
+            "parent_id": "Cohesion.S4",
+            "parent_text": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+            "start": 0,
+            "end": 39,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Cohesion.S4.C02",
+            "aspect": "Cohesion",
+            "level": 4,
+            "text": "a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas;",
+            "parent_id": "Cohesion.S4",
+            "parent_text": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+            "start": 40,
+            "end": 157,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Cohesion.S4.C03",
+            "aspect": "Cohesion",
+            "level": 4,
+            "text": "generally appropriate overlap of ideas",
+            "parent_id": "Cohesion.S4",
+            "parent_text": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+            "start": 158,
+            "end": 196,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S4.C01",
+            "aspect": "Syntax",
+            "level": 4,
+            "text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences;",
+            "parent_id": "Syntax.S4",
+            "parent_text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+            "start": 0,
+            "end": 102,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Syntax.S4.C02",
+            "aspect": "Syntax",
+            "level": 4,
+            "text": "occasional errors or inappropriateness in sentence formation.",
+            "parent_id": "Syntax.S4",
+            "parent_text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+            "start": 103,
+            "end": 164,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S4.C01",
+            "aspect": "Vocabulary",
+            "level": 4,
+            "text": "Sufficient range of vocabulary to allow flexibility and precision;",
+            "parent_id": "Vocabulary.S4",
+            "parent_text": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+            "start": 0,
+            "end": 66,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S4.C02",
+            "aspect": "Vocabulary",
+            "level": 4,
+            "text": "appropriate use of topic-related terms and less common lexical items",
+            "parent_id": "Vocabulary.S4",
+            "parent_text": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+            "start": 67,
+            "end": 135,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Phraseology.S4.C01",
+            "aspect": "Phraseology",
+            "level": 4,
+            "text": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles;",
+            "parent_id": "Phraseology.S4",
+            "parent_text": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+            "start": 0,
+            "end": 91,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Phraseology.S4.C02",
+            "aspect": "Phraseology",
+            "level": 4,
+            "text": "occasional inaccuracies and colloquialisms.",
+            "parent_id": "Phraseology.S4",
+            "parent_text": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+            "start": 92,
+            "end": 135,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Grammar.S4.C01",
+            "aspect": "Grammar",
+            "level": 4,
+            "text": "Minimal errors in grammar and usage.",
+            "parent_id": "Grammar.S4",
+            "parent_text": "Minimal errors in grammar and usage.",
+            "start": 0,
+            "end": 36,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S4.C01",
+            "aspect": "Conventions",
+            "level": 4,
+            "text": "Generally consistent use of appropriate conventions to convey meaning;",
+            "parent_id": "Conventions.S4",
+            "parent_text": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting.",
+            "start": 0,
+            "end": 70,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S4.C02",
+            "aspect": "Conventions",
+            "level": 4,
+            "text": "spelling, capitalizatio n, and punctuation errors few and not distracting.",
+            "parent_id": "Conventions.S4",
+            "parent_text": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting.",
+            "start": 71,
+            "end": 145,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:50:26.565305+09:00"
+}

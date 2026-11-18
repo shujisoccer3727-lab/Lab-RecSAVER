@@ -1,0 +1,32 @@
+{
+  "fingerprint": "cf6d5b11509668cd61b3940c9789c72b9b1dc0a7d0299284446a3675d29af075",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文章中确实存在一些语法错误，如 'Some people thinks' 和 'they not need to leave their houses'，这些错误影响了文章的流畅性和准确性。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "词汇使用较为有限，如 'shop by online' 和 'play with technology'，这些表达较为简单，缺乏多样性。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "句子结构较为简单，如 'Today, people prefers to interact with technology than people.'，句子结构简单，缺乏复杂性。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "拼写和标点错误，如 'whatssap' 和 'I not feel comfortable as a store.'，这些错误影响了文章的可读性。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T19:53:59.517734+09:00"
+}

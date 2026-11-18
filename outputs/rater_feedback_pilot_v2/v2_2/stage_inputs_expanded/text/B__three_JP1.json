@@ -1,0 +1,2146 @@
+{
+  "topic": {
+    "topic_id": "JP1",
+    "status": "inferred_judgment_candidate",
+    "pattern": {
+      "pattern_id": "JP1",
+      "feature_context": "エッセイは、単純、複合、複雑な文を含むが、複雑な文の形成に時折問題がある。これは、文法構造の範囲が存在するが、複雑な文の形成に問題があることを反映している。",
+      "repeated_judgment": "複雑な文の形成に問題があるため、文法構造の評価が3点に影響している。",
+      "relationship_to_observed_scores": "複雑な文の形成に問題があるため、文法構造の評価が3点に影響している。",
+      "support": [
+        {
+          "target_id": "1514:1",
+          "claim_ids": [
+            "1514:1/K1/C2"
+          ]
+        },
+        {
+          "target_id": "1868:1",
+          "claim_ids": [
+            "1868:1/K1/C2",
+            "1868:1/K2/C2"
+          ]
+        },
+        {
+          "target_id": "4902:1",
+          "claim_ids": [
+            "4902:1/K1/C2",
+            "4902:1/K2/C2"
+          ]
+        }
+      ],
+      "counterexamples": [
+        {
+          "target_id": "1514:1",
+          "claim_ids": [
+            "1514:1/K1/C2"
+          ],
+          "reason": "複雑な文の形成に問題があるが、評価は3点である。"
+        },
+        {
+          "target_id": "1868:1",
+          "claim_ids": [
+            "1868:1/K1/C2",
+            "1868:1/K2/C2"
+          ],
+          "reason": "複雑な文の形成に問題があるが、評価は3点である。"
+        },
+        {
+          "target_id": "4902:1",
+          "claim_ids": [
+            "4902:1/K1/C2",
+            "4902:1/K2/C2"
+          ],
+          "reason": "複雑な文の形成に問題があるが、評価は3点である。"
+        }
+      ],
+      "unknowns": "複雑な文の形成に問題があるが、それが全体的な評価にどのように影響するかは不明である。"
+    },
+    "claim_ids": [
+      "1514:1/K1/C2",
+      "1868:1/K1/C2",
+      "1868:1/K2/C2",
+      "4902:1/K1/C2",
+      "4902:1/K2/C2"
+    ]
+  },
+  "claims": {
+    "4902:1/K2/C2": {
+      "claim_id": "C2",
+      "scope": "target",
+      "essay_id": "4902:1",
+      "aspect": "Syntax",
+      "span_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ],
+      "feature": "The essay includes simple, compound, and complex sentences, but there are some apparent errors in sentence formation.",
+      "evaluation": "The range of syntactic structures is present, but the formation of more complex sentences is sometimes problematic.",
+      "judgment_type": "extent",
+      "direction": "negative",
+      "overall_relation": "The essay's overall score of 3 is consistent with the presence of some errors in sentence formation.",
+      "trait_relation": "The syntax score of 3 reflects the occasional errors in sentence formation.",
+      "limits": "The essay could benefit from more precise control over complex sentence structures to enhance clarity.",
+      "evidence": [
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U001",
+          "start": 0,
+          "end": 307,
+          "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U002",
+          "start": 307,
+          "end": 491,
+          "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U003",
+          "start": 491,
+          "end": 618,
+          "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U004",
+          "start": 618,
+          "end": 655,
+          "text": "but Why be basic like everyone else. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U005",
+          "start": 655,
+          "end": 721,
+          "text": "Don't you want to be different from everybody else in the world?? "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U006",
+          "start": 721,
+          "end": 783,
+          "text": "Acting or pretending just so you can fit in with your friend. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U007",
+          "start": 783,
+          "end": 864,
+          "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U008",
+          "start": 864,
+          "end": 1039,
+          "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U009",
+          "start": 1039,
+          "end": 1132,
+          "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U010",
+          "start": 1132,
+          "end": 1286,
+          "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U011",
+          "start": 1286,
+          "end": 1307,
+          "text": "\r\nin conucluesion\r\n\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U012",
+          "start": 1307,
+          "end": 1442,
+          "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+        }
+      ],
+      "id": "4902:1/K2/C2",
+      "target_id": "4902:1",
+      "candidate_index": 2,
+      "grounding_review": {
+        "claim_id": "C2",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "エッセイは単純、複合、複雑な文を含むが、複雑な文の形成に時折問題があることを示している。これは、文法構造の範囲が存在するが、複雑な文の形成に問題があることを反映している。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      "eligible_for_integration": true,
+      "effective_evidence_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ]
+    },
+    "1514:1/K1/C2": {
+      "claim_id": "C2",
+      "scope": "target",
+      "essay_id": "1514:1",
+      "aspect": "Syntax",
+      "span_ids": [
+        "1514:1@U001",
+        "1514:1@U002",
+        "1514:1@U003",
+        "1514:1@U004",
+        "1514:1@U005",
+        "1514:1@U006",
+        "1514:1@U007",
+        "1514:1@U008",
+        "1514:1@U009",
+        "1514:1@U010",
+        "1514:1@U011",
+        "1514:1@U012",
+        "1514:1@U013",
+        "1514:1@U014",
+        "1514:1@U015",
+        "1514:1@U016",
+        "1514:1@U017",
+        "1514:1@U018",
+        "1514:1@U019"
+      ],
+      "feature": "The essay includes a mix of simple, compound, and complex sentences.",
+      "evaluation": "There are occasional errors or inappropriateness in sentence formation, particularly in more complex sentences.",
+      "judgment_type": "extent",
+      "direction": "negative",
+      "overall_relation": "The syntax judgment supports the overall score of 3, indicating a range of syntactic structures with some errors.",
+      "trait_relation": "The syntax judgment aligns with the trait score of 3, showing an appropriate use of a variety of syntactic structures with occasional errors.",
+      "limits": "The essay could benefit from more precise sentence formation to improve the clarity and coherence of the text.",
+      "evidence": [
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U001",
+          "start": 0,
+          "end": 203,
+          "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U002",
+          "start": 203,
+          "end": 317,
+          "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U003",
+          "start": 317,
+          "end": 404,
+          "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U004",
+          "start": 404,
+          "end": 529,
+          "text": "In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U005",
+          "start": 529,
+          "end": 685,
+          "text": "\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U006",
+          "start": 685,
+          "end": 825,
+          "text": "He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U007",
+          "start": 825,
+          "end": 926,
+          "text": "Also, he took classes that would help him improve his skills and understanding of his future career. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U008",
+          "start": 926,
+          "end": 1050,
+          "text": "Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U009",
+          "start": 1050,
+          "end": 1137,
+          "text": "This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U010",
+          "start": 1137,
+          "end": 1257,
+          "text": "\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U011",
+          "start": 1257,
+          "end": 1392,
+          "text": "At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U012",
+          "start": 1392,
+          "end": 1516,
+          "text": "That was the moment when Hitler decided to do something different, and experience something new that could change his life. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U013",
+          "start": 1516,
+          "end": 1555,
+          "text": "With hard work and patience he did it. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U014",
+          "start": 1555,
+          "end": 1644,
+          "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U015",
+          "start": 1644,
+          "end": 1998,
+          "text": "\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U016",
+          "start": 1998,
+          "end": 2156,
+          "text": "You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U017",
+          "start": 2156,
+          "end": 2355,
+          "text": "\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U018",
+          "start": 2355,
+          "end": 2365,
+          "text": "You'll\r\n\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U019",
+          "start": 2365,
+          "end": 2583,
+          "text": "never know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. "
+        }
+      ],
+      "id": "1514:1/K1/C2",
+      "target_id": "1514:1",
+      "candidate_index": 1,
+      "grounding_review": {
+        "claim_id": "C2",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "文章には単純、複合、複雑な文が含まれており、特に複雑な文での誤りや不適切さが見られる。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      "eligible_for_integration": true,
+      "effective_evidence_ids": [
+        "1514:1@U001",
+        "1514:1@U002",
+        "1514:1@U003",
+        "1514:1@U004",
+        "1514:1@U005",
+        "1514:1@U006",
+        "1514:1@U007",
+        "1514:1@U008",
+        "1514:1@U009",
+        "1514:1@U010",
+        "1514:1@U011",
+        "1514:1@U012",
+        "1514:1@U013",
+        "1514:1@U014",
+        "1514:1@U015",
+        "1514:1@U016",
+        "1514:1@U017",
+        "1514:1@U018",
+        "1514:1@U019"
+      ]
+    },
+    "1868:1/K2/C2": {
+      "claim_id": "C2",
+      "scope": "target",
+      "essay_id": "1868:1",
+      "aspect": "Syntax",
+      "span_ids": [
+        "1868:1@U001",
+        "1868:1@U002",
+        "1868:1@U003",
+        "1868:1@U004",
+        "1868:1@U005",
+        "1868:1@U006",
+        "1868:1@U007",
+        "1868:1@U008",
+        "1868:1@U009",
+        "1868:1@U010",
+        "1868:1@U011",
+        "1868:1@U012",
+        "1868:1@U013",
+        "1868:1@U014",
+        "1868:1@U015",
+        "1868:1@U016",
+        "1868:1@U017",
+        "1868:1@U018",
+        "1868:1@U019",
+        "1868:1@U020",
+        "1868:1@U021",
+        "1868:1@U022",
+        "1868:1@U023",
+        "1868:1@U024",
+        "1868:1@U025",
+        "1868:1@U026",
+        "1868:1@U027",
+        "1868:1@U028",
+        "1868:1@U029",
+        "1868:1@U030",
+        "1868:1@U031",
+        "1868:1@U032",
+        "1868:1@U033",
+        "1868:1@U034",
+        "1868:1@U035",
+        "1868:1@U036",
+        "1868:1@U037",
+        "1868:1@U038",
+        "1868:1@U039",
+        "1868:1@U040"
+      ],
+      "feature": "The essay includes simple, compound, and complex sentences.",
+      "evaluation": "The range of syntactic structures is present, but some errors in sentence formation are apparent.",
+      "judgment_type": "presence",
+      "direction": "negative",
+      "overall_relation": "The presence of errors in sentence formation contributes to the overall score of 3.",
+      "trait_relation": "The Syntax score of 3 reflects the presence of errors in sentence formation.",
+      "limits": "Errors in sentence formation, especially in more complex sentences, may impede communication.",
+      "evidence": [
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U001",
+          "start": 0,
+          "end": 78,
+          "text": "The main piece to improve your skills is during the process of keep learning. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U002",
+          "start": 78,
+          "end": 238,
+          "text": "Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U003",
+          "start": 238,
+          "end": 368,
+          "text": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U004",
+          "start": 368,
+          "end": 611,
+          "text": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U005",
+          "start": 611,
+          "end": 767,
+          "text": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U006",
+          "start": 767,
+          "end": 882,
+          "text": "\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U007",
+          "start": 882,
+          "end": 1043,
+          "text": "Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U008",
+          "start": 1043,
+          "end": 1173,
+          "text": "Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U009",
+          "start": 1173,
+          "end": 1269,
+          "text": "The process of being a mother for the first time, does not end when you give birth to the baby. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U010",
+          "start": 1269,
+          "end": 1426,
+          "text": "There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U011",
+          "start": 1426,
+          "end": 1666,
+          "text": "\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U012",
+          "start": 1666,
+          "end": 1747,
+          "text": "Even adult mothers have said that they keep learning how to be mother everyday.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U013",
+          "start": 1747,
+          "end": 1968,
+          "text": "\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U014",
+          "start": 1968,
+          "end": 2009,
+          "text": "it would be necessary those extra years. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U015",
+          "start": 2009,
+          "end": 2205,
+          "text": "The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U016",
+          "start": 2205,
+          "end": 2317,
+          "text": "The years where you have been taking classes that does not look that t would help you in the future in any way. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U017",
+          "start": 2317,
+          "end": 2479,
+          "text": "They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U018",
+          "start": 2479,
+          "end": 2736,
+          "text": "Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U019",
+          "start": 2736,
+          "end": 2784,
+          "text": "After you have got the extra years, does not\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U020",
+          "start": 2784,
+          "end": 3019,
+          "text": "mean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U021",
+          "start": 3019,
+          "end": 3102,
+          "text": "\r\nGoing beyond your expectations as a person would bring you benefit to your life. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U022",
+          "start": 3102,
+          "end": 3223,
+          "text": "If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U023",
+          "start": 3223,
+          "end": 3451,
+          "text": "If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U024",
+          "start": 3451,
+          "end": 3491,
+          "text": "lead yourself to become another worker. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U025",
+          "start": 3491,
+          "end": 3591,
+          "text": "Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U026",
+          "start": 3591,
+          "end": 3842,
+          "text": "You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U027",
+          "start": 3842,
+          "end": 4032,
+          "text": "In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U028",
+          "start": 4032,
+          "end": 4128,
+          "text": "Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U029",
+          "start": 4128,
+          "end": 4272,
+          "text": "\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U030",
+          "start": 4272,
+          "end": 4305,
+          "text": "If you do not try nothing new\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U031",
+          "start": 4305,
+          "end": 4312,
+          "text": "and\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U032",
+          "start": 4312,
+          "end": 4358,
+          "text": "do not applied on your daily, do no expect\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U033",
+          "start": 4358,
+          "end": 4392,
+          "text": "to become successful as a person. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U034",
+          "start": 4392,
+          "end": 4669,
+          "text": "You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U035",
+          "start": 4669,
+          "end": 4824,
+          "text": "The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U036",
+          "start": 4824,
+          "end": 4953,
+          "text": "People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U037",
+          "start": 4953,
+          "end": 5032,
+          "text": "You should not let yourself be the obstacle to keep learning new things to do. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U038",
+          "start": 5032,
+          "end": 5167,
+          "text": "If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U039",
+          "start": 5167,
+          "end": 5378,
+          "text": "Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U040",
+          "start": 5378,
+          "end": 5509,
+          "text": "Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping."
+        }
+      ],
+      "id": "1868:1/K2/C2",
+      "target_id": "1868:1",
+      "candidate_index": 2,
+      "grounding_review": {
+        "claim_id": "C2",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "The essay includes simple, compound, and complex sentences, but there are some errors in sentence formation, supporting the evaluation.",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      "eligible_for_integration": true,
+      "effective_evidence_ids": [
+        "1868:1@U001",
+        "1868:1@U002",
+        "1868:1@U003",
+        "1868:1@U004",
+        "1868:1@U005",
+        "1868:1@U006",
+        "1868:1@U007",
+        "1868:1@U008",
+        "1868:1@U009",
+        "1868:1@U010",
+        "1868:1@U011",
+        "1868:1@U012",
+        "1868:1@U013",
+        "1868:1@U014",
+        "1868:1@U015",
+        "1868:1@U016",
+        "1868:1@U017",
+        "1868:1@U018",
+        "1868:1@U019",
+        "1868:1@U020",
+        "1868:1@U021",
+        "1868:1@U022",
+        "1868:1@U023",
+        "1868:1@U024",
+        "1868:1@U025",
+        "1868:1@U026",
+        "1868:1@U027",
+        "1868:1@U028",
+        "1868:1@U029",
+        "1868:1@U030",
+        "1868:1@U031",
+        "1868:1@U032",
+        "1868:1@U033",
+        "1868:1@U034",
+        "1868:1@U035",
+        "1868:1@U036",
+        "1868:1@U037",
+        "1868:1@U038",
+        "1868:1@U039",
+        "1868:1@U040"
+      ]
+    },
+    "4902:1/K1/C2": {
+      "claim_id": "C2",
+      "scope": "target",
+      "essay_id": "4902:1",
+      "aspect": "Syntax",
+      "span_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ],
+      "feature": "The essay includes simple and compound sentences, but there are occasional errors in sentence formation, especially in more complex sentences.",
+      "evaluation": "The syntax is generally controlled, but there are some apparent errors in sentence formation.",
+      "judgment_type": "presence",
+      "direction": "negative",
+      "overall_relation": "The essay's syntax score of 3 aligns with the presence of occasional errors in sentence formation.",
+      "trait_relation": "The errors in sentence formation impact the Syntax score but do not significantly affect other traits.",
+      "limits": "The essay could benefit from more complex sentence structures and fewer errors to improve the overall syntax.",
+      "evidence": [
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U001",
+          "start": 0,
+          "end": 307,
+          "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U002",
+          "start": 307,
+          "end": 491,
+          "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U003",
+          "start": 491,
+          "end": 618,
+          "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U004",
+          "start": 618,
+          "end": 655,
+          "text": "but Why be basic like everyone else. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U005",
+          "start": 655,
+          "end": 721,
+          "text": "Don't you want to be different from everybody else in the world?? "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U006",
+          "start": 721,
+          "end": 783,
+          "text": "Acting or pretending just so you can fit in with your friend. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U007",
+          "start": 783,
+          "end": 864,
+          "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U008",
+          "start": 864,
+          "end": 1039,
+          "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U009",
+          "start": 1039,
+          "end": 1132,
+          "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U010",
+          "start": 1132,
+          "end": 1286,
+          "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U011",
+          "start": 1286,
+          "end": 1307,
+          "text": "\r\nin conucluesion\r\n\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U012",
+          "start": 1307,
+          "end": 1442,
+          "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+        }
+      ],
+      "id": "4902:1/K1/C2",
+      "target_id": "4902:1",
+      "candidate_index": 1,
+      "grounding_review": {
+        "claim_id": "C2",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "本文は、文法構造が制御されているが、複雑な文の形成に誤りがあることを示しています。これは、主張の特徴と評価を支持します。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      "eligible_for_integration": true,
+      "effective_evidence_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ]
+    },
+    "1868:1/K1/C2": {
+      "claim_id": "C2",
+      "scope": "target",
+      "essay_id": "1868:1",
+      "aspect": "Syntax",
+      "span_ids": [
+        "1868:1@U001",
+        "1868:1@U002",
+        "1868:1@U003",
+        "1868:1@U004",
+        "1868:1@U005",
+        "1868:1@U006",
+        "1868:1@U007",
+        "1868:1@U008",
+        "1868:1@U009",
+        "1868:1@U010",
+        "1868:1@U011",
+        "1868:1@U012",
+        "1868:1@U013",
+        "1868:1@U014",
+        "1868:1@U015",
+        "1868:1@U016",
+        "1868:1@U017",
+        "1868:1@U018",
+        "1868:1@U019",
+        "1868:1@U020",
+        "1868:1@U021",
+        "1868:1@U022",
+        "1868:1@U023",
+        "1868:1@U024",
+        "1868:1@U025",
+        "1868:1@U026",
+        "1868:1@U027",
+        "1868:1@U028",
+        "1868:1@U029",
+        "1868:1@U030",
+        "1868:1@U031",
+        "1868:1@U032",
+        "1868:1@U033",
+        "1868:1@U034",
+        "1868:1@U035",
+        "1868:1@U036",
+        "1868:1@U037",
+        "1868:1@U038",
+        "1868:1@U039",
+        "1868:1@U040"
+      ],
+      "feature": "The essay uses a mix of simple, compound, and complex sentences.",
+      "evaluation": "There are occasional errors in sentence formation, particularly in more complex sentences.",
+      "judgment_type": "presence",
+      "direction": "negative",
+      "overall_relation": "The essay's syntax aligns with the overall score of 3, showing a range of sentence structures with some errors.",
+      "trait_relation": "The syntax in the essay is consistent with the Syntax score of 3, indicating a range of sentence structures with occasional errors.",
+      "limits": "The essay could benefit from more precise sentence formation to enhance clarity and coherence.",
+      "evidence": [
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U001",
+          "start": 0,
+          "end": 78,
+          "text": "The main piece to improve your skills is during the process of keep learning. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U002",
+          "start": 78,
+          "end": 238,
+          "text": "Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U003",
+          "start": 238,
+          "end": 368,
+          "text": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U004",
+          "start": 368,
+          "end": 611,
+          "text": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U005",
+          "start": 611,
+          "end": 767,
+          "text": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U006",
+          "start": 767,
+          "end": 882,
+          "text": "\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U007",
+          "start": 882,
+          "end": 1043,
+          "text": "Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U008",
+          "start": 1043,
+          "end": 1173,
+          "text": "Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U009",
+          "start": 1173,
+          "end": 1269,
+          "text": "The process of being a mother for the first time, does not end when you give birth to the baby. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U010",
+          "start": 1269,
+          "end": 1426,
+          "text": "There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U011",
+          "start": 1426,
+          "end": 1666,
+          "text": "\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U012",
+          "start": 1666,
+          "end": 1747,
+          "text": "Even adult mothers have said that they keep learning how to be mother everyday.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U013",
+          "start": 1747,
+          "end": 1968,
+          "text": "\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U014",
+          "start": 1968,
+          "end": 2009,
+          "text": "it would be necessary those extra years. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U015",
+          "start": 2009,
+          "end": 2205,
+          "text": "The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U016",
+          "start": 2205,
+          "end": 2317,
+          "text": "The years where you have been taking classes that does not look that t would help you in the future in any way. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U017",
+          "start": 2317,
+          "end": 2479,
+          "text": "They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U018",
+          "start": 2479,
+          "end": 2736,
+          "text": "Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U019",
+          "start": 2736,
+          "end": 2784,
+          "text": "After you have got the extra years, does not\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U020",
+          "start": 2784,
+          "end": 3019,
+          "text": "mean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U021",
+          "start": 3019,
+          "end": 3102,
+          "text": "\r\nGoing beyond your expectations as a person would bring you benefit to your life. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U022",
+          "start": 3102,
+          "end": 3223,
+          "text": "If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U023",
+          "start": 3223,
+          "end": 3451,
+          "text": "If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U024",
+          "start": 3451,
+          "end": 3491,
+          "text": "lead yourself to become another worker. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U025",
+          "start": 3491,
+          "end": 3591,
+          "text": "Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U026",
+          "start": 3591,
+          "end": 3842,
+          "text": "You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U027",
+          "start": 3842,
+          "end": 4032,
+          "text": "In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U028",
+          "start": 4032,
+          "end": 4128,
+          "text": "Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U029",
+          "start": 4128,
+          "end": 4272,
+          "text": "\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U030",
+          "start": 4272,
+          "end": 4305,
+          "text": "If you do not try nothing new\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U031",
+          "start": 4305,
+          "end": 4312,
+          "text": "and\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U032",
+          "start": 4312,
+          "end": 4358,
+          "text": "do not applied on your daily, do no expect\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U033",
+          "start": 4358,
+          "end": 4392,
+          "text": "to become successful as a person. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U034",
+          "start": 4392,
+          "end": 4669,
+          "text": "You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U035",
+          "start": 4669,
+          "end": 4824,
+          "text": "The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U036",
+          "start": 4824,
+          "end": 4953,
+          "text": "People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U037",
+          "start": 4953,
+          "end": 5032,
+          "text": "You should not let yourself be the obstacle to keep learning new things to do. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U038",
+          "start": 5032,
+          "end": 5167,
+          "text": "If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U039",
+          "start": 5167,
+          "end": 5378,
+          "text": "Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U040",
+          "start": 5378,
+          "end": 5509,
+          "text": "Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping."
+        }
+      ],
+      "id": "1868:1/K1/C2",
+      "target_id": "1868:1",
+      "candidate_index": 1,
+      "grounding_review": {
+        "claim_id": "C2",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "The essay uses a mix of simple, compound, and complex sentences, and there are occasional errors in sentence formation, particularly in more complex sentences, which aligns with the evaluation.",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      "eligible_for_integration": true,
+      "effective_evidence_ids": [
+        "1868:1@U001",
+        "1868:1@U002",
+        "1868:1@U003",
+        "1868:1@U004",
+        "1868:1@U005",
+        "1868:1@U006",
+        "1868:1@U007",
+        "1868:1@U008",
+        "1868:1@U009",
+        "1868:1@U010",
+        "1868:1@U011",
+        "1868:1@U012",
+        "1868:1@U013",
+        "1868:1@U014",
+        "1868:1@U015",
+        "1868:1@U016",
+        "1868:1@U017",
+        "1868:1@U018",
+        "1868:1@U019",
+        "1868:1@U020",
+        "1868:1@U021",
+        "1868:1@U022",
+        "1868:1@U023",
+        "1868:1@U024",
+        "1868:1@U025",
+        "1868:1@U026",
+        "1868:1@U027",
+        "1868:1@U028",
+        "1868:1@U029",
+        "1868:1@U030",
+        "1868:1@U031",
+        "1868:1@U032",
+        "1868:1@U033",
+        "1868:1@U034",
+        "1868:1@U035",
+        "1868:1@U036",
+        "1868:1@U037",
+        "1868:1@U038",
+        "1868:1@U039",
+        "1868:1@U040"
+      ]
+    }
+  },
+  "issues": {
+    "B|three_JP1_1514:1/I1": {
+      "issue_id": "I1",
+      "claim_ids": [
+        "1514:1/K1/C2"
+      ],
+      "span_ids": [
+        "1514:1@U001",
+        "1514:1@U002",
+        "1514:1@U003",
+        "1514:1@U004",
+        "1514:1@U005",
+        "1514:1@U006",
+        "1514:1@U007",
+        "1514:1@U008",
+        "1514:1@U009",
+        "1514:1@U010",
+        "1514:1@U011",
+        "1514:1@U012",
+        "1514:1@U013",
+        "1514:1@U014",
+        "1514:1@U015",
+        "1514:1@U016",
+        "1514:1@U017",
+        "1514:1@U018",
+        "1514:1@U019"
+      ],
+      "feature_confirmed": "The essay includes a mix of simple, compound, and complex sentences.",
+      "inferred_judgment": "There are occasional errors or inappropriateness in sentence formation, particularly in more complex sentences.",
+      "condition_ids": [
+        "Syntax.S4.C01",
+        "Syntax.S4.C02"
+      ],
+      "rubric_based_proposal": "The essay demonstrates an appropriate use of a variety of syntactic structures, but there are occasional errors or inappropriateness in sentence formation, especially in more complex sentences. This aligns with the rubric for level 4 in syntax, indicating that while the range of structures is present, there are still some issues with sentence formation that need to be addressed.",
+      "agreement": "The essay's use of a variety of syntactic structures is supported by the evidence, but the presence of occasional errors in sentence formation is also noted.",
+      "review": "The essay shows a good range of syntactic structures, but there are some errors in sentence formation, particularly in more complex sentences.",
+      "unknowns": "The extent to which these errors impact the overall coherence and clarity of the text is not fully clear.",
+      "conclusion_scope": "local_only",
+      "next_action": {
+        "actor": "rater",
+        "evaluation_target": "sentence formation",
+        "distinguish": "errors in complex sentences",
+        "procedure": "focus on complex sentences",
+        "criterion_relation": "Syntax.S4.C02"
+      },
+      "id": "B|three_JP1_1514:1/I1",
+      "target_id": "1514:1",
+      "citations": [
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U001",
+          "start": 0,
+          "end": 203,
+          "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U002",
+          "start": 203,
+          "end": 317,
+          "text": "Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U003",
+          "start": 317,
+          "end": 404,
+          "text": "My brother for example wanted to be an engineer, with hard work and effort he made it. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U004",
+          "start": 404,
+          "end": 529,
+          "text": "In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U005",
+          "start": 529,
+          "end": 685,
+          "text": "\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U006",
+          "start": 685,
+          "end": 825,
+          "text": "He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U007",
+          "start": 825,
+          "end": 926,
+          "text": "Also, he took classes that would help him improve his skills and understanding of his future career. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U008",
+          "start": 926,
+          "end": 1050,
+          "text": "Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U009",
+          "start": 1050,
+          "end": 1137,
+          "text": "This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U010",
+          "start": 1137,
+          "end": 1257,
+          "text": "\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U011",
+          "start": 1257,
+          "end": 1392,
+          "text": "At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U012",
+          "start": 1392,
+          "end": 1516,
+          "text": "That was the moment when Hitler decided to do something different, and experience something new that could change his life. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U013",
+          "start": 1516,
+          "end": 1555,
+          "text": "With hard work and patience he did it. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U014",
+          "start": 1555,
+          "end": 1644,
+          "text": "Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U015",
+          "start": 1644,
+          "end": 1998,
+          "text": "\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U016",
+          "start": 1998,
+          "end": 2156,
+          "text": "You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U017",
+          "start": 2156,
+          "end": 2355,
+          "text": "\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. "
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U018",
+          "start": 2355,
+          "end": 2365,
+          "text": "You'll\r\n\r\n"
+        },
+        {
+          "essay_id": "1514:1",
+          "span_id": "1514:1@U019",
+          "start": 2365,
+          "end": 2583,
+          "text": "never know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. "
+        }
+      ],
+      "official_conditions": [
+        {
+          "condition_id": "Syntax.S4.C01",
+          "aspect": "Syntax",
+          "level": 4,
+          "text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences;",
+          "parent_id": "Syntax.S4",
+          "parent_text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+          "start": 0,
+          "end": 102,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Syntax.S4.C02",
+          "aspect": "Syntax",
+          "level": 4,
+          "text": "occasional errors or inappropriateness in sentence formation.",
+          "parent_id": "Syntax.S4",
+          "parent_text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+          "start": 103,
+          "end": 164,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        }
+      ],
+      "machine_checks": {
+        "citations_exact": true,
+        "condition_ids_exact": true,
+        "overall_score_not_determined": true
+      }
+    },
+    "B|three_JP1_1868:1/I1": {
+      "issue_id": "I1",
+      "claim_ids": [
+        "1868:1/K1/C2",
+        "1868:1/K2/C2"
+      ],
+      "span_ids": [
+        "1868:1@U001",
+        "1868:1@U002",
+        "1868:1@U003",
+        "1868:1@U004",
+        "1868:1@U005",
+        "1868:1@U006",
+        "1868:1@U007",
+        "1868:1@U008",
+        "1868:1@U009",
+        "1868:1@U010",
+        "1868:1@U011",
+        "1868:1@U012",
+        "1868:1@U013",
+        "1868:1@U014",
+        "1868:1@U015",
+        "1868:1@U016",
+        "1868:1@U017",
+        "1868:1@U018",
+        "1868:1@U019",
+        "1868:1@U020",
+        "1868:1@U021",
+        "1868:1@U022",
+        "1868:1@U023",
+        "1868:1@U024",
+        "1868:1@U025",
+        "1868:1@U026",
+        "1868:1@U027",
+        "1868:1@U028",
+        "1868:1@U029",
+        "1868:1@U030",
+        "1868:1@U031",
+        "1868:1@U032",
+        "1868:1@U033",
+        "1868:1@U034",
+        "1868:1@U035",
+        "1868:1@U036",
+        "1868:1@U037",
+        "1868:1@U038",
+        "1868:1@U039",
+        "1868:1@U040"
+      ],
+      "feature_confirmed": "The essay uses a mix of simple, compound, and complex sentences.",
+      "inferred_judgment": "There are occasional errors in sentence formation, particularly in more complex sentences.",
+      "condition_ids": [
+        "Syntax.S3.C01",
+        "Syntax.S3.C02"
+      ],
+      "rubric_based_proposal": "The essay demonstrates the use of simple, compound, and complex sentences, but there are occasional errors in sentence formation, especially in more complex sentences. This aligns with the Syntax score of 3, indicating a range of sentence structures with some errors.",
+      "agreement": "The essay's syntax aligns with the overall score of 3, showing a range of sentence structures with some errors.",
+      "review": "The essay includes simple, compound, and complex sentences, but there are some errors in sentence formation, particularly in more complex sentences.",
+      "unknowns": "The essay could benefit from more precise sentence formation to enhance clarity and coherence.",
+      "conclusion_scope": "local_only",
+      "next_action": {
+        "actor": "rater",
+        "evaluation_target": "Syntax",
+        "distinguish": "errors in sentence formation, especially in more complex sentences",
+        "procedure": "Review the essay for sentence structure errors, focusing on complex sentences.",
+        "criterion_relation": "Syntax.S3.C01, Syntax.S3.C02"
+      },
+      "id": "B|three_JP1_1868:1/I1",
+      "target_id": "1868:1",
+      "citations": [
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U001",
+          "start": 0,
+          "end": 78,
+          "text": "The main piece to improve your skills is during the process of keep learning. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U002",
+          "start": 78,
+          "end": 238,
+          "text": "Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U003",
+          "start": 238,
+          "end": 368,
+          "text": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U004",
+          "start": 368,
+          "end": 611,
+          "text": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U005",
+          "start": 611,
+          "end": 767,
+          "text": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U006",
+          "start": 767,
+          "end": 882,
+          "text": "\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U007",
+          "start": 882,
+          "end": 1043,
+          "text": "Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U008",
+          "start": 1043,
+          "end": 1173,
+          "text": "Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U009",
+          "start": 1173,
+          "end": 1269,
+          "text": "The process of being a mother for the first time, does not end when you give birth to the baby. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U010",
+          "start": 1269,
+          "end": 1426,
+          "text": "There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U011",
+          "start": 1426,
+          "end": 1666,
+          "text": "\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U012",
+          "start": 1666,
+          "end": 1747,
+          "text": "Even adult mothers have said that they keep learning how to be mother everyday.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U013",
+          "start": 1747,
+          "end": 1968,
+          "text": "\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U014",
+          "start": 1968,
+          "end": 2009,
+          "text": "it would be necessary those extra years. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U015",
+          "start": 2009,
+          "end": 2205,
+          "text": "The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U016",
+          "start": 2205,
+          "end": 2317,
+          "text": "The years where you have been taking classes that does not look that t would help you in the future in any way. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U017",
+          "start": 2317,
+          "end": 2479,
+          "text": "They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U018",
+          "start": 2479,
+          "end": 2736,
+          "text": "Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U019",
+          "start": 2736,
+          "end": 2784,
+          "text": "After you have got the extra years, does not\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U020",
+          "start": 2784,
+          "end": 3019,
+          "text": "mean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U021",
+          "start": 3019,
+          "end": 3102,
+          "text": "\r\nGoing beyond your expectations as a person would bring you benefit to your life. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U022",
+          "start": 3102,
+          "end": 3223,
+          "text": "If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U023",
+          "start": 3223,
+          "end": 3451,
+          "text": "If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U024",
+          "start": 3451,
+          "end": 3491,
+          "text": "lead yourself to become another worker. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U025",
+          "start": 3491,
+          "end": 3591,
+          "text": "Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U026",
+          "start": 3591,
+          "end": 3842,
+          "text": "You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U027",
+          "start": 3842,
+          "end": 4032,
+          "text": "In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U028",
+          "start": 4032,
+          "end": 4128,
+          "text": "Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U029",
+          "start": 4128,
+          "end": 4272,
+          "text": "\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U030",
+          "start": 4272,
+          "end": 4305,
+          "text": "If you do not try nothing new\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U031",
+          "start": 4305,
+          "end": 4312,
+          "text": "and\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U032",
+          "start": 4312,
+          "end": 4358,
+          "text": "do not applied on your daily, do no expect\r\n\r\n"
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U033",
+          "start": 4358,
+          "end": 4392,
+          "text": "to become successful as a person. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U034",
+          "start": 4392,
+          "end": 4669,
+          "text": "You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U035",
+          "start": 4669,
+          "end": 4824,
+          "text": "The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U036",
+          "start": 4824,
+          "end": 4953,
+          "text": "People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U037",
+          "start": 4953,
+          "end": 5032,
+          "text": "You should not let yourself be the obstacle to keep learning new things to do. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U038",
+          "start": 5032,
+          "end": 5167,
+          "text": "If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U039",
+          "start": 5167,
+          "end": 5378,
+          "text": "Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. "
+        },
+        {
+          "essay_id": "1868:1",
+          "span_id": "1868:1@U040",
+          "start": 5378,
+          "end": 5509,
+          "text": "Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping."
+        }
+      ],
+      "official_conditions": [
+        {
+          "condition_id": "Syntax.S3.C01",
+          "aspect": "Syntax",
+          "level": 3,
+          "text": "Simple, compound, and complex syntactic structures present although the range may be limited;",
+          "parent_id": "Syntax.S3",
+          "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+          "start": 0,
+          "end": 93,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Syntax.S3.C02",
+          "aspect": "Syntax",
+          "level": 3,
+          "text": "some apparent errors in sentence formation, especially in more complex sentences.",
+          "parent_id": "Syntax.S3",
+          "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+          "start": 94,
+          "end": 175,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        }
+      ],
+      "machine_checks": {
+        "citations_exact": true,
+        "condition_ids_exact": true,
+        "overall_score_not_determined": true
+      }
+    },
+    "B|three_JP1_4902:1/I1": {
+      "issue_id": "I1",
+      "claim_ids": [
+        "4902:1/K1/C2",
+        "4902:1/K2/C2"
+      ],
+      "span_ids": [
+        "4902:1@U001",
+        "4902:1@U002",
+        "4902:1@U003",
+        "4902:1@U004",
+        "4902:1@U005",
+        "4902:1@U006",
+        "4902:1@U007",
+        "4902:1@U008",
+        "4902:1@U009",
+        "4902:1@U010",
+        "4902:1@U011",
+        "4902:1@U012"
+      ],
+      "feature_confirmed": "The essay includes simple, compound, and complex sentences, but there are some apparent errors in sentence formation.",
+      "inferred_judgment": "The syntax is generally controlled, but there are some apparent errors in sentence formation.",
+      "condition_ids": [
+        "Syntax.S3.C01",
+        "Syntax.S3.C02"
+      ],
+      "rubric_based_proposal": "The essay demonstrates the presence of simple, compound, and complex sentences, which aligns with the Syntax level 3 criteria. However, the occasional errors in sentence formation, particularly in more complex sentences, indicate that the essay does not fully meet the criteria for a higher level. These errors do not significantly affect other traits but suggest a need for improvement in sentence structure.",
+      "agreement": "The essay's syntax score of 3 is consistent with the presence of occasional errors in sentence formation.",
+      "review": "The essay could benefit from more precise control over complex sentence structures to enhance clarity.",
+      "unknowns": "The impact of occasional errors on the overall score is not fully clear.",
+      "conclusion_scope": "local_only",
+      "next_action": {
+        "actor": "rater",
+        "evaluation_target": "sentence formation",
+        "distinguish": "errors in complex sentences",
+        "procedure": "focus on sentence structure",
+        "criterion_relation": "evaluate against Syntax level 3 criteria"
+      },
+      "id": "B|three_JP1_4902:1/I1",
+      "target_id": "4902:1",
+      "citations": [
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U001",
+          "start": 0,
+          "end": 307,
+          "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U002",
+          "start": 307,
+          "end": 491,
+          "text": "Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U003",
+          "start": 491,
+          "end": 618,
+          "text": "\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U004",
+          "start": 618,
+          "end": 655,
+          "text": "but Why be basic like everyone else. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U005",
+          "start": 655,
+          "end": 721,
+          "text": "Don't you want to be different from everybody else in the world?? "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U006",
+          "start": 721,
+          "end": 783,
+          "text": "Acting or pretending just so you can fit in with your friend. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U007",
+          "start": 783,
+          "end": 864,
+          "text": "friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U008",
+          "start": 864,
+          "end": 1039,
+          "text": "\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U009",
+          "start": 1039,
+          "end": 1132,
+          "text": "if i want to accomplish something i need to be like everyone and follow what they are doing. "
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U010",
+          "start": 1132,
+          "end": 1286,
+          "text": "Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U011",
+          "start": 1286,
+          "end": 1307,
+          "text": "\r\nin conucluesion\r\n\r\n"
+        },
+        {
+          "essay_id": "4902:1",
+          "span_id": "4902:1@U012",
+          "start": 1307,
+          "end": 1442,
+          "text": "its all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+        }
+      ],
+      "official_conditions": [
+        {
+          "condition_id": "Syntax.S3.C01",
+          "aspect": "Syntax",
+          "level": 3,
+          "text": "Simple, compound, and complex syntactic structures present although the range may be limited;",
+          "parent_id": "Syntax.S3",
+          "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+          "start": 0,
+          "end": 93,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        },
+        {
+          "condition_id": "Syntax.S3.C02",
+          "aspect": "Syntax",
+          "level": 3,
+          "text": "some apparent errors in sentence formation, especially in more complex sentences.",
+          "parent_id": "Syntax.S3",
+          "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+          "start": 94,
+          "end": 175,
+          "source": "rubrics/ellipse_rubric_structured.json",
+          "role": "auxiliary analytic criterion"
+        }
+      ],
+      "machine_checks": {
+        "citations_exact": true,
+        "condition_ids_exact": true,
+        "overall_score_not_determined": true
+      }
+    }
+  },
+  "conditions": {
+    "Syntax.S4.C01": {
+      "condition_id": "Syntax.S4.C01",
+      "aspect": "Syntax",
+      "level": 4,
+      "text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences;",
+      "parent_id": "Syntax.S4",
+      "parent_text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+      "start": 0,
+      "end": 102,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Syntax.S4.C02": {
+      "condition_id": "Syntax.S4.C02",
+      "aspect": "Syntax",
+      "level": 4,
+      "text": "occasional errors or inappropriateness in sentence formation.",
+      "parent_id": "Syntax.S4",
+      "parent_text": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+      "start": 103,
+      "end": 164,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Syntax.S3.C01": {
+      "condition_id": "Syntax.S3.C01",
+      "aspect": "Syntax",
+      "level": 3,
+      "text": "Simple, compound, and complex syntactic structures present although the range may be limited;",
+      "parent_id": "Syntax.S3",
+      "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+      "start": 0,
+      "end": 93,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    },
+    "Syntax.S3.C02": {
+      "condition_id": "Syntax.S3.C02",
+      "aspect": "Syntax",
+      "level": 3,
+      "text": "some apparent errors in sentence formation, especially in more complex sentences.",
+      "parent_id": "Syntax.S3",
+      "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+      "start": 94,
+      "end": 175,
+      "source": "rubrics/ellipse_rubric_structured.json",
+      "role": "auxiliary analytic criterion"
+    }
+  }
+}

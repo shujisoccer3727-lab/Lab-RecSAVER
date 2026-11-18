@@ -1,0 +1,177 @@
+{
+  "fingerprint": "7f80a286402976b063d47287bc9476cb700312f7b317417b11d37c260ce57a66",
+  "result": {
+    "rationale": "このエッセイは、文法と構成が適切で、語彙と表現も広範囲にわたる。しかし、文章のつながりが十分でないため、全体的な評価が4点とされている。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8538:1",
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "feature": "文章のつながりが不足している",
+        "span_ids": [
+          "8538:1@U001",
+          "8538:1@U002"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Cohesion.S4.C01",
+          "Cohesion.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "最初の2つの文は、アイデアのつながりが不明瞭",
+        "limits": "全体のつながりが不明瞭であるため、他の部分も同様の問題がある可能性がある",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U001",
+            "start": 0,
+            "end": 91,
+            "text": "I agree with John Lubbock's idea,that your character is build by you and your decisions\r\n\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U002",
+            "start": 91,
+            "end": 134,
+            "text": "that you take during your life, because\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8538:1",
+        "aspect": "Syntax",
+        "kind": "presence",
+        "feature": "適切な文法構造が使用されている",
+        "span_ids": [
+          "8538:1@U003",
+          "8538:1@U004"
+        ],
+        "direction": "positive",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Syntax.S4.C01",
+          "Syntax.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文が適切に使用されている",
+        "limits": "一部の文は誤用がある可能性がある",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U003",
+            "start": 134,
+            "end": 228,
+            "text": "people may told to be and act a certain way but at the end is your decision to do so or not.\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U004",
+            "start": 228,
+            "end": 488,
+            "text": "\r\nOne example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8538:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "広範囲な語彙が使用されている",
+        "span_ids": [
+          "8538:1@U005",
+          "8538:1@U006"
+        ],
+        "direction": "positive",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Vocabulary.S4.C01",
+          "Vocabulary.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "適切な語彙が使用されている",
+        "limits": "一部の語彙が誤用されている可能性がある",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U005",
+            "start": 488,
+            "end": 657,
+            "text": "those kids have been thought all those values during their childhood and some of them still grow up to be such jerks because they decided to ignore those values that\r\n\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U006",
+            "start": 657,
+            "end": 695,
+            "text": "their parents try so hard to teach\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8538:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "文法の誤りが見られる",
+        "span_ids": [
+          "8538:1@U007",
+          "8538:1@U008"
+        ],
+        "direction": "negative",
+        "score_relation": "観測評価と一致",
+        "condition_ids": [
+          "Grammar.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法の誤りが存在する",
+        "limits": "誤りの頻度が不明瞭",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U007",
+            "start": 695,
+            "end": 701,
+            "text": "them. "
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U008",
+            "start": 701,
+            "end": 786,
+            "text": "Another example will be of someone that was raises surrounded by a very christian\r\n\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "全体的な評価が4点である理由は、文法と構成が適切であるが、文章のつながりが不足しているため。"
+  },
+  "timestamp": "2026-11-15T19:32:45.069315+09:00"
+}

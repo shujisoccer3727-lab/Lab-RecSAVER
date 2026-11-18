@@ -1,0 +1,118 @@
+{
+  "candidate_key": "B|7817:1|K1",
+  "masked_reason": {
+    "rationale": "本文は技術の利点と欠点について述べており、全体的な組織と文法は適切だが、文法と構文に時折誤りがある。単純な文と複雑な文の組み合わせは適切だが、一部の文は形成に問題がある。単語の選択は適切だが、より高度な単語やフレーズの使用は限定的である。",
+    "unexplained": "文法と構文の誤りが全体的な評価にどのように影響したかは不明。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "span_ids": [
+          "7817:1@U001",
+          "7817:1@U002",
+          "7817:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "適切な組織と文法",
+        "score_relation": "一致",
+        "support_explanation": "全体的な組織と文法は適切に保たれている。",
+        "limits": "一部の文法誤りがある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "span_ids": [
+          "7817:1@U004",
+          "7817:1@U005",
+          "7817:1@U006"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "文の形成に問題がある",
+        "score_relation": "一致",
+        "support_explanation": "複雑な文の形成に問題がある。",
+        "limits": "単純な文は適切に形成されている。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "span_ids": [
+          "7817:1@U007",
+          "7817:1@U008",
+          "7817:1@U009"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "mixed",
+        "feature": "単語の選択は適切だが、高度な単語の使用は限定的",
+        "score_relation": "一致",
+        "support_explanation": "単語の選択は適切だが、高度な単語の使用は限定的。",
+        "limits": "一部の単語は適切に使用されている。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "7817:1",
+        "span_ids": [
+          "7817:1@U010",
+          "7817:1@U011",
+          "7817:1@U012"
+        ],
+        "aspect": "Phraseology",
+        "kind": "appropriateness",
+        "direction": "negative",
+        "feature": "フレーズの使用に誤りがある",
+        "score_relation": "一致",
+        "support_explanation": "フレーズの使用に誤りがある。",
+        "limits": "一部のフレーズは適切に使用されている。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C02",
+        "Grammar.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S4.C01",
+        "Vocabulary.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Phraseology.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

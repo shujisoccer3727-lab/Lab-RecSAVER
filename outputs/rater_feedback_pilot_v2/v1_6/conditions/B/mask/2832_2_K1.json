@@ -1,0 +1,121 @@
+{
+  "candidate_key": "B|2832:2|K1",
+  "masked_reason": {
+    "rationale": "文章展示了对主题的理解，但存在一些语法错误和词汇使用不当，影响了整体表达的流畅性和准确性。",
+    "unexplained": "文章中存在一些表达不清晰的地方，可能影响整体理解。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "span_ids": [
+          "2832:2@U001",
+          "2832:2@U002",
+          "2832:2@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文章展示了对主题的理解，但存在一些语法错误和词汇使用不当，影响了整体表达的流畅性和准确性。",
+        "score_relation": "部分符合",
+        "support_explanation": "文章内容展示了对主题的理解，但存在语法错误和词汇使用不当。",
+        "limits": "个别句子的语法错误可能影响整体理解。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "span_ids": [
+          "2832:2@U004",
+          "2832:2@U005",
+          "2832:2@U006"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "存在一些语法错误，如时态不一致和主谓不一致。",
+        "score_relation": "部分符合",
+        "support_explanation": "文章中存在一些语法错误，影响了表达的准确性。",
+        "limits": "个别语法错误可能影响整体理解。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "span_ids": [
+          "2832:2@U007",
+          "2832:2@U008",
+          "2832:2@U009"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "词汇使用较为有限，尝试使用一些较复杂的词汇但存在一些错误。",
+        "score_relation": "部分符合",
+        "support_explanation": "文章中词汇使用较为有限，尝试使用一些较复杂的词汇但存在一些错误。",
+        "limits": "词汇使用有限可能影响表达的丰富性。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2832:2",
+        "span_ids": [
+          "2832:2@U010",
+          "2832:2@U011",
+          "2832:2@U012"
+        ],
+        "aspect": "Conventions",
+        "kind": "appropriateness",
+        "direction": "negative",
+        "feature": "拼写和标点符号错误较少，但存在一些。",
+        "score_relation": "部分符合",
+        "support_explanation": "文章中拼写和标点符号错误较少，但存在一些。",
+        "limits": "拼写和标点符号错误可能影响整体表达的准确性。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C01",
+        "Overall.S3.C02",
+        "Overall.S3.C03"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C01",
+        "Vocabulary.S3.C02",
+        "Vocabulary.S3.C03"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Conventions.S3.C01",
+        "Conventions.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

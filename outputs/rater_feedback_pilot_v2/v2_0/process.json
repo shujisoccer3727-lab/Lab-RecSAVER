@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-11-16T16:14:48.194858+09:00",
+  "pid": 386146,
+  "scope": "one",
+  "log": "outputs/rater_feedback_pilot_v2/v2_0/one_attempt_02.log",
+  "command": [
+    "/home/guestuser/miniforge3/envs/qwen3/bin/python",
+    "-m",
+    "src.recsaver.rater_feedback_development",
+    "one"
+  ]
+}

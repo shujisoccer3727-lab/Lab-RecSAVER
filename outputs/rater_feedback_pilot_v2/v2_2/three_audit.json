@@ -1,0 +1,148 @@
+{
+  "timestamp": "2026-11-16T19:32:22.042035+09:00",
+  "scope": "three",
+  "all_reference_checks_passed": true,
+  "model_sampling_seed_retry_budget_preserved": true,
+  "old_outputs_and_frozen_sources_unchanged": true,
+  "reused_success_cache_records_unchanged": 18,
+  "duplicate_successful_candidate_generations": 0,
+  "verification_payloads_checked": 6,
+  "direct_score_leaks": 0,
+  "generated_success": 6,
+  "generated_failures": 0,
+  "verification_success": 6,
+  "score_matches": 6,
+  "ground_counts": {
+    "supported": 20,
+    "insufficient": 4
+  },
+  "integration_succeeded": true,
+  "evidence_eligible_unique_targets": 3,
+  "exact_comparison_citations": 71,
+  "final_sentences": 7,
+  "context_overflows": [],
+  "terminal_caches_including_one_trial": {
+    "generate": {
+      "saved": 6,
+      "success": 6,
+      "failed": 0
+    },
+    "verify": {
+      "saved": 6,
+      "success": 6,
+      "failed": 0
+    },
+    "ground": {
+      "saved": 6,
+      "success": 6,
+      "failed": 0
+    },
+    "merge": {
+      "saved": 3,
+      "success": 3,
+      "failed": 0
+    },
+    "integrate": {
+      "saved": 1,
+      "success": 1,
+      "failed": 0
+    },
+    "compare": {
+      "saved": 3,
+      "success": 3,
+      "failed": 0
+    },
+    "text": {
+      "saved": 1,
+      "success": 1,
+      "failed": 0
+    }
+  },
+  "candidates": [
+    {
+      "candidate_key": "B|1514:1|K1",
+      "generated": true,
+      "score_match": true,
+      "predicted_overall": 3,
+      "grounding_success": true,
+      "eligible_claim_ids": [
+        "1514:1/K1/C1",
+        "1514:1/K1/C2",
+        "1514:1/K1/C3",
+        "1514:1/K1/C4"
+      ]
+    },
+    {
+      "candidate_key": "B|1514:1|K2",
+      "generated": true,
+      "score_match": true,
+      "predicted_overall": 3,
+      "grounding_success": true,
+      "eligible_claim_ids": []
+    },
+    {
+      "candidate_key": "B|1868:1|K1",
+      "generated": true,
+      "score_match": true,
+      "predicted_overall": 3,
+      "grounding_success": true,
+      "eligible_claim_ids": [
+        "1868:1/K1/C1",
+        "1868:1/K1/C2",
+        "1868:1/K1/C3",
+        "1868:1/K1/C4"
+      ]
+    },
+    {
+      "candidate_key": "B|1868:1|K2",
+      "generated": true,
+      "score_match": true,
+      "predicted_overall": 3,
+      "grounding_success": true,
+      "eligible_claim_ids": [
+        "1868:1/K2/C1",
+        "1868:1/K2/C2",
+        "1868:1/K2/C3",
+        "1868:1/K2/C4"
+      ]
+    },
+    {
+      "candidate_key": "B|4902:1|K1",
+      "generated": true,
+      "score_match": true,
+      "predicted_overall": 3,
+      "grounding_success": true,
+      "eligible_claim_ids": [
+        "4902:1/K1/C1",
+        "4902:1/K1/C2",
+        "4902:1/K1/C3",
+        "4902:1/K1/C4"
+      ]
+    },
+    {
+      "candidate_key": "B|4902:1|K2",
+      "generated": true,
+      "score_match": true,
+      "predicted_overall": 3,
+      "grounding_success": true,
+      "eligible_claim_ids": [
+        "4902:1/K2/C1",
+        "4902:1/K2/C2",
+        "4902:1/K2/C3",
+        "4902:1/K2/C4"
+      ]
+    }
+  ],
+  "free_text_quote_flags": [],
+  "lossless_downstream_payloads_checked": [
+    "stage_inputs_expanded/compare/B__three_JP1_1514_1.json",
+    "stage_inputs_expanded/compare/B__three_JP1_1868_1.json",
+    "stage_inputs_expanded/compare/B__three_JP1_4902_1.json",
+    "stage_inputs_expanded/integrate/B__three_rater_7.json",
+    "stage_inputs_expanded/merge/B__1514_1.json",
+    "stage_inputs_expanded/merge/B__1868_1.json",
+    "stage_inputs_expanded/merge/B__4902_1.json",
+    "stage_inputs_expanded/text/B__three_JP1.json"
+  ],
+  "limitation": "Reference and literal checks only; semantic support, usefulness and true rater thought are not established."
+}

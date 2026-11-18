@@ -1,0 +1,48 @@
+{
+  "fingerprint": "472e3c75b8301870c593794c42190a731c2045ad879eb23924b7cc56b66096be",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "本文は、エッセイが接続詞や移行語を使用しているが、それらの使用が繰り返し的で機械的であることを示している。また、アイデア間のつながりが時折欠如していることも確認できる。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "エッセイは単純、複合、複雑な文を含むが、複雑な文の形成に時折問題があることを示している。これは、文法構造の範囲が存在するが、複雑な文の形成に問題があることを反映している。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "エッセイはトピックに適切な語彙範囲を使用しているが、より一般的でない語彙を使用する試みがある一方で、その使用に時折不正確さがあることを示している。これは、語彙が意図された意味を伝えるのに十分であるが、語彙使用に時折不正確さがあることを反映している。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "verdict": "supported",
+        "atomic": true,
+        "feature_supported": true,
+        "evaluation_supported": true,
+        "explanation": "エッセイは文法と使用の誤りを含むが、それらがコミュニケーションを著しく妨げないことを示している。これは、文法と使用の誤りが存在するが、それらがコミュニケーションを著しく妨げないことを反映している。",
+        "added_span_ids": [],
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-16T19:19:21.879374+09:00"
+}

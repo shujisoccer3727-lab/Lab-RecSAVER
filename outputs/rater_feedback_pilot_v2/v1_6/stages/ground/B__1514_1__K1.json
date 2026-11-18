@@ -1,0 +1,35 @@
+{
+  "fingerprint": "b02fb2edf7e43a20d462df69d1ae8be54fce9198c62927d22451f498ac9c7058",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文章の組織と文法は比較的良好で、全体的な流れは理解しやすい。ただし、文法構造の多様性が不足している可能性がある。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "語彙の使用に若干の問題があり、正確さに欠ける部分がある。しかし、全体的な意味伝達に影響は少ない。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "文法の正確性に若干の問題があり、誤りが見られる。誤りが頻繁ではないが、正確さに影響する可能性がある。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "複雑な文法構造の使用は限られており、文の多様性に欠ける。ただし、全体的な意味伝達に影響は少ない。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T18:30:50.800138+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_5/stages/ground/B__1514_1__K1.json",
+  "source_fingerprint": "bb5a6123156fff9d9383f32ceb6bd86d83a9d6dc051cb1e9d77f11df19407c05",
+  "reuse_recorded_at": "2026-11-15T19:01:10.714398+09:00"
+}

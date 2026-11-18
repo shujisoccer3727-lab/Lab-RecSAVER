@@ -1,0 +1,117 @@
+{
+  "candidate_key": "B|7418:2|K2",
+  "masked_reason": {
+    "rationale": "この文章は、ブラジルを訪れる理由についての明確な主張があり、文法と構文が正確で、適切な語彙とフレーズが使用されている。しかし、文章のつながりや展開に一貫性が不足している可能性がある。",
+    "unexplained": "全体のつながりや展開の一部が不明瞭な可能性があるため、評価が完全に説明できない点がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "span_ids": [
+          "7418:2@U003",
+          "7418:2@U006",
+          "7418:2@U011"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "明確な主張と適切な語彙",
+        "score_relation": "評価に一致",
+        "support_explanation": "ブラジルを訪れる理由について具体的な主張があり、適切な語彙が使用されている。",
+        "limits": "全体のつながりや展開の一部が不明瞭な可能性がある。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "span_ids": [
+          "7418:2@U005",
+          "7418:2@U010",
+          "7418:2@U015"
+        ],
+        "aspect": "Cohesion",
+        "kind": "communication",
+        "direction": "negative",
+        "feature": "文章のつながりの不足",
+        "score_relation": "評価に一致",
+        "support_explanation": "一部の文章のつながりが不明瞭で、全体の展開が一貫していない可能性がある。",
+        "limits": "全体のつながりが一貫している部分もあるため、評価は限定的。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "span_ids": [
+          "7418:2@U006",
+          "7418:2@U011",
+          "7418:2@U016"
+        ],
+        "aspect": "Syntax",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "適切な文法と構文",
+        "score_relation": "評価に一致",
+        "support_explanation": "複雑な文法構造が適切に使用されている。",
+        "limits": "一部の文法構造が単純な可能性がある。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "span_ids": [
+          "7418:2@U006",
+          "7418:2@U011",
+          "7418:2@U016"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "positive",
+        "feature": "適切な語彙の使用",
+        "score_relation": "評価に一致",
+        "support_explanation": "適切な語彙が使用され、文章の意味が明確に伝わる。",
+        "limits": "語彙の範囲が広くない可能性がある。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C01",
+        "Overall.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Cohesion.S4.C03"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Syntax.S5.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Vocabulary.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

@@ -1,0 +1,419 @@
+{
+  "fingerprint": "ba5fc5ecb9e69abdb9d0662b4cbc425e9d0a6a6308b56a58225498a23dd16abb",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "5268:1/K1/C1",
+          "5268:1/K1/C2",
+          "5268:1/K1/C3",
+          "5268:1/K1/C4"
+        ],
+        "span_ids": [
+          "5268:1@U001",
+          "5268:1@U002",
+          "5268:1@U003",
+          "5268:1@U004",
+          "5268:1@U005"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "5268:1@U001",
+            "tokens": [
+              "Ever",
+              "since",
+              "we",
+              "were",
+              "kids",
+              "started",
+              "choosing",
+              "our",
+              "own",
+              "character",
+              "traits"
+            ],
+            "relation": "time sequence",
+            "interpretation": "「Ever since we were kids」は時間の流れを示す表現で、その後の「started choosing our own character traits」は、子供時代から性格特性を選択し始めるという意味を明確に示している。しかし、「Ever since」の後に「,」が入っているのは不適切。",
+            "token_positions": [
+              {
+                "token": "Ever",
+                "start": 0,
+                "end": 4
+              },
+              {
+                "token": "since",
+                "start": 5,
+                "end": 10
+              },
+              {
+                "token": "we",
+                "start": 12,
+                "end": 14
+              },
+              {
+                "token": "we",
+                "start": 25,
+                "end": 27
+              },
+              {
+                "token": "were",
+                "start": 15,
+                "end": 19
+              },
+              {
+                "token": "kids",
+                "start": 20,
+                "end": 24
+              },
+              {
+                "token": "started",
+                "start": 28,
+                "end": 35
+              },
+              {
+                "token": "choosing",
+                "start": 36,
+                "end": 44
+              },
+              {
+                "token": "our",
+                "start": 45,
+                "end": 48
+              },
+              {
+                "token": "own",
+                "start": 49,
+                "end": 52
+              },
+              {
+                "token": "character",
+                "start": 53,
+                "end": 62
+              },
+              {
+                "token": "traits",
+                "start": 63,
+                "end": 69
+              }
+            ]
+          },
+          {
+            "span_id": "5268:1@U005",
+            "tokens": [
+              "we",
+              "decide",
+              "if",
+              "we",
+              "want",
+              "to",
+              "be",
+              "happy",
+              "or",
+              "sad",
+              "making",
+              "good",
+              "and",
+              "bad",
+              "decisions",
+              "all",
+              "those",
+              "are",
+              "character",
+              "traits",
+              "that",
+              "we",
+              "choose",
+              "with",
+              "our",
+              "minds"
+            ],
+            "relation": "conditional",
+            "interpretation": "「we decide if we want to be happy or sad」は条件を示す表現で、「making good and bad decisions」はその結果を示している。しかし、「or sad」の後に「,」が入っているのは不適切。",
+            "token_positions": [
+              {
+                "token": "we",
+                "start": 303,
+                "end": 305
+              },
+              {
+                "token": "we",
+                "start": 316,
+                "end": 318
+              },
+              {
+                "token": "we",
+                "start": 409,
+                "end": 411
+              },
+              {
+                "token": "decide",
+                "start": 306,
+                "end": 312
+              },
+              {
+                "token": "if",
+                "start": 313,
+                "end": 315
+              },
+              {
+                "token": "we",
+                "start": 303,
+                "end": 305
+              },
+              {
+                "token": "we",
+                "start": 316,
+                "end": 318
+              },
+              {
+                "token": "we",
+                "start": 409,
+                "end": 411
+              },
+              {
+                "token": "want",
+                "start": 319,
+                "end": 323
+              },
+              {
+                "token": "to",
+                "start": 324,
+                "end": 326
+              },
+              {
+                "token": "be",
+                "start": 327,
+                "end": 329
+              },
+              {
+                "token": "happy",
+                "start": 330,
+                "end": 335
+              },
+              {
+                "token": "or",
+                "start": 336,
+                "end": 338
+              },
+              {
+                "token": "sad",
+                "start": 339,
+                "end": 342
+              },
+              {
+                "token": "making",
+                "start": 343,
+                "end": 349
+              },
+              {
+                "token": "good",
+                "start": 350,
+                "end": 354
+              },
+              {
+                "token": "and",
+                "start": 355,
+                "end": 358
+              },
+              {
+                "token": "bad",
+                "start": 359,
+                "end": 362
+              },
+              {
+                "token": "decisions",
+                "start": 363,
+                "end": 372
+              },
+              {
+                "token": "all",
+                "start": 373,
+                "end": 376
+              },
+              {
+                "token": "those",
+                "start": 377,
+                "end": 382
+              },
+              {
+                "token": "are",
+                "start": 383,
+                "end": 386
+              },
+              {
+                "token": "character",
+                "start": 387,
+                "end": 396
+              },
+              {
+                "token": "traits",
+                "start": 397,
+                "end": 403
+              },
+              {
+                "token": "that",
+                "start": 404,
+                "end": 408
+              },
+              {
+                "token": "we",
+                "start": 303,
+                "end": 305
+              },
+              {
+                "token": "we",
+                "start": 316,
+                "end": 318
+              },
+              {
+                "token": "we",
+                "start": 409,
+                "end": 411
+              },
+              {
+                "token": "choose",
+                "start": 412,
+                "end": 418
+              },
+              {
+                "token": "with",
+                "start": 419,
+                "end": 423
+              },
+              {
+                "token": "our",
+                "start": 424,
+                "end": 427
+              },
+              {
+                "token": "minds",
+                "start": 428,
+                "end": 433
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Overall.S3.C02",
+          "Grammar.S3.C01",
+          "Vocabulary.S3.C01",
+          "Conventions.S3.C01"
+        ],
+        "feature_confirmed": "文章は全体的に組織が保たれており、各段落が論点を明確に示しているが、一部の段落間のつながりが弱い可能性がある。文法と語彙の誤りが見られ、特に複雑な文で頻繁に発生する。",
+        "inferred_judgment": "文章は全体的に論理的に展開されているが、複雑な文法構造の誤りや単語の選択が時折正確でない。全体的なコミュニケーションは、言語の不正確さにより一部阻害される。",
+        "rubric_based_proposal": "Overall.S3.C02, Grammar.S3.C01, Vocabulary.S3.C01, Conventions.S3.C01の条件を満たしている。文章は全体的に組織が保たれており、各段落が論点を明確に示しているが、文法と語彙の誤りが見られ、特に複雑な文で頻繁に発生する。",
+        "agreement_review_unknown": "一部の段落間のつながりが弱い可能性がある。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "5268:1@U001",
+              "5268:1@U005"
+            ],
+            "finding": "「Ever since」の後に「,」が入っているのは不適切。また、「or sad」の後に「,」が入っているのも不適切。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "「Ever since」の後に「,」が入っていることと、「or sad」の後に「,」が入っていることの区別",
+          "where_span_ids": [
+            "5268:1@U001",
+            "5268:1@U005"
+          ],
+          "action": "「Ever since」の後に「,」が入っている箇所と、「or sad」の後に「,」が入っている箇所を確認し、それぞれの文脈における適切性を評価する。",
+          "reason": "これらの誤りはコミュニケーションに影響を及ぼす可能性があるため、具体的な文脈における適切性を確認する必要がある。"
+        },
+        "scope_limit": "一部の段落間のつながりが弱い可能性がある。",
+        "citations": [
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U001",
+            "start": 0,
+            "end": 71,
+            "text": "Ever since, we were kids we started choosing our own character traits. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U002",
+            "start": 71,
+            "end": 176,
+            "text": "it can be good or bad based of the environment we live in, how we were raised, and personal experiences. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U003",
+            "start": 176,
+            "end": 275,
+            "text": "But we can always change our character traits, it's similar to an opinion on something or someone. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U004",
+            "start": 275,
+            "end": 303,
+            "text": "We choose who influence us. "
+          },
+          {
+            "essay_id": "5268:1",
+            "span_id": "5268:1@U005",
+            "start": 303,
+            "end": 436,
+            "text": "we decide if we want to be happy or sad,making good and bad decisions all those are character traits that we choose with our minds.\r\n"
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Overall.S3.C02",
+            "aspect": "Overall",
+            "level": 3,
+            "text": "organization generally controlled although connection sometimes absent or unsuccessful;",
+            "parent_id": "Overall.S3",
+            "parent_text": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+            "start": 73,
+            "end": 160,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "primary"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C01",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "Minimally adequate range of vocabulary for the topic;",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 0,
+            "end": 53,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S3.C01",
+            "aspect": "Conventions",
+            "level": 3,
+            "text": "Developing use of conventions to convey meaning;",
+            "parent_id": "Conventions.S3",
+            "parent_text": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+            "start": 0,
+            "end": 48,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:16:44.559366+09:00"
+}

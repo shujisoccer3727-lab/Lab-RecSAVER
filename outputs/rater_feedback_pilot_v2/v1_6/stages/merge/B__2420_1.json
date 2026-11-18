@@ -1,0 +1,77 @@
+{
+  "fingerprint": "248b6343295b2cc2df6d37e2d5f33ba8ab40560a2558395565ea5f03096435f3",
+  "result": {
+    "groups": [
+      {
+        "summary": "文章は全体的に組織化されているが、文法や構文の誤りが見られる。",
+        "claim_ids": [
+          "2420:1/K1/C1",
+          "2420:1/K2/C1"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "表現の繰り返しが見られる。",
+        "claim_ids": [
+          "2420:1/K1/C2",
+          "2420:1/K2/C2"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "複雑な文の形成に困難がある。",
+        "claim_ids": [
+          "2420:1/K1/C3",
+          "2420:1/K2/C3"
+        ],
+        "candidate_count": 2
+      },
+      {
+        "summary": "トピックに関連する単語やフレーズが使用されている。",
+        "claim_ids": [
+          "2420:1/K1/C4"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "summary": "文法の誤りが見られる。",
+        "claim_ids": [
+          "2420:1/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "differences": [
+      {
+        "description": "文法や構文の誤りがいくつか見られる。",
+        "claim_ids": [
+          "2420:1/K1/C1"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "具体的な繰り返しが確認できる。",
+        "claim_ids": [
+          "2420:1/K2/C2"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "誤りの頻度が全体的な評価に影響を与える可能性がある。",
+        "claim_ids": [
+          "2420:1/K2/C3"
+        ],
+        "candidate_count": 1
+      },
+      {
+        "description": "具体的な文法の誤りが確認できる。",
+        "claim_ids": [
+          "2420:1/K2/C4"
+        ],
+        "candidate_count": 1
+      }
+    ],
+    "unknowns": ""
+  },
+  "timestamp": "2026-11-15T20:02:58.792588+09:00"
+}

@@ -1,0 +1,112 @@
+{
+  "candidate_key": "A|2775:2|K1",
+  "masked_reason": {
+    "rationale": "このエッセイは、文法と構成が一般的に制御されており、適切な単語とフレーズの範囲が使用されています。しかし、文法と構文の誤りが見られ、コミュニケーションに時折支障をきたす可能性があります。",
+    "unexplained": "文法と構文の誤りがコミュニケーションに時折支障をきたす可能性があるが、具体的な頻度や影響は不明瞭である。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "span_ids": [
+          "2775:2@U001",
+          "2775:2@U002"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "適切な単語とフレーズの範囲が使用されている",
+        "score_relation": "一致",
+        "support_explanation": "適切な単語とフレーズが使用されている",
+        "limits": "一部の単語やフレーズが適切でない可能性がある"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "span_ids": [
+          "2775:2@U001",
+          "2775:2@U002"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "文法の誤りが見られる",
+        "score_relation": "一致",
+        "support_explanation": "文法の誤りが見られる",
+        "limits": "誤りの頻度が低い可能性がある"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "span_ids": [
+          "2775:2@U003",
+          "2775:2@U004"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "文構造の誤りが見られる",
+        "score_relation": "一致",
+        "support_explanation": "文構造の誤りが見られる",
+        "limits": "誤りの頻度が低い可能性がある"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2775:2",
+        "span_ids": [
+          "2775:2@U005",
+          "2775:2@U006"
+        ],
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "アイデアのつながりが適切に表現されている",
+        "score_relation": "一致",
+        "support_explanation": "アイデアのつながりが適切に表現されている",
+        "limits": "一部のアイデアのつながりが不明瞭な可能性がある"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Grammar.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Syntax.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Cohesion.S4.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

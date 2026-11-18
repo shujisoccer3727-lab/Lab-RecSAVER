@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-16T16:54:50.155872+09:00",
+  "model_attempt_failures": [
+    {
+      "stage": "ground",
+      "key": "B|1514:1|K1",
+      "attempt": 0,
+      "error": "AssertionError: Partial or composite support cannot be supported"
+    },
+    {
+      "stage": "ground",
+      "key": "B|1514:1|K2",
+      "attempt": 0,
+      "error": "AssertionError: Partial or composite support cannot be supported"
+    }
+  ],
+  "orchestration_repairs": [
+    "v2.0 documentation helper apostrophe syntax fixed before it executed",
+    "PowerShell nested-quote launch error avoided by file-backed launcher; no inference on failed launch",
+    "wait_three PID pattern added to prevent duplicate queued launch"
+  ],
+  "research_conditions_changed": false
+}

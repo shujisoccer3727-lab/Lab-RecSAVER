@@ -1,0 +1,246 @@
+{
+  "fingerprint": "5de218d24d60495f63496340162d4aae818d7b71e6c1ab20c7b87d8868b25c11",
+  "result": {
+    "rationale": "文章は全体的に組織化されており、文法と慣用句の使用は正確で、コミュニケーションがほとんど阻害されない。しかし、文法と慣用句の使用に時折見られる誤りが、評価を4に抑えている。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "406:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章は全体的に組織化されており、文法と慣用句の使用は正確で、コミュニケーションがほとんど阻害されない。",
+        "span_ids": [
+          "406:1@U001",
+          "406:1@U002",
+          "406:1@U003",
+          "406:1@U004",
+          "406:1@U005",
+          "406:1@U006",
+          "406:1@U007",
+          "406:1@U008",
+          "406:1@U009",
+          "406:1@U010",
+          "406:1@U011",
+          "406:1@U012",
+          "406:1@U013"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S4.C01",
+          "Overall.S4.C02",
+          "Overall.S4.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "全体的な組織化と正確な文法・慣用句の使用が確認できる。",
+        "limits": "全体的な組織化と正確な文法・慣用句の使用が確認できるが、誤りが存在する。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U001",
+            "start": 0,
+            "end": 76,
+            "text": "Churchill statement is right because failing in life is part of succeeding. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U002",
+            "start": 76,
+            "end": 178,
+            "text": "Those obsticals you go through in life are part of who you become and how you handle those obsticals. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U003",
+            "start": 178,
+            "end": 266,
+            "text": "It gives some type of motivation to keep moving forward and get to whatever goal it is. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U004",
+            "start": 266,
+            "end": 494,
+            "text": "My example is when i got pregnant my junior year and when I found out i just wanted to drop out because I was still a kid myself and I kept thinking how people would look at me or what would they say, but I already had an idea. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U005",
+            "start": 494,
+            "end": 558,
+            "text": "My parents didnt even support me so what motivation did I have? "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U006",
+            "start": 558,
+            "end": 583,
+            "text": "I had myself and my son. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U007",
+            "start": 583,
+            "end": 715,
+            "text": "I took that as my motivation, yes it was difficult especially after I delivered and going back to school because I was very behind. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U008",
+            "start": 715,
+            "end": 820,
+            "text": "Of course a lot of friends stopped talking to me but that just proves who's there for you and who's not. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U009",
+            "start": 820,
+            "end": 1010,
+            "text": "I was starting a new chapter in my life and I'm not saying having my son was a mistake but it was just at the wrong time; cant change the past though, you just have to keep moving forward.\r\n"
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U010",
+            "start": 1010,
+            "end": 1388,
+            "text": "\r\nHere I am now my senior year, eight more months until I graduate and I'm proud of myself because I am a mother now and I'm still going to school, I didnt let that stop me from getting my education and I'm planning to go to college too because all I want is the best for my son and myself; its not me I have to think about now, I have another responsibility to look after for. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U011",
+            "start": 1388,
+            "end": 1547,
+            "text": "There are many examples of failing in life and later on succeeding but this is one I went through, I had to grow up fast but it made me the person I am today. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U012",
+            "start": 1547,
+            "end": 1670,
+            "text": "Just because of one mistake you make in life doesnt mean your life is over, its probably just the beginning, we are human! "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U013",
+            "start": 1670,
+            "end": 1774,
+            "text": "We all make mistakes but you just have to keep moving forward because life goes on with or without you. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "406:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法と慣用句の使用に時折見られる誤りが、評価を4に抑えている。",
+        "span_ids": [
+          "406:1@U004",
+          "406:1@U005",
+          "406:1@U006",
+          "406:1@U007",
+          "406:1@U008",
+          "406:1@U009",
+          "406:1@U010",
+          "406:1@U011",
+          "406:1@U012",
+          "406:1@U013"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と慣用句の使用に時折見られる誤りが確認できる。",
+        "limits": "誤りが全体的なコミュニケーションを阻害するほどではない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U004",
+            "start": 266,
+            "end": 494,
+            "text": "My example is when i got pregnant my junior year and when I found out i just wanted to drop out because I was still a kid myself and I kept thinking how people would look at me or what would they say, but I already had an idea. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U005",
+            "start": 494,
+            "end": 558,
+            "text": "My parents didnt even support me so what motivation did I have? "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U006",
+            "start": 558,
+            "end": 583,
+            "text": "I had myself and my son. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U007",
+            "start": 583,
+            "end": 715,
+            "text": "I took that as my motivation, yes it was difficult especially after I delivered and going back to school because I was very behind. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U008",
+            "start": 715,
+            "end": 820,
+            "text": "Of course a lot of friends stopped talking to me but that just proves who's there for you and who's not. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U009",
+            "start": 820,
+            "end": 1010,
+            "text": "I was starting a new chapter in my life and I'm not saying having my son was a mistake but it was just at the wrong time; cant change the past though, you just have to keep moving forward.\r\n"
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U010",
+            "start": 1010,
+            "end": 1388,
+            "text": "\r\nHere I am now my senior year, eight more months until I graduate and I'm proud of myself because I am a mother now and I'm still going to school, I didnt let that stop me from getting my education and I'm planning to go to college too because all I want is the best for my son and myself; its not me I have to think about now, I have another responsibility to look after for. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U011",
+            "start": 1388,
+            "end": 1547,
+            "text": "There are many examples of failing in life and later on succeeding but this is one I went through, I had to grow up fast but it made me the person I am today. "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U012",
+            "start": 1547,
+            "end": 1670,
+            "text": "Just because of one mistake you make in life doesnt mean your life is over, its probably just the beginning, we are human! "
+          },
+          {
+            "essay_id": "406:1",
+            "span_id": "406:1@U013",
+            "start": 1670,
+            "end": 1774,
+            "text": "We all make mistakes but you just have to keep moving forward because life goes on with or without you. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文法と慣用句の誤りが全体的なコミュニケーションを阻害するほどではないが、評価を4に抑えている理由は不明瞭。"
+  },
+  "timestamp": "2026-11-15T19:22:57.456076+09:00"
+}

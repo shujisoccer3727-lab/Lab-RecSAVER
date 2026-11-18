@@ -1,0 +1,35 @@
+{
+  "fingerprint": "3576f8638fa5cb73722d975c9c6b107076bfa4450039a83443982bc71dec03e1",
+  "result": {
+    "reviews": [
+      {
+        "claim_id": "C1",
+        "support": "supported",
+        "explanation": "文章は全体的に組織が整っており、文法の誤りは少ない。ただし、複雑な文の形成に誤りがあるため、完全に正確とは言えない。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C2",
+        "support": "supported",
+        "explanation": "複雑な文の形成に誤りが見られる一方で、単純な文は正確に形成されているため、この主張は支持される。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C3",
+        "support": "supported",
+        "explanation": "一部の単語は適切に使用されているが、単語の使用に誤りがあるため、この主張は支持される。",
+        "counter_span_ids": []
+      },
+      {
+        "claim_id": "C4",
+        "support": "supported",
+        "explanation": "フレーズの使用は単調で、誤りがあるが、一部のフレーズは適切に使用されているため、この主張は支持される。",
+        "counter_span_ids": []
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T18:30:50.776448+09:00",
+  "reused_from": "outputs/rater_feedback_pilot_v2/v1_3/stages/ground/A__1868_1__K2.json",
+  "source_fingerprint": "e0c696fbe8a8884ed1fa840362ff3950ef30b65f617d52f314eb81075bafcab2",
+  "reuse_recorded_at": "2026-11-15T18:46:26.961402+09:00"
+}

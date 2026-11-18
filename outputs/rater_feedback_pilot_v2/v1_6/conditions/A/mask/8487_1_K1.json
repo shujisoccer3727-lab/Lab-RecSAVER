@@ -1,0 +1,112 @@
+{
+  "candidate_key": "A|8487:1|K1",
+  "masked_reason": {
+    "rationale": "文章の構成が不十分で、文法や語彙の使用に多くの誤りがあり、コミュニケーションが阻害される。",
+    "unexplained": "文の構成と語彙の使用が不十分な理由は明確ではない。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U002"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "組織が部分的に開発されており、論理的なアイデアの並び順が欠けている。",
+        "score_relation": "一致",
+        "support_explanation": "文章の構成が不十分で、アイデアの並び順が不明瞭。",
+        "limits": "一部のアイデアはつながっているが、全体的な組織は弱い。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U005"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "多くの文構造の問題がある。",
+        "score_relation": "一致",
+        "support_explanation": "複雑な文構造に誤りがある。",
+        "limits": "単純な文は正確だが、複雑な文は誤りが多い。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U005"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "語彙の範囲が狭く、基本的な意味を伝えるのに適していない。",
+        "score_relation": "一致",
+        "support_explanation": "語彙が限定的で、正確な意味を伝えるのに不十分。",
+        "limits": "一部の単語は適切に使用されているが、全体的に語彙の範囲が狭い。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8487:1",
+        "span_ids": [
+          "8487:1@U001",
+          "8487:1@U005"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "文法と使用に多くの誤りがある。",
+        "score_relation": "一致",
+        "support_explanation": "文法と使用に多くの誤りがある。",
+        "limits": "一部の文法は正確だが、全体的に誤りが多い。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S2.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S2.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S2.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Grammar.S2.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

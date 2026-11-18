@@ -1,0 +1,116 @@
+{
+  "candidate_key": "A|8608:1|K1",
+  "masked_reason": {
+    "rationale": "文章在语法和词汇使用上存在一些错误，影响了整体的流畅性和准确性。尽管有尝试使用较为复杂的句子结构，但错误的频率和类型限制了表达的清晰度。",
+    "unexplained": "文章中关于自我价值提升的具体建议较为零散，缺乏系统性，这可能是评分较低的原因之一。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U005"
+        ],
+        "aspect": "Overall",
+        "kind": "communication",
+        "direction": "negative",
+        "feature": "语言准确性不足，影响沟通",
+        "score_relation": "符合",
+        "support_explanation": "多个句子存在语法和词汇错误，影响了整体表达。",
+        "limits": "部分句子表达清晰，但错误影响整体效果。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "span_ids": [
+          "8608:1@U005",
+          "8608:1@U006",
+          "8608:1@U008"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "复杂句结构使用中存在错误",
+        "score_relation": "符合",
+        "support_explanation": "复杂句结构中存在错误，影响句子的清晰度。",
+        "limits": "简单句结构使用较为准确。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "span_ids": [
+          "8608:1@U005",
+          "8608:1@U006",
+          "8608:1@U008"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "词汇使用有限，尝试使用复杂词汇但不准确",
+        "score_relation": "符合",
+        "support_explanation": "尝试使用复杂词汇，但准确性不足。",
+        "limits": "部分词汇使用准确。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8608:1",
+        "span_ids": [
+          "8608:1@U001",
+          "8608:1@U002",
+          "8608:1@U005"
+        ],
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "语法错误频繁",
+        "score_relation": "符合",
+        "support_explanation": "多个句子存在语法错误。",
+        "limits": "部分句子语法正确。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C04"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C04"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

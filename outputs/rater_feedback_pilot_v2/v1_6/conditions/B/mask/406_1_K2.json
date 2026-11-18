@@ -1,0 +1,117 @@
+{
+  "candidate_key": "B|406:1|K2",
+  "masked_reason": {
+    "rationale": "文章展示了良好的语言使用能力，语法和词汇使用准确，但存在一些语言不准确的情况，偶尔影响沟通。",
+    "unexplained": "文章的组织结构和句法结构的具体情况未详细说明。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "406:1",
+        "span_ids": [
+          "406:1@U001",
+          "406:1@U002",
+          "406:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "文章展示了良好的语言使用能力，语法和词汇使用准确。",
+        "score_relation": "符合4级标准",
+        "support_explanation": "引用了多个段落，展示了语法和词汇的准确使用。",
+        "limits": "未提及语言不准确的情况。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "406:1",
+        "span_ids": [
+          "406:1@U001",
+          "406:1@U002",
+          "406:1@U003"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "语法和词汇使用准确。",
+        "score_relation": "符合4级标准",
+        "support_explanation": "引用了多个段落，展示了语法和词汇的准确使用。",
+        "limits": "未提及语言不准确的情况。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "406:1",
+        "span_ids": [
+          "406:1@U001",
+          "406:1@U002",
+          "406:1@U003"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "direction": "positive",
+        "feature": "词汇使用准确。",
+        "score_relation": "符合4级标准",
+        "support_explanation": "引用了多个段落，展示了词汇的准确使用。",
+        "limits": "未提及语言不准确的情况。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "406:1",
+        "span_ids": [
+          "406:1@U004",
+          "406:1@U005",
+          "406:1@U006"
+        ],
+        "aspect": "Overall",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "存在一些语言不准确的情况，偶尔影响沟通。",
+        "score_relation": "符合4级标准",
+        "support_explanation": "引用了多个段落，展示了语言不准确的情况。",
+        "limits": "未详细说明具体不准确的情况。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S4.C01",
+        "Overall.S4.C03"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Grammar.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S4.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Overall.S4.C04"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

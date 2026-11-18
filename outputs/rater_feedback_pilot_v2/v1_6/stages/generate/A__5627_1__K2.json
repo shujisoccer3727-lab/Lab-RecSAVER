@@ -1,0 +1,190 @@
+{
+  "fingerprint": "6396df06b7ad7e9891a78a11651a14cbfdcb2ede09bbff3d1785df70979c9712",
+  "result": {
+    "rationale": "文章組織と文法の正確性は一般的に制御されていますが、複雑な文の形成に際しては誤りが見られます。また、語彙の使用は限定的で、より高度な単語やフレーズの使用は不正確な場合があります。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "5627:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "一般的に制御された文章組織",
+        "span_ids": [
+          "5627:1@U001",
+          "5627:1@U007",
+          "5627:1@U011"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章は全体的に組織されています。",
+        "limits": "複雑な文の形成に誤りがある可能性",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U001",
+            "start": 0,
+            "end": 117,
+            "text": "My Mom, she always shares wisdom with me and shows how to be a wise person and she also introduce me to this world.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U007",
+            "start": 380,
+            "end": 447,
+            "text": "When you learn from others experience you become a better person.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U011",
+            "start": 610,
+            "end": 708,
+            "text": "in order to become a better person just talk to a wise person they might give you a good advice.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "5627:1",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文の形成に誤り",
+        "span_ids": [
+          "5627:1@U004",
+          "5627:1@U010"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に誤りが見られます。",
+        "limits": "一部の単純な文は正確に形成されています",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U004",
+            "start": 221,
+            "end": 296,
+            "text": "a better life in the United States.She taught me whats right and wrong,\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U010",
+            "start": 517,
+            "end": 610,
+            "text": "\r\nfriends that are doing bad things are influences you don't need to follow their actions\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "5627:1",
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "feature": "限定的な語彙",
+        "span_ids": [
+          "5627:1@U001",
+          "5627:1@U004",
+          "5627:1@U011"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "語彙は限定的で、より高度な単語やフレーズの使用は不正確な場合があります。",
+        "limits": "一部の単語は適切に使用されています",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U001",
+            "start": 0,
+            "end": 117,
+            "text": "My Mom, she always shares wisdom with me and shows how to be a wise person and she also introduce me to this world.\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U004",
+            "start": 221,
+            "end": 296,
+            "text": "a better life in the United States.She taught me whats right and wrong,\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U011",
+            "start": 610,
+            "end": 708,
+            "text": "in order to become a better person just talk to a wise person they might give you a good advice.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "5627:1",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法の誤り",
+        "span_ids": [
+          "5627:1@U004",
+          "5627:1@U010"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法の誤りが見られます。",
+        "limits": "一部の文法は正確です",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U004",
+            "start": 221,
+            "end": 296,
+            "text": "a better life in the United States.She taught me whats right and wrong,\r\n\r\n"
+          },
+          {
+            "essay_id": "5627:1",
+            "span_id": "5627:1@U010",
+            "start": 517,
+            "end": 610,
+            "text": "\r\nfriends that are doing bad things are influences you don't need to follow their actions\r\n\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "文章の全体的な組織と文法の正確性が評価された理由は説明できますが、具体的な誤りの頻度や範囲は個々の文から推測しにくい場合があります。"
+  },
+  "timestamp": "2026-11-15T19:13:33.467918+09:00"
+}

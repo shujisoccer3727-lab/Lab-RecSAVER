@@ -1,0 +1,23 @@
+test_actual_verifier_payload_does_not_disclose_target_scores (tests.test_rater_feedback_pilot_v2.FeedbackV2Tests) ... ok
+test_condition_choice_can_be_nonadjacent (tests.test_rater_feedback_pilot_v2.FeedbackV2Tests) ... ok
+test_duplicate_candidates_are_one_essay (tests.test_rater_feedback_pilot_v2.FeedbackV2Tests) ... ok
+test_filenames_portable (tests.test_rater_feedback_pilot_v2.FeedbackV2Tests) ... ok
+test_mask_quantities_and_ids_unchanged (tests.test_rater_feedback_pilot_v2.FeedbackV2Tests) ... ok
+test_scope_is_not_assumed_from_reference_existence (tests.test_rater_feedback_pilot_v2.FeedbackV2Tests) ... ok
+test_unknown_references_cannot_enter_evidence (tests.test_rater_feedback_pilot_v2.FeedbackV2Tests) ... ok
+test_absent_quote_excluded (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_exact_offsets_and_repeated_occurrences (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_history_never_target_support (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_invented_rationale_claim_excluded (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_missing_evidence_is_unassessed_not_nonapplicable (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_multiple_candidates_one_target_do_not_establish_pattern (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_review_cannot_promote_uncertain_evidence (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_review_downgrade_excludes_and_preserves_model_label (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_structured_C_keeps_actual_scores_and_exact_quotes (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_uncertain_semantics_not_rescued_by_exact_quote (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+test_unsupported_rule_review_preserves_raw_but_excludes_rule (tests.test_rater_feedback_pilot.EvidenceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.008s
+
+OK

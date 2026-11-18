@@ -1,0 +1,206 @@
+{
+  "fingerprint": "c8deb945953e95bc9cdb889e7bae2479ef8c129bd41ef30034c35adbc0af1851",
+  "result": {
+    "rationale": "文章の組織と文法に一貫性があり、しかし複雑な文の形成や正確な語彙の使用に課題がある。全体的にコミュニケーションは成立するが、誤用や構文の問題が理解を阻害する場合がある。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "318:2",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "文章の組織と文法に一貫性がある",
+        "span_ids": [
+          "318:2@U001",
+          "318:2@U002",
+          "318:2@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文章は全体的に組織され、文法的な誤りが少ない。",
+        "limits": "複雑な文の形成に課題がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U001",
+            "start": 0,
+            "end": 62,
+            "text": "First, the importance of enthusiasm is when we never give up. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U002",
+            "start": 62,
+            "end": 182,
+            "text": "I am agree with Churchill's statement about the impotant role that ailure plays in the pursuit of success for 3 reazon. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U003",
+            "start": 182,
+            "end": 415,
+            "text": "The first reason is that enthuasiasm is a good way to motivate people to keep going, the second reason is failure teaches us to be batter in this life and the last reason is that we have enthisiasm, we can do wathever we want to do. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "318:2",
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "feature": "複雑な文の形成に課題がある",
+        "span_ids": [
+          "318:2@U004",
+          "318:2@U005",
+          "318:2@U006"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Syntax.S3.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "複雑な文の形成に誤りが見られる。",
+        "limits": "基本的な文の形成は正確。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U004",
+            "start": 415,
+            "end": 470,
+            "text": "These are my reasons that I would like to talk about.\r\n"
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U005",
+            "start": 470,
+            "end": 482,
+            "text": "\r\nfirst,\r\n\r\n"
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U006",
+            "start": 482,
+            "end": 522,
+            "text": "enthusiasm not just depends in oneself. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "318:2",
+        "aspect": "Vocabulary",
+        "kind": "appropriateness",
+        "feature": "語彙の使用に誤用がある",
+        "span_ids": [
+          "318:2@U007",
+          "318:2@U008",
+          "318:2@U009"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S3.C04"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "語彙の使用に誤用が見られる。",
+        "limits": "基本的な語彙は適切に使用。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U007",
+            "start": 522,
+            "end": 574,
+            "text": "It could be that others people can help each other. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U008",
+            "start": 574,
+            "end": 685,
+            "text": "For example, if I giving up by failing, then other person sees me failing and helps me to do something better. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U009",
+            "start": 685,
+            "end": 768,
+            "text": "Also, I can help people by motiation and showing to do or to carry something easy. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "318:2",
+        "aspect": "Grammar",
+        "kind": "frequency",
+        "feature": "文法的な誤りが存在する",
+        "span_ids": [
+          "318:2@U010",
+          "318:2@U011",
+          "318:2@U012"
+        ],
+        "direction": "negative",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S3.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法的な誤りが存在する。",
+        "limits": "誤りがコミュニケーションを阻害するわけではない。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U010",
+            "start": 768,
+            "end": 890,
+            "text": "Many people that take a job and then the fail, but they have the enthusiasm to do it again and better than the first one. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U011",
+            "start": 890,
+            "end": 939,
+            "text": "Of course some people do not think the same way. "
+          },
+          {
+            "essay_id": "318:2",
+            "span_id": "318:2@U012",
+            "start": 939,
+            "end": 1015,
+            "text": "If they fail, then they just give up and they do not want to redo it again. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "文章全体の組織と文法の正確性が評価に影響しているが、特定の誤りの頻度やその影響度合いは不明瞭。"
+  },
+  "timestamp": "2026-11-15T19:35:02.710218+09:00"
+}

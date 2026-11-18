@@ -1,0 +1,128 @@
+{
+  "candidate_key": "B|2953:1|K1",
+  "masked_reason": {
+    "rationale": "本文は一般的な構成と単純な文法構造を用いており、一部の単語やフレーズの使用に誤りがある。全体的な組織は制御されているが、複雑な文法構造の使用は限られている。",
+    "unexplained": "全体的な組織が制御されているが、複雑な文法構造の使用が限られているため、[得点表現除去]である理由は完全には説明できない。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U002",
+          "2953:1@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "一般的な構成と単純な文法構造",
+        "score_relation": "評価が反映",
+        "support_explanation": "引用が存在し、一般的な構成と単純な文法構造が確認できる。",
+        "limits": "複雑な文法構造の使用が限られているが、全体的な組織は制御されている。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U002",
+          "2953:1@U003"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "単純な文法構造の使用",
+        "score_relation": "評価が反映",
+        "support_explanation": "引用が存在し、単純な文法構造が確認できる。",
+        "limits": "複雑な文法構造の使用が限られているが、全体的な組織は制御されている。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U002",
+          "2953:1@U003"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "range",
+        "direction": "negative",
+        "feature": "単語やフレーズの使用に誤りがある",
+        "score_relation": "評価が反映",
+        "support_explanation": "引用が存在し、単語やフレーズの使用に誤りがある。",
+        "limits": "単語やフレーズの使用に誤りがあるが、全体的な組織は制御されている。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "2953:1",
+        "span_ids": [
+          "2953:1@U001",
+          "2953:1@U002",
+          "2953:1@U003"
+        ],
+        "aspect": "Grammar",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文法の誤り",
+        "score_relation": "評価が反映",
+        "support_explanation": "引用が存在し、文法の誤りが確認できる。",
+        "limits": "文法の誤りがあるが、全体的な組織は制御されている。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "unexplained",
+      "start": 36,
+      "end": 40,
+      "original": "評価が3",
+      "replacement": "[得点表現除去]",
+      "reason": "japanese_label",
+      "offset_basis": "current sequential text"
+    },
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C01",
+        "Overall.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S3.C01",
+        "Syntax.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C01",
+        "Vocabulary.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Grammar.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

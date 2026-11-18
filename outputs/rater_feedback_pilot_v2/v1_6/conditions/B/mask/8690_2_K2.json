@@ -1,0 +1,116 @@
+{
+  "candidate_key": "B|8690:2|K2",
+  "masked_reason": {
+    "rationale": "文章組織は一般的に制御されているが、複雑な文法構造の使用に誤りがあり、単純な文が主に使用されている。単語の選択は適切だが、より複雑なフレーズの使用は限られている。",
+    "unexplained": "文法と構文の誤りが頻繁に見られるが、具体的な例が不足している。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "span_ids": [
+          "8690:2@U001",
+          "8690:2@U002",
+          "8690:2@U003"
+        ],
+        "aspect": "Overall",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "文章組織は一般的に制御されているが、複雑な文法構造の使用に誤りがある。",
+        "score_relation": "一致",
+        "support_explanation": "複数の引用が文章組織の制御と複雑な文法構造の誤りを示している。",
+        "limits": "全体の頻度を断定できない。"
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "span_ids": [
+          "8690:2@U004",
+          "8690:2@U005",
+          "8690:2@U006"
+        ],
+        "aspect": "Syntax",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "単純な文が主に使用されている。",
+        "score_relation": "一致",
+        "support_explanation": "複数の引用が単純な文の使用を示している。",
+        "limits": "全体の頻度を断定できない。"
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "span_ids": [
+          "8690:2@U007",
+          "8690:2@U008",
+          "8690:2@U009"
+        ],
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "direction": "negative",
+        "feature": "単語の選択は適切だが、より複雑なフレーズの使用は限られている。",
+        "score_relation": "一致",
+        "support_explanation": "複数の引用が単語の選択とフレーズの使用を示している。",
+        "limits": "全体の頻度を断定できない。"
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8690:2",
+        "span_ids": [
+          "8690:2@U010",
+          "8690:2@U011",
+          "8690:2@U012"
+        ],
+        "aspect": "Phraseology",
+        "kind": "frequency",
+        "direction": "negative",
+        "feature": "フレーズの使用は限られている。",
+        "score_relation": "一致",
+        "support_explanation": "複数の引用がフレーズの使用を示している。",
+        "limits": "全体の頻度を断定できない。"
+      }
+    ]
+  },
+  "mask_log": [
+    {
+      "path": "C1.condition_ids",
+      "original": [
+        "Overall.S3.C02"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C2.condition_ids",
+      "original": [
+        "Syntax.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C3.condition_ids",
+      "original": [
+        "Vocabulary.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    },
+    {
+      "path": "C4.condition_ids",
+      "original": [
+        "Phraseology.S3.C01"
+      ],
+      "replacement": null,
+      "reason": "target-linked criterion metadata removed entirely"
+    }
+  ],
+  "residual_check": [],
+  "safe_for_verification": true,
+  "target_score_fields_absent": true,
+  "target_linked_condition_ids_absent": true,
+  "essay_quantities_untouched": true
+}

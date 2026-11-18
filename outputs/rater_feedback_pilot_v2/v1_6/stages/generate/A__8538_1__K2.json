@@ -1,0 +1,176 @@
+{
+  "fingerprint": "a5d3bdc1513848d58bde4df011e0e4bee9a277a17e4d90e697b428182c69bfaa",
+  "result": {
+    "rationale": "本文は、言語の使用に一定の柔軟性があり、文法と規則の正確さも保たれている。しかし、まれな言語の不正確さがコミュニケーションを妨げている。全体としては、組織が制御されており、適切な接続詞とトピックに関連する用語が使用されている。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "8538:1",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "言語の使用に柔軟性があり、文法と規則の正確さも保たれている",
+        "span_ids": [
+          "8538:1@U001",
+          "8538:1@U004"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Overall.S4.C01",
+          "Overall.S4.C03"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と規則の正確さが保たれている。",
+        "limits": "まれな言語の不正確さがある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U001",
+            "start": 0,
+            "end": 91,
+            "text": "I agree with John Lubbock's idea,that your character is build by you and your decisions\r\n\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U004",
+            "start": 228,
+            "end": 488,
+            "text": "\r\nOne example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you. "
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "8538:1",
+        "aspect": "Cohesion",
+        "kind": "presence",
+        "feature": "組織が制御されており、適切な接続詞とトピックに関連する用語が使用されている",
+        "span_ids": [
+          "8538:1@U004",
+          "8538:1@U008"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Cohesion.S4.C01",
+          "Cohesion.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "接続詞とトピックに関連する用語が適切に使用されている。",
+        "limits": "まれな言語の不正確さがある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U004",
+            "start": 228,
+            "end": 488,
+            "text": "\r\nOne example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you. "
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U008",
+            "start": 701,
+            "end": 786,
+            "text": "Another example will be of someone that was raises surrounded by a very christian\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "8538:1",
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "feature": "トピックに関連する用語が適切に使用されている",
+        "span_ids": [
+          "8538:1@U004",
+          "8538:1@U008"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Vocabulary.S4.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "トピックに関連する用語が適切に使用されている。",
+        "limits": "まれな言語の不正確さがある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U004",
+            "start": 228,
+            "end": 488,
+            "text": "\r\nOne example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you. "
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U008",
+            "start": 701,
+            "end": 786,
+            "text": "Another example will be of someone that was raises surrounded by a very christian\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "8538:1",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "文法と規則の正確さが保たれている",
+        "span_ids": [
+          "8538:1@U001",
+          "8538:1@U004"
+        ],
+        "direction": "positive",
+        "score_relation": "一致",
+        "condition_ids": [
+          "Grammar.S4.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法と規則の正確さが保たれている。",
+        "limits": "まれな言語の不正確さがある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U001",
+            "start": 0,
+            "end": 91,
+            "text": "I agree with John Lubbock's idea,that your character is build by you and your decisions\r\n\r\n"
+          },
+          {
+            "essay_id": "8538:1",
+            "span_id": "8538:1@U004",
+            "start": 228,
+            "end": 488,
+            "text": "\r\nOne example of these are those kids whose parents raise them using traditional values such as respect your superiors, don't chew with your mouth open, don't put your elbows on the table, don't steal, don't get into fights, or be mindful of those around you. "
+          }
+        ]
+      }
+    ],
+    "unexplained": "まれな言語の不正確さが全体の評価に影響を与えている可能性がある。"
+  },
+  "timestamp": "2026-11-15T19:17:27.609855+09:00"
+}

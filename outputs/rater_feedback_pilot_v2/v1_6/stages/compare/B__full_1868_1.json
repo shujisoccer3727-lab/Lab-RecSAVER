@@ -1,0 +1,221 @@
+{
+  "fingerprint": "24ad75b52e656a9587791c96e3574f70554290d47fe8e01c5f9386e96f03f307",
+  "result": {
+    "relationships": [
+      {
+        "issue_id": "I1",
+        "claim_ids": [
+          "1868:1/K1/C1",
+          "1868:1/K1/C2",
+          "1868:1/K1/C3",
+          "1868:1/K1/C4"
+        ],
+        "span_ids": [
+          "1868:1@U001",
+          "1868:1@U002",
+          "1868:1@U003",
+          "1868:1@U004",
+          "1868:1@U005",
+          "1868:1@U006",
+          "1868:1@U007",
+          "1868:1@U008"
+        ],
+        "analysis_anchors": [
+          {
+            "span_id": "1868:1@U001",
+            "tokens": [
+              "The",
+              "main"
+            ],
+            "relation": "定冠詞と修飾語",
+            "interpretation": "「The main」の使用は適切だが、その後の文構造に誤りがある。",
+            "token_positions": [
+              {
+                "token": "The",
+                "start": 0,
+                "end": 3
+              },
+              {
+                "token": "main",
+                "start": 4,
+                "end": 8
+              }
+            ]
+          },
+          {
+            "span_id": "1868:1@U003",
+            "tokens": [
+              "mistake",
+              "that"
+            ],
+            "relation": "名詞と定冠詞",
+            "interpretation": "「mistake that」の使用は適切だが、その後の文構造に誤りがある。",
+            "token_positions": [
+              {
+                "token": "mistake",
+                "start": 254,
+                "end": 261
+              },
+              {
+                "token": "that",
+                "start": 262,
+                "end": 266
+              },
+              {
+                "token": "that",
+                "start": 295,
+                "end": 299
+              }
+            ]
+          }
+        ],
+        "condition_ids": [
+          "Syntax.S3.C02",
+          "Vocabulary.S3.C02",
+          "Grammar.S3.C01",
+          "Conventions.S3.C02"
+        ],
+        "feature_confirmed": "複雑な文の形成に誤りがある。微妙な単語の意味の正確な使用が不足している。文法と使用に誤りがある。スペリング、大文字、句読点の誤りが時々目立つ。",
+        "inferred_judgment": "評価は妥当。複雑な文の形成や微妙な単語の正確な使用に問題があるが、全体的なコミュニケーションは阻害されない。",
+        "rubric_based_proposal": "Overall.S3.C01, S3.C02, S3.C03, S3.C04を満たす。複雑な文の形成や微妙な単語の正確な使用に問題があるが、全体的なコミュニケーションは阻害されない。",
+        "agreement_review_unknown": "全体的な組織と文法の誤りが評価に影響を与えるが、具体的な誤りの頻度や種類が不明瞭である。",
+        "system_checked": [
+          {
+            "span_ids": [
+              "1868:1@U001",
+              "1868:1@U002",
+              "1868:1@U003",
+              "1868:1@U004",
+              "1868:1@U005",
+              "1868:1@U006",
+              "1868:1@U007",
+              "1868:1@U008"
+            ],
+            "finding": "複雑な文の形成に誤りがある。微妙な単語の意味の正確な使用が不足している。文法と使用に誤りがある。スペリング、大文字、句読点の誤りが時々目立つ。"
+          }
+        ],
+        "next_action": {
+          "distinguish": "複雑な文の形成と微妙な単語の正確な使用の誤りを確認",
+          "where_span_ids": [
+            "1868:1@U001",
+            "1868:1@U003"
+          ],
+          "action": "複雑な文の形成と微妙な単語の正確な使用の誤りを確認",
+          "reason": "複雑な文の形成と微妙な単語の正確な使用の誤りが全体的なコミュニケーションに影響を与える可能性があるため。"
+        },
+        "scope_limit": "複雑な文の形成と微妙な単語の正確な使用の誤りを確認",
+        "citations": [
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U001",
+            "start": 0,
+            "end": 78,
+            "text": "The main piece to improve your skills is during the process of keep learning. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U002",
+            "start": 78,
+            "end": 238,
+            "text": "Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U003",
+            "start": 238,
+            "end": 368,
+            "text": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U004",
+            "start": 368,
+            "end": 611,
+            "text": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U005",
+            "start": 611,
+            "end": 767,
+            "text": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n"
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U006",
+            "start": 767,
+            "end": 882,
+            "text": "\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U007",
+            "start": 882,
+            "end": 1043,
+            "text": "Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. "
+          },
+          {
+            "essay_id": "1868:1",
+            "span_id": "1868:1@U008",
+            "start": 1043,
+            "end": 1173,
+            "text": "Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. "
+          }
+        ],
+        "official_conditions": [
+          {
+            "condition_id": "Syntax.S3.C02",
+            "aspect": "Syntax",
+            "level": 3,
+            "text": "some apparent errors in sentence formation, especially in more complex sentences.",
+            "parent_id": "Syntax.S3",
+            "parent_text": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+            "start": 94,
+            "end": 175,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Vocabulary.S3.C02",
+            "aspect": "Vocabulary",
+            "level": 3,
+            "text": "no precise use of subtle word meanings;",
+            "parent_id": "Vocabulary.S3",
+            "parent_text": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+            "start": 54,
+            "end": 93,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Grammar.S3.C01",
+            "aspect": "Grammar",
+            "level": 3,
+            "text": "Some errors in grammar and usage.",
+            "parent_id": "Grammar.S3",
+            "parent_text": "Some errors in grammar and usage.",
+            "start": 0,
+            "end": 33,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          },
+          {
+            "condition_id": "Conventions.S3.C02",
+            "aspect": "Conventions",
+            "level": 3,
+            "text": "errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+            "parent_id": "Conventions.S3",
+            "parent_text": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+            "start": 49,
+            "end": 132,
+            "source": "rubrics/ellipse_rubric_structured.json",
+            "role": "auxiliary analytic criterion"
+          }
+        ],
+        "full_target_seen": true,
+        "semantic_status": "model-provisional; machine validity is not semantic truth"
+      }
+    ]
+  },
+  "timestamp": "2026-11-15T20:42:49.093154+09:00"
+}

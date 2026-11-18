@@ -1,0 +1,206 @@
+{
+  "fingerprint": "d5d65376cd6bc0562e91e99ddb1bf5baf095d9b3e76ac45e85848a252699f0aa",
+  "result": {
+    "rationale": "本文は全体的に組織化がうまく行われており、文法と慣用句の使用も正確で、コミュニケーションが妨げられるような言語的不正確さはほとんど見られません。",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "aspect": "Overall",
+        "kind": "presence",
+        "feature": "well-controlled text organization",
+        "span_ids": [
+          "7418:2@U001",
+          "7418:2@U002",
+          "7418:2@U003"
+        ],
+        "direction": "positive",
+        "score_relation": "aligned",
+        "condition_ids": [
+          "Overall.S5.C02"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "本文は明確な構造を持ち、各段落が論点を明確に伝えています。",
+        "limits": "全体の組織化が良好であるが、一部の段落間のつながりがより強化できる可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U001",
+            "start": 0,
+            "end": 52,
+            "text": "What is one place in the world your like to visit?\r\n"
+          },
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U002",
+            "start": 52,
+            "end": 71,
+            "text": "\r\nBrazil is the\r\n\r\n"
+          },
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U003",
+            "start": 71,
+            "end": 114,
+            "text": "place in the world I would love to visit.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "aspect": "Grammar",
+        "kind": "presence",
+        "feature": "command of grammar and usage with few or no errors",
+        "span_ids": [
+          "7418:2@U004",
+          "7418:2@U005",
+          "7418:2@U006"
+        ],
+        "direction": "positive",
+        "score_relation": "aligned",
+        "condition_ids": [
+          "Grammar.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "文法的な誤りはほとんど見られず、文の形成も正確です。",
+        "limits": "一部の文法的な誤りが存在する可能性があるが、全体的には正確である。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U004",
+            "start": 114,
+            "end": 210,
+            "text": "\r\nOnce I arrive I would enjoy the warm climate, and would learn about their wonderful culture.\r\n"
+          },
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U005",
+            "start": 210,
+            "end": 230,
+            "text": "\r\nTo begin with,\r\n\r\n"
+          },
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U006",
+            "start": 230,
+            "end": 319,
+            "text": "the warm climate is one of the best things in Brazil because it is so near the equator.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "aspect": "Vocabulary",
+        "kind": "presence",
+        "feature": "wide range of vocabulary flexibly and effectively used to convey precise meanings",
+        "span_ids": [
+          "7418:2@U007",
+          "7418:2@U008",
+          "7418:2@U009"
+        ],
+        "direction": "positive",
+        "score_relation": "aligned",
+        "condition_ids": [
+          "Vocabulary.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "多様な単語が適切に使用され、正確な意味を伝えています。",
+        "limits": "一部の単語の使用がより適切に改善できる可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U007",
+            "start": 319,
+            "end": 455,
+            "text": "\r\nI already imagine myself walking in a blue dress, with some white sandals, my hair is french braided, eating a strawberry ice cream.\r\n"
+          },
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U008",
+            "start": 455,
+            "end": 617,
+            "text": "\r\nI can already taste all different flavor water that I am going to have, or even better I could smell the food cooking from far away hum that smells delicious.\r\n"
+          },
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U009",
+            "start": 617,
+            "end": 706,
+            "text": "\r\nWhile I am still walking I could feel the sun hugging me, and the trees waving at me.\r\n"
+          }
+        ]
+      },
+      {
+        "claim_id": "C4",
+        "scope": "target",
+        "essay_id": "7418:2",
+        "aspect": "Phraseology",
+        "kind": "presence",
+        "feature": "flexible and effective use of a variety of phrases",
+        "span_ids": [
+          "7418:2@U010",
+          "7418:2@U011",
+          "7418:2@U012"
+        ],
+        "direction": "positive",
+        "score_relation": "aligned",
+        "condition_ids": [
+          "Phraseology.S5.C01"
+        ],
+        "semantic_support": "supported",
+        "support_explanation": "慣用句や熟語が適切に使用され、文章が自然に読めます。",
+        "limits": "慣用句の使用がより多様化できる可能性がある。",
+        "machine_check": {
+          "scope_valid": true,
+          "span_ids_valid": true,
+          "condition_ids_valid": true
+        },
+        "evidence": [
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U010",
+            "start": 706,
+            "end": 757,
+            "text": "\r\nThe climate in Brazil is going to be wonderful.\r\n"
+          },
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U011",
+            "start": 757,
+            "end": 842,
+            "text": "\r\nAdditionally, I would love to spend my time learning about the culture in Brazil.\r\n"
+          },
+          {
+            "essay_id": "7418:2",
+            "span_id": "7418:2@U012",
+            "start": 842,
+            "end": 895,
+            "text": "\r\nTaking a tour is a wonderful idea to meet Brazil.\r\n"
+          }
+        ]
+      }
+    ],
+    "unexplained": "一部の文法的な誤りや単語の使用がより適切に改善できる可能性があるが、全体的には高い評価が得られている。"
+  },
+  "timestamp": "2026-11-15T19:19:51.131213+09:00"
+}
