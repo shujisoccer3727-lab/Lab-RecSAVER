@@ -1,0 +1,69 @@
+{
+    "created_at":  "2026-11-18T20:38:19.231486+09:00",
+    "status":  "prepared",
+    "prompt_sha256_before":  {
+                                 "prompts/en/recsaver_01_reference_rationale_v1_0.txt":  "845a25eacb2cd5daef369f99b4f5defe1c8b8a45a61e6186b9f9fce80535fed4",
+                                 "prompts/en/recsaver_02_overall_reconstruction_v1_0.txt":  "68c600bc253c3451317e756b8b5ca8ff7aac58bd621f7686998d361fb6411faa",
+                                 "prompts/en/recsaver_03_integrated_feedback_v1_0.txt":  "b2c8c5a37d1eb0ac6ea2accd02a871477266e845bd1cca8b33a0cfaa93754ec5"
+                             },
+    "source_sha256":  {
+                          "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv":  "6972b8a960fc9f1986046aacef18792438bf90326ec55a89272932453e2f519b",
+                          "data/processed/rater_essay_wide.csv":  "36e0d243eaf3a6237ac666a04a835c8206123295cf6a7b2e9476c4c28bc5e920",
+                          "rubrics/ellipse_rubric_structured.json":  "af5cf3309801793d630f83f3828eade60254c6e60b2968e75abc27591a7e32bb",
+                          "configs/rater_feedback_development_v22.json":  "82aaa41b58df8c87dc9585211e243d390630eb2725d6a2cd4ccce4b3f453a63f",
+                          "outputs/rater_feedback_pilot_v2/v2_2/inputs.json":  "6038ca6cc332b6b55d4992e14c2c7b0b45e153d3c8e408c311ed8124c716122d",
+                          "outputs/rater_feedback_pilot_v2/v2_2/assessment.md":  "62c11e425ead5c66d9aa7d361f303f7af331b61df68db198de03c11d838bd479"
+                      },
+    "code_sha256":  "1361b2094a33d8712bd6237d52e98ffd9830e6a25b32d3530fc0d0f8a6f6b6af",
+    "git_commit":  "47cfb8fd25e44eef82efcfcde7f1eaff608bb3da",
+    "model":  {
+                  "model_id":  "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+                  "quantization":  "gptq_marlin",
+                  "tensor_parallel_size":  1,
+                  "max_model_len":  32768,
+                  "gpu_memory_utilization":  0.9,
+                  "runtime_options":  {
+                                          "max_num_seqs":  8,
+                                          "enforce_eager":  true,
+                                          "enable_prefix_caching":  true
+                                      }
+              },
+    "generation":  {
+                       "temperature":  0.2,
+                       "top_p":  0.8
+                   },
+    "max_tokens":  {
+                       "stage1":  6500,
+                       "stage2":  1200,
+                       "stage3":  5000
+                   },
+    "seed":  20261118,
+    "seed_policy":  "first 8 hex SHA256(20261118:stage:record_id) modulo 2**31; separate requests; stochastic independence not guaranteed",
+    "candidates_per_target":  2,
+    "history_size":  3,
+    "system_message":  "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+    "chat":  "One user message with canonical prompt. Existing tokenizer chat template inserts the recorded default system message; no task-specific conflict found. Full rendered chat saved.",
+    "retries":  {
+                    "transport":  1,
+                    "model_format":  0,
+                    "context":  0,
+                    "score_mismatch":  0
+                },
+    "acceptance":  [
+                       "Stage1 and Stage2 valid JSON/schema/identity",
+                       "status=estimated",
+                       "reconstructed_overall in 1..5 integers",
+                       "Decimal(str(prediction)) == Decimal(str(observed)); no rounding",
+                       "no confirmed target-score disclosure in score_free_analysis"
+                   ],
+    "important":  "Stage1 conditions on observed target Overall and Traits; retrospective explanation, not independent or faithful human reasoning.",
+    "max_tokens_reason":  "New English JSON templates contain extensive evidence fields; initial fixed budgets 6500/1200/5000, no output-driven extension or input truncation.",
+    "holdout":  "Reserved only, prior exposure unknown; never generated in this run.",
+    "prompt_sha256_after":  {
+                                "prompts/en/recsaver_01_reference_rationale_v1_0.txt":  "845a25eacb2cd5daef369f99b4f5defe1c8b8a45a61e6186b9f9fce80535fed4",
+                                "prompts/en/recsaver_02_overall_reconstruction_v1_0.txt":  "68c600bc253c3451317e756b8b5ca8ff7aac58bd621f7686998d361fb6411faa",
+                                "prompts/en/recsaver_03_integrated_feedback_v1_0.txt":  "b2c8c5a37d1eb0ac6ea2accd02a871477266e845bd1cca8b33a0cfaa93754ec5"
+                            },
+    "prompt_unchanged":  true,
+    "last_checked_at":  "2026-11-18T20:38:37.679001+09:00"
+}

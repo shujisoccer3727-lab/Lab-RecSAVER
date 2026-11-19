@@ -1,0 +1,81 @@
+{
+  "valid_overall_values": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "valid_trait_values": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "increment": 1,
+  "Overall": "Holistic language proficiency judgment; use the supplied Overall rubric descriptors.",
+  "Traits": {
+    "Cohesion": {
+      "descriptors": {
+        "5": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas.",
+        "4": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+        "3": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+        "2": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+        "1": "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear."
+      }
+    },
+    "Syntax": {
+      "descriptors": {
+        "5": "Flexible and effective use of a full range of syntactic structures including simple, compound, and complex sentences; There may be rare minor and negligible errors in sentence formation.",
+        "4": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+        "3": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+        "2": "Some sentence variation used; many sentence structure problems.",
+        "1": "Pervasive and basic errors in sentence structure and word order that cause confusion; basic sentences errors common."
+      }
+    },
+    "Vocabulary": {
+      "descriptors": {
+        "5": "Wide range of vocabulary flexibly and effectively used to convey precise meanings; skillful use of topic-related terms and less common words; rare negligible inaccuracies in word use.",
+        "4": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+        "3": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+        "2": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+        "1": "Limited vocabulary often inappropriately used; limited control of word choice and word forms; little attempt to use topic-related terms"
+      }
+    },
+    "Phraseology": {
+      "descriptors": {
+        "5": "Flexible and effective use of a variety of phrases, such as idioms, collocations, and lexical bundles, to convey precise and subtle meanings; rare minor inaccuracies that are negligible.",
+        "4": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+        "3": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+        "2": "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and /or misuses of phrases.",
+        "1": "Memorized chunks of language, or simple phrasal patterns predominate; many repetitions and misuses of phrases."
+      }
+    },
+    "Grammar": {
+      "descriptors": {
+        "5": "Command of grammar and usage with few or no errors.",
+        "4": "Minimal errors in grammar and usage.",
+        "3": "Some errors in grammar and usage.",
+        "2": "Many errors in grammar and usage.",
+        "1": "Errors in grammar and usage throughout."
+      }
+    },
+    "Conventions": {
+      "descriptors": {
+        "5": "Consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors nonexistent or negligible.",
+        "4": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting.",
+        "3": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+        "2": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting.",
+        "1": "Minimal use of conventions; spelling, capitalizatio n, and punctuation errors throughout."
+      }
+    }
+  },
+  "relationship": "Overall is the original human holistic judgment. No arithmetic or weighted relationship to Traits is specified.",
+  "definition_sources": [
+    "rubrics/ellipse_rubric_structured.json",
+    "src/config.py",
+    "src/transform_data.py",
+    "README.md"
+  ]
+}
