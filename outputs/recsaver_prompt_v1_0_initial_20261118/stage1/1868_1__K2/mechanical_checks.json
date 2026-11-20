@@ -1,0 +1,191 @@
+{
+  "quote_checks": [
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+      "essay_id": "5783:1",
+      "quote": "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop.",
+      "exact": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+      "essay_id": "8666:1",
+      "quote": "Many students like to reach a grade average of a B, but they cant and it be wonderful of them to get a grade like that.",
+      "exact": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/counterevidence/0/quotes/0",
+      "essay_id": "239:1",
+      "quote": "Dear principal, I agree to policy 2 because the student don't pay any attention in class and the students are texting during in class.",
+      "exact": false
+    },
+    {
+      "path": "/score_free_analysis/target_evidence/0/quotes/0",
+      "essay_id": "1868:1",
+      "quote": "The main piece to improve your skills is during the process of keep learning.",
+      "exact": true
+    },
+    {
+      "path": "/score_free_analysis/target_evidence/0/quotes/1",
+      "essay_id": "1868:1",
+      "quote": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.",
+      "exact": true
+    }
+  ],
+  "id_checks": [
+    {
+      "path": "",
+      "essay_id": "1868:1",
+      "exists": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0",
+      "essay_id": "5783:1",
+      "exists": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1",
+      "essay_id": "8666:1",
+      "exists": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/counterevidence/0",
+      "essay_id": "239:1",
+      "exists": true
+    }
+  ],
+  "score_checks": [
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Overall",
+      "essay_id": "5783:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Cohesion",
+      "essay_id": "5783:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Vocabulary",
+      "essay_id": "5783:1",
+      "value": 4,
+      "expected": 4,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Phraseology",
+      "essay_id": "5783:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Overall",
+      "essay_id": "8666:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Cohesion",
+      "essay_id": "8666:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Vocabulary",
+      "essay_id": "8666:1",
+      "value": 4,
+      "expected": 4,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Phraseology",
+      "essay_id": "8666:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Overall",
+      "essay_id": "1868:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Cohesion",
+      "essay_id": "1868:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Vocabulary",
+      "essay_id": "1868:1",
+      "value": 4,
+      "expected": 4,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Phraseology",
+      "essay_id": "1868:1",
+      "value": 4,
+      "expected": 4,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Overall",
+      "equal": true,
+      "value": 3,
+      "expected": 3
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Traits",
+      "equal": false,
+      "value": {
+        "Cohesion": 3,
+        "Vocabulary": 4,
+        "Phraseology": 4
+      },
+      "expected": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    }
+  ],
+  "reference_checks": [
+    {
+      "reference": "H1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    }
+  ],
+  "counts": null,
+  "summary": {
+    "quotes_checked": 5,
+    "quote_mismatches": 1,
+    "invalid_essay_ids": 0,
+    "score_mismatches": 1,
+    "invalid_references": 0
+  }
+}

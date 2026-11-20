@@ -1,0 +1,11 @@
+{
+  "rules": "Heuristic prose matching; exclude exact quotes and explicitly labeled history score objects. Suspicions require semantic review; no rewriting.",
+  "suspicions": [
+    {
+      "path": "/score_free_analysis/target_evidence/0/rubric_connection",
+      "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions|score|band|level)\\s*(?:score\\s*)?(?:is|of|was|=|:|at|assigned|rated)?\\s*(?:[1-5](?:\\.\\d+)?|one|two|three|four|five)\\b",
+      "text": "The rubric for a score of 3 indicates limited facility in sentence formation, word choice, and mechanics, with communication impeded in some cases."
+    }
+  ],
+  "confirmed_leak": null
+}

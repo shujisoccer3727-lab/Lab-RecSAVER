@@ -1,0 +1,281 @@
+{
+  "quote_checks": [
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+      "essay_id": "217:1",
+      "quote": "Dear principal",
+      "exact": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/quotes/1",
+      "essay_id": "217:1",
+      "quote": "So principal i think policy 1 is better for the students.",
+      "exact": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+      "essay_id": "1440:1",
+      "quote": "If we go to school for 10 hours we wont see our parents",
+      "exact": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/quotes/1",
+      "essay_id": "1440:1",
+      "quote": "It is not bad for us it is bad for them too they have to work so much it is not a good decision to make.",
+      "exact": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/counterevidence/0/quotes/0",
+      "essay_id": "8745:1",
+      "quote": "It would be to your greatest interest to have me as an intern because I show promising results and diversity in multiple ways.",
+      "exact": true
+    },
+    {
+      "path": "/score_free_analysis/target_evidence/0/quotes/0",
+      "essay_id": "1514:1",
+      "quote": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+      "exact": true
+    },
+    {
+      "path": "/score_free_analysis/target_evidence/0/quotes/1",
+      "essay_id": "1514:1",
+      "quote": "This shows that with hard work you can accomplish any goal and letting yourself grow.",
+      "exact": true
+    }
+  ],
+  "id_checks": [
+    {
+      "path": "",
+      "essay_id": "1514:1",
+      "exists": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0",
+      "essay_id": "217:1",
+      "exists": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1",
+      "essay_id": "1440:1",
+      "exists": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/counterevidence/0",
+      "essay_id": "8745:1",
+      "exists": true
+    }
+  ],
+  "score_checks": [
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Overall",
+      "essay_id": "217:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Cohesion",
+      "essay_id": "217:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Syntax",
+      "essay_id": "217:1",
+      "value": 2,
+      "expected": 2,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Vocabulary",
+      "essay_id": "217:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Phraseology",
+      "essay_id": "217:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Grammar",
+      "essay_id": "217:1",
+      "value": 4,
+      "expected": 4,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Conventions",
+      "essay_id": "217:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Overall",
+      "essay_id": "1440:1",
+      "value": 4,
+      "expected": 4,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Cohesion",
+      "essay_id": "1440:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Syntax",
+      "essay_id": "1440:1",
+      "value": 4,
+      "expected": 4,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Vocabulary",
+      "essay_id": "1440:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Phraseology",
+      "essay_id": "1440:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Grammar",
+      "essay_id": "1440:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Conventions",
+      "essay_id": "1440:1",
+      "value": 4,
+      "expected": 4,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Overall",
+      "essay_id": "1514:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Cohesion",
+      "essay_id": "1514:1",
+      "value": 4,
+      "expected": 4,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Syntax",
+      "essay_id": "1514:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Vocabulary",
+      "essay_id": "1514:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Phraseology",
+      "essay_id": "1514:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Grammar",
+      "essay_id": "1514:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Conventions",
+      "essay_id": "1514:1",
+      "value": 4,
+      "expected": 4,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Overall",
+      "equal": true,
+      "value": 3,
+      "expected": 3
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Traits",
+      "equal": true,
+      "value": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 4
+      },
+      "expected": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    }
+  ],
+  "reference_checks": [
+    {
+      "reference": "H1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    }
+  ],
+  "counts": null,
+  "summary": {
+    "quotes_checked": 7,
+    "quote_mismatches": 0,
+    "invalid_essay_ids": 0,
+    "score_mismatches": 0,
+    "invalid_references": 0
+  }
+}

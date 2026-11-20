@@ -1,0 +1,2844 @@
+{
+  "reviewer": "Codex provisional; not independent human evaluation",
+  "candidate_criterion_reviews": [
+    {
+      "candidate_id": "1514_1__K1",
+      "criterion": "B1.1",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K1/parsed.json#/score_free_analysis/history_patterns/0/pattern",
+      "output_evidence": "The rater appears to evaluate essays with a mix of strengths and weaknesses, often giving scores that reflect a balance between effective use of language and noticeable errors.",
+      "input_source": "stage1/1514_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "評価語はあるが、一般的な特徴・基準の反復が中心で、本人の判断がどう異なるかの説明は限定的。"
+    },
+    {
+      "candidate_id": "1514_1__K1",
+      "criterion": "B1.2",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K1/parsed.json#/score_free_analysis/history_patterns/0/support",
+      "output_evidence": [
+        {
+          "history_essay_id": "217:1",
+          "quotes": [
+            "Dear principal",
+            "So principal i think policy 1 is better for the students."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows a mix of effective and less effective language use, with some errors in syntax and cohesion, which aligns with the observed scores."
+        },
+        {
+          "history_essay_id": "1440:1",
+          "quotes": [
+            "If we go to school for 10 hours we wont see our parents",
+            "It is not bad for us it is bad for them too they have to work so much it is not a good decision to make."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a good range of vocabulary and syntax, but with some errors in cohesion and grammar, which aligns with the observed scores."
+        }
+      ],
+      "input_source": "stage1/1514_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "履歴2例と本人得点を挙げるが、引用箇所から全体の構成・語彙範囲・減点や優先度まで導く根拠が弱い。"
+    },
+    {
+      "candidate_id": "1514_1__K1",
+      "criterion": "B1.3",
+      "label": "met",
+      "output_source": "stage1/1514_1__K1/parsed.json#/score_free_analysis/history_patterns/0/support",
+      "output_evidence": [
+        {
+          "history_essay_id": "217:1",
+          "quotes": [
+            "Dear principal",
+            "So principal i think policy 1 is better for the students."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows a mix of effective and less effective language use, with some errors in syntax and cohesion, which aligns with the observed scores."
+        },
+        {
+          "history_essay_id": "1440:1",
+          "quotes": [
+            "If we go to school for 10 hours we wont see our parents",
+            "It is not bad for us it is bad for them too they have to work so much it is not a good decision to make."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a good range of vocabulary and syntax, but with some errors in cohesion and grammar, which aligns with the observed scores."
+        }
+      ],
+      "input_source": "stage1/1514_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "異なる履歴答案2件が明示され、対象だけを根拠にはしていない。ただしこれだけで恒常的傾向は確立しない。"
+    },
+    {
+      "candidate_id": "1514_1__K1",
+      "criterion": "B1.4",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K1/parsed.json#/score_free_analysis/history_patterns/0/counterevidence",
+      "output_evidence": [
+        {
+          "history_essay_id": "8745:1",
+          "quotes": [
+            "It would be to your greatest interest to have me as an intern because I show promising results and diversity in multiple ways."
+          ],
+          "interpretation": "This essay shows a higher level of proficiency, with fewer errors and more sophisticated language use, which contrasts with the pattern observed in lower-scored essays."
+        }
+      ],
+      "input_source": "stage1/1514_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "第三の履歴とlimitationsはあるが、何を反証するか・説明をどこまで弱めるかが具体的でない。"
+    },
+    {
+      "candidate_id": "1514_1__K1",
+      "criterion": "B2.1",
+      "label": "met",
+      "output_source": "stage1/1514_1__K1/parsed.json#/score_free_analysis/target_evidence/0/quotes",
+      "output_evidence": [
+        "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+        "This shows that with hard work you can accomplish any goal and letting yourself grow."
+      ],
+      "input_source": "stage1/1514_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        "source_target_text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. My brother for example wanted to be an engineer, with hard work and effort he made it. In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. Also, he took classes that would help him improve his skills and understanding of his future career. Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life. With hard work and patience he did it. Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. You'll\r\n\r\nnever know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. ",
+        "mechanical_checks_source": "stage1/1514_1__K1/mechanical_checks.json"
+      },
+      "provisional_reason": "完全一致は機械検証の結果を併記。空白・改行の差も不一致と数え、生成原文を修復しない。"
+    },
+    {
+      "candidate_id": "1514_1__K1",
+      "criterion": "B2.2",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K1/parsed.json#/score_free_analysis/target_evidence/0",
+      "output_evidence": {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+          "This shows that with hard work you can accomplish any goal and letting yourself grow."
+        ],
+        "observable_feature": "The essay demonstrates a mix of effective and less effective language use, with some errors in syntax and cohesion.",
+        "evaluative_interpretation": "The rater may have evaluated the essay based on its balance of strengths and weaknesses, giving it a score that reflects a moderate level of proficiency.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric descriptors for Overall score 3 indicate a mix of effective language use and noticeable errors, which aligns with the observed features of the essay.",
+        "uncertainty": "The essay's language proficiency is not consistently at a single level, which may make it challenging to align with a specific score."
+      },
+      "input_source": "stage1/1514_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        "source_target_text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. My brother for example wanted to be an engineer, with hard work and effort he made it. In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. Also, he took classes that would help him improve his skills and understanding of his future career. Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life. With hard work and patience he did it. Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. You'll\r\n\r\nnever know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. ",
+        "mechanical_checks_source": "stage1/1514_1__K1/mechanical_checks.json"
+      },
+      "provisional_reason": "対象引用はあるが、一つの証拠T1に広い観点をまとめ、引用からの推論と全体評価を十分に区別しない。"
+    },
+    {
+      "candidate_id": "1514_1__K1",
+      "criterion": "B2.3",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K1/parsed.json#/score_free_analysis/target_evidence/0/observable_feature",
+      "output_evidence": "The essay demonstrates a mix of effective and less effective language use, with some errors in syntax and cohesion.",
+      "input_source": "stage1/1514_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        "source_target_text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. My brother for example wanted to be an engineer, with hard work and effort he made it. In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. Also, he took classes that would help him improve his skills and understanding of his future career. Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life. With hard work and patience he did it. Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. You'll\r\n\r\nnever know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. ",
+        "mechanical_checks_source": "stage1/1514_1__K1/mechanical_checks.json"
+      },
+      "provisional_reason": "awkwardnessや文形成上の問題を示唆する本文はあるが、特定の構造・読み・分布を精査せず全体の頻度や程度へ広げる。"
+    },
+    {
+      "candidate_id": "1514_1__K1",
+      "criterion": "B2.4",
+      "label": "not_assessable",
+      "output_source": "stage1/1514_1__K1/parsed.json#/score_free_analysis/target_evidence/0",
+      "output_evidence": {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+          "This shows that with hard work you can accomplish any goal and letting yourself grow."
+        ],
+        "observable_feature": "The essay demonstrates a mix of effective and less effective language use, with some errors in syntax and cohesion.",
+        "evaluative_interpretation": "The rater may have evaluated the essay based on its balance of strengths and weaknesses, giving it a score that reflects a moderate level of proficiency.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric descriptors for Overall score 3 indicate a mix of effective language use and noticeable errors, which aligns with the observed features of the essay.",
+        "uncertainty": "The essay's language proficiency is not consistently at a single level, which may make it challenging to align with a specific score."
+      },
+      "input_source": "stage1/1514_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        "source_target_text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. My brother for example wanted to be an engineer, with hard work and effort he made it. In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. Also, he took classes that would help him improve his skills and understanding of his future career. Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life. With hard work and patience he did it. Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. You'll\r\n\r\nnever know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. ",
+        "mechanical_checks_source": "stage1/1514_1__K1/mechanical_checks.json"
+      },
+      "provisional_reason": "具体的にどの解釈が成立せず意味が不明になるかを分析していない。誤り存在だけで意味妨害を認定できない。"
+    },
+    {
+      "candidate_id": "1514_1__K1",
+      "criterion": "B3.1",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K1/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The rater appears to have evaluated the essay based on its balance of strengths and weaknesses, giving it a score that reflects a moderate level of proficiency. The essay demonstrates a mix of effective and less effective language use, with some errors in syntax and cohesion, which aligns with the rubric descriptors for Overall score 3. This interpretation is supported by the rater's history of evaluating essays with a mix of strengths and weaknesses.",
+      "input_source": "stage1/1514_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "履歴と対象を接続する文はあるが、特徴の同名反復が中心で、観測Overallを説明する判断関係は限定的。"
+    },
+    {
+      "candidate_id": "1514_1__K1",
+      "criterion": "B3.2",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K1/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The rater appears to have evaluated the essay based on its balance of strengths and weaknesses, giving it a score that reflects a moderate level of proficiency. The essay demonstrates a mix of effective and less effective language use, with some errors in syntax and cohesion, which aligns with the rubric descriptors for Overall score 3. This interpretation is supported by the rater's history of evaluating essays with a mix of strengths and weaknesses.",
+      "input_source": "stage1/1514_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "balance、penalize、prioritizeなどを用いるが、何をどの証拠から許容・重視したと読めるかの裏付けが十分でない。"
+    },
+    {
+      "candidate_id": "1514_1__K1",
+      "criterion": "B3.3",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K1/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The rater appears to have evaluated the essay based on its balance of strengths and weaknesses, giving it a score that reflects a moderate level of proficiency. The essay demonstrates a mix of effective and less effective language use, with some errors in syntax and cohesion, which aligns with the rubric descriptors for Overall score 3. This interpretation is supported by the rater's history of evaluating essays with a mix of strengths and weaknesses.",
+      "input_source": "stage1/1514_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "数式・数値重みの捏造は見当たらないが、減点・優先度・低得点への因果説明は履歴だけでは確定しない。"
+    },
+    {
+      "candidate_id": "1514_1__K1",
+      "criterion": "B3.4",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K1/parsed.json#/score_free_analysis/insufficient_evidence",
+      "output_evidence": [
+        "The essay's language proficiency is not consistently at a single level, which may make it challenging to align with a specific score."
+      ],
+      "input_source": "stage1/1514_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "不確実性欄は存在するが、どの説明が支持不足なのかより、品質混在や標本不足の一般論にとどまる。"
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "criterion": "B1.1",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K2/parsed.json#/score_free_analysis/history_patterns/0/pattern",
+      "output_evidence": "The rater appears to evaluate essays with a mix of strengths and weaknesses, often giving scores that reflect a balanced consideration of the essay's overall quality. The rater seems to appreciate essays with a clear structure and varied vocabulary but penalizes for grammatical errors and awkward phrasing.",
+      "input_source": "stage1/1514_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "評価語はあるが、一般的な特徴・基準の反復が中心で、本人の判断がどう異なるかの説明は限定的。"
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "criterion": "B1.2",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K2/parsed.json#/score_free_analysis/history_patterns/0/support",
+      "output_evidence": [
+        {
+          "history_essay_id": "217:1",
+          "quotes": [
+            "Dear principal",
+            "I think policy 1 is better because students may have to call someone for an emergence or call there parent to pick them up after school."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows a mix of clear structure and varied vocabulary but also contains grammatical errors and awkward phrasing, which aligns with the rater's balanced evaluation."
+        },
+        {
+          "history_essay_id": "1440:1",
+          "quotes": [
+            "The schools should not add more time because it will be to hard for the students.",
+            "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a clear structure and varied vocabulary but also contains grammatical errors and awkward phrasing, which aligns with the rater's balanced evaluation."
+        }
+      ],
+      "input_source": "stage1/1514_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "履歴2例と本人得点を挙げるが、引用箇所から全体の構成・語彙範囲・減点や優先度まで導く根拠が弱い。"
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "criterion": "B1.3",
+      "label": "met",
+      "output_source": "stage1/1514_1__K2/parsed.json#/score_free_analysis/history_patterns/0/support",
+      "output_evidence": [
+        {
+          "history_essay_id": "217:1",
+          "quotes": [
+            "Dear principal",
+            "I think policy 1 is better because students may have to call someone for an emergence or call there parent to pick them up after school."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows a mix of clear structure and varied vocabulary but also contains grammatical errors and awkward phrasing, which aligns with the rater's balanced evaluation."
+        },
+        {
+          "history_essay_id": "1440:1",
+          "quotes": [
+            "The schools should not add more time because it will be to hard for the students.",
+            "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a clear structure and varied vocabulary but also contains grammatical errors and awkward phrasing, which aligns with the rater's balanced evaluation."
+        }
+      ],
+      "input_source": "stage1/1514_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "異なる履歴答案2件が明示され、対象だけを根拠にはしていない。ただしこれだけで恒常的傾向は確立しない。"
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "criterion": "B1.4",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K2/parsed.json#/score_free_analysis/history_patterns/0/counterevidence",
+      "output_evidence": [
+        {
+          "history_essay_id": "8745:1",
+          "quotes": [
+            "In many student's life, there is a set goal of succeeding in school in order to open doors in the future.",
+            "It is no secret that engineering is one of the fields that require numerous math classes."
+          ],
+          "interpretation": "This essay shows a more polished structure and varied vocabulary with fewer grammatical errors, which contrasts with the rater's balanced evaluation but still aligns with the overall pattern."
+        }
+      ],
+      "input_source": "stage1/1514_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "第三の履歴とlimitationsはあるが、何を反証するか・説明をどこまで弱めるかが具体的でない。"
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "criterion": "B2.1",
+      "label": "met",
+      "output_source": "stage1/1514_1__K2/parsed.json#/score_free_analysis/target_evidence/0/quotes",
+      "output_evidence": [
+        "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+        "For example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future."
+      ],
+      "input_source": "stage1/1514_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        "source_target_text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. My brother for example wanted to be an engineer, with hard work and effort he made it. In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. Also, he took classes that would help him improve his skills and understanding of his future career. Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life. With hard work and patience he did it. Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. You'll\r\n\r\nnever know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. ",
+        "mechanical_checks_source": "stage1/1514_1__K2/mechanical_checks.json"
+      },
+      "provisional_reason": "完全一致は機械検証の結果を併記。空白・改行の差も不一致と数え、生成原文を修復しない。"
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "criterion": "B2.2",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K2/parsed.json#/score_free_analysis/target_evidence/0",
+      "output_evidence": {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+          "For example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future."
+        ],
+        "observable_feature": "The essay demonstrates a clear structure and varied vocabulary but also contains grammatical errors and awkward phrasing.",
+        "evaluative_interpretation": "The rater likely appreciates the clear structure and varied vocabulary but penalizes for grammatical errors and awkward phrasing.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for Overall score 3 indicates facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage.",
+        "uncertainty": "The essay's clear structure and varied vocabulary contrast with the grammatical errors and awkward phrasing, which may lead to a balanced evaluation."
+      },
+      "input_source": "stage1/1514_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        "source_target_text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. My brother for example wanted to be an engineer, with hard work and effort he made it. In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. Also, he took classes that would help him improve his skills and understanding of his future career. Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life. With hard work and patience he did it. Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. You'll\r\n\r\nnever know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. ",
+        "mechanical_checks_source": "stage1/1514_1__K2/mechanical_checks.json"
+      },
+      "provisional_reason": "対象引用はあるが、一つの証拠T1に広い観点をまとめ、引用からの推論と全体評価を十分に区別しない。"
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "criterion": "B2.3",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K2/parsed.json#/score_free_analysis/target_evidence/0/observable_feature",
+      "output_evidence": "The essay demonstrates a clear structure and varied vocabulary but also contains grammatical errors and awkward phrasing.",
+      "input_source": "stage1/1514_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        "source_target_text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. My brother for example wanted to be an engineer, with hard work and effort he made it. In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. Also, he took classes that would help him improve his skills and understanding of his future career. Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life. With hard work and patience he did it. Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. You'll\r\n\r\nnever know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. ",
+        "mechanical_checks_source": "stage1/1514_1__K2/mechanical_checks.json"
+      },
+      "provisional_reason": "awkwardnessや文形成上の問題を示唆する本文はあるが、特定の構造・読み・分布を精査せず全体の頻度や程度へ広げる。"
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "criterion": "B2.4",
+      "label": "not_assessable",
+      "output_source": "stage1/1514_1__K2/parsed.json#/score_free_analysis/target_evidence/0",
+      "output_evidence": {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+          "For example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future."
+        ],
+        "observable_feature": "The essay demonstrates a clear structure and varied vocabulary but also contains grammatical errors and awkward phrasing.",
+        "evaluative_interpretation": "The rater likely appreciates the clear structure and varied vocabulary but penalizes for grammatical errors and awkward phrasing.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for Overall score 3 indicates facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage.",
+        "uncertainty": "The essay's clear structure and varied vocabulary contrast with the grammatical errors and awkward phrasing, which may lead to a balanced evaluation."
+      },
+      "input_source": "stage1/1514_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        "source_target_text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. My brother for example wanted to be an engineer, with hard work and effort he made it. In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. Also, he took classes that would help him improve his skills and understanding of his future career. Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life. With hard work and patience he did it. Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. You'll\r\n\r\nnever know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. ",
+        "mechanical_checks_source": "stage1/1514_1__K2/mechanical_checks.json"
+      },
+      "provisional_reason": "具体的にどの解釈が成立せず意味が不明になるかを分析していない。誤り存在だけで意味妨害を認定できない。"
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "criterion": "B3.1",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K2/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The rater likely evaluated the target essay based on a balanced consideration of its strengths and weaknesses. The essay demonstrates a clear structure and varied vocabulary, which aligns with the rater's appreciation for these features. However, the presence of grammatical errors and awkward phrasing may have led the rater to penalize the essay, resulting in an Overall score that reflects a balanced evaluation.",
+      "input_source": "stage1/1514_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "履歴と対象を接続する文はあるが、特徴の同名反復が中心で、観測Overallを説明する判断関係は限定的。"
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "criterion": "B3.2",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K2/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The rater likely evaluated the target essay based on a balanced consideration of its strengths and weaknesses. The essay demonstrates a clear structure and varied vocabulary, which aligns with the rater's appreciation for these features. However, the presence of grammatical errors and awkward phrasing may have led the rater to penalize the essay, resulting in an Overall score that reflects a balanced evaluation.",
+      "input_source": "stage1/1514_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "balance、penalize、prioritizeなどを用いるが、何をどの証拠から許容・重視したと読めるかの裏付けが十分でない。"
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "criterion": "B3.3",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K2/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The rater likely evaluated the target essay based on a balanced consideration of its strengths and weaknesses. The essay demonstrates a clear structure and varied vocabulary, which aligns with the rater's appreciation for these features. However, the presence of grammatical errors and awkward phrasing may have led the rater to penalize the essay, resulting in an Overall score that reflects a balanced evaluation.",
+      "input_source": "stage1/1514_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "数式・数値重みの捏造は見当たらないが、減点・優先度・低得点への因果説明は履歴だけでは確定しない。"
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "criterion": "B3.4",
+      "label": "partially_met",
+      "output_source": "stage1/1514_1__K2/parsed.json#/score_free_analysis/insufficient_evidence",
+      "output_evidence": [
+        "The history does not provide a strict pattern for the rater's scoring, limiting the inference of a stable characteristic."
+      ],
+      "input_source": "stage1/1514_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1514:1",
+        "history_ids": [
+          "217:1",
+          "1440:1",
+          "8745:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        }
+      },
+      "provisional_reason": "不確実性欄は存在するが、どの説明が支持不足なのかより、品質混在や標本不足の一般論にとどまる。"
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "criterion": "B1.1",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K1/parsed.json#/score_free_analysis/history_patterns/0/pattern",
+      "output_evidence": "The rater appears to evaluate essays with a generally controlled organization, a sufficient range of vocabulary, and an evident use of phrases, but with some noticeable repetitions and misuses.",
+      "input_source": "stage1/1868_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "評価語はあるが、一般的な特徴・基準の反復が中心で、本人の判断がどう異なるかの説明は限定的。"
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "criterion": "B1.2",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K1/parsed.json#/score_free_analysis/history_patterns/0/support",
+      "output_evidence": [
+        {
+          "history_essay_id": "5783:1",
+          "quotes": [
+            "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, but with some noticeable repetitions and misuses."
+        },
+        {
+          "history_essay_id": "8666:1",
+          "quotes": [
+            "Many students like to reach a grade average of a B, but they cant and it be wonderful of them to get a grade like that."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, but with some noticeable repetitions and misuses."
+        }
+      ],
+      "input_source": "stage1/1868_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "履歴2例と本人得点を挙げるが、引用箇所から全体の構成・語彙範囲・減点や優先度まで導く根拠が弱い。"
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "criterion": "B1.3",
+      "label": "met",
+      "output_source": "stage1/1868_1__K1/parsed.json#/score_free_analysis/history_patterns/0/support",
+      "output_evidence": [
+        {
+          "history_essay_id": "5783:1",
+          "quotes": [
+            "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, but with some noticeable repetitions and misuses."
+        },
+        {
+          "history_essay_id": "8666:1",
+          "quotes": [
+            "Many students like to reach a grade average of a B, but they cant and it be wonderful of them to get a grade like that."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, but with some noticeable repetitions and misuses."
+        }
+      ],
+      "input_source": "stage1/1868_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "異なる履歴答案2件が明示され、対象だけを根拠にはしていない。ただしこれだけで恒常的傾向は確立しない。"
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "criterion": "B1.4",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K1/parsed.json#/score_free_analysis/history_patterns/0/counterevidence",
+      "output_evidence": [
+        {
+          "history_essay_id": "239:1",
+          "quotes": [
+            "Dear principal, I agree to policy 2 because the student don't pay any attention in class and the students are texting during in class."
+          ],
+          "interpretation": "This essay has a partially developed organization and a narrow range of vocabulary, which contrasts with the pattern."
+        }
+      ],
+      "input_source": "stage1/1868_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "第三の履歴とlimitationsはあるが、何を反証するか・説明をどこまで弱めるかが具体的でない。"
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "criterion": "B2.1",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K1/parsed.json#/score_free_analysis/target_evidence/0/quotes",
+      "output_evidence": [
+        "The main piece to improve your skills is during the process of keep learning.",
+        "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things."
+      ],
+      "input_source": "stage1/1868_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. Even adult mothers have said that they keep learning how to be mother everyday.\r\n\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\nit would be necessary those extra years. The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. The years where you have been taking classes that does not look that t would help you in the future in any way. They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. After you have got the extra years, does not\r\n\r\nmean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n\r\nGoing beyond your expectations as a person would bring you benefit to your life. If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\nlead yourself to become another worker. Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. If you do not try nothing new\r\n\r\nand\r\n\r\ndo not applied on your daily, do no expect\r\n\r\nto become successful as a person. You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. You should not let yourself be the obstacle to keep learning new things to do. If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping.",
+        "mechanical_checks_source": "stage1/1868_1__K1/mechanical_checks.json"
+      },
+      "provisional_reason": "完全一致は機械検証の結果を併記。空白・改行の差も不一致と数え、生成原文を修復しない。"
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "criterion": "B2.2",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K1/parsed.json#/score_free_analysis/target_evidence/0",
+      "output_evidence": {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "quotes": [
+          "The main piece to improve your skills is during the process of keep learning.",
+          "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things."
+        ],
+        "observable_feature": "The essay demonstrates a generally controlled organization, a sufficient range of vocabulary, and an evident use of phrases, but with some noticeable repetitions and misuses.",
+        "evaluative_interpretation": "The rater may evaluate this essay as having a generally controlled organization, a sufficient range of vocabulary, and an evident use of phrases, but with some noticeable repetitions and misuses.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for a score of 3 in Cohesion, Vocabulary, and Phraseology aligns with this evaluation.",
+        "uncertainty": "The essay's organization and vocabulary range are generally controlled, but the repetition of phrases may be a limitation."
+      },
+      "input_source": "stage1/1868_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. Even adult mothers have said that they keep learning how to be mother everyday.\r\n\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\nit would be necessary those extra years. The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. The years where you have been taking classes that does not look that t would help you in the future in any way. They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. After you have got the extra years, does not\r\n\r\nmean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n\r\nGoing beyond your expectations as a person would bring you benefit to your life. If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\nlead yourself to become another worker. Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. If you do not try nothing new\r\n\r\nand\r\n\r\ndo not applied on your daily, do no expect\r\n\r\nto become successful as a person. You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. You should not let yourself be the obstacle to keep learning new things to do. If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping.",
+        "mechanical_checks_source": "stage1/1868_1__K1/mechanical_checks.json"
+      },
+      "provisional_reason": "対象引用はあるが、一つの証拠T1に広い観点をまとめ、引用からの推論と全体評価を十分に区別しない。"
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "criterion": "B2.3",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K1/parsed.json#/score_free_analysis/target_evidence/0/observable_feature",
+      "output_evidence": "The essay demonstrates a generally controlled organization, a sufficient range of vocabulary, and an evident use of phrases, but with some noticeable repetitions and misuses.",
+      "input_source": "stage1/1868_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. Even adult mothers have said that they keep learning how to be mother everyday.\r\n\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\nit would be necessary those extra years. The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. The years where you have been taking classes that does not look that t would help you in the future in any way. They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. After you have got the extra years, does not\r\n\r\nmean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n\r\nGoing beyond your expectations as a person would bring you benefit to your life. If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\nlead yourself to become another worker. Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. If you do not try nothing new\r\n\r\nand\r\n\r\ndo not applied on your daily, do no expect\r\n\r\nto become successful as a person. You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. You should not let yourself be the obstacle to keep learning new things to do. If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping.",
+        "mechanical_checks_source": "stage1/1868_1__K1/mechanical_checks.json"
+      },
+      "provisional_reason": "awkwardnessや文形成上の問題を示唆する本文はあるが、特定の構造・読み・分布を精査せず全体の頻度や程度へ広げる。"
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "criterion": "B2.4",
+      "label": "not_assessable",
+      "output_source": "stage1/1868_1__K1/parsed.json#/score_free_analysis/target_evidence/0",
+      "output_evidence": {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "quotes": [
+          "The main piece to improve your skills is during the process of keep learning.",
+          "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things."
+        ],
+        "observable_feature": "The essay demonstrates a generally controlled organization, a sufficient range of vocabulary, and an evident use of phrases, but with some noticeable repetitions and misuses.",
+        "evaluative_interpretation": "The rater may evaluate this essay as having a generally controlled organization, a sufficient range of vocabulary, and an evident use of phrases, but with some noticeable repetitions and misuses.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for a score of 3 in Cohesion, Vocabulary, and Phraseology aligns with this evaluation.",
+        "uncertainty": "The essay's organization and vocabulary range are generally controlled, but the repetition of phrases may be a limitation."
+      },
+      "input_source": "stage1/1868_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. Even adult mothers have said that they keep learning how to be mother everyday.\r\n\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\nit would be necessary those extra years. The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. The years where you have been taking classes that does not look that t would help you in the future in any way. They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. After you have got the extra years, does not\r\n\r\nmean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n\r\nGoing beyond your expectations as a person would bring you benefit to your life. If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\nlead yourself to become another worker. Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. If you do not try nothing new\r\n\r\nand\r\n\r\ndo not applied on your daily, do no expect\r\n\r\nto become successful as a person. You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. You should not let yourself be the obstacle to keep learning new things to do. If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping.",
+        "mechanical_checks_source": "stage1/1868_1__K1/mechanical_checks.json"
+      },
+      "provisional_reason": "具体的にどの解釈が成立せず意味が不明になるかを分析していない。誤り存在だけで意味妨害を認定できない。"
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "criterion": "B3.1",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K1/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The target essay demonstrates a generally controlled organization, a sufficient range of vocabulary, and an evident use of phrases, but with some noticeable repetitions and misuses. This aligns with the rater's historical pattern of evaluating essays with these characteristics. The repetition of phrases such as 'keep learning' may be a limitation, but the overall control of organization and vocabulary range supports a score that reflects these strengths.",
+      "input_source": "stage1/1868_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "履歴と対象を接続する文はあるが、特徴の同名反復が中心で、観測Overallを説明する判断関係は限定的。"
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "criterion": "B3.2",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K1/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The target essay demonstrates a generally controlled organization, a sufficient range of vocabulary, and an evident use of phrases, but with some noticeable repetitions and misuses. This aligns with the rater's historical pattern of evaluating essays with these characteristics. The repetition of phrases such as 'keep learning' may be a limitation, but the overall control of organization and vocabulary range supports a score that reflects these strengths.",
+      "input_source": "stage1/1868_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "balance、penalize、prioritizeなどを用いるが、何をどの証拠から許容・重視したと読めるかの裏付けが十分でない。"
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "criterion": "B3.3",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K1/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The target essay demonstrates a generally controlled organization, a sufficient range of vocabulary, and an evident use of phrases, but with some noticeable repetitions and misuses. This aligns with the rater's historical pattern of evaluating essays with these characteristics. The repetition of phrases such as 'keep learning' may be a limitation, but the overall control of organization and vocabulary range supports a score that reflects these strengths.",
+      "input_source": "stage1/1868_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "数式・数値重みの捏造は見当たらないが、減点・優先度・低得点への因果説明は履歴だけでは確定しない。"
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "criterion": "B3.4",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K1/parsed.json#/score_free_analysis/insufficient_evidence",
+      "output_evidence": [
+        "The history does not provide sufficient examples to establish a clear pattern for scores of 4 or 5."
+      ],
+      "input_source": "stage1/1868_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "不確実性欄は存在するが、どの説明が支持不足なのかより、品質混在や標本不足の一般論にとどまる。"
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "criterion": "B1.1",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K2/parsed.json#/score_free_analysis/history_patterns/0/pattern",
+      "output_evidence": "The rater appears to evaluate essays that show a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+      "input_source": "stage1/1868_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "評価語はあるが、一般的な特徴・基準の反復が中心で、本人の判断がどう異なるかの説明は限定的。"
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "criterion": "B1.2",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K2/parsed.json#/score_free_analysis/history_patterns/0/support",
+      "output_evidence": [
+        {
+          "history_essay_id": "5783:1",
+          "quotes": [
+            "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology."
+        },
+        {
+          "history_essay_id": "8666:1",
+          "quotes": [
+            "Many students like to reach a grade average of a B, but they cant and it be wonderful of them to get a grade like that."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay shows a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology."
+        }
+      ],
+      "input_source": "stage1/1868_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "履歴2例と本人得点を挙げるが、引用箇所から全体の構成・語彙範囲・減点や優先度まで導く根拠が弱い。"
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "criterion": "B1.3",
+      "label": "met",
+      "output_source": "stage1/1868_1__K2/parsed.json#/score_free_analysis/history_patterns/0/support",
+      "output_evidence": [
+        {
+          "history_essay_id": "5783:1",
+          "quotes": [
+            "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology."
+        },
+        {
+          "history_essay_id": "8666:1",
+          "quotes": [
+            "Many students like to reach a grade average of a B, but they cant and it be wonderful of them to get a grade like that."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay shows a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology."
+        }
+      ],
+      "input_source": "stage1/1868_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "異なる履歴答案2件が明示され、対象だけを根拠にはしていない。ただしこれだけで恒常的傾向は確立しない。"
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "criterion": "B1.4",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K2/parsed.json#/score_free_analysis/history_patterns/0/counterevidence",
+      "output_evidence": [
+        {
+          "history_essay_id": "239:1",
+          "quotes": [
+            "Dear principal, I agree to policy 2 because the student don't pay any attention in class and the students are texting during in class."
+          ],
+          "interpretation": "This essay shows a partially developed organization and limited vocabulary and phraseology, which contrasts with the pattern."
+        }
+      ],
+      "input_source": "stage1/1868_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "第三の履歴とlimitationsはあるが、何を反証するか・説明をどこまで弱めるかが具体的でない。"
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "criterion": "B2.1",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K2/parsed.json#/score_free_analysis/target_evidence/0/quotes",
+      "output_evidence": [
+        "The main piece to improve your skills is during the process of keep learning.",
+        "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things."
+      ],
+      "input_source": "stage1/1868_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. Even adult mothers have said that they keep learning how to be mother everyday.\r\n\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\nit would be necessary those extra years. The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. The years where you have been taking classes that does not look that t would help you in the future in any way. They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. After you have got the extra years, does not\r\n\r\nmean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n\r\nGoing beyond your expectations as a person would bring you benefit to your life. If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\nlead yourself to become another worker. Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. If you do not try nothing new\r\n\r\nand\r\n\r\ndo not applied on your daily, do no expect\r\n\r\nto become successful as a person. You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. You should not let yourself be the obstacle to keep learning new things to do. If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping.",
+        "mechanical_checks_source": "stage1/1868_1__K2/mechanical_checks.json"
+      },
+      "provisional_reason": "完全一致は機械検証の結果を併記。空白・改行の差も不一致と数え、生成原文を修復しない。"
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "criterion": "B2.2",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K2/parsed.json#/score_free_analysis/target_evidence/0",
+      "output_evidence": {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "quotes": [
+          "The main piece to improve your skills is during the process of keep learning.",
+          "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things."
+        ],
+        "observable_feature": "The essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+        "evaluative_interpretation": "The rater may evaluate this essay as showing a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for a score of 3 indicates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+        "uncertainty": "The essay's organization and vocabulary are generally controlled, but there are some limitations in cohesion and occasional inaccuracies in phraseology."
+      },
+      "input_source": "stage1/1868_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. Even adult mothers have said that they keep learning how to be mother everyday.\r\n\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\nit would be necessary those extra years. The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. The years where you have been taking classes that does not look that t would help you in the future in any way. They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. After you have got the extra years, does not\r\n\r\nmean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n\r\nGoing beyond your expectations as a person would bring you benefit to your life. If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\nlead yourself to become another worker. Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. If you do not try nothing new\r\n\r\nand\r\n\r\ndo not applied on your daily, do no expect\r\n\r\nto become successful as a person. You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. You should not let yourself be the obstacle to keep learning new things to do. If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping.",
+        "mechanical_checks_source": "stage1/1868_1__K2/mechanical_checks.json"
+      },
+      "provisional_reason": "対象引用はあるが、一つの証拠T1に広い観点をまとめ、引用からの推論と全体評価を十分に区別しない。"
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "criterion": "B2.3",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K2/parsed.json#/score_free_analysis/target_evidence/0/observable_feature",
+      "output_evidence": "The essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+      "input_source": "stage1/1868_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. Even adult mothers have said that they keep learning how to be mother everyday.\r\n\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\nit would be necessary those extra years. The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. The years where you have been taking classes that does not look that t would help you in the future in any way. They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. After you have got the extra years, does not\r\n\r\nmean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n\r\nGoing beyond your expectations as a person would bring you benefit to your life. If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\nlead yourself to become another worker. Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. If you do not try nothing new\r\n\r\nand\r\n\r\ndo not applied on your daily, do no expect\r\n\r\nto become successful as a person. You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. You should not let yourself be the obstacle to keep learning new things to do. If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping.",
+        "mechanical_checks_source": "stage1/1868_1__K2/mechanical_checks.json"
+      },
+      "provisional_reason": "awkwardnessや文形成上の問題を示唆する本文はあるが、特定の構造・読み・分布を精査せず全体の頻度や程度へ広げる。"
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "criterion": "B2.4",
+      "label": "not_assessable",
+      "output_source": "stage1/1868_1__K2/parsed.json#/score_free_analysis/target_evidence/0",
+      "output_evidence": {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "quotes": [
+          "The main piece to improve your skills is during the process of keep learning.",
+          "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things."
+        ],
+        "observable_feature": "The essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+        "evaluative_interpretation": "The rater may evaluate this essay as showing a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for a score of 3 indicates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+        "uncertainty": "The essay's organization and vocabulary are generally controlled, but there are some limitations in cohesion and occasional inaccuracies in phraseology."
+      },
+      "input_source": "stage1/1868_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. Even adult mothers have said that they keep learning how to be mother everyday.\r\n\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\nit would be necessary those extra years. The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. The years where you have been taking classes that does not look that t would help you in the future in any way. They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. After you have got the extra years, does not\r\n\r\nmean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n\r\nGoing beyond your expectations as a person would bring you benefit to your life. If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\nlead yourself to become another worker. Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. If you do not try nothing new\r\n\r\nand\r\n\r\ndo not applied on your daily, do no expect\r\n\r\nto become successful as a person. You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. You should not let yourself be the obstacle to keep learning new things to do. If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping.",
+        "mechanical_checks_source": "stage1/1868_1__K2/mechanical_checks.json"
+      },
+      "provisional_reason": "具体的にどの解釈が成立せず意味が不明になるかを分析していない。誤り存在だけで意味妨害を認定できない。"
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "criterion": "B3.1",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K2/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The target essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology. This aligns with the rater's historical pattern of evaluating essays that show a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology. The rater may evaluate this essay as showing a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+      "input_source": "stage1/1868_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "履歴と対象を接続する文はあるが、特徴の同名反復が中心で、観測Overallを説明する判断関係は限定的。"
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "criterion": "B3.2",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K2/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The target essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology. This aligns with the rater's historical pattern of evaluating essays that show a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology. The rater may evaluate this essay as showing a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+      "input_source": "stage1/1868_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "balance、penalize、prioritizeなどを用いるが、何をどの証拠から許容・重視したと読めるかの裏付けが十分でない。"
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "criterion": "B3.3",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K2/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The target essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology. This aligns with the rater's historical pattern of evaluating essays that show a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology. The rater may evaluate this essay as showing a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+      "input_source": "stage1/1868_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "数式・数値重みの捏造は見当たらないが、減点・優先度・低得点への因果説明は履歴だけでは確定しない。"
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "criterion": "B3.4",
+      "label": "partially_met",
+      "output_source": "stage1/1868_1__K2/parsed.json#/score_free_analysis/insufficient_evidence",
+      "output_evidence": [
+        "The history contains only a narrow range of essay quality, limiting the inference."
+      ],
+      "input_source": "stage1/1868_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "1868:1",
+        "history_ids": [
+          "5783:1",
+          "239:1",
+          "8666:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "不確実性欄は存在するが、どの説明が支持不足なのかより、品質混在や標本不足の一般論にとどまる。"
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "criterion": "B1.1",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K1/parsed.json#/score_free_analysis/history_patterns/0/pattern",
+      "output_evidence": "The rater tends to score essays lower when there are significant issues with cohesion, syntax, and grammar, even if vocabulary and phraseology are adequate.",
+      "input_source": "stage1/4902_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "評価語はあるが、一般的な特徴・基準の反復が中心で、本人の判断がどう異なるかの説明は限定的。"
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "criterion": "B1.2",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K1/parsed.json#/score_free_analysis/history_patterns/0/support",
+      "output_evidence": [
+        {
+          "history_essay_id": "8630:1",
+          "quotes": [
+            "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class or playin and isntrument inschool how would that hel ou you might get graded dependshow well you play yo even might get to go to an important event or go to elementary schools to go perform how well you and the band play youl probably resive medals forthat but in order to do that you got to stay after school so you get to learn how to play and instrument or get to train for soccer because soccer requires skill and resistance to breath wile running and science youl get to learn about so many subjects like about nature how velocity works the speed of sound gravity which person invented the light photosinthesis the mid night zone were life barely exist under the ocean in fact youl will never want to leave from the cass cause youl ejoyed that much and for soccer youl need alot of skills to play you could even go play against other schools get medals for that you might get to be the nexth messi but in order for that you got to stay almost every day so you pratice and get skills in conclusion if you get to stay after school your minds are going to be working and going to be mentaly occupied instead of think about other stuff you willl only get to think about sports youl get a better science grade and gim grade because you will be alble to get a beter scre in the pacer youl be able to run more because of all the ime you stayafter school playin soccer and runing and runnig in soccer its also good for health cause you lose weight when you play soccer."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 1,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay has significant issues with cohesion and syntax, with repetitive and unclear ideas, leading to a lower score."
+        },
+        {
+          "history_essay_id": "1462:1",
+          "quotes": [
+            "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay has clear ideas but struggles with cohesion and syntax, leading to a moderate score."
+        }
+      ],
+      "input_source": "stage1/4902_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "履歴2例と本人得点を挙げるが、引用箇所から全体の構成・語彙範囲・減点や優先度まで導く根拠が弱い。"
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "criterion": "B1.3",
+      "label": "met",
+      "output_source": "stage1/4902_1__K1/parsed.json#/score_free_analysis/history_patterns/0/support",
+      "output_evidence": [
+        {
+          "history_essay_id": "8630:1",
+          "quotes": [
+            "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class or playin and isntrument inschool how would that hel ou you might get graded dependshow well you play yo even might get to go to an important event or go to elementary schools to go perform how well you and the band play youl probably resive medals forthat but in order to do that you got to stay after school so you get to learn how to play and instrument or get to train for soccer because soccer requires skill and resistance to breath wile running and science youl get to learn about so many subjects like about nature how velocity works the speed of sound gravity which person invented the light photosinthesis the mid night zone were life barely exist under the ocean in fact youl will never want to leave from the cass cause youl ejoyed that much and for soccer youl need alot of skills to play you could even go play against other schools get medals for that you might get to be the nexth messi but in order for that you got to stay almost every day so you pratice and get skills in conclusion if you get to stay after school your minds are going to be working and going to be mentaly occupied instead of think about other stuff you willl only get to think about sports youl get a better science grade and gim grade because you will be alble to get a beter scre in the pacer youl be able to run more because of all the ime you stayafter school playin soccer and runing and runnig in soccer its also good for health cause you lose weight when you play soccer."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 1,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay has significant issues with cohesion and syntax, with repetitive and unclear ideas, leading to a lower score."
+        },
+        {
+          "history_essay_id": "1462:1",
+          "quotes": [
+            "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay has clear ideas but struggles with cohesion and syntax, leading to a moderate score."
+        }
+      ],
+      "input_source": "stage1/4902_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "異なる履歴答案2件が明示され、対象だけを根拠にはしていない。ただしこれだけで恒常的傾向は確立しない。"
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "criterion": "B1.4",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K1/parsed.json#/score_free_analysis/history_patterns/0/counterevidence",
+      "output_evidence": [
+        {
+          "history_essay_id": "8722:1",
+          "quotes": [
+            "Dear Principle, If our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online. Some schools in other school districts have changed their school menu and many students and parents do not like it nor agree with it."
+          ],
+          "interpretation": "This essay demonstrates strong cohesion and syntax, leading to a higher score."
+        }
+      ],
+      "input_source": "stage1/4902_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "第三の履歴とlimitationsはあるが、何を反証するか・説明をどこまで弱めるかが具体的でない。"
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "criterion": "B2.1",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K1/parsed.json#/score_free_analysis/target_evidence/0/quotes",
+      "output_evidence": [
+        "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself."
+      ],
+      "input_source": "stage1/4902_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. but Why be basic like everyone else. Don't you want to be different from everybody else in the world?? Acting or pretending just so you can fit in with your friend. friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. if i want to accomplish something i need to be like everyone and follow what they are doing. Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n\r\nin conucluesion\r\n\r\nits all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. ",
+        "mechanical_checks_source": "stage1/4902_1__K1/mechanical_checks.json"
+      },
+      "provisional_reason": "完全一致は機械検証の結果を併記。空白・改行の差も不一致と数え、生成原文を修復しない。"
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "criterion": "B2.2",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K1/parsed.json#/score_free_analysis/target_evidence/0",
+      "output_evidence": {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself."
+        ],
+        "observable_feature": "The essay has clear ideas but struggles with cohesion and syntax, with repetitive and unclear ideas.",
+        "evaluative_interpretation": "The essay demonstrates a clear stance but has issues with cohesion and syntax, which may lead to a lower score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for a score of 3 indicates limited facility in sentence formation, word choice, and mechanics, with communication impeded in some cases.",
+        "uncertainty": "The essay's clear ideas and adequate vocabulary may be seen as strengths, but the issues with cohesion and syntax are significant."
+      },
+      "input_source": "stage1/4902_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. but Why be basic like everyone else. Don't you want to be different from everybody else in the world?? Acting or pretending just so you can fit in with your friend. friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. if i want to accomplish something i need to be like everyone and follow what they are doing. Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n\r\nin conucluesion\r\n\r\nits all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. ",
+        "mechanical_checks_source": "stage1/4902_1__K1/mechanical_checks.json"
+      },
+      "provisional_reason": "対象引用はあるが、一つの証拠T1に広い観点をまとめ、引用からの推論と全体評価を十分に区別しない。"
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "criterion": "B2.3",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K1/parsed.json#/score_free_analysis/target_evidence/0/observable_feature",
+      "output_evidence": "The essay has clear ideas but struggles with cohesion and syntax, with repetitive and unclear ideas.",
+      "input_source": "stage1/4902_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. but Why be basic like everyone else. Don't you want to be different from everybody else in the world?? Acting or pretending just so you can fit in with your friend. friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. if i want to accomplish something i need to be like everyone and follow what they are doing. Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n\r\nin conucluesion\r\n\r\nits all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. ",
+        "mechanical_checks_source": "stage1/4902_1__K1/mechanical_checks.json"
+      },
+      "provisional_reason": "awkwardnessや文形成上の問題を示唆する本文はあるが、特定の構造・読み・分布を精査せず全体の頻度や程度へ広げる。"
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "criterion": "B2.4",
+      "label": "not_met",
+      "output_source": "stage1/4902_1__K1/parsed.json#/score_free_analysis/target_evidence/0",
+      "output_evidence": {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself."
+        ],
+        "observable_feature": "The essay has clear ideas but struggles with cohesion and syntax, with repetitive and unclear ideas.",
+        "evaluative_interpretation": "The essay demonstrates a clear stance but has issues with cohesion and syntax, which may lead to a lower score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for a score of 3 indicates limited facility in sentence formation, word choice, and mechanics, with communication impeded in some cases.",
+        "uncertainty": "The essay's clear ideas and adequate vocabulary may be seen as strengths, but the issues with cohesion and syntax are significant."
+      },
+      "input_source": "stage1/4902_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. but Why be basic like everyone else. Don't you want to be different from everybody else in the world?? Acting or pretending just so you can fit in with your friend. friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. if i want to accomplish something i need to be like everyone and follow what they are doing. Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n\r\nin conucluesion\r\n\r\nits all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. ",
+        "mechanical_checks_source": "stage1/4902_1__K1/mechanical_checks.json"
+      },
+      "provisional_reason": "rubric_connectionに“communication impeded in some cases”とあるが、どこで何が読めなくなるかの分析がなく、引用への結び付けが不足。"
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "criterion": "B3.1",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K1/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The target essay demonstrates clear ideas and adequate vocabulary, but it struggles with cohesion and syntax, leading to a lower score. This aligns with the historical pattern observed in the rater's scoring, where essays with significant issues in cohesion and syntax receive lower scores despite having adequate vocabulary and phraseology.",
+      "input_source": "stage1/4902_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "履歴と対象を接続する文はあるが、特徴の同名反復が中心で、観測Overallを説明する判断関係は限定的。"
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "criterion": "B3.2",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K1/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The target essay demonstrates clear ideas and adequate vocabulary, but it struggles with cohesion and syntax, leading to a lower score. This aligns with the historical pattern observed in the rater's scoring, where essays with significant issues in cohesion and syntax receive lower scores despite having adequate vocabulary and phraseology.",
+      "input_source": "stage1/4902_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "balance、penalize、prioritizeなどを用いるが、何をどの証拠から許容・重視したと読めるかの裏付けが十分でない。"
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "criterion": "B3.3",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K1/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The target essay demonstrates clear ideas and adequate vocabulary, but it struggles with cohesion and syntax, leading to a lower score. This aligns with the historical pattern observed in the rater's scoring, where essays with significant issues in cohesion and syntax receive lower scores despite having adequate vocabulary and phraseology.",
+      "input_source": "stage1/4902_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "数式・数値重みの捏造は見当たらないが、減点・優先度・低得点への因果説明は履歴だけでは確定しない。"
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "criterion": "B3.4",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K1/parsed.json#/score_free_analysis/insufficient_evidence",
+      "output_evidence": [
+        "The target essay's clear ideas and adequate vocabulary are not sufficient to establish a higher score, as the rater tends to prioritize cohesion and syntax."
+      ],
+      "input_source": "stage1/4902_1__K1/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "不確実性欄は存在するが、どの説明が支持不足なのかより、品質混在や標本不足の一般論にとどまる。"
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "criterion": "B1.1",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K2/parsed.json#/score_free_analysis/history_patterns/0/pattern",
+      "output_evidence": "The rater appears to evaluate essays with limited cohesion and syntax negatively, often assigning lower scores when the text lacks clear organization and has frequent errors in sentence structure.",
+      "input_source": "stage1/4902_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "評価語はあるが、一般的な特徴・基準の反復が中心で、本人の判断がどう異なるかの説明は限定的。"
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "criterion": "B1.2",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K2/parsed.json#/score_free_analysis/history_patterns/0/support",
+      "output_evidence": [
+        {
+          "history_essay_id": "8630:1",
+          "quotes": [
+            "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 1,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay lacks clear organization and has frequent errors in sentence structure, which aligns with the lower scores given."
+        },
+        {
+          "history_essay_id": "1462:1",
+          "quotes": [
+            "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay has a more coherent structure but still contains errors in sentence formation and vocabulary usage, which aligns with the lower scores given."
+        }
+      ],
+      "input_source": "stage1/4902_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "履歴2例と本人得点を挙げるが、引用箇所から全体の構成・語彙範囲・減点や優先度まで導く根拠が弱い。"
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "criterion": "B1.3",
+      "label": "met",
+      "output_source": "stage1/4902_1__K2/parsed.json#/score_free_analysis/history_patterns/0/support",
+      "output_evidence": [
+        {
+          "history_essay_id": "8630:1",
+          "quotes": [
+            "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 1,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay lacks clear organization and has frequent errors in sentence structure, which aligns with the lower scores given."
+        },
+        {
+          "history_essay_id": "1462:1",
+          "quotes": [
+            "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay has a more coherent structure but still contains errors in sentence formation and vocabulary usage, which aligns with the lower scores given."
+        }
+      ],
+      "input_source": "stage1/4902_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "異なる履歴答案2件が明示され、対象だけを根拠にはしていない。ただしこれだけで恒常的傾向は確立しない。"
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "criterion": "B1.4",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K2/parsed.json#/score_free_analysis/history_patterns/0/counterevidence",
+      "output_evidence": [
+        {
+          "history_essay_id": "8722:1",
+          "quotes": [
+            "Dear Principle, If our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online."
+          ],
+          "interpretation": "This essay demonstrates better cohesion and syntax, which contrasts with the lower scores given in other essays with similar issues."
+        }
+      ],
+      "input_source": "stage1/4902_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "第三の履歴とlimitationsはあるが、何を反証するか・説明をどこまで弱めるかが具体的でない。"
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "criterion": "B2.1",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K2/parsed.json#/score_free_analysis/target_evidence/0/quotes",
+      "output_evidence": [
+        "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself."
+      ],
+      "input_source": "stage1/4902_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. but Why be basic like everyone else. Don't you want to be different from everybody else in the world?? Acting or pretending just so you can fit in with your friend. friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. if i want to accomplish something i need to be like everyone and follow what they are doing. Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n\r\nin conucluesion\r\n\r\nits all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. ",
+        "mechanical_checks_source": "stage1/4902_1__K2/mechanical_checks.json"
+      },
+      "provisional_reason": "完全一致は機械検証の結果を併記。空白・改行の差も不一致と数え、生成原文を修復しない。"
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "criterion": "B2.2",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K2/parsed.json#/score_free_analysis/target_evidence/0",
+      "output_evidence": {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself."
+        ],
+        "observable_feature": "The essay demonstrates limited cohesion and syntax, with frequent errors in sentence structure and vocabulary usage.",
+        "evaluative_interpretation": "The rater may evaluate this essay negatively due to its lack of clear organization and frequent errors in sentence structure.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for scores 2 and 3 indicates that communication is impeded by language inaccuracies and that there are many sentence structure problems.",
+        "uncertainty": "The essay's overall coherence and vocabulary usage are somewhat inconsistent, making it challenging to predict the exact score."
+      },
+      "input_source": "stage1/4902_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. but Why be basic like everyone else. Don't you want to be different from everybody else in the world?? Acting or pretending just so you can fit in with your friend. friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. if i want to accomplish something i need to be like everyone and follow what they are doing. Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n\r\nin conucluesion\r\n\r\nits all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. ",
+        "mechanical_checks_source": "stage1/4902_1__K2/mechanical_checks.json"
+      },
+      "provisional_reason": "対象引用はあるが、一つの証拠T1に広い観点をまとめ、引用からの推論と全体評価を十分に区別しない。"
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "criterion": "B2.3",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K2/parsed.json#/score_free_analysis/target_evidence/0/observable_feature",
+      "output_evidence": "The essay demonstrates limited cohesion and syntax, with frequent errors in sentence structure and vocabulary usage.",
+      "input_source": "stage1/4902_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. but Why be basic like everyone else. Don't you want to be different from everybody else in the world?? Acting or pretending just so you can fit in with your friend. friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. if i want to accomplish something i need to be like everyone and follow what they are doing. Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n\r\nin conucluesion\r\n\r\nits all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. ",
+        "mechanical_checks_source": "stage1/4902_1__K2/mechanical_checks.json"
+      },
+      "provisional_reason": "awkwardnessや文形成上の問題を示唆する本文はあるが、特定の構造・読み・分布を精査せず全体の頻度や程度へ広げる。"
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "criterion": "B2.4",
+      "label": "not_assessable",
+      "output_source": "stage1/4902_1__K2/parsed.json#/score_free_analysis/target_evidence/0",
+      "output_evidence": {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself."
+        ],
+        "observable_feature": "The essay demonstrates limited cohesion and syntax, with frequent errors in sentence structure and vocabulary usage.",
+        "evaluative_interpretation": "The rater may evaluate this essay negatively due to its lack of clear organization and frequent errors in sentence structure.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for scores 2 and 3 indicates that communication is impeded by language inaccuracies and that there are many sentence structure problems.",
+        "uncertainty": "The essay's overall coherence and vocabulary usage are somewhat inconsistent, making it challenging to predict the exact score."
+      },
+      "input_source": "stage1/4902_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "source_target_text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. but Why be basic like everyone else. Don't you want to be different from everybody else in the world?? Acting or pretending just so you can fit in with your friend. friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. if i want to accomplish something i need to be like everyone and follow what they are doing. Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n\r\nin conucluesion\r\n\r\nits all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. ",
+        "mechanical_checks_source": "stage1/4902_1__K2/mechanical_checks.json"
+      },
+      "provisional_reason": "具体的にどの解釈が成立せず意味が不明になるかを分析していない。誤り存在だけで意味妨害を認定できない。"
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "criterion": "B3.1",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K2/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The target essay demonstrates limited cohesion and syntax, with frequent errors in sentence structure and vocabulary usage. This aligns with the rater's historical pattern of evaluating essays with similar issues negatively. The rater appears to consider the lack of clear organization and frequent errors in sentence structure as significant factors in assigning lower scores.",
+      "input_source": "stage1/4902_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "履歴と対象を接続する文はあるが、特徴の同名反復が中心で、観測Overallを説明する判断関係は限定的。"
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "criterion": "B3.2",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K2/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The target essay demonstrates limited cohesion and syntax, with frequent errors in sentence structure and vocabulary usage. This aligns with the rater's historical pattern of evaluating essays with similar issues negatively. The rater appears to consider the lack of clear organization and frequent errors in sentence structure as significant factors in assigning lower scores.",
+      "input_source": "stage1/4902_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "balance、penalize、prioritizeなどを用いるが、何をどの証拠から許容・重視したと読めるかの裏付けが十分でない。"
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "criterion": "B3.3",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K2/parsed.json#/score_free_analysis/decision_explanation",
+      "output_evidence": "The target essay demonstrates limited cohesion and syntax, with frequent errors in sentence structure and vocabulary usage. This aligns with the rater's historical pattern of evaluating essays with similar issues negatively. The rater appears to consider the lack of clear organization and frequent errors in sentence structure as significant factors in assigning lower scores.",
+      "input_source": "stage1/4902_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "数式・数値重みの捏造は見当たらないが、減点・優先度・低得点への因果説明は履歴だけでは確定しない。"
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "criterion": "B3.4",
+      "label": "partially_met",
+      "output_source": "stage1/4902_1__K2/parsed.json#/score_free_analysis/insufficient_evidence",
+      "output_evidence": [
+        "The history contains a mix of scores, making it difficult to establish a consistent pattern."
+      ],
+      "input_source": "stage1/4902_1__K2/input.json",
+      "input_evidence": {
+        "target_essay_id": "4902:1",
+        "history_ids": [
+          "8630:1",
+          "1462:1",
+          "8722:1"
+        ],
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        }
+      },
+      "provisional_reason": "不確実性欄は存在するが、どの説明が支持不足なのかより、品質混在や標本不足の一般論にとどまる。"
+    }
+  ],
+  "integrated_feedback": {
+    "C1": {
+      "label": "not_assessable",
+      "reason": "No accepted records; Stage3 skipped. No output exists."
+    },
+    "C2": {
+      "label": "not_assessable",
+      "reason": "No accepted records; Stage3 skipped. No output exists."
+    },
+    "C3": {
+      "label": "not_assessable",
+      "reason": "No accepted records; Stage3 skipped. No output exists."
+    },
+    "C4": {
+      "label": "not_assessable",
+      "reason": "No accepted records; Stage3 skipped. No output exists."
+    },
+    "C5": {
+      "label": "not_assessable",
+      "reason": "No accepted records; Stage3 skipped. No output exists."
+    },
+    "C6": {
+      "label": "not_assessable",
+      "reason": "No accepted records; Stage3 skipped. No output exists."
+    },
+    "C7": {
+      "label": "not_assessable",
+      "reason": "No accepted records; Stage3 skipped. No output exists."
+    },
+    "C8": {
+      "label": "not_assessable",
+      "reason": "No accepted records; Stage3 skipped. No output exists."
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "1868:1",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "pattern": "The rater appears to evaluate essays that show a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+        "support": [
+          {
+            "history_essay_id": "5783:1",
+            "quotes": ["\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Vocabulary": 4,
+                "Phraseology": 3
+              }
+            },
+            "interpretation": "The essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology."
+          },
+          {
+            "history_essay_id": "8666:1",
+            "quotes": ["Many students like to reach a grade average of a B, but they cant and it be wonderful of them to get a grade like that."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Vocabulary": 4,
+                "Phraseology": 3
+              }
+            },
+            "interpretation": "The essay shows a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "239:1",
+            "quotes": ["Dear principal, I agree to policy 2 because the student don't pay any attention in class and the students are texting during in class."],
+            "interpretation": "This essay shows a partially developed organization and limited vocabulary and phraseology, which contrasts with the pattern."
+          }
+        ],
+        "limitations": ["The history contains only a narrow range of essay quality, limiting the inference."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "quotes": ["The main piece to improve your skills is during the process of keep learning.", "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things."],
+        "observable_feature": "The essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+        "evaluative_interpretation": "The rater may evaluate this essay as showing a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for a score of 3 indicates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+        "uncertainty": "The essay's organization and vocabulary are generally controlled, but there are some limitations in cohesion and occasional inaccuracies in phraseology."
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology. This aligns with the rater's historical pattern of evaluating essays that show a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology. The rater may evaluate this essay as showing a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+    "insufficient_evidence": ["The history contains only a narrow range of essay quality, limiting the inference."]
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Vocabulary": 4,
+        "Phraseology": 4
+      }
+    },
+    "overall_alignment": "The observed Overall score of 3 aligns with the rater's historical pattern of evaluating essays that show a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The observed score of 3 for Cohesion aligns with the evidence that the essay demonstrates a generally controlled organization with some limitations in cohesion."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The observed score of 4 for Vocabulary aligns with the evidence that the essay demonstrates a range of vocabulary."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The observed score of 4 for Phraseology aligns with the evidence that the essay demonstrates a range of phraseology, but with occasional inaccuracies."
+      }
+    ],
+    "explanatory_status": "supported_interpretation",
+    "unresolved_tensions": ["The history contains only a narrow range of essay quality, limiting the inference."]
+  }
+}

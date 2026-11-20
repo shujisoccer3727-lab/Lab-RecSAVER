@@ -1,0 +1,16 @@
+{
+  "rules": "Heuristic prose matching; exclude exact quotes and explicitly labeled history score objects. Suspicions require semantic review; no rewriting.",
+  "suspicions": [
+    {
+      "path": "/score_free_analysis/target_evidence/0/rubric_connection",
+      "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions|score|band|level)\\s*(?:score\\s*)?(?:is|of|was|=|:|at|assigned|rated)?\\s*(?:[1-5](?:\\.\\d+)?|one|two|three|four|five)\\b",
+      "text": "The rubric descriptors for Overall score 3 indicate a mix of effective language use and noticeable errors, which aligns with the observed features of the essay."
+    },
+    {
+      "path": "/score_free_analysis/decision_explanation",
+      "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions|score|band|level)\\s*(?:score\\s*)?(?:is|of|was|=|:|at|assigned|rated)?\\s*(?:[1-5](?:\\.\\d+)?|one|two|three|four|five)\\b",
+      "text": "The rater appears to have evaluated the essay based on its balance of strengths and weaknesses, giving it a score that reflects a moderate level of proficiency. The essay demonstrates a mix of effective and less effective language use, with some errors in syntax and cohesion, which aligns with the rubric descriptors for Overall score 3. This interpretation is supported by the rater's history of evaluating essays with a mix of strengths and weaknesses."
+    }
+  ],
+  "confirmed_leak": null
+}

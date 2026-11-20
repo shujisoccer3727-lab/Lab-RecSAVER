@@ -1,0 +1,263 @@
+{
+  "quote_checks": [
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+      "essay_id": "8630:1",
+      "quote": "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class",
+      "exact": false
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+      "essay_id": "1462:1",
+      "quote": "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club.",
+      "exact": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/counterevidence/0/quotes/0",
+      "essay_id": "8722:1",
+      "quote": "Dear Principle, If our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online.",
+      "exact": false
+    },
+    {
+      "path": "/score_free_analysis/target_evidence/0/quotes/0",
+      "essay_id": "4902:1",
+      "quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.",
+      "exact": true
+    }
+  ],
+  "id_checks": [
+    {
+      "path": "",
+      "essay_id": "4902:1",
+      "exists": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0",
+      "essay_id": "8630:1",
+      "exists": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1",
+      "essay_id": "1462:1",
+      "exists": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/counterevidence/0",
+      "essay_id": "8722:1",
+      "exists": true
+    }
+  ],
+  "score_checks": [
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Overall",
+      "essay_id": "8630:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Cohesion",
+      "essay_id": "8630:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Syntax",
+      "essay_id": "8630:1",
+      "value": 2,
+      "expected": 2,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Vocabulary",
+      "essay_id": "8630:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Phraseology",
+      "essay_id": "8630:1",
+      "value": 1,
+      "expected": 1,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Grammar",
+      "essay_id": "8630:1",
+      "value": 2,
+      "expected": 2,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/0/relevant_observed_history_scores/Conventions",
+      "essay_id": "8630:1",
+      "value": 2,
+      "expected": 2,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Overall",
+      "essay_id": "1462:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Cohesion",
+      "essay_id": "1462:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Syntax",
+      "essay_id": "1462:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Vocabulary",
+      "essay_id": "1462:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Phraseology",
+      "essay_id": "1462:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Grammar",
+      "essay_id": "1462:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/relevant_observed_history_scores/Conventions",
+      "essay_id": "1462:1",
+      "value": 2,
+      "expected": 2,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Overall",
+      "essay_id": "4902:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Cohesion",
+      "essay_id": "4902:1",
+      "value": 2,
+      "expected": 2,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Syntax",
+      "essay_id": "4902:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Vocabulary",
+      "essay_id": "4902:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Phraseology",
+      "essay_id": "4902:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Grammar",
+      "essay_id": "4902:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Conventions",
+      "essay_id": "4902:1",
+      "value": 3,
+      "expected": 3,
+      "equal": true
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Overall",
+      "equal": true,
+      "value": 3,
+      "expected": 3
+    },
+    {
+      "path": "/observed_score_alignment/observed_target_scores/Traits",
+      "equal": true,
+      "value": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      },
+      "expected": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    }
+  ],
+  "reference_checks": [
+    {
+      "reference": "H1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    },
+    {
+      "reference": "T1",
+      "exists": true
+    }
+  ],
+  "counts": null,
+  "summary": {
+    "quotes_checked": 4,
+    "quote_mismatches": 2,
+    "invalid_essay_ids": 0,
+    "score_mismatches": 0,
+    "invalid_references": 0
+  }
+}

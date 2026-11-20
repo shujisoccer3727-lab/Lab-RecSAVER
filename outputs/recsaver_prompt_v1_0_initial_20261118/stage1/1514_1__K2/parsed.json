@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "1514:1",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "The rater appears to evaluate essays with a mix of strengths and weaknesses, often giving scores that reflect a balanced consideration of the essay's overall quality. The rater seems to appreciate essays with a clear structure and varied vocabulary but penalizes for grammatical errors and awkward phrasing.",
+        "support": [
+          {
+            "history_essay_id": "217:1",
+            "quotes": [
+              "Dear principal",
+              "I think policy 1 is better because students may have to call someone for an emergence or call there parent to pick them up after school."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 4,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows a mix of clear structure and varied vocabulary but also contains grammatical errors and awkward phrasing, which aligns with the rater's balanced evaluation."
+          },
+          {
+            "history_essay_id": "1440:1",
+            "quotes": [
+              "The schools should not add more time because it will be to hard for the students.",
+              "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates a clear structure and varied vocabulary but also contains grammatical errors and awkward phrasing, which aligns with the rater's balanced evaluation."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "8745:1",
+            "quotes": [
+              "In many student's life, there is a set goal of succeeding in school in order to open doors in the future.",
+              "It is no secret that engineering is one of the fields that require numerous math classes."
+            ],
+            "interpretation": "This essay shows a more polished structure and varied vocabulary with fewer grammatical errors, which contrasts with the rater's balanced evaluation but still aligns with the overall pattern."
+          }
+        ],
+        "limitations": [
+          "The history contains a mix of scores, which limits the inference of a strict pattern."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+          "For example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future."
+        ],
+        "observable_feature": "The essay demonstrates a clear structure and varied vocabulary but also contains grammatical errors and awkward phrasing.",
+        "evaluative_interpretation": "The rater likely appreciates the clear structure and varied vocabulary but penalizes for grammatical errors and awkward phrasing.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for Overall score 3 indicates facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage.",
+        "uncertainty": "The essay's clear structure and varied vocabulary contrast with the grammatical errors and awkward phrasing, which may lead to a balanced evaluation."
+      }
+    ],
+    "decision_explanation": "The rater likely evaluated the target essay based on a balanced consideration of its strengths and weaknesses. The essay demonstrates a clear structure and varied vocabulary, which aligns with the rater's appreciation for these features. However, the presence of grammatical errors and awkward phrasing may have led the rater to penalize the essay, resulting in an Overall score that reflects a balanced evaluation.",
+    "insufficient_evidence": [
+      "The history does not provide a strict pattern for the rater's scoring, limiting the inference of a stable characteristic."
+    ]
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The observed Overall score of 3 aligns with the rater's balanced evaluation of the essay's strengths and weaknesses, reflecting the clear structure and varied vocabulary but also penalizing for grammatical errors and awkward phrasing.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The observed score of 4 aligns with the essay's clear structure and logical sequencing of ideas, which the rater likely appreciated."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The observed score of 3 aligns with the essay's varied sentence structures but also the presence of some errors in sentence formation, which the rater likely penalized."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The observed score of 3 aligns with the essay's varied vocabulary but also the presence of some awkward phrasing and errors in word use, which the rater likely penalized."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The observed score of 3 aligns with the essay's varied use of phrases but also the presence of some awkward phrasing and errors in phrase use, which the rater likely penalized."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The observed score of 3 aligns with the essay's varied sentence structures but also the presence of some errors in grammar and usage, which the rater likely penalized."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The observed score of 4 aligns with the essay's generally consistent use of conventions but also the presence of some errors in spelling, capitalization, and punctuation, which the rater likely penalized."
+      }
+    ],
+    "explanatory_status": "supported_interpretation",
+    "unresolved_tensions": [
+      "The essay's clear structure and varied vocabulary contrast with the grammatical errors and awkward phrasing, which may lead to a balanced evaluation."
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "1514_1__K1": {
+    "confirmed_leak": true,
+    "reviewer": "Codex provisional semantic inspection",
+    "source": "stage1/1514_1__K1/parsed.json#/score_free_analysis/target_evidence/0/rubric_connection",
+    "quote": "The rubric descriptors for Overall score 3 indicate a mix of effective language use and noticeable errors, which aligns with the observed features of the essay.",
+    "reason": "target_evidence/T1のrubric_connectionが対象に数値3の帯を適用・整合させる。履歴得点でも答案内の数字でもなく、対象のscore-free部分への番号付き帯の持込みと判断。",
+    "machine_suspicions": 2,
+    "note": "No text rewritten. The plural-band case was found in semantic review despite zero machine hits."
+  },
+  "1514_1__K2": {
+    "confirmed_leak": true,
+    "reviewer": "Codex provisional semantic inspection",
+    "source": "stage1/1514_1__K2/parsed.json#/score_free_analysis/target_evidence/0/rubric_connection",
+    "quote": "The rubric for Overall score 3 indicates facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage.",
+    "reason": "target_evidence/T1のrubric_connectionが対象に数値3の帯を適用・整合させる。履歴得点でも答案内の数字でもなく、対象のscore-free部分への番号付き帯の持込みと判断。",
+    "machine_suspicions": 1,
+    "note": "No text rewritten. The plural-band case was found in semantic review despite zero machine hits."
+  },
+  "1868_1__K1": {
+    "confirmed_leak": true,
+    "reviewer": "Codex provisional semantic inspection",
+    "source": "stage1/1868_1__K1/parsed.json#/score_free_analysis/target_evidence/0/rubric_connection",
+    "quote": "The rubric for a score of 3 in Cohesion, Vocabulary, and Phraseology aligns with this evaluation.",
+    "reason": "target_evidence/T1のrubric_connectionが対象に数値3の帯を適用・整合させる。履歴得点でも答案内の数字でもなく、対象のscore-free部分への番号付き帯の持込みと判断。",
+    "machine_suspicions": 1,
+    "note": "No text rewritten. The plural-band case was found in semantic review despite zero machine hits."
+  },
+  "1868_1__K2": {
+    "confirmed_leak": true,
+    "reviewer": "Codex provisional semantic inspection",
+    "source": "stage1/1868_1__K2/parsed.json#/score_free_analysis/target_evidence/0/rubric_connection",
+    "quote": "The rubric for a score of 3 indicates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+    "reason": "target_evidence/T1のrubric_connectionが対象に数値3の帯を適用・整合させる。履歴得点でも答案内の数字でもなく、対象のscore-free部分への番号付き帯の持込みと判断。",
+    "machine_suspicions": 1,
+    "note": "No text rewritten. The plural-band case was found in semantic review despite zero machine hits."
+  },
+  "4902_1__K1": {
+    "confirmed_leak": true,
+    "reviewer": "Codex provisional semantic inspection",
+    "source": "stage1/4902_1__K1/parsed.json#/score_free_analysis/target_evidence/0/rubric_connection",
+    "quote": "The rubric for a score of 3 indicates limited facility in sentence formation, word choice, and mechanics, with communication impeded in some cases.",
+    "reason": "target_evidence/T1のrubric_connectionが対象に数値3の帯を適用・整合させる。履歴得点でも答案内の数字でもなく、対象のscore-free部分への番号付き帯の持込みと判断。",
+    "machine_suspicions": 1,
+    "note": "No text rewritten. The plural-band case was found in semantic review despite zero machine hits."
+  },
+  "4902_1__K2": {
+    "confirmed_leak": false,
+    "reviewer": "Codex provisional semantic inspection",
+    "source": "stage1/4902_1__K2/parsed.json#/score_free_analysis/target_evidence/0/rubric_connection",
+    "quote": "The rubric for scores 2 and 3 indicates that communication is impeded by language inaccuracies and that there are many sentence structure problems.",
+    "reason": "“The rubric for scores 2 and 3 ...”は対象の観測値を一意に復元する開示とは確認できない。複数bandの数値を含むことは別途指示遵守上の懸念として残す。",
+    "machine_suspicions": 0,
+    "note": "No text rewritten. The plural-band case was found in semantic review despite zero machine hits."
+  }
+}
