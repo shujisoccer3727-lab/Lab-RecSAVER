@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.3",
+  "target_essay_id": "4902:1",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "evidence_span_ids": [
+        "E4902_1_P001_S001",
+        "E4902_1_P001_S002"
+      ],
+      "feature": "The essay begins with a quote and then provides a reason for agreeing with it, but the transition between these two sentences is not smooth.",
+      "scoring_relevance": "The lack of a smooth transition between the quote and the explanation of agreement indicates a repetitive and mechanical use of cohesive devices, which is consistent with a Cohesion score of 2.",
+      "limitation": "This observation is limited to the first two sentences and does not establish the overall cohesion of the essay.",
+      "next_check": "Inspect the transitions between other paragraphs and sentences to determine if the same pattern of repetitive and mechanical use of cohesive devices is present."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Grammar",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "evidence_span_ids": [
+        "E4902_1_P001_S003"
+      ],
+      "feature": "The sentence contains grammatical errors, such as 'them self' instead of 'themselves'.",
+      "scoring_relevance": "The presence of grammatical errors like these is consistent with a Grammar score of 3, indicating some errors in grammar and usage.",
+      "limitation": "This observation is limited to one sentence and does not establish the overall grammar proficiency of the essay.",
+      "next_check": "Review other sentences in the essay to determine if similar grammatical errors are present."
+    },
+    {
+      "observation_id": "O3",
+      "dimension": "Conventions",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "evidence_span_ids": [
+        "E4902_1_P004_S001"
+      ],
+      "feature": "The concluding paragraph begins with a misspelled word 'conucluesion'.",
+      "scoring_relevance": "The misspelling of 'conclusion' is consistent with a Conventions score of 3, indicating developing use of conventions with errors that are sometimes distracting.",
+      "limitation": "This observation is limited to one misspelled word and does not establish the overall use of conventions in the essay.",
+      "next_check": "Inspect other parts of the essay for additional spelling, capitalization, and punctuation errors."
+    }
+  ],
+  "source_analysis_issues": [],
+  "insufficient_evidence": []
+}

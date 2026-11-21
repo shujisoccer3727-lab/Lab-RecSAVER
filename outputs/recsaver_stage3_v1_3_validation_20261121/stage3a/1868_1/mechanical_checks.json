@@ -1,0 +1,273 @@
+{
+  "top_errors": [],
+  "observation_checks": [
+    {
+      "index": 0,
+      "observation_id": "O1",
+      "pass_": true,
+      "reasons": [],
+      "quote_checks": [
+        {
+          "quote": "The main piece to improve your skills is during the process of keep learning.",
+          "exact": true,
+          "all_start_offsets": [
+            0
+          ]
+        },
+        {
+          "quote": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.",
+          "exact": true,
+          "all_start_offsets": [
+            611
+          ]
+        },
+        {
+          "quote": "Convince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more.",
+          "exact": true,
+          "all_start_offsets": [
+            769
+          ]
+        },
+        {
+          "quote": "There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.",
+          "exact": true,
+          "all_start_offsets": [
+            1269
+          ]
+        }
+      ],
+      "distinct_evidence_locations": 4,
+      "semantic_support_not_certified": true,
+      "span_audit": {
+        "index": 0,
+        "span_ids": [
+          "E1868_1_P001_S001",
+          "E1868_1_P001_S005",
+          "E1868_1_P002_S001",
+          "E1868_1_P002_S005"
+        ],
+        "selected_spans": [
+          {
+            "span_id": "E1868_1_P001_S001",
+            "paragraph_id": "E1868_1_P001",
+            "start": 0,
+            "end": 77,
+            "text": "The main piece to improve your skills is during the process of keep learning.",
+            "kind": "short_contiguous"
+          },
+          {
+            "span_id": "E1868_1_P001_S005",
+            "paragraph_id": "E1868_1_P001",
+            "start": 611,
+            "end": 765,
+            "text": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.",
+            "kind": "short_contiguous"
+          },
+          {
+            "span_id": "E1868_1_P002_S001",
+            "paragraph_id": "E1868_1_P002",
+            "start": 769,
+            "end": 881,
+            "text": "Convince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more.",
+            "kind": "short_contiguous"
+          },
+          {
+            "span_id": "E1868_1_P002_S005",
+            "paragraph_id": "E1868_1_P002",
+            "start": 1269,
+            "end": 1424,
+            "text": "There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.",
+            "kind": "short_contiguous"
+          }
+        ],
+        "reconstructed_quotes": [
+          "The main piece to improve your skills is during the process of keep learning.",
+          "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.",
+          "Convince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more.",
+          "There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day."
+        ],
+        "independent_nonoverlapping_spans": 4,
+        "errors": []
+      }
+    },
+    {
+      "index": 1,
+      "observation_id": "O2",
+      "pass_": true,
+      "reasons": [],
+      "quote_checks": [
+        {
+          "quote": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career.",
+          "exact": true,
+          "all_start_offsets": [
+            368
+          ]
+        },
+        {
+          "quote": "Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath.",
+          "exact": true,
+          "all_start_offsets": [
+            1043
+          ]
+        },
+        {
+          "quote": "They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages.",
+          "exact": true,
+          "all_start_offsets": [
+            2317
+          ]
+        },
+        {
+          "quote": "Like is being remarked again the importance of keep learning to do new things so you can grow.",
+          "exact": true,
+          "all_start_offsets": [
+            4032
+          ]
+        }
+      ],
+      "distinct_evidence_locations": 4,
+      "semantic_support_not_certified": true,
+      "span_audit": {
+        "index": 1,
+        "span_ids": [
+          "E1868_1_P001_S004",
+          "E1868_1_P002_S003",
+          "E1868_1_P005_S004",
+          "E1868_1_P008_S005"
+        ],
+        "selected_spans": [
+          {
+            "span_id": "E1868_1_P001_S004",
+            "paragraph_id": "E1868_1_P001",
+            "start": 368,
+            "end": 610,
+            "text": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career.",
+            "kind": "short_contiguous"
+          },
+          {
+            "span_id": "E1868_1_P002_S003",
+            "paragraph_id": "E1868_1_P002",
+            "start": 1043,
+            "end": 1172,
+            "text": "Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath.",
+            "kind": "short_contiguous"
+          },
+          {
+            "span_id": "E1868_1_P005_S004",
+            "paragraph_id": "E1868_1_P005",
+            "start": 2317,
+            "end": 2478,
+            "text": "They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages.",
+            "kind": "short_contiguous"
+          },
+          {
+            "span_id": "E1868_1_P008_S005",
+            "paragraph_id": "E1868_1_P008",
+            "start": 4032,
+            "end": 4126,
+            "text": "Like is being remarked again the importance of keep learning to do new things so you can grow.",
+            "kind": "short_contiguous"
+          }
+        ],
+        "reconstructed_quotes": [
+          "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career.",
+          "Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath.",
+          "They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages.",
+          "Like is being remarked again the importance of keep learning to do new things so you can grow."
+        ],
+        "independent_nonoverlapping_spans": 4,
+        "errors": []
+      }
+    },
+    {
+      "index": 2,
+      "observation_id": "O3",
+      "pass_": true,
+      "reasons": [],
+      "quote_checks": [
+        {
+          "quote": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.",
+          "exact": true,
+          "all_start_offsets": [
+            238
+          ]
+        }
+      ],
+      "distinct_evidence_locations": 1,
+      "semantic_support_not_certified": true,
+      "span_audit": {
+        "index": 2,
+        "span_ids": [
+          "E1868_1_P001_S003"
+        ],
+        "selected_spans": [
+          {
+            "span_id": "E1868_1_P001_S003",
+            "paragraph_id": "E1868_1_P001",
+            "start": 238,
+            "end": 367,
+            "text": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.",
+            "kind": "short_contiguous"
+          }
+        ],
+        "reconstructed_quotes": [
+          "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn."
+        ],
+        "independent_nonoverlapping_spans": 1,
+        "errors": []
+      }
+    }
+  ],
+  "issue_checks": [],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "scope": "multiple_passages",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "feature": "The essay uses transitional phrases and ideas to connect sentences and paragraphs, such as 'The main piece to improve your skills is during the process of keep learning' and 'Convince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more.'",
+      "scoring_relevance": "These transitions help maintain a coherent flow of ideas, which is important for the Cohesion dimension. However, the essay could benefit from more explicit connections between paragraphs to improve overall coherence.",
+      "limitation": "The cited evidence does not establish that the essay maintains coherence throughout the entire text, only that there are some transitional phrases used.",
+      "next_check": "Inspect the transitions between paragraphs to see if they are as clear and effective as those within paragraphs.",
+      "quotes": [
+        "The main piece to improve your skills is during the process of keep learning.",
+        "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.",
+        "Convince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more.",
+        "There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day."
+      ]
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Vocabulary",
+      "scope": "whole_essay",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "feature": "The essay demonstrates a sufficient range of vocabulary, including terms like 'productive information', 'process of keep learning', and 'extra years for college'.",
+      "scoring_relevance": "A sufficient range of vocabulary is important for the Vocabulary dimension, and the essay shows a variety of terms that contribute to the overall message.",
+      "limitation": "The cited evidence does not establish that the vocabulary is used consistently or that it is always appropriate for the context.",
+      "next_check": "Check if the vocabulary used is appropriate and varied throughout the essay, and if it enhances the clarity and depth of the argument.",
+      "quotes": [
+        "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career.",
+        "Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath.",
+        "They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages.",
+        "Like is being remarked again the importance of keep learning to do new things so you can grow."
+      ]
+    },
+    {
+      "observation_id": "O3",
+      "dimension": "Grammar",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "feature": "The sentence 'The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.' contains grammatical errors, such as 'is believe' and 'have learn'.",
+      "scoring_relevance": "Grammatical errors can interfere with the clarity and coherence of the essay, which is important for the Grammar dimension.",
+      "limitation": "This observation is limited to a single sentence and does not establish the overall grammatical accuracy of the essay.",
+      "next_check": "Review other sentences in the essay to see if similar grammatical errors occur and assess their impact on the overall clarity.",
+      "quotes": [
+        "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn."
+      ]
+    }
+  ],
+  "passed_issues": []
+}

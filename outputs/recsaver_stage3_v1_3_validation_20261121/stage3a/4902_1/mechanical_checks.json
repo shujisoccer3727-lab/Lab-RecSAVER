@@ -1,0 +1,183 @@
+{
+  "top_errors": [],
+  "observation_checks": [
+    {
+      "index": 0,
+      "observation_id": "O1",
+      "pass_": true,
+      "reasons": [],
+      "quote_checks": [
+        {
+          "quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+          "exact": true,
+          "all_start_offsets": [
+            0
+          ]
+        },
+        {
+          "quote": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+          "exact": true,
+          "all_start_offsets": [
+            150
+          ]
+        }
+      ],
+      "distinct_evidence_locations": 2,
+      "semantic_support_not_certified": true,
+      "span_audit": {
+        "index": 0,
+        "span_ids": [
+          "E4902_1_P001_S001",
+          "E4902_1_P001_S002"
+        ],
+        "selected_spans": [
+          {
+            "span_id": "E4902_1_P001_S001",
+            "paragraph_id": "E4902_1_P001",
+            "start": 0,
+            "end": 149,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+            "kind": "short_contiguous"
+          },
+          {
+            "span_id": "E4902_1_P001_S002",
+            "paragraph_id": "E4902_1_P001",
+            "start": 150,
+            "end": 243,
+            "text": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+            "kind": "short_contiguous"
+          }
+        ],
+        "reconstructed_quotes": [
+          "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+          "The reason why i agree with this quote is because people now a day don't try to be them self."
+        ],
+        "independent_nonoverlapping_spans": 2,
+        "errors": []
+      }
+    },
+    {
+      "index": 1,
+      "observation_id": "O2",
+      "pass_": true,
+      "reasons": [],
+      "quote_checks": [
+        {
+          "quote": "They're trying or acting like to be someone else not them self.",
+          "exact": true,
+          "all_start_offsets": [
+            243
+          ]
+        }
+      ],
+      "distinct_evidence_locations": 1,
+      "semantic_support_not_certified": true,
+      "span_audit": {
+        "index": 1,
+        "span_ids": [
+          "E4902_1_P001_S003"
+        ],
+        "selected_spans": [
+          {
+            "span_id": "E4902_1_P001_S003",
+            "paragraph_id": "E4902_1_P001",
+            "start": 243,
+            "end": 306,
+            "text": "They're trying or acting like to be someone else not them self.",
+            "kind": "short_contiguous"
+          }
+        ],
+        "reconstructed_quotes": [
+          "They're trying or acting like to be someone else not them self."
+        ],
+        "independent_nonoverlapping_spans": 1,
+        "errors": []
+      }
+    },
+    {
+      "index": 2,
+      "observation_id": "O3",
+      "pass_": true,
+      "reasons": [],
+      "quote_checks": [
+        {
+          "quote": "in conucluesion",
+          "exact": true,
+          "all_start_offsets": [
+            1288
+          ]
+        }
+      ],
+      "distinct_evidence_locations": 1,
+      "semantic_support_not_certified": true,
+      "span_audit": {
+        "index": 2,
+        "span_ids": [
+          "E4902_1_P004_S001"
+        ],
+        "selected_spans": [
+          {
+            "span_id": "E4902_1_P004_S001",
+            "paragraph_id": "E4902_1_P004",
+            "start": 1288,
+            "end": 1303,
+            "text": "in conucluesion",
+            "kind": "short_contiguous"
+          }
+        ],
+        "reconstructed_quotes": [
+          "in conucluesion"
+        ],
+        "independent_nonoverlapping_spans": 1,
+        "errors": []
+      }
+    }
+  ],
+  "issue_checks": [],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "feature": "The essay begins with a quote and then provides a reason for agreeing with it, but the transition between these two sentences is not smooth.",
+      "scoring_relevance": "The lack of a smooth transition between the quote and the explanation of agreement indicates a repetitive and mechanical use of cohesive devices, which is consistent with a Cohesion score of 2.",
+      "limitation": "This observation is limited to the first two sentences and does not establish the overall cohesion of the essay.",
+      "next_check": "Inspect the transitions between other paragraphs and sentences to determine if the same pattern of repetitive and mechanical use of cohesive devices is present.",
+      "quotes": [
+        "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+        "The reason why i agree with this quote is because people now a day don't try to be them self."
+      ]
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Grammar",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "feature": "The sentence contains grammatical errors, such as 'them self' instead of 'themselves'.",
+      "scoring_relevance": "The presence of grammatical errors like these is consistent with a Grammar score of 3, indicating some errors in grammar and usage.",
+      "limitation": "This observation is limited to one sentence and does not establish the overall grammar proficiency of the essay.",
+      "next_check": "Review other sentences in the essay to determine if similar grammatical errors are present.",
+      "quotes": [
+        "They're trying or acting like to be someone else not them self."
+      ]
+    },
+    {
+      "observation_id": "O3",
+      "dimension": "Conventions",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "feature": "The concluding paragraph begins with a misspelled word 'conucluesion'.",
+      "scoring_relevance": "The misspelling of 'conclusion' is consistent with a Conventions score of 3, indicating developing use of conventions with errors that are sometimes distracting.",
+      "limitation": "This observation is limited to one misspelled word and does not establish the overall use of conventions in the essay.",
+      "next_check": "Inspect other parts of the essay for additional spelling, capitalization, and punctuation errors.",
+      "quotes": [
+        "in conucluesion"
+      ]
+    }
+  ],
+  "passed_issues": []
+}

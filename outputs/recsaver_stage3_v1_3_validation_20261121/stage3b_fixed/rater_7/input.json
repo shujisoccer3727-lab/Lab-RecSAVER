@@ -1,0 +1,123 @@
+{
+  "rater_id": "rater_7",
+  "accepted_target_ids": [
+    "1868:1",
+    "4902:1"
+  ],
+  "accepted_record_count": 4,
+  "verified_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "quotes": [
+        "The main piece to improve your skills is during the process of keep learning."
+      ],
+      "feature": "The sentence introduces the main idea of continuous learning.",
+      "scoring_relevance": "This sentence sets up the essay's central theme, contributing to the essay's overall cohesion.",
+      "limitation": "This single sentence does not provide enough evidence to fully assess the essay's cohesion.",
+      "next_check": "Review additional sentences to see if they consistently support the central theme.",
+      "observation_key": "1868:1::O1",
+      "target_essay_id": "1868:1",
+      "observed_score": 3
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Vocabulary",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "quotes": [
+        "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things."
+      ],
+      "feature": "The sentence uses words like 'key', 'professionals', 'recognition', and 'master' to convey the importance of continuous learning.",
+      "scoring_relevance": "The use of these words demonstrates a sufficient range of vocabulary, which is consistent with a score of 4.",
+      "limitation": "This sentence alone does not provide enough evidence to fully assess the essay's vocabulary range.",
+      "next_check": "Review additional sentences to see if they consistently use a wide range of vocabulary.",
+      "observation_key": "1868:1::O2",
+      "target_essay_id": "1868:1",
+      "observed_score": 4
+    },
+    {
+      "observation_id": "O3",
+      "dimension": "Cohesion",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "quotes": [
+        "The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day."
+      ],
+      "feature": "The sentence transitions from the general idea of continuous learning to a specific example of learning as a new mother.",
+      "scoring_relevance": "This transition contributes to the essay's cohesion by linking the central theme to a concrete example.",
+      "limitation": "This single sentence does not provide enough evidence to fully assess the essay's cohesion.",
+      "next_check": "Review additional sentences to see if they consistently link the central theme to supporting examples.",
+      "observation_key": "1868:1::O3",
+      "target_essay_id": "1868:1",
+      "observed_score": 3
+    }
+  ],
+  "rubric_entries": [
+    {
+      "rubric_ref_id": "Cohesion:3",
+      "dimension": "Cohesion",
+      "score_band": 3,
+      "descriptor": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs."
+    },
+    {
+      "rubric_ref_id": "Cohesion:2",
+      "dimension": "Cohesion",
+      "score_band": 2,
+      "descriptor": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition."
+    },
+    {
+      "rubric_ref_id": "Cohesion:4",
+      "dimension": "Cohesion",
+      "score_band": 4,
+      "descriptor": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas"
+    },
+    {
+      "rubric_ref_id": "Vocabulary:4",
+      "dimension": "Vocabulary",
+      "score_band": 4,
+      "descriptor": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items"
+    },
+    {
+      "rubric_ref_id": "Vocabulary:3",
+      "dimension": "Vocabulary",
+      "score_band": 3,
+      "descriptor": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy"
+    },
+    {
+      "rubric_ref_id": "Vocabulary:5",
+      "dimension": "Vocabulary",
+      "score_band": 5,
+      "descriptor": "Wide range of vocabulary flexibly and effectively used to convey precise meanings; skillful use of topic-related terms and less common words; rare negligible inaccuracies in word use."
+    }
+  ],
+  "source_analysis_issues": [
+    {
+      "record_id": "1868_1__K1",
+      "issue_type": "observed_score_conflict",
+      "explanation": "The candidate explanation suggests a score of 3 for Vocabulary, but the observed score is 4."
+    },
+    {
+      "record_id": "1868_1__K2",
+      "issue_type": "observed_score_conflict",
+      "explanation": "The candidate explanation suggests a score of 3 for Vocabulary, but the observed score is 4."
+    },
+    {
+      "record_id": "4902_1__K1",
+      "issue_type": "observed_score_conflict",
+      "explanation": "The candidate's claim about the mix of minor errors in all dimensions does not align with the observed scores, which show a Cohesion score of 2, indicating some repetitive and mechanical use of cohesive devices."
+    }
+  ],
+  "evidence_limitations": [
+    "Only two previously used accepted targets, both Overall=3; candidate alternatives are not independent essays.",
+    "Passing source checks does not certify semantic support or rater weighting; local observations do not establish a whole-essay score.",
+    "4902:1: no mechanically usable observations.",
+    "4902:1: some candidate-issue excerpts failed validation and were excluded; see external audit.",
+    "4902:1: some observations failed mechanical validation and were excluded; see external audit."
+  ]
+}

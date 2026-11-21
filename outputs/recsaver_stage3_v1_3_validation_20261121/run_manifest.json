@@ -1,0 +1,153 @@
+{
+  "created_at": "2026-11-21T21:40:09.410268+09:00",
+  "comparison_commit": "10a0f0a0486114aa9bdc7b94358072a55e86feb1",
+  "code_commit": "10a0f0a0486114aa9bdc7b94358072a55e86feb1",
+  "baseline_path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_2_pipeline_20261121",
+  "baseline_files_sha256": {
+    "content_review.json": "0d5d30a0dc71bb792e632520d9ba0eb44bdde8d9cac0e761e61007c7fad13dee",
+    "environment.json": "2df00f641260b21292936910d704e601256b5466459cc9ed4ddbac308d31b9e3",
+    "execution.log": "f5f89f210f4f8665ded6b38aa32c12c291f65ac53b5b671fa52daf4bbe719ae7",
+    "fixed_input.json": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+    "gate_tests.json": "db89d02f46811a33b7c68f5f55502a3b372cfd51c0e6b250d5ca7b84c75e04b9",
+    "invariant_checks.json": "3ffb69ace0218feb60610167003e2144cd607af9c2ce2d3932f4ad38accf5139",
+    "observation_results.csv": "5e0477f715b12a62d6500d45fe4f7a1d4b29ebfffaf5e364f1434cb8da0ccbe4",
+    "process.json": "0c3fba35d6f17952d40aee70303fcc5208280f6a9d682b0476e841e8482be9da",
+    "README.md": "6ec3fcd44defa38e466e566326a9a460537cf03031dd0b38a990a5cbf53a39d3",
+    "record_id_mapping.json": "b56008648cb195a561607e770b35ecc0500a4c62de73a9c8caa3f18bb7bc4028",
+    "rejected_issue_diagnostics.json": "9e6f20255e9f1ba8c3e589d52783603b40fb1178db6843aea891ac4350a4f7e0",
+    "rejected_quote_diagnostics.json": "7a6bbb0c53cbbf3ef849a84699069bd24dda7cd196e5f3e4f7553ad67a31d702",
+    "request_summary.json": "8f4b4d22eeffdd024ffa63ec70302a6faec4da98a4babc15b952a858cce90d25",
+    "run_manifest.json": "98282dde79b0e9cdfe630f25cf6224d5a405f1bee5df9169eeec01cc97a3e728",
+    "summary.json": "8cbe9949abb54368553a76df3402bd94ff3084a4948344e7beadcc009a9d90b5",
+    "validation_report.md": "e3511f38bf264e53595f7df592a0a685df650289e2f5787872ede537ba28bce1",
+    "code/quote_diagnostics.py": "0746b54c01a2027edd87d61ca6ffcb59771b0c5039f70424c7fb2a0a4b18d2a0",
+    "code/report.py": "0f9f78f946e191b1ed919774bfb349290f6252a231d909c286ad5a3c74f26be6",
+    "code/run.py": "c65a7845949a06d35b0918b6b0257a78f8de3a95660ebd7d1b92b424ca38038d",
+    "code/test_checks.py": "f448145cb5b660d5941a3f474865809c81265cff795abc9366a1a5ad49959562",
+    "code/verify.py": "13b39d2b7da63437a5ccefc741e0e743b5011bf20aa319350aa989b991b38537",
+    "exclusions/4902_1__0.json": "8c9a25154800f0f5923c664e64196c463e3da291bc00f2c69b09611d76604cbf",
+    "exclusions/4902_1__1.json": "91effb2b4ab473ca422fd114e6654c109350376f37e708160aa461639a678760",
+    "exclusions/4902_1__2.json": "00c32818f0216840c4f8ddf6a0c76801a72b3ad1730413bf1801489941ad1cb6",
+    "handoff/audit_summary.json": "bb3563b116b38147905a21a596e6a9d63edb1fe46bc186b4cb46fd24e9029c1c",
+    "handoff/input_3b.json": "fac2b84d805c671cf89ff1bd4c43aacb8b61ded28fd740bb52c64a03fed09563",
+    "handoff/rubric_provenance.json": "8cffa66627f01982df1767e27758f0e9103d5cd5961ad1616d3ed4499eecd05a",
+    "prepared_3a/1868_1/input.json": "4ea4b00583c638ff5b8a955c5e213eb4a15686c50bd261de25ba4da99f6626c3",
+    "prepared_3a/4902_1/input.json": "91caffe2a9f97a32bd0cf29395b55c0725b172443fe473c76a43890d9bcf71a0",
+    "stage3a/1868_1/generation.json": "bd4a9ed747c3690940feae60986a3559448c5a44807e87b7a93dc22c3e5a4241",
+    "stage3a/1868_1/input.json": "4ea4b00583c638ff5b8a955c5e213eb4a15686c50bd261de25ba4da99f6626c3",
+    "stage3a/1868_1/integrity.json": "33e51b5bc210df5af6ed7d36e798c188bddb64b315f349bfab932da6d4aed572",
+    "stage3a/1868_1/mechanical_checks.json": "bd4bf9b7ee2a4f5cf6fc119d062e8699138b595e3b7afa2a28bbdc85a22c42c1",
+    "stage3a/1868_1/messages.json": "60a2d61eec44640c73e11783970eaafd8beafabd743d8677154b80c42889b08d",
+    "stage3a/1868_1/parsed.json": "bb86a522555c16ca690bd5d30988809d40e2408fcd68d179211aa743ed50b844",
+    "stage3a/1868_1/raw.txt": "d24adba3e2c5397572fecb412108aad80ca59e4ff9be8c8033af8f66256f6810",
+    "stage3a/1868_1/rendered_chat.txt": "ff9d59429e4a04853797894845aee1511cac25c92c0f2511bf43a2e0e28e844f",
+    "stage3a/1868_1/result.json": "477f3faf2eee9344c2c29b049743a2a87251cede847b8526cad43610f9758dd3",
+    "stage3a/1868_1/sampling.json": "7e0d39461c570dc167b1472012b65cdad962cee9883bcf81f1cc1071c685912b",
+    "stage3a/4902_1/generation.json": "b7adc154f7c42180afca445d928d61f332c3737a3b6b0a25134b71a718085ef6",
+    "stage3a/4902_1/input.json": "91caffe2a9f97a32bd0cf29395b55c0725b172443fe473c76a43890d9bcf71a0",
+    "stage3a/4902_1/integrity.json": "a2e7d4b256c643207e1971ad5f27f4865f99457349424fa8e7830f37cdd325a8",
+    "stage3a/4902_1/mechanical_checks.json": "e371cd8341b2251af3c9b42d1a4091ae59da43c525f881ad735e6fdcf953fccf",
+    "stage3a/4902_1/messages.json": "0b22281a06626a262e369e4992c0b0595b2e53e2ed990dfd1e162346fd3e1e10",
+    "stage3a/4902_1/parsed.json": "5265dd17e65df8d6717c0f23506ff0514fc7349adf6a82af97af0fbf1bbe941b",
+    "stage3a/4902_1/raw.txt": "2e9445f81da509330f224a9cbbac70ec31f6f646c58249f27d570894d1a55ca8",
+    "stage3a/4902_1/rendered_chat.txt": "e2fa9c4c99d06524ccaba4d32bde352346b47fd02d30da573aea49b1c39c57aa",
+    "stage3a/4902_1/result.json": "477f3faf2eee9344c2c29b049743a2a87251cede847b8526cad43610f9758dd3",
+    "stage3a/4902_1/sampling.json": "7e0d39461c570dc167b1472012b65cdad962cee9883bcf81f1cc1071c685912b",
+    "stage3b/rater_7/generation.json": "4b5179ced34064f7c8fe9e004e82f661b3e94b70fef0e3c1ffe8475ac7d9f257",
+    "stage3b/rater_7/input.json": "fac2b84d805c671cf89ff1bd4c43aacb8b61ded28fd740bb52c64a03fed09563",
+    "stage3b/rater_7/integrity.json": "9c9e9b3e6bf458f1a8a270a3af570d48f53dc54c4954b6b1371bde59f81c60fb",
+    "stage3b/rater_7/mechanical_checks.json": "7253608d8c60f9ece593fc2c0ab83ad1bb2b6ea18eae85dbbc44c651fc0e8d7e",
+    "stage3b/rater_7/messages.json": "fbaafa0654e8670055a05909e0f4f6d4302de92b6119aab0561a35e09a657e35",
+    "stage3b/rater_7/parsed.json": "a6502e3a871d04412b8bcd71621fc9064c6f4746c6c8207969065bb24d80d838",
+    "stage3b/rater_7/raw.txt": "fc9387aa20251ddf6f4fbe8292046cb8f87a9edb99b771513572f321b06e76be",
+    "stage3b/rater_7/rendered_chat.txt": "b160391045731bd08dfeef68169b74d536fd9f23591a2f7b93c545ad17460997",
+    "stage3b/rater_7/result.json": "477f3faf2eee9344c2c29b049743a2a87251cede847b8526cad43610f9758dd3",
+    "stage3b/rater_7/sampling.json": "7e0d39461c570dc167b1472012b65cdad962cee9883bcf81f1cc1071c685912b"
+  },
+  "fixed_input_sha256": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+  "fixed_3b_input_sha256": "fac2b84d805c671cf89ff1bd4c43aacb8b61ded28fd740bb52c64a03fed09563",
+  "prompts": {
+    "a": {
+      "path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03a_case_evidence_review_v1_3.txt",
+      "windows_path": "C:/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03a_case_evidence_review_v1_3.txt",
+      "sha256": "c3e3f9af503adb7d2d0dd415bc0eb6edba1602b347d2c9380e47a9018fc10e9c",
+      "same_name_locations": [
+        "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03a_case_evidence_review_v1_3.txt"
+      ]
+    },
+    "b": {
+      "path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03b_integrated_feedback_v1_3.txt",
+      "windows_path": "C:/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03b_integrated_feedback_v1_3.txt",
+      "sha256": "93eb151ad33be6f142a0bbbe51e80637fcd76d8bfcb991b63d3388c4d433cebd",
+      "same_name_locations": [
+        "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03b_integrated_feedback_v1_3.txt"
+      ]
+    }
+  },
+  "model": {
+    "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+    "quantization": "gptq_marlin",
+    "tensor_parallel_size": 1,
+    "max_model_len": 32768,
+    "gpu_memory_utilization": 0.9,
+    "runtime_options": {
+      "max_num_seqs": 8,
+      "enforce_eager": true,
+      "enable_prefix_caching": true
+    }
+  },
+  "generation": {
+    "temperature": 0.2,
+    "top_p": 0.8
+  },
+  "max_tokens": {
+    "stage1": 6500,
+    "stage2": 1200,
+    "stage3": 5000
+  },
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 5000,
+    "seed": 925847335
+  },
+  "seed": 925847335,
+  "seed_policy": "Saved seed 925847335 independently for every request.",
+  "system_message": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+  "chat": "One user message with canonical prompt. Existing tokenizer chat template inserts the recorded default system message; no task-specific conflict found. Full rendered chat saved.",
+  "code_sha256_before": "539bfe3c1418bc11fdd4055564326abd5151700ce529e4494bd8f9fd3467443b",
+  "planned_requests": {
+    "A_3a": 2,
+    "B_fixed_3b": 1,
+    "C_pipeline_3b": 1
+  },
+  "span_policy": "Unicode code-point offsets into exact unnormalized source; paragraphs plus punctuation-bounded <=360 character contiguous units and adjacent pairs <=720; paragraph fallback retained; stable target-qualified IDs.",
+  "differences": [
+    "A changes 3A prompt and replaces copied quotes with programmatically resolved span IDs.",
+    "B changes only 3B prompt, keeping saved handoff JSON and order byte-identical.",
+    "C uses new 3A observations and same 3B v1.3; B/C differences are input/pipeline effects, not 3B prompt-only effects.",
+    "Same cached model, 5000 output budget per request, temperature/top_p/seed/chat; 4 independent requests; no guided decoding, repair, reselection, or Stage1/2 calls."
+  ],
+  "baseline_unchanged": true,
+  "prompts_unchanged": true,
+  "implementation_files_sha256": {
+    "code/report.py": "12c2f5f693669e13db88f0acc6ba219e9038cfcacfa3d89b89cac7fe36d1988e",
+    "code/run.py": "539bfe3c1418bc11fdd4055564326abd5151700ce529e4494bd8f9fd3467443b",
+    "code/test_checks.py": "7aa086fa65c69b317d053d33172fbba87dae1debfa6e653d86eb7f76ddb5a6a4",
+    "code/verify.py": "baf0098edebaa8170c56ff09289bad1876e5d676eaa271889d320602eddd46aa"
+  },
+  "last_checked_at": "2026-11-21T21:52:18.880805+09:00",
+  "actual_requests": 4,
+  "request_invariants_passed": true,
+  "stage1_calls": 0,
+  "stage2_calls": 0,
+  "actual_requests_by_condition": {
+    "stage3a": 2,
+    "stage3b_fixed": 1,
+    "stage3b_pipeline": 1
+  },
+  "reused_code": {
+    "outputs/recsaver_stage3_v1_2_pipeline_20261121/code/run.py": "c65a7845949a06d35b0918b6b0257a78f8de3a95660ebd7d1b92b424ca38038d",
+    "outputs/recsaver_prompt_v1_1_validation_20261120/code/run.py": "6d691ac18ea8ce9a056565cb22b59eb0ff80deba43441d0d5312215db698ba65"
+  }
+}

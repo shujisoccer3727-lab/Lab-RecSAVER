@@ -1,0 +1,363 @@
+{
+  "checks": [
+    {
+      "kind": "fixed_source_byte_identical",
+      "pass_": true
+    },
+    {
+      "kind": "B_fixed_handoff_byte_identical",
+      "pass_": true
+    },
+    {
+      "kind": "A_original_input_except_catalog",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "A_catalog_matches_actual_request",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "A_unique_catalog_ids",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "A_Unicode_slices_exact",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "A_paragraph_fallback_retained",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "A_gate_reproduces",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "A_original_input_except_catalog",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "A_catalog_matches_actual_request",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "A_unique_catalog_ids",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "A_Unicode_slices_exact",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "A_paragraph_fallback_retained",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "A_gate_reproduces",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "C_actual_handoff_identical",
+      "pass_": true
+    },
+    {
+      "kind": "B_actual_input_byte_identical",
+      "pass_": true
+    },
+    {
+      "kind": "C_no_raw_candidate_or_history_fields",
+      "pass_": true
+    },
+    {
+      "kind": "C_attached_original_score",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "C_global_observation_key",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "C_only_passed_restored_observations",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "C_attached_original_score",
+      "pass_": true,
+      "key": "1868:1::O2"
+    },
+    {
+      "kind": "C_global_observation_key",
+      "pass_": true,
+      "key": "1868:1::O2"
+    },
+    {
+      "kind": "C_only_passed_restored_observations",
+      "pass_": true,
+      "key": "1868:1::O2"
+    },
+    {
+      "kind": "C_attached_original_score",
+      "pass_": true,
+      "key": "1868:1::O3"
+    },
+    {
+      "kind": "C_global_observation_key",
+      "pass_": true,
+      "key": "1868:1::O3"
+    },
+    {
+      "kind": "C_only_passed_restored_observations",
+      "pass_": true,
+      "key": "1868:1::O3"
+    },
+    {
+      "kind": "C_attached_original_score",
+      "pass_": true,
+      "key": "4902:1::O1"
+    },
+    {
+      "kind": "C_global_observation_key",
+      "pass_": true,
+      "key": "4902:1::O1"
+    },
+    {
+      "kind": "C_only_passed_restored_observations",
+      "pass_": true,
+      "key": "4902:1::O1"
+    },
+    {
+      "kind": "C_attached_original_score",
+      "pass_": true,
+      "key": "4902:1::O2"
+    },
+    {
+      "kind": "C_global_observation_key",
+      "pass_": true,
+      "key": "4902:1::O2"
+    },
+    {
+      "kind": "C_only_passed_restored_observations",
+      "pass_": true,
+      "key": "4902:1::O2"
+    },
+    {
+      "kind": "C_attached_original_score",
+      "pass_": true,
+      "key": "4902:1::O3"
+    },
+    {
+      "kind": "C_global_observation_key",
+      "pass_": true,
+      "key": "4902:1::O3"
+    },
+    {
+      "kind": "C_only_passed_restored_observations",
+      "pass_": true,
+      "key": "4902:1::O3"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Cohesion:3"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Cohesion:2"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Cohesion:4"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Vocabulary:4"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Vocabulary:3"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Vocabulary:5"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Grammar:3"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Grammar:2"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Grammar:4"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Cohesion:1"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Conventions:3"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Conventions:2"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Conventions:4"
+    },
+    {
+      "kind": "canonical_placeholder_only",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "chat_template_identical",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "canonical_placeholder_only",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "chat_template_identical",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "canonical_placeholder_only",
+      "pass_": true,
+      "request": "stage3b_fixed/rater_7"
+    },
+    {
+      "kind": "chat_template_identical",
+      "pass_": true,
+      "request": "stage3b_fixed/rater_7"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "stage3b_fixed/rater_7"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "request": "stage3b_fixed/rater_7"
+    },
+    {
+      "kind": "canonical_placeholder_only",
+      "pass_": true,
+      "request": "stage3b_pipeline/rater_7"
+    },
+    {
+      "kind": "chat_template_identical",
+      "pass_": true,
+      "request": "stage3b_pipeline/rater_7"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "stage3b_pipeline/rater_7"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "request": "stage3b_pipeline/rater_7"
+    },
+    {
+      "kind": "3B_audit_reproduces",
+      "pass_": true,
+      "condition": "stage3b_fixed"
+    },
+    {
+      "kind": "3B_audit_reproduces",
+      "pass_": false,
+      "condition": "stage3b_pipeline"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "model_snapshot"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "vllm"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "torch"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "transformers"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "gpu"
+    }
+  ],
+  "total": 71,
+  "passed": 70,
+  "failed": [
+    {
+      "kind": "3B_audit_reproduces",
+      "pass_": false,
+      "condition": "stage3b_pipeline"
+    }
+  ]
+}

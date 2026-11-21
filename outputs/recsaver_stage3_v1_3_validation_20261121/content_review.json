@@ -1,0 +1,89 @@
+{
+  "evaluator": "Codex provisional content judgment, not human evaluation",
+  "A_observation_reviews": [
+    {
+      "key": "1868:1::O1",
+      "full_observation_valid": false,
+      "usable_local_part": true,
+      "judgment": "部分的",
+      "reason": "learningの主題の反復・例示は読めるが、選んだ文をtransitional phrasesと総称して文間・段落間の明瞭な接続を確認したことにはならない。"
+    },
+    {
+      "key": "1868:1::O2",
+      "full_observation_valid": false,
+      "usable_local_part": true,
+      "judgment": "過大・引用範囲との不一致",
+      "reason": "4箇所選択で単文からの一般化は避けたが、extra years for collegeは選択区間にない。語句の存在からwhole_essayの十分な語彙幅・適切性を確定できない。"
+    },
+    {
+      "key": "1868:1::O3",
+      "full_observation_valid": true,
+      "usable_local_part": true,
+      "judgment": "概ね妥当",
+      "reason": "is believe / have learnの形態・補文の問題は指定文に実在。局所に限定し、同様の問題と明瞭さを他文で確認する課題を残し、帯は支持しない。"
+    },
+    {
+      "key": "4902:1::O1",
+      "full_observation_valid": false,
+      "usable_local_part": true,
+      "judgment": "解釈・帯支持が不十分",
+      "reason": "引用→The reason whyで賛同理由を示すことは確認可能。しかし接続が不滑らかというだけで反復的・機械的とし、Cohesion 2に整合すると断定できない。"
+    },
+    {
+      "key": "4902:1::O2",
+      "full_observation_valid": false,
+      "usable_local_part": true,
+      "judgment": "局所特徴のみ使用可能",
+      "reason": "them selfという非標準的な形は実在するが、1文だけでGrammar 3の妥当性は支持できない。"
+    },
+    {
+      "key": "4902:1::O3",
+      "full_observation_valid": false,
+      "usable_local_part": true,
+      "judgment": "局所特徴のみ使用可能",
+      "reason": "conucluesionの綴りは実在するが、1語からConventions 3やsometimes distractingは判断できない。"
+    }
+  ],
+  "A_semantic_count_definition": "Full observation: feature, relevance, limitation and next check do not endorse an unsupported band or exceed selected evidence. A usable narrower part is counted separately.",
+  "A_old_targets_with_full_valid_usable_observation": 1,
+  "A_new_targets_with_full_valid_usable_observation": 1,
+  "A_new_targets_with_usable_narrow_part": 2,
+  "B_same_input_comparison": [
+    {
+      "item": "indeterminateと説明・最終結論",
+      "judgment": "改善",
+      "reason": "v1.2のaligns with a score of 3という肯定から、記録値3・局所主題・未検査の接続に分離した。"
+    },
+    {
+      "item": "公式基準に沿う保持・再考条件",
+      "judgment": "改善（限定的）",
+      "reason": "limited devicesだけを再考理由にせず、sustained breakdown in logical sequencingへ変更。ただしcomparison_band_ref_id=nullなのに比較帯を説明し、追加で見る箇所は一般的。"
+    },
+    {
+      "item": "最終段落の引用・出典・追加確認",
+      "judgment": "悪化",
+      "reason": "IDはあるが旧版にあった原文引用が欠落。未確認の接続を未確認とする点は改善したが、具体的な箇所指定も十分でない。"
+    }
+  ],
+  "C": {
+    "delivered_targets": 2,
+    "usable_local_parts_available_for_targets": 2,
+    "full_valid_observation_targets": 1,
+    "selected_cases_semantically_valid": false,
+    "reason": "C lists the weak Cohesion O1 from 4902 rather than its usable grammar/spelling features and inherits transitional-phrase claims for 1868.",
+    "supported_scoring_pattern": false,
+    "abstention_appropriate": true
+  },
+  "issues": {
+    "K2_confirmed_mismatch_dimensions": [
+      "Vocabulary",
+      "Phraseology"
+    ],
+    "K2_old_detected": [
+      "Vocabulary"
+    ],
+    "K2_new_detected": [],
+    "K1_new_false_vocabulary_conflict": false,
+    "K1_ambiguity_not_explicitly_identified": true
+  }
+}

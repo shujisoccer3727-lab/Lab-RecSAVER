@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.3",
+  "rater_id": "rater_7",
+  "pattern_status": "insufficient_evidence",
+  "patterns": [],
+  "case_specific_observation_keys": ["1868:1::O1", "4902:1::O1"],
+  "representative_observation_key": "1868:1::O1",
+  "rubric_comparison": {
+    "observed_band_ref_id": "Cohesion:3",
+    "comparison_band_ref_id": "Cohesion:4",
+    "relationship": "indeterminate",
+    "explanation": "The recorded Cohesion score is 3. This excerpt introduces a central idea and uses transitional phrases to connect sentences and paragraphs, such as 'The main piece to improve your skills is during the process of keep learning' and 'Convince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more.' However, the excerpt does not establish that the essay maintains coherence throughout the entire text, only that there are some transitional phrases used. Additional evidence is needed to judge the observed band or distinguish it from the comparison band."
+  },
+  "next_scoring_check": {
+    "inspect": "Transitions between paragraphs to see if they are as clear and effective as those within paragraphs.",
+    "distinguish": "The observed band allows for limited use of cohesive devices, while the comparison band requires a range of cohesive devices used appropriately. The distinction is whether the links between ideas remain traceable and if there is a sustained breakdown in logical sequencing.",
+    "retain_if": "The transitions between paragraphs are clear and effective, and the links between ideas remain traceable.",
+    "reconsider_if": "There is a sustained breakdown in logical sequencing, and the links between ideas are not consistently traceable."
+  },
+  "insufficient_evidence": ["Only two previously used accepted targets, both Overall=3; candidate alternatives are not independent essays.", "Passing source checks does not certify semantic support or rater weighting; local observations do not establish a whole-essay score."],
+  "feedback_paragraph": "Based on the evidence provided, there is insufficient evidence to establish a consistent pattern in your scoring. The representative observation from essay 1868:1 shows that the essay uses transitional phrases and ideas to connect sentences and paragraphs, but this does not establish the overall coherence of the essay. The recorded Cohesion score is 3, but the evidence is not sufficient to determine if this score aligns with the rubric descriptor for Cohesion:3. For your next scoring check, inspect the transitions between paragraphs to see if they are as clear and effective as those within paragraphs. The distinction between the observed band and the comparison band is whether the links between ideas remain traceable and if there is a sustained breakdown in logical sequencing. Retain the judgment if the transitions between paragraphs are clear and effective, and reconsider if there is a sustained breakdown in logical sequencing."
+}

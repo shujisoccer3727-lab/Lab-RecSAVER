@@ -1,0 +1,190 @@
+{
+  "A": {
+    "old_generated": 6,
+    "old_passed": 3,
+    "new_generated": 6,
+    "new_passed": 6,
+    "old_targets_reached": 1,
+    "new_targets_reached": 2,
+    "old_full_valid_usable_targets": 1,
+    "new_full_valid_usable_targets": 1,
+    "new_targets_with_usable_narrow_parts": 2,
+    "selected_span_ids": 13,
+    "issues_generated": 0,
+    "K2_known_mismatches_detected": 0,
+    "K2_known_mismatches": 2
+  },
+  "B": {
+    "mechanical": {
+      "checks": [
+        {
+          "kind": "schema",
+          "pass_": true,
+          "errors": []
+        },
+        {
+          "kind": "rater_id",
+          "pass_": true
+        },
+        {
+          "kind": "case_key",
+          "pass_": true,
+          "key": "1868:1::O1"
+        },
+        {
+          "kind": "case_key",
+          "pass_": true,
+          "key": "1868:1::O2"
+        },
+        {
+          "kind": "case_key",
+          "pass_": true,
+          "key": "1868:1::O3"
+        },
+        {
+          "kind": "representative_key",
+          "pass_": true,
+          "key": "1868:1::O1"
+        },
+        {
+          "kind": "abstention_empty_patterns",
+          "pass_": true
+        },
+        {
+          "kind": "representative_in_case_keys",
+          "pass_": true
+        },
+        {
+          "kind": "rubric_ref_exists",
+          "pass_": true,
+          "role": "observed",
+          "ref": "Cohesion:3"
+        },
+        {
+          "kind": "rubric_ref_exists",
+          "pass_": true,
+          "role": "comparison",
+          "ref": null
+        },
+        {
+          "kind": "observed_band_identity",
+          "pass_": true,
+          "expected": "Cohesion:3",
+          "actual": "Cohesion:3"
+        },
+        {
+          "kind": "paragraph_representative_quote",
+          "pass_": false
+        },
+        {
+          "kind": "paragraph_target_id",
+          "pass_": true
+        },
+        {
+          "kind": "output_target_role",
+          "pass_": true,
+          "target": "1868:1"
+        }
+      ],
+      "total": 14,
+      "passed": 13,
+      "failed": [
+        {
+          "kind": "paragraph_representative_quote",
+          "pass_": false
+        }
+      ],
+      "semantic_support_not_certified": true
+    },
+    "pattern_status": "insufficient_evidence"
+  },
+  "C": {
+    "mechanical": {
+      "checks": [
+        {
+          "kind": "schema",
+          "pass_": true,
+          "errors": []
+        },
+        {
+          "kind": "rater_id",
+          "pass_": true
+        },
+        {
+          "kind": "case_key",
+          "pass_": true,
+          "key": "1868:1::O1"
+        },
+        {
+          "kind": "case_key",
+          "pass_": true,
+          "key": "4902:1::O1"
+        },
+        {
+          "kind": "representative_key",
+          "pass_": true,
+          "key": "1868:1::O1"
+        },
+        {
+          "kind": "abstention_empty_patterns",
+          "pass_": true
+        },
+        {
+          "kind": "representative_in_case_keys",
+          "pass_": true
+        },
+        {
+          "kind": "rubric_ref_exists",
+          "pass_": true,
+          "role": "observed",
+          "ref": "Cohesion:3"
+        },
+        {
+          "kind": "rubric_ref_exists",
+          "pass_": true,
+          "role": "comparison",
+          "ref": "Cohesion:4"
+        },
+        {
+          "kind": "observed_band_identity",
+          "pass_": true,
+          "expected": "Cohesion:3",
+          "actual": "Cohesion:3"
+        },
+        {
+          "kind": "comparison_band_identity",
+          "pass_": true
+        },
+        {
+          "kind": "paragraph_representative_quote",
+          "pass_": false
+        },
+        {
+          "kind": "paragraph_target_id",
+          "pass_": true
+        },
+        {
+          "kind": "output_target_role",
+          "pass_": true,
+          "target": "4902:1"
+        },
+        {
+          "kind": "output_target_role",
+          "pass_": true,
+          "target": "1868:1"
+        }
+      ],
+      "total": 15,
+      "passed": 14,
+      "failed": [
+        {
+          "kind": "paragraph_representative_quote",
+          "pass_": false
+        }
+      ],
+      "semantic_support_not_certified": true
+    },
+    "pattern_status": "insufficient_evidence"
+  },
+  "actual_requests": 4
+}
