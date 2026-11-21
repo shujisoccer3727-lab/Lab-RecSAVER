@@ -1,0 +1,25 @@
+{
+  "score_free_analysis": {
+    "history_patterns": [],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Syntax"
+        ],
+        "quotes": [
+          "This shows that with hard work you can accomplish any goal and letting yourself grow."
+        ],
+        "observable_feature": "The passage coordinates \"you can accomplish any goal\" with \"letting yourself grow\", using nonparallel constructions.",
+        "evaluative_interpretation": "The nonparallel coordination limits sentence control, while the intended positive claim about effort and growth remains recoverable.",
+        "linked_history_pattern_ids": [],
+        "rubric_connection": "Syntax concerns how clauses and phrases are coordinated. Inspect the nonparallel coordination in this passage without equating its presence with a particular performance band.",
+        "uncertainty": "One passage does not establish the frequency or severity of such constructions across the whole essay."
+      }
+    ],
+    "decision_explanation": "T1 identifies a local construction limitation with recoverable meaning. No defensible feature-to-score relationship has been established from the supplied history, so this observation does not demonstrate the rater's weighting or a stable preference.",
+    "insufficient_evidence": [
+      "The local evidence does not establish how the rater balanced all dimensions."
+    ]
+  }
+}

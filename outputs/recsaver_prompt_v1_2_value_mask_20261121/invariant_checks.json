@@ -1,0 +1,132 @@
+{
+  "timestamp": "2026-11-21T14:06:04.887386+09:00",
+  "passed": true,
+  "checks": [
+    {
+      "scope": "saved_v1_1",
+      "rid": "1514_1__K1",
+      "value_only_and_original_preserved": true,
+      "automatic_pass": false
+    },
+    {
+      "scope": "saved_v1_1",
+      "rid": "1514_1__K2",
+      "value_only_and_original_preserved": true,
+      "automatic_pass": true
+    },
+    {
+      "scope": "saved_v1_1",
+      "rid": "1868_1__K1",
+      "value_only_and_original_preserved": true,
+      "automatic_pass": true
+    },
+    {
+      "scope": "saved_v1_1",
+      "rid": "1868_1__K2",
+      "value_only_and_original_preserved": true,
+      "automatic_pass": true
+    },
+    {
+      "scope": "saved_v1_1",
+      "rid": "4902_1__K1",
+      "value_only_and_original_preserved": true,
+      "automatic_pass": true
+    },
+    {
+      "scope": "saved_v1_1",
+      "rid": "4902_1__K2",
+      "value_only_and_original_preserved": true,
+      "automatic_pass": true
+    },
+    {
+      "scope": "v1_2",
+      "rid": "1514_1__K1",
+      "value_only_and_original_preserved": true,
+      "automatic_pass": true
+    },
+    {
+      "scope": "stage2",
+      "rid": "1514_1__K1",
+      "independent_masked_request_verified": true
+    },
+    {
+      "scope": "v1_2",
+      "rid": "1514_1__K2",
+      "value_only_and_original_preserved": true,
+      "automatic_pass": true
+    },
+    {
+      "scope": "stage2",
+      "rid": "1514_1__K2",
+      "independent_masked_request_verified": true
+    },
+    {
+      "scope": "v1_2",
+      "rid": "1868_1__K1",
+      "value_only_and_original_preserved": true,
+      "automatic_pass": true
+    },
+    {
+      "scope": "stage2",
+      "rid": "1868_1__K1",
+      "independent_masked_request_verified": true
+    },
+    {
+      "scope": "v1_2",
+      "rid": "1868_1__K2",
+      "value_only_and_original_preserved": true,
+      "automatic_pass": true
+    },
+    {
+      "scope": "stage2",
+      "rid": "1868_1__K2",
+      "independent_masked_request_verified": true
+    },
+    {
+      "scope": "v1_2",
+      "rid": "4902_1__K1",
+      "value_only_and_original_preserved": true,
+      "automatic_pass": true
+    },
+    {
+      "scope": "stage2",
+      "rid": "4902_1__K1",
+      "independent_masked_request_verified": true
+    },
+    {
+      "scope": "v1_2",
+      "rid": "4902_1__K2",
+      "value_only_and_original_preserved": true,
+      "automatic_pass": true
+    },
+    {
+      "scope": "stage2",
+      "rid": "4902_1__K2",
+      "independent_masked_request_verified": true
+    },
+    {
+      "scope": "diagnostic",
+      "test": "A",
+      "no_original_scores_or_audit_in_request": true
+    },
+    {
+      "scope": "diagnostic",
+      "test": "B",
+      "no_original_scores_or_audit_in_request": true
+    },
+    {
+      "scope": "diagnostic",
+      "test": "C",
+      "no_original_scores_or_audit_in_request": true
+    },
+    {
+      "scope": "stage3",
+      "unmasked_original_records_verified": true,
+      "records": 4,
+      "distinct_targets": 2
+    }
+  ],
+  "baseline_unchanged": true,
+  "canonical_prompts_unchanged": true,
+  "masking_tests_passed": true
+}

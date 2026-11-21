@@ -1,0 +1,631 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "digits_and_number_words",
+      "passed": true,
+      "original": {
+        "decision_explanation": "The observed Overall score is three. Syntax level 2 and 3 fits."
+      },
+      "masked": {
+        "decision_explanation": "The observed Overall score is \u25a1. Syntax level \u25a1 and \u25a1 fits."
+      },
+      "audit": {
+        "changes": [
+          {
+            "path": "/decision_explanation",
+            "before": "The observed Overall score is three. Syntax level 2 and 3 fits.",
+            "after": "The observed Overall score is \u25a1. Syntax level \u25a1 and \u25a1 fits.",
+            "value_spans": [
+              {
+                "start": 30,
+                "end": 35,
+                "value": "three",
+                "replacement": "\u25a1"
+              },
+              {
+                "start": 50,
+                "end": 51,
+                "value": "2",
+                "replacement": "\u25a1"
+              },
+              {
+                "start": 56,
+                "end": 57,
+                "value": "3",
+                "replacement": "\u25a1"
+              }
+            ],
+            "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+          }
+        ],
+        "value_replacements": 3,
+        "changed_fields": 1,
+        "protected": [],
+        "quarantine": [],
+        "automatic_pass": true,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "word_range",
+      "passed": true,
+      "original": {
+        "decision_explanation": "The target fits levels two or four."
+      },
+      "masked": {
+        "decision_explanation": "The target fits levels \u25a1 or \u25a1."
+      },
+      "audit": {
+        "changes": [
+          {
+            "path": "/decision_explanation",
+            "before": "The target fits levels two or four.",
+            "after": "The target fits levels \u25a1 or \u25a1.",
+            "value_spans": [
+              {
+                "start": 23,
+                "end": 26,
+                "value": "two",
+                "replacement": "\u25a1"
+              },
+              {
+                "start": 30,
+                "end": 34,
+                "value": "four",
+                "replacement": "\u25a1"
+              }
+            ],
+            "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+          }
+        ],
+        "value_replacements": 2,
+        "changed_fields": 1,
+        "protected": [],
+        "quarantine": [],
+        "automatic_pass": true,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "no_global_same_digit_replacement",
+      "passed": true,
+      "original": {
+        "decision_explanation": "There are 3 paragraphs; the Overall score is 3."
+      },
+      "masked": {
+        "decision_explanation": "There are 3 paragraphs; the Overall score is \u25a1."
+      },
+      "audit": {
+        "changes": [
+          {
+            "path": "/decision_explanation",
+            "before": "There are 3 paragraphs; the Overall score is 3.",
+            "after": "There are 3 paragraphs; the Overall score is \u25a1.",
+            "value_spans": [
+              {
+                "start": 45,
+                "end": 46,
+                "value": "3",
+                "replacement": "\u25a1"
+              }
+            ],
+            "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+          }
+        ],
+        "value_replacements": 1,
+        "changed_fields": 1,
+        "protected": [],
+        "quarantine": [],
+        "automatic_pass": true,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "history_and_quote_and_id",
+      "passed": true,
+      "original": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "pattern": "The history essays received Overall scores of 3.",
+            "support": [
+              {
+                "history_essay_id": "217:1",
+                "quotes": [
+                  "So principal i think policy 1 is better for the students."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3
+                },
+                "interpretation": "The Overall score of 3 belongs to this history essay."
+              }
+            ],
+            "counterevidence": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "quotes": [
+              "3 is a number from a source"
+            ],
+            "observable_feature": "There are 3 items."
+          }
+        ]
+      },
+      "masked": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "pattern": "The history essays received Overall scores of 3.",
+            "support": [
+              {
+                "history_essay_id": "217:1",
+                "quotes": [
+                  "So principal i think policy 1 is better for the students."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3
+                },
+                "interpretation": "The Overall score of 3 belongs to this history essay."
+              }
+            ],
+            "counterevidence": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "quotes": [
+              "3 is a number from a source"
+            ],
+            "observable_feature": "There are 3 items."
+          }
+        ]
+      },
+      "audit": {
+        "changes": [],
+        "value_replacements": 0,
+        "changed_fields": 0,
+        "protected": [
+          {
+            "path": "/history_patterns/0/pattern_id",
+            "reason": "ID/dimension metadata preserved"
+          },
+          {
+            "path": "/history_patterns/0/pattern",
+            "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+          },
+          {
+            "path": "/history_patterns/0/support/0/history_essay_id",
+            "reason": "ID/dimension metadata preserved"
+          },
+          {
+            "path": "/history_patterns/0/support/0/quotes",
+            "reason": "Source quotations preserved verbatim"
+          },
+          {
+            "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+            "reason": "Scores explicitly attributed to a valid supplied history ID"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+          },
+          {
+            "path": "/target_evidence/0/evidence_id",
+            "reason": "ID/dimension metadata preserved"
+          },
+          {
+            "path": "/target_evidence/0/quotes",
+            "reason": "Source quotations preserved verbatim"
+          },
+          {
+            "path": "/target_evidence/0/quotes",
+            "reason": "Quotation not an exact substring; content finding, not repaired"
+          }
+        ],
+        "quarantine": [],
+        "automatic_pass": true,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "history_equivalence_not_salvaged",
+      "passed": true,
+      "original": {
+        "decision_explanation": "The target received the same Overall score as history essay 217:1."
+      },
+      "masked": {
+        "decision_explanation": "The target received the same Overall score as history essay 217:1."
+      },
+      "audit": {
+        "changes": [],
+        "value_replacements": 0,
+        "changed_fields": 0,
+        "protected": [],
+        "quarantine": [
+          {
+            "path": "/decision_explanation",
+            "kind": "recoverable_history_equivalence",
+            "text": "The target received the same Overall score as history essay 217:1.",
+            "action": "quarantine; not automatically rewritten"
+          }
+        ],
+        "automatic_pass": false,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "arithmetic_not_salvaged",
+      "passed": true,
+      "original": {
+        "decision_explanation": "The target Overall is 2 + 1."
+      },
+      "masked": {
+        "decision_explanation": "The target Overall is 2 + 1."
+      },
+      "audit": {
+        "changes": [],
+        "value_replacements": 0,
+        "changed_fields": 0,
+        "protected": [],
+        "quarantine": [
+          {
+            "path": "/decision_explanation",
+            "kind": "recoverable_calculation",
+            "text": "The target Overall is 2 + 1.",
+            "action": "quarantine; not automatically rewritten"
+          }
+        ],
+        "automatic_pass": false,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "unique_band_not_salvaged",
+      "passed": true,
+      "original": {
+        "decision_explanation": "The target fits the highest band."
+      },
+      "masked": {
+        "decision_explanation": "The target fits the highest band."
+      },
+      "audit": {
+        "changes": [],
+        "value_replacements": 0,
+        "changed_fields": 0,
+        "protected": [],
+        "quarantine": [
+          {
+            "path": "/decision_explanation",
+            "kind": "unique_or_unspecified_named_band",
+            "text": "The target fits the highest band.",
+            "action": "quarantine; not automatically rewritten"
+          }
+        ],
+        "automatic_pass": false,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "ambiguous_role_not_rewritten",
+      "passed": true,
+      "original": {
+        "decision_explanation": "It is unclear whether the score of three refers to the target or history."
+      },
+      "masked": {
+        "decision_explanation": "It is unclear whether the score of three refers to the target or history."
+      },
+      "audit": {
+        "changes": [],
+        "value_replacements": 0,
+        "changed_fields": 0,
+        "protected": [],
+        "quarantine": [
+          {
+            "path": "/decision_explanation",
+            "kind": "ambiguous_target_history_attribution",
+            "text": "It is unclear whether the score of three refers to the target or history.",
+            "action": "quarantine; not automatically rewritten"
+          }
+        ],
+        "automatic_pass": false,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "target_as_history_detected",
+      "passed": true,
+      "original": {
+        "history_patterns": [
+          {
+            "support": [
+              {
+                "history_essay_id": "1514:1",
+                "relevant_observed_history_scores": {
+                  "Overall": 3
+                }
+              }
+            ],
+            "counterevidence": []
+          }
+        ]
+      },
+      "masked": {
+        "history_patterns": [
+          {
+            "support": [
+              {
+                "history_essay_id": "1514:1",
+                "relevant_observed_history_scores": {
+                  "Overall": 3
+                }
+              }
+            ],
+            "counterevidence": []
+          }
+        ]
+      },
+      "audit": {
+        "changes": [],
+        "value_replacements": 0,
+        "changed_fields": 0,
+        "protected": [
+          {
+            "path": "/history_patterns/0/support/0/history_essay_id",
+            "reason": "ID/dimension metadata preserved"
+          }
+        ],
+        "quarantine": [
+          {
+            "path": "/history_patterns/0/support/0/history_essay_id",
+            "kind": "invalid_history_reference",
+            "text": "1514:1",
+            "action": "quarantine; not automatically rewritten"
+          },
+          {
+            "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+            "kind": "unverified_history_score_attribution",
+            "text": "{\"Overall\": 3}",
+            "action": "quarantine; not automatically rewritten"
+          }
+        ],
+        "automatic_pass": false,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "limited_history_is_not_ambiguous_score_role",
+      "passed": true,
+      "original": {
+        "target_evidence": [
+          {
+            "uncertainty": "The essay's control is consistent with an Overall score of 3, but the pattern is not definitive due to the limited history."
+          }
+        ]
+      },
+      "masked": {
+        "target_evidence": [
+          {
+            "uncertainty": "The essay's control is consistent with an Overall score of \u25a1, but the pattern is not definitive due to the limited history."
+          }
+        ]
+      },
+      "audit": {
+        "changes": [
+          {
+            "path": "/target_evidence/0/uncertainty",
+            "before": "The essay's control is consistent with an Overall score of 3, but the pattern is not definitive due to the limited history.",
+            "after": "The essay's control is consistent with an Overall score of \u25a1, but the pattern is not definitive due to the limited history.",
+            "value_spans": [
+              {
+                "start": 59,
+                "end": 60,
+                "value": "3",
+                "replacement": "\u25a1"
+              }
+            ],
+            "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+          }
+        ],
+        "value_replacements": 1,
+        "changed_fields": 1,
+        "protected": [],
+        "quarantine": [],
+        "automatic_pass": true,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "history_mention_later_does_not_protect_target",
+      "passed": true,
+      "original": {
+        "decision_explanation": "The essay's minor errors align with the observed Overall score of 3, consistent with the pattern observed in the history essays."
+      },
+      "masked": {
+        "decision_explanation": "The essay's minor errors align with the observed Overall score of \u25a1, consistent with the pattern observed in the history essays."
+      },
+      "audit": {
+        "changes": [
+          {
+            "path": "/decision_explanation",
+            "before": "The essay's minor errors align with the observed Overall score of 3, consistent with the pattern observed in the history essays.",
+            "after": "The essay's minor errors align with the observed Overall score of \u25a1, consistent with the pattern observed in the history essays.",
+            "value_spans": [
+              {
+                "start": 66,
+                "end": 67,
+                "value": "3",
+                "replacement": "\u25a1"
+              }
+            ],
+            "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+          }
+        ],
+        "value_replacements": 1,
+        "changed_fields": 1,
+        "protected": [],
+        "quarantine": [],
+        "automatic_pass": true,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "explicit_generic_history_value_preserved",
+      "passed": true,
+      "original": {
+        "decision_explanation": "The target shares features with the pattern observed in the history where similar essays received an Overall score of 3."
+      },
+      "masked": {
+        "decision_explanation": "The target shares features with the pattern observed in the history where similar essays received an Overall score of 3."
+      },
+      "audit": {
+        "changes": [],
+        "value_replacements": 0,
+        "changed_fields": 0,
+        "protected": [
+          {
+            "path": "/decision_explanation",
+            "span": [
+              101,
+              119
+            ],
+            "text": "Overall score of 3",
+            "reason": "Explicitly attributed history score clause"
+          }
+        ],
+        "quarantine": [],
+        "automatic_pass": true,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "mixed_clear_history_and_target",
+      "passed": true,
+      "original": {
+        "decision_explanation": "History essay 217:1 received an Overall score of 3 but the target Overall score is four."
+      },
+      "masked": {
+        "decision_explanation": "History essay 217:1 received an Overall score of 3 but the target Overall score is \u25a1."
+      },
+      "audit": {
+        "changes": [
+          {
+            "path": "/decision_explanation",
+            "before": "History essay 217:1 received an Overall score of 3 but the target Overall score is four.",
+            "after": "History essay 217:1 received an Overall score of 3 but the target Overall score is \u25a1.",
+            "value_spans": [
+              {
+                "start": 83,
+                "end": 87,
+                "value": "four",
+                "replacement": "\u25a1"
+              }
+            ],
+            "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+          }
+        ],
+        "value_replacements": 1,
+        "changed_fields": 1,
+        "protected": [
+          {
+            "path": "/decision_explanation",
+            "span": [
+              32,
+              50
+            ],
+            "text": "Overall score of 3",
+            "reason": "Explicitly attributed history score clause"
+          }
+        ],
+        "quarantine": [],
+        "automatic_pass": true,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "scoring_history_as_value_preserved",
+      "passed": true,
+      "original": {
+        "decision_explanation": "This is supported by the rater's history of scoring similar essays with a mix of minor errors as Overall 3."
+      },
+      "masked": {
+        "decision_explanation": "This is supported by the rater's history of scoring similar essays with a mix of minor errors as Overall 3."
+      },
+      "audit": {
+        "changes": [],
+        "value_replacements": 0,
+        "changed_fields": 0,
+        "protected": [
+          {
+            "path": "/decision_explanation",
+            "span": [
+              97,
+              106
+            ],
+            "text": "Overall 3",
+            "reason": "Explicitly attributed history score clause"
+          }
+        ],
+        "quarantine": [],
+        "automatic_pass": true,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "historical_essays_receiving_value_preserved",
+      "passed": true,
+      "original": {
+        "decision_explanation": "The essay's features align with the historical pattern observed in essays receiving an Overall score of 3."
+      },
+      "masked": {
+        "decision_explanation": "The essay's features align with the historical pattern observed in essays receiving an Overall score of 3."
+      },
+      "audit": {
+        "changes": [],
+        "value_replacements": 0,
+        "changed_fields": 0,
+        "protected": [
+          {
+            "path": "/decision_explanation",
+            "span": [
+              87,
+              105
+            ],
+            "text": "Overall score of 3",
+            "reason": "Explicitly attributed history score clause"
+          }
+        ],
+        "quarantine": [],
+        "automatic_pass": true,
+        "value_only_invariant": true
+      }
+    },
+    {
+      "name": "saved_1514_1__K1",
+      "passed": true
+    },
+    {
+      "name": "saved_1514_1__K2",
+      "passed": true
+    },
+    {
+      "name": "saved_1868_1__K1",
+      "passed": true
+    },
+    {
+      "name": "saved_1868_1__K2",
+      "passed": true
+    },
+    {
+      "name": "saved_4902_1__K1",
+      "passed": true
+    },
+    {
+      "name": "saved_4902_1__K2",
+      "passed": true
+    }
+  ]
+}

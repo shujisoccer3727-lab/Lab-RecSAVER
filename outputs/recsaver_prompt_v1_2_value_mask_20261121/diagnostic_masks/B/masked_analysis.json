@@ -1,0 +1,94 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "The rater appears to evaluate essays with limited cohesion and syntax negatively, often assigning lower scores when the text lacks clear organization and has frequent errors in sentence structure.",
+      "support": [
+        {
+          "history_essay_id": "8630:1",
+          "quotes": [
+            "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 1,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay lacks clear organization and has frequent errors in sentence structure, which aligns with the lower scores given."
+        },
+        {
+          "history_essay_id": "1462:1",
+          "quotes": [
+            "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay has a more coherent structure but still contains errors in sentence formation and vocabulary usage, which aligns with the lower scores given."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "8722:1",
+          "quotes": [
+            "Dear Principle, If our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online."
+          ],
+          "interpretation": "This essay demonstrates better cohesion and syntax, which contrasts with the lower scores given in other essays with similar issues."
+        }
+      ],
+      "limitations": [
+        "The history contains a mix of scores, making it difficult to establish a consistent pattern."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself."
+      ],
+      "observable_feature": "The essay demonstrates limited cohesion and syntax, with frequent errors in sentence structure and vocabulary usage.",
+      "evaluative_interpretation": "The rater may evaluate this essay negatively due to its lack of clear organization and frequent errors in sentence structure.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for scores □ and □ indicates that communication is impeded by language inaccuracies and that there are many sentence structure problems.",
+      "uncertainty": "The essay's overall coherence and vocabulary usage are somewhat inconsistent, making it challenging to predict the exact score."
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates limited cohesion and syntax, with frequent errors in sentence structure and vocabulary usage. This aligns with the rater's historical pattern of evaluating essays with similar issues negatively. The rater appears to consider the lack of clear organization and frequent errors in sentence structure as significant factors in assigning lower scores.",
+  "insufficient_evidence": [
+    "The history contains a mix of scores, making it difficult to establish a consistent pattern."
+  ]
+}

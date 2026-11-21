@@ -1,0 +1,68 @@
+{
+  "reviewed_at": "2026-11-21T14:00:05.788656+09:00",
+  "reviewer": "Codex provisional inspection; not human evaluation",
+  "candidates": {
+    "1514_1__K1": {
+      "reasons": [],
+      "confirmed_remaining_numerical_target_violation": false,
+      "confirmed_recoverable_score_relation": false,
+      "invalid_history_reference": false,
+      "review_scope": "All score_free_analysis fields, source-ID roles, explicit equality/calculation/name ambiguities, unchanged quotes and copied observed values inspected.",
+      "content_note": "Target/historical numerical values separated. Cohesion-higher/Syntax-lower is qualitative ordering, not an explicit equality to an identified history score. Original broad organization/syntax claims remain under-supported.",
+      "mask_values": 2,
+      "pass": true
+    },
+    "1514_1__K2": {
+      "reasons": [],
+      "confirmed_remaining_numerical_target_violation": false,
+      "confirmed_recoverable_score_relation": false,
+      "invalid_history_reference": false,
+      "review_scope": "All score_free_analysis fields, source-ID roles, explicit equality/calculation/name ambiguities, unchanged quotes and copied observed values inspected.",
+      "content_note": "Numerical target band values masked; all history IDs supplied. Short target passage still used to support broad organization and syntactic-variety claims.",
+      "mask_values": 3,
+      "pass": true
+    },
+    "1868_1__K1": {
+      "reasons": [],
+      "confirmed_remaining_numerical_target_violation": false,
+      "confirmed_recoverable_score_relation": false,
+      "invalid_history_reference": false,
+      "review_scope": "All score_free_analysis fields, source-ID roles, explicit equality/calculation/name ambiguities, unchanged quotes and copied observed values inspected.",
+      "content_note": "Remaining numeral in decision is explicitly this rater's history of scoring similar essays with a3, not a direct assertion of target equality. The target quote is retained, but no local keep-learning analysis was added.",
+      "mask_values": 2,
+      "pass": true
+    },
+    "1868_1__K2": {
+      "reasons": [],
+      "confirmed_remaining_numerical_target_violation": false,
+      "confirmed_recoverable_score_relation": false,
+      "invalid_history_reference": false,
+      "review_scope": "All score_free_analysis fields, source-ID roles, explicit equality/calculation/name ambiguities, unchanged quotes and copied observed values inspected.",
+      "content_note": "Explicit target Overall/Traits value masked. Claim that Overall and Traits all had that value is substantively false for Vocabulary/Phraseology, but no numerical value remains. Treat as content issue separately from mask input safety.",
+      "mask_values": 3,
+      "pass": true
+    },
+    "4902_1__K1": {
+      "reasons": [],
+      "confirmed_remaining_numerical_target_violation": false,
+      "confirmed_recoverable_score_relation": false,
+      "invalid_history_reference": false,
+      "review_scope": "All score_free_analysis fields, source-ID roles, explicit equality/calculation/name ambiguities, unchanged quotes and copied observed values inspected.",
+      "content_note": "Historical Overall3 retained after implementation correction; explicit target values masked. Minor-error characterization and rubric/observed-score alignment remain substantive concerns.",
+      "mask_values": 3,
+      "pass": true
+    },
+    "4902_1__K2": {
+      "reasons": [],
+      "confirmed_remaining_numerical_target_violation": false,
+      "confirmed_recoverable_score_relation": false,
+      "invalid_history_reference": false,
+      "review_scope": "All score_free_analysis fields, source-ID roles, explicit equality/calculation/name ambiguities, unchanged quotes and copied observed values inspected.",
+      "content_note": "Numeral in historical pattern/essays-receiving statement is attributed to actual history; target values masked. No explicit same-score relationship, calculation or unique band name found.",
+      "mask_values": 2,
+      "pass": true
+    }
+  },
+  "mask_version_sha256": "a3b2ccaa3f9d5bfe2905c7bb1d3b8c245c0badcb26da081048ed1787dadc0561",
+  "content_quality_is_not_acceptance_filter": true
+}

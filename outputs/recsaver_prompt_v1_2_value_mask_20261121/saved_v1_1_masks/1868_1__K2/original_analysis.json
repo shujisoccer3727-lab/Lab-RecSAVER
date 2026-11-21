@@ -1,0 +1,66 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary"
+      ],
+      "pattern": "Essays with generally controlled organization and a sufficient range of vocabulary receive a score of 3.",
+      "support": [
+        {
+          "history_essay_id": "5783:1",
+          "quotes": [
+            "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+        },
+        {
+          "history_essay_id": "8666:1",
+          "quotes": [
+            "Many students also think that at least a C grade average is a good grade."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4
+            }
+          },
+          "interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary"
+      ],
+      "quotes": [
+        "The main piece to improve your skills is during the process of keep learning."
+      ],
+      "observable_feature": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary.",
+      "evaluative_interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, which is consistent with a score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay uses a range of cohesive devices and demonstrates a sufficient range of vocabulary, which aligns with the rubric for a score of 3.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with the observed scores of 3 in the history essays. The evidence supports a plausible interpretation of the observed scoring decision.",
+  "insufficient_evidence": []
+}

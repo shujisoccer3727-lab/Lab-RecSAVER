@@ -1,0 +1,1091 @@
+{
+  "reviewed_at": "2026-11-21T14:07:24.474651+09:00",
+  "reviewer": "Codex provisional semantic review; not independent human evaluation",
+  "candidates": [
+    {
+      "candidate_id": "1514_1__K1",
+      "reviewer": "Codex provisional; not human evaluation",
+      "input_source": "stage1/1514_1__K1/input.json",
+      "original_source": "stage1/1514_1__K1/parsed.json",
+      "masked_source": "masks/1514_1__K1/masked_analysis.json",
+      "original_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax"
+            ],
+            "pattern": "Essays with generally well-controlled organization and a range of cohesive devices receive higher scores, while those with limited syntactic structures and occasional errors receive lower scores.",
+            "support": [
+              {
+                "history_essay_id": "1440:1",
+                "quotes": [
+                  "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 4,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 4
+                  }
+                },
+                "interpretation": "The essay demonstrates a generally well-controlled organization and a range of cohesive devices, which aligns with the higher Overall score."
+              },
+              {
+                "history_essay_id": "217:1",
+                "quotes": [
+                  "So principal i think policy 1 is better for the students."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 2
+                  }
+                },
+                "interpretation": "The essay shows limited syntactic structures and occasional errors, which aligns with the lower Overall score."
+              }
+            ],
+            "counterevidence": [],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax"
+            ],
+            "quotes": [
+              "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it."
+            ],
+            "observable_feature": "The essay demonstrates a generally well-controlled organization and a range of cohesive devices, but also shows limited syntactic structures and occasional errors.",
+            "evaluative_interpretation": "The essay's organization and cohesive devices support a higher score, while the limited syntactic structures and occasional errors support a lower score.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay's features align with the rubric descriptors for a score of 3, where the organization is generally controlled but the range of syntactic structures is limited.",
+            "uncertainty": "The essay's overall score is influenced by the balance between its strengths in organization and cohesive devices and its limitations in syntactic structures."
+          }
+        ],
+        "decision_explanation": "The essay's generally well-controlled organization and range of cohesive devices, as seen in the quotes, align with the higher Trait scores for Cohesion. However, the limited syntactic structures and occasional errors, as seen in the quotes, align with the lower Trait scores for Syntax. This balance supports the observed Overall score of 3.",
+        "insufficient_evidence": []
+      },
+      "masked_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax"
+            ],
+            "pattern": "Essays with generally well-controlled organization and a range of cohesive devices receive higher scores, while those with limited syntactic structures and occasional errors receive lower scores.",
+            "support": [
+              {
+                "history_essay_id": "1440:1",
+                "quotes": [
+                  "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 4,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 4
+                  }
+                },
+                "interpretation": "The essay demonstrates a generally well-controlled organization and a range of cohesive devices, which aligns with the higher Overall score."
+              },
+              {
+                "history_essay_id": "217:1",
+                "quotes": [
+                  "So principal i think policy 1 is better for the students."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 2
+                  }
+                },
+                "interpretation": "The essay shows limited syntactic structures and occasional errors, which aligns with the lower Overall score."
+              }
+            ],
+            "counterevidence": [],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax"
+            ],
+            "quotes": [
+              "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it."
+            ],
+            "observable_feature": "The essay demonstrates a generally well-controlled organization and a range of cohesive devices, but also shows limited syntactic structures and occasional errors.",
+            "evaluative_interpretation": "The essay's organization and cohesive devices support a higher score, while the limited syntactic structures and occasional errors support a lower score.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay's features align with the rubric descriptors for a score of □, where the organization is generally controlled but the range of syntactic structures is limited.",
+            "uncertainty": "The essay's overall score is influenced by the balance between its strengths in organization and cohesive devices and its limitations in syntactic structures."
+          }
+        ],
+        "decision_explanation": "The essay's generally well-controlled organization and range of cohesive devices, as seen in the quotes, align with the higher Trait scores for Cohesion. However, the limited syntactic structures and occasional errors, as seen in the quotes, align with the lower Trait scores for Syntax. This balance supports the observed Overall score of □.",
+        "insufficient_evidence": []
+      },
+      "input_target": {
+        "essay_id": "1514:1",
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 4,
+          "Syntax": 3,
+          "Vocabulary": 3,
+          "Phraseology": 3,
+          "Grammar": 3,
+          "Conventions": 4
+        },
+        "quoted_source_text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. My brother for example wanted to be an engineer, with hard work and effort he made it. In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. Also, he took classes that would help him improve his skills and understanding of his future career. Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life. With hard work and patience he did it. Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. You'll\r\n\r\nnever know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. "
+      },
+      "mask_fidelity": "met: only audited values changed; evidence text retained",
+      "meaning_support": "partially_met at most; see specific finding",
+      "specific_finding": "The selected opening sentence cannot by itself establish whole-essay organization/cohesive range. Higher Cohesion/lower Syntax is an interpretation, not recovered rater weighting. Mask preserves the hypothesis but reconstruction=4 differs from observed3.",
+      "content_improvement_from_mask": "not established: nonnumeric claims and their evidential limits preserved"
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "reviewer": "Codex provisional; not human evaluation",
+      "input_source": "stage1/1514_1__K2/input.json",
+      "original_source": "stage1/1514_1__K2/parsed.json",
+      "masked_source": "masks/1514_1__K2/masked_analysis.json",
+      "original_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax"
+            ],
+            "pattern": "Essays with generally well-controlled organization and a range of cohesive devices receive higher scores, while those with limited syntactic structures receive lower scores.",
+            "support": [
+              {
+                "history_essay_id": "1440:1",
+                "quotes": [
+                  "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 4,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 4
+                  }
+                },
+                "interpretation": "The essay demonstrates a range of cohesive devices and a variety of syntactic structures, leading to higher scores."
+              },
+              {
+                "history_essay_id": "8745:1",
+                "quotes": [
+                  "It is no secret that engineering is one of the fields that require numerous math classes. Many would see this as a negative aspect of becoming an engineer; yet, I do not."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 5,
+                  "Traits": {
+                    "Cohesion": 4,
+                    "Syntax": 5
+                  }
+                },
+                "interpretation": "The essay shows a well-controlled organization and a flexible use of syntactic structures, resulting in higher scores."
+              }
+            ],
+            "counterevidence": [
+              {
+                "history_essay_id": "217:1",
+                "quotes": [
+                  "But students have to know that they have to have there phones off so when they have a free time they can use it, because if the teacher see a phone out in class and a student is using it the teacher can take it away and give it to the principal and they are not going to have a phone to text there friends during free time or at home."
+                ],
+                "interpretation": "The essay has limited syntactic structures and repetitive cohesive devices, leading to lower scores."
+              }
+            ],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax"
+            ],
+            "quotes": [
+              "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it."
+            ],
+            "observable_feature": "The essay demonstrates a range of cohesive devices and a variety of syntactic structures, but with some errors and limitations.",
+            "evaluative_interpretation": "The essay shows a generally well-controlled organization and a range of cohesive devices, but the syntactic structures are limited, leading to a score of 3.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay aligns with the rubric for a score of 3, showing a range of cohesive devices and some syntactic variety, but with some errors and limitations.",
+            "uncertainty": ""
+          }
+        ],
+        "decision_explanation": "The essay demonstrates a generally well-controlled organization and a range of cohesive devices, but the syntactic structures are limited, leading to a score of 3. This is consistent with the rater's history of assigning higher scores to essays with well-controlled organization and a range of cohesive devices, and lower scores to those with limited syntactic structures.",
+        "insufficient_evidence": []
+      },
+      "masked_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax"
+            ],
+            "pattern": "Essays with generally well-controlled organization and a range of cohesive devices receive higher scores, while those with limited syntactic structures receive lower scores.",
+            "support": [
+              {
+                "history_essay_id": "1440:1",
+                "quotes": [
+                  "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 4,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 4
+                  }
+                },
+                "interpretation": "The essay demonstrates a range of cohesive devices and a variety of syntactic structures, leading to higher scores."
+              },
+              {
+                "history_essay_id": "8745:1",
+                "quotes": [
+                  "It is no secret that engineering is one of the fields that require numerous math classes. Many would see this as a negative aspect of becoming an engineer; yet, I do not."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 5,
+                  "Traits": {
+                    "Cohesion": 4,
+                    "Syntax": 5
+                  }
+                },
+                "interpretation": "The essay shows a well-controlled organization and a flexible use of syntactic structures, resulting in higher scores."
+              }
+            ],
+            "counterevidence": [
+              {
+                "history_essay_id": "217:1",
+                "quotes": [
+                  "But students have to know that they have to have there phones off so when they have a free time they can use it, because if the teacher see a phone out in class and a student is using it the teacher can take it away and give it to the principal and they are not going to have a phone to text there friends during free time or at home."
+                ],
+                "interpretation": "The essay has limited syntactic structures and repetitive cohesive devices, leading to lower scores."
+              }
+            ],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax"
+            ],
+            "quotes": [
+              "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it."
+            ],
+            "observable_feature": "The essay demonstrates a range of cohesive devices and a variety of syntactic structures, but with some errors and limitations.",
+            "evaluative_interpretation": "The essay shows a generally well-controlled organization and a range of cohesive devices, but the syntactic structures are limited, leading to a score of □.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay aligns with the rubric for a score of □, showing a range of cohesive devices and some syntactic variety, but with some errors and limitations.",
+            "uncertainty": ""
+          }
+        ],
+        "decision_explanation": "The essay demonstrates a generally well-controlled organization and a range of cohesive devices, but the syntactic structures are limited, leading to a score of □. This is consistent with the rater's history of assigning higher scores to essays with well-controlled organization and a range of cohesive devices, and lower scores to those with limited syntactic structures.",
+        "insufficient_evidence": []
+      },
+      "input_target": {
+        "essay_id": "1514:1",
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 4,
+          "Syntax": 3,
+          "Vocabulary": 3,
+          "Phraseology": 3,
+          "Grammar": 3,
+          "Conventions": 4
+        },
+        "quoted_source_text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. My brother for example wanted to be an engineer, with hard work and effort he made it. In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. Also, he took classes that would help him improve his skills and understanding of his future career. Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life. With hard work and patience he did it. Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. You'll\r\n\r\nnever know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. "
+      },
+      "mask_fidelity": "met: only audited values changed; evidence text retained",
+      "meaning_support": "partially_met at most; see specific finding",
+      "specific_finding": "History217 is described as counterevidence even though lower quality/lower score is compatible with the proposed pattern. One target quote supports neither overall structural variety nor an identified balancing rule. Reconstruction4 does not make the reason independently correct or incorrect.",
+      "content_improvement_from_mask": "not established: nonnumeric claims and their evidential limits preserved"
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "reviewer": "Codex provisional; not human evaluation",
+      "input_source": "stage1/1868_1__K1/input.json",
+      "original_source": "stage1/1868_1__K1/parsed.json",
+      "masked_source": "masks/1868_1__K1/masked_analysis.json",
+      "original_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary"
+            ],
+            "pattern": "Essays with generally controlled organization and a sufficient range of vocabulary receive a score of 3.",
+            "support": [
+              {
+                "history_essay_id": "5783:1",
+                "quotes": [
+                  "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4
+                  }
+                },
+                "interpretation": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+              },
+              {
+                "history_essay_id": "8666:1",
+                "quotes": [
+                  "Many students also think that at least a C grade average is a good grade."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4
+                  }
+                },
+                "interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+              }
+            ],
+            "counterevidence": [],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary"
+            ],
+            "quotes": [
+              "The main piece to improve your skills is during the process of keep learning."
+            ],
+            "observable_feature": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary.",
+            "evaluative_interpretation": "The essay's organization is generally controlled, and it uses a sufficient range of vocabulary, which is consistent with a score of 3.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay's organization and vocabulary usage align with the rubric descriptors for a score of 3.",
+            "uncertainty": ""
+          }
+        ],
+        "decision_explanation": "The essay's generally controlled organization and sufficient range of vocabulary align with the rater's history of scoring similar essays with a 3.",
+        "insufficient_evidence": []
+      },
+      "masked_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary"
+            ],
+            "pattern": "Essays with generally controlled organization and a sufficient range of vocabulary receive a score of 3.",
+            "support": [
+              {
+                "history_essay_id": "5783:1",
+                "quotes": [
+                  "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4
+                  }
+                },
+                "interpretation": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+              },
+              {
+                "history_essay_id": "8666:1",
+                "quotes": [
+                  "Many students also think that at least a C grade average is a good grade."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4
+                  }
+                },
+                "interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+              }
+            ],
+            "counterevidence": [],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary"
+            ],
+            "quotes": [
+              "The main piece to improve your skills is during the process of keep learning."
+            ],
+            "observable_feature": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary.",
+            "evaluative_interpretation": "The essay's organization is generally controlled, and it uses a sufficient range of vocabulary, which is consistent with a score of □.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay's organization and vocabulary usage align with the rubric descriptors for a score of □.",
+            "uncertainty": ""
+          }
+        ],
+        "decision_explanation": "The essay's generally controlled organization and sufficient range of vocabulary align with the rater's history of scoring similar essays with a 3.",
+        "insufficient_evidence": []
+      },
+      "input_target": {
+        "essay_id": "1868:1",
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 3,
+          "Syntax": 3,
+          "Vocabulary": 4,
+          "Phraseology": 4,
+          "Grammar": 3,
+          "Conventions": 3
+        },
+        "quoted_source_text": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. Even adult mothers have said that they keep learning how to be mother everyday.\r\n\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\nit would be necessary those extra years. The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. The years where you have been taking classes that does not look that t would help you in the future in any way. They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. After you have got the extra years, does not\r\n\r\nmean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n\r\nGoing beyond your expectations as a person would bring you benefit to your life. If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\nlead yourself to become another worker. Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. If you do not try nothing new\r\n\r\nand\r\n\r\ndo not applied on your daily, do no expect\r\n\r\nto become successful as a person. You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. You should not let yourself be the obstacle to keep learning new things to do. If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping."
+      },
+      "mask_fidelity": "met: only audited values changed; evidence text retained",
+      "meaning_support": "partially_met at most; see specific finding",
+      "specific_finding": "Exact keep-learning sentence is retained. The reason still asserts whole-essay organization and vocabulary range rather than analyzing the local construction. The history-attributed3 in decision is intentionally retained; not an explicit same-score equality.",
+      "content_improvement_from_mask": "not established: nonnumeric claims and their evidential limits preserved"
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "reviewer": "Codex provisional; not human evaluation",
+      "input_source": "stage1/1868_1__K2/input.json",
+      "original_source": "stage1/1868_1__K2/parsed.json",
+      "masked_source": "masks/1868_1__K2/masked_analysis.json",
+      "original_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary"
+            ],
+            "pattern": "Essays with generally controlled organization and a sufficient range of vocabulary receive a score of 3.",
+            "support": [
+              {
+                "history_essay_id": "5783:1",
+                "quotes": [
+                  "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4
+                  }
+                },
+                "interpretation": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+              },
+              {
+                "history_essay_id": "8666:1",
+                "quotes": [
+                  "Many students also think that at least a C grade average is a good grade."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4
+                  }
+                },
+                "interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+              }
+            ],
+            "counterevidence": [],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary"
+            ],
+            "quotes": [
+              "The main piece to improve your skills is during the process of keep learning."
+            ],
+            "observable_feature": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary.",
+            "evaluative_interpretation": "The essay's organization is generally controlled, and it uses a sufficient range of vocabulary, which is consistent with a score of 3.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay's organization is generally controlled, and it uses a sufficient range of vocabulary, which aligns with the rubric descriptors for a score of 3.",
+            "uncertainty": ""
+          }
+        ],
+        "decision_explanation": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with the observed scores of 3 for both Overall and Traits. This is supported by the historical pattern observed in essays with similar characteristics.",
+        "insufficient_evidence": []
+      },
+      "masked_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary"
+            ],
+            "pattern": "Essays with generally controlled organization and a sufficient range of vocabulary receive a score of 3.",
+            "support": [
+              {
+                "history_essay_id": "5783:1",
+                "quotes": [
+                  "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4
+                  }
+                },
+                "interpretation": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+              },
+              {
+                "history_essay_id": "8666:1",
+                "quotes": [
+                  "Many students also think that at least a C grade average is a good grade."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4
+                  }
+                },
+                "interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+              }
+            ],
+            "counterevidence": [],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary"
+            ],
+            "quotes": [
+              "The main piece to improve your skills is during the process of keep learning."
+            ],
+            "observable_feature": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary.",
+            "evaluative_interpretation": "The essay's organization is generally controlled, and it uses a sufficient range of vocabulary, which is consistent with a score of □.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay's organization is generally controlled, and it uses a sufficient range of vocabulary, which aligns with the rubric descriptors for a score of □.",
+            "uncertainty": ""
+          }
+        ],
+        "decision_explanation": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with the observed scores of □ for both Overall and Traits. This is supported by the historical pattern observed in essays with similar characteristics.",
+        "insufficient_evidence": []
+      },
+      "input_target": {
+        "essay_id": "1868:1",
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 3,
+          "Syntax": 3,
+          "Vocabulary": 4,
+          "Phraseology": 4,
+          "Grammar": 3,
+          "Conventions": 3
+        },
+        "quoted_source_text": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. Even adult mothers have said that they keep learning how to be mother everyday.\r\n\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\nit would be necessary those extra years. The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. The years where you have been taking classes that does not look that t would help you in the future in any way. They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. After you have got the extra years, does not\r\n\r\nmean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n\r\nGoing beyond your expectations as a person would bring you benefit to your life. If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\nlead yourself to become another worker. Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. If you do not try nothing new\r\n\r\nand\r\n\r\ndo not applied on your daily, do no expect\r\n\r\nto become successful as a person. You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. You should not let yourself be the obstacle to keep learning new things to do. If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping."
+      },
+      "mask_fidelity": "met: only audited values changed; evidence text retained",
+      "meaning_support": "partially_met at most; see specific finding",
+      "specific_finding": "Structured observed scores copy all values, but free prose says Overall and Traits were3 although Vocabulary/Phraseology=4. Value-only masking hides3 without correcting this false collective statement. Stage2 also repeats a collective history-score claim; its cited histories have Vocabulary4.",
+      "content_improvement_from_mask": "not established: nonnumeric claims and their evidential limits preserved"
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "reviewer": "Codex provisional; not human evaluation",
+      "input_source": "stage1/4902_1__K1/input.json",
+      "original_source": "stage1/4902_1__K1/parsed.json",
+      "masked_source": "masks/4902_1__K1/masked_analysis.json",
+      "original_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "pattern": "Essays with a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions tend to receive an Overall score of 3.",
+            "support": [
+              {
+                "history_essay_id": "8630:1",
+                "quotes": [
+                  "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class"
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 2,
+                    "Vocabulary": 3,
+                    "Phraseology": 1,
+                    "Grammar": 2,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3."
+              },
+              {
+                "history_essay_id": "1462:1",
+                "quotes": [
+                  "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 3,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 3,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3."
+              }
+            ],
+            "counterevidence": [],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "quotes": [
+              "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself."
+            ],
+            "observable_feature": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions.",
+            "evaluative_interpretation": "The essay's mix of minor errors is consistent with an Overall score of 3.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay's mix of minor errors aligns with the rubric descriptors for an Overall score of 3.",
+            "uncertainty": ""
+          }
+        ],
+        "decision_explanation": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3. This is supported by the rater's history of scoring similar essays with a mix of minor errors as Overall 3.",
+        "insufficient_evidence": []
+      },
+      "masked_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "pattern": "Essays with a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions tend to receive an Overall score of 3.",
+            "support": [
+              {
+                "history_essay_id": "8630:1",
+                "quotes": [
+                  "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class"
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 2,
+                    "Vocabulary": 3,
+                    "Phraseology": 1,
+                    "Grammar": 2,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3."
+              },
+              {
+                "history_essay_id": "1462:1",
+                "quotes": [
+                  "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 3,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 3,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3."
+              }
+            ],
+            "counterevidence": [],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "quotes": [
+              "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself."
+            ],
+            "observable_feature": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions.",
+            "evaluative_interpretation": "The essay's mix of minor errors is consistent with an Overall score of □.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay's mix of minor errors aligns with the rubric descriptors for an Overall score of □.",
+            "uncertainty": ""
+          }
+        ],
+        "decision_explanation": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of □. This is supported by the rater's history of scoring similar essays with a mix of minor errors as Overall 3.",
+        "insufficient_evidence": []
+      },
+      "input_target": {
+        "essay_id": "4902:1",
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 2,
+          "Syntax": 3,
+          "Vocabulary": 3,
+          "Phraseology": 3,
+          "Grammar": 3,
+          "Conventions": 3
+        },
+        "quoted_source_text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. but Why be basic like everyone else. Don't you want to be different from everybody else in the world?? Acting or pretending just so you can fit in with your friend. friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. if i want to accomplish something i need to be like everyone and follow what they are doing. Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n\r\nin conucluesion\r\n\r\nits all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+      },
+      "mask_fidelity": "met: only audited values changed; evidence text retained",
+      "meaning_support": "partially_met at most; see specific finding",
+      "specific_finding": "Minor errors across all six dimensions is broader than the quoted evidence and underplays the profile differences in historical Syntax/Phraseology. The preserved historical Overall3 must not be confused with unmasked target data.",
+      "content_improvement_from_mask": "not established: nonnumeric claims and their evidential limits preserved"
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "reviewer": "Codex provisional; not human evaluation",
+      "input_source": "stage1/4902_1__K2/input.json",
+      "original_source": "stage1/4902_1__K2/parsed.json",
+      "masked_source": "masks/4902_1__K2/masked_analysis.json",
+      "original_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "pattern": "Essays with limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions tend to receive an Overall score of 3.",
+            "support": [
+              {
+                "history_essay_id": "8630:1",
+                "quotes": [
+                  "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have"
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 2,
+                    "Vocabulary": 3,
+                    "Phraseology": 1,
+                    "Grammar": 2,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay demonstrates limited syntactic variety and occasional errors in grammar and usage, consistent with an Overall score of 3."
+              },
+              {
+                "history_essay_id": "1462:1",
+                "quotes": [
+                  "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 3,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 3,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay shows a developing use of conventions and occasional errors in grammar, consistent with an Overall score of 3."
+              }
+            ],
+            "counterevidence": [
+              {
+                "history_essay_id": "8722:1",
+                "quotes": [
+                  "Dear Principle,\r\n\r\nIf our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online."
+                ],
+                "interpretation": "This essay demonstrates a higher level of syntactic variety and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3."
+              }
+            ],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "quotes": [
+              "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self."
+            ],
+            "observable_feature": "The essay demonstrates limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions.",
+            "evaluative_interpretation": "These features are consistent with an Overall score of 3, as they indicate a developing proficiency in language use.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay shows a range of vocabulary and occasional inaccuracies, consistent with the rubric descriptor for a score of 3.",
+            "uncertainty": ""
+          }
+        ],
+        "decision_explanation": "The essay's limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions align with the historical pattern observed in essays receiving an Overall score of 3. This is supported by the evidence from the target essay and the history essays with similar characteristics.",
+        "insufficient_evidence": []
+      },
+      "masked_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "pattern": "Essays with limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions tend to receive an Overall score of 3.",
+            "support": [
+              {
+                "history_essay_id": "8630:1",
+                "quotes": [
+                  "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have"
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 2,
+                    "Vocabulary": 3,
+                    "Phraseology": 1,
+                    "Grammar": 2,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay demonstrates limited syntactic variety and occasional errors in grammar and usage, consistent with an Overall score of 3."
+              },
+              {
+                "history_essay_id": "1462:1",
+                "quotes": [
+                  "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 3,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 3,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay shows a developing use of conventions and occasional errors in grammar, consistent with an Overall score of 3."
+              }
+            ],
+            "counterevidence": [
+              {
+                "history_essay_id": "8722:1",
+                "quotes": [
+                  "Dear Principle,\r\n\r\nIf our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online."
+                ],
+                "interpretation": "This essay demonstrates a higher level of syntactic variety and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3."
+              }
+            ],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "quotes": [
+              "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self."
+            ],
+            "observable_feature": "The essay demonstrates limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions.",
+            "evaluative_interpretation": "These features are consistent with an Overall score of □, as they indicate a developing proficiency in language use.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay shows a range of vocabulary and occasional inaccuracies, consistent with the rubric descriptor for a score of □.",
+            "uncertainty": ""
+          }
+        ],
+        "decision_explanation": "The essay's limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions align with the historical pattern observed in essays receiving an Overall score of 3. This is supported by the evidence from the target essay and the history essays with similar characteristics.",
+        "insufficient_evidence": []
+      },
+      "input_target": {
+        "essay_id": "4902:1",
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 2,
+          "Syntax": 3,
+          "Vocabulary": 3,
+          "Phraseology": 3,
+          "Grammar": 3,
+          "Conventions": 3
+        },
+        "quoted_source_text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. but Why be basic like everyone else. Don't you want to be different from everybody else in the world?? Acting or pretending just so you can fit in with your friend. friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. if i want to accomplish something i need to be like everyone and follow what they are doing. Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n\r\nin conucluesion\r\n\r\nits all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+      },
+      "mask_fidelity": "met: only audited values changed; evidence text retained",
+      "meaning_support": "partially_met at most; see specific finding",
+      "specific_finding": "Exact quote preservation improved in this generation, including source paragraph breaks, but frequency/severity and full-essay syntactic variety are not established by the selected opening. Rubric/observed Syntax alignment remains weak.",
+      "content_improvement_from_mask": "not established: nonnumeric claims and their evidential limits preserved"
+    }
+  ],
+  "stage3": [
+    {
+      "criterion": "evaluative_relationship_across_distinct_essays",
+      "label": "partially_met",
+      "output_source": "stage3/rater_7/parsed.json#/patterns/0/supporting_cases",
+      "reason": "Two distinct source IDs and scores present, but the shared minor-error description does not establish how the rater evaluated each feature; alternative profiles and original weak analyses not reconciled."
+    },
+    {
+      "criterion": "representative_quote_judgment_score_connection",
+      "label": "not_met",
+      "output_source": "stage3/rater_7/parsed.json#/patterns/0/representative_decision",
+      "reason": "Real opening quotation4902 supports a stance, not minor errors across all six dimensions or their relation to Overall3. Final paragraph has no exact source quotation."
+    },
+    {
+      "criterion": "rubric_dimension_band_accuracy",
+      "label": "not_met",
+      "output_source": "stage3/rater_7/parsed.json#/patterns/0/rubric_comparison",
+      "output_evidence": {
+        "dimension": "Overall",
+        "rubric_quote": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+        "criterion_interpretation": "The rubric requires the essay to demonstrate facility in language use with occasional inaccuracies that do not impede communication.",
+        "relationship": "consistent_with_rubric",
+        "comparison": "The essay's mix of minor errors aligns with the rubric descriptors for an Overall score of 3, as the errors do not significantly impede communication.",
+        "uncertainty": "The rubric does not specify the exact number or type of errors that would justify an Overall score of 3."
+      },
+      "input_source": "rubric.json#/scores",
+      "input_evidence": {
+        "Overall3": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "Overall4": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication."
+      },
+      "reason": "Quoted criterion is exactly Overall4, while comparison calls it support for Overall3. rarely vs some-cases interference distinction lost."
+    },
+    {
+      "criterion": "concrete_next_scoring_check",
+      "label": "partially_met",
+      "output_source": "stage3/rater_7/parsed.json#/patterns/0/next_scoring_check",
+      "reason": "Rater-directed severity/meaning distinction is useful direction, but no exact passage, competing interpretations or band-correct retain/reconsider condition supplied."
+    },
+    {
+      "criterion": "source_role_integrity",
+      "label": "not_met",
+      "output_source": "stage3/rater_7/parsed.json#/patterns/0/counterexamples_and_scope/0",
+      "reason": "8722:1 is a history essay, not an accepted target; source existence does not justify target_essay_id role."
+    },
+    {
+      "criterion": "scope_counts",
+      "label": "met",
+      "output_source": "stage3/rater_7/parsed.json#/evidence_scope",
+      "reason": "Four accepted records and two distinct targets correctly separated; limitations mention both targets Overall3."
+    }
+  ],
+  "final_feedback_usable": false,
+  "feedback_original": "In these supplied cases, you appear to assign an Overall score of 3 to essays that demonstrate a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions. For example, in essay 4902:1, the mix of minor errors is consistent with an Overall score of 3. The rubric requires occasional language inaccuracies that rarely impede communication, which aligns with your treatment of these errors. For future scoring, inspect the mix of minor errors and distinguish their severity and impact on communication to ensure consistency with the rubric."
+}

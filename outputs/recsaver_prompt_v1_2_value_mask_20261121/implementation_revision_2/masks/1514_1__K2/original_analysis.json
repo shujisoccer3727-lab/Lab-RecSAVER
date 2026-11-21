@@ -1,0 +1,74 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax"
+      ],
+      "pattern": "Essays with generally well-controlled organization and a range of cohesive devices receive higher scores, while those with limited syntactic structures receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "1440:1",
+          "quotes": [
+            "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a range of cohesive devices and a variety of syntactic structures, leading to higher scores."
+        },
+        {
+          "history_essay_id": "8745:1",
+          "quotes": [
+            "It is no secret that engineering is one of the fields that require numerous math classes. Many would see this as a negative aspect of becoming an engineer; yet, I do not."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 5,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 5
+            }
+          },
+          "interpretation": "The essay shows a well-controlled organization and a flexible use of syntactic structures, resulting in higher scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "217:1",
+          "quotes": [
+            "But students have to know that they have to have there phones off so when they have a free time they can use it, because if the teacher see a phone out in class and a student is using it the teacher can take it away and give it to the principal and they are not going to have a phone to text there friends during free time or at home."
+          ],
+          "interpretation": "The essay has limited syntactic structures and repetitive cohesive devices, leading to lower scores."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax"
+      ],
+      "quotes": [
+        "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it."
+      ],
+      "observable_feature": "The essay demonstrates a range of cohesive devices and a variety of syntactic structures, but with some errors and limitations.",
+      "evaluative_interpretation": "The essay shows a generally well-controlled organization and a range of cohesive devices, but the syntactic structures are limited, leading to a score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay aligns with the rubric for a score of 3, showing a range of cohesive devices and some syntactic variety, but with some errors and limitations.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates a generally well-controlled organization and a range of cohesive devices, but the syntactic structures are limited, leading to a score of 3. This is consistent with the rater's history of assigning higher scores to essays with well-controlled organization and a range of cohesive devices, and lower scores to those with limited syntactic structures.",
+  "insufficient_evidence": []
+}

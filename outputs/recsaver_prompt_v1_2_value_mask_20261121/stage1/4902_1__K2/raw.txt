@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "4902:1",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions tend to receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "8630:1",
+            "quotes": ["after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have"],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 1,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay demonstrates limited syntactic variety and occasional errors in grammar and usage, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "1462:1",
+            "quotes": ["Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay shows a developing use of conventions and occasional errors in grammar, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "8722:1",
+            "quotes": ["Dear Principle,\r\n\r\nIf our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online."],
+            "interpretation": "This essay demonstrates a higher level of syntactic variety and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self."],
+        "observable_feature": "The essay demonstrates limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions.",
+        "evaluative_interpretation": "These features are consistent with an Overall score of 3, as they indicate a developing proficiency in language use.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay shows a range of vocabulary and occasional inaccuracies, consistent with the rubric descriptor for a score of 3.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay's limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions align with the historical pattern observed in essays receiving an Overall score of 3. This is supported by the evidence from the target essay and the history essays with similar characteristics.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay's limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions are consistent with an Overall score of 3. The Trait scores reflect the essay's proficiency level across various dimensions.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates some repetitive and mechanical use of cohesive devices, consistent with a score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows an appropriate use of a variety of syntactic structures, with occasional errors, consistent with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary for the topic, consistent with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows evident use of phrases with some noticeable repetitions and misuses, consistent with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates some errors in grammar and usage, consistent with a score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows a developing use of conventions with errors that are sometimes distracting, consistent with a score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

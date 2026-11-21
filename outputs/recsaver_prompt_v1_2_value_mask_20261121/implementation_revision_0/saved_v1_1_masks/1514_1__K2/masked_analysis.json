@@ -1,0 +1,78 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "217:1",
+          "quotes": [
+            "But students have to know that they have to have there phones off so when they have a free time they can use it, because if the teacher see a phone out in class and a student is using it the teacher can take it away and give it to the principal and they are not going to have a phone to text there friends during free time or at home."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {}
+          },
+          "interpretation": "The essay shows controlled organization and occasional errors in sentence formation, which aligns with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "1440:1",
+          "quotes": [
+            "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {}
+          },
+          "interpretation": "The essay demonstrates better control over sentence formation and a wider range of vocabulary, which aligns with a higher Overall score of 4."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "8745:1",
+          "quotes": [
+            "It is no secret that engineering is one of the fields that require numerous math classes. Many would see this as a negative aspect of becoming an engineer; yet, I do not. Mathematics have been one of my passions since I was a little girl."
+          ],
+          "interpretation": "This essay shows a wide range of vocabulary and flexible use of syntax, which contrasts with the pattern of minimally adequate vocabulary and occasional errors in sentence formation."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by two essays but is contradicted by one essay with a higher Overall score."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it."
+      ],
+      "observable_feature": "The essay demonstrates controlled organization and occasional errors in sentence formation, with a minimally adequate range of vocabulary.",
+      "evaluative_interpretation": "The essay shows controlled organization and occasional errors in sentence formation, which aligns with an Overall score of □.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows controlled organization and occasional errors in sentence formation, which aligns with the rubric's description for an Overall score of □.",
+      "uncertainty": "The essay's range of vocabulary and use of phraseology are minimally adequate, which could support a slightly higher score."
+    }
+  ],
+  "decision_explanation": "The essay's controlled organization and occasional errors in sentence formation align with the pattern observed in history essay 217:1, which received an Overall score of 3. The minimally adequate range of vocabulary and phraseology further support this evaluation.",
+  "insufficient_evidence": []
+}

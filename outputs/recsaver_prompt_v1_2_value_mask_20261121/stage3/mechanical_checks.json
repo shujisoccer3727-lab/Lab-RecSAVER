@@ -1,0 +1,218 @@
+{
+  "checks": [
+    {
+      "kind": "scope_counts",
+      "pass_": true
+    },
+    {
+      "kind": "distinct_pattern_support",
+      "pattern_id": "P1",
+      "pass_": true
+    },
+    {
+      "kind": "counterexample_target_role",
+      "essay_id": "8722:1",
+      "pass_": false
+    },
+    {
+      "kind": "record_reference",
+      "reference": "1868_1__K1",
+      "pass_": true
+    },
+    {
+      "kind": "record_reference",
+      "reference": "1868_1__K2",
+      "pass_": true
+    },
+    {
+      "kind": "record_reference",
+      "reference": "4902_1__K1",
+      "pass_": true
+    },
+    {
+      "kind": "record_reference",
+      "reference": "4902_1__K2",
+      "pass_": true
+    },
+    {
+      "kind": "quote",
+      "path": "/supporting_cases/0/quotes",
+      "essay_id": "1868:1",
+      "quote": "The main piece to improve your skills is during the process of keep learning.",
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/0/observed_relevant_scores/Overall",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/0/observed_relevant_scores/Cohesion",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/0/observed_relevant_scores/Syntax",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/0/observed_relevant_scores/Vocabulary",
+      "value": 4,
+      "expected": 4,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/0/observed_relevant_scores/Phraseology",
+      "value": 4,
+      "expected": 4,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/0/observed_relevant_scores/Grammar",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/0/observed_relevant_scores/Conventions",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "quote",
+      "path": "/supporting_cases/1/quotes",
+      "essay_id": "4902:1",
+      "quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/1/observed_relevant_scores/Overall",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/1/observed_relevant_scores/Cohesion",
+      "value": 2,
+      "expected": 2,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/1/observed_relevant_scores/Syntax",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/1/observed_relevant_scores/Vocabulary",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/1/observed_relevant_scores/Phraseology",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/1/observed_relevant_scores/Grammar",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/supporting_cases/1/observed_relevant_scores/Conventions",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "quote",
+      "path": "/representative_decision/quotes",
+      "essay_id": "4902:1",
+      "quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/representative_decision/observed_relevant_scores/Overall",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/representative_decision/observed_relevant_scores/Cohesion",
+      "value": 2,
+      "expected": 2,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/representative_decision/observed_relevant_scores/Syntax",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/representative_decision/observed_relevant_scores/Vocabulary",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/representative_decision/observed_relevant_scores/Phraseology",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/representative_decision/observed_relevant_scores/Grammar",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "score",
+      "path": "/representative_decision/observed_relevant_scores/Conventions",
+      "value": 3,
+      "expected": 3,
+      "pass_": true
+    },
+    {
+      "kind": "rubric_quote",
+      "path": "/rubric_comparison/rubric_quote",
+      "quote": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+      "matching_bands": [
+        "4"
+      ],
+      "pass_": true
+    }
+  ],
+  "passed": 31,
+  "total": 32,
+  "note": "Mechanical checks only; semantic support and rater guidance reviewed separately."
+}

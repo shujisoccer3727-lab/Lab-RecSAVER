@@ -1,0 +1,97 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "The rater appears to evaluate essays with a mix of strengths and weaknesses, often giving scores that reflect a balance between effective use of language and noticeable errors.",
+      "support": [
+        {
+          "history_essay_id": "217:1",
+          "quotes": [
+            "Dear principal",
+            "So principal i think policy 1 is better for the students."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows a mix of effective and less effective language use, with some errors in syntax and cohesion, which aligns with the observed scores."
+        },
+        {
+          "history_essay_id": "1440:1",
+          "quotes": [
+            "If we go to school for 10 hours we wont see our parents",
+            "It is not bad for us it is bad for them too they have to work so much it is not a good decision to make."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a good range of vocabulary and syntax, but with some errors in cohesion and grammar, which aligns with the observed scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "8745:1",
+          "quotes": [
+            "It would be to your greatest interest to have me as an intern because I show promising results and diversity in multiple ways."
+          ],
+          "interpretation": "This essay shows a higher level of proficiency, with fewer errors and more sophisticated language use, which contrasts with the pattern observed in lower-scored essays."
+        }
+      ],
+      "limitations": [
+        "The history contains a mix of scores, which limits the ability to establish a clear pattern for a specific score level."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+        "This shows that with hard work you can accomplish any goal and letting yourself grow."
+      ],
+      "observable_feature": "The essay demonstrates a mix of effective and less effective language use, with some errors in syntax and cohesion.",
+      "evaluative_interpretation": "The rater may have evaluated the essay based on its balance of strengths and weaknesses, giving it a score that reflects a moderate level of proficiency.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric descriptors for Overall score □ indicate a mix of effective language use and noticeable errors, which aligns with the observed features of the essay.",
+      "uncertainty": "The essay's language proficiency is not consistently at a single level, which may make it challenging to align with a specific score."
+    }
+  ],
+  "decision_explanation": "The rater appears to have evaluated the essay based on its balance of strengths and weaknesses, giving it a score that reflects a moderate level of proficiency. The essay demonstrates a mix of effective and less effective language use, with some errors in syntax and cohesion, which aligns with the rubric descriptors for Overall score □. This interpretation is supported by the rater's history of evaluating essays with a mix of strengths and weaknesses.",
+  "insufficient_evidence": [
+    "The essay's language proficiency is not consistently at a single level, which may make it challenging to align with a specific score."
+  ]
+}

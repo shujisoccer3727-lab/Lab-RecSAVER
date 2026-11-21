@@ -1,0 +1,16 @@
+{
+  "changes": [],
+  "value_replacements": 0,
+  "changed_fields": 0,
+  "protected": [],
+  "quarantine": [
+    {
+      "path": "/decision_explanation",
+      "kind": "recoverable_history_equivalence",
+      "text": "The target received the same Overall score as history essay 217:1.",
+      "action": "quarantine; not automatically rewritten"
+    }
+  ],
+  "automatic_pass": false,
+  "value_only_invariant": true
+}

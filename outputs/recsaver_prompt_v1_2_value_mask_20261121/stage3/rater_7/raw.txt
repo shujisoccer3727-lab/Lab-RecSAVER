@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "evidence_scope": {
+    "accepted_record_count": 4,
+    "distinct_target_essay_count": 2,
+    "target_essay_ids": ["1868:1", "4902:1"],
+    "coverage_and_selection_limitations": ["The evidence is limited to two distinct essays, both with an Overall score of 3."]
+  },
+  "patterns": [
+    {
+      "pattern_id": "P1",
+      "pattern_statement": "Essays with a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions tend to receive an Overall score of 3.",
+      "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+      "supporting_cases": [
+        {
+          "target_essay_id": "1868:1",
+          "reference_record_ids": ["1868_1__K1", "1868_1__K2"],
+          "quotes": ["The main piece to improve your skills is during the process of keep learning."],
+          "observed_relevant_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "evaluative_connection": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3."
+        },
+        {
+          "target_essay_id": "4902:1",
+          "reference_record_ids": ["4902_1__K1", "4902_1__K2"],
+          "quotes": ["I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\""],
+          "observed_relevant_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "evaluative_connection": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3."
+        }
+      ],
+      "counterexamples_and_scope": [
+        {
+          "target_essay_id": "8722:1",
+          "observation": "This essay demonstrates a higher level of syntactic variety and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3."
+        }
+      ],
+      "representative_decision": {
+        "target_essay_id": "4902:1",
+        "quotes": ["I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\""],
+        "observable_feature": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions.",
+        "inferred_rater_treatment": "The essay's mix of minor errors is consistent with an Overall score of 3.",
+        "observed_relevant_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "selection_reason": "This decision most clearly illustrates the pattern due to the mix of minor errors across multiple dimensions."
+      },
+      "rubric_comparison": {
+        "dimension": "Overall",
+        "rubric_quote": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+        "criterion_interpretation": "The rubric requires the essay to demonstrate facility in language use with occasional inaccuracies that do not impede communication.",
+        "relationship": "consistent_with_rubric",
+        "comparison": "The essay's mix of minor errors aligns with the rubric descriptors for an Overall score of 3, as the errors do not significantly impede communication.",
+        "uncertainty": "The rubric does not specify the exact number or type of errors that would justify an Overall score of 3."
+      },
+      "next_scoring_check": {
+        "inspect": "The mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions.",
+        "distinguish": "The severity and impact of these errors on communication.",
+        "retain_or_reconsider": "Evidence that the errors are minor and do not significantly impede communication would support retaining the judgment."
+      },
+      "limitations": ["The evidence is limited to two distinct essays, both with an Overall score of 3."]
+    }
+  ],
+  "case_specific_observations": [],
+  "source_analysis_issues": [],
+  "feedback_paragraph": "In these supplied cases, you appear to assign an Overall score of 3 to essays that demonstrate a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions. For example, in essay 4902:1, the mix of minor errors is consistent with an Overall score of 3. The rubric requires occasional language inaccuracies that rarely impede communication, which aligns with your treatment of these errors. For future scoring, inspect the mix of minor errors and distinguish their severity and impact on communication to ensure consistency with the rubric.",
+  "insufficient_evidence": []
+}

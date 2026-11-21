@@ -1,0 +1,1236 @@
+{
+  "timestamp": "2026-11-21T14:06:02.825451+09:00",
+  "metrics": {
+    "saved_v1_1": {
+      "1514_1__K1": {
+        "strict_json": true,
+        "structure": true,
+        "quotes": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+            "essay_id": "217:1",
+            "quote": "So principal i think policy 1 is better for the students.",
+            "category": "exact",
+            "source_context": " during free time or at home. So principal i think policy 1 is better for the students.\r\n\r\nIf i choose policy 2 we wont have a phone to tell our parents were we are or were we going to wa",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+            "essay_id": "1514:1",
+            "quote": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+            "category": "exact",
+            "source_context": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with t",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/target_evidence/0/quotes/0",
+            "essay_id": "1514:1",
+            "quote": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+            "category": "exact",
+            "source_context": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with t",
+            "source_exists": true
+          }
+        ],
+        "quote_counts": {
+          "exact": 3
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/history_essay_id",
+            "essay_id": "1514:1",
+            "reason": "Not a supplied history essay"
+          }
+        ],
+        "suspicions": [
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary tend to receive an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary tend to receive an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay shows controlled organization and occasional errors in sentence formation, aligning with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay shows controlled organization and occasional errors in sentence formation, aligning with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary, consistent with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary, consistent with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The text shows controlled organization and occasional errors in sentence formation, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The text shows controlled organization and occasional errors in sentence formation, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The text shows controlled organization and a minimally adequate range of vocabulary, which aligns with the rubric's description for an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The text shows controlled organization and a minimally adequate range of vocabulary, which aligns with the rubric's description for an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The target essay demonstrates controlled organization and a minimally adequate range of vocabulary, consistent with the observed Overall score of 3. The pattern observed in the history essays supports this interpretation.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The target essay demonstrates controlled organization and a minimally adequate range of vocabulary, consistent with the observed Overall score of 3. The pattern observed in the history essays supports this interpretation.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The target essay demonstrates controlled organization and a minimally adequate range of vocabulary, consistent with the observed Overall score of 3. The pattern observed in the history essays supports this interpretation.",
+            "rule": "\\b(?:observed|assigned|target).{0,80}\\b(?:[1-5]|one|two|three|four|five)\\b"
+          }
+        ],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "1514_1__K2": {
+        "strict_json": true,
+        "structure": true,
+        "quotes": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+            "essay_id": "217:1",
+            "quote": "But students have to know that they have to have there phones off so when they have a free time they can use it, because if the teacher see a phone out in class and a student is using it the teacher can take it away and give it to the principal and they are not going to have a phone to text there friends during free time or at home.",
+            "category": "exact",
+            "source_context": "to pick them up after school. But students have to know that they have to have there phones off so when they have a free time they can use it, because if the teacher see a phone out in class and a student is using it the teacher can take it away and give it to the principal and they are not going to have a phone to text there friends during free time or at home. So principal i think policy 1 is better for the students.\r\n\r\nIf i choose policy 2 we wont have a ph",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+            "essay_id": "1440:1",
+            "quote": "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health.",
+            "category": "exact",
+            "source_context": "ts bad for our health too.\r\n\r\nIf we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health. I disagree with adding more time the reason i disagree is because I dont want to have bad health or",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/counterevidence/0/quotes/0",
+            "essay_id": "8745:1",
+            "quote": "It is no secret that engineering is one of the fields that require numerous math classes. Many would see this as a negative aspect of becoming an engineer; yet, I do not. Mathematics have been one of my passions since I was a little girl.",
+            "category": "exact",
+            "source_context": "ile studying for the role.\r\n\r\nIt is no secret that engineering is one of the fields that require numerous math classes. Many would see this as a negative aspect of becoming an engineer; yet, I do not. Mathematics have been one of my passions since I was a little girl. It would fascinate me how much critical thinking and solving-problem skills it required. This, of c",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/target_evidence/0/quotes/0",
+            "essay_id": "1514:1",
+            "quote": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+            "category": "exact",
+            "source_context": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with t",
+            "source_exists": true
+          }
+        ],
+        "quote_counts": {
+          "exact": 4
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "suspicions": [
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary tend to receive an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary tend to receive an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay shows controlled organization and occasional errors in sentence formation, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay shows controlled organization and occasional errors in sentence formation, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay demonstrates better control over sentence formation and a wider range of vocabulary, which aligns with a higher Overall score of 4.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay demonstrates better control over sentence formation and a wider range of vocabulary, which aligns with a higher Overall score of 4.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay demonstrates better control over sentence formation and a wider range of vocabulary, which aligns with a higher Overall score of 4.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/history_patterns/0/limitations/0",
+            "text": "The pattern is supported by two essays but is contradicted by one essay with a higher Overall score.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay shows controlled organization and occasional errors in sentence formation, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay shows controlled organization and occasional errors in sentence formation, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay shows controlled organization and occasional errors in sentence formation, which aligns with the rubric's description for an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay shows controlled organization and occasional errors in sentence formation, which aligns with the rubric's description for an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/target_evidence/0/uncertainty",
+            "text": "The essay's range of vocabulary and use of phraseology are minimally adequate, which could support a slightly higher score.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay's controlled organization and occasional errors in sentence formation align with the pattern observed in history essay 217:1, which received an Overall score of 3. The minimally adequate range of vocabulary and phraseology further support this evaluation.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay's controlled organization and occasional errors in sentence formation align with the pattern observed in history essay 217:1, which received an Overall score of 3. The minimally adequate range of vocabulary and phraseology further support this evaluation.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay's controlled organization and occasional errors in sentence formation align with the pattern observed in history essay 217:1, which received an Overall score of 3. The minimally adequate range of vocabulary and phraseology further support this evaluation.",
+            "rule": "\\b(?:observed|assigned|target).{0,80}\\b(?:[1-5]|one|two|three|four|five)\\b"
+          }
+        ],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "1868_1__K1": {
+        "strict_json": true,
+        "structure": true,
+        "quotes": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+            "essay_id": "5783:1",
+            "quote": "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop.",
+            "category": "exact",
+            "source_context": "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop. The meaning of kindness to me is no negativity no violence but staying positive and showing kindnes",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+            "essay_id": "8666:1",
+            "quote": "Many students like to reach a grade average of a B, but they cant and it be wonderful of them to get a grade like that.",
+            "category": "exact",
+            "source_context": "nge the change that she made. Many students like to reach a grade average of a B, but they cant and it be wonderful of them to get a grade like that.\r\n\r\nStudents care about their grades but it is also very hard for them to work and work to get a B g",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/target_evidence/0/quotes/0",
+            "essay_id": "1868:1",
+            "quote": "The main piece to improve your skills is during the process of keep learning.",
+            "category": "exact",
+            "source_context": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the suffi",
+            "source_exists": true
+          }
+        ],
+        "quote_counts": {
+          "exact": 3
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "suspicions": [
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with generally controlled organization and a sufficient range of vocabulary receive an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with generally controlled organization and a sufficient range of vocabulary receive an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay shows a generally controlled organization and a sufficient range of vocabulary, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay shows a generally controlled organization and a sufficient range of vocabulary, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay uses a range of cohesive devices and demonstrates a sufficient range of vocabulary, which aligns with the rubric for an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay uses a range of cohesive devices and demonstrates a sufficient range of vocabulary, which aligns with the rubric for an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The target essay demonstrates a generally controlled organization and a sufficient range of vocabulary, which aligns with the observed Overall score of 3. This is consistent with the pattern observed in the history essays with similar features.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The target essay demonstrates a generally controlled organization and a sufficient range of vocabulary, which aligns with the observed Overall score of 3. This is consistent with the pattern observed in the history essays with similar features.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The target essay demonstrates a generally controlled organization and a sufficient range of vocabulary, which aligns with the observed Overall score of 3. This is consistent with the pattern observed in the history essays with similar features.",
+            "rule": "\\b(?:observed|assigned|target).{0,80}\\b(?:[1-5]|one|two|three|four|five)\\b"
+          }
+        ],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "1868_1__K2": {
+        "strict_json": true,
+        "structure": true,
+        "quotes": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+            "essay_id": "5783:1",
+            "quote": "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop.",
+            "category": "exact",
+            "source_context": "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop. The meaning of kindness to me is no negativity no violence but staying positive and showing kindnes",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+            "essay_id": "8666:1",
+            "quote": "Many students also think that at least a C grade average is a good grade.",
+            "category": "exact",
+            "source_context": "n sports or other activities. Many students also think that at least a C grade average is a good grade. Student want to participate in sports or other activities because so they can gain more skills and ",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/target_evidence/0/quotes/0",
+            "essay_id": "1868:1",
+            "quote": "The main piece to improve your skills is during the process of keep learning.",
+            "category": "exact",
+            "source_context": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the suffi",
+            "source_exists": true
+          }
+        ],
+        "quote_counts": {
+          "exact": 3
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "suspicions": [
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with generally controlled organization and a sufficient range of vocabulary receive a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay shows a generally controlled organization and a sufficient range of vocabulary, which is consistent with a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay uses a range of cohesive devices and demonstrates a sufficient range of vocabulary, which aligns with the rubric for a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The target essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with the observed scores of 3 in the history essays. The evidence supports a plausible interpretation of the observed scoring decision.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The target essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with the observed scores of 3 in the history essays. The evidence supports a plausible interpretation of the observed scoring decision.",
+            "rule": "\\b(?:observed|assigned|target).{0,80}\\b(?:[1-5]|one|two|three|four|five)\\b"
+          }
+        ],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "4902_1__K1": {
+        "strict_json": true,
+        "structure": true,
+        "quotes": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+            "essay_id": "8630:1",
+            "quote": "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class",
+            "category": "whitespace_only",
+            "source_context": "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have\r\n\r\nfun playin or you could choose science to finish work and all youl get to do aswome\r\n\r\nprojects ",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+            "essay_id": "1462:1",
+            "quote": "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club.",
+            "category": "exact",
+            "source_context": "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club.\r\n\r\nOne of the many reasons, is you need free time after a long day of school. A lot of kids can get",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/target_evidence/0/quotes/0",
+            "essay_id": "4902:1",
+            "quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.",
+            "category": "exact",
+            "source_context": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing th",
+            "source_exists": true
+          }
+        ],
+        "quote_counts": {
+          "whitespace_only": 1,
+          "exact": 2
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "suspicions": [
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions tend to receive an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions tend to receive an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay's mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions is consistent with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay's mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions is consistent with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay's mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions aligns with the observed Overall score of 3, consistent with the pattern observed in the history essays.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay's mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions aligns with the observed Overall score of 3, consistent with the pattern observed in the history essays.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay's mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions aligns with the observed Overall score of 3, consistent with the pattern observed in the history essays.",
+            "rule": "\\b(?:observed|assigned|target).{0,80}\\b(?:[1-5]|one|two|three|four|five)\\b"
+          }
+        ],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "4902_1__K2": {
+        "strict_json": true,
+        "structure": true,
+        "quotes": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+            "essay_id": "8630:1",
+            "quote": "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments",
+            "category": "whitespace_only",
+            "source_context": "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have\r\n\r\nfun playin or you could choose science to finish work and all youl get to do aswome\r\n\r\nprojects ",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+            "essay_id": "1462:1",
+            "quote": "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health.",
+            "category": "exact",
+            "source_context": "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/counterevidence/0/quotes/0",
+            "essay_id": "8722:1",
+            "quote": "Dear Principle, If our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online.",
+            "category": "whitespace_only",
+            "source_context": "Dear Principle,\r\n\r\nIf our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online. Some schools in other school districts have changed their school menu and many students and parents",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/target_evidence/0/quotes/0",
+            "essay_id": "4902:1",
+            "quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self.",
+            "category": "exact",
+            "source_context": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them s",
+            "source_exists": true
+          }
+        ],
+        "quote_counts": {
+          "whitespace_only": 2,
+          "exact": 2
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "suspicions": [
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with a mix of structural and linguistic features, some errors, and generally controlled organization tend to receive an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with a mix of structural and linguistic features, some errors, and generally controlled organization tend to receive an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay shows a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay shows a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/counterevidence/0/interpretation",
+            "text": "This essay shows a higher level of control and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/counterevidence/0/interpretation",
+            "text": "This essay shows a higher level of control and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/counterevidence/0/interpretation",
+            "text": "This essay shows a higher level of control and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay shows a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay shows a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with the rubric's description of an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with the rubric's description of an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/target_evidence/0/uncertainty",
+            "text": "The essay's level of control and errors is consistent with an Overall score of 3, but the pattern is not definitive due to the limited history.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/uncertainty",
+            "text": "The essay's level of control and errors is consistent with an Overall score of 3, but the pattern is not definitive due to the limited history.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The target essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with the pattern observed in the history where similar essays received an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The target essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with the pattern observed in the history where similar essays received an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The target essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with the pattern observed in the history where similar essays received an Overall score of 3.",
+            "rule": "\\b(?:observed|assigned|target).{0,80}\\b(?:[1-5]|one|two|three|four|five)\\b"
+          }
+        ],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      }
+    },
+    "v1_2": {
+      "1514_1__K1": {
+        "strict_json": true,
+        "structure": true,
+        "quotes": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+            "essay_id": "1440:1",
+            "quote": "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health.",
+            "category": "exact",
+            "source_context": "ts bad for our health too.\r\n\r\nIf we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health. I disagree with adding more time the reason i disagree is because I dont want to have bad health or",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+            "essay_id": "217:1",
+            "quote": "So principal i think policy 1 is better for the students.",
+            "category": "exact",
+            "source_context": " during free time or at home. So principal i think policy 1 is better for the students.\r\n\r\nIf i choose policy 2 we wont have a phone to tell our parents were we are or were we going to wa",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/target_evidence/0/quotes/0",
+            "essay_id": "1514:1",
+            "quote": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+            "category": "exact",
+            "source_context": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with t",
+            "source_exists": true
+          }
+        ],
+        "quote_counts": {
+          "exact": 3
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "suspicions": [
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with generally well-controlled organization and a range of cohesive devices receive higher scores, while those with limited syntactic structures and occasional errors receive lower scores.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay demonstrates a generally well-controlled organization and a range of cohesive devices, which aligns with the higher Overall score.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay shows limited syntactic structures and occasional errors, which aligns with the lower Overall score.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay's organization and cohesive devices support a higher score, while the limited syntactic structures and occasional errors support a lower score.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay's features align with the rubric descriptors for a score of 3, where the organization is generally controlled but the range of syntactic structures is limited.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay's generally well-controlled organization and range of cohesive devices, as seen in the quotes, align with the higher Trait scores for Cohesion. However, the limited syntactic structures and occasional errors, as seen in the quotes, align with the lower Trait scores for Syntax. This balance supports the observed Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay's generally well-controlled organization and range of cohesive devices, as seen in the quotes, align with the higher Trait scores for Cohesion. However, the limited syntactic structures and occasional errors, as seen in the quotes, align with the lower Trait scores for Syntax. This balance supports the observed Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay's generally well-controlled organization and range of cohesive devices, as seen in the quotes, align with the higher Trait scores for Cohesion. However, the limited syntactic structures and occasional errors, as seen in the quotes, align with the lower Trait scores for Syntax. This balance supports the observed Overall score of 3.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay's generally well-controlled organization and range of cohesive devices, as seen in the quotes, align with the higher Trait scores for Cohesion. However, the limited syntactic structures and occasional errors, as seen in the quotes, align with the lower Trait scores for Syntax. This balance supports the observed Overall score of 3.",
+            "rule": "\\b(?:observed|assigned|target).{0,80}\\b(?:[1-5]|one|two|three|four|five)\\b"
+          }
+        ],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "1514_1__K2": {
+        "strict_json": true,
+        "structure": true,
+        "quotes": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+            "essay_id": "1440:1",
+            "quote": "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health.",
+            "category": "exact",
+            "source_context": "ts bad for our health too.\r\n\r\nIf we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health. I disagree with adding more time the reason i disagree is because I dont want to have bad health or",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+            "essay_id": "8745:1",
+            "quote": "It is no secret that engineering is one of the fields that require numerous math classes. Many would see this as a negative aspect of becoming an engineer; yet, I do not.",
+            "category": "exact",
+            "source_context": "ile studying for the role.\r\n\r\nIt is no secret that engineering is one of the fields that require numerous math classes. Many would see this as a negative aspect of becoming an engineer; yet, I do not. Mathematics have been one of my passions since I was a little girl. It would fascinate me how much ",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/counterevidence/0/quotes/0",
+            "essay_id": "217:1",
+            "quote": "But students have to know that they have to have there phones off so when they have a free time they can use it, because if the teacher see a phone out in class and a student is using it the teacher can take it away and give it to the principal and they are not going to have a phone to text there friends during free time or at home.",
+            "category": "exact",
+            "source_context": "to pick them up after school. But students have to know that they have to have there phones off so when they have a free time they can use it, because if the teacher see a phone out in class and a student is using it the teacher can take it away and give it to the principal and they are not going to have a phone to text there friends during free time or at home. So principal i think policy 1 is better for the students.\r\n\r\nIf i choose policy 2 we wont have a ph",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/target_evidence/0/quotes/0",
+            "essay_id": "1514:1",
+            "quote": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+            "category": "exact",
+            "source_context": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with t",
+            "source_exists": true
+          }
+        ],
+        "quote_counts": {
+          "exact": 4
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "suspicions": [
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with generally well-controlled organization and a range of cohesive devices receive higher scores, while those with limited syntactic structures receive lower scores.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay demonstrates a range of cohesive devices and a variety of syntactic structures, leading to higher scores.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay shows a well-controlled organization and a flexible use of syntactic structures, resulting in higher scores.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/history_patterns/0/counterevidence/0/interpretation",
+            "text": "The essay has limited syntactic structures and repetitive cohesive devices, leading to lower scores.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay shows a generally well-controlled organization and a range of cohesive devices, but the syntactic structures are limited, leading to a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay aligns with the rubric for a score of 3, showing a range of cohesive devices and some syntactic variety, but with some errors and limitations.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay demonstrates a generally well-controlled organization and a range of cohesive devices, but the syntactic structures are limited, leading to a score of 3. This is consistent with the rater's history of assigning higher scores to essays with well-controlled organization and a range of cohesive devices, and lower scores to those with limited syntactic structures.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay demonstrates a generally well-controlled organization and a range of cohesive devices, but the syntactic structures are limited, leading to a score of 3. This is consistent with the rater's history of assigning higher scores to essays with well-controlled organization and a range of cohesive devices, and lower scores to those with limited syntactic structures.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          }
+        ],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "1868_1__K1": {
+        "strict_json": true,
+        "structure": true,
+        "quotes": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+            "essay_id": "5783:1",
+            "quote": "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop.",
+            "category": "exact",
+            "source_context": "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop. The meaning of kindness to me is no negativity no violence but staying positive and showing kindnes",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+            "essay_id": "8666:1",
+            "quote": "Many students also think that at least a C grade average is a good grade.",
+            "category": "exact",
+            "source_context": "n sports or other activities. Many students also think that at least a C grade average is a good grade. Student want to participate in sports or other activities because so they can gain more skills and ",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/target_evidence/0/quotes/0",
+            "essay_id": "1868:1",
+            "quote": "The main piece to improve your skills is during the process of keep learning.",
+            "category": "exact",
+            "source_context": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the suffi",
+            "source_exists": true
+          }
+        ],
+        "quote_counts": {
+          "exact": 3
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "suspicions": [
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with generally controlled organization and a sufficient range of vocabulary receive a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay's organization is generally controlled, and it uses a sufficient range of vocabulary, which is consistent with a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay's organization and vocabulary usage align with the rubric descriptors for a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          }
+        ],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "1868_1__K2": {
+        "strict_json": true,
+        "structure": true,
+        "quotes": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+            "essay_id": "5783:1",
+            "quote": "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop.",
+            "category": "exact",
+            "source_context": "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop. The meaning of kindness to me is no negativity no violence but staying positive and showing kindnes",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+            "essay_id": "8666:1",
+            "quote": "Many students also think that at least a C grade average is a good grade.",
+            "category": "exact",
+            "source_context": "n sports or other activities. Many students also think that at least a C grade average is a good grade. Student want to participate in sports or other activities because so they can gain more skills and ",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/target_evidence/0/quotes/0",
+            "essay_id": "1868:1",
+            "quote": "The main piece to improve your skills is during the process of keep learning.",
+            "category": "exact",
+            "source_context": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the suffi",
+            "source_exists": true
+          }
+        ],
+        "quote_counts": {
+          "exact": 3
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "suspicions": [
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with generally controlled organization and a sufficient range of vocabulary receive a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay's organization is generally controlled, and it uses a sufficient range of vocabulary, which is consistent with a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay's organization is generally controlled, and it uses a sufficient range of vocabulary, which aligns with the rubric descriptors for a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with the observed scores of 3 for both Overall and Traits. This is supported by the historical pattern observed in essays with similar characteristics.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with the observed scores of 3 for both Overall and Traits. This is supported by the historical pattern observed in essays with similar characteristics.",
+            "rule": "\\b(?:observed|assigned|target).{0,80}\\b(?:[1-5]|one|two|three|four|five)\\b"
+          }
+        ],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "4902_1__K1": {
+        "strict_json": true,
+        "structure": true,
+        "quotes": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+            "essay_id": "8630:1",
+            "quote": "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class",
+            "category": "whitespace_only",
+            "source_context": "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have\r\n\r\nfun playin or you could choose science to finish work and all youl get to do aswome\r\n\r\nprojects ",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+            "essay_id": "1462:1",
+            "quote": "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club.",
+            "category": "exact",
+            "source_context": "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club.\r\n\r\nOne of the many reasons, is you need free time after a long day of school. A lot of kids can get",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/target_evidence/0/quotes/0",
+            "essay_id": "4902:1",
+            "quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.",
+            "category": "exact",
+            "source_context": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing th",
+            "source_exists": true
+          }
+        ],
+        "quote_counts": {
+          "whitespace_only": 1,
+          "exact": 2
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "suspicions": [
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions tend to receive an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions tend to receive an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay's mix of minor errors is consistent with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "The essay's mix of minor errors is consistent with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay's mix of minor errors aligns with the rubric descriptors for an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay's mix of minor errors aligns with the rubric descriptors for an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3. This is supported by the rater's history of scoring similar essays with a mix of minor errors as Overall 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3. This is supported by the rater's history of scoring similar essays with a mix of minor errors as Overall 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          }
+        ],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "4902_1__K2": {
+        "strict_json": true,
+        "structure": true,
+        "quotes": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/0/quotes/0",
+            "essay_id": "8630:1",
+            "quote": "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have",
+            "category": "exact",
+            "source_context": "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have\r\n\r\nfun playin or you could choose science to finish work and all youl get to do aswome\r\n\r\nprojects ",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/quotes/0",
+            "essay_id": "1462:1",
+            "quote": "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health.",
+            "category": "exact",
+            "source_context": "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/history_patterns/0/counterevidence/0/quotes/0",
+            "essay_id": "8722:1",
+            "quote": "Dear Principle,\r\n\r\nIf our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online.",
+            "category": "exact",
+            "source_context": "Dear Principle,\r\n\r\nIf our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online. Some schools in other school districts have changed their school menu and many students and parents",
+            "source_exists": true
+          },
+          {
+            "path": "/score_free_analysis/target_evidence/0/quotes/0",
+            "essay_id": "4902:1",
+            "quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self.",
+            "category": "exact",
+            "source_context": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them s",
+            "source_exists": true
+          }
+        ],
+        "quote_counts": {
+          "exact": 4
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "suspicions": [
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions tend to receive an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/pattern",
+            "text": "Essays with limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions tend to receive an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay demonstrates limited syntactic variety and occasional errors in grammar and usage, consistent with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/0/interpretation",
+            "text": "The essay demonstrates limited syntactic variety and occasional errors in grammar and usage, consistent with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay shows a developing use of conventions and occasional errors in grammar, consistent with an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/support/1/interpretation",
+            "text": "The essay shows a developing use of conventions and occasional errors in grammar, consistent with an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/counterevidence/0/interpretation",
+            "text": "This essay demonstrates a higher level of syntactic variety and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/history_patterns/0/counterevidence/0/interpretation",
+            "text": "This essay demonstrates a higher level of syntactic variety and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/history_patterns/0/counterevidence/0/interpretation",
+            "text": "This essay demonstrates a higher level of syntactic variety and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3.",
+            "rule": "\\b(?:same|equal|matches|higher|lower).{0,70}(?:score|history|level|band)"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "These features are consistent with an Overall score of 3, as they indicate a developing proficiency in language use.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/target_evidence/0/evaluative_interpretation",
+            "text": "These features are consistent with an Overall score of 3, as they indicate a developing proficiency in language use.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/target_evidence/0/rubric_connection",
+            "text": "The essay shows a range of vocabulary and occasional inaccuracies, consistent with the rubric descriptor for a score of 3.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay's limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions align with the historical pattern observed in essays receiving an Overall score of 3. This is supported by the evidence from the target essay and the history essays with similar characteristics.",
+            "rule": "\\b(?:score|band|level)s?\\s*(?:of|is|was|=|:)?\\s*(?:[1-5]|one|two|three|four|five)\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay's limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions align with the historical pattern observed in essays receiving an Overall score of 3. This is supported by the evidence from the target essay and the history essays with similar characteristics.",
+            "rule": "\\b(?:overall|cohesion|syntax|vocabulary|phraseology|grammar|conventions)\\s*(?:score\\s*)?(?:of|is|was|=|:)?\\s*[1-5]\\b"
+          },
+          {
+            "path": "/decision_explanation",
+            "text": "The essay's limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions align with the historical pattern observed in essays receiving an Overall score of 3. This is supported by the evidence from the target essay and the history essays with similar characteristics.",
+            "rule": "\\b(?:observed|assigned|target).{0,80}\\b(?:[1-5]|one|two|three|four|five)\\b"
+          }
+        ],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      }
+    }
+  }
+}

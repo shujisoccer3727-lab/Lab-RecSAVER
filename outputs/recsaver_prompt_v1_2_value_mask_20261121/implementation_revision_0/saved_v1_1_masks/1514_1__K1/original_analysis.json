@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "217:1",
+          "quotes": [
+            "So principal i think policy 1 is better for the students."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows controlled organization and occasional errors in sentence formation, aligning with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "1514:1",
+          "quotes": [
+            "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary, consistent with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it."
+      ],
+      "observable_feature": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary.",
+      "evaluative_interpretation": "The text shows controlled organization and occasional errors in sentence formation, which aligns with an Overall score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text shows controlled organization and a minimally adequate range of vocabulary, which aligns with the rubric's description for an Overall score of 3.",
+      "uncertainty": "The text occasionally shows errors in sentence formation, which could be interpreted as a limitation."
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates controlled organization and a minimally adequate range of vocabulary, consistent with the observed Overall score of 3. The pattern observed in the history essays supports this interpretation.",
+  "insufficient_evidence": []
+}

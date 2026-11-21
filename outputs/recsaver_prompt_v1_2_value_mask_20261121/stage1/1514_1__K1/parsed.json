@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "1514:1",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax"
+        ],
+        "pattern": "Essays with generally well-controlled organization and a range of cohesive devices receive higher scores, while those with limited syntactic structures and occasional errors receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "1440:1",
+            "quotes": [
+              "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4
+              }
+            },
+            "interpretation": "The essay demonstrates a generally well-controlled organization and a range of cohesive devices, which aligns with the higher Overall score."
+          },
+          {
+            "history_essay_id": "217:1",
+            "quotes": [
+              "So principal i think policy 1 is better for the students."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2
+              }
+            },
+            "interpretation": "The essay shows limited syntactic structures and occasional errors, which aligns with the lower Overall score."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax"
+        ],
+        "quotes": [
+          "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it."
+        ],
+        "observable_feature": "The essay demonstrates a generally well-controlled organization and a range of cohesive devices, but also shows limited syntactic structures and occasional errors.",
+        "evaluative_interpretation": "The essay's organization and cohesive devices support a higher score, while the limited syntactic structures and occasional errors support a lower score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay's features align with the rubric descriptors for a score of 3, where the organization is generally controlled but the range of syntactic structures is limited.",
+        "uncertainty": "The essay's overall score is influenced by the balance between its strengths in organization and cohesive devices and its limitations in syntactic structures."
+      }
+    ],
+    "decision_explanation": "The essay's generally well-controlled organization and range of cohesive devices, as seen in the quotes, align with the higher Trait scores for Cohesion. However, the limited syntactic structures and occasional errors, as seen in the quotes, align with the lower Trait scores for Syntax. This balance supports the observed Overall score of 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay's generally well-controlled organization and range of cohesive devices support a higher Overall score, while the limited syntactic structures and occasional errors support a lower Overall score. The observed Overall score of 3 reflects this balance.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a generally well-controlled organization and a range of cohesive devices, which aligns with the observed score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows limited syntactic structures and occasional errors, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary for the topic, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay shows evident use of phrases but without much variety, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay has some errors in grammar and usage, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates generally consistent use of appropriate conventions, which aligns with the observed score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

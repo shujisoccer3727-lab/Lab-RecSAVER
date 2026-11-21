@@ -1,0 +1,75 @@
+{
+  "reviewed_at": "2026-11-21T13:48:08.260840+09:00",
+  "reviewer": "Codex provisional semantic inspection; not human evaluation",
+  "candidates": {
+    "1514_1__K1": {
+      "remaining_input_violation": true,
+      "invalid_history_reference": true,
+      "review": "Codex provisional; all fields inspected. Masked target values replaced only; historical score statements remain attributable to supplied history. Feature-based comparisons are not treated as explicit score equality.",
+      "reason": "Target1514:1 appears as a history source; source score object cannot be certified history evidence.",
+      "mask_values": 3,
+      "pass": false
+    },
+    "1514_1__K2": {
+      "remaining_input_violation": false,
+      "invalid_history_reference": false,
+      "review": "Codex provisional; all fields inspected. Masked target values replaced only; historical score statements remain attributable to supplied history. Feature-based comparisons are not treated as explicit score equality.",
+      "reason": "No confirmed recoverable target score, numerical target band value or ambiguous attribution remains. Text quality is unchanged by value masking.",
+      "mask_values": 2,
+      "pass": true
+    },
+    "1868_1__K1": {
+      "remaining_input_violation": false,
+      "invalid_history_reference": false,
+      "review": "Codex provisional; all fields inspected. Masked target values replaced only; historical score statements remain attributable to supplied history. Feature-based comparisons are not treated as explicit score equality.",
+      "reason": "No confirmed recoverable target score, numerical target band value or ambiguous attribution remains. Text quality is unchanged by value masking.",
+      "mask_values": 3,
+      "pass": true
+    },
+    "1868_1__K2": {
+      "remaining_input_violation": false,
+      "invalid_history_reference": false,
+      "review": "Codex provisional; all fields inspected. Masked target values replaced only; historical score statements remain attributable to supplied history. Feature-based comparisons are not treated as explicit score equality.",
+      "reason": "No confirmed recoverable target score, numerical target band value or ambiguous attribution remains. Text quality is unchanged by value masking.",
+      "mask_values": 2,
+      "pass": true
+    },
+    "4902_1__K1": {
+      "remaining_input_violation": false,
+      "invalid_history_reference": false,
+      "review": "Codex provisional; all fields inspected. Masked target values replaced only; historical score statements remain attributable to supplied history. Feature-based comparisons are not treated as explicit score equality.",
+      "reason": "No confirmed recoverable target score, numerical target band value or ambiguous attribution remains. Text quality is unchanged by value masking.",
+      "mask_values": 2,
+      "pass": true
+    },
+    "4902_1__K2": {
+      "remaining_input_violation": false,
+      "invalid_history_reference": false,
+      "review": "Codex provisional; all fields inspected. Masked target values replaced only; historical score statements remain attributable to supplied history. Feature-based comparisons are not treated as explicit score equality.",
+      "reason": "No confirmed recoverable target score, numerical target band value or ambiguous attribution remains. Text quality is unchanged by value masking.",
+      "mask_values": 3,
+      "pass": true
+    }
+  },
+  "diagnostics": {
+    "A": {
+      "reason": "Values in single-band target statements masked.",
+      "mask_values": 2,
+      "pass": true
+    },
+    "B": {
+      "reason": "Both target alternative-band values masked.",
+      "mask_values": 2,
+      "pass": true
+    },
+    "C": {
+      "reason": "No target score value present; all history scores/source numbers retained unchanged.",
+      "mask_values": 0,
+      "pass": true
+    }
+  },
+  "equivalence_control": {
+    "pass_": false,
+    "reason": "Same score as identified history essay is recoverable with no target number. Quarantined unchanged; no Stage2 request."
+  }
+}
