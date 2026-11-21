@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.1",
+  "rater_id": "rater_7",
+  "evidence_scope": {
+    "accepted_record_count": 4,
+    "distinct_target_essay_count": 2,
+    "target_essay_ids": [
+      "1868:1",
+      "4902:1"
+    ],
+    "coverage_and_selection_limitations": [
+      "The evidence is limited to two target essays, both with an Overall score of 3."
+    ]
+  },
+  "patterns": [
+    {
+      "pattern_id": "P1",
+      "pattern_statement": "Essays with generally controlled organization and a sufficient range of vocabulary receive a score of 3.",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary"
+      ],
+      "supporting_cases": [
+        {
+          "target_essay_id": "1868:1",
+          "reference_record_ids": [
+            "1868_1__K1",
+            "1868_1__K2"
+          ],
+          "quotes": [
+            "The main piece to improve your skills is during the process of keep learning."
+          ],
+          "observed_relevant_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4
+            }
+          },
+          "evaluative_connection": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+        },
+        {
+          "target_essay_id": "4902:1",
+          "reference_record_ids": [
+            "4902_1__K1",
+            "4902_1__K2"
+          ],
+          "quotes": [
+            "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\""
+          ],
+          "observed_relevant_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Vocabulary": 3
+            }
+          },
+          "evaluative_connection": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3."
+        }
+      ],
+      "counterexamples_and_scope": [
+        {
+          "target_essay_id": "8722:1",
+          "observation": "This essay demonstrates a higher level of syntactic variety and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3."
+        }
+      ],
+      "representative_decision": {
+        "target_essay_id": "1868:1",
+        "quotes": [
+          "The main piece to improve your skills is during the process of keep learning."
+        ],
+        "observable_feature": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary.",
+        "inferred_rater_treatment": "The essay's organization is generally controlled, and it uses a sufficient range of vocabulary, which is consistent with a score of 3.",
+        "observed_relevant_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Vocabulary": 4
+          }
+        },
+        "selection_reason": "This essay provides a clear example of the pattern with a sufficient range of vocabulary and generally controlled organization."
+      },
+      "rubric_comparison": {
+        "dimension": "Vocabulary",
+        "observed_essay_id": "1868:1",
+        "observed_score": 4,
+        "rubric_quote": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+        "rubric_refs": [
+          {
+            "dimension": "Vocabulary",
+            "score_band": 4,
+            "role": "observed_band",
+            "quote": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items"
+          }
+        ],
+        "criterion_interpretation": "The rubric asks for a sufficient range of vocabulary that allows flexibility and precision, with appropriate use of topic-related terms and less common lexical items.",
+        "relationship": "consistent_with_rubric",
+        "comparison": "The essay uses a sufficient range of vocabulary, consistent with a score of 4.",
+        "uncertainty": "The essay's vocabulary usage aligns well with the rubric descriptor for a score of 4."
+      },
+      "next_scoring_check": {
+        "inspect": "The range of vocabulary used in the essay.",
+        "distinguish": "Between sufficient and wide range of vocabulary.",
+        "retain_or_reconsider": "Evidence of a wide range of vocabulary would support a higher score."
+      },
+      "limitations": [
+        "The evidence is limited to two target essays, both with an Overall score of 3."
+      ]
+    }
+  ],
+  "case_specific_observations": [
+    {
+      "target_essay_id": "1868:1",
+      "quotes": [
+        "The main piece to improve your skills is during the process of keep learning."
+      ],
+      "dimension": "Vocabulary",
+      "observed_score": 4,
+      "observation": "The essay demonstrates a sufficient range of vocabulary.",
+      "scoring_implication": "This supports a score of 4 for Vocabulary.",
+      "uncertainty": "The evidence does not establish a wide range of vocabulary."
+    },
+    {
+      "target_essay_id": "4902:1",
+      "quotes": [
+        "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\""
+      ],
+      "dimension": "Cohesion",
+      "observed_score": 2,
+      "observation": "The essay demonstrates some repetitive and mechanical use of cohesive devices.",
+      "scoring_implication": "This supports a score of 2 for Cohesion.",
+      "uncertainty": "The evidence does not establish a generally controlled organization."
+    }
+  ],
+  "source_analysis_issues": [],
+  "feedback_paragraph": "Based on the evidence from two target essays, both with an Overall score of 3, it appears that essays with generally controlled organization and a sufficient range of vocabulary receive a score of 3. The representative decision is supported by the essay '1868:1', which demonstrates a sufficient range of vocabulary and generally controlled organization. The rubric comparison for Vocabulary is consistent with the observed score of 4. For future scoring, inspect the range of vocabulary used in the essay to distinguish between sufficient and wide range of vocabulary, which would support retaining or reconsidering the judgment.",
+  "insufficient_evidence": []
+}

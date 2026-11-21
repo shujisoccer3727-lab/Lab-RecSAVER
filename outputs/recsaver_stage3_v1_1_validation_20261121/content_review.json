@@ -1,0 +1,29 @@
+{
+  "evaluator": "Codex provisional semantic judgment; not human evaluation",
+  "ratings": [
+    {
+      "criterion": "独立答案に基づく評価の仕方",
+      "rating": "同程度",
+      "finding": "両版とも支持不十分なpatternsを1件生成。新版も2答案の同じOverallから構成・語彙と3点の関係を主張し、観測Cohesion 3/2、Vocabulary 4/3の差を扱っていない。patterns=[]による保留は起きなかった。"
+    },
+    {
+      "criterion": "引用と主張の範囲",
+      "rating": "同程度",
+      "finding": "全引用は実在するが、どちらも1文から複数観点・答案全体の性質を主張。新版の個別所見も語彙の幅や結束表現の反復を引用で支持できない。最終段落は両版とも本文引用なし。"
+    },
+    {
+      "criterion": "ルーブリック・観測値の正確さ",
+      "rating": "改善",
+      "finding": "限定的改善。旧版Overall 4の記述をOverall 3に帰属した誤りは、新版のVocabulary 4の正しい明示参照では回避。ただしOverall帯の対照自体がなくなりrarely/in some casesの区別能力は評価不能。1868/K2の全Trait=3という矛盾はsource_analysis_issues=[]で未指摘。"
+    },
+    {
+      "criterion": "次の採点確認と最終段落の強さ",
+      "rating": "同程度",
+      "finding": "新版はsufficient/wideの区別を挙げるが、確認する具体的な箇所・広さ以外の語彙基準・判断維持条件が不足。最終段落も根拠不十分なpatternを繰り返す。"
+    }
+  ],
+  "history_target_confusion": "unchanged: 8722:1 remains an invalid target counterexample",
+  "supported_positive_patterns": 0,
+  "generated_patterns": 1,
+  "scope": "Same two previously used targets, both Overall=3; one generation per prompt version, old response reused."
+}

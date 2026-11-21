@@ -1,0 +1,316 @@
+{
+  "schema_version": "1.0",
+  "schema_errors": [],
+  "checks": [
+    {
+      "path": "$.evidence_scope.accepted_record_count",
+      "kind": "count",
+      "pass_": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "path": "$.evidence_scope.distinct_target_essay_count",
+      "kind": "count",
+      "pass_": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "path": "$.evidence_scope.target_essay_ids",
+      "kind": "target_set",
+      "pass_": true
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[0].target_essay_id",
+      "kind": "accepted_target_role",
+      "pass_": true,
+      "actual": "1868:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[0].reference_record_ids",
+      "kind": "candidate_target_mapping",
+      "pass_": true,
+      "candidate": "1868_1__K1",
+      "target": "1868:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[0].reference_record_ids",
+      "kind": "candidate_target_mapping",
+      "pass_": true,
+      "candidate": "1868_1__K2",
+      "target": "1868:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[0].quotes[0]",
+      "kind": "source_quote_exact",
+      "pass_": true,
+      "target": "1868:1",
+      "quote": "The main piece to improve your skills is during the process of keep learning."
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[0].observed_relevant_scores.Overall",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "1868:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[0].observed_relevant_scores.Cohesion",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "1868:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[0].observed_relevant_scores.Syntax",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "1868:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[0].observed_relevant_scores.Vocabulary",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 4,
+      "expected": 4,
+      "target": "1868:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[0].observed_relevant_scores.Phraseology",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 4,
+      "expected": 4,
+      "target": "1868:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[0].observed_relevant_scores.Grammar",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "1868:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[0].observed_relevant_scores.Conventions",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "1868:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[1].target_essay_id",
+      "kind": "accepted_target_role",
+      "pass_": true,
+      "actual": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[1].reference_record_ids",
+      "kind": "candidate_target_mapping",
+      "pass_": true,
+      "candidate": "4902_1__K1",
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[1].reference_record_ids",
+      "kind": "candidate_target_mapping",
+      "pass_": true,
+      "candidate": "4902_1__K2",
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[1].quotes[0]",
+      "kind": "source_quote_exact",
+      "pass_": true,
+      "target": "4902:1",
+      "quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\""
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[1].observed_relevant_scores.Overall",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[1].observed_relevant_scores.Cohesion",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 2,
+      "expected": 2,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[1].observed_relevant_scores.Syntax",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[1].observed_relevant_scores.Vocabulary",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[1].observed_relevant_scores.Phraseology",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[1].observed_relevant_scores.Grammar",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].supporting_cases[1].observed_relevant_scores.Conventions",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].counterexamples_and_scope[0].target_essay_id",
+      "kind": "accepted_target_role",
+      "pass_": false,
+      "actual": "8722:1"
+    },
+    {
+      "path": "$.patterns[0].representative_decision.target_essay_id",
+      "kind": "accepted_target_role",
+      "pass_": true,
+      "actual": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].representative_decision.quotes[0]",
+      "kind": "source_quote_exact",
+      "pass_": true,
+      "target": "4902:1",
+      "quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\""
+    },
+    {
+      "path": "$.patterns[0].representative_decision.observed_relevant_scores.Overall",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].representative_decision.observed_relevant_scores.Cohesion",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 2,
+      "expected": 2,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].representative_decision.observed_relevant_scores.Syntax",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].representative_decision.observed_relevant_scores.Vocabulary",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].representative_decision.observed_relevant_scores.Phraseology",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].representative_decision.observed_relevant_scores.Grammar",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].representative_decision.observed_relevant_scores.Conventions",
+      "kind": "observed_score",
+      "pass_": true,
+      "actual": 3,
+      "expected": 3,
+      "target": "4902:1"
+    },
+    {
+      "path": "$.patterns[0].rubric_comparison.rubric_quote",
+      "kind": "legacy_quote_located",
+      "pass_": true,
+      "locations": [
+        {
+          "band": "4",
+          "dimension": "Overall"
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "path": "$.patterns[0].rubric_comparison.comparison",
+      "kind": "legacy_claimed_band_matches_quote",
+      "pass_": false,
+      "claimed_bands": [
+        "3"
+      ],
+      "locations": [
+        {
+          "band": "4",
+          "dimension": "Overall"
+        }
+      ]
+    }
+  ],
+  "total": 37,
+  "passed": 35,
+  "failed": [
+    {
+      "path": "$.patterns[0].counterexamples_and_scope[0].target_essay_id",
+      "kind": "accepted_target_role",
+      "pass_": false,
+      "actual": "8722:1"
+    },
+    {
+      "path": "$.patterns[0].rubric_comparison.comparison",
+      "kind": "legacy_claimed_band_matches_quote",
+      "pass_": false,
+      "claimed_bands": [
+        "3"
+      ],
+      "locations": [
+        {
+          "band": "4",
+          "dimension": "Overall"
+        }
+      ]
+    }
+  ]
+}
