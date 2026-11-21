@@ -1,0 +1,51 @@
+{
+  "Stage1": {
+    "v1_0": {
+      "quote_counts": {
+        "exact": 27,
+        "whitespace_only": 5,
+        "wording_or_punctuation_change": 1
+      },
+      "quote_total": 33,
+      "all_observed_scores_equal": 4,
+      "history_role_error_candidates": 0
+    },
+    "v1_1": {
+      "quote_counts": {
+        "exact": 17,
+        "whitespace_only": 3
+      },
+      "quote_total": 20,
+      "all_observed_scores_equal": 6,
+      "history_role_error_candidates": 1
+    }
+  },
+  "Stage2": {
+    "old_strict_json": {
+      "numerator": 0,
+      "denominator": 3
+    },
+    "new_strict_json": {
+      "numerator": 3,
+      "denominator": 3
+    },
+    "new_contaminated_abstention": {
+      "numerator": 0,
+      "denominator": 2
+    },
+    "new_control_noncontaminated": {
+      "numerator": 1,
+      "denominator": 1
+    }
+  },
+  "main": {
+    "generated_candidates": 6,
+    "preflight_pass": 0,
+    "stage2_executed": 0,
+    "stage2_strict_json": 0,
+    "valid_estimates": 0,
+    "matches": 0,
+    "accepted_candidates": 0,
+    "distinct_accepted_essays": 0
+  }
+}

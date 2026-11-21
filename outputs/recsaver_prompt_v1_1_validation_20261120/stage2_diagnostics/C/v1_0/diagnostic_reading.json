@@ -1,0 +1,22 @@
+{
+  "transformation": "strip one enclosing Markdown fence for diagnosis only",
+  "strict_json_pass": false,
+  "value": {
+    "schema_version": "1.0",
+    "rater_id": "rater_7",
+    "target_essay_id": "1514:1",
+    "status": "insufficient_information",
+    "reconstructed_overall": null,
+    "evidence_summary": "The provided reference analysis does not offer sufficient evidence to establish a clear pattern in the rater's scoring practices. The single piece of evidence (T1) identifies a local construction limitation but does not provide enough information to infer the rater's holistic judgment or how they balance all dimensions of the rubric.",
+    "used_history_pattern_ids": [],
+    "used_target_evidence_ids": [
+      "T1"
+    ],
+    "used_history_essay_ids": [],
+    "reference_analysis_issues": [],
+    "uncertainties": [
+      "The local evidence does not establish how the rater balanced all dimensions."
+    ]
+  },
+  "excluded_from_main_acceptance": true
+}

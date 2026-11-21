@@ -1,0 +1,26 @@
+{
+  "direct_or_recoverable_disclosure": true,
+  "numbered_target_band_or_range": true,
+  "rejection_reasons": [
+    "numbered_target_band_or_range",
+    "direct_observed_target_score_disclosure"
+  ],
+  "observed_score_copying_correct": true,
+  "issues": [
+    {
+      "path": "/score_free_analysis/target_evidence/0/evaluative_interpretation",
+      "text": "The essay's mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions is consistent with an Overall score of 3.",
+      "finding": "Numerical Overall value explicitly applied to target"
+    },
+    {
+      "path": "/score_free_analysis/decision_explanation",
+      "text": "The essay's mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions aligns with the observed Overall score of 3, consistent with the pattern observed in the history essays.",
+      "finding": "Observed target Overall explicitly named"
+    }
+  ],
+  "review_scope": "All strings in score_free_analysis inspected, including patterns, support, uncertainty, insufficient_evidence and decision.",
+  "comparison_judgement": "悪化",
+  "comparison_reason": "引用の非空白差は消えたが、観測Overallの直接開示と、全観点の誤りをminorと括る過小分析が残る。Cohesion=3側の記述を本人Cohesion=2と整合させる新たな基準対応の不整合がある。",
+  "role_sensitive_notes": "Numeric history scores and essay quote numbers alone are allowed. Numeric target performance matching is band application, not automatically direct recorded-score disclosure. Direct count is conservative and limited to explicit observed target value statements.",
+  "pass": false
+}

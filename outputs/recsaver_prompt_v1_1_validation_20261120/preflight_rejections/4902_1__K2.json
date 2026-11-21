@@ -1,0 +1,20 @@
+{
+  "direct_or_recoverable_disclosure": false,
+  "numbered_target_band_or_range": true,
+  "rejection_reasons": [
+    "numbered_target_band_or_range"
+  ],
+  "observed_score_copying_correct": true,
+  "issues": [
+    {
+      "path": "/score_free_analysis/target_evidence/0/evaluative_interpretation",
+      "text": "The essay shows a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with an Overall score of 3.",
+      "finding": "Numerical Overall value explicitly applied to target"
+    }
+  ],
+  "review_scope": "All strings in score_free_analysis inspected, including patterns, support, uncertainty, insufficient_evidence and decision.",
+  "comparison_judgement": "同程度",
+  "comparison_reason": "2/3帯と意味妨害をまとめる元の文は消えたが、代わりにOverall=3の明示と一般的な全体特徴を反復。意味妨害の慎重な分析に置換できたとは言えない。履歴引用の空白差は2件のまま。Syntax=4側に近い記述を3と整合させる問題も残る。",
+  "role_sensitive_notes": "Numeric history scores and essay quote numbers alone are allowed. Numeric target performance matching is band application, not automatically direct recorded-score disclosure. Direct count is conservative and limited to explicit observed target value statements.",
+  "pass": false
+}

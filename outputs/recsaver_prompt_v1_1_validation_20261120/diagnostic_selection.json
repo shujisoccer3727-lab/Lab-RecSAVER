@@ -1,0 +1,868 @@
+{
+  "control": {
+    "source": "constructed_diagnostic_only",
+    "candidate_id": "1514_1__K1",
+    "input_path": "diagnostic_control/input.json",
+    "reason": "All six v1.1 candidates contain target numerical band application. Fixed source passage from first target; preserve complete identical history, target and rubric. Hand-authored reference analysis is not a model output or a repaired candidate and is excluded from acceptance.",
+    "construction_source": "stage1/1514_1__K1/input.json target, exact local quote",
+    "supports_ordinary_qualitative_findings": true
+  },
+  "tests": {
+    "A": {
+      "seed_record_id": "1514_1__K1",
+      "input_json": {
+        "rubric": {
+          "title": "English Proficiency Scoring Rubric for English Language Learners",
+          "source_file": "ELL_Rubrics (1).docx",
+          "structure": {
+            "holistic": [
+              "Overall"
+            ],
+            "analytic": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ]
+          },
+          "scores": {
+            "5": {
+              "Overall": "Native-like facility in the use of language with syntactic variety, Appropriate word choice and phrases; well-controlled text organization; precise use of grammar and conventions; rare language inaccuracies that do not impede communication.",
+              "Cohesion": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas.",
+              "Syntax": "Flexible and effective use of a full range of syntactic structures including simple, compound, and complex sentences; There may be rare minor and negligible errors in sentence formation.",
+              "Vocabulary": "Wide range of vocabulary flexibly and effectively used to convey precise meanings; skillful use of topic-related terms and less common words; rare negligible inaccuracies in word use.",
+              "Phraseology": "Flexible and effective use of a variety of phrases, such as idioms, collocations, and lexical bundles, to convey precise and subtle meanings; rare minor inaccuracies that are negligible.",
+              "Grammar": "Command of grammar and usage with few or no errors.",
+              "Conventions": "Consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors nonexistent or negligible."
+            },
+            "4": {
+              "Overall": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+              "Cohesion": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+              "Syntax": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+              "Vocabulary": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+              "Phraseology": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+              "Grammar": "Minimal errors in grammar and usage.",
+              "Conventions": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting."
+            },
+            "3": {
+              "Overall": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+              "Cohesion": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+              "Syntax": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+              "Vocabulary": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+              "Phraseology": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+              "Grammar": "Some errors in grammar and usage.",
+              "Conventions": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting."
+            },
+            "2": {
+              "Overall": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+              "Cohesion": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+              "Syntax": "Some sentence variation used; many sentence structure problems.",
+              "Vocabulary": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+              "Phraseology": "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and /or misuses of phrases.",
+              "Grammar": "Many errors in grammar and usage.",
+              "Conventions": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting."
+            },
+            "1": {
+              "Overall": "A limited range of familiar words or phrases loosely strung together; frequent errors in grammar (including syntax) and usage. Communication impeded in most cases by language inaccuracies.",
+              "Cohesion": "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear.",
+              "Syntax": "Pervasive and basic errors in sentence structure and word order that cause confusion; basic sentences errors common.",
+              "Vocabulary": "Limited vocabulary often inappropriately used; limited control of word choice and word forms; little attempt to use topic-related terms",
+              "Phraseology": "Memorized chunks of language, or simple phrasal patterns predominate; many repetitions and misuses of phrases.",
+              "Grammar": "Errors in grammar and usage throughout.",
+              "Conventions": "Minimal use of conventions; spelling, capitalizatio n, and punctuation errors throughout."
+            }
+          },
+          "key_terms_and_definitions": {
+            "Phrase": "Multiple word units",
+            "Grammar": "The rules by which words change their forms, including the use of word classes and grammatical morphology in English. Word classes include prepositions, pronouns, nouns, verbs, etc… Grammatical morphology includes third person, plural, possessive, etc…",
+            "Syntax": "Structuring sentences according to syntactic rules related to coordinating clauses, developing syntactic phrases (noun, verb, preposition phrases), phrasal and clausal dependency, and transformations such as passives, relative clauses, and negations.",
+            "Cohesive device": "Cohesive devices are used as links between two or more items (e.g., words, phrases, clauses) in a text to enhance text cohesion. These include the use of conjunctions (and, but, if, on the other hand), transitions (first, next, finally, for example), repetition of words, phrases, and ideas across sentences and paragraphs, and the use of anaphor (pronouns replacing nouns).",
+            "Simple, complex, and compound sentences": {
+              "Simple": "Independent clause",
+              "Complex": "Independent and dependent clauses",
+              "Compound": "Two of more independent clauses"
+            },
+            "Chunks": "Multiple words that combine to have a single meaning. Often memorized without knowing what the individual words mean (e.g., “How are you” for “Hello”)",
+            "Lexical bundles": "Multiple word units that are common in English but are not idiomatic (“There is”). More common than collocations",
+            "Collocations": "Two or more words that are often used together (e.g., save time, go to bed, fast food)",
+            "Idioms": "multi-word unit where meaning not deducible from those of the individual words (kick the bucket, rain cats and dogs)"
+          },
+          "notes": [
+            "Wording is preserved from the source DOCX; only whitespace/layout line breaks were normalized."
+          ]
+        },
+        "score_specification": {
+          "valid_overall_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "valid_trait_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "increment": 1,
+          "Overall": "Holistic language proficiency judgment; use the supplied Overall rubric descriptors.",
+          "Traits": {
+            "Cohesion": {
+              "descriptors": {
+                "5": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas.",
+                "4": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+                "3": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+                "2": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+                "1": "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear."
+              }
+            },
+            "Syntax": {
+              "descriptors": {
+                "5": "Flexible and effective use of a full range of syntactic structures including simple, compound, and complex sentences; There may be rare minor and negligible errors in sentence formation.",
+                "4": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+                "3": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+                "2": "Some sentence variation used; many sentence structure problems.",
+                "1": "Pervasive and basic errors in sentence structure and word order that cause confusion; basic sentences errors common."
+              }
+            },
+            "Vocabulary": {
+              "descriptors": {
+                "5": "Wide range of vocabulary flexibly and effectively used to convey precise meanings; skillful use of topic-related terms and less common words; rare negligible inaccuracies in word use.",
+                "4": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+                "3": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+                "2": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+                "1": "Limited vocabulary often inappropriately used; limited control of word choice and word forms; little attempt to use topic-related terms"
+              }
+            },
+            "Phraseology": {
+              "descriptors": {
+                "5": "Flexible and effective use of a variety of phrases, such as idioms, collocations, and lexical bundles, to convey precise and subtle meanings; rare minor inaccuracies that are negligible.",
+                "4": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+                "3": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+                "2": "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and /or misuses of phrases.",
+                "1": "Memorized chunks of language, or simple phrasal patterns predominate; many repetitions and misuses of phrases."
+              }
+            },
+            "Grammar": {
+              "descriptors": {
+                "5": "Command of grammar and usage with few or no errors.",
+                "4": "Minimal errors in grammar and usage.",
+                "3": "Some errors in grammar and usage.",
+                "2": "Many errors in grammar and usage.",
+                "1": "Errors in grammar and usage throughout."
+              }
+            },
+            "Conventions": {
+              "descriptors": {
+                "5": "Consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors nonexistent or negligible.",
+                "4": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting.",
+                "3": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+                "2": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting.",
+                "1": "Minimal use of conventions; spelling, capitalizatio n, and punctuation errors throughout."
+              }
+            }
+          },
+          "relationship": "Overall is the original human holistic judgment. No arithmetic or weighted relationship to Traits is specified.",
+          "definition_sources": [
+            "rubrics/ellipse_rubric_structured.json",
+            "src/config.py",
+            "src/transform_data.py",
+            "README.md"
+          ]
+        },
+        "rater_id": "rater_7",
+        "history": [
+          {
+            "essay_id": "217:1",
+            "text": "Dear principal\r\n\r\nI think policy 1 is better because students may have to call someone for an emergence or call there parent to pick them up after school. But students have to know that they have to have there phones off so when they have a free time they can use it, because if the teacher see a phone out in class and a student is using it the teacher can take it away and give it to the principal and they are not going to have a phone to text there friends during free time or at home. So principal i think policy 1 is better for the students.\r\n\r\nIf i choose policy 2 we wont have a phone to tell our parents were we are or were we going to wait for them so policy 1 is better so we can tell them were we are and tell them what time we going to get out. Principal i choose policy 1 because it will make me happy and the other kids to and the other kids will choose policy 1 because they don't want to leave there phones at home and not text there friends during free time",
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          {
+            "essay_id": "1440:1",
+            "text": "The schools should not add more time because it will be to hard for the students. We go to school for 8 and half hours they should make t shorter not longer. If they add one and half hours to school each day we will have to go to school for 10 hours and wake up early in the morning. I. If the time gets lowered by that much it is better so we dont have to wake up early because thats bad for our health too.\r\n\r\nIf we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health. I disagree with adding more time the reason i disagree is because I dont want to have bad health or not see my parents f they add more time school is going to be so much harder than it already is. It is not only bad for students it is bad for teachers too they have to stay in school for a long time too or a longer time than us because they have to clean up.\r\n\r\nWe have 90 minutes of class if they add more time we will have 2 hours the time is already good. They should not add anymore time all the students disagree about this decision. If all the students disagree you guys should not add more time because it is already good. It will be to hard and no one will work i school the will go to other schools. All that I am saying is I disagree with that decision.\r\n\r\nThe time should not change it will help us learn more but it will be too hard it already is hard so please dont change the time non of the students want the time to change. If it is 10 hours or 11 hours of school students cant have fun in their life all they have to do is study. It is not bad for us it is bad for them too they have to work so much it is not a good decision to make. Please dont change the time of the school.",
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          {
+            "essay_id": "8745:1",
+            "text": "In many student's life, there is a set goal of succeeding in school in order to open doors in the future. Doors that will allow them to obtain a job position with great salary and that will give them an opportunity to do what they are most passionate about. Just like many of these individuals, my goal is to open myself to new opportunities and experiences in order to achieve my desired career field. Internships are a great way to get hands-on experience of one's pursuing type of employment. However, companies do not just pick any person;\r\n\r\nthey must choose interns that show promising characteristics and work ethic: someone who will stand out from others. To be en engineer is my dream job, and I would appreciate it greatly if I were to be chosen as an intern in this company. It would be to your greatest interest to have me as an intern because I show promising results and diversity in multiple ways.\r\n\r\nI am not a stranger to the engineering field. I have been exposed to a series of people in this career. My father is one of the best engineers at his company, and he leads several big projects. He is the person I aspire to become or surpass. Still, my father is not my sole relative following this career. Several of my uncles have pursued this job choice, and my aunt who, even though her current job is that of a nurse, is currently studying to obtain her degree in engineering. Adding to this, I am also surrounded by non-relatives who have jobs as engineers, since I live in a city with multiple engineering companies. This shows that I have been exposed to engineering in several ways, which has given me an insight of what to expect while studying for the role.\r\n\r\nIt is no secret that engineering is one of the fields that require numerous math classes. Many would see this as a negative aspect of becoming an engineer; yet, I do not. Mathematics have been one of my passions since I was a little girl. It would fascinate me how much critical thinking and solving-problem skills it required. This, of course, has not changed much. Although the classes are getting more difficult as the years pass, my passion for math has not ceased; instead, one could say it has grown. I am not the type of person to give up on a math problem because it is \"too hard.\" If I am faced with a challenge, I will use all of my available sources of aid to find the answer. It is this kind of dedication and hard work that has led me to where I am today.\r\n\r\nDiversity stands out in applications, and many companies and organizations search for those individuals that stand out from the rest. There are not many women that choose engineering as their first career choice, yet I, a woman, am studying and aiming for engineering. I would be the the second woman in my family to aim for this position: the first being my aunt. Nevertheless, although being a woman already stands out in the engineering field, there is more of me to show. For example, I am a Latina from Generic_City. I lived in Generic_City up to the age of eight, which has consequently made me bilingual. However, I do not only speak Spanish and English; this upcoming year, I will finish my fifth year in French. Knowing multiple languages breaks many language barriers and provide more opportunities. Knowing this, I decided to take part in Spanish and French Honor Society. Standing out from the rest is not only an individual's goal, but also a companies'.\r\n\r\nThe path to success in not an easy one. One must submit to hours of work and dedication. In this year's internship, I would be fascinated to participate in your company. Since it is many students' goal to open doors for the future, I am sure there is competition involved. Despite of this, I show a variety of characteristics that many would appreciate. My goal is to become a successful engineer, just like my father. My father, other relatives, and friends have allowed me to experience an insight into what being an engineering is like. One of the things I picked up on was that there is a lot of math involved in this career; still, this is not a downfall. For many years, I have been fascinated by mathematics and problem-solving. The fact that math is required to be an engineer is not a complication; instead, it is an opportunity to study further what I enjoy. Not only am I passionate about becoming an engineering, I also show diversity; which will make me, and the company, stand out. I am the minority of female Mexican engineers, and I break the language barrier with three languages. I am one out of many applicants in this internship; however, I am passionate, hardworking, and unique. I am one of a kind.",
+            "Overall": 5,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 5,
+              "Vocabulary": 5,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 5
+            }
+          }
+        ],
+        "target": {
+          "essay_id": "1514:1",
+          "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. My brother for example wanted to be an engineer, with hard work and effort he made it. In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. Also, he took classes that would help him improve his skills and understanding of his future career. Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life. With hard work and patience he did it. Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. You'll\r\n\r\nnever know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. "
+        },
+        "reference_analysis": {
+          "history_patterns": [
+            {
+              "pattern_id": "H1",
+              "status": "recurring_in_supplied_history",
+              "dimensions": [
+                "Cohesion",
+                "Syntax",
+                "Vocabulary",
+                "Phraseology",
+                "Grammar",
+                "Conventions"
+              ],
+              "pattern": "The rater appears to evaluate essays with a mix of strengths and weaknesses, often giving scores that reflect a balance between effective use of language and noticeable errors.",
+              "support": [
+                {
+                  "history_essay_id": "217:1",
+                  "quotes": [
+                    "Dear principal",
+                    "So principal i think policy 1 is better for the students."
+                  ],
+                  "relevant_observed_history_scores": {
+                    "Overall": 3,
+                    "Traits": {
+                      "Cohesion": 3,
+                      "Syntax": 2,
+                      "Vocabulary": 3,
+                      "Phraseology": 3,
+                      "Grammar": 4,
+                      "Conventions": 3
+                    }
+                  },
+                  "interpretation": "The essay shows a mix of effective and less effective language use, with some errors in syntax and cohesion, which aligns with the observed scores."
+                },
+                {
+                  "history_essay_id": "1440:1",
+                  "quotes": [
+                    "If we go to school for 10 hours we wont see our parents",
+                    "It is not bad for us it is bad for them too they have to work so much it is not a good decision to make."
+                  ],
+                  "relevant_observed_history_scores": {
+                    "Overall": 4,
+                    "Traits": {
+                      "Cohesion": 3,
+                      "Syntax": 4,
+                      "Vocabulary": 3,
+                      "Phraseology": 3,
+                      "Grammar": 3,
+                      "Conventions": 4
+                    }
+                  },
+                  "interpretation": "The essay demonstrates a good range of vocabulary and syntax, but with some errors in cohesion and grammar, which aligns with the observed scores."
+                }
+              ],
+              "counterevidence": [
+                {
+                  "history_essay_id": "8745:1",
+                  "quotes": [
+                    "It would be to your greatest interest to have me as an intern because I show promising results and diversity in multiple ways."
+                  ],
+                  "interpretation": "This essay shows a higher level of proficiency, with fewer errors and more sophisticated language use, which contrasts with the pattern observed in lower-scored essays."
+                }
+              ],
+              "limitations": [
+                "The history contains a mix of scores, which limits the ability to establish a clear pattern for a specific score level."
+              ]
+            }
+          ],
+          "target_evidence": [
+            {
+              "evidence_id": "T1",
+              "dimensions": [
+                "Cohesion",
+                "Syntax",
+                "Vocabulary",
+                "Phraseology",
+                "Grammar",
+                "Conventions"
+              ],
+              "quotes": [
+                "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+                "This shows that with hard work you can accomplish any goal and letting yourself grow."
+              ],
+              "observable_feature": "The essay demonstrates a mix of effective and less effective language use, with some errors in syntax and cohesion.",
+              "evaluative_interpretation": "The rater may have evaluated the essay based on its balance of strengths and weaknesses, giving it a score that reflects a moderate level of proficiency.",
+              "linked_history_pattern_ids": [
+                "H1"
+              ],
+              "rubric_connection": "The rubric descriptors for Overall score 3 indicate a mix of effective language use and noticeable errors, which aligns with the observed features of the essay.",
+              "uncertainty": "The essay's language proficiency is not consistently at a single level, which may make it challenging to align with a specific score."
+            }
+          ],
+          "decision_explanation": "The rater appears to have evaluated the essay based on its balance of strengths and weaknesses, giving it a score that reflects a moderate level of proficiency. The essay demonstrates a mix of effective and less effective language use, with some errors in syntax and cohesion, which aligns with the rubric descriptors for Overall score 3. This interpretation is supported by the rater's history of evaluating essays with a mix of strengths and weaknesses.",
+          "insufficient_evidence": [
+            "The essay's language proficiency is not consistently at a single level, which may make it challenging to align with a specific score."
+          ]
+        }
+      }
+    },
+    "B": {
+      "seed_record_id": "4902_1__K2",
+      "input_json": {
+        "rubric": {
+          "title": "English Proficiency Scoring Rubric for English Language Learners",
+          "source_file": "ELL_Rubrics (1).docx",
+          "structure": {
+            "holistic": [
+              "Overall"
+            ],
+            "analytic": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ]
+          },
+          "scores": {
+            "5": {
+              "Overall": "Native-like facility in the use of language with syntactic variety, Appropriate word choice and phrases; well-controlled text organization; precise use of grammar and conventions; rare language inaccuracies that do not impede communication.",
+              "Cohesion": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas.",
+              "Syntax": "Flexible and effective use of a full range of syntactic structures including simple, compound, and complex sentences; There may be rare minor and negligible errors in sentence formation.",
+              "Vocabulary": "Wide range of vocabulary flexibly and effectively used to convey precise meanings; skillful use of topic-related terms and less common words; rare negligible inaccuracies in word use.",
+              "Phraseology": "Flexible and effective use of a variety of phrases, such as idioms, collocations, and lexical bundles, to convey precise and subtle meanings; rare minor inaccuracies that are negligible.",
+              "Grammar": "Command of grammar and usage with few or no errors.",
+              "Conventions": "Consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors nonexistent or negligible."
+            },
+            "4": {
+              "Overall": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+              "Cohesion": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+              "Syntax": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+              "Vocabulary": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+              "Phraseology": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+              "Grammar": "Minimal errors in grammar and usage.",
+              "Conventions": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting."
+            },
+            "3": {
+              "Overall": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+              "Cohesion": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+              "Syntax": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+              "Vocabulary": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+              "Phraseology": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+              "Grammar": "Some errors in grammar and usage.",
+              "Conventions": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting."
+            },
+            "2": {
+              "Overall": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+              "Cohesion": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+              "Syntax": "Some sentence variation used; many sentence structure problems.",
+              "Vocabulary": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+              "Phraseology": "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and /or misuses of phrases.",
+              "Grammar": "Many errors in grammar and usage.",
+              "Conventions": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting."
+            },
+            "1": {
+              "Overall": "A limited range of familiar words or phrases loosely strung together; frequent errors in grammar (including syntax) and usage. Communication impeded in most cases by language inaccuracies.",
+              "Cohesion": "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear.",
+              "Syntax": "Pervasive and basic errors in sentence structure and word order that cause confusion; basic sentences errors common.",
+              "Vocabulary": "Limited vocabulary often inappropriately used; limited control of word choice and word forms; little attempt to use topic-related terms",
+              "Phraseology": "Memorized chunks of language, or simple phrasal patterns predominate; many repetitions and misuses of phrases.",
+              "Grammar": "Errors in grammar and usage throughout.",
+              "Conventions": "Minimal use of conventions; spelling, capitalizatio n, and punctuation errors throughout."
+            }
+          },
+          "key_terms_and_definitions": {
+            "Phrase": "Multiple word units",
+            "Grammar": "The rules by which words change their forms, including the use of word classes and grammatical morphology in English. Word classes include prepositions, pronouns, nouns, verbs, etc… Grammatical morphology includes third person, plural, possessive, etc…",
+            "Syntax": "Structuring sentences according to syntactic rules related to coordinating clauses, developing syntactic phrases (noun, verb, preposition phrases), phrasal and clausal dependency, and transformations such as passives, relative clauses, and negations.",
+            "Cohesive device": "Cohesive devices are used as links between two or more items (e.g., words, phrases, clauses) in a text to enhance text cohesion. These include the use of conjunctions (and, but, if, on the other hand), transitions (first, next, finally, for example), repetition of words, phrases, and ideas across sentences and paragraphs, and the use of anaphor (pronouns replacing nouns).",
+            "Simple, complex, and compound sentences": {
+              "Simple": "Independent clause",
+              "Complex": "Independent and dependent clauses",
+              "Compound": "Two of more independent clauses"
+            },
+            "Chunks": "Multiple words that combine to have a single meaning. Often memorized without knowing what the individual words mean (e.g., “How are you” for “Hello”)",
+            "Lexical bundles": "Multiple word units that are common in English but are not idiomatic (“There is”). More common than collocations",
+            "Collocations": "Two or more words that are often used together (e.g., save time, go to bed, fast food)",
+            "Idioms": "multi-word unit where meaning not deducible from those of the individual words (kick the bucket, rain cats and dogs)"
+          },
+          "notes": [
+            "Wording is preserved from the source DOCX; only whitespace/layout line breaks were normalized."
+          ]
+        },
+        "score_specification": {
+          "valid_overall_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "valid_trait_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "increment": 1,
+          "Overall": "Holistic language proficiency judgment; use the supplied Overall rubric descriptors.",
+          "Traits": {
+            "Cohesion": {
+              "descriptors": {
+                "5": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas.",
+                "4": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+                "3": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+                "2": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+                "1": "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear."
+              }
+            },
+            "Syntax": {
+              "descriptors": {
+                "5": "Flexible and effective use of a full range of syntactic structures including simple, compound, and complex sentences; There may be rare minor and negligible errors in sentence formation.",
+                "4": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+                "3": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+                "2": "Some sentence variation used; many sentence structure problems.",
+                "1": "Pervasive and basic errors in sentence structure and word order that cause confusion; basic sentences errors common."
+              }
+            },
+            "Vocabulary": {
+              "descriptors": {
+                "5": "Wide range of vocabulary flexibly and effectively used to convey precise meanings; skillful use of topic-related terms and less common words; rare negligible inaccuracies in word use.",
+                "4": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+                "3": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+                "2": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+                "1": "Limited vocabulary often inappropriately used; limited control of word choice and word forms; little attempt to use topic-related terms"
+              }
+            },
+            "Phraseology": {
+              "descriptors": {
+                "5": "Flexible and effective use of a variety of phrases, such as idioms, collocations, and lexical bundles, to convey precise and subtle meanings; rare minor inaccuracies that are negligible.",
+                "4": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+                "3": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+                "2": "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and /or misuses of phrases.",
+                "1": "Memorized chunks of language, or simple phrasal patterns predominate; many repetitions and misuses of phrases."
+              }
+            },
+            "Grammar": {
+              "descriptors": {
+                "5": "Command of grammar and usage with few or no errors.",
+                "4": "Minimal errors in grammar and usage.",
+                "3": "Some errors in grammar and usage.",
+                "2": "Many errors in grammar and usage.",
+                "1": "Errors in grammar and usage throughout."
+              }
+            },
+            "Conventions": {
+              "descriptors": {
+                "5": "Consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors nonexistent or negligible.",
+                "4": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting.",
+                "3": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+                "2": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting.",
+                "1": "Minimal use of conventions; spelling, capitalizatio n, and punctuation errors throughout."
+              }
+            }
+          },
+          "relationship": "Overall is the original human holistic judgment. No arithmetic or weighted relationship to Traits is specified.",
+          "definition_sources": [
+            "rubrics/ellipse_rubric_structured.json",
+            "src/config.py",
+            "src/transform_data.py",
+            "README.md"
+          ]
+        },
+        "rater_id": "rater_7",
+        "history": [
+          {
+            "essay_id": "8630:1",
+            "text": "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have\r\n\r\nfun playin or you could choose science to finish work and all youl get to do aswome\r\n\r\nprojects and experiments\r\n\r\nyou will get to do\r\n\r\nthe activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class\r\n\r\nor playin and isntrument inschool how would that hel ou you might get graded dependshow well you play yo even might get to go to an important event or go to elementary schools to go perform how well you and the band play\r\n\r\nyoul probably resive medals forthat but in order to do that you got to stay in after school so you get to learn how to play and instrument or get to train for soccer because soccer requires skill and resistance to breath wile running and science youl get to learn about so many subjects like about nature how velocity works the speed of sound gravity which person invented the light\r\n\r\nphotosinthesis\r\n\r\nthe mid night zone were life barely exist under the ocean in fact youl will never want to leave from the cass cause youl ejoyed that much and for soccer youl need alot of skills to play you could even go play against other schools get medals for that you might get to be the nexth messi\r\n\r\nbut in order for that you got to stay almost every day so you pratice and get skills in conclusion if you get to stay after school your minds are going to be working\r\n\r\nand going to be mentaly occupied instead of think about other stuff you willl only get to think about sports youl get a better science grade\r\n\r\nand gim grade because you will be alble to get a beter scre in the pacer youl be able to run more because of all the ime you stayafter school playin soccer and runing and runnig in soccer its also good for health cause you lose weight when you play soccer.                                                                                                               ",
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 1,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          {
+            "essay_id": "1462:1",
+            "text": "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club.\r\n\r\nOne of the many reasons, is you need free time after a long day of school. A lot of kids can get frustated and angry if, they didn't get much free time. An example, would be sleeping in class because, a lot of students\r\n\r\nlike to take naps afterschool but, they wouldn't be able to if they had to stay afterschool. Another example, is that they wouldn't want to come to school and that may be because, of to much work. There would also be to much hours of having to stay in school like, doing\r\n\r\nexams, test, quizzes, or class work.\r\n\r\nthere are also many students that have partime jobs. Having afterschool homework club would cause problems if they have to work. Not all students get free time like others, maybe they want to earn money but, they wouldn't be able to if they add a afterschool club. An example, would be if you work around 3:00pm, you wouldn't be able to work because, clubs can be an hour and a half long and usually middle schools end at around 2:30. That is why having afterschools clubs could affect some students.\r\n\r\nmy final reason, is teachers and students feel tired after a hole day of school. In my opinion they shouldn't add more hours to school, that way they have more time to rest and not worried about school work. Teachers can\r\n\r\nget stressed because, of students behaviors. An example, would be students not listening to the teacher, that might make the teachers want to go home early. Even students can get stressed by teachers, it can be because, teachers yell to much and students can get headache for that. That's why students and also teachers would like to have more time to rest.\r\n\r\nIn conclution, they shouldn't add an afterschool homework club because, all students and teachers have other stuff to do that don't envolve school. Having to many hours of school can cause them to have stress and headache for having to do a lot of homework. Also a lot of students have partime jobs so, they wouln't stay after school. Finally, they have other activities to do and they wouldn't make them, if they have to go to the clubs. Remember students deserve their free time and teachers too, so do you agree with me?.",
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          {
+            "essay_id": "8722:1",
+            "text": "Dear Principle,\r\n\r\nIf our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online. Some schools in other school districts have changed their school menu and many students and parents do not like it nor agree with it.\r\n\r\nStudents do not eat lunch now a days because they do not like the food. Some rather just go to the snack bar or vending machine we have in the cafeteria and eat snacks rather than food or bring their own lunch to school. Students bring their own food most of the time because they are used to different foods or they are allergic to certain types of foods or ingredients.\r\n\r\nOthers may say that the cafeteria food is already healthy. In the cafeteria there are many options in the four different lines. For example one line can have three main foods with different sides including fruits and vegetables. The school line also has an option between the three main foods they are serving or a salad or wrap. When the school cafeteria serves bread or any type of carbs it usually is always wheat bread which is better than any other bread.\r\n\r\nStudents who have cars or credit cards often leave school to get food or they order food online. Upperclassmen, juniors and seniors are often the ones who leave campus to get food because they have there license and have cars or they also have friends who have transportation. They usually do not come back for their last periods of the day or if they come back they come back late to class. Now with new technology and apps students order food through apps that deliver any type of food to you. Students often get in trouble by teachers and staff for it but do it anyway.\r\n\r\nIn conclusion these are some of the reasons why changing the school cafeteria lunch/menu to a healthier menu would be a bad idea. Students who do not like the school lunches already do not eat, they would leave campus and not come back or come back late. And if they change the school menu there would be more students willing to do the same thing.                                 ",
+            "Overall": 5,
+            "Traits": {
+              "Cohesion": 5,
+              "Syntax": 5,
+              "Vocabulary": 5,
+              "Phraseology": 4,
+              "Grammar": 5,
+              "Conventions": 4
+            }
+          }
+        ],
+        "target": {
+          "essay_id": "4902:1",
+          "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. but Why be basic like everyone else. Don't you want to be different from everybody else in the world?? Acting or pretending just so you can fit in with your friend. friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. if i want to accomplish something i need to be like everyone and follow what they are doing. Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n\r\nin conucluesion\r\n\r\nits all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. "
+        },
+        "reference_analysis": {
+          "history_patterns": [
+            {
+              "pattern_id": "H1",
+              "status": "recurring_in_supplied_history",
+              "dimensions": [
+                "Cohesion",
+                "Syntax",
+                "Vocabulary",
+                "Phraseology",
+                "Grammar",
+                "Conventions"
+              ],
+              "pattern": "The rater appears to evaluate essays with limited cohesion and syntax negatively, often assigning lower scores when the text lacks clear organization and has frequent errors in sentence structure.",
+              "support": [
+                {
+                  "history_essay_id": "8630:1",
+                  "quotes": [
+                    "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class"
+                  ],
+                  "relevant_observed_history_scores": {
+                    "Overall": 3,
+                    "Traits": {
+                      "Cohesion": 3,
+                      "Syntax": 2,
+                      "Vocabulary": 3,
+                      "Phraseology": 1,
+                      "Grammar": 2,
+                      "Conventions": 2
+                    }
+                  },
+                  "interpretation": "The essay lacks clear organization and has frequent errors in sentence structure, which aligns with the lower scores given."
+                },
+                {
+                  "history_essay_id": "1462:1",
+                  "quotes": [
+                    "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club."
+                  ],
+                  "relevant_observed_history_scores": {
+                    "Overall": 3,
+                    "Traits": {
+                      "Cohesion": 3,
+                      "Syntax": 3,
+                      "Vocabulary": 3,
+                      "Phraseology": 3,
+                      "Grammar": 3,
+                      "Conventions": 2
+                    }
+                  },
+                  "interpretation": "The essay has a more coherent structure but still contains errors in sentence formation and vocabulary usage, which aligns with the lower scores given."
+                }
+              ],
+              "counterevidence": [
+                {
+                  "history_essay_id": "8722:1",
+                  "quotes": [
+                    "Dear Principle, If our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online."
+                  ],
+                  "interpretation": "This essay demonstrates better cohesion and syntax, which contrasts with the lower scores given in other essays with similar issues."
+                }
+              ],
+              "limitations": [
+                "The history contains a mix of scores, making it difficult to establish a consistent pattern."
+              ]
+            }
+          ],
+          "target_evidence": [
+            {
+              "evidence_id": "T1",
+              "dimensions": [
+                "Cohesion",
+                "Syntax",
+                "Vocabulary",
+                "Phraseology",
+                "Grammar",
+                "Conventions"
+              ],
+              "quotes": [
+                "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself."
+              ],
+              "observable_feature": "The essay demonstrates limited cohesion and syntax, with frequent errors in sentence structure and vocabulary usage.",
+              "evaluative_interpretation": "The rater may evaluate this essay negatively due to its lack of clear organization and frequent errors in sentence structure.",
+              "linked_history_pattern_ids": [
+                "H1"
+              ],
+              "rubric_connection": "The rubric for scores 2 and 3 indicates that communication is impeded by language inaccuracies and that there are many sentence structure problems.",
+              "uncertainty": "The essay's overall coherence and vocabulary usage are somewhat inconsistent, making it challenging to predict the exact score."
+            }
+          ],
+          "decision_explanation": "The target essay demonstrates limited cohesion and syntax, with frequent errors in sentence structure and vocabulary usage. This aligns with the rater's historical pattern of evaluating essays with similar issues negatively. The rater appears to consider the lack of clear organization and frequent errors in sentence structure as significant factors in assigning lower scores.",
+          "insufficient_evidence": [
+            "The history contains a mix of scores, making it difficult to establish a consistent pattern."
+          ]
+        }
+      }
+    },
+    "C": {
+      "seed_record_id": "1514_1__K1",
+      "input_json": {
+        "rubric": {
+          "title": "English Proficiency Scoring Rubric for English Language Learners",
+          "source_file": "ELL_Rubrics (1).docx",
+          "structure": {
+            "holistic": [
+              "Overall"
+            ],
+            "analytic": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ]
+          },
+          "scores": {
+            "5": {
+              "Overall": "Native-like facility in the use of language with syntactic variety, Appropriate word choice and phrases; well-controlled text organization; precise use of grammar and conventions; rare language inaccuracies that do not impede communication.",
+              "Cohesion": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas.",
+              "Syntax": "Flexible and effective use of a full range of syntactic structures including simple, compound, and complex sentences; There may be rare minor and negligible errors in sentence formation.",
+              "Vocabulary": "Wide range of vocabulary flexibly and effectively used to convey precise meanings; skillful use of topic-related terms and less common words; rare negligible inaccuracies in word use.",
+              "Phraseology": "Flexible and effective use of a variety of phrases, such as idioms, collocations, and lexical bundles, to convey precise and subtle meanings; rare minor inaccuracies that are negligible.",
+              "Grammar": "Command of grammar and usage with few or no errors.",
+              "Conventions": "Consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors nonexistent or negligible."
+            },
+            "4": {
+              "Overall": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+              "Cohesion": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+              "Syntax": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+              "Vocabulary": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+              "Phraseology": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+              "Grammar": "Minimal errors in grammar and usage.",
+              "Conventions": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting."
+            },
+            "3": {
+              "Overall": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+              "Cohesion": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+              "Syntax": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+              "Vocabulary": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+              "Phraseology": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+              "Grammar": "Some errors in grammar and usage.",
+              "Conventions": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting."
+            },
+            "2": {
+              "Overall": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+              "Cohesion": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+              "Syntax": "Some sentence variation used; many sentence structure problems.",
+              "Vocabulary": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+              "Phraseology": "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and /or misuses of phrases.",
+              "Grammar": "Many errors in grammar and usage.",
+              "Conventions": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting."
+            },
+            "1": {
+              "Overall": "A limited range of familiar words or phrases loosely strung together; frequent errors in grammar (including syntax) and usage. Communication impeded in most cases by language inaccuracies.",
+              "Cohesion": "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear.",
+              "Syntax": "Pervasive and basic errors in sentence structure and word order that cause confusion; basic sentences errors common.",
+              "Vocabulary": "Limited vocabulary often inappropriately used; limited control of word choice and word forms; little attempt to use topic-related terms",
+              "Phraseology": "Memorized chunks of language, or simple phrasal patterns predominate; many repetitions and misuses of phrases.",
+              "Grammar": "Errors in grammar and usage throughout.",
+              "Conventions": "Minimal use of conventions; spelling, capitalizatio n, and punctuation errors throughout."
+            }
+          },
+          "key_terms_and_definitions": {
+            "Phrase": "Multiple word units",
+            "Grammar": "The rules by which words change their forms, including the use of word classes and grammatical morphology in English. Word classes include prepositions, pronouns, nouns, verbs, etc… Grammatical morphology includes third person, plural, possessive, etc…",
+            "Syntax": "Structuring sentences according to syntactic rules related to coordinating clauses, developing syntactic phrases (noun, verb, preposition phrases), phrasal and clausal dependency, and transformations such as passives, relative clauses, and negations.",
+            "Cohesive device": "Cohesive devices are used as links between two or more items (e.g., words, phrases, clauses) in a text to enhance text cohesion. These include the use of conjunctions (and, but, if, on the other hand), transitions (first, next, finally, for example), repetition of words, phrases, and ideas across sentences and paragraphs, and the use of anaphor (pronouns replacing nouns).",
+            "Simple, complex, and compound sentences": {
+              "Simple": "Independent clause",
+              "Complex": "Independent and dependent clauses",
+              "Compound": "Two of more independent clauses"
+            },
+            "Chunks": "Multiple words that combine to have a single meaning. Often memorized without knowing what the individual words mean (e.g., “How are you” for “Hello”)",
+            "Lexical bundles": "Multiple word units that are common in English but are not idiomatic (“There is”). More common than collocations",
+            "Collocations": "Two or more words that are often used together (e.g., save time, go to bed, fast food)",
+            "Idioms": "multi-word unit where meaning not deducible from those of the individual words (kick the bucket, rain cats and dogs)"
+          },
+          "notes": [
+            "Wording is preserved from the source DOCX; only whitespace/layout line breaks were normalized."
+          ]
+        },
+        "score_specification": {
+          "valid_overall_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "valid_trait_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "increment": 1,
+          "Overall": "Holistic language proficiency judgment; use the supplied Overall rubric descriptors.",
+          "Traits": {
+            "Cohesion": {
+              "descriptors": {
+                "5": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas.",
+                "4": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+                "3": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+                "2": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+                "1": "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear."
+              }
+            },
+            "Syntax": {
+              "descriptors": {
+                "5": "Flexible and effective use of a full range of syntactic structures including simple, compound, and complex sentences; There may be rare minor and negligible errors in sentence formation.",
+                "4": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+                "3": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+                "2": "Some sentence variation used; many sentence structure problems.",
+                "1": "Pervasive and basic errors in sentence structure and word order that cause confusion; basic sentences errors common."
+              }
+            },
+            "Vocabulary": {
+              "descriptors": {
+                "5": "Wide range of vocabulary flexibly and effectively used to convey precise meanings; skillful use of topic-related terms and less common words; rare negligible inaccuracies in word use.",
+                "4": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+                "3": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+                "2": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+                "1": "Limited vocabulary often inappropriately used; limited control of word choice and word forms; little attempt to use topic-related terms"
+              }
+            },
+            "Phraseology": {
+              "descriptors": {
+                "5": "Flexible and effective use of a variety of phrases, such as idioms, collocations, and lexical bundles, to convey precise and subtle meanings; rare minor inaccuracies that are negligible.",
+                "4": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+                "3": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+                "2": "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and /or misuses of phrases.",
+                "1": "Memorized chunks of language, or simple phrasal patterns predominate; many repetitions and misuses of phrases."
+              }
+            },
+            "Grammar": {
+              "descriptors": {
+                "5": "Command of grammar and usage with few or no errors.",
+                "4": "Minimal errors in grammar and usage.",
+                "3": "Some errors in grammar and usage.",
+                "2": "Many errors in grammar and usage.",
+                "1": "Errors in grammar and usage throughout."
+              }
+            },
+            "Conventions": {
+              "descriptors": {
+                "5": "Consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors nonexistent or negligible.",
+                "4": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting.",
+                "3": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting.",
+                "2": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting.",
+                "1": "Minimal use of conventions; spelling, capitalizatio n, and punctuation errors throughout."
+              }
+            }
+          },
+          "relationship": "Overall is the original human holistic judgment. No arithmetic or weighted relationship to Traits is specified.",
+          "definition_sources": [
+            "rubrics/ellipse_rubric_structured.json",
+            "src/config.py",
+            "src/transform_data.py",
+            "README.md"
+          ]
+        },
+        "rater_id": "rater_7",
+        "history": [
+          {
+            "essay_id": "217:1",
+            "text": "Dear principal\r\n\r\nI think policy 1 is better because students may have to call someone for an emergence or call there parent to pick them up after school. But students have to know that they have to have there phones off so when they have a free time they can use it, because if the teacher see a phone out in class and a student is using it the teacher can take it away and give it to the principal and they are not going to have a phone to text there friends during free time or at home. So principal i think policy 1 is better for the students.\r\n\r\nIf i choose policy 2 we wont have a phone to tell our parents were we are or were we going to wait for them so policy 1 is better so we can tell them were we are and tell them what time we going to get out. Principal i choose policy 1 because it will make me happy and the other kids to and the other kids will choose policy 1 because they don't want to leave there phones at home and not text there friends during free time",
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          {
+            "essay_id": "1440:1",
+            "text": "The schools should not add more time because it will be to hard for the students. We go to school for 8 and half hours they should make t shorter not longer. If they add one and half hours to school each day we will have to go to school for 10 hours and wake up early in the morning. I. If the time gets lowered by that much it is better so we dont have to wake up early because thats bad for our health too.\r\n\r\nIf we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health. I disagree with adding more time the reason i disagree is because I dont want to have bad health or not see my parents f they add more time school is going to be so much harder than it already is. It is not only bad for students it is bad for teachers too they have to stay in school for a long time too or a longer time than us because they have to clean up.\r\n\r\nWe have 90 minutes of class if they add more time we will have 2 hours the time is already good. They should not add anymore time all the students disagree about this decision. If all the students disagree you guys should not add more time because it is already good. It will be to hard and no one will work i school the will go to other schools. All that I am saying is I disagree with that decision.\r\n\r\nThe time should not change it will help us learn more but it will be too hard it already is hard so please dont change the time non of the students want the time to change. If it is 10 hours or 11 hours of school students cant have fun in their life all they have to do is study. It is not bad for us it is bad for them too they have to work so much it is not a good decision to make. Please dont change the time of the school.",
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          {
+            "essay_id": "8745:1",
+            "text": "In many student's life, there is a set goal of succeeding in school in order to open doors in the future. Doors that will allow them to obtain a job position with great salary and that will give them an opportunity to do what they are most passionate about. Just like many of these individuals, my goal is to open myself to new opportunities and experiences in order to achieve my desired career field. Internships are a great way to get hands-on experience of one's pursuing type of employment. However, companies do not just pick any person;\r\n\r\nthey must choose interns that show promising characteristics and work ethic: someone who will stand out from others. To be en engineer is my dream job, and I would appreciate it greatly if I were to be chosen as an intern in this company. It would be to your greatest interest to have me as an intern because I show promising results and diversity in multiple ways.\r\n\r\nI am not a stranger to the engineering field. I have been exposed to a series of people in this career. My father is one of the best engineers at his company, and he leads several big projects. He is the person I aspire to become or surpass. Still, my father is not my sole relative following this career. Several of my uncles have pursued this job choice, and my aunt who, even though her current job is that of a nurse, is currently studying to obtain her degree in engineering. Adding to this, I am also surrounded by non-relatives who have jobs as engineers, since I live in a city with multiple engineering companies. This shows that I have been exposed to engineering in several ways, which has given me an insight of what to expect while studying for the role.\r\n\r\nIt is no secret that engineering is one of the fields that require numerous math classes. Many would see this as a negative aspect of becoming an engineer; yet, I do not. Mathematics have been one of my passions since I was a little girl. It would fascinate me how much critical thinking and solving-problem skills it required. This, of course, has not changed much. Although the classes are getting more difficult as the years pass, my passion for math has not ceased; instead, one could say it has grown. I am not the type of person to give up on a math problem because it is \"too hard.\" If I am faced with a challenge, I will use all of my available sources of aid to find the answer. It is this kind of dedication and hard work that has led me to where I am today.\r\n\r\nDiversity stands out in applications, and many companies and organizations search for those individuals that stand out from the rest. There are not many women that choose engineering as their first career choice, yet I, a woman, am studying and aiming for engineering. I would be the the second woman in my family to aim for this position: the first being my aunt. Nevertheless, although being a woman already stands out in the engineering field, there is more of me to show. For example, I am a Latina from Generic_City. I lived in Generic_City up to the age of eight, which has consequently made me bilingual. However, I do not only speak Spanish and English; this upcoming year, I will finish my fifth year in French. Knowing multiple languages breaks many language barriers and provide more opportunities. Knowing this, I decided to take part in Spanish and French Honor Society. Standing out from the rest is not only an individual's goal, but also a companies'.\r\n\r\nThe path to success in not an easy one. One must submit to hours of work and dedication. In this year's internship, I would be fascinated to participate in your company. Since it is many students' goal to open doors for the future, I am sure there is competition involved. Despite of this, I show a variety of characteristics that many would appreciate. My goal is to become a successful engineer, just like my father. My father, other relatives, and friends have allowed me to experience an insight into what being an engineering is like. One of the things I picked up on was that there is a lot of math involved in this career; still, this is not a downfall. For many years, I have been fascinated by mathematics and problem-solving. The fact that math is required to be an engineer is not a complication; instead, it is an opportunity to study further what I enjoy. Not only am I passionate about becoming an engineering, I also show diversity; which will make me, and the company, stand out. I am the minority of female Mexican engineers, and I break the language barrier with three languages. I am one out of many applicants in this internship; however, I am passionate, hardworking, and unique. I am one of a kind.",
+            "Overall": 5,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 5,
+              "Vocabulary": 5,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 5
+            }
+          }
+        ],
+        "target": {
+          "essay_id": "1514:1",
+          "text": "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it. Based on my experience, for what I've live and for what I know, I strongly believe and agree with this statement. My brother for example wanted to be an engineer, with hard work and effort he made it. In the other hand we have Hitler, he went from being a simple art student to one of the most exponent dictators of Germany.\r\n\r\nFor example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future. He started taking courses that would help him get credits for college and getting involve with sports that would help him get scholarships. Also, he took classes that would help him improve his skills and understanding of his future career. Now with hard work and effort, he graduated as an engineer from Generic_school and he's happily working with his dream job. This shows that with hard work you can accomplish any goal and letting yourself grow.\r\n\r\nAnother example was Hitler, he went from being a simple art student to one of the most exponent dictators of Germany. At a young age Hitler had a dream, he wanted to study arts, he started working on it, but when he apply to college he wasn't accepted. That was the moment when Hitler decided to do something different, and experience something new that could change his life. With hard work and patience he did it. Even though he fail the first time, he didn't give up, therefore, he became a dictator.\r\n\r\nSome people say that you should do what life gives you at the moment because even if you work hard, sometimes you don't reach what you were hoping for and the work is not even worth it, however, you should always try to do something to grow because if you don't, that's when life gets too bored, you don't have to be in the same spot your entire life. You need to let yourself expand and fly to grow and experience something beyond what you already know, something that will make proud at the end of the day.\r\n\r\nIn conclusion I agree with Emerson's statement that if you never try yo do something beyond what you already know, you will never grow and never have experience something out of your comfort zone. You'll\r\n\r\nnever know if what you could have done was worth your time, which is why you should always try to something beyond what you have already master and challenge yourself to do bigger things that you never knew you could. "
+        },
+        "reference_analysis": {
+          "history_patterns": [],
+          "target_evidence": [
+            {
+              "evidence_id": "T1",
+              "dimensions": [
+                "Syntax"
+              ],
+              "quotes": [
+                "This shows that with hard work you can accomplish any goal and letting yourself grow."
+              ],
+              "observable_feature": "The passage coordinates \"you can accomplish any goal\" with \"letting yourself grow\", using nonparallel constructions.",
+              "evaluative_interpretation": "The nonparallel coordination limits sentence control, while the intended positive claim about effort and growth remains recoverable.",
+              "linked_history_pattern_ids": [],
+              "rubric_connection": "Syntax concerns how clauses and phrases are coordinated. Inspect the nonparallel coordination in this passage without equating its presence with a particular performance band.",
+              "uncertainty": "One passage does not establish the frequency or severity of such constructions across the whole essay."
+            }
+          ],
+          "decision_explanation": "T1 identifies a local construction limitation with recoverable meaning. No defensible feature-to-score relationship has been established from the supplied history, so this observation does not demonstrate the rater's weighting or a stable preference.",
+          "insufficient_evidence": [
+            "The local evidence does not establish how the rater balanced all dimensions."
+          ]
+        }
+      }
+    }
+  }
+}

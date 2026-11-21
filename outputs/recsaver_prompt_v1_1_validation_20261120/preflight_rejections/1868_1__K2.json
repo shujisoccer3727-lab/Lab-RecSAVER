@@ -1,0 +1,20 @@
+{
+  "direct_or_recoverable_disclosure": false,
+  "numbered_target_band_or_range": true,
+  "rejection_reasons": [
+    "numbered_target_band_or_range"
+  ],
+  "observed_score_copying_correct": true,
+  "issues": [
+    {
+      "path": "/score_free_analysis/target_evidence/0/evaluative_interpretation",
+      "text": "The essay shows a generally controlled organization and a sufficient range of vocabulary, which is consistent with a score of 3.",
+      "finding": "Numerical Overall value explicitly applied to target"
+    }
+  ],
+  "review_scope": "All strings in score_free_analysis inspected, including patterns, support, uncertainty, insufficient_evidence and decision.",
+  "comparison_judgement": "悪化",
+  "comparison_reason": "観測Traitsの欠落は解消。一方、1文を根拠に構成・語彙幅を断定し、limitations・uncertainty・insufficient_evidenceが全て空。狭い履歴から断定できないという保留が失われた。",
+  "role_sensitive_notes": "Numeric history scores and essay quote numbers alone are allowed. Numeric target performance matching is band application, not automatically direct recorded-score disclosure. Direct count is conservative and limited to explicit observed target value statements.",
+  "pass": false
+}

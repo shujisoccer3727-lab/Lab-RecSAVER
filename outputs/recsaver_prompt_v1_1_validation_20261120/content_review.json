@@ -1,0 +1,2363 @@
+{
+  "reviewer": "Codex provisional semantic/content review; not independent human evaluation",
+  "comparison_criteria": "Same evidence-scope, score-separation, observation-copying and exact-quote criteria applied to both versions.",
+  "candidates": [
+    {
+      "candidate_id": "1514_1__K1",
+      "judgement": "悪化",
+      "reason": "対象の観測Overallを直接記載し、対象1514:1をhistory supportに混入。短い引用から全体の構成・語彙幅も断定。引用は3/3一致だが履歴根拠の役割が不正。",
+      "old_output_source": "outputs/recsaver_prompt_v1_0_initial_20261118/stage1/1514_1__K1/parsed.json",
+      "new_output_source": "stage1/1514_1__K1/parsed.json",
+      "common_input_source": "stage1/1514_1__K1/input.json",
+      "history_ids": [
+        "217:1",
+        "1440:1",
+        "8745:1"
+      ],
+      "observed_scores": {
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 4,
+          "Syntax": 3,
+          "Vocabulary": 3,
+          "Phraseology": 3,
+          "Grammar": 3,
+          "Conventions": 4
+        }
+      },
+      "old_score_free_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "pattern": "The rater appears to evaluate essays with a mix of strengths and weaknesses, often giving scores that reflect a balance between effective use of language and noticeable errors.",
+            "support": [
+              {
+                "history_essay_id": "217:1",
+                "quotes": [
+                  "Dear principal",
+                  "So principal i think policy 1 is better for the students."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 2,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 4,
+                    "Conventions": 3
+                  }
+                },
+                "interpretation": "The essay shows a mix of effective and less effective language use, with some errors in syntax and cohesion, which aligns with the observed scores."
+              },
+              {
+                "history_essay_id": "1440:1",
+                "quotes": [
+                  "If we go to school for 10 hours we wont see our parents",
+                  "It is not bad for us it is bad for them too they have to work so much it is not a good decision to make."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 4,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 4,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 3,
+                    "Conventions": 4
+                  }
+                },
+                "interpretation": "The essay demonstrates a good range of vocabulary and syntax, but with some errors in cohesion and grammar, which aligns with the observed scores."
+              }
+            ],
+            "counterevidence": [
+              {
+                "history_essay_id": "8745:1",
+                "quotes": [
+                  "It would be to your greatest interest to have me as an intern because I show promising results and diversity in multiple ways."
+                ],
+                "interpretation": "This essay shows a higher level of proficiency, with fewer errors and more sophisticated language use, which contrasts with the pattern observed in lower-scored essays."
+              }
+            ],
+            "limitations": [
+              "The history contains a mix of scores, which limits the ability to establish a clear pattern for a specific score level."
+            ]
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "quotes": [
+              "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+              "This shows that with hard work you can accomplish any goal and letting yourself grow."
+            ],
+            "observable_feature": "The essay demonstrates a mix of effective and less effective language use, with some errors in syntax and cohesion.",
+            "evaluative_interpretation": "The rater may have evaluated the essay based on its balance of strengths and weaknesses, giving it a score that reflects a moderate level of proficiency.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The rubric descriptors for Overall score 3 indicate a mix of effective language use and noticeable errors, which aligns with the observed features of the essay.",
+            "uncertainty": "The essay's language proficiency is not consistently at a single level, which may make it challenging to align with a specific score."
+          }
+        ],
+        "decision_explanation": "The rater appears to have evaluated the essay based on its balance of strengths and weaknesses, giving it a score that reflects a moderate level of proficiency. The essay demonstrates a mix of effective and less effective language use, with some errors in syntax and cohesion, which aligns with the rubric descriptors for Overall score 3. This interpretation is supported by the rater's history of evaluating essays with a mix of strengths and weaknesses.",
+        "insufficient_evidence": [
+          "The essay's language proficiency is not consistently at a single level, which may make it challenging to align with a specific score."
+        ]
+      },
+      "new_score_free_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "pattern": "Essays with controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary tend to receive an Overall score of 3.",
+            "support": [
+              {
+                "history_essay_id": "217:1",
+                "quotes": [
+                  "So principal i think policy 1 is better for the students."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 2,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 4,
+                    "Conventions": 3
+                  }
+                },
+                "interpretation": "The essay shows controlled organization and occasional errors in sentence formation, aligning with an Overall score of 3."
+              },
+              {
+                "history_essay_id": "1514:1",
+                "quotes": [
+                  "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 4,
+                    "Syntax": 3,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 3,
+                    "Conventions": 4
+                  }
+                },
+                "interpretation": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary, consistent with an Overall score of 3."
+              }
+            ],
+            "counterevidence": [],
+            "limitations": [
+              "The pattern is supported by two essays, but more data would strengthen the interpretation."
+            ]
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "quotes": [
+              "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it."
+            ],
+            "observable_feature": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary.",
+            "evaluative_interpretation": "The text shows controlled organization and occasional errors in sentence formation, which aligns with an Overall score of 3.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The text shows controlled organization and a minimally adequate range of vocabulary, which aligns with the rubric's description for an Overall score of 3.",
+            "uncertainty": "The text occasionally shows errors in sentence formation, which could be interpreted as a limitation."
+          }
+        ],
+        "decision_explanation": "The target essay demonstrates controlled organization and a minimally adequate range of vocabulary, consistent with the observed Overall score of 3. The pattern observed in the history essays supports this interpretation.",
+        "insufficient_evidence": []
+      },
+      "old_score_alignment_evidence": {
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        "overall_alignment": "The observed Overall score of 3 aligns with the essay's mix of effective and less effective language use, with some errors in syntax and cohesion, as described in the rubric for Overall score 3.",
+        "relevant_trait_alignment": [
+          {
+            "trait": "Cohesion",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates generally well-controlled organization with a range of cohesive devices used appropriately, which aligns with the observed score of 4."
+          },
+          {
+            "trait": "Syntax",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay shows some apparent errors in sentence formation, especially in more complex sentences, which aligns with the observed score of 3."
+          },
+          {
+            "trait": "Vocabulary",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates a minimally adequate range of vocabulary for the topic, with some attempts to use less common vocabulary but with some inaccuracy, which aligns with the observed score of 3."
+          },
+          {
+            "trait": "Phraseology",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay shows evident use of phrases such as idioms, collocations, and lexical bundles but without much variety, which aligns with the observed score of 3."
+          },
+          {
+            "trait": "Grammar",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates some errors in grammar and usage, which aligns with the observed score of 3."
+          },
+          {
+            "trait": "Conventions",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay shows generally consistent use of appropriate conventions to convey meaning, with few and not distracting errors, which aligns with the observed score of 4."
+          }
+        ],
+        "explanatory_status": "supported_interpretation",
+        "unresolved_tensions": [
+          "The essay's language proficiency is not consistently at a single level, which may make it challenging to align with a specific score."
+        ]
+      },
+      "new_score_alignment_evidence": {
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        "overall_alignment": "The target essay's controlled organization and minimally adequate range of vocabulary align with the observed Overall score of 3.",
+        "relevant_trait_alignment": [
+          {
+            "trait": "Cohesion",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates controlled organization, which aligns with the observed Cohesion score of 4."
+          },
+          {
+            "trait": "Syntax",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay shows occasional errors in sentence formation, which aligns with the observed Syntax score of 3."
+          },
+          {
+            "trait": "Vocabulary",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates a minimally adequate range of vocabulary, which aligns with the observed Vocabulary score of 3."
+          },
+          {
+            "trait": "Phraseology",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay shows some noticeable repetitions and misuses of phrases, which aligns with the observed Phraseology score of 3."
+          },
+          {
+            "trait": "Grammar",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates some errors in grammar and usage, which aligns with the observed Grammar score of 3."
+          },
+          {
+            "trait": "Conventions",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay shows generally consistent use of appropriate conventions, which aligns with the observed Conventions score of 4."
+          }
+        ],
+        "explanatory_status": "partly_supported",
+        "unresolved_tensions": []
+      },
+      "source_history": [
+        {
+          "essay_id": "217:1",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 2,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 4,
+            "Conventions": 3
+          }
+        },
+        {
+          "essay_id": "1440:1",
+          "Overall": 4,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 4,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        {
+          "essay_id": "8745:1",
+          "Overall": 5,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 5,
+            "Vocabulary": 5,
+            "Phraseology": 4,
+            "Grammar": 4,
+            "Conventions": 5
+          }
+        }
+      ],
+      "assessment": {
+        "format": "met both versions",
+        "observed_scores": "met in v1.1; old omissions separately counted",
+        "score_separation": "not_met both versions",
+        "claim_scope": "not_met: short selected passages do not establish whole-essay organization/vocabulary range",
+        "historical_evaluation_relationship": "partially_met at most: named source examples but feature-to-treatment comparison underdetermined",
+        "abstention": "partially_met at most: partly_supported label does not specify missing comparison; read candidate reason for loss of local findings",
+        "rubric_observation_separation": "partially_met at most: recorded values preserved but claims often force descriptor alignment"
+      },
+      "mechanical_old": {
+        "strict_json": true,
+        "structure": true,
+        "quote_counts": {
+          "exact": 7
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "mechanical_new": {
+        "strict_json": true,
+        "structure": true,
+        "quote_counts": {
+          "exact": 3
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [
+          {
+            "path": "/score_free_analysis/history_patterns/0/support/1/history_essay_id",
+            "essay_id": "1514:1",
+            "reason": "Not a supplied history essay"
+          }
+        ],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      }
+    },
+    {
+      "candidate_id": "1514_1__K2",
+      "judgement": "同程度",
+      "reason": "数値帯の残存と、短い引用から全体品質への拡張が継続。高品質・高得点の履歴を反例と呼ぶ誤りも残る。観測値の全項目保持は両版とも通過。",
+      "old_output_source": "outputs/recsaver_prompt_v1_0_initial_20261118/stage1/1514_1__K2/parsed.json",
+      "new_output_source": "stage1/1514_1__K2/parsed.json",
+      "common_input_source": "stage1/1514_1__K2/input.json",
+      "history_ids": [
+        "217:1",
+        "1440:1",
+        "8745:1"
+      ],
+      "observed_scores": {
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 4,
+          "Syntax": 3,
+          "Vocabulary": 3,
+          "Phraseology": 3,
+          "Grammar": 3,
+          "Conventions": 4
+        }
+      },
+      "old_score_free_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "pattern": "The rater appears to evaluate essays with a mix of strengths and weaknesses, often giving scores that reflect a balanced consideration of the essay's overall quality. The rater seems to appreciate essays with a clear structure and varied vocabulary but penalizes for grammatical errors and awkward phrasing.",
+            "support": [
+              {
+                "history_essay_id": "217:1",
+                "quotes": [
+                  "Dear principal",
+                  "I think policy 1 is better because students may have to call someone for an emergence or call there parent to pick them up after school."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 2,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 4,
+                    "Conventions": 3
+                  }
+                },
+                "interpretation": "The essay shows a mix of clear structure and varied vocabulary but also contains grammatical errors and awkward phrasing, which aligns with the rater's balanced evaluation."
+              },
+              {
+                "history_essay_id": "1440:1",
+                "quotes": [
+                  "The schools should not add more time because it will be to hard for the students.",
+                  "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 4,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 4,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 3,
+                    "Conventions": 4
+                  }
+                },
+                "interpretation": "The essay demonstrates a clear structure and varied vocabulary but also contains grammatical errors and awkward phrasing, which aligns with the rater's balanced evaluation."
+              }
+            ],
+            "counterevidence": [
+              {
+                "history_essay_id": "8745:1",
+                "quotes": [
+                  "In many student's life, there is a set goal of succeeding in school in order to open doors in the future.",
+                  "It is no secret that engineering is one of the fields that require numerous math classes."
+                ],
+                "interpretation": "This essay shows a more polished structure and varied vocabulary with fewer grammatical errors, which contrasts with the rater's balanced evaluation but still aligns with the overall pattern."
+              }
+            ],
+            "limitations": [
+              "The history contains a mix of scores, which limits the inference of a strict pattern."
+            ]
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "quotes": [
+              "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it.",
+              "For example, my brother wanted to be an engineer since he was little, at the time he reach High school, he was sure what career he wanted for his future."
+            ],
+            "observable_feature": "The essay demonstrates a clear structure and varied vocabulary but also contains grammatical errors and awkward phrasing.",
+            "evaluative_interpretation": "The rater likely appreciates the clear structure and varied vocabulary but penalizes for grammatical errors and awkward phrasing.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The rubric for Overall score 3 indicates facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage.",
+            "uncertainty": "The essay's clear structure and varied vocabulary contrast with the grammatical errors and awkward phrasing, which may lead to a balanced evaluation."
+          }
+        ],
+        "decision_explanation": "The rater likely evaluated the target essay based on a balanced consideration of its strengths and weaknesses. The essay demonstrates a clear structure and varied vocabulary, which aligns with the rater's appreciation for these features. However, the presence of grammatical errors and awkward phrasing may have led the rater to penalize the essay, resulting in an Overall score that reflects a balanced evaluation.",
+        "insufficient_evidence": [
+          "The history does not provide a strict pattern for the rater's scoring, limiting the inference of a stable characteristic."
+        ]
+      },
+      "new_score_free_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "pattern": "Essays with controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary tend to receive an Overall score of 3.",
+            "support": [
+              {
+                "history_essay_id": "217:1",
+                "quotes": [
+                  "But students have to know that they have to have there phones off so when they have a free time they can use it, because if the teacher see a phone out in class and a student is using it the teacher can take it away and give it to the principal and they are not going to have a phone to text there friends during free time or at home."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {}
+                },
+                "interpretation": "The essay shows controlled organization and occasional errors in sentence formation, which aligns with an Overall score of 3."
+              },
+              {
+                "history_essay_id": "1440:1",
+                "quotes": [
+                  "If we go to school for 10 hours we wont see our parents because we wake up early in the morning and when we come back we do homework and go to sleep that is not good for our health."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 4,
+                  "Traits": {}
+                },
+                "interpretation": "The essay demonstrates better control over sentence formation and a wider range of vocabulary, which aligns with a higher Overall score of 4."
+              }
+            ],
+            "counterevidence": [
+              {
+                "history_essay_id": "8745:1",
+                "quotes": [
+                  "It is no secret that engineering is one of the fields that require numerous math classes. Many would see this as a negative aspect of becoming an engineer; yet, I do not. Mathematics have been one of my passions since I was a little girl."
+                ],
+                "interpretation": "This essay shows a wide range of vocabulary and flexible use of syntax, which contrasts with the pattern of minimally adequate vocabulary and occasional errors in sentence formation."
+              }
+            ],
+            "limitations": [
+              "The pattern is supported by two essays but is contradicted by one essay with a higher Overall score."
+            ]
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "quotes": [
+              "Based on Emerson's statement, I firmly agree that if you never try to do something beyond what you already know, you will never do something and know if you could have done it or of you were good at it."
+            ],
+            "observable_feature": "The essay demonstrates controlled organization and occasional errors in sentence formation, with a minimally adequate range of vocabulary.",
+            "evaluative_interpretation": "The essay shows controlled organization and occasional errors in sentence formation, which aligns with an Overall score of 3.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay shows controlled organization and occasional errors in sentence formation, which aligns with the rubric's description for an Overall score of 3.",
+            "uncertainty": "The essay's range of vocabulary and use of phraseology are minimally adequate, which could support a slightly higher score."
+          }
+        ],
+        "decision_explanation": "The essay's controlled organization and occasional errors in sentence formation align with the pattern observed in history essay 217:1, which received an Overall score of 3. The minimally adequate range of vocabulary and phraseology further support this evaluation.",
+        "insufficient_evidence": []
+      },
+      "old_score_alignment_evidence": {
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        "overall_alignment": "The observed Overall score of 3 aligns with the rater's balanced evaluation of the essay's strengths and weaknesses, reflecting the clear structure and varied vocabulary but also penalizing for grammatical errors and awkward phrasing.",
+        "relevant_trait_alignment": [
+          {
+            "trait": "Cohesion",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The observed score of 4 aligns with the essay's clear structure and logical sequencing of ideas, which the rater likely appreciated."
+          },
+          {
+            "trait": "Syntax",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The observed score of 3 aligns with the essay's varied sentence structures but also the presence of some errors in sentence formation, which the rater likely penalized."
+          },
+          {
+            "trait": "Vocabulary",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The observed score of 3 aligns with the essay's varied vocabulary but also the presence of some awkward phrasing and errors in word use, which the rater likely penalized."
+          },
+          {
+            "trait": "Phraseology",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The observed score of 3 aligns with the essay's varied use of phrases but also the presence of some awkward phrasing and errors in phrase use, which the rater likely penalized."
+          },
+          {
+            "trait": "Grammar",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The observed score of 3 aligns with the essay's varied sentence structures but also the presence of some errors in grammar and usage, which the rater likely penalized."
+          },
+          {
+            "trait": "Conventions",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The observed score of 4 aligns with the essay's generally consistent use of conventions but also the presence of some errors in spelling, capitalization, and punctuation, which the rater likely penalized."
+          }
+        ],
+        "explanatory_status": "supported_interpretation",
+        "unresolved_tensions": [
+          "The essay's clear structure and varied vocabulary contrast with the grammatical errors and awkward phrasing, which may lead to a balanced evaluation."
+        ]
+      },
+      "new_score_alignment_evidence": {
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        "overall_alignment": "The essay's controlled organization, occasional errors in sentence formation, and minimally adequate range of vocabulary align with the observed Overall score of 3.",
+        "relevant_trait_alignment": [
+          {
+            "trait": "Cohesion",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates controlled organization and occasional errors in sentence formation, which aligns with the observed score of 4."
+          },
+          {
+            "trait": "Syntax",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay shows occasional errors in sentence formation, which aligns with the observed score of 3."
+          },
+          {
+            "trait": "Vocabulary",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates a minimally adequate range of vocabulary, which aligns with the observed score of 3."
+          },
+          {
+            "trait": "Phraseology",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay shows evident use of phrases but without much variety, which aligns with the observed score of 3."
+          },
+          {
+            "trait": "Grammar",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates some errors in grammar and usage, which aligns with the observed score of 3."
+          },
+          {
+            "trait": "Conventions",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay shows generally consistent use of conventions, with few and not distracting errors, which aligns with the observed score of 4."
+          }
+        ],
+        "explanatory_status": "partly_supported",
+        "unresolved_tensions": [
+          "The essay's range of vocabulary and use of phraseology are minimally adequate, which could support a slightly higher score."
+        ]
+      },
+      "source_history": [
+        {
+          "essay_id": "217:1",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 2,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 4,
+            "Conventions": 3
+          }
+        },
+        {
+          "essay_id": "1440:1",
+          "Overall": 4,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 4,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        {
+          "essay_id": "8745:1",
+          "Overall": 5,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 5,
+            "Vocabulary": 5,
+            "Phraseology": 4,
+            "Grammar": 4,
+            "Conventions": 5
+          }
+        }
+      ],
+      "assessment": {
+        "format": "met both versions",
+        "observed_scores": "met in v1.1; old omissions separately counted",
+        "score_separation": "not_met both versions",
+        "claim_scope": "not_met: short selected passages do not establish whole-essay organization/vocabulary range",
+        "historical_evaluation_relationship": "partially_met at most: named source examples but feature-to-treatment comparison underdetermined",
+        "abstention": "partially_met at most: partly_supported label does not specify missing comparison; read candidate reason for loss of local findings",
+        "rubric_observation_separation": "partially_met at most: recorded values preserved but claims often force descriptor alignment"
+      },
+      "mechanical_old": {
+        "strict_json": true,
+        "structure": true,
+        "quote_counts": {
+          "exact": 8
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "mechanical_new": {
+        "strict_json": true,
+        "structure": true,
+        "quote_counts": {
+          "exact": 4
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      }
+    },
+    {
+      "candidate_id": "1868_1__K1",
+      "judgement": "悪化",
+      "reason": "観測Traitの欠落は解消したが、対象1文から構成・語彙幅を断定し、意思決定説明で観測Overallも直接開示。不足・uncertaintyが空となり保留が弱まった。Vocabulary/Phraseology=3という誤った帯対応は消えたが、論点自体の縮小で全面改善とはしない。",
+      "old_output_source": "outputs/recsaver_prompt_v1_0_initial_20261118/stage1/1868_1__K1/parsed.json",
+      "new_output_source": "stage1/1868_1__K1/parsed.json",
+      "common_input_source": "stage1/1868_1__K1/input.json",
+      "history_ids": [
+        "5783:1",
+        "239:1",
+        "8666:1"
+      ],
+      "observed_scores": {
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 3,
+          "Syntax": 3,
+          "Vocabulary": 4,
+          "Phraseology": 4,
+          "Grammar": 3,
+          "Conventions": 3
+        }
+      },
+      "old_score_free_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary",
+              "Phraseology"
+            ],
+            "pattern": "The rater appears to evaluate essays with a generally controlled organization, a sufficient range of vocabulary, and an evident use of phrases, but with some noticeable repetitions and misuses.",
+            "support": [
+              {
+                "history_essay_id": "5783:1",
+                "quotes": [
+                  "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4,
+                    "Phraseology": 3
+                  }
+                },
+                "interpretation": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, but with some noticeable repetitions and misuses."
+              },
+              {
+                "history_essay_id": "8666:1",
+                "quotes": [
+                  "Many students like to reach a grade average of a B, but they cant and it be wonderful of them to get a grade like that."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4,
+                    "Phraseology": 3
+                  }
+                },
+                "interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, but with some noticeable repetitions and misuses."
+              }
+            ],
+            "counterevidence": [
+              {
+                "history_essay_id": "239:1",
+                "quotes": [
+                  "Dear principal, I agree to policy 2 because the student don't pay any attention in class and the students are texting during in class."
+                ],
+                "interpretation": "This essay has a partially developed organization and a narrow range of vocabulary, which contrasts with the pattern."
+              }
+            ],
+            "limitations": [
+              "The history contains only a narrow range of essay quality, limiting the inference."
+            ]
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary",
+              "Phraseology"
+            ],
+            "quotes": [
+              "The main piece to improve your skills is during the process of keep learning.",
+              "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things."
+            ],
+            "observable_feature": "The essay demonstrates a generally controlled organization, a sufficient range of vocabulary, and an evident use of phrases, but with some noticeable repetitions and misuses.",
+            "evaluative_interpretation": "The rater may evaluate this essay as having a generally controlled organization, a sufficient range of vocabulary, and an evident use of phrases, but with some noticeable repetitions and misuses.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The rubric for a score of 3 in Cohesion, Vocabulary, and Phraseology aligns with this evaluation.",
+            "uncertainty": "The essay's organization and vocabulary range are generally controlled, but the repetition of phrases may be a limitation."
+          }
+        ],
+        "decision_explanation": "The target essay demonstrates a generally controlled organization, a sufficient range of vocabulary, and an evident use of phrases, but with some noticeable repetitions and misuses. This aligns with the rater's historical pattern of evaluating essays with these characteristics. The repetition of phrases such as 'keep learning' may be a limitation, but the overall control of organization and vocabulary range supports a score that reflects these strengths.",
+        "insufficient_evidence": [
+          "The history does not provide sufficient examples to establish a clear pattern for scores of 4 or 5."
+        ]
+      },
+      "new_score_free_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary"
+            ],
+            "pattern": "Essays with generally controlled organization and a sufficient range of vocabulary receive an Overall score of 3.",
+            "support": [
+              {
+                "history_essay_id": "5783:1",
+                "quotes": [
+                  "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4
+                  }
+                },
+                "interpretation": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, which aligns with an Overall score of 3."
+              },
+              {
+                "history_essay_id": "8666:1",
+                "quotes": [
+                  "Many students like to reach a grade average of a B, but they cant and it be wonderful of them to get a grade like that."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4
+                  }
+                },
+                "interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with an Overall score of 3."
+              }
+            ],
+            "counterevidence": [],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary"
+            ],
+            "quotes": [
+              "The main piece to improve your skills is during the process of keep learning."
+            ],
+            "observable_feature": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary.",
+            "evaluative_interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, which aligns with an Overall score of 3.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay uses a range of cohesive devices and demonstrates a sufficient range of vocabulary, which aligns with the rubric for an Overall score of 3.",
+            "uncertainty": ""
+          }
+        ],
+        "decision_explanation": "The target essay demonstrates a generally controlled organization and a sufficient range of vocabulary, which aligns with the observed Overall score of 3. This is consistent with the pattern observed in the history essays with similar features.",
+        "insufficient_evidence": []
+      },
+      "old_score_alignment_evidence": {
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "overall_alignment": "The observed Overall score of 3 aligns with the rater's evaluation of the essay's generally controlled organization, sufficient vocabulary range, and evident use of phrases, but with some noticeable repetitions and misuses.",
+        "relevant_trait_alignment": [
+          {
+            "trait": "Cohesion",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The observed score of 3 aligns with the essay's generally controlled organization, but with some repetitive use of phrases."
+          },
+          {
+            "trait": "Vocabulary",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The observed score of 4 aligns with the essay's sufficient range of vocabulary, but the repetition of phrases may be a limitation."
+          },
+          {
+            "trait": "Phraseology",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The observed score of 4 aligns with the essay's evident use of phrases, but with some noticeable repetitions and misuses."
+          }
+        ],
+        "explanatory_status": "supported_interpretation",
+        "unresolved_tensions": [
+          "The repetition of phrases such as 'keep learning' may be a limitation, but the overall control of organization and vocabulary range supports a score that reflects these strengths."
+        ]
+      },
+      "new_score_alignment_evidence": {
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "overall_alignment": "The target essay's generally controlled organization and sufficient range of vocabulary align with the observed Overall score of 3, consistent with the rubric descriptors for this level.",
+        "relevant_trait_alignment": [
+          {
+            "trait": "Cohesion",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates a generally controlled organization, which aligns with the observed score of 3."
+          },
+          {
+            "trait": "Vocabulary",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay shows a sufficient range of vocabulary, which aligns with the observed score of 4."
+          }
+        ],
+        "explanatory_status": "partly_supported",
+        "unresolved_tensions": []
+      },
+      "source_history": [
+        {
+          "essay_id": "5783:1",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 4,
+            "Vocabulary": 4,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        {
+          "essay_id": "239:1",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 2,
+            "Phraseology": 2,
+            "Grammar": 2,
+            "Conventions": 3
+          }
+        },
+        {
+          "essay_id": "8666:1",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 3,
+            "Grammar": 4,
+            "Conventions": 5
+          }
+        }
+      ],
+      "assessment": {
+        "format": "met both versions",
+        "observed_scores": "met in v1.1; old omissions separately counted",
+        "score_separation": "not_met both versions",
+        "claim_scope": "not_met: short selected passages do not establish whole-essay organization/vocabulary range",
+        "historical_evaluation_relationship": "partially_met at most: named source examples but feature-to-treatment comparison underdetermined",
+        "abstention": "partially_met at most: partly_supported label does not specify missing comparison; read candidate reason for loss of local findings",
+        "rubric_observation_separation": "partially_met at most: recorded values preserved but claims often force descriptor alignment"
+      },
+      "mechanical_old": {
+        "strict_json": true,
+        "structure": true,
+        "quote_counts": {
+          "exact": 4,
+          "whitespace_only": 1
+        },
+        "score_missing": [
+          "Syntax"
+        ],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": false,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "mechanical_new": {
+        "strict_json": true,
+        "structure": true,
+        "quote_counts": {
+          "exact": 3
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      }
+    },
+    {
+      "candidate_id": "1868_1__K2",
+      "judgement": "悪化",
+      "reason": "観測Traitsの欠落は解消。一方、1文を根拠に構成・語彙幅を断定し、limitations・uncertainty・insufficient_evidenceが全て空。狭い履歴から断定できないという保留が失われた。",
+      "old_output_source": "outputs/recsaver_prompt_v1_0_initial_20261118/stage1/1868_1__K2/parsed.json",
+      "new_output_source": "stage1/1868_1__K2/parsed.json",
+      "common_input_source": "stage1/1868_1__K2/input.json",
+      "history_ids": [
+        "5783:1",
+        "239:1",
+        "8666:1"
+      ],
+      "observed_scores": {
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 3,
+          "Syntax": 3,
+          "Vocabulary": 4,
+          "Phraseology": 4,
+          "Grammar": 3,
+          "Conventions": 3
+        }
+      },
+      "old_score_free_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary",
+              "Phraseology"
+            ],
+            "pattern": "The rater appears to evaluate essays that show a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+            "support": [
+              {
+                "history_essay_id": "5783:1",
+                "quotes": [
+                  "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4,
+                    "Phraseology": 3
+                  }
+                },
+                "interpretation": "The essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology."
+              },
+              {
+                "history_essay_id": "8666:1",
+                "quotes": [
+                  "Many students like to reach a grade average of a B, but they cant and it be wonderful of them to get a grade like that."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4,
+                    "Phraseology": 3
+                  }
+                },
+                "interpretation": "The essay shows a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology."
+              }
+            ],
+            "counterevidence": [
+              {
+                "history_essay_id": "239:1",
+                "quotes": [
+                  "Dear principal, I agree to policy 2 because the student don't pay any attention in class and the students are texting during in class."
+                ],
+                "interpretation": "This essay shows a partially developed organization and limited vocabulary and phraseology, which contrasts with the pattern."
+              }
+            ],
+            "limitations": [
+              "The history contains only a narrow range of essay quality, limiting the inference."
+            ]
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary",
+              "Phraseology"
+            ],
+            "quotes": [
+              "The main piece to improve your skills is during the process of keep learning.",
+              "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things."
+            ],
+            "observable_feature": "The essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+            "evaluative_interpretation": "The rater may evaluate this essay as showing a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The rubric for a score of 3 indicates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+            "uncertainty": "The essay's organization and vocabulary are generally controlled, but there are some limitations in cohesion and occasional inaccuracies in phraseology."
+          }
+        ],
+        "decision_explanation": "The target essay demonstrates a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology. This aligns with the rater's historical pattern of evaluating essays that show a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology. The rater may evaluate this essay as showing a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+        "insufficient_evidence": [
+          "The history contains only a narrow range of essay quality, limiting the inference."
+        ]
+      },
+      "new_score_free_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary"
+            ],
+            "pattern": "Essays with generally controlled organization and a sufficient range of vocabulary receive a score of 3.",
+            "support": [
+              {
+                "history_essay_id": "5783:1",
+                "quotes": [
+                  "\"No act of kindness, no matter how small is ever wasted.\" once said the ancient Greek story teller Aesop."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4
+                  }
+                },
+                "interpretation": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+              },
+              {
+                "history_essay_id": "8666:1",
+                "quotes": [
+                  "Many students also think that at least a C grade average is a good grade."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Vocabulary": 4
+                  }
+                },
+                "interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+              }
+            ],
+            "counterevidence": [],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Vocabulary"
+            ],
+            "quotes": [
+              "The main piece to improve your skills is during the process of keep learning."
+            ],
+            "observable_feature": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary.",
+            "evaluative_interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, which is consistent with a score of 3.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay uses a range of cohesive devices and demonstrates a sufficient range of vocabulary, which aligns with the rubric for a score of 3.",
+            "uncertainty": ""
+          }
+        ],
+        "decision_explanation": "The target essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with the observed scores of 3 in the history essays. The evidence supports a plausible interpretation of the observed scoring decision.",
+        "insufficient_evidence": []
+      },
+      "old_score_alignment_evidence": {
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4
+          }
+        },
+        "overall_alignment": "The observed Overall score of 3 aligns with the rater's historical pattern of evaluating essays that show a generally controlled organization with a range of vocabulary and phraseology, but with some limitations in cohesion and occasional inaccuracies in phraseology.",
+        "relevant_trait_alignment": [
+          {
+            "trait": "Cohesion",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The observed score of 3 for Cohesion aligns with the evidence that the essay demonstrates a generally controlled organization with some limitations in cohesion."
+          },
+          {
+            "trait": "Vocabulary",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The observed score of 4 for Vocabulary aligns with the evidence that the essay demonstrates a range of vocabulary."
+          },
+          {
+            "trait": "Phraseology",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The observed score of 4 for Phraseology aligns with the evidence that the essay demonstrates a range of phraseology, but with occasional inaccuracies."
+          }
+        ],
+        "explanatory_status": "supported_interpretation",
+        "unresolved_tensions": [
+          "The history contains only a narrow range of essay quality, limiting the inference."
+        ]
+      },
+      "new_score_alignment_evidence": {
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "overall_alignment": "The target essay's generally controlled organization and sufficient range of vocabulary align with the observed Overall score of 3.",
+        "relevant_trait_alignment": [
+          {
+            "trait": "Cohesion",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates a generally controlled organization, consistent with the observed score of 3."
+          },
+          {
+            "trait": "Vocabulary",
+            "observed_score": 4,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates a sufficient range of vocabulary, consistent with the observed score of 4."
+          }
+        ],
+        "explanatory_status": "partly_supported",
+        "unresolved_tensions": []
+      },
+      "source_history": [
+        {
+          "essay_id": "5783:1",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 4,
+            "Vocabulary": 4,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 4
+          }
+        },
+        {
+          "essay_id": "239:1",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 2,
+            "Phraseology": 2,
+            "Grammar": 2,
+            "Conventions": 3
+          }
+        },
+        {
+          "essay_id": "8666:1",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 3,
+            "Grammar": 4,
+            "Conventions": 5
+          }
+        }
+      ],
+      "assessment": {
+        "format": "met both versions",
+        "observed_scores": "met in v1.1; old omissions separately counted",
+        "score_separation": "not_met both versions",
+        "claim_scope": "not_met: short selected passages do not establish whole-essay organization/vocabulary range",
+        "historical_evaluation_relationship": "partially_met at most: named source examples but feature-to-treatment comparison underdetermined",
+        "abstention": "partially_met at most: partly_supported label does not specify missing comparison; read candidate reason for loss of local findings",
+        "rubric_observation_separation": "partially_met at most: recorded values preserved but claims often force descriptor alignment"
+      },
+      "mechanical_old": {
+        "strict_json": true,
+        "structure": true,
+        "quote_counts": {
+          "exact": 4,
+          "whitespace_only": 1
+        },
+        "score_missing": [
+          "Syntax",
+          "Grammar",
+          "Conventions"
+        ],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": false,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "mechanical_new": {
+        "strict_json": true,
+        "structure": true,
+        "quote_counts": {
+          "exact": 3
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      }
+    },
+    {
+      "candidate_id": "4902_1__K1",
+      "judgement": "悪化",
+      "reason": "引用の非空白差は消えたが、観測Overallの直接開示と、全観点の誤りをminorと括る過小分析が残る。Cohesion=3側の記述を本人Cohesion=2と整合させる新たな基準対応の不整合がある。",
+      "old_output_source": "outputs/recsaver_prompt_v1_0_initial_20261118/stage1/4902_1__K1/parsed.json",
+      "new_output_source": "stage1/4902_1__K1/parsed.json",
+      "common_input_source": "stage1/4902_1__K1/input.json",
+      "history_ids": [
+        "8630:1",
+        "1462:1",
+        "8722:1"
+      ],
+      "observed_scores": {
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 2,
+          "Syntax": 3,
+          "Vocabulary": 3,
+          "Phraseology": 3,
+          "Grammar": 3,
+          "Conventions": 3
+        }
+      },
+      "old_score_free_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "pattern": "The rater tends to score essays lower when there are significant issues with cohesion, syntax, and grammar, even if vocabulary and phraseology are adequate.",
+            "support": [
+              {
+                "history_essay_id": "8630:1",
+                "quotes": [
+                  "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class or playin and isntrument inschool how would that hel ou you might get graded dependshow well you play yo even might get to go to an important event or go to elementary schools to go perform how well you and the band play youl probably resive medals forthat but in order to do that you got to stay after school so you get to learn how to play and instrument or get to train for soccer because soccer requires skill and resistance to breath wile running and science youl get to learn about so many subjects like about nature how velocity works the speed of sound gravity which person invented the light photosinthesis the mid night zone were life barely exist under the ocean in fact youl will never want to leave from the cass cause youl ejoyed that much and for soccer youl need alot of skills to play you could even go play against other schools get medals for that you might get to be the nexth messi but in order for that you got to stay almost every day so you pratice and get skills in conclusion if you get to stay after school your minds are going to be working and going to be mentaly occupied instead of think about other stuff you willl only get to think about sports youl get a better science grade and gim grade because you will be alble to get a beter scre in the pacer youl be able to run more because of all the ime you stayafter school playin soccer and runing and runnig in soccer its also good for health cause you lose weight when you play soccer."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 2,
+                    "Vocabulary": 3,
+                    "Phraseology": 1,
+                    "Grammar": 2,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay has significant issues with cohesion and syntax, with repetitive and unclear ideas, leading to a lower score."
+              },
+              {
+                "history_essay_id": "1462:1",
+                "quotes": [
+                  "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 3,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 3,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay has clear ideas but struggles with cohesion and syntax, leading to a moderate score."
+              }
+            ],
+            "counterevidence": [
+              {
+                "history_essay_id": "8722:1",
+                "quotes": [
+                  "Dear Principle, If our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online. Some schools in other school districts have changed their school menu and many students and parents do not like it nor agree with it."
+                ],
+                "interpretation": "This essay demonstrates strong cohesion and syntax, leading to a higher score."
+              }
+            ],
+            "limitations": [
+              "The history contains a mix of scores, but the pattern is consistent across lower-scoring essays."
+            ]
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "quotes": [
+              "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself."
+            ],
+            "observable_feature": "The essay has clear ideas but struggles with cohesion and syntax, with repetitive and unclear ideas.",
+            "evaluative_interpretation": "The essay demonstrates a clear stance but has issues with cohesion and syntax, which may lead to a lower score.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The rubric for a score of 3 indicates limited facility in sentence formation, word choice, and mechanics, with communication impeded in some cases.",
+            "uncertainty": "The essay's clear ideas and adequate vocabulary may be seen as strengths, but the issues with cohesion and syntax are significant."
+          }
+        ],
+        "decision_explanation": "The target essay demonstrates clear ideas and adequate vocabulary, but it struggles with cohesion and syntax, leading to a lower score. This aligns with the historical pattern observed in the rater's scoring, where essays with significant issues in cohesion and syntax receive lower scores despite having adequate vocabulary and phraseology.",
+        "insufficient_evidence": [
+          "The target essay's clear ideas and adequate vocabulary are not sufficient to establish a higher score, as the rater tends to prioritize cohesion and syntax."
+        ]
+      },
+      "new_score_free_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "pattern": "Essays with a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions tend to receive an Overall score of 3.",
+            "support": [
+              {
+                "history_essay_id": "8630:1",
+                "quotes": [
+                  "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class"
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 2,
+                    "Vocabulary": 3,
+                    "Phraseology": 1,
+                    "Grammar": 2,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3."
+              },
+              {
+                "history_essay_id": "1462:1",
+                "quotes": [
+                  "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 3,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 3,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3."
+              }
+            ],
+            "counterevidence": [],
+            "limitations": []
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "quotes": [
+              "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself."
+            ],
+            "observable_feature": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions.",
+            "evaluative_interpretation": "The essay's mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions is consistent with an Overall score of 3.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay shows a generally controlled organization with cohesive devices used but limited in type, some apparent errors in sentence formation, a minimally adequate range of vocabulary, evident use of phrases but without much variety, some errors in grammar and usage, and developing use of conventions.",
+            "uncertainty": ""
+          }
+        ],
+        "decision_explanation": "The essay's mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions aligns with the observed Overall score of 3, consistent with the pattern observed in the history essays.",
+        "insufficient_evidence": []
+      },
+      "old_score_alignment_evidence": {
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "overall_alignment": "The observed Overall score of 3 aligns with the target essay's clear ideas but significant issues with cohesion and syntax, as supported by the historical scoring pattern.",
+        "relevant_trait_alignment": [
+          {
+            "trait": "Cohesion",
+            "observed_score": 2,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay's issues with cohesion, such as repetitive and unclear ideas, align with the observed score of 2."
+          },
+          {
+            "trait": "Syntax",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay's syntax issues, such as awkward sentence structures, align with the observed score of 3."
+          },
+          {
+            "trait": "Vocabulary",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay's adequate vocabulary aligns with the observed score of 3."
+          },
+          {
+            "trait": "Phraseology",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay's use of phrases aligns with the observed score of 3."
+          },
+          {
+            "trait": "Grammar",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay's grammar issues align with the observed score of 3."
+          },
+          {
+            "trait": "Conventions",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay's conventions issues align with the observed score of 3."
+          }
+        ],
+        "explanatory_status": "supported_interpretation",
+        "unresolved_tensions": [
+          "The clear ideas and adequate vocabulary in the essay do not fully account for the lower score, but the significant issues with cohesion and syntax are consistent with the rater's historical scoring pattern."
+        ]
+      },
+      "new_score_alignment_evidence": {
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "overall_alignment": "The essay's mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions aligns with the observed Overall score of 3.",
+        "relevant_trait_alignment": [
+          {
+            "trait": "Cohesion",
+            "observed_score": 2,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates a generally controlled organization with cohesive devices used but limited in type, consistent with a Cohesion score of 2."
+          },
+          {
+            "trait": "Syntax",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay shows simple, compound, and complex syntactic structures present although the range may be limited, consistent with a Syntax score of 3."
+          },
+          {
+            "trait": "Vocabulary",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates a minimally adequate range of vocabulary for the topic, consistent with a Vocabulary score of 3."
+          },
+          {
+            "trait": "Phraseology",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay shows evident use of phrases but without much variety, consistent with a Phraseology score of 3."
+          },
+          {
+            "trait": "Grammar",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates some errors in grammar and usage, consistent with a Grammar score of 3."
+          },
+          {
+            "trait": "Conventions",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay shows a developing use of conventions to convey meaning, consistent with a Conventions score of 3."
+          }
+        ],
+        "explanatory_status": "partly_supported",
+        "unresolved_tensions": []
+      },
+      "source_history": [
+        {
+          "essay_id": "8630:1",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 2,
+            "Vocabulary": 3,
+            "Phraseology": 1,
+            "Grammar": 2,
+            "Conventions": 2
+          }
+        },
+        {
+          "essay_id": "1462:1",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 2
+          }
+        },
+        {
+          "essay_id": "8722:1",
+          "Overall": 5,
+          "Traits": {
+            "Cohesion": 5,
+            "Syntax": 5,
+            "Vocabulary": 5,
+            "Phraseology": 4,
+            "Grammar": 5,
+            "Conventions": 4
+          }
+        }
+      ],
+      "assessment": {
+        "format": "met both versions",
+        "observed_scores": "met in v1.1; old omissions separately counted",
+        "score_separation": "not_met both versions",
+        "claim_scope": "not_met: short selected passages do not establish whole-essay organization/vocabulary range",
+        "historical_evaluation_relationship": "partially_met at most: named source examples but feature-to-treatment comparison underdetermined",
+        "abstention": "partially_met at most: partly_supported label does not specify missing comparison; read candidate reason for loss of local findings",
+        "rubric_observation_separation": "partially_met at most: recorded values preserved but claims often force descriptor alignment"
+      },
+      "mechanical_old": {
+        "strict_json": true,
+        "structure": true,
+        "quote_counts": {
+          "wording_or_punctuation_change": 1,
+          "exact": 2,
+          "whitespace_only": 1
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "mechanical_new": {
+        "strict_json": true,
+        "structure": true,
+        "quote_counts": {
+          "whitespace_only": 1,
+          "exact": 2
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      }
+    },
+    {
+      "candidate_id": "4902_1__K2",
+      "judgement": "同程度",
+      "reason": "2/3帯と意味妨害をまとめる元の文は消えたが、代わりにOverall=3の明示と一般的な全体特徴を反復。意味妨害の慎重な分析に置換できたとは言えない。履歴引用の空白差は2件のまま。Syntax=4側に近い記述を3と整合させる問題も残る。",
+      "old_output_source": "outputs/recsaver_prompt_v1_0_initial_20261118/stage1/4902_1__K2/parsed.json",
+      "new_output_source": "stage1/4902_1__K2/parsed.json",
+      "common_input_source": "stage1/4902_1__K2/input.json",
+      "history_ids": [
+        "8630:1",
+        "1462:1",
+        "8722:1"
+      ],
+      "observed_scores": {
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 2,
+          "Syntax": 3,
+          "Vocabulary": 3,
+          "Phraseology": 3,
+          "Grammar": 3,
+          "Conventions": 3
+        }
+      },
+      "old_score_free_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "pattern": "The rater appears to evaluate essays with limited cohesion and syntax negatively, often assigning lower scores when the text lacks clear organization and has frequent errors in sentence structure.",
+            "support": [
+              {
+                "history_essay_id": "8630:1",
+                "quotes": [
+                  "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments you will get to do the activtuy might be enjoyable for some students cause they might get to like that subject in class they probably like science more than another class"
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 2,
+                    "Vocabulary": 3,
+                    "Phraseology": 1,
+                    "Grammar": 2,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay lacks clear organization and has frequent errors in sentence structure, which aligns with the lower scores given."
+              },
+              {
+                "history_essay_id": "1462:1",
+                "quotes": [
+                  "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health. There are many examples, that show overworking could make you stressed or get headache. That is why I desagree that they should start an afterschool homework club."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 3,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 3,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay has a more coherent structure but still contains errors in sentence formation and vocabulary usage, which aligns with the lower scores given."
+              }
+            ],
+            "counterevidence": [
+              {
+                "history_essay_id": "8722:1",
+                "quotes": [
+                  "Dear Principle, If our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online."
+                ],
+                "interpretation": "This essay demonstrates better cohesion and syntax, which contrasts with the lower scores given in other essays with similar issues."
+              }
+            ],
+            "limitations": [
+              "The history contains a mix of scores, making it difficult to establish a consistent pattern."
+            ]
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "quotes": [
+              "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself."
+            ],
+            "observable_feature": "The essay demonstrates limited cohesion and syntax, with frequent errors in sentence structure and vocabulary usage.",
+            "evaluative_interpretation": "The rater may evaluate this essay negatively due to its lack of clear organization and frequent errors in sentence structure.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The rubric for scores 2 and 3 indicates that communication is impeded by language inaccuracies and that there are many sentence structure problems.",
+            "uncertainty": "The essay's overall coherence and vocabulary usage are somewhat inconsistent, making it challenging to predict the exact score."
+          }
+        ],
+        "decision_explanation": "The target essay demonstrates limited cohesion and syntax, with frequent errors in sentence structure and vocabulary usage. This aligns with the rater's historical pattern of evaluating essays with similar issues negatively. The rater appears to consider the lack of clear organization and frequent errors in sentence structure as significant factors in assigning lower scores.",
+        "insufficient_evidence": [
+          "The history contains a mix of scores, making it difficult to establish a consistent pattern."
+        ]
+      },
+      "new_score_free_evidence": {
+        "history_patterns": [
+          {
+            "pattern_id": "H1",
+            "status": "recurring_in_supplied_history",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "pattern": "Essays with a mix of structural and linguistic features, some errors, and generally controlled organization tend to receive an Overall score of 3.",
+            "support": [
+              {
+                "history_essay_id": "8630:1",
+                "quotes": [
+                  "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments"
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 2,
+                    "Vocabulary": 3,
+                    "Phraseology": 1,
+                    "Grammar": 2,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay shows a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with an Overall score of 3."
+              },
+              {
+                "history_essay_id": "1462:1",
+                "quotes": [
+                  "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health."
+                ],
+                "relevant_observed_history_scores": {
+                  "Overall": 3,
+                  "Traits": {
+                    "Cohesion": 3,
+                    "Syntax": 3,
+                    "Vocabulary": 3,
+                    "Phraseology": 3,
+                    "Grammar": 3,
+                    "Conventions": 2
+                  }
+                },
+                "interpretation": "The essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with an Overall score of 3."
+              }
+            ],
+            "counterevidence": [
+              {
+                "history_essay_id": "8722:1",
+                "quotes": [
+                  "Dear Principle, If our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online."
+                ],
+                "interpretation": "This essay shows a higher level of control and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3."
+              }
+            ],
+            "limitations": [
+              "The pattern is supported by two essays but contrasts with a higher-scoring essay, indicating that the pattern may not be definitive."
+            ]
+          }
+        ],
+        "target_evidence": [
+          {
+            "evidence_id": "T1",
+            "dimensions": [
+              "Cohesion",
+              "Syntax",
+              "Vocabulary",
+              "Phraseology",
+              "Grammar",
+              "Conventions"
+            ],
+            "quotes": [
+              "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self."
+            ],
+            "observable_feature": "The essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization.",
+            "evaluative_interpretation": "The essay shows a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with an Overall score of 3.",
+            "linked_history_pattern_ids": [
+              "H1"
+            ],
+            "rubric_connection": "The essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with the rubric's description of an Overall score of 3.",
+            "uncertainty": "The essay's level of control and errors is consistent with an Overall score of 3, but the pattern is not definitive due to the limited history."
+          }
+        ],
+        "decision_explanation": "The target essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with the pattern observed in the history where similar essays received an Overall score of 3.",
+        "insufficient_evidence": []
+      },
+      "old_score_alignment_evidence": {
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "overall_alignment": "The observed Overall score of 3 aligns with the rater's historical pattern of evaluating essays with limited cohesion and syntax negatively. The Trait scores reflect the essay's weaknesses in cohesion and syntax, which are consistent with the rubric descriptors for score 3.",
+        "relevant_trait_alignment": [
+          {
+            "trait": "Cohesion",
+            "observed_score": 2,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates limited cohesion, with frequent errors in sentence structure and vocabulary usage, which aligns with the observed score of 2."
+          },
+          {
+            "trait": "Syntax",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates some sentence variation but with many sentence structure problems, which aligns with the observed score of 3."
+          },
+          {
+            "trait": "Vocabulary",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates a minimally adequate range of vocabulary for the topic, with some attempts to use less common vocabulary but with some inaccuracy, which aligns with the observed score of 3."
+          },
+          {
+            "trait": "Phraseology",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates evident use of phrases such as idioms, collocations, and lexical bundles but without much variety, which aligns with the observed score of 3."
+          },
+          {
+            "trait": "Grammar",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates some errors in grammar and usage, which aligns with the observed score of 3."
+          },
+          {
+            "trait": "Conventions",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates developing use of conventions to convey meaning, with errors in spelling, capitalization, and punctuation that are sometimes distracting, which aligns with the observed score of 3."
+          }
+        ],
+        "explanatory_status": "supported_interpretation",
+        "unresolved_tensions": [
+          "The essay's overall coherence and vocabulary usage are somewhat inconsistent, which may lead to some uncertainty in the exact score."
+        ]
+      },
+      "new_score_alignment_evidence": {
+        "observed_target_scores": {
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          }
+        },
+        "overall_alignment": "The target essay's mix of structural and linguistic features with some errors and generally controlled organization aligns with the rubric's description of an Overall score of 3.",
+        "relevant_trait_alignment": [
+          {
+            "trait": "Cohesion",
+            "observed_score": 2,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates some errors in cohesive devices and limited control, which aligns with a Cohesion score of 2."
+          },
+          {
+            "trait": "Syntax",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates an appropriate use of a variety of syntactic structures with occasional errors, which aligns with a Syntax score of 3."
+          },
+          {
+            "trait": "Vocabulary",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates a minimally adequate range of vocabulary for the topic with some inaccuracy, which aligns with a Vocabulary score of 3."
+          },
+          {
+            "trait": "Phraseology",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates evident use of phrases with some noticeable repetitions and misuses, which aligns with a Phraseology score of 3."
+          },
+          {
+            "trait": "Grammar",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates some errors in grammar and usage, which aligns with a Grammar score of 3."
+          },
+          {
+            "trait": "Conventions",
+            "observed_score": 3,
+            "evidence_ids": [
+              "T1"
+            ],
+            "alignment": "The essay demonstrates developing use of conventions with errors that are sometimes distracting, which aligns with a Conventions score of 3."
+          }
+        ],
+        "explanatory_status": "partly_supported",
+        "unresolved_tensions": [
+          "The pattern observed in the history is supported by two essays but contrasts with a higher-scoring essay, indicating that the pattern may not be definitive."
+        ]
+      },
+      "source_history": [
+        {
+          "essay_id": "8630:1",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 2,
+            "Vocabulary": 3,
+            "Phraseology": 1,
+            "Grammar": 2,
+            "Conventions": 2
+          }
+        },
+        {
+          "essay_id": "1462:1",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 2
+          }
+        },
+        {
+          "essay_id": "8722:1",
+          "Overall": 5,
+          "Traits": {
+            "Cohesion": 5,
+            "Syntax": 5,
+            "Vocabulary": 5,
+            "Phraseology": 4,
+            "Grammar": 5,
+            "Conventions": 4
+          }
+        }
+      ],
+      "assessment": {
+        "format": "met both versions",
+        "observed_scores": "met in v1.1; old omissions separately counted",
+        "score_separation": "not_met both versions",
+        "claim_scope": "not_met: short selected passages do not establish whole-essay organization/vocabulary range",
+        "historical_evaluation_relationship": "partially_met at most: named source examples but feature-to-treatment comparison underdetermined",
+        "abstention": "partially_met at most: partly_supported label does not specify missing comparison; read candidate reason for loss of local findings",
+        "rubric_observation_separation": "partially_met at most: recorded values preserved but claims often force descriptor alignment"
+      },
+      "mechanical_old": {
+        "strict_json": true,
+        "structure": true,
+        "quote_counts": {
+          "whitespace_only": 2,
+          "exact": 2
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      },
+      "mechanical_new": {
+        "strict_json": true,
+        "structure": true,
+        "quote_counts": {
+          "whitespace_only": 2,
+          "exact": 2
+        },
+        "score_missing": [],
+        "score_wrong": [],
+        "score_extra": [],
+        "all_observed_scores_equal": true,
+        "history_score_errors": [],
+        "history_role_errors": [],
+        "pattern_count": 1,
+        "target_evidence_count": 1
+      }
+    }
+  ],
+  "stage2": {
+    "A": {
+      "format": "improved",
+      "contamination_stop": "not_met",
+      "source": "stage2_diagnostics/A/v1_1/parsed.json"
+    },
+    "B": {
+      "format": "improved",
+      "stricter_v1_1_contract": "not_met",
+      "source": "stage2_diagnostics/B/v1_1/parsed.json"
+    },
+    "C": {
+      "format": "improved",
+      "false_contamination": "not observed",
+      "abstention": "Conservative reading plausible given deliberately local control; does not demonstrate general estimation capability.",
+      "source": "stage2_diagnostics/C/v1_1/parsed.json"
+    }
+  },
+  "stage3": {
+    "label": "not_assessable",
+    "reason": "Zero distinct accepted essays; requires at least two.",
+    "source": "stage3/skip.json"
+  }
+}

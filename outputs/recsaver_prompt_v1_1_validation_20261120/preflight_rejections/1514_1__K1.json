@@ -1,0 +1,32 @@
+{
+  "direct_or_recoverable_disclosure": true,
+  "numbered_target_band_or_range": true,
+  "rejection_reasons": [
+    "numbered_target_band_or_range",
+    "direct_observed_target_score_disclosure",
+    "target_essay_used_as_history_support"
+  ],
+  "observed_score_copying_correct": true,
+  "issues": [
+    {
+      "path": "/score_free_analysis/target_evidence/0/evaluative_interpretation",
+      "text": "The text shows controlled organization and occasional errors in sentence formation, which aligns with an Overall score of 3.",
+      "finding": "Numerical Overall value explicitly applied to target"
+    },
+    {
+      "path": "/score_free_analysis/decision_explanation",
+      "text": "The target essay demonstrates controlled organization and a minimally adequate range of vocabulary, consistent with the observed Overall score of 3. The pattern observed in the history essays supports this interpretation.",
+      "finding": "Observed target Overall explicitly named"
+    },
+    {
+      "path": "/score_free_analysis/history_patterns/0/support/1/history_essay_id",
+      "text": "1514:1",
+      "finding": "Target is not in supplied history; target score also disclosed as a supposed history observation"
+    }
+  ],
+  "review_scope": "All strings in score_free_analysis inspected, including patterns, support, uncertainty, insufficient_evidence and decision.",
+  "comparison_judgement": "悪化",
+  "comparison_reason": "対象の観測Overallを直接記載し、対象1514:1をhistory supportに混入。短い引用から全体の構成・語彙幅も断定。引用は3/3一致だが履歴根拠の役割が不正。",
+  "role_sensitive_notes": "Numeric history scores and essay quote numbers alone are allowed. Numeric target performance matching is band application, not automatically direct recorded-score disclosure. Direct count is conservative and limited to explicit observed target value statements.",
+  "pass": false
+}

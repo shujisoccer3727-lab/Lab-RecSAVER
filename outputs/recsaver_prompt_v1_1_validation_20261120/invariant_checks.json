@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-11-20T12:59:07.918689+09:00",
+  "passed": true,
+  "checks": [
+    {
+      "stage": 1,
+      "rid": "1514_1__K1",
+      "passed": true
+    },
+    {
+      "stage": 1,
+      "rid": "1514_1__K2",
+      "passed": true
+    },
+    {
+      "stage": 1,
+      "rid": "1868_1__K1",
+      "passed": true
+    },
+    {
+      "stage": 1,
+      "rid": "1868_1__K2",
+      "passed": true
+    },
+    {
+      "stage": 1,
+      "rid": "4902_1__K1",
+      "passed": true
+    },
+    {
+      "stage": 1,
+      "rid": "4902_1__K2",
+      "passed": true
+    },
+    {
+      "diagnostic": "A",
+      "same_payload_and_sampling": true
+    },
+    {
+      "diagnostic": "B",
+      "same_payload_and_sampling": true
+    },
+    {
+      "diagnostic": "C",
+      "same_payload_and_sampling": true
+    }
+  ],
+  "baseline_and_prompts_unchanged": true
+}

@@ -1,0 +1,7 @@
+﻿test,version,strict_json,structure,markdown_fence,format_errors,status,overall,issues,diagnostic_only_status,diagnostic_only_overall,expected_status,expected_behavior_strict,diagnostic_behavior,source_issue_identified
+A,v1_0,False,False,True,Expecting value: line 1 column 1 (char 0),,,null,estimated,3,contaminated_input,False,False,False
+A,v1_1,True,True,False,,estimated,3,[],,,contaminated_input,False,False,False
+B,v1_0,False,False,True,Expecting value: line 1 column 1 (char 0),,,null,estimated,3,contaminated_input,False,False,False
+B,v1_1,True,True,False,,estimated,3,[],,,contaminated_input,False,False,False
+C,v1_0,False,False,True,Expecting value: line 1 column 1 (char 0),,,null,insufficient_information,,not_contaminated,False,True,
+C,v1_1,True,True,False,,insufficient_information,,[],,,not_contaminated,True,True,

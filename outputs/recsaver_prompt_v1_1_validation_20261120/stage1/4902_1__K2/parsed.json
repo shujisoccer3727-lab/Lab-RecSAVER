@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "4902:1",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with a mix of structural and linguistic features, some errors, and generally controlled organization tend to receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "8630:1",
+            "quotes": [
+              "after school soccer l think students will get to enjoy that activity because its competitive because you do need skills to play soccer and you also get to go do exercise its good for health and to increase cardio respiratory endurance to breath more will running in the game too to run even more and will help you stay active thruout the day and if you like soccer you will get to have fun playin or you could choose science to finish work and all youl get to do aswome projects and experiments"
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 1,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay shows a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "1462:1",
+            "quotes": [
+              "Would you like to spend your free time doing more work in school than you usually do?. I think a lot of kids would be against the idea of having to stay after school for homework club. If you do to much work you might overwork yourself and that wouldn't be good for your health."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "8722:1",
+            "quotes": [
+              "Dear Principle, If our school were to change the cafeteria food to healthier food selections it would be a bad idea. This decision would be a bad idea because some students do not eat lunch as it is, other students say that the cafeteria food is already healthy, others would leave campus or order food online."
+            ],
+            "interpretation": "This essay shows a higher level of control and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3."
+          }
+        ],
+        "limitations": [
+          "The pattern is supported by two essays but contrasts with a higher-scoring essay, indicating that the pattern may not be definitive."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self."
+        ],
+        "observable_feature": "The essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization.",
+        "evaluative_interpretation": "The essay shows a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with an Overall score of 3.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with the rubric's description of an Overall score of 3.",
+        "uncertainty": "The essay's level of control and errors is consistent with an Overall score of 3, but the pattern is not definitive due to the limited history."
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a mix of structural and linguistic features with some errors and generally controlled organization, which aligns with the pattern observed in the history where similar essays received an Overall score of 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's mix of structural and linguistic features with some errors and generally controlled organization aligns with the rubric's description of an Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates some errors in cohesive devices and limited control, which aligns with a Cohesion score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates an appropriate use of a variety of syntactic structures with occasional errors, which aligns with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary for the topic with some inaccuracy, which aligns with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates evident use of phrases with some noticeable repetitions and misuses, which aligns with a Phraseology score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates some errors in grammar and usage, which aligns with a Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates developing use of conventions with errors that are sometimes distracting, which aligns with a Conventions score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": [
+      "The pattern observed in the history is supported by two essays but contrasts with a higher-scoring essay, indicating that the pattern may not be definitive."
+    ]
+  }
+}
