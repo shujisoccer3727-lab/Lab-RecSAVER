@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.2",
+  "target_essay_id": "4902:1",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "quotes": ["\"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self."],
+      "feature": "The essay uses repetitive and mechanical cohesive devices, such as 'The reason why' and 'They're trying or acting like to be someone else not them self.'",
+      "scoring_relevance": "This repetitive use of cohesive devices is consistent with a Cohesion score of 2, indicating some repetitive and mechanical use of cohesive devices.",
+      "limitation": "This observation is limited to a single passage and does not account for the entire essay's cohesion.",
+      "next_check": "Review other passages to determine if the repetitive use of cohesive devices is consistent throughout the essay."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Syntax",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "quotes": ["\"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self."],
+      "feature": "The essay demonstrates an appropriate use of a variety of syntactic structures, such as complex sentences and clauses.",
+      "scoring_relevance": "This variety of syntactic structures is consistent with a Syntax score of 3, indicating an appropriate use of a variety of syntactic structures.",
+      "limitation": "This observation is limited to a single passage and does not account for the entire essay's syntax.",
+      "next_check": "Review other passages to determine if the variety of syntactic structures is consistent throughout the essay."
+    },
+    {
+      "observation_id": "O3",
+      "dimension": "Grammar",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "quotes": ["\"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self."],
+      "feature": "The essay demonstrates some errors in grammar and usage, such as 'i agree' and 'now a day'.",
+      "scoring_relevance": "These errors in grammar and usage are consistent with a Grammar score of 3, indicating some errors in grammar and usage.",
+      "limitation": "This observation is limited to a single passage and does not account for the entire essay's grammar.",
+      "next_check": "Review other passages to determine if the errors in grammar and usage are consistent throughout the essay."
+    }
+  ],
+  "source_analysis_issues": [
+    {
+      "record_id": "4902_1__K1",
+      "issue_type": "observed_score_conflict",
+      "candidate_excerpt": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3.",
+      "explanation": "The candidate's claim about the mix of minor errors in all dimensions does not align with the observed scores, which show a Cohesion score of 2, indicating some repetitive and mechanical use of cohesive devices."
+    },
+    {
+      "record_id": "4902_1__K2",
+      "issue_type": "observed_score_conflict",
+      "candidate_excerpt": "The essay demonstrates limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions, consistent with an Overall score of 3.",
+      "explanation": "The candidate's claim about limited syntactic variety does not align with the observed scores, which show a Syntax score of 3, indicating an appropriate use of a variety of syntactic structures."
+    }
+  ],
+  "insufficient_evidence": []
+}

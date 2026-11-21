@@ -1,0 +1,248 @@
+{
+  "checks": [
+    {
+      "kind": "fixed_input_bytes",
+      "pass_": true
+    },
+    {
+      "kind": "3a_exact_keys",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "3a_target_and_observed_data",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "3a_only_own_candidates",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "3a_gate_reproducible",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "3a_exact_keys",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "3a_target_and_observed_data",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "3a_only_own_candidates",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "3a_gate_reproducible",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "3b_actual_handoff",
+      "pass_": true
+    },
+    {
+      "kind": "3b_only_allowed_keys",
+      "pass_": true
+    },
+    {
+      "kind": "3b_issues_have_no_candidate_excerpt",
+      "pass_": true
+    },
+    {
+      "kind": "attached_score_from_original",
+      "pass_": true,
+      "observation_key": "1868:1::O1",
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "kind": "global_key",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "only_passed_observations",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "attached_score_from_original",
+      "pass_": true,
+      "observation_key": "1868:1::O2",
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "kind": "global_key",
+      "pass_": true,
+      "key": "1868:1::O2"
+    },
+    {
+      "kind": "only_passed_observations",
+      "pass_": true,
+      "key": "1868:1::O2"
+    },
+    {
+      "kind": "attached_score_from_original",
+      "pass_": true,
+      "observation_key": "1868:1::O3",
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "kind": "global_key",
+      "pass_": true,
+      "key": "1868:1::O3"
+    },
+    {
+      "kind": "only_passed_observations",
+      "pass_": true,
+      "key": "1868:1::O3"
+    },
+    {
+      "kind": "reference_from_official_saved_rubric",
+      "pass_": true,
+      "ref": "Cohesion:3"
+    },
+    {
+      "kind": "reference_from_official_saved_rubric",
+      "pass_": true,
+      "ref": "Cohesion:2"
+    },
+    {
+      "kind": "reference_from_official_saved_rubric",
+      "pass_": true,
+      "ref": "Cohesion:4"
+    },
+    {
+      "kind": "reference_from_official_saved_rubric",
+      "pass_": true,
+      "ref": "Vocabulary:4"
+    },
+    {
+      "kind": "reference_from_official_saved_rubric",
+      "pass_": true,
+      "ref": "Vocabulary:3"
+    },
+    {
+      "kind": "reference_from_official_saved_rubric",
+      "pass_": true,
+      "ref": "Vocabulary:5"
+    },
+    {
+      "kind": "observed_and_nearest_neighbors_available",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "observed_and_nearest_neighbors_available",
+      "pass_": true,
+      "key": "1868:1::O2"
+    },
+    {
+      "kind": "observed_and_nearest_neighbors_available",
+      "pass_": true,
+      "key": "1868:1::O3"
+    },
+    {
+      "kind": "only_placeholder_substitution",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "chat_template_unchanged",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "sampling_unchanged",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "raw_unchanged",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "only_placeholder_substitution",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "chat_template_unchanged",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "sampling_unchanged",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "raw_unchanged",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "only_placeholder_substitution",
+      "pass_": true,
+      "request": "stage3b/rater_7"
+    },
+    {
+      "kind": "chat_template_unchanged",
+      "pass_": true,
+      "request": "stage3b/rater_7"
+    },
+    {
+      "kind": "sampling_unchanged",
+      "pass_": true,
+      "request": "stage3b/rater_7"
+    },
+    {
+      "kind": "raw_unchanged",
+      "pass_": true,
+      "request": "stage3b/rater_7"
+    },
+    {
+      "kind": "3b_audit_reproducible",
+      "pass_": true
+    },
+    {
+      "kind": "runtime_unchanged",
+      "pass_": true,
+      "field": "model_snapshot"
+    },
+    {
+      "kind": "runtime_unchanged",
+      "pass_": true,
+      "field": "vllm"
+    },
+    {
+      "kind": "runtime_unchanged",
+      "pass_": true,
+      "field": "torch"
+    },
+    {
+      "kind": "runtime_unchanged",
+      "pass_": true,
+      "field": "transformers"
+    },
+    {
+      "kind": "runtime_unchanged",
+      "pass_": true,
+      "field": "gpu"
+    }
+  ],
+  "total": 48,
+  "passed": 48,
+  "failed": []
+}

@@ -1,0 +1,61 @@
+{
+  "evaluator": "Codex provisional semantic/content judgment, not human evaluation",
+  "ratings": [
+    {
+      "item": "① ID・出典の正確さ",
+      "judgment": "改善",
+      "evidence": "旧版の履歴8722:1の対象反例への混入がなくなり、3Bのキー・帯・引用の出典はすべて入力集合に一致。4902の引用不一致は修復せず除外。ただしissueは引用一致を通っただけで問題分類の妥当性は別。"
+    },
+    {
+      "item": "② 引用と主張の対応",
+      "judgment": "改善（限定的）",
+      "evidence": "最終段落は1868:1の実在引用とIDを伴い、主題提示という局所所見と全体評価の未確定を残した。旧版の語彙幅・構成の断定を縮小したが、3A O2の語彙4点支持、3Bのgenerally controlled organization等は1文では未支持。"
+    },
+    {
+      "item": "③ 傾向の判断または保留",
+      "judgment": "改善",
+      "evidence": "支持不十分な旧patternを生成せず、insufficient_evidence・patterns=[]。通過所見は1答案だけなので2独立答案の支持条件を満たさず、保留は妥当。主題提示の個別所見と追加確認が残り、空出力ではない。"
+    },
+    {
+      "item": "④ 基準との対応と見直しの具体性",
+      "judgment": "同程度",
+      "evidence": "観測Cohesion:3・比較Cohesion:2のID対応は正確で、retain/reconsiderの別欄がある。一方、1文から構成や結束表現の種類を評価し、limited devicesを再考条件にする問題が残る。確認する追加箇所も具体性不足。"
+    }
+  ],
+  "observation_reviews": [
+    {
+      "key": "1868:1::O1",
+      "judgment": "部分的に支持",
+      "reason": "継続学習を主題として提示する文であることは確認可能。文間・段落間の結束や答案全体の3点妥当性は示さない。"
+    },
+    {
+      "key": "1868:1::O2",
+      "judgment": "所見の一部が過大",
+      "reason": "key/professionals/recognition/masterの語があるのは事実だが、1文から十分な語彙幅・Vocabulary 4の妥当性を説明できない。直後のlimitationとも緊張する。"
+    },
+    {
+      "key": "1868:1::O3",
+      "judgment": "部分的に支持",
+      "reason": "母親が学び続ける具体例は見える。ただし一般論から例への移行をいうには前段が必要で、原文では育児例は引用より前に導入済み。2文をsingle sentenceと呼ぶ不正確さもある。"
+    }
+  ],
+  "issue_review": [
+    {
+      "record_id": "1868_1__K1",
+      "judgment": "断定不可",
+      "reason": "consistent with a score of 3はOverall 3を指す読みがあり、Vocabulary 3の直接表明とは限らない。"
+    },
+    {
+      "record_id": "1868_1__K2",
+      "judgment": "実在する矛盾を部分的に検出",
+      "reason": "OverallとTraitsがともに3という記述に対しVocabulary 4を指摘。Phraseology 4も矛盾するが言及しなかった。"
+    },
+    {
+      "record_id": "4902_1__K1",
+      "judgment": "分類と説明に問題",
+      "reason": "minor errorsとOverall 3の記述だけでCohesion 2との数値矛盾とは断定できない。some repetitive/mechanicalの表現は公式Cohesion 3に属し、2の説明として扱うのも不正確。"
+    }
+  ],
+  "overall": "Procedure partially improved provenance and grounded abstention; semantic support and band interpretation remain unresolved.",
+  "generalization": "Known failure retest on the same two essays only. Performance on another case with a supported pattern is untested."
+}

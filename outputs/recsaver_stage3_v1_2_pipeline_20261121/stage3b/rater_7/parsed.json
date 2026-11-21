@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.2",
+  "rater_id": "rater_7",
+  "pattern_status": "insufficient_evidence",
+  "patterns": [],
+  "case_specific_observation_keys": [
+    "1868:1::O1",
+    "1868:1::O2",
+    "1868:1::O3"
+  ],
+  "representative_observation_key": "1868:1::O1",
+  "rubric_comparison": {
+    "observed_band_ref_id": "Cohesion:3",
+    "comparison_band_ref_id": "Cohesion:2",
+    "relationship": "indeterminate",
+    "explanation": "The evidence supports that the essay demonstrates generally controlled organization with cohesive devices used but limited in type, which aligns with a score of 3. However, the single sentence does not provide enough evidence to fully assess the essay's cohesion, making it indeterminate whether the score should be higher or lower."
+  },
+  "next_scoring_check": {
+    "inspect": "Additional sentences in the essay",
+    "distinguish": "Consistency in supporting the central theme",
+    "retain_if": "Additional sentences consistently support the central theme and use a range of cohesive devices",
+    "reconsider_if": "Additional sentences lack consistency in supporting the central theme or use limited cohesive devices"
+  },
+  "insufficient_evidence": [
+    "Only two previously used accepted targets, both Overall=3; candidate alternatives are not independent essays.",
+    "Passing source checks does not certify semantic support or rater weighting; local observations do not establish a whole-essay score."
+  ],
+  "feedback_paragraph": "Based on the observations, there is insufficient evidence to establish a pattern in how the rater evaluates essays. For example, in the essay with ID 1868:1, the sentence 'The main piece to improve your skills is during the process of keep learning.' sets up the essay's central theme, contributing to the essay's cohesion. However, this single sentence does not provide enough evidence to fully assess the essay's cohesion. The observed score for cohesion is 3, which aligns with the rubric entry for Cohesion:3, but it is indeterminate whether this score should be higher or lower without reviewing additional sentences. The next scoring check should involve inspecting additional sentences to see if they consistently support the central theme and use a range of cohesive devices. This would help in retaining or reconsidering the judgment."
+}

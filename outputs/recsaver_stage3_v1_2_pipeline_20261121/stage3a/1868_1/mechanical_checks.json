@@ -1,0 +1,126 @@
+{
+  "top_errors": [],
+  "observation_checks": [
+    {
+      "index": 0,
+      "observation_id": "O1",
+      "pass_": true,
+      "reasons": [],
+      "quote_checks": [
+        {
+          "quote": "The main piece to improve your skills is during the process of keep learning.",
+          "exact": true,
+          "all_start_offsets": [
+            0
+          ]
+        }
+      ],
+      "distinct_evidence_locations": 1,
+      "semantic_support_not_certified": true
+    },
+    {
+      "index": 1,
+      "observation_id": "O2",
+      "pass_": true,
+      "reasons": [],
+      "quote_checks": [
+        {
+          "quote": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.",
+          "exact": true,
+          "all_start_offsets": [
+            611
+          ]
+        }
+      ],
+      "distinct_evidence_locations": 1,
+      "semantic_support_not_certified": true
+    },
+    {
+      "index": 2,
+      "observation_id": "O3",
+      "pass_": true,
+      "reasons": [],
+      "quote_checks": [
+        {
+          "quote": "The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.",
+          "exact": true,
+          "all_start_offsets": [
+            1173
+          ]
+        }
+      ],
+      "distinct_evidence_locations": 1,
+      "semantic_support_not_certified": true
+    }
+  ],
+  "issue_checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": []
+    },
+    {
+      "index": 1,
+      "pass_": true,
+      "reasons": []
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "quotes": [
+        "The main piece to improve your skills is during the process of keep learning."
+      ],
+      "feature": "The sentence introduces the main idea of continuous learning.",
+      "scoring_relevance": "This sentence sets up the essay's central theme, contributing to the essay's overall cohesion.",
+      "limitation": "This single sentence does not provide enough evidence to fully assess the essay's cohesion.",
+      "next_check": "Review additional sentences to see if they consistently support the central theme."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Vocabulary",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "quotes": [
+        "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things."
+      ],
+      "feature": "The sentence uses words like 'key', 'professionals', 'recognition', and 'master' to convey the importance of continuous learning.",
+      "scoring_relevance": "The use of these words demonstrates a sufficient range of vocabulary, which is consistent with a score of 4.",
+      "limitation": "This sentence alone does not provide enough evidence to fully assess the essay's vocabulary range.",
+      "next_check": "Review additional sentences to see if they consistently use a wide range of vocabulary."
+    },
+    {
+      "observation_id": "O3",
+      "dimension": "Cohesion",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "quotes": [
+        "The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day."
+      ],
+      "feature": "The sentence transitions from the general idea of continuous learning to a specific example of learning as a new mother.",
+      "scoring_relevance": "This transition contributes to the essay's cohesion by linking the central theme to a concrete example.",
+      "limitation": "This single sentence does not provide enough evidence to fully assess the essay's cohesion.",
+      "next_check": "Review additional sentences to see if they consistently link the central theme to supporting examples."
+    }
+  ],
+  "passed_issues": [
+    {
+      "record_id": "1868_1__K1",
+      "issue_type": "observed_score_conflict",
+      "candidate_excerpt": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3.",
+      "explanation": "The candidate explanation suggests a score of 3 for Vocabulary, but the observed score is 4."
+    },
+    {
+      "record_id": "1868_1__K2",
+      "issue_type": "observed_score_conflict",
+      "candidate_excerpt": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with the observed scores of 3 for both Overall and Traits.",
+      "explanation": "The candidate explanation suggests a score of 3 for Vocabulary, but the observed score is 4."
+    }
+  ]
+}

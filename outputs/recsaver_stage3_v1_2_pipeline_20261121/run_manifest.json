@@ -1,0 +1,120 @@
+{
+  "created_at": "2026-11-21T21:00:51.763774+09:00",
+  "comparison_commit": "5d24e8f589d651e8ae806d14c5afebd2599ea4ef",
+  "code_commit": "5d24e8f589d651e8ae806d14c5afebd2599ea4ef",
+  "baseline_path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_1_validation_20261121",
+  "baseline_files_sha256": {
+    "audit_tests.json": "6483bd565b5694b809a38c9380843c5ae6146dcd84e27bd36c674bb1e7349c2c",
+    "content_review.json": "3d7cff6c1a1f742377cb185276601b9ed5a7b6c79a3df53abee57e60e8e3509c",
+    "environment.json": "5e97271ad721835315ad2b1204d0130b6f091a41ef5f91501fa4bf98acbc7fed",
+    "execution.log": "0feb6b91256389e1888cfe01519d25a22e52bca77f8b619ec23f69841d8d02c1",
+    "invariant_checks.json": "2a9174874487029d7e95ff995bf0234878803aafb66116d0155132ce0d493a56",
+    "mechanical_summary.csv": "f19898825ea24ee94fdb49b140d685b749601f7b9445f40350e67cb67c049b94",
+    "process.json": "baf42f4def6318924dd32664898212822cb933bf824c85285a3523a159c3d239",
+    "README.md": "1929fb6df66a21dc8990fbe231598990c2f85a91b074acd2ef88896739441925",
+    "run_manifest.json": "3cb09eb5c9b9e9c3b437c1e079e482f4000da3084af1baa3186c625bb41aa206",
+    "supplementary_checks.json": "8017a64619b132eb4d5b3e4a6e3d021dc3c8fb20f79c08e48d16cf66f44bf57c",
+    "v1_0_checks.json": "9cd3a6eee19c8346b7dd2b335e71490af84f329082c0b173a2faa95eb3792b3d",
+    "v1_1_checks.json": "0bce624346fed8eb02be4664ed1e1a379b29a9d47743e3ba588dd524e6bba9e9",
+    "validation_report.md": "9aa14bb117feb9c1e60b7c3c5ad03b150f186a5c3d8027d31708461d5e28b73a",
+    "code/finalize.py": "8ffd90472110977a32d46a9325a023fb65e1662b5be7d6547fc941dc1d896019",
+    "code/report.py": "9d95c80f4b4228a7424087708f92797b3cccd73600d083f567b2899d22cf746c",
+    "code/run.py": "51fa6fcf93565fc77efc07815e2b5f5778debd6d4d6dd6491af4c1636376fbfe",
+    "code/test_audit.py": "5c75c63ab61618be68a7c363270c96130fb41154542fb830cf55f81cba423f20",
+    "stage3/rater_7/generation.json": "3e15e0ffa1011ff1dd257a675b193f3ee12608526d0c3be2e4d8f7b98badbb57",
+    "stage3/rater_7/input.json": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+    "stage3/rater_7/integrity.json": "44f6085d42391021617dd706567fa888d6529bf8dd6f0bbc8f269f64e19055ec",
+    "stage3/rater_7/messages.json": "4e436e388f726c8fb4cfd7aab8f1da4dab236e7df6b7ad9a152e24f67713ddb7",
+    "stage3/rater_7/parsed.json": "360f33e79bfb4256cfccee2769d19a5086012635582a3f401ae267587777cea3",
+    "stage3/rater_7/raw.txt": "dbf6307affe6258d64f5afd4c88488d3d23bc139115905c933ec94b989d9f66a",
+    "stage3/rater_7/rendered_chat.txt": "9c3d0ca58ecca93e936f8f43334c771f63a2cf9f4b248486baebc5252af8062d",
+    "stage3/rater_7/result.json": "477f3faf2eee9344c2c29b049743a2a87251cede847b8526cad43610f9758dd3",
+    "stage3/rater_7/sampling.json": "7e0d39461c570dc167b1472012b65cdad962cee9883bcf81f1cc1071c685912b"
+  },
+  "fixed_input_sha256": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+  "prompts": {
+    "a": {
+      "path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03a_case_evidence_review_v1_2.txt",
+      "relative_path": "prompts/en/recsaver_03a_case_evidence_review_v1_2.txt",
+      "sha256": "ce11b59a8072a401a52752bfd4a93aa85708982bba1d494bb27d339168a801ed",
+      "same_name_locations": [
+        "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03a_case_evidence_review_v1_2.txt"
+      ],
+      "windows_path": "C:/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03a_case_evidence_review_v1_2.txt"
+    },
+    "b": {
+      "path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03b_integrated_feedback_v1_2.txt",
+      "relative_path": "prompts/en/recsaver_03b_integrated_feedback_v1_2.txt",
+      "sha256": "ec6e1305a732d9df52ee6ae3d3cf49d4184625e392c770fd657636c371af2fc1",
+      "same_name_locations": [
+        "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03b_integrated_feedback_v1_2.txt"
+      ],
+      "windows_path": "C:/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03b_integrated_feedback_v1_2.txt"
+    }
+  },
+  "model": {
+    "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+    "quantization": "gptq_marlin",
+    "tensor_parallel_size": 1,
+    "max_model_len": 32768,
+    "gpu_memory_utilization": 0.9,
+    "runtime_options": {
+      "max_num_seqs": 8,
+      "enforce_eager": true,
+      "enable_prefix_caching": true
+    }
+  },
+  "generation": {
+    "temperature": 0.2,
+    "top_p": 0.8
+  },
+  "max_tokens": {
+    "stage1": 6500,
+    "stage2": 1200,
+    "stage3": 5000
+  },
+  "seed": 925847335,
+  "seed_policy": "Use the saved Stage3 seed 925847335 independently for each of the two 3A calls and the 3B call.",
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 5000,
+    "seed": 925847335
+  },
+  "code_sha256_before": "1ec3db7adcfce795a19c77f0bcbe1dad9907ff85992ceba6d3d08238a3d14f7f",
+  "differences": [
+    "One integration call -> two isolated per-target 3A requests + one gated 3B request, including zero-observation branch. This is a procedure comparison, not a prompt-text-only effect.",
+    "Same model snapshot, sampling, 5000 output-token budget per call, seed and chat template. New input partitioning and token lengths; 3B lacks raw candidates/history.",
+    "No Stage1/2 regeneration, additional system directive, guided output, repair, semantic human editing, or selection resampling.",
+    "Mechanical checks only govern handoff. Codex semantic assessment is reported separately."
+  ],
+  "baseline_unchanged": true,
+  "prompts_unchanged": true,
+  "implementation_files_sha256": {
+    "code/quote_diagnostics.py": "0746b54c01a2027edd87d61ca6ffcb59771b0c5039f70424c7fb2a0a4b18d2a0",
+    "code/report.py": "0f9f78f946e191b1ed919774bfb349290f6252a231d909c286ad5a3c74f26be6",
+    "code/run.py": "c65a7845949a06d35b0918b6b0257a78f8de3a95660ebd7d1b92b424ca38038d",
+    "code/test_checks.py": "f448145cb5b660d5941a3f474865809c81265cff795abc9366a1a5ad49959562",
+    "code/verify.py": "13b39d2b7da63437a5ccefc741e0e743b5011bf20aa319350aa989b991b38537"
+  },
+  "last_checked_at": "2026-11-21T21:13:10.357668+09:00",
+  "actual_model_requests": 3,
+  "stage1_calls": 0,
+  "stage2_calls": 0,
+  "actual_3a_requests": 2,
+  "actual_3b_requests": 1,
+  "chat_template_identity_checked": true,
+  "request_invariants_passed": true,
+  "system_message": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+  "chat": "One user message with canonical prompt. Existing tokenizer chat template inserts the recorded default system message; no task-specific conflict found. Full rendered chat saved.",
+  "chat_template_evidence": [
+    "stage3a/1868_1/rendered_chat.txt",
+    "stage3a/4902_1/rendered_chat.txt",
+    "stage3b/rater_7/rendered_chat.txt"
+  ],
+  "reused_engine": {
+    "path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_prompt_v1_1_validation_20261120/code/run.py",
+    "sha256": "6d691ac18ea8ce9a056565cb22b59eb0ff80deba43441d0d5312215db698ba65"
+  },
+  "post_run_code_change": "Malformed-array rejection hardened after generation; actual valid observations, gates and handoff reproduced unchanged. No model rerun."
+}
