@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.4",
+  "rater_id": "rater_7",
+  "pattern_status": "insufficient_evidence",
+  "patterns": [],
+  "case_specific_observation_keys": [
+    "1868:1::O1",
+    "4902:1::O1"
+  ],
+  "representative_observation_key": "4902:1::O1",
+  "representative_quote_index": 1,
+  "rubric_comparison": {
+    "observed_band_ref_id": "Cohesion:2",
+    "comparison_band_ref_id": null,
+    "comparison_direction": "none",
+    "relationship": "indeterminate",
+    "explanation": "The observed score for Cohesion is 2, indicating some repetitive and mechanical use of cohesive devices. The evidence supports this score but does not establish whether the essay meets the criteria for a higher band."
+  },
+  "next_scoring_check": {
+    "inspect": "Other transitions in the essay",
+    "distinguish": "Whether they are repetitive or sophisticated",
+    "retain_if": "Other transitions are also repetitive or lack sophistication",
+    "reconsider_if": "Other transitions are more sophisticated and varied"
+  },
+  "insufficient_evidence": [
+    "Only two previously used accepted targets, both Overall=3; candidate alternatives are not independent essays.",
+    "Passing source checks does not certify semantic support or rater weighting; local observations do not establish a whole-essay score."
+  ],
+  "feedback_paragraph_template": "There is insufficient evidence to establish a pattern in your scoring decisions. The evidence supports the observed score of 2 for Cohesion in the essay with ID 4902:1, but it does not establish whether the essay meets the criteria for a higher band. [REPRESENTATIVE_EVIDENCE] This finding is limited to the first two sentences and does not cover the entire essay's cohesion. For future scoring, inspect other transitions in the essay to see if they are repetitive or if there are more sophisticated transitions elsewhere. Retain the current score if other transitions are also repetitive or lack sophistication, and reconsider if other transitions are more sophisticated and varied."
+}

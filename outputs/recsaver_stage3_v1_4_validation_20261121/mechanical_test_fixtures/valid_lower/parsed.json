@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.4",
+  "rater_id": "rater_7",
+  "pattern_status": "insufficient_evidence",
+  "patterns": [],
+  "case_specific_observation_keys": [
+    "1868:1::O1",
+    "4902:1::O1"
+  ],
+  "representative_observation_key": "1868:1::O1",
+  "rubric_comparison": {
+    "observed_band_ref_id": "Cohesion:3",
+    "comparison_band_ref_id": "Cohesion:2",
+    "relationship": "indeterminate",
+    "explanation": "The recorded Cohesion score is 3. This excerpt introduces a central idea and uses transitional phrases to connect sentences and paragraphs, such as 'The main piece to improve your skills is during the process of keep learning' and 'Convince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more.' However, the excerpt does not establish that the essay maintains coherence throughout the entire text, only that there are some transitional phrases used. Additional evidence is needed to judge the observed band or distinguish it from the comparison band.",
+    "comparison_direction": "lower"
+  },
+  "next_scoring_check": {
+    "inspect": "Transitions between paragraphs to see if they are as clear and effective as those within paragraphs.",
+    "distinguish": "The observed band allows for limited use of cohesive devices, while the comparison band requires a range of cohesive devices used appropriately. The distinction is whether the links between ideas remain traceable and if there is a sustained breakdown in logical sequencing.",
+    "retain_if": "The transitions between paragraphs are clear and effective, and the links between ideas remain traceable.",
+    "reconsider_if": "There is a sustained breakdown in logical sequencing, and the links between ideas are not consistently traceable."
+  },
+  "insufficient_evidence": [
+    "Only two previously used accepted targets, both Overall=3; candidate alternatives are not independent essays.",
+    "Passing source checks does not certify semantic support or rater weighting; local observations do not establish a whole-essay score."
+  ],
+  "representative_quote_index": 0,
+  "feedback_paragraph_template": "Please inspect the passage. [REPRESENTATIVE_EVIDENCE] Check its scope."
+}

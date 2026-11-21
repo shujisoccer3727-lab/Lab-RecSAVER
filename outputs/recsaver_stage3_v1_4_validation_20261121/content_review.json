@@ -1,0 +1,68 @@
+{
+  "evaluator": "Codex provisional content evaluation; not human evaluation",
+  "observation_reviews": [
+    {
+      "key": "1868:1::O1",
+      "full_supported": true,
+      "narrow_part_usable": true,
+      "judgment": "概ね妥当（留保あり）",
+      "reason": "is believe / have learnの形は実在し、Grammarとの関連と単文の限界が整合。明瞭さへの具体的影響は説明不足だが、全体頻度や数値帯は支持していない。"
+    },
+    {
+      "key": "4902:1::O1",
+      "full_supported": false,
+      "narrow_part_usable": true,
+      "judgment": "局所的な関係確認のみ使用可能",
+      "reason": "引用に賛同理由を続ける明示的な関係は実在する。しかしsophisticatedを必要条件とする説明と、弱い・反復的という評価はこの2文だけでは十分に支持されない。"
+    }
+  ],
+  "B_same_input_comparison": [
+    {
+      "item": "観測得点と妥当性の区別",
+      "judgment": "悪化",
+      "reason": "旧v1.3は観測3点と未検査範囲を分離したが、新Bはindeterminateなのにconsistent with the rubric、This supports the observed scoreと肯定。"
+    },
+    {
+      "item": "比較帯・方向と見直し条件",
+      "judgment": "改善確認できず",
+      "reason": "Bは比較帯null・noneで機械的に整合するが、上方/下方の比較自体を選ばなかった。一般的なclear/unclear条件は3点が許容する一部の不成功と持続的破綻を区別しない。"
+    },
+    {
+      "item": "最終引用・IDと具体性",
+      "judgment": "同程度の未達",
+      "reason": "旧版も最終引用なし。新Bは既知キー・index0・placeholder1個だが句点付きで独立文スロット契約に違反し、組み立て失敗。追加確認箇所も一般的。"
+    }
+  ],
+  "C": {
+    "assembly_quote_supports_recorded_band": false,
+    "indeterminate_consistent": false,
+    "null_comparison_prose_consistent": false,
+    "none_direction_prose_consistent": false,
+    "reason": "C endorses Cohesion 2, attributes repetitive/mechanical criterion to band2 instead of band3, and discusses a higher band despite null/none.",
+    "pattern_supported": false,
+    "abstention_appropriate": true
+  },
+  "issues": [
+    {
+      "record_id": "1868_1__K1",
+      "classification_supported": false,
+      "reason": "Unlabeled score of 3 does not explicitly assert Vocabulary=3."
+    },
+    {
+      "record_id": "1868_1__K2",
+      "classification_supported": true,
+      "detected_dimensions": [
+        "Vocabulary"
+      ],
+      "missed_dimensions": [
+        "Phraseology"
+      ]
+    },
+    {
+      "record_id": "4902_1__K1",
+      "classification_supported": false,
+      "reason": "Candidate explicitly states Overall=3, not Cohesion=3. Repetitive/mechanical wording is in official Cohesion3, not the claimed band2 description."
+    }
+  ],
+  "generalization": "Regression test on the same two targets only; general performance and supported-pattern cases untested."
+}

@@ -1,0 +1,104 @@
+{
+  "rater_id": "rater_7",
+  "accepted_target_ids": [
+    "1868:1",
+    "4902:1"
+  ],
+  "accepted_record_count": 4,
+  "verified_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "feature": "The sentence 'The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.' contains grammatical errors: 'is believe' should be 'is to believe', and 'have learn' should be 'have learned'.",
+      "scoring_relevance": "These grammatical errors affect the clarity and correctness of the sentence, which is relevant to the Grammar dimension.",
+      "limitation": "This observation is limited to a single sentence and does not establish the frequency or severity of such errors throughout the essay.",
+      "next_check": "Other sentences for similar grammatical issues.",
+      "quotes": [
+        "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn."
+      ],
+      "observation_key": "1868:1::O1",
+      "target_essay_id": "1868:1",
+      "observed_score": 3
+    },
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "feature": "The writer introduces the quote and provides a reason for agreeing with it, but the transition between these ideas is weak. The phrase 'The reason why i agree with this quote is because' is repetitive and lacks sophistication.",
+      "scoring_relevance": "Effective cohesion requires clear and sophisticated transitions between ideas. The repetitive and simplistic transition here shows a lack of sophistication in linking ideas.",
+      "limitation": "This observation is limited to the first two sentences and does not cover the entire essay's cohesion.",
+      "next_check": "Check other transitions in the essay to see if they are similarly repetitive or if there are more sophisticated transitions elsewhere.",
+      "quotes": [
+        "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+        "The reason why i agree with this quote is because people now a day don't try to be them self."
+      ],
+      "observation_key": "4902:1::O1",
+      "target_essay_id": "4902:1",
+      "observed_score": 2
+    }
+  ],
+  "rubric_entries": [
+    {
+      "rubric_ref_id": "Grammar:3",
+      "dimension": "Grammar",
+      "score_band": 3,
+      "descriptor": "Some errors in grammar and usage."
+    },
+    {
+      "rubric_ref_id": "Grammar:2",
+      "dimension": "Grammar",
+      "score_band": 2,
+      "descriptor": "Many errors in grammar and usage."
+    },
+    {
+      "rubric_ref_id": "Grammar:4",
+      "dimension": "Grammar",
+      "score_band": 4,
+      "descriptor": "Minimal errors in grammar and usage."
+    },
+    {
+      "rubric_ref_id": "Cohesion:2",
+      "dimension": "Cohesion",
+      "score_band": 2,
+      "descriptor": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition."
+    },
+    {
+      "rubric_ref_id": "Cohesion:1",
+      "dimension": "Cohesion",
+      "score_band": 1,
+      "descriptor": "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear."
+    },
+    {
+      "rubric_ref_id": "Cohesion:3",
+      "dimension": "Cohesion",
+      "score_band": 3,
+      "descriptor": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs."
+    }
+  ],
+  "source_analysis_issues": [
+    {
+      "record_id": "1868_1__K1",
+      "issue_type": "observed_score_conflict",
+      "explanation": "The candidate claims a score of 3 for Vocabulary, but the observed score is 4."
+    },
+    {
+      "record_id": "1868_1__K2",
+      "issue_type": "observed_score_conflict",
+      "explanation": "The candidate claims a score of 3 for Vocabulary, but the observed score is 4."
+    },
+    {
+      "record_id": "4902_1__K1",
+      "issue_type": "observed_score_conflict",
+      "explanation": "The observed score for Cohesion is 2, which indicates some repetitive and mechanical use of cohesive devices, not consistent with a score of 3."
+    }
+  ],
+  "evidence_limitations": [
+    "Only two previously used accepted targets, both Overall=3; candidate alternatives are not independent essays.",
+    "Passing source checks does not certify semantic support or rater weighting; local observations do not establish a whole-essay score."
+  ]
+}

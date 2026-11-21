@@ -1,0 +1,439 @@
+{
+  "timestamp": "2026-11-21T23:10:17.423019+09:00",
+  "before_gpu": true,
+  "actual_model_calls": 0,
+  "total": 15,
+  "passed": 15,
+  "cases": [
+    {
+      "name": "saved representative, synthetic index/placeholder",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 0,
+        "feedback_paragraph_template": "Please review the cited feature. [REPRESENTATIVE_EVIDENCE] Check other passages."
+      },
+      "assembly": {
+        "pass_": true,
+        "errors": [],
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 0,
+        "target_essay_id": "1868:1",
+        "exact_quote": "The main piece to improve your skills is during the process of keep learning.",
+        "evidence_sentence": "In essay 1868:1, the relevant excerpt is “The main piece to improve your skills is during the process of keep learning.”.",
+        "feedback_paragraph": "Please review the cited feature. In essay 1868:1, the relevant excerpt is “The main piece to improve your skills is during the process of keep learning.”. Check other passages.",
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": true,
+      "test_passed": true
+    },
+    {
+      "name": "4902 exact opening-quote whitespace",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": "4902:1::O1",
+        "representative_quote_index": 0,
+        "feedback_paragraph_template": "Please review the cited feature. [REPRESENTATIVE_EVIDENCE] Check other passages."
+      },
+      "assembly": {
+        "pass_": true,
+        "errors": [],
+        "representative_observation_key": "4902:1::O1",
+        "representative_quote_index": 0,
+        "target_essay_id": "4902:1",
+        "exact_quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+        "evidence_sentence": "In essay 4902:1, the relevant excerpt is “I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"”.",
+        "feedback_paragraph": "Please review the cited feature. In essay 4902:1, the relevant excerpt is “I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"”. Check other passages.",
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": true,
+      "test_passed": true
+    },
+    {
+      "name": "no representative",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": null,
+        "representative_quote_index": null,
+        "feedback_paragraph_template": "Gather source evidence before review."
+      },
+      "assembly": {
+        "pass_": true,
+        "errors": [],
+        "representative_observation_key": null,
+        "representative_quote_index": null,
+        "target_essay_id": null,
+        "exact_quote": null,
+        "evidence_sentence": null,
+        "feedback_paragraph": "Gather source evidence before review.",
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": true,
+      "test_passed": true
+    },
+    {
+      "name": "invalid quote index -1",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": -1,
+        "feedback_paragraph_template": "Please review the cited feature. [REPRESENTATIVE_EVIDENCE] Check other passages."
+      },
+      "assembly": {
+        "pass_": false,
+        "errors": [
+          "quote index must be a nonnegative integer",
+          "quote index out of range"
+        ],
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": -1,
+        "target_essay_id": null,
+        "exact_quote": null,
+        "evidence_sentence": null,
+        "feedback_paragraph": null,
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "invalid quote index 999",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 999,
+        "feedback_paragraph_template": "Please review the cited feature. [REPRESENTATIVE_EVIDENCE] Check other passages."
+      },
+      "assembly": {
+        "pass_": false,
+        "errors": [
+          "quote index out of range"
+        ],
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 999,
+        "target_essay_id": null,
+        "exact_quote": null,
+        "evidence_sentence": null,
+        "feedback_paragraph": null,
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "invalid quote index True",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": true,
+        "feedback_paragraph_template": "Please review the cited feature. [REPRESENTATIVE_EVIDENCE] Check other passages."
+      },
+      "assembly": {
+        "pass_": false,
+        "errors": [
+          "quote index must be a nonnegative integer"
+        ],
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": true,
+        "target_essay_id": null,
+        "exact_quote": null,
+        "evidence_sentence": null,
+        "feedback_paragraph": null,
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "invalid quote index 0.5",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 0.5,
+        "feedback_paragraph_template": "Please review the cited feature. [REPRESENTATIVE_EVIDENCE] Check other passages."
+      },
+      "assembly": {
+        "pass_": false,
+        "errors": [
+          "quote index must be a nonnegative integer"
+        ],
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 0.5,
+        "target_essay_id": null,
+        "exact_quote": null,
+        "evidence_sentence": null,
+        "feedback_paragraph": null,
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "invalid quote index None",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": null,
+        "feedback_paragraph_template": "Please review the cited feature. [REPRESENTATIVE_EVIDENCE] Check other passages."
+      },
+      "assembly": {
+        "pass_": false,
+        "errors": [
+          "quote index must be a nonnegative integer"
+        ],
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": null,
+        "target_essay_id": null,
+        "exact_quote": null,
+        "evidence_sentence": null,
+        "feedback_paragraph": null,
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "unknown observation key",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": "unknown",
+        "representative_quote_index": 0,
+        "feedback_paragraph_template": "Please review the cited feature. [REPRESENTATIVE_EVIDENCE] Check other passages."
+      },
+      "assembly": {
+        "pass_": false,
+        "errors": [
+          "unknown representative observation key"
+        ],
+        "representative_observation_key": "unknown",
+        "representative_quote_index": 0,
+        "target_essay_id": null,
+        "exact_quote": null,
+        "evidence_sentence": null,
+        "feedback_paragraph": null,
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "missing placeholder",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 0,
+        "feedback_paragraph_template": "No slot."
+      },
+      "assembly": {
+        "pass_": false,
+        "errors": [
+          "representative requires exactly one placeholder"
+        ],
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 0,
+        "target_essay_id": "1868:1",
+        "exact_quote": "The main piece to improve your skills is during the process of keep learning.",
+        "evidence_sentence": null,
+        "feedback_paragraph": null,
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "duplicate placeholders",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 0,
+        "feedback_paragraph_template": "[REPRESENTATIVE_EVIDENCE] [REPRESENTATIVE_EVIDENCE]"
+      },
+      "assembly": {
+        "pass_": false,
+        "errors": [
+          "representative requires exactly one placeholder"
+        ],
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 0,
+        "target_essay_id": "1868:1",
+        "exact_quote": "The main piece to improve your skills is during the process of keep learning.",
+        "evidence_sentence": null,
+        "feedback_paragraph": null,
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "no representative but placeholder",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": null,
+        "representative_quote_index": null,
+        "feedback_paragraph_template": "Please review the cited feature. [REPRESENTATIVE_EVIDENCE] Check other passages."
+      },
+      "assembly": {
+        "pass_": false,
+        "errors": [
+          "no representative requires zero placeholders"
+        ],
+        "representative_observation_key": null,
+        "representative_quote_index": null,
+        "target_essay_id": null,
+        "exact_quote": null,
+        "evidence_sentence": null,
+        "feedback_paragraph": null,
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "appended punctuation",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 0,
+        "feedback_paragraph_template": "[REPRESENTATIVE_EVIDENCE]."
+      },
+      "assembly": {
+        "pass_": false,
+        "errors": [
+          "placeholder is not a standalone sentence slot",
+          "punctuation appended to placeholder"
+        ],
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 0,
+        "target_essay_id": "1868:1",
+        "exact_quote": "The main piece to improve your skills is during the process of keep learning.",
+        "evidence_sentence": null,
+        "feedback_paragraph": null,
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "surrounding quotes",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 0,
+        "feedback_paragraph_template": "“ [REPRESENTATIVE_EVIDENCE] ”"
+      },
+      "assembly": {
+        "pass_": false,
+        "errors": [
+          "placeholder surrounded by quotes"
+        ],
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 0,
+        "target_essay_id": "1868:1",
+        "exact_quote": "The main piece to improve your skills is during the process of keep learning.",
+        "evidence_sentence": null,
+        "feedback_paragraph": null,
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "second quote selected exactly, no fallback",
+      "validation_fixture": true,
+      "derived_from_saved_v1_3": true,
+      "added_fields_not_generated_by_old_model": [
+        "representative_quote_index",
+        "feedback_paragraph_template placeholder"
+      ],
+      "input": {
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 1,
+        "feedback_paragraph_template": "Please review the cited feature. [REPRESENTATIVE_EVIDENCE] Check other passages."
+      },
+      "assembly": {
+        "pass_": true,
+        "errors": [],
+        "representative_observation_key": "1868:1::O1",
+        "representative_quote_index": 1,
+        "target_essay_id": "1868:1",
+        "exact_quote": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.",
+        "evidence_sentence": "In essay 1868:1, the relevant excerpt is “The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.”.",
+        "feedback_paragraph": "Please review the cited feature. In essay 1868:1, the relevant excerpt is “The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.”. Check other passages.",
+        "source": "programmatic exact lookup, not model generation"
+      },
+      "expected_pass": true,
+      "test_passed": true
+    }
+  ],
+  "not_counted_as_old_model_success": true
+}

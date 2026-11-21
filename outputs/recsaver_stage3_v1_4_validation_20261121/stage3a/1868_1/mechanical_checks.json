@@ -1,0 +1,101 @@
+{
+  "top_errors": [],
+  "observation_checks": [
+    {
+      "index": 0,
+      "observation_id": "O1",
+      "pass_": true,
+      "reasons": [],
+      "quote_checks": [
+        {
+          "quote": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.",
+          "exact": true,
+          "all_start_offsets": [
+            238
+          ]
+        }
+      ],
+      "distinct_evidence_locations": 1,
+      "semantic_support_not_certified": true,
+      "span_audit": {
+        "index": 0,
+        "span_ids": [
+          "E1868_1_P001_S003"
+        ],
+        "selected_spans": [
+          {
+            "span_id": "E1868_1_P001_S003",
+            "paragraph_id": "E1868_1_P001",
+            "start": 238,
+            "end": 367,
+            "text": "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.",
+            "kind": "short_contiguous"
+          }
+        ],
+        "reconstructed_quotes": [
+          "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn."
+        ],
+        "independent_nonoverlapping_spans": 1,
+        "errors": []
+      }
+    }
+  ],
+  "issue_checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "classification_and_explicit_claim_require_semantic_review": true
+    },
+    {
+      "index": 1,
+      "pass_": true,
+      "reasons": [],
+      "classification_and_explicit_claim_require_semantic_review": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "feature": "The sentence 'The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.' contains grammatical errors: 'is believe' should be 'is to believe', and 'have learn' should be 'have learned'.",
+      "scoring_relevance": "These grammatical errors affect the clarity and correctness of the sentence, which is relevant to the Grammar dimension.",
+      "limitation": "This observation is limited to a single sentence and does not establish the frequency or severity of such errors throughout the essay.",
+      "next_check": "Other sentences for similar grammatical issues.",
+      "quotes": [
+        "The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn."
+      ]
+    }
+  ],
+  "passed_issues": [
+    {
+      "record_id": "1868_1__K1",
+      "issue_type": "observed_score_conflict",
+      "candidate_excerpt": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3.",
+      "score_conflicts": [
+        {
+          "dimension": "Vocabulary",
+          "claimed_score": 3,
+          "observed_score": 4
+        }
+      ],
+      "explanation": "The candidate claims a score of 3 for Vocabulary, but the observed score is 4."
+    },
+    {
+      "record_id": "1868_1__K2",
+      "issue_type": "observed_score_conflict",
+      "candidate_excerpt": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with the observed scores of 3 for both Overall and Traits.",
+      "score_conflicts": [
+        {
+          "dimension": "Vocabulary",
+          "claimed_score": 3,
+          "observed_score": 4
+        }
+      ],
+      "explanation": "The candidate claims a score of 3 for Vocabulary, but the observed score is 4."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "request": "stage3a/1868_1",
+    "json_valid": true,
+    "schema_valid": true,
+    "errors": [],
+    "truncated": false,
+    "started": "2026-11-21T23:14:24.875656+09:00",
+    "finished": "2026-11-21T23:15:24.801454+09:00",
+    "attempt": 0,
+    "seed": 925847335,
+    "finish_reason": "stop",
+    "prompt_tokens": 13595,
+    "output_tokens": 492,
+    "raw_sha256": "427b5761c9ea028087ddfeb1ac3521731938fe67d976e6f078b35f2cac813fb6"
+  },
+  {
+    "request": "stage3a/4902_1",
+    "json_valid": true,
+    "schema_valid": true,
+    "errors": [],
+    "truncated": false,
+    "started": "2026-11-21T23:14:24.875656+09:00",
+    "finished": "2026-11-21T23:15:24.848989+09:00",
+    "attempt": 0,
+    "seed": 925847335,
+    "finish_reason": "stop",
+    "prompt_tokens": 7668,
+    "output_tokens": 411,
+    "raw_sha256": "7f7bbfb093bc40c2d15ec972d4e6faefb28f7f45ca93a97ccb87ad36c861d91b"
+  },
+  {
+    "request": "stage3b_fixed/rater_7",
+    "json_valid": true,
+    "schema_valid": true,
+    "errors": [],
+    "truncated": false,
+    "started": "2026-11-21T23:14:24.875656+09:00",
+    "finished": "2026-11-21T23:15:24.895328+09:00",
+    "attempt": 0,
+    "seed": 925847335,
+    "finish_reason": "stop",
+    "prompt_tokens": 3905,
+    "output_tokens": 398,
+    "raw_sha256": "a9010997e64b359836fb985d7b71ebcea9cd542bd89d6d2f0a16fe583195cad2"
+  },
+  {
+    "request": "stage3b_pipeline/rater_7",
+    "json_valid": true,
+    "schema_valid": true,
+    "errors": [],
+    "truncated": false,
+    "started": "2026-11-21T23:15:25.175486+09:00",
+    "finished": "2026-11-21T23:16:07.887744+09:00",
+    "attempt": 0,
+    "seed": 925847335,
+    "finish_reason": "stop",
+    "prompt_tokens": 2597,
+    "output_tokens": 452,
+    "raw_sha256": "f0c7944e38afc74cdcb52cadc9a80ef3320e3bfd982060a718ece7f6a748bb86"
+  }
+]

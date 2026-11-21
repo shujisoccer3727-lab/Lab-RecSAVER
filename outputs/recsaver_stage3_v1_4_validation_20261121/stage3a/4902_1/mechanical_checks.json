@@ -1,0 +1,100 @@
+{
+  "top_errors": [],
+  "observation_checks": [
+    {
+      "index": 0,
+      "observation_id": "O1",
+      "pass_": true,
+      "reasons": [],
+      "quote_checks": [
+        {
+          "quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+          "exact": true,
+          "all_start_offsets": [
+            0
+          ]
+        },
+        {
+          "quote": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+          "exact": true,
+          "all_start_offsets": [
+            150
+          ]
+        }
+      ],
+      "distinct_evidence_locations": 2,
+      "semantic_support_not_certified": true,
+      "span_audit": {
+        "index": 0,
+        "span_ids": [
+          "E4902_1_P001_S001",
+          "E4902_1_P001_S002"
+        ],
+        "selected_spans": [
+          {
+            "span_id": "E4902_1_P001_S001",
+            "paragraph_id": "E4902_1_P001",
+            "start": 0,
+            "end": 149,
+            "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+            "kind": "short_contiguous"
+          },
+          {
+            "span_id": "E4902_1_P001_S002",
+            "paragraph_id": "E4902_1_P001",
+            "start": 150,
+            "end": 243,
+            "text": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+            "kind": "short_contiguous"
+          }
+        ],
+        "reconstructed_quotes": [
+          "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+          "The reason why i agree with this quote is because people now a day don't try to be them self."
+        ],
+        "independent_nonoverlapping_spans": 2,
+        "errors": []
+      }
+    }
+  ],
+  "issue_checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "classification_and_explicit_claim_require_semantic_review": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "feature": "The writer introduces the quote and provides a reason for agreeing with it, but the transition between these ideas is weak. The phrase 'The reason why i agree with this quote is because' is repetitive and lacks sophistication.",
+      "scoring_relevance": "Effective cohesion requires clear and sophisticated transitions between ideas. The repetitive and simplistic transition here shows a lack of sophistication in linking ideas.",
+      "limitation": "This observation is limited to the first two sentences and does not cover the entire essay's cohesion.",
+      "next_check": "Check other transitions in the essay to see if they are similarly repetitive or if there are more sophisticated transitions elsewhere.",
+      "quotes": [
+        "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+        "The reason why i agree with this quote is because people now a day don't try to be them self."
+      ]
+    }
+  ],
+  "passed_issues": [
+    {
+      "record_id": "4902_1__K1",
+      "issue_type": "observed_score_conflict",
+      "candidate_excerpt": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3.",
+      "score_conflicts": [
+        {
+          "dimension": "Cohesion",
+          "claimed_score": 3,
+          "observed_score": 2
+        }
+      ],
+      "explanation": "The observed score for Cohesion is 2, which indicates some repetitive and mechanical use of cohesive devices, not consistent with a score of 3."
+    }
+  ]
+}

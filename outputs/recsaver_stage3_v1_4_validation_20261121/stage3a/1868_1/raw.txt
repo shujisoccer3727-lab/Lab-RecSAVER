@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4",
+  "target_essay_id": "1868:1",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "scope": "local",
+      "origin": "direct_text_review",
+      "related_record_ids": [],
+      "evidence_span_ids": ["E1868_1_P001_S003"],
+      "feature": "The sentence 'The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn.' contains grammatical errors: 'is believe' should be 'is to believe', and 'have learn' should be 'have learned'.",
+      "scoring_relevance": "These grammatical errors affect the clarity and correctness of the sentence, which is relevant to the Grammar dimension.",
+      "limitation": "This observation is limited to a single sentence and does not establish the frequency or severity of such errors throughout the essay.",
+      "next_check": "Other sentences for similar grammatical issues."
+    }
+  ],
+  "source_analysis_issues": [
+    {
+      "record_id": "1868_1__K1",
+      "issue_type": "observed_score_conflict",
+      "candidate_excerpt": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3.",
+      "score_conflicts": [
+        {"dimension": "Vocabulary", "claimed_score": 3, "observed_score": 4}
+      ],
+      "explanation": "The candidate claims a score of 3 for Vocabulary, but the observed score is 4."
+    },
+    {
+      "record_id": "1868_1__K2",
+      "issue_type": "observed_score_conflict",
+      "candidate_excerpt": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with the observed scores of 3 for both Overall and Traits.",
+      "score_conflicts": [
+        {"dimension": "Vocabulary", "claimed_score": 3, "observed_score": 4}
+      ],
+      "explanation": "The candidate claims a score of 3 for Vocabulary, but the observed score is 4."
+    }
+  ],
+  "insufficient_evidence": []
+}

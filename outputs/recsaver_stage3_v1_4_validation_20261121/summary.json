@@ -1,0 +1,225 @@
+{
+  "A_display_tests": {
+    "passed": 15,
+    "total": 15,
+    "actual_model_calls": 0,
+    "not_model_success": true
+  },
+  "B": {
+    "assembly_pass": false,
+    "mechanical": {
+      "checks": [
+        {
+          "kind": "schema",
+          "pass_": true,
+          "errors": []
+        },
+        {
+          "kind": "rater_id",
+          "pass_": true
+        },
+        {
+          "kind": "case_key",
+          "pass_": true,
+          "key": "1868:1::O1"
+        },
+        {
+          "kind": "case_key",
+          "pass_": true,
+          "key": "4902:1::O1"
+        },
+        {
+          "kind": "representative_key",
+          "pass_": true,
+          "key": "1868:1::O1"
+        },
+        {
+          "kind": "abstention_empty_patterns",
+          "pass_": true
+        },
+        {
+          "kind": "representative_in_case_keys",
+          "pass_": true
+        },
+        {
+          "kind": "rubric_ref_exists",
+          "pass_": true,
+          "role": "observed",
+          "ref": "Cohesion:3"
+        },
+        {
+          "kind": "rubric_ref_exists",
+          "pass_": true,
+          "role": "comparison",
+          "ref": null
+        },
+        {
+          "kind": "observed_band_identity",
+          "pass_": true,
+          "expected": "Cohesion:3",
+          "actual": "Cohesion:3"
+        },
+        {
+          "kind": "paragraph_representative_quote",
+          "pass_": false
+        },
+        {
+          "kind": "paragraph_target_id",
+          "pass_": false
+        },
+        {
+          "kind": "output_target_role",
+          "pass_": true,
+          "target": "1868:1"
+        },
+        {
+          "kind": "output_target_role",
+          "pass_": true,
+          "target": "4902:1"
+        },
+        {
+          "kind": "assembly",
+          "pass_": false,
+          "errors": [
+            "placeholder is not a standalone sentence slot",
+            "punctuation appended to placeholder"
+          ]
+        },
+        {
+          "kind": "comparison_direction",
+          "pass_": true,
+          "actual": "none",
+          "expected": "none"
+        }
+      ],
+      "total": 16,
+      "passed": 13,
+      "failed": [
+        {
+          "kind": "paragraph_representative_quote",
+          "pass_": false
+        },
+        {
+          "kind": "paragraph_target_id",
+          "pass_": false
+        },
+        {
+          "kind": "assembly",
+          "pass_": false,
+          "errors": [
+            "placeholder is not a standalone sentence slot",
+            "punctuation appended to placeholder"
+          ]
+        }
+      ],
+      "semantic_direction_alignment_requires_review": true
+    },
+    "direction": "none",
+    "comparison": null
+  },
+  "C": {
+    "generated_observations": 2,
+    "passed_observations": 2,
+    "targets_reached": 2,
+    "targets_with_full_supported_observations": 1,
+    "targets_with_usable_narrow_parts": 2,
+    "generated_issues": 3,
+    "quote_verified_issues": 3,
+    "confirmed_issue_classifications": 1,
+    "K2_Vocabulary_detected": 1,
+    "K2_Phraseology_detected": 0,
+    "K1_false_Vocabulary_conflict": 1,
+    "assembly_pass": true,
+    "mechanical": {
+      "checks": [
+        {
+          "kind": "schema",
+          "pass_": true,
+          "errors": []
+        },
+        {
+          "kind": "rater_id",
+          "pass_": true
+        },
+        {
+          "kind": "case_key",
+          "pass_": true,
+          "key": "1868:1::O1"
+        },
+        {
+          "kind": "case_key",
+          "pass_": true,
+          "key": "4902:1::O1"
+        },
+        {
+          "kind": "representative_key",
+          "pass_": true,
+          "key": "4902:1::O1"
+        },
+        {
+          "kind": "abstention_empty_patterns",
+          "pass_": true
+        },
+        {
+          "kind": "representative_in_case_keys",
+          "pass_": true
+        },
+        {
+          "kind": "rubric_ref_exists",
+          "pass_": true,
+          "role": "observed",
+          "ref": "Cohesion:2"
+        },
+        {
+          "kind": "rubric_ref_exists",
+          "pass_": true,
+          "role": "comparison",
+          "ref": null
+        },
+        {
+          "kind": "observed_band_identity",
+          "pass_": true,
+          "expected": "Cohesion:2",
+          "actual": "Cohesion:2"
+        },
+        {
+          "kind": "paragraph_representative_quote",
+          "pass_": true
+        },
+        {
+          "kind": "paragraph_target_id",
+          "pass_": true
+        },
+        {
+          "kind": "output_target_role",
+          "pass_": true,
+          "target": "1868:1"
+        },
+        {
+          "kind": "output_target_role",
+          "pass_": true,
+          "target": "4902:1"
+        },
+        {
+          "kind": "assembly",
+          "pass_": true,
+          "errors": []
+        },
+        {
+          "kind": "comparison_direction",
+          "pass_": true,
+          "actual": "none",
+          "expected": "none"
+        }
+      ],
+      "total": 16,
+      "passed": 16,
+      "failed": [],
+      "semantic_direction_alignment_requires_review": true
+    },
+    "direction": "none",
+    "comparison": null,
+    "pattern_status": "insufficient_evidence"
+  },
+  "actual_model_requests": 4
+}

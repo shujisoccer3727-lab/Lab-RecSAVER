@@ -1,0 +1,116 @@
+{
+  "checks": [
+    {
+      "kind": "schema",
+      "pass_": false,
+      "errors": [
+        "$.feedback_paragraph_template: unexpected field"
+      ]
+    },
+    {
+      "kind": "rater_id",
+      "pass_": true
+    },
+    {
+      "kind": "case_key",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "case_key",
+      "pass_": true,
+      "key": "4902:1::O1"
+    },
+    {
+      "kind": "representative_key",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "abstention_empty_patterns",
+      "pass_": true
+    },
+    {
+      "kind": "representative_in_case_keys",
+      "pass_": true
+    },
+    {
+      "kind": "rubric_ref_exists",
+      "pass_": true,
+      "role": "observed",
+      "ref": "Cohesion:3"
+    },
+    {
+      "kind": "rubric_ref_exists",
+      "pass_": true,
+      "role": "comparison",
+      "ref": null
+    },
+    {
+      "kind": "observed_band_identity",
+      "pass_": true,
+      "expected": "Cohesion:3",
+      "actual": "Cohesion:3"
+    },
+    {
+      "kind": "paragraph_representative_quote",
+      "pass_": false
+    },
+    {
+      "kind": "paragraph_target_id",
+      "pass_": false
+    },
+    {
+      "kind": "output_target_role",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "output_target_role",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "assembly",
+      "pass_": false,
+      "errors": [
+        "placeholder is not a standalone sentence slot",
+        "punctuation appended to placeholder"
+      ]
+    },
+    {
+      "kind": "comparison_direction",
+      "pass_": true,
+      "actual": "none",
+      "expected": "none"
+    }
+  ],
+  "total": 16,
+  "passed": 12,
+  "failed": [
+    {
+      "kind": "schema",
+      "pass_": false,
+      "errors": [
+        "$.feedback_paragraph_template: unexpected field"
+      ]
+    },
+    {
+      "kind": "paragraph_representative_quote",
+      "pass_": false
+    },
+    {
+      "kind": "paragraph_target_id",
+      "pass_": false
+    },
+    {
+      "kind": "assembly",
+      "pass_": false,
+      "errors": [
+        "placeholder is not a standalone sentence slot",
+        "punctuation appended to placeholder"
+      ]
+    }
+  ],
+  "semantic_direction_alignment_requires_review": true
+}

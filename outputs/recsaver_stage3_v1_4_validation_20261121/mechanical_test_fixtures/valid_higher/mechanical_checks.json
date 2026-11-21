@@ -1,0 +1,91 @@
+{
+  "checks": [
+    {
+      "kind": "schema",
+      "pass_": true,
+      "errors": []
+    },
+    {
+      "kind": "rater_id",
+      "pass_": true
+    },
+    {
+      "kind": "case_key",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "case_key",
+      "pass_": true,
+      "key": "4902:1::O1"
+    },
+    {
+      "kind": "representative_key",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "abstention_empty_patterns",
+      "pass_": true
+    },
+    {
+      "kind": "representative_in_case_keys",
+      "pass_": true
+    },
+    {
+      "kind": "rubric_ref_exists",
+      "pass_": true,
+      "role": "observed",
+      "ref": "Cohesion:3"
+    },
+    {
+      "kind": "rubric_ref_exists",
+      "pass_": true,
+      "role": "comparison",
+      "ref": "Cohesion:4"
+    },
+    {
+      "kind": "observed_band_identity",
+      "pass_": true,
+      "expected": "Cohesion:3",
+      "actual": "Cohesion:3"
+    },
+    {
+      "kind": "comparison_band_identity",
+      "pass_": true
+    },
+    {
+      "kind": "paragraph_representative_quote",
+      "pass_": true
+    },
+    {
+      "kind": "paragraph_target_id",
+      "pass_": true
+    },
+    {
+      "kind": "output_target_role",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "output_target_role",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "assembly",
+      "pass_": true,
+      "errors": []
+    },
+    {
+      "kind": "comparison_direction",
+      "pass_": true,
+      "actual": "higher",
+      "expected": "higher"
+    }
+  ],
+  "total": 17,
+  "passed": 17,
+  "failed": [],
+  "semantic_direction_alignment_requires_review": true
+}

@@ -1,0 +1,252 @@
+{
+  "total": 50,
+  "passed": 50,
+  "checks": [
+    {
+      "kind": "fixed_source_bytes",
+      "pass_": true
+    },
+    {
+      "kind": "B_fixed_input_bytes",
+      "pass_": true
+    },
+    {
+      "kind": "C_3A_same_input_bytes",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "C_span_catalog_bytes",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "C_Unicode_slices",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "C_gate_reproduces",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "C_3A_same_input_bytes",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "C_span_catalog_bytes",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "C_Unicode_slices",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "C_gate_reproduces",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "C_actual_handoff",
+      "pass_": true
+    },
+    {
+      "kind": "B_actual_input_bytes",
+      "pass_": true
+    },
+    {
+      "kind": "C_allowed_input_fields",
+      "pass_": true
+    },
+    {
+      "kind": "C_observed_score_attached",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "C_only_passed_restored_observations",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "C_observed_score_attached",
+      "pass_": true,
+      "key": "4902:1::O1"
+    },
+    {
+      "kind": "C_only_passed_restored_observations",
+      "pass_": true,
+      "key": "4902:1::O1"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Grammar:3"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Grammar:2"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Grammar:4"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Cohesion:2"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Cohesion:1"
+    },
+    {
+      "kind": "C_official_descriptor",
+      "pass_": true,
+      "ref": "Cohesion:3"
+    },
+    {
+      "kind": "assembly_reproduces",
+      "pass_": true,
+      "condition": "stage3b_fixed"
+    },
+    {
+      "kind": "parsed_template_bytes_unchanged",
+      "pass_": true,
+      "condition": "stage3b_fixed"
+    },
+    {
+      "kind": "assembly_reproduces",
+      "pass_": true,
+      "condition": "stage3b_pipeline"
+    },
+    {
+      "kind": "parsed_template_bytes_unchanged",
+      "pass_": true,
+      "condition": "stage3b_pipeline"
+    },
+    {
+      "kind": "assembled_display_exact",
+      "pass_": true,
+      "condition": "stage3b_pipeline"
+    },
+    {
+      "kind": "exact_index_quote_and_id",
+      "pass_": true,
+      "condition": "stage3b_pipeline"
+    },
+    {
+      "kind": "only_placeholder_substitution",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "chat_template_identical",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "only_placeholder_substitution",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "chat_template_identical",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "only_placeholder_substitution",
+      "pass_": true,
+      "request": "stage3b_fixed/rater_7"
+    },
+    {
+      "kind": "chat_template_identical",
+      "pass_": true,
+      "request": "stage3b_fixed/rater_7"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "stage3b_fixed/rater_7"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "request": "stage3b_fixed/rater_7"
+    },
+    {
+      "kind": "only_placeholder_substitution",
+      "pass_": true,
+      "request": "stage3b_pipeline/rater_7"
+    },
+    {
+      "kind": "chat_template_identical",
+      "pass_": true,
+      "request": "stage3b_pipeline/rater_7"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "stage3b_pipeline/rater_7"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "request": "stage3b_pipeline/rater_7"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "model_snapshot"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "vllm"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "torch"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "transformers"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "gpu"
+    }
+  ],
+  "failed": []
+}

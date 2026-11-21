@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.4",
+  "rater_id": "rater_7",
+  "pattern_status": "insufficient_evidence",
+  "patterns": [],
+  "case_specific_observation_keys": [
+    "1868:1::O1",
+    "4902:1::O1"
+  ],
+  "representative_observation_key": "1868:1::O1",
+  "representative_quote_index": 0,
+  "rubric_comparison": {
+    "observed_band_ref_id": "Cohesion:3",
+    "comparison_band_ref_id": null,
+    "comparison_direction": "none",
+    "relationship": "indeterminate",
+    "explanation": "The evidence supports the use of transitional phrases to connect sentences and paragraphs, but it does not establish the overall coherence of the essay. The observed score of 3 is consistent with the rubric, but the evidence is too narrow to judge band alignment."
+  },
+  "next_scoring_check": {
+    "inspect": "Transitions between paragraphs",
+    "distinguish": "Whether they are as clear and effective as those within paragraphs",
+    "retain_if": "Transitions between paragraphs are clear and effective",
+    "reconsider_if": "Transitions between paragraphs are unclear or ineffective"
+  },
+  "insufficient_evidence": [],
+  "feedback_paragraph_template": "There is insufficient evidence to establish a consistent pattern in your scoring decisions. However, a useful finding is that the essay uses transitional phrases to connect sentences and paragraphs, such as [REPRESENTATIVE_EVIDENCE]. This supports the observed score of 3 for Cohesion, but the evidence is too narrow to judge band alignment. For future scoring, inspect the transitions between paragraphs to see if they are as clear and effective as those within paragraphs. Retain the score if the transitions are clear and effective, and reconsider if they are unclear or ineffective."
+}

@@ -1,0 +1,45 @@
+{
+  "stage3b_fixed": {
+    "template_contract_checks": [
+      {
+        "kind": "target_id_not_copied_in_template",
+        "pass_": true
+      },
+      {
+        "kind": "selected_excerpt_not_copied_in_template",
+        "pass_": true
+      }
+    ],
+    "template_contract_all_pass": true,
+    "none_direction_alternative_band_terms": [],
+    "indeterminate_endorsement_lexical_flags": [
+      "nce of the essay. The observed score of 3 is consistent with the rubric, but the evidence is too narrow to judge band alignme",
+      "phs, such as [REPRESENTATIVE_EVIDENCE]. This supports the observed score of 3 for Cohesion, but the evidence is too narrow to judge band "
+    ],
+    "lexical_flags_require_Codex_context_review": true,
+    "assembly_pass": false
+  },
+  "stage3b_pipeline": {
+    "template_contract_checks": [
+      {
+        "kind": "target_id_not_copied_in_template",
+        "pass_": false
+      },
+      {
+        "kind": "selected_excerpt_not_copied_in_template",
+        "pass_": true
+      }
+    ],
+    "template_contract_all_pass": false,
+    "none_direction_alternative_band_terms": [
+      "h whether the essay meets the criteria for a higher band. Other transitions in the essay Whether they",
+      "h whether the essay meets the criteria for a higher band. [REPRESENTATIVE_EVIDENCE] This finding is l"
+    ],
+    "indeterminate_endorsement_lexical_flags": [
+      " and mechanical use of cohesive devices. The evidence supports this score but does not establish whether the essay meets the criteria for ",
+      "tern in your scoring decisions. The evidence supports the observed score of 2 for Cohesion in the essay with ID 4902:1, but it does not e"
+    ],
+    "lexical_flags_require_Codex_context_review": true,
+    "assembly_pass": true
+  }
+}
