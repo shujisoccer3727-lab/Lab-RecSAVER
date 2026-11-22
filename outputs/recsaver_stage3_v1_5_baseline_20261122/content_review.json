@@ -1,0 +1,42 @@
+{
+  "reviews": [
+    {
+      "target_essay_id": "1868:1",
+      "complete_local_observation_supported": false,
+      "usable_local_fragment": true,
+      "evaluator": "Codex provisional content judgment, not human evaluation",
+      "reason": "The first quoted sentence states the learning thesis, but the second is P001/S004, not an essay or paragraph conclusion; the full feature and scoring relevance overstate coverage."
+    },
+    {
+      "target_essay_id": "4902:1",
+      "complete_local_observation_supported": true,
+      "usable_local_fragment": true,
+      "evaluator": "Codex provisional content judgment, not human evaluation",
+      "reason": "Both sides of the quote/agreement-reason link are selected. The reason is explicit; frequency and essay-wide consistency remain unresolved. No numeric band is endorsed."
+    }
+  ],
+  "criteria": [
+    {
+      "criterion": "A",
+      "pass_": false,
+      "reason": "4902の賛同理由の明示は支持されるが、1868の唯一の生成所見は第1段落中の文を結論扱いし、opening/closingから全体のfocusへ広げる。確認可能な冒頭主題の部分はあるが、生成所見単位では局所根拠に収まらない。",
+      "confirmed_complete_local_observation_targets": 1,
+      "total_targets": 2
+    },
+    {
+      "criterion": "B",
+      "pass_": true,
+      "reason": "選択index0/1の原文、同じ所見の1868:1、元Cohesion=3と公式Cohesion:3を正確に表示。原文一致と、その全主張を支持するかは別。後者の結論位置の誤りはCで不合格。"
+    },
+    {
+      "criterion": "C",
+      "pass_": false,
+      "reason": "pattern=nullとindeterminateは妥当で、別帯や得点支持の矛盾はない。しかしtextual_findingのessay concludesが原文位置に反し、根拠を超える評価が最終文へ残った。段落間接続を点検するという確認課題はあるが、この誤りが合格を妨げる。"
+    }
+  ],
+  "pattern_abstention_appropriate": true,
+  "band_indeterminate_appropriate": true,
+  "unsupported_ending_claim_propagated": true,
+  "fully_supported_local_target_count": 1,
+  "usable_local_fragment_target_count": 2
+}

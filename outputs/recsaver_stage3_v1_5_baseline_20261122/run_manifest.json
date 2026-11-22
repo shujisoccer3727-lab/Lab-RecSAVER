@@ -1,0 +1,211 @@
+{
+  "created_at": "2026-11-22T21:22:30.196658+09:00",
+  "comparison_commit": "1a0015a865b210a084ef08e9d0017f967eedc5de",
+  "code_commit": "1a0015a865b210a084ef08e9d0017f967eedc5de",
+  "baseline_path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_4_validation_20261121",
+  "baseline_files_sha256": {
+    "A_display_tests.json": "55bdf0770962701ae4bb5e470db22345e77a9cad2974687c4116fa5b1c20d69e",
+    "content_review.json": "fa433083fc9b5b195beb707de34086ee43b183d525a04321fb84955929bd2a09",
+    "environment.json": "18765120034abc84147e3655fc894e79257df8a670661e52f117b97472a6ee33",
+    "execution.log": "4db582db4df4328e3b67229a6862728cabdd9a696ccb035d19897e67fadccc51",
+    "fixed_3b_input.json": "65744e1541546b63e80a90853dc9d88f3ff1414997c7fa9cb9774aa13279778d",
+    "fixed_input.json": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+    "gate_tests.json": "df86e4d043e60c47e751eba1944f6b7e496ea89ab5e3e02c74fe5c8f069188b8",
+    "invariant_checks.json": "7d06abfefed9d6fe1b9fa17cd753a25ff4ca75aed4b5fcce53b6b7f4d53ae835",
+    "observation_results.csv": "a78be4d1a22fc7f3fefdd224265502cc2d7ff6996ef3fc22c8b14a438c66caaa",
+    "process.json": "8f7b100eb2639ce9f1fb63215fb3828bdb8cb3337b97c791cbe5ecf2c7235d12",
+    "README.md": "3d5e09c54fbd743265e94588c539c3c78ca8f3822b3d8767666c48b8e89251d1",
+    "request_summary.json": "0b6afe6f5cc79154c6fb2791e6a176b3803a3410a3ed595e93c3c34b773bc3af",
+    "run_manifest.json": "db0927f6f9c3009b4d268b16fce499a54e8a22b3cb26ad76be7b65b602ee48fc",
+    "summary.json": "5ca746d2650ca72f1ae14db19d78bc9bd5e683140b3db26ff334a27b6929e77e",
+    "template_and_content_flags.json": "4c7c065be7e9ed2d1cdc5d3c3242ac75d56fe8e168e6c5796e029f7684de0707",
+    "validation_report.md": "7ec9cecf2efbb401fa043d992ed71ac421bf7b8e735bd61a9c6f507dba9eb6fb",
+    "code/assembly.py": "84e87eaf0dbf147ae8f639682e7f8dc93213ff4ddcffc32da435e40d2b4b4377",
+    "code/report.py": "4d624f1aa5083caed41c5180f2596d8ce98949b4519d8c62d9c181cf65d96a1d",
+    "code/run.py": "adb09ce76db27123d01fb24bf0d10559283b19e53ee81b26c1ea74cba8c30c75",
+    "code/template_checks.py": "7ab7f979fe9ede2d6ba1d8489e9db1b3e0d72115a15ae2f32d923d85dca41c3c",
+    "code/test_checks.py": "8c2ecea98a438ea7887656a9add012e4a85175eff751fce5f127d7560cba5dea",
+    "code/verify.py": "51ed63ec8e23137ca70a5391bee57ec5fbd9138ab9a8c00851021789f3c48241",
+    "evidence_spans/1868_1.json": "e61c35a76edd3e01e6b199d9c27712a12295052a25faa46e07c9c0a48efa9fa2",
+    "evidence_spans/4902_1.json": "6c098bfbf2b4086f4113ae6529096cfc51ec751cae11e9c5d3e2152afefd90fc",
+    "fixed_source/input.json": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+    "handoff/audit_summary.json": "526b8efe84d7b61b0e1fd6c1861b3d918dd85d6a782e329a77701634c3febf1a",
+    "handoff/input_3b.json": "5853e34a86a8b870f5044de80d741b40ebd1c6a2a954d888830a5f07c157a0cc",
+    "handoff/rubric_provenance.json": "02104d459ce1b2d17e796c14ab931c14d3e607e2eb7f315fac66ec9665ae37f4",
+    "mechanical_test_fixtures/null_requires_none/assembled_feedback.txt": "2343cae1253aa90843f28fefb208137a8a9f66b7c5a57452debd8dff32237226",
+    "mechanical_test_fixtures/null_requires_none/assembly_result.json": "d7d05c347b3a7f3df0df409e7224e3ea9d68305575140acdccdb871a9659b664",
+    "mechanical_test_fixtures/null_requires_none/mechanical_checks.json": "2e75ec65fdeaf0aba033e29dc645105aae4cdd2735e4533753d331ba3a18ecea",
+    "mechanical_test_fixtures/null_requires_none/parsed.json": "940418047186ce7c3a886fec685f18553d06a49a065f3339d9c0be8e89cb9542",
+    "mechanical_test_fixtures/null_requires_none/parsed_template.json": "940418047186ce7c3a886fec685f18553d06a49a065f3339d9c0be8e89cb9542",
+    "mechanical_test_fixtures/out_of_range_no_rescue/assembly_result.json": "d129f79f7a8cba45ce75dc8a6ba456df55806f5a8256a0eca78d6a92f9f1abb0",
+    "mechanical_test_fixtures/out_of_range_no_rescue/mechanical_checks.json": "8de45a75142f6d51980be2fbe50b7109dff54f3a47437aa3284e08865e5a70aa",
+    "mechanical_test_fixtures/out_of_range_no_rescue/parsed.json": "feb9043b4aa2432fca195e4a1ddf224bf7da549978056d913a13d4d098a47397",
+    "mechanical_test_fixtures/out_of_range_no_rescue/parsed_template.json": "feb9043b4aa2432fca195e4a1ddf224bf7da549978056d913a13d4d098a47397",
+    "mechanical_test_fixtures/valid_higher/assembled_feedback.txt": "2343cae1253aa90843f28fefb208137a8a9f66b7c5a57452debd8dff32237226",
+    "mechanical_test_fixtures/valid_higher/assembly_result.json": "d7d05c347b3a7f3df0df409e7224e3ea9d68305575140acdccdb871a9659b664",
+    "mechanical_test_fixtures/valid_higher/mechanical_checks.json": "4b378849d4e647188c6ef86e217732a5d9b415bc509c1ccd1a30e5cdac4b74b2",
+    "mechanical_test_fixtures/valid_higher/parsed.json": "2e8ff2c8da097cb6cb3e73bfd65ea3ff0bafcbcb2b176e6a15f1faed78e7f610",
+    "mechanical_test_fixtures/valid_higher/parsed_template.json": "2e8ff2c8da097cb6cb3e73bfd65ea3ff0bafcbcb2b176e6a15f1faed78e7f610",
+    "mechanical_test_fixtures/valid_lower/assembled_feedback.txt": "2343cae1253aa90843f28fefb208137a8a9f66b7c5a57452debd8dff32237226",
+    "mechanical_test_fixtures/valid_lower/assembly_result.json": "d7d05c347b3a7f3df0df409e7224e3ea9d68305575140acdccdb871a9659b664",
+    "mechanical_test_fixtures/valid_lower/mechanical_checks.json": "b618a90be893cf3118e6cf7540af174451c307274db3624893d84772fc655897",
+    "mechanical_test_fixtures/valid_lower/parsed.json": "ef1b6d9919a21b3a4988b6a28f61377ffff3e91f79c0a453d07f9641133e7d2d",
+    "mechanical_test_fixtures/valid_lower/parsed_template.json": "ef1b6d9919a21b3a4988b6a28f61377ffff3e91f79c0a453d07f9641133e7d2d",
+    "mechanical_test_fixtures/wrong_direction/assembled_feedback.txt": "2343cae1253aa90843f28fefb208137a8a9f66b7c5a57452debd8dff32237226",
+    "mechanical_test_fixtures/wrong_direction/assembly_result.json": "d7d05c347b3a7f3df0df409e7224e3ea9d68305575140acdccdb871a9659b664",
+    "mechanical_test_fixtures/wrong_direction/mechanical_checks.json": "7d164b96bc1fd24070e5ba70c5447ed7a995bb23da8c22cf343a1b2ec14baf87",
+    "mechanical_test_fixtures/wrong_direction/parsed.json": "74a215b9223fc8ab02d74b0a42a1e5300eb127459a1a0b5394403c71a697a6d4",
+    "mechanical_test_fixtures/wrong_direction/parsed_template.json": "74a215b9223fc8ab02d74b0a42a1e5300eb127459a1a0b5394403c71a697a6d4",
+    "prepared_3a/1868_1/input.json": "f6809a0b63631125bd92a2fc15873a45e1cf2891811bdc613c896ef21a3cc22c",
+    "prepared_3a/4902_1/input.json": "20341096001d7e4d2dced0d6de8913b3abb3bf4e9b989945f79e31bf536aa5ab",
+    "stage3a/1868_1/generation.json": "56ad22fddc4c3fb91ec492f1c95eb12a5b9d1c732622c2f0e7615c279040b433",
+    "stage3a/1868_1/input.json": "f6809a0b63631125bd92a2fc15873a45e1cf2891811bdc613c896ef21a3cc22c",
+    "stage3a/1868_1/integrity.json": "c86cc4f1d5f3b648bbc6bc6311734ecb1ffa8b41583a64037ad35d04dc678178",
+    "stage3a/1868_1/mechanical_checks.json": "869f6f13431adec2bef28abc4c659b45be2e21b7c7643e28c777a7cb5fac4e25",
+    "stage3a/1868_1/messages.json": "e42bd2b8465a3f82e079c6d1f9bfcd30d03cf33584b18f24e6a0ae349f3b8c09",
+    "stage3a/1868_1/parsed.json": "4934d6664403b08d0182c8c2fdec3e125d6a05317883b9bff2ac1940a862ceae",
+    "stage3a/1868_1/raw.txt": "427b5761c9ea028087ddfeb1ac3521731938fe67d976e6f078b35f2cac813fb6",
+    "stage3a/1868_1/rendered_chat.txt": "ce83be7971f3c9c3866ac9ee1fbb2d353abd11a9a2b9465e6bd294e1e3cadb24",
+    "stage3a/1868_1/result.json": "477f3faf2eee9344c2c29b049743a2a87251cede847b8526cad43610f9758dd3",
+    "stage3a/1868_1/sampling.json": "7e0d39461c570dc167b1472012b65cdad962cee9883bcf81f1cc1071c685912b",
+    "stage3a/4902_1/generation.json": "7f54c7da3efac1b4305b9556a7822e891f9dd0aeae3a54f409edbac2c76b58d2",
+    "stage3a/4902_1/input.json": "20341096001d7e4d2dced0d6de8913b3abb3bf4e9b989945f79e31bf536aa5ab",
+    "stage3a/4902_1/integrity.json": "ade48d8e32234a6e961dd6bd02d5da0c5ae67ce568a9af02e243cf48744b3647",
+    "stage3a/4902_1/mechanical_checks.json": "06220ccd023214559bb8772913baf09867b7b894b4c1602190b20b6f20a19b5d",
+    "stage3a/4902_1/messages.json": "9e95c736f27883ad1871c609ef7a0a25875fb5153da8558b6757bef14903fb0c",
+    "stage3a/4902_1/parsed.json": "94c412b5738e639de93486817acf348a4c82a7f607a683c3af93f98f1177370a",
+    "stage3a/4902_1/raw.txt": "7f7bbfb093bc40c2d15ec972d4e6faefb28f7f45ca93a97ccb87ad36c861d91b",
+    "stage3a/4902_1/rendered_chat.txt": "e4e57ce3b9b382939e12a153a68dde60694776e0eb735d3490e3b2a103e56bb8",
+    "stage3a/4902_1/result.json": "477f3faf2eee9344c2c29b049743a2a87251cede847b8526cad43610f9758dd3",
+    "stage3a/4902_1/sampling.json": "7e0d39461c570dc167b1472012b65cdad962cee9883bcf81f1cc1071c685912b",
+    "stage3b_fixed/rater_7/assembly_result.json": "d4964e286febcb0f0429331f828cb438288600db92326330367dcf20aa54553f",
+    "stage3b_fixed/rater_7/assembly_result_generation_time.json": "d4964e286febcb0f0429331f828cb438288600db92326330367dcf20aa54553f",
+    "stage3b_fixed/rater_7/generation.json": "d94d3975a40b2576ccfdac39afbb46907d8e2e160b51ce53ff5b7158baba9895",
+    "stage3b_fixed/rater_7/input.json": "65744e1541546b63e80a90853dc9d88f3ff1414997c7fa9cb9774aa13279778d",
+    "stage3b_fixed/rater_7/integrity.json": "fe8d4d861c62c48221aa60f7bdc18bd70a55efb9fb501d54abbf10c278e8c354",
+    "stage3b_fixed/rater_7/mechanical_checks.json": "d5089f884eca889937c781ba7d813843c237485006c08b90aad6f2f719e7bf1d",
+    "stage3b_fixed/rater_7/mechanical_checks_generation_time.json": "6cf711246cf163c92340263b3d7c93ebcafb6bf3e01a8612618c7332a68506da",
+    "stage3b_fixed/rater_7/messages.json": "dc6f4dcc32db8070407de528005617bb731641bfe28b23608c67f0fa832b688d",
+    "stage3b_fixed/rater_7/parsed.json": "4713485af37db04543b526966f043e03675f843bfb96c8b99cd3a7150eeb578a",
+    "stage3b_fixed/rater_7/parsed_template.json": "4713485af37db04543b526966f043e03675f843bfb96c8b99cd3a7150eeb578a",
+    "stage3b_fixed/rater_7/raw.txt": "a9010997e64b359836fb985d7b71ebcea9cd542bd89d6d2f0a16fe583195cad2",
+    "stage3b_fixed/rater_7/rendered_chat.txt": "beff6409c370926536a4a117e96887f97195f32e33370ad0d649672facb5611b",
+    "stage3b_fixed/rater_7/result.json": "477f3faf2eee9344c2c29b049743a2a87251cede847b8526cad43610f9758dd3",
+    "stage3b_fixed/rater_7/sampling.json": "7e0d39461c570dc167b1472012b65cdad962cee9883bcf81f1cc1071c685912b",
+    "stage3b_pipeline/rater_7/assembled_feedback.txt": "b5ce202efa55ce4899977a7901e42ea220b67786ac2d5938f23d84cfd547bd4b",
+    "stage3b_pipeline/rater_7/assembly_result.json": "c571fb763eaed1af92631cac1189c6429472acd3704038518c40c92f4d630e51",
+    "stage3b_pipeline/rater_7/assembly_result_generation_time.json": "c571fb763eaed1af92631cac1189c6429472acd3704038518c40c92f4d630e51",
+    "stage3b_pipeline/rater_7/generation.json": "13b5b60c441a902017663412caf5d82a750e935a59e0e47504f7296056ed9ef5",
+    "stage3b_pipeline/rater_7/input.json": "5853e34a86a8b870f5044de80d741b40ebd1c6a2a954d888830a5f07c157a0cc",
+    "stage3b_pipeline/rater_7/integrity.json": "89c5632181658e67e6205421dfc1b057b7050c12d5cc89f2c9db852da5218142",
+    "stage3b_pipeline/rater_7/mechanical_checks.json": "214f0b92611c4b96cfc54e6a68737bb3ffdb7a396f0b83770584ef4e6b081e57",
+    "stage3b_pipeline/rater_7/mechanical_checks_generation_time.json": "9c15290eb8cdeeb53ac323b222f8149d96285038f36ccc1da7ec01b25e07e903",
+    "stage3b_pipeline/rater_7/messages.json": "d830a68b44b1f87b9c45507ef97ee863f060853dd5db1c9eb732eb3171b57d7d",
+    "stage3b_pipeline/rater_7/parsed.json": "b7725f46d89232a6f956f987c37bb4459866bd371e35c4e99cb85c5708860c4f",
+    "stage3b_pipeline/rater_7/parsed_template.json": "b7725f46d89232a6f956f987c37bb4459866bd371e35c4e99cb85c5708860c4f",
+    "stage3b_pipeline/rater_7/raw.txt": "f0c7944e38afc74cdcb52cadc9a80ef3320e3bfd982060a718ece7f6a748bb86",
+    "stage3b_pipeline/rater_7/rendered_chat.txt": "a7f0715cdd57fbb66753e3d69048a6bb696f072553ce86902e2f0f958ff33126",
+    "stage3b_pipeline/rater_7/result.json": "477f3faf2eee9344c2c29b049743a2a87251cede847b8526cad43610f9758dd3",
+    "stage3b_pipeline/rater_7/sampling.json": "7e0d39461c570dc167b1472012b65cdad962cee9883bcf81f1cc1071c685912b"
+  },
+  "fixed_input_sha256": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+  "prompts": {
+    "a": {
+      "path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03a_case_evidence_review_v1_5.txt",
+      "windows_path": "C:/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03a_case_evidence_review_v1_5.txt",
+      "sha256": "1813e147c76a8c46585187b30e7d7a972a90a23188939f651ac000cfc10574f8",
+      "same_name_locations": [
+        "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03a_case_evidence_review_v1_5.txt"
+      ]
+    },
+    "b": {
+      "path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03b_integrated_feedback_v1_5.txt",
+      "windows_path": "C:/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03b_integrated_feedback_v1_5.txt",
+      "sha256": "eacaf6257f8860d00b3359297d669c38240533893aa717dde4ac1b34107367da",
+      "same_name_locations": [
+        "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03b_integrated_feedback_v1_5.txt"
+      ]
+    }
+  },
+  "span_catalogs": {
+    "1868:1": {
+      "source": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_4_validation_20261121/evidence_spans/1868_1.json",
+      "sha256": "e61c35a76edd3e01e6b199d9c27712a12295052a25faa46e07c9c0a48efa9fa2"
+    },
+    "4902:1": {
+      "source": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_4_validation_20261121/evidence_spans/4902_1.json",
+      "sha256": "6c098bfbf2b4086f4113ae6529096cfc51ec751cae11e9c5d3e2152afefd90fc"
+    }
+  },
+  "model": {
+    "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+    "quantization": "gptq_marlin",
+    "tensor_parallel_size": 1,
+    "max_model_len": 32768,
+    "gpu_memory_utilization": 0.9,
+    "runtime_options": {
+      "max_num_seqs": 8,
+      "enforce_eager": true,
+      "enable_prefix_caching": true
+    }
+  },
+  "generation": {
+    "temperature": 0.2,
+    "top_p": 0.8
+  },
+  "max_tokens": {
+    "stage1": 6500,
+    "stage2": 1200,
+    "stage3": 5000
+  },
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 5000,
+    "seed": 925847335
+  },
+  "seed": 925847335,
+  "system_message": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+  "chat": "One user message with canonical prompt. Existing tokenizer chat template inserts the recorded default system message; no task-specific conflict found. Full rendered chat saved.",
+  "code_sha256_before": "1b50de868dc60b3f3e89f938cd13f3869cf25d260d2fa406b5c390e725eca8d7",
+  "planned_requests": {
+    "stage3a": 2,
+    "stage3b": 1,
+    "optional_fixed_3b": 0
+  },
+  "differences": [
+    "3A receives text/spans/dimension names only, no candidates or scores.",
+    "Candidate score audit isolated and never included in 3B.",
+    "3B emits structured decisions; final paragraph rendered from authoritative quote/ID/score/rubric and fixed indeterminate language.",
+    "No comparison_direction from model; direction derived from adjacent official bands.",
+    "Three fixed primary requests with same model/sampling/seed/chat; no Stage1/2/masking/acceptance changes or automatic tuning."
+  ],
+  "baseline_unchanged": true,
+  "prompts_unchanged": true,
+  "implementation_files_sha256": {
+    "code/report.py": "0049525968b7ce7361a3fb2833e1a7f66f8f767708a9ccec4f907428ab3eb65f",
+    "code/run.py": "1b50de868dc60b3f3e89f938cd13f3869cf25d260d2fa406b5c390e725eca8d7",
+    "code/verify.py": "01b9f1f0e4df653300b4b1f4ff2e6d429c6f43956c139b627b8535d68091a4d8"
+  },
+  "actual_requests": 3,
+  "last_checked_at": "2026-11-22T21:36:51.710324+09:00",
+  "request_invariants_passed": true,
+  "stage1_calls": 0,
+  "stage2_calls": 0,
+  "actual_requests_by_condition": {
+    "stage3a": 2,
+    "stage3b": 1
+  },
+  "optional_fixed_3B_calls": 0,
+  "reused_engine": {
+    "path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_prompt_v1_1_validation_20261120/code/run.py",
+    "sha256": "6d691ac18ea8ce9a056565cb22b59eb0ff80deba43441d0d5312215db698ba65"
+  },
+  "baseline_registered": false,
+  "minimum_gate_pass": false,
+  "blocked_by_criteria": [
+    "A",
+    "C"
+  ],
+  "decision_path": "baseline_decision.json"
+}

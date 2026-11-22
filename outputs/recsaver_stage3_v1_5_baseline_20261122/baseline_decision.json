@@ -1,0 +1,36 @@
+{
+  "accepted_as_baseline": false,
+  "status": "minimum_gate_not_met",
+  "criteria": [
+    {
+      "criterion": "A",
+      "pass_": false,
+      "reason": "4902の賛同理由の明示は支持されるが、1868の唯一の生成所見は第1段落中の文を結論扱いし、opening/closingから全体のfocusへ広げる。確認可能な冒頭主題の部分はあるが、生成所見単位では局所根拠に収まらない。",
+      "confirmed_complete_local_observation_targets": 1,
+      "total_targets": 2
+    },
+    {
+      "criterion": "B",
+      "pass_": true,
+      "reason": "選択index0/1の原文、同じ所見の1868:1、元Cohesion=3と公式Cohesion:3を正確に表示。原文一致と、その全主張を支持するかは別。後者の結論位置の誤りはCで不合格。"
+    },
+    {
+      "criterion": "C",
+      "pass_": false,
+      "reason": "pattern=nullとindeterminateは妥当で、別帯や得点支持の矛盾はない。しかしtextual_findingのessay concludesが原文位置に反し、根拠を超える評価が最終文へ残った。段落間接続を点検するという確認課題はあるが、この誤りが合格を妨げる。"
+    }
+  ],
+  "blocked_by": [
+    "A",
+    "C"
+  ],
+  "minimal_fix_count": 1,
+  "minimal_fix": "位置・機能の主張（結論・末尾など）を原文の段落/オフセットで裏付けられる場合だけ許可し、裏付けがなければ選択文の内容だけを述べるよう、3Aと3Bの所見を局所範囲に限定する。今回は変更・再生成しない。",
+  "actual_primary_model_requests": 3,
+  "optional_fixed_input_model_requests": 0,
+  "optional_comparison_not_needed": "The unsupported ending claim is directly traceable from the new 3A observation into 3B textual_finding; no extra call is needed to isolate it.",
+  "stop_after_this_run": true,
+  "automatic_prompt_tuning": false,
+  "new_integration_method_implemented": false,
+  "scope": "Fixed two-essay regression only. No general performance conclusion."
+}

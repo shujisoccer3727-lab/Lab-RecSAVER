@@ -1,0 +1,325 @@
+{
+  "method": "Deterministic explicit collective-claim regression checks, not a comprehensive semantic auditor.",
+  "sent_to_3B": false,
+  "rows": [
+    {
+      "record_id": "1868_1__K1",
+      "json_path": "$.score_free_analysis.history_patterns[0].pattern",
+      "exact_candidate_text": "Essays with generally controlled organization and a sufficient range of vocabulary receive a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K1",
+      "json_path": "$.score_free_analysis.history_patterns[0].support[0].interpretation",
+      "exact_candidate_text": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K1",
+      "json_path": "$.score_free_analysis.history_patterns[0].support[1].interpretation",
+      "exact_candidate_text": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K1",
+      "json_path": "$.score_free_analysis.target_evidence[0].evaluative_interpretation",
+      "exact_candidate_text": "The essay's organization is generally controlled, and it uses a sufficient range of vocabulary, which is consistent with a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K1",
+      "json_path": "$.score_free_analysis.target_evidence[0].rubric_connection",
+      "exact_candidate_text": "The essay's organization and vocabulary usage align with the rubric descriptors for a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K1",
+      "json_path": "$.observed_score_alignment.overall_alignment",
+      "exact_candidate_text": "The essay's generally controlled organization and sufficient range of vocabulary align with the observed Overall score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K1",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[0].alignment",
+      "exact_candidate_text": "The essay demonstrates a generally controlled organization, consistent with a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K1",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[1].alignment",
+      "exact_candidate_text": "The essay uses a sufficient range of vocabulary, consistent with a score of 4.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K2",
+      "json_path": "$.score_free_analysis.history_patterns[0].pattern",
+      "exact_candidate_text": "Essays with generally controlled organization and a sufficient range of vocabulary receive a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K2",
+      "json_path": "$.score_free_analysis.history_patterns[0].support[0].interpretation",
+      "exact_candidate_text": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K2",
+      "json_path": "$.score_free_analysis.history_patterns[0].support[1].interpretation",
+      "exact_candidate_text": "The essay shows a generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K2",
+      "json_path": "$.score_free_analysis.target_evidence[0].evaluative_interpretation",
+      "exact_candidate_text": "The essay's organization is generally controlled, and it uses a sufficient range of vocabulary, which is consistent with a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K2",
+      "json_path": "$.score_free_analysis.target_evidence[0].rubric_connection",
+      "exact_candidate_text": "The essay's organization is generally controlled, and it uses a sufficient range of vocabulary, which aligns with the rubric descriptors for a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K2",
+      "json_path": "$.score_free_analysis.decision_explanation",
+      "exact_candidate_text": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, consistent with the observed scores of 3 for both Overall and Traits. This is supported by the historical pattern observed in essays with similar characteristics.",
+      "classification": "explicit_collective_score_claim",
+      "score_conflicts": [
+        {
+          "dimension": "Vocabulary",
+          "claimed_score": 3.0,
+          "observed_score": 4
+        },
+        {
+          "dimension": "Phraseology",
+          "claimed_score": 3.0,
+          "observed_score": 4
+        }
+      ]
+    },
+    {
+      "record_id": "1868_1__K2",
+      "json_path": "$.observed_score_alignment.overall_alignment",
+      "exact_candidate_text": "The essay's generally controlled organization and sufficient range of vocabulary align with the observed Overall score of 3. The Trait scores are consistent with the rubric descriptors for a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K2",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[0].alignment",
+      "exact_candidate_text": "The essay demonstrates a generally controlled organization, consistent with a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "1868_1__K2",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[1].alignment",
+      "exact_candidate_text": "The essay uses a sufficient range of vocabulary, consistent with a score of 4.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K1",
+      "json_path": "$.score_free_analysis.history_patterns[0].pattern",
+      "exact_candidate_text": "Essays with a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions tend to receive an Overall score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K1",
+      "json_path": "$.score_free_analysis.history_patterns[0].support[0].interpretation",
+      "exact_candidate_text": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K1",
+      "json_path": "$.score_free_analysis.history_patterns[0].support[1].interpretation",
+      "exact_candidate_text": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K1",
+      "json_path": "$.score_free_analysis.target_evidence[0].evaluative_interpretation",
+      "exact_candidate_text": "The essay's mix of minor errors is consistent with an Overall score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K1",
+      "json_path": "$.score_free_analysis.target_evidence[0].rubric_connection",
+      "exact_candidate_text": "The essay's mix of minor errors aligns with the rubric descriptors for an Overall score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K1",
+      "json_path": "$.score_free_analysis.decision_explanation",
+      "exact_candidate_text": "The essay demonstrates a mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions, consistent with an Overall score of 3. This is supported by the rater's history of scoring similar essays with a mix of minor errors as Overall 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K1",
+      "json_path": "$.observed_score_alignment.overall_alignment",
+      "exact_candidate_text": "The essay's mix of minor errors in cohesion, syntax, vocabulary, phraseology, grammar, and conventions aligns with the rubric descriptors for an Overall score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K1",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[0].alignment",
+      "exact_candidate_text": "The essay demonstrates some repetitive and mechanical use of cohesive devices, consistent with a Cohesion score of 2.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K1",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[1].alignment",
+      "exact_candidate_text": "The essay demonstrates an appropriate use of a variety of syntactic structures, consistent with a Syntax score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K1",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[2].alignment",
+      "exact_candidate_text": "The essay demonstrates a minimally adequate range of vocabulary for the topic, consistent with a Vocabulary score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K1",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[3].alignment",
+      "exact_candidate_text": "The essay demonstrates evident use of phrases such as idioms, collocations, and lexical bundles but without much variety, consistent with a Phraseology score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K1",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[4].alignment",
+      "exact_candidate_text": "The essay demonstrates some errors in grammar and usage, consistent with a Grammar score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K1",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[5].alignment",
+      "exact_candidate_text": "The essay demonstrates developing use of conventions to convey meaning, with errors in spelling, capitalization, and punctuation that are sometimes distracting, consistent with a Conventions score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.score_free_analysis.history_patterns[0].pattern",
+      "exact_candidate_text": "Essays with limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions tend to receive an Overall score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.score_free_analysis.history_patterns[0].support[0].interpretation",
+      "exact_candidate_text": "The essay demonstrates limited syntactic variety and occasional errors in grammar and usage, consistent with an Overall score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.score_free_analysis.history_patterns[0].support[1].interpretation",
+      "exact_candidate_text": "The essay shows a developing use of conventions and occasional errors in grammar, consistent with an Overall score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.score_free_analysis.history_patterns[0].counterevidence[0].interpretation",
+      "exact_candidate_text": "This essay demonstrates a higher level of syntactic variety and fewer errors, which contrasts with the pattern of essays receiving an Overall score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.score_free_analysis.target_evidence[0].evaluative_interpretation",
+      "exact_candidate_text": "These features are consistent with an Overall score of 3, as they indicate a developing proficiency in language use.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.score_free_analysis.target_evidence[0].rubric_connection",
+      "exact_candidate_text": "The essay shows a range of vocabulary and occasional inaccuracies, consistent with the rubric descriptor for a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.score_free_analysis.decision_explanation",
+      "exact_candidate_text": "The essay's limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions align with the historical pattern observed in essays receiving an Overall score of 3. This is supported by the evidence from the target essay and the history essays with similar characteristics.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.observed_score_alignment.overall_alignment",
+      "exact_candidate_text": "The essay's limited syntactic variety, occasional errors in grammar and usage, and developing use of conventions are consistent with an Overall score of 3. The Trait scores reflect the essay's proficiency level across various dimensions.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[0].alignment",
+      "exact_candidate_text": "The essay demonstrates some repetitive and mechanical use of cohesive devices, consistent with a score of 2.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[1].alignment",
+      "exact_candidate_text": "The essay shows an appropriate use of a variety of syntactic structures, with occasional errors, consistent with a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[2].alignment",
+      "exact_candidate_text": "The essay demonstrates a minimally adequate range of vocabulary for the topic, consistent with a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[3].alignment",
+      "exact_candidate_text": "The essay shows evident use of phrases with some noticeable repetitions and misuses, consistent with a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[4].alignment",
+      "exact_candidate_text": "The essay demonstrates some errors in grammar and usage, consistent with a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    },
+    {
+      "record_id": "4902_1__K2",
+      "json_path": "$.observed_score_alignment.relevant_trait_alignment[5].alignment",
+      "exact_candidate_text": "The essay shows a developing use of conventions with errors that are sometimes distracting, consistent with a score of 3.",
+      "classification": "unattributed_score_reference_not_assigned_to_traits",
+      "score_conflicts": []
+    }
+  ]
+}

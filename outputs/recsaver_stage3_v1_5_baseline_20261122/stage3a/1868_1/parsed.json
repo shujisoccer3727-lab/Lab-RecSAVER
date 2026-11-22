@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "1868:1",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "E1868_1_P001_S001",
+        "E1868_1_P001_S004"
+      ],
+      "feature": "The essay begins with a clear thesis statement in span E1868_1_P001_S001, and it is reinforced with a concluding statement in span E1868_1_P001_S004. The thesis statement introduces the main idea that continuous learning is essential for skill improvement, and the concluding statement reiterates the importance of learning new things to grow as a professional.",
+      "scoring_relevance": "This feature is relevant to the Cohesion dimension because it shows that the essay has a clear and consistent focus, with the opening and closing statements reinforcing the central theme of continuous learning.",
+      "limitation": "This observation does not establish the overall coherence of the essay or the effectiveness of the transitions between paragraphs.",
+      "next_check": "Review the transitions between paragraphs to ensure they maintain the flow of ideas and support the central theme of continuous learning."
+    }
+  ],
+  "insufficient_evidence": []
+}
