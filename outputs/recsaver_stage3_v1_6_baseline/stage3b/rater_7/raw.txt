@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.5",
+  "rater_id": "rater_7",
+  "pattern_status": "insufficient_evidence",
+  "pattern": null,
+  "pattern_limit": "The provided observations do not establish a consistent pattern of scoring behavior across multiple essays. Each observation highlights a specific feature of the essay but does not show a repeated scoring behavior that can be generalized.",
+  "representative_observation_key": "1868:1::O1",
+  "quote_indices": [0, 1],
+  "textual_finding": "The essay starts with a clear thesis statement and reiterates the main idea at the end of the paragraph, showing a clear focus on the importance of continuous learning.",
+  "evidence_limit": "This observation does not establish the overall coherence of the essay, only the cohesion within the first paragraph.",
+  "rubric_review": {
+    "observed_band_ref_id": "Cohesion:3",
+    "comparison_band_ref_id": null,
+    "band_assessment": "indeterminate"
+  },
+  "next_check": {
+    "inspect": "Review the transitions between paragraphs to ensure they maintain the same focus on the importance of continuous learning.",
+    "distinguish": "Check if the writer maintains the connection and develops the argument consistently throughout the essay.",
+    "reconsider_if": null
+  }
+}

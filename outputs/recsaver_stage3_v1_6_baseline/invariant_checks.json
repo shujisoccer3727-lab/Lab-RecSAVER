@@ -1,0 +1,250 @@
+{
+  "total": 50,
+  "passed": 50,
+  "checks": [
+    {
+      "kind": "fixed_source_bytes",
+      "pass_": true
+    },
+    {
+      "kind": "3A_only_text_spans_dimension_names",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "3A_target_source",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "catalog_unchanged",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "Unicode_slices",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "3A_gate_reproducible",
+      "pass_": true,
+      "target": "1868:1"
+    },
+    {
+      "kind": "3A_only_text_spans_dimension_names",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "3A_target_source",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "catalog_unchanged",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "Unicode_slices",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "3A_gate_reproducible",
+      "pass_": true,
+      "target": "4902:1"
+    },
+    {
+      "kind": "3B_actual_handoff",
+      "pass_": true
+    },
+    {
+      "kind": "3B_audit_path_absent",
+      "pass_": true
+    },
+    {
+      "kind": "unique_global_keys",
+      "pass_": true
+    },
+    {
+      "kind": "attached_original_score",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "only_passed_observations",
+      "pass_": true,
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "attached_original_score",
+      "pass_": true,
+      "key": "4902:1::O1"
+    },
+    {
+      "kind": "only_passed_observations",
+      "pass_": true,
+      "key": "4902:1::O1"
+    },
+    {
+      "kind": "attached_original_score",
+      "pass_": true,
+      "key": "4902:1::O2"
+    },
+    {
+      "kind": "only_passed_observations",
+      "pass_": true,
+      "key": "4902:1::O2"
+    },
+    {
+      "kind": "official_reference",
+      "pass_": true,
+      "ref": "Cohesion:3"
+    },
+    {
+      "kind": "official_reference",
+      "pass_": true,
+      "ref": "Cohesion:2"
+    },
+    {
+      "kind": "official_reference",
+      "pass_": true,
+      "ref": "Cohesion:4"
+    },
+    {
+      "kind": "official_reference",
+      "pass_": true,
+      "ref": "Cohesion:1"
+    },
+    {
+      "kind": "official_reference",
+      "pass_": true,
+      "ref": "Grammar:3"
+    },
+    {
+      "kind": "official_reference",
+      "pass_": true,
+      "ref": "Grammar:2"
+    },
+    {
+      "kind": "official_reference",
+      "pass_": true,
+      "ref": "Grammar:4"
+    },
+    {
+      "kind": "render_reproduces",
+      "pass_": true
+    },
+    {
+      "kind": "saved_display_matches",
+      "pass_": true
+    },
+    {
+      "kind": "selected_quote_ID_exact",
+      "pass_": true
+    },
+    {
+      "kind": "selected_quote_ID_exact",
+      "pass_": true
+    },
+    {
+      "kind": "fixed_indeterminate_language",
+      "pass_": true
+    },
+    {
+      "kind": "renderer_no_alternative_band",
+      "pass_": true
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "chat_template_identical",
+      "pass_": true,
+      "request": "stage3a/1868_1",
+      "line_ending_normalization_only": true
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "request": "stage3a/1868_1"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "chat_template_identical",
+      "pass_": true,
+      "request": "stage3a/4902_1",
+      "line_ending_normalization_only": true
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "request": "stage3a/4902_1"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "request": "stage3b/rater_7"
+    },
+    {
+      "kind": "chat_template_identical",
+      "pass_": true,
+      "request": "stage3b/rater_7",
+      "line_ending_normalization_only": true
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "stage3b/rater_7"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "request": "stage3b/rater_7"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "model_snapshot"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "vllm"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "torch"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "transformers"
+    },
+    {
+      "kind": "runtime_identical",
+      "pass_": true,
+      "field": "gpu"
+    }
+  ],
+  "failed": []
+}

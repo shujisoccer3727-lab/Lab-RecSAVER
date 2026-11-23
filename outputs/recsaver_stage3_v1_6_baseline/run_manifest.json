@@ -1,0 +1,176 @@
+{
+  "created_at": "2026-11-24T05:33:24.231864+09:00",
+  "comparison_commit": "bc5d15e3a8a840fb58bc86fa1e9b112c23f6d6ac",
+  "code_commit": "bc5d15e3a8a840fb58bc86fa1e9b112c23f6d6ac",
+  "baseline_path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_5_baseline_20261122",
+  "baseline_files_sha256": {
+    "baseline_decision.json": "5db81d0bfc86ee64d5117d2b12d4f8557c6ccf73f92ff68aa83f7411b191b4d1",
+    "candidate_audit_regression.json": "45d49a8e243b1bfade37a7ddb706d701e364e29af4f29c0138a4c733a5d0d282",
+    "content_review.json": "7b3da77871897a7f9e8a90875cb9dd619280f4cade6b0b3c702dacf207f0623a",
+    "environment.json": "199d7948911435c7a62679ed4de3e09edb6f165ee29b77ef4a5cbe594e05be75",
+    "execution.log": "e928730103e29d0b0bf65764478443e8a2a099004139cd3378de0e38b666324b",
+    "fixed_input.json": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+    "future_group_selection_notes.json": "b5b0765ed07c44a8792d61bf08b376256850ee5b2ba106a99cb1c739eb321245",
+    "invariant_checks.json": "9427fed56e621c7e69d23d9618c8aa41ee1faaa13666ac5078cecfc1ea433242",
+    "isolated_candidate_score_audit.json": "0f46182ae07d49f326c1417123d4291c6493293bc9d827ed6ccf7483e603d045",
+    "observation_results.csv": "659d494cc4e65eca7f413ae8e53a89a6be968ceee625d2b310c883d2f4c62f3a",
+    "pre_gpu_tests.json": "5230b6d0e53b96b6428b2b7fd42cfc63a8bfa06040320f2af1a79f62eb5a691f",
+    "process.json": "48d29d4868b0a12436bd896951f8f892058d4a1f3b5e804bad50ccf90dd0a91a",
+    "README.md": "81c40d0d10814c766a398d221782b29724fe09b6d1fa6e57ea5286a00a19a754",
+    "request_summary.json": "f995fe8bf1004c9e05a7b5f4a5c236f394747836bde5e499bbc121b102ace439",
+    "restored_quotes.json": "6243afce58bada858021719fe279bf898f19c5eb41f258c15b739fe7b7b59dff",
+    "run_manifest.json": "1ca8b67b24e556351b35e6b0bf10dd3a9bf7066fca7870a9d7eee38655e73a1f",
+    "summary.json": "686d75d3924d8ed051e2ce098c506b9a842ff21441f274372348a4169755298d",
+    "validation_report.md": "5cf99c9f5c645292062a7c7203649e0b4db78ef67974496b662b95ff018fa9ac",
+    "code/report.py": "0049525968b7ce7361a3fb2833e1a7f66f8f767708a9ccec4f907428ab3eb65f",
+    "code/run.py": "1b50de868dc60b3f3e89f938cd13f3869cf25d260d2fa406b5c390e725eca8d7",
+    "code/verify.py": "01b9f1f0e4df653300b4b1f4ff2e6d429c6f43956c139b627b8535d68091a4d8",
+    "evidence_spans/1868_1.json": "e61c35a76edd3e01e6b199d9c27712a12295052a25faa46e07c9c0a48efa9fa2",
+    "evidence_spans/4902_1.json": "6c098bfbf2b4086f4113ae6529096cfc51ec751cae11e9c5d3e2152afefd90fc",
+    "handoff/input_3b.json": "6aba2c6418715d5fab86d2763d4c340476d1f793cc4478b421ba81a538438ed4",
+    "handoff/rubric_provenance.json": "7274ea33281185c2fec4b43a435b0327e2cf6cdfd25590928e28c561bb5b65cd",
+    "handoff/summary.json": "bcdadda2f7a0258ed7d85f9a671ad92fd36ec86d9891c16c699a950d7ab2bd2c",
+    "prepared_3a/1868_1/input.json": "8916fd499240465f625928092451bfbbb9a58b416f6b6a42567a16325082cf87",
+    "prepared_3a/4902_1/input.json": "7fabf92729fcc7d75e5edeb5acb55845cdfea35b5a7978f51f962f6d9aae010c",
+    "stage3a/1868_1/generation.json": "7b9af457706d9cf44e7c92fbf2895acc9ef4c14e7ce45bd4e7e028a66adeb261",
+    "stage3a/1868_1/input.json": "8916fd499240465f625928092451bfbbb9a58b416f6b6a42567a16325082cf87",
+    "stage3a/1868_1/integrity.json": "2738445bf0295317b67e7c44ad7b30c2c99e90db1864f66560d9abfeaa721a67",
+    "stage3a/1868_1/mechanical_checks.json": "851d93057d088c1918ebe29843f7a92422440be281c1ec1c1da2ff1ebea32ea1",
+    "stage3a/1868_1/messages.json": "0c43f7357fa1535c68e4926c7e1d0ac1db6ce772f2663000554b645184420bc1",
+    "stage3a/1868_1/parsed.json": "57d0919b559d100516df3708be8b465d597c53637741de28efc0466b259a13fe",
+    "stage3a/1868_1/raw.txt": "1fa6a62c3bf680fd0cd21c0bc93c9bac37d345987013e71b211c07f51c1ab7c3",
+    "stage3a/1868_1/rendered_chat.txt": "09c84808b3d92bb5086da48a095e57ee73c7a2a7ae12110ee16c513d949c8bf8",
+    "stage3a/1868_1/result.json": "477f3faf2eee9344c2c29b049743a2a87251cede847b8526cad43610f9758dd3",
+    "stage3a/1868_1/sampling.json": "7e0d39461c570dc167b1472012b65cdad962cee9883bcf81f1cc1071c685912b",
+    "stage3a/4902_1/generation.json": "8fd3dc67fd787a5405282811e1b2f6ac3653667f0505e9e8627e8c3e84e728f9",
+    "stage3a/4902_1/input.json": "7fabf92729fcc7d75e5edeb5acb55845cdfea35b5a7978f51f962f6d9aae010c",
+    "stage3a/4902_1/integrity.json": "66800c0384a011421f097804ce75765b15fb9f084c470e10bb778fc3f6c881ed",
+    "stage3a/4902_1/mechanical_checks.json": "9c3a1d263bd17b6457c2be84e236205b35cb4518fccc4474e99a82da888698ab",
+    "stage3a/4902_1/messages.json": "ecb206b5febe99febb2a4a29eb24344b1a12872b0f3b0f6ca3656c354bfa1a7e",
+    "stage3a/4902_1/parsed.json": "06fb7d4885ee7f8f36fe8824e953c419dd503fd5f2b451ae13cfce8da4c0788b",
+    "stage3a/4902_1/raw.txt": "8f6c1bdf9bbca02268e68d8967aa250b0405ca24fc0ddd894719a8c3ac852d71",
+    "stage3a/4902_1/rendered_chat.txt": "878788d5b6f75c2ab59779afbe8c06907181b8e764d6debdd0760edc59d61304",
+    "stage3a/4902_1/result.json": "477f3faf2eee9344c2c29b049743a2a87251cede847b8526cad43610f9758dd3",
+    "stage3a/4902_1/sampling.json": "7e0d39461c570dc167b1472012b65cdad962cee9883bcf81f1cc1071c685912b",
+    "stage3b/rater_7/feedback_paragraph.txt": "bf4110bc71cfdd49a8591d886cc11e0701dc18b160f5d8f4e7184d8326962cea",
+    "stage3b/rater_7/generation.json": "30c6308bb69e95986fbd5a0509974e017a72df740e3b35999fab094db45fa84b",
+    "stage3b/rater_7/input.json": "6aba2c6418715d5fab86d2763d4c340476d1f793cc4478b421ba81a538438ed4",
+    "stage3b/rater_7/integrity.json": "7172e5c60c54bd8f4f45dd525512d9a50cc85e3107c48578597ef58b24a544aa",
+    "stage3b/rater_7/messages.json": "fac70461b7612afd45f4b99382de917ae80400337e0fce410cb51130ab84b7c4",
+    "stage3b/rater_7/parsed.json": "27a147072154948f34c3798ab4d48e9df801822b93331a637ebecc37d0654042",
+    "stage3b/rater_7/raw.txt": "464f63f83acd251a08dc1141dcf28f9e52c9cc0e78dfb58911a38fcdb922a875",
+    "stage3b/rater_7/rendered_chat.txt": "600276756ebe044af9fd83b377c2a970b07879143ec5d121e6e6ba1e8b7071de",
+    "stage3b/rater_7/render_result.json": "47d0f1043d813a52739ca7a4ee7913fb03882c401e1013b7deafd8c669ed3a6e",
+    "stage3b/rater_7/result.json": "477f3faf2eee9344c2c29b049743a2a87251cede847b8526cad43610f9758dd3",
+    "stage3b/rater_7/sampling.json": "7e0d39461c570dc167b1472012b65cdad962cee9883bcf81f1cc1071c685912b"
+  },
+  "fixed_input_sha256": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+  "prompts": {
+    "a": {
+      "path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03a_case_evidence_review_v1_6.txt",
+      "windows_path": "C:/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03a_case_evidence_review_v1_6.txt",
+      "sha256": "c4012bcf6f22b084dda239bc9b8988407d9ea55a763607800aa84e00704826e2",
+      "same_name_locations": [
+        "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03a_case_evidence_review_v1_6.txt"
+      ]
+    },
+    "b": {
+      "path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03b_integrated_feedback_v1_6.txt",
+      "windows_path": "C:/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03b_integrated_feedback_v1_6.txt",
+      "sha256": "ceea422f7c58ab6e6f73f94b49fcdff06421f575b262325793f98f12c2f9c82b",
+      "same_name_locations": [
+        "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/prompts/en/recsaver_03b_integrated_feedback_v1_6.txt"
+      ]
+    }
+  },
+  "span_catalogs": {
+    "1868:1": {
+      "source": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_5_baseline_20261122/evidence_spans/1868_1.json",
+      "sha256": "e61c35a76edd3e01e6b199d9c27712a12295052a25faa46e07c9c0a48efa9fa2"
+    },
+    "4902:1": {
+      "source": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_5_baseline_20261122/evidence_spans/4902_1.json",
+      "sha256": "6c098bfbf2b4086f4113ae6529096cfc51ec751cae11e9c5d3e2152afefd90fc"
+    }
+  },
+  "model": {
+    "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+    "quantization": "gptq_marlin",
+    "tensor_parallel_size": 1,
+    "max_model_len": 32768,
+    "gpu_memory_utilization": 0.9,
+    "runtime_options": {
+      "max_num_seqs": 8,
+      "enforce_eager": true,
+      "enable_prefix_caching": true
+    }
+  },
+  "generation": {
+    "temperature": 0.2,
+    "top_p": 0.8
+  },
+  "max_tokens": {
+    "stage1": 6500,
+    "stage2": 1200,
+    "stage3": 5000
+  },
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.8,
+    "max_tokens": 5000,
+    "seed": 925847335
+  },
+  "seed": 925847335,
+  "system_message": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+  "chat": "One user message with canonical prompt. Existing tokenizer chat template inserts the recorded default system message; no task-specific conflict found. Full rendered chat saved.",
+  "code_sha256_before": "e6c3c62ced3cd67f18a144c8e6fe7b55a20a5eaee3625763f040c6d4ab442e50",
+  "planned_requests": {
+    "stage3a": 2,
+    "stage3b": 1,
+    "optional_fixed_3b": 0
+  },
+  "differences": [
+    "Only the specified local-evidence/passage-role English additions in the two v1.6 canonical prompts; output contract remains 1.5.",
+    "Output path and comparison source updated to v1.5 commit bc5d15e3a8a840fb58bc86fa1e9b112c23f6d6ac; runner, handoff and renderer reused.",
+    "No position metadata added to 3B; no candidate-audit prose supplied; no self-verification or SLM revision stage."
+  ],
+  "baseline_unchanged": true,
+  "prompts_unchanged": true,
+  "implementation_files_sha256": {
+    "code/final_integrity.py": "23c98b927bb8f71eb289e367fbb6cf9a181be6f912d51bfe1d61351e0c0c563f",
+    "code/report.py": "1983c251d6e5abd46c7108ff0b3d86d17c41e5ba403021ad4a988b604c882cfb",
+    "code/run.py": "e6c3c62ced3cd67f18a144c8e6fe7b55a20a5eaee3625763f040c6d4ab442e50",
+    "code/setup_snapshot.py": "bda15ba9d71f7d4925c3c367dbe82a71fe74a43b72cd2e62485d302ae4f36ccc",
+    "code/source_checks.py": "79a12ba698321d46b8ec312622112b21ab67f6e0ab157d825e263aa2ae803ba6",
+    "code/verify.py": "8a9db5fa539d6a860108b0f107cdf4759d4b19e2694908bdb1f44850d74dc5c2"
+  },
+  "actual_requests": 3,
+  "last_checked_at": "2026-11-24T05:43:24.004684+09:00",
+  "request_invariants_passed": true,
+  "stage1_calls": 0,
+  "stage2_calls": 0,
+  "actual_requests_by_condition": {
+    "stage3a": 2,
+    "stage3b": 1
+  },
+  "optional_fixed_3B_calls": 0,
+  "reused_engine": {
+    "path": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_prompt_v1_1_validation_20261120/code/run.py",
+    "sha256": "6d691ac18ea8ce9a056565cb22b59eb0ff80deba43441d0d5312215db698ba65"
+  },
+  "baseline_registered": false,
+  "minimum_gate_pass": false,
+  "blocked_by_criteria": [
+    "A",
+    "B"
+  ],
+  "decision_path": "baseline_decision.json",
+  "next_stage": "今回の実行で停止。残った障害と根拠を報告。",
+  "source_checks_path": "source_checks.json",
+  "prompt_revision": "1.6",
+  "output_schema_version": "1.5",
+  "generation_request_count": 3,
+  "additional_model_judgments": 0,
+  "self_verification_calls": 0,
+  "slm_revision_calls": 0
+}

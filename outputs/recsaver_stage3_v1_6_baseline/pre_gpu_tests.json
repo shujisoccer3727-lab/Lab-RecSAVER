@@ -1,0 +1,810 @@
+{
+  "timestamp": "2026-11-24T05:33:57.299577+09:00",
+  "before_gpu": true,
+  "actual_model_calls": 0,
+  "synthetic_decision_fields_not_old_model_success": true,
+  "total": 11,
+  "passed": 11,
+  "cases": [
+    {
+      "name": "saved quote, synthetic v1.5 decisions",
+      "validation_fixture": true,
+      "input": {
+        "schema_version": "1.5",
+        "rater_id": "rater_7",
+        "pattern_status": "insufficient_evidence",
+        "pattern": null,
+        "pattern_limit": "No comparable evidence of feature weighting.",
+        "representative_observation_key": "4902:1::O1",
+        "quote_indices": [
+          1
+        ],
+        "textual_finding": "The passage states a reason for agreement.",
+        "evidence_limit": "Only this local relation is shown.",
+        "rubric_review": {
+          "observed_band_ref_id": "Cohesion:2",
+          "comparison_band_ref_id": null,
+          "band_assessment": "indeterminate"
+        },
+        "next_check": {
+          "inspect": "A following explanation of the same claim.",
+          "distinguish": "Whether the relation is stated explicitly.",
+          "reconsider_if": null
+        }
+      },
+      "result": {
+        "pass_": true,
+        "schema_errors": [],
+        "checks": [
+          {
+            "kind": "rater",
+            "pass_": true
+          },
+          {
+            "kind": "representative_key",
+            "pass_": true
+          },
+          {
+            "kind": "indices",
+            "pass_": true
+          },
+          {
+            "kind": "representative_fields",
+            "pass_": true
+          },
+          {
+            "kind": "abstention",
+            "pass_": true
+          },
+          {
+            "kind": "observed_reference",
+            "pass_": true
+          },
+          {
+            "kind": "comparison_exists",
+            "pass_": true
+          },
+          {
+            "kind": "no_comparison_condition",
+            "pass_": true
+          }
+        ],
+        "comparison_direction": "none",
+        "feedback_paragraph": "A scoring pattern cannot be established from these cases. No comparable evidence of feature weighting. In essay 4902:1, the relevant excerpt is “The reason why i agree with this quote is because people now a day don't try to be them self.” The passage states a reason for agreement. The recorded Cohesion score is 2. The official descriptor for Cohesion:2 is “Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.” This evidence alone does not establish whether that band is appropriate. Only this local relation is shown. Next inspect: A following explanation of the same claim. Check: Whether the relation is stated explicitly.",
+        "selected_evidence": [
+          {
+            "observation_key": "4902:1::O1",
+            "quote_index": 1,
+            "target_essay_id": "4902:1",
+            "exact_quote": "The reason why i agree with this quote is because people now a day don't try to be them self."
+          }
+        ],
+        "semantic_support_not_certified": true
+      },
+      "expected_pass": true,
+      "test_passed": true
+    },
+    {
+      "name": "4902 original opening space",
+      "validation_fixture": true,
+      "input": {
+        "schema_version": "1.5",
+        "rater_id": "rater_7",
+        "pattern_status": "insufficient_evidence",
+        "pattern": null,
+        "pattern_limit": "No comparable evidence of feature weighting.",
+        "representative_observation_key": "4902:1::O1",
+        "quote_indices": [
+          0
+        ],
+        "textual_finding": "The passage states a reason for agreement.",
+        "evidence_limit": "Only this local relation is shown.",
+        "rubric_review": {
+          "observed_band_ref_id": "Cohesion:2",
+          "comparison_band_ref_id": null,
+          "band_assessment": "indeterminate"
+        },
+        "next_check": {
+          "inspect": "A following explanation of the same claim.",
+          "distinguish": "Whether the relation is stated explicitly.",
+          "reconsider_if": null
+        }
+      },
+      "result": {
+        "pass_": true,
+        "schema_errors": [],
+        "checks": [
+          {
+            "kind": "rater",
+            "pass_": true
+          },
+          {
+            "kind": "representative_key",
+            "pass_": true
+          },
+          {
+            "kind": "indices",
+            "pass_": true
+          },
+          {
+            "kind": "representative_fields",
+            "pass_": true
+          },
+          {
+            "kind": "abstention",
+            "pass_": true
+          },
+          {
+            "kind": "observed_reference",
+            "pass_": true
+          },
+          {
+            "kind": "comparison_exists",
+            "pass_": true
+          },
+          {
+            "kind": "no_comparison_condition",
+            "pass_": true
+          }
+        ],
+        "comparison_direction": "none",
+        "feedback_paragraph": "A scoring pattern cannot be established from these cases. No comparable evidence of feature weighting. In essay 4902:1, the relevant excerpt is “I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"” The passage states a reason for agreement. The recorded Cohesion score is 2. The official descriptor for Cohesion:2 is “Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.” This evidence alone does not establish whether that band is appropriate. Only this local relation is shown. Next inspect: A following explanation of the same claim. Check: Whether the relation is stated explicitly.",
+        "selected_evidence": [
+          {
+            "observation_key": "4902:1::O1",
+            "quote_index": 0,
+            "target_essay_id": "4902:1",
+            "exact_quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\""
+          }
+        ],
+        "semantic_support_not_certified": true
+      },
+      "expected_pass": true,
+      "test_passed": true
+    },
+    {
+      "name": "invalid indices [-1]",
+      "validation_fixture": true,
+      "input": {
+        "schema_version": "1.5",
+        "rater_id": "rater_7",
+        "pattern_status": "insufficient_evidence",
+        "pattern": null,
+        "pattern_limit": "No comparable evidence of feature weighting.",
+        "representative_observation_key": "4902:1::O1",
+        "quote_indices": [
+          -1
+        ],
+        "textual_finding": "The passage states a reason for agreement.",
+        "evidence_limit": "Only this local relation is shown.",
+        "rubric_review": {
+          "observed_band_ref_id": "Cohesion:2",
+          "comparison_band_ref_id": null,
+          "band_assessment": "indeterminate"
+        },
+        "next_check": {
+          "inspect": "A following explanation of the same claim.",
+          "distinguish": "Whether the relation is stated explicitly.",
+          "reconsider_if": null
+        }
+      },
+      "result": {
+        "pass_": false,
+        "schema_errors": [],
+        "checks": [
+          {
+            "kind": "rater",
+            "pass_": true
+          },
+          {
+            "kind": "representative_key",
+            "pass_": true
+          },
+          {
+            "kind": "indices",
+            "pass_": false
+          },
+          {
+            "kind": "representative_fields",
+            "pass_": true
+          },
+          {
+            "kind": "abstention",
+            "pass_": true
+          },
+          {
+            "kind": "observed_reference",
+            "pass_": true
+          },
+          {
+            "kind": "comparison_exists",
+            "pass_": true
+          },
+          {
+            "kind": "no_comparison_condition",
+            "pass_": true
+          }
+        ],
+        "comparison_direction": "none",
+        "feedback_paragraph": null,
+        "selected_evidence": [],
+        "semantic_support_not_certified": true
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "invalid indices [999]",
+      "validation_fixture": true,
+      "input": {
+        "schema_version": "1.5",
+        "rater_id": "rater_7",
+        "pattern_status": "insufficient_evidence",
+        "pattern": null,
+        "pattern_limit": "No comparable evidence of feature weighting.",
+        "representative_observation_key": "4902:1::O1",
+        "quote_indices": [
+          999
+        ],
+        "textual_finding": "The passage states a reason for agreement.",
+        "evidence_limit": "Only this local relation is shown.",
+        "rubric_review": {
+          "observed_band_ref_id": "Cohesion:2",
+          "comparison_band_ref_id": null,
+          "band_assessment": "indeterminate"
+        },
+        "next_check": {
+          "inspect": "A following explanation of the same claim.",
+          "distinguish": "Whether the relation is stated explicitly.",
+          "reconsider_if": null
+        }
+      },
+      "result": {
+        "pass_": false,
+        "schema_errors": [],
+        "checks": [
+          {
+            "kind": "rater",
+            "pass_": true
+          },
+          {
+            "kind": "representative_key",
+            "pass_": true
+          },
+          {
+            "kind": "indices",
+            "pass_": false
+          },
+          {
+            "kind": "representative_fields",
+            "pass_": true
+          },
+          {
+            "kind": "abstention",
+            "pass_": true
+          },
+          {
+            "kind": "observed_reference",
+            "pass_": true
+          },
+          {
+            "kind": "comparison_exists",
+            "pass_": true
+          },
+          {
+            "kind": "no_comparison_condition",
+            "pass_": true
+          }
+        ],
+        "comparison_direction": "none",
+        "feedback_paragraph": null,
+        "selected_evidence": [],
+        "semantic_support_not_certified": true
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "invalid indices [True]",
+      "validation_fixture": true,
+      "input": {
+        "schema_version": "1.5",
+        "rater_id": "rater_7",
+        "pattern_status": "insufficient_evidence",
+        "pattern": null,
+        "pattern_limit": "No comparable evidence of feature weighting.",
+        "representative_observation_key": "4902:1::O1",
+        "quote_indices": [
+          true
+        ],
+        "textual_finding": "The passage states a reason for agreement.",
+        "evidence_limit": "Only this local relation is shown.",
+        "rubric_review": {
+          "observed_band_ref_id": "Cohesion:2",
+          "comparison_band_ref_id": null,
+          "band_assessment": "indeterminate"
+        },
+        "next_check": {
+          "inspect": "A following explanation of the same claim.",
+          "distinguish": "Whether the relation is stated explicitly.",
+          "reconsider_if": null
+        }
+      },
+      "result": {
+        "pass_": false,
+        "schema_errors": [],
+        "checks": [
+          {
+            "kind": "rater",
+            "pass_": true
+          },
+          {
+            "kind": "representative_key",
+            "pass_": true
+          },
+          {
+            "kind": "indices",
+            "pass_": false
+          },
+          {
+            "kind": "representative_fields",
+            "pass_": true
+          },
+          {
+            "kind": "abstention",
+            "pass_": true
+          },
+          {
+            "kind": "observed_reference",
+            "pass_": true
+          },
+          {
+            "kind": "comparison_exists",
+            "pass_": true
+          },
+          {
+            "kind": "no_comparison_condition",
+            "pass_": true
+          }
+        ],
+        "comparison_direction": "none",
+        "feedback_paragraph": null,
+        "selected_evidence": [],
+        "semantic_support_not_certified": true
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "invalid indices [0.5]",
+      "validation_fixture": true,
+      "input": {
+        "schema_version": "1.5",
+        "rater_id": "rater_7",
+        "pattern_status": "insufficient_evidence",
+        "pattern": null,
+        "pattern_limit": "No comparable evidence of feature weighting.",
+        "representative_observation_key": "4902:1::O1",
+        "quote_indices": [
+          0.5
+        ],
+        "textual_finding": "The passage states a reason for agreement.",
+        "evidence_limit": "Only this local relation is shown.",
+        "rubric_review": {
+          "observed_band_ref_id": "Cohesion:2",
+          "comparison_band_ref_id": null,
+          "band_assessment": "indeterminate"
+        },
+        "next_check": {
+          "inspect": "A following explanation of the same claim.",
+          "distinguish": "Whether the relation is stated explicitly.",
+          "reconsider_if": null
+        }
+      },
+      "result": {
+        "pass_": false,
+        "schema_errors": [],
+        "checks": [
+          {
+            "kind": "rater",
+            "pass_": true
+          },
+          {
+            "kind": "representative_key",
+            "pass_": true
+          },
+          {
+            "kind": "indices",
+            "pass_": false
+          },
+          {
+            "kind": "representative_fields",
+            "pass_": true
+          },
+          {
+            "kind": "abstention",
+            "pass_": true
+          },
+          {
+            "kind": "observed_reference",
+            "pass_": true
+          },
+          {
+            "kind": "comparison_exists",
+            "pass_": true
+          },
+          {
+            "kind": "no_comparison_condition",
+            "pass_": true
+          }
+        ],
+        "comparison_direction": "none",
+        "feedback_paragraph": null,
+        "selected_evidence": [],
+        "semantic_support_not_certified": true
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "invalid indices []",
+      "validation_fixture": true,
+      "input": {
+        "schema_version": "1.5",
+        "rater_id": "rater_7",
+        "pattern_status": "insufficient_evidence",
+        "pattern": null,
+        "pattern_limit": "No comparable evidence of feature weighting.",
+        "representative_observation_key": "4902:1::O1",
+        "quote_indices": [],
+        "textual_finding": "The passage states a reason for agreement.",
+        "evidence_limit": "Only this local relation is shown.",
+        "rubric_review": {
+          "observed_band_ref_id": "Cohesion:2",
+          "comparison_band_ref_id": null,
+          "band_assessment": "indeterminate"
+        },
+        "next_check": {
+          "inspect": "A following explanation of the same claim.",
+          "distinguish": "Whether the relation is stated explicitly.",
+          "reconsider_if": null
+        }
+      },
+      "result": {
+        "pass_": false,
+        "schema_errors": [],
+        "checks": [
+          {
+            "kind": "rater",
+            "pass_": true
+          },
+          {
+            "kind": "representative_key",
+            "pass_": true
+          },
+          {
+            "kind": "indices",
+            "pass_": false
+          },
+          {
+            "kind": "representative_fields",
+            "pass_": true
+          },
+          {
+            "kind": "abstention",
+            "pass_": true
+          },
+          {
+            "kind": "observed_reference",
+            "pass_": true
+          },
+          {
+            "kind": "comparison_exists",
+            "pass_": true
+          },
+          {
+            "kind": "no_comparison_condition",
+            "pass_": true
+          }
+        ],
+        "comparison_direction": "none",
+        "feedback_paragraph": null,
+        "selected_evidence": [],
+        "semantic_support_not_certified": true
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "invalid indices [0, 0]",
+      "validation_fixture": true,
+      "input": {
+        "schema_version": "1.5",
+        "rater_id": "rater_7",
+        "pattern_status": "insufficient_evidence",
+        "pattern": null,
+        "pattern_limit": "No comparable evidence of feature weighting.",
+        "representative_observation_key": "4902:1::O1",
+        "quote_indices": [
+          0,
+          0
+        ],
+        "textual_finding": "The passage states a reason for agreement.",
+        "evidence_limit": "Only this local relation is shown.",
+        "rubric_review": {
+          "observed_band_ref_id": "Cohesion:2",
+          "comparison_band_ref_id": null,
+          "band_assessment": "indeterminate"
+        },
+        "next_check": {
+          "inspect": "A following explanation of the same claim.",
+          "distinguish": "Whether the relation is stated explicitly.",
+          "reconsider_if": null
+        }
+      },
+      "result": {
+        "pass_": false,
+        "schema_errors": [],
+        "checks": [
+          {
+            "kind": "rater",
+            "pass_": true
+          },
+          {
+            "kind": "representative_key",
+            "pass_": true
+          },
+          {
+            "kind": "indices",
+            "pass_": false
+          },
+          {
+            "kind": "representative_fields",
+            "pass_": true
+          },
+          {
+            "kind": "abstention",
+            "pass_": true
+          },
+          {
+            "kind": "observed_reference",
+            "pass_": true
+          },
+          {
+            "kind": "comparison_exists",
+            "pass_": true
+          },
+          {
+            "kind": "no_comparison_condition",
+            "pass_": true
+          }
+        ],
+        "comparison_direction": "none",
+        "feedback_paragraph": null,
+        "selected_evidence": [],
+        "semantic_support_not_certified": true
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "unknown key",
+      "validation_fixture": true,
+      "input": {
+        "schema_version": "1.5",
+        "rater_id": "rater_7",
+        "pattern_status": "insufficient_evidence",
+        "pattern": null,
+        "pattern_limit": "No comparable evidence of feature weighting.",
+        "representative_observation_key": "unknown",
+        "quote_indices": [
+          1
+        ],
+        "textual_finding": "The passage states a reason for agreement.",
+        "evidence_limit": "Only this local relation is shown.",
+        "rubric_review": {
+          "observed_band_ref_id": "Cohesion:2",
+          "comparison_band_ref_id": null,
+          "band_assessment": "indeterminate"
+        },
+        "next_check": {
+          "inspect": "A following explanation of the same claim.",
+          "distinguish": "Whether the relation is stated explicitly.",
+          "reconsider_if": null
+        }
+      },
+      "result": {
+        "pass_": false,
+        "schema_errors": [],
+        "checks": [
+          {
+            "kind": "rater",
+            "pass_": true
+          },
+          {
+            "kind": "representative_key",
+            "pass_": false
+          },
+          {
+            "kind": "indices",
+            "pass_": false
+          },
+          {
+            "kind": "representative_fields",
+            "pass_": true
+          },
+          {
+            "kind": "abstention",
+            "pass_": true
+          },
+          {
+            "kind": "observed_reference",
+            "pass_": false
+          },
+          {
+            "kind": "comparison_exists",
+            "pass_": true
+          },
+          {
+            "kind": "no_comparison_condition",
+            "pass_": true
+          }
+        ],
+        "comparison_direction": "none",
+        "feedback_paragraph": null,
+        "selected_evidence": [],
+        "semantic_support_not_certified": true
+      },
+      "expected_pass": false,
+      "test_passed": true
+    },
+    {
+      "name": "no representative",
+      "validation_fixture": true,
+      "input": {
+        "schema_version": "1.5",
+        "rater_id": "rater_7",
+        "pattern_status": "insufficient_evidence",
+        "pattern": null,
+        "pattern_limit": "No comparable evidence of feature weighting.",
+        "representative_observation_key": null,
+        "quote_indices": [],
+        "textual_finding": null,
+        "evidence_limit": null,
+        "rubric_review": {
+          "observed_band_ref_id": null,
+          "comparison_band_ref_id": null,
+          "band_assessment": "indeterminate"
+        },
+        "next_check": {
+          "inspect": "A following explanation of the same claim.",
+          "distinguish": "Whether the relation is stated explicitly.",
+          "reconsider_if": null
+        }
+      },
+      "result": {
+        "pass_": true,
+        "schema_errors": [],
+        "checks": [
+          {
+            "kind": "rater",
+            "pass_": true
+          },
+          {
+            "kind": "representative_key",
+            "pass_": true
+          },
+          {
+            "kind": "indices",
+            "pass_": true
+          },
+          {
+            "kind": "representative_fields",
+            "pass_": true
+          },
+          {
+            "kind": "abstention",
+            "pass_": true
+          },
+          {
+            "kind": "observed_reference",
+            "pass_": true
+          },
+          {
+            "kind": "comparison_exists",
+            "pass_": true
+          },
+          {
+            "kind": "no_comparison_condition",
+            "pass_": true
+          },
+          {
+            "kind": "no_representative_refs",
+            "pass_": true
+          }
+        ],
+        "comparison_direction": "none",
+        "feedback_paragraph": "A scoring pattern cannot be established from these cases. No comparable evidence of feature weighting. Next inspect: A following explanation of the same claim. Check: Whether the relation is stated explicitly.",
+        "selected_evidence": [],
+        "semantic_support_not_certified": true
+      },
+      "expected_pass": true,
+      "test_passed": true
+    },
+    {
+      "name": "nonadjacent band",
+      "validation_fixture": true,
+      "input": {
+        "schema_version": "1.5",
+        "rater_id": "rater_7",
+        "pattern_status": "insufficient_evidence",
+        "pattern": null,
+        "pattern_limit": "No comparable evidence of feature weighting.",
+        "representative_observation_key": "4902:1::O1",
+        "quote_indices": [
+          1
+        ],
+        "textual_finding": "The passage states a reason for agreement.",
+        "evidence_limit": "Only this local relation is shown.",
+        "rubric_review": {
+          "observed_band_ref_id": "Cohesion:2",
+          "comparison_band_ref_id": "Cohesion:4",
+          "band_assessment": "indeterminate"
+        },
+        "next_check": {
+          "inspect": "A following explanation of the same claim.",
+          "distinguish": "Whether the relation is stated explicitly.",
+          "reconsider_if": "Devices connect ideas appropriately."
+        }
+      },
+      "result": {
+        "pass_": false,
+        "schema_errors": [],
+        "checks": [
+          {
+            "kind": "rater",
+            "pass_": true
+          },
+          {
+            "kind": "representative_key",
+            "pass_": true
+          },
+          {
+            "kind": "indices",
+            "pass_": true
+          },
+          {
+            "kind": "representative_fields",
+            "pass_": true
+          },
+          {
+            "kind": "abstention",
+            "pass_": true
+          },
+          {
+            "kind": "observed_reference",
+            "pass_": true
+          },
+          {
+            "kind": "comparison_exists",
+            "pass_": true
+          },
+          {
+            "kind": "same_dimension_adjacent_band",
+            "pass_": false
+          },
+          {
+            "kind": "comparison_condition",
+            "pass_": true
+          }
+        ],
+        "comparison_direction": "higher",
+        "feedback_paragraph": null,
+        "selected_evidence": [],
+        "semantic_support_not_certified": true
+      },
+      "expected_pass": false,
+      "test_passed": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "4902:1",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": ["E4902_1_P001_S001", "E4902_1_P001_S002"],
+      "feature": "The essay begins with a direct reference to Ralph Waldo Emerson's quote and explicitly states the reason for agreeing with it.",
+      "scoring_relevance": "This feature demonstrates a clear connection between the quote and the writer's stance, which is relevant to the cohesion dimension as it shows a logical progression from the introduction of the quote to the writer's agreement.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the initial connection between the quote and the writer's stance.",
+      "next_check": "Review the subsequent paragraphs to see if the writer maintains this connection and develops the argument consistently."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Grammar",
+      "evidence_span_ids": ["E4902_1_P001_S002"],
+      "feature": "The sentence contains a nonstandard verb form: 'don't try to be them self.'",
+      "scoring_relevance": "This feature is relevant to the grammar dimension as it indicates a grammatical error in subject-verb agreement and pronoun usage.",
+      "limitation": "This observation does not provide information about the frequency of such errors throughout the essay.",
+      "next_check": "Check other sentences for similar grammatical errors to assess the overall grammatical accuracy of the essay."
+    }
+  ],
+  "insufficient_evidence": []
+}

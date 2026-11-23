@@ -1,0 +1,44 @@
+{
+  "target_essay_id": "1868:1",
+  "positions": [
+    {
+      "span_id": "E1868_1_P001",
+      "paragraph_id": "E1868_1_P001",
+      "start": 0,
+      "end": 765,
+      "text": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.",
+      "kind": "paragraph"
+    },
+    {
+      "span_id": "E1868_1_P001_S001",
+      "paragraph_id": "E1868_1_P001",
+      "start": 0,
+      "end": 77,
+      "text": "The main piece to improve your skills is during the process of keep learning.",
+      "kind": "short_contiguous"
+    },
+    {
+      "span_id": "E1868_1_P001_S004",
+      "paragraph_id": "E1868_1_P001",
+      "start": 368,
+      "end": 610,
+      "text": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career.",
+      "kind": "short_contiguous"
+    },
+    {
+      "span_id": "E1868_1_P001_S005",
+      "paragraph_id": "E1868_1_P001",
+      "start": 611,
+      "end": 765,
+      "text": "The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.",
+      "kind": "short_contiguous"
+    }
+  ],
+  "selected_span_ids": [
+    "E1868_1_P001_S001",
+    "E1868_1_P001_S004"
+  ],
+  "claimed_quote_actual_span_id": "E1868_1_P001_S005",
+  "unselected_span_not_counted_as_support": true,
+  "semantic_review": "解消せず。v1.5のessay concludesという答案全体の結論ラベルは今回は消えたが、選択S004を段落末とする別の位置誤認が残った。3Aは本来S005にある文をfeatureに引用してS004を選択し、3Bは実際に渡されたS004のquotesを選びながらat the end of the paragraphを引き継いだ。S004は第1段落[0,765)内の[368,610)で、後続S005[611,765)がある。答案全長は5509文字。『前回と同じ結論語が消えた』だけで回帰解消としない。"
+}

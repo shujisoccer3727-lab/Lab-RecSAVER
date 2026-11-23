@@ -1,0 +1,44 @@
+{
+  "accepted_as_baseline": false,
+  "status": "minimum_gate_not_met",
+  "criteria": [
+    {
+      "criterion": "A",
+      "pass_": false,
+      "reason_ja": "1868の唯一の所見は選択外S005の文を引用し、選択S004との局所接続を正しく説明していない。4902はO1が有効だがO2は主語・動詞一致の誤診を含む。完全な局所所見がある答案は1/2で未達。"
+    },
+    {
+      "criterion": "B",
+      "pass_": false,
+      "reason_ja": "引用・答案ID・本人Cohesion=3・公式Cohesion:3の文字列と参照は一致する。しかし代表1868のS004は段落末ではなく、最終所見のat the end of the paragraphを意味的に支持しない。文字列一致=true、意味的支持=falseのためB未達。"
+    },
+    {
+      "criterion": "C",
+      "pass_": true,
+      "reason_ja": "傾向はinsufficient_evidence、得点帯はindeterminateとして適切に保留。別帯なし。段落間の移行で継続学習という話題の接続・議論の展開を確認する1件の行動を示す。位置に関する誤りはBの意味的支持の未達として別記し、保留自体は合格とした。"
+    }
+  ],
+  "B_string_reference_match": true,
+  "B_semantic_support": false,
+  "blocked_by": [
+    "A",
+    "B"
+  ],
+  "actual_primary_model_requests": 3,
+  "actual_requests_by_condition": {
+    "stage3a": 2,
+    "stage3b": 1
+  },
+  "stop_after_this_run": true,
+  "prompt_adjustment_stopped": true,
+  "automatic_prompt_tuning": false,
+  "new_integration_method_implemented": false,
+  "self_verification_calls": 0,
+  "slm_revision_calls": 0,
+  "scope": "固定2答案での回帰確認。一般性能・複数seed安定性は未評価。",
+  "remaining_obstacles": [
+    "1868:1::O1のfeature内引用が選択S004でなく選択外S005に属するため、3A所見全体が選択根拠に収まらない。",
+    "3Bが出典一致だけでは保証されない段落末位置を主張し、選択引用が最終所見を意味的に支持しない。"
+  ],
+  "next_stage": "今回の実行で停止。残った障害と根拠を報告。"
+}

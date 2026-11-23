@@ -1,0 +1,47 @@
+[
+  {
+    "request": "stage3a/1868_1",
+    "json_valid": true,
+    "schema_valid": true,
+    "errors": [],
+    "truncated": false,
+    "started": "2026-11-24T05:39:14.651598+09:00",
+    "finished": "2026-11-24T05:39:59.724015+09:00",
+    "attempt": 0,
+    "seed": 925847335,
+    "finish_reason": "stop",
+    "prompt_tokens": 11534,
+    "output_tokens": 261,
+    "raw_sha256": "09310a9890c862a2eb24750edccf9eb4dce9b39d6da5d1b3993eca3eaa920c07"
+  },
+  {
+    "request": "stage3a/4902_1",
+    "json_valid": true,
+    "schema_valid": true,
+    "errors": [],
+    "truncated": false,
+    "started": "2026-11-24T05:39:14.651598+09:00",
+    "finished": "2026-11-24T05:39:59.773581+09:00",
+    "attempt": 0,
+    "seed": 925847335,
+    "finish_reason": "stop",
+    "prompt_tokens": 4365,
+    "output_tokens": 386,
+    "raw_sha256": "5b10ff354eb1257d31e377b5afcd5d50c912b54a7753e6b2eff0ace421999107"
+  },
+  {
+    "request": "stage3b/rater_7",
+    "json_valid": true,
+    "schema_valid": true,
+    "errors": [],
+    "truncated": false,
+    "started": "2026-11-24T05:40:00.035401+09:00",
+    "finished": "2026-11-24T05:40:27.304279+09:00",
+    "attempt": 0,
+    "seed": 925847335,
+    "finish_reason": "stop",
+    "prompt_tokens": 2331,
+    "output_tokens": 289,
+    "raw_sha256": "06aab674a10be56b95802fc6e28a3c9f5651c2736b285475468a1dfba94980b8"
+  }
+]
