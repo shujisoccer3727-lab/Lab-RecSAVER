@@ -1,0 +1,803 @@
+[
+  {
+    "review_id": "R9f960a91",
+    "case_group": "G2",
+    "decision": {
+      "schema_version": "1.5",
+      "rater_id": "rater_7",
+      "pattern_status": "insufficient_evidence",
+      "pattern": null,
+      "pattern_limit": "The provided observations do not show a consistent pattern of scoring behavior across multiple essays for the same feature.",
+      "representative_observation_key": "8699:1::O1",
+      "quote_indices": [
+        0
+      ],
+      "textual_finding": "The sentence contains grammatical errors, including subject-verb agreement issues and incorrect use of articles.",
+      "evidence_limit": "This observation does not provide information about the overall grammatical accuracy of the essay, only about this specific sentence.",
+      "rubric_review": {
+        "observed_band_ref_id": "Grammar:2",
+        "comparison_band_ref_id": null,
+        "band_assessment": "indeterminate"
+      },
+      "next_check": {
+        "inspect": "Other sentences in the essay to check for similar grammatical errors, particularly subject-verb agreement and article usage.",
+        "distinguish": "The frequency and impact of grammatical errors on the overall clarity and coherence of the essay.",
+        "reconsider_if": null
+      }
+    },
+    "display_text": "A scoring pattern cannot be established from these cases. The provided observations do not show a consistent pattern of scoring behavior across multiple essays for the same feature. In essay 8699:1, the relevant excerpt is “Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it.” The sentence contains grammatical errors, including subject-verb agreement issues and incorrect use of articles. The recorded Grammar score is 2. The official descriptor for Grammar:2 is “Many errors in grammar and usage.” This evidence alone does not establish whether that band is appropriate. This observation does not provide information about the overall grammatical accuracy of the essay, only about this specific sentence. Next inspect: Other sentences in the essay to check for similar grammatical errors, particularly subject-verb agreement and article usage. Check: The frequency and impact of grammatical errors on the overall clarity and coherence of the essay.",
+    "selected_evidence": [
+      {
+        "observation_key": "8699:1::O1",
+        "quote_index": 0,
+        "target_essay_id": "8699:1",
+        "exact_quote": "Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it."
+      }
+    ],
+    "available_observations": [
+      {
+        "observation_id": "O1",
+        "dimension": "Grammar",
+        "evidence_span_ids": [
+          "E8699_1_P003_S001"
+        ],
+        "feature": "The sentence 'Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it.' contains grammatical errors, including subject-verb agreement issues ('We are constantly' and 'We will not ever found it') and incorrect use of articles.",
+        "scoring_relevance": "These grammatical errors can affect the clarity and coherence of the essay, making it harder for the reader to understand the writer's intended message.",
+        "limitation": "This observation does not provide information about the overall grammatical accuracy of the essay, only about this specific sentence.",
+        "next_check": "Review other sentences in the essay to check for similar grammatical errors, particularly subject-verb agreement and article usage.",
+        "quotes": [
+          "Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it."
+        ],
+        "observation_key": "8699:1::O1",
+        "target_essay_id": "8699:1",
+        "observed_score": 2
+      },
+      {
+        "observation_id": "O1",
+        "dimension": "Cohesion",
+        "evidence_span_ids": [
+          "E873_1_P003_S001",
+          "E873_1_P003_S002"
+        ],
+        "feature": "The essay includes a quote from Winston Churchill and explicitly connects it to the idea of failure being important in the pursuit of success.",
+        "scoring_relevance": "The explicit connection between the quote and the essay's main idea demonstrates a cohesive link between supporting evidence and the thesis, which is relevant to the Cohesion dimension.",
+        "limitation": "This observation does not establish the overall coherence of the essay, only that there is a clear connection between the quote and the thesis in this specific instance.",
+        "next_check": "Review the transitions between paragraphs to see if they maintain the same level of cohesion and clarity.",
+        "quotes": [
+          "Firstly without failure there wont be a way to determine if the event was successful or not.",
+          "In this quote former British prime minister Winston church chill once said that success consists of going from failure to failure without loss of enthusiasm."
+        ],
+        "observation_key": "873:1::O1",
+        "target_essay_id": "873:1",
+        "observed_score": 3
+      },
+      {
+        "observation_id": "O2",
+        "dimension": "Grammar",
+        "evidence_span_ids": [
+          "E873_1_P003_S002"
+        ],
+        "feature": "The sentence 'In this quote former British prime minister Winston church chill once said that success consists of going from failure to failure without loss of enthusiasm.' contains a nonstandard verb form 'chill' instead of 'Churchill'.",
+        "scoring_relevance": "The presence of a nonstandard verb form in a single sentence is relevant to the Grammar dimension as it indicates a grammatical error.",
+        "limitation": "This observation does not establish the frequency of grammatical errors throughout the essay, only that there is at least one instance of a grammatical error.",
+        "next_check": "Check other sentences for similar grammatical errors or inconsistencies.",
+        "quotes": [
+          "In this quote former British prime minister Winston church chill once said that success consists of going from failure to failure without loss of enthusiasm."
+        ],
+        "observation_key": "873:1::O2",
+        "target_essay_id": "873:1",
+        "observed_score": 3
+      }
+    ],
+    "rubric_entries": [
+      {
+        "rubric_ref_id": "Grammar:2",
+        "dimension": "Grammar",
+        "score_band": 2,
+        "descriptor": "Many errors in grammar and usage."
+      },
+      {
+        "rubric_ref_id": "Grammar:1",
+        "dimension": "Grammar",
+        "score_band": 1,
+        "descriptor": "Errors in grammar and usage throughout."
+      },
+      {
+        "rubric_ref_id": "Grammar:3",
+        "dimension": "Grammar",
+        "score_band": 3,
+        "descriptor": "Some errors in grammar and usage."
+      },
+      {
+        "rubric_ref_id": "Cohesion:3",
+        "dimension": "Cohesion",
+        "score_band": 3,
+        "descriptor": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs."
+      },
+      {
+        "rubric_ref_id": "Cohesion:2",
+        "dimension": "Cohesion",
+        "score_band": 2,
+        "descriptor": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition."
+      },
+      {
+        "rubric_ref_id": "Cohesion:4",
+        "dimension": "Cohesion",
+        "score_band": 4,
+        "descriptor": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas"
+      },
+      {
+        "rubric_ref_id": "Grammar:4",
+        "dimension": "Grammar",
+        "score_band": 4,
+        "descriptor": "Minimal errors in grammar and usage."
+      }
+    ],
+    "source_positions": [
+      {
+        "observation_key": "8699:1::O1",
+        "target_essay_id": "8699:1",
+        "quote_index": 0,
+        "span_id": "E8699_1_P003_S001",
+        "exact_quote": "Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it.",
+        "source_position": {
+          "paragraph_id": "E8699_1_P003",
+          "start": 30,
+          "end": 228,
+          "offset_unit": "Unicode code points; zero based [start,end)",
+          "essay_start": 0,
+          "essay_end": 1476,
+          "paragraph_start": 30,
+          "paragraph_end": 271,
+          "at_essay_start": false,
+          "at_essay_end": false,
+          "at_paragraph_start": true,
+          "at_paragraph_end": false,
+          "rhetorical_role_not_inferred": true
+        },
+        "source_text_sha256": "a51d7b8403d25a21cd7abaeb398344880fad7d57b2c7e35d846148068cb81120"
+      },
+      {
+        "observation_key": "873:1::O1",
+        "target_essay_id": "873:1",
+        "quote_index": 0,
+        "span_id": "E873_1_P003_S001",
+        "exact_quote": "Firstly without failure there wont be a way to determine if the event was successful or not.",
+        "source_position": {
+          "paragraph_id": "E873_1_P003",
+          "start": 465,
+          "end": 557,
+          "offset_unit": "Unicode code points; zero based [start,end)",
+          "essay_start": 0,
+          "essay_end": 2334,
+          "paragraph_start": 465,
+          "paragraph_end": 963,
+          "at_essay_start": false,
+          "at_essay_end": false,
+          "at_paragraph_start": true,
+          "at_paragraph_end": false,
+          "rhetorical_role_not_inferred": true
+        },
+        "source_text_sha256": "6674e6e23520dc6ea1e7d2cf86fa11751371ff8cf8770ef9622eb0d95917e650"
+      },
+      {
+        "observation_key": "873:1::O1",
+        "target_essay_id": "873:1",
+        "quote_index": 1,
+        "span_id": "E873_1_P003_S002",
+        "exact_quote": "In this quote former British prime minister Winston church chill once said that success consists of going from failure to failure without loss of enthusiasm.",
+        "source_position": {
+          "paragraph_id": "E873_1_P003",
+          "start": 558,
+          "end": 715,
+          "offset_unit": "Unicode code points; zero based [start,end)",
+          "essay_start": 0,
+          "essay_end": 2334,
+          "paragraph_start": 465,
+          "paragraph_end": 963,
+          "at_essay_start": false,
+          "at_essay_end": false,
+          "at_paragraph_start": false,
+          "at_paragraph_end": false,
+          "rhetorical_role_not_inferred": true
+        },
+        "source_text_sha256": "6674e6e23520dc6ea1e7d2cf86fa11751371ff8cf8770ef9622eb0d95917e650"
+      },
+      {
+        "observation_key": "873:1::O2",
+        "target_essay_id": "873:1",
+        "quote_index": 0,
+        "span_id": "E873_1_P003_S002",
+        "exact_quote": "In this quote former British prime minister Winston church chill once said that success consists of going from failure to failure without loss of enthusiasm.",
+        "source_position": {
+          "paragraph_id": "E873_1_P003",
+          "start": 558,
+          "end": 715,
+          "offset_unit": "Unicode code points; zero based [start,end)",
+          "essay_start": 0,
+          "essay_end": 2334,
+          "paragraph_start": 465,
+          "paragraph_end": 963,
+          "at_essay_start": false,
+          "at_essay_end": false,
+          "at_paragraph_start": false,
+          "at_paragraph_end": false,
+          "rhetorical_role_not_inferred": true
+        },
+        "source_text_sha256": "6674e6e23520dc6ea1e7d2cf86fa11751371ff8cf8770ef9622eb0d95917e650"
+      }
+    ],
+    "source_essays": [
+      {
+        "essay_id": "8699:1",
+        "rater_id": "rater_7",
+        "text": "Generic_Name\r\n\r\n02/07/2019\r\n\r\nToday We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it.even knowing that we still need technology,\r\n\r\nits dea was to facilitate people lives and be beneficial somehow.\r\n\r\nOur development\r\n\r\nin technology are growing each day and also difficult to controll.. even knowing that we still in favout to technology. Rather than find a solution or fix it .T\r\n\r\nechnology could be beneficial and prejuditial for others, today the world\r\n\r\nis more dangerous than ever. In other countries people are scared for such technology, they build bombs, robots, weapons and even missils. that technology\r\n\r\nare making the world no secured.\r\n\r\nincreeadible the world has change through technology such as: communication. People can communicate with others without leaving the house through a phone or a computer. Today tecnology role has changed many perspectives lifes. People are gratefull for the advanced that technology brought us.\r\n\r\nHowever People have their own opinions about technolohy\r\n\r\nbecause it can be either beneficial or\r\n\r\ndamaging. Knowing that most of the people assure that technology saved millions of life and is making the world safe, and others said that the world will collapse cause of technology,\r\n\r\nin my opinion technology are making the wordl less safe and will bring us wars and destruction",
+        "Overall": 2,
+        "Traits": {
+          "Cohesion": 2,
+          "Syntax": 2,
+          "Vocabulary": 2,
+          "Phraseology": 2,
+          "Grammar": 2,
+          "Conventions": 2
+        },
+        "score_provenance": {
+          "raw_csv": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+          "source_row_id": 8699,
+          "csv_row": 8701,
+          "rater_column": "Rater_1",
+          "score_suffix": "_1"
+        },
+        "prior_development_target_overlap": false,
+        "prior_development_history_overlap": false,
+        "prior_saved_pool_exposure": true
+      },
+      {
+        "essay_id": "873:1",
+        "rater_id": "rater_7",
+        "text": "Failure plays an important role in the pursuit of success because failure is a guide to success , failure and having success is about learning from the mistakes you have done everyone is not granted success at birth, to master something or have success in\r\n\r\nlife you must have failed multiple times before you have master your objective. there are many way thats show how important failure such as trial and error, learning from mistakes, and past experiences.\r\n\r\nFirstly without failure there wont be a way to determine if the event was successful or not. In this quote former British prime minister Winston church chill once said that success consists of going from failure to failure without loss of enthusiasm. in the quote Prime Minister Winston Churchill shows the importance the role that plays in the pursuit of success. Former British Prime Minister Winston Churchill quote and stamens are very accurate and show young kill how to fail and have success.\r\n\r\nSecondly failure is a part of life and everything will always have some kind of failure. with out failure there would not\r\n\r\nbe a way to determine success in an event. sports would not be as fun if there was no failure there would be no way of getting better no point in practicing to learn from our mistake. success is going from failure to failure it plays in the pursuit of success.\r\n\r\nThirdly another reason that failure plays an important role in the path to success is because failures are something that aids the learning process. when a kid is learning\r\n\r\nhow to skateboard or ride a bicycle they are not going to be successful at first there going to have to learn how to ride it. when a little kid is learning how to ride a bike or a sake board they are bound to fall the first times. the kids are going to have to fail before they are successful and learn how to ride.\r\n\r\nFailure is apart of life. In order to success come failure, and with failure comes success, no one was born successful in life. failure plays an important role in the pursuit of success because failure is a guide to success , failure and having success is about learning from the mistakes you have done, everyone is not granted success at birth, to master something or have success in\r\n\r\nlife you must have failed multiple times before you have master your objective.                 ",
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 3,
+          "Syntax": 3,
+          "Vocabulary": 4,
+          "Phraseology": 3,
+          "Grammar": 3,
+          "Conventions": 3
+        },
+        "score_provenance": {
+          "raw_csv": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+          "source_row_id": 873,
+          "csv_row": 875,
+          "rater_column": "Rater_1",
+          "score_suffix": "_1"
+        },
+        "prior_development_target_overlap": false,
+        "prior_development_history_overlap": false,
+        "prior_saved_pool_exposure": true
+      }
+    ]
+  },
+  {
+    "review_id": "Re6f8ce45",
+    "case_group": "G1",
+    "decision": {
+      "schema_version": "1.5",
+      "rater_id": "rater_7",
+      "pattern_status": "insufficient_evidence",
+      "pattern": null,
+      "pattern_limit": "The provided observations do not establish a consistent pattern of scoring behavior across multiple essays. Each observation highlights a specific feature of the essay but does not show a repeated scoring behavior that can be generalized.",
+      "representative_observation_key": "1868:1::O1",
+      "quote_indices": [
+        0,
+        1
+      ],
+      "textual_finding": "The essay starts with a clear thesis statement and reiterates the main idea at the end of the paragraph, showing a clear focus on the importance of continuous learning.",
+      "evidence_limit": "This observation does not establish the overall coherence of the essay, only the cohesion within the first paragraph.",
+      "rubric_review": {
+        "observed_band_ref_id": "Cohesion:3",
+        "comparison_band_ref_id": null,
+        "band_assessment": "indeterminate"
+      },
+      "next_check": {
+        "inspect": "Review the transitions between paragraphs to ensure they maintain the same focus on the importance of continuous learning.",
+        "distinguish": "Check if the writer maintains the connection and develops the argument consistently throughout the essay.",
+        "reconsider_if": null
+      }
+    },
+    "display_text": "A scoring pattern cannot be established from these cases. The provided observations do not establish a consistent pattern of scoring behavior across multiple essays. Each observation highlights a specific feature of the essay but does not show a repeated scoring behavior that can be generalized. In essay 1868:1, the relevant excerpt is “The main piece to improve your skills is during the process of keep learning.” In essay 1868:1, the relevant excerpt is “I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career.” The essay starts with a clear thesis statement and reiterates the main idea at the end of the paragraph, showing a clear focus on the importance of continuous learning. The recorded Cohesion score is 3. The official descriptor for Cohesion:3 is “Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.” This evidence alone does not establish whether that band is appropriate. This observation does not establish the overall coherence of the essay, only the cohesion within the first paragraph. Next inspect: Review the transitions between paragraphs to ensure they maintain the same focus on the importance of continuous learning. Check: Check if the writer maintains the connection and develops the argument consistently throughout the essay.",
+    "selected_evidence": [
+      {
+        "observation_key": "1868:1::O1",
+        "quote_index": 0,
+        "target_essay_id": "1868:1",
+        "exact_quote": "The main piece to improve your skills is during the process of keep learning."
+      },
+      {
+        "observation_key": "1868:1::O1",
+        "quote_index": 1,
+        "target_essay_id": "1868:1",
+        "exact_quote": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career."
+      }
+    ],
+    "available_observations": [
+      {
+        "observation_id": "O1",
+        "dimension": "Cohesion",
+        "evidence_span_ids": [
+          "E1868_1_P001_S001",
+          "E1868_1_P001_S004"
+        ],
+        "feature": "The essay starts with a clear thesis statement: 'The main piece to improve your skills is during the process of keep learning.' This statement is reiterated at the end of the paragraph with 'The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.'",
+        "scoring_relevance": "This feature demonstrates the writer's ability to maintain a clear focus and reiterate the main idea, which is a key aspect of cohesion.",
+        "limitation": "This observation does not establish the overall coherence of the essay, only the cohesion within the first paragraph.",
+        "next_check": "Review the transitions between paragraphs to ensure they maintain the same focus on the importance of continuous learning.",
+        "quotes": [
+          "The main piece to improve your skills is during the process of keep learning.",
+          "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career."
+        ],
+        "observation_key": "1868:1::O1",
+        "target_essay_id": "1868:1",
+        "observed_score": 3
+      },
+      {
+        "observation_id": "O1",
+        "dimension": "Cohesion",
+        "evidence_span_ids": [
+          "E4902_1_P001_S001",
+          "E4902_1_P001_S002"
+        ],
+        "feature": "The essay begins with a direct reference to Ralph Waldo Emerson's quote and explicitly states the reason for agreeing with it.",
+        "scoring_relevance": "This feature demonstrates a clear connection between the quote and the writer's stance, which is relevant to the cohesion dimension as it shows a logical progression from the introduction of the quote to the writer's agreement.",
+        "limitation": "This observation does not establish the overall coherence of the essay, only the initial connection between the quote and the writer's stance.",
+        "next_check": "Review the subsequent paragraphs to see if the writer maintains this connection and develops the argument consistently.",
+        "quotes": [
+          "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+          "The reason why i agree with this quote is because people now a day don't try to be them self."
+        ],
+        "observation_key": "4902:1::O1",
+        "target_essay_id": "4902:1",
+        "observed_score": 2
+      },
+      {
+        "observation_id": "O2",
+        "dimension": "Grammar",
+        "evidence_span_ids": [
+          "E4902_1_P001_S002"
+        ],
+        "feature": "The sentence contains a nonstandard verb form: 'don't try to be them self.'",
+        "scoring_relevance": "This feature is relevant to the grammar dimension as it indicates a grammatical error in subject-verb agreement and pronoun usage.",
+        "limitation": "This observation does not provide information about the frequency of such errors throughout the essay.",
+        "next_check": "Check other sentences for similar grammatical errors to assess the overall grammatical accuracy of the essay.",
+        "quotes": [
+          "The reason why i agree with this quote is because people now a day don't try to be them self."
+        ],
+        "observation_key": "4902:1::O2",
+        "target_essay_id": "4902:1",
+        "observed_score": 3
+      }
+    ],
+    "rubric_entries": [
+      {
+        "rubric_ref_id": "Cohesion:3",
+        "dimension": "Cohesion",
+        "score_band": 3,
+        "descriptor": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs."
+      },
+      {
+        "rubric_ref_id": "Cohesion:2",
+        "dimension": "Cohesion",
+        "score_band": 2,
+        "descriptor": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition."
+      },
+      {
+        "rubric_ref_id": "Cohesion:4",
+        "dimension": "Cohesion",
+        "score_band": 4,
+        "descriptor": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas"
+      },
+      {
+        "rubric_ref_id": "Cohesion:1",
+        "dimension": "Cohesion",
+        "score_band": 1,
+        "descriptor": "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear."
+      },
+      {
+        "rubric_ref_id": "Grammar:3",
+        "dimension": "Grammar",
+        "score_band": 3,
+        "descriptor": "Some errors in grammar and usage."
+      },
+      {
+        "rubric_ref_id": "Grammar:2",
+        "dimension": "Grammar",
+        "score_band": 2,
+        "descriptor": "Many errors in grammar and usage."
+      },
+      {
+        "rubric_ref_id": "Grammar:4",
+        "dimension": "Grammar",
+        "score_band": 4,
+        "descriptor": "Minimal errors in grammar and usage."
+      }
+    ],
+    "source_positions": [
+      {
+        "observation_key": "1868:1::O1",
+        "target_essay_id": "1868:1",
+        "quote_index": 0,
+        "span_id": "E1868_1_P001_S001",
+        "exact_quote": "The main piece to improve your skills is during the process of keep learning.",
+        "source_position": {
+          "paragraph_id": "E1868_1_P001",
+          "start": 0,
+          "end": 77,
+          "offset_unit": "Unicode code points; zero based [start,end)",
+          "essay_start": 0,
+          "essay_end": 5509,
+          "paragraph_start": 0,
+          "paragraph_end": 765,
+          "at_essay_start": true,
+          "at_essay_end": false,
+          "at_paragraph_start": true,
+          "at_paragraph_end": false,
+          "rhetorical_role_not_inferred": true
+        },
+        "source_text_sha256": "60a88ac483add82b6716870f6a53940ff8f0e149cc55d8b9bbffd2582860d9fb"
+      },
+      {
+        "observation_key": "1868:1::O1",
+        "target_essay_id": "1868:1",
+        "quote_index": 1,
+        "span_id": "E1868_1_P001_S004",
+        "exact_quote": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career.",
+        "source_position": {
+          "paragraph_id": "E1868_1_P001",
+          "start": 368,
+          "end": 610,
+          "offset_unit": "Unicode code points; zero based [start,end)",
+          "essay_start": 0,
+          "essay_end": 5509,
+          "paragraph_start": 0,
+          "paragraph_end": 765,
+          "at_essay_start": false,
+          "at_essay_end": false,
+          "at_paragraph_start": false,
+          "at_paragraph_end": false,
+          "rhetorical_role_not_inferred": true
+        },
+        "source_text_sha256": "60a88ac483add82b6716870f6a53940ff8f0e149cc55d8b9bbffd2582860d9fb"
+      },
+      {
+        "observation_key": "4902:1::O1",
+        "target_essay_id": "4902:1",
+        "quote_index": 0,
+        "span_id": "E4902_1_P001_S001",
+        "exact_quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+        "source_position": {
+          "paragraph_id": "E4902_1_P001",
+          "start": 0,
+          "end": 149,
+          "offset_unit": "Unicode code points; zero based [start,end)",
+          "essay_start": 0,
+          "essay_end": 1442,
+          "paragraph_start": 0,
+          "paragraph_end": 489,
+          "at_essay_start": true,
+          "at_essay_end": false,
+          "at_paragraph_start": true,
+          "at_paragraph_end": false,
+          "rhetorical_role_not_inferred": true
+        },
+        "source_text_sha256": "791253c359185043fdb3f2ec56602563c14a587dab9a6a282b2677bb64be64a5"
+      },
+      {
+        "observation_key": "4902:1::O1",
+        "target_essay_id": "4902:1",
+        "quote_index": 1,
+        "span_id": "E4902_1_P001_S002",
+        "exact_quote": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+        "source_position": {
+          "paragraph_id": "E4902_1_P001",
+          "start": 150,
+          "end": 243,
+          "offset_unit": "Unicode code points; zero based [start,end)",
+          "essay_start": 0,
+          "essay_end": 1442,
+          "paragraph_start": 0,
+          "paragraph_end": 489,
+          "at_essay_start": false,
+          "at_essay_end": false,
+          "at_paragraph_start": false,
+          "at_paragraph_end": false,
+          "rhetorical_role_not_inferred": true
+        },
+        "source_text_sha256": "791253c359185043fdb3f2ec56602563c14a587dab9a6a282b2677bb64be64a5"
+      },
+      {
+        "observation_key": "4902:1::O2",
+        "target_essay_id": "4902:1",
+        "quote_index": 0,
+        "span_id": "E4902_1_P001_S002",
+        "exact_quote": "The reason why i agree with this quote is because people now a day don't try to be them self.",
+        "source_position": {
+          "paragraph_id": "E4902_1_P001",
+          "start": 150,
+          "end": 243,
+          "offset_unit": "Unicode code points; zero based [start,end)",
+          "essay_start": 0,
+          "essay_end": 1442,
+          "paragraph_start": 0,
+          "paragraph_end": 489,
+          "at_essay_start": false,
+          "at_essay_end": false,
+          "at_paragraph_start": false,
+          "at_paragraph_end": false,
+          "rhetorical_role_not_inferred": true
+        },
+        "source_text_sha256": "791253c359185043fdb3f2ec56602563c14a587dab9a6a282b2677bb64be64a5"
+      }
+    ],
+    "source_essays": [
+      {
+        "essay_id": "1868:1",
+        "text": "The main piece to improve your skills is during the process of keep learning. Most of the people got to the point where they become successful, thinking that they have the sufficient knowledge to stay where they are and not move forward. The most common mistake that someone can make is believe that they have learn enough to the point where is nothing else to learn. I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career. The actual key that makes people become professionals everyday and give them the recognition of master is through the process of keep learning new things.\r\n\r\nConvince yourself that yo are not good enough \"Yet\" this to motivate you to believe that you need to learn more. Examples that we can see everyday, teen mothers when a young girl or even in some cases girls that are still considering a kid have to been each to be a mother. Teen mothers learn through the pregnancy to; take care of the baby, change diapers, give appropriate food and how give them bath. The process of being a mother for the first time, does not end when you give birth to the baby. There is not a book where it details you how to take care of your child, even if there is one it would probably not be as helpful as you learning each day.\r\n\r\nIf there were a class of \"How to be a mother for the first time if you are a teen\" it would not cover all the expectations that you baby requires because you will be the only one that knows your baby, its behavior and what its needs are. Even adult mothers have said that they keep learning how to be mother everyday.\r\n\r\nDo not push back yourself because of the fact that you seen to be far away from your objective.If you have been studying for years, since first grade and still have to go to an University, it could make you think if\r\n\r\nit would be necessary those extra years. The answer is yes, even if you have been in school for about 10 years and still have to go to college to get you the information that you need to be able to get a decent job, yes it is necessary. The years where you have been taking classes that does not look that t would help you in the future in any way. They do have a purpose, and it is to inform you and help you to develop skills that have not been discover, whether you like math, history, science or languages. Any subject that you have learn is to help you find what you really like and how you can used for the future.That is why there are those extra years for college, to start to focus on your objective and teach you what you actually need to become successful. After you have got the extra years, does not\r\n\r\nmean your learning have also stop, when you get to practice for the career you have selected you keep developing your skills and growing as a person, and this because of the motivation of keep going beyond of what you already manage.\r\n\r\nGoing beyond your expectations as a person would bring you benefit to your life. If you get a job based on your skills, experiences or knowledge it would also require the same process of keep learning. If you got the job where you always wanted and they approved you to work there because you qualify and you have study the career for years does not specific mean you know everything and you would directly get to the work and\r\n\r\nlead yourself to become another worker. Like always and how the Author Ralph Emerson emphasizes you would have to keep trying new material. You have experienced the process to gather the sufficient information to get this job, but now you are being told to go beyond and now you need to learn the system of the factory, office, building, hospital or any apartment you have being positioned. In this case does not mandatory need to keep educating yourself, but to improve in your work and become an efficient person you need to keep learning new skill that would apply to your job. Like is being remarked again the importance of keep learning to do new things so you can grow.\r\n\r\nThe importance of always going forward and learn to manage new things will make you grow as a person in your life and improve the labor work. If you do not try nothing new\r\n\r\nand\r\n\r\ndo not applied on your daily, do no expect\r\n\r\nto become successful as a person. You are the only one that knows how to lead yourself and what weakness and strengths you have, as a captain of your life you know where your boat should go, the wind could make you take different directions which is why you have to recognize where exactly your destination is. The fact the it seems that you have got far enough where you might feel afraid to go beyond, which could ruin what you already have does not mean it will. People argue that they are scared to keep going forward and decide to just stay stand where they are because is been far enough. You should not let yourself be the obstacle to keep learning new things to do. If you feel like that was enough and you got to were you stay, it is because you can go more fatter with the experience that you have. Do not stay in one point and make sure to keep walking and doing new stuff to help you grow, do something new everyday and prove yourself that you have become a successful person every time you go a step ahead. Keep growing to encourage yourself and others to keep doing something new and always going in different direction without stopping.",
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 3,
+          "Syntax": 3,
+          "Vocabulary": 4,
+          "Phraseology": 4,
+          "Grammar": 3,
+          "Conventions": 3
+        }
+      },
+      {
+        "essay_id": "4902:1",
+        "text": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" The reason why i agree with this quote is because people now a day don't try to be them self.They're trying or acting like to be someone else not them self. Everyone is too busy trying to fit in with the rest of the world.That they forget that being them self is the most valued thing to others and the greatest accomplishment to yourself.\r\n\r\nI guess that you can say that being yourself is really hard when everyone around you is doing the same thing just to fit in. but Why be basic like everyone else. Don't you want to be different from everybody else in the world?? Acting or pretending just so you can fit in with your friend. friend are't forever so just be yourself it'll be your greatest accomplishment.\r\n\r\nOthers may disagree with \"To be yourself in a world that is trying to make you something else is the greatest accomplishment.\" Here are some reason why they might disagree. if i want to accomplish something i need to be like everyone and follow what they are doing. Others think that they need to change so they can fit in with the rest of the world.They don't think that being yourself is the greatest accomplishment.\r\n\r\nin conucluesion\r\n\r\nits all up to you and what you think is the best for you but just remember that being yourself is the most valued thing in this world. ",
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 2,
+          "Syntax": 3,
+          "Vocabulary": 3,
+          "Phraseology": 3,
+          "Grammar": 3,
+          "Conventions": 3
+        }
+      }
+    ]
+  },
+  {
+    "review_id": "Rfdc8e192",
+    "case_group": "G3",
+    "decision": {
+      "schema_version": "1.5",
+      "rater_id": "rater_7",
+      "pattern_status": "insufficient_evidence",
+      "pattern": null,
+      "pattern_limit": "The provided observations do not show a consistent pattern of scoring behavior across multiple essays for the same feature.",
+      "representative_observation_key": "2016:1::O1",
+      "quote_indices": [
+        0
+      ],
+      "textual_finding": "The sentence contains a nonstandard verb form: 'you will never grow.'",
+      "evidence_limit": "This observation does not establish the frequency of grammatical errors throughout the essay.",
+      "rubric_review": {
+        "observed_band_ref_id": "Grammar:2",
+        "comparison_band_ref_id": null,
+        "band_assessment": "indeterminate"
+      },
+      "next_check": {
+        "inspect": "Other sentences for similar grammatical issues, particularly the use of verbs and auxiliary verbs.",
+        "distinguish": "The frequency and type of grammatical errors.",
+        "reconsider_if": null
+      }
+    },
+    "display_text": "A scoring pattern cannot be established from these cases. The provided observations do not show a consistent pattern of scoring behavior across multiple essays for the same feature. In essay 2016:1, the relevant excerpt is “Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow.” The sentence contains a nonstandard verb form: 'you will never grow.' The recorded Grammar score is 2. The official descriptor for Grammar:2 is “Many errors in grammar and usage.” This evidence alone does not establish whether that band is appropriate. This observation does not establish the frequency of grammatical errors throughout the essay. Next inspect: Other sentences for similar grammatical issues, particularly the use of verbs and auxiliary verbs. Check: The frequency and type of grammatical errors.",
+    "selected_evidence": [
+      {
+        "observation_key": "2016:1::O1",
+        "quote_index": 0,
+        "target_essay_id": "2016:1",
+        "exact_quote": "Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow."
+      }
+    ],
+    "available_observations": [
+      {
+        "observation_id": "O1",
+        "dimension": "Grammar",
+        "evidence_span_ids": [
+          "E2016_1_P002_S001"
+        ],
+        "feature": "The sentence contains a nonstandard verb form: 'you will never grow.'",
+        "scoring_relevance": "The use of 'grow' as a verb without a proper auxiliary verb form indicates a grammatical error, which is relevant to the Grammar scoring dimension.",
+        "limitation": "This observation does not establish the frequency of grammatical errors throughout the essay.",
+        "next_check": "Review other sentences for similar grammatical issues, particularly the use of verbs and auxiliary verbs.",
+        "quotes": [
+          "Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow."
+        ],
+        "observation_key": "2016:1::O1",
+        "target_essay_id": "2016:1",
+        "observed_score": 2
+      },
+      {
+        "observation_id": "O1",
+        "dimension": "Cohesion",
+        "evidence_span_ids": [
+          "E3650_1_P002_S003",
+          "E3650_1_P002_S004"
+        ],
+        "feature": "The writer explicitly states disagreement with Albert Einstein's quote and provides a reason for disagreement.",
+        "scoring_relevance": "This feature demonstrates the writer's ability to clearly express a stance and provide a rationale, which is relevant to the cohesion dimension as it shows the writer's ability to connect their argument to the topic.",
+        "limitation": "This evidence does not establish the overall coherence of the essay or the consistency of the argument throughout the text.",
+        "next_check": "Review the subsequent paragraphs to check if the writer maintains this stance and provides further supporting examples or explanations.",
+        "quotes": [
+          "Then he said this \" imagination is more important than knowledge.\"",
+          "I disagree because you see you use imagination and knowledge in the rest of your life, when you work as a team you use imagination and knowledge and you need to be fast, strong, and smart, and imagination and knowledge is important."
+        ],
+        "observation_key": "3650:1::O1",
+        "target_essay_id": "3650:1",
+        "observed_score": 3
+      }
+    ],
+    "rubric_entries": [
+      {
+        "rubric_ref_id": "Grammar:2",
+        "dimension": "Grammar",
+        "score_band": 2,
+        "descriptor": "Many errors in grammar and usage."
+      },
+      {
+        "rubric_ref_id": "Grammar:1",
+        "dimension": "Grammar",
+        "score_band": 1,
+        "descriptor": "Errors in grammar and usage throughout."
+      },
+      {
+        "rubric_ref_id": "Grammar:3",
+        "dimension": "Grammar",
+        "score_band": 3,
+        "descriptor": "Some errors in grammar and usage."
+      },
+      {
+        "rubric_ref_id": "Cohesion:3",
+        "dimension": "Cohesion",
+        "score_band": 3,
+        "descriptor": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs."
+      },
+      {
+        "rubric_ref_id": "Cohesion:2",
+        "dimension": "Cohesion",
+        "score_band": 2,
+        "descriptor": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition."
+      },
+      {
+        "rubric_ref_id": "Cohesion:4",
+        "dimension": "Cohesion",
+        "score_band": 4,
+        "descriptor": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas"
+      }
+    ],
+    "source_positions": [
+      {
+        "observation_key": "2016:1::O1",
+        "target_essay_id": "2016:1",
+        "quote_index": 0,
+        "span_id": "E2016_1_P002_S001",
+        "exact_quote": "Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow.",
+        "source_position": {
+          "paragraph_id": "E2016_1_P002",
+          "start": 32,
+          "end": 149,
+          "offset_unit": "Unicode code points; zero based [start,end)",
+          "essay_start": 0,
+          "essay_end": 1999,
+          "paragraph_start": 32,
+          "paragraph_end": 377,
+          "at_essay_start": false,
+          "at_essay_end": false,
+          "at_paragraph_start": true,
+          "at_paragraph_end": false,
+          "rhetorical_role_not_inferred": true
+        },
+        "source_text_sha256": "b1ef29a47ee0917b862b0621139420ebf2e80756a4cea6f2170b1afc22dfd444"
+      },
+      {
+        "observation_key": "3650:1::O1",
+        "target_essay_id": "3650:1",
+        "quote_index": 0,
+        "span_id": "E3650_1_P002_S003",
+        "exact_quote": "Then he said this \" imagination is more important than knowledge.\"",
+        "source_position": {
+          "paragraph_id": "E3650_1_P002",
+          "start": 155,
+          "end": 221,
+          "offset_unit": "Unicode code points; zero based [start,end)",
+          "essay_start": 0,
+          "essay_end": 2737,
+          "paragraph_start": 14,
+          "paragraph_end": 515,
+          "at_essay_start": false,
+          "at_essay_end": false,
+          "at_paragraph_start": false,
+          "at_paragraph_end": false,
+          "rhetorical_role_not_inferred": true
+        },
+        "source_text_sha256": "2c7a2fa2a55935fcd36ecfde41f3423c89eaafed3f6f26fe99fa49e8ce7494cf"
+      },
+      {
+        "observation_key": "3650:1::O1",
+        "target_essay_id": "3650:1",
+        "quote_index": 1,
+        "span_id": "E3650_1_P002_S004",
+        "exact_quote": "I disagree because you see you use imagination and knowledge in the rest of your life, when you work as a team you use imagination and knowledge and you need to be fast, strong, and smart, and imagination and knowledge is important.",
+        "source_position": {
+          "paragraph_id": "E3650_1_P002",
+          "start": 222,
+          "end": 454,
+          "offset_unit": "Unicode code points; zero based [start,end)",
+          "essay_start": 0,
+          "essay_end": 2737,
+          "paragraph_start": 14,
+          "paragraph_end": 515,
+          "at_essay_start": false,
+          "at_essay_end": false,
+          "at_paragraph_start": false,
+          "at_paragraph_end": false,
+          "rhetorical_role_not_inferred": true
+        },
+        "source_text_sha256": "2c7a2fa2a55935fcd36ecfde41f3423c89eaafed3f6f26fe99fa49e8ce7494cf"
+      }
+    ],
+    "source_essays": [
+      {
+        "essay_id": "2016:1",
+        "rater_id": "rater_7",
+        "text": "I strong disagree with, what\r\n\r\nAuthor Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow.'' with my thesis you will always grow no matter whatever you master beyond and over the moons you will always always mastered something and grow, prefect become great in every ways, However being chanellege is always fun to do.\r\n\r\n1st first,you can always master anything you put your minds to be up for the game be prepared always try to put yourself\r\n\r\nfirst with anything you do always be careful, be aware, always be comfortable with a confident vibes its always work never let people think you can mastered thinks you always mastered be your own boss in whatever you plan try to it a different way to master it you always master it once so u master it again.\r\n\r\n2nd second, You will always grow no matter whats the outcome if you fail to master it just help you to be a better person So, in other ways Emerson statement is just a different thought for everybody got they own position in life one example \"Generic_Name and Generic_Name was very critical in the math exam they already pass but they wanted to take it again they took it and fail, reason they didn't study the follow days so they fail just because they didnt study they fail if you can master anything once you can mastered it again..\r\n\r\n3rd third,So its always good to make wise decisions in ever other way doing something beyond in what you already master doesn't make you grow you will always grow no matter what situationship its just help you and guard you to do better and master it again in many other ways thats why its never okay to give up on anything doesnt matter what a famous author got to say ...\r\n\r\nThat why i disagree with Author Ralph waldo Emerson wrote even if you never mastered it you will eventually mastered it in the future so its always okay to push your self a little hard to be come prefect but not everything can become prefect\r\n\r\nto master it again ..",
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 3,
+          "Syntax": 3,
+          "Vocabulary": 3,
+          "Phraseology": 2,
+          "Grammar": 2,
+          "Conventions": 3
+        },
+        "score_provenance": {
+          "raw_csv": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+          "source_row_id": 2016,
+          "csv_row": 2018,
+          "rater_column": "Rater_1",
+          "score_suffix": "_1"
+        },
+        "prior_development_target_overlap": false,
+        "prior_development_history_overlap": false,
+        "prior_saved_pool_exposure": true
+      },
+      {
+        "essay_id": "3650:1",
+        "rater_id": "rater_7",
+        "text": "I DISAGREE\r\n\r\nHello there!!! do you know that Albet Einstein is one of the smartest person that ever live, he discover by using knowledge and imagination. Then he said this \" imagination is more important than knowledge.\" I disagree because you see you use imagination and knowledge in the rest of your life, when you work as a team you use imagination and knowledge and you need to be fast, strong, and smart, and imagination and knowledge is important. OK' let me explain why i disagree what Albert Einstein said.\r\n\r\nFirst, when you was a kid you use imagination to make things, to draw, to make discoveres, and to have fun. When you grow older you will get knowledges and use it to pass your test, do your homework, and more, but you use your imagination too. For example by thinking, to brain strom, to make music and more, is the same thing however you use knowledge with imagination. Both imagination and knowledge, you have those things from your rest of your life!!! Starting when you were a kid and when you grow older you still use both imagination and knowledge, thats one of my important reason why i disagree.\r\n\r\nSecond, you use imagination and knowledge when you work with somebody or working as a team, making something or thing how can we make it stronger or how can we win. if your working as a team and battling a robot battle you use imagination to think whats the best robot to build and how to make it stronger, that one of the examples. If you play sports you use knowlege to think what to do, how to win, its the same but you use knowledge. However theres a battle that you work as ateam, using imagination and knowledge, it is a war!!! let me explain its beacause you use imagination to know whats the plan, what is the things were using and knowledge to know when to attack , that one of my reason, when using imagination and knowledge in a team you need to be fast, strong, and smart.\r\n\r\nThe last one, imagination and knowledge is important, because imagination and knowledge is both important because if kids can't imagine theres no knowledge or if there no knowledge there no imagination. Every body need imagination and knowledges to do what they want and both of these is fun like they can make things, they work as a team, and it will be at there rest of there life. This last body or body 3 is conneted in body 1 and body 2 this is the most important reason. If there's no imagination there's no knowledges, both of does is important every one need imagination and knowledge.\r\n\r\nThat's all my reason why i disagree that \"imagination is more important than knowledge\" both of those is important, you use it by playing, making, thinking, and more, that's all i have to say that i disagree on albert eintein.",
+        "Overall": 3,
+        "Traits": {
+          "Cohesion": 3,
+          "Syntax": 2,
+          "Vocabulary": 3,
+          "Phraseology": 2,
+          "Grammar": 2,
+          "Conventions": 3
+        },
+        "score_provenance": {
+          "raw_csv": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+          "source_row_id": 3650,
+          "csv_row": 3652,
+          "rater_column": "Rater_1",
+          "score_suffix": "_1"
+        },
+        "prior_development_target_overlap": false,
+        "prior_development_history_overlap": false,
+        "prior_saved_pool_exposure": true
+      }
+    ]
+  }
+]

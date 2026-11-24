@@ -1,0 +1,55 @@
+{
+  "pass_": true,
+  "schema_errors": [],
+  "checks": [
+    {
+      "kind": "rater",
+      "pass_": true
+    },
+    {
+      "kind": "representative_key",
+      "pass_": true
+    },
+    {
+      "kind": "indices",
+      "pass_": true
+    },
+    {
+      "kind": "representative_fields",
+      "pass_": true
+    },
+    {
+      "kind": "abstention",
+      "pass_": true
+    },
+    {
+      "kind": "observed_reference",
+      "pass_": true
+    },
+    {
+      "kind": "comparison_exists",
+      "pass_": true
+    },
+    {
+      "kind": "no_comparison_condition",
+      "pass_": true
+    }
+  ],
+  "comparison_direction": "none",
+  "feedback_paragraph": "A scoring pattern cannot be established from these cases. The provided observations do not establish a consistent pattern of scoring behavior across multiple essays. Each observation highlights a specific feature of the essay but does not show a repeated scoring behavior that can be generalized. In essay 1868:1, the relevant excerpt is “The main piece to improve your skills is during the process of keep learning.” In essay 1868:1, the relevant excerpt is “I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career.” The essay starts with a clear thesis statement and reiterates the main idea at the end of the paragraph, showing a clear focus on the importance of continuous learning. The recorded Cohesion score is 3. The official descriptor for Cohesion:3 is “Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.” This evidence alone does not establish whether that band is appropriate. This observation does not establish the overall coherence of the essay, only the cohesion within the first paragraph. Next inspect: Review the transitions between paragraphs to ensure they maintain the same focus on the importance of continuous learning. Check: Check if the writer maintains the connection and develops the argument consistently throughout the essay.",
+  "selected_evidence": [
+    {
+      "observation_key": "1868:1::O1",
+      "quote_index": 0,
+      "target_essay_id": "1868:1",
+      "exact_quote": "The main piece to improve your skills is during the process of keep learning."
+    },
+    {
+      "observation_key": "1868:1::O1",
+      "quote_index": 1,
+      "target_essay_id": "1868:1",
+      "exact_quote": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career."
+    }
+  ],
+  "semantic_support_not_certified": true
+}

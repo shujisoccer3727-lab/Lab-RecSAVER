@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "873:1",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "E873_1_P003_S001",
+        "E873_1_P003_S002"
+      ],
+      "feature": "The essay includes a quote from Winston Churchill and explicitly connects it to the idea of failure being important in the pursuit of success.",
+      "scoring_relevance": "The explicit connection between the quote and the essay's main idea demonstrates a cohesive link between supporting evidence and the thesis, which is relevant to the Cohesion dimension.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only that there is a clear connection between the quote and the thesis in this specific instance.",
+      "next_check": "Review the transitions between paragraphs to see if they maintain the same level of cohesion and clarity."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "E873_1_P003_S002"
+      ],
+      "feature": "The sentence 'In this quote former British prime minister Winston church chill once said that success consists of going from failure to failure without loss of enthusiasm.' contains a nonstandard verb form 'chill' instead of 'Churchill'.",
+      "scoring_relevance": "The presence of a nonstandard verb form in a single sentence is relevant to the Grammar dimension as it indicates a grammatical error.",
+      "limitation": "This observation does not establish the frequency of grammatical errors throughout the essay, only that there is at least one instance of a grammatical error.",
+      "next_check": "Check other sentences for similar grammatical errors or inconsistencies."
+    }
+  ],
+  "insufficient_evidence": []
+}

@@ -1,0 +1,26 @@
+{
+  "excluded_from_condition_B": true,
+  "revised_decision": {
+    "schema_version": "1.5",
+    "rater_id": "rater_7",
+    "pattern_status": "insufficient_evidence",
+    "pattern": null,
+    "pattern_limit": "The provided observations do not show a consistent pattern of scoring behavior across multiple essays for the same feature.",
+    "representative_observation_key": "2016:1::O1",
+    "quote_indices": [
+      0
+    ],
+    "textual_finding": "The sentence contains a nonstandard verb form: 'you will never grow.'",
+    "evidence_limit": "This observation does not establish the frequency of grammatical errors throughout the essay.",
+    "rubric_review": {
+      "observed_band_ref_id": "Grammar:2",
+      "comparison_band_ref_id": null,
+      "band_assessment": "indeterminate"
+    },
+    "next_check": {
+      "inspect": "Other sentences for similar grammatical issues, particularly the use of verbs and auxiliary verbs.",
+      "distinguish": "The frequency and type of grammatical errors.",
+      "reconsider_if": null
+    }
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "observation_key": "2016:1::O1",
+    "source_file": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_6_baseline/fixed_input.json",
+    "source_sha256": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+    "json_path": "$.rubric.scores[\"2\"][\"Grammar\"]",
+    "rubric_ref_id": "Grammar:2",
+    "dimension": "Grammar",
+    "score_band": 2,
+    "descriptor": "Many errors in grammar and usage."
+  },
+  {
+    "observation_key": "2016:1::O1",
+    "source_file": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_6_baseline/fixed_input.json",
+    "source_sha256": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+    "json_path": "$.rubric.scores[\"1\"][\"Grammar\"]",
+    "rubric_ref_id": "Grammar:1",
+    "dimension": "Grammar",
+    "score_band": 1,
+    "descriptor": "Errors in grammar and usage throughout."
+  },
+  {
+    "observation_key": "2016:1::O1",
+    "source_file": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_6_baseline/fixed_input.json",
+    "source_sha256": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+    "json_path": "$.rubric.scores[\"3\"][\"Grammar\"]",
+    "rubric_ref_id": "Grammar:3",
+    "dimension": "Grammar",
+    "score_band": 3,
+    "descriptor": "Some errors in grammar and usage."
+  },
+  {
+    "observation_key": "3650:1::O1",
+    "source_file": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_6_baseline/fixed_input.json",
+    "source_sha256": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+    "json_path": "$.rubric.scores[\"3\"][\"Cohesion\"]",
+    "rubric_ref_id": "Cohesion:3",
+    "dimension": "Cohesion",
+    "score_band": 3,
+    "descriptor": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs."
+  },
+  {
+    "observation_key": "3650:1::O1",
+    "source_file": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_6_baseline/fixed_input.json",
+    "source_sha256": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+    "json_path": "$.rubric.scores[\"2\"][\"Cohesion\"]",
+    "rubric_ref_id": "Cohesion:2",
+    "dimension": "Cohesion",
+    "score_band": 2,
+    "descriptor": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition."
+  },
+  {
+    "observation_key": "3650:1::O1",
+    "source_file": "/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/outputs/recsaver_stage3_v1_6_baseline/fixed_input.json",
+    "source_sha256": "dca75b64bfdcd05c49ecbc50560529337073e32846ffaff682d378a80ca27b0e",
+    "json_path": "$.rubric.scores[\"4\"][\"Cohesion\"]",
+    "rubric_ref_id": "Cohesion:4",
+    "dimension": "Cohesion",
+    "score_band": 4,
+    "descriptor": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas"
+  }
+]

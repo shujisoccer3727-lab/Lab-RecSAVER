@@ -1,0 +1,51 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "E3650_1_P002_S003",
+          "paragraph_id": "E3650_1_P002",
+          "start": 155,
+          "end": 221,
+          "text": "Then he said this \" imagination is more important than knowledge.\"",
+          "kind": "short_contiguous"
+        },
+        {
+          "span_id": "E3650_1_P002_S004",
+          "paragraph_id": "E3650_1_P002",
+          "start": 222,
+          "end": 454,
+          "text": "I disagree because you see you use imagination and knowledge in the rest of your life, when you work as a team you use imagination and knowledge and you need to be fast, strong, and smart, and imagination and knowledge is important.",
+          "kind": "short_contiguous"
+        }
+      ],
+      "reconstructed_quotes": [
+        "Then he said this \" imagination is more important than knowledge.\"",
+        "I disagree because you see you use imagination and knowledge in the rest of your life, when you work as a team you use imagination and knowledge and you need to be fast, strong, and smart, and imagination and knowledge is important."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "E3650_1_P002_S003",
+        "E3650_1_P002_S004"
+      ],
+      "feature": "The writer explicitly states disagreement with Albert Einstein's quote and provides a reason for disagreement.",
+      "scoring_relevance": "This feature demonstrates the writer's ability to clearly express a stance and provide a rationale, which is relevant to the cohesion dimension as it shows the writer's ability to connect their argument to the topic.",
+      "limitation": "This evidence does not establish the overall coherence of the essay or the consistency of the argument throughout the text.",
+      "next_check": "Review the subsequent paragraphs to check if the writer maintains this stance and provides further supporting examples or explanations.",
+      "quotes": [
+        "Then he said this \" imagination is more important than knowledge.\"",
+        "I disagree because you see you use imagination and knowledge in the rest of your life, when you work as a team you use imagination and knowledge and you need to be fast, strong, and smart, and imagination and knowledge is important."
+      ]
+    }
+  ]
+}

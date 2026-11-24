@@ -1,0 +1,124 @@
+{
+  "groups": [
+    {
+      "group_id": "known",
+      "common_3A_requests": 0,
+      "A_new_3B_requests": 0,
+      "B_incremental_3C_requests": 1,
+      "stage_costs": [
+        {
+          "stage": "c",
+          "requests": 1,
+          "prompt_tokens": 2883,
+          "output_tokens": 770,
+          "observed_batch_elapsed_seconds": 91.589884,
+          "timing_caveat": "同時バッチ内の群別専用GPU時間ではない。"
+        }
+      ]
+    },
+    {
+      "group_id": "contrast",
+      "common_3A_requests": 2,
+      "A_new_3B_requests": 1,
+      "B_incremental_3C_requests": 1,
+      "stage_costs": [
+        {
+          "stage": "a",
+          "requests": 2,
+          "prompt_tokens": 10518,
+          "output_tokens": 673,
+          "observed_batch_elapsed_seconds": 60.319462,
+          "timing_caveat": "同時バッチ内の群別専用GPU時間ではない。"
+        },
+        {
+          "stage": "b",
+          "requests": 1,
+          "prompt_tokens": 2313,
+          "output_tokens": 259,
+          "observed_batch_elapsed_seconds": 31.805916,
+          "timing_caveat": "同時バッチ内の群別専用GPU時間ではない。"
+        },
+        {
+          "stage": "c",
+          "requests": 1,
+          "prompt_tokens": 2702,
+          "output_tokens": 537,
+          "observed_batch_elapsed_seconds": 64.107835,
+          "timing_caveat": "同時バッチ内の群別専用GPU時間ではない。"
+        }
+      ]
+    },
+    {
+      "group_id": "limited",
+      "common_3A_requests": 2,
+      "A_new_3B_requests": 1,
+      "B_incremental_3C_requests": 1,
+      "stage_costs": [
+        {
+          "stage": "a",
+          "requests": 2,
+          "prompt_tokens": 9974,
+          "output_tokens": 419,
+          "observed_batch_elapsed_seconds": 60.459591,
+          "timing_caveat": "同時バッチ内の群別専用GPU時間ではない。"
+        },
+        {
+          "stage": "b",
+          "requests": 1,
+          "prompt_tokens": 1970,
+          "output_tokens": 235,
+          "observed_batch_elapsed_seconds": 31.903644,
+          "timing_caveat": "同時バッチ内の群別専用GPU時間ではない。"
+        },
+        {
+          "stage": "c",
+          "requests": 1,
+          "prompt_tokens": 2188,
+          "output_tokens": 545,
+          "observed_batch_elapsed_seconds": 64.164233,
+          "timing_caveat": "同時バッチ内の群別専用GPU時間ではない。"
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "requests": [
+        "groups/known/stage3c"
+      ],
+      "wall_seconds": 380.8892100090161,
+      "includes_model_initialization": true
+    },
+    {
+      "requests": [
+        "groups/contrast/stage3a/8699_1",
+        "groups/contrast/stage3a/873_1",
+        "groups/limited/stage3a/2016_1",
+        "groups/limited/stage3a/3650_1"
+      ],
+      "wall_seconds": 61.087425202014856,
+      "includes_model_initialization": false
+    },
+    {
+      "requests": [
+        "groups/contrast/A",
+        "groups/limited/A"
+      ],
+      "wall_seconds": 32.18198442796711,
+      "includes_model_initialization": false
+    },
+    {
+      "requests": [
+        "groups/contrast/stage3c",
+        "groups/limited/stage3c"
+      ],
+      "wall_seconds": 64.4289381269482,
+      "includes_model_initialization": false
+    }
+  ],
+  "actual_new_requests": 9,
+  "initialization_only_interruption_seconds_upper_bound": 168.221435,
+  "initialization_interruption_inference_calls": 0,
+  "initialization_interruption_outputs_discarded": 0,
+  "notes": "既知Aは保存物再利用で新規要求0。Bの追加コストは各群3C×1。3AはA/B共通。バッチ壁時計は共有を含み、群間で単純加算しない。再起動後最初のbatch_costsはモデル読込を含む。中断初期化時間は別計上。"
+}

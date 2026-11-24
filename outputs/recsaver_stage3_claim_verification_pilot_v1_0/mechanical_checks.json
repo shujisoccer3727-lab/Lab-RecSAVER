@@ -1,0 +1,739 @@
+{
+  "total": 131,
+  "passed": 131,
+  "failed": [],
+  "checks": [
+    {
+      "kind": "same_manifest_setting",
+      "pass_": true,
+      "field": "model"
+    },
+    {
+      "kind": "same_manifest_setting",
+      "pass_": true,
+      "field": "generation"
+    },
+    {
+      "kind": "same_manifest_setting",
+      "pass_": true,
+      "field": "max_tokens"
+    },
+    {
+      "kind": "same_manifest_setting",
+      "pass_": true,
+      "field": "sampling"
+    },
+    {
+      "kind": "same_manifest_setting",
+      "pass_": true,
+      "field": "seed"
+    },
+    {
+      "kind": "same_manifest_setting",
+      "pass_": true,
+      "field": "system_message"
+    },
+    {
+      "kind": "same_manifest_setting",
+      "pass_": true,
+      "field": "chat"
+    },
+    {
+      "kind": "selection_unchanged",
+      "pass_": true
+    },
+    {
+      "kind": "same_draft_for_A_B",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "3C_input_fields_only",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "rater_and_target_ids",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "same_rubric",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "own_score_attached",
+      "pass_": true,
+      "group": "known",
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "interpretation_is_separate",
+      "pass_": true,
+      "group": "known",
+      "key": "1868:1::O1"
+    },
+    {
+      "kind": "fixed_quote_and_correct_essay",
+      "pass_": true,
+      "group": "known",
+      "key": "1868:1::O1",
+      "quote_index": 0
+    },
+    {
+      "kind": "positions_and_boundaries",
+      "pass_": true,
+      "group": "known",
+      "key": "1868:1::O1",
+      "quote_index": 0
+    },
+    {
+      "kind": "fixed_quote_and_correct_essay",
+      "pass_": true,
+      "group": "known",
+      "key": "1868:1::O1",
+      "quote_index": 1
+    },
+    {
+      "kind": "positions_and_boundaries",
+      "pass_": true,
+      "group": "known",
+      "key": "1868:1::O1",
+      "quote_index": 1
+    },
+    {
+      "kind": "own_score_attached",
+      "pass_": true,
+      "group": "known",
+      "key": "4902:1::O1"
+    },
+    {
+      "kind": "interpretation_is_separate",
+      "pass_": true,
+      "group": "known",
+      "key": "4902:1::O1"
+    },
+    {
+      "kind": "fixed_quote_and_correct_essay",
+      "pass_": true,
+      "group": "known",
+      "key": "4902:1::O1",
+      "quote_index": 0
+    },
+    {
+      "kind": "positions_and_boundaries",
+      "pass_": true,
+      "group": "known",
+      "key": "4902:1::O1",
+      "quote_index": 0
+    },
+    {
+      "kind": "fixed_quote_and_correct_essay",
+      "pass_": true,
+      "group": "known",
+      "key": "4902:1::O1",
+      "quote_index": 1
+    },
+    {
+      "kind": "positions_and_boundaries",
+      "pass_": true,
+      "group": "known",
+      "key": "4902:1::O1",
+      "quote_index": 1
+    },
+    {
+      "kind": "own_score_attached",
+      "pass_": true,
+      "group": "known",
+      "key": "4902:1::O2"
+    },
+    {
+      "kind": "interpretation_is_separate",
+      "pass_": true,
+      "group": "known",
+      "key": "4902:1::O2"
+    },
+    {
+      "kind": "fixed_quote_and_correct_essay",
+      "pass_": true,
+      "group": "known",
+      "key": "4902:1::O2",
+      "quote_index": 0
+    },
+    {
+      "kind": "positions_and_boundaries",
+      "pass_": true,
+      "group": "known",
+      "key": "4902:1::O2",
+      "quote_index": 0
+    },
+    {
+      "kind": "same_renderer",
+      "pass_": true,
+      "group": "known",
+      "condition": "A"
+    },
+    {
+      "kind": "display_reproduces",
+      "pass_": true,
+      "group": "known",
+      "condition": "A"
+    },
+    {
+      "kind": "B_failure_not_replaced_with_A",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "known_A_byte_reuse",
+      "pass_": true,
+      "file": "input_3b.json"
+    },
+    {
+      "kind": "known_A_byte_reuse",
+      "pass_": true,
+      "file": "A/parsed.json"
+    },
+    {
+      "kind": "known_A_byte_reuse",
+      "pass_": true,
+      "file": "A/feedback_paragraph.txt"
+    },
+    {
+      "kind": "same_draft_for_A_B",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "3C_input_fields_only",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "rater_and_target_ids",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "same_rubric",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "own_score_attached",
+      "pass_": true,
+      "group": "contrast",
+      "key": "8699:1::O1"
+    },
+    {
+      "kind": "interpretation_is_separate",
+      "pass_": true,
+      "group": "contrast",
+      "key": "8699:1::O1"
+    },
+    {
+      "kind": "fixed_quote_and_correct_essay",
+      "pass_": true,
+      "group": "contrast",
+      "key": "8699:1::O1",
+      "quote_index": 0
+    },
+    {
+      "kind": "positions_and_boundaries",
+      "pass_": true,
+      "group": "contrast",
+      "key": "8699:1::O1",
+      "quote_index": 0
+    },
+    {
+      "kind": "own_score_attached",
+      "pass_": true,
+      "group": "contrast",
+      "key": "873:1::O1"
+    },
+    {
+      "kind": "interpretation_is_separate",
+      "pass_": true,
+      "group": "contrast",
+      "key": "873:1::O1"
+    },
+    {
+      "kind": "fixed_quote_and_correct_essay",
+      "pass_": true,
+      "group": "contrast",
+      "key": "873:1::O1",
+      "quote_index": 0
+    },
+    {
+      "kind": "positions_and_boundaries",
+      "pass_": true,
+      "group": "contrast",
+      "key": "873:1::O1",
+      "quote_index": 0
+    },
+    {
+      "kind": "fixed_quote_and_correct_essay",
+      "pass_": true,
+      "group": "contrast",
+      "key": "873:1::O1",
+      "quote_index": 1
+    },
+    {
+      "kind": "positions_and_boundaries",
+      "pass_": true,
+      "group": "contrast",
+      "key": "873:1::O1",
+      "quote_index": 1
+    },
+    {
+      "kind": "own_score_attached",
+      "pass_": true,
+      "group": "contrast",
+      "key": "873:1::O2"
+    },
+    {
+      "kind": "interpretation_is_separate",
+      "pass_": true,
+      "group": "contrast",
+      "key": "873:1::O2"
+    },
+    {
+      "kind": "fixed_quote_and_correct_essay",
+      "pass_": true,
+      "group": "contrast",
+      "key": "873:1::O2",
+      "quote_index": 0
+    },
+    {
+      "kind": "positions_and_boundaries",
+      "pass_": true,
+      "group": "contrast",
+      "key": "873:1::O2",
+      "quote_index": 0
+    },
+    {
+      "kind": "same_renderer",
+      "pass_": true,
+      "group": "contrast",
+      "condition": "A"
+    },
+    {
+      "kind": "display_reproduces",
+      "pass_": true,
+      "group": "contrast",
+      "condition": "A"
+    },
+    {
+      "kind": "B_failure_not_replaced_with_A",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "3A_text_input",
+      "pass_": true,
+      "group": "contrast",
+      "target": "8699:1"
+    },
+    {
+      "kind": "all_catalog_slices",
+      "pass_": true,
+      "group": "contrast",
+      "target": "8699:1"
+    },
+    {
+      "kind": "3A_text_input",
+      "pass_": true,
+      "group": "contrast",
+      "target": "873:1"
+    },
+    {
+      "kind": "all_catalog_slices",
+      "pass_": true,
+      "group": "contrast",
+      "target": "873:1"
+    },
+    {
+      "kind": "same_draft_for_A_B",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "3C_input_fields_only",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "rater_and_target_ids",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "same_rubric",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "own_score_attached",
+      "pass_": true,
+      "group": "limited",
+      "key": "2016:1::O1"
+    },
+    {
+      "kind": "interpretation_is_separate",
+      "pass_": true,
+      "group": "limited",
+      "key": "2016:1::O1"
+    },
+    {
+      "kind": "fixed_quote_and_correct_essay",
+      "pass_": true,
+      "group": "limited",
+      "key": "2016:1::O1",
+      "quote_index": 0
+    },
+    {
+      "kind": "positions_and_boundaries",
+      "pass_": true,
+      "group": "limited",
+      "key": "2016:1::O1",
+      "quote_index": 0
+    },
+    {
+      "kind": "own_score_attached",
+      "pass_": true,
+      "group": "limited",
+      "key": "3650:1::O1"
+    },
+    {
+      "kind": "interpretation_is_separate",
+      "pass_": true,
+      "group": "limited",
+      "key": "3650:1::O1"
+    },
+    {
+      "kind": "fixed_quote_and_correct_essay",
+      "pass_": true,
+      "group": "limited",
+      "key": "3650:1::O1",
+      "quote_index": 0
+    },
+    {
+      "kind": "positions_and_boundaries",
+      "pass_": true,
+      "group": "limited",
+      "key": "3650:1::O1",
+      "quote_index": 0
+    },
+    {
+      "kind": "fixed_quote_and_correct_essay",
+      "pass_": true,
+      "group": "limited",
+      "key": "3650:1::O1",
+      "quote_index": 1
+    },
+    {
+      "kind": "positions_and_boundaries",
+      "pass_": true,
+      "group": "limited",
+      "key": "3650:1::O1",
+      "quote_index": 1
+    },
+    {
+      "kind": "same_renderer",
+      "pass_": true,
+      "group": "limited",
+      "condition": "A"
+    },
+    {
+      "kind": "display_reproduces",
+      "pass_": true,
+      "group": "limited",
+      "condition": "A"
+    },
+    {
+      "kind": "B_failure_not_replaced_with_A",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "3A_text_input",
+      "pass_": true,
+      "group": "limited",
+      "target": "2016:1"
+    },
+    {
+      "kind": "all_catalog_slices",
+      "pass_": true,
+      "group": "limited",
+      "target": "2016:1"
+    },
+    {
+      "kind": "3A_text_input",
+      "pass_": true,
+      "group": "limited",
+      "target": "3650:1"
+    },
+    {
+      "kind": "all_catalog_slices",
+      "pass_": true,
+      "group": "limited",
+      "target": "3650:1"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "request": "groups/known/stage3c"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "groups/known/stage3c"
+    },
+    {
+      "kind": "strict_parse_failure_retained",
+      "pass_": true,
+      "request": "groups/known/stage3c"
+    },
+    {
+      "kind": "default_system_and_template",
+      "pass_": true,
+      "request": "groups/known/stage3c"
+    },
+    {
+      "kind": "one_shot_no_transport_retry",
+      "pass_": true,
+      "request": "groups/known/stage3c"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "request": "groups/contrast/stage3a/8699_1"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "groups/contrast/stage3a/8699_1"
+    },
+    {
+      "kind": "raw_parsed_unchanged",
+      "pass_": true,
+      "request": "groups/contrast/stage3a/8699_1"
+    },
+    {
+      "kind": "default_system_and_template",
+      "pass_": true,
+      "request": "groups/contrast/stage3a/8699_1"
+    },
+    {
+      "kind": "one_shot_no_transport_retry",
+      "pass_": true,
+      "request": "groups/contrast/stage3a/8699_1"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "request": "groups/contrast/stage3a/873_1"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "groups/contrast/stage3a/873_1"
+    },
+    {
+      "kind": "raw_parsed_unchanged",
+      "pass_": true,
+      "request": "groups/contrast/stage3a/873_1"
+    },
+    {
+      "kind": "default_system_and_template",
+      "pass_": true,
+      "request": "groups/contrast/stage3a/873_1"
+    },
+    {
+      "kind": "one_shot_no_transport_retry",
+      "pass_": true,
+      "request": "groups/contrast/stage3a/873_1"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "request": "groups/limited/stage3a/2016_1"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "groups/limited/stage3a/2016_1"
+    },
+    {
+      "kind": "raw_parsed_unchanged",
+      "pass_": true,
+      "request": "groups/limited/stage3a/2016_1"
+    },
+    {
+      "kind": "default_system_and_template",
+      "pass_": true,
+      "request": "groups/limited/stage3a/2016_1"
+    },
+    {
+      "kind": "one_shot_no_transport_retry",
+      "pass_": true,
+      "request": "groups/limited/stage3a/2016_1"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "request": "groups/limited/stage3a/3650_1"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "groups/limited/stage3a/3650_1"
+    },
+    {
+      "kind": "raw_parsed_unchanged",
+      "pass_": true,
+      "request": "groups/limited/stage3a/3650_1"
+    },
+    {
+      "kind": "default_system_and_template",
+      "pass_": true,
+      "request": "groups/limited/stage3a/3650_1"
+    },
+    {
+      "kind": "one_shot_no_transport_retry",
+      "pass_": true,
+      "request": "groups/limited/stage3a/3650_1"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "request": "groups/contrast/A"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "groups/contrast/A"
+    },
+    {
+      "kind": "raw_parsed_unchanged",
+      "pass_": true,
+      "request": "groups/contrast/A"
+    },
+    {
+      "kind": "default_system_and_template",
+      "pass_": true,
+      "request": "groups/contrast/A"
+    },
+    {
+      "kind": "one_shot_no_transport_retry",
+      "pass_": true,
+      "request": "groups/contrast/A"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "request": "groups/limited/A"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "groups/limited/A"
+    },
+    {
+      "kind": "raw_parsed_unchanged",
+      "pass_": true,
+      "request": "groups/limited/A"
+    },
+    {
+      "kind": "default_system_and_template",
+      "pass_": true,
+      "request": "groups/limited/A"
+    },
+    {
+      "kind": "one_shot_no_transport_retry",
+      "pass_": true,
+      "request": "groups/limited/A"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "request": "groups/contrast/stage3c"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "groups/contrast/stage3c"
+    },
+    {
+      "kind": "strict_parse_failure_retained",
+      "pass_": true,
+      "request": "groups/contrast/stage3c"
+    },
+    {
+      "kind": "default_system_and_template",
+      "pass_": true,
+      "request": "groups/contrast/stage3c"
+    },
+    {
+      "kind": "one_shot_no_transport_retry",
+      "pass_": true,
+      "request": "groups/contrast/stage3c"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "request": "groups/limited/stage3c"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "request": "groups/limited/stage3c"
+    },
+    {
+      "kind": "strict_parse_failure_retained",
+      "pass_": true,
+      "request": "groups/limited/stage3c"
+    },
+    {
+      "kind": "default_system_and_template",
+      "pass_": true,
+      "request": "groups/limited/stage3c"
+    },
+    {
+      "kind": "one_shot_no_transport_retry",
+      "pass_": true,
+      "request": "groups/limited/stage3c"
+    },
+    {
+      "kind": "runtime_same",
+      "pass_": true,
+      "field": "model_snapshot"
+    },
+    {
+      "kind": "runtime_same",
+      "pass_": true,
+      "field": "vllm"
+    },
+    {
+      "kind": "runtime_same",
+      "pass_": true,
+      "field": "torch"
+    },
+    {
+      "kind": "runtime_same",
+      "pass_": true,
+      "field": "transformers"
+    },
+    {
+      "kind": "runtime_same",
+      "pass_": true,
+      "field": "gpu"
+    },
+    {
+      "kind": "request_budget",
+      "pass_": true
+    }
+  ],
+  "semantic_support_certified": false
+}

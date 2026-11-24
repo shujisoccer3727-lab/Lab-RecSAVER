@@ -1,0 +1,163 @@
+{
+  "all_passed": true,
+  "total": 19,
+  "contract_cases": [
+    {
+      "name": "unchanged valid decision",
+      "expected_valid": true,
+      "errors": [],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "unknown audit observation",
+      "expected_valid": false,
+      "errors": [
+        "$.claim_checks[0]: unknown observation key",
+        "$.claim_checks[0]: invalid/cross-observation quote index"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "bad audit indices [-1]",
+      "expected_valid": false,
+      "errors": [
+        "$.claim_checks[0]: invalid/cross-observation quote index"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "bad audit indices [999]",
+      "expected_valid": false,
+      "errors": [
+        "$.claim_checks[0]: invalid/cross-observation quote index"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "bad audit indices [True]",
+      "expected_valid": false,
+      "errors": [
+        "$.claim_checks[0]: invalid/cross-observation quote index",
+        "$.claim_checks[0]: duplicate/invalid quote indices"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "bad audit indices [0.5]",
+      "expected_valid": false,
+      "errors": [
+        "$.claim_checks[0]: invalid/cross-observation quote index",
+        "$.claim_checks[0]: duplicate/invalid quote indices"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "bad audit indices [0, 0]",
+      "expected_valid": false,
+      "errors": [
+        "$.claim_checks[0]: duplicate/invalid quote indices"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "unknown audit rubric",
+      "expected_valid": false,
+      "errors": [
+        "$.claim_checks[0]: unknown rubric reference"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "invalid verdict",
+      "expected_valid": false,
+      "errors": [
+        "$.claim_checks[0]: invalid verdict"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "cross-group revision key",
+      "expected_valid": false,
+      "errors": [
+        "revised_decision failed existing 3B reference/render checks"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "boolean revision index",
+      "expected_valid": false,
+      "errors": [
+        "revised_decision failed existing 3B reference/render checks"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "wrong rater",
+      "expected_valid": false,
+      "errors": [
+        "revised_decision failed existing 3B reference/render checks"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "wrong observed score reference",
+      "expected_valid": false,
+      "errors": [
+        "revised_decision failed existing 3B reference/render checks"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "revision quote outside observation",
+      "expected_valid": false,
+      "errors": [
+        "revised_decision failed existing 3B reference/render checks"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "invented output position rejected",
+      "expected_valid": false,
+      "errors": [
+        "$.source_position: unexpected field",
+        "revised_decision failed existing 3B reference/render checks"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "unhashable key fails closed",
+      "expected_valid": false,
+      "errors": [
+        "$.representative_observation_key: missing/type",
+        "revised_decision failed existing 3B reference/render checks"
+      ],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    },
+    {
+      "name": "coordinated switch to supplied observation",
+      "expected_valid": true,
+      "errors": [],
+      "pass_": true,
+      "synthetic_fixture_not_model_success": true
+    }
+  ],
+  "source_position_derivation_passed": true,
+  "selection_frozen_before_outputs": true,
+  "model_calls": 0
+}

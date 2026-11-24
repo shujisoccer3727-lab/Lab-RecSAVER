@@ -1,0 +1,145 @@
+{
+  "frozen_at": "2026-11-24T06:09:09.842442+09:00",
+  "before_new_3A_3B_3C_outputs": true,
+  "comparison_commit": "2d49a6f4b635cedece5fdf25eda9d2ac9c48cb3d",
+  "known": {
+    "group_id": "known",
+    "rater_id": "rater_7",
+    "target_ids": [
+      "1868:1",
+      "4902:1"
+    ],
+    "purpose": "動作確認専用。Aの保存済み入力・解析JSON・最終文をバイト同一再利用し、効果集計から除外。",
+    "new_requests": 1
+  },
+  "new_groups": [
+    {
+      "group_id": "contrast",
+      "target_ids": [
+        "8699:1",
+        "873:1"
+      ],
+      "pool": "recsaver_mvp/verified_reference_pool.jsonl",
+      "reason": "同一rater_7、Cohesion=2対3。8699にはHowever/Rather than等の接続と断片化、873にはFirstly/Secondly/Thirdlyと理由・例示があり、局所の接続特徴と本人得点を対照できる。得点差の原因や採点規則の同定はできない。",
+      "role": "比較可能な局所特徴・異なる得点の対照。傾向成立を事前保証しない。",
+      "rater_id": "rater_7",
+      "targets": [
+        {
+          "essay_id": "8699:1",
+          "rater_id": "rater_7",
+          "Overall": 2,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 2,
+            "Vocabulary": 2,
+            "Phraseology": 2,
+            "Grammar": 2,
+            "Conventions": 2
+          },
+          "score_provenance": {
+            "raw_csv": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+            "source_row_id": 8699,
+            "csv_row": 8701,
+            "rater_column": "Rater_1",
+            "score_suffix": "_1"
+          },
+          "prior_development_target_overlap": false,
+          "prior_development_history_overlap": false,
+          "prior_saved_pool_exposure": true
+        },
+        {
+          "essay_id": "873:1",
+          "rater_id": "rater_7",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 4,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 3
+          },
+          "score_provenance": {
+            "raw_csv": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+            "source_row_id": 873,
+            "csv_row": 875,
+            "rater_column": "Rater_1",
+            "score_suffix": "_1"
+          },
+          "prior_development_target_overlap": false,
+          "prior_development_history_overlap": false,
+          "prior_saved_pool_exposure": true
+        }
+      ],
+      "pool_sha256": "ae087706d7581e49d02aaca172ca190ef180f51ba0e1c0b5036fefab93c88517",
+      "accepted_candidate_count": 4,
+      "acceptance_policy": "保存済みverified=trueかつ再構成Overall一致。旧実験の検証基準を新v1.2相当とみなさず、本文・本人Traitをrawで再照合。候補解釈は3A/3B/3Cへ渡さない。"
+    },
+    {
+      "group_id": "limited",
+      "target_ids": [
+        "2016:1",
+        "3650:1"
+      ],
+      "pool": "reasoning_eval_v1/verified_reference_pool.jsonl",
+      "reason": "同一rater_7、両答案Cohesion=3、Grammar=2。著者の言葉への反対と列挙・理由を含み、局所所見は点検可能だが、共通特徴・得点だけから採点傾向を支持する対照がない。",
+      "role": "根拠不足時の傾向保留と局所所見保持の確認。",
+      "rater_id": "rater_7",
+      "targets": [
+        {
+          "essay_id": "2016:1",
+          "rater_id": "rater_7",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 2,
+            "Grammar": 2,
+            "Conventions": 3
+          },
+          "score_provenance": {
+            "raw_csv": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+            "source_row_id": 2016,
+            "csv_row": 2018,
+            "rater_column": "Rater_1",
+            "score_suffix": "_1"
+          },
+          "prior_development_target_overlap": false,
+          "prior_development_history_overlap": false,
+          "prior_saved_pool_exposure": true
+        },
+        {
+          "essay_id": "3650:1",
+          "rater_id": "rater_7",
+          "Overall": 3,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 2,
+            "Vocabulary": 3,
+            "Phraseology": 2,
+            "Grammar": 2,
+            "Conventions": 3
+          },
+          "score_provenance": {
+            "raw_csv": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+            "source_row_id": 3650,
+            "csv_row": 3652,
+            "rater_column": "Rater_1",
+            "score_suffix": "_1"
+          },
+          "prior_development_target_overlap": false,
+          "prior_development_history_overlap": false,
+          "prior_saved_pool_exposure": true
+        }
+      ],
+      "pool_sha256": "7ba9704f2520e07aafb7a800b0e70e2d5bdc1276ee2cfa35572b5612d36ec1c9",
+      "accepted_candidate_count": 6,
+      "acceptance_policy": "保存済みverified=trueかつ再構成Overall一致。旧実験の検証基準を新v1.2相当とみなさず、本文・本人Traitをrawで再照合。候補解釈は3A/3B/3Cへ渡さない。"
+    }
+  ],
+  "requested_new_group_max": 2,
+  "new_group_count": 2,
+  "selection_limitations": "旧採用プールの受入基準は現行v1.2と同一ではない。既存採用を保持し、再採用・Stage1/2再実行なし。保存プールでの既知露出があるため独立最終評価ではない。",
+  "missing_groups": []
+}

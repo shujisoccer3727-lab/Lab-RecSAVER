@@ -1,0 +1,66 @@
+{
+  "strict_json_pass": false,
+  "transformation": "Remove one outer Markdown code fence for quarantined diagnosis only.",
+  "excluded_from_condition_B": true,
+  "counts_as_processing_success": false,
+  "parse_error": null,
+  "diagnostic_value": {
+    "claim_checks": [
+      {
+        "field": "textual_finding",
+        "claim": "The sentence contains a nonstandard verb form: 'you will never grow.'",
+        "verdict": "supported",
+        "observation_key": "2016:1::O1",
+        "quote_indices": [
+          0
+        ],
+        "rubric_ref_id": null,
+        "reason": "The exact quote 'unless you try to do something beyond what you have already mastered, you will never grow' contains the nonstandard verb form 'you will never grow'."
+      },
+      {
+        "field": "pattern_status",
+        "claim": "insufficient_evidence",
+        "verdict": "supported",
+        "observation_key": null,
+        "quote_indices": [],
+        "rubric_ref_id": null,
+        "reason": "The provided observations do not show a consistent pattern of scoring behavior across multiple essays for the same feature."
+      },
+      {
+        "field": "rubric_review",
+        "claim": "indeterminate",
+        "verdict": "supported",
+        "observation_key": "2016:1::O1",
+        "quote_indices": [
+          0
+        ],
+        "rubric_ref_id": "Grammar:2",
+        "reason": "The local evidence is insufficient to determine if the score aligns with the rubric descriptor 'Many errors in grammar and usage.'"
+      }
+    ],
+    "revised_decision": {
+      "schema_version": "1.5",
+      "rater_id": "rater_7",
+      "pattern_status": "insufficient_evidence",
+      "pattern": null,
+      "pattern_limit": "The provided observations do not show a consistent pattern of scoring behavior across multiple essays for the same feature.",
+      "representative_observation_key": "2016:1::O1",
+      "quote_indices": [
+        0
+      ],
+      "textual_finding": "The sentence contains a nonstandard verb form: 'you will never grow.'",
+      "evidence_limit": "This observation does not establish the frequency of grammatical errors throughout the essay.",
+      "rubric_review": {
+        "observed_band_ref_id": "Grammar:2",
+        "comparison_band_ref_id": null,
+        "band_assessment": "indeterminate"
+      },
+      "next_check": {
+        "inspect": "Other sentences for similar grammatical issues, particularly the use of verbs and auxiliary verbs.",
+        "distinguish": "The frequency and type of grammatical errors.",
+        "reconsider_if": null
+      }
+    }
+  },
+  "raw_sha256": "c91063dbe55b659b1898e3864fb415a8f10c30ff2fee3ebe999e0e2d24248877"
+}

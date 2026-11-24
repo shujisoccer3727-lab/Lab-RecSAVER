@@ -1,0 +1,55 @@
+{
+  "strict_json_pass": false,
+  "transformation": "Remove one outer Markdown code fence for quarantined diagnosis only.",
+  "excluded_from_condition_B": true,
+  "counts_as_processing_success": false,
+  "parse_error": null,
+  "diagnostic_value": {
+    "claim_checks": [
+      {
+        "field": "textual_finding",
+        "claim": "The sentence contains grammatical errors, including subject-verb agreement issues and incorrect use of articles.",
+        "verdict": "supported",
+        "observation_key": "8699:1::O1",
+        "quote_indices": [
+          0
+        ],
+        "rubric_ref_id": "Grammar:2",
+        "reason": "The sentence 'Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it.' contains grammatical errors, including subject-verb agreement issues ('We are constantly' and 'We will not ever found it') and incorrect use of articles."
+      },
+      {
+        "field": "pattern_status",
+        "claim": "The provided observations do not show a consistent pattern of scoring behavior across multiple essays for the same feature.",
+        "verdict": "supported",
+        "observation_key": null,
+        "quote_indices": [],
+        "rubric_ref_id": null,
+        "reason": "The evidence does not provide sufficient information to establish a consistent pattern of scoring behavior across multiple essays for the same feature."
+      }
+    ],
+    "revised_decision": {
+      "schema_version": "1.5",
+      "rater_id": "rater_7",
+      "pattern_status": "insufficient_evidence",
+      "pattern": null,
+      "pattern_limit": "The provided observations do not show a consistent pattern of scoring behavior across multiple essays for the same feature.",
+      "representative_observation_key": "8699:1::O1",
+      "quote_indices": [
+        0
+      ],
+      "textual_finding": "The sentence contains grammatical errors, including subject-verb agreement issues and incorrect use of articles.",
+      "evidence_limit": "This observation does not provide information about the overall grammatical accuracy of the essay, only about this specific sentence.",
+      "rubric_review": {
+        "observed_band_ref_id": "Grammar:2",
+        "comparison_band_ref_id": null,
+        "band_assessment": "indeterminate"
+      },
+      "next_check": {
+        "inspect": "Other sentences in the essay to check for similar grammatical errors, particularly subject-verb agreement and article usage.",
+        "distinguish": "The frequency and impact of grammatical errors on the overall clarity and coherence of the essay.",
+        "reconsider_if": null
+      }
+    }
+  },
+  "raw_sha256": "406dfc514d29ddaaed56d1d3e07dcae4096aac978b40d0be8a85c81e62119fdd"
+}

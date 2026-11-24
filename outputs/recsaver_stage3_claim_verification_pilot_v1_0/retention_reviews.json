@@ -1,0 +1,61 @@
+{
+  "evaluator": "Codexによる独立の暫定照合。3C自己判定を正解に使わない。",
+  "groups": [
+    {
+      "group_id": "known",
+      "summary_ja": "Aは保存済み直接統合を再利用。Bはコードフェンス付き応答で厳密JSON不成立。診断上も、3CはS004の段落末という誤りをsupportedとし、初稿を変更していない。",
+      "complete_supported_findings_A": 0,
+      "same_findings_retained": null,
+      "supported_findings_replaced": null,
+      "supported_patterns_A": 0,
+      "same_patterns_retained": null,
+      "supported_propositions_A": 4,
+      "supported_propositions_retained": null,
+      "added_unsupported_claims_B": null,
+      "B_grounded_local_finding": null,
+      "B_concrete_next_check": null,
+      "improvement": false,
+      "retention_reason_ja": "Aの代表所見全体は位置誤認を含むので完全支持の所見には数えない。Aで支持された4命題と確認行動はあるが、正式なB出力がないため保持・置換・新規未支持主張・有効な確認点の保持は評価不能。診断用のunchangedな構造を正式なBとして数えない。"
+    },
+    {
+      "group_id": "contrast",
+      "summary_ja": "新規群。Aの文法誤り一般は支持されるが、主語・動詞一致と冠詞という種類の診断は支持されない。Bは厳密JSON不成立。診断用の修正案もAと同一で、正式な比較結果には採用しない。",
+      "complete_supported_findings_A": 0,
+      "same_findings_retained": null,
+      "supported_findings_replaced": null,
+      "supported_patterns_A": 0,
+      "same_patterns_retained": null,
+      "supported_propositions_A": 4,
+      "supported_propositions_retained": null,
+      "added_unsupported_claims_B": null,
+      "B_grounded_local_finding": null,
+      "B_concrete_next_check": null,
+      "improvement": false,
+      "retention_reason_ja": "Aには支持された一般的な文法問題という局所命題と、適切な傾向・帯の留保があるが、代表所見全体は複合誤診を含む。正式なBの最終文がないので、保持・置換・新規未支持主張はNA。0件削減や0件新設として扱わない。"
+    },
+    {
+      "group_id": "limited",
+      "summary_ja": "新規群。Aは標準的なyou will never growを非標準動詞形と誤診。Bは厳密JSON不成立。診断用の修正案もAと同一であり、形式上の問題だけを外せば改善したと推測する根拠もない。",
+      "complete_supported_findings_A": 0,
+      "same_findings_retained": null,
+      "supported_findings_replaced": null,
+      "supported_patterns_A": 0,
+      "same_patterns_retained": null,
+      "supported_propositions_A": 3,
+      "supported_propositions_retained": null,
+      "added_unsupported_claims_B": null,
+      "B_grounded_local_finding": null,
+      "B_concrete_next_check": null,
+      "improvement": false,
+      "retention_reason_ja": "Aの代表所見は誤診なので完全支持所見0。頻度・傾向・帯の保留3命題は支持されるが、正式なBがないのでその保持は評価不能。原文に存在する3650の反対理由という候補へ切り替えたとは扱わない。"
+    }
+  ],
+  "known_regression": {
+    "detected_unsupported_paragraph_end": false,
+    "revision_type": "正式なB最終文なし（処理失敗）。診断上のrevised_decisionはAと完全一致で、言い換え・代表変更・削除はいずれもなし。",
+    "operation_check_passed": false,
+    "reason_ja": "3Cの生出力中のclaim_checksは、段落末を含む複合主張を分割せずsupportedとし、reasonにもat the end of the paragraphを再掲。コードが渡したS004=[368,610)、paragraph_end=765、at_paragraph_end=falseと矛盾する。独立原文照合でもS005[611,765)が続くため、検出できたとは判定しない。外側コードフェンスを診断目的で隔離解析したが、正式parsed.jsonやB表示は作成せず、修復成功として扱わない。"
+  },
+  "overall_conclusion_ja": "未達。Aは3/3群で表示できたが、Bは3群ともMarkdownコードフェンス付きで厳密JSON契約を満たさず、正常表示0/3群。新規2群のAには未支持主張が3/10件あり、修正対象は存在したが、Bの主張数・保持・改善効果は評価不能。診断目的の隔離解析でも3Cは3群とも初稿を変更せず、既知の段落末誤認も支持扱いした。",
+  "next_step_ja": "次の比較に進む目安は満たしていない。残る障害は、3Cの厳密JSON契約の不成立と、主張を独立に分けず上流の解釈を追認して位置情報との矛盾を見落としたこと。今回はここで終了し、プロンプトの自動再調整・再生成を行わない。形式問題だけを解消すれば内容上の改善が得られるとは結論しない。"
+}

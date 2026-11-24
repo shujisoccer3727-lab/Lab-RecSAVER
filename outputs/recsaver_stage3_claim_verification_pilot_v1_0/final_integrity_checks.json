@@ -1,0 +1,255 @@
+{
+  "total": 62,
+  "passed": 62,
+  "checks": [
+    {
+      "name": "nine_requests_only",
+      "pass_": true
+    },
+    {
+      "name": "unchanged_raw_groups/known/stage3c",
+      "pass_": true
+    },
+    {
+      "name": "no_retry_groups/known/stage3c",
+      "pass_": true
+    },
+    {
+      "name": "unchanged_raw_groups/contrast/stage3a/8699_1",
+      "pass_": true
+    },
+    {
+      "name": "no_retry_groups/contrast/stage3a/8699_1",
+      "pass_": true
+    },
+    {
+      "name": "unchanged_raw_groups/contrast/stage3a/873_1",
+      "pass_": true
+    },
+    {
+      "name": "no_retry_groups/contrast/stage3a/873_1",
+      "pass_": true
+    },
+    {
+      "name": "unchanged_raw_groups/limited/stage3a/2016_1",
+      "pass_": true
+    },
+    {
+      "name": "no_retry_groups/limited/stage3a/2016_1",
+      "pass_": true
+    },
+    {
+      "name": "unchanged_raw_groups/limited/stage3a/3650_1",
+      "pass_": true
+    },
+    {
+      "name": "no_retry_groups/limited/stage3a/3650_1",
+      "pass_": true
+    },
+    {
+      "name": "unchanged_raw_groups/contrast/A",
+      "pass_": true
+    },
+    {
+      "name": "no_retry_groups/contrast/A",
+      "pass_": true
+    },
+    {
+      "name": "unchanged_raw_groups/limited/A",
+      "pass_": true
+    },
+    {
+      "name": "no_retry_groups/limited/A",
+      "pass_": true
+    },
+    {
+      "name": "unchanged_raw_groups/contrast/stage3c",
+      "pass_": true
+    },
+    {
+      "name": "no_retry_groups/contrast/stage3c",
+      "pass_": true
+    },
+    {
+      "name": "unchanged_raw_groups/limited/stage3c",
+      "pass_": true
+    },
+    {
+      "name": "no_retry_groups/limited/stage3c",
+      "pass_": true
+    },
+    {
+      "name": "failed_closed_known",
+      "pass_": true
+    },
+    {
+      "name": "no_formal_parse_known",
+      "pass_": true
+    },
+    {
+      "name": "quarantine_only_known",
+      "pass_": true
+    },
+    {
+      "name": "diagnostic_revision_unchanged_known",
+      "pass_": true
+    },
+    {
+      "name": "failed_quality_metrics_are_NA_known",
+      "pass_": true
+    },
+    {
+      "name": "failed_closed_contrast",
+      "pass_": true
+    },
+    {
+      "name": "no_formal_parse_contrast",
+      "pass_": true
+    },
+    {
+      "name": "quarantine_only_contrast",
+      "pass_": true
+    },
+    {
+      "name": "diagnostic_revision_unchanged_contrast",
+      "pass_": true
+    },
+    {
+      "name": "failed_quality_metrics_are_NA_contrast",
+      "pass_": true
+    },
+    {
+      "name": "failed_closed_limited",
+      "pass_": true
+    },
+    {
+      "name": "no_formal_parse_limited",
+      "pass_": true
+    },
+    {
+      "name": "quarantine_only_limited",
+      "pass_": true
+    },
+    {
+      "name": "diagnostic_revision_unchanged_limited",
+      "pass_": true
+    },
+    {
+      "name": "failed_quality_metrics_are_NA_limited",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_R9f960a91_C1",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_R9f960a91_C2",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_R9f960a91_C3",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_R9f960a91_C4",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_R9f960a91_C5",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_R9f960a91_C6",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_Re6f8ce45_K1",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_Re6f8ce45_K2",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_Re6f8ce45_K3",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_Re6f8ce45_K4",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_Re6f8ce45_K5",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_Re6f8ce45_K6",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_Re6f8ce45_K7",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_Rfdc8e192_L1",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_Rfdc8e192_L2",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_Rfdc8e192_L3",
+      "pass_": true
+    },
+    {
+      "name": "independent_review_refs_Rfdc8e192_L4",
+      "pass_": true
+    },
+    {
+      "name": "new_group_A_claim_counts",
+      "pass_": true
+    },
+    {
+      "name": "new_group_B_not_zero",
+      "pass_": true
+    },
+    {
+      "name": "display_counts_and_stop",
+      "pass_": true
+    },
+    {
+      "name": "claim_csv_counts",
+      "pass_": true
+    },
+    {
+      "name": "review_table_omits_audit_verdicts",
+      "pass_": true
+    },
+    {
+      "name": "required_file_selection_manifest.json",
+      "pass_": true
+    },
+    {
+      "name": "required_file_run_manifest.json",
+      "pass_": true
+    },
+    {
+      "name": "required_file_claim_comparison.csv",
+      "pass_": true
+    },
+    {
+      "name": "required_file_validation_report.md",
+      "pass_": true
+    },
+    {
+      "name": "required_file_cost_summary.json",
+      "pass_": true
+    },
+    {
+      "name": "required_file_review_protocol.json",
+      "pass_": true
+    }
+  ],
+  "failed": []
+}

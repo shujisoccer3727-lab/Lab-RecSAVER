@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "2016:1",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": ["E2016_1_P002_S001"],
+      "feature": "The sentence contains a nonstandard verb form: 'you will never grow.'",
+      "scoring_relevance": "The use of 'grow' as a verb without a proper auxiliary verb form indicates a grammatical error, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation does not establish the frequency of grammatical errors throughout the essay.",
+      "next_check": "Review other sentences for similar grammatical issues, particularly the use of verbs and auxiliary verbs."
+    }
+  ],
+  "insufficient_evidence": []
+}

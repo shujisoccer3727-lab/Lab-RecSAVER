@@ -1,0 +1,40 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "E8699_1_P003_S001",
+          "paragraph_id": "E8699_1_P003",
+          "start": 30,
+          "end": 228,
+          "text": "Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it.",
+          "kind": "short_contiguous"
+        }
+      ],
+      "reconstructed_quotes": [
+        "Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "E8699_1_P003_S001"
+      ],
+      "feature": "The sentence 'Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it.' contains grammatical errors, including subject-verb agreement issues ('We are constantly' and 'We will not ever found it') and incorrect use of articles.",
+      "scoring_relevance": "These grammatical errors can affect the clarity and coherence of the essay, making it harder for the reader to understand the writer's intended message.",
+      "limitation": "This observation does not provide information about the overall grammatical accuracy of the essay, only about this specific sentence.",
+      "next_check": "Review other sentences in the essay to check for similar grammatical errors, particularly subject-verb agreement and article usage.",
+      "quotes": [
+        "Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it."
+      ]
+    }
+  ]
+}

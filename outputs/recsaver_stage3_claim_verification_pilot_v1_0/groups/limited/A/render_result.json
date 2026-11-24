@@ -1,0 +1,49 @@
+{
+  "pass_": true,
+  "schema_errors": [],
+  "checks": [
+    {
+      "kind": "rater",
+      "pass_": true
+    },
+    {
+      "kind": "representative_key",
+      "pass_": true
+    },
+    {
+      "kind": "indices",
+      "pass_": true
+    },
+    {
+      "kind": "representative_fields",
+      "pass_": true
+    },
+    {
+      "kind": "abstention",
+      "pass_": true
+    },
+    {
+      "kind": "observed_reference",
+      "pass_": true
+    },
+    {
+      "kind": "comparison_exists",
+      "pass_": true
+    },
+    {
+      "kind": "no_comparison_condition",
+      "pass_": true
+    }
+  ],
+  "comparison_direction": "none",
+  "feedback_paragraph": "A scoring pattern cannot be established from these cases. The provided observations do not show a consistent pattern of scoring behavior across multiple essays for the same feature. In essay 2016:1, the relevant excerpt is “Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow.” The sentence contains a nonstandard verb form: 'you will never grow.' The recorded Grammar score is 2. The official descriptor for Grammar:2 is “Many errors in grammar and usage.” This evidence alone does not establish whether that band is appropriate. This observation does not establish the frequency of grammatical errors throughout the essay. Next inspect: Other sentences for similar grammatical issues, particularly the use of verbs and auxiliary verbs. Check: The frequency and type of grammatical errors.",
+  "selected_evidence": [
+    {
+      "observation_key": "2016:1::O1",
+      "quote_index": 0,
+      "target_essay_id": "2016:1",
+      "exact_quote": "Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow."
+    }
+  ],
+  "semantic_support_not_certified": true
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "requests": [
+      "groups/known/stage3c"
+    ],
+    "wall_seconds": 380.8892100090161,
+    "includes_model_initialization": true
+  },
+  {
+    "requests": [
+      "groups/contrast/stage3a/8699_1",
+      "groups/contrast/stage3a/873_1",
+      "groups/limited/stage3a/2016_1",
+      "groups/limited/stage3a/3650_1"
+    ],
+    "wall_seconds": 61.087425202014856,
+    "includes_model_initialization": false
+  },
+  {
+    "requests": [
+      "groups/contrast/A",
+      "groups/limited/A"
+    ],
+    "wall_seconds": 32.18198442796711,
+    "includes_model_initialization": false
+  },
+  {
+    "requests": [
+      "groups/contrast/stage3c",
+      "groups/limited/stage3c"
+    ],
+    "wall_seconds": 64.4289381269482,
+    "includes_model_initialization": false
+  }
+]

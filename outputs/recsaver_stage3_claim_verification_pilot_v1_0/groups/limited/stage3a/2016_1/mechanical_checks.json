@@ -1,0 +1,40 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "E2016_1_P002_S001",
+          "paragraph_id": "E2016_1_P002",
+          "start": 32,
+          "end": 149,
+          "text": "Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow.",
+          "kind": "short_contiguous"
+        }
+      ],
+      "reconstructed_quotes": [
+        "Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "E2016_1_P002_S001"
+      ],
+      "feature": "The sentence contains a nonstandard verb form: 'you will never grow.'",
+      "scoring_relevance": "The use of 'grow' as a verb without a proper auxiliary verb form indicates a grammatical error, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation does not establish the frequency of grammatical errors throughout the essay.",
+      "next_check": "Review other sentences for similar grammatical issues, particularly the use of verbs and auxiliary verbs.",
+      "quotes": [
+        "Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow."
+      ]
+    }
+  ]
+}

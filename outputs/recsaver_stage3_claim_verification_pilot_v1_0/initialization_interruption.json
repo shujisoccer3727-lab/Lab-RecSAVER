@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-11-24T06:14:23.953286+09:00",
+  "process": {
+    "pid": 245277,
+    "started": "2026-11-24T06:11:35.731851+09:00"
+  },
+  "prepared_requests": [
+    {
+      "request": "groups/known/stage3c",
+      "stage": "c",
+      "attempted_at": "2026-11-24T06:11:47.153454+09:00"
+    }
+  ],
+  "model_generate_calls": 0,
+  "outputs_discarded": 0,
+  "reason": "Existing handoff had a hardcoded both Overall=3 limit; replaced before inference with a neutral same-rater two-essay limit for new groups.",
+  "proof": "Worker stopped before model weights finished loading. No Processed prompts entry or raw response existed.",
+  "log_sha256_at_interruption": "7ba08a82c027346c6972b32390842ae9617ea38d14ec0c2807c8cc39cc9b0a7d"
+}
