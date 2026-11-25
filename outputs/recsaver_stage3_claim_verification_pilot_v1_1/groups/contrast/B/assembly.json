@@ -1,0 +1,113 @@
+{
+  "processing_success": true,
+  "local_finding_retained": true,
+  "retained_claim_ids": [
+    "C01",
+    "C02",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "displayed_claim_ids": [
+    "C01",
+    "C02",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "next_check_ids": [
+    "CN1_agreement",
+    "CN3_general"
+  ],
+  "dropped_next_check_ids": [
+    "CN2_articles"
+  ],
+  "decisions": [
+    {
+      "claim_id": "C01",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "C01",
+        "verdict": "supported",
+        "reason": "The sentence contains multiple grammatical errors such as 'Today We are constantly that' and 'We will not ever found it.'"
+      },
+      "keep": true,
+      "candidate": "The selected sentence contains grammatical errors.",
+      "rendered": true
+    },
+    {
+      "claim_id": "C02",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "C02",
+        "verdict": "supported",
+        "reason": "The sentence contains subject-verb agreement errors like 'We are constantly that' and 'We will not ever found it.'"
+      },
+      "keep": true,
+      "candidate": "The selected sentence contains subject-verb agreement errors.",
+      "rendered": true
+    },
+    {
+      "claim_id": "C03",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "C03",
+        "verdict": "insufficient",
+        "reason": "The sentence does not show clear evidence of incorrect use of articles."
+      },
+      "keep": false,
+      "candidate": "The selected sentence contains incorrect use of articles.",
+      "rendered": false
+    },
+    {
+      "claim_id": "C04",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "C04",
+        "verdict": "supported",
+        "reason": "A single sentence cannot establish the overall grammatical accuracy of the entire essay."
+      },
+      "keep": true,
+      "candidate": "The selected sentence does not establish the overall grammatical accuracy of the essay.",
+      "rendered": true
+    },
+    {
+      "claim_id": "C05",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "C05",
+        "verdict": "supported",
+        "reason": "The evidence does not show repeated scoring behavior across multiple essays."
+      },
+      "keep": true,
+      "candidate": "The supplied local evidence does not establish a repeated scoring behavior across essays.",
+      "rendered": true
+    },
+    {
+      "claim_id": "C06",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "C06",
+        "verdict": "supported",
+        "reason": "The excerpt alone does not establish the appropriateness of the recorded Grammar band."
+      },
+      "keep": true,
+      "candidate": "This evidence alone does not establish whether that band is appropriate.",
+      "rendered": true
+    }
+  ],
+  "reviewed_quotes": [
+    {
+      "quote_index": 0,
+      "exact_quote": "Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it."
+    }
+  ],
+  "observed_rubric": {
+    "rubric_ref_id": "Grammar:2",
+    "dimension": "Grammar",
+    "score_band": 2,
+    "descriptor": "Many errors in grammar and usage."
+  },
+  "feedback_paragraph": "The supplied local evidence does not establish a repeated scoring behavior across essays. In essay 8699:1, the reviewed excerpt is “Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it.” The selected sentence contains grammatical errors. The selected sentence contains subject-verb agreement errors. The recorded Grammar score is 2. The official descriptor for Grammar:2 is “Many errors in grammar and usage.” The selected sentence does not establish the overall grammatical accuracy of the essay. This evidence alone does not establish whether that band is appropriate. Next inspect: Inspect other sentences for subject-verb agreement errors similar to those in the selected sentence. Next inspect: Inspect other sentences for grammatical errors and check their frequency and effect on clarity.",
+  "fallback_to_A": false
+}

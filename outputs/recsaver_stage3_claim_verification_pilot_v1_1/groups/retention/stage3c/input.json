@@ -1,0 +1,52 @@
+{
+  "claims": [
+    {
+      "claim_id": "R01",
+      "claim": "The selected excerpts explicitly connect the writer's agreement with the quotation to a stated reason.",
+      "evidence": {
+        "excerpts": [
+          {
+            "observation_key": "4902:1::O1",
+            "target_essay_id": "4902:1",
+            "quote_index": 0,
+            "exact_quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\""
+          },
+          {
+            "observation_key": "4902:1::O1",
+            "target_essay_id": "4902:1",
+            "quote_index": 1,
+            "exact_quote": "The reason why i agree with this quote is because people now a day don't try to be them self."
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "R02",
+      "claim": "The selected excerpts do not establish the overall coherence of the essay.",
+      "evidence": {
+        "excerpts": [
+          {
+            "observation_key": "4902:1::O1",
+            "target_essay_id": "4902:1",
+            "quote_index": 0,
+            "exact_quote": "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\""
+          },
+          {
+            "observation_key": "4902:1::O1",
+            "target_essay_id": "4902:1",
+            "quote_index": 1,
+            "exact_quote": "The reason why i agree with this quote is because people now a day don't try to be them self."
+          }
+        ],
+        "rubric_entries": [
+          {
+            "rubric_ref_id": "Cohesion:2",
+            "dimension": "Cohesion",
+            "score_band": 2,
+            "descriptor": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition."
+          }
+        ]
+      }
+    }
+  ]
+}

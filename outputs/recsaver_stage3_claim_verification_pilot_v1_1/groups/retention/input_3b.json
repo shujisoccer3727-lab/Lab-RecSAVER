@@ -1,0 +1,56 @@
+{
+  "rater_id": "rater_7",
+  "accepted_target_ids": [
+    "4902:1"
+  ],
+  "verified_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "E4902_1_P001_S001",
+        "E4902_1_P001_S002"
+      ],
+      "feature": "The essay begins with a direct reference to Ralph Waldo Emerson's quote and explicitly states the reason for agreeing with it.",
+      "scoring_relevance": "This feature demonstrates a clear connection between the quote and the writer's stance, which is relevant to the cohesion dimension as it shows a logical progression from the introduction of the quote to the writer's agreement.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the initial connection between the quote and the writer's stance.",
+      "next_check": "Review the subsequent paragraphs to see if the writer maintains this connection and develops the argument consistently.",
+      "quotes": [
+        "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+        "The reason why i agree with this quote is because people now a day don't try to be them self."
+      ],
+      "observation_key": "4902:1::O1",
+      "target_essay_id": "4902:1",
+      "observed_score": 2
+    }
+  ],
+  "rubric_entries": [
+    {
+      "rubric_ref_id": "Cohesion:3",
+      "dimension": "Cohesion",
+      "score_band": 3,
+      "descriptor": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs."
+    },
+    {
+      "rubric_ref_id": "Cohesion:2",
+      "dimension": "Cohesion",
+      "score_band": 2,
+      "descriptor": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition."
+    },
+    {
+      "rubric_ref_id": "Cohesion:4",
+      "dimension": "Cohesion",
+      "score_band": 4,
+      "descriptor": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas"
+    },
+    {
+      "rubric_ref_id": "Cohesion:1",
+      "dimension": "Cohesion",
+      "score_band": 1,
+      "descriptor": "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear."
+    }
+  ],
+  "evidence_limitations": [
+    "One existing local observation used only as a retention control."
+  ]
+}

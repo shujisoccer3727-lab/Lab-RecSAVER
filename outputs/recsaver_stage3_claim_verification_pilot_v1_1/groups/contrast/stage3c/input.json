@@ -1,0 +1,166 @@
+{
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "The selected sentence contains grammatical errors.",
+      "evidence": {
+        "excerpts": [
+          {
+            "observation_key": "8699:1::O1",
+            "target_essay_id": "8699:1",
+            "quote_index": 0,
+            "exact_quote": "Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it."
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "C02",
+      "claim": "The selected sentence contains subject-verb agreement errors.",
+      "evidence": {
+        "excerpts": [
+          {
+            "observation_key": "8699:1::O1",
+            "target_essay_id": "8699:1",
+            "quote_index": 0,
+            "exact_quote": "Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it."
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "C03",
+      "claim": "The selected sentence contains incorrect use of articles.",
+      "evidence": {
+        "excerpts": [
+          {
+            "observation_key": "8699:1::O1",
+            "target_essay_id": "8699:1",
+            "quote_index": 0,
+            "exact_quote": "Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it."
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "C04",
+      "claim": "The selected sentence does not establish the overall grammatical accuracy of the essay.",
+      "evidence": {
+        "excerpts": [
+          {
+            "observation_key": "8699:1::O1",
+            "target_essay_id": "8699:1",
+            "quote_index": 0,
+            "exact_quote": "Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it."
+          }
+        ],
+        "rubric_entries": [
+          {
+            "rubric_ref_id": "Grammar:2",
+            "dimension": "Grammar",
+            "score_band": 2,
+            "descriptor": "Many errors in grammar and usage."
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "C05",
+      "claim": "The supplied local evidence does not establish a repeated scoring behavior across essays.",
+      "evidence": {
+        "excerpts": [
+          {
+            "observation_key": "8699:1::O1",
+            "target_essay_id": "8699:1",
+            "quote_index": 0,
+            "exact_quote": "Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it."
+          },
+          {
+            "observation_key": "873:1::O1",
+            "target_essay_id": "873:1",
+            "quote_index": 0,
+            "exact_quote": "Firstly without failure there wont be a way to determine if the event was successful or not."
+          },
+          {
+            "observation_key": "873:1::O1",
+            "target_essay_id": "873:1",
+            "quote_index": 1,
+            "exact_quote": "In this quote former British prime minister Winston church chill once said that success consists of going from failure to failure without loss of enthusiasm."
+          },
+          {
+            "observation_key": "873:1::O2",
+            "target_essay_id": "873:1",
+            "quote_index": 0,
+            "exact_quote": "In this quote former British prime minister Winston church chill once said that success consists of going from failure to failure without loss of enthusiasm."
+          }
+        ],
+        "rubric_entries": [
+          {
+            "rubric_ref_id": "Grammar:2",
+            "dimension": "Grammar",
+            "score_band": 2,
+            "descriptor": "Many errors in grammar and usage."
+          },
+          {
+            "rubric_ref_id": "Grammar:3",
+            "dimension": "Grammar",
+            "score_band": 3,
+            "descriptor": "Some errors in grammar and usage."
+          },
+          {
+            "rubric_ref_id": "Cohesion:3",
+            "dimension": "Cohesion",
+            "score_band": 3,
+            "descriptor": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs."
+          }
+        ],
+        "recorded_scores": [
+          {
+            "observation_key": "8699:1::O1",
+            "dimension": "Grammar",
+            "score": 2
+          },
+          {
+            "observation_key": "873:1::O1",
+            "dimension": "Cohesion",
+            "score": 3
+          },
+          {
+            "observation_key": "873:1::O2",
+            "dimension": "Grammar",
+            "score": 3
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "C06",
+      "claim": "The selected excerpt does not establish whether the recorded Grammar band is appropriate.",
+      "evidence": {
+        "excerpts": [
+          {
+            "observation_key": "8699:1::O1",
+            "target_essay_id": "8699:1",
+            "quote_index": 0,
+            "exact_quote": "Today We are constantly that technology can affect us some day and there will be nothing we can do about it, even if someone dedicates his lives trying to find the problem We will not ever found it."
+          }
+        ],
+        "rubric_entries": [
+          {
+            "rubric_ref_id": "Grammar:2",
+            "dimension": "Grammar",
+            "score_band": 2,
+            "descriptor": "Many errors in grammar and usage."
+          }
+        ],
+        "recorded_scores": [
+          {
+            "observation_key": "8699:1::O1",
+            "dimension": "Grammar",
+            "score": 2
+          }
+        ]
+      }
+    }
+  ]
+}

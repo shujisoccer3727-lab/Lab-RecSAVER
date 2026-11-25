@@ -1,0 +1,192 @@
+{
+  "evaluator": "Codex、原文参照判定との暫定照合",
+  "groups": [
+    {
+      "group_id": "known",
+      "displayed_claims": [
+        {
+          "claim_id": "K01",
+          "independent_verdict": "supported",
+          "source_check": "S001のstart=0で答案先頭=0。位置だけの命題として一致する。"
+        },
+        {
+          "claim_id": "K02",
+          "independent_verdict": "supported",
+          "source_check": "The main piece to improve your skills ... keep learningは、技能向上と学び続けることを明示的に結ぶ。"
+        },
+        {
+          "claim_id": "K04",
+          "independent_verdict": "supported",
+          "source_check": "S001はkeep learning、S004は成功し続ける専門家が生活や仕事にproductive informationを加え続けることを述べる。学び続ける考えの局所的な繰り返しとして支持される。末尾位置を主張してはいない。"
+        },
+        {
+          "claim_id": "K06",
+          "independent_verdict": "insufficient",
+          "source_check": "第1段落内2抜粋の関連話題から、答案全体のfocusの明確さを評価できない。"
+        },
+        {
+          "claim_id": "K07",
+          "independent_verdict": "supported",
+          "source_check": "選択2抜粋だけでは段落間接続・答案全体の構成を確立できず、全体の一貫性の留保は適切。"
+        },
+        {
+          "claim_id": "K09",
+          "independent_verdict": "supported",
+          "source_check": "異なる答案の局所特徴と記録得点だけでは、同じ比較可能な特徴の採点での扱いを反復して示せない。既存の傾向保留を支持する。"
+        },
+        {
+          "claim_id": "K10",
+          "independent_verdict": "supported",
+          "source_check": "公式Cohesion:3は構成や結束表現の全体的な範囲・程度を含む。2抜粋からその帯の妥当性は判断できない。"
+        }
+      ],
+      "next_checks": [
+        {
+          "action_id": "KN1_original",
+          "kept": true,
+          "premise_claim_ids": [
+            "K06"
+          ],
+          "independent_premises_supported": false
+        },
+        {
+          "action_id": "KN2_neutral",
+          "kept": true,
+          "premise_claim_ids": [
+            "K02"
+          ],
+          "independent_premises_supported": true
+        }
+      ],
+      "assessment": "固定表示候補と原文を照合。LLMの誤支持K06/C02とその元来の確認前提は残存誤りであり、新設と数えない。"
+    },
+    {
+      "group_id": "contrast",
+      "displayed_claims": [
+        {
+          "claim_id": "C01",
+          "independent_verdict": "supported",
+          "source_check": "We will not ever found itのmodal willの後に原形findでなくfoundを置くことや、We are constantly thatの構文に問題があり、文法的問題一般は支持される。"
+        },
+        {
+          "claim_id": "C02",
+          "independent_verdict": "contradicted",
+          "source_check": "We are、technology can affect、someone dedicates、We willは主語に対応する。will ... foundは助動詞後の動詞形で、主語・動詞一致の問題ではない。"
+        },
+        {
+          "claim_id": "C04",
+          "independent_verdict": "supported",
+          "source_check": "本文1476文字のうち1文[30,228)だけで、全体の文法的正確さ・頻度は分からない。"
+        },
+        {
+          "claim_id": "C05",
+          "independent_verdict": "supported",
+          "source_check": "代表は8699のGrammarであり、Cohesionの対照を意図した選定がCohesionの正の採点傾向を示したとは数えない。観点・局所特徴・得点を並べても扱いの反復は確定しない。"
+        },
+        {
+          "claim_id": "C06",
+          "independent_verdict": "supported",
+          "source_check": "Grammar:2のMany errorsという答案全体の程度は1文から確定できない。"
+        }
+      ],
+      "next_checks": [
+        {
+          "action_id": "CN1_agreement",
+          "kept": true,
+          "premise_claim_ids": [
+            "C02"
+          ],
+          "independent_premises_supported": false
+        },
+        {
+          "action_id": "CN2_articles",
+          "kept": false,
+          "premise_claim_ids": [
+            "C03"
+          ],
+          "independent_premises_supported": false
+        },
+        {
+          "action_id": "CN3_general",
+          "kept": true,
+          "premise_claim_ids": [
+            "C01"
+          ],
+          "independent_premises_supported": true
+        }
+      ],
+      "assessment": "固定表示候補と原文を照合。LLMの誤支持K06/C02とその元来の確認前提は残存誤りであり、新設と数えない。"
+    },
+    {
+      "group_id": "limited",
+      "displayed_claims": [
+        {
+          "claim_id": "L02",
+          "independent_verdict": "supported",
+          "source_check": "局所抜粋だけでは答案全体の文法誤りの頻度を確立できない。"
+        },
+        {
+          "claim_id": "L03",
+          "independent_verdict": "supported",
+          "source_check": "2016のGrammar所見と3650のCohesion所見は同じ特徴の扱いの対照にならず、傾向の保留は妥当。"
+        },
+        {
+          "claim_id": "L04",
+          "independent_verdict": "supported",
+          "source_check": "この抜粋だけではGrammar:2のMany errorsという範囲・程度を確立できない。"
+        }
+      ],
+      "next_checks": [
+        {
+          "action_id": "LN1",
+          "kept": false,
+          "premise_claim_ids": [
+            "L01"
+          ],
+          "independent_premises_supported": false
+        },
+        {
+          "action_id": "LN2",
+          "kept": false,
+          "premise_claim_ids": [
+            "L01"
+          ],
+          "independent_premises_supported": false
+        }
+      ],
+      "assessment": "固定表示候補と原文を照合。LLMの誤支持K06/C02とその元来の確認前提は残存誤りであり、新設と数えない。"
+    },
+    {
+      "group_id": "retention",
+      "displayed_claims": [
+        {
+          "claim_id": "R01",
+          "independent_verdict": "supported",
+          "source_check": "4902のS001は引用とI agree、S002はThe reason why i agree ... is becauseを明示し、賛同から理由への局所的接続を2引用が支える。"
+        },
+        {
+          "claim_id": "R02",
+          "independent_verdict": "supported",
+          "source_check": "この2引用だけでは答案全体の構成・一貫性は確立できない。"
+        }
+      ],
+      "next_checks": [
+        {
+          "action_id": "RN1",
+          "kept": true,
+          "premise_claim_ids": [
+            "R01"
+          ],
+          "independent_premises_supported": true
+        }
+      ],
+      "assessment": "固定表示候補と原文を照合。LLMの誤支持K06/C02とその元来の確認前提は残存誤りであり、新設と数えない。"
+    }
+  ],
+  "new_unsupported_claims": [],
+  "residual_errors": [
+    "K06",
+    "C02"
+  ],
+  "not_a_generalization_evaluation": true
+}

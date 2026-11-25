@@ -1,0 +1,740 @@
+{
+  "total": 134,
+  "passed": 134,
+  "checks": [
+    {
+      "kind": "same_generation_setting",
+      "pass_": true,
+      "field": "model"
+    },
+    {
+      "kind": "same_generation_setting",
+      "pass_": true,
+      "field": "generation"
+    },
+    {
+      "kind": "same_generation_setting",
+      "pass_": true,
+      "field": "max_tokens"
+    },
+    {
+      "kind": "same_generation_setting",
+      "pass_": true,
+      "field": "sampling"
+    },
+    {
+      "kind": "same_generation_setting",
+      "pass_": true,
+      "field": "seed"
+    },
+    {
+      "kind": "same_generation_setting",
+      "pass_": true,
+      "field": "system_message"
+    },
+    {
+      "kind": "same_generation_setting",
+      "pass_": true,
+      "field": "chat"
+    },
+    {
+      "kind": "reference_verdicts_not_used_by_pipeline",
+      "pass_": true
+    },
+    {
+      "kind": "fixed_actual_input",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "only_claims_input",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "only_selected_llm_ids",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "schema_matches_frozen_ids",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "no_retry",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "strict_raw_equals_parsed",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "all_ids_once_or_failed",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "known",
+      "claim": "K01"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "known",
+      "claim": "K01"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "known",
+      "claim": "K02"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "known",
+      "claim": "K02"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "known",
+      "claim": "K03"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "known",
+      "claim": "K03"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "known",
+      "claim": "K04"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "known",
+      "claim": "K04"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "known",
+      "claim": "K05"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "known",
+      "claim": "K05"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "known",
+      "claim": "K06"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "known",
+      "claim": "K06"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "known",
+      "claim": "K07"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "known",
+      "claim": "K07"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "known",
+      "claim": "K08"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "known",
+      "claim": "K08"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "known",
+      "claim": "K09"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "known",
+      "claim": "K09"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "known",
+      "claim": "K10"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "known",
+      "claim": "K10"
+    },
+    {
+      "kind": "next_check_premises",
+      "pass_": true,
+      "group": "known",
+      "action": "KN1_original"
+    },
+    {
+      "kind": "next_check_premises",
+      "pass_": true,
+      "group": "known",
+      "action": "KN2_neutral"
+    },
+    {
+      "kind": "display_saved_exactly",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "quote_strings_unchanged",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "not_using_model_reasons_as_feedback",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "same_system_and_chat_template",
+      "pass_": true,
+      "group": "known"
+    },
+    {
+      "kind": "saved_A_bytes_reused",
+      "pass_": true,
+      "group": "known",
+      "file": "input_3b.json"
+    },
+    {
+      "kind": "saved_A_bytes_reused",
+      "pass_": true,
+      "group": "known",
+      "file": "A/parsed.json"
+    },
+    {
+      "kind": "saved_A_bytes_reused",
+      "pass_": true,
+      "group": "known",
+      "file": "A/feedback_paragraph.txt"
+    },
+    {
+      "kind": "saved_A_bytes_reused",
+      "pass_": true,
+      "group": "known",
+      "file": "sources.json"
+    },
+    {
+      "kind": "fixed_actual_input",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "only_claims_input",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "only_selected_llm_ids",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "schema_matches_frozen_ids",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "no_retry",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "strict_raw_equals_parsed",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "all_ids_once_or_failed",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "contrast",
+      "claim": "C01"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "contrast",
+      "claim": "C01"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "contrast",
+      "claim": "C02"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "contrast",
+      "claim": "C02"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "contrast",
+      "claim": "C03"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "contrast",
+      "claim": "C03"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "contrast",
+      "claim": "C04"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "contrast",
+      "claim": "C04"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "contrast",
+      "claim": "C05"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "contrast",
+      "claim": "C05"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "contrast",
+      "claim": "C06"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "contrast",
+      "claim": "C06"
+    },
+    {
+      "kind": "next_check_premises",
+      "pass_": true,
+      "group": "contrast",
+      "action": "CN1_agreement"
+    },
+    {
+      "kind": "next_check_premises",
+      "pass_": true,
+      "group": "contrast",
+      "action": "CN2_articles"
+    },
+    {
+      "kind": "next_check_premises",
+      "pass_": true,
+      "group": "contrast",
+      "action": "CN3_general"
+    },
+    {
+      "kind": "display_saved_exactly",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "quote_strings_unchanged",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "not_using_model_reasons_as_feedback",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "same_system_and_chat_template",
+      "pass_": true,
+      "group": "contrast"
+    },
+    {
+      "kind": "saved_A_bytes_reused",
+      "pass_": true,
+      "group": "contrast",
+      "file": "input_3b.json"
+    },
+    {
+      "kind": "saved_A_bytes_reused",
+      "pass_": true,
+      "group": "contrast",
+      "file": "A/parsed.json"
+    },
+    {
+      "kind": "saved_A_bytes_reused",
+      "pass_": true,
+      "group": "contrast",
+      "file": "A/feedback_paragraph.txt"
+    },
+    {
+      "kind": "saved_A_bytes_reused",
+      "pass_": true,
+      "group": "contrast",
+      "file": "sources.json"
+    },
+    {
+      "kind": "fixed_actual_input",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "only_claims_input",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "only_selected_llm_ids",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "schema_matches_frozen_ids",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "no_retry",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "strict_raw_equals_parsed",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "all_ids_once_or_failed",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "limited",
+      "claim": "L01"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "limited",
+      "claim": "L01"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "limited",
+      "claim": "L02"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "limited",
+      "claim": "L02"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "limited",
+      "claim": "L03"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "limited",
+      "claim": "L03"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "limited",
+      "claim": "L04"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "limited",
+      "claim": "L04"
+    },
+    {
+      "kind": "next_check_premises",
+      "pass_": true,
+      "group": "limited",
+      "action": "LN1"
+    },
+    {
+      "kind": "next_check_premises",
+      "pass_": true,
+      "group": "limited",
+      "action": "LN2"
+    },
+    {
+      "kind": "display_saved_exactly",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "quote_strings_unchanged",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "not_using_model_reasons_as_feedback",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "same_system_and_chat_template",
+      "pass_": true,
+      "group": "limited"
+    },
+    {
+      "kind": "saved_A_bytes_reused",
+      "pass_": true,
+      "group": "limited",
+      "file": "input_3b.json"
+    },
+    {
+      "kind": "saved_A_bytes_reused",
+      "pass_": true,
+      "group": "limited",
+      "file": "A/parsed.json"
+    },
+    {
+      "kind": "saved_A_bytes_reused",
+      "pass_": true,
+      "group": "limited",
+      "file": "A/feedback_paragraph.txt"
+    },
+    {
+      "kind": "saved_A_bytes_reused",
+      "pass_": true,
+      "group": "limited",
+      "file": "sources.json"
+    },
+    {
+      "kind": "fixed_actual_input",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "only_claims_input",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "only_selected_llm_ids",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "sampling_identical",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "schema_matches_frozen_ids",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "raw_hash_unchanged",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "no_retry",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "strict_raw_equals_parsed",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "all_ids_once_or_failed",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "retention",
+      "claim": "R01"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "retention",
+      "claim": "R01"
+    },
+    {
+      "kind": "supported_only",
+      "pass_": true,
+      "group": "retention",
+      "claim": "R02"
+    },
+    {
+      "kind": "fixed_display_candidate",
+      "pass_": true,
+      "group": "retention",
+      "claim": "R02"
+    },
+    {
+      "kind": "next_check_premises",
+      "pass_": true,
+      "group": "retention",
+      "action": "RN1"
+    },
+    {
+      "kind": "display_saved_exactly",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "quote_strings_unchanged",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "not_using_model_reasons_as_feedback",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "only_placeholder_replaced",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "same_system_and_chat_template",
+      "pass_": true,
+      "group": "retention"
+    },
+    {
+      "kind": "same_runtime",
+      "pass_": true,
+      "field": "model_snapshot"
+    },
+    {
+      "kind": "same_runtime",
+      "pass_": true,
+      "field": "vllm"
+    },
+    {
+      "kind": "same_runtime",
+      "pass_": true,
+      "field": "torch"
+    },
+    {
+      "kind": "same_runtime",
+      "pass_": true,
+      "field": "transformers"
+    },
+    {
+      "kind": "same_runtime",
+      "pass_": true,
+      "field": "gpu"
+    },
+    {
+      "kind": "exactly_four_requests",
+      "pass_": true
+    }
+  ],
+  "failed": [],
+  "semantic_evaluation_separate": true
+}

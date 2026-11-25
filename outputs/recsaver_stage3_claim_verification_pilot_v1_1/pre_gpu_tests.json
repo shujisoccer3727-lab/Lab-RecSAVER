@@ -1,0 +1,244 @@
+{
+  "all_passed": true,
+  "total": 43,
+  "checks": [
+    {
+      "name": "known normal accepted",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "known rejects missing",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "known rejects duplicate",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "known rejects unknown",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "known rejects undefined label",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "known rejects extra field",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "known strict code fence rejection",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "known input contains claims only",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "known no upstream/review leakage",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "contrast normal accepted",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "contrast rejects missing",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "contrast rejects duplicate",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "contrast rejects unknown",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "contrast rejects undefined label",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "contrast rejects extra field",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "contrast strict code fence rejection",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "contrast input contains claims only",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "contrast no upstream/review leakage",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "limited normal accepted",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "limited rejects missing",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "limited rejects duplicate",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "limited rejects unknown",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "limited rejects undefined label",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "limited rejects extra field",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "limited strict code fence rejection",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "limited input contains claims only",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "limited no upstream/review leakage",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "retention normal accepted",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "retention rejects missing",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "retention rejects duplicate",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "retention rejects unknown",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "retention rejects undefined label",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "retention rejects extra field",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "retention strict code fence rejection",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "retention input contains claims only",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "retention no upstream/review leakage",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "K01 actual start supported",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "K05 actual end contradicted",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "missing position is insufficient",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "known JSON guide compiled on CPU",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "contrast JSON guide compiled on CPU",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "limited JSON guide compiled on CPU",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    },
+    {
+      "name": "retention JSON guide compiled on CPU",
+      "pass_": true,
+      "synthetic_fixture_not_a_model_result": true
+    }
+  ],
+  "guided_json_cpu_compilation": [
+    {
+      "group_id": "known",
+      "processor_class": "JSONLogitsProcessor",
+      "backend": "outlines"
+    },
+    {
+      "group_id": "contrast",
+      "processor_class": "JSONLogitsProcessor",
+      "backend": "outlines"
+    },
+    {
+      "group_id": "limited",
+      "processor_class": "JSONLogitsProcessor",
+      "backend": "outlines"
+    },
+    {
+      "group_id": "retention",
+      "processor_class": "JSONLogitsProcessor",
+      "backend": "outlines"
+    }
+  ],
+  "model_requests": 0
+}

@@ -1,0 +1,121 @@
+{
+  "claims": [
+    {
+      "claim_id": "L01",
+      "claim": "The phrase \"you will never grow\" is a nonstandard verb form.",
+      "evidence": {
+        "excerpts": [
+          {
+            "observation_key": "2016:1::O1",
+            "target_essay_id": "2016:1",
+            "quote_index": 0,
+            "exact_quote": "Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow."
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "L02",
+      "claim": "The selected excerpt does not establish the frequency of grammatical errors throughout the essay.",
+      "evidence": {
+        "excerpts": [
+          {
+            "observation_key": "2016:1::O1",
+            "target_essay_id": "2016:1",
+            "quote_index": 0,
+            "exact_quote": "Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow."
+          }
+        ],
+        "rubric_entries": [
+          {
+            "rubric_ref_id": "Grammar:2",
+            "dimension": "Grammar",
+            "score_band": 2,
+            "descriptor": "Many errors in grammar and usage."
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "L03",
+      "claim": "The supplied local evidence does not establish a repeated scoring behavior across essays.",
+      "evidence": {
+        "excerpts": [
+          {
+            "observation_key": "2016:1::O1",
+            "target_essay_id": "2016:1",
+            "quote_index": 0,
+            "exact_quote": "Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow."
+          },
+          {
+            "observation_key": "3650:1::O1",
+            "target_essay_id": "3650:1",
+            "quote_index": 0,
+            "exact_quote": "Then he said this \" imagination is more important than knowledge.\""
+          },
+          {
+            "observation_key": "3650:1::O1",
+            "target_essay_id": "3650:1",
+            "quote_index": 1,
+            "exact_quote": "I disagree because you see you use imagination and knowledge in the rest of your life, when you work as a team you use imagination and knowledge and you need to be fast, strong, and smart, and imagination and knowledge is important."
+          }
+        ],
+        "rubric_entries": [
+          {
+            "rubric_ref_id": "Grammar:2",
+            "dimension": "Grammar",
+            "score_band": 2,
+            "descriptor": "Many errors in grammar and usage."
+          },
+          {
+            "rubric_ref_id": "Cohesion:3",
+            "dimension": "Cohesion",
+            "score_band": 3,
+            "descriptor": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs."
+          }
+        ],
+        "recorded_scores": [
+          {
+            "observation_key": "2016:1::O1",
+            "dimension": "Grammar",
+            "score": 2
+          },
+          {
+            "observation_key": "3650:1::O1",
+            "dimension": "Cohesion",
+            "score": 3
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "L04",
+      "claim": "The selected excerpt does not establish whether the recorded Grammar band is appropriate.",
+      "evidence": {
+        "excerpts": [
+          {
+            "observation_key": "2016:1::O1",
+            "target_essay_id": "2016:1",
+            "quote_index": 0,
+            "exact_quote": "Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow."
+          }
+        ],
+        "rubric_entries": [
+          {
+            "rubric_ref_id": "Grammar:2",
+            "dimension": "Grammar",
+            "score_band": 2,
+            "descriptor": "Many errors in grammar and usage."
+          }
+        ],
+        "recorded_scores": [
+          {
+            "observation_key": "2016:1::O1",
+            "dimension": "Grammar",
+            "score": 2
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "frozen_at": "2026-11-24T14:33:43.951225+09:00",
+  "before_inference": true,
+  "comparison_commit": "38697e9bc153f8824c5e62c394e44b5be73fe759",
+  "splitter": "Codexによる人手相当の分割。自動分割ではない。",
+  "groups": [
+    {
+      "group_id": "known",
+      "purpose": "既知例の回帰診断。採点傾向は保留の事例。",
+      "representative_observation_key": "1868:1::O1",
+      "representative_quote_indices": [
+        0,
+        1
+      ],
+      "claims": [
+        {
+          "claim_id": "K01",
+          "source_field": "textual_finding",
+          "claim": "The first selected passage occurs at the start of the essay.",
+          "selected_quote_references": [
+            {
+              "observation_key": "1868:1::O1",
+              "quote_indices": [
+                0
+              ]
+            }
+          ],
+          "kind": "local",
+          "route": "code_position",
+          "display_candidate": "The first selected passage occurs at the start of the essay.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": {
+            "boundary": "essay_start",
+            "quote_index": 0
+          },
+          "depends_on": [],
+          "original_field_values": {
+            "textual_finding": "The essay starts with a clear thesis statement and reiterates the main idea at the end of the paragraph, showing a clear focus on the importance of continuous learning."
+          }
+        },
+        {
+          "claim_id": "K02",
+          "source_field": "textual_finding",
+          "claim": "The first selected passage presents continued learning as a way to improve skills.",
+          "selected_quote_references": [
+            {
+              "observation_key": "1868:1::O1",
+              "quote_indices": [
+                0
+              ]
+            }
+          ],
+          "kind": "local",
+          "route": "llm",
+          "display_candidate": "The opening passage presents continued learning as a way to improve skills.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "display_dependencies": [
+            "K01"
+          ],
+          "original_field_values": {
+            "textual_finding": "The essay starts with a clear thesis statement and reiterates the main idea at the end of the paragraph, showing a clear focus on the importance of continuous learning."
+          }
+        },
+        {
+          "claim_id": "K03",
+          "source_field": "textual_finding",
+          "claim": "The first selected passage functions as a thesis statement.",
+          "selected_quote_references": [
+            {
+              "observation_key": "1868:1::O1",
+              "quote_indices": [
+                0
+              ]
+            }
+          ],
+          "kind": "local",
+          "route": "llm",
+          "display_candidate": "The first selected passage functions as a thesis statement.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "textual_finding": "The essay starts with a clear thesis statement and reiterates the main idea at the end of the paragraph, showing a clear focus on the importance of continuous learning."
+          }
+        },
+        {
+          "claim_id": "K04",
+          "source_field": "textual_finding",
+          "claim": "The second selected passage reiterates the first passage's idea of continued learning.",
+          "selected_quote_references": [
+            {
+              "observation_key": "1868:1::O1",
+              "quote_indices": [
+                0,
+                1
+              ]
+            }
+          ],
+          "kind": "local",
+          "route": "llm",
+          "display_candidate": "The selected passages repeat the idea of continued learning.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "textual_finding": "The essay starts with a clear thesis statement and reiterates the main idea at the end of the paragraph, showing a clear focus on the importance of continuous learning."
+          }
+        },
+        {
+          "claim_id": "K05",
+          "source_field": "textual_finding",
+          "claim": "The second selected passage occurs at the end of its paragraph.",
+          "selected_quote_references": [
+            {
+              "observation_key": "1868:1::O1",
+              "quote_indices": [
+                1
+              ]
+            }
+          ],
+          "kind": "local",
+          "route": "code_position",
+          "display_candidate": "The second selected passage occurs at the end of its paragraph.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": {
+            "boundary": "paragraph_end",
+            "quote_index": 1
+          },
+          "depends_on": [],
+          "original_field_values": {
+            "textual_finding": "The essay starts with a clear thesis statement and reiterates the main idea at the end of the paragraph, showing a clear focus on the importance of continuous learning."
+          }
+        },
+        {
+          "claim_id": "K06",
+          "source_field": "textual_finding",
+          "claim": "The essay maintains a clear focus on the importance of continuous learning.",
+          "selected_quote_references": [
+            {
+              "observation_key": "1868:1::O1",
+              "quote_indices": [
+                0,
+                1
+              ]
+            }
+          ],
+          "kind": "local",
+          "route": "llm",
+          "display_candidate": "The essay maintains a clear focus on the importance of continuous learning.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "textual_finding": "The essay starts with a clear thesis statement and reiterates the main idea at the end of the paragraph, showing a clear focus on the importance of continuous learning."
+          }
+        },
+        {
+          "claim_id": "K07",
+          "source_field": "evidence_limit",
+          "claim": "The selected passages do not establish the overall coherence of the essay.",
+          "selected_quote_references": [
+            {
+              "observation_key": "1868:1::O1",
+              "quote_indices": [
+                0,
+                1
+              ]
+            }
+          ],
+          "kind": "limitation",
+          "route": "llm",
+          "display_candidate": "The selected passages do not establish the overall coherence of the essay.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "evidence_limit": "This observation does not establish the overall coherence of the essay, only the cohesion within the first paragraph."
+          }
+        },
+        {
+          "claim_id": "K08",
+          "source_field": "evidence_limit",
+          "claim": "The selected passages establish cohesion within the first paragraph.",
+          "selected_quote_references": [
+            {
+              "observation_key": "1868:1::O1",
+              "quote_indices": [
+                0,
+                1
+              ]
+            }
+          ],
+          "kind": "local",
+          "route": "llm",
+          "display_candidate": "The selected passages establish cohesion within the first paragraph.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "evidence_limit": "This observation does not establish the overall coherence of the essay, only the cohesion within the first paragraph."
+          }
+        },
+        {
+          "claim_id": "K09",
+          "source_field": "pattern_status; pattern_limit",
+          "claim": "The supplied local evidence does not establish a repeated scoring behavior across essays.",
+          "selected_quote_references": [
+            {
+              "observation_key": "1868:1::O1",
+              "quote_indices": [
+                0,
+                1
+              ]
+            },
+            {
+              "observation_key": "4902:1::O1",
+              "quote_indices": [
+                0,
+                1
+              ]
+            },
+            {
+              "observation_key": "4902:1::O2",
+              "quote_indices": [
+                0
+              ]
+            }
+          ],
+          "kind": "pattern_abstention",
+          "route": "llm",
+          "display_candidate": "The supplied local evidence does not establish a repeated scoring behavior across essays.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "pattern_status": "insufficient_evidence",
+            "pattern_limit": "The provided observations do not establish a consistent pattern of scoring behavior across multiple essays. Each observation highlights a specific feature of the essay but does not show a repeated scoring behavior that can be generalized."
+          }
+        },
+        {
+          "claim_id": "K10",
+          "source_field": "rubric_review.band_assessment",
+          "claim": "The selected excerpts do not establish whether the recorded Cohesion band is appropriate.",
+          "selected_quote_references": [
+            {
+              "observation_key": "1868:1::O1",
+              "quote_indices": [
+                0,
+                1
+              ]
+            }
+          ],
+          "kind": "band_abstention",
+          "route": "llm",
+          "display_candidate": "This evidence alone does not establish whether that band is appropriate.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {}
+        }
+      ],
+      "next_check_candidates": [
+        {
+          "action_id": "KN1_original",
+          "source_field": "next_check.inspect",
+          "text": "Review the transitions between paragraphs to ensure they maintain the same focus on the importance of continuous learning.",
+          "depends_on": [
+            "K06"
+          ],
+          "premise_claim_ids": [
+            "K06"
+          ],
+          "rewrite_record": "原文のsame focusの前提を対応付ける。"
+        },
+        {
+          "action_id": "KN2_neutral",
+          "source_field": "next_check.distinguish",
+          "text": "Inspect the transitions between paragraphs and check whether the discussion of continued learning connects across them.",
+          "depends_on": [
+            "K02"
+          ],
+          "premise_claim_ids": [
+            "K02"
+          ],
+          "rewrite_record": "原文の確認指示を予期的な問いへ限定。既に全体が同じfocusを持つという前提を加えず、局所にある話題を追う表示候補を推論前に固定。"
+        }
+      ],
+      "display_order": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09",
+        "K10"
+      ],
+      "sources_path": "groups/known/sources.json",
+      "draft_path": "groups/known/A/parsed.json",
+      "effect_aggregate": false
+    },
+    {
+      "group_id": "contrast",
+      "purpose": "既知例の回帰診断。採点傾向は保留の事例。",
+      "representative_observation_key": "8699:1::O1",
+      "representative_quote_indices": [
+        0
+      ],
+      "claims": [
+        {
+          "claim_id": "C01",
+          "source_field": "textual_finding",
+          "claim": "The selected sentence contains grammatical errors.",
+          "selected_quote_references": [
+            {
+              "observation_key": "8699:1::O1",
+              "quote_indices": [
+                0
+              ]
+            }
+          ],
+          "kind": "local",
+          "route": "llm",
+          "display_candidate": "The selected sentence contains grammatical errors.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "textual_finding": "The sentence contains grammatical errors, including subject-verb agreement issues and incorrect use of articles."
+          }
+        },
+        {
+          "claim_id": "C02",
+          "source_field": "textual_finding; next_check.inspect",
+          "claim": "The selected sentence contains subject-verb agreement errors.",
+          "selected_quote_references": [
+            {
+              "observation_key": "8699:1::O1",
+              "quote_indices": [
+                0
+              ]
+            }
+          ],
+          "kind": "local",
+          "route": "llm",
+          "display_candidate": "The selected sentence contains subject-verb agreement errors.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "textual_finding": "The sentence contains grammatical errors, including subject-verb agreement issues and incorrect use of articles."
+          }
+        },
+        {
+          "claim_id": "C03",
+          "source_field": "textual_finding; next_check.inspect",
+          "claim": "The selected sentence contains incorrect use of articles.",
+          "selected_quote_references": [
+            {
+              "observation_key": "8699:1::O1",
+              "quote_indices": [
+                0
+              ]
+            }
+          ],
+          "kind": "local",
+          "route": "llm",
+          "display_candidate": "The selected sentence contains incorrect use of articles.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "textual_finding": "The sentence contains grammatical errors, including subject-verb agreement issues and incorrect use of articles."
+          }
+        },
+        {
+          "claim_id": "C04",
+          "source_field": "evidence_limit",
+          "claim": "The selected sentence does not establish the overall grammatical accuracy of the essay.",
+          "selected_quote_references": [
+            {
+              "observation_key": "8699:1::O1",
+              "quote_indices": [
+                0
+              ]
+            }
+          ],
+          "kind": "limitation",
+          "route": "llm",
+          "display_candidate": "The selected sentence does not establish the overall grammatical accuracy of the essay.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "evidence_limit": "This observation does not provide information about the overall grammatical accuracy of the essay, only about this specific sentence."
+          }
+        },
+        {
+          "claim_id": "C05",
+          "source_field": "pattern_status; pattern_limit",
+          "claim": "The supplied local evidence does not establish a repeated scoring behavior across essays.",
+          "selected_quote_references": [
+            {
+              "observation_key": "8699:1::O1",
+              "quote_indices": [
+                0
+              ]
+            },
+            {
+              "observation_key": "873:1::O1",
+              "quote_indices": [
+                0,
+                1
+              ]
+            },
+            {
+              "observation_key": "873:1::O2",
+              "quote_indices": [
+                0
+              ]
+            }
+          ],
+          "kind": "pattern_abstention",
+          "route": "llm",
+          "display_candidate": "The supplied local evidence does not establish a repeated scoring behavior across essays.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "pattern_status": "insufficient_evidence",
+            "pattern_limit": "The provided observations do not show a consistent pattern of scoring behavior across multiple essays for the same feature."
+          }
+        },
+        {
+          "claim_id": "C06",
+          "source_field": "rubric_review.band_assessment",
+          "claim": "The selected excerpt does not establish whether the recorded Grammar band is appropriate.",
+          "selected_quote_references": [
+            {
+              "observation_key": "8699:1::O1",
+              "quote_indices": [
+                0
+              ]
+            }
+          ],
+          "kind": "band_abstention",
+          "route": "llm",
+          "display_candidate": "This evidence alone does not establish whether that band is appropriate.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {}
+        }
+      ],
+      "next_check_candidates": [
+        {
+          "action_id": "CN1_agreement",
+          "source_field": "next_check.inspect",
+          "text": "Inspect other sentences for subject-verb agreement errors similar to those in the selected sentence.",
+          "depends_on": [
+            "C02"
+          ],
+          "premise_claim_ids": [
+            "C02"
+          ],
+          "rewrite_record": "原文の複数の診断種類を別々の確認候補へ分ける。"
+        },
+        {
+          "action_id": "CN2_articles",
+          "source_field": "next_check.inspect",
+          "text": "Inspect other sentences for article errors similar to those in the selected sentence.",
+          "depends_on": [
+            "C03"
+          ],
+          "premise_claim_ids": [
+            "C03"
+          ],
+          "rewrite_record": "同上。"
+        },
+        {
+          "action_id": "CN3_general",
+          "source_field": "next_check.inspect; next_check.distinguish",
+          "text": "Inspect other sentences for grammatical errors and check their frequency and effect on clarity.",
+          "depends_on": [
+            "C01"
+          ],
+          "premise_claim_ids": [
+            "C01"
+          ],
+          "rewrite_record": "元の誤り一般の確認と頻度・影響を統合。特定の診断種類の前提は含めない表示候補を推論前に固定。"
+        }
+      ],
+      "display_order": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "sources_path": "groups/contrast/sources.json",
+      "draft_path": "groups/contrast/A/parsed.json",
+      "effect_aggregate": true
+    },
+    {
+      "group_id": "limited",
+      "purpose": "既知例の回帰診断。採点傾向は保留の事例。",
+      "representative_observation_key": "2016:1::O1",
+      "representative_quote_indices": [
+        0
+      ],
+      "claims": [
+        {
+          "claim_id": "L01",
+          "source_field": "textual_finding; next_check.inspect",
+          "claim": "The phrase \"you will never grow\" is a nonstandard verb form.",
+          "selected_quote_references": [
+            {
+              "observation_key": "2016:1::O1",
+              "quote_indices": [
+                0
+              ]
+            }
+          ],
+          "kind": "local",
+          "route": "llm",
+          "display_candidate": "The phrase \"you will never grow\" is a nonstandard verb form.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "textual_finding": "The sentence contains a nonstandard verb form: 'you will never grow.'"
+          }
+        },
+        {
+          "claim_id": "L02",
+          "source_field": "evidence_limit",
+          "claim": "The selected excerpt does not establish the frequency of grammatical errors throughout the essay.",
+          "selected_quote_references": [
+            {
+              "observation_key": "2016:1::O1",
+              "quote_indices": [
+                0
+              ]
+            }
+          ],
+          "kind": "limitation",
+          "route": "llm",
+          "display_candidate": "The selected excerpt does not establish the frequency of grammatical errors throughout the essay.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "evidence_limit": "This observation does not establish the frequency of grammatical errors throughout the essay."
+          }
+        },
+        {
+          "claim_id": "L03",
+          "source_field": "pattern_status; pattern_limit",
+          "claim": "The supplied local evidence does not establish a repeated scoring behavior across essays.",
+          "selected_quote_references": [
+            {
+              "observation_key": "2016:1::O1",
+              "quote_indices": [
+                0
+              ]
+            },
+            {
+              "observation_key": "3650:1::O1",
+              "quote_indices": [
+                0,
+                1
+              ]
+            }
+          ],
+          "kind": "pattern_abstention",
+          "route": "llm",
+          "display_candidate": "The supplied local evidence does not establish a repeated scoring behavior across essays.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {
+            "pattern_status": "insufficient_evidence",
+            "pattern_limit": "The provided observations do not show a consistent pattern of scoring behavior across multiple essays for the same feature."
+          }
+        },
+        {
+          "claim_id": "L04",
+          "source_field": "rubric_review.band_assessment",
+          "claim": "The selected excerpt does not establish whether the recorded Grammar band is appropriate.",
+          "selected_quote_references": [
+            {
+              "observation_key": "2016:1::O1",
+              "quote_indices": [
+                0
+              ]
+            }
+          ],
+          "kind": "band_abstention",
+          "route": "llm",
+          "display_candidate": "This evidence alone does not establish whether that band is appropriate.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": [],
+          "original_field_values": {}
+        }
+      ],
+      "next_check_candidates": [
+        {
+          "action_id": "LN1",
+          "source_field": "next_check.inspect",
+          "text": "Other sentences for similar grammatical issues, particularly the use of verbs and auxiliary verbs.",
+          "depends_on": [
+            "L01"
+          ],
+          "premise_claim_ids": [
+            "L01"
+          ],
+          "rewrite_record": "similar grammatical issuesの前提をL01へ対応付ける。"
+        },
+        {
+          "action_id": "LN2",
+          "source_field": "next_check.distinguish",
+          "text": "The frequency and type of grammatical errors.",
+          "depends_on": [
+            "L01"
+          ],
+          "premise_claim_ids": [
+            "L01"
+          ],
+          "rewrite_record": "先の誤診の頻度・種類を問う確認指示としてL01へ対応付ける。"
+        }
+      ],
+      "display_order": [
+        "L01",
+        "L02",
+        "L03",
+        "L04"
+      ],
+      "sources_path": "groups/limited/sources.json",
+      "draft_path": "groups/limited/A/parsed.json",
+      "effect_aggregate": true
+    },
+    {
+      "group_id": "retention",
+      "purpose": "4902:1の既存有効所見の保持確認。既存3群の改善集計・未知答案の効果推定から除外。",
+      "representative_observation_key": "4902:1::O1",
+      "representative_quote_indices": [
+        0,
+        1
+      ],
+      "claims": [
+        {
+          "claim_id": "R01",
+          "source_field": "existing_observation.feature; existing_observation.scoring_relevance",
+          "claim": "The selected excerpts explicitly connect the writer's agreement with the quotation to a stated reason.",
+          "selected_quote_references": [
+            {
+              "observation_key": "4902:1::O1",
+              "quote_indices": [
+                0,
+                1
+              ]
+            }
+          ],
+          "kind": "local",
+          "route": "llm",
+          "display_candidate": "The writer explicitly states a reason for agreeing with the quotation.",
+          "rewrite_record": "既存の有効なCohesion所見から、引用への賛同と理由の明示という同じ局所関係だけを独立した英文へまとめた。",
+          "position_check": null,
+          "depends_on": []
+        },
+        {
+          "claim_id": "R02",
+          "source_field": "existing_observation.limitation",
+          "claim": "The selected excerpts do not establish the overall coherence of the essay.",
+          "selected_quote_references": [
+            {
+              "observation_key": "4902:1::O1",
+              "quote_indices": [
+                0,
+                1
+              ]
+            }
+          ],
+          "kind": "limitation",
+          "route": "llm",
+          "display_candidate": "The selected excerpts do not establish the overall coherence of the essay.",
+          "rewrite_record": "独立した命題となるよう主語・照応を補い、複合文から切り出した。",
+          "position_check": null,
+          "depends_on": []
+        }
+      ],
+      "next_check_candidates": [
+        {
+          "action_id": "RN1",
+          "source_field": "existing_observation.next_check",
+          "text": "Review the subsequent paragraphs to see if the writer maintains this connection and develops the argument consistently.",
+          "depends_on": [
+            "R01"
+          ],
+          "premise_claim_ids": [
+            "R01"
+          ],
+          "rewrite_record": "既存確認指示をそのまま保持候補とする。"
+        }
+      ],
+      "display_order": [
+        "R01",
+        "R02"
+      ],
+      "sources_path": "groups/retention/sources.json",
+      "draft_path": null,
+      "effect_aggregate": false,
+      "control_source_observation": {
+        "observation_id": "O1",
+        "dimension": "Cohesion",
+        "evidence_span_ids": [
+          "E4902_1_P001_S001",
+          "E4902_1_P001_S002"
+        ],
+        "feature": "The essay begins with a direct reference to Ralph Waldo Emerson's quote and explicitly states the reason for agreeing with it.",
+        "scoring_relevance": "This feature demonstrates a clear connection between the quote and the writer's stance, which is relevant to the cohesion dimension as it shows a logical progression from the introduction of the quote to the writer's agreement.",
+        "limitation": "This observation does not establish the overall coherence of the essay, only the initial connection between the quote and the writer's stance.",
+        "next_check": "Review the subsequent paragraphs to see if the writer maintains this connection and develops the argument consistently.",
+        "quotes": [
+          "I agree with Author Ralph waldo Emerson quote, \" To be yourself in a world that is trying to make you something else is the greatest accomplishment.\"",
+          "The reason why i agree with this quote is because people now a day don't try to be them self."
+        ],
+        "observation_key": "4902:1::O1",
+        "target_essay_id": "4902:1",
+        "observed_score": 2
+      }
+    }
+  ],
+  "position_policy": "主張IDに固定した引用の実start/endと段落/答案境界を比較。境界を確定できなければinsufficient。修辞機能は位置で判定しない。",
+  "assembly_policy": "支持された命題だけを固定候補と順序で表示。依存する主張が非支持なら確認点を除外。局所所見なしは保留。別の所見・元初稿で補填しない。",
+  "display_only_statuses": {
+    "no_local_finding": "No verified local finding remains.",
+    "no_next_check": "No next check survived the claim prerequisites."
+  },
+  "comparison_limitations": "位置のコード検査、人手相当の分割、LLM判定の組合せ。個別寄与、自動分割・未知答案性能は識別しない。"
+}

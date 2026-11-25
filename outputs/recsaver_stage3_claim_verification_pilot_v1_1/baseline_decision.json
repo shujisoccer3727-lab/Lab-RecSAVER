@@ -1,0 +1,152 @@
+{
+  "minimum_gate_pass": true,
+  "criteria": [
+    {
+      "criterion": "予定LLM判定の欠落なし",
+      "pass_": true,
+      "reason": "20/20命題、正常表示4/4要求。"
+    },
+    {
+      "criterion": "1868の位置誤認除去と冒頭所見保持",
+      "pass_": true,
+      "reason": "K05除去=True、K01/K02保持=True。"
+    },
+    {
+      "criterion": "8699または2016の誤診修正",
+      "pass_": true,
+      "reason": "8699の一般所見保持＋一致/冠詞診断除外=False、2016の誤診と依存確認点除外=True。"
+    },
+    {
+      "criterion": "4902の有効所見保持",
+      "pass_": true,
+      "reason": "R01保持=True。既存3群の効果集計から除外。"
+    },
+    {
+      "criterion": "新しい未支持主張を追加しない",
+      "pass_": true,
+      "reason": "固定候補・語義の局所化・前提依存・原文引用・本人得点・公式記述を照合。新規の未支持前提=[]。A由来の残存誤りとは区別。"
+    }
+  ],
+  "regressions": {
+    "position_1868_removed": true,
+    "opening_1868_retained": true,
+    "grammar_8699_corrected": false,
+    "grammar_2016_corrected": true,
+    "cohesion_4902_retained": true
+  },
+  "llm_verdicts_planned": 20,
+  "llm_verdicts_processed": 20,
+  "requests": 4,
+  "strict_json_pass": 4,
+  "outer_fence_removal_used": 0,
+  "groups": [
+    {
+      "group_id": "known",
+      "purpose": "既知例の回帰診断。採点傾向は保留の事例。",
+      "processing_success": true,
+      "existing_three_group_regression_aggregate": true,
+      "A_atomic_claim_count": 10,
+      "A_unsupported_count": 4,
+      "B_displayed_atomic_claim_count": 7,
+      "B_unsupported_count": 1,
+      "supported_A_claim_count": 6,
+      "supported_claims_retained": 6,
+      "supported_claims_removed": [],
+      "residual_unsupported_claim_ids": [
+        "K06"
+      ],
+      "local_finding_retained": true,
+      "next_check_ids": [
+        "KN1_original",
+        "KN2_neutral"
+      ]
+    },
+    {
+      "group_id": "contrast",
+      "purpose": "既知例の回帰診断。採点傾向は保留の事例。",
+      "processing_success": true,
+      "existing_three_group_regression_aggregate": true,
+      "A_atomic_claim_count": 6,
+      "A_unsupported_count": 2,
+      "B_displayed_atomic_claim_count": 5,
+      "B_unsupported_count": 1,
+      "supported_A_claim_count": 4,
+      "supported_claims_retained": 4,
+      "supported_claims_removed": [],
+      "residual_unsupported_claim_ids": [
+        "C02"
+      ],
+      "local_finding_retained": true,
+      "next_check_ids": [
+        "CN1_agreement",
+        "CN3_general"
+      ]
+    },
+    {
+      "group_id": "limited",
+      "purpose": "既知例の回帰診断。採点傾向は保留の事例。",
+      "processing_success": true,
+      "existing_three_group_regression_aggregate": true,
+      "A_atomic_claim_count": 4,
+      "A_unsupported_count": 1,
+      "B_displayed_atomic_claim_count": 3,
+      "B_unsupported_count": 0,
+      "supported_A_claim_count": 3,
+      "supported_claims_retained": 3,
+      "supported_claims_removed": [],
+      "residual_unsupported_claim_ids": [],
+      "local_finding_retained": false,
+      "next_check_ids": []
+    },
+    {
+      "group_id": "retention",
+      "purpose": "4902:1の既存有効所見の保持確認。既存3群の改善集計・未知答案の効果推定から除外。",
+      "processing_success": true,
+      "existing_three_group_regression_aggregate": false,
+      "A_atomic_claim_count": 2,
+      "A_unsupported_count": 0,
+      "B_displayed_atomic_claim_count": 2,
+      "B_unsupported_count": 0,
+      "supported_A_claim_count": 2,
+      "supported_claims_retained": 2,
+      "supported_claims_removed": [],
+      "residual_unsupported_claim_ids": [],
+      "local_finding_retained": true,
+      "next_check_ids": [
+        "RN1"
+      ]
+    }
+  ],
+  "new_unsupported_claims": [],
+  "residual_unsupported_claims": {
+    "known": [
+      "K06"
+    ],
+    "contrast": [
+      "C02"
+    ],
+    "limited": [],
+    "retention": []
+  },
+  "comparison_components_not_identifiable_separately": true,
+  "manual_equivalent_split": true,
+  "generalization_evaluation": false,
+  "stop_after_this_run": true,
+  "prompt_adjustment_stopped": true,
+  "next_stage": "対象観点を事前に固定した新しい答案群で、採点傾向の支持と保留を比較する。",
+  "existing_three_group_aggregate": {
+    "group_ids": [
+      "known",
+      "contrast",
+      "limited"
+    ],
+    "A_unsupported": 7,
+    "A_claims": 20,
+    "B_unsupported": 2,
+    "B_claims": 15,
+    "supported_A_claims": 13,
+    "supported_claims_retained": 13,
+    "retention_control_excluded": true,
+    "scope": "既存3群全ての既知例の回帰集計。未知答案の効果推定ではない。"
+  }
+}

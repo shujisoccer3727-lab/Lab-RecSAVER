@@ -1,0 +1,171 @@
+{
+  "processing_success": true,
+  "local_finding_retained": true,
+  "retained_claim_ids": [
+    "K01",
+    "K02",
+    "K04",
+    "K06",
+    "K07",
+    "K09",
+    "K10"
+  ],
+  "displayed_claim_ids": [
+    "K01",
+    "K02",
+    "K04",
+    "K06",
+    "K07",
+    "K09",
+    "K10"
+  ],
+  "next_check_ids": [
+    "KN1_original",
+    "KN2_neutral"
+  ],
+  "dropped_next_check_ids": [],
+  "decisions": [
+    {
+      "claim_id": "K01",
+      "code_verdict": {
+        "verdict": "supported",
+        "reason": "Selected quote start=0; essay_start=0.",
+        "actual_quote_boundary": 0,
+        "required_source_boundary": 0,
+        "span_id": "E1868_1_P001_S001"
+      },
+      "llm_verdict": null,
+      "keep": true,
+      "candidate": "The first selected passage occurs at the start of the essay.",
+      "rendered": true
+    },
+    {
+      "claim_id": "K02",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "K02",
+        "verdict": "supported",
+        "reason": "The excerpt states 'The main piece to improve your skills is during the process of keep learning.'"
+      },
+      "keep": true,
+      "candidate": "The opening passage presents continued learning as a way to improve skills.",
+      "rendered": true
+    },
+    {
+      "claim_id": "K03",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "K03",
+        "verdict": "insufficient",
+        "reason": "The excerpt does not establish the sentence as a thesis statement."
+      },
+      "keep": false,
+      "candidate": "The first selected passage functions as a thesis statement.",
+      "rendered": false
+    },
+    {
+      "claim_id": "K04",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "K04",
+        "verdict": "supported",
+        "reason": "Both excerpts discuss the idea of continued learning."
+      },
+      "keep": true,
+      "candidate": "The selected passages repeat the idea of continued learning.",
+      "rendered": true
+    },
+    {
+      "claim_id": "K05",
+      "code_verdict": {
+        "verdict": "contradicted",
+        "reason": "Selected quote end=610; paragraph_end=765.",
+        "actual_quote_boundary": 610,
+        "required_source_boundary": 765,
+        "span_id": "E1868_1_P001_S004"
+      },
+      "llm_verdict": null,
+      "keep": false,
+      "candidate": "The second selected passage occurs at the end of its paragraph.",
+      "rendered": false
+    },
+    {
+      "claim_id": "K06",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "K06",
+        "verdict": "supported",
+        "reason": "Both excerpts emphasize the importance of continuous learning."
+      },
+      "keep": true,
+      "candidate": "The essay maintains a clear focus on the importance of continuous learning.",
+      "rendered": true
+    },
+    {
+      "claim_id": "K07",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "K07",
+        "verdict": "supported",
+        "reason": "The excerpts alone do not provide enough information to establish overall coherence."
+      },
+      "keep": true,
+      "candidate": "The selected passages do not establish the overall coherence of the essay.",
+      "rendered": true
+    },
+    {
+      "claim_id": "K08",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "K08",
+        "verdict": "insufficient",
+        "reason": "The evidence does not specify if the excerpts are from the same paragraph."
+      },
+      "keep": false,
+      "candidate": "The selected passages establish cohesion within the first paragraph.",
+      "rendered": false
+    },
+    {
+      "claim_id": "K09",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "K09",
+        "verdict": "supported",
+        "reason": "The evidence does not show repeated scoring behavior across essays."
+      },
+      "keep": true,
+      "candidate": "The supplied local evidence does not establish a repeated scoring behavior across essays.",
+      "rendered": true
+    },
+    {
+      "claim_id": "K10",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "K10",
+        "verdict": "supported",
+        "reason": "The excerpts do not provide enough information to judge the appropriateness of the recorded Cohesion band."
+      },
+      "keep": true,
+      "candidate": "This evidence alone does not establish whether that band is appropriate.",
+      "rendered": true
+    }
+  ],
+  "reviewed_quotes": [
+    {
+      "quote_index": 0,
+      "exact_quote": "The main piece to improve your skills is during the process of keep learning."
+    },
+    {
+      "quote_index": 1,
+      "exact_quote": "I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career."
+    }
+  ],
+  "observed_rubric": {
+    "rubric_ref_id": "Cohesion:3",
+    "dimension": "Cohesion",
+    "score_band": 3,
+    "descriptor": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs."
+  },
+  "feedback_paragraph": "The supplied local evidence does not establish a repeated scoring behavior across essays. In essay 1868:1, the reviewed excerpt is “The main piece to improve your skills is during the process of keep learning.” In essay 1868:1, the reviewed excerpt is “I strongly agree with the words that Author Ralph Waldo Emerson wrote, people that have got the title of professional and keep being successful in their daily are the ones that are still adding productive information to their life and career.” The first selected passage occurs at the start of the essay. The opening passage presents continued learning as a way to improve skills. The selected passages repeat the idea of continued learning. The essay maintains a clear focus on the importance of continuous learning. The recorded Cohesion score is 3. The official descriptor for Cohesion:3 is “Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.” The selected passages do not establish the overall coherence of the essay. This evidence alone does not establish whether that band is appropriate. Next inspect: Review the transitions between paragraphs to ensure they maintain the same focus on the importance of continuous learning. Next inspect: Inspect the transitions between paragraphs and check whether the discussion of continued learning connects across them.",
+  "fallback_to_A": false
+}

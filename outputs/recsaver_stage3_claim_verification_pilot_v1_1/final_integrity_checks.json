@@ -1,0 +1,127 @@
+{
+  "total": 30,
+  "passed": 30,
+  "checks": [
+    {
+      "name": "known strict original parse unchanged",
+      "pass_": true
+    },
+    {
+      "name": "known all planned IDs",
+      "pass_": true
+    },
+    {
+      "name": "known fixed displayed candidates",
+      "pass_": true
+    },
+    {
+      "name": "known no A fallback",
+      "pass_": true
+    },
+    {
+      "name": "contrast strict original parse unchanged",
+      "pass_": true
+    },
+    {
+      "name": "contrast all planned IDs",
+      "pass_": true
+    },
+    {
+      "name": "contrast fixed displayed candidates",
+      "pass_": true
+    },
+    {
+      "name": "contrast no A fallback",
+      "pass_": true
+    },
+    {
+      "name": "limited strict original parse unchanged",
+      "pass_": true
+    },
+    {
+      "name": "limited all planned IDs",
+      "pass_": true
+    },
+    {
+      "name": "limited fixed displayed candidates",
+      "pass_": true
+    },
+    {
+      "name": "limited no A fallback",
+      "pass_": true
+    },
+    {
+      "name": "retention strict original parse unchanged",
+      "pass_": true
+    },
+    {
+      "name": "retention all planned IDs",
+      "pass_": true
+    },
+    {
+      "name": "retention fixed displayed candidates",
+      "pass_": true
+    },
+    {
+      "name": "retention no A fallback",
+      "pass_": true
+    },
+    {
+      "name": "position error removed; local opening kept",
+      "pass_": true
+    },
+    {
+      "name": "8699 general error retained and article removed",
+      "pass_": true
+    },
+    {
+      "name": "2016 error and dependent checks removed",
+      "pass_": true
+    },
+    {
+      "name": "2016 withheld; no replacement source",
+      "pass_": true
+    },
+    {
+      "name": "4902 valid relation preserved",
+      "pass_": true
+    },
+    {
+      "name": "residual errors explicitly recorded",
+      "pass_": true
+    },
+    {
+      "name": "all existing three groups aggregate; control excluded",
+      "pass_": true
+    },
+    {
+      "name": "four requests only",
+      "pass_": true
+    },
+    {
+      "name": "complete planned verdicts",
+      "pass_": true
+    },
+    {
+      "name": "22 distinct claim records",
+      "pass_": true
+    },
+    {
+      "name": "required artifact claim_manifest.json",
+      "pass_": true
+    },
+    {
+      "name": "required artifact run_manifest.json",
+      "pass_": true
+    },
+    {
+      "name": "required artifact claim_comparison.csv",
+      "pass_": true
+    },
+    {
+      "name": "required artifact validation_report.md",
+      "pass_": true
+    }
+  ],
+  "failed": []
+}

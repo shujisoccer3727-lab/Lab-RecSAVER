@@ -1,0 +1,83 @@
+{
+  "processing_success": true,
+  "local_finding_retained": false,
+  "retained_claim_ids": [
+    "L02",
+    "L03",
+    "L04"
+  ],
+  "displayed_claim_ids": [
+    "L02",
+    "L03",
+    "L04"
+  ],
+  "next_check_ids": [],
+  "dropped_next_check_ids": [
+    "LN1",
+    "LN2"
+  ],
+  "decisions": [
+    {
+      "claim_id": "L01",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "L01",
+        "verdict": "contradicted",
+        "reason": "The phrase \"you will never grow\" is a standard verb form."
+      },
+      "keep": false,
+      "candidate": "The phrase \"you will never grow\" is a nonstandard verb form.",
+      "rendered": false
+    },
+    {
+      "claim_id": "L02",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "L02",
+        "verdict": "supported",
+        "reason": "The excerpt does not provide information on the frequency of grammatical errors throughout the essay."
+      },
+      "keep": true,
+      "candidate": "The selected excerpt does not establish the frequency of grammatical errors throughout the essay.",
+      "rendered": true
+    },
+    {
+      "claim_id": "L03",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "L03",
+        "verdict": "supported",
+        "reason": "The evidence does not provide a pattern of scoring behavior across multiple essays."
+      },
+      "keep": true,
+      "candidate": "The supplied local evidence does not establish a repeated scoring behavior across essays.",
+      "rendered": true
+    },
+    {
+      "claim_id": "L04",
+      "code_verdict": null,
+      "llm_verdict": {
+        "claim_id": "L04",
+        "verdict": "supported",
+        "reason": "The excerpt does not provide enough information to determine the appropriateness of the recorded Grammar band."
+      },
+      "keep": true,
+      "candidate": "This evidence alone does not establish whether that band is appropriate.",
+      "rendered": true
+    }
+  ],
+  "reviewed_quotes": [
+    {
+      "quote_index": 0,
+      "exact_quote": "Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow."
+    }
+  ],
+  "observed_rubric": {
+    "rubric_ref_id": "Grammar:2",
+    "dimension": "Grammar",
+    "score_band": 2,
+    "descriptor": "Many errors in grammar and usage."
+  },
+  "feedback_paragraph": "The supplied local evidence does not establish a repeated scoring behavior across essays. In essay 2016:1, the reviewed excerpt is “Author Ralph Waldo wrote, \"unless you try to do something beyond what you have already mastered, you will never grow.” No verified local finding remains. The recorded Grammar score is 2. The official descriptor for Grammar:2 is “Many errors in grammar and usage.” The selected excerpt does not establish the frequency of grammatical errors throughout the essay. This evidence alone does not establish whether that band is appropriate. No next check survived the claim prerequisites.",
+  "fallback_to_A": false
+}
