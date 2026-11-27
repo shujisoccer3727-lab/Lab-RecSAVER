@@ -1,0 +1,80 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar"
+      ],
+      "pattern": "Essays with clear organization and varied sentence structures tend to receive higher scores, while those with repetitive and basic sentence structures receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_49235c74962f7281d4b2919a",
+          "quotes": [
+            "Self-reliance is the trust that you put in yourself believing that what you are doing is right. We use it everyday as more decision comes up."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Grammar": 3
+            }
+          },
+          "interpretation": "The essay shows a clear organization and varied sentence structures, which aligns with the higher scores."
+        },
+        {
+          "history_essay_id": "essay_ed918c3154eda0c8f90251c4",
+          "quotes": [
+            "This is why I think we choose our character traits like being quiet."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Grammar": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a clear organization and varied sentence structures, which aligns with the higher scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_cb38a1ffaf831ddf8a6a37b1",
+          "quotes": [
+            "Sometimes I loose and sometimes I win."
+          ],
+          "interpretation": "This essay has a lower score despite having a clear organization, indicating that other factors may also influence the score."
+        }
+      ],
+      "limitations": [
+        "The pattern is not consistent across all essays, suggesting that other factors may also influence the scores."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar"
+      ],
+      "quotes": [
+        "A person life, is like a little story, there way to think or act goes with what they have been though, some have gone from easiest to harder situations, there are many situations that people go through all the times."
+      ],
+      "observable_feature": "The essay has repetitive and basic sentence structures, with limited use of cohesive devices.",
+      "evaluative_interpretation": "The repetitive and basic sentence structures, along with limited use of cohesive devices, likely contributed to the lower scores.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for lower scores indicates limited control of organization and frequent errors in sentence structure.",
+      "uncertainty": "The essay's overall coherence and clarity are somewhat unclear, which may affect the score."
+    }
+  ],
+  "decision_explanation": "The essay's repetitive and basic sentence structures, along with limited use of cohesive devices, align with the lower scores observed. This is consistent with the pattern observed in the history where essays with clear organization and varied sentence structures tend to receive higher scores.",
+  "insufficient_evidence": []
+}

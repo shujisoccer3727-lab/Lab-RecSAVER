@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.5",
+  "rater_id": "rater_10",
+  "pattern_status": "insufficient_evidence",
+  "pattern": null,
+  "pattern_limit": "The provided observations do not establish a consistent pattern of feature-to-evaluation relationship across multiple essays.",
+  "representative_observation_key": "essay_96b587aeaf1f53910d5e55c9::O1",
+  "quote_indices": [0, 1, 2, 3],
+  "textual_finding": "The essay uses a clear example to illustrate the importance of a positive attitude, showing the writer's ability to use examples to support their argument and maintain a coherent flow of ideas.",
+  "evidence_limit": "This evidence does not establish the overall coherence of the essay, only the coherence within this specific example.",
+  "rubric_review": {
+    "observed_band_ref_id": "Cohesion:4",
+    "comparison_band_ref_id": null,
+    "band_assessment": "indeterminate"
+  },
+  "next_check": {
+    "inspect": "Review the transitions between paragraphs to ensure they maintain the flow of the argument.",
+    "distinguish": "The consistency of the main idea and the logical connections between paragraphs.",
+    "reconsider_if": null
+  }
+}

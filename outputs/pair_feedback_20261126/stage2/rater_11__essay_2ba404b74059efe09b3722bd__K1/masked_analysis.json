@@ -1,0 +1,94 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a clear structure, varied vocabulary, and occasional errors in grammar and conventions tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_eeb87df489f116eb7f0767b9",
+          "quotes": [
+            "\"Firstly honesty is the best policy, because it builds a good relationship.\"",
+            "\"Secondly, honesty is the best policy, because it builds trustworthiness.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a clear structure and varied vocabulary, with occasional errors in grammar and conventions, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_d72cbe3b2e31d4782f73c047",
+          "quotes": [
+            "\"The first reason I agree with the prompt that positive attitude is the key to success because some people gain positive attitude from others the same way they had a positive attitude towards them.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay shows a clear structure and varied vocabulary, with fewer errors in grammar and conventions, consistent with a higher Overall score of 4."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_87af426720f79449fed83da7",
+          "quotes": [
+            "\"I thing working with a group of persone it will be super good, because the time going more faster, and also that fell more good working with a group, and because we can helpind\""
+          ],
+          "interpretation": "This essay has significant errors in grammar and conventions, which is inconsistent with the pattern of occasional errors seen in essays with an Overall score of 3."
+        }
+      ],
+      "limitations": [
+        "The pattern is based on a limited number of essays and may not fully capture the rater's criteria."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"One of the first lessons I'll share with a student would be, being respectful.\"",
+        "\"Another lesson I would share would be to always learn, because in life it's always important to learn.\""
+      ],
+      "observable_feature": "The essay demonstrates a clear structure with varied vocabulary and occasional errors in grammar and conventions.",
+      "evaluative_interpretation": "This is consistent with an Overall score of [MASK], as the essay shows a controlled organization and varied vocabulary, with occasional errors that do not significantly impede communication.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay aligns with the rubric for an Overall score of [MASK], showing facility in language use with occasional inaccuracies that rarely impede communication.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay's clear structure, varied vocabulary, and occasional errors in grammar and conventions align with the pattern observed in history essays with an Overall score of [MASK]. The evidence from the target essay supports a plausible interpretation of the observed score.",
+  "insufficient_evidence": []
+}

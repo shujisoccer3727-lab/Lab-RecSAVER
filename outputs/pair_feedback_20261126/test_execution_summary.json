@@ -1,0 +1,10 @@
+﻿{
+    "new_regression_tests":  10,
+    "passed":  true,
+    "commands":  [
+                     "python -m unittest tests.test_pair_feedback -v",
+                     "python -m unittest tests.test_human_score_disagreement tests.test_recsaver -q"
+                 ],
+    "environment":  "WSL2 conda qwen3 Python 3.10.20",
+    "existing_compatibility_tests":  14
+}

@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 132,
+          "text": "Students may say inactivity is the way to go, However other student say keeping yourself occupied will lead you towards achievement."
+        },
+        {
+          "span_id": "S13",
+          "paragraph_id": "P6",
+          "start": 1413,
+          "end": 1571,
+          "text": "Overall students think that doing nothing is the way to go, but other students say that keeping themselves occupied leads them to a succeful and positve life."
+        }
+      ],
+      "reconstructed_quotes": [
+        "Students may say inactivity is the way to go, However other student say keeping yourself occupied will lead you towards achievement.",
+        "Overall students think that doing nothing is the way to go, but other students say that keeping themselves occupied leads them to a succeful and positve life."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S13"
+      ],
+      "feature": "The essay begins with a contrast between inactivity and being occupied (S1) and concludes with a similar contrast (S13).",
+      "scoring_relevance": "This feature shows that the essay maintains a consistent theme and uses a parallel structure to reinforce the main argument, which is relevant to the cohesion dimension.",
+      "limitation": "This observation does not establish the overall coherence of the essay or the effectiveness of the argument beyond the opening and closing statements.",
+      "next_check": "Review the middle paragraphs to see if they consistently develop the idea of inactivity versus being occupied and how they connect to the opening and closing statements.",
+      "quotes": [
+        "Students may say inactivity is the way to go, However other student say keeping yourself occupied will lead you towards achievement.",
+        "Overall students think that doing nothing is the way to go, but other students say that keeping themselves occupied leads them to a succeful and positve life."
+      ]
+    }
+  ]
+}

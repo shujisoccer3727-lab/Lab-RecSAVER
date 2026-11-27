@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S7",
+          "paragraph_id": "P2",
+          "start": 555,
+          "end": 644,
+          "text": "To begin, attend classes online is better than attend the classes at school in many ways."
+        },
+        {
+          "span_id": "S10",
+          "paragraph_id": "P2",
+          "start": 886,
+          "end": 1008,
+          "text": " This shows that, when the students grow up, and being employees they will be responsible to attend to their jobs at time."
+        }
+      ],
+      "reconstructed_quotes": [
+        "To begin, attend classes online is better than attend the classes at school in many ways.",
+        " This shows that, when the students grow up, and being employees they will be responsible to attend to their jobs at time."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S7",
+        "S10"
+      ],
+      "feature": "The essay uses transitional phrases such as 'To begin' and 'This shows that' to connect ideas.",
+      "scoring_relevance": "The use of transitional phrases helps to establish a logical flow between ideas, which is relevant to the cohesion dimension.",
+      "limitation": "The presence of transitional phrases does not guarantee overall coherence or the absence of logical gaps.",
+      "next_check": "Review the transitions between paragraphs to ensure they maintain the logical flow of the argument.",
+      "quotes": [
+        "To begin, attend classes online is better than attend the classes at school in many ways.",
+        " This shows that, when the students grow up, and being employees they will be responsible to attend to their jobs at time."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Grammar",
+    "evidence_span_ids": [
+      "S1"
+    ],
+    "feature": "The sentence contains multiple grammatical errors, including missing articles, incorrect verb forms, and run-on sentences.",
+    "scoring_relevance": "These grammatical errors can affect the clarity and coherence of the essay, making it difficult for the reader to understand the writer's argument.",
+    "limitation": "This observation is limited to the first sentence and does not provide a comprehensive view of the essay's grammatical accuracy.",
+    "next_check": "Review the next few sentences to see if similar grammatical errors persist.",
+    "quotes": [
+      "It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the"
+    ],
+    "observation_key": "essay_926396d210817c7d960bd53a::O1",
+    "target_essay_id": "essay_926396d210817c7d960bd53a",
+    "observed_score": 2
+  },
+  {
+    "observation_id": "O2",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S1",
+      "S2"
+    ],
+    "feature": "The first two sentences are not clearly connected, with the second sentence introducing a new idea without a clear transition.",
+    "scoring_relevance": "The lack of a clear transition between ideas can disrupt the flow of the essay and make it harder for the reader to follow the writer's argument.",
+    "limitation": "This observation is limited to the first two sentences and does not provide a comprehensive view of the essay's overall cohesion.",
+    "next_check": "Check the transitions between other sentences and paragraphs to see if they are clear and logical.",
+    "quotes": [
+      "It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the",
+      "schedule and more Students will likely to pass the classes and both elective and art have the same principle with"
+    ],
+    "observation_key": "essay_926396d210817c7d960bd53a::O2",
+    "target_essay_id": "essay_926396d210817c7d960bd53a",
+    "observed_score": 2
+  }
+]

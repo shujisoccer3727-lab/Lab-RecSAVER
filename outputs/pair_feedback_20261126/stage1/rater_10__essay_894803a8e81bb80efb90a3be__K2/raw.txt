@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_894803a8e81bb80efb90a3be",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "pattern": "Essays with a wide range of vocabulary and effective use of cohesive devices tend to receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_bdeee46699532dec8dfaea224",
+            "quotes": ["\"Your company is understandable to your employees. You treat them with respect and love as if they were your family.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Vocabulary": 4,
+                "Phraseology": 5
+              }
+            },
+            "interpretation": "The essay demonstrates a wide range of vocabulary and effective use of cohesive devices, which aligns with the higher scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_00808a491692a94c9fa33b54",
+            "quotes": ["\"ThatA,A's not good for student to finish high school in three years and enter college or the work force on year early.\""],
+            "interpretation": "This essay has a narrower range of vocabulary and less effective use of cohesive devices, which aligns with the lower scores."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "quotes": ["\"Giving high school students chances to graduate early increases graduation rates. For example a girl wanted to give up on school because she said it was too stressful and time consuming and she didn't want to go to college after high school.\""],
+        "observable_feature": "The essay demonstrates a wide range of vocabulary and effective use of cohesive devices.",
+        "evaluative_interpretation": "This feature is consistent with the higher scores observed.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay shows a wide range of vocabulary and effective use of cohesive devices, which aligns with the rubric for higher scores.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates a wide range of vocabulary and effective use of cohesive devices, which aligns with the higher scores observed in the rater's history. This is consistent with the observed Overall score of 5.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 5,
+      "Traits": {
+        "Cohesion": 5,
+        "Syntax": 4,
+        "Vocabulary": 5,
+        "Phraseology": 5,
+        "Grammar": 4,
+        "Conventions": 5
+      }
+    },
+    "overall_alignment": "The essay demonstrates a wide range of vocabulary and effective use of cohesive devices, which aligns with the rubric for higher scores. This is consistent with the observed Overall score of 5.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates effective use of cohesive devices, which aligns with the rubric for a score of 5."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a wide range of vocabulary, which aligns with the rubric for a score of 5."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates flexible and effective use of a variety of phrases, which aligns with the rubric for a score of 5."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

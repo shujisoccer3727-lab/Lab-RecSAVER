@@ -1,0 +1,108 @@
+{
+  "changes": [
+    {
+      "path": "/target_evidence/0/rubric_connection",
+      "before": "The essay's varied sentence structures and wide range of vocabulary align with the rubric's description of a score of 4, indicating facility in language use with syntactic variety and a range of words and phrases.",
+      "after": "The essay's varied sentence structures and wide range of vocabulary align with the rubric's description of a score of [MASK], indicating facility in language use with syntactic variety and a range of words and phrases.",
+      "value_spans": [
+        {
+          "start": 118,
+          "end": 119,
+          "value": "4",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/decision_explanation",
+      "before": "The essay demonstrates a wide range of vocabulary, varied sentence structures, and appropriate use of cohesive devices, which aligns with the higher scores observed in the history. This suggests that the essay's language proficiency is well-controlled and varied, consistent with the observed Overall score of 4.",
+      "after": "The essay demonstrates a wide range of vocabulary, varied sentence structures, and appropriate use of cohesive devices, which aligns with the higher scores observed in the history. This suggests that the essay's language proficiency is well-controlled and varied, consistent with the observed Overall score of [MASK].",
+      "value_spans": [
+        {
+          "start": 310,
+          "end": 311,
+          "value": "4",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 2,
+  "changed_fields": 2,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/status",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/pattern",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    }
+  ],
+  "quarantine": [],
+  "automatic_pass": true,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

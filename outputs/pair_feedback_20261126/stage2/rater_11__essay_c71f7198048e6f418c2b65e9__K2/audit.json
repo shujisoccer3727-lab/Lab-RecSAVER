@@ -1,0 +1,127 @@
+{
+  "changes": [
+    {
+      "path": "/target_evidence/0/evaluative_interpretation",
+      "before": "This supports a Cohesion score of 2, consistent with the observed score.",
+      "after": "This supports a Cohesion score of [MASK], consistent with the observed score.",
+      "value_spans": [
+        {
+          "start": 34,
+          "end": 35,
+          "value": "2",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/0/rubric_connection",
+      "before": "The rubric for Cohesion score 2 indicates limited use of cohesive devices and repetitive structure.",
+      "after": "The rubric for Cohesion score [MASK] indicates limited use of cohesive devices and repetitive structure.",
+      "value_spans": [
+        {
+          "start": 30,
+          "end": 31,
+          "value": "2",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/decision_explanation",
+      "before": "The target essay's limited use of cohesive devices and repetitive structure, as seen in the quoted sentence, aligns with the observed Cohesion score of 2. This pattern is consistent with the rater's history, where similar features in other essays also received a Cohesion score of 2.",
+      "after": "The target essay's limited use of cohesive devices and repetitive structure, as seen in the quoted sentence, aligns with the observed Cohesion score of [MASK]. This pattern is consistent with the rater's history, where similar features in other essays also received a Cohesion score of 2.",
+      "value_spans": [
+        {
+          "start": 152,
+          "end": 153,
+          "value": "2",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 3,
+  "changed_fields": 3,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/status",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/pattern",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/1/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/1/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/1/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/decision_explanation",
+      "span": [
+        263,
+        282
+      ],
+      "text": "Cohesion score of 2",
+      "reason": "Explicitly attributed history score clause"
+    }
+  ],
+  "quarantine": [],
+  "automatic_pass": true,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

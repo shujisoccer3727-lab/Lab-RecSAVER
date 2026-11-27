@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_c01dfe1288cc86587ad100a3",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax"],
+        "pattern": "Essays with generally controlled organization and occasional errors in sentence formation tend to receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_080335221a43c8077549c0de",
+            "quotes": ["\"Some people may believe that true self-esteem comes from praising while others believe that it comes from achievement.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and occasional errors in sentence formation, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_00808a491692a94c9fa33b54",
+            "quotes": ["\"The goal is graduated high school in three years instead of four years.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3
+              }
+            },
+            "interpretation": "The essay shows generally controlled organization and occasional errors in sentence formation, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax"],
+        "quotes": ["\"People always said anything about any arguments, but the most opinions can they said are problem, because sometime people speak bad things their opinions they can said are not supported for other for reason can have bad impressions with the community.\""],
+        "observable_feature": "The sentence structure is complex but contains errors in sentence formation and cohesion.",
+        "evaluative_interpretation": "The sentence demonstrates generally controlled organization but with occasional errors in sentence formation, consistent with an Overall score of 3.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The sentence structure aligns with the rubric for a score of 3, showing generally controlled organization and occasional errors in sentence formation.",
+        "uncertainty": "The sentence contains multiple errors, but the overall structure is understandable."
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates generally controlled organization and occasional errors in sentence formation, consistent with the observed Overall score of 3. This is supported by the historical pattern observed in essays with similar features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 2,
+        "Vocabulary": 4,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's generally controlled organization and occasional errors in sentence formation align with the observed Overall score of 3. The Trait scores are consistent with the rubric descriptions for a score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally controlled organization with some errors in cohesion, consistent with a score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay contains frequent errors in sentence formation, consistent with a score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": [],
+        "alignment": "The essay uses a sufficient range of vocabulary, consistent with a score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay uses a variety of phrases with occasional inaccuracies, consistent with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": [],
+        "alignment": "The essay contains many errors in grammar and usage, consistent with a score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates developing use of conventions with some distracting errors, consistent with a score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The observed scores for Syntax and Grammar are lower than expected given the generally controlled organization observed in the essay."]
+  }
+}

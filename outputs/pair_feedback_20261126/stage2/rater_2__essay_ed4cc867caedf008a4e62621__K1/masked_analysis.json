@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, sufficient vocabulary, and some errors in conventions tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_fc9f562ff8ca5faeda0a0cf1",
+          "quotes": [
+            "How we can see at the pass to the years the technology advance to fast around to the world, and thanks to the technology we forget how is the content in a book; in my personal opinion is happens."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 2,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates generally controlled organization and occasional errors in sentence formation, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_23a8594b76f0bbd8dcb9f093",
+          "quotes": [
+            "Dear Principal my thoughts about having phone's in school i think you should let students use phone in their own spar time because they don't use it during class and its not fair that most teachers at the school can use them during teaching it is a big distraction when the phone goes off during a test or some important project, but it well help if you let the student use their phone so they can plan their day by letting their parent know where there going after school or other events like school activities like soccer, basketball, and other great stuff the school has provide for all the students."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 2,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay shows generally controlled organization and sufficient vocabulary, with some errors in conventions, consistent with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "The principal reason why I want to go is for my family influences, my grandma has been dreaming about me been an actress. I remember going to the theater with her, telling me that her biggest dream is, one day, see me on one of those performances or shows."
+      ],
+      "observable_feature": "The essay demonstrates generally controlled organization, sufficient vocabulary, and occasional errors in sentence formation and conventions.",
+      "evaluative_interpretation": "These features are consistent with an Overall score of [MASK], as they align with the pattern observed in the rater's history.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text organization is generally well-controlled, and there is a sufficient range of vocabulary, but there are occasional errors in sentence formation and conventions, which aligns with the rubric for a score of [MASK].",
+      "uncertainty": "The essay's overall coherence and the frequency of errors in conventions could be more precisely evaluated with additional context."
+    }
+  ],
+  "decision_explanation": "The target essay's generally controlled organization, sufficient vocabulary, and occasional errors in sentence formation and conventions align with the pattern observed in the rater's history, supporting an Overall score of [MASK].",
+  "insufficient_evidence": []
+}

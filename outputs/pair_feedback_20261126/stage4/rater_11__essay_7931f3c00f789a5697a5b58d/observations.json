@@ -1,0 +1,21 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S2",
+      "S25"
+    ],
+    "feature": "The essay explicitly mentions seeking guidance from trusted individuals such as parents, siblings, and close friends in S2, and in S25, it reiterates the preference for guidance from family over making decisions independently.",
+    "scoring_relevance": "The repetition of the preference for guidance from family members helps to maintain a cohesive argument throughout the essay, reinforcing the main idea.",
+    "limitation": "This observation does not establish the overall coherence of the essay, only the local connection between the two spans.",
+    "next_check": "Review the transitions between paragraphs to see if they maintain the flow of the argument and reinforce the preference for guidance.",
+    "quotes": [
+      " I would seek guidance from those that I trust like: parents, siblings, or even close friends because they have more experience than me.",
+      "I prefer to have guidance/advice from my family who has more experience than make my own decisions all by myself; without any though to it."
+    ],
+    "observation_key": "essay_7931f3c00f789a5697a5b58d::O1",
+    "target_essay_id": "essay_7931f3c00f789a5697a5b58d",
+    "observed_score": 2
+  }
+]

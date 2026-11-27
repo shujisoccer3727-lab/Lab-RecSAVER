@@ -1,0 +1,91 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with limited syntactic variety, occasional errors in sentence formation, and some distracting conventions errors tend to receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_81aa085b702d206e5f30f7f4",
+          "quotes": [
+            "P.e is my favorite educational activity because i mostly enjoy it.Because all my friends are in that class."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 2,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay shows limited syntactic variety and frequent errors in sentence formation, consistent with the lower scores."
+        },
+        {
+          "history_essay_id": "essay_49a4e4f15b1c92bfa6a00cd6",
+          "quotes": [
+            "In our world we see how old people, young people, children, are in the streets with no food to eat barely clothes put on with no money on the pockets."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 2,
+              "Grammar": 2,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates limited syntactic variety and frequent errors in sentence formation, consistent with the lower scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "I help some student where to go.The school program"
+      ],
+      "observable_feature": "Limited syntactic variety and frequent errors in sentence formation.",
+      "evaluative_interpretation": "The sentence structure is simple and repetitive, with errors in sentence formation, which is consistent with a lower score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for scores 2 and 3 indicates limited syntactic variety and occasional errors in sentence formation, which is evident in the target essay.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "quotes": [
+        "Student will get help from any grade level kids.When a new kid come to the school any higher grade tell where to go."
+      ],
+      "observable_feature": "Use of a wide range of vocabulary and phrases, including topic-related terms and less common lexical items.",
+      "evaluative_interpretation": "The essay demonstrates a sufficient range of vocabulary and appropriate use of phrases, which is consistent with a higher score.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The rubric for scores 4 and 5 indicates a sufficient range of vocabulary and appropriate use of phrases, which is evident in the target essay.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay shows limited syntactic variety and frequent errors in sentence formation, consistent with the lower scores observed in history essays with similar features. However, the essay also demonstrates a sufficient range of vocabulary and appropriate use of phrases, which supports a higher score in these dimensions.",
+  "insufficient_evidence": []
+}

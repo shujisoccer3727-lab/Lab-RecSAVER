@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_2",
+  "target_essay_id": "essay_623825e121b05f3178ddd950",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with occasional language inaccuracies and some errors in grammar and syntax receive scores in the 3-4 range.",
+        "support": [
+          {
+            "history_essay_id": "essay_598724e5b862459ca01d3ff2",
+            "quotes": ["In this essay I will discuss as to why curfews could be a necessary law for teenagers."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows occasional language inaccuracies and some errors in grammar and syntax, consistent with a score of 4."
+          },
+          {
+            "history_essay_id": "essay_7e0742469e97fef28d84a8fc",
+            "quotes": ["People will start to make fun of you, if you dont make your decision by yourself because if you are asking someone to help you or give some advice to help you make the decision, other people or even your own guidance or family people love to gossip every person gossip and this is true."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 2,
+                "Grammar": 2,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows some errors in grammar and syntax, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["Because it is not easy to attend classes for every students."],
+        "observable_feature": "The sentence contains a grammatical error ('students' should be 'student').",
+        "evaluative_interpretation": "This error is consistent with a score of 3, indicating some errors in grammar and syntax.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for a score of 3 indicates some errors in grammar and syntax.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["It is difficult for them to move quickly from class room to outside."],
+        "observable_feature": "The sentence contains a grammatical error ('class room' should be 'classroom').",
+        "evaluative_interpretation": "This error is consistent with a score of 3, indicating some errors in grammar and syntax.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for a score of 3 indicates some errors in grammar and syntax.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay contains occasional language inaccuracies and some errors in grammar and syntax, consistent with a score of 3. This is supported by the historical pattern observed in essays with similar features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The target essay's occasional language inaccuracies and some errors in grammar and syntax align with the observed Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1", "T2"],
+        "alignment": "The essay shows some errors in grammar and syntax, consistent with a score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1", "T2"],
+        "alignment": "The essay shows some errors in grammar and syntax, consistent with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay's vocabulary is minimally adequate for the topic, consistent with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": [],
+        "alignment": "The essay uses a variety of phrases, such as idioms and collocations, with occasional inaccuracies, consistent with a score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1", "T2"],
+        "alignment": "The essay shows some errors in grammar and syntax, consistent with a score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": [],
+        "alignment": "The essay shows generally consistent use of conventions, with few and not distracting errors, consistent with a score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

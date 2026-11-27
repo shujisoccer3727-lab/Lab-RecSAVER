@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_c71f7198048e6f418c2b65e9",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion"],
+        "pattern": "Essays with limited cohesive devices receive a Cohesion score of 2.",
+        "support": [
+          {
+            "history_essay_id": "essay_865e64957ba87e7d8562c06b",
+            "quotes": ["Outdoor activities are enjoyable for everyone people can play outside with they're friends and get a chance to meet some new friends."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2
+              }
+            },
+            "interpretation": "The lack of cohesive devices and the mechanical structure of the sentence support a Cohesion score of 2."
+          },
+          {
+            "history_essay_id": "essay_7931f3c00f789a5697a5b58d",
+            "quotes": ["I think you should seek guidance from those that have been through this experience before you for a ever long time."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2
+              }
+            },
+            "interpretation": "The sentence lacks cohesive devices and has a repetitive structure, supporting a Cohesion score of 2."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion"],
+        "quotes": ["There are some food that is being served to the students that is not healthy at all."],
+        "observable_feature": "The sentence lacks cohesive devices and has a repetitive structure.",
+        "evaluative_interpretation": "This supports a Cohesion score of 2, consistent with the observed score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for Cohesion score 2 indicates limited use of cohesive devices and repetitive structure.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay's limited use of cohesive devices and repetitive structure, as seen in the quoted sentence, aligns with the observed Cohesion score of 2. This pattern is consistent with the rater's history, where similar features in other essays also received a Cohesion score of 2.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's overall score of 3 is consistent with the rubric for a score of 3, which indicates facility limited to common structures and generic vocabulary, with occasional errors in grammar and syntax. The essay demonstrates controlled organization but with some language inaccuracies.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The limited use of cohesive devices and repetitive structure in the essay supports a Cohesion score of 2, as seen in the quoted sentence."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates a range of syntactic structures, including simple and complex sentences, with occasional errors, consistent with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay uses a minimally adequate range of vocabulary for the topic, with some attempts to use less common words, consistent with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay uses a variety of phrases, including idioms and collocations, with some repetitions and misuses, consistent with a Phraseology score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay has some errors in grammar and usage, consistent with a Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates a developing use of conventions, with some errors in spelling, capitalization, and punctuation, consistent with a Conventions score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

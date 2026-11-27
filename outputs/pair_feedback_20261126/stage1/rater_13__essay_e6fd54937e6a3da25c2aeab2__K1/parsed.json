@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_13",
+  "target_essay_id": "essay_e6fd54937e6a3da25c2aeab2",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, and some inaccuracy in vocabulary and phraseology tend to receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_9b43551316b3c07ac8834b51",
+            "quotes": [
+              "\"My father always likes to expend time with my mom, my brothers, my sisters and also me, i'm is favorite son. he takes us to the park, movie theater, restaurants, the mall, visit our family and church, all of those places that i mention we spend it together, in general most of the family's, we always use the afternoon to hand all together and have good times as families and that is why i don't agree about having to hours more during school day.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates generally controlled organization and occasional errors in sentence formation, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_8054a6d088df6fd1f7d0338c",
+            "quotes": [
+              "\"The first reason why someone might find activitys enjoyable is because someone can enjoy playing with their friends or hanging out with them. Some people enjoy hanging out with their friends and talking with them. Someone can enjoy hanging out with their friends and dong stuff together.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 4,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows generally controlled organization and occasional errors in sentence formation, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is based on a limited number of essays and may not fully capture the rater's preferences."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "\"I believe working alone is better because,people won't be bothering you, you can listen to music, and also you can work on your own pace. Imagaine your teacher gave your class an assignment and you were told you can work alone or you can work in a group. I would work by myself because i find it much easier to work, you don't have to worry about other people rushing you to finish so they can turn it in already or when your trying to listen to music but they're just talking about the most random things so you can't really focus.\""
+        ],
+        "observable_feature": "The essay demonstrates generally controlled organization and occasional errors in sentence formation, such as the use of commas and the spelling of 'Imagaine'.",
+        "evaluative_interpretation": "This is consistent with an Overall score of 3, as the essay shows generally controlled organization but has some errors in sentence formation and vocabulary.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The text organization is generally well-controlled, but there are occasional errors in sentence formation and vocabulary, which aligns with the rubric for an Overall score of 3.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates generally controlled organization and occasional errors in sentence formation, consistent with the observed Overall score of 3. The rater's history supports this interpretation, as similar features in other essays have also received an Overall score of 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The essay's generally controlled organization and occasional errors in sentence formation align with the observed Overall score of 3. The Trait scores are consistent with this interpretation, with lower scores in Syntax and Conventions reflecting the presence of errors.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates generally controlled organization with some cohesive devices used appropriately, consistent with a Cohesion score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows some sentence variation but with many sentence structure problems, consistent with a Syntax score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay uses a minimally adequate range of vocabulary for the topic, consistent with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay uses phrases such as idioms and collocations but with some noticeable repetitions and misuses, consistent with a Phraseology score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay has some errors in grammar and usage, consistent with a Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows variable use of conventions with frequent and distracting errors in spelling, capitalization, and punctuation, consistent with a Conventions score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

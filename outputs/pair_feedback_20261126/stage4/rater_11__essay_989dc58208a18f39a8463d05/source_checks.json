@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S2",
+          "paragraph_id": "P1",
+          "start": 80,
+          "end": 148,
+          "text": " I think students would benefit themselfs by taking classes at home."
+        },
+        {
+          "span_id": "S3",
+          "paragraph_id": "P1",
+          "start": 148,
+          "end": 372,
+          "text": " Because they would be more focus with out anyother classmates around they would also focus more if they had a quite place to study or just do there work and students would have more time to do there work or get things done."
+        }
+      ],
+      "reconstructed_quotes": [
+        " I think students would benefit themselfs by taking classes at home.",
+        " Because they would be more focus with out anyother classmates around they would also focus more if they had a quite place to study or just do there work and students would have more time to do there work or get things done."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S2",
+        "S3"
+      ],
+      "feature": "The use of nonstandard verb forms and subject-verb agreement issues, such as 'benefit themselfs' and 'focus with out anyother classmates around'.",
+      "scoring_relevance": "These grammatical errors can affect the clarity and correctness of the writer's argument, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation does not establish the frequency of such errors throughout the essay, only their presence in the selected spans.",
+      "next_check": "Review other sentences in the essay for similar grammatical issues, particularly subject-verb agreement and verb forms.",
+      "quotes": [
+        " I think students would benefit themselfs by taking classes at home.",
+        " Because they would be more focus with out anyother classmates around they would also focus more if they had a quite place to study or just do there work and students would have more time to do there work or get things done."
+      ]
+    }
+  ]
+}

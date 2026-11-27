@@ -1,0 +1,158 @@
+{
+  "changes": [
+    {
+      "path": "/target_evidence/0/rubric_connection",
+      "before": "The rubric for Overall score 2 indicates frequent errors in grammar and usage that impede communication.",
+      "after": "The rubric for Overall score [MASK] indicates frequent errors in grammar and usage that impede communication.",
+      "value_spans": [
+        {
+          "start": 29,
+          "end": 30,
+          "value": "2",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/1/evaluative_interpretation",
+      "before": "The lack of cohesive devices and logical sequencing affects the overall organization of the essay, which is consistent with a Cohesion score of 3.",
+      "after": "The lack of cohesive devices and logical sequencing affects the overall organization of the essay, which is consistent with a Cohesion score of [MASK].",
+      "value_spans": [
+        {
+          "start": 144,
+          "end": 145,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/1/rubric_connection",
+      "before": "The rubric for Cohesion score 3 indicates generally controlled organization but with some repetitive or faulty use of cohesive devices.",
+      "after": "The rubric for Cohesion score [MASK] indicates generally controlled organization but with some repetitive or faulty use of cohesive devices.",
+      "value_spans": [
+        {
+          "start": 30,
+          "end": 31,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/decision_explanation",
+      "before": "The target essay exhibits frequent grammatical errors, poor sentence structure, and inconsistent conventions, which align with the lower Overall score of 2. The lack of cohesive devices and logical sequencing supports the Cohesion score of 3. These features are consistent with the pattern observed in the history essays.",
+      "after": "The target essay exhibits frequent grammatical errors, poor sentence structure, and inconsistent conventions, which align with the lower Overall score of [MASK]. The lack of cohesive devices and logical sequencing supports the Cohesion score of [MASK]. These features are consistent with the pattern observed in the history essays.",
+      "value_spans": [
+        {
+          "start": 154,
+          "end": 155,
+          "value": "2",
+          "replacement": "[MASK]"
+        },
+        {
+          "start": 240,
+          "end": 241,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 5,
+  "changed_fields": 4,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/status",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/pattern",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/1/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/1/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/1/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/limitations/0",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/1/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/1/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/1/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    }
+  ],
+  "quarantine": [],
+  "automatic_pass": true,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

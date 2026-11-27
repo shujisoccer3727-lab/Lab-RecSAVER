@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_13",
+  "target_essay_id": "essay_a1529bcd15e8ea2f608c49ef",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with controlled organization, varied vocabulary, and occasional inaccuracies in grammar and conventions tend to receive scores around 4.",
+        "support": [
+          {
+            "history_essay_id": "essay_736c97018ee5429ef6ecbb50",
+            "quotes": ["\"First impressions are clearly not the best ones, but we can always make a choice on wheather change them or not.\", \"I have experienced many first impressions.\", \"However, i have always told myself that my reputation does not depends on how others see or think of me, depends on how i see myself.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and varied vocabulary but has occasional inaccuracies, consistent with a score of 3."
+          },
+          {
+            "history_essay_id": "essay_707c17a5fd0bce0e645492df",
+            "quotes": ["\"Teacher would have more time to teach you the subject you need to know . You would have to get an extra class to pick.\", \"You get to pick another class. Classes like chorus, art, and cooking and many more.\", \"Some student hates Saturday and Sundays because there no school.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows controlled organization and varied vocabulary but has occasional inaccuracies, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by essays with scores around 3, but the target essay has a score of 4."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["\"Firstly the school board shouldn't add a hour and a half to school because after school activities would be longer.\", \"Also the school board shouldn't add a hour and a half to school because students wouldn't have that much time to do homework.\", \"Finally the school board shouldn't add a hour and a half to school because it would be more stress on students.\""],
+        "observable_feature": "The essay demonstrates controlled organization, varied vocabulary, and occasional inaccuracies in grammar and conventions.",
+        "evaluative_interpretation": "The controlled organization and varied vocabulary support a higher score, while occasional inaccuracies in grammar and conventions limit the score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay's controlled organization and varied vocabulary align with the rubric's description for a score of 4, while occasional inaccuracies in grammar and conventions align with the rubric's description for a score of 3.",
+        "uncertainty": "The essay's occasional inaccuracies in grammar and conventions could be interpreted as limiting the score."
+      }
+    ],
+    "decision_explanation": "The essay demonstrates controlled organization and varied vocabulary, which aligns with the rubric's description for a score of 4. However, occasional inaccuracies in grammar and conventions limit the score, consistent with the observed score of 4.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 4,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay's controlled organization and varied vocabulary support an Overall score of 4, while occasional inaccuracies in grammar and conventions limit the score.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates controlled organization and varied vocabulary, consistent with a score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has occasional inaccuracies in sentence formation, consistent with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary, consistent with a score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates appropriate use of a variety of phrases, consistent with a score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has minimal errors in grammar and usage, consistent with a score of 4."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally consistent use of appropriate conventions, consistent with a score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The occasional inaccuracies in grammar and conventions could be interpreted as limiting the score."]
+  }
+}

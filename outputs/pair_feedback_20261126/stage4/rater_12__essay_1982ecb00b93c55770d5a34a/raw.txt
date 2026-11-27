@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_1982ecb00b93c55770d5a34a",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": ["S2", "S7"],
+      "feature": "The essay begins with a thesis statement ('In my opinion we do choose our own traits, Here's why.') and concludes with a restatement of the thesis ('Therefore we choose how our lives end up.').",
+      "scoring_relevance": "The presence of a thesis statement at the beginning and a restatement at the end helps to maintain cohesion by reinforcing the main argument throughout the essay.",
+      "limitation": "This observation does not establish the consistency or coherence of the entire essay, only the presence of a thesis and its restatement.",
+      "next_check": "Review the middle paragraphs to see if they consistently support the thesis and how they connect to the thesis statement and conclusion."
+    }
+  ],
+  "insufficient_evidence": []
+}

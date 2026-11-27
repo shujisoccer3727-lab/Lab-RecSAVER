@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "pattern": "Essays with a wide range of vocabulary and phrases, and generally well-controlled organization, receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_40aaeae6f13c4a2faac1c297",
+          "quotes": [
+            "\"Sitting around and doing nothing wont lead you to anything sucessful in life.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay shows a range of vocabulary and phrases, and a generally controlled organization, consistent with a score of 3."
+        },
+        {
+          "history_essay_id": "essay_9b45fee8148de9b3f0acb532",
+          "quotes": [
+            "\"Failure is important in peoples lives because it make people to not lose hope but also it makes them to dedicate on what they are trying to succeed.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a range of vocabulary and phrases, and a generally controlled organization, consistent with a score of 3."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_1c3c1934d148a5d8acdae7ce",
+          "quotes": [
+            "\"Education change our life and teach you to think in a different way.\""
+          ],
+          "interpretation": "The essay has a narrower range of vocabulary and phrases, and less controlled organization, which contrasts with the higher scoring essays."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by two essays, but the third essay provides a contrasting example."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "quotes": [
+        "\"Your company is understandable to your employees. You treat them with respect and love as if they were your family.\""
+      ],
+      "observable_feature": "The essay demonstrates a wide range of vocabulary and phrases, and a generally well-controlled organization.",
+      "evaluative_interpretation": "This feature is consistent with a higher score, as it shows flexibility and precision in language use.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's use of a wide range of vocabulary and phrases, and generally well-controlled organization, aligns with the rubric's description for a score of [MASK].",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates a wide range of vocabulary and phrases, and a generally well-controlled organization, which aligns with the observed scores of [MASK] in Cohesion, Syntax, Vocabulary, and Phraseology. This is consistent with the pattern observed in the history essays where similar features receive higher scores.",
+  "insufficient_evidence": []
+}

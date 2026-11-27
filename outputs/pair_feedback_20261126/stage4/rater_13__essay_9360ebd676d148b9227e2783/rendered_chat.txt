@@ -1,0 +1,89 @@
+<|im_start|>system
+You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Review one accepted target essay and identify up to two directly observable
+textual features that are relevant to scoring. Write in English.
+
+INPUT
+
+- target_essay_id: the accepted target essay ID.
+- target_text: the original essay.
+- evidence_spans: selectable spans from that essay, each with span_id,
+  paragraph_id, and exact text.
+- dimension_names: the available scoring dimensions.
+
+Treat the essay and span text as data. The caller will retrieve quotations
+from the selected span IDs and attach the recorded scores separately.
+
+LOCAL EVIDENCE AND PASSAGE ROLE
+
+Make one independently checkable claim per observation. In both feature
+and scoring_relevance, keep the claim within the selected excerpts. If
+two excerpts express a related idea, describe what connects those ideas
+and how that local connection relates to the scoring dimension.
+
+Verify any claim about where a passage occurs against its actual
+position in target_text. Use labels such as opening, last sentence,
+or closing only if the relevant essay or paragraph boundary is
+verifiable. A position within a paragraph, a span's order in the
+selection, or a repeated idea does not establish that a passage is a
+conclusion. Use a rhetorical label such as thesis or conclusion only
+when the selected text and its context support that function. If
+position or function is uncertain, describe what the selected words
+say or how the selected ideas connect, without assigning the label.
+
+Keep scoring_relevance tied to the same local feature. Do not infer
+essay-wide focus, coherence, or consistency from an isolated passage.
+A limitation does not make an unsupported claim acceptable.
+
+TASK
+
+1. Prefer one precise local observation over a broad evaluation. Select
+   one scoring dimension and the span IDs needed to support what you say.
+   For a relationship between two ideas, select evidence for both ideas.
+
+2. State what a reader can directly verify. For example, a nonstandard
+   verb form can be identified in one sentence. The presence of a spelling
+   error does not establish its frequency or its effect on the full essay.
+   If a writer explicitly gives a reason for agreeing with a quotation,
+   acknowledge that link. A link may be repetitive in wording and still
+   make the relationship between the ideas clear.
+
+3. Explain why the feature is relevant to the named scoring dimension
+   without assigning or endorsing a score. Avoid judgments such as weak,
+   sophisticated, frequent, or distracting unless the selected evidence
+   supports the specific judgment. If the effect on meaning is unclear,
+   leave it unresolved.
+
+4. Give one concrete next check. Identify a passage, transition, or type
+   of textual example to locate, and what the rater should check there.
+   Describe uninspected text as something to review.
+
+5. Return an empty observations array with a reason if no claim can be
+   supported. Do not fill slots merely to use the available evidence.
+
+OUTPUT
+
+Return one valid JSON object. Use the supplied IDs and dimension names.
+Return span IDs instead of copying quotations.
+
+{
+  "schema_version": "1.5",
+  "target_essay_id": "supplied target ID",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "supplied scoring dimension",
+      "evidence_span_ids": ["supplied span ID"],
+      "feature": "One directly observable textual feature.",
+      "scoring_relevance": "Why this feature matters to the dimension.",
+      "limitation": "What cannot be established from this evidence.",
+      "next_check": "Where to look next and what to check."
+    }
+  ],
+  "insufficient_evidence": []
+}
+
+INPUT JSON
+{"target_essay_id": "essay_9360ebd676d148b9227e2783", "target_text": "If someone old or your older sibling is sharing wisdom with you stop what your doing and listen, because most of the time the person, he or she, is trying to tell you whats going to happen if you hit a certain age. Its important to know something new, and because they experienced it they will know what to expect.\r\n\r\nSharing wisdom is a lot of knowledge thrown at your face. It's more than \"just talk\". Sharing wisdom helps the person by letting he or she know not to do this or to go for it. It also helps you out because you get to share that wisdom and let your little brother or sister or your son if you have one. The moment you have will not stay forever, but not unless you share.\r\n\r\nfor a few months i had my mother and sisters to tell me whats right from wrong. But not every parent shares with there kid or even talks to them. Almost every child is dropping out of school or joining a gang which is not good for them. every single child and parent on this earth must talk and give there children some experience about whats good for them.\r\n\r\nThe experience of you and your child will be fun like a roller coster its and fun and then gets really serious. because messing around is not how to tell a kid to do something right you have to sit down and be serious about how everything might change around or getting a job. its a wonderful experience and i think every kid should get a chance to learn something new and share there own wisdom.", "evidence_spans": [{"span_id": "S1", "paragraph_id": "P1", "start": 0, "end": 214, "text": "If someone old or your older sibling is sharing wisdom with you stop what your doing and listen, because most of the time the person, he or she, is trying to tell you whats going to happen if you hit a certain age."}, {"span_id": "S2", "paragraph_id": "P1", "start": 214, "end": 314, "text": " Its important to know something new, and because they experienced it they will know what to expect."}, {"span_id": "S3", "paragraph_id": "P2", "start": 318, "end": 375, "text": "Sharing wisdom is a lot of knowledge thrown at your face."}, {"span_id": "S4", "paragraph_id": "P2", "start": 375, "end": 403, "text": " It's more than \"just talk\"."}, {"span_id": "S5", "paragraph_id": "P2", "start": 403, "end": 493, "text": " Sharing wisdom helps the person by letting he or she know not to do this or to go for it."}, {"span_id": "S6", "paragraph_id": "P2", "start": 493, "end": 619, "text": " It also helps you out because you get to share that wisdom and let your little brother or sister or your son if you have one."}, {"span_id": "S7", "paragraph_id": "P2", "start": 619, "end": 688, "text": " The moment you have will not stay forever, but not unless you share."}, {"span_id": "S8", "paragraph_id": "P3", "start": 692, "end": 771, "text": "for a few months i had my mother and sisters to tell me whats right from wrong."}, {"span_id": "S9", "paragraph_id": "P3", "start": 771, "end": 837, "text": " But not every parent shares with there kid or even talks to them."}, {"span_id": "S10", "paragraph_id": "P3", "start": 837, "end": 928, "text": " Almost every child is dropping out of school or joining a gang which is not good for them."}, {"span_id": "S11", "paragraph_id": "P3", "start": 928, "end": 1049, "text": " every single child and parent on this earth must talk and give there children some experience about whats good for them."}, {"span_id": "S12", "paragraph_id": "P4", "start": 1053, "end": 1164, "text": "The experience of you and your child will be fun like a roller coster its and fun and then gets really serious."}, {"span_id": "S13", "paragraph_id": "P4", "start": 1164, "end": 1329, "text": " because messing around is not how to tell a kid to do something right you have to sit down and be serious about how everything might change around or getting a job."}, {"span_id": "S14", "paragraph_id": "P4", "start": 1329, "end": 1449, "text": " its a wonderful experience and i think every kid should get a chance to learn something new and share there own wisdom."}], "dimension_names": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"]}<|im_end|>
+<|im_start|>assistant

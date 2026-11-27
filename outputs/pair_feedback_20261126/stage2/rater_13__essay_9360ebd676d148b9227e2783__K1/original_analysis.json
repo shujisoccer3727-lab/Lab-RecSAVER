@@ -1,0 +1,74 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a mix of minor errors in grammar and syntax, but with a generally controlled organization and a range of vocabulary and phrases, tend to receive a score of 4.",
+      "support": [
+        {
+          "history_essay_id": "essay_638225bbf7d533f35bc564dd",
+          "quotes": [
+            "I disagree with what John Lubbock saids \"Your character will be what you yourself choose to make it.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows a mix of minor errors and a generally controlled organization, consistent with a score of 4."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_046d3822012f07f76c4d50e4",
+          "quotes": [
+            "do we accomplish more if we are always doing something or dose inactive server a purpose."
+          ],
+          "interpretation": "This essay has more significant errors and less controlled organization, receiving a score of 3, which weakens the pattern."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by only one essay, and the counterevidence suggests variability in scoring."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "If someone old or your older sibling is sharing wisdom with you stop what your doing and listen, because most of the time the person, he or she, is trying to tell you whats going to happen if you hit a certain age."
+      ],
+      "observable_feature": "The sentence structure is varied, with some minor errors in grammar and syntax, and a range of vocabulary and phrases.",
+      "evaluative_interpretation": "The essay demonstrates a mix of minor errors and a generally controlled organization, which aligns with a score of 4.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text shows a range of syntactic structures and vocabulary, with occasional errors, consistent with a score of 4.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay shows a mix of minor errors in grammar and syntax, with a generally controlled organization and a range of vocabulary and phrases, consistent with the observed score of 4. This aligns with the pattern observed in the history essay with a similar score.",
+  "insufficient_evidence": []
+}

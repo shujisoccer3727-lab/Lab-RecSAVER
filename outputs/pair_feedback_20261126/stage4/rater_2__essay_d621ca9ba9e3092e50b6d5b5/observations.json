@@ -1,0 +1,21 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S3",
+      "S4"
+    ],
+    "feature": "The essay introduces the main argument in the opening paragraph, stating that working in a group is more beneficial than working alone because it improves social skills, generates more ideas, and allows for faster work.",
+    "scoring_relevance": "This feature is relevant to the cohesion dimension as it establishes a clear thesis statement that guides the reader through the essay's main points.",
+    "limitation": "The evidence does not establish how well the essay maintains this argument throughout the text.",
+    "next_check": "Review the body paragraphs to see if they consistently support the thesis statement and if the transitions between ideas are smooth.",
+    "quotes": [
+      " It is most beneficial working in a group then working alone because students can improve their social skills, have more ideas, and work faster together.",
+      " These reasons are why I suggest that working in a group is more beneficial then working alone."
+    ],
+    "observation_key": "essay_d621ca9ba9e3092e50b6d5b5::O1",
+    "target_essay_id": "essay_d621ca9ba9e3092e50b6d5b5",
+    "observed_score": 3
+  }
+]

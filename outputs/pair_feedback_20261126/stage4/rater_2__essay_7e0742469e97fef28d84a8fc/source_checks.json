@@ -1,0 +1,59 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S7",
+          "paragraph_id": "P3",
+          "start": 723,
+          "end": 808,
+          "text": "My first reason would be you will learn what is good for you and what is bad for you."
+        },
+        {
+          "span_id": "S14",
+          "paragraph_id": "P4",
+          "start": 1738,
+          "end": 1849,
+          "text": "My second reason would be you will be smart if you make your own decision and you will be personally satisfied."
+        },
+        {
+          "span_id": "S19",
+          "paragraph_id": "P5",
+          "start": 2494,
+          "end": 2577,
+          "text": "My third reason would be your confident will raise when you make your own decision."
+        }
+      ],
+      "reconstructed_quotes": [
+        "My first reason would be you will learn what is good for you and what is bad for you.",
+        "My second reason would be you will be smart if you make your own decision and you will be personally satisfied.",
+        "My third reason would be your confident will raise when you make your own decision."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S7",
+        "S14",
+        "S19"
+      ],
+      "feature": "The essay uses clear markers to introduce each reason, such as 'My first reason would be', 'My second reason would be', and 'My third reason would be'.",
+      "scoring_relevance": "These markers help to maintain a clear structure and logical flow, making the essay easier to follow and understand.",
+      "limitation": "The presence of these markers does not guarantee that the essay is fully cohesive, as the connections between the reasons and the overall argument need to be further evaluated.",
+      "next_check": "Review the transitions between the reasons and the conclusion to ensure that the essay maintains a coherent flow throughout.",
+      "quotes": [
+        "My first reason would be you will learn what is good for you and what is bad for you.",
+        "My second reason would be you will be smart if you make your own decision and you will be personally satisfied.",
+        "My third reason would be your confident will raise when you make your own decision."
+      ]
+    }
+  ]
+}

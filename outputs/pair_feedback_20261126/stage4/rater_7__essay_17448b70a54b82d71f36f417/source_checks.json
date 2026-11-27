@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 62,
+          "text": "I agree with telling the truth is better than making up a lie."
+        },
+        {
+          "span_id": "S13",
+          "paragraph_id": "P3",
+          "start": 1011,
+          "end": 1121,
+          "text": "In conclusion I greed with telling the truth is better than telling a lie because you can't benefit form lies."
+        }
+      ],
+      "reconstructed_quotes": [
+        "I agree with telling the truth is better than making up a lie.",
+        "In conclusion I greed with telling the truth is better than telling a lie because you can't benefit form lies."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S13"
+      ],
+      "feature": "The essay begins with a clear thesis statement in S1 and concludes with a restatement of the thesis in S13.",
+      "scoring_relevance": "The presence of a clear thesis statement at the beginning and a restatement of the thesis at the end helps to maintain cohesion throughout the essay.",
+      "limitation": "This observation does not establish the consistency or coherence of the essay as a whole, only the presence of a thesis statement and its restatement.",
+      "next_check": "Review the body paragraphs to see if they support the thesis statement and if there are transitions that connect the ideas.",
+      "quotes": [
+        "I agree with telling the truth is better than making up a lie.",
+        "In conclusion I greed with telling the truth is better than telling a lie because you can't benefit form lies."
+      ]
+    }
+  ]
+}

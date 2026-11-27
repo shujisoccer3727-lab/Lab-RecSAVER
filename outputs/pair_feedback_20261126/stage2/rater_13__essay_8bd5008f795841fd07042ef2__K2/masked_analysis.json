@@ -1,0 +1,74 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with controlled organization, varied sentence structures, and a sufficient range of vocabulary receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_9b43551316b3c07ac8834b51",
+          "quotes": [
+            "There is two cases that are more common for students the work in the afternoon."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and varied sentence structures, which aligns with the higher scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_8a860c1c369200f05b07d7d8",
+          "quotes": [
+            "It's a bad idea to said that first impressions are almost impossible to change."
+          ],
+          "interpretation": "This essay has more errors and less varied sentence structures, which contrasts with the higher scores observed in the target essay."
+        }
+      ],
+      "limitations": [
+        "The pattern is not consistent across all essays, suggesting that other factors may also influence scoring."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "As day by day passes, I believe that lots of students are sick of repeating the same dull sketchual, and wish they could stay at home for school, on the other hand, they will not have to wake up so early everyday when they worked on their homework till so late."
+      ],
+      "observable_feature": "The essay demonstrates controlled organization, varied sentence structures, and a sufficient range of vocabulary.",
+      "evaluative_interpretation": "This feature aligns with the higher scores observed, indicating that the essay meets the criteria for a higher proficiency level.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows a flexible and effective use of a variety of syntactic structures and a wide range of vocabulary, which is consistent with the rubric for a score of [MASK].",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates controlled organization, varied sentence structures, and a sufficient range of vocabulary, which aligns with the higher scores observed in the history. This evidence supports the higher scores given to the target essay.",
+  "insufficient_evidence": []
+}

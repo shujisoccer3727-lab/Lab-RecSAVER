@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S4",
+          "paragraph_id": "P1",
+          "start": 420,
+          "end": 489,
+          "text": " Here are my 3 reasons why technology is positive for people's lives."
+        },
+        {
+          "span_id": "S5",
+          "paragraph_id": "P2",
+          "start": 493,
+          "end": 633,
+          "text": "First, let's say that you want to go to college but you can't go to the college because you don't have time or maybe that you just can't go."
+        }
+      ],
+      "reconstructed_quotes": [
+        " Here are my 3 reasons why technology is positive for people's lives.",
+        "First, let's say that you want to go to college but you can't go to the college because you don't have time or maybe that you just can't go."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S4",
+        "S5"
+      ],
+      "feature": "The essay transitions from a general statement about the positive effects of technology to a specific example by using the phrase 'Here are my 3 reasons why technology is positive for people's lives.' followed by 'First, let's say that you want to go to college...'",
+      "scoring_relevance": "This transition helps to maintain the flow of the essay and clearly introduces the first of three specific examples that support the thesis statement.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the transition between the introduction and the first supporting point.",
+      "next_check": "Review the transitions between the second and third examples to see if they maintain a similar level of clarity and flow.",
+      "quotes": [
+        " Here are my 3 reasons why technology is positive for people's lives.",
+        "First, let's say that you want to go to college but you can't go to the college because you don't have time or maybe that you just can't go."
+      ]
+    }
+  ]
+}

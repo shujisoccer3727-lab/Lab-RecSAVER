@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_080335221a43c8077549c0de",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": ["S2", "S20"],
+      "feature": "The essay restates the main argument in the opening and closing paragraphs, indicating a clear thesis statement.",
+      "scoring_relevance": "Restating the main argument at the beginning and end of the essay helps to maintain a clear focus and reinforces the central idea, which is relevant to the cohesion dimension.",
+      "limitation": "This observation does not establish the consistency of the argument throughout the essay or the logical flow between supporting points.",
+      "next_check": "Review the middle paragraphs to check if the supporting points directly relate to the thesis and if there are transitions that connect these points to the thesis."
+    }
+  ],
+  "insufficient_evidence": []
+}

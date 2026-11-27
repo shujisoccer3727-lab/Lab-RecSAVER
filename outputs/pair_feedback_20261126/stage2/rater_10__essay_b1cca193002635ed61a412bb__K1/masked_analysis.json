@@ -1,0 +1,80 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "pattern": "Essays with a well-controlled organization, varied vocabulary, and appropriate use of phrases receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_894803a8e81bb80efb90a3be",
+          "quotes": [
+            "\"Giving high school students chances to graduate early increases graduation rates.\"",
+            "For example a girl wanted to give up on school because she said it was too stressful and time consuming and she didn't want to go to college after high school."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 5,
+            "Traits": {
+              "Cohesion": 5,
+              "Vocabulary": 5,
+              "Phraseology": 5
+            }
+          },
+          "interpretation": "The essay demonstrates a well-controlled organization and varied vocabulary, which aligns with the higher scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_b819379406aa9abe86991ac7",
+          "quotes": [
+            "\"Technology has positive effects on people's lives because they can help you with many information that your trying to look up for example if your trying to shop, play games, or even buy or read books.\""
+          ],
+          "interpretation": "The essay has a less controlled organization and less varied vocabulary, which aligns with the lower scores."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "quotes": [
+        "\"Cell phones are powerful electronic tools for students to use in classroom.\"",
+        "Cell phones are now the most popular device that we can take with us wherever we go because it provide useful information such as news and climate."
+      ],
+      "observable_feature": "The essay demonstrates a well-controlled organization and varied vocabulary, with appropriate use of phrases.",
+      "evaluative_interpretation": "The essay's organization and vocabulary are consistent with a score of [MASK], showing controlled but not fully flexible use of language.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay aligns with the rubric's description for a score of [MASK], indicating controlled but not fully flexible use of language.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Grammar"
+      ],
+      "quotes": [
+        "\"Cell phones are powerful electronic tools for students to use in classroom.\"",
+        "Cell phones are now the most popular device that we can take with us wherever we go because it provide useful information such as news and climate."
+      ],
+      "observable_feature": "The essay contains occasional errors in grammar and usage.",
+      "evaluative_interpretation": "The essay's grammatical errors are consistent with a score of [MASK], indicating some errors in grammar and usage.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The essay aligns with the rubric's description for a score of [MASK], indicating some errors in grammar and usage.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay's controlled organization, varied vocabulary, and appropriate use of phrases align with a score of [MASK], while occasional grammatical errors align with a score of [MASK]. This is consistent with the rater's history of scoring essays with similar features.",
+  "insufficient_evidence": []
+}

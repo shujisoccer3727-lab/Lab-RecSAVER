@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.5",
+  "rater_id": "rater_12",
+  "pattern_status": "insufficient_evidence",
+  "pattern": null,
+  "pattern_limit": "Insufficient evidence from distinct essays to establish a consistent feature-to-evaluation pattern.",
+  "representative_observation_key": "essay_877968498339559487d0d5a4::O1",
+  "quote_indices": [0],
+  "textual_finding": "The sentence contains a grammatical error in the verb form 'have' which should be 'having'.",
+  "evidence_limit": "This observation does not establish the frequency of grammatical errors throughout the essay.",
+  "rubric_review": {
+    "observed_band_ref_id": "Grammar:2",
+    "comparison_band_ref_id": null,
+    "band_assessment": "indeterminate"
+  },
+  "next_check": {
+    "inspect": "Other sentences in the essay for similar verb form errors or other grammatical issues.",
+    "distinguish": "The frequency and impact of grammatical errors on the essay's clarity.",
+    "reconsider_if": null
+  }
+}

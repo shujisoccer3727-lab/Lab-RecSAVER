@@ -1,0 +1,89 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Syntax"
+      ],
+      "pattern": "Essays with varied sentence structures and minimal syntactic errors tend to receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_d72cbe3b2e31d4782f73c047",
+          "quotes": [
+            "People who have a positive attitude are most successful in their future."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Syntax": 4
+            }
+          },
+          "interpretation": "The varied sentence structures and minimal syntactic errors support a higher score."
+        },
+        {
+          "history_essay_id": "essay_eeb87df489f116eb7f0767b9",
+          "quotes": [
+            "Firstly honesty is the best policy, because it builds a good relationship."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Syntax": 3
+            }
+          },
+          "interpretation": "The varied sentence structures and occasional syntactic errors support a moderate score."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_87af426720f79449fed83da7",
+          "quotes": [
+            "I thing working with a group of persone it will be super good, because the time going more faster, and also that fell more good working with a group, and because we can helpind"
+          ],
+          "interpretation": "The frequent syntactic errors and lack of varied sentence structures support a lower score."
+        }
+      ],
+      "limitations": [
+        "The pattern does not account for other dimensions that may influence the Overall score."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Syntax"
+      ],
+      "quotes": [
+        "One of the first lessons I'll share with a student would be, being respectful."
+      ],
+      "observable_feature": "The essay demonstrates varied sentence structures and minimal syntactic errors.",
+      "evaluative_interpretation": "This feature supports a higher score, consistent with the observed Overall score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The varied sentence structures and minimal syntactic errors align with the rubric for a score of 3 in Syntax.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Overall",
+        "Vocabulary"
+      ],
+      "quotes": [
+        "The word \"respectful\" is not the only word you can use there's other words like nice, polite, and many other words, these \"other words\" are like branches of a tree that goes up to the main stem which is \"respect\"."
+      ],
+      "observable_feature": "The essay uses a range of vocabulary but with some inaccuracy.",
+      "evaluative_interpretation": "This feature supports a moderate score, consistent with the observed Vocabulary score of 3.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The range of vocabulary used, with some inaccuracy, aligns with the rubric for a score of 3 in Vocabulary.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates varied sentence structures and minimal syntactic errors, which aligns with the observed Overall score of 3. The range of vocabulary used, with some inaccuracy, also supports the observed Vocabulary score of 3.",
+  "insufficient_evidence": []
+}

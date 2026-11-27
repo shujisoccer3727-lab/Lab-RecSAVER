@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_5c261ba25f1fd7836218065c",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Grammar"],
+        "pattern": "Essays with frequent errors in sentence structure, grammar, and cohesion receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_5b889c8b52928dc30dd656bb",
+            "quotes": ["somethings people always are angry for nah reason but they never know for other people they are bad person`s and they affect people`s around they are not agree, they have to change with the time because if nah good"],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Grammar": 2
+              }
+            },
+            "interpretation": "The essay has frequent errors in sentence structure and grammar, leading to a lower score."
+          },
+          {
+            "history_essay_id": "essay_9b45fee8148de9b3f0acb532",
+            "quotes": ["Failure is important in peoples lives because it make people to not lose hope but also it makes them to dedicate on what they are trying to succeed."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Grammar": 2
+              }
+            },
+            "interpretation": "The essay has errors in sentence structure and grammar, leading to a lower score."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Grammar"],
+        "quotes": ["Even thought, example are more advantages and influence to other. Examples make the people to understand the idea."],
+        "observable_feature": "The sentence structure is awkward and contains grammatical errors.",
+        "evaluative_interpretation": "The sentence structure and grammar errors impede communication, which is consistent with a lower score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for a score of 2 indicates many errors in sentence structure and grammar that impede communication.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": ["Vocabulary"],
+        "quotes": ["More advantage, more accepted by people, and more understand are why the example is a good setting to influence other."],
+        "observable_feature": "The vocabulary is limited and repetitive.",
+        "evaluative_interpretation": "The limited vocabulary and repetition suggest a score of 3, which aligns with the observed score.",
+        "linked_history_pattern_ids": [],
+        "rubric_connection": "The rubric for a score of 3 indicates a minimally adequate range of vocabulary.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay's frequent errors in sentence structure, grammar, and cohesion, as seen in T1, align with the pattern observed in H1. The limited vocabulary and repetition, as seen in T2, support a score of 3 for Vocabulary. These features collectively support the observed Overall score of 2.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 2,
+        "Grammar": 2,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay's frequent errors in sentence structure, grammar, and cohesion, as well as limited vocabulary, align with the observed Overall score of 2.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay's frequent errors in sentence structure and cohesion align with the observed score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay's frequent errors in sentence structure align with the observed score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T2"],
+        "alignment": "The essay's limited vocabulary and repetition align with the observed score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 2,
+        "evidence_ids": [],
+        "alignment": "The essay's limited use of phrases and repetition align with the observed score of 2."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay's frequent grammatical errors align with the observed score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay's occasional spelling and punctuation errors align with the observed score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

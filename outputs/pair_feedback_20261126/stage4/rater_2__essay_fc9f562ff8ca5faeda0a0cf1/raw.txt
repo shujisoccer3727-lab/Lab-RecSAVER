@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_fc9f562ff8ca5faeda0a0cf1",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": ["S2"],
+      "feature": "The sentence contains grammatical errors, such as 'is change' instead of 'is changing' and 'red social' instead of 'social media'.",
+      "scoring_relevance": "These errors indicate a lack of proficiency in grammatical structures and vocabulary usage, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation is limited to the identified grammatical errors and does not provide a comprehensive assessment of the essay's grammatical accuracy.",
+      "next_check": "Review other sentences in the essay for similar grammatical errors, particularly in verb forms and vocabulary usage."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Cohesion",
+      "evidence_span_ids": ["S5", "S6"],
+      "feature": "The sentences 'I think that the technology was some revolutionary for the humanity because the technology come to make the life more easy to the humans in the world.' and 'We are blinds because we prefer pass more time in the phone than pass more time with our family, we dedicate our time in red social, where only we are lose the time.' express contrasting ideas about the impact of technology on human life.",
+      "scoring_relevance": "The presence of contrasting ideas without clear transitions or linking words can affect the cohesion of the essay, making it harder for the reader to follow the writer's argument.",
+      "limitation": "This observation is limited to the identified sentences and does not assess the overall coherence of the essay.",
+      "next_check": "Check for transitional phrases or sentences that connect contrasting ideas throughout the essay to improve cohesion."
+    }
+  ],
+  "insufficient_evidence": []
+}

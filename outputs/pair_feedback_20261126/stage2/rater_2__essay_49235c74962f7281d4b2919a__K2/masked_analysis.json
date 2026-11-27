@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with controlled organization, varied sentence structures, and occasional errors in grammar and conventions tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_0520259ee56a64211f076d55",
+          "quotes": [
+            "The city council shouldnt put a curfew time on teenagers because some teens play sports, and some teens work."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and varied sentence structures, with occasional errors, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_7e0742469e97fef28d84a8fc",
+          "quotes": [
+            "People will start to make fun of you, if you dont make your decision by yourself because if you are asking someone to help you or give some advice to help you make the decision, other people or even your own guidance or family people love to gossip every person gossip and this is true."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 2,
+              "Grammar": 2,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows controlled organization and varied sentence structures, with occasional errors, consistent with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is based on two essays, which may not be sufficient to establish a stable preference."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Self-reliance is the trust that you put in yourself believing that what you are doing is right. We use it everyday as more decision comes up."
+      ],
+      "observable_feature": "The essay demonstrates controlled organization and varied sentence structures, with occasional errors in grammar and conventions.",
+      "evaluative_interpretation": "This feature is consistent with an Overall score of [MASK], as it shows facility in language use with occasional inaccuracies that do not impede communication.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay aligns with the rubric's description for an Overall score of [MASK], showing controlled organization and varied sentence structures with occasional errors.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay's controlled organization and varied sentence structures, with occasional errors in grammar and conventions, align with the observed Overall score of [MASK]. This is consistent with the rater's history of scoring essays with similar features.",
+  "insufficient_evidence": []
+}

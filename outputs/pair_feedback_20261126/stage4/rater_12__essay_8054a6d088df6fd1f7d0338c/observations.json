@@ -1,0 +1,19 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Grammar",
+    "evidence_span_ids": [
+      "S3"
+    ],
+    "feature": "The sentence contains a misspelling of 'activities' as 'activitys'.",
+    "scoring_relevance": "The misspelling of 'activitys' instead of 'activities' is a grammatical error that affects the clarity and correctness of the sentence.",
+    "limitation": "This observation does not establish the frequency of such errors throughout the essay.",
+    "next_check": "Review other sentences for similar misspellings or grammatical errors.",
+    "quotes": [
+      " If you want to enjoy outdoors then you should start going outside and enjoying some activitys too because some people enjoy playing and hanging out with their friends and some people try out sports."
+    ],
+    "observation_key": "essay_8054a6d088df6fd1f7d0338c::O1",
+    "target_essay_id": "essay_8054a6d088df6fd1f7d0338c",
+    "observed_score": 3
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Syntax"
+      ],
+      "pattern": "Essays with frequent grammatical errors and awkward sentence structures tend to receive lower Overall scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_926396d210817c7d960bd53a",
+          "quotes": [
+            "It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the schedule and more Students will likely to pass the classes and both elective and art have the same principle with the same accomplishment."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Syntax": 2
+            }
+          },
+          "interpretation": "The essay contains numerous grammatical errors and awkward sentence structures, which align with the lower Overall and Syntax scores."
+        },
+        {
+          "history_essay_id": "essay_1c3c1934d148a5d8acdae7ce",
+          "quotes": [
+            "Education change our life and teach you to think in a different way. Some people rush trying to graduate from school or reach their gools ahead of time which it is not good."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Syntax": 2
+            }
+          },
+          "interpretation": "The essay contains numerous grammatical errors and awkward sentence structures, which align with the lower Overall and Syntax scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Syntax"
+      ],
+      "quotes": [
+        "Education change our life and teach you to think in a different way. Some people rush trying to graduate from school or reach their gools ahead of time which it is not good."
+      ],
+      "observable_feature": "The sentence structure is awkward and contains grammatical errors, such as subject-verb agreement issues and run-on sentences.",
+      "evaluative_interpretation": "These errors interfere with the clarity and coherence of the writing, which is consistent with a lower Overall score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Overall score [MASK] indicates inconsistent facility in sentence formation and word choice, which is evident in the target essay.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay exhibits frequent grammatical errors and awkward sentence structures, similar to the history essay 'essay_926396d210817c7d960bd53a'. This pattern supports the lower Overall score of [MASK], as the rubric for Overall score [MASK] indicates inconsistent facility in sentence formation and word choice.",
+  "insufficient_evidence": []
+}

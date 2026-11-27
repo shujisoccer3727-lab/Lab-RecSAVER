@@ -1,0 +1,68 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Grammar"
+      ],
+      "pattern": "Essays with generally well-controlled organization and minimal errors in grammar and usage tend to receive a score of 3 for Overall.",
+      "support": [
+        {
+          "history_essay_id": "essay_7b8b2b73e625835ac72a97e7",
+          "quotes": [
+            "In a way failure can be a lession and I mean is by without feeling failure than what did you really learn from pursuiting to getting what you want."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Grammar": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a generally well-controlled organization and minimal errors in grammar, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_fc9f562ff8ca5faeda0a0cf1",
+          "quotes": [
+            "In conclusion the technology was a benefit very important in the humanity, we need to learn how use the internet with responsibility, and understand how the technology change the world; like help us to care the planet, but I think we are did the against because we are lose our time all thanks at the reds socials, we need to know that the technology is a creation of the human to did the life more easy in the world."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Grammar": 3
+            }
+          },
+          "interpretation": "The essay shows a generally controlled organization and minimal errors in grammar, consistent with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Grammar"
+      ],
+      "quotes": [
+        "Should the city council change teenagers curfew time . how would you feel if you had to be home at a certain time and if you don't your breaking the law."
+      ],
+      "observable_feature": "The essay demonstrates a generally well-controlled organization and minimal errors in grammar.",
+      "evaluative_interpretation": "This feature is consistent with an Overall score of [MASK].",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text organization is generally well controlled, and there are minimal errors in grammar, which aligns with the rubric for a score of [MASK].",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates a generally well-controlled organization and minimal errors in grammar, consistent with the observed Overall score of [MASK]. This is supported by the pattern observed in the history essays, where similar features also received an Overall score of 3.",
+  "insufficient_evidence": []
+}

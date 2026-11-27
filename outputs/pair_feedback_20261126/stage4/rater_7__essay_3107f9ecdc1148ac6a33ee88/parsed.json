@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_3107f9ecdc1148ac6a33ee88",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S12",
+        "S13"
+      ],
+      "feature": "The essay concludes with a summary statement and a restatement of the main idea.",
+      "scoring_relevance": "This feature is relevant to the Cohesion dimension as it shows the writer's attempt to tie the argument together and reinforce the main point.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only that the conclusion restates the main idea.",
+      "next_check": "Review the body of the essay to see if the main idea is consistently supported and if the transitions between ideas are smooth."
+    }
+  ],
+  "insufficient_evidence": []
+}

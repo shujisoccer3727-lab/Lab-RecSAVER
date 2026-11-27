@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_c33fcd11d24bca6c46d8d1cd",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Overall",
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with frequent grammatical errors, limited vocabulary, and partial organization receive an Overall score of 2 or 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_56b47af1153e7884e4a981e9",
+            "quotes": [
+              "Students working from home is good for kids that could be getting buliud either they speack up but dont see a change, having problems with adults here at school that don't really help much but just bring the student down, or maybe just being an anti socicl person."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates frequent grammatical errors and limited vocabulary, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_877968498339559487d0d5a4",
+            "quotes": [
+              "i always get that good attitude when i walk so people don't see why am so mad or why am mean, i always say good morning to every teacher to make think am not going through a struggle each morning."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay shows limited vocabulary and frequent grammatical errors, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_81aa085b702d206e5f30f7f4",
+            "quotes": [
+              "Because all my friends are in that class.The most thing i do in that class is play basketball which i am trash at it but i still play with the boys and i enjoy the time ."
+            ],
+            "interpretation": "The essay has more frequent grammatical errors and limited vocabulary, consistent with a lower Overall score of 2."
+          }
+        ],
+        "limitations": [
+          "The pattern is supported by essays with similar scores but does not establish a definitive scoring threshold."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Overall",
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "If you ask me \" the school should be for the student attend class at home by internet,video,and website, then It's fine.\" Because I thight we will have many good benefit from it for the student and for the school; as for the school can control the student better , the student can study at any time they want, and student can get out the dangerous."
+        ],
+        "observable_feature": "The text contains frequent grammatical errors, limited vocabulary, and partial organization.",
+        "evaluative_interpretation": "These features are consistent with an Overall score of 2, as they indicate limited facility in language use and organization.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The text shows limited control of organization and frequent errors in grammar and usage, aligning with the rubric description for an Overall score of 2.",
+        "uncertainty": "The text's partial organization and limited vocabulary suggest a score on the lower end of the scale."
+      }
+    ],
+    "decision_explanation": "The target essay exhibits frequent grammatical errors, limited vocabulary, and partial organization, consistent with the rater's history of assigning an Overall score of 2 to essays with similar features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 2,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's frequent grammatical errors, limited vocabulary, and partial organization align with the observed Overall score of 2, as described in the rubric for this score.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The text shows partial organization and limited use of cohesive devices, consistent with a score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The text contains many sentence structure problems and limited syntactic variety, consistent with a score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The text demonstrates a narrow range of vocabulary, consistent with a score of 2."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The text shows some use of phrases, but with limited variety, consistent with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The text contains many errors in grammar and usage, consistent with a score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The text has some errors in spelling, capitalization, and punctuation, but they are not frequent or distracting, consistent with a score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": [
+      "The text's partial organization and limited vocabulary suggest a score on the lower end of the scale, but the observed score of 2 is consistent with the rubric."
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "changes": [
+    {
+      "path": "/target_evidence/0/evaluative_interpretation",
+      "before": "The essay's partially developed organization and occasional errors in grammar and syntax are consistent with an Overall score of 3.",
+      "after": "The essay's partially developed organization and occasional errors in grammar and syntax are consistent with an Overall score of [MASK].",
+      "value_spans": [
+        {
+          "start": 129,
+          "end": 130,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/0/rubric_connection",
+      "before": "The essay's partially developed organization and occasional errors in grammar and syntax align with the rubric's description for an Overall score of 3.",
+      "after": "The essay's partially developed organization and occasional errors in grammar and syntax align with the rubric's description for an Overall score of [MASK].",
+      "value_spans": [
+        {
+          "start": 149,
+          "end": 150,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/decision_explanation",
+      "before": "The target essay's partially developed organization and occasional errors in grammar and syntax are consistent with the rater's history of assigning an Overall score of 3 to essays with similar features.",
+      "after": "The target essay's partially developed organization and occasional errors in grammar and syntax are consistent with the rater's history of assigning an Overall score of [MASK] to essays with similar features.",
+      "value_spans": [
+        {
+          "start": 169,
+          "end": 170,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 3,
+  "changed_fields": 3,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/status",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/pattern",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/1/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/1/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/1/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/limitations/0",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    }
+  ],
+  "quarantine": [],
+  "automatic_pass": true,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

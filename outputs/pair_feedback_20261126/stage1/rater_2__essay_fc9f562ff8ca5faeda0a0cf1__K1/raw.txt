@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_2",
+  "target_essay_id": "essay_fc9f562ff8ca5faeda0a0cf1",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, sufficient vocabulary range, occasional inaccuracies in phraseology, minimal errors in grammar, and developing use of conventions tend to receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_49235c74962f7281d4b2919a",
+            "quotes": ["Self-reliance have many goods outcomes for your life, some of them affects your personal inner you."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates generally controlled organization and occasional errors in sentence formation, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_926396d210817c7d960bd53a",
+            "quotes": ["The difference about the two is art classes and electives how they would set a skills some sudents have good skills in drawing or writing"],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 2,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows sufficient vocabulary range and occasional inaccuracies in phraseology, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["How the humans use the technology. The technology in the world is change all time or each year, sometime people use the phone with excessive time; practically we live on red social."],
+        "observable_feature": "The essay demonstrates generally controlled organization, occasional errors in sentence formation, sufficient vocabulary range, occasional inaccuracies in phraseology, minimal errors in grammar, and developing use of conventions.",
+        "evaluative_interpretation": "These features are consistent with an Overall score of 3, as seen in the rater's history.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay shows generally controlled organization and occasional errors in sentence formation, which aligns with the rubric description for an Overall score of 3.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates generally controlled organization, occasional errors in sentence formation, sufficient vocabulary range, occasional inaccuracies in phraseology, minimal errors in grammar, and developing use of conventions. These features are consistent with the rater's history of assigning an Overall score of 3 to similar essays.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 2,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The observed Overall score of 3 is consistent with the essay's generally controlled organization, occasional errors in sentence formation, sufficient vocabulary range, occasional inaccuracies in phraseology, minimal errors in grammar, and developing use of conventions.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally controlled organization, consistent with a Cohesion score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows occasional errors in sentence formation, consistent with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has a sufficient vocabulary range, consistent with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has occasional inaccuracies in phraseology, consistent with a Phraseology score of 2."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has minimal errors in grammar, consistent with a Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a developing use of conventions, consistent with a Conventions score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S12",
+          "paragraph_id": "P6",
+          "start": 1277,
+          "end": 1344,
+          "text": "In conclusion,praising students always tend to make them do better."
+        },
+        {
+          "span_id": "S13",
+          "paragraph_id": "P6",
+          "start": 1344,
+          "end": 1410,
+          "text": "In that case if the students feels good their work will be better."
+        }
+      ],
+      "reconstructed_quotes": [
+        "In conclusion,praising students always tend to make them do better.",
+        "In that case if the students feels good their work will be better."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S12",
+        "S13"
+      ],
+      "feature": "The essay concludes with a summary statement and a restatement of the main idea.",
+      "scoring_relevance": "This feature is relevant to the Cohesion dimension as it shows the writer's attempt to tie the argument together and reinforce the main point.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only that the conclusion restates the main idea.",
+      "next_check": "Review the body of the essay to see if the main idea is consistently supported and if the transitions between ideas are smooth.",
+      "quotes": [
+        "In conclusion,praising students always tend to make them do better.",
+        "In that case if the students feels good their work will be better."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent errors in sentence structure, grammar, and conventions receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_974fed9ae407d8cf69da8c85",
+          "quotes": [
+            "\"In my case it will help me in many ways as:\"",
+            "\"I think this will also help the school, they will be saving some more money, they will save gas, and space.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay has frequent errors in sentence structure and conventions, which aligns with lower scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by only one essay, which limits its generalizability."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"What's next, what do you want to be when you grow up, A sienstest, teacher, astronaut, A soccer player, a singer, what is it,\""
+      ],
+      "observable_feature": "The sentence structure is fragmented and lacks coherence, with multiple run-on sentences and grammatical errors.",
+      "evaluative_interpretation": "The sentence structure and grammar errors significantly impede communication, which is consistent with a lower score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Cohesion, Syntax, Grammar, and Conventions indicates that frequent errors in these areas result in lower scores.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Vocabulary"
+      ],
+      "quotes": [
+        "\"After elementary you go to middle school, Then high school, And then collage, But what's next, what do you want to be or when do you want to be after collage you get a job go to work make money, or even have a family,\""
+      ],
+      "observable_feature": "The vocabulary is basic and repetitive, with limited attempts to use topic-related terms.",
+      "evaluative_interpretation": "The limited vocabulary range and lack of precise word usage align with a score of [MASK] in Vocabulary.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The rubric for Vocabulary indicates that a minimally adequate range of vocabulary with no precise use of subtle word meanings is consistent with a score of [MASK].",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay exhibits frequent errors in sentence structure, grammar, and conventions, which aligns with the observed scores of [MASK] in Cohesion, Syntax, Grammar, and Conventions. The limited vocabulary range and lack of precise word usage support a score of [MASK] in Vocabulary. These features are consistent with the pattern observed in the history essay 'essay_974fed9ae407d8cf69da8c85'.",
+  "insufficient_evidence": []
+}

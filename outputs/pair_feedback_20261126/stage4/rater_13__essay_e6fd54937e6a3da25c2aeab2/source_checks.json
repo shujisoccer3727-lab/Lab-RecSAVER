@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 137,
+          "text": "I believe working alone is better because,people won't be bothering you, you can listen to music, and also you can work on your own pace."
+        },
+        {
+          "span_id": "S4",
+          "paragraph_id": "P2",
+          "start": 536,
+          "end": 603,
+          "text": "My first reason is people won't be bothering you when your working."
+        }
+      ],
+      "reconstructed_quotes": [
+        "I believe working alone is better because,people won't be bothering you, you can listen to music, and also you can work on your own pace.",
+        "My first reason is people won't be bothering you when your working."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S4"
+      ],
+      "feature": "The essay begins with a clear thesis statement in S1 and then introduces the first supporting reason in S4.",
+      "scoring_relevance": "The clear introduction of the thesis and the subsequent elaboration of the first reason demonstrate a cohesive structure, linking the main argument with supporting points.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the initial connection between the thesis and the first supporting point.",
+      "next_check": "Review the transitions between the supporting points and the concluding statements to ensure they maintain the same level of cohesion.",
+      "quotes": [
+        "I believe working alone is better because,people won't be bothering you, you can listen to music, and also you can work on your own pace.",
+        "My first reason is people won't be bothering you when your working."
+      ]
+    }
+  ]
+}

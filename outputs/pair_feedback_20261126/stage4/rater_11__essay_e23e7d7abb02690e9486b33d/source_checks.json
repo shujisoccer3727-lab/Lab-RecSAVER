@@ -1,0 +1,59 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S4",
+          "paragraph_id": "P2",
+          "start": 389,
+          "end": 472,
+          "text": "First of all, I agree with Duke Ellington because you can learn from your mistakes."
+        },
+        {
+          "span_id": "S7",
+          "paragraph_id": "P3",
+          "start": 2106,
+          "end": 2197,
+          "text": "Secondly, I agree with Duke Ellington because you can improve on not making those mistakes."
+        },
+        {
+          "span_id": "S11",
+          "paragraph_id": "P4",
+          "start": 4081,
+          "end": 4211,
+          "text": "Finally, I agree with Duke Ellington because you can describe your perspective to other people so they do not make those mistakes."
+        }
+      ],
+      "reconstructed_quotes": [
+        "First of all, I agree with Duke Ellington because you can learn from your mistakes.",
+        "Secondly, I agree with Duke Ellington because you can improve on not making those mistakes.",
+        "Finally, I agree with Duke Ellington because you can describe your perspective to other people so they do not make those mistakes."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S4",
+        "S7",
+        "S11"
+      ],
+      "feature": "The essay uses transitional phrases such as 'First of all', 'Secondly', and 'Finally' to organize the argument.",
+      "scoring_relevance": "These transitional phrases help to establish a clear structure and logical flow of ideas, which is relevant to the Cohesion dimension.",
+      "limitation": "The presence of transitional phrases does not guarantee that the essay is fully cohesive; it only indicates that there is an attempt to organize the argument.",
+      "next_check": "Review the content of each section to ensure that the ideas within each section are logically connected and that the transitions between sections are smooth.",
+      "quotes": [
+        "First of all, I agree with Duke Ellington because you can learn from your mistakes.",
+        "Secondly, I agree with Duke Ellington because you can improve on not making those mistakes.",
+        "Finally, I agree with Duke Ellington because you can describe your perspective to other people so they do not make those mistakes."
+      ]
+    }
+  ]
+}

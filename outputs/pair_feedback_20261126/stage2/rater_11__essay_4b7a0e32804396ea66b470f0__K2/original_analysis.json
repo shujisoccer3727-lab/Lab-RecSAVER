@@ -1,0 +1,76 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with limited control over text organization, frequent errors in sentence structure, and multiple conventions errors tend to receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_7012f54d55015706d1ad1ea0",
+          "quotes": [
+            "\"Well my opinion for this cuestion is was you need to do frist have in one aponment.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay demonstrates poor control over text organization and frequent errors in sentence structure, consistent with the observed lower scores."
+        },
+        {
+          "history_essay_id": "essay_11027e3f200638d5f82370c9",
+          "quotes": [
+            "\"There are a lot of people that have been throw difficult time, but their still happy.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay shows limited control over text organization and frequent errors in sentence structure, consistent with the observed lower scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"Ralph Waldo Emerson\\n\\n\"To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.\" I agree with Emerson's statement about individuality because each person is a world and we have to do our things separate and does how we learnd about life doing our on things life is not easy as how we thing when we are with our parent's but you have to be older not young so we can decide to do our own things.\""
+      ],
+      "observable_feature": "The text demonstrates limited control over text organization, frequent errors in sentence structure, and multiple conventions errors.",
+      "evaluative_interpretation": "This is consistent with the observed lower scores, as the essay shows poor control over text organization and frequent errors in sentence structure.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's limited control over text organization and frequent errors in sentence structure align with the rubric's description for a lower score.",
+      "uncertainty": "The essay's limited control over text organization and frequent errors in sentence structure align with the rubric's description for a lower score."
+    }
+  ],
+  "decision_explanation": "The essay demonstrates limited control over text organization, frequent errors in sentence structure, and multiple conventions errors, consistent with the observed lower scores. This is supported by the historical pattern observed in other essays with similar features.",
+  "insufficient_evidence": []
+}

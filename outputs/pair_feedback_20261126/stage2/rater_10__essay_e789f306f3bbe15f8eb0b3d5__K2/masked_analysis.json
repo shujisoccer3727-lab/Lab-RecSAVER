@@ -1,0 +1,90 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent errors in sentence structure, word order, and punctuation receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_5c261ba25f1fd7836218065c",
+          "quotes": [
+            "Even thought, example are more advantages and influence to other."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 2,
+              "Grammar": 2,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay contains frequent errors in sentence structure and punctuation, which aligns with the lower scores."
+        },
+        {
+          "history_essay_id": "essay_b819379406aa9abe86991ac7",
+          "quotes": [
+            "If that was me I would prefer to go to the mall or the store to."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay has errors in sentence structure and word order, which aligns with the lower scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Although I agree with Churchill`s statement about the important role that failure plays in the pursuit of success."
+      ],
+      "observable_feature": "The sentence structure is complex but contains errors in punctuation and word order.",
+      "evaluative_interpretation": "The sentence demonstrates an attempt at complex syntax but includes errors that impede clarity.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Cohesion, Syntax, Grammar, and Conventions indicates that errors in sentence structure and punctuation can lower the score.",
+      "uncertainty": "The sentence is complex, but the errors may not fully impede communication."
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Vocabulary"
+      ],
+      "quotes": [
+        "There are many reasons that failure plays need to pursuit to success."
+      ],
+      "observable_feature": "The sentence contains a grammatical error and awkward phrasing.",
+      "evaluative_interpretation": "The sentence demonstrates a limited range of vocabulary and awkward phrasing, which may affect the score.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The rubric for Vocabulary indicates that a narrow range of vocabulary and errors in word choice can lower the score.",
+      "uncertainty": "The sentence is somewhat unclear, but the meaning is still recoverable."
+    }
+  ],
+  "decision_explanation": "The essay contains frequent errors in sentence structure, word order, and punctuation, which aligns with the lower scores observed in the history. The target essay's errors in cohesion, syntax, grammar, and conventions are consistent with the observed Overall score of [MASK].",
+  "insufficient_evidence": []
+}

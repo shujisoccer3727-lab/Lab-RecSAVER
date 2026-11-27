@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, sufficient vocabulary range, occasional inaccuracies in phraseology, some errors in grammar, and developing use of conventions tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_0271e2a86409af270eb54ec8",
+          "quotes": [
+            "\"Success is not just a dream is a dedication to be engage in everyday activity also success\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates generally controlled organization and sufficient vocabulary range, with occasional errors in sentence formation and phraseology, aligning with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_378cfd241bf32bd0f8b2be9f",
+          "quotes": [
+            "\"Some people that got talent don't go out and show what they have but why not?\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows generally controlled organization, sufficient vocabulary range, and occasional inaccuracies in phraseology, aligning with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"I think its very important for all students here at Costa Mesa HS/MS to perform community service.\""
+      ],
+      "observable_feature": "The essay demonstrates generally controlled organization, sufficient vocabulary range, occasional errors in sentence formation, and some inaccuracies in phraseology and grammar.",
+      "evaluative_interpretation": "The essay's organization and vocabulary range are sufficient, but there are occasional errors in sentence formation and phraseology, and some inaccuracies in grammar, which align with an Overall score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's features align with the rubric's description for an Overall score of 3, indicating facility limited to the use of common structures and generic vocabulary, with occasional errors in grammar and syntax.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay's generally controlled organization, sufficient vocabulary range, occasional errors in sentence formation, and some inaccuracies in phraseology and grammar align with the observed Overall score of 3, consistent with the pattern observed in the history essays.",
+  "insufficient_evidence": []
+}

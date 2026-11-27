@@ -1,0 +1,99 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with limited cohesive devices, occasional grammatical errors, and some distracting conventions errors tend to receive scores around 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_49a4e4f15b1c92bfa6a00cd6",
+          "quotes": [
+            "We accomplish more doing always something",
+            "To begin with. We accomplish more doing things that are important for us and others."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Grammar": 2,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows limited cohesive devices and some grammatical errors, consistent with a score of 2."
+        },
+        {
+          "history_essay_id": "essay_81aa085b702d206e5f30f7f4",
+          "quotes": [
+            "P.e is my favorite educational activity because i mostly enjoy it",
+            "Soccer is my favorite sport because when I was little I would always see all the games."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay has limited cohesive devices and some grammatical errors, consistent with a score of 2."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_99e2936b1dd396e9cba66e5b",
+          "quotes": [
+            "The first reason it can help someone make a better choice because it can change your thinking."
+          ],
+          "interpretation": "This essay has better cohesive devices and fewer grammatical errors, receiving a score of 4."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by essays with scores of 2, but a higher-scoring essay with similar features suggests variability in scoring."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "I help some student where to go.",
+        "Student will get help from any grade level kids."
+      ],
+      "observable_feature": "Limited cohesive devices and some grammatical errors.",
+      "evaluative_interpretation": "The essay shows limited cohesive devices and some grammatical errors, which aligns with a score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text organization is generally controlled but with limited cohesive devices, and there are occasional errors in grammar and conventions.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "quotes": [
+        "The school program will help some new student.",
+        "Student will get help from any grade level kids."
+      ],
+      "observable_feature": "Sufficient range of vocabulary and appropriate use of phrases.",
+      "evaluative_interpretation": "The essay demonstrates a sufficient range of vocabulary and appropriate use of phrases, which aligns with a score of 4.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The essay uses a sufficient range of vocabulary and appropriate phrases, showing flexibility and precision.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay shows limited cohesive devices and some grammatical errors, consistent with a score of 3. The sufficient range of vocabulary and appropriate use of phrases support a score of 4 in Vocabulary and Phraseology. The overall score of 3 reflects the balance between these dimensions.",
+  "insufficient_evidence": []
+}

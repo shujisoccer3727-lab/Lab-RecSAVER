@@ -1,0 +1,81 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S3",
+          "paragraph_id": "P3",
+          "start": 29,
+          "end": 232,
+          "text": "Have you ever keep making or do something but it always ends up in failure, well that will happen but if you are trying to do something that you really love than don't stop trying even if you fail at it."
+        }
+      ],
+      "reconstructed_quotes": [
+        "Have you ever keep making or do something but it always ends up in failure, well that will happen but if you are trying to do something that you really love than don't stop trying even if you fail at it."
+      ],
+      "semantic_support_not_certified": true
+    },
+    {
+      "index": 1,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S6",
+          "paragraph_id": "P4",
+          "start": 522,
+          "end": 745,
+          "text": "I do agree with this statement because when ledding to success, you need to know everyday that you went through all the the things you face that you kept going on your path and that you never stop going after what you want."
+        },
+        {
+          "span_id": "S7",
+          "paragraph_id": "P4",
+          "start": 745,
+          "end": 1141,
+          "text": " The way failure works is by showing you that not everything is going to go your way and if things don't go your way also you need to stay full control of yourself because if you lose control of yourself than you are letting the failure turn into sadness with that inside of you feel like can't do anything this world so when that happens that is when you actually feel the worst kind of failure."
+        }
+      ],
+      "reconstructed_quotes": [
+        "I do agree with this statement because when ledding to success, you need to know everyday that you went through all the the things you face that you kept going on your path and that you never stop going after what you want.",
+        " The way failure works is by showing you that not everything is going to go your way and if things don't go your way also you need to stay full control of yourself because if you lose control of yourself than you are letting the failure turn into sadness with that inside of you feel like can't do anything this world so when that happens that is when you actually feel the worst kind of failure."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S3"
+      ],
+      "feature": "The sentence 'Have you ever keep making or do something but it always ends up in failure' contains grammatical errors, specifically the incorrect use of 'keep making or do' which should be 'kept making or doing'.",
+      "scoring_relevance": "This feature is relevant to the Grammar dimension as it demonstrates a lack of proficiency in verb forms and the use of correct grammatical structures.",
+      "limitation": "This observation does not establish the frequency of grammatical errors throughout the essay, only that this specific sentence contains errors.",
+      "next_check": "Review other sentences in the essay for similar grammatical errors, particularly in verb forms and sentence structure.",
+      "quotes": [
+        "Have you ever keep making or do something but it always ends up in failure, well that will happen but if you are trying to do something that you really love than don't stop trying even if you fail at it."
+      ]
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S6",
+        "S7"
+      ],
+      "feature": "The writer transitions from agreeing with the statement about success to explaining how failure works, but the transition is not smooth. The sentence 'I do agree with this statement because when ledding to success...' is followed by 'The way failure works is by showing you that not everything is going to go your way...'.",
+      "scoring_relevance": "This feature is relevant to the Cohesion dimension as it highlights the lack of smooth transitions between ideas, which can affect the readability and flow of the essay.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only that there is a lack of cohesion between these two specific sentences.",
+      "next_check": "Review other transitions in the essay to see if they are smooth and logical, and check for the use of transitional phrases or words.",
+      "quotes": [
+        "I do agree with this statement because when ledding to success, you need to know everyday that you went through all the the things you face that you kept going on your path and that you never stop going after what you want.",
+        " The way failure works is by showing you that not everything is going to go your way and if things don't go your way also you need to stay full control of yourself because if you lose control of yourself than you are letting the failure turn into sadness with that inside of you feel like can't do anything this world so when that happens that is when you actually feel the worst kind of failure."
+      ]
+    }
+  ]
+}

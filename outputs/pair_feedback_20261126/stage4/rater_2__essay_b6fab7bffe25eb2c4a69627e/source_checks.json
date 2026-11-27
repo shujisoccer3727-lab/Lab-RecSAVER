@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S3",
+          "paragraph_id": "P3",
+          "start": 30,
+          "end": 130,
+          "text": "Schools should extend time by two hours because students will have more time to do there class work."
+        },
+        {
+          "span_id": "S4",
+          "paragraph_id": "P3",
+          "start": 130,
+          "end": 236,
+          "text": " If a students have more time to do there class work then they will not have there class work as homework."
+        }
+      ],
+      "reconstructed_quotes": [
+        "Schools should extend time by two hours because students will have more time to do there class work.",
+        " If a students have more time to do there class work then they will not have there class work as homework."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S3",
+        "S4"
+      ],
+      "feature": "The essay contains nonstandard verb forms and subject-verb agreement issues. For example, 'students will have more time to do there class work' and 'If a students have more time to do there class work'.",
+      "scoring_relevance": "These grammatical errors can affect the clarity and correctness of the argument, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation does not establish the frequency of such errors throughout the essay, only their presence in the selected excerpts.",
+      "next_check": "Review other sentences in the essay for similar grammatical issues, particularly subject-verb agreement and possessive pronouns.",
+      "quotes": [
+        "Schools should extend time by two hours because students will have more time to do there class work.",
+        " If a students have more time to do there class work then they will not have there class work as homework."
+      ]
+    }
+  ]
+}

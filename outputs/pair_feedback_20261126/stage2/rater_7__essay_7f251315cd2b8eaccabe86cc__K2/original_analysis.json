@@ -1,0 +1,89 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent grammatical errors, limited vocabulary, and poor sentence structure tend to receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_17448b70a54b82d71f36f417",
+          "quotes": [
+            "Lieing will help know one around you or you.",
+            "It will just make things worse,also makes life harder."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay contains frequent grammatical errors and limited vocabulary, which aligns with the lower scores."
+        },
+        {
+          "history_essay_id": "essay_3107f9ecdc1148ac6a33ee88",
+          "quotes": [
+            "Students believe in praising them builds their self esttem,even when the work is not at its full potential.",
+            "Giving the students praise always comes out to be better than what they were expecting;for example,a student who was doing bad before you praised them realized what the purpose of the work was and put all their effort into the work."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 2,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay has limited vocabulary and frequent grammatical errors, which aligns with the lower scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Some schools have a program that older student and the young ones that could help one another.",
+        "For example, the young students could get some advice from the older ones because they ready took the program or the Sol before so can help them understand what their are trying to do."
+      ],
+      "observable_feature": "The essay contains frequent grammatical errors, limited vocabulary, and poor sentence structure.",
+      "evaluative_interpretation": "These features are consistent with the lower scores observed.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for scores 2 and 3 indicates frequent errors in grammar and usage, limited vocabulary, and poor sentence structure.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay exhibits frequent grammatical errors, limited vocabulary, and poor sentence structure, which aligns with the lower scores observed in the history. The pattern H1 supports this interpretation.",
+  "insufficient_evidence": []
+}

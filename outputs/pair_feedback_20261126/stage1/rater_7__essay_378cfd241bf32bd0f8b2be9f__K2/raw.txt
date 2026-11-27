@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "essay_378cfd241bf32bd0f8b2be9f",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary receive a score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_3ea3d13d95dd6f5b4bdd683e",
+            "quotes": ["I think its very important for all students here at Costa Mesa HS/MS to perform community service."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 2,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary, consistent with a score of 3."
+          },
+          {
+            "history_essay_id": "essay_ebfd3052c9b185cd4b7c8fef",
+            "quotes": ["Long break give student so many important priviteges, like having time to go spent some time with family."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 2,
+                "Grammar": 3,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay shows controlled organization and occasional errors in sentence formation, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["What Ralph Waldo said it's true, you never going to grow big if you don't try new things, it might suck to say this but a lot of people keep on doing the same stuff that they already know."],
+        "observable_feature": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary.",
+        "evaluative_interpretation": "The essay's controlled organization and occasional errors in sentence formation are consistent with a score of 3.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay's controlled organization and occasional errors in sentence formation align with the rubric's description for a score of 3.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay's controlled organization and occasional errors in sentence formation are consistent with the observed score of 3, as supported by the historical pattern H1.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay's controlled organization and occasional errors in sentence formation are consistent with the observed Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates controlled organization, consistent with a score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows occasional errors in sentence formation, consistent with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a minimally adequate range of vocabulary, consistent with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a limited range of phrases, consistent with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has some errors in grammar and usage, consistent with a score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows developing use of conventions, consistent with a score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The observed score of 4 for Cohesion is higher than the overall score of 3, which may indicate a slight inconsistency."]
+  }
+}

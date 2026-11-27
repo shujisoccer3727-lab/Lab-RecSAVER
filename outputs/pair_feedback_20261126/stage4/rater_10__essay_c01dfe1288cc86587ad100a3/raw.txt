@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_c01dfe1288cc86587ad100a3",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": ["S1"],
+      "feature": "The sentence contains a nonstandard verb form 'desagree' instead of 'disagree'.",
+      "scoring_relevance": "The presence of nonstandard verb forms can affect the clarity and correctness of the writing, which is relevant to the Grammar dimension.",
+      "limitation": "This observation does not establish the frequency of such errors throughout the essay.",
+      "next_check": "Review other sentences for similar nonstandard verb forms or other grammatical errors."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Cohesion",
+      "evidence_span_ids": ["S8"],
+      "feature": "The sentence contains a repetition of the idea 'we can speak their opinions' and 'sometime we can get problems with their words', which suggests a lack of varied vocabulary and clear progression of ideas.",
+      "scoring_relevance": "Repetitive ideas without clear progression can affect the flow and coherence of the essay, which is relevant to the Cohesion dimension.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the local repetition.",
+      "next_check": "Review other sentences for varied vocabulary and clear transitions between ideas."
+    }
+  ],
+  "insufficient_evidence": []
+}

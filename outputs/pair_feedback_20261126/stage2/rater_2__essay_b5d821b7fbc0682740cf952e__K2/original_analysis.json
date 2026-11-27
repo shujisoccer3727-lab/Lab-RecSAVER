@@ -1,0 +1,90 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax"
+      ],
+      "pattern": "Essays with clear organization and varied sentence structures tend to receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_49235c74962f7281d4b2919a",
+          "quotes": [
+            "Self-reliance have many goods outcomes for your life, some of them affects your personal inner you."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a generally controlled organization and varied sentence structures, which aligns with the higher scores."
+        },
+        {
+          "history_essay_id": "essay_ed918c3154eda0c8f90251c4",
+          "quotes": [
+            "This is why I think we choose our character traits like being quiet."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3
+            }
+          },
+          "interpretation": "The essay shows a well-controlled organization and varied sentence structures, which aligns with the higher scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_cb38a1ffaf831ddf8a6a37b1",
+          "quotes": [
+            "Sometimes I loose and sometimes I win."
+          ],
+          "interpretation": "The essay has some structural issues, but still received a higher score, suggesting that other factors may also influence the score."
+        }
+      ],
+      "limitations": [
+        "The pattern is not consistently supported across all essays, indicating that other factors may also influence the scores."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax"
+      ],
+      "quotes": [
+        "A person life, is like a little story, there way to think or act goes with what they have been though, some have gone from easiest to harder situations, there are many situations that people go through all the times."
+      ],
+      "observable_feature": "The sentence structure is simple and repetitive, with limited use of cohesive devices.",
+      "evaluative_interpretation": "The lack of varied sentence structures and cohesive devices suggests a lower score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Cohesion and Syntax at band 2 indicates limited control of organization and frequent sentence structure problems.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Vocabulary"
+      ],
+      "quotes": [
+        "There are so many different opinions and ways to influence someone, they can be reasons or things that happened in the life of a person that will not necessary be inspired by a example of someones action, or life."
+      ],
+      "observable_feature": "The vocabulary is minimally adequate, with some attempts to use less common words but with inaccuracies.",
+      "evaluative_interpretation": "The vocabulary range is limited, but there are attempts to use topic-related terms.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The rubric for Vocabulary at band 3 indicates a minimally adequate range of vocabulary with occasional inaccuracies.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay shows limited control of organization and frequent sentence structure problems, which aligns with the observed scores. The vocabulary range is minimally adequate, but there are attempts to use topic-related terms.",
+  "insufficient_evidence": []
+}

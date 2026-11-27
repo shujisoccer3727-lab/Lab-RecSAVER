@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_877968498339559487d0d5a4",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": ["S1"],
+      "feature": "The sentence 'I think that have a good attitude is great.' contains a grammatical error in the verb form 'have' which should be 'having'.",
+      "scoring_relevance": "Correct verb forms are essential for clear communication and adherence to standard grammatical rules, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation does not establish the frequency of grammatical errors throughout the essay.",
+      "next_check": "Review other sentences for similar verb form errors or other grammatical issues."
+    }
+  ],
+  "insufficient_evidence": []
+}

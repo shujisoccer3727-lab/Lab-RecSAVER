@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "essay_c5cc2aeab042c249b0f62f33",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Overall",
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with controlled organization, varied sentence structures, and occasional errors in grammar and conventions tend to receive an Overall score of 4.",
+        "support": [
+          {
+            "history_essay_id": "essay_b899487a9f3ed8c4bb6c7b99",
+            "quotes": [
+              "\"I don't think it's a good idea to work from home they're a lot of kids that would just take advantage from working from home.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 4,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay shows controlled organization and varied sentence structures but has occasional errors, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_17448b70a54b82d71f36f417",
+            "quotes": [
+              "\"Lieing will help know one around you or you. It will just make things worse,also makes life harder.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and varied sentence structures but has occasional errors, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is based on essays with similar scores, but the exact criteria for scoring may vary."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Overall",
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "\"It would make the student confidence. They can save their time and money. It could help them to finish and graduate early.\""
+        ],
+        "observable_feature": "The essay demonstrates controlled organization and varied sentence structures but has occasional errors in grammar and conventions.",
+        "evaluative_interpretation": "The essay shows controlled organization and varied sentence structures, but there are occasional errors in grammar and conventions, which is consistent with an Overall score of 4.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay aligns with the rubric for an Overall score of 4, showing facility in the use of language with syntactic variety and range of words and phrases, controlled organization, and accuracy in grammar and conventions with occasional language inaccuracies.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates controlled organization and varied sentence structures but has occasional errors in grammar and conventions, consistent with an Overall score of 4. This is supported by the historical pattern observed in essays with similar scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 4,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 4,
+        "Conventions": 5
+      }
+    },
+    "overall_alignment": "The essay demonstrates controlled organization and varied sentence structures but has occasional errors in grammar and conventions, consistent with an Overall score of 4. The Trait scores align with the rubric for an Overall score of 4, showing facility in the use of language with syntactic variety and range of words and phrases, controlled organization, and accuracy in grammar and conventions with occasional language inaccuracies.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates controlled organization and varied sentence structures, consistent with a Cohesion score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows varied sentence structures, consistent with a Syntax score of 4."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary for the topic, consistent with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows evident use of phrases such as idioms, collocations, and lexical bundles but without much variety, consistent with a Phraseology score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay has minimal errors in grammar and usage, consistent with a Grammar score of 4."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 5,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates consistent use of appropriate conventions to convey meaning, consistent with a Conventions score of 5."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

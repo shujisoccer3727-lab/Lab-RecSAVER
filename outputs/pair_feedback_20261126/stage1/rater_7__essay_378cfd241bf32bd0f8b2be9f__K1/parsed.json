@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "essay_378cfd241bf32bd0f8b2be9f",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with occasional errors in grammar, syntax, and vocabulary, but with generally controlled organization and use of cohesive devices, receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_3ea3d13d95dd6f5b4bdd683e",
+            "quotes": [
+              "I think its very important for all students here at Costa Mesa HS/MS to perform community service."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 2,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows occasional errors in grammar and vocabulary but maintains a generally controlled organization, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_ebfd3052c9b185cd4b7c8fef",
+            "quotes": [
+              "Long break give student so many important priviteges, like having time to go spent some time with family."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 2,
+                "Grammar": 3,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay demonstrates occasional errors in grammar and vocabulary but maintains a generally controlled organization, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is based on a limited number of essays and may not fully represent the rater's scoring behavior."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "What Ralph Waldo said it's true, you never going to grow big if you don't try new things, it might suck to say this but a lot of people keep on doing the same stuff that they already know."
+        ],
+        "observable_feature": "The essay contains occasional errors in grammar and vocabulary but maintains a generally controlled organization.",
+        "evaluative_interpretation": "The essay demonstrates a generally controlled organization with occasional errors, which is consistent with an Overall score of 3.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay shows occasional language inaccuracies that rarely impede communication, consistent with the rubric for an Overall score of 3.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a generally controlled organization with occasional errors in grammar and vocabulary, consistent with the observed Overall score of 3. This pattern is supported by the rater's history of scoring similar essays with Overall scores of 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's generally controlled organization with occasional errors in grammar and vocabulary aligns with the observed Overall score of 3. The Trait scores are consistent with this interpretation, showing controlled but not fully proficient use of language features.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a well-controlled organization with a range of cohesive devices, consistent with a Cohesion score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows appropriate use of a variety of syntactic structures with occasional errors, consistent with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay uses a minimally adequate range of vocabulary with some inaccuracy, consistent with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay uses a variety of phrases with some noticeable repetitions and misuses, consistent with a Phraseology score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows some errors in grammar and usage, consistent with a Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a developing use of conventions with some distracting errors, consistent with a Conventions score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

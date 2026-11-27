@@ -1,0 +1,38 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Grammar",
+    "evidence_span_ids": [
+      "S3"
+    ],
+    "feature": "The span contains multiple grammatical errors, including incorrect verb forms and sentence structure.",
+    "scoring_relevance": "These errors affect the clarity and coherence of the writer's argument, which is relevant to the Grammar scoring dimension.",
+    "limitation": "This observation is limited to the span provided and does not account for the entire essay's grammatical accuracy.",
+    "next_check": "Review other spans for similar grammatical errors to determine the frequency and impact on the overall essay.",
+    "quotes": [
+      "a one adoption for one person with don't have any family or mayble the parent is deat that why that another people you need to talking in adoption is the neccesary for this person will dont have any son and the a need one this problem cause when able have a problem in your part the body."
+    ],
+    "observation_key": "essay_7012f54d55015706d1ad1ea0::O1",
+    "target_essay_id": "essay_7012f54d55015706d1ad1ea0",
+    "observed_score": 2
+  },
+  {
+    "observation_id": "O2",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S3",
+      "S4"
+    ],
+    "feature": "The ideas in span S3 and S4 are related but not clearly connected. S3 discusses the necessity of adoption for those without family, while S4 talks about the challenges of adoption.",
+    "scoring_relevance": "The lack of clear transitions between related ideas affects the essay's cohesion, which is relevant to the Cohesion scoring dimension.",
+    "limitation": "This observation is limited to the span provided and does not account for the entire essay's cohesion.",
+    "next_check": "Review other spans for transitions and connections between ideas to determine the overall coherence of the essay.",
+    "quotes": [
+      "a one adoption for one person with don't have any family or mayble the parent is deat that why that another people you need to talking in adoption is the neccesary for this person will dont have any son and the a need one this problem cause when able have a problem in your part the body.",
+      "When you take a adoption you really take a hours because the boy is not to really to see the another people was have on knew parents when this gay was young people he evertime he was remembre your past terrible when he go to the home and the he take a knew home to live when another person whin verry take in a adoption with he and the when this gay he need to live is very nessarity to check to adoctor with be he dont sick."
+    ],
+    "observation_key": "essay_7012f54d55015706d1ad1ea0::O2",
+    "target_essay_id": "essay_7012f54d55015706d1ad1ea0",
+    "observed_score": 2
+  }
+]

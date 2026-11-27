@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_49a4e4f15b1c92bfa6a00cd6",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Grammar"
+        ],
+        "pattern": "Essays with frequent errors in sentence structure, word order, and cohesive devices tend to receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_56b47af1153e7884e4a981e9",
+            "quotes": [
+              "Students working from home is good for kids that could be getting buliud either they speack up but dont see a change"
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Grammar": 3
+              }
+            },
+            "interpretation": "The essay contains frequent errors in sentence structure and word order, which aligns with the lower scores."
+          },
+          {
+            "history_essay_id": "essay_7d884cf65731f24baf934030",
+            "quotes": [
+              "Because some students go traveling during summer vacation to other countrys and\r\n\r\nto see their family if we make the vacation shorter it would give them less time"
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Grammar": 4
+              }
+            },
+            "interpretation": "The essay has issues with cohesive devices and sentence structure, which aligns with the lower scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_7feeb1e7e2ad8717d2e3d436",
+            "quotes": [
+              "In Thailand you can go to a really beautiful beach, visit different towns, and try or do new things."
+            ],
+            "interpretation": "This essay has fewer errors and received a higher score, suggesting that fewer errors correlate with higher scores."
+          }
+        ],
+        "limitations": [
+          "The pattern is not consistent across all essays, as some essays with fewer errors still received lower scores."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Grammar"
+        ],
+        "quotes": [
+          "We accomplish more doing always something.\r\n\r\n.\r\n\r\nIn our world we see how old people, young people, children, are in the streets with no food to eat barely clothes put on with no money on the pockets."
+        ],
+        "observable_feature": "The text contains frequent errors in sentence structure, word order, and cohesive devices.",
+        "evaluative_interpretation": "These errors interfere with the clarity and coherence of the text, which is consistent with a lower score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for Cohesion, Syntax, and Grammar indicates that frequent errors in these areas would result in a lower score.",
+        "uncertainty": "The text also contains some coherent sentences, which suggests that the score could be higher if these errors were fewer."
+      }
+    ],
+    "decision_explanation": "The target essay contains frequent errors in sentence structure, word order, and cohesive devices, which aligns with the lower scores observed in the history. The pattern identified in the history supports the lower scores given to the target essay.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's frequent errors in sentence structure, word order, and cohesive devices align with the observed Overall score of 2. The Trait scores for Cohesion, Syntax, and Grammar also reflect these errors.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay's frequent errors in cohesive devices align with the observed score of 2, indicating a lack of clear control of organization."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay's frequent errors in sentence structure align with the observed score of 2, indicating many sentence structure problems."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay shows some use of phrases but with noticeable repetitions and misuses, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay contains many errors in grammar and usage, which aligns with the observed score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates a developing use of conventions with some distracting errors, which aligns with the observed score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": [
+      "The essay contains some coherent sentences, which suggests that the score could be higher if these errors were fewer."
+    ]
+  }
+}

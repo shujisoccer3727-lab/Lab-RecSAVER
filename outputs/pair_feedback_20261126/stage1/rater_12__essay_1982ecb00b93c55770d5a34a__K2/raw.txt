@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_1982ecb00b93c55770d5a34a",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with a wide range of vocabulary, varied sentence structures, and appropriate use of cohesive devices tend to receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_99e2936b1dd396e9cba66e5b",
+            "quotes": ["When people ask for advice, it can help someone make a better choice because, it can change your thinking, it can give you a better idea, and you can know what other people are thinking."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "This essay demonstrates a wide range of vocabulary and varied sentence structures, which aligns with the higher scores observed."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_f3f5c6ca82999e9712ff95dc",
+            "quotes": ["I help some student where to go. The school program will help some new student."],
+            "interpretation": "This essay has limited vocabulary and simple sentence structures, which contrasts with the higher scoring pattern."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["Do we choose our own character traits or is our character formed by influences beyond our control? In my opinion we do choose our own traits, Here's why."],
+        "observable_feature": "The essay demonstrates a wide range of vocabulary, varied sentence structures, and appropriate use of cohesive devices.",
+        "evaluative_interpretation": "This feature aligns with the higher scores observed in the history, suggesting that the essay's language proficiency is well-controlled and varied.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay's varied sentence structures and wide range of vocabulary align with the rubric's description of a score of 4, indicating facility in language use with syntactic variety and a range of words and phrases.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates a wide range of vocabulary, varied sentence structures, and appropriate use of cohesive devices, which aligns with the higher scores observed in the history. This suggests that the essay's language proficiency is well-controlled and varied, consistent with the observed Overall score of 4.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 4,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 4,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay's varied sentence structures, wide range of vocabulary, and appropriate use of cohesive devices align with the rubric's description of a score of 4, indicating facility in language use with syntactic variety and a range of words and phrases. This supports the observed Overall score of 4.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a wide range of vocabulary and varied sentence structures, which aligns with the rubric's description of a score of 4, indicating a generally well-controlled organization and appropriate use of cohesive devices."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates varied sentence structures, which aligns with the rubric's description of a score of 4, indicating appropriate use of a variety of syntactic structures."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a wide range of vocabulary, which aligns with the rubric's description of a score of 4, indicating sufficient range of vocabulary to allow flexibility and precision."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates appropriate use of a variety of phrases, which aligns with the rubric's description of a score of 4, indicating appropriate use of a variety of phrases such as idioms, collocations, and lexical bundles."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates minimal errors in grammar and usage, which aligns with the rubric's description of a score of 4, indicating minimal errors in grammar and usage."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally consistent use of appropriate conventions to convey meaning, which aligns with the rubric's description of a score of 4, indicating generally consistent use of appropriate conventions to convey meaning."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

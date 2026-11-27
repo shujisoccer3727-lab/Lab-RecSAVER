@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_99e2936b1dd396e9cba66e5b",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with a wide range of vocabulary, varied syntax, and appropriate cohesive devices tend to receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_acc62b00900a0ec7b7be3915",
+            "quotes": [
+              "These are a few things to do in a sunny day outdoors."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates a wide range of vocabulary and varied syntax, which aligns with the higher scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is supported by only one essay, limiting its generalizability."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "When people ask for advice, it can help someone make a better choice because, it can change your thinking, it can give you a better idea, and you can know what other people are thinking."
+        ],
+        "observable_feature": "The essay demonstrates varied syntax, a wide range of vocabulary, and appropriate cohesive devices.",
+        "evaluative_interpretation": "The varied syntax and wide range of vocabulary support a higher score, while the use of cohesive devices further strengthens the text organization.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The text organization is well-controlled with a range of cohesive devices used appropriately, and the vocabulary is sufficiently varied to allow flexibility and precision.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates varied syntax, a wide range of vocabulary, and appropriate cohesive devices, which aligns with the higher scores observed in the history essay 'essay_acc62b00900a0ec7b7be3915'. This supports the observed Overall score and Trait scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 4,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The target essay demonstrates varied syntax, a wide range of vocabulary, and appropriate cohesive devices, which aligns with the observed Overall score of 4.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates well-controlled organization with a range of cohesive devices used appropriately, aligning with the observed score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates appropriate use of a variety of syntactic structures, aligning with the observed score of 4."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary to allow flexibility and precision, aligning with the observed score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates appropriate use of a variety of phrases, aligning with the observed score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates some errors in grammar and usage, aligning with the observed score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates generally consistent use of appropriate conventions, aligning with the observed score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

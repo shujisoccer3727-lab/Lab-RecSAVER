@@ -1,0 +1,77 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent grammatical errors, limited sentence variety, and occasional punctuation issues tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_c95defab5898fc1613b26c7c",
+          "quotes": [
+            "\"too much in the school could be frustrate for students.\"",
+            "\"No everyone have the ability of be patient, so longer days of school are not good idea.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Syntax": 3,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The presence of grammatical errors and limited sentence variety supports the lower Overall score."
+        },
+        {
+          "history_essay_id": "essay_877968498339559487d0d5a4",
+          "quotes": [
+            "\"i always say good morning to every teacher to make think am not going through a struggle each morning.\"",
+            "\"you see your teacher's every day and\r\n\r\ncome's to school everyday to teach you something and you friends are the one's you spend most of your time with so always have a good attitude.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Syntax": 2,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The presence of grammatical errors and limited sentence variety supports the lower Overall score."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"I think is a great idea to have this type of learning program, very helpfull for students,\"",
+        "\"I'll be helping my family because I will have more time for myself.\""
+      ],
+      "observable_feature": "The essay contains frequent grammatical errors, limited sentence variety, and occasional punctuation issues.",
+      "evaluative_interpretation": "These features are consistent with the Overall score of [MASK], as they indicate limited facility in sentence formation, word choice, and mechanics.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Overall score [MASK] indicates limited facility in sentence formation, word choice, and mechanics, which is evident in the target essay.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay exhibits frequent grammatical errors, limited sentence variety, and occasional punctuation issues, which are consistent with the Overall score of [MASK]. This pattern is supported by the history essays, where similar features also received an Overall score of 3.",
+  "insufficient_evidence": []
+}

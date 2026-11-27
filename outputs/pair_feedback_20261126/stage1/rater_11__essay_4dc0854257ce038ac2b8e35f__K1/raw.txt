@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_4dc0854257ce038ac2b8e35f",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax"],
+        "pattern": "Essays with limited cohesive devices and occasional syntactic errors tend to receive a score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_989dc58208a18f39a8463d05",
+            "quotes": ["students would benefit themselfs by taking classes at home", "students would focus better if they did not have a other classmate talking to them"],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2
+              }
+            },
+            "interpretation": "The essay demonstrates limited cohesive devices and syntactic errors, consistent with a score of 3."
+          },
+          {
+            "history_essay_id": "essay_2ba404b74059efe09b3722bd",
+            "quotes": ["you cant just go up to your teacher and tell them \"give me a pencil\" you should tell them \"may I please have a pencil\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4
+              }
+            },
+            "interpretation": "The essay shows limited cohesive devices and occasional syntactic errors, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax"],
+        "quotes": ["the online classes will have a positive change in their daily life", "the time that students use to prepare them and when they took a bus to the school, this time they can used to sleep more or even start the classes early during this time"],
+        "observable_feature": "The essay demonstrates limited cohesive devices and occasional syntactic errors.",
+        "evaluative_interpretation": "This is consistent with a score of 3, as the text shows limited control over text organization and occasional errors in sentence formation.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The text organization is generally controlled but with limited cohesive devices and some syntactic errors, aligning with the rubric for a score of 3.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates limited cohesive devices and occasional syntactic errors, consistent with the observed scores of 3 for Cohesion and Syntax. This aligns with the historical pattern observed in essays with similar features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The observed Overall score of 3 is consistent with the essay's limited cohesive devices and occasional syntactic errors, as well as the generally controlled organization and vocabulary usage.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates limited cohesive devices, consistent with a score of 2, as it shows some repetitive and mechanical use of cohesion."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows a range of syntactic structures with occasional errors, consistent with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary for the topic, consistent with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay shows evident use of phrases but without much variety, consistent with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay has some errors in grammar and usage, consistent with a score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay shows developing use of conventions with some distracting errors, consistent with a score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

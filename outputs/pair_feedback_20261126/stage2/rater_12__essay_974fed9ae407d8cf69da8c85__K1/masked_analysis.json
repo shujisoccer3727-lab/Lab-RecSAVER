@@ -1,0 +1,96 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent grammatical errors, limited sentence variety, and inconsistent conventions tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_c95defab5898fc1613b26c7c",
+          "quotes": [
+            "Trying to conserve energy and resources, some businesses have adopted a four-day work week, with each day consisting of ten hours."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Syntax": 3,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay contains grammatical errors and limited sentence variety, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_877968498339559487d0d5a4",
+          "quotes": [
+            "I think that have a good attitude is great."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Syntax": 2,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay has frequent grammatical errors and limited sentence variety, consistent with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_1982ecb00b93c55770d5a34a",
+          "quotes": [
+            "Do we choose our own character traits or is our character formed by influences beyond our control?"
+          ],
+          "interpretation": "This essay has fewer grammatical errors and more varied sentence structures, which contrasts with the pattern of frequent errors and limited variety."
+        }
+      ],
+      "limitations": [
+        "The pattern is not definitive, as some essays with fewer errors still receive a score of 3."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "I think is a great idea to have this type of learning program, very helpfull for students,"
+      ],
+      "observable_feature": "The sentence contains grammatical errors and lacks variety.",
+      "evaluative_interpretation": "The sentence structure and grammar errors are consistent with an Overall score of [MASK].",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Overall score [MASK] indicates limited facility in sentence formation and frequent errors in grammar and usage.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Cohesion"
+      ],
+      "quotes": [
+        "Here at school we are expose to so many things, You never know if anybody from outside will get in here with a gun, and will start shooting us, for no reason, or just because he is involved in bad things,"
+      ],
+      "observable_feature": "The text lacks clear logical sequencing and cohesive devices.",
+      "evaluative_interpretation": "The lack of cohesive devices and logical sequencing is consistent with a Cohesion score of [MASK].",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The rubric for Cohesion score [MASK] indicates that the organization is generally controlled but with some repetitive or faulty use of cohesive devices.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay exhibits frequent grammatical errors and limited sentence variety, consistent with the pattern observed in history essays with an Overall score of [MASK]. The lack of cohesive devices and logical sequencing supports a Cohesion score of [MASK].",
+  "insufficient_evidence": []
+}

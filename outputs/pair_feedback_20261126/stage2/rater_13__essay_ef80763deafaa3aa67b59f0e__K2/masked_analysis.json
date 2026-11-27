@@ -1,0 +1,70 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax"
+      ],
+      "pattern": "Essays with controlled organization and occasional errors in sentence structure and word choice tend to receive an Overall score of 4.",
+      "support": [
+        {
+          "history_essay_id": "essay_638225bbf7d533f35bc564dd",
+          "quotes": [
+            "\"Your character will be what you yourself choose to make it.\" I strongly disagree because we are influnced by the people we hang out with."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 4
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and occasional errors in sentence structure, consistent with an Overall score of 4."
+        },
+        {
+          "history_essay_id": "essay_a1529bcd15e8ea2f608c49ef",
+          "quotes": [
+            "\"Mom what time is it\", said my brother"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3
+            }
+          },
+          "interpretation": "The essay shows controlled organization with some errors in sentence structure, consistent with an Overall score of 4."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax"
+      ],
+      "quotes": [
+        "\"Do you think failure lead you to do better? In this paper i will argue about never losing enthusiasm by falling and falling.\""
+      ],
+      "observable_feature": "The essay demonstrates controlled organization with occasional errors in sentence structure and word choice.",
+      "evaluative_interpretation": "The controlled organization and occasional errors in sentence structure and word choice are consistent with an Overall score of [MASK].",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows a generally well-controlled organization with a range of cohesive devices used appropriately, but with some errors in sentence formation, aligning with the rubric for a score of [MASK].",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates controlled organization and occasional errors in sentence structure and word choice, consistent with the observed Overall score of [MASK]. This pattern is supported by the history of essays with similar features receiving an Overall score of 4.",
+  "insufficient_evidence": []
+}

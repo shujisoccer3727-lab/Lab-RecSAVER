@@ -1,0 +1,70 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "pattern": "Essays with limited vocabulary and phraseology receive lower Overall scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_7f251315cd2b8eaccabe86cc",
+          "quotes": [
+            "Some schools have a program that older student and the young ones that could help one another."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Vocabulary": 2,
+              "Phraseology": 2
+            }
+          },
+          "interpretation": "The limited vocabulary and phraseology are consistent with the lower Overall score."
+        },
+        {
+          "history_essay_id": "essay_17448b70a54b82d71f36f417",
+          "quotes": [
+            "Lieing will help know one around you or you."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Vocabulary": 3,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay has a slightly broader vocabulary and phraseology, which aligns with the higher Overall score."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "quotes": [
+        "for this issue, I think attending classes from home by way of online or video conferencing would not benefit."
+      ],
+      "observable_feature": "Limited vocabulary and phraseology.",
+      "evaluative_interpretation": "The limited vocabulary and phraseology suggest a lower proficiency level.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Vocabulary and Phraseology at level [MASK] indicates a narrow range of vocabulary and limited use of phrases.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay's limited vocabulary and phraseology, as seen in the quote, align with the pattern observed in the history where similar features correlate with lower Overall scores.",
+  "insufficient_evidence": []
+}

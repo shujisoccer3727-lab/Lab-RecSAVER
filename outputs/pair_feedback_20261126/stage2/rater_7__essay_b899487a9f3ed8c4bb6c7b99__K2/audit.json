@@ -1,0 +1,168 @@
+{
+  "changes": [
+    {
+      "path": "/target_evidence/0/evaluative_interpretation",
+      "before": "These errors are consistent with a score of 3, as they do not significantly impede communication but are noticeable.",
+      "after": "These errors are consistent with a score of [MASK], as they do not significantly impede communication but are noticeable.",
+      "value_spans": [
+        {
+          "start": 44,
+          "end": 45,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/0/rubric_connection",
+      "before": "The rubric for a score of 3 indicates occasional errors that do not significantly impede communication.",
+      "after": "The rubric for a score of [MASK] indicates occasional errors that do not significantly impede communication.",
+      "value_spans": [
+        {
+          "start": 26,
+          "end": 27,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/0/uncertainty",
+      "before": "The essay's overall coherence and the frequency of errors are consistent with a score of 3, but the exact balance of errors and strengths is not fully specified.",
+      "after": "The essay's overall coherence and the frequency of errors are consistent with a score of [MASK], but the exact balance of errors and strengths is not fully specified.",
+      "value_spans": [
+        {
+          "start": 89,
+          "end": 90,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/decision_explanation",
+      "before": "The essay's occasional errors in cohesion, syntax, vocabulary, grammar, and conventions align with the pattern observed in the history, where similar errors receive scores around 3. The target essay's score of 3 is consistent with this pattern.",
+      "after": "The essay's occasional errors in cohesion, syntax, vocabulary, grammar, and conventions align with the pattern observed in the history, where similar errors receive scores around 3. The target essay's score of [MASK] is consistent with this pattern.",
+      "value_spans": [
+        {
+          "start": 210,
+          "end": 211,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 4,
+  "changed_fields": 4,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/status",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/pattern",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/1/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/1/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/history_patterns/0/support/1/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/1/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/limitations/0",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    }
+  ],
+  "quarantine": [],
+  "automatic_pass": true,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

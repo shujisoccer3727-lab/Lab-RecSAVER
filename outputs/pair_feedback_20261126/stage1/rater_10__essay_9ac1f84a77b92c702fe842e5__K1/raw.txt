@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_9ac1f84a77b92c702fe842e5",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with frequent grammatical errors, limited vocabulary, and poor sentence structure receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_5c261ba25f1fd7836218065c",
+            "quotes": ["Even thought,\r\n\r\nexample are more advantages and influence to other. Examples\r\n\r\nmake the people to understand the idea."],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 2,
+                "Grammar": 2,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay contains numerous grammatical errors and awkward phrasing, which aligns with the lower scores."
+          },
+          {
+            "history_essay_id": "essay_b819379406aa9abe86991ac7",
+            "quotes": ["Technology is not for only buying or doing any other things it's for doing projects in class or a if your doing your homework, applying for jobs, and applying for college."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay has a range of grammatical errors and limited vocabulary, which aligns with the scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["Some school offer programs\r\n\r\nthat allow high school students to graduate in\r\n\r\ntree\r\n\r\nyears instead\r\n\r\ntraditional four years."],
+        "observable_feature": "The text contains numerous grammatical errors, awkward phrasing, and limited vocabulary.",
+        "evaluative_interpretation": "These features are consistent with a lower score, as they impede clear communication.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for scores 2 and 3 indicates frequent errors and limited vocabulary, which are evident in the text.",
+        "uncertainty": "The text's overall coherence and organization are not fully clear from this excerpt alone."
+      }
+    ],
+    "decision_explanation": "The target essay exhibits frequent grammatical errors, limited vocabulary, and awkward phrasing, which align with the lower scores observed in the rater's history. This is consistent with the observed Overall score of 2.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 2,
+        "Phraseology": 2,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The essay's frequent grammatical errors, limited vocabulary, and awkward phrasing align with the observed Overall score of 2, as these features impede clear communication.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The text has limited cohesive devices and awkward phrasing, consistent with a score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The text contains numerous errors in sentence structure, consistent with a score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The text has a limited range of vocabulary, consistent with a score of 2."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The text has limited use of phrases and idioms, consistent with a score of 2."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The text contains numerous grammatical errors, consistent with a score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The text has frequent errors in spelling and punctuation, consistent with a score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The text's overall coherence and organization are not fully clear from the provided excerpt alone."]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with moderate control over language features, occasional errors, and generally clear communication receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_989dc58208a18f39a8463d05",
+          "quotes": [
+            "students would focus better if they did not have a other classmate talking to them."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates moderate control over language features with occasional errors, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_2ba404b74059efe09b3722bd",
+          "quotes": [
+            "Another lesson I would share would be to always learn, because in life it's always important to learn."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 3,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows moderate control over language features with occasional errors, consistent with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is based on a limited number of essays and may not fully represent the rater's scoring tendencies."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "the online classes will have a positive change in their daily life."
+      ],
+      "observable_feature": "The sentence demonstrates moderate control over language features with occasional errors.",
+      "evaluative_interpretation": "The sentence shows a moderate level of language control, with occasional errors that do not significantly impede communication.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "Consistent with the rubric for a score of [MASK], the sentence demonstrates moderate control over language features with occasional errors.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates moderate control over language features with occasional errors, consistent with the observed Overall score of [MASK]. The evidence from the target essay aligns with the historical pattern observed in other essays scored by the rater.",
+  "insufficient_evidence": []
+}

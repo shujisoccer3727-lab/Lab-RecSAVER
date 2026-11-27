@@ -1,0 +1,388 @@
+{
+  "annotation_sha256": "cb8cce6cc79b44207991640157b9e0b38345f43cc03963ce51880f5bd0b56d01",
+  "reviewer": "Codexによるこの実行の暫定点検。独立した人手評価ではない。生成物は変更しない。",
+  "review_scope": "正式なStage 5代表所見・確認点と比較用5エッセイを点検した。全保存所見の意味的妥当性を網羅的に認定していない。パターン支持所見は正式5出力とも空であった。",
+  "cases": [
+    {
+      "filename": "AAAXMP138200001580432804_OR",
+      "rater_id": "rater_12",
+      "source_row_id": 6771,
+      "essay_id": "essay_5e83b8848e40fd9e0bae4e2c",
+      "observed_overall": 2,
+      "dimension": "Grammar",
+      "recorded_dimension_score": 3,
+      "quotes": [
+        {
+          "span_id": "S11",
+          "paragraph_id": "P5",
+          "start": 786,
+          "end": 993,
+          "text": " it's just like how a 2nd grader doesn't know certain things a 10th grader know's but if the tenth grader started teaching the 2nd grader stuff then the 2nd grader would would know more then they did before."
+        }
+      ],
+      "rubric": {
+        "rubric_ref_id": "Grammar:3",
+        "descriptor": "Some errors in grammar and usage."
+      },
+      "fixed_feedback_next_check": {
+        "inspect": "Other sentences in the essay for similar verb form errors or other grammatical issues.",
+        "distinguish": "The frequency and impact of grammatical errors on the essay's clarity.",
+        "reconsider_if": null
+      },
+      "correspondence": "一部対応",
+      "assessment_ja": "would wouldという助動詞の重複が、他の文法上の問題を点検する対象になる。代表所見と同じhave/having型の誤りがあるという根拠は確認していない。確認点のother grammatical issuesという範囲では照合できるが、1区間から誤りの頻度や理解阻害の程度、記録Grammar:3やOverall:2の妥当性は決まらない。",
+      "semantic_review": "Codex provisional; source matching is separately checked"
+    },
+    {
+      "filename": "AAAXMP138200001580432804_OR",
+      "rater_id": "rater_13",
+      "source_row_id": 6771,
+      "essay_id": "essay_5e83b8848e40fd9e0bae4e2c",
+      "observed_overall": 5,
+      "dimension": "Overall",
+      "recorded_dimension_score": 5,
+      "quotes": [],
+      "rubric": {
+        "rubric_ref_id": "Overall:5",
+        "descriptor": "Native-like facility in the use of language with syntactic variety, Appropriate word choice and phrases; well-controlled text organization; precise use of grammar and conventions; rare language inaccuracies that do not impede communication."
+      },
+      "fixed_feedback_next_check": null,
+      "correspondence": "対応評価保留（正式出力不成立）",
+      "assessment_ja": "比較用エッセイの原文と全記録得点は照合済みだが、rater_13の正式な固定フィードバックは厳密JSONエラーにより成立していない。生出力の確認点を正式出力として採用したり、原文から代わりの確認点を補作したりしない。この事例で両者の正式フィードバックを並べた比較は成立していない。下記Overall:5の基準は出典確認のために示し、適切な点数との認定ではない。",
+      "semantic_review": "Codex provisional; source matching is separately checked"
+    },
+    {
+      "filename": "AAAXMP138200001666792812_OR",
+      "rater_id": "rater_12",
+      "source_row_id": 6788,
+      "essay_id": "essay_9c6203b2aa9d48dc934eeffc",
+      "observed_overall": 2,
+      "dimension": "Grammar",
+      "recorded_dimension_score": 3,
+      "quotes": [
+        {
+          "span_id": "S4",
+          "paragraph_id": "P2",
+          "start": 304,
+          "end": 658,
+          "text": " For example, this help students by teaching them how to write a clear sentence so the reader can understand the massage of the writer, and this helps them at school too because sometimes teacher makes them write an essay or a paragraph and for that they need to know how to write a constructed sentence to make sure their ideas are clear for the reader."
+        },
+        {
+          "span_id": "S8",
+          "paragraph_id": "P4",
+          "start": 1275,
+          "end": 1580,
+          "text": " For example, this helps them by making sure their ideas are clear, it helps them to learn were to put a period or commas in their sentence, it teaches them how to start a paragraph or sentence to make sure their topic is clear, and it helps the reader to know when you have end a sentence or a paragraph."
+        }
+      ],
+      "rubric": {
+        "rubric_ref_id": "Grammar:3",
+        "descriptor": "Some errors in grammar and usage."
+      },
+      "fixed_feedback_next_check": {
+        "inspect": "Other sentences in the essay for similar verb form errors or other grammatical issues.",
+        "distinguish": "The frequency and impact of grammatical errors on the essay's clarity.",
+        "reconsider_if": null
+      },
+      "correspondence": "対応可（局所文法の確認）",
+      "assessment_ja": "this help studentsやwhen you have endに、動詞の一致・語形を点検できる箇所がある。複数箇所で文法形式と意味の回復可能性を確認するという固定確認点に対応する。haveを含むだけで代表所見と同一の構文問題だとは扱わない。記録Grammar:3に対応するSome errorsという記述と照合できるが、観測Overallの2と5の差をこの所見で説明したり、再採点後の点数を推定したりしない。",
+      "semantic_review": "Codex provisional; source matching is separately checked"
+    },
+    {
+      "filename": "AAAXMP138200001666792812_OR",
+      "rater_id": "rater_13",
+      "source_row_id": 6788,
+      "essay_id": "essay_9c6203b2aa9d48dc934eeffc",
+      "observed_overall": 5,
+      "dimension": "Overall",
+      "recorded_dimension_score": 5,
+      "quotes": [],
+      "rubric": {
+        "rubric_ref_id": "Overall:5",
+        "descriptor": "Native-like facility in the use of language with syntactic variety, Appropriate word choice and phrases; well-controlled text organization; precise use of grammar and conventions; rare language inaccuracies that do not impede communication."
+      },
+      "fixed_feedback_next_check": null,
+      "correspondence": "対応評価保留（正式出力不成立）",
+      "assessment_ja": "rater_13の正式な固定フィードバックが成立していないため、両者の確認点の比較を保留する。原文や記録得点の検証は完了しているが、これは利用できる確認点が得られたことを意味しない。コードフェンスを除いて成功扱いにする処理や報告用の手修正は行っていない。",
+      "semantic_review": "Codex provisional; source matching is separately checked"
+    },
+    {
+      "filename": "AAAXMP138190000293162108_OR",
+      "rater_id": "rater_10",
+      "source_row_id": 6652,
+      "essay_id": "essay_26c823184766dec735c30ff3",
+      "observed_overall": 5,
+      "dimension": "Cohesion",
+      "recorded_dimension_score": 5,
+      "quotes": [
+        {
+          "span_id": "S3",
+          "paragraph_id": "P2",
+          "start": 477,
+          "end": 754,
+          "text": "Firstly, there is two type of people in the world, \"Possitive and negative people\", possitive people get less stress, and are more healthy for many reasons for example: when these people gets really sick, they never stop fighting against sickness in order to win and persevere."
+        },
+        {
+          "span_id": "S6",
+          "paragraph_id": "P4",
+          "start": 1135,
+          "end": 1297,
+          "text": "A person with a possitive attitude is always welcome in any job, and any place because this person will make pople arround him feel happy to be working with them."
+        },
+        {
+          "span_id": "S11",
+          "paragraph_id": "P7",
+          "start": 2292,
+          "end": 2379,
+          "text": "To Conclude, possitive attitude is the key to success in School, work and relationship."
+        }
+      ],
+      "rubric": {
+        "rubric_ref_id": "Cohesion:5",
+        "descriptor": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas."
+      },
+      "fixed_feedback_next_check": {
+        "inspect": "Review the transitions between paragraphs to ensure they maintain the flow of the argument.",
+        "distinguish": "The consistency of the main idea and the logical connections between paragraphs.",
+        "reconsider_if": null
+      },
+      "correspondence": "対応可（段落間の論理接続の確認）",
+      "assessment_ja": "健康、仕事、結論へと扱う場面が移りながらpositive attitudeという主題を共有している。段落間で主張が保たれ、各具体例が主張をどう発展させるかを確認するという固定確認点に対応する。標識の存在だけでCohesion:5のconsistently well controlledを認定せず、例示間の論理的なつながりを全文で点検する対象として示す。",
+      "semantic_review": "Codex provisional; source matching is separately checked"
+    },
+    {
+      "filename": "AAAXMP138190000293162108_OR",
+      "rater_id": "rater_11",
+      "source_row_id": 6652,
+      "essay_id": "essay_26c823184766dec735c30ff3",
+      "observed_overall": 2,
+      "dimension": "Cohesion",
+      "recorded_dimension_score": 2,
+      "quotes": [
+        {
+          "span_id": "S3",
+          "paragraph_id": "P2",
+          "start": 477,
+          "end": 754,
+          "text": "Firstly, there is two type of people in the world, \"Possitive and negative people\", possitive people get less stress, and are more healthy for many reasons for example: when these people gets really sick, they never stop fighting against sickness in order to win and persevere."
+        },
+        {
+          "span_id": "S5",
+          "paragraph_id": "P3",
+          "start": 1122,
+          "end": 1131,
+          "text": "Secondly,"
+        },
+        {
+          "span_id": "S6",
+          "paragraph_id": "P4",
+          "start": 1135,
+          "end": 1297,
+          "text": "A person with a possitive attitude is always welcome in any job, and any place because this person will make pople arround him feel happy to be working with them."
+        }
+      ],
+      "rubric": {
+        "rubric_ref_id": "Cohesion:2",
+        "descriptor": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition."
+      },
+      "fixed_feedback_next_check": {
+        "inspect": "Other paragraphs for similar transitional phrases or logical connections to ensure consistency in the essay's structure.",
+        "distinguish": "The presence of transitional phrases and their effectiveness in maintaining a logical flow of ideas.",
+        "reconsider_if": null
+      },
+      "correspondence": "一部対応（分類上の問題を別記）",
+      "assessment_ja": "FirstlyとSecondlyの列挙標識、および後続の健康・仕事の理由づけは照合できる。接続標識があることと、その標識が実際に論理関係を明確にすることを分けて点検する。固定フィードバックのsaying the truthの分類には問題があるため、その語句の扱いは移用しない。これだけで記録Cohesion:2の適否や代替点数は確定しない。",
+      "semantic_review": "Codex provisional; source matching is separately checked"
+    },
+    {
+      "filename": "AAAXMP138190000301142128_OR",
+      "rater_id": "rater_10",
+      "source_row_id": 6662,
+      "essay_id": "essay_b68abf9e93bb8ef539f9eb2b",
+      "observed_overall": 5,
+      "dimension": "Cohesion",
+      "recorded_dimension_score": 5,
+      "quotes": [
+        {
+          "span_id": "S6",
+          "paragraph_id": "P2",
+          "start": 412,
+          "end": 585,
+          "text": " Students should not finish high school in three yeas because it gives them opportunities to learn new things, have a part-time job and still be enjoying their teenage life."
+        },
+        {
+          "span_id": "S7",
+          "paragraph_id": "P3",
+          "start": 589,
+          "end": 651,
+          "text": "First, students will have the opportunity to learn new things."
+        },
+        {
+          "span_id": "S12",
+          "paragraph_id": "P5",
+          "start": 1166,
+          "end": 1224,
+          "text": "Second, students will have a chance to do a part-time job."
+        },
+        {
+          "span_id": "S19",
+          "paragraph_id": "P8",
+          "start": 1661,
+          "end": 1748,
+          "text": "Finally, student will have a break like always, but also will enjoy their teenage life."
+        },
+        {
+          "span_id": "S26",
+          "paragraph_id": "P9",
+          "start": 2479,
+          "end": 2660,
+          "text": " Students should finish school with the traditional four years, because it gives students opportunities to learn new things, have a part-time job and still enjoy their teenage life."
+        }
+      ],
+      "rubric": {
+        "rubric_ref_id": "Cohesion:5",
+        "descriptor": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas."
+      },
+      "fixed_feedback_next_check": {
+        "inspect": "Review the transitions between paragraphs to ensure they maintain the flow of the argument.",
+        "distinguish": "The consistency of the main idea and the logical connections between paragraphs.",
+        "reconsider_if": null
+      },
+      "correspondence": "対応可（主張と理由のつながりの確認）",
+      "assessment_ja": "冒頭の3理由の予告、First・Second・Finallyによる展開、終盤での主張の再提示を原文で確認できる。各理由が主張を発展させるか、段落間で同じ主張が保たれるかという固定確認点に対応する。Cohesion:5の一貫した制御を標識の個数だけで認定せず、具体例の役割や反復の効果を点検する。",
+      "semantic_review": "Codex provisional; source matching is separately checked"
+    },
+    {
+      "filename": "AAAXMP138190000301142128_OR",
+      "rater_id": "rater_11",
+      "source_row_id": 6662,
+      "essay_id": "essay_b68abf9e93bb8ef539f9eb2b",
+      "observed_overall": 2,
+      "dimension": "Cohesion",
+      "recorded_dimension_score": 2,
+      "quotes": [
+        {
+          "span_id": "S7",
+          "paragraph_id": "P3",
+          "start": 589,
+          "end": 651,
+          "text": "First, students will have the opportunity to learn new things."
+        },
+        {
+          "span_id": "S12",
+          "paragraph_id": "P5",
+          "start": 1166,
+          "end": 1224,
+          "text": "Second, students will have a chance to do a part-time job."
+        },
+        {
+          "span_id": "S19",
+          "paragraph_id": "P8",
+          "start": 1661,
+          "end": 1748,
+          "text": "Finally, student will have a break like always, but also will enjoy their teenage life."
+        },
+        {
+          "span_id": "S26",
+          "paragraph_id": "P9",
+          "start": 2479,
+          "end": 2660,
+          "text": " Students should finish school with the traditional four years, because it gives students opportunities to learn new things, have a part-time job and still enjoy their teenage life."
+        }
+      ],
+      "rubric": {
+        "rubric_ref_id": "Cohesion:2",
+        "descriptor": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition."
+      },
+      "fixed_feedback_next_check": {
+        "inspect": "Other paragraphs for similar transitional phrases or logical connections to ensure consistency in the essay's structure.",
+        "distinguish": "The presence of transitional phrases and their effectiveness in maintaining a logical flow of ideas.",
+        "reconsider_if": null
+      },
+      "correspondence": "一部対応（分類上の問題を別記）",
+      "assessment_ja": "First・Second・Finallyの機能と、終盤の再提示へのつながりは点検できる。saying the truthを接続標識とした分類は支持せず、実際の列挙標識と命題の内容を区別して照合する。語形・綴りの問題と段落の接続が成立するかを分けて点検し、記録Cohesion:2やOverall:2の正否をこの抜粋だけで決めない。",
+      "semantic_review": "Codex provisional; source matching is separately checked"
+    },
+    {
+      "filename": "AAAXMP138200001998652127_OR",
+      "rater_id": "rater_2",
+      "source_row_id": 8561,
+      "essay_id": "essay_ce95313f4dd125cdcf892792",
+      "observed_overall": 2,
+      "dimension": "Grammar",
+      "recorded_dimension_score": 2,
+      "quotes": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 122,
+          "text": "I think that a student should be able to have an idea of what they wanna do when they older and not when they at children."
+        },
+        {
+          "span_id": "S5",
+          "paragraph_id": "P5",
+          "start": 459,
+          "end": 589,
+          "text": "When you young you believe that you can do it all and that life will just hand you whatever you want when thats not how life goes."
+        }
+      ],
+      "rubric": {
+        "rubric_ref_id": "Grammar:2",
+        "descriptor": "Many errors in grammar and usage."
+      },
+      "fixed_feedback_next_check": {
+        "inspect": "Review other sentences in the essay for similar grammatical errors to assess the overall frequency and impact on the argument.",
+        "distinguish": "The frequency and impact of grammatical errors on the overall clarity and correctness of the argument.",
+        "reconsider_if": null
+      },
+      "correspondence": "対応可（局所文法の確認）",
+      "assessment_ja": "when they olderとWhen you youngに、連結動詞の欠落を点検できる具体例がある。別の文でも同種の構造を確認し、形式上の誤りと意味の回復可能性を分けるという確認点に対応する。2区間から全体の頻度や理解阻害、Grammar:2のMany errorsの充足は認定しない。元の代表所見にあった綴りと文法の分類上の問題も、別途保持した。",
+      "semantic_review": "Codex provisional; source matching is separately checked"
+    },
+    {
+      "filename": "AAAXMP138200001998652127_OR",
+      "rater_id": "rater_7",
+      "source_row_id": 8561,
+      "essay_id": "essay_ce95313f4dd125cdcf892792",
+      "observed_overall": 5,
+      "dimension": "Cohesion",
+      "recorded_dimension_score": 5,
+      "quotes": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 122,
+          "text": "I think that a student should be able to have an idea of what they wanna do when they older and not when they at children."
+        },
+        {
+          "span_id": "S8",
+          "paragraph_id": "P8",
+          "start": 1176,
+          "end": 1257,
+          "text": "For example, when I was younger I always dreamed about being a pro soccer player."
+        },
+        {
+          "span_id": "S17",
+          "paragraph_id": "P9",
+          "start": 1851,
+          "end": 1978,
+          "text": " Overall the point is that you jus need to work hard for what you want to be in life and to not start too early in life either."
+        }
+      ],
+      "rubric": {
+        "rubric_ref_id": "Cohesion:5",
+        "descriptor": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas."
+      },
+      "fixed_feedback_next_check": {
+        "inspect": "Review the transitions between paragraphs to see if the writer maintains the connection to the initial quote throughout the essay.",
+        "distinguish": "Check if the writer's interpretation of the quote is maintained and developed throughout the essay.",
+        "reconsider_if": null
+      },
+      "correspondence": "直接対応する根拠なし（冒頭引用の前提がない）",
+      "assessment_ja": "全文を点検すると、比較用エッセイは職業について考え始める年齢の意見から始まり、サッカーの個人的経験へ展開している。固定確認点が前提とするinitial quoteに対応する冒頭引用は得られなかった。段落間の接続一般には関連し得るが、固定確認点を別の問いへ書き換えて適合した扱いにはしない。引用がないこと自体はCohesionの減点根拠ではなく、記録Cohesion:5の妥当性もこの不対応からは判断できない。",
+      "semantic_review": "Codex provisional; source matching is separately checked"
+    }
+  ]
+}

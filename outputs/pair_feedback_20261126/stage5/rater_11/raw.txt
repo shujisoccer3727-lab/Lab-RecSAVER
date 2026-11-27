@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.5",
+  "rater_id": "rater_11",
+  "pattern_status": "insufficient_evidence",
+  "pattern": null,
+  "pattern_limit": "The available observations do not show a consistent pattern of feature-to-evaluation relationship across multiple essays.",
+  "representative_observation_key": "essay_eeb87df489f116eb7f0767b9::O1",
+  "quote_indices": [0, 1],
+  "textual_finding": "The essay uses transitional phrases such as 'Firstly' and 'saying the truth' to connect ideas within the paragraph.",
+  "evidence_limit": "This observation is limited to the local context and does not establish the overall coherence of the essay.",
+  "rubric_review": {
+    "observed_band_ref_id": "Cohesion:3",
+    "comparison_band_ref_id": null,
+    "band_assessment": "indeterminate"
+  },
+  "next_check": {
+    "inspect": "Other paragraphs for similar transitional phrases or logical connections to ensure consistency in the essay's structure.",
+    "distinguish": "The presence of transitional phrases and their effectiveness in maintaining a logical flow of ideas.",
+    "reconsider_if": null
+  }
+}

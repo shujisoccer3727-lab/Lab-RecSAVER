@@ -1,0 +1,88 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a range of vocabulary, varied sentence structures, and generally controlled organization tend to receive an Overall score of 4.",
+      "support": [
+        {
+          "history_essay_id": "essay_acc62b00900a0ec7b7be3915",
+          "quotes": [
+            "\"These are a few things to do in a sunny day outdoors.\"",
+            "\"Talking about how there day went can bring you guys more closer and make them feel a bit better, going to eat or bring food at the picnic tables can be fun aswell, maybe know more about what they been doing or what they are planing to do over the weekends, these are a few of things you can do outdoors instead of being indoors.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a range of vocabulary and varied sentence structures, with generally controlled organization, consistent with an Overall score of 4."
+        },
+        {
+          "history_essay_id": "essay_ec4adaeb0f9321f88a58d494",
+          "quotes": [
+            "\"It's important that the cast gets to know each other and become friends. Also they can rehears lines together.\"",
+            "\"Another example why this this would be an enjoyable activity for school is working together as a team. Working together as a team can be enjoyable and important.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay shows a range of vocabulary, varied sentence structures, and generally controlled organization, consistent with an Overall score of 4."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is based on a limited number of essays and may not fully represent the rater's scoring behavior."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"Technology, 21st centuries finest product. nearly everyone loves technology, is it really that beautiful? When i was a kid people used to say 'technology will end our social life.' I didnt believe that then, but now i see what they were trying to say.\""
+      ],
+      "observable_feature": "The essay demonstrates a range of vocabulary, varied sentence structures, and generally controlled organization.",
+      "evaluative_interpretation": "The essay's varied sentence structures and range of vocabulary suggest a level of proficiency consistent with an Overall score of [MASK].",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's varied sentence structures and range of vocabulary align with the rubric's description for an Overall score of [MASK], which indicates facility in the use of language with syntactic variety and range of words and phrases.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates a range of vocabulary, varied sentence structures, and generally controlled organization, consistent with the pattern observed in the history essays that received an Overall score of 4. The essay's varied sentence structures and range of vocabulary align with the rubric's description for an Overall score of [MASK].",
+  "insufficient_evidence": []
+}

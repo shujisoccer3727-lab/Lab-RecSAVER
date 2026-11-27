@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_10bde717c719b4cc15923b78",
+          "quotes": [
+            "Everyday we want to achieve a new goal so we can grow as a whole."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 2,
+              "Grammar": 2,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and occasional errors in sentence formation, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_17448b70a54b82d71f36f417",
+          "quotes": [
+            "If you lie it's not going to make you seem like a good person or help you in anyway."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay shows controlled organization and a minimally adequate range of vocabulary, consistent with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Long break give student so many important priviteges, like having time to go spent some time with family. traveling places, and staying home and keeping your brian busy."
+      ],
+      "observable_feature": "The essay demonstrates controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary.",
+      "evaluative_interpretation": "This is consistent with an Overall score of [MASK], as the essay shows generally controlled organization and a minimally adequate range of vocabulary.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay aligns with the rubric's description for an Overall score of [MASK], which includes controlled organization and a minimally adequate range of vocabulary.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary, consistent with the observed Overall score of [MASK]. This is supported by the historical pattern observed in other essays with similar characteristics.",
+  "insufficient_evidence": []
+}

@@ -1,0 +1,98 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent errors in cohesion, syntax, grammar, and conventions tend to receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_0271e2a86409af270eb54ec8",
+          "quotes": [
+            "\"Success is not just a dream is a dedication to be engage in everyday activity also success\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The sentence lacks clear structure and contains grammatical errors, consistent with the observed lower scores."
+        },
+        {
+          "history_essay_id": "essay_47882f4c789d4b4f9a018d1a",
+          "quotes": [
+            "\"Everyone goes to tough times which cuases failure, but once you fail you get up and better your self in order to succed.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The sentence has grammatical errors and lacks clear cohesion, consistent with the observed scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_c5ed1eb2265344005456b10e",
+          "quotes": [
+            "\"If I could go any place in the world it would be Jamaica because there are many places you could go to do activities, there is a variety of food, and different types animals.\""
+          ],
+          "interpretation": "This sentence has fewer errors and better cohesion, which contrasts with the pattern but does not invalidate it."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by multiple essays but does not account for all scoring decisions."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"Based on your experience, do you agree on this statement, 'Unless you try to do something beyond what you have already mastered, you will never grow.' But, However some people might disagree with this statement.\""
+      ],
+      "observable_feature": "The sentence contains grammatical errors and lacks clear cohesion.",
+      "evaluative_interpretation": "The sentence structure is awkward and contains errors, which may contribute to the lower scores.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The sentence does not meet the criteria for a higher score due to its lack of clarity and grammatical errors.",
+      "uncertainty": "The sentence is a single example and may not represent the entire essay."
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Vocabulary"
+      ],
+      "quotes": [
+        "\"Some people might disagree on Ralph Waldo Emerson statement because, Some people like pushing there self more than other, and also they can get physical stronger by try to do something beyond what you have already mastered.\""
+      ],
+      "observable_feature": "The vocabulary is generally appropriate but lacks precision and variety.",
+      "evaluative_interpretation": "The vocabulary is minimally adequate but does not demonstrate a wide range or precise use of terms.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The vocabulary usage aligns with a score of [MASK], indicating a minimally adequate range.",
+      "uncertainty": "The vocabulary usage is consistent but does not show significant variation."
+    }
+  ],
+  "decision_explanation": "The essay contains frequent grammatical errors and lacks clear cohesion, consistent with the observed scores. The vocabulary is minimally adequate but does not demonstrate a wide range or precise use of terms, aligning with a score of [MASK].",
+  "insufficient_evidence": []
+}

@@ -1,0 +1,118 @@
+{
+  "changes": [
+    {
+      "path": "/target_evidence/0/evaluative_interpretation",
+      "before": "This is consistent with an Overall score of 3, as the essay shows sufficient vocabulary and occasional inaccuracies in phraseology, minimal errors in grammar, and developing use of conventions.",
+      "after": "This is consistent with an Overall score of [MASK], as the essay shows sufficient vocabulary and occasional inaccuracies in phraseology, minimal errors in grammar, and developing use of conventions.",
+      "value_spans": [
+        {
+          "start": 44,
+          "end": 45,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/decision_explanation",
+      "before": "The target essay demonstrates generally controlled organization with occasional errors in sentence formation and vocabulary, consistent with an Overall score of 3. This is supported by the rater's history of scoring similar essays with an Overall score of 3.",
+      "after": "The target essay demonstrates generally controlled organization with occasional errors in sentence formation and vocabulary, consistent with an Overall score of [MASK]. This is supported by the rater's history of scoring similar essays with an Overall score of [MASK].",
+      "value_spans": [
+        {
+          "start": 161,
+          "end": 162,
+          "value": "3",
+          "replacement": "[MASK]"
+        },
+        {
+          "start": 256,
+          "end": 257,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 3,
+  "changed_fields": 2,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/status",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/pattern",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/1/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/1/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/history_patterns/0/support/1/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/1/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    }
+  ],
+  "quarantine": [],
+  "automatic_pass": true,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

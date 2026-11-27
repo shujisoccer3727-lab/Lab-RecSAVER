@@ -1,0 +1,93 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with clear organization, varied sentence structures, and a wide range of vocabulary and phrases receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_80a5758cb7742943dc89b66a",
+          "quotes": [
+            "The Curfews Keep Teenagers Out Of Trouble",
+            "Once, I walked down the empty street during midnight."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 5,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 5,
+              "Vocabulary": 5,
+              "Phraseology": 5,
+              "Grammar": 5,
+              "Conventions": 5
+            }
+          },
+          "interpretation": "The essay demonstrates clear organization, varied sentence structures, and a wide range of vocabulary and phrases, which aligns with the higher scores."
+        },
+        {
+          "history_essay_id": "essay_17116345036926ef7a1d51d2",
+          "quotes": [
+            "Did you know that imagination is something that you picture in your mind?",
+            "From that being said, imagination is not more important than knowledge because knowledge is your reality, your understanding, and it can always make you take good decisions in life."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 5,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 5,
+              "Vocabulary": 5,
+              "Phraseology": 5,
+              "Grammar": 5,
+              "Conventions": 5
+            }
+          },
+          "interpretation": "The essay demonstrates clear organization, varied sentence structures, and a wide range of vocabulary and phrases, which aligns with the higher scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_e6fd54937e6a3da25c2aeab2",
+          "quotes": [
+            "I believe working alone is better because,people won't be bothering you, you can listen to music, and also you can work on your own pace."
+          ],
+          "interpretation": "The essay lacks clear organization and varied sentence structures, which aligns with the lower scores."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "do we accomplish more if we are always doing something or dose inactive server a purpose.",
+        "severing a purpose would be more better then if inactive because your not doing any thing to accomplish something."
+      ],
+      "observable_feature": "The essay demonstrates limited organization, simple sentence structures, and a narrow range of vocabulary and phrases.",
+      "evaluative_interpretation": "The essay's limited organization and simple sentence structures suggest a lower score, consistent with the observed Overall score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's limited range of vocabulary and phrases, and simple sentence structures align with the rubric's description for a score of 3.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay's limited organization, simple sentence structures, and narrow range of vocabulary and phrases align with the observed Overall score of 3, consistent with the rater's history of assigning higher scores to essays with clear organization, varied sentence structures, and a wide range of vocabulary and phrases.",
+  "insufficient_evidence": []
+}

@@ -1,0 +1,125 @@
+{
+  "changes": [
+    {
+      "path": "/target_evidence/0/evaluative_interpretation",
+      "before": "The limited vocabulary and phraseology errors, along with grammatical and conventional errors, suggest a proficiency level consistent with an Overall score of 2.",
+      "after": "The limited vocabulary and phraseology errors, along with grammatical and conventional errors, suggest a proficiency level consistent with an Overall score of [MASK].",
+      "value_spans": [
+        {
+          "start": 159,
+          "end": 160,
+          "value": "2",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/0/rubric_connection",
+      "before": "The text shows a limited range of vocabulary and occasional errors in phraseology, grammar, and conventions, which aligns with the rubric description for an Overall score of 2.",
+      "after": "The text shows a limited range of vocabulary and occasional errors in phraseology, grammar, and conventions, which aligns with the rubric description for an Overall score of [MASK].",
+      "value_spans": [
+        {
+          "start": 174,
+          "end": 175,
+          "value": "2",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/decision_explanation",
+      "before": "The target essay exhibits limited vocabulary, occasional phraseology errors, and some grammatical and conventional errors, consistent with the observed Overall score of 2. This pattern is supported by the history essay 'essay_7f251315cd2b8eaccabe86cc', which also received an Overall score of 2 for similar reasons.",
+      "after": "The target essay exhibits limited vocabulary, occasional phraseology errors, and some grammatical and conventional errors, consistent with the observed Overall score of [MASK]. This pattern is supported by the history essay 'essay_7f251315cd2b8eaccabe86cc', which also received an Overall score of [MASK] for similar reasons.",
+      "value_spans": [
+        {
+          "start": 169,
+          "end": 170,
+          "value": "2",
+          "replacement": "[MASK]"
+        },
+        {
+          "start": 293,
+          "end": 294,
+          "value": "2",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 4,
+  "changed_fields": 3,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/1/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    }
+  ],
+  "quarantine": [
+    {
+      "path": "/history_patterns/0/support/1/history_essay_id",
+      "kind": "invalid_history_reference",
+      "text": "essay_08dada50d5b2515068a5bb5a",
+      "action": "quarantine; not automatically rewritten"
+    },
+    {
+      "path": "/history_patterns/0/support/1/relevant_observed_history_scores",
+      "kind": "unverified_history_score_attribution",
+      "text": "{\"Overall\": 2, \"Traits\": {\"Vocabulary\": 2, \"Phraseology\": 2, \"Grammar\": 2, \"Conventions\": 2}}",
+      "action": "quarantine; not automatically rewritten"
+    },
+    {
+      "kind": "invalid_or_self_history_id",
+      "path": "essay_08dada50d5b2515068a5bb5a"
+    }
+  ],
+  "automatic_pass": false,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

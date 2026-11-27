@@ -1,0 +1,23 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S7",
+      "S14",
+      "S19"
+    ],
+    "feature": "The essay uses clear markers to introduce each reason, such as 'My first reason would be', 'My second reason would be', and 'My third reason would be'.",
+    "scoring_relevance": "These markers help to maintain a clear structure and logical flow, making the essay easier to follow and understand.",
+    "limitation": "The presence of these markers does not guarantee that the essay is fully cohesive, as the connections between the reasons and the overall argument need to be further evaluated.",
+    "next_check": "Review the transitions between the reasons and the conclusion to ensure that the essay maintains a coherent flow throughout.",
+    "quotes": [
+      "My first reason would be you will learn what is good for you and what is bad for you.",
+      "My second reason would be you will be smart if you make your own decision and you will be personally satisfied.",
+      "My third reason would be your confident will raise when you make your own decision."
+    ],
+    "observation_key": "essay_7e0742469e97fef28d84a8fc::O1",
+    "target_essay_id": "essay_7e0742469e97fef28d84a8fc",
+    "observed_score": 3
+  }
+]

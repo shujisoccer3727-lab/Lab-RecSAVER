@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_e23e7d7abb02690e9486b33d",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with clear organization, varied sentence structures, and appropriate use of vocabulary and phrases tend to receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_7931f3c00f789a5697a5b58d",
+            "quotes": [
+              "I think you should seek guidance from those that have been through this experience before you for a ever long time."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows a clear structure and varied sentence structures, which aligns with the observed scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_620ee39e1867ab53101d90b4",
+            "quotes": [
+              "Plus theres not much reason to accomplish stuff in life, because we are in matrix/prison flat earth and after we die we keep coming back over and over non stop so theres nothing to really accomplish."
+            ],
+            "interpretation": "This essay has a less clear structure and more errors, which contrasts with the higher scoring essays."
+          }
+        ],
+        "limitations": [
+          "The sample size is small, and the patterns observed may not be fully representative."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "Imagine if there was a world where everybody takes problems as chances to do their best. American Jazz legend Duke Ellington said, \"A problem is a chance for you to do your best.\""
+        ],
+        "observable_feature": "The essay demonstrates a clear structure with varied sentence structures and appropriate use of vocabulary and phrases.",
+        "evaluative_interpretation": "This feature aligns with the observed scores, indicating a well-organized essay with varied and appropriate language use.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay shows a controlled organization and a range of syntactic structures, appropriate vocabulary, and phrases, which aligns with the rubric for a score of 4.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates clear organization, varied sentence structures, and appropriate use of vocabulary and phrases, which aligns with the observed scores and the pattern observed in the history.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 4,
+        "Vocabulary": 4,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay's clear structure, varied sentence structures, and appropriate use of vocabulary and phrases support the observed Overall score of 4.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a generally well-controlled organization with a range of cohesive devices, supporting the observed score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows a flexible and effective use of a variety of syntactic structures, supporting the observed score of 4."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a wide range of vocabulary flexibly and effectively used to convey precise meanings, supporting the observed score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows an appropriate use of a variety of phrases, supporting the observed score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates minimal errors in grammar and usage, supporting the observed score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows a consistent use of appropriate conventions to convey meaning, supporting the observed score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "pattern": "Essays with generally controlled organization, a range of cohesive devices, and a sufficient vocabulary to allow flexibility and precision tend to receive a score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_623825e121b05f3178ddd950",
+          "quotes": [
+            "It is hard for them to go to their classes because they can not move their legs. So they would be late to class. It would be a stress for them."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 3
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and a sufficient vocabulary, consistent with a score of 3."
+        },
+        {
+          "history_essay_id": "essay_b6fab7bffe25eb2c4a69627e",
+          "quotes": [
+            "That is why having more time can help students is that scientists prove that having more time added in a school schedual will help students incress there acidemic by ten persont."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 3
+            }
+          },
+          "interpretation": "The essay shows controlled organization and a sufficient vocabulary, consistent with a score of 3."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_23a8594b76f0bbd8dcb9f093",
+          "quotes": [
+            "Dear Principal my thoughts about having phone's in school i think you should let students use phone in their own spar time because they don't use it during class and its not fair that most teachers at the school can use them during teaching it is a big distraction when the phone goes off during a test or some important project, but it well help if you let the student use their phone so they can plan their day by letting their parent know where there going after school or other events like school activities like soccer, basketball, and other great stuff the school has provide for all the students."
+          ],
+          "interpretation": "This essay has less controlled organization and a narrower vocabulary, which weakens the pattern but does not contradict it."
+        }
+      ],
+      "limitations": [
+        "The pattern does not account for essays with higher scores, which may have more sophisticated language use."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "quotes": [
+        "Talking to people is a great way to work on your social skills. That is why working in a group is beneficial to students."
+      ],
+      "observable_feature": "The essay demonstrates controlled organization and a sufficient vocabulary to allow flexibility and precision.",
+      "evaluative_interpretation": "The essay's organization and vocabulary are consistent with a score of [MASK], showing a higher level of proficiency than the pattern observed in the history.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's controlled organization and sufficient vocabulary align with the rubric's description for a score of [MASK].",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates controlled organization and a sufficient vocabulary, which aligns with the pattern observed in the history. However, the target essay's higher score of [MASK] suggests a more sophisticated use of language, consistent with the rubric's description for a score of [MASK].",
+  "insufficient_evidence": []
+}

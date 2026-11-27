@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_13",
+  "target_essay_id": "essay_b2051a651afade78bb309d8f",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with a score of 3 show controlled organization, occasional errors in grammar and syntax, and a minimally adequate range of vocabulary.",
+        "support": [
+          {
+            "history_essay_id": "essay_707c17a5fd0bce0e645492df",
+            "quotes": ["Teacher would have more time to teach you the subject you need to know . You would have to get an extra class to pick."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["To begin with, had you ever imbarrassed yourself by incident on your first impression? Do you remember a time when someone ask you to make a great impression of yourself and recall what happened?. It has been said that first impression are almost impossible to change."],
+        "observable_feature": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary, with occasional errors in grammar and syntax.",
+        "evaluative_interpretation": "The controlled organization and minimally adequate vocabulary range are consistent with a score of 3, while occasional errors in grammar and syntax support this evaluation.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay shows controlled organization and a minimally adequate range of vocabulary, with occasional errors in grammar and syntax, consistent with the rubric for a score of 3.",
+        "uncertainty": "The essay's occasional errors in grammar and syntax could be interpreted as more or less severe, potentially affecting the score."
+      }
+    ],
+    "decision_explanation": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary, with occasional errors in grammar and syntax, consistent with the observed score of 3. This is supported by the historical pattern observed in essay_707c17a5fd0bce0e645492df, which also received a score of 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay's controlled organization, minimally adequate vocabulary range, and occasional errors in grammar and syntax align with the observed Overall score of 3. The Trait scores are consistent with this evaluation.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates controlled organization, consistent with a Cohesion score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows occasional errors in sentence formation, consistent with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a minimally adequate range of vocabulary, consistent with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a limited range of phrases, consistent with a Phraseology score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows some errors in grammar and usage, consistent with a Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows developing use of conventions, with some distracting errors, consistent with a Conventions score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

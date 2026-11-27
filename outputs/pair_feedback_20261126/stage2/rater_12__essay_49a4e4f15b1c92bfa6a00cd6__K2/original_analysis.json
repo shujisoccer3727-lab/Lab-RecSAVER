@@ -1,0 +1,80 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar"
+      ],
+      "pattern": "Essays with frequent errors in sentence structure, word order, and cohesive devices tend to receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_56b47af1153e7884e4a981e9",
+          "quotes": [
+            "Students working from home is good for kids that could be getting buliud either they speack up but dont see a change, having problems with adults here at school that don't really help much but just bring the student down, or maybe just being an anti socicl person."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Grammar": 3
+            }
+          },
+          "interpretation": "The essay contains frequent errors in sentence structure and word order, which aligns with the lower scores."
+        },
+        {
+          "history_essay_id": "essay_7d884cf65731f24baf934030",
+          "quotes": [
+            "Because some students go traveling during summer vacation to other countrys and\r\n\r\nto see their family if we make the vacation shorter it would give them less time\r\n\r\nto spend time with their family and travlel students usally have their summer schudel planed out on what they are going to do during the summer and if we cut out some days it would mess up there planing falmilys"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Grammar": 4
+            }
+          },
+          "interpretation": "The essay has frequent errors in sentence structure and word order, which aligns with the lower scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_7feeb1e7e2ad8717d2e3d436",
+          "quotes": [
+            "In Thailand there are many different towns I want to visit. In the towns there are many cool things I could buy. Also I would probably see lots of animals there like birds, dogs, or even farm animals walking, or flying around, which I would I like to see."
+          ],
+          "interpretation": "This essay has fewer errors in sentence structure and word order, yet it received a higher score, suggesting that other factors may also influence the score."
+        }
+      ],
+      "limitations": [
+        "The pattern is not consistent across all essays, indicating that other factors may also influence the scores."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar"
+      ],
+      "quotes": [
+        "We accomplish more doing always something.\r\n\r\n.\r\n\r\nIn our world we see how old people, young people, children, are in the streets with no food to eat barely clothes put on with no money on the pockets."
+      ],
+      "observable_feature": "The text contains frequent errors in sentence structure, word order, and cohesive devices.",
+      "evaluative_interpretation": "These errors interfere with the clarity and coherence of the text, which may justify a lower score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for scores 2 and 3 indicates that frequent errors in sentence structure and word order can impede communication.",
+      "uncertainty": "The text also contains some coherent sentences, which may suggest a higher score."
+    }
+  ],
+  "decision_explanation": "The target essay contains frequent errors in sentence structure, word order, and cohesive devices, which aligns with the lower scores observed in the history. The pattern observed in the history suggests that these errors may justify a lower score.",
+  "insufficient_evidence": []
+}

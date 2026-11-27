@@ -1,0 +1,90 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with controlled organization, occasional errors in sentence formation, and a sufficient range of vocabulary receive scores around 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_5e2874c333eea186ef113ea1",
+          "quotes": [
+            "should your school follow this model by extending the school day two hours ?yes is a good idea for somepeople what need work after or before school"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 2,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay shows limited control of organization and frequent errors, consistent with a lower score."
+        },
+        {
+          "history_essay_id": "essay_ed4cc867caedf008a4e62621",
+          "quotes": [
+            "The principal reason why I want to go is for my family influences, my grandma has been dreaming about me been an actress."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and occasional errors, consistent with a score around 3."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_598724e5b862459ca01d3ff2",
+          "quotes": [
+            "In this essay I will discuss as to why curfews could be a necessary law for teenagers."
+          ],
+          "interpretation": "This essay shows better control and fewer errors, leading to a higher score."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate."
+      ],
+      "observable_feature": "The essay demonstrates controlled organization with occasional errors in sentence formation and a sufficient range of vocabulary.",
+      "evaluative_interpretation": "The text shows controlled organization and occasional errors, which is consistent with a score around 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text aligns with the rubric's description for a score of [MASK], showing controlled organization and occasional errors.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates controlled organization with occasional errors in sentence formation and a sufficient range of vocabulary, consistent with the observed scores. The historical comparison supports this interpretation.",
+  "insufficient_evidence": []
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_99e2936b1dd6e9cba66e5b",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": ["S2", "S3"],
+      "feature": "The essay uses 'because' to introduce a reason that supports the main idea.",
+      "scoring_relevance": "The use of 'because' helps to establish a clear causal relationship between the main idea and the supporting reason, which is relevant to the cohesion dimension.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the local connection between the main idea and the supporting reason.",
+      "next_check": "Review the transitions between other paragraphs to see if they maintain a similar level of clarity in connecting ideas."
+    }
+  ],
+  "insufficient_evidence": []
+}

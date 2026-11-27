@@ -1,0 +1,166 @@
+{
+  "changes": [
+    {
+      "path": "/history_patterns/0/limitations/0",
+      "before": "The pattern is supported by essays with Overall scores of 3, but the target essay has an Overall score of 4.",
+      "after": "The pattern is supported by essays with Overall scores of [MASK], but the target essay has an Overall score of [MASK].",
+      "value_spans": [
+        {
+          "start": 58,
+          "end": 59,
+          "value": "3",
+          "replacement": "[MASK]"
+        },
+        {
+          "start": 106,
+          "end": 107,
+          "value": "4",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/0/evaluative_interpretation",
+      "before": "This feature is consistent with an Overall score of 4, as it shows facility in language use with occasional inaccuracies that do not impede communication.",
+      "after": "This feature is consistent with an Overall score of [MASK], as it shows facility in language use with occasional inaccuracies that do not impede communication.",
+      "value_spans": [
+        {
+          "start": 52,
+          "end": 53,
+          "value": "4",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/0/rubric_connection",
+      "before": "The text organization is generally well-controlled, and a range of cohesive devices are used appropriately, consistent with the rubric for a score of 4.",
+      "after": "The text organization is generally well-controlled, and a range of cohesive devices are used appropriately, consistent with the rubric for a score of [MASK].",
+      "value_spans": [
+        {
+          "start": 150,
+          "end": 151,
+          "value": "4",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/decision_explanation",
+      "before": "The target essay shows a controlled organization and varied vocabulary with occasional errors, consistent with the observed Overall score of 4. This pattern is supported by the history essays with similar features and Overall scores of 3, indicating that the rater tends to assign a score of 4 for essays with these characteristics.",
+      "after": "The target essay shows a controlled organization and varied vocabulary with occasional errors, consistent with the observed Overall score of [MASK]. This pattern is supported by the history essays with similar features and Overall scores of [MASK], indicating that the rater tends to assign a score of [MASK] for essays with these characteristics.",
+      "value_spans": [
+        {
+          "start": 141,
+          "end": 142,
+          "value": "4",
+          "replacement": "[MASK]"
+        },
+        {
+          "start": 236,
+          "end": 237,
+          "value": "3",
+          "replacement": "[MASK]"
+        },
+        {
+          "start": 292,
+          "end": 293,
+          "value": "4",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 7,
+  "changed_fields": 4,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/status",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/pattern",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/1/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/1/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/1/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    }
+  ],
+  "quarantine": [],
+  "automatic_pass": true,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

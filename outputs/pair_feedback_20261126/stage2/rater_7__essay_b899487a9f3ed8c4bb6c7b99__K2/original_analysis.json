@@ -1,0 +1,91 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with occasional errors in cohesion, syntax, vocabulary, grammar, and conventions tend to receive scores around 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_c5cc2aeab042c249b0f62f33",
+          "quotes": [
+            "\"It would make the students confidence.\"",
+            "\"When she came in the United States she wasn't speak English well\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 4,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 5
+            }
+          },
+          "interpretation": "The essay has occasional errors in cohesion, syntax, and vocabulary, which align with a score of 3."
+        },
+        {
+          "history_essay_id": "essay_47882f4c789d4b4f9a018d1a",
+          "quotes": [
+            "\"Everyone goes to tough times which cuases failure, but once you fail you get up and better your self in order to succed.\", \"You are mainly not succesful without any failure.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay has occasional errors in cohesion, syntax, and vocabulary, which align with a score of 3."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_7f251315cd2b8eaccabe86cc",
+          "quotes": [
+            "\"Some schools have a program that older student and the young ones that could help one another.\", \"Another example, would be that the older ones can learn new things from the young student to see what is different from the past and preisant.\""
+          ],
+          "interpretation": "This essay has more frequent errors and a lower score, which weakens the pattern but does not invalidate it."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by two essays but does not account for all possible variations in scoring."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"I don't think it's a good idea to work from home they're a lot of kids that would just take advantage from working from home.\", \"They're different kinds of people out there who would stay at home just because they didn't feel like getting up so early in the morning.\""
+      ],
+      "observable_feature": "The essay contains occasional errors in cohesion, syntax, vocabulary, grammar, and conventions.",
+      "evaluative_interpretation": "These errors are consistent with a score of 3, as they do not significantly impede communication but are noticeable.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for a score of 3 indicates occasional errors that do not significantly impede communication.",
+      "uncertainty": "The essay's overall coherence and the frequency of errors are consistent with a score of 3, but the exact balance of errors and strengths is not fully specified."
+    }
+  ],
+  "decision_explanation": "The essay's occasional errors in cohesion, syntax, vocabulary, grammar, and conventions align with the pattern observed in the history, where similar errors receive scores around 3. The target essay's score of 3 is consistent with this pattern.",
+  "insufficient_evidence": []
+}

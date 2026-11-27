@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "essay_3107f9ecdc1148ac6a33ee88",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with clear organization and varied sentence structures receive higher scores, while those with limited vocabulary and phraseology receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_47882f4c789d4b4f9a018d1a",
+            "quotes": ["I believe the Former British Prime Minister Winston Churchill the motto he goes by is a great motto."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 4,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates clear organization and varied sentence structures, leading to higher scores."
+          },
+          {
+            "history_essay_id": "essay_c5ed1eb2265344005456b10e",
+            "quotes": ["If I could go any place in the world it would be Jamaica because there are many places you could go to do activities, there is a variety of food, and different types animals."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 4,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows clear organization and varied sentence structures, contributing to higher scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_7f251315cd2b8eaccabe86cc",
+            "quotes": ["Some schools have a program that older student and the young ones that could help one another."],
+            "interpretation": "This essay has limited vocabulary and phraseology, leading to lower scores despite clear organization."
+          }
+        ],
+        "limitations": ["The pattern does not account for essays with clear organization but limited vocabulary and phraseology."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["Students believe in praising them builds their self esttem, even when the work is not at its full potential. But others say giveb praise for deficient work undermines the learning by lowering standards."],
+        "observable_feature": "The essay demonstrates clear organization and varied sentence structures, but has limited vocabulary and phraseology.",
+        "evaluative_interpretation": "The clear organization and varied sentence structures support a higher score, while the limited vocabulary and phraseology suggest a lower score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay shows controlled organization and varied sentence structures, but lacks a wide range of vocabulary and phraseology.",
+        "uncertainty": "The essay's limited vocabulary and phraseology may impact the overall score."
+      }
+    ],
+    "decision_explanation": "The essay demonstrates clear organization and varied sentence structures, which aligns with higher scores observed in history. However, the limited vocabulary and phraseology suggest a lower score, consistent with the observed Overall score of 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 2,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay's clear organization and varied sentence structures support a higher score, but the limited vocabulary and phraseology suggest a lower score, consistent with the observed Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates clear organization and varied sentence structures, consistent with a score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows varied sentence structures, but some apparent errors in sentence formation, consistent with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has a minimally adequate range of vocabulary, consistent with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a narrow range of phrases, consistent with a score of 2."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has some errors in grammar and usage, consistent with a score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates consistent use of conventions, with few and not distracting errors, consistent with a score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The essay's limited vocabulary and phraseology may impact the overall score, but the clear organization and varied sentence structures support a higher score."]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_40aaeae6f13c4a2faac1c297",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with frequent grammatical errors, limited vocabulary, and occasional syntax issues tend to receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_c01dfe1288cc86587ad100a3",
+            "quotes": ["I desagree for a reason we can speak their opinions, but sometime we can get trauble with their words can they said?"],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 2,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay contains frequent grammatical errors and limited vocabulary, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_b1cca193002635ed61a412bb",
+            "quotes": ["Cell phones are powerful electronic tools for students to use in classroom. Cell phones are now the most popular device that we can take with us wherever we go because it provide useful information such as news and climate."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 2,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay has occasional syntax issues and limited vocabulary, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_5b889c8b52928dc30dd656bb",
+            "quotes": ["In this reason however l goona be agree with a positive attitude is the key to success in life because people in the all word the majority they dont have positive attitude so l am agree with people the have positive attitude, to many people in the word traying to help anothers people to get positive attitude its more better to have more people with positive attitude in the all word."],
+            "interpretation": "This essay has more severe grammatical errors and limited vocabulary, which received an Overall score of 2, suggesting that the pattern is not strictly consistent."
+          }
+        ],
+        "limitations": ["The pattern is not strictly consistent, as some essays with similar features received different Overall scores."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["Students may say inactivity is the way to go, However other student say keeping yourself occupied will lead you towards achievement. But staying occupied is the way to go if you wanna be successful and achieve things in life."],
+        "observable_feature": "The essay contains frequent grammatical errors, limited vocabulary, and occasional syntax issues.",
+        "evaluative_interpretation": "These features are consistent with an Overall score of 3, as they reflect limited facility in language use and occasional inaccuracies that impede communication.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for Overall score 3 indicates limited facility in sentence formation, word choice, and mechanics, with communication impeded in some cases.",
+        "uncertainty": "The essay's overall coherence and organization are not fully clear from this excerpt alone."
+      }
+    ],
+    "decision_explanation": "The target essay's frequent grammatical errors, limited vocabulary, and occasional syntax issues are consistent with the observed Overall score of 3, as supported by the historical pattern H1.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 4,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The target essay's frequent grammatical errors, limited vocabulary, and occasional syntax issues align with the observed Overall score of 3, as these features reflect limited facility in language use and occasional inaccuracies that impede communication.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally controlled organization with some repetitive and mechanical use of cohesive devices, consistent with a Cohesion score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows appropriate use of a variety of syntactic structures with occasional errors, consistent with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary for the topic, consistent with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows evident use of phrases with some noticeable repetitions and misuses, consistent with a Phraseology score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates minimal errors in grammar and usage, consistent with a Grammar score of 4."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows variable use of conventions with frequent and distracting errors, consistent with a Conventions score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The essay's overall coherence and organization are not fully clear from the provided excerpt alone."]
+  }
+}

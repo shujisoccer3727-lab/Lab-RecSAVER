@@ -1,0 +1,150 @@
+{
+  "changes": [
+    {
+      "path": "/target_evidence/0/rubric_connection",
+      "before": "The text shows a wide range of vocabulary and varied sentence structures, which aligns with the rubric for a score of 5.",
+      "after": "The text shows a wide range of vocabulary and varied sentence structures, which aligns with the rubric for a score of [MASK].",
+      "value_spans": [
+        {
+          "start": 118,
+          "end": 119,
+          "value": "5",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/1/evaluative_interpretation",
+      "before": "This feature aligns with a score of 4 for Cohesion, as it shows generally appropriate use of cohesive devices.",
+      "after": "This feature aligns with a score of [MASK] for Cohesion, as it shows generally appropriate use of cohesive devices.",
+      "value_spans": [
+        {
+          "start": 36,
+          "end": 37,
+          "value": "4",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/1/rubric_connection",
+      "before": "The text uses transitional words and phrases to connect ideas, which aligns with the rubric for a score of 4.",
+      "after": "The text uses transitional words and phrases to connect ideas, which aligns with the rubric for a score of [MASK].",
+      "value_spans": [
+        {
+          "start": 107,
+          "end": 108,
+          "value": "4",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/decision_explanation",
+      "before": "The target essay demonstrates a wide range of vocabulary, varied sentence structures, and minimal errors, which aligns with the higher Overall score of 5. The use of cohesive devices such as transitional words and phrases supports a score of 4 for Cohesion.",
+      "after": "The target essay demonstrates a wide range of vocabulary, varied sentence structures, and minimal errors, which aligns with the higher Overall score of [MASK]. The use of cohesive devices such as transitional words and phrases supports a score of [MASK] for Cohesion.",
+      "value_spans": [
+        {
+          "start": 152,
+          "end": 153,
+          "value": "5",
+          "replacement": "[MASK]"
+        },
+        {
+          "start": 242,
+          "end": 243,
+          "value": "4",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 5,
+  "changed_fields": 4,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/status",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/pattern",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/1/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/1/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/1/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    }
+  ],
+  "quarantine": [],
+  "automatic_pass": true,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

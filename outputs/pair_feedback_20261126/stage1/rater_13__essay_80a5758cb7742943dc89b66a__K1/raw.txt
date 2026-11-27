@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_13",
+  "target_essay_id": "essay_80a5758cb7742943dc89b66a",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Overall", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "High scores are given to essays with varied and complex sentence structures, a wide range of vocabulary, and minimal errors.",
+        "support": [
+          {
+            "history_essay_id": "essay_3f4d5d459a296ccd2d5d0c8d",
+            "quotes": ["First the reason I would like to go visit Germany is mostly to see all of the beautiful places and landmarks that Germany has to offer."],
+            "relevant_observed_history_scores": {
+              "Overall": 5,
+              "Traits": {
+                "Cohesion": 5,
+                "Syntax": 5,
+                "Vocabulary": 5,
+                "Phraseology": 5,
+                "Grammar": 5,
+                "Conventions": 5
+              }
+            },
+            "interpretation": "The essay demonstrates varied sentence structures and a wide range of vocabulary, consistent with a high score."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_9360ebd676d148b9227e2783",
+            "quotes": ["for a few months i had my mother and sisters to tell me whats right from wrong."],
+            "interpretation": "This essay has simpler sentence structures and less varied vocabulary, yet still received a high score, suggesting that other factors may also influence the score."
+          }
+        ],
+        "limitations": ["The pattern is not consistent across all high-scoring essays, indicating that other factors may also play a role."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Overall", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["The curfews keep teenagers out of trouble because most of them would not want to be kidnapped or murdered while walking on the street at night."],
+        "observable_feature": "The essay demonstrates varied and complex sentence structures, a wide range of vocabulary, and minimal errors.",
+        "evaluative_interpretation": "This feature is consistent with a high score, as it aligns with the pattern observed in the history.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay shows a flexible and effective use of a full range of syntactic structures, a wide range of vocabulary, and minimal errors, consistent with a score of 5.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates varied and complex sentence structures, a wide range of vocabulary, and minimal errors, consistent with the pattern observed in the history. This supports the high score given to the essay.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 5,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 5,
+        "Vocabulary": 5,
+        "Phraseology": 5,
+        "Grammar": 5,
+        "Conventions": 5
+      }
+    },
+    "overall_alignment": "The essay demonstrates varied and complex sentence structures, a wide range of vocabulary, and minimal errors, consistent with a high score of 5.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally well-controlled organization with a range of cohesive devices used appropriately, consistent with a score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates flexible and effective use of a full range of syntactic structures, consistent with a score of 5."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a wide range of vocabulary flexibly and effectively used to convey precise meanings, consistent with a score of 5."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates flexible and effective use of a variety of phrases, such as idioms, collocations, and lexical bundles, consistent with a score of 5."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates command of grammar and usage with few or no errors, consistent with a score of 5."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates consistent use of appropriate conventions to convey meaning, consistent with a score of 5."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The pattern observed in the history is not consistent across all high-scoring essays, indicating that other factors may also play a role."]
+  }
+}

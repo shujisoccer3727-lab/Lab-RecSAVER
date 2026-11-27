@@ -1,0 +1,38 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Grammar",
+    "evidence_span_ids": [
+      "S11"
+    ],
+    "feature": "The sentence 'Is good to help because that is how you making people o be happy.' contains grammatical errors, including the incorrect use of 'Is' instead of 'It is' and the incorrect verb form 'making' instead of 'make'.",
+    "scoring_relevance": "These grammatical errors affect the clarity and correctness of the sentence, which is relevant to the Grammar scoring dimension.",
+    "limitation": "This observation is limited to this specific sentence and does not provide a comprehensive assessment of the essay's grammar.",
+    "next_check": "Review other sentences in the essay for similar grammatical errors, particularly the use of subject-verb agreement and correct verb forms.",
+    "quotes": [
+      " Is good to help because that is how you making people o be happy."
+    ],
+    "observation_key": "essay_df9af22099cd0e471aff2f68::O1",
+    "target_essay_id": "essay_df9af22099cd0e471aff2f68",
+    "observed_score": 2
+  },
+  {
+    "observation_id": "O2",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S7",
+      "S8"
+    ],
+    "feature": "The sentences 'What-help the people that they need help and care about people.' and 'and teach yourself how to help people.' are connected by the theme of helping others, but the transition between these ideas is abrupt and lacks clear linking words.",
+    "scoring_relevance": "The lack of clear transitions between ideas can affect the flow and coherence of the essay, which is relevant to the Cohesion scoring dimension.",
+    "limitation": "This observation is limited to the connection between these two sentences and does not provide a comprehensive assessment of the essay's overall cohesion.",
+    "next_check": "Check other parts of the essay for transitions between ideas and the use of linking words to improve the flow of the text.",
+    "quotes": [
+      "What-help the people that they need help and care about people.",
+      " and teach yourself how to help people."
+    ],
+    "observation_key": "essay_df9af22099cd0e471aff2f68::O2",
+    "target_essay_id": "essay_df9af22099cd0e471aff2f68",
+    "observed_score": 2
+  }
+]

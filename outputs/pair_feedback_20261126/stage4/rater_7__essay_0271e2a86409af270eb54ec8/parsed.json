@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_0271e2a86409af270eb54ec8",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S1"
+      ],
+      "feature": "The span contains a nonstandard verb form: 'consist' instead of 'consists'.",
+      "scoring_relevance": "The presence of nonstandard verb forms can affect the clarity and correctness of the sentence, which is relevant to the Grammar dimension.",
+      "limitation": "This observation does not establish the frequency of grammatical errors throughout the essay.",
+      "next_check": "Review other sentences for similar verb form errors or other grammatical issues."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S11"
+      ],
+      "feature": "The essay begins and ends with a similar statement about Prime Minister Churchill's quote on success and failure.",
+      "scoring_relevance": "The repetition of a key idea at the beginning and end of the essay can help establish a cohesive structure, which is relevant to the Cohesion dimension.",
+      "limitation": "This observation does not establish the overall coherence of the essay or the consistency of the argument.",
+      "next_check": "Examine the middle paragraphs to see if they connect logically to the opening and closing statements."
+    }
+  ],
+  "insufficient_evidence": []
+}

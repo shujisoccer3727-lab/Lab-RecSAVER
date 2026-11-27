@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_b1cca193002635ed61a412bb",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "pattern": "Essays with a well-controlled organization, varied vocabulary, and appropriate use of phrases receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_894803a8e81bb80efb90a3be",
+            "quotes": ["\"Giving high school students chances to graduate early increases graduation rates.\"", "For example a girl wanted to give up on school because she said it was too stressful and time consuming and she didn't want to go to college after high school."],
+            "relevant_observed_history_scores": {
+              "Overall": 5,
+              "Traits": {
+                "Cohesion": 5,
+                "Vocabulary": 5,
+                "Phraseology": 5
+              }
+            },
+            "interpretation": "The essay demonstrates a well-controlled organization and varied vocabulary, which aligns with the higher scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_b819379406aa9abe86991ac7",
+            "quotes": ["\"Technology has positive effects on people's lives because they can help you with many information that your trying to look up for example if your trying to shop, play games, or even buy or read books.\""],
+            "interpretation": "The essay has a less controlled organization and less varied vocabulary, which aligns with the lower scores."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "quotes": ["\"Cell phones are powerful electronic tools for students to use in classroom.\"", "Cell phones are now the most popular device that we can take with us wherever we go because it provide useful information such as news and climate."],
+        "observable_feature": "The essay demonstrates a well-controlled organization and varied vocabulary, with appropriate use of phrases.",
+        "evaluative_interpretation": "The essay's organization and vocabulary are consistent with a score of 3, showing controlled but not fully flexible use of language.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay aligns with the rubric's description for a score of 3, indicating controlled but not fully flexible use of language.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": ["Grammar"],
+        "quotes": ["\"Cell phones are powerful electronic tools for students to use in classroom.\"", "Cell phones are now the most popular device that we can take with us wherever we go because it provide useful information such as news and climate."],
+        "observable_feature": "The essay contains occasional errors in grammar and usage.",
+        "evaluative_interpretation": "The essay's grammatical errors are consistent with a score of 2, indicating some errors in grammar and usage.",
+        "linked_history_pattern_ids": [],
+        "rubric_connection": "The essay aligns with the rubric's description for a score of 2, indicating some errors in grammar and usage.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay's controlled organization, varied vocabulary, and appropriate use of phrases align with a score of 3, while occasional grammatical errors align with a score of 2. This is consistent with the rater's history of scoring essays with similar features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 2,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay's controlled organization, varied vocabulary, and appropriate use of phrases align with a score of 3, while occasional grammatical errors align with a score of 2. This is consistent with the rater's history of scoring essays with similar features.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a well-controlled organization, aligning with a score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay's syntax is consistent with a score of 3, showing appropriate use of a variety of syntactic structures."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a varied vocabulary, aligning with a score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates appropriate use of phrases, aligning with a score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T2"],
+        "alignment": "The essay contains occasional errors in grammar and usage, aligning with a score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates generally consistent use of appropriate conventions, aligning with a score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

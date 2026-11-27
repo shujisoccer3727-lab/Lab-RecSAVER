@@ -1,0 +1,78 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with limited syntactic variety, occasional errors in sentence formation, and some language inaccuracies tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_623825e121b05f3178ddd950",
+          "quotes": [
+            "Because it is not easy to attend classes for every students."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {}
+          },
+          "interpretation": "The sentence structure and vocabulary indicate a controlled but limited range, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_b5d821b7fbc0682740cf952e",
+          "quotes": [
+            "Sometimes it is just an coincidence that they have gone throng the same situation, and they feel identify not necessary inspired, it can also be a way to see how people can have many different ways to handle a situation,"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {}
+          },
+          "interpretation": "The sentence structure and vocabulary indicate a more limited range, consistent with an Overall score of 2."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_2cc56c7ee59b6d3cc63f5128",
+          "quotes": [
+            "the peoples sopport the ideas of other like in the polytechinic, in the religion and society ."
+          ],
+          "interpretation": "The sentence structure and vocabulary indicate a more limited range, consistent with an Overall score of 2, which weakens the pattern."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by two essays but weakened by one, indicating variability in the rater's interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the schedule and more Students will likely to pass the classes and both elective and art have the same principle with the same accomplishment."
+      ],
+      "observable_feature": "The sentence structure is simple with occasional errors in sentence formation and vocabulary.",
+      "evaluative_interpretation": "The sentence structure and vocabulary indicate a controlled but limited range, consistent with an Overall score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The sentence structure and vocabulary indicate a controlled but limited range, consistent with the rubric's description for an Overall score of 3.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay's sentence structure and vocabulary indicate a controlled but limited range, consistent with the rubric's description for an Overall score of 3. This is supported by the historical pattern observed in the rater's scoring of similar essays.",
+  "insufficient_evidence": []
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_2a9d56b6c0d88e44c8bbab35",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with clear organization, varied sentence structures, and minimal errors receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_96b587aeaf1f53910d5e55c9",
+            "quotes": ["\"To be more specific about how importance of attitude, your day is great or bad is depended on how your attitude toward the happen.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 4,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates clear organization and varied sentence structures, leading to higher scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_9ac1f84a77b92c702fe842e5",
+            "quotes": ["\"Some school offer programs that allow high school students to graduate in tree years instead traditional four years.\""],
+            "interpretation": "This essay has less clear organization and more errors, leading to lower scores."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["\"Technology is the reason why we are still in contact with family members from across the world.\""],
+        "observable_feature": "The essay demonstrates clear organization and varied sentence structures with minimal errors.",
+        "evaluative_interpretation": "This feature supports a higher score as it aligns with the pattern observed in the history.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay shows a controlled organization, varied sentence structures, and minimal errors, aligning with the rubric for a score of 4.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates clear organization, varied sentence structures, and minimal errors, consistent with the pattern observed in the history. This supports the observed score of 4.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 4,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 4,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay's clear organization, varied sentence structures, and minimal errors align with the observed Overall score of 4.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates clear organization and varied sentence structures, aligning with the observed score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows varied sentence structures with minimal errors, aligning with the observed score of 4."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay uses a sufficient range of vocabulary, aligning with the observed score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay uses a variety of phrases with occasional inaccuracies, aligning with the observed score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows minimal errors in grammar and usage, aligning with the observed score of 4."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates generally consistent use of conventions with few errors, aligning with the observed score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

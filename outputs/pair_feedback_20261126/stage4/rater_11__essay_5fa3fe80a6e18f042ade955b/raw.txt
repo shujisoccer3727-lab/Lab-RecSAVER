@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_5fa3fe80a6e18f042ade955b",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": ["S2", "S6"],
+      "feature": "The essay begins with a statement of the thesis in S2 and then transitions to the first supporting point in S6, which directly addresses the thesis.",
+      "scoring_relevance": "This feature demonstrates the essay's ability to maintain a clear connection between the thesis and the supporting points, which is relevant to the cohesion dimension.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the initial connection between the thesis and the first supporting point.",
+      "next_check": "Review the transitions between other supporting points and the thesis to ensure consistent cohesion throughout the essay."
+    }
+  ],
+  "insufficient_evidence": []
+}

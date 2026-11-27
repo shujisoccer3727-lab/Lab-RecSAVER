@@ -1,0 +1,92 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with occasional errors in grammar and syntax, and a generally controlled organization, receive a score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_c33fcd11d24bca6c46d8d1cd",
+          "quotes": [
+            "\"the school should be for the student attend class at home by internet,video,and website, then It's fine.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 2,
+              "Vocabulary": 2,
+              "Phraseology": 3,
+              "Grammar": 2,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay contains numerous grammatical and syntactical errors, leading to a score of 2."
+        },
+        {
+          "history_essay_id": "essay_acc62b00900a0ec7b7be3915",
+          "quotes": [
+            "\"Other way to enjoy these amazing parks is by visiting it with you're families.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay has a generally controlled organization and occasional errors, leading to a score of 4."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_2548a450358fcc40a297da41",
+          "quotes": [
+            "\"Primarily technology's goal is to make certain tasks easier, not to make us anti-social or make us obese.\""
+          ],
+          "interpretation": "This essay has fewer errors and a more controlled organization, leading to a score of 4."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by two essays, but the third essay with a score of 4 has fewer errors, indicating that the pattern is not definitive."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"being inactive dose not make our life easier in case to make it easy we should do how much we can and don't put today's work for tomorrow.\""
+      ],
+      "observable_feature": "The sentence contains grammatical and syntactical errors, and the vocabulary is minimally adequate.",
+      "evaluative_interpretation": "The errors and limited vocabulary suggest a score of [MASK].",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text shows occasional errors in grammar and syntax, and a generally controlled organization, consistent with a score of [MASK].",
+      "uncertainty": "The essay's overall coherence and vocabulary range are not fully assessed."
+    }
+  ],
+  "decision_explanation": "The target essay exhibits occasional errors in grammar and syntax, and a generally controlled organization, consistent with the observed scores of [MASK] across multiple dimensions. This aligns with the pattern observed in the history where essays with similar features receive a score of [MASK].",
+  "insufficient_evidence": []
+}

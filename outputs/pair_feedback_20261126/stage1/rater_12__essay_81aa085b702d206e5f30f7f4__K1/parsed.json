@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_81aa085b702d206e5f30f7f4",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Syntax",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with frequent errors in sentence structure, grammar, and conventions tend to receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_f3f5c6ca82999e9712ff95dc",
+            "quotes": [
+              "The school program will the help the a lot of school in state."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Syntax": 2,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The sentence structure and grammar errors in this excerpt align with the lower Trait scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is supported by only one essay, limiting its generalizability."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Syntax",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "P.e is my favorite educational activity because i mostly enjoy it."
+        ],
+        "observable_feature": "The sentence lacks proper capitalization and punctuation, and the structure is simple with no complex clauses.",
+        "evaluative_interpretation": "This sentence demonstrates a lack of syntactic variety and frequent errors in grammar and conventions, which aligns with the observed lower Trait scores.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for scores 2 and 3 indicates frequent errors in sentence structure, grammar, and conventions, which is evident in this excerpt.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": [
+          "Cohesion"
+        ],
+        "quotes": [
+          "P.e is my favorite educational activity because i mostly enjoy it. Because all my friends are in that class."
+        ],
+        "observable_feature": "The use of 'Because' at the start of the second sentence lacks a cohesive transition.",
+        "evaluative_interpretation": "The lack of cohesive devices and the repetitive use of 'Because' suggest a limited control of text organization, consistent with the observed Cohesion score of 2.",
+        "linked_history_pattern_ids": [],
+        "rubric_connection": "The rubric for score 2 indicates a partially developed organization with a lack of logical sequencing of ideas.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay exhibits frequent errors in sentence structure, grammar, and conventions, as seen in evidence T1, which aligns with the observed lower Trait scores. The limited control of text organization, as seen in evidence T2, supports the Cohesion score of 2. These features are consistent with the historical pattern observed in essay_f3f5c6ca82999e9712ff95dc.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The target essay's frequent errors in sentence structure, grammar, and conventions, along with limited control of text organization, align with the observed Overall score of 2. The Trait scores reflect these specific areas of weakness.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T2"
+        ],
+        "alignment": "The limited use of cohesive devices and repetitive structure support the Cohesion score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The simple sentence structure and lack of complex clauses support the Syntax score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The vocabulary range is minimally adequate, with occasional attempts to use less common words, supporting the Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The use of phrases is evident but limited in variety, supporting the Phraseology score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The frequent errors in grammar and usage support the Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The frequent errors in spelling, capitalization, and punctuation support the Conventions score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

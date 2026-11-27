@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_56b47af1153e7884e4a981e9",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with controlled organization, varied vocabulary, and occasional errors in grammar and syntax tend to receive an Overall score of 4.",
+        "support": [
+          {
+            "history_essay_id": "essay_99e2936b1dd396e9cba66e5b",
+            "quotes": ["\"When people ask for advice, it can help someone make a better choice because it can change your thinking, it can give you a better idea, and you can know what other people are thinking.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and varied vocabulary with occasional errors, consistent with an Overall score of 4."
+          },
+          {
+            "history_essay_id": "essay_2548a450358fcc40a297da41",
+            "quotes": ["\"Technology, 21st centuries finest product. nearly everyone loves technology, is it really that beautiful? When i was a kid people used to say 'technology will end our social life.' I didnt believe that then, but now i see what they were trying to say.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay shows controlled organization and varied vocabulary with occasional errors, consistent with an Overall score of 4."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_f3f5c6ca82999e9712ff95dc",
+            "quotes": ["\"I help some student where to go. The school program will help some new student. I help some small grade level to help do their home.\""],
+            "interpretation": "The essay demonstrates limited control of organization and syntax, which contrasts with the pattern of controlled organization and varied vocabulary."
+          }
+        ],
+        "limitations": ["The pattern is supported by two essays but limited by one essay with lower scores."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["\"I think students would benefit doing school at home many kids maybe going through problems at home and could just be tired or maybe just annoyed of to much problems.\""],
+        "observable_feature": "The essay demonstrates controlled organization and varied vocabulary with occasional errors in grammar and syntax.",
+        "evaluative_interpretation": "The controlled organization and varied vocabulary with occasional errors are consistent with an Overall score of 3.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay shows facility in the use of language with syntactic variety and range of words and phrases, controlled organization, and accuracy in grammar and conventions with occasional language inaccuracies that rarely impede communication.",
+        "uncertainty": "The essay's occasional errors in grammar and syntax may be interpreted as impeding communication in some cases."
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates controlled organization and varied vocabulary with occasional errors in grammar and syntax, consistent with the pattern observed in history essays with Overall scores of 4. However, the occasional errors in grammar and syntax may be interpreted as impeding communication in some cases, leading to an Overall score of 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay demonstrates controlled organization and varied vocabulary with occasional errors in grammar and syntax, consistent with an Overall score of 3. The Trait scores align with the rubric criteria for controlled organization, varied vocabulary, and occasional errors.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates controlled organization with cohesive devices used but limited in type, consistent with a Cohesion score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows appropriate use of a variety of syntactic structures with occasional errors or inappropriateness in sentence formation, consistent with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary to allow flexibility and precision, consistent with a Vocabulary score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows appropriate use of a variety of phrases with occasional inaccuracies, consistent with a Phraseology score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates some errors in grammar and usage, consistent with a Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows developing use of conventions with errors in spelling, capitalization, and punctuation that are sometimes distracting, consistent with a Conventions score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The occasional errors in grammar and syntax may be interpreted as impeding communication in some cases, which could justify a lower Overall score."]
+  }
+}

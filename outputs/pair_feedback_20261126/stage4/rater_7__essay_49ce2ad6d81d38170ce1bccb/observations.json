@@ -1,0 +1,29 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6"
+    ],
+    "feature": "The essay introduces the statement and acknowledges different viewpoints, but the transitions between agreeing and disagreeing with the statement are not clearly articulated.",
+    "scoring_relevance": "Cohesion is relevant here because the essay lacks clear transitions between agreeing and disagreeing with the statement, which can affect the overall flow and readability of the essay.",
+    "limitation": "This observation does not establish the overall coherence of the essay, only the local transitions between agreeing and disagreeing with the statement.",
+    "next_check": "Review the transitions between paragraphs and sentences to ensure that the writer's stance is clearly articulated and that the essay flows logically.",
+    "quotes": [
+      "Based on your experience, do you agree on this statement, \"Unless you try to do something beyond what you have already mastered, you will never grow.",
+      "\" But, However some people might disagree with this statement.",
+      "Some people might disagree on Ralph Waldo Emerson statement because, Some people like pushing there self more than other, and also they can get physical stronger by try to do something beyond what you have already mastered.",
+      " Also some might say, It's good to go beyond because its like saying, I'm over riding my goals to another level.",
+      " However, I agree with Emerson too, because you just can't go beyond and over and seed your mastered goals.",
+      " Everything you do, you need to take a step by step so you can reach your goals."
+    ],
+    "observation_key": "essay_49ce2ad6d81d38170ce1bccb::O1",
+    "target_essay_id": "essay_49ce2ad6d81d38170ce1bccb",
+    "observed_score": 2
+  }
+]

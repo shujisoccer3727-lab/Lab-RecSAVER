@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_837b28e168c36c93843c90ae",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with frequent errors in grammar, syntax, and vocabulary receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_4b7a0e32804396ea66b470f0",
+            "quotes": [
+              "\"To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.\" I agree with Emerson's statement about individuality because each person is a world and we have to do our things separate and does how we learnd about life doing our on things life is not easy as how we thing when we are with our parent's but you have to be older not young so we can decide to do our own things."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 2,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay contains numerous grammatical and syntactical errors, which align with the lower scores."
+          },
+          {
+            "history_essay_id": "essay_87af426720f79449fed83da7",
+            "quotes": [
+              "I thing working with a group of persone it will be super good, because the time going more faster, and also that fell more good working with a group, and because we can helpind of each other, and I thing we can make more friends when you work with a group, what happend whent you work alone you can be bored really faster or sometinh like that, and you goind super slow and you dont not what to do to make the time going super faster, you cant talk with not body and finished it faster, and you fell the time goin slow and you dont know what to do to make the time going faster, and for example when you are working with a group of people you fell good, beacuse when you dont know something they can helpind you with the ting that you dont know, and thats how you can make a idea of how to doing it new time, and also if you work like that you can finished it super faster, lest suport that I working with a group of 4 persone each one have to do one part of the proyect that we doing it and explaint one part of the proyect but if one of us forget something we can help explait it, what happend if I work by my self on the presentation I have to reading and explaint everything not body can helping me with the presentacion or when I dont undestand something, a presentation have to be with a lot of anwer and explait much, thats why I thing is bettler work with a group of people."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 1,
+                "Vocabulary": 2,
+                "Phraseology": 2,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay contains numerous grammatical and syntactical errors, which align with the lower scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is based on a limited number of essays and may not be fully representative."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "A lot of students want to take their time off to think what their careers will be, so they continue their education to go to college and experience how life is like outside and how to take care of responsibility."
+        ],
+        "observable_feature": "The sentence structure is clear and the vocabulary is appropriate for the topic.",
+        "evaluative_interpretation": "The sentence demonstrates a good command of syntax and vocabulary, which is consistent with a higher score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The sentence aligns with the rubric criteria for a score of 4, showing appropriate use of vocabulary and syntax.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": [
+          "Grammar"
+        ],
+        "quotes": [
+          "Although this might be valid, it's important to consider the idea that it will be stessful for students if they're forced to come up with an idea quick."
+        ],
+        "observable_feature": "The sentence contains a minor grammatical error ('stessful' instead of 'stressful').",
+        "evaluative_interpretation": "The minor error does not significantly impede communication, which is consistent with a score of 3 for grammar.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The sentence aligns with the rubric criteria for a score of 3, showing some errors in grammar and usage.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a good command of syntax, vocabulary, and phraseology, with only minor grammatical errors. This is consistent with the observed scores of 4 for Cohesion, Syntax, Vocabulary, Phraseology, and Conventions, and a score of 3 for Grammar. The essay's overall score of 4 reflects its facility in language use with occasional inaccuracies.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 4,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay demonstrates a good command of language with occasional inaccuracies, which aligns with the observed Overall score of 4. The Trait scores reflect the essay's strengths in cohesion, syntax, vocabulary, phraseology, and conventions, with a slightly lower score for grammar.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates well-controlled organization and appropriate use of cohesive devices, aligning with the observed score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay uses a variety of syntactic structures effectively, aligning with the observed score of 4."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay uses a sufficient range of vocabulary to convey precise meanings, aligning with the observed score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay uses a variety of phrases effectively, aligning with the observed score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T2"
+        ],
+        "alignment": "The essay contains some errors in grammar and usage, aligning with the observed score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates generally consistent use of appropriate conventions, aligning with the observed score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

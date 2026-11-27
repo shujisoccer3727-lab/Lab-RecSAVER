@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_13",
+  "target_essay_id": "essay_17116345036926ef7a1d51d2",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Overall",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with a wide range of vocabulary, varied syntax, and accurate grammar and conventions receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_80a5758cb7742943dc89b66a",
+            "quotes": [
+              "The Curfews Keep Teenagers Out Of Trouble"
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 5,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 5,
+                "Vocabulary": 5,
+                "Phraseology": 5,
+                "Grammar": 5,
+                "Conventions": 5
+              }
+            },
+            "interpretation": "The essay demonstrates a wide range of vocabulary, varied syntax, and accurate grammar and conventions, which aligns with the high scores."
+          },
+          {
+            "history_essay_id": "essay_707c17a5fd0bce0e645492df",
+            "quotes": [
+              "Teacher would have more time to teach you the subject you need to know . You would have to get an extra class to pick."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows limited vocabulary, simple syntax, and some errors in grammar and conventions, which aligns with the lower scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is supported by two essays, but more data would strengthen the interpretation."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Overall",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "Imagination does not always bring good vibes to your mind. From all my life experiences and other people's life experiences, I learned that knowledge is more important than imagination. It's your reality, your understanding, and it makes you take good decisions to be someone very successful in life."
+        ],
+        "observable_feature": "The essay demonstrates a wide range of vocabulary, varied syntax, and accurate grammar and conventions.",
+        "evaluative_interpretation": "This feature aligns with the high scores observed.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay shows native-like facility in the use of language with syntactic variety, appropriate word choice and phrases; well-controlled text organization; precise use of grammar and conventions; rare language inaccuracies that do not impede communication.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a wide range of vocabulary, varied syntax, and accurate grammar and conventions, which aligns with the high scores observed. This is consistent with the pattern observed in the history where essays with similar features receive higher scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 5,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 5,
+        "Vocabulary": 5,
+        "Phraseology": 5,
+        "Grammar": 5,
+        "Conventions": 5
+      }
+    },
+    "overall_alignment": "The target essay demonstrates a wide range of vocabulary, varied syntax, and accurate grammar and conventions, which aligns with the high Overall score of 5.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates generally well-controlled organization with a range of cohesive devices used appropriately, aligning with the score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 5,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows flexible and effective use of a full range of syntactic structures, aligning with the score of 5."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 5,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a wide range of vocabulary flexibly and effectively used to convey precise meanings, aligning with the score of 5."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 5,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows flexible and effective use of a variety of phrases to convey precise and subtle meanings, aligning with the score of 5."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 5,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates command of grammar and usage with few or no errors, aligning with the score of 5."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 5,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows consistent use of appropriate conventions to convey meaning, aligning with the score of 5."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

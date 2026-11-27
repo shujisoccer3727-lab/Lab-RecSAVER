@@ -1,0 +1,68 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion"
+      ],
+      "pattern": "Essays with clear organization and logical sequencing of ideas tend to receive higher Cohesion scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_b97e81e57d4179a8994f2100",
+          "quotes": [
+            "To begin, attend classes online is better than attend the classes at school in many ways.",
+            "Furthermore, by attend classes online will shows how clever the students are!"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2
+            }
+          },
+          "interpretation": "The essay shows a clear structure with transitional phrases, but the Cohesion score is still 2, suggesting that the organization could be more effective."
+        },
+        {
+          "history_essay_id": "essay_c71f7198048e6f418c2b65e9",
+          "quotes": [
+            "The healthier food can help students with their body, less fat and motivates them to be someone they thought they couldn't be.",
+            "The more healthier students are, the less sick they are."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2
+            }
+          },
+          "interpretation": "The essay has a clear structure with logical sequencing, but the Cohesion score is 2, indicating that the organization could be more coherent."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would be needed to confirm a stable preference."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion"
+      ],
+      "quotes": [
+        "Firstly, if a student can not understand a topic and has questions about it, they can feel more comfortable to ask and said",
+        "Secondly, in schools we can find many ways to be help if we have any problem in home.",
+        "Lastly, students has to socialize with other students to feel the sensation of surpassing."
+      ],
+      "observable_feature": "The essay uses clear transitional phrases to organize the argument.",
+      "evaluative_interpretation": "The use of transitional phrases indicates a clear structure, which is consistent with a higher Cohesion score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay demonstrates a generally well-controlled organization with appropriate use of cohesive devices, aligning with a Cohesion score of 4.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates a clear structure with transitional phrases, which is consistent with the higher Cohesion score of 4. This is supported by the history pattern H1, where essays with clear organization and logical sequencing of ideas tend to receive higher Cohesion scores.",
+  "insufficient_evidence": []
+}

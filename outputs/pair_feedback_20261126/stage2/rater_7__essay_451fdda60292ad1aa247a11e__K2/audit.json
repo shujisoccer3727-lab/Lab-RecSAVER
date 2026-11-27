@@ -1,0 +1,144 @@
+{
+  "changes": [
+    {
+      "path": "/target_evidence/0/rubric_connection",
+      "before": "The rubric for Vocabulary and Phraseology at level 4 indicates a sufficient range of vocabulary and appropriate use of phrases.",
+      "after": "The rubric for Vocabulary and Phraseology at level [MASK] indicates a sufficient range of vocabulary and appropriate use of phrases.",
+      "value_spans": [
+        {
+          "start": 51,
+          "end": 52,
+          "value": "4",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/1/rubric_connection",
+      "before": "The rubric for Cohesion at level 2 indicates limited control of organization and repetitive use of cohesive devices.",
+      "after": "The rubric for Cohesion at level [MASK] indicates limited control of organization and repetitive use of cohesive devices.",
+      "value_spans": [
+        {
+          "start": 33,
+          "end": 34,
+          "value": "2",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/decision_explanation",
+      "before": "The essay demonstrates a wide range of vocabulary and appropriate use of phrases, consistent with the observed scores of 4 in Vocabulary and Phraseology. However, the essay lacks cohesive devices, which is consistent with the lower score of 2 in Cohesion.",
+      "after": "The essay demonstrates a wide range of vocabulary and appropriate use of phrases, consistent with the observed scores of [MASK] in Vocabulary and Phraseology. However, the essay lacks cohesive devices, which is consistent with the lower score of [MASK] in Cohesion.",
+      "value_spans": [
+        {
+          "start": 121,
+          "end": 122,
+          "value": "4",
+          "replacement": "[MASK]"
+        },
+        {
+          "start": 241,
+          "end": 242,
+          "value": "2",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 4,
+  "changed_fields": 3,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/status",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/pattern",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/1/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/1/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/1/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/1/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/1/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/1/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    }
+  ],
+  "quarantine": [],
+  "automatic_pass": true,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

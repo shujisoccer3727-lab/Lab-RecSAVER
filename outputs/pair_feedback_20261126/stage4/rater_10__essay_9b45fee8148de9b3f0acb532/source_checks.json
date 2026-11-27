@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 111,
+          "text": "Winston Churchill once said that \"success consists of going from failure to failure without loss of enthusiasm."
+        },
+        {
+          "span_id": "S2",
+          "paragraph_id": "P1",
+          "start": 111,
+          "end": 226,
+          "text": "\" this means that if people fail they should get back up and try again and if they fail once more to never give up."
+        }
+      ],
+      "reconstructed_quotes": [
+        "Winston Churchill once said that \"success consists of going from failure to failure without loss of enthusiasm.",
+        "\" this means that if people fail they should get back up and try again and if they fail once more to never give up."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S2"
+      ],
+      "feature": "The essay begins with a quote from Winston Churchill and immediately provides an interpretation of the quote.",
+      "scoring_relevance": "This feature demonstrates the writer's ability to introduce a topic and provide a clear explanation, which is relevant to the cohesion dimension as it shows how the writer connects ideas and maintains a coherent flow.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the initial connection between the quote and its interpretation.",
+      "next_check": "Review the transitions between paragraphs to see if the writer maintains this level of coherence throughout the essay.",
+      "quotes": [
+        "Winston Churchill once said that \"success consists of going from failure to failure without loss of enthusiasm.",
+        "\" this means that if people fail they should get back up and try again and if they fail once more to never give up."
+      ]
+    }
+  ]
+}

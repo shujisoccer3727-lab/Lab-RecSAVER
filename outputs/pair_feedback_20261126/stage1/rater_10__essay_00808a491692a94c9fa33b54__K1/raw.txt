@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_00808a491692a94c9fa33b54",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, sufficient vocabulary range, and generally consistent conventions receive a score of 3 or 4.",
+        "support": [
+          {
+            "history_essay_id": "essay_b9dd5e6b2f7fb7eb59378148",
+            "quotes": ["The key to success in life is having a positive attitude: never envy what others have, nor wish bad upon a person for their success."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and a sufficient vocabulary range, with occasional errors in sentence formation and generally consistent conventions, consistent with a score of 4."
+          },
+          {
+            "history_essay_id": "essay_c01dfe1288cc86587ad100a3",
+            "quotes": ["People always said anything about any arguments, but the most opinions can they said are problem, because sometime people speak bad things their opinions they can said are not supported for other for reason can have bad impressions with the community."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 2,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows generally controlled organization and sufficient vocabulary range, with some errors in sentence formation and conventions, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["The goal is graduated high school in three years instead of four years. Imagine youA,A'd have to stay at school after 2:30 pm to take extra subjects instead of doing any activities, or joining clubs."],
+        "observable_feature": "The essay demonstrates generally controlled organization, sufficient vocabulary range, and occasional errors in sentence formation and conventions.",
+        "evaluative_interpretation": "The essay's organization and vocabulary range are sufficient, but there are occasional errors in sentence formation and conventions, which align with a score of 3.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay's controlled organization and sufficient vocabulary range align with the rubric's description for a score of 3, with occasional errors in sentence formation and conventions.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay's generally controlled organization, sufficient vocabulary range, and occasional errors in sentence formation and conventions align with the pattern observed in the history essays, supporting a score of 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay's generally controlled organization, sufficient vocabulary range, and occasional errors in sentence formation and conventions align with the rubric's description for a score of 3, supporting the observed Overall score.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates controlled organization with a range of cohesive devices, aligning with a score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows appropriate use of a variety of syntactic structures with occasional errors, aligning with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has a sufficient range of vocabulary to allow flexibility and precision, aligning with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates appropriate use of a variety of phrases with occasional inaccuracies, aligning with a score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has some errors in grammar and usage, aligning with a score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows generally consistent use of appropriate conventions with few errors, aligning with a score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

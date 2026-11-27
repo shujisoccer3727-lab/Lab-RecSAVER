@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_96b587aeaf1f53910d5e55c9",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with generally controlled organization, varied but occasionally inaccurate syntax, sufficient vocabulary range, appropriate phraseology, some grammar errors, and developing conventions receive an Overall score of 4.",
+        "support": [
+          {
+            "history_essay_id": "essay_51b993c68e160a83a1ace3d7",
+            "quotes": ["I have many goals & aspirations in life, and one of those aspirations being; in the medical field civlian and or military, at very young age of 7 I wanted to enlist in the U.S Military because of my apprecation and loyaltly to my country and wanting to protect It with all I could"],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 5,
+                "Grammar": 5,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and varied syntax with occasional errors, sufficient vocabulary, and appropriate phraseology, consistent with an Overall score of 4."
+          },
+          {
+            "history_essay_id": "essay_b9dd5e6b2f7fb7eb59378148",
+            "quotes": ["The key to success in life is having a positive attitude: never envy what others have, nor wish bad upon a person for their success. Trust the process, life will knock you down, get you at your lowest but having that positive attitude towards every struggle and having that positive mindset to others will get you further than you think"],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay shows controlled organization, varied syntax with some errors, sufficient vocabulary, and appropriate phraseology, consistent with an Overall score of 4."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern does not account for essays with significantly lower scores, which may have different organizational or grammatical issues."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["Are you a successful person? Or do you want to be a successful person? If you are a successful person, you certainly have a positive attitude in your life. If you want to be a successful person, you also need a positive attitude to solve the problem that happen in your life, or to people around you like family or even a stranger."],
+        "observable_feature": "The essay demonstrates generally controlled organization, varied syntax with occasional errors, sufficient vocabulary, appropriate phraseology, some grammar errors, and developing conventions.",
+        "evaluative_interpretation": "The essay's controlled organization and varied syntax with occasional errors, sufficient vocabulary, and appropriate phraseology support an Overall score of 3, indicating facility limited to common structures and generic vocabulary with some errors in grammar and syntax.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay aligns with the rubric's description for an Overall score of 3, showing facility limited to common structures and generic vocabulary with some errors in grammar and syntax.",
+        "uncertainty": "The essay's occasional syntax errors and some grammar inaccuracies could be interpreted as more or less severe, affecting the Overall score."
+      }
+    ],
+    "decision_explanation": "The essay's controlled organization, varied syntax with occasional errors, sufficient vocabulary, appropriate phraseology, and some grammar errors align with the observed Overall score of 3, consistent with the rater's history of scoring essays with similar features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay's controlled organization, varied syntax with occasional errors, sufficient vocabulary, appropriate phraseology, and some grammar errors align with the observed Overall score of 3, indicating facility limited to common structures and generic vocabulary with some errors in grammar and syntax.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally controlled organization with a range of cohesive devices used appropriately, consistent with a Cohesion score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows varied syntax with occasional errors, consistent with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a minimally adequate range of vocabulary for the topic with some inaccuracy, consistent with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a variety of phrases appropriately with occasional inaccuracies, consistent with a Phraseology score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has some errors in grammar and usage, consistent with a Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows developing use of conventions with errors that are sometimes distracting, consistent with a Conventions score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The essay's occasional syntax errors and some grammar inaccuracies could be interpreted as more or less severe, affecting the Overall score."]
+  }
+}

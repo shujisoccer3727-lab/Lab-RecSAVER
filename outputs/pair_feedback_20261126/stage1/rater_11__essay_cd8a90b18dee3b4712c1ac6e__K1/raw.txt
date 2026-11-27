@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_cd8a90b18dee3b4712c1ac6e",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Syntax", "Vocabulary"],
+        "pattern": "Essays with a wider range of syntactic structures and vocabulary receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_c71f7198048e6f418c2b65e9",
+            "quotes": ["\"The healthier food can help students with their body, less fat and motivates them to be someone they thought they couldn't be.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Syntax": 3,
+                "Vocabulary": 3
+              }
+            },
+            "interpretation": "The use of varied sentence structures and a range of vocabulary supports a higher score."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by only one essay, limiting its generalizability."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Syntax", "Vocabulary"],
+        "quotes": ["\"Working alone has many benefits and could benefit you in the long run. Many poeple think its beneficial working in a group, but I say no. Want to do better, get a good result after, get a nice dencent grade after. Working alone is the solution.\""],
+        "observable_feature": "The essay demonstrates a range of syntactic structures and vocabulary.",
+        "evaluative_interpretation": "The varied sentence structures and vocabulary contribute to a higher score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay shows a flexible and effective use of a variety of syntactic structures and vocabulary, aligning with the rubric for a score of 4.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a range of syntactic structures and vocabulary, consistent with the observed scores of 4 in Syntax and Vocabulary. This aligns with the pattern observed in the history where essays with varied sentence structures and vocabulary receive higher scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 4,
+        "Vocabulary": 4,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's varied sentence structures and vocabulary support the observed Overall score of 4, consistent with the rubric's description of facility in language use with syntactic variety and a range of words and phrases.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The varied sentence structures in the essay align with the rubric's description for a score of 4, indicating appropriate use of a variety of syntactic structures."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The range of vocabulary used in the essay aligns with the rubric's description for a score of 4, indicating a sufficient range of vocabulary to allow flexibility and precision."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

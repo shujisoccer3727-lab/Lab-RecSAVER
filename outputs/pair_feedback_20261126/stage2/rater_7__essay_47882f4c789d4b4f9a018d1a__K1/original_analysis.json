@@ -1,0 +1,66 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Vocabulary"
+      ],
+      "pattern": "Essays with a wide range of vocabulary and varied sentence structures tend to receive higher Overall scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_c5cc2aeab042c249b0f62f33",
+          "quotes": [
+            "\"It would make the student confidence. They can save their time and money. It could help them to finish and graduate early.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Vocabulary": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a varied vocabulary and sentence structures, which aligns with the higher Overall score."
+        },
+        {
+          "history_essay_id": "essay_378cfd241bf32bd0f8b2be9f",
+          "quotes": [
+            "\"What Ralph Waldo said it's true, you never going to grow big if you don't try new things, it might suck to say this but a lot of people keep on doing the same stuff that they already know.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Vocabulary": 3
+            }
+          },
+          "interpretation": "The essay shows a moderate range of vocabulary and varied sentence structures, which aligns with the Overall score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The range of vocabulary and sentence structures alone do not fully determine the Overall score."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Vocabulary"
+      ],
+      "quotes": [
+        "\"I believe the Former British Prime Minister Winston Churchill the motto he goes by is a great motto. Everyone goes to tough times which cuases failure, but once you fail you get up and better your self in order to succed.\""
+      ],
+      "observable_feature": "The essay demonstrates a wide range of vocabulary and varied sentence structures.",
+      "evaluative_interpretation": "This feature is consistent with a higher Overall score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows a wide range of vocabulary and varied sentence structures, which aligns with the rubric for a score of 4.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates a wide range of vocabulary and varied sentence structures, which aligns with the higher Overall score of 4. This is consistent with the pattern observed in the history where essays with similar features received higher Overall scores.",
+  "insufficient_evidence": []
+}

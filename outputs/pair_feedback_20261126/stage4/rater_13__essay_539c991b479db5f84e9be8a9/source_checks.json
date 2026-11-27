@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S8",
+          "paragraph_id": "P3",
+          "start": 336,
+          "end": 486,
+          "text": " I think working in groups is more beneficial and good for many reasons because; we collaborate and share ideas, it more fun and easy working together"
+        },
+        {
+          "span_id": "S12",
+          "paragraph_id": "P5",
+          "start": 693,
+          "end": 777,
+          "text": " it helps us bring our minds together to brainstorm some ideas or by sharing opinoin"
+        }
+      ],
+      "reconstructed_quotes": [
+        " I think working in groups is more beneficial and good for many reasons because; we collaborate and share ideas, it more fun and easy working together",
+        " it helps us bring our minds together to brainstorm some ideas or by sharing opinoin"
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S8",
+        "S12"
+      ],
+      "feature": "The essay connects the idea of working in groups with the benefit of sharing ideas and brainstorming.",
+      "scoring_relevance": "This connection shows a cohesive argument that working in groups facilitates idea sharing and brainstorming, which is relevant to the cohesion dimension.",
+      "limitation": "This evidence does not establish the overall coherence of the essay or the consistency of the argument throughout.",
+      "next_check": "Review the transitions between paragraphs to see if they maintain the flow of the argument about the benefits of group work.",
+      "quotes": [
+        " I think working in groups is more beneficial and good for many reasons because; we collaborate and share ideas, it more fun and easy working together",
+        " it helps us bring our minds together to brainstorm some ideas or by sharing opinoin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S3",
+          "paragraph_id": "P1",
+          "start": 78,
+          "end": 277,
+          "text": " If you want to enjoy outdoors then you should start going outside and enjoying some activitys too because some people enjoy playing and hanging out with their friends and some people try out sports."
+        }
+      ],
+      "reconstructed_quotes": [
+        " If you want to enjoy outdoors then you should start going outside and enjoying some activitys too because some people enjoy playing and hanging out with their friends and some people try out sports."
+      ],
+      "semantic_support_not_certified": true
+    },
+    {
+      "index": 1,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S4",
+          "paragraph_id": "P2",
+          "start": 281,
+          "end": 422,
+          "text": "The first reason why someone might find activitys enjoyable is because someone can enjoy playing with their friends or hanging out with them."
+        },
+        {
+          "span_id": "S11",
+          "paragraph_id": "P3",
+          "start": 902,
+          "end": 969,
+          "text": "The second reason is someone can try a new sport or go to try outs."
+        }
+      ],
+      "reconstructed_quotes": [
+        "The first reason why someone might find activitys enjoyable is because someone can enjoy playing with their friends or hanging out with them.",
+        "The second reason is someone can try a new sport or go to try outs."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S3"
+      ],
+      "feature": "The sentence contains a misspelling of 'activities' as 'activitys'.",
+      "scoring_relevance": "The misspelling of 'activitys' instead of 'activities' is a grammatical error that affects the clarity and correctness of the sentence.",
+      "limitation": "This observation does not establish the frequency of such errors throughout the essay.",
+      "next_check": "Review other sentences for similar misspellings or grammatical errors.",
+      "quotes": [
+        " If you want to enjoy outdoors then you should start going outside and enjoying some activitys too because some people enjoy playing and hanging out with their friends and some people try out sports."
+      ]
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S4",
+        "S11"
+      ],
+      "feature": "The essay uses 'The first reason' and 'The second reason' to introduce two main points.",
+      "scoring_relevance": "The use of 'The first reason' and 'The second reason' helps to establish a clear structure and logical flow between the two main points of the essay.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the local cohesion between these two points.",
+      "next_check": "Check the transitions between other paragraphs and ideas to assess the overall coherence of the essay.",
+      "quotes": [
+        "The first reason why someone might find activitys enjoyable is because someone can enjoy playing with their friends or hanging out with them.",
+        "The second reason is someone can try a new sport or go to try outs."
+      ]
+    }
+  ]
+}

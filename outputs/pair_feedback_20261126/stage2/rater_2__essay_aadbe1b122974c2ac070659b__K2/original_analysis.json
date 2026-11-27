@@ -1,0 +1,60 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary"
+      ],
+      "pattern": "Essays with clear organization and a sufficient range of vocabulary receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_d621ca9ba9e3092e50b6d5b5",
+          "quotes": [
+            "It is most beneficial working in a group then working alone because students can improve their social skills, have more ideas, and work faster together."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4
+            }
+          },
+          "interpretation": "The essay demonstrates clear organization and a sufficient range of vocabulary, supporting a higher score."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_b5d821b7fbc0682740cf952e",
+          "quotes": [
+            "There are so many different opinions and ways to influence someone, they can be reasons or things that happened in the life of a person that will not necessary be inspired by a example of someones action, or life."
+          ],
+          "interpretation": "The essay lacks clear organization and has a limited range of vocabulary, which supports a lower score."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary"
+      ],
+      "quotes": [
+        "Extracurricular activities can affect a student but also can help students. Extracurricular activities should be left to the students and their families because students would do something they like, and students will concentrate more in class."
+      ],
+      "observable_feature": "The essay demonstrates clear organization and a sufficient range of vocabulary.",
+      "evaluative_interpretation": "The essay's clear organization and sufficient vocabulary support a higher score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows a controlled organization and a sufficient range of vocabulary, aligning with the rubric for a score of 3.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay's clear organization and sufficient vocabulary align with the observed scores, consistent with the rater's history of assigning higher scores to essays with these features.",
+  "insufficient_evidence": []
+}

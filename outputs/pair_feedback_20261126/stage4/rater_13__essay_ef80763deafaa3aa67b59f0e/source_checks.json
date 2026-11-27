@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S5",
+          "paragraph_id": "P2",
+          "start": 317,
+          "end": 404,
+          "text": "First of all, when you try until you get it right, sometimes you get really frustrated."
+        },
+        {
+          "span_id": "S9",
+          "paragraph_id": "P3",
+          "start": 778,
+          "end": 839,
+          "text": "Secondly, when you fail; failure lead you to success in life."
+        }
+      ],
+      "reconstructed_quotes": [
+        "First of all, when you try until you get it right, sometimes you get really frustrated.",
+        "Secondly, when you fail; failure lead you to success in life."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S5",
+        "S9"
+      ],
+      "feature": "The essay uses transitional phrases such as 'First of all' and 'Secondly' to introduce new points.",
+      "scoring_relevance": "These transitional phrases help to establish a clear structure and logical flow between different points in the essay, contributing to the overall cohesion.",
+      "limitation": "The presence of transitional phrases does not guarantee that the essay is fully cohesive or that the ideas are well-connected throughout the entire text.",
+      "next_check": "Review the transitions between the second and third points to ensure they maintain the same level of clarity and logical progression.",
+      "quotes": [
+        "First of all, when you try until you get it right, sometimes you get really frustrated.",
+        "Secondly, when you fail; failure lead you to success in life."
+      ]
+    }
+  ]
+}

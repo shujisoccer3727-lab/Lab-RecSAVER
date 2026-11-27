@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S4",
+          "paragraph_id": "P2",
+          "start": 231,
+          "end": 305,
+          "text": "Firstly honesty is the best policy, because it builds a good relationship."
+        },
+        {
+          "span_id": "S17",
+          "paragraph_id": "P2",
+          "start": 954,
+          "end": 1002,
+          "text": " saying the truth builds a healthy relationship."
+        }
+      ],
+      "reconstructed_quotes": [
+        "Firstly honesty is the best policy, because it builds a good relationship.",
+        " saying the truth builds a healthy relationship."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S4",
+        "S17"
+      ],
+      "feature": "The essay uses transitional phrases such as 'Firstly' and 'saying the truth' to connect ideas within the paragraph.",
+      "scoring_relevance": "The use of transitional phrases helps to maintain a logical flow of ideas, contributing to the overall cohesion of the essay.",
+      "limitation": "This observation is limited to the local context and does not establish the overall coherence of the essay.",
+      "next_check": "Review other paragraphs for similar transitional phrases or logical connections to ensure consistency in the essay's structure.",
+      "quotes": [
+        "Firstly honesty is the best policy, because it builds a good relationship.",
+        " saying the truth builds a healthy relationship."
+      ]
+    }
+  ]
+}

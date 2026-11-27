@@ -1,0 +1,72 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a wide range of vocabulary, flexible use of syntax, and few errors in grammar and conventions tend to receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_80a5758cb7742943dc89b66a",
+          "quotes": [
+            "The Curfews Keep Teenagers Out Of Trouble"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 5,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 5,
+              "Vocabulary": 5,
+              "Phraseology": 5,
+              "Grammar": 5,
+              "Conventions": 5
+            }
+          },
+          "interpretation": "The essay demonstrates a wide range of vocabulary, flexible use of syntax, and few errors, which aligns with the higher scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_e6fd54937e6a3da25c2aeab2",
+          "quotes": [
+            "I believe working alone is better because,people won't be bothering you, you can listen to music, and also you can work on your own pace."
+          ],
+          "interpretation": "This essay has a narrower vocabulary and more errors, which aligns with the lower scores."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Imagination does not always bring good vibes to your mind. From all my life experiences and other people's life experiences, I learned that knowledge is more important than imagination. It's your reality, your understanding, and it makes you take good decisions to be someone very successful in life."
+      ],
+      "observable_feature": "The essay demonstrates a wide range of vocabulary, flexible use of syntax, and few errors in grammar and conventions.",
+      "evaluative_interpretation": "This feature aligns with the higher scores observed in the target essay.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows a wide range of vocabulary, flexible use of syntax, and few errors, which aligns with the rubric criteria for a score of 5.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates a wide range of vocabulary, flexible use of syntax, and few errors in grammar and conventions, which aligns with the higher scores observed in the history pattern H1. This supports the observed Overall score of 5.",
+  "insufficient_evidence": []
+}

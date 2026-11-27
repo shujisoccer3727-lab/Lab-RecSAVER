@@ -1,0 +1,88 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with limited vocabulary, repetitive phrases, and frequent grammatical errors tend to receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_a690517b2f90c0b240a75b89",
+          "quotes": [
+            "\"Everyday we all learn new things in life\".",
+            "We could do more if we all help each others"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a limited range of vocabulary and some grammatical errors, which align with the observed scores."
+        },
+        {
+          "history_essay_id": "essay_4dc0854257ce038ac2b8e35f",
+          "quotes": [
+            "the online classes will have a positive change in their daily life.",
+            "the time that students use to prepare them and when they took a bus to the school, this time they can used to sleep more or even start the classes early during this time."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows limited vocabulary and repetitive phrases, which align with the observed scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Do- how to help",
+        "What-help the people that they need help and care about people.",
+        "helping is the thing that people needs to do in the life."
+      ],
+      "observable_feature": "The essay contains limited vocabulary, repetitive phrases, and frequent grammatical errors.",
+      "evaluative_interpretation": "These features are consistent with a lower score, as they indicate limited proficiency in language use.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for lower scores indicates limited vocabulary, repetitive phrases, and frequent errors, which are evident in the essay.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates limited vocabulary, repetitive phrases, and frequent grammatical errors, which align with the observed scores. This is consistent with the pattern observed in the history where similar features receive lower scores.",
+  "insufficient_evidence": []
+}

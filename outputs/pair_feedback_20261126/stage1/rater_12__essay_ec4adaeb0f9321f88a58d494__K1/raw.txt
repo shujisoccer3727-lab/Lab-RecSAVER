@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_ec4adaeb0f9321f88a58d494",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with controlled organization, varied sentence structures, and minimal errors in grammar and conventions tend to receive an Overall score of 4.",
+        "support": [
+          {
+            "history_essay_id": "essay_1982ecb00b93c55770d5a34a",
+            "quotes": ["In my opinion we do choose our own traits, Here's why.", "We have shaped ourselves into who we are today."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and varied sentence structures, with minimal errors, consistent with an Overall score of 4."
+          },
+          {
+            "history_essay_id": "essay_acc62b00900a0ec7b7be3915",
+            "quotes": ["Hanging out with friends can be fun if you make it fun, you could take bikes rides together, talk about problem or achievements you've accomplished, play games or just walk around.", "Other way to enjoy these amazing parks is by visiting it with you're families."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows controlled organization and varied sentence structures, with minimal errors, consistent with an Overall score of 4."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["Have you ever wondered what it would feel like to be in a school play? I have, one enjoyable activity I would want to be is a school play.", "During the play the cast members can make new friends and meet new people."],
+        "observable_feature": "The essay demonstrates controlled organization and varied sentence structures, with minimal errors.",
+        "evaluative_interpretation": "The controlled organization and varied sentence structures, with minimal errors, are consistent with an Overall score of 4.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates controlled organization and varied sentence structures, with minimal errors, consistent with the pattern observed in history essays with an Overall score of 4. The evidence supports the observed Overall score of 4.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 4,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 4,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay's controlled organization, varied sentence structures, and minimal errors in grammar and conventions align with the observed Overall score of 4.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates controlled organization and varied sentence structures, consistent with a Cohesion score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows varied sentence structures with minimal errors, consistent with a Syntax score of 4."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a sufficient range of vocabulary to convey precise meanings, consistent with a Vocabulary score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a variety of phrases effectively, consistent with a Phraseology score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has minimal errors in grammar and usage, consistent with a Grammar score of 4."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally consistent use of appropriate conventions, consistent with a Conventions score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S7",
+          "paragraph_id": "P2",
+          "start": 524,
+          "end": 564,
+          "text": "First, you do not stuck in same problem."
+        },
+        {
+          "span_id": "S12",
+          "paragraph_id": "P3",
+          "start": 1222,
+          "end": 1254,
+          "text": "Second, you could become strong."
+        },
+        {
+          "span_id": "S18",
+          "paragraph_id": "P4",
+          "start": 2089,
+          "end": 2127,
+          "text": "Third, you could have many supporters."
+        }
+      ],
+      "reconstructed_quotes": [
+        "First, you do not stuck in same problem.",
+        "Second, you could become strong.",
+        "Third, you could have many supporters."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S7",
+        "S12",
+        "S18"
+      ],
+      "feature": "The essay uses transitional phrases such as 'First,' 'Second,' and 'Third' to introduce each main point.",
+      "scoring_relevance": "These transitional phrases help to organize the essay and indicate the structure of the argument, contributing to the overall cohesion of the text.",
+      "limitation": "The presence of transitional phrases does not guarantee that the essay is well-organized or that the ideas are logically connected.",
+      "next_check": "Review the content of each section to ensure that the ideas are logically connected and that the transitions effectively link the points.",
+      "quotes": [
+        "First, you do not stuck in same problem.",
+        "Second, you could become strong.",
+        "Third, you could have many supporters."
+      ]
+    }
+  ]
+}

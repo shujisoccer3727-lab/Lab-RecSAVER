@@ -1,0 +1,21 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S6",
+      "S12"
+    ],
+    "feature": "The essay uses transitional phrases such as 'First of all' and 'Second of all' to structure the argument.",
+    "scoring_relevance": "These transitional phrases help to organize the essay's argument and improve the flow of ideas, contributing to the essay's cohesion.",
+    "limitation": "The presence of transitional phrases does not guarantee that the essay is well-organized or that the ideas are logically connected.",
+    "next_check": "Review the paragraphs following these transitional phrases to ensure that they support the main argument and are logically connected.",
+    "quotes": [
+      "First of all, a positive attitude would help you to achieve many things.",
+      "Second of all, with positive attitude you can achieve many of your goals."
+    ],
+    "observation_key": "essay_c9f9563839e5db463ef74df1::O1",
+    "target_essay_id": "essay_c9f9563839e5db463ef74df1",
+    "observed_score": 3
+  }
+]

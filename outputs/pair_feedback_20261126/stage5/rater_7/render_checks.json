@@ -1,0 +1,55 @@
+{
+  "pass_": true,
+  "schema_errors": [],
+  "checks": [
+    {
+      "kind": "rater",
+      "pass_": true
+    },
+    {
+      "kind": "representative_key",
+      "pass_": true
+    },
+    {
+      "kind": "indices",
+      "pass_": true
+    },
+    {
+      "kind": "representative_fields",
+      "pass_": true
+    },
+    {
+      "kind": "abstention",
+      "pass_": true
+    },
+    {
+      "kind": "observed_reference",
+      "pass_": true
+    },
+    {
+      "kind": "comparison_exists",
+      "pass_": true
+    },
+    {
+      "kind": "no_comparison_condition",
+      "pass_": true
+    }
+  ],
+  "comparison_direction": "none",
+  "feedback_paragraph": "A scoring pattern cannot be established from these cases. The provided observations do not show a consistent pattern of feature-to-evaluation relationship across multiple essays. In essay essay_10bde717c719b4cc15923b78, the relevant excerpt is “Some people feel inspired to the quote \" unless you do something beyond of you have mastered, you will never grow\" written by Author Ralph Waldo Emerson.” In essay essay_10bde717c719b4cc15923b78, the relevant excerpt is “ I say its because to achieve an new goal, to be a bigger person, and discover the unknown.” The essay begins with a quote from Ralph Waldo Emerson and then provides a personal interpretation of the quote's meaning. The recorded Cohesion score is 2. The official descriptor for Cohesion:2 is “Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.” This evidence alone does not establish whether that band is appropriate. This observation does not establish the overall coherence of the essay, only the initial connection between the quote and the writer's interpretation. Next inspect: Review the transitions between paragraphs to see if the writer maintains the connection to the initial quote throughout the essay. Check: Check if the writer's interpretation of the quote is maintained and developed throughout the essay.",
+  "selected_evidence": [
+    {
+      "observation_key": "essay_10bde717c719b4cc15923b78::O1",
+      "quote_index": 0,
+      "target_essay_id": "essay_10bde717c719b4cc15923b78",
+      "exact_quote": "Some people feel inspired to the quote \" unless you do something beyond of you have mastered, you will never grow\" written by Author Ralph Waldo Emerson."
+    },
+    {
+      "observation_key": "essay_10bde717c719b4cc15923b78::O1",
+      "quote_index": 1,
+      "target_essay_id": "essay_10bde717c719b4cc15923b78",
+      "exact_quote": " I say its because to achieve an new goal, to be a bigger person, and discover the unknown."
+    }
+  ],
+  "semantic_support_not_certified": true
+}

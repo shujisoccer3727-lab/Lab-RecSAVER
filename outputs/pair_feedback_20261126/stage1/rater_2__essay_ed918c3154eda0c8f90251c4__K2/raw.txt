@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_2",
+  "target_essay_id": "essay_ed918c3154eda0c8f90251c4",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Vocabulary"],
+        "pattern": "Essays with clear organization and a sufficient range of vocabulary receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_cb38a1ffaf831ddf8a6a37b1",
+            "quotes": ["\"Trying my hardest showed me who I really am. I accomplished some of my goals, but I always try to be inspired.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 4,
+                "Vocabulary": 3
+              }
+            },
+            "interpretation": "The essay demonstrates clear organization and a sufficient range of vocabulary, consistent with higher scores."
+          },
+          {
+            "history_essay_id": "essay_926396d210817c7d960bd53a",
+            "quotes": ["\"elective class helps students who doesnt have time to do their work also benfit any students to have jobs outside of schools.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Vocabulary": 3
+              }
+            },
+            "interpretation": "The essay shows a sufficient range of vocabulary but less clear organization, consistent with a lower cohesion score."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_2cc56c7ee59b6d3cc63f5128",
+            "quotes": ["\"the people in the society following information or take ideas guidance for experts, the peoples sopport the ideas of other like in the polytechinic, in the religion and society .\""],
+            "interpretation": "This essay lacks clear organization and has a limited vocabulary, leading to lower scores."
+          }
+        ],
+        "limitations": ["The pattern is supported by two essays but not strongly established."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Vocabulary"],
+        "quotes": ["\"Your character will be what you yourself choose to make it.\" Do we choose our character traits, or our character forms by influences beyond our control? I think we can control our character traits because we can choose our character traits like being quiet, being social, and being over yourself."],
+        "observable_feature": "The essay demonstrates clear organization and a sufficient range of vocabulary.",
+        "evaluative_interpretation": "The clear organization and sufficient vocabulary support higher scores.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay's clear organization and sufficient vocabulary align with the rubric's criteria for higher scores.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": ["Grammar"],
+        "quotes": ["\"I remember back when i was i middle school 6th to 7th grade I was a quiet kid with little friends like I would not talk to no one.\""],
+        "observable_feature": "The essay contains occasional errors in grammar and usage.",
+        "evaluative_interpretation": "The occasional errors in grammar and usage are consistent with a score of 4.",
+        "linked_history_pattern_ids": [],
+        "rubric_connection": "The occasional errors in grammar and usage align with the rubric's criteria for a score of 4.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay's clear organization and sufficient vocabulary, as seen in evidence T1, align with the rater's pattern of higher scores for these traits. The occasional errors in grammar and usage, as seen in evidence T2, are consistent with a score of 4.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 3,
+        "Grammar": 4,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay's clear organization and sufficient vocabulary support the observed Overall score of 4. The occasional errors in grammar and usage are consistent with this score.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The clear organization and sufficient vocabulary support the observed score of 4."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The sufficient range of vocabulary supports the observed score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 4,
+        "evidence_ids": ["T2"],
+        "alignment": "The occasional errors in grammar and usage are consistent with the observed score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

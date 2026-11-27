@@ -1,0 +1,76 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with limited sentence structure variety, frequent grammatical errors, and inconsistent conventions receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_11027e3f200638d5f82370c9",
+          "quotes": [
+            "Their are even dogs that make people days, but they still think about the difficult time that they had today."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay demonstrates limited sentence structure variety and frequent grammatical errors, consistent with lower scores."
+        },
+        {
+          "history_essay_id": "essay_865e64957ba87e7d8562c06b",
+          "quotes": [
+            "outdoor activities are good exercise for everyone for the soul reason of doing something outdoors than doing nothing indoors people are getting more lazy and stupider by the day because of technology humans wast most of they're lives on technology than the outdoors."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows limited sentence structure variety and frequent grammatical errors, consistent with lower scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Plus theres not much reason to accomplish stuff in life, because we are in matrix/prison flat earth and after we die we keep coming back over and over non stop so theres nothing to really accomplish."
+      ],
+      "observable_feature": "The sentence lacks proper punctuation and has grammatical errors, such as missing articles and incorrect verb forms.",
+      "evaluative_interpretation": "The sentence demonstrates limited sentence structure variety and frequent grammatical errors, consistent with lower scores.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Cohesion, Syntax, Grammar, and Conventions indicates that frequent errors and limited sentence structure variety are characteristic of lower scores.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates limited sentence structure variety and frequent grammatical errors, consistent with the pattern observed in the history essays. The rater likely assigned lower scores due to these features.",
+  "insufficient_evidence": []
+}

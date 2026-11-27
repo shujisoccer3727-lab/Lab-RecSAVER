@@ -1,0 +1,68 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary"
+      ],
+      "pattern": "Essays with well-controlled organization and a sufficient range of vocabulary receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_cb38a1ffaf831ddf8a6a37b1",
+          "quotes": [
+            "\"Trying my hardest showed me who I really am. I accomplished some of my goals, but I always try to be inspired.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Vocabulary": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a clear structure and a range of vocabulary, consistent with higher scores."
+        },
+        {
+          "history_essay_id": "essay_926396d210817c7d960bd53a",
+          "quotes": [
+            "\"elective class helps students who doesnt have time to do their work also benfit any students to have jobs outside of schools.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Vocabulary": 3
+            }
+          },
+          "interpretation": "The essay has a less clear structure but still uses a range of vocabulary, leading to a moderate score."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary"
+      ],
+      "quotes": [
+        "\"Your character will be what you yourself choose to make it.\""
+      ],
+      "observable_feature": "The essay demonstrates a clear structure and a range of vocabulary.",
+      "evaluative_interpretation": "The clear structure and range of vocabulary are consistent with higher scores.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text shows controlled organization and a sufficient range of vocabulary, aligning with the rubric for higher scores.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay shows a clear structure and a range of vocabulary, consistent with the higher scores observed in the history. This aligns with the pattern identified in the history essays.",
+  "insufficient_evidence": []
+}

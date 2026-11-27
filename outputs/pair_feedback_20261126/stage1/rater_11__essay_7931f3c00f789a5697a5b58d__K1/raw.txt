@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_7931f3c00f789a5697a5b58d",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with limited control over text organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary receive scores around 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_11027e3f200638d5f82370c9",
+            "quotes": ["Their could be a day that you get a good grade on your test and you feel happy for yourself, but then you still have a bad grade."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Vocabulary": 2,
+                "Phraseology": 2,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay demonstrates limited control over text organization and occasional errors in sentence formation, consistent with a score of 3."
+          },
+          {
+            "history_essay_id": "essay_4dc0854257ce038ac2b8e35f",
+            "quotes": ["the online classes will have a positive change in their daily life."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows a minimally adequate range of vocabulary and occasional errors in sentence formation, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["I think you should seek guidance from those that have been through this experience before you for a ever long time."],
+        "observable_feature": "The sentence demonstrates limited control over text organization and occasional errors in sentence formation.",
+        "evaluative_interpretation": "This feature is consistent with a score of 3, as it shows limited control over text organization and occasional errors in sentence formation.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The text organization is generally controlled, but cohesive devices are used with limited variety, and there are some apparent errors in sentence formation.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates limited control over text organization and occasional errors in sentence formation, consistent with the observed scores of 3 across multiple dimensions. This is supported by the historical pattern observed in essays with similar features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's limited control over text organization and occasional errors in sentence formation align with the observed Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates limited control over text organization and cohesive devices, consistent with a score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows occasional errors in sentence formation, consistent with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary, consistent with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows evident use of phrases but without much variety, consistent with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has some errors in grammar and usage, consistent with a score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates developing use of conventions, with errors that are sometimes distracting, consistent with a score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

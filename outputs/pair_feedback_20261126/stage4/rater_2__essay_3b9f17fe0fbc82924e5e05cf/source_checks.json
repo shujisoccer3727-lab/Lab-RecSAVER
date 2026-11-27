@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S4",
+          "paragraph_id": "P2",
+          "start": 271,
+          "end": 408,
+          "text": " I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years."
+        },
+        {
+          "span_id": "S5",
+          "paragraph_id": "P2",
+          "start": 408,
+          "end": 834,
+          "text": " To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate."
+        }
+      ],
+      "reconstructed_quotes": [
+        " I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years.",
+        " To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S4",
+        "S5"
+      ],
+      "feature": "The use of nonstandard verb forms and grammatical structures, such as 'I am strongly agree with this option' and 'To graduate in three years is not imposible'.",
+      "scoring_relevance": "These grammatical errors can affect the clarity and correctness of the argument, which is relevant to the Grammar dimension.",
+      "limitation": "This observation does not establish the frequency of such errors throughout the essay, only their presence in these specific sentences.",
+      "next_check": "Review other sentences in the essay for similar grammatical errors to assess the overall frequency and impact on the argument.",
+      "quotes": [
+        " I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years.",
+        " To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate."
+      ]
+    }
+  ]
+}

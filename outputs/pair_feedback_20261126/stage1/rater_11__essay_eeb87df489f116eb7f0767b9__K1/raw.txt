@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_eeb87df489f116eb7f0767b9",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, and a sufficient range of vocabulary receive scores around 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_e23e7d7abb02690e9486b33d",
+            "quotes": ["\"A problem is a chance for you to do your best.\" I agree with Duke Ellington because you can learn from your mistakes, you can improve on not making those mistakes, and you can describe your perspective to other people so they do not make those mistakes."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and a sufficient range of vocabulary, with occasional errors in sentence formation, consistent with a score of 3 in most traits."
+          },
+          {
+            "history_essay_id": "essay_4dc0854257ce038ac2b8e35f",
+            "quotes": ["The distance learning from home would present benefits for students and their daily life. In my opinion as a student this's good idea because, some students live by their own or they help their parents economic."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows generally controlled organization and a sufficient range of vocabulary, with occasional errors in sentence formation, consistent with a score of 3 in most traits."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["\"Honesty is the best policy, because it builds a good relationship, builds trustworthiness, and helps you be a good role model.\""],
+        "observable_feature": "The essay demonstrates generally controlled organization, a sufficient range of vocabulary, and occasional errors in sentence formation.",
+        "evaluative_interpretation": "This is consistent with a score of 3 in most traits, as the essay shows controlled organization and a sufficient range of vocabulary, with occasional errors in sentence formation.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay aligns with the rubric's description for a score of 3, showing generally controlled organization, a sufficient range of vocabulary, and occasional errors in sentence formation.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates generally controlled organization, a sufficient range of vocabulary, and occasional errors in sentence formation, consistent with a score of 3 in most traits. This is supported by the pattern observed in the history essays, where similar features receive scores around 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay's generally controlled organization, sufficient range of vocabulary, and occasional errors in sentence formation align with the observed Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally controlled organization, consistent with a score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows occasional errors in sentence formation, consistent with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary, which aligns with a score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows evident use of phrases with some noticeable repetitions and misuses, consistent with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has some errors in grammar and usage, consistent with a score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows developing use of conventions with errors that are sometimes distracting, consistent with a score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

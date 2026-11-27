@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "essay_17448b70a54b82d71f36f417",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Overall",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with frequent grammatical and conventional errors receive lower Overall scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_3dfff4ca368d9cdbf51424d4",
+            "quotes": [
+              "\"WHERE WERE YOU Generic_Name WE HAVE BEEN LOOKING ALL OVER FOR YOU\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay's frequent capitalization and punctuation errors align with a lower Overall score."
+          },
+          {
+            "history_essay_id": "essay_0314ba6db386642614d33f2d",
+            "quotes": [
+              "\"Schools should have a partnership business to help all the students to reach their goals.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay's grammatical and conventional errors align with a lower Overall score."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is supported by two essays, but more data would strengthen the interpretation."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Overall",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "\"If you lie it's not going to make you seem like a good person or help you in anyway.\""
+        ],
+        "observable_feature": "Frequent grammatical and conventional errors, such as missing apostrophes and incorrect capitalization.",
+        "evaluative_interpretation": "These errors may detract from the essay's clarity and coherence, leading to a lower Overall score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for Overall and Grammar indicates that errors can impede communication and lower the score.",
+        "uncertainty": "The errors are frequent but not pervasive, which may limit the extent to which they affect the score."
+      }
+    ],
+    "decision_explanation": "The frequent grammatical and conventional errors in the target essay, similar to those in the history essays, align with the lower Overall score of 3. The pattern observed in the history supports the idea that such errors contribute to a lower score.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The observed Overall score of 3 is consistent with the essay's frequent grammatical and conventional errors, which align with the rubric's description for a score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The frequent grammatical errors, such as missing apostrophes and incorrect capitalization, align with the observed score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The frequent conventional errors, such as missing apostrophes and incorrect capitalization, align with the observed score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": [
+      "The essay's frequent errors in Grammar and Conventions align with the lower scores, but the extent to which these errors affect the Overall score remains somewhat underdetermined."
+    ]
+  }
+}

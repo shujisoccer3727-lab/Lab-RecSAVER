@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_5b889c8b52928dc30dd656bb",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S1"
+      ],
+      "feature": "The sentence contains multiple grammatical errors, including incorrect verb forms and missing punctuation.",
+      "scoring_relevance": "These errors affect the clarity and readability of the text, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation does not provide information about the consistency of grammatical usage throughout the essay.",
+      "next_check": "Review the opening sentences of other paragraphs to check for similar grammatical issues."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S10"
+      ],
+      "feature": "The essay begins with a statement about the importance of a positive attitude and concludes with a similar statement, suggesting a thematic connection.",
+      "scoring_relevance": "This thematic connection can contribute to the overall cohesion of the essay, which is relevant to the Cohesion scoring dimension.",
+      "limitation": "The thematic connection does not necessarily indicate how well the ideas are linked within the body of the essay.",
+      "next_check": "Examine the transitions between paragraphs to determine if they support the thematic connection."
+    }
+  ],
+  "insufficient_evidence": []
+}

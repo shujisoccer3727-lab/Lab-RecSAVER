@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-26T17:48:08.866884+09:00",
+  "source": "Windows GPU performance counters, read-only",
+  "adapter_dedicated_bytes": 50562289664,
+  "adapter_shared_bytes": 1938046976,
+  "adapter_committed_bytes": 52686057472,
+  "wsl_process_dedicated_bytes": 50031849472,
+  "wsl_process_shared_bytes": 1900019712,
+  "measured_batch_seconds": 385,
+  "policy": "Reduce vLLM GPU memory utilization from 0.9 to 0.8; preserve all completed outputs, model, prompts, seeds, sampling and token limits. No process belonging to another job was changed."
+}

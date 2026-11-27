@@ -1,0 +1,21 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Grammar",
+    "evidence_span_ids": [
+      "S1",
+      "S2"
+    ],
+    "feature": "The essay contains grammatical errors such as 'they're' instead of 'there' and 'then' instead of 'than'.",
+    "scoring_relevance": "These errors indicate a lack of attention to detail and may affect the clarity of the writer's argument.",
+    "limitation": "This evidence does not establish the frequency of such errors throughout the essay.",
+    "next_check": "Review other sentences for similar grammatical errors and assess their impact on the overall clarity of the essay.",
+    "quotes": [
+      "I don't think it's a good idea to work from home they're a lot of kids that would just take advantage from working from home.",
+      " Kids would rather be at home then have to go to school at seven in the morning."
+    ],
+    "observation_key": "essay_b899487a9f3ed8c4bb6c7b99::O1",
+    "target_essay_id": "essay_b899487a9f3ed8c4bb6c7b99",
+    "observed_score": 3
+  }
+]

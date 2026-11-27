@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "essay_3dfff4ca368d9cdbf51424d4",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Grammar", "Conventions"],
+        "pattern": "Essays with frequent grammatical and syntactic errors, and inconsistent use of conventions receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_b899487a9f3ed8c4bb6c7b99",
+            "quotes": ["I don't think it's a good idea to work from home they're a lot of kids that would just take advantage from working from home."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay contains grammatical errors and lacks cohesive devices, resulting in a lower score."
+          },
+          {
+            "history_essay_id": "essay_c5cc2aeab042c249b0f62f33",
+            "quotes": ["When she came in the United States she wasn't speak English well"],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Grammar": 4,
+                "Conventions": 5
+              }
+            },
+            "interpretation": "Despite some grammatical errors, the essay demonstrates better cohesion and conventions, resulting in a higher score."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_c5ed1eb2265344005456b10e",
+            "quotes": ["I would go to Jamica because there are many places to go to do activites like a mountain or a beach."],
+            "interpretation": "This essay has fewer grammatical errors and better cohesion, yet it received a score of 4, suggesting that other factors also influence the score."
+          }
+        ],
+        "limitations": ["The pattern is not consistent across all essays, indicating that other factors may also influence the score."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Grammar", "Conventions"],
+        "quotes": ["Generic_Name was shocked.When we arrived at my house we did are hand shake and left."],
+        "observable_feature": "The text contains grammatical errors and lacks cohesive devices.",
+        "evaluative_interpretation": "The presence of grammatical errors and lack of cohesive devices may be credited as a limitation.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for Cohesion, Grammar, and Conventions indicates that errors and lack of cohesion can lower the score.",
+        "uncertainty": "The essay's overall organization and vocabulary range are not explicitly addressed."
+      }
+    ],
+    "decision_explanation": "The essay's grammatical errors and lack of cohesive devices align with the observed scores of 3 for Cohesion, Grammar, and Conventions, consistent with the pattern observed in the history.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The essay's grammatical errors and lack of cohesive devices align with the observed Overall score of 3, consistent with the pattern observed in the history.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay lacks cohesive devices, consistent with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay contains frequent grammatical errors, consistent with a score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has inconsistent use of conventions, consistent with a score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The essay's overall organization and vocabulary range are not explicitly addressed, leaving some uncertainty."]
+  }
+}

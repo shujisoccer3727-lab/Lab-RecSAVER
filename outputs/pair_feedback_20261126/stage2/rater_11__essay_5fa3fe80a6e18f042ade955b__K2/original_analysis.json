@@ -1,0 +1,68 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion"
+      ],
+      "pattern": "Essays with generally controlled organization and cohesive devices used appropriately receive a Cohesion score of 3 or higher.",
+      "support": [
+        {
+          "history_essay_id": "essay_b97e81e57d4179a8994f2100",
+          "quotes": [
+            "\"To begin, attend classes online is better than attend the classes at school in many ways.\"",
+            "\"Furthermore, by attend classes online will shows how clever the students are!\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a generally controlled organization with transitional phrases, supporting a Cohesion score of 3."
+        },
+        {
+          "history_essay_id": "essay_c71f7198048e6f418c2b65e9",
+          "quotes": [
+            "\"There are so many good benefits of having a healthy lunch, not only for health issues but make students feel really good about themselves.\"",
+            "\"The healthier food can help students with their body, less fat and motivates them to be someone they thought they couldn't be.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3
+            }
+          },
+          "interpretation": "The essay shows a generally controlled organization with transitional phrases, supporting a Cohesion score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion"
+      ],
+      "quotes": [
+        "\"Firstly, if a student can not understand a topic and has questions about it, they can feel more comfortable to ask and said\"",
+        "\"Secondly, in schools we can find many ways to be help if we have any problem in home.\"",
+        "\"Lastly, students has to socialize with other students to feel the sensation of surpassing.\""
+      ],
+      "observable_feature": "The essay uses transitional phrases to connect ideas and maintain a logical flow.",
+      "evaluative_interpretation": "The use of transitional phrases supports a generally controlled organization, which is consistent with a Cohesion score of 4.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay demonstrates a range of cohesive devices used appropriately, consistent with the rubric for a Cohesion score of 4.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates a generally controlled organization with appropriate use of cohesive devices, consistent with the observed Cohesion score of 4. This aligns with the pattern observed in the history where essays with similar features receive a Cohesion score of 3 or higher.",
+  "insufficient_evidence": []
+}

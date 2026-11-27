@@ -1,0 +1,246 @@
+{
+  "rater_id": "rater_2",
+  "accepted_target_ids": [
+    "essay_3b9f17fe0fbc82924e5e05cf"
+  ],
+  "verified_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S4",
+        "S5"
+      ],
+      "feature": "The use of nonstandard verb forms and grammatical structures, such as 'I am strongly agree with this option' and 'To graduate in three years is not imposible'.",
+      "scoring_relevance": "These grammatical errors can affect the clarity and correctness of the argument, which is relevant to the Grammar dimension.",
+      "limitation": "This observation does not establish the frequency of such errors throughout the essay, only their presence in these specific sentences.",
+      "next_check": "Review other sentences in the essay for similar grammatical errors to assess the overall frequency and impact on the argument.",
+      "quotes": [
+        " I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years.",
+        " To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate."
+      ],
+      "observation_key": "essay_3b9f17fe0fbc82924e5e05cf::O1",
+      "target_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+      "observed_score": 3
+    }
+  ],
+  "rubric_entries": [
+    {
+      "rubric_ref_id": "Overall:1",
+      "dimension": "Overall",
+      "score_band": 1,
+      "descriptor": "A limited range of familiar words or phrases loosely strung together; frequent errors in grammar (including syntax) and usage. Communication impeded in most cases by language inaccuracies."
+    },
+    {
+      "rubric_ref_id": "Overall:2",
+      "dimension": "Overall",
+      "score_band": 2,
+      "descriptor": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies."
+    },
+    {
+      "rubric_ref_id": "Overall:3",
+      "dimension": "Overall",
+      "score_band": 3,
+      "descriptor": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases."
+    },
+    {
+      "rubric_ref_id": "Overall:4",
+      "dimension": "Overall",
+      "score_band": 4,
+      "descriptor": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication."
+    },
+    {
+      "rubric_ref_id": "Overall:5",
+      "dimension": "Overall",
+      "score_band": 5,
+      "descriptor": "Native-like facility in the use of language with syntactic variety, Appropriate word choice and phrases; well-controlled text organization; precise use of grammar and conventions; rare language inaccuracies that do not impede communication."
+    },
+    {
+      "rubric_ref_id": "Cohesion:1",
+      "dimension": "Cohesion",
+      "score_band": 1,
+      "descriptor": "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear."
+    },
+    {
+      "rubric_ref_id": "Cohesion:2",
+      "dimension": "Cohesion",
+      "score_band": 2,
+      "descriptor": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition."
+    },
+    {
+      "rubric_ref_id": "Cohesion:3",
+      "dimension": "Cohesion",
+      "score_band": 3,
+      "descriptor": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs."
+    },
+    {
+      "rubric_ref_id": "Cohesion:4",
+      "dimension": "Cohesion",
+      "score_band": 4,
+      "descriptor": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas"
+    },
+    {
+      "rubric_ref_id": "Cohesion:5",
+      "dimension": "Cohesion",
+      "score_band": 5,
+      "descriptor": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas."
+    },
+    {
+      "rubric_ref_id": "Syntax:1",
+      "dimension": "Syntax",
+      "score_band": 1,
+      "descriptor": "Pervasive and basic errors in sentence structure and word order that cause confusion; basic sentences errors common."
+    },
+    {
+      "rubric_ref_id": "Syntax:2",
+      "dimension": "Syntax",
+      "score_band": 2,
+      "descriptor": "Some sentence variation used; many sentence structure problems."
+    },
+    {
+      "rubric_ref_id": "Syntax:3",
+      "dimension": "Syntax",
+      "score_band": 3,
+      "descriptor": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences."
+    },
+    {
+      "rubric_ref_id": "Syntax:4",
+      "dimension": "Syntax",
+      "score_band": 4,
+      "descriptor": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation."
+    },
+    {
+      "rubric_ref_id": "Syntax:5",
+      "dimension": "Syntax",
+      "score_band": 5,
+      "descriptor": "Flexible and effective use of a full range of syntactic structures including simple, compound, and complex sentences; There may be rare minor and negligible errors in sentence formation."
+    },
+    {
+      "rubric_ref_id": "Vocabulary:1",
+      "dimension": "Vocabulary",
+      "score_band": 1,
+      "descriptor": "Limited vocabulary often inappropriately used; limited control of word choice and word forms; little attempt to use topic-related terms"
+    },
+    {
+      "rubric_ref_id": "Vocabulary:2",
+      "dimension": "Vocabulary",
+      "score_band": 2,
+      "descriptor": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings"
+    },
+    {
+      "rubric_ref_id": "Vocabulary:3",
+      "dimension": "Vocabulary",
+      "score_band": 3,
+      "descriptor": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy"
+    },
+    {
+      "rubric_ref_id": "Vocabulary:4",
+      "dimension": "Vocabulary",
+      "score_band": 4,
+      "descriptor": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items"
+    },
+    {
+      "rubric_ref_id": "Vocabulary:5",
+      "dimension": "Vocabulary",
+      "score_band": 5,
+      "descriptor": "Wide range of vocabulary flexibly and effectively used to convey precise meanings; skillful use of topic-related terms and less common words; rare negligible inaccuracies in word use."
+    },
+    {
+      "rubric_ref_id": "Phraseology:1",
+      "dimension": "Phraseology",
+      "score_band": 1,
+      "descriptor": "Memorized chunks of language, or simple phrasal patterns predominate; many repetitions and misuses of phrases."
+    },
+    {
+      "rubric_ref_id": "Phraseology:2",
+      "dimension": "Phraseology",
+      "score_band": 2,
+      "descriptor": "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and /or misuses of phrases."
+    },
+    {
+      "rubric_ref_id": "Phraseology:3",
+      "dimension": "Phraseology",
+      "score_band": 3,
+      "descriptor": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses."
+    },
+    {
+      "rubric_ref_id": "Phraseology:4",
+      "dimension": "Phraseology",
+      "score_band": 4,
+      "descriptor": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms."
+    },
+    {
+      "rubric_ref_id": "Phraseology:5",
+      "dimension": "Phraseology",
+      "score_band": 5,
+      "descriptor": "Flexible and effective use of a variety of phrases, such as idioms, collocations, and lexical bundles, to convey precise and subtle meanings; rare minor inaccuracies that are negligible."
+    },
+    {
+      "rubric_ref_id": "Grammar:1",
+      "dimension": "Grammar",
+      "score_band": 1,
+      "descriptor": "Errors in grammar and usage throughout."
+    },
+    {
+      "rubric_ref_id": "Grammar:2",
+      "dimension": "Grammar",
+      "score_band": 2,
+      "descriptor": "Many errors in grammar and usage."
+    },
+    {
+      "rubric_ref_id": "Grammar:3",
+      "dimension": "Grammar",
+      "score_band": 3,
+      "descriptor": "Some errors in grammar and usage."
+    },
+    {
+      "rubric_ref_id": "Grammar:4",
+      "dimension": "Grammar",
+      "score_band": 4,
+      "descriptor": "Minimal errors in grammar and usage."
+    },
+    {
+      "rubric_ref_id": "Grammar:5",
+      "dimension": "Grammar",
+      "score_band": 5,
+      "descriptor": "Command of grammar and usage with few or no errors."
+    },
+    {
+      "rubric_ref_id": "Conventions:1",
+      "dimension": "Conventions",
+      "score_band": 1,
+      "descriptor": "Minimal use of conventions; spelling, capitalizatio n, and punctuation errors throughout."
+    },
+    {
+      "rubric_ref_id": "Conventions:2",
+      "dimension": "Conventions",
+      "score_band": 2,
+      "descriptor": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting."
+    },
+    {
+      "rubric_ref_id": "Conventions:3",
+      "dimension": "Conventions",
+      "score_band": 3,
+      "descriptor": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting."
+    },
+    {
+      "rubric_ref_id": "Conventions:4",
+      "dimension": "Conventions",
+      "score_band": 4,
+      "descriptor": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting."
+    },
+    {
+      "rubric_ref_id": "Conventions:5",
+      "dimension": "Conventions",
+      "score_band": 5,
+      "descriptor": "Consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors nonexistent or negligible."
+    }
+  ],
+  "evidence_limitations": [
+    "These are retrospective cases from one fixed, score-blind history sample.",
+    "Source matching confirms quotations and recorded scores, not semantic support.",
+    "Only observations from at least two distinct essays may support a feature-to-evaluation pattern.",
+    "A single essay permits local feedback only. Shared scores or features alone do not establish a scoring pattern.",
+    "No access to the human rater's true reasons, numerical weights or causal effects; no rerating occurred."
+  ]
+}

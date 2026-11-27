@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_13",
+  "target_essay_id": "essay_daaa89f0ed3a1b79d3163b1a",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with limited syntactic variety, occasional errors in grammar and conventions, and a narrow range of vocabulary receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_046d3822012f07f76c4d50e4",
+            "quotes": ["we can accomplish something we wanted to do by facing our fear and by doing that we can face a stage fight fear and a high fear by making them face them."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates limited syntactic variety and occasional errors, consistent with a lower score."
+          },
+          {
+            "history_essay_id": "essay_539c991b479db5f84e9be8a9",
+            "quotes": ["Working in groups helps us by sharing ideas: i think working in groups is very important. it helps us bring our minds together to brainstorm some ideas or by sharing opinoin"],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows a narrow range of vocabulary and occasional grammatical errors, consistent with a score of 4."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["Negative, We have to take Information about the Books, Play games etc.Ok We do what we want, but not everthing we do it is correct There is will be correct some will be incorrect because we don't know all the information about this games, books, shop etc."],
+        "observable_feature": "The text demonstrates limited syntactic variety, occasional grammatical errors, and a narrow range of vocabulary.",
+        "evaluative_interpretation": "These features are consistent with a lower score, as they indicate limited proficiency in language use.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for scores 3 and 4 indicates that limited syntactic variety, occasional errors, and a narrow range of vocabulary are characteristic of these scores.",
+        "uncertainty": "The text's overall coherence and organization are underdetermined by this excerpt alone."
+      }
+    ],
+    "decision_explanation": "The target essay's limited syntactic variety, occasional grammatical errors, and narrow range of vocabulary are consistent with the observed scores of 3. This is supported by the pattern observed in the history essays, where similar features are associated with lower scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The observed Overall score of 3 is consistent with the essay's limited syntactic variety, occasional grammatical errors, and narrow range of vocabulary. The Trait scores align with these observations, particularly the Cohesion score of 2, which reflects the text's limited organization.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The score of 2 is consistent with the text's limited organization and occasional mechanical use of cohesive devices."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The score of 3 is consistent with the text's limited syntactic variety and occasional errors in sentence formation."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The score of 3 is consistent with the text's narrow range of vocabulary and occasional inaccuracy in word use."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The score of 3 is consistent with the text's limited use of phrases and occasional misuse."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The score of 3 is consistent with the text's occasional errors in grammar and usage."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The score of 3 is consistent with the text's developing use of conventions and occasional distracting errors."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The text's overall coherence and organization are underdetermined by the provided excerpt alone."]
+  }
+}

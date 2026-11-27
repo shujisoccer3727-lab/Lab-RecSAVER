@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_83ab7bdbeedd61b6ecdd126b",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with a wide range of vocabulary, varied sentence structures, and minimal errors receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_7feeb1e7e2ad8717d2e3d436",
+            "quotes": ["In Thailand you can go to a really beautiful beach, visit different towns, and try or do new things."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates a wide range of vocabulary and varied sentence structures, which aligns with the higher Overall score."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_8054a6d088df6fd1f7d0338c",
+            "quotes": ["Playing games can make you happy and you have time to spend outside."],
+            "interpretation": "This essay has a narrower range of vocabulary and simpler sentence structures, which aligns with the lower Overall score."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Overall", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["Community parks provide a lot of fun ways to spend time outdoors. One of my three favorite ways to spend time outside would be playing sports, gardening and exercising."],
+        "observable_feature": "The essay demonstrates a wide range of vocabulary and varied sentence structures.",
+        "evaluative_interpretation": "This feature aligns with the higher Overall score, as it shows flexibility and effective use of language.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The text shows a wide range of vocabulary and varied sentence structures, which aligns with the rubric for a score of 5.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": ["Cohesion"],
+        "quotes": ["First, Playing sports outdoors is very fun way to spend the day. You can play with your family and friends."],
+        "observable_feature": "The essay uses cohesive devices such as transitional words and phrases.",
+        "evaluative_interpretation": "This feature aligns with a score of 4 for Cohesion, as it shows generally appropriate use of cohesive devices.",
+        "linked_history_pattern_ids": [],
+        "rubric_connection": "The text uses transitional words and phrases to connect ideas, which aligns with the rubric for a score of 4.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a wide range of vocabulary, varied sentence structures, and minimal errors, which aligns with the higher Overall score of 5. The use of cohesive devices such as transitional words and phrases supports a score of 4 for Cohesion.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 5,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 5,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 5,
+        "Conventions": 5
+      }
+    },
+    "overall_alignment": "The target essay demonstrates a wide range of vocabulary, varied sentence structures, and minimal errors, which aligns with the observed Overall score of 5. The use of cohesive devices such as transitional words and phrases supports a score of 4 for Cohesion.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T2"],
+        "alignment": "The essay uses cohesive devices such as transitional words and phrases, which aligns with a score of 4 for Cohesion."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates varied sentence structures, which aligns with a score of 5 for Syntax."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a wide range of vocabulary, which aligns with a score of 4 for Vocabulary."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates appropriate use of phrases, which aligns with a score of 4 for Phraseology."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates minimal errors in grammar, which aligns with a score of 5 for Grammar."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates consistent use of conventions, which aligns with a score of 5 for Conventions."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

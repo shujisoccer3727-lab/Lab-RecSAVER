@@ -1,0 +1,68 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax"
+      ],
+      "pattern": "Essays with generally controlled organization and occasional errors in sentence formation tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_080335221a43c8077549c0de",
+          "quotes": [
+            "\"Some people may believe that true self-esteem comes from praising while others believe that it comes from achievement.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and occasional errors in sentence formation, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_00808a491692a94c9fa33b54",
+          "quotes": [
+            "\"The goal is graduated high school in three years instead of four years.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3
+            }
+          },
+          "interpretation": "The essay shows generally controlled organization and occasional errors in sentence formation, consistent with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax"
+      ],
+      "quotes": [
+        "\"People always said anything about any arguments, but the most opinions can they said are problem, because sometime people speak bad things their opinions they can said are not supported for other for reason can have bad impressions with the community.\""
+      ],
+      "observable_feature": "The sentence structure is complex but contains errors in sentence formation and cohesion.",
+      "evaluative_interpretation": "The sentence demonstrates generally controlled organization but with occasional errors in sentence formation, consistent with an Overall score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The sentence structure aligns with the rubric for a score of 3, showing generally controlled organization and occasional errors in sentence formation.",
+      "uncertainty": "The sentence contains multiple errors, but the overall structure is understandable."
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates generally controlled organization and occasional errors in sentence formation, consistent with the observed Overall score of 3. This is supported by the historical pattern observed in essays with similar features.",
+  "insufficient_evidence": []
+}

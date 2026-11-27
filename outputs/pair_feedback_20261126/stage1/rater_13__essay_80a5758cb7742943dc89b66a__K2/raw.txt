@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_13",
+  "target_essay_id": "essay_80a5758cb7742943dc89b66a",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Overall", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "High scores are given to essays with a wide range of vocabulary, flexible use of syntax, and minimal errors in grammar and conventions.",
+        "support": [
+          {
+            "history_essay_id": "essay_3f4d5d459a296ccd2d5d0c8d",
+            "quotes": ["First the reason I would like to go visit Germany is mostly to see all of the beautiful places and landmarks that Germany has to offer."],
+            "relevant_observed_history_scores": {
+              "Overall": 5,
+              "Traits": {
+                "Cohesion": 5,
+                "Syntax": 5,
+                "Vocabulary": 5,
+                "Phraseology": 5,
+                "Grammar": 5,
+                "Conventions": 5
+              }
+            },
+            "interpretation": "The essay demonstrates a wide range of vocabulary and flexible use of syntax, which aligns with the high scores."
+          },
+          {
+            "history_essay_id": "essay_9360ebd676d148b9227e2783",
+            "quotes": ["Sharing wisdom is a lot of knowledge thrown at your face. It's more than 'just talk'. Sharing wisdom helps the person by letting he or she know not to do this or to go for it."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 3,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows a good range of vocabulary and syntax, with occasional errors, which aligns with the scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_c9f9563839e5db463ef74df1",
+            "quotes": ["It has been said that a positive attitude is the key of success. Some people think that having a positive attitude is not the key to success."],
+            "interpretation": "The essay demonstrates limited vocabulary and syntax, with noticeable errors, which aligns with the lower scores."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Overall", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["The curfews keep teenagers out of trouble because most of them would not want to be kidnapped or murdered while walking on the street at night."],
+        "observable_feature": "The essay demonstrates a wide range of vocabulary, flexible use of syntax, and minimal errors in grammar and conventions.",
+        "evaluative_interpretation": "This feature aligns with the high scores observed.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay shows a wide range of vocabulary and flexible use of syntax, which aligns with the rubric for high scores.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates a wide range of vocabulary, flexible use of syntax, and minimal errors in grammar and conventions, which aligns with the high scores observed in the history. This is consistent with the pattern observed in the history essays with high scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 5,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 5,
+        "Vocabulary": 5,
+        "Phraseology": 5,
+        "Grammar": 5,
+        "Conventions": 5
+      }
+    },
+    "overall_alignment": "The essay demonstrates a wide range of vocabulary, flexible use of syntax, and minimal errors in grammar and conventions, which aligns with the high scores observed in the history. This is consistent with the pattern observed in the history essays with high scores.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates good control of organization and cohesive devices, which aligns with the observed score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates flexible and effective use of a full range of syntactic structures, which aligns with the observed score of 5."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a wide range of vocabulary flexibly and effectively used to convey precise meanings, which aligns with the observed score of 5."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates flexible and effective use of a variety of phrases, which aligns with the observed score of 5."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates command of grammar and usage with few or no errors, which aligns with the observed score of 5."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 5,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates consistent use of appropriate conventions to convey meaning, which aligns with the observed score of 5."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

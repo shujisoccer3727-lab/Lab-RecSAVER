@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with generally controlled organization, varied sentence structures, sufficient vocabulary, and minimal errors in grammar and conventions tend to receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_b1cca193002635ed61a412bb",
+          "quotes": [
+            "Cell phones are powerful electronic tools for students to use in classroom. Cell phones are now the most popular device that we can take with us wherever we go because it provide useful information such as news and climate."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 2,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and varied sentence structures, with sufficient vocabulary and minimal errors, consistent with a higher score."
+        },
+        {
+          "history_essay_id": "essay_1c3c1934d148a5d8acdae7ce",
+          "quotes": [
+            "Education change our life and teach you to think in a different way. Some people rush trying to graduate from school or reach their gools ahead of time which it is not good."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay shows controlled organization and varied sentence structures, but with more errors in grammar and conventions, consistent with a lower score."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "In life you live and learn lessons, dealing with stress after stress, or learning that every struggle you faced at the end it will pay off."
+      ],
+      "observable_feature": "The essay demonstrates controlled organization, varied sentence structures, sufficient vocabulary, and minimal errors in grammar and conventions.",
+      "evaluative_interpretation": "These features are consistent with a higher score, as they align with the rubric criteria for a score of 4.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows a generally controlled organization and varied sentence structures, with sufficient vocabulary and minimal errors, aligning with the rubric criteria for a score of 4.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates controlled organization, varied sentence structures, sufficient vocabulary, and minimal errors in grammar and conventions, consistent with the observed scores. This aligns with the pattern observed in the history where essays with these features tend to receive higher scores.",
+  "insufficient_evidence": []
+}

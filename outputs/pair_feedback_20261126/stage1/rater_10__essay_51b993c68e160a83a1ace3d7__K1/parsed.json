@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_51b993c68e160a83a1ace3d7",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "pattern": "Essays with a wide range of vocabulary and effective use of cohesive devices tend to receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_bdeee4699532dec8dfaea224",
+            "quotes": [
+              "\"Your company is understandable to your employees. You treat them with respect and love as if they were your family.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Vocabulary": 4,
+                "Phraseology": 5
+              }
+            },
+            "interpretation": "The essay demonstrates a wide range of vocabulary and effective use of cohesive devices, which aligns with the higher scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_5c261ba25f1fd7836218065c",
+            "quotes": [
+              "\"The example is a good setting to influence other.\""
+            ],
+            "interpretation": "This essay lacks a wide range of vocabulary and cohesive devices, which aligns with its lower scores."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "quotes": [
+          "\"Being that I am enrolled in many classes that teach me most of what I'll need to know in the career I am pursuing, It'll maybe put me ahead of the pack wanting the same as I.\""
+        ],
+        "observable_feature": "The essay demonstrates a wide range of vocabulary and effective use of cohesive devices.",
+        "evaluative_interpretation": "This feature is consistent with higher scores in Cohesion, Vocabulary, and Phraseology.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay shows a wide range of vocabulary and effective use of cohesive devices, which aligns with the rubric criteria for higher scores.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates a wide range of vocabulary and effective use of cohesive devices, which aligns with the higher scores observed in the history. This is consistent with the observed Overall score of 4.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 4,
+        "Vocabulary": 4,
+        "Phraseology": 5,
+        "Grammar": 5,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay demonstrates a wide range of vocabulary and effective use of cohesive devices, which aligns with the rubric criteria for an Overall score of 4.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates effective use of cohesive devices, which aligns with a score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates appropriate use of a variety of syntactic structures, which aligns with a score of 4."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary to allow flexibility and precision, which aligns with a score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 5,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates flexible and effective use of a variety of phrases, which aligns with a score of 5."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 5,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates command of grammar and usage with few or no errors, which aligns with a score of 5."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates generally consistent use of appropriate conventions to convey meaning, which aligns with a score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

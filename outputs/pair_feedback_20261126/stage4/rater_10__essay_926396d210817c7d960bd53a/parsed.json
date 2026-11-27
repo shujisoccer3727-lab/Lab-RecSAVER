@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_926396d210817c7d960bd53a",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S1"
+      ],
+      "feature": "The sentence contains multiple grammatical errors, including missing articles and incorrect verb forms.",
+      "scoring_relevance": "These errors affect the clarity and correctness of the sentence, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation is limited to the first sentence and does not provide a comprehensive view of the essay's grammatical accuracy.",
+      "next_check": "Review other sentences in the essay to check for similar grammatical errors."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S2"
+      ],
+      "feature": "The first two sentences are connected by a logical progression, with the second sentence elaborating on the benefits of elective classes mentioned in the first.",
+      "scoring_relevance": "This logical progression contributes to the cohesion of the essay, which is relevant to the Cohesion scoring dimension.",
+      "limitation": "This observation is limited to the first two sentences and does not provide a comprehensive view of the essay's overall cohesion.",
+      "next_check": "Review the connections between other sentences and paragraphs to check for consistency in logical progression."
+    }
+  ],
+  "insufficient_evidence": []
+}

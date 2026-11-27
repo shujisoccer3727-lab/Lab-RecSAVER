@@ -1,0 +1,94 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a range of vocabulary and syntactic structures, occasional errors in grammar and conventions, and generally controlled organization tend to receive scores around 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_c33fcd11d24bca6c46d8d1cd",
+          "quotes": [
+            "\"the school should be for the student attend class at home by internet,video,and website, then It's fine.\"",
+            "When the school open the classes online,then students won't need go to school and study at home."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 2,
+              "Vocabulary": 2,
+              "Phraseology": 3,
+              "Grammar": 2,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows limited vocabulary and frequent errors in grammar and syntax, leading to a score of 2."
+        },
+        {
+          "history_essay_id": "essay_acc62b00900a0ec7b7be3915",
+          "quotes": [
+            "\"Hanging out with friends can be fun if you make it fun, you could take bikes rides together, talk about problem or achievements you've accomplished, play games or just walk around.\"",
+            "Other way to enjoy these amazing parks is by visiting it with you're families."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a wider range of vocabulary and more controlled syntax, leading to a score of 4."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_2548a450358fcc40a297da41",
+          "quotes": [
+            "\"Technology, 21st centuries finest product. nearly everyone loves technology, is it really that beautiful?\""
+          ],
+          "interpretation": "This essay has a higher score despite having a similar range of vocabulary and syntax, suggesting that other factors may influence the score."
+        }
+      ],
+      "limitations": [
+        "The pattern is not consistent across all essays, suggesting that other factors may also influence the score."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"system of body of a human organized that should always be active. being inactive dose not make our life easier in case to make it easy we should do how much we can and don't put today's work for tomorrow.\""
+      ],
+      "observable_feature": "The essay demonstrates a range of vocabulary and syntactic structures, with occasional errors in grammar and conventions.",
+      "evaluative_interpretation": "The essay shows a controlled organization and a range of vocabulary, but there are occasional errors in grammar and conventions, which may limit the score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay aligns with the rubric for a score of 3, showing a range of vocabulary and syntactic structures, occasional errors in grammar and conventions, and generally controlled organization.",
+      "uncertainty": "The essay's score could be influenced by other factors not captured in the rubric."
+    }
+  ],
+  "decision_explanation": "The essay demonstrates a range of vocabulary and syntactic structures, with occasional errors in grammar and conventions, which aligns with the observed scores. The controlled organization and use of cohesive devices support a score of 3.",
+  "insufficient_evidence": []
+}

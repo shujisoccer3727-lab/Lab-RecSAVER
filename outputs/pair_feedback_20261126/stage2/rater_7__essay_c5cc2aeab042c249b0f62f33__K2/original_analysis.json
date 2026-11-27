@@ -1,0 +1,86 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a range of vocabulary and phrases, occasional inaccuracies, and generally controlled organization tend to receive an Overall score of 4.",
+      "support": [
+        {
+          "history_essay_id": "essay_b899487a9f3ed8c4bb6c7b99",
+          "quotes": [
+            "\"There are some kids that can't really work at school, but then they're others that just do it for fun.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 4,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a range of vocabulary and phrases with occasional inaccuracies, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_17448b70a54b82d71f36f417",
+          "quotes": [
+            "\"People should be more honest with others and them selves.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay shows a range of vocabulary and phrases with occasional inaccuracies, consistent with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is based on a limited number of essays and may not fully represent the rater's preferences."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"It would make the student confidence. They can save their time and money. It could help them to finish and graduate early.\""
+      ],
+      "observable_feature": "The essay demonstrates a range of vocabulary and phrases with occasional inaccuracies and generally controlled organization.",
+      "evaluative_interpretation": "This feature is consistent with an Overall score of 4, as it shows a sufficient range of vocabulary and phrases with occasional inaccuracies and generally controlled organization.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's range of vocabulary and phrases with occasional inaccuracies aligns with the rubric's description for an Overall score of 4.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates a range of vocabulary and phrases with occasional inaccuracies and generally controlled organization, consistent with the observed Overall score of 4. This is supported by the historical pattern observed in essays with similar features.",
+  "insufficient_evidence": []
+}

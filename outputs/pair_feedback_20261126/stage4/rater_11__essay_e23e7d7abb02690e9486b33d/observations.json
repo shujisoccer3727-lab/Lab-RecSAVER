@@ -1,0 +1,23 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S4",
+      "S7",
+      "S11"
+    ],
+    "feature": "The essay uses transitional phrases such as 'First of all', 'Secondly', and 'Finally' to organize the argument.",
+    "scoring_relevance": "These transitional phrases help to establish a clear structure and logical flow of ideas, which is relevant to the Cohesion dimension.",
+    "limitation": "The presence of transitional phrases does not guarantee that the essay is fully cohesive; it only indicates that there is an attempt to organize the argument.",
+    "next_check": "Review the content of each section to ensure that the ideas within each section are logically connected and that the transitions between sections are smooth.",
+    "quotes": [
+      "First of all, I agree with Duke Ellington because you can learn from your mistakes.",
+      "Secondly, I agree with Duke Ellington because you can improve on not making those mistakes.",
+      "Finally, I agree with Duke Ellington because you can describe your perspective to other people so they do not make those mistakes."
+    ],
+    "observation_key": "essay_e23e7d7abb02690e9486b33d::O1",
+    "target_essay_id": "essay_e23e7d7abb02690e9486b33d",
+    "observed_score": 3
+  }
+]

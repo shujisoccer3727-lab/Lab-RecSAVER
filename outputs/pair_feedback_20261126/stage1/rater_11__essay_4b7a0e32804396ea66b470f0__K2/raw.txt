@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_4b7a0e32804396ea66b470f0",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Grammar", "Conventions"],
+        "pattern": "Essays with limited control over text organization, frequent errors in sentence structure, and multiple conventions errors tend to receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_7012f54d55015706d1ad1ea0",
+            "quotes": ["\"Well my opinion for this cuestion is was you need to do frist have in one aponment.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay demonstrates poor control over text organization and frequent errors in sentence structure, consistent with the observed lower scores."
+          },
+          {
+            "history_essay_id": "essay_11027e3f200638d5f82370c9",
+            "quotes": ["\"There are a lot of people that have been throw difficult time, but their still happy.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay shows limited control over text organization and frequent errors in sentence structure, consistent with the observed lower scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Grammar", "Conventions"],
+        "quotes": ["\"Ralph Waldo Emerson\\n\\n\"To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.\" I agree with Emerson's statement about individuality because each person is a world and we have to do our things separate and does how we learnd about life doing our on things life is not easy as how we thing when we are with our parent's but you have to be older not young so we can decide to do our own things.\""],
+        "observable_feature": "The text demonstrates limited control over text organization, frequent errors in sentence structure, and multiple conventions errors.",
+        "evaluative_interpretation": "This is consistent with the observed lower scores, as the essay shows poor control over text organization and frequent errors in sentence structure.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay's limited control over text organization and frequent errors in sentence structure align with the rubric's description for a lower score.",
+        "uncertainty": "The essay's limited control over text organization and frequent errors in sentence structure align with the rubric's description for a lower score."
+      }
+    ],
+    "decision_explanation": "The essay demonstrates limited control over text organization, frequent errors in sentence structure, and multiple conventions errors, consistent with the observed lower scores. This is supported by the historical pattern observed in other essays with similar features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 2,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The essay's limited control over text organization, frequent errors in sentence structure, and multiple conventions errors align with the observed Overall score of 2.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates limited control over text organization, consistent with the observed score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows frequent errors in sentence structure, consistent with the observed score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary, consistent with the observed score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows a narrow range of phrases used to convey basic meaning, consistent with the observed score of 2."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates many errors in grammar and usage, consistent with the observed score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows frequent and distracting errors in spelling, capitalization, and punctuation, consistent with the observed score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

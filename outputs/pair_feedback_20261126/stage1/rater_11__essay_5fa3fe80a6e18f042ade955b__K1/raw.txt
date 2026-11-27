@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_5fa3fe80a6e18f042ade955b",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion"],
+        "pattern": "Essays with clear organization and logical sequencing of ideas tend to receive higher Cohesion scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_b97e81e57d4179a8994f2100",
+            "quotes": ["To begin, attend classes online is better than attend the classes at school in many ways.", "Furthermore, by attend classes online will shows how clever the students are!"],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2
+              }
+            },
+            "interpretation": "The essay shows a clear structure with transitional phrases, but the Cohesion score is still 2, suggesting that the organization could be more effective."
+          },
+          {
+            "history_essay_id": "essay_c71f7198048e6f418c2b65e9",
+            "quotes": ["The healthier food can help students with their body, less fat and motivates them to be someone they thought they couldn't be.", "The more healthier students are, the less sick they are."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2
+              }
+            },
+            "interpretation": "The essay has a clear structure with logical sequencing, but the Cohesion score is 2, indicating that the organization could be more coherent."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would be needed to confirm a stable preference."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion"],
+        "quotes": ["Firstly, if a student can not understand a topic and has questions about it, they can feel more comfortable to ask and said", "Secondly, in schools we can find many ways to be help if we have any problem in home.", "Lastly, students has to socialize with other students to feel the sensation of surpassing."],
+        "observable_feature": "The essay uses clear transitional phrases to organize the argument.",
+        "evaluative_interpretation": "The use of transitional phrases indicates a clear structure, which is consistent with a higher Cohesion score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay demonstrates a generally well-controlled organization with appropriate use of cohesive devices, aligning with a Cohesion score of 4.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a clear structure with transitional phrases, which is consistent with the higher Cohesion score of 4. This is supported by the history pattern H1, where essays with clear organization and logical sequencing of ideas tend to receive higher Cohesion scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay demonstrates a generally well-controlled organization with appropriate use of cohesive devices, which aligns with the observed Overall score of 3. The higher Cohesion score of 4 is consistent with the clear structure and logical sequencing of ideas.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses clear transitional phrases to organize the argument, which aligns with the observed Cohesion score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates an appropriate use of a variety of syntactic structures, which aligns with the observed Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary to allow flexibility and precision, which aligns with the observed Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates an appropriate use of a variety of phrases, which aligns with the observed Phraseology score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates minimal errors in grammar and usage, which aligns with the observed Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates a generally consistent use of appropriate conventions to convey meaning, which aligns with the observed Conventions score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

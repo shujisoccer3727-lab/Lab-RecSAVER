@@ -1,0 +1,38 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Grammar",
+    "evidence_span_ids": [
+      "S1"
+    ],
+    "feature": "The essay contains nonstandard verb forms and subject-verb agreement issues, such as 'phone's' instead of 'phones' and 'they don't use it' instead of 'they do not use them'.",
+    "scoring_relevance": "These grammatical errors can affect the clarity and correctness of the writer's argument, which is relevant to the Grammar scoring dimension.",
+    "limitation": "This evidence does not establish the frequency of such errors throughout the essay, only their presence in the selected span.",
+    "next_check": "Review other sentences in the essay for similar grammatical errors to determine their frequency and impact on the overall argument.",
+    "quotes": [
+      "Dear Principal my thoughts about having phone's in school i think you should let students use phone in their own spar time because they don't use it during class and its not fair that most teachers at the school can use them during teaching it is a big distraction when the phone goes off during a test or some important project, but it well help if you let the student use their phone so they can plan their day by letting their parent know where there going after school or other events like school activities like soccer, basketball, and other great stuff the school has provide for all the students."
+    ],
+    "observation_key": "essay_23a8594b76f0bbd8dcb9f093::O1",
+    "target_essay_id": "essay_23a8594b76f0bbd8dcb9f093",
+    "observed_score": 3
+  },
+  {
+    "observation_id": "O2",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S1",
+      "S2"
+    ],
+    "feature": "The essay transitions from discussing the reasons for allowing phone use to the idea of trusting students, with a clear shift marked by 'The big idea about this is trust'.",
+    "scoring_relevance": "This transition helps to connect the reasons for allowing phone use with the broader concept of trust, which is relevant to the Cohesion scoring dimension.",
+    "limitation": "This evidence does not establish the overall coherence of the essay, only the local connection between two ideas.",
+    "next_check": "Review the transitions between other paragraphs to see if they maintain a coherent flow of ideas throughout the essay.",
+    "quotes": [
+      "Dear Principal my thoughts about having phone's in school i think you should let students use phone in their own spar time because they don't use it during class and its not fair that most teachers at the school can use them during teaching it is a big distraction when the phone goes off during a test or some important project, but it well help if you let the student use their phone so they can plan their day by letting their parent know where there going after school or other events like school activities like soccer, basketball, and other great stuff the school has provide for all the students.",
+      "The big idea about this is trust the students can not use their phone when ever if the students don't follow the rules you can stop phone use but, give it a try and see how well it works"
+    ],
+    "observation_key": "essay_23a8594b76f0bbd8dcb9f093::O2",
+    "target_essay_id": "essay_23a8594b76f0bbd8dcb9f093",
+    "observed_score": 3
+  }
+]

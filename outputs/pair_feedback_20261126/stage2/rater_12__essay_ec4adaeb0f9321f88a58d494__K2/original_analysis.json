@@ -1,0 +1,92 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with controlled organization, varied sentence structures, and minimal errors in grammar and conventions tend to receive an Overall score of 4.",
+      "support": [
+        {
+          "history_essay_id": "essay_1982ecb00b93c55770d5a34a",
+          "quotes": [
+            "We have met so many others with similar and different character traits in our lives that it has shaped our own."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and varied sentence structures, which align with the observed Overall score of 4."
+        },
+        {
+          "history_essay_id": "essay_acc62b00900a0ec7b7be3915",
+          "quotes": [
+            "Talking about how there day went can bring you guys more closer and make them feel a bit better."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows controlled organization and varied sentence structures, which align with the observed Overall score of 4."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_919c31bf11f0c69f6dcf663b",
+          "quotes": [
+            "After elementary you go to middle school, Then high school, And then collage,"
+          ],
+          "interpretation": "This essay has less controlled organization and more errors, which contrasts with the pattern of essays receiving an Overall score of 4."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "During the play the cast members can make new friends and meet new people."
+      ],
+      "observable_feature": "The essay demonstrates controlled organization and varied sentence structures.",
+      "evaluative_interpretation": "This feature aligns with the observed Overall score of 4, as it shows facility in the use of language with syntactic variety and controlled organization.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "Facility in the use of language with syntactic variety and controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates controlled organization and varied sentence structures, which aligns with the observed Overall score of 4. This is consistent with the pattern observed in the history where essays with similar features receive an Overall score of 4.",
+  "insufficient_evidence": []
+}

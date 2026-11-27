@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "essay_3dfff4ca368d9cdbf51424d4",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Grammar", "Conventions"],
+        "pattern": "Lower scores are given when there are frequent errors in grammar and conventions.",
+        "support": [
+          {
+            "history_essay_id": "essay_b899487a9f3ed8c4bb6c7b99",
+            "quotes": ["I don't think working from home is a good idea for school students."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay contains frequent errors in grammar and conventions, which aligns with the lower scores."
+          },
+          {
+            "history_essay_id": "essay_c5cc2aeab042c249b0f62f33",
+            "quotes": ["When she came in the United States she wasn't speak English well"],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Grammar": 4,
+                "Conventions": 5
+              }
+            },
+            "interpretation": "The essay has fewer errors in grammar and conventions, which aligns with the higher scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is based on only two essays, which may not be sufficient to establish a stable preference."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Grammar", "Conventions"],
+        "quotes": ["Generic_Name deosn't just want me dating girls."],
+        "observable_feature": "Spelling and grammatical errors.",
+        "evaluative_interpretation": "The presence of frequent errors in grammar and conventions is consistent with a lower score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for Grammar and Conventions indicates that frequent errors lead to lower scores.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": ["Cohesion"],
+        "quotes": ["Generic_Name Asked me,\"Generic_Name if there was one place in the world you would liked to visit what would it be\""],
+        "observable_feature": "Inconsistent use of cohesive devices.",
+        "evaluative_interpretation": "The inconsistent use of cohesive devices, such as quotation marks and punctuation, is consistent with a lower score.",
+        "linked_history_pattern_ids": [],
+        "rubric_connection": "The rubric for Cohesion indicates that inconsistent use of cohesive devices leads to lower scores.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay contains frequent errors in grammar and conventions, which is consistent with the observed scores of 3 for Overall and Traits. The pattern observed in the history essays supports this interpretation.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The target essay's frequent errors in grammar and conventions align with the observed Overall score of 3. The Trait scores are consistent with the rubric descriptions for level 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The frequent errors in grammar are consistent with the observed score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The frequent errors in conventions are consistent with the observed score of 2."
+      },
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T2"],
+        "alignment": "The inconsistent use of cohesive devices is consistent with the observed score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

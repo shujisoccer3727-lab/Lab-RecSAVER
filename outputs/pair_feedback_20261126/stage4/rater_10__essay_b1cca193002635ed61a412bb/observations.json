@@ -1,0 +1,21 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S6",
+      "S10"
+    ],
+    "feature": "The essay uses a clear transition ('Just like working with a computer') to connect the idea that cell phones provide similar apps as computers.",
+    "scoring_relevance": "This transition helps maintain the flow of the argument by directly linking the idea of cell phones having similar functionalities to computers.",
+    "limitation": "This observation does not establish the overall coherence of the essay, only the local connection between two ideas.",
+    "next_check": "Review the transitions between other main points to ensure they maintain the flow of the argument.",
+    "quotes": [
+      "First reason is, cell phones provide almost all the apps that a computer contains.",
+      " Just like working with a computer, students can works with their cell phones using the same apps to do any type of work."
+    ],
+    "observation_key": "essay_b1cca193002635ed61a412bb::O1",
+    "target_essay_id": "essay_b1cca193002635ed61a412bb",
+    "observed_score": 4
+  }
+]

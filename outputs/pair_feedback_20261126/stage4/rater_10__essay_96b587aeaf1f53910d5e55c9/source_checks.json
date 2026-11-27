@@ -1,0 +1,69 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S10",
+          "paragraph_id": "P2",
+          "start": 785,
+          "end": 915,
+          "text": "To be more specific about how importance of attitude, your day is great or bad is depended on how your attitude toward the happen."
+        },
+        {
+          "span_id": "S11",
+          "paragraph_id": "P2",
+          "start": 915,
+          "end": 1046,
+          "text": " For example, you dressed a beautiful shirt in the pretty day, suddenly, somebody walked pass you and spilled coffee on your shirt."
+        },
+        {
+          "span_id": "S12",
+          "paragraph_id": "P2",
+          "start": 1046,
+          "end": 1123,
+          "text": " Which attitude should you make to let your day continuing to be a great day?"
+        },
+        {
+          "span_id": "S13",
+          "paragraph_id": "P2",
+          "start": 1123,
+          "end": 1215,
+          "text": " You get angry and ruin everything, or you give a bright smile and make a nice conversation."
+        }
+      ],
+      "reconstructed_quotes": [
+        "To be more specific about how importance of attitude, your day is great or bad is depended on how your attitude toward the happen.",
+        " For example, you dressed a beautiful shirt in the pretty day, suddenly, somebody walked pass you and spilled coffee on your shirt.",
+        " Which attitude should you make to let your day continuing to be a great day?",
+        " You get angry and ruin everything, or you give a bright smile and make a nice conversation."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S10",
+        "S11",
+        "S12",
+        "S13"
+      ],
+      "feature": "The essay uses a clear example to illustrate the importance of positive attitude. The example of spilling coffee on a beautiful shirt is used to show how a positive attitude can turn a bad situation into a good one.",
+      "scoring_relevance": "This feature is relevant to the cohesion dimension as it shows the writer's ability to use examples to support their argument and maintain a coherent flow of ideas.",
+      "limitation": "This evidence does not establish the overall coherence of the essay, only the coherence within this specific example.",
+      "next_check": "Review the transitions between paragraphs to ensure they maintain the flow of the argument.",
+      "quotes": [
+        "To be more specific about how importance of attitude, your day is great or bad is depended on how your attitude toward the happen.",
+        " For example, you dressed a beautiful shirt in the pretty day, suddenly, somebody walked pass you and spilled coffee on your shirt.",
+        " Which attitude should you make to let your day continuing to be a great day?",
+        " You get angry and ruin everything, or you give a bright smile and make a nice conversation."
+      ]
+    }
+  ]
+}

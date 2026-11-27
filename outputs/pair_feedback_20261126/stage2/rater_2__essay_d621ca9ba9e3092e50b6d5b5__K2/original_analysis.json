@@ -1,0 +1,69 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "pattern": "Essays with a wider range of vocabulary and phraseology tend to receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_623825e121b05f3178ddd950",
+          "quotes": [
+            "\"It would be a stress for them. Also, there are many students in the school. Their injures could get worse when they fall down due to collides with other students when they walk in the hallway.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Vocabulary": 3,
+              "Phraseology": 4
+            }
+          },
+          "interpretation": "The essay uses a range of vocabulary and phrases, which aligns with the observed scores."
+        },
+        {
+          "history_essay_id": "essay_b6fab7bffe25eb2c4a69627e",
+          "quotes": [
+            "\"Having more time in school means that you can get your work done and have extra time to do othere class work.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Vocabulary": 3,
+              "Phraseology": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a varied vocabulary and phraseology, consistent with the observed scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "quotes": [
+        "\"It is beneficial to express how you feel or ask questions when you need to because using your words can make a difference and help you in life.\""
+      ],
+      "observable_feature": "The essay uses a range of vocabulary and phrases, including idiomatic expressions and varied sentence structures.",
+      "evaluative_interpretation": "This demonstrates a flexible and effective use of vocabulary and phraseology, which is consistent with a higher score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's use of a wide range of vocabulary and phraseology aligns with the rubric criteria for a score of 4.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates a flexible and effective use of vocabulary and phraseology, which aligns with the observed scores. This is consistent with the pattern observed in the history essays where a wider range of vocabulary and phraseology tends to receive higher scores.",
+  "insufficient_evidence": []
+}

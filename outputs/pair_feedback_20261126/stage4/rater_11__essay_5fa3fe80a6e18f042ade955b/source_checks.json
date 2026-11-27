@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S2",
+          "paragraph_id": "P1",
+          "start": 71,
+          "end": 342,
+          "text": " A student has more benefits if they attend to classes in schools because if the student can not understand a topic or has questions about it, the teacher can not explain by video conferencing as a teacher that can explain face to face an be sure that student understood."
+        },
+        {
+          "span_id": "S6",
+          "paragraph_id": "P2",
+          "start": 706,
+          "end": 829,
+          "text": "Firstly, if a student can not understand a topic and has questions about it, they can feel more comfortable to ask and said"
+        }
+      ],
+      "reconstructed_quotes": [
+        " A student has more benefits if they attend to classes in schools because if the student can not understand a topic or has questions about it, the teacher can not explain by video conferencing as a teacher that can explain face to face an be sure that student understood.",
+        "Firstly, if a student can not understand a topic and has questions about it, they can feel more comfortable to ask and said"
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S2",
+        "S6"
+      ],
+      "feature": "The essay begins with a statement of the thesis in S2 and then transitions to the first supporting point in S6, which directly addresses the thesis.",
+      "scoring_relevance": "This feature demonstrates the essay's ability to maintain a clear connection between the thesis and the supporting points, which is relevant to the cohesion dimension.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the initial connection between the thesis and the first supporting point.",
+      "next_check": "Review the transitions between other supporting points and the thesis to ensure consistent cohesion throughout the essay.",
+      "quotes": [
+        " A student has more benefits if they attend to classes in schools because if the student can not understand a topic or has questions about it, the teacher can not explain by video conferencing as a teacher that can explain face to face an be sure that student understood.",
+        "Firstly, if a student can not understand a topic and has questions about it, they can feel more comfortable to ask and said"
+      ]
+    }
+  ]
+}

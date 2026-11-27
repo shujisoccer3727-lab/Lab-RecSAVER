@@ -1,0 +1,225 @@
+{
+  "rater_id": "rater_12",
+  "rubric": {
+    "title": "English Proficiency Scoring Rubric for English Language Learners",
+    "source_file": "ELL_Rubrics (1).docx",
+    "structure": {
+      "holistic": [
+        "Overall"
+      ],
+      "analytic": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ]
+    },
+    "scores": {
+      "5": {
+        "Overall": "Native-like facility in the use of language with syntactic variety, Appropriate word choice and phrases; well-controlled text organization; precise use of grammar and conventions; rare language inaccuracies that do not impede communication.",
+        "Cohesion": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas.",
+        "Syntax": "Flexible and effective use of a full range of syntactic structures including simple, compound, and complex sentences; There may be rare minor and negligible errors in sentence formation.",
+        "Vocabulary": "Wide range of vocabulary flexibly and effectively used to convey precise meanings; skillful use of topic-related terms and less common words; rare negligible inaccuracies in word use.",
+        "Phraseology": "Flexible and effective use of a variety of phrases, such as idioms, collocations, and lexical bundles, to convey precise and subtle meanings; rare minor inaccuracies that are negligible.",
+        "Grammar": "Command of grammar and usage with few or no errors.",
+        "Conventions": "Consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors nonexistent or negligible."
+      },
+      "4": {
+        "Overall": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+        "Cohesion": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+        "Syntax": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+        "Vocabulary": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+        "Phraseology": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+        "Grammar": "Minimal errors in grammar and usage.",
+        "Conventions": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting."
+      },
+      "3": {
+        "Overall": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "Cohesion": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+        "Syntax": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+        "Vocabulary": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+        "Phraseology": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+        "Grammar": "Some errors in grammar and usage.",
+        "Conventions": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting."
+      },
+      "2": {
+        "Overall": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+        "Cohesion": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+        "Syntax": "Some sentence variation used; many sentence structure problems.",
+        "Vocabulary": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+        "Phraseology": "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and /or misuses of phrases.",
+        "Grammar": "Many errors in grammar and usage.",
+        "Conventions": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting."
+      },
+      "1": {
+        "Overall": "A limited range of familiar words or phrases loosely strung together; frequent errors in grammar (including syntax) and usage. Communication impeded in most cases by language inaccuracies.",
+        "Cohesion": "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear.",
+        "Syntax": "Pervasive and basic errors in sentence structure and word order that cause confusion; basic sentences errors common.",
+        "Vocabulary": "Limited vocabulary often inappropriately used; limited control of word choice and word forms; little attempt to use topic-related terms",
+        "Phraseology": "Memorized chunks of language, or simple phrasal patterns predominate; many repetitions and misuses of phrases.",
+        "Grammar": "Errors in grammar and usage throughout.",
+        "Conventions": "Minimal use of conventions; spelling, capitalizatio n, and punctuation errors throughout."
+      }
+    },
+    "key_terms_and_definitions": {
+      "Phrase": "Multiple word units",
+      "Grammar": "The rules by which words change their forms, including the use of word classes and grammatical morphology in English. Word classes include prepositions, pronouns, nouns, verbs, etc… Grammatical morphology includes third person, plural, possessive, etc…",
+      "Syntax": "Structuring sentences according to syntactic rules related to coordinating clauses, developing syntactic phrases (noun, verb, preposition phrases), phrasal and clausal dependency, and transformations such as passives, relative clauses, and negations.",
+      "Cohesive device": "Cohesive devices are used as links between two or more items (e.g., words, phrases, clauses) in a text to enhance text cohesion. These include the use of conjunctions (and, but, if, on the other hand), transitions (first, next, finally, for example), repetition of words, phrases, and ideas across sentences and paragraphs, and the use of anaphor (pronouns replacing nouns).",
+      "Simple, complex, and compound sentences": {
+        "Simple": "Independent clause",
+        "Complex": "Independent and dependent clauses",
+        "Compound": "Two of more independent clauses"
+      },
+      "Chunks": "Multiple words that combine to have a single meaning. Often memorized without knowing what the individual words mean (e.g., “How are you” for “Hello”)",
+      "Lexical bundles": "Multiple word units that are common in English but are not idiomatic (“There is”). More common than collocations",
+      "Collocations": "Two or more words that are often used together (e.g., save time, go to bed, fast food)",
+      "Idioms": "multi-word unit where meaning not deducible from those of the individual words (kick the bucket, rain cats and dogs)"
+    },
+    "notes": [
+      "Wording is preserved from the source DOCX; only whitespace/layout line breaks were normalized."
+    ]
+  },
+  "score_specification": {
+    "valid_overall_values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "valid_trait_values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "dimension_names": [
+      "Overall",
+      "Cohesion",
+      "Syntax",
+      "Vocabulary",
+      "Phraseology",
+      "Grammar",
+      "Conventions"
+    ],
+    "increment": 1,
+    "relationship": "Overall is the human holistic language proficiency judgment; no arithmetic or weighted relationship with Traits is defined."
+  },
+  "history": [
+    {
+      "essay_id": "essay_56b47af1153e7884e4a981e9",
+      "text": "I think students would benefit doing school at home many kids maybe going through problems at home and could just be tired or maybe just annoyed of to much problems. Students working from home is good for kids that could be getting buliud either they speack up but dont see a change, having problems with adults here at school that don't really help much but just bring the student down, or maybe just being an anti socicl person. Online school is something really seroius to look into if tyour dealing with problems at home having so much stress in you and cant deal with more stress of school, or you just simply need to work to help out your family it could be a chance they need money but cant get enough to get bills paid and need help in paying them,maybe you dont really have time in showing up to school. I think online school is a good choice for many students that could have problems at school and not seeing a change. Students wouldn't have to get up so early in the morning having to look presentable or anything just having to have a good schealue that works good for both work and school. Both online work or video conferencing are good for kids that have their ways in learning like as in having videos chat with a teachers.Students can be fast learners just by reading insturstions they got it memorized and having the work ready in less than an hour. Others students are more to a visiual learners that have to see work getting it explaned to many time for them to undersatnd the work some students are slower than others. Online school would be the best choice to many students that just have it the ruff way and not easy.Other reason is because many kids get sick really easliy and its better to keep those kids away from others in getting sick. Online schools can really make a big change in kids that are just not ready have more stress in them and wouldnt have to deal with more problems with parents or maybe getting bullied. Oline schools would make a big change in those kids lifes in a positive way. ",
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    {
+      "essay_id": "essay_1982ecb00b93c55770d5a34a",
+      "text": "Do we choose our own character traits or is our character formed by influences beyond our control? In my opinion we do choose our own traits, Here's why.\r\n\r\nWe have met so many others with similar and different character traits in our lives that it has shaped our own. We all have our own personalities, with our own mindsets and goals, which causes us to choose how we act. Especially after a heart break, That can change someones life. It'll have a person wanting to change for the better, but can end up worse and have a bad outcome. Therefore we choose how our lives end up.\r\n\r\nWe have shaped ourselves into who we are today. Our attitudes says a lot about us. Unlike some people who have an ugly attitude, but its only cause they got influenced to act that way; It just means they were trying to fit in cause they got their feelings hurt before. Especially social media. Social apps can make us more insecure about ourselves, and not want to talk to anyone, Therefore it changes our perspectives on how we view ourselves and it makes us want to change our appearance.\r\n\r\nAlthough our characters are kinda formed by influences, Like how we are raised, our environment, and our choice of friends. Growing up with parents that dont care what their child does can lack manners, respect, and love. Which will make them turn to gangs, drugs, and violence. The environment we grew up in takes a huge toll on our life. It defines who we are. Also our choice of what kind of friends we have can influence.\r\n\r\nSo do we choose our own character traits or is our character formed by influences beyond our control? Do we follow other people in their footsteps and copy them, or are we solo? Cause I believe we do choose our own characters.",
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 4,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 4,
+        "Conventions": 4
+      }
+    },
+    {
+      "essay_id": "essay_f3f5c6ca82999e9712ff95dc",
+      "text": "I help some student where to go.The school program\r\n\r\nwill help some new student.I help some small grade level to help do their home.The school program will the help the a lot of school in state.A lot of student will like the new program for school.\r\n\r\nStudent will get help from any grade level kids.When a new kid come to the school any higher grade tell where to go.People can help them with the homework in school or after school.the student can help other student.People can help student which room number where to go.\r\n\r\nAfter school they can go some where for help like a coffee shop.Student can stay after school for extra help for help.Some student like to help other student if they need help.they can stay in class for help and they want to the other people.After school they can gather material for class\r\n\r\nAny high grade level can help the lower grade student learn new stuff and new skills.Lower grade level will a lot of skill from higher grade level.If the higher grade level teach good there will no be problem.Sometime student does not want to learn new stuff.This school program can cause problem with some student there can be a lots of fight.\r\n\r\nIn this program can make student happy learn new stuff,help student , after school stuff.If student use program they can a lot of stuff in school or after it will help with their grade in school.Student will have a lot of time to bring up thier work so it get a good grade.This program will help some state for school and student. What happen if the program does not work for student's?",
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 2,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    }
+  ],
+  "target": {
+    "essay_id": "essay_81aa085b702d206e5f30f7f4",
+    "text": "My enjoyable educational activity is P.E\r\n\r\nP.e is my favorite educational activity because i mostly enjoy it.Because all my friends are in that class.The most thing i do in that class is play basketball which i am trash at it but i still play with the boys and i enjoy the time .Another thing i like to do is soccer because its playful and playing with friends is more better.Because it helps you with teamwork,speed and skill.\r\n\r\nSoccer is my favorite sport because when I was little I would always see all the games. And i would enjoy it because soccer is my family favorite thing to do when we are bored and its nice outside we would play like two hours and before we play soccer we would have steak and enjoy the temperature.And after the steak we would play soccer with my uncle and some of my dad's friends and we would play soccer until we would get very tired.\r\n\r\nSo back to p.e some people think that p.e is boring but i think that it is fun because thats when most of the time i play with my friends and i would enjoy it mostly because thats like the only time we would be free a and out of school work and play with my friends. But the other thing is that when we are at p.e people don't like it because some of them are tired and some of them are just bored at p.e i don't really get it but they just think that it is so boring or their tired of doing anything.\r\n\r\nP.e and soccer are technaclily the same thing because they could run around and they could enjoy their time with some friends but like i tell you that there's people that doesn't like doing p.e. So i don't know what people say about it but i enjoy p.e because its enjoyable to do it to not the test but the activity's they have.\r\n\r\nAnd soccer to they have lots of training to do but the rule is to have fun and play nice for you can enjoy the people and the coach. so if you or any one else is bored than try doing soccer for you can not be that bored anymore so just be playful a and play right for you can not be that bored at anything anymore so just try it one day and i highly recommend you that you will like playing soccer\r\n\r\nBut like i tell you if you are that lazy that you can't even do anything then you have to try one thing. Because you have to try something because you can't live a life that you can't even do anything you have to at least try to do something in your life so yeah thats all i have to tell you so play something right not bad.Just try to play soccer don't be that lazy and do it."
+  },
+  "reference_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax"
+        ],
+        "pattern": "Essays with frequent errors in sentence structure and cohesion receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_56b47af1153e7884e4a981e9",
+            "quotes": [
+              "Students working from home is good for kids that could be getting buliud either they speack up but dont see a change, having problems with adults here at school that don't really help much but just bring the student down, or maybe just being an anti socicl person."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3
+              }
+            },
+            "interpretation": "The essay has frequent errors in sentence structure and cohesion, consistent with a lower score."
+          },
+          {
+            "history_essay_id": "essay_f3f5c6ca82999e9712ff95dc",
+            "quotes": [
+              "Student will get help from any grade level kids.When a new kid come to the school any higher grade tell where to go."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2
+              }
+            },
+            "interpretation": "The essay has frequent errors in sentence structure and cohesion, consistent with a lower score."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is supported by two essays, but more data would strengthen the interpretation."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax"
+        ],
+        "quotes": [
+          "P.e is my favorite educational activity because i mostly enjoy it.Because all my friends are in that class.The most thing i do in that class is play basketball which i am trash at it but i still play with the boys and i enjoy the time ."
+        ],
+        "observable_feature": "The text contains frequent errors in sentence structure and cohesion, such as run-on sentences and missing punctuation.",
+        "evaluative_interpretation": "These errors interfere with the clarity and coherence of the text, which is consistent with a lower score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for Cohesion and Syntax at level [MASK] indicates pervasive and basic errors in sentence structure and word order that cause confusion, which aligns with the observed errors.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay exhibits frequent errors in sentence structure and cohesion, similar to the lower-scoring essays in the history. This is consistent with the observed scores.",
+    "insufficient_evidence": []
+  }
+}

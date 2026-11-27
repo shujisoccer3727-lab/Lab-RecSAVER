@@ -1,0 +1,66 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a wide range of vocabulary, varied syntax, and appropriate cohesive devices tend to receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_acc62b00900a0ec7b7be3915",
+          "quotes": [
+            "These are a few things to do in a sunny day outdoors."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a wide range of vocabulary and varied syntax, which aligns with the higher scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by only one essay, limiting its generalizability."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "When people ask for advice, it can help someone make a better choice because, it can change your thinking, it can give you a better idea, and you can know what other people are thinking."
+      ],
+      "observable_feature": "The essay demonstrates varied syntax, a wide range of vocabulary, and appropriate cohesive devices.",
+      "evaluative_interpretation": "The varied syntax and wide range of vocabulary support a higher score, while the use of cohesive devices further strengthens the text organization.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text organization is well-controlled with a range of cohesive devices used appropriately, and the vocabulary is sufficiently varied to allow flexibility and precision.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates varied syntax, a wide range of vocabulary, and appropriate cohesive devices, which aligns with the higher scores observed in the history essay 'essay_acc62b00900a0ec7b7be3915'. This supports the observed Overall score and Trait scores.",
+  "insufficient_evidence": []
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "essay_17448b70a54b82d71f36f417",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Overall",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with frequent grammatical and conventional errors receive lower Overall scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_3dfff4ca368d9cdbf51424d4",
+            "quotes": [
+              "\"WHERE WERE YOU Generic_Name WE HAVE BEEN LOOKING ALL OVER FOR YOU\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay's frequent capitalization and punctuation errors align with a lower Overall score."
+          },
+          {
+            "history_essay_id": "essay_0314ba6db386642614d33f2d",
+            "quotes": [
+              "\"Schools should have a partnership business to help all the students to reach their goals.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay's grammatical and conventional errors are less frequent, aligning with a higher Overall score."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is supported by two essays, but more data would strengthen the interpretation."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Overall",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "\"If you lie it's not going to make you seem like a good person or help you in anyway.\""
+        ],
+        "observable_feature": "Frequent grammatical and conventional errors, such as missing articles and incorrect punctuation.",
+        "evaluative_interpretation": "These errors interfere with the clarity and coherence of the text, which is consistent with a lower Overall score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for Overall score 3 indicates occasional language inaccuracies that impede communication.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay's frequent grammatical and conventional errors, as seen in 'T1', align with the pattern observed in 'H1' from the history. This supports the lower Overall score.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The target essay's frequent grammatical and conventional errors, as seen in 'T1', align with the Overall score of 3, indicating occasional language inaccuracies that impede communication.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The grammatical errors in the target essay, such as missing articles and incorrect punctuation, align with a score of 2, indicating some errors in grammar and usage."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The conventional errors in the target essay, such as missing articles and incorrect punctuation, align with a score of 2, indicating some distracting errors in spelling, capitalization, and punctuation."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

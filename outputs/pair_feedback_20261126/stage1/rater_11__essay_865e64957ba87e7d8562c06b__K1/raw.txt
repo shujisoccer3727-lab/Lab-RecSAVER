@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_865e64957ba87e7d8562c06b",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax"],
+        "pattern": "Essays with limited cohesive devices and some syntactic errors tend to receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_b97e81e57d4179a8994f2100",
+            "quotes": ["Although, it shows how clever the students are, make them responsible, help to improve the country, and good for their health nevertheless, some students are not responsible sometimes, because they have not beging responsible before, and some students will use the chance of being able to attend classes online in a good way."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3
+              }
+            },
+            "interpretation": "The essay shows limited cohesive devices and some syntactic errors, consistent with the observed scores."
+          },
+          {
+            "history_essay_id": "essay_cd8a90b18dee3b4712c1ac6e",
+            "quotes": ["Have you ever been part of a group at somepoint in your life, and your group gets off topic and ends up not finishing the work that was assigned? It really isn't such a productive group like that I could say."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4
+              }
+            },
+            "interpretation": "The essay shows better cohesive devices and fewer syntactic errors, consistent with the higher scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax"],
+        "quotes": ["Outdoor activities are enjoyable for everyone people can play outside with they're friends and get a chance to meet some new friends."],
+        "observable_feature": "Limited cohesive devices and some syntactic errors.",
+        "evaluative_interpretation": "The sentence lacks clear cohesive devices and has syntactic errors, which may limit the overall coherence.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for Cohesion and Syntax indicates that limited cohesive devices and syntactic errors can lead to lower scores.",
+        "uncertainty": "The sentence is a single example and may not represent the entire essay."
+      }
+    ],
+    "decision_explanation": "The target essay shows limited cohesive devices and some syntactic errors, consistent with the observed scores. The pattern observed in the history supports this interpretation.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's limited cohesive devices and some syntactic errors align with the observed Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows limited cohesive devices, consistent with the observed score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has some syntactic errors, consistent with the observed score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

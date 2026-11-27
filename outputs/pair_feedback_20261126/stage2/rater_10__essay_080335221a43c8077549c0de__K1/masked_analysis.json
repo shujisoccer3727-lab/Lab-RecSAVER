@@ -1,0 +1,74 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a range of vocabulary, varied sentence structures, and some cohesive devices receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_51b993c68e160a83a1ace3d7",
+          "quotes": [
+            "Being that I am enrolled in many classes that teach me most of what I'll need to know in the career I am pursuing, It'll maybe put me ahead of the pack wanting the same as I."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 5,
+              "Grammar": 5,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a range of vocabulary and varied sentence structures, which aligns with a higher score."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_5c261ba25f1fd7836218065c",
+          "quotes": [
+            "The example is a good setting to influence other."
+          ],
+          "interpretation": "This essay has limited vocabulary and repetitive sentence structures, which contrasts with the higher scoring pattern."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Some people may believe that true self-esteem comes from praising while others believe that it comes from achievement."
+      ],
+      "observable_feature": "The essay demonstrates a range of vocabulary and varied sentence structures, with some cohesive devices.",
+      "evaluative_interpretation": "The essay shows a moderate level of proficiency, with some errors but generally clear communication.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay aligns with the rubric for a score of [MASK], showing facility limited to common structures and generic vocabulary, with occasional errors.",
+      "uncertainty": "The essay's organization and use of cohesive devices are somewhat limited, which may affect the overall score."
+    }
+  ],
+  "decision_explanation": "The essay demonstrates a range of vocabulary and varied sentence structures, with some cohesive devices, which aligns with the observed scores. The essay's organization and use of cohesive devices are somewhat limited, which may affect the overall score.",
+  "insufficient_evidence": []
+}

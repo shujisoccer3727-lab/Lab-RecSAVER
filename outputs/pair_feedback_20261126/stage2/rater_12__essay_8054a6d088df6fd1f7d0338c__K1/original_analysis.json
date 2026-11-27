@@ -1,0 +1,92 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, sufficient vocabulary range, occasional inaccuracies in phraseology, minimal errors in grammar, and generally consistent conventions receive scores around 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_7d884cf65731f24baf934030",
+          "quotes": [
+            "a year round school would not be good because somes students have part time jobs and that would get in the way and put more stress on the student"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and occasional errors in sentence formation, consistent with a score of 3."
+        },
+        {
+          "history_essay_id": "essay_7feeb1e7e2ad8717d2e3d436",
+          "quotes": [
+            "In Thailand there are many different towns I want to visit. In the towns there are many cool things I could buy."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay shows a range of vocabulary and occasional inaccuracies in phraseology, consistent with a score of 4."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_919c31bf11f0c69f6dcf663b",
+          "quotes": [
+            "After elementary you go to middle school, Then high school, And then collage, But what's next, what do you want to be or when do you want to be after collage you get a job go to work make money, or even have a family,"
+          ],
+          "interpretation": "The essay demonstrates less controlled organization and more frequent errors, which contrasts with the pattern."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by two essays but the third essay provides a contrasting example."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "The first reason why someone might find activitys enjoyable is because someone can enjoy playing with their friends or hanging out with them."
+      ],
+      "observable_feature": "The essay demonstrates generally controlled organization, occasional errors in sentence formation, sufficient vocabulary range, occasional inaccuracies in phraseology, minimal errors in grammar, and generally consistent conventions.",
+      "evaluative_interpretation": "These features are consistent with a score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's controlled organization and occasional errors align with the rubric's description for a score of 3.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay's controlled organization, occasional errors in sentence formation, sufficient vocabulary range, occasional inaccuracies in phraseology, minimal errors in grammar, and generally consistent conventions align with the observed scores of 3 across multiple dimensions, consistent with the pattern observed in the history.",
+  "insufficient_evidence": []
+}

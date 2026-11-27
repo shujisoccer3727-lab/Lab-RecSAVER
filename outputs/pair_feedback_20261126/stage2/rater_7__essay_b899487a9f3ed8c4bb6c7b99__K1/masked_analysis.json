@@ -1,0 +1,94 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with occasional language inaccuracies, controlled organization, and a sufficient range of vocabulary tend to receive an Overall score of 4.",
+      "support": [
+        {
+          "history_essay_id": "essay_c5cc2aeab042c249b0f62f33",
+          "quotes": [
+            "\"It would make the students confidence. For instance, my friend Generic_Name was coming in the Generic_City. When she came in the United States she wasn't speak English well\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 4,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 5
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and a sufficient range of vocabulary, with occasional language inaccuracies, consistent with an Overall score of 4."
+        },
+        {
+          "history_essay_id": "essay_47882f4c789d4b4f9a018d1a",
+          "quotes": [
+            "\"Everyone goes to tough times which cuases failure, but once you fail you get up and better your self in order to succed\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows controlled organization and a sufficient range of vocabulary, with occasional language inaccuracies, consistent with an Overall score of 4."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_7f251315cd2b8eaccabe86cc",
+          "quotes": [
+            "\"Some schools have a program that older student and the young ones that could help one another\""
+          ],
+          "interpretation": "This essay has more frequent language inaccuracies and less controlled organization, which contrasts with the pattern of occasional inaccuracies and controlled organization."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by two essays but may not be fully representative of all scoring decisions."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"I don't think it's a good idea to work from home they're a lot of kids that would just take advantage from working from home. Kids would rather be at home then have to go to school at seven in the morning.\""
+      ],
+      "observable_feature": "The essay demonstrates controlled organization and a sufficient range of vocabulary, with occasional language inaccuracies.",
+      "evaluative_interpretation": "The controlled organization and sufficient vocabulary range, with occasional inaccuracies, align with an Overall score of [MASK].",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay shows controlled organization and a sufficient range of vocabulary, with occasional language inaccuracies, consistent with an Overall score of [MASK]. This aligns with the pattern observed in the history where similar features receive an Overall score of [MASK], suggesting a plausible interpretation of the scoring decision.",
+  "insufficient_evidence": []
+}

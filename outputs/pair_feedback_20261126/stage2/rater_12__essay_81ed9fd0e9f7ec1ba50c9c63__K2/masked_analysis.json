@@ -1,0 +1,71 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with controlled organization, varied vocabulary, and appropriate phraseology receive higher scores, even with minor errors in grammar and conventions.",
+      "support": [
+        {
+          "history_essay_id": "essay_7feeb1e7e2ad8717d2e3d436",
+          "quotes": [
+            "In Thailand you can go to a really beautiful beach, visit different towns, and try or do new things."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and varied vocabulary, which aligns with higher scores despite minor errors."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_c33fcd11d24bca6c46d8d1cd",
+          "quotes": [
+            "When the school open the classes online,then students won't need go to school and study at home."
+          ],
+          "interpretation": "This essay has a lower score despite having some controlled organization, suggesting that other factors like syntax and vocabulary also play a role."
+        }
+      ],
+      "limitations": [
+        "The pattern is not consistent across all essays, indicating that other factors may influence the scores."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "People should follow their own instincts and ideas. First if people disagree with what people are saying then they can say what their idea is and put it to a vote to see who's ideas better."
+      ],
+      "observable_feature": "The essay demonstrates controlled organization and varied vocabulary, with appropriate phraseology and minimal errors in grammar and conventions.",
+      "evaluative_interpretation": "The controlled organization and varied vocabulary are consistent with higher scores, while the minor errors in grammar and conventions do not significantly impede communication.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay aligns with the rubric criteria for a score of [MASK], showing facility in language use with occasional inaccuracies that rarely impede communication.",
+      "uncertainty": "The essay's syntax is somewhat limited, which may explain why it did not receive a higher score."
+    }
+  ],
+  "decision_explanation": "The essay demonstrates controlled organization and varied vocabulary, which aligns with the higher Trait scores observed. The minor errors in grammar and conventions do not significantly impede communication, supporting the Overall score of [MASK].",
+  "insufficient_evidence": []
+}

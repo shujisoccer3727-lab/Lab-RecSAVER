@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_919c31bf11f0c69f6dcf663b",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with frequent errors in sentence structure, grammar, and conventions tend to receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_974fed9ae407d8cf69da8c85",
+            "quotes": [
+              "\"Here at school we are expose to so many things, You never know if anybody from outside will get in here with a gun, and will start shooting us, for no reason, or just because he is involved in bad things, this is a great idea of preventing bad things that are coming up and you dont expect them.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Grammar": 3,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay contains frequent grammatical and syntactic errors, which align with the lower scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_83ab7bdbeedd61b6ecdd126b",
+            "quotes": [
+              "\"Community parks provide a lot of fun ways to spend time outdoors. One of my three favorite ways to spend time outside would be playing sports, gardening and exercising. It's a productive way to spend your weekends.\""
+            ],
+            "interpretation": "This essay has fewer errors and received a higher score, indicating that fewer errors correlate with higher scores."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "\"What's next, what do you want to be when you grow up, A sienstest, teacher, astronaut, A soccer player, a singer, what is it,\""
+        ],
+        "observable_feature": "The text contains frequent grammatical errors, such as incorrect spelling and punctuation.",
+        "evaluative_interpretation": "These errors interfere with the clarity of the text, which is consistent with a lower score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for Cohesion, Syntax, Grammar, and Conventions indicates that frequent errors impede communication and are consistent with a score of 2.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay contains frequent grammatical and syntactic errors, which are consistent with the lower scores observed in the history. The frequent errors in the target essay align with the pattern observed in the history essays with similar scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The target essay's frequent grammatical and syntactic errors align with the observed Overall score of 2, as these errors impede communication and are consistent with the rubric for a score of 2.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The text lacks clear organization and contains frequent errors, which align with the observed score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The text contains many sentence structure problems, which align with the observed score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The vocabulary range is minimally adequate, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The use of phrases is evident but limited in variety, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The text contains many errors in grammar and usage, which align with the observed score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The text has frequent and distracting errors in spelling, capitalization, and punctuation, which align with the observed score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

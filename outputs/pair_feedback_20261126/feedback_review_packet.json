@@ -1,0 +1,721 @@
+[
+  {
+    "rater_id": "rater_12",
+    "generated": {
+      "schema_version": "1.5",
+      "rater_id": "rater_12",
+      "pattern_status": "insufficient_evidence",
+      "pattern": null,
+      "pattern_limit": "Insufficient evidence from distinct essays to establish a consistent feature-to-evaluation pattern.",
+      "representative_observation_key": "essay_877968498339559487d0d5a4::O1",
+      "quote_indices": [
+        0
+      ],
+      "textual_finding": "The sentence contains a grammatical error in the verb form 'have' which should be 'having'.",
+      "evidence_limit": "This observation does not establish the frequency of grammatical errors throughout the essay.",
+      "rubric_review": {
+        "observed_band_ref_id": "Grammar:2",
+        "comparison_band_ref_id": null,
+        "band_assessment": "indeterminate"
+      },
+      "next_check": {
+        "inspect": "Other sentences in the essay for similar verb form errors or other grammatical issues.",
+        "distinguish": "The frequency and impact of grammatical errors on the essay's clarity.",
+        "reconsider_if": null
+      }
+    },
+    "selected_source_evidence": [
+      {
+        "observation": {
+          "observation_id": "O1",
+          "dimension": "Grammar",
+          "evidence_span_ids": [
+            "S1"
+          ],
+          "feature": "The sentence 'I think that have a good attitude is great.' contains a grammatical error in the verb form 'have' which should be 'having'.",
+          "scoring_relevance": "Correct verb forms are essential for clear communication and adherence to standard grammatical rules, which is relevant to the Grammar scoring dimension.",
+          "limitation": "This observation does not establish the frequency of grammatical errors throughout the essay.",
+          "next_check": "Review other sentences for similar verb form errors or other grammatical issues.",
+          "quotes": [
+            "I think that have a good attitude is great."
+          ],
+          "observation_key": "essay_877968498339559487d0d5a4::O1",
+          "target_essay_id": "essay_877968498339559487d0d5a4",
+          "observed_score": 2
+        },
+        "source": {
+          "essay_id": "essay_877968498339559487d0d5a4",
+          "source_row_id": 5856,
+          "rater_position": 1,
+          "rater_id": "rater_12",
+          "Filename": "AAAXMP138200001572302814_OR",
+          "text_id_kaggle": "FCD96EA1E6E8",
+          "text_hash": "bb56df30ef378711d443e7d843d76001880052eeae67bfbebf131e5dc4325688"
+        },
+        "exact_source_spans": [
+          {
+            "span_id": "S1",
+            "paragraph_id": "P1",
+            "start": 0,
+            "end": 43,
+            "text": "I think that have a good attitude is great.",
+            "is_first_text_span": true,
+            "is_last_text_span": false,
+            "preceding_context": "",
+            "following_context": "Benefits of having a good attitude is when you, walk into school you feel ready,you don't get angry at school and don't get mad at your friends and teacher's,yo"
+          }
+        ],
+        "note": "Position/context added for post-generation provisional review only; not supplied retroactively to Stage 5."
+      }
+    ],
+    "render_checks": {
+      "pass_": true,
+      "schema_errors": [],
+      "checks": [
+        {
+          "kind": "rater",
+          "pass_": true
+        },
+        {
+          "kind": "representative_key",
+          "pass_": true
+        },
+        {
+          "kind": "indices",
+          "pass_": true
+        },
+        {
+          "kind": "representative_fields",
+          "pass_": true
+        },
+        {
+          "kind": "abstention",
+          "pass_": true
+        },
+        {
+          "kind": "observed_reference",
+          "pass_": true
+        },
+        {
+          "kind": "comparison_exists",
+          "pass_": true
+        },
+        {
+          "kind": "no_comparison_condition",
+          "pass_": true
+        }
+      ],
+      "comparison_direction": "none",
+      "feedback_paragraph": "A scoring pattern cannot be established from these cases. Insufficient evidence from distinct essays to establish a consistent feature-to-evaluation pattern. In essay essay_877968498339559487d0d5a4, the relevant excerpt is “I think that have a good attitude is great.” The sentence contains a grammatical error in the verb form 'have' which should be 'having'. The recorded Grammar score is 2. The official descriptor for Grammar:2 is “Many errors in grammar and usage.” This evidence alone does not establish whether that band is appropriate. This observation does not establish the frequency of grammatical errors throughout the essay. Next inspect: Other sentences in the essay for similar verb form errors or other grammatical issues. Check: The frequency and impact of grammatical errors on the essay's clarity.",
+      "selected_evidence": [
+        {
+          "observation_key": "essay_877968498339559487d0d5a4::O1",
+          "quote_index": 0,
+          "target_essay_id": "essay_877968498339559487d0d5a4",
+          "exact_quote": "I think that have a good attitude is great."
+        }
+      ],
+      "semantic_support_not_certified": true
+    }
+  },
+  {
+    "rater_id": "rater_13",
+    "status": "no_parsed_feedback"
+  },
+  {
+    "rater_id": "rater_10",
+    "generated": {
+      "schema_version": "1.5",
+      "rater_id": "rater_10",
+      "pattern_status": "insufficient_evidence",
+      "pattern": null,
+      "pattern_limit": "The provided observations do not establish a consistent pattern of feature-to-evaluation relationship across multiple essays.",
+      "representative_observation_key": "essay_96b587aeaf1f53910d5e55c9::O1",
+      "quote_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "textual_finding": "The essay uses a clear example to illustrate the importance of a positive attitude, showing the writer's ability to use examples to support their argument and maintain a coherent flow of ideas.",
+      "evidence_limit": "This evidence does not establish the overall coherence of the essay, only the coherence within this specific example.",
+      "rubric_review": {
+        "observed_band_ref_id": "Cohesion:4",
+        "comparison_band_ref_id": null,
+        "band_assessment": "indeterminate"
+      },
+      "next_check": {
+        "inspect": "Review the transitions between paragraphs to ensure they maintain the flow of the argument.",
+        "distinguish": "The consistency of the main idea and the logical connections between paragraphs.",
+        "reconsider_if": null
+      }
+    },
+    "selected_source_evidence": [
+      {
+        "observation": {
+          "observation_id": "O1",
+          "dimension": "Cohesion",
+          "evidence_span_ids": [
+            "S10",
+            "S11",
+            "S12",
+            "S13"
+          ],
+          "feature": "The essay uses a clear example to illustrate the importance of positive attitude. The example of spilling coffee on a beautiful shirt is used to show how a positive attitude can turn a bad situation into a good one.",
+          "scoring_relevance": "This feature is relevant to the cohesion dimension as it shows the writer's ability to use examples to support their argument and maintain a coherent flow of ideas.",
+          "limitation": "This evidence does not establish the overall coherence of the essay, only the coherence within this specific example.",
+          "next_check": "Review the transitions between paragraphs to ensure they maintain the flow of the argument.",
+          "quotes": [
+            "To be more specific about how importance of attitude, your day is great or bad is depended on how your attitude toward the happen.",
+            " For example, you dressed a beautiful shirt in the pretty day, suddenly, somebody walked pass you and spilled coffee on your shirt.",
+            " Which attitude should you make to let your day continuing to be a great day?",
+            " You get angry and ruin everything, or you give a bright smile and make a nice conversation."
+          ],
+          "observation_key": "essay_96b587aeaf1f53910d5e55c9::O1",
+          "target_essay_id": "essay_96b587aeaf1f53910d5e55c9",
+          "observed_score": 4
+        },
+        "source": {
+          "essay_id": "essay_96b587aeaf1f53910d5e55c9",
+          "source_row_id": 4299,
+          "rater_position": 2,
+          "rater_id": "rater_10",
+          "Filename": "AAAXMP138190000186842108_OR",
+          "text_id_kaggle": "8A970FA9C7C4",
+          "text_hash": "b2befab480fe17b7660bcd4065be00569ce3a8792d6a71c0ce10f6f5d984d772"
+        },
+        "exact_source_spans": [
+          {
+            "span_id": "S10",
+            "paragraph_id": "P2",
+            "start": 785,
+            "end": 915,
+            "text": "To be more specific about how importance of attitude, your day is great or bad is depended on how your attitude toward the happen.",
+            "is_first_text_span": false,
+            "is_last_text_span": false,
+            "preceding_context": "h your manner. Finally, positive attitude can bring a marvelous gift to your life if you are become a chief of positive manner, such as a successful person.\r\n\r\n",
+            "following_context": " For example, you dressed a beautiful shirt in the pretty day, suddenly, somebody walked pass you and spilled coffee on your shirt. Which attitude should you ma"
+          },
+          {
+            "span_id": "S11",
+            "paragraph_id": "P2",
+            "start": 915,
+            "end": 1046,
+            "text": " For example, you dressed a beautiful shirt in the pretty day, suddenly, somebody walked pass you and spilled coffee on your shirt.",
+            "is_first_text_span": false,
+            "is_last_text_span": false,
+            "preceding_context": "ch as a successful person.\r\n\r\nTo be more specific about how importance of attitude, your day is great or bad is depended on how your attitude toward the happen.",
+            "following_context": " Which attitude should you make to let your day continuing to be a great day? You get angry and ruin everything, or you give a bright smile and make a nice conv"
+          },
+          {
+            "span_id": "S12",
+            "paragraph_id": "P2",
+            "start": 1046,
+            "end": 1123,
+            "text": " Which attitude should you make to let your day continuing to be a great day?",
+            "is_first_text_span": false,
+            "is_last_text_span": false,
+            "preceding_context": "r attitude toward the happen. For example, you dressed a beautiful shirt in the pretty day, suddenly, somebody walked pass you and spilled coffee on your shirt.",
+            "following_context": " You get angry and ruin everything, or you give a bright smile and make a nice conversation. Your positive attitude definitely gives you an energy to show your "
+          },
+          {
+            "span_id": "S13",
+            "paragraph_id": "P2",
+            "start": 1123,
+            "end": 1215,
+            "text": " You get angry and ruin everything, or you give a bright smile and make a nice conversation.",
+            "is_first_text_span": false,
+            "is_last_text_span": false,
+            "preceding_context": "he pretty day, suddenly, somebody walked pass you and spilled coffee on your shirt. Which attitude should you make to let your day continuing to be a great day?",
+            "following_context": " Your positive attitude definitely gives you an energy to show your enthusiasm in daily activities. A short fact in Generic_School, students enjoy to go to the "
+          }
+        ],
+        "note": "Position/context added for post-generation provisional review only; not supplied retroactively to Stage 5."
+      }
+    ],
+    "render_checks": {
+      "pass_": true,
+      "schema_errors": [],
+      "checks": [
+        {
+          "kind": "rater",
+          "pass_": true
+        },
+        {
+          "kind": "representative_key",
+          "pass_": true
+        },
+        {
+          "kind": "indices",
+          "pass_": true
+        },
+        {
+          "kind": "representative_fields",
+          "pass_": true
+        },
+        {
+          "kind": "abstention",
+          "pass_": true
+        },
+        {
+          "kind": "observed_reference",
+          "pass_": true
+        },
+        {
+          "kind": "comparison_exists",
+          "pass_": true
+        },
+        {
+          "kind": "no_comparison_condition",
+          "pass_": true
+        }
+      ],
+      "comparison_direction": "none",
+      "feedback_paragraph": "A scoring pattern cannot be established from these cases. The provided observations do not establish a consistent pattern of feature-to-evaluation relationship across multiple essays. In essay essay_96b587aeaf1f53910d5e55c9, the relevant excerpt is “To be more specific about how importance of attitude, your day is great or bad is depended on how your attitude toward the happen.” In essay essay_96b587aeaf1f53910d5e55c9, the relevant excerpt is “ For example, you dressed a beautiful shirt in the pretty day, suddenly, somebody walked pass you and spilled coffee on your shirt.” In essay essay_96b587aeaf1f53910d5e55c9, the relevant excerpt is “ Which attitude should you make to let your day continuing to be a great day?” In essay essay_96b587aeaf1f53910d5e55c9, the relevant excerpt is “ You get angry and ruin everything, or you give a bright smile and make a nice conversation.” The essay uses a clear example to illustrate the importance of a positive attitude, showing the writer's ability to use examples to support their argument and maintain a coherent flow of ideas. The recorded Cohesion score is 4. The official descriptor for Cohesion:4 is “Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas”. This evidence alone does not establish whether that band is appropriate. This evidence does not establish the overall coherence of the essay, only the coherence within this specific example. Next inspect: Review the transitions between paragraphs to ensure they maintain the flow of the argument. Check: The consistency of the main idea and the logical connections between paragraphs.",
+      "selected_evidence": [
+        {
+          "observation_key": "essay_96b587aeaf1f53910d5e55c9::O1",
+          "quote_index": 0,
+          "target_essay_id": "essay_96b587aeaf1f53910d5e55c9",
+          "exact_quote": "To be more specific about how importance of attitude, your day is great or bad is depended on how your attitude toward the happen."
+        },
+        {
+          "observation_key": "essay_96b587aeaf1f53910d5e55c9::O1",
+          "quote_index": 1,
+          "target_essay_id": "essay_96b587aeaf1f53910d5e55c9",
+          "exact_quote": " For example, you dressed a beautiful shirt in the pretty day, suddenly, somebody walked pass you and spilled coffee on your shirt."
+        },
+        {
+          "observation_key": "essay_96b587aeaf1f53910d5e55c9::O1",
+          "quote_index": 2,
+          "target_essay_id": "essay_96b587aeaf1f53910d5e55c9",
+          "exact_quote": " Which attitude should you make to let your day continuing to be a great day?"
+        },
+        {
+          "observation_key": "essay_96b587aeaf1f53910d5e55c9::O1",
+          "quote_index": 3,
+          "target_essay_id": "essay_96b587aeaf1f53910d5e55c9",
+          "exact_quote": " You get angry and ruin everything, or you give a bright smile and make a nice conversation."
+        }
+      ],
+      "semantic_support_not_certified": true
+    }
+  },
+  {
+    "rater_id": "rater_11",
+    "generated": {
+      "schema_version": "1.5",
+      "rater_id": "rater_11",
+      "pattern_status": "insufficient_evidence",
+      "pattern": null,
+      "pattern_limit": "The available observations do not show a consistent pattern of feature-to-evaluation relationship across multiple essays.",
+      "representative_observation_key": "essay_eeb87df489f116eb7f0767b9::O1",
+      "quote_indices": [
+        0,
+        1
+      ],
+      "textual_finding": "The essay uses transitional phrases such as 'Firstly' and 'saying the truth' to connect ideas within the paragraph.",
+      "evidence_limit": "This observation is limited to the local context and does not establish the overall coherence of the essay.",
+      "rubric_review": {
+        "observed_band_ref_id": "Cohesion:3",
+        "comparison_band_ref_id": null,
+        "band_assessment": "indeterminate"
+      },
+      "next_check": {
+        "inspect": "Other paragraphs for similar transitional phrases or logical connections to ensure consistency in the essay's structure.",
+        "distinguish": "The presence of transitional phrases and their effectiveness in maintaining a logical flow of ideas.",
+        "reconsider_if": null
+      }
+    },
+    "selected_source_evidence": [
+      {
+        "observation": {
+          "observation_id": "O1",
+          "dimension": "Cohesion",
+          "evidence_span_ids": [
+            "S4",
+            "S17"
+          ],
+          "feature": "The essay uses transitional phrases such as 'Firstly' and 'saying the truth' to connect ideas within the paragraph.",
+          "scoring_relevance": "The use of transitional phrases helps to maintain a logical flow of ideas, contributing to the overall cohesion of the essay.",
+          "limitation": "This observation is limited to the local context and does not establish the overall coherence of the essay.",
+          "next_check": "Review other paragraphs for similar transitional phrases or logical connections to ensure consistency in the essay's structure.",
+          "quotes": [
+            "Firstly honesty is the best policy, because it builds a good relationship.",
+            " saying the truth builds a healthy relationship."
+          ],
+          "observation_key": "essay_eeb87df489f116eb7f0767b9::O1",
+          "target_essay_id": "essay_eeb87df489f116eb7f0767b9",
+          "observed_score": 3
+        },
+        "source": {
+          "essay_id": "essay_eeb87df489f116eb7f0767b9",
+          "source_row_id": 5561,
+          "rater_position": 2,
+          "rater_id": "rater_11",
+          "Filename": "AAAXMP138200001277382845_OR",
+          "text_id_kaggle": "73268F15F18B",
+          "text_hash": "2522ed975b79cc2047001ead5cf6d6df28921cfcddeb1c24ed41f9f6a5455554"
+        },
+        "exact_source_spans": [
+          {
+            "span_id": "S4",
+            "paragraph_id": "P2",
+            "start": 231,
+            "end": 305,
+            "text": "Firstly honesty is the best policy, because it builds a good relationship.",
+            "is_first_text_span": false,
+            "is_last_text_span": false,
+            "preceding_context": "everyone likes honest people. Honesty is the best policy, because it builds a good relationship, builds trustworthiness, and helps you be a good role model.\r\n\r\n",
+            "following_context": " you should always be honest, because sometimes you can get in a big problem. If you lie one time, then you have to keep lying to hide the truth. Though it is i"
+          },
+          {
+            "span_id": "S17",
+            "paragraph_id": "P2",
+            "start": 954,
+            "end": 1002,
+            "text": " saying the truth builds a healthy relationship.",
+            "is_first_text_span": false,
+            "is_last_text_span": false,
+            "preceding_context": "ur friends. You don't pick friends, you make them. They always trust you, and if you lie to them, than they will never come back.That is why you should not lie.",
+            "following_context": "\r\n\r\nSecondly, honesty is the best policy, because it builds trustworthiness. In order to be a honest person, people should trust you. As your teacher, or your f"
+          }
+        ],
+        "note": "Position/context added for post-generation provisional review only; not supplied retroactively to Stage 5."
+      }
+    ],
+    "render_checks": {
+      "pass_": true,
+      "schema_errors": [],
+      "checks": [
+        {
+          "kind": "rater",
+          "pass_": true
+        },
+        {
+          "kind": "representative_key",
+          "pass_": true
+        },
+        {
+          "kind": "indices",
+          "pass_": true
+        },
+        {
+          "kind": "representative_fields",
+          "pass_": true
+        },
+        {
+          "kind": "abstention",
+          "pass_": true
+        },
+        {
+          "kind": "observed_reference",
+          "pass_": true
+        },
+        {
+          "kind": "comparison_exists",
+          "pass_": true
+        },
+        {
+          "kind": "no_comparison_condition",
+          "pass_": true
+        }
+      ],
+      "comparison_direction": "none",
+      "feedback_paragraph": "A scoring pattern cannot be established from these cases. The available observations do not show a consistent pattern of feature-to-evaluation relationship across multiple essays. In essay essay_eeb87df489f116eb7f0767b9, the relevant excerpt is “Firstly honesty is the best policy, because it builds a good relationship.” In essay essay_eeb87df489f116eb7f0767b9, the relevant excerpt is “ saying the truth builds a healthy relationship.” The essay uses transitional phrases such as 'Firstly' and 'saying the truth' to connect ideas within the paragraph. The recorded Cohesion score is 3. The official descriptor for Cohesion:3 is “Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.” This evidence alone does not establish whether that band is appropriate. This observation is limited to the local context and does not establish the overall coherence of the essay. Next inspect: Other paragraphs for similar transitional phrases or logical connections to ensure consistency in the essay's structure. Check: The presence of transitional phrases and their effectiveness in maintaining a logical flow of ideas.",
+      "selected_evidence": [
+        {
+          "observation_key": "essay_eeb87df489f116eb7f0767b9::O1",
+          "quote_index": 0,
+          "target_essay_id": "essay_eeb87df489f116eb7f0767b9",
+          "exact_quote": "Firstly honesty is the best policy, because it builds a good relationship."
+        },
+        {
+          "observation_key": "essay_eeb87df489f116eb7f0767b9::O1",
+          "quote_index": 1,
+          "target_essay_id": "essay_eeb87df489f116eb7f0767b9",
+          "exact_quote": " saying the truth builds a healthy relationship."
+        }
+      ],
+      "semantic_support_not_certified": true
+    }
+  },
+  {
+    "rater_id": "rater_2",
+    "generated": {
+      "schema_version": "1.5",
+      "rater_id": "rater_2",
+      "pattern_status": "insufficient_evidence",
+      "pattern": null,
+      "pattern_limit": "The provided observations do not establish a consistent pattern of feature-to-evaluation relationship across multiple essays.",
+      "representative_observation_key": "essay_3b9f17fe0fbc82924e5e05cf::O1",
+      "quote_indices": [
+        0,
+        1
+      ],
+      "textual_finding": "The essay contains grammatical errors such as nonstandard verb forms and structures, which can affect the clarity and correctness of the argument.",
+      "evidence_limit": "This observation does not establish the frequency of such errors throughout the essay, only their presence in these specific sentences.",
+      "rubric_review": {
+        "observed_band_ref_id": "Grammar:3",
+        "comparison_band_ref_id": null,
+        "band_assessment": "indeterminate"
+      },
+      "next_check": {
+        "inspect": "Review other sentences in the essay for similar grammatical errors to assess the overall frequency and impact on the argument.",
+        "distinguish": "The frequency and impact of grammatical errors on the overall clarity and correctness of the argument.",
+        "reconsider_if": null
+      }
+    },
+    "selected_source_evidence": [
+      {
+        "observation": {
+          "observation_id": "O1",
+          "dimension": "Grammar",
+          "evidence_span_ids": [
+            "S4",
+            "S5"
+          ],
+          "feature": "The use of nonstandard verb forms and grammatical structures, such as 'I am strongly agree with this option' and 'To graduate in three years is not imposible'.",
+          "scoring_relevance": "These grammatical errors can affect the clarity and correctness of the argument, which is relevant to the Grammar dimension.",
+          "limitation": "This observation does not establish the frequency of such errors throughout the essay, only their presence in these specific sentences.",
+          "next_check": "Review other sentences in the essay for similar grammatical errors to assess the overall frequency and impact on the argument.",
+          "quotes": [
+            " I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years.",
+            " To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate."
+          ],
+          "observation_key": "essay_3b9f17fe0fbc82924e5e05cf::O1",
+          "target_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+          "observed_score": 3
+        },
+        "source": {
+          "essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+          "source_row_id": 7694,
+          "rater_position": 2,
+          "rater_id": "rater_2",
+          "Filename": "AAAXMP138190000175792128_OR",
+          "text_id_kaggle": "",
+          "text_hash": "9aa6375bf8b3da6f0e2eb4638001ae07d2a871f19dd3bb868ea996e104cff5f3"
+        },
+        "exact_source_spans": [
+          {
+            "span_id": "S4",
+            "paragraph_id": "P2",
+            "start": 271,
+            "end": 408,
+            "text": " I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years.",
+            "is_first_text_span": false,
+            "is_last_text_span": false,
+            "preceding_context": "eaving the normal option of four years in high school. but is not just easy as it songs, students have to work very hard to finish the high school at this time.",
+            "following_context": " To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your cla"
+          },
+          {
+            "span_id": "S5",
+            "paragraph_id": "P2",
+            "start": 408,
+            "end": 834,
+            "text": " To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate.",
+            "is_first_text_span": false,
+            "is_last_text_span": false,
+            "preceding_context": "gh school at this time. I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years.",
+            "following_context": " In other hand, when you are the smartes students of your class or your school, you start to feel that you are losting time, and you wnat to go to college as so"
+          }
+        ],
+        "note": "Position/context added for post-generation provisional review only; not supplied retroactively to Stage 5."
+      }
+    ],
+    "render_checks": {
+      "pass_": true,
+      "schema_errors": [],
+      "checks": [
+        {
+          "kind": "rater",
+          "pass_": true
+        },
+        {
+          "kind": "representative_key",
+          "pass_": true
+        },
+        {
+          "kind": "indices",
+          "pass_": true
+        },
+        {
+          "kind": "representative_fields",
+          "pass_": true
+        },
+        {
+          "kind": "abstention",
+          "pass_": true
+        },
+        {
+          "kind": "observed_reference",
+          "pass_": true
+        },
+        {
+          "kind": "comparison_exists",
+          "pass_": true
+        },
+        {
+          "kind": "no_comparison_condition",
+          "pass_": true
+        }
+      ],
+      "comparison_direction": "none",
+      "feedback_paragraph": "A scoring pattern cannot be established from these cases. The provided observations do not establish a consistent pattern of feature-to-evaluation relationship across multiple essays. In essay essay_3b9f17fe0fbc82924e5e05cf, the relevant excerpt is “ I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years.” In essay essay_3b9f17fe0fbc82924e5e05cf, the relevant excerpt is “ To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate.” The essay contains grammatical errors such as nonstandard verb forms and structures, which can affect the clarity and correctness of the argument. The recorded Grammar score is 3. The official descriptor for Grammar:3 is “Some errors in grammar and usage.” This evidence alone does not establish whether that band is appropriate. This observation does not establish the frequency of such errors throughout the essay, only their presence in these specific sentences. Next inspect: Review other sentences in the essay for similar grammatical errors to assess the overall frequency and impact on the argument. Check: The frequency and impact of grammatical errors on the overall clarity and correctness of the argument.",
+      "selected_evidence": [
+        {
+          "observation_key": "essay_3b9f17fe0fbc82924e5e05cf::O1",
+          "quote_index": 0,
+          "target_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+          "exact_quote": " I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years."
+        },
+        {
+          "observation_key": "essay_3b9f17fe0fbc82924e5e05cf::O1",
+          "quote_index": 1,
+          "target_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+          "exact_quote": " To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate."
+        }
+      ],
+      "semantic_support_not_certified": true
+    }
+  },
+  {
+    "rater_id": "rater_7",
+    "generated": {
+      "schema_version": "1.5",
+      "rater_id": "rater_7",
+      "pattern_status": "insufficient_evidence",
+      "pattern": null,
+      "pattern_limit": "The provided observations do not show a consistent pattern of feature-to-evaluation relationship across multiple essays.",
+      "representative_observation_key": "essay_10bde717c719b4cc15923b78::O1",
+      "quote_indices": [
+        0,
+        1
+      ],
+      "textual_finding": "The essay begins with a quote from Ralph Waldo Emerson and then provides a personal interpretation of the quote's meaning.",
+      "evidence_limit": "This observation does not establish the overall coherence of the essay, only the initial connection between the quote and the writer's interpretation.",
+      "rubric_review": {
+        "observed_band_ref_id": "Cohesion:2",
+        "comparison_band_ref_id": null,
+        "band_assessment": "indeterminate"
+      },
+      "next_check": {
+        "inspect": "Review the transitions between paragraphs to see if the writer maintains the connection to the initial quote throughout the essay.",
+        "distinguish": "Check if the writer's interpretation of the quote is maintained and developed throughout the essay.",
+        "reconsider_if": null
+      }
+    },
+    "selected_source_evidence": [
+      {
+        "observation": {
+          "observation_id": "O1",
+          "dimension": "Cohesion",
+          "evidence_span_ids": [
+            "S1",
+            "S3"
+          ],
+          "feature": "The essay begins with a quote from Ralph Waldo Emerson and then provides a personal interpretation of the quote's meaning.",
+          "scoring_relevance": "This feature is relevant to the Cohesion dimension as it shows the writer's ability to introduce a topic and connect it to their own perspective, establishing a clear link between the quote and the writer's argument.",
+          "limitation": "This observation does not establish the overall coherence of the essay, only the initial connection between the quote and the writer's interpretation.",
+          "next_check": "Review the transitions between paragraphs to see if the writer maintains the connection to the initial quote throughout the essay.",
+          "quotes": [
+            "Some people feel inspired to the quote \" unless you do something beyond of you have mastered, you will never grow\" written by Author Ralph Waldo Emerson.",
+            " I say its because to achieve an new goal, to be a bigger person, and discover the unknown."
+          ],
+          "observation_key": "essay_10bde717c719b4cc15923b78::O1",
+          "target_essay_id": "essay_10bde717c719b4cc15923b78",
+          "observed_score": 2
+        },
+        "source": {
+          "essay_id": "essay_10bde717c719b4cc15923b78",
+          "source_row_id": 8679,
+          "rater_position": 1,
+          "rater_id": "rater_7",
+          "Filename": "AAAUUP138190000573842110_OR",
+          "text_id_kaggle": "",
+          "text_hash": "f661584c56aeef9b9bf311b287eb22e78a5fa29ba9708f54248b3e62f8b6e47a"
+        },
+        "exact_source_spans": [
+          {
+            "span_id": "S1",
+            "paragraph_id": "P1",
+            "start": 0,
+            "end": 153,
+            "text": "Some people feel inspired to the quote \" unless you do something beyond of you have mastered, you will never grow\" written by Author Ralph Waldo Emerson.",
+            "is_first_text_span": true,
+            "is_last_text_span": false,
+            "preceding_context": "",
+            "following_context": " Meaning of what hes saying if you never stop learning about what you mastered already you'll grow, but some people disagree to that because they feel like they"
+          },
+          {
+            "span_id": "S3",
+            "paragraph_id": "P1",
+            "start": 371,
+            "end": 462,
+            "text": " I say its because to achieve an new goal, to be a bigger person, and discover the unknown.",
+            "is_first_text_span": false,
+            "is_last_text_span": false,
+            "preceding_context": "ut what you mastered already you'll grow, but some people disagree to that because they feel like they know too much already so what is the point of learn more?",
+            "following_context": "\r\n\r\nEveryday we want to achieve a new goal so we can grow as a whole. Scientist for an example, they discover more diseases and bacteria than we could ever know"
+          }
+        ],
+        "note": "Position/context added for post-generation provisional review only; not supplied retroactively to Stage 5."
+      }
+    ],
+    "render_checks": {
+      "pass_": true,
+      "schema_errors": [],
+      "checks": [
+        {
+          "kind": "rater",
+          "pass_": true
+        },
+        {
+          "kind": "representative_key",
+          "pass_": true
+        },
+        {
+          "kind": "indices",
+          "pass_": true
+        },
+        {
+          "kind": "representative_fields",
+          "pass_": true
+        },
+        {
+          "kind": "abstention",
+          "pass_": true
+        },
+        {
+          "kind": "observed_reference",
+          "pass_": true
+        },
+        {
+          "kind": "comparison_exists",
+          "pass_": true
+        },
+        {
+          "kind": "no_comparison_condition",
+          "pass_": true
+        }
+      ],
+      "comparison_direction": "none",
+      "feedback_paragraph": "A scoring pattern cannot be established from these cases. The provided observations do not show a consistent pattern of feature-to-evaluation relationship across multiple essays. In essay essay_10bde717c719b4cc15923b78, the relevant excerpt is “Some people feel inspired to the quote \" unless you do something beyond of you have mastered, you will never grow\" written by Author Ralph Waldo Emerson.” In essay essay_10bde717c719b4cc15923b78, the relevant excerpt is “ I say its because to achieve an new goal, to be a bigger person, and discover the unknown.” The essay begins with a quote from Ralph Waldo Emerson and then provides a personal interpretation of the quote's meaning. The recorded Cohesion score is 2. The official descriptor for Cohesion:2 is “Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.” This evidence alone does not establish whether that band is appropriate. This observation does not establish the overall coherence of the essay, only the initial connection between the quote and the writer's interpretation. Next inspect: Review the transitions between paragraphs to see if the writer maintains the connection to the initial quote throughout the essay. Check: Check if the writer's interpretation of the quote is maintained and developed throughout the essay.",
+      "selected_evidence": [
+        {
+          "observation_key": "essay_10bde717c719b4cc15923b78::O1",
+          "quote_index": 0,
+          "target_essay_id": "essay_10bde717c719b4cc15923b78",
+          "exact_quote": "Some people feel inspired to the quote \" unless you do something beyond of you have mastered, you will never grow\" written by Author Ralph Waldo Emerson."
+        },
+        {
+          "observation_key": "essay_10bde717c719b4cc15923b78::O1",
+          "quote_index": 1,
+          "target_essay_id": "essay_10bde717c719b4cc15923b78",
+          "exact_quote": " I say its because to achieve an new goal, to be a bigger person, and discover the unknown."
+        }
+      ],
+      "semantic_support_not_certified": true
+    }
+  }
+]

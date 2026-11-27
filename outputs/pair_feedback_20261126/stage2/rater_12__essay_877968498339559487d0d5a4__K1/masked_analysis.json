@@ -1,0 +1,86 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with occasional language inaccuracies and some errors in grammar and syntax tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_56b47af1153e7884e4a981e9",
+          "quotes": [
+            "Students working from home is good for kids that could be getting buliud either they speack up but dont see a change, having problems with adults here at school that don't really help much but just bring the student down, or maybe just being an anti socicl person."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay contains occasional language inaccuracies and some errors in grammar and syntax, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_81aa085b702d206e5f30f7f4",
+          "quotes": [
+            "P.e is my favorite educational activity because i mostly enjoy it.Because all my friends are in that class.The most thing i do in that class is play basketball which i am trash at it but i still play with the boys and i enjoy the time ."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay contains more frequent language inaccuracies and errors, consistent with a lower Overall score of 2."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is based on limited history data and may not fully capture the rater's scoring tendencies."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "I think that have a good attitude is great.Benefits of having a good attitude is when you, walk into school you feel ready,you don't get angry at school and don't get mad at your friends and teacher's,you always have a positive mindset when your going into school or playing a sport."
+      ],
+      "observable_feature": "The essay contains occasional language inaccuracies and some errors in grammar and syntax.",
+      "evaluative_interpretation": "This is consistent with an Overall score of [MASK], as the essay demonstrates controlled organization and occasional inaccuracies that do not significantly impede communication.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates controlled organization and occasional inaccuracies that do not significantly impede communication, consistent with an Overall score of [MASK]. This is supported by the pattern observed in the history essays, where essays with similar characteristics received an Overall score of 3.",
+  "insufficient_evidence": []
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "rater_id": "rater_12",
+    "available": 40,
+    "input_pass": 40,
+    "quarantined": 0,
+    "issues": []
+  },
+  {
+    "rater_id": "rater_13",
+    "available": 40,
+    "input_pass": 38,
+    "quarantined": 2,
+    "issues": [
+      "unique_top_band_label_without_number"
+    ]
+  },
+  {
+    "rater_id": "rater_10",
+    "available": 40,
+    "input_pass": 37,
+    "quarantined": 3,
+    "issues": [
+      "invalid_history_reference;invalid_or_self_history_id;unverified_history_score_attribution"
+    ]
+  },
+  {
+    "rater_id": "rater_11",
+    "available": 40,
+    "input_pass": 39,
+    "quarantined": 1,
+    "issues": [
+      "history_trait_mismatch"
+    ]
+  },
+  {
+    "rater_id": "rater_2",
+    "available": 40,
+    "input_pass": 40,
+    "quarantined": 0,
+    "issues": []
+  },
+  {
+    "rater_id": "rater_7",
+    "available": 40,
+    "input_pass": 38,
+    "quarantined": 2,
+    "issues": [
+      "invalid_history_reference;invalid_or_self_history_id;unverified_history_score_attribution",
+      "unique_top_band_label_without_number"
+    ]
+  }
+]

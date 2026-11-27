@@ -1,0 +1,55 @@
+{
+  "pass_": true,
+  "schema_errors": [],
+  "checks": [
+    {
+      "kind": "rater",
+      "pass_": true
+    },
+    {
+      "kind": "representative_key",
+      "pass_": true
+    },
+    {
+      "kind": "indices",
+      "pass_": true
+    },
+    {
+      "kind": "representative_fields",
+      "pass_": true
+    },
+    {
+      "kind": "abstention",
+      "pass_": true
+    },
+    {
+      "kind": "observed_reference",
+      "pass_": true
+    },
+    {
+      "kind": "comparison_exists",
+      "pass_": true
+    },
+    {
+      "kind": "no_comparison_condition",
+      "pass_": true
+    }
+  ],
+  "comparison_direction": "none",
+  "feedback_paragraph": "A scoring pattern cannot be established from these cases. Only one essay is provided, and thus, it is insufficient to establish a pattern of scoring behavior. In essay essay_3b9f17fe0fbc82924e5e05cf, the relevant excerpt is “ I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years.” In essay essay_3b9f17fe0fbc82924e5e05cf, the relevant excerpt is “ To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate.” The essay contains nonstandard verb forms and grammatical structures, such as 'I am strongly agree with this option' and 'To graduate in three years is not imposible'. The recorded Grammar score is 3. The official descriptor for Grammar:3 is “Some errors in grammar and usage.” This evidence alone does not establish whether that band is appropriate. The provided evidence does not establish the frequency of such errors throughout the essay, only their presence in these specific sentences. Next inspect: Review other sentences in the essay for similar grammatical errors to assess the overall frequency and impact on the argument. Check: The frequency and impact of grammatical errors on the clarity and correctness of the argument.",
+  "selected_evidence": [
+    {
+      "observation_key": "essay_3b9f17fe0fbc82924e5e05cf::O1",
+      "quote_index": 0,
+      "target_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+      "exact_quote": " I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years."
+    },
+    {
+      "observation_key": "essay_3b9f17fe0fbc82924e5e05cf::O1",
+      "quote_index": 1,
+      "target_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+      "exact_quote": " To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate."
+    }
+  ],
+  "semantic_support_not_certified": true
+}

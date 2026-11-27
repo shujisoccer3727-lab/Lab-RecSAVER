@@ -1,0 +1,98 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent errors in sentence structure, grammar, and conventions tend to receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+          "quotes": [
+            "I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay contains multiple errors in grammar and sentence structure, which aligns with the lower scores."
+        },
+        {
+          "history_essay_id": "essay_0520259ee56a64211f076d55",
+          "quotes": [
+            "how would you feel if you had to be home at a certain time and if you don't your breaking the law."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay has grammatical and syntactical errors, which are consistent with the lower scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_cb38a1ffaf831ddf8a6a37b1",
+          "quotes": [
+            "Sometimes I loose and sometimes I win."
+          ],
+          "interpretation": "This essay has fewer errors but still receives a lower score, suggesting that other factors may also influence the score."
+        }
+      ],
+      "limitations": [
+        "The pattern is not consistent across all essays, indicating that other factors may also influence the scores."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "to conserve energy and resources ,some businesses have adopten a four day work week ,with each day consisting often hours should your school follow this model by extending the school day two hours ?yes is a good idea for somepeople what need work after or before school because if you have work you need take 30 hours for two weeks miminum and them go to the school too in that same time"
+      ],
+      "observable_feature": "The sentence structure is complex and contains multiple errors in grammar and conventions.",
+      "evaluative_interpretation": "The sentence is difficult to read and understand due to the errors, which likely contributed to the lower scores.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Cohesion, Syntax, Grammar, and Conventions indicates that frequent errors in these areas can impede communication and result in lower scores.",
+      "uncertainty": "The sentence is long and complex, making it difficult to determine if the errors are due to a lack of proficiency or an attempt to convey a complex idea."
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Vocabulary"
+      ],
+      "quotes": [
+        "in the disadvantages is why not have much time for myself ,but is fine only"
+      ],
+      "observable_feature": "The vocabulary used is simple and lacks precision.",
+      "evaluative_interpretation": "The vocabulary is minimally adequate for the topic, which aligns with the score of 3 in Vocabulary.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The rubric for Vocabulary indicates that a minimally adequate range of vocabulary for the topic is consistent with a score of 3.",
+      "uncertainty": "The vocabulary is simple, but the essay does not attempt to use less common vocabulary, which could have improved the score."
+    }
+  ],
+  "decision_explanation": "The essay contains frequent errors in sentence structure, grammar, and conventions, which align with the lower scores observed in the history. The vocabulary is minimally adequate, which is consistent with the score of 3 in Vocabulary.",
+  "insufficient_evidence": []
+}

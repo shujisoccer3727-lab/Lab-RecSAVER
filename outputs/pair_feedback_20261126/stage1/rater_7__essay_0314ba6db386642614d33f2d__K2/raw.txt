@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "essay_0314ba6db386642614d33f2d",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Overall", "Cohesion", "Vocabulary"],
+        "pattern": "Essays with a narrow range of vocabulary and limited cohesive devices tend to receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_61fb7af14060a0077092fdc7",
+            "quotes": ["Generic_City park it's located in Pennsylvania and is one of the places I would like to go there with my family."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Vocabulary": 3
+              }
+            },
+            "interpretation": "The essay uses a limited range of vocabulary and cohesive devices, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_ebfd3052c9b185cd4b7c8fef",
+            "quotes": ["Long break give student so many important priviteges, like having time to go spent some time with family."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Vocabulary": 3
+              }
+            },
+            "interpretation": "The essay demonstrates a narrow range of vocabulary and limited cohesive devices, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_8b2533d37e8ee7c07bd70db4",
+            "quotes": ["Furthermore, coding is basically you have to type in the words specifically."],
+            "interpretation": "This essay has a slightly wider range of vocabulary and cohesive devices, yet still receives an Overall score of 3."
+          }
+        ],
+        "limitations": ["The pattern is not definitive, as some essays with similar features receive a score of 4."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Overall", "Cohesion", "Vocabulary"],
+        "quotes": ["Schools should have a partnership business to help all the students to reach their goals."],
+        "observable_feature": "The essay demonstrates a limited range of vocabulary and cohesive devices.",
+        "evaluative_interpretation": "The limited vocabulary and cohesive devices are consistent with an Overall score of 4, indicating a higher level of proficiency than the recurring pattern of Overall 3.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+        "uncertainty": "The essay's overall proficiency is somewhat underdetermined by the limited vocabulary and cohesive devices alone."
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a limited range of vocabulary and cohesive devices, similar to essays in the history that received an Overall score of 3. However, the observed Overall score of 4 suggests a higher level of proficiency, possibly due to other factors not captured by the limited vocabulary and cohesive devices.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's Overall score of 4 is consistent with the rubric criteria for facility in the use of language with syntactic variety and range of words and phrases, controlled organization, and accuracy in grammar and conventions, despite occasional language inaccuracies that rarely impede communication.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay's limited cohesive devices are consistent with a Cohesion score of 2, indicating only partially developed organization and some basic cohesive devices used with inaccuracy or repetition."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary to allow flexibility and precision, consistent with a Vocabulary score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The essay's limited cohesive devices and occasional language inaccuracies do not fully align with the Overall score of 4, suggesting other factors may have influenced the score."]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent errors in sentence structure, grammar, and conventions receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_b819379406aa9abe86991ac7",
+          "quotes": [
+            "Technology has positive effects on people's lives because they can help you with many information that your trying to look up for example if your trying to shop, play games, or even buy or read books."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay contains frequent errors in sentence structure and grammar, which aligns with the lower scores."
+        },
+        {
+          "history_essay_id": "essay_9ac1f84a77b92c702fe842e5",
+          "quotes": [
+            "Some school offer programs that allow high school students to graduate in tree years instead traditional four years."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 2,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay has numerous grammatical and syntactic errors, consistent with the lower scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_51b993c68e160a83a1ace3d7",
+          "quotes": [
+            "Hello, my name is Generic_Name, I'm currently a student at Generic_school and I am enrolled at Generic_school, an occupation training school to further enhance my work skills and professionalism."
+          ],
+          "interpretation": "This essay has fewer errors and received a higher score, indicating that fewer errors correlate with higher scores."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by multiple essays but does not account for all scoring dimensions."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the schedule and more Students will likely to pass the classes and both elective and art have the same principle with the same accomplishment."
+      ],
+      "observable_feature": "The sentence structure is fragmented and contains multiple grammatical errors.",
+      "evaluative_interpretation": "The sentence structure and grammar errors are consistent with a lower score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for lower scores indicates frequent errors in sentence structure and grammar.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "quotes": [
+        "elective class helps students who doesnt have time to do their work also benfit any students to have jobs outside of schools."
+      ],
+      "observable_feature": "The vocabulary and phraseology are limited and occasionally inaccurate.",
+      "evaluative_interpretation": "The limited vocabulary and phraseology are consistent with a score of [MASK].",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The rubric for a score of [MASK] indicates a minimally adequate range of vocabulary and some inaccuracies in phraseology.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay's frequent errors in sentence structure, grammar, and conventions align with the lower scores observed in the history. The limited vocabulary and phraseology are consistent with a score of [MASK], as seen in the history.",
+  "insufficient_evidence": []
+}

@@ -1,0 +1,90 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with occasional language inaccuracies, generally controlled organization, and a sufficient range of vocabulary receive an Overall score of 4.",
+      "support": [
+        {
+          "history_essay_id": "essay_539c991b479db5f84e9be8a9",
+          "quotes": [
+            "\"working in groups is more beneficial than working alone. I think working in groups is more beneficial and good for many reasons because; we collaborate and share ideas, it more fun and easy working together\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a generally controlled organization and a sufficient range of vocabulary, with occasional language inaccuracies, consistent with an Overall score of 4."
+        },
+        {
+          "history_essay_id": "essay_a1529bcd15e8ea2f608c49ef",
+          "quotes": [
+            "\"The school board shouldn't add a hour and a half to school because after school activities would be longer. If after school activities have to be longer because of the school board adding a hour and a half to the school time.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay shows a generally controlled organization and a sufficient range of vocabulary, with occasional language inaccuracies, consistent with an Overall score of 4."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_daaa89f0ed3a1b79d3163b1a",
+          "quotes": [
+            "\"Everyone in the world not have all the information for Example: I know how to bring the books online. My Sister know how to do Shopping online than she will tell me how to do the shopping online, and I will say to here how to bring the books online like that she tell information and I tell her Information now she know all the informations about books and I know all the Informations about the shopping.\""
+          ],
+          "interpretation": "This essay has more significant language inaccuracies and less controlled organization, which contrasts with the pattern of essays receiving an Overall score of 4."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"Imagine taking four-day school week and having 2 hours more during the school day that will be a big problem for us, we won expend the much time with our family, we need to work in the afternoon to help our parents with money.\""
+      ],
+      "observable_feature": "The essay demonstrates a generally controlled organization with occasional language inaccuracies and a sufficient range of vocabulary.",
+      "evaluative_interpretation": "The essay's organization and vocabulary suggest a score of 4, but the presence of language inaccuracies and less controlled syntax align with a score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's features align with the rubric's description for an Overall score of 3, where communication is impeded by language inaccuracies in some cases.",
+      "uncertainty": "The essay's vocabulary range is sufficient, which could support a higher score, but the overall language inaccuracies and less controlled syntax align more closely with a score of 3."
+    }
+  ],
+  "decision_explanation": "The essay's generally controlled organization and sufficient vocabulary range suggest a higher score, but the presence of language inaccuracies and less controlled syntax align more closely with an Overall score of 3, consistent with the rater's history.",
+  "insufficient_evidence": []
+}

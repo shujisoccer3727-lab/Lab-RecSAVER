@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, sufficient vocabulary range, and minimal errors in grammar and conventions tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_0520259ee56a64211f076d55",
+          "quotes": [
+            "The city council shouldnt put a curfew time on teenagers because some teens play sports, and some teens work."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and sufficient vocabulary range, with occasional errors in sentence formation and minimal grammar errors, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_cb38a1ffaf831ddf8a6a37b1",
+          "quotes": [
+            "I lost 58 pounds to be exact. I feel lighter than ever."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 4,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay shows controlled organization, sufficient vocabulary range, and minimal errors in grammar and conventions, consistent with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "If a students have more time to do there class work then they will not have there class work as homework."
+      ],
+      "observable_feature": "The essay demonstrates generally controlled organization, occasional errors in sentence formation, sufficient vocabulary range, and minimal errors in grammar and conventions.",
+      "evaluative_interpretation": "These features are consistent with an Overall score of 3, as they align with the pattern observed in the history.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's controlled organization and sufficient vocabulary range, with occasional errors in sentence formation and minimal grammar errors, align with the rubric's description for an Overall score of 3.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay's controlled organization, sufficient vocabulary range, and minimal errors in grammar and conventions align with the pattern observed in the history, supporting an Overall score of 3.",
+  "insufficient_evidence": []
+}

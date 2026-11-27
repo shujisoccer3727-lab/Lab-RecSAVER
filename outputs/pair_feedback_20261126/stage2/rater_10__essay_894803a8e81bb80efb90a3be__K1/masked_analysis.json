@@ -1,0 +1,63 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "pattern": "Essays with a wide range of vocabulary and cohesive devices receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_bdeee4699532dec8dfaea224",
+          "quotes": [
+            "\"Therefore, I choose your company because I feel like its great for me to start working in a place that i could be conformable with. And specially if its from a company with great quality and management.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Vocabulary": 4,
+              "Phraseology": 5
+            }
+          },
+          "interpretation": "The essay demonstrates a range of vocabulary and cohesive devices, which aligns with the higher scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_00808a491692a94c9fa33b54",
+          "quotes": [
+            "\"ThatA,A's not good for student to finish high school in three years and enter college or the work force on year early.\""
+          ],
+          "interpretation": "This essay has fewer cohesive devices and a narrower vocabulary, which aligns with the lower scores."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "quotes": [
+        "\"Giving high school students chances to graduate early increases graduation rates. For example a girl wanted to give up on school because she said it was too stressful and time consuming and she didn't want to go to college after high school.\""
+      ],
+      "observable_feature": "The essay uses a wide range of vocabulary and cohesive devices, such as transitional phrases and examples.",
+      "evaluative_interpretation": "The use of a wide range of vocabulary and cohesive devices supports a higher score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay demonstrates a wide range of vocabulary and cohesive devices, which aligns with the rubric for higher scores.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates a wide range of vocabulary and cohesive devices, which aligns with the higher scores observed in the history. This supports the higher Overall and Trait scores.",
+  "insufficient_evidence": []
+}

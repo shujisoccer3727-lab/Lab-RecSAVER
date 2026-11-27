@@ -1,0 +1,124 @@
+{
+  "reviewer": "Codexによるこの実行の暫定点検。独立した人手評価ではない。生成物は変更しない。",
+  "review_scope": "正式なStage 5代表所見・確認点と比較用5エッセイを点検した。全保存所見の意味的妥当性を網羅的に認定していない。パターン支持所見は正式5出力とも空であった。",
+  "feedback_reviews": [
+    {
+      "rater_id": "rater_12",
+      "feedback_sha256": "8eb32585da7003ce9c29364934238f5e0d915c3f3346880c496fb70c171b2736",
+      "judgment": "代表の局所文法所見は支持、評価傾向と帯の適否は保留",
+      "notes_ja": "原文の『I think that have a good attitude is great.』には非標準的な節構造があり、haveをhavingとする読みは局所的に妥当である。1文から文法誤りの頻度やGrammar:2のMany errorsを認定しておらず、その保留は適切。14エッセイという入力数自体が不足しているという判断ではなく、同一の特徴と評価の関係を支持する横断的な比較根拠が提示されなかった。"
+    },
+    {
+      "rater_id": "rater_13",
+      "feedback_sha256": "cddd19d628c5c5cad9fc3bb0460038b46026451d21d44332cfa9e3ddba1c85ae",
+      "judgment": "厳密JSON不成立、正式フィードバックの対応評価は保留",
+      "notes_ja": "生出力はMarkdownのjsonコードフェンスで囲まれており、最初の非空白文字が{ではない。正式parsed.jsonと表示文は作成されていない。フェンスの除去、再生成、診断的読みを成功へ算入する処理は行わなかった。生出力を読めることと、比較条件の正式出力が成立することを区別する。"
+    },
+    {
+      "rater_id": "rater_10",
+      "feedback_sha256": "5fc1e387421ad03228f6e0ba3ca4997a5b76b6af15fefba18f03218d788606d7",
+      "judgment": "例示部分の局所的なつながりは支持、全体的な結束性と評価傾向は保留",
+      "notes_ja": "態度についての説明、シャツにコーヒーをこぼされる例、反応を問う疑問、怒る反応と笑顔の反応の対比が選択4区間に揃っている。例示内部の話題の連続は確認できる。引用だけでエッセイ全体の結束性やCohesion:4の妥当性を確定しておらず、他段落間のつながりを点検する確認点は利用できる。"
+    },
+    {
+      "rater_id": "rater_11",
+      "feedback_sha256": "1b35e08b8eabeada8dd7f0ffc845d1c583dc0d575bf73e0bd13f40326eca1e96",
+      "judgment": "一部支持、接続表現の分類に意味的な問題",
+      "notes_ja": "Firstlyは列挙の接続標識として確認できる。一方、saying the truthは命題の内容を表す表現であり、それ自体をtransitional phraseとする分類は支持しにくい。同じ段落内でhonestyとtruthを言い換える語彙的な結び付きは考えられるが、生成文はその違いを説明していない。接続標識と論理的関係を区別して点検する必要がある。原文引用と記録得点の出典一致は、この分類の正しさを保証しない。生成文は修正せず保持した。"
+    },
+    {
+      "rater_id": "rater_2",
+      "feedback_sha256": "4dc762cfcf4327d334d49c54aec88abe51af72b295132d778b23006d2b56bf07",
+      "judgment": "局所文法所見は一部支持、上流の誤り分類と影響範囲に注意",
+      "notes_ja": "I am strongly agreeは非標準的な動詞構造として確認できる。上流所見が同列に挙げたTo graduate in three years is not imposibleは、不定詞主語の構造自体を文法誤りとは認定できず、imposibleの綴りはConventionsと区別すべきである。ただし選択された長い第2引用にはmany extra timeなど別の文法上の問題があり、文法問題の存在という狭い所見は支持される。実際の理解阻害や論証の正否、エッセイ全体での頻度を引用だけで確定しない。生成文と上流所見は変更していない。"
+    },
+    {
+      "rater_id": "rater_7",
+      "feedback_sha256": "7e8ad792925831de5552ea707d05561bdb9cf241a1392794889b2426ac64c22b",
+      "judgment": "引用提示と自分の目標への局所的な接続は支持、確認点の適用文脈は限定的",
+      "notes_ja": "原文はEmersonの言葉として引用を提示し、新しい目標や成長に結び付けた自分の説明を続けている。引用の意味を正確に解釈したかやエッセイ全体の結束性までは選択2区間で確定しない。冒頭位置は事後の原文区間表で確認できたが、Stage 5へ位置情報を追加したわけではない。確認点はinitial quoteを前提としており、引用から始まらない比較用エッセイへ直接対応させる根拠は得られなかった。"
+    }
+  ],
+  "cases": [
+    {
+      "filename": "AAAXMP138200001580432804_OR",
+      "rater_id": "rater_12",
+      "dimension": "Grammar",
+      "span_ids": ["S11"],
+      "correspondence": "一部対応",
+      "assessment_ja": "would wouldという助動詞の重複が、他の文法上の問題を点検する対象になる。代表所見と同じhave/having型の誤りがあるという根拠は確認していない。確認点のother grammatical issuesという範囲では照合できるが、1区間から誤りの頻度や理解阻害の程度、記録Grammar:3やOverall:2の妥当性は決まらない。"
+    },
+    {
+      "filename": "AAAXMP138200001580432804_OR",
+      "rater_id": "rater_13",
+      "dimension": "Overall",
+      "span_ids": [],
+      "correspondence": "対応評価保留（正式出力不成立）",
+      "assessment_ja": "比較用エッセイの原文と全記録得点は照合済みだが、rater_13の正式な固定フィードバックは厳密JSONエラーにより成立していない。生出力の確認点を正式出力として採用したり、原文から代わりの確認点を補作したりしない。この事例で両者の正式フィードバックを並べた比較は成立していない。下記Overall:5の基準は出典確認のために示し、適切な点数との認定ではない。"
+    },
+    {
+      "filename": "AAAXMP138200001666792812_OR",
+      "rater_id": "rater_12",
+      "dimension": "Grammar",
+      "span_ids": ["S4", "S8"],
+      "correspondence": "対応可（局所文法の確認）",
+      "assessment_ja": "this help studentsやwhen you have endに、動詞の一致・語形を点検できる箇所がある。複数箇所で文法形式と意味の回復可能性を確認するという固定確認点に対応する。haveを含むだけで代表所見と同一の構文問題だとは扱わない。記録Grammar:3に対応するSome errorsという記述と照合できるが、観測Overallの2と5の差をこの所見で説明したり、再採点後の点数を推定したりしない。"
+    },
+    {
+      "filename": "AAAXMP138200001666792812_OR",
+      "rater_id": "rater_13",
+      "dimension": "Overall",
+      "span_ids": [],
+      "correspondence": "対応評価保留（正式出力不成立）",
+      "assessment_ja": "rater_13の正式な固定フィードバックが成立していないため、両者の確認点の比較を保留する。原文や記録得点の検証は完了しているが、これは利用できる確認点が得られたことを意味しない。コードフェンスを除いて成功扱いにする処理や報告用の手修正は行っていない。"
+    },
+    {
+      "filename": "AAAXMP138190000293162108_OR",
+      "rater_id": "rater_10",
+      "dimension": "Cohesion",
+      "span_ids": ["S3", "S6", "S11"],
+      "correspondence": "対応可（段落間の論理接続の確認）",
+      "assessment_ja": "健康、仕事、結論へと扱う場面が移りながらpositive attitudeという主題を共有している。段落間で主張が保たれ、各具体例が主張をどう発展させるかを確認するという固定確認点に対応する。標識の存在だけでCohesion:5のconsistently well controlledを認定せず、例示間の論理的なつながりを全文で点検する対象として示す。"
+    },
+    {
+      "filename": "AAAXMP138190000293162108_OR",
+      "rater_id": "rater_11",
+      "dimension": "Cohesion",
+      "span_ids": ["S3", "S5", "S6"],
+      "correspondence": "一部対応（分類上の問題を別記）",
+      "assessment_ja": "FirstlyとSecondlyの列挙標識、および後続の健康・仕事の理由づけは照合できる。接続標識があることと、その標識が実際に論理関係を明確にすることを分けて点検する。固定フィードバックのsaying the truthの分類には問題があるため、その語句の扱いは移用しない。これだけで記録Cohesion:2の適否や代替点数は確定しない。"
+    },
+    {
+      "filename": "AAAXMP138190000301142128_OR",
+      "rater_id": "rater_10",
+      "dimension": "Cohesion",
+      "span_ids": ["S6", "S7", "S12", "S19", "S26"],
+      "correspondence": "対応可（主張と理由のつながりの確認）",
+      "assessment_ja": "冒頭の3理由の予告、First・Second・Finallyによる展開、終盤での主張の再提示を原文で確認できる。各理由が主張を発展させるか、段落間で同じ主張が保たれるかという固定確認点に対応する。Cohesion:5の一貫した制御を標識の個数だけで認定せず、具体例の役割や反復の効果を点検する。"
+    },
+    {
+      "filename": "AAAXMP138190000301142128_OR",
+      "rater_id": "rater_11",
+      "dimension": "Cohesion",
+      "span_ids": ["S7", "S12", "S19", "S26"],
+      "correspondence": "一部対応（分類上の問題を別記）",
+      "assessment_ja": "First・Second・Finallyの機能と、終盤の再提示へのつながりは点検できる。saying the truthを接続標識とした分類は支持せず、実際の列挙標識と命題の内容を区別して照合する。語形・綴りの問題と段落の接続が成立するかを分けて点検し、記録Cohesion:2やOverall:2の正否をこの抜粋だけで決めない。"
+    },
+    {
+      "filename": "AAAXMP138200001998652127_OR",
+      "rater_id": "rater_2",
+      "dimension": "Grammar",
+      "span_ids": ["S1", "S5"],
+      "correspondence": "対応可（局所文法の確認）",
+      "assessment_ja": "when they olderとWhen you youngに、連結動詞の欠落を点検できる具体例がある。別の文でも同種の構造を確認し、形式上の誤りと意味の回復可能性を分けるという確認点に対応する。2区間から全体の頻度や理解阻害、Grammar:2のMany errorsの充足は認定しない。元の代表所見にあった綴りと文法の分類上の問題も、別途保持した。"
+    },
+    {
+      "filename": "AAAXMP138200001998652127_OR",
+      "rater_id": "rater_7",
+      "dimension": "Cohesion",
+      "span_ids": ["S1", "S8", "S17"],
+      "correspondence": "直接対応する根拠なし（冒頭引用の前提がない）",
+      "assessment_ja": "全文を点検すると、比較用エッセイは職業について考え始める年齢の意見から始まり、サッカーの個人的経験へ展開している。固定確認点が前提とするinitial quoteに対応する冒頭引用は得られなかった。段落間の接続一般には関連し得るが、固定確認点を別の問いへ書き換えて適合した扱いにはしない。引用がないこと自体はCohesionの減点根拠ではなく、記録Cohesion:5の妥当性もこの不対応からは判断できない。"
+    }
+  ]
+}

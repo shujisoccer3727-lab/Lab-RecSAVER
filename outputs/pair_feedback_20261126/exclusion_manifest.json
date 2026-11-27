@@ -1,0 +1,343 @@
+{
+  "excluded_essay_ids": [
+    "essay_26c823184766dec735c30ff3",
+    "essay_5e83b8848e40fd9e0bae4e2c",
+    "essay_9c6203b2aa9d48dc934eeffc",
+    "essay_b68abf9e93bb8ef539f9eb2b",
+    "essay_ce95313f4dd125cdcf892792"
+  ],
+  "comparisons": [
+    {
+      "pair_id": "pair_1",
+      "filename": "AAAXMP138200001580432804_OR",
+      "expected_source_row_id": 6771,
+      "essay_id": "essay_5e83b8848e40fd9e0bae4e2c",
+      "records": [
+        {
+          "essay_id": "essay_5e83b8848e40fd9e0bae4e2c",
+          "source_row_id": 6771,
+          "rater_position": 1,
+          "rater_id": "rater_12",
+          "Filename": "AAAXMP138200001580432804_OR",
+          "text_id_kaggle": "",
+          "text_hash": "79b32e993129b1dd5b5952d3852d1501495eb0f6a988bc3411af199b5e64be38",
+          "Overall": 2,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 2,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 2
+          },
+          "expected_row_matches": true,
+          "text_sha256": "6e14b1d64f717bff6f3711952c962775efaf0dd1dcd515476c72019299a94c50"
+        },
+        {
+          "essay_id": "essay_5e83b8848e40fd9e0bae4e2c",
+          "source_row_id": 6771,
+          "rater_position": 2,
+          "rater_id": "rater_13",
+          "Filename": "AAAXMP138200001580432804_OR",
+          "text_id_kaggle": "",
+          "text_hash": "79b32e993129b1dd5b5952d3852d1501495eb0f6a988bc3411af199b5e64be38",
+          "Overall": 5,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 5,
+            "Vocabulary": 5,
+            "Phraseology": 5,
+            "Grammar": 4,
+            "Conventions": 4
+          },
+          "expected_row_matches": true,
+          "text_sha256": "6e14b1d64f717bff6f3711952c962775efaf0dd1dcd515476c72019299a94c50"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair_1",
+      "filename": "AAAXMP138200001666792812_OR",
+      "expected_source_row_id": 6788,
+      "essay_id": "essay_9c6203b2aa9d48dc934eeffc",
+      "records": [
+        {
+          "essay_id": "essay_9c6203b2aa9d48dc934eeffc",
+          "source_row_id": 6788,
+          "rater_position": 1,
+          "rater_id": "rater_12",
+          "Filename": "AAAXMP138200001666792812_OR",
+          "text_id_kaggle": "",
+          "text_hash": "2da370ef1639dec2c0623075ebdb68a55c4ae386e418f11bb5e3bace73c072a7",
+          "Overall": 2,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 3,
+            "Conventions": 2
+          },
+          "expected_row_matches": true,
+          "text_sha256": "9463db06deee0b6ac30853266d65f8b4d5b31472cf6894a351ac22e4bcc4f665"
+        },
+        {
+          "essay_id": "essay_9c6203b2aa9d48dc934eeffc",
+          "source_row_id": 6788,
+          "rater_position": 2,
+          "rater_id": "rater_13",
+          "Filename": "AAAXMP138200001666792812_OR",
+          "text_id_kaggle": "",
+          "text_hash": "2da370ef1639dec2c0623075ebdb68a55c4ae386e418f11bb5e3bace73c072a7",
+          "Overall": 5,
+          "Traits": {
+            "Cohesion": 4,
+            "Syntax": 5,
+            "Vocabulary": 5,
+            "Phraseology": 4,
+            "Grammar": 5,
+            "Conventions": 5
+          },
+          "expected_row_matches": true,
+          "text_sha256": "9463db06deee0b6ac30853266d65f8b4d5b31472cf6894a351ac22e4bcc4f665"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair_2",
+      "filename": "AAAXMP138190000293162108_OR",
+      "expected_source_row_id": 6652,
+      "essay_id": "essay_26c823184766dec735c30ff3",
+      "records": [
+        {
+          "essay_id": "essay_26c823184766dec735c30ff3",
+          "source_row_id": 6652,
+          "rater_position": 1,
+          "rater_id": "rater_10",
+          "Filename": "AAAXMP138190000293162108_OR",
+          "text_id_kaggle": "",
+          "text_hash": "18fc069063a9d5cd64cd923b0e2642968fd122deef815b7d63200db1d7e698bd",
+          "Overall": 5,
+          "Traits": {
+            "Cohesion": 5,
+            "Syntax": 4,
+            "Vocabulary": 5,
+            "Phraseology": 5,
+            "Grammar": 4,
+            "Conventions": 3
+          },
+          "expected_row_matches": true,
+          "text_sha256": "62e21f530e11cb0f493ac5d800f0432712e02d90cec0ca138dc45dc9caf1d001"
+        },
+        {
+          "essay_id": "essay_26c823184766dec735c30ff3",
+          "source_row_id": 6652,
+          "rater_position": 2,
+          "rater_id": "rater_11",
+          "Filename": "AAAXMP138190000293162108_OR",
+          "text_id_kaggle": "",
+          "text_hash": "18fc069063a9d5cd64cd923b0e2642968fd122deef815b7d63200db1d7e698bd",
+          "Overall": 2,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 2,
+            "Vocabulary": 3,
+            "Phraseology": 2,
+            "Grammar": 2,
+            "Conventions": 2
+          },
+          "expected_row_matches": true,
+          "text_sha256": "62e21f530e11cb0f493ac5d800f0432712e02d90cec0ca138dc45dc9caf1d001"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair_2",
+      "filename": "AAAXMP138190000301142128_OR",
+      "expected_source_row_id": 6662,
+      "essay_id": "essay_b68abf9e93bb8ef539f9eb2b",
+      "records": [
+        {
+          "essay_id": "essay_b68abf9e93bb8ef539f9eb2b",
+          "source_row_id": 6662,
+          "rater_position": 1,
+          "rater_id": "rater_10",
+          "Filename": "AAAXMP138190000301142128_OR",
+          "text_id_kaggle": "",
+          "text_hash": "2c189fd4b8b772d24a3499df8e8bb5b2dfc6ab44538af31cf1f6b8e31a251117",
+          "Overall": 5,
+          "Traits": {
+            "Cohesion": 5,
+            "Syntax": 5,
+            "Vocabulary": 4,
+            "Phraseology": 5,
+            "Grammar": 4,
+            "Conventions": 5
+          },
+          "expected_row_matches": true,
+          "text_sha256": "0abeff2dfe0e39dbbe6bd662cd5785a90edcbee1aa6e6b68734a665a9ae23045"
+        },
+        {
+          "essay_id": "essay_b68abf9e93bb8ef539f9eb2b",
+          "source_row_id": 6662,
+          "rater_position": 2,
+          "rater_id": "rater_11",
+          "Filename": "AAAXMP138190000301142128_OR",
+          "text_id_kaggle": "",
+          "text_hash": "2c189fd4b8b772d24a3499df8e8bb5b2dfc6ab44538af31cf1f6b8e31a251117",
+          "Overall": 2,
+          "Traits": {
+            "Cohesion": 2,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 3,
+            "Grammar": 2,
+            "Conventions": 3
+          },
+          "expected_row_matches": true,
+          "text_sha256": "0abeff2dfe0e39dbbe6bd662cd5785a90edcbee1aa6e6b68734a665a9ae23045"
+        }
+      ]
+    },
+    {
+      "pair_id": "pair_3",
+      "filename": "AAAXMP138200001998652127_OR",
+      "expected_source_row_id": 8561,
+      "essay_id": "essay_ce95313f4dd125cdcf892792",
+      "records": [
+        {
+          "essay_id": "essay_ce95313f4dd125cdcf892792",
+          "source_row_id": 8561,
+          "rater_position": 2,
+          "rater_id": "rater_2",
+          "Filename": "AAAXMP138200001998652127_OR",
+          "text_id_kaggle": "",
+          "text_hash": "b6537cc9798543cfeba5217b27ca0558f853c1635fd33d5b2babd5299edbd636",
+          "Overall": 2,
+          "Traits": {
+            "Cohesion": 3,
+            "Syntax": 3,
+            "Vocabulary": 3,
+            "Phraseology": 2,
+            "Grammar": 2,
+            "Conventions": 2
+          },
+          "expected_row_matches": true,
+          "text_sha256": "49a6bf69a101c383d6d659318428ac9965fbbf8e972185d1d3ec7e6659351eed"
+        },
+        {
+          "essay_id": "essay_ce95313f4dd125cdcf892792",
+          "source_row_id": 8561,
+          "rater_position": 1,
+          "rater_id": "rater_7",
+          "Filename": "AAAXMP138200001998652127_OR",
+          "text_id_kaggle": "",
+          "text_hash": "b6537cc9798543cfeba5217b27ca0558f853c1635fd33d5b2babd5299edbd636",
+          "Overall": 5,
+          "Traits": {
+            "Cohesion": 5,
+            "Syntax": 5,
+            "Vocabulary": 4,
+            "Phraseology": 4,
+            "Grammar": 4,
+            "Conventions": 3
+          },
+          "expected_row_matches": true,
+          "text_sha256": "49a6bf69a101c383d6d659318428ac9965fbbf8e972185d1d3ec7e6659351eed"
+        }
+      ]
+    }
+  ],
+  "excluded_records": [
+    {
+      "essay_id": "essay_26c823184766dec735c30ff3",
+      "source_row_id": 6652,
+      "rater_position": 1,
+      "rater_id": "rater_10",
+      "Filename": "AAAXMP138190000293162108_OR",
+      "text_id_kaggle": "",
+      "text_hash": "18fc069063a9d5cd64cd923b0e2642968fd122deef815b7d63200db1d7e698bd"
+    },
+    {
+      "essay_id": "essay_26c823184766dec735c30ff3",
+      "source_row_id": 6652,
+      "rater_position": 2,
+      "rater_id": "rater_11",
+      "Filename": "AAAXMP138190000293162108_OR",
+      "text_id_kaggle": "",
+      "text_hash": "18fc069063a9d5cd64cd923b0e2642968fd122deef815b7d63200db1d7e698bd"
+    },
+    {
+      "essay_id": "essay_b68abf9e93bb8ef539f9eb2b",
+      "source_row_id": 6662,
+      "rater_position": 1,
+      "rater_id": "rater_10",
+      "Filename": "AAAXMP138190000301142128_OR",
+      "text_id_kaggle": "",
+      "text_hash": "2c189fd4b8b772d24a3499df8e8bb5b2dfc6ab44538af31cf1f6b8e31a251117"
+    },
+    {
+      "essay_id": "essay_b68abf9e93bb8ef539f9eb2b",
+      "source_row_id": 6662,
+      "rater_position": 2,
+      "rater_id": "rater_11",
+      "Filename": "AAAXMP138190000301142128_OR",
+      "text_id_kaggle": "",
+      "text_hash": "2c189fd4b8b772d24a3499df8e8bb5b2dfc6ab44538af31cf1f6b8e31a251117"
+    },
+    {
+      "essay_id": "essay_5e83b8848e40fd9e0bae4e2c",
+      "source_row_id": 6771,
+      "rater_position": 1,
+      "rater_id": "rater_12",
+      "Filename": "AAAXMP138200001580432804_OR",
+      "text_id_kaggle": "",
+      "text_hash": "79b32e993129b1dd5b5952d3852d1501495eb0f6a988bc3411af199b5e64be38"
+    },
+    {
+      "essay_id": "essay_5e83b8848e40fd9e0bae4e2c",
+      "source_row_id": 6771,
+      "rater_position": 2,
+      "rater_id": "rater_13",
+      "Filename": "AAAXMP138200001580432804_OR",
+      "text_id_kaggle": "",
+      "text_hash": "79b32e993129b1dd5b5952d3852d1501495eb0f6a988bc3411af199b5e64be38"
+    },
+    {
+      "essay_id": "essay_9c6203b2aa9d48dc934eeffc",
+      "source_row_id": 6788,
+      "rater_position": 1,
+      "rater_id": "rater_12",
+      "Filename": "AAAXMP138200001666792812_OR",
+      "text_id_kaggle": "",
+      "text_hash": "2da370ef1639dec2c0623075ebdb68a55c4ae386e418f11bb5e3bace73c072a7"
+    },
+    {
+      "essay_id": "essay_9c6203b2aa9d48dc934eeffc",
+      "source_row_id": 6788,
+      "rater_position": 2,
+      "rater_id": "rater_13",
+      "Filename": "AAAXMP138200001666792812_OR",
+      "text_id_kaggle": "",
+      "text_hash": "2da370ef1639dec2c0623075ebdb68a55c4ae386e418f11bb5e3bace73c072a7"
+    },
+    {
+      "essay_id": "essay_ce95313f4dd125cdcf892792",
+      "source_row_id": 8561,
+      "rater_position": 1,
+      "rater_id": "rater_7",
+      "Filename": "AAAXMP138200001998652127_OR",
+      "text_id_kaggle": "",
+      "text_hash": "b6537cc9798543cfeba5217b27ca0558f853c1635fd33d5b2babd5299edbd636"
+    },
+    {
+      "essay_id": "essay_ce95313f4dd125cdcf892792",
+      "source_row_id": 8561,
+      "rater_position": 2,
+      "rater_id": "rater_2",
+      "Filename": "AAAXMP138200001998652127_OR",
+      "text_id_kaggle": "",
+      "text_hash": "b6537cc9798543cfeba5217b27ca0558f853c1635fd33d5b2babd5299edbd636"
+    }
+  ]
+}

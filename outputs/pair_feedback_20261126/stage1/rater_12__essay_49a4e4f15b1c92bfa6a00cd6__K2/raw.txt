@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_49a4e4f15b1c92bfa6a00cd6",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Grammar"],
+        "pattern": "Essays with frequent errors in sentence structure, word order, and cohesive devices tend to receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_56b47af1153e7884e4a981e9",
+            "quotes": ["Students working from home is good for kids that could be getting buliud either they speack up but dont see a change, having problems with adults here at school that don't really help much but just bring the student down, or maybe just being an anti socicl person."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Grammar": 3
+              }
+            },
+            "interpretation": "The essay contains frequent errors in sentence structure and word order, which aligns with the lower scores."
+          },
+          {
+            "history_essay_id": "essay_7d884cf65731f24baf934030",
+            "quotes": ["Because some students go traveling during summer vacation to other countrys and\r\n\r\nto see their family if we make the vacation shorter it would give them less time\r\n\r\nto spend time with their family and travlel students usally have their summer schudel planed out on what they are going to do during the summer and if we cut out some days it would mess up there planing falmilys"],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Grammar": 4
+              }
+            },
+            "interpretation": "The essay has frequent errors in sentence structure and word order, which aligns with the lower scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_7feeb1e7e2ad8717d2e3d436",
+            "quotes": ["In Thailand there are many different towns I want to visit. In the towns there are many cool things I could buy. Also I would probably see lots of animals there like birds, dogs, or even farm animals walking, or flying around, which I would I like to see."],
+            "interpretation": "This essay has fewer errors in sentence structure and word order, yet it received a higher score, suggesting that other factors may also influence the score."
+          }
+        ],
+        "limitations": ["The pattern is not consistent across all essays, indicating that other factors may also influence the scores."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Grammar"],
+        "quotes": ["We accomplish more doing always something.\r\n\r\n.\r\n\r\nIn our world we see how old people, young people, children, are in the streets with no food to eat barely clothes put on with no money on the pockets."],
+        "observable_feature": "The text contains frequent errors in sentence structure, word order, and cohesive devices.",
+        "evaluative_interpretation": "These errors interfere with the clarity and coherence of the text, which may justify a lower score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for scores 2 and 3 indicates that frequent errors in sentence structure and word order can impede communication.",
+        "uncertainty": "The text also contains some coherent sentences, which may suggest a higher score."
+      }
+    ],
+    "decision_explanation": "The target essay contains frequent errors in sentence structure, word order, and cohesive devices, which aligns with the lower scores observed in the history. The pattern observed in the history suggests that these errors may justify a lower score.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The frequent errors in sentence structure, word order, and cohesive devices align with the observed Overall score of 2. The text's coherence and clarity are significantly impeded, which is consistent with the rubric for score 2.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The text contains frequent errors in cohesive devices, which align with the observed score of 2. The rubric for score 2 indicates that the organization is only partially developed with a lack of logical sequencing of ideas."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The text contains frequent errors in sentence structure and word order, which align with the observed score of 2. The rubric for score 2 indicates that there are many sentence structure problems."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The text demonstrates a minimally adequate range of vocabulary for the topic, which aligns with the observed score of 3. The rubric for score 3 indicates that there is no precise use of subtle word meanings."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The text demonstrates an evident use of phrases such as idioms and collocations, but without much variety, which aligns with the observed score of 3. The rubric for score 3 indicates that there are some noticeable repetitions and misuses."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The text contains frequent errors in grammar and usage, which align with the observed score of 2. The rubric for score 2 indicates that there are many errors in grammar and usage."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The text demonstrates a developing use of conventions to convey meaning, with errors in spelling, capitalization, and punctuation that are sometimes distracting, which aligns with the observed score of 3. The rubric for score 3 indicates that there are errors that are sometimes distracting."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The text contains some coherent sentences, which may suggest a higher score, but the frequent errors in sentence structure, word order, and cohesive devices align with the observed scores."]
+  }
+}

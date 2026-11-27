@@ -1,0 +1,175 @@
+{
+  "changes": [
+    {
+      "path": "/target_evidence/0/evaluative_interpretation",
+      "before": "The sentence demonstrates a lack of control over syntax and conventions, which is consistent with a score of 3.",
+      "after": "The sentence demonstrates a lack of control over syntax and conventions, which is consistent with a score of [MASK].",
+      "value_spans": [
+        {
+          "start": 109,
+          "end": 110,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/0/rubric_connection",
+      "before": "The rubric for Syntax and Conventions at level 3 indicates some errors in sentence formation and inconsistent use of conventions, which is evident in the target essay.",
+      "after": "The rubric for Syntax and Conventions at level [MASK] indicates some errors in sentence formation and inconsistent use of conventions, which is evident in the target essay.",
+      "value_spans": [
+        {
+          "start": 47,
+          "end": 48,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/1/evaluative_interpretation",
+      "before": "The paragraph demonstrates a lack of control over syntax and conventions, which is consistent with a score of 3.",
+      "after": "The paragraph demonstrates a lack of control over syntax and conventions, which is consistent with a score of [MASK].",
+      "value_spans": [
+        {
+          "start": 110,
+          "end": 111,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/1/rubric_connection",
+      "before": "The rubric for Syntax and Conventions at level 3 indicates some errors in sentence formation and inconsistent use of conventions, which is evident in the target essay.",
+      "after": "The rubric for Syntax and Conventions at level [MASK] indicates some errors in sentence formation and inconsistent use of conventions, which is evident in the target essay.",
+      "value_spans": [
+        {
+          "start": 47,
+          "end": 48,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/decision_explanation",
+      "before": "The target essay exhibits frequent grammatical and syntactic errors, and inconsistent use of conventions, which aligns with the observed Overall score of 3. This is consistent with the pattern observed in the history essays, where similar features also received an Overall score of 3.",
+      "after": "The target essay exhibits frequent grammatical and syntactic errors, and inconsistent use of conventions, which aligns with the observed Overall score of [MASK]. This is consistent with the pattern observed in the history essays, where similar features also received an Overall score of 3.",
+      "value_spans": [
+        {
+          "start": 154,
+          "end": 155,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 5,
+  "changed_fields": 5,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/status",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/pattern",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/1/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/1/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/1/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/limitations/0",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/1/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/1/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/1/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/decision_explanation",
+      "span": [
+        265,
+        283
+      ],
+      "text": "Overall score of 3",
+      "reason": "Explicitly attributed history score clause"
+    }
+  ],
+  "quarantine": [],
+  "automatic_pass": true,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_2",
+  "target_essay_id": "essay_926396d210817c7d960bd53a",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with limited syntactic variety and occasional errors in grammar and conventions tend to receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_623825e121b05f3178ddd950",
+            "quotes": ["Because it is not easy to attend classes for every students."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 4,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The sentence shows limited syntactic variety and a minor grammatical error, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_b5d821b7fbc0682740cf952e",
+            "quotes": ["There are so many different opinions and ways to influence someone, they can be reasons or things that happened in the life of a person that will not necessary be inspired by a example of someones action, or life."],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 2,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The sentence shows limited syntactic variety and some grammatical errors, consistent with an Overall score of 2."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_2cc56c7ee59b6d3cc63f5128",
+            "quotes": ["the people in the society following information or take ideas guidance for experts, the peoples sopport the ideas of other like in the polytechinic, in the religion and society."],
+            "interpretation": "The sentence shows more significant grammatical errors and limited syntactic variety, which contrasts with the Overall score of 2."
+          }
+        ],
+        "limitations": ["The pattern is not consistent across all essays, with some exceptions."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the schedule and more Students will likely to pass the classes and both elective and art have the same principle with the same accomplishment."],
+        "observable_feature": "The sentence shows limited syntactic variety and some grammatical errors.",
+        "evaluative_interpretation": "The sentence demonstrates a limited range of syntactic structures and occasional errors in grammar and conventions, which is consistent with an Overall score of 3.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The sentence aligns with the rubric for a score of 3, showing occasional errors in grammar and usage and limited syntactic variety.",
+        "uncertainty": "The sentence's structure and errors are consistent with an Overall score of 3, but the broader essay context is needed to confirm."
+      }
+    ],
+    "decision_explanation": "The target essay's limited syntactic variety and occasional grammatical errors are consistent with the observed Overall score of 3, as supported by the historical pattern H1.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's limited syntactic variety and occasional grammatical errors align with the observed Overall score of 3, as supported by the historical pattern H1.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The sentence demonstrates limited syntactic variety and some grammatical errors, consistent with a Cohesion score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The sentence shows limited syntactic variety, consistent with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The sentence uses a minimally adequate range of vocabulary, consistent with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The sentence uses a variety of phrases, but with some inaccuracies, consistent with a Phraseology score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The sentence shows some errors in grammar and usage, consistent with a Grammar score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The sentence shows developing use of conventions with some errors, consistent with a Conventions score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The broader essay context is needed to fully confirm the consistency of the Overall score with the Trait scores."]
+  }
+}

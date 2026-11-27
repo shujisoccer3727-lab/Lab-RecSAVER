@@ -1,0 +1,105 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent errors in grammar, syntax, and vocabulary, and limited cohesive devices tend to receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_989dc58208a18f39a8463d05",
+          "quotes": [
+            "students would focus better if they did not have a other classmate talking to them."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The sentence structure and grammar errors are consistent with a lower score."
+        },
+        {
+          "history_essay_id": "essay_11027e3f200638d5f82370c9",
+          "quotes": [
+            "Their are even dogs that make people days, but they still think about the difficult time that they had today."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Vocabulary": 2,
+              "Phraseology": 2,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The grammatical and syntactic errors, along with limited cohesive devices, support a lower score."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Well my opinion for this cuestion is was you need to do frist have in one aponment."
+      ],
+      "observable_feature": "The sentence contains grammatical errors, awkward syntax, and limited cohesive devices.",
+      "evaluative_interpretation": "This sentence demonstrates a lack of control over grammar and syntax, which is consistent with a lower score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The sentence structure and grammar errors align with the rubric criteria for lower scores.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "When you take a adoption you really take a hours because the boy is not to really to see the another people was have on knew parents"
+      ],
+      "observable_feature": "The sentence structure is awkward, and there are multiple grammatical errors.",
+      "evaluative_interpretation": "This sentence demonstrates a lack of control over syntax and grammar, which is consistent with a lower score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The sentence structure and grammar errors align with the rubric criteria for lower scores.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay contains multiple grammatical and syntactic errors, limited cohesive devices, and awkward sentence structures, which are consistent with the observed scores. The historical pattern supports that such features tend to receive lower scores.",
+  "insufficient_evidence": []
+}

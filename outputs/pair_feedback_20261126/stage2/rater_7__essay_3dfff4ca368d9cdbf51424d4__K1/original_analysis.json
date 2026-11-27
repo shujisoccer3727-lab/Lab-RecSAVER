@@ -1,0 +1,82 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Lower scores are given when there are frequent errors in grammar and conventions.",
+      "support": [
+        {
+          "history_essay_id": "essay_b899487a9f3ed8c4bb6c7b99",
+          "quotes": [
+            "I don't think working from home is a good idea for school students."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay contains frequent errors in grammar and conventions, which aligns with the lower scores."
+        },
+        {
+          "history_essay_id": "essay_c5cc2aeab042c249b0f62f33",
+          "quotes": [
+            "When she came in the United States she wasn't speak English well"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Grammar": 4,
+              "Conventions": 5
+            }
+          },
+          "interpretation": "The essay has fewer errors in grammar and conventions, which aligns with the higher scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is based on only two essays, which may not be sufficient to establish a stable preference."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Generic_Name deosn't just want me dating girls."
+      ],
+      "observable_feature": "Spelling and grammatical errors.",
+      "evaluative_interpretation": "The presence of frequent errors in grammar and conventions is consistent with a lower score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Grammar and Conventions indicates that frequent errors lead to lower scores.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Cohesion"
+      ],
+      "quotes": [
+        "Generic_Name Asked me,\"Generic_Name if there was one place in the world you would liked to visit what would it be\""
+      ],
+      "observable_feature": "Inconsistent use of cohesive devices.",
+      "evaluative_interpretation": "The inconsistent use of cohesive devices, such as quotation marks and punctuation, is consistent with a lower score.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The rubric for Cohesion indicates that inconsistent use of cohesive devices leads to lower scores.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay contains frequent errors in grammar and conventions, which is consistent with the observed scores of 3 for Overall and Traits. The pattern observed in the history essays supports this interpretation.",
+  "insufficient_evidence": []
+}

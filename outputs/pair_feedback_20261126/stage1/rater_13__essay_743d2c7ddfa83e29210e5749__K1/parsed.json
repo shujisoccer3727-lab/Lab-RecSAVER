@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_13",
+  "target_essay_id": "essay_743d2c7ddfa83e29210e5749",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Overall",
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with a wide range of vocabulary and flexible use of phrases receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_8bd5008f795841fd07042ef2",
+            "quotes": [
+              "\"As a student myself, I think students would benefit from attending classes from home, because attending classes can help students manage their own time and learn how to self control, and can follow their own pace of learning.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 5,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 5,
+                "Vocabulary": 5,
+                "Phraseology": 5,
+                "Grammar": 5,
+                "Conventions": 5
+              }
+            },
+            "interpretation": "The essay demonstrates a wide range of vocabulary and flexible use of phrases, which aligns with the higher scores."
+          },
+          {
+            "history_essay_id": "essay_17116345036926ef7a1d51d2",
+            "quotes": [
+              "\"Imagination does not always bring good vibes to your mind. From all my life experiences and other people's life experiences, I learned that knowledge is more important than imagination. It's your reality, your understanding, and it makes you take good decisions to be someone very successful in life.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 5,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 5,
+                "Vocabulary": 5,
+                "Phraseology": 5,
+                "Grammar": 5,
+                "Conventions": 5
+              }
+            },
+            "interpretation": "The essay demonstrates a wide range of vocabulary and flexible use of phrases, which aligns with the higher scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is supported by two essays, but more data would strengthen the interpretation."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Overall",
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "\"Do you have a positive attitude? If you do, are you enjoying your life? Today, many people living in U.S. and people has many attitude, and some peoples has good attitude that key to success in life, others has not good attitude.\""
+        ],
+        "observable_feature": "The essay demonstrates a limited range of vocabulary and repetitive use of phrases.",
+        "evaluative_interpretation": "The limited vocabulary and repetitive phrases suggest a score of 3, consistent with the observed Overall score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay's limited vocabulary and repetitive phrases align with the rubric's description for a score of 3.",
+        "uncertainty": "The essay's use of some less common words and phrases suggests a higher score, but the overall pattern aligns with a score of 3."
+      }
+    ],
+    "decision_explanation": "The essay demonstrates a limited range of vocabulary and repetitive use of phrases, which aligns with the observed Overall score of 3. This is consistent with the pattern observed in the history where essays with a wide range of vocabulary and flexible use of phrases receive higher scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay's limited vocabulary and repetitive phrases align with the observed Overall score of 3. The Trait scores are consistent with the rubric's descriptions for a score of 3, with the exception of Vocabulary and Conventions, which are slightly higher.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a limited range of vocabulary and repetitive use of phrases, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a limited range of vocabulary and repetitive use of phrases, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a limited range of vocabulary and repetitive use of phrases, but the use of some less common words and phrases suggests a slightly higher score."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a limited range of vocabulary and repetitive use of phrases, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a limited range of vocabulary and repetitive use of phrases, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a limited range of vocabulary and repetitive use of phrases, but the use of some less common words and phrases suggests a slightly higher score."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": [
+      "The Trait scores for Vocabulary and Conventions are slightly higher than the overall pattern, which may suggest some inconsistency."
+    ]
+  }
+}

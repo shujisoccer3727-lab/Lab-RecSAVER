@@ -1,0 +1,70 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax"
+      ],
+      "pattern": "Essays with limited cohesive devices and occasional syntactic errors tend to receive a score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_989dc58208a18f39a8463d05",
+          "quotes": [
+            "students would benefit themselfs by taking classes at home",
+            "students would focus better if they did not have a other classmate talking to them"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2
+            }
+          },
+          "interpretation": "The essay demonstrates limited cohesive devices and syntactic errors, consistent with a score of 3."
+        },
+        {
+          "history_essay_id": "essay_2ba404b74059efe09b3722bd",
+          "quotes": [
+            "you cant just go up to your teacher and tell them \"give me a pencil\" you should tell them \"may I please have a pencil\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4
+            }
+          },
+          "interpretation": "The essay shows limited cohesive devices and occasional syntactic errors, consistent with a score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax"
+      ],
+      "quotes": [
+        "the online classes will have a positive change in their daily life",
+        "the time that students use to prepare them and when they took a bus to the school, this time they can used to sleep more or even start the classes early during this time"
+      ],
+      "observable_feature": "The essay demonstrates limited cohesive devices and occasional syntactic errors.",
+      "evaluative_interpretation": "This is consistent with a score of [MASK], as the text shows limited control over text organization and occasional errors in sentence formation.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text organization is generally controlled but with limited cohesive devices and some syntactic errors, aligning with the rubric for a score of [MASK].",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates limited cohesive devices and occasional syntactic errors, consistent with the observed scores of [MASK] for Cohesion and Syntax. This aligns with the historical pattern observed in essays with similar features.",
+  "insufficient_evidence": []
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_e6fd54937e6a3da25c2aeab2",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": ["S1", "S4"],
+      "feature": "The essay begins with a clear thesis statement in S1 and then introduces the first supporting reason in S4.",
+      "scoring_relevance": "The clear introduction of the thesis and the subsequent elaboration of the first reason demonstrate a cohesive structure, linking the main argument with supporting points.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the initial connection between the thesis and the first supporting point.",
+      "next_check": "Review the transitions between the supporting points and the concluding statements to ensure they maintain the same level of cohesion."
+    }
+  ],
+  "insufficient_evidence": []
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S3",
+      "S18"
+    ],
+    "feature": "The essay begins with a statement about the enjoyment of being in a school play and concludes with a similar statement, reinforcing the main idea.",
+    "scoring_relevance": "This feature demonstrates the writer's ability to maintain a clear and consistent focus on the topic, which is relevant to the cohesion dimension.",
+    "limitation": "This observation does not establish the overall coherence of the essay or the consistency of the argument throughout the text.",
+    "next_check": "Review the transitions between paragraphs to check if they maintain the flow of ideas and support the main argument.",
+    "quotes": [
+      " I think this will be an enjoyable activity for school because you can meet new people, work with a team, and most of all have a great time.",
+      "Being in a play is and enjoyable activity because you can meet new people, work as a team,and have fun."
+    ],
+    "observation_key": "essay_ec4adaeb0f9321f88a58d494::O1",
+    "target_essay_id": "essay_ec4adaeb0f9321f88a58d494",
+    "observed_score": 4
+  }
+]

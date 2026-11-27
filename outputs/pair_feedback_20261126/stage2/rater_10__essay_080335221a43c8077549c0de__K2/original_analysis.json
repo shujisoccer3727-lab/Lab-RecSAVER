@@ -1,0 +1,95 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a mix of clear and repetitive ideas, occasional errors, and some advanced vocabulary and phrases receive scores around 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_5c261ba25f1fd7836218065c",
+          "quotes": [
+            "The example is a good setting to influence other.",
+            "The example help people to understand more."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 2,
+              "Grammar": 2,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows repetition and some errors, but also attempts at varied vocabulary and phrases, consistent with a score of 2."
+        },
+        {
+          "history_essay_id": "essay_51b993c68e160a83a1ace3d7",
+          "quotes": [
+            "Being that I am enrolled in many classes that teach me most of what I'll need to know in the career I am pursuing, It'll maybe put me ahead of the pack wanting the same as I.",
+            "With all of this fuel driving me I hope you can see my hunger for it all and Invite me to meet you and view what the job looks like first hand and see if doing so would change my sight as a whole on want I want out of life."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 5,
+              "Grammar": 5,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a higher level of vocabulary and phraseology, with fewer errors, consistent with a score of 4."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_9ac1f84a77b92c702fe842e5",
+          "quotes": [
+            "One reason that I agree with this chance that this programs it is offering. because must students like me need to take the high school diploma and try go to college or try to find job."
+          ],
+          "interpretation": "This essay shows more errors and less varied vocabulary, which contrasts with the higher scoring pattern."
+        }
+      ],
+      "limitations": [
+        "The pattern is based on limited examples and may not fully capture the rater's criteria."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Some people may believe that true self-esteem comes from praising while others believe that it comes from achievement.",
+        "The other reason is that they get rewarded with certificates and trophies."
+      ],
+      "observable_feature": "The essay contains a mix of clear ideas and some repetition, with occasional errors and attempts at varied vocabulary and phrases.",
+      "evaluative_interpretation": "The essay demonstrates a level of proficiency with some errors and repetition, but also shows attempts at varied vocabulary and phrases, which aligns with a score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows a mix of clear and repetitive ideas, occasional errors, and some advanced vocabulary and phrases, consistent with the rubric's description for a score of 3.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay's mix of clear ideas, repetition, and attempts at varied vocabulary and phrases aligns with the observed scores of 3 across multiple dimensions, consistent with the rater's pattern of scoring essays with similar features.",
+  "insufficient_evidence": []
+}

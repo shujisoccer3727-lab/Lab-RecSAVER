@@ -1,0 +1,69 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S5",
+          "paragraph_id": "P2",
+          "start": 443,
+          "end": 518,
+          "text": "Firstly, four-day school is not going to help enough to conserve resources."
+        },
+        {
+          "span_id": "S11",
+          "paragraph_id": "P3",
+          "start": 978,
+          "end": 1043,
+          "text": "Secondly, too much in the school could be frustrate for students."
+        },
+        {
+          "span_id": "S15",
+          "paragraph_id": "P4",
+          "start": 1449,
+          "end": 1505,
+          "text": "Finally, students need time for after school activities."
+        },
+        {
+          "span_id": "S20",
+          "paragraph_id": "P5",
+          "start": 1970,
+          "end": 2067,
+          "text": "In conclusion, follow the model of four-day school and add two hours each day is not a good idea."
+        }
+      ],
+      "reconstructed_quotes": [
+        "Firstly, four-day school is not going to help enough to conserve resources.",
+        "Secondly, too much in the school could be frustrate for students.",
+        "Finally, students need time for after school activities.",
+        "In conclusion, follow the model of four-day school and add two hours each day is not a good idea."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S5",
+        "S11",
+        "S15",
+        "S20"
+      ],
+      "feature": "The essay uses transitional phrases such as 'Firstly,' 'Secondly,' and 'Finally' to organize the arguments.",
+      "scoring_relevance": "These transitional phrases help to clearly structure the essay and indicate the progression of ideas, which is relevant to the cohesion dimension.",
+      "limitation": "The presence of transitional phrases does not guarantee that the essay is well-cohesive overall; it only indicates that the writer is attempting to organize the arguments.",
+      "next_check": "Review the transitions between paragraphs and within paragraphs to see if they maintain a coherent flow of ideas.",
+      "quotes": [
+        "Firstly, four-day school is not going to help enough to conserve resources.",
+        "Secondly, too much in the school could be frustrate for students.",
+        "Finally, students need time for after school activities.",
+        "In conclusion, follow the model of four-day school and add two hours each day is not a good idea."
+      ]
+    }
+  ]
+}

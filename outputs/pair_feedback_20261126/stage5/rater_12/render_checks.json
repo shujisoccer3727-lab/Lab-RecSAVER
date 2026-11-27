@@ -1,0 +1,49 @@
+{
+  "pass_": true,
+  "schema_errors": [],
+  "checks": [
+    {
+      "kind": "rater",
+      "pass_": true
+    },
+    {
+      "kind": "representative_key",
+      "pass_": true
+    },
+    {
+      "kind": "indices",
+      "pass_": true
+    },
+    {
+      "kind": "representative_fields",
+      "pass_": true
+    },
+    {
+      "kind": "abstention",
+      "pass_": true
+    },
+    {
+      "kind": "observed_reference",
+      "pass_": true
+    },
+    {
+      "kind": "comparison_exists",
+      "pass_": true
+    },
+    {
+      "kind": "no_comparison_condition",
+      "pass_": true
+    }
+  ],
+  "comparison_direction": "none",
+  "feedback_paragraph": "A scoring pattern cannot be established from these cases. Insufficient evidence from distinct essays to establish a consistent feature-to-evaluation pattern. In essay essay_877968498339559487d0d5a4, the relevant excerpt is “I think that have a good attitude is great.” The sentence contains a grammatical error in the verb form 'have' which should be 'having'. The recorded Grammar score is 2. The official descriptor for Grammar:2 is “Many errors in grammar and usage.” This evidence alone does not establish whether that band is appropriate. This observation does not establish the frequency of grammatical errors throughout the essay. Next inspect: Other sentences in the essay for similar verb form errors or other grammatical issues. Check: The frequency and impact of grammatical errors on the essay's clarity.",
+  "selected_evidence": [
+    {
+      "observation_key": "essay_877968498339559487d0d5a4::O1",
+      "quote_index": 0,
+      "target_essay_id": "essay_877968498339559487d0d5a4",
+      "exact_quote": "I think that have a good attitude is great."
+    }
+  ],
+  "semantic_support_not_certified": true
+}

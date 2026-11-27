@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_b1cca193002635ed61a412bb",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "pattern": "Essays with well-controlled organization, varied vocabulary, and appropriate phraseology receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_894803a8e81bb80efb90a3be",
+            "quotes": ["\"Giving high school students chances to graduate early increases graduation rates. For example a girl wanted to give up on school because she said it was too stressful and time consuming and she didn't want to go to college after high school. She told my mom about it and my mom suggested for her to go for the three year program. Even though she didn't like it, she decided to still go to school for that because she had no more excuses about not graduating high school. She graduated school in 2014 and she's now a successful fashion designer.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 5,
+              "Traits": {
+                "Cohesion": 5,
+                "Vocabulary": 5,
+                "Phraseology": 5
+              }
+            },
+            "interpretation": "The essay demonstrates well-controlled organization, varied vocabulary, and appropriate phraseology, consistent with the higher scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_1c3c1934d148a5d8acdae7ce",
+            "quotes": ["\"Education change our life and teach you to think in a different way. Some people rush trying to graduate from school or reach their gools ahead of time which it is not good. Because they end up taking the wrong decision and I do understand that as student you just think to finish school and graduate to became profesional.\""],
+            "interpretation": "The essay lacks well-controlled organization and varied vocabulary, consistent with the lower scores."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "quotes": ["\"Cell phones are powerful electronic tools for students to use in classroom. Cell phones are now the most popular device that we can take with us wherever we go because it provide useful information such as news and climate. It also can be use as map or dictionary.\""],
+        "observable_feature": "The essay demonstrates well-controlled organization, varied vocabulary, and appropriate phraseology.",
+        "evaluative_interpretation": "These features are consistent with a higher score, but the presence of grammatical errors and some awkward phrasing may limit the overall score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay's well-controlled organization, varied vocabulary, and appropriate phraseology align with the rubric criteria for higher scores.",
+        "uncertainty": "The presence of grammatical errors and some awkward phrasing may limit the overall score."
+      }
+    ],
+    "decision_explanation": "The essay demonstrates well-controlled organization, varied vocabulary, and appropriate phraseology, which aligns with the higher scores observed in the history. However, the presence of grammatical errors and some awkward phrasing may limit the overall score.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 2,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay's well-controlled organization, varied vocabulary, and appropriate phraseology align with the higher scores observed in the history. However, the presence of grammatical errors and some awkward phrasing may limit the overall score, consistent with the observed Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates well-controlled organization, consistent with the observed score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates appropriate use of a variety of syntactic structures, but with occasional errors, consistent with the observed score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary to allow flexibility and precision, consistent with the observed score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates appropriate use of a variety of phrases, consistent with the observed score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates some errors in grammar and usage, consistent with the observed score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally consistent use of appropriate conventions to convey meaning, consistent with the observed score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

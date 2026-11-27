@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_2",
+  "target_essay_id": "essay_2cc56c7ee59b6d3cc63f5128",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with occasional errors in grammar and syntax, limited vocabulary, and some repetition receive scores around 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_49235c74962f7281d4b2919a",
+            "quotes": ["Self-reliance is the trust that you put in yourself believing that what you are doing is right."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay shows occasional errors and limited vocabulary, consistent with a score of 3."
+          },
+          {
+            "history_essay_id": "essay_7e0742469e97fef28d84a8fc",
+            "quotes": ["People will start to make fun of you, if you dont make your decision by yourself because if you are asking someone to help you or give some advice to help you make the decision, other people or even your own guidance or family people love to gossip every person gossip and this is true."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 2,
+                "Grammar": 2,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay has limited vocabulary and some grammatical errors, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+            "quotes": ["To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate."],
+            "interpretation": "This essay has more grammatical errors and less coherence, but still receives a score of 3, suggesting that the rater may be lenient on these aspects."
+          }
+        ],
+        "limitations": ["The rater's scoring pattern is consistent but not strictly enforced, allowing for some variability."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["the people in the society following information or take ideas guidance for experts, the peoples sopport the ideas of other like in the polytechinic, in the religion and society ."],
+        "observable_feature": "The text shows limited vocabulary, occasional grammatical errors, and some repetition.",
+        "evaluative_interpretation": "The essay demonstrates a level of proficiency that is consistent with a score of 2, as it shows more errors and less coherence than the essays in the history that received a score of 3.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The text shows occasional errors in grammar and syntax, limited vocabulary, and some repetition, which aligns with the rubric for a score of 2.",
+        "uncertainty": "The essay's coherence and vocabulary range are somewhat underdeveloped, but the level of errors is not as pervasive as the rubric for a score of 1."
+      }
+    ],
+    "decision_explanation": "The essay's limited vocabulary, occasional grammatical errors, and some repetition align with the rater's pattern of scoring essays with similar features around 2 or 3. The observed score of 2 is consistent with the rater's history of scoring essays with more errors and less coherence lower.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 2,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The essay's limited vocabulary, occasional grammatical errors, and some repetition align with the rubric for a score of 2, indicating that communication is impeded in many instances by language inaccuracies.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows some repetition and limited coherence, which aligns with a score of 3, indicating that the organization is generally controlled but with some repetitive or mechanical use of cohesive devices."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates occasional errors in sentence formation, which aligns with a score of 3, indicating that there is some apparent errors in sentence formation, especially in more complex sentences."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows a minimally adequate range of vocabulary for the topic, which aligns with a score of 3, indicating that there is no precise use of subtle word meanings and attempts to use less common vocabulary but with some inaccuracy."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a narrow range of phrases used to convey basic and elementary meaning, which aligns with a score of 2, indicating that there are many repetitions and misuses of phrases."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows many errors in grammar and usage, which aligns with a score of 2, indicating that there are many errors in grammar and usage."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates variable use of conventions, with frequent and distracting errors in spelling, capitalization, and punctuation, which aligns with a score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The essay's coherence and vocabulary range are somewhat underdeveloped, but the level of errors is not as pervasive as the rubric for a score of 1, making the score of 2 plausible but not definitively supported."]
+  }
+}

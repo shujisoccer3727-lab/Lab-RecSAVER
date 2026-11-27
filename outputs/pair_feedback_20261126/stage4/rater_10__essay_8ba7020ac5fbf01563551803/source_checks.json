@@ -1,0 +1,91 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 165,
+          "text": "Distance learning school does not offer many personal benefits than you think, because there's some difficulties that people can have taking classes from their home."
+        },
+        {
+          "span_id": "S2",
+          "paragraph_id": "P1",
+          "start": 165,
+          "end": 600,
+          "text": " It can be stressful and one reason is: if someone does not understand something, there's nobody to help them answering their questions, another reason is when they have to treat with more people the doesn't know how to treat them, and the last reason is that they have to be responsible with their schedule, starting class time and finish it at time, but sometimes people has more things to do and the schedule can be hard to respect."
+        }
+      ],
+      "reconstructed_quotes": [
+        "Distance learning school does not offer many personal benefits than you think, because there's some difficulties that people can have taking classes from their home.",
+        " It can be stressful and one reason is: if someone does not understand something, there's nobody to help them answering their questions, another reason is when they have to treat with more people the doesn't know how to treat them, and the last reason is that they have to be responsible with their schedule, starting class time and finish it at time, but sometimes people has more things to do and the schedule can be hard to respect."
+      ],
+      "semantic_support_not_certified": true
+    },
+    {
+      "index": 1,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S3",
+          "paragraph_id": "P2",
+          "start": 604,
+          "end": 958,
+          "text": "People take classes as we take attending the school, some classes are more harder than other classes, if they are strugguling with some topic or lesson they have to look for options that help them to understand as seraching on the internet, watch videos on yotube because they doesn't have more people around them as a teacher or classmates to help them."
+        },
+        {
+          "span_id": "S4",
+          "paragraph_id": "P2",
+          "start": 958,
+          "end": 1138,
+          "text": " Having more people around us is always good because sometimes they explain in another way we understand better but people attending classes from home does not have that adventage."
+        }
+      ],
+      "reconstructed_quotes": [
+        "People take classes as we take attending the school, some classes are more harder than other classes, if they are strugguling with some topic or lesson they have to look for options that help them to understand as seraching on the internet, watch videos on yotube because they doesn't have more people around them as a teacher or classmates to help them.",
+        " Having more people around us is always good because sometimes they explain in another way we understand better but people attending classes from home does not have that adventage."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S1",
+        "S2"
+      ],
+      "feature": "The essay contains grammatical errors such as 'does not offer many personal benefits than you think' and 'there's some difficulties'.",
+      "scoring_relevance": "These errors indicate a lack of proficiency in subject-verb agreement and comparative structures, which is relevant to the Grammar dimension.",
+      "limitation": "This observation does not account for the overall frequency of grammatical errors in the essay.",
+      "next_check": "Review other sentences for similar errors in subject-verb agreement and comparative structures.",
+      "quotes": [
+        "Distance learning school does not offer many personal benefits than you think, because there's some difficulties that people can have taking classes from their home.",
+        " It can be stressful and one reason is: if someone does not understand something, there's nobody to help them answering their questions, another reason is when they have to treat with more people the doesn't know how to treat them, and the last reason is that they have to be responsible with their schedule, starting class time and finish it at time, but sometimes people has more things to do and the schedule can be hard to respect."
+      ]
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S3",
+        "S4"
+      ],
+      "feature": "The essay uses transitional phrases such as 'if they are strugguling with some topic or lesson' and 'Having more people around us is always good'.",
+      "scoring_relevance": "These phrases help to connect ideas and maintain a logical flow, which is relevant to the Cohesion dimension.",
+      "limitation": "This observation does not evaluate the overall coherence of the essay.",
+      "next_check": "Check the consistency of the essay's argument and the logical connections between paragraphs.",
+      "quotes": [
+        "People take classes as we take attending the school, some classes are more harder than other classes, if they are strugguling with some topic or lesson they have to look for options that help them to understand as seraching on the internet, watch videos on yotube because they doesn't have more people around them as a teacher or classmates to help them.",
+        " Having more people around us is always good because sometimes they explain in another way we understand better but people attending classes from home does not have that adventage."
+      ]
+    }
+  ]
+}

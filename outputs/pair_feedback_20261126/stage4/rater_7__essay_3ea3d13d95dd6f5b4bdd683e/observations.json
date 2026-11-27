@@ -1,0 +1,19 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Grammar",
+    "evidence_span_ids": [
+      "S5"
+    ],
+    "feature": "The sentence 'Their are many places in the cities that need help it will be great that all students take part in community service.' contains a subject-verb agreement error ('Their are' should be 'There are').",
+    "scoring_relevance": "Subject-verb agreement errors can affect the clarity and correctness of the writing, which is relevant to the Grammar dimension.",
+    "limitation": "This observation only identifies one instance of a grammar error and does not provide a comprehensive assessment of the essay's grammatical accuracy.",
+    "next_check": "Review other sentences in the essay for similar subject-verb agreement errors or other grammatical issues.",
+    "quotes": [
+      " Their are many places in the cities that need help it will be great that all students take part in community service."
+    ],
+    "observation_key": "essay_3ea3d13d95dd6f5b4bdd683e::O1",
+    "target_essay_id": "essay_3ea3d13d95dd6f5b4bdd683e",
+    "observed_score": 2
+  }
+]

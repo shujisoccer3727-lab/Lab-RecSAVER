@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_96b587aeaf1f53910d5e55c9",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with controlled organization, varied syntax, sufficient vocabulary, appropriate phraseology, minimal grammar errors, and generally consistent conventions tend to receive an Overall score of 4.",
+        "support": [
+          {
+            "history_essay_id": "essay_51b993c68e160a83a1ace3d7",
+            "quotes": ["I have many goals & aspirations in life, and one of those aspirations being; in the medical field civlian and or military, at very young age of 7 I wanted to enlist in the U.S Military because of my apprecation and loyaltly to my country and wanting to protect It with all I could"],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 5,
+                "Grammar": 5,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization, varied syntax, sufficient vocabulary, appropriate phraseology, minimal grammar errors, and generally consistent conventions, consistent with an Overall score of 4."
+          },
+          {
+            "history_essay_id": "essay_b9dd5e6b2f7fb7eb59378148",
+            "quotes": ["The key to success in life is having a positive attitude: never envy what others have, nor wish bad upon a person for their success. Trust the process, life will knock you down, get you at your lowest but having that positive attitude towards every struggle and having that positive mindset to others will get you further than you think"],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization, varied syntax, sufficient vocabulary, appropriate phraseology, minimal grammar errors, and generally consistent conventions, consistent with an Overall score of 4."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_9ac1f84a77b92c702fe842e5",
+            "quotes": ["One reason that I agree with this chance that this programs it is offering. because must students like me need to take the high school diploma and try go to college or try to find job. When they have the high diploma ready.Must students take time during the summer to on focus in class or during the evenings."],
+            "interpretation": "The essay demonstrates poor organization, limited syntax, narrow vocabulary, limited phraseology, many grammar errors, and inconsistent conventions, which contrasts with the pattern of essays receiving an Overall score of 4."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["In summary, positive attitude is definitely important for your life and your success. Understanding positive manner designs your wonderful day. Also, you must have positive attitude to discover your fitting path to the success. Finally, positive attitude shows your true personality to people around you, and gives you a chance to catch their attention, so they can give you a opportunities to you to become a successful person. If you want to be successful person, you must have a positive attitude."],
+        "observable_feature": "The essay demonstrates controlled organization, varied syntax, sufficient vocabulary, appropriate phraseology, some grammar errors, and generally consistent conventions.",
+        "evaluative_interpretation": "The essay's controlled organization, varied syntax, sufficient vocabulary, appropriate phraseology, some grammar errors, and generally consistent conventions align with an Overall score of 3.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay's features align with the rubric's description for an Overall score of 3, where communication is impeded by language inaccuracies in some cases.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates controlled organization, varied syntax, sufficient vocabulary, appropriate phraseology, some grammar errors, and generally consistent conventions, which aligns with an Overall score of 3. This is consistent with the pattern observed in the history where essays with similar features receive an Overall score of 4, but the presence of some grammar errors and occasional language inaccuracies supports a slightly lower score.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay's controlled organization, varied syntax, sufficient vocabulary, appropriate phraseology, some grammar errors, and generally consistent conventions align with an Overall score of 3, where communication is impeded by language inaccuracies in some cases.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates controlled organization and appropriate use of cohesive devices, aligning with a Cohesion score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates varied syntax but with some apparent errors in sentence formation, aligning with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary for the topic, aligning with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates appropriate use of a variety of phrases, aligning with a Phraseology score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates some errors in grammar and usage, aligning with a Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally consistent use of appropriate conventions, aligning with a Conventions score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

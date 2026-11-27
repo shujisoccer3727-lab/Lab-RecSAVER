@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_13",
+  "target_essay_id": "essay_c9f9563839e5db463ef74df1",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, a minimally adequate range of vocabulary, some noticeable repetitions and misuses of phrases, and developing use of conventions tend to receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_707c17a5fd0bce0e645492df",
+            "quotes": ["Teacher would have more time to teach you the subject you need to know . You would have to get an extra class to pick."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and occasional errors in sentence formation, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_8a860c1c369200f05b07d7d8",
+            "quotes": ["When you have your opportunity to change the first impressions you can but not just for your dress you need to represent with you intelligent your capacity to work with other people is who you are."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 2,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows a minimally adequate range of vocabulary and some noticeable repetitions, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_ef80763deafaa3aa67b59f0e",
+            "quotes": ["For example; in freshman year i remember that i couldn't actually get good grades in my algebra class, i remember that i try and try my harder to get good grades."],
+            "interpretation": "This essay has a more controlled organization and fewer errors, which received an Overall score of 4, suggesting that the pattern is not always consistent."
+          }
+        ],
+        "limitations": ["The pattern is not always consistent, as seen in the counterevidence."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["a positive attitude can walk you threw success. Some people think that having a positive attitude is not the key to success. That is comprehensible but not all the time."],
+        "observable_feature": "The essay demonstrates generally controlled organization, occasional errors in sentence formation, a minimally adequate range of vocabulary, some noticeable repetitions and misuses of phrases, and developing use of conventions.",
+        "evaluative_interpretation": "These features are consistent with an Overall score of 3, as seen in the history patterns.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay shows a generally controlled organization with occasional errors in sentence formation, a minimally adequate range of vocabulary, and some noticeable repetitions and misuses of phrases, which aligns with the rubric for an Overall score of 3.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates features consistent with an Overall score of 3, as seen in the history patterns. The essay shows generally controlled organization, occasional errors in sentence formation, a minimally adequate range of vocabulary, some noticeable repetitions and misuses of phrases, and developing use of conventions.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 2,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The observed Overall score of 3 is consistent with the essay's generally controlled organization, occasional errors in sentence formation, a minimally adequate range of vocabulary, some noticeable repetitions and misuses of phrases, and developing use of conventions.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally controlled organization with some repetitive and mechanical use of cohesive devices, consistent with a score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows a range of syntactic structures with occasional errors in sentence formation, consistent with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a minimally adequate range of vocabulary with some attempts to use less common words, consistent with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows a narrow range of phrases with many repetitions and misuses, consistent with a score of 2."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has some errors in grammar and usage, consistent with a score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has developing use of conventions with frequent and distracting errors in spelling, capitalization, and punctuation, consistent with a score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The essay's Phraseology and Conventions scores are lower than the Overall score, which may suggest a need for more nuanced evaluation of these traits."]
+  }
+}

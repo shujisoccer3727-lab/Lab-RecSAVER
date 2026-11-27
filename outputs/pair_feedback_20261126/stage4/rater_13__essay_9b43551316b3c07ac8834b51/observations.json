@@ -1,0 +1,38 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S1",
+      "S9"
+    ],
+    "feature": "The essay introduces a problem in the opening paragraph (S1) and restates the main argument against the proposed change in the closing paragraph (S9).",
+    "scoring_relevance": "This feature demonstrates the writer's ability to maintain a clear and consistent argument throughout the essay, which is relevant to the cohesion dimension.",
+    "limitation": "The presence of a restated argument does not necessarily indicate the quality of the argument or the coherence of the supporting details.",
+    "next_check": "Review the middle paragraphs to check if the writer provides supporting details and examples that directly relate to the main argument.",
+    "quotes": [
+      "Imagine taking four-day school week and having 2 hours more during the school day that will be a big problem for us, we won expend the much time with our family, we need to work in the afternoon to help our parents with money.",
+      " These reasons are why i dont agree about having two hours more during school time, because if they don't work how they would pay all of those things, no one help them and"
+    ],
+    "observation_key": "essay_9b43551316b3c07ac8834b51::O1",
+    "target_essay_id": "essay_9b43551316b3c07ac8834b51",
+    "observed_score": 3
+  },
+  {
+    "observation_id": "O2",
+    "dimension": "Grammar",
+    "evidence_span_ids": [
+      "S2"
+    ],
+    "feature": "The sentence 'My father always likes to expend time with my mom, my brothers, my sisters and also me, i'm is favorite son.' contains grammatical errors, such as 'i'm is' instead of 'I am' and 'expend' instead of 'spend'.",
+    "scoring_relevance": "This feature highlights the presence of grammatical errors, which is relevant to the grammar dimension.",
+    "limitation": "A single sentence with grammatical errors does not provide a comprehensive assessment of the essay's overall grammatical accuracy.",
+    "next_check": "Review other sentences in the essay to check for similar grammatical errors and assess the frequency and impact of these errors on the overall clarity of the writing.",
+    "quotes": [
+      "My father always likes to expend time with my mom, my brothers, my sisters and also me, i'm is favorite son."
+    ],
+    "observation_key": "essay_9b43551316b3c07ac8834b51::O2",
+    "target_essay_id": "essay_9b43551316b3c07ac8834b51",
+    "observed_score": 3
+  }
+]

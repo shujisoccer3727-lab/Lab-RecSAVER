@@ -1,0 +1,19 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Grammar",
+    "evidence_span_ids": [
+      "S6"
+    ],
+    "feature": "The sentence contains a spelling error: 'drees' instead of 'dress'.",
+    "scoring_relevance": "Spelling errors can affect the clarity and correctness of the writing, which is relevant to the Grammar dimension.",
+    "limitation": "This single instance does not establish the frequency of such errors throughout the essay.",
+    "next_check": "Review other sentences for similar spelling errors or grammatical issues.",
+    "quotes": [
+      " You cannot judge a person by the way they look, speak or drees."
+    ],
+    "observation_key": "essay_736c97018ee5429ef6ecbb50::O1",
+    "target_essay_id": "essay_736c97018ee5429ef6ecbb50",
+    "observed_score": 3
+  }
+]

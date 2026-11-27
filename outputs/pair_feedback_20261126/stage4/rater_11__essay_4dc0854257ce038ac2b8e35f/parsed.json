@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_4dc0854257ce038ac2b8e35f",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S7"
+      ],
+      "feature": "The essay begins with a statement about the benefits of distance learning and later reiterates the positive impact on daily life.",
+      "scoring_relevance": "This feature shows a clear connection between the opening statement and a later paragraph, indicating that the essay maintains a coherent theme.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only that there is a thematic link between the opening and a later paragraph.",
+      "next_check": "Review the transitions between paragraphs to see if they maintain the thematic coherence established in the opening and later paragraphs."
+    }
+  ],
+  "insufficient_evidence": []
+}

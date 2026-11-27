@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 70,
+          "text": "When a problem occurs, do you try your best or do you simply not care?"
+        },
+        {
+          "span_id": "S11",
+          "paragraph_id": "P6",
+          "start": 738,
+          "end": 817,
+          "text": "Problems happen to everyone, the real deal comes to how you will respond to it."
+        }
+      ],
+      "reconstructed_quotes": [
+        "When a problem occurs, do you try your best or do you simply not care?",
+        "Problems happen to everyone, the real deal comes to how you will respond to it."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S11"
+      ],
+      "feature": "The essay begins with a question (S1) and later restates a similar idea (S11).",
+      "scoring_relevance": "The repetition of the idea about how one responds to problems at the beginning and later in the essay suggests a cohesive structure, as it ties the discussion back to the initial question.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only that there is a repeated idea.",
+      "next_check": "Review the middle paragraphs to see if they maintain the connection to the initial question and the repeated idea.",
+      "quotes": [
+        "When a problem occurs, do you try your best or do you simply not care?",
+        "Problems happen to everyone, the real deal comes to how you will respond to it."
+      ]
+    }
+  ]
+}

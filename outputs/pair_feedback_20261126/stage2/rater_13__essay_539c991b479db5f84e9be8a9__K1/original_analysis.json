@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with controlled organization, varied sentence structures, and a range of vocabulary and phrases receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_3f4d5d459a296ccd2d5d0c8d",
+          "quotes": [
+            "First the reason I would like to go visit Germany is mostly to see all of the beautiful places and landmarks that Germany has to offer."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 5,
+            "Traits": {
+              "Cohesion": 5,
+              "Syntax": 5,
+              "Vocabulary": 5,
+              "Phraseology": 5,
+              "Grammar": 5,
+              "Conventions": 5
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and varied sentence structures, leading to higher scores."
+        },
+        {
+          "history_essay_id": "essay_046d3822012f07f76c4d50e4",
+          "quotes": [
+            "we can accomplish something we wanted to do by facing our fear and by doing that we can face a stage fight fear and a high fear by making them face them."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows less controlled organization and varied sentence structures, leading to lower scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Working in groups helps us by sharing ideas: i think working in groups is very important. it helps us bring our minds together to brainstorm some ideas or by sharing opinoin about the project or the assignment we are working on."
+      ],
+      "observable_feature": "The essay demonstrates controlled organization and varied sentence structures, with a range of vocabulary and phrases.",
+      "evaluative_interpretation": "This feature is consistent with higher scores, as it aligns with the pattern observed in the history.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows controlled organization and varied sentence structures, which aligns with the rubric criteria for higher scores.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates controlled organization and varied sentence structures, with a range of vocabulary and phrases, consistent with the pattern observed in the history. This supports the observed scores.",
+  "insufficient_evidence": []
+}

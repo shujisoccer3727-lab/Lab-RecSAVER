@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_23a8594b76f0bbd8dcb9f093",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": ["S1"],
+      "feature": "The essay contains nonstandard verb forms and subject-verb agreement issues, such as 'phone's' instead of 'phones' and 'they don't use it' instead of 'they do not use them'.",
+      "scoring_relevance": "These grammatical errors can affect the clarity and correctness of the writer's argument, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This evidence does not establish the frequency of such errors throughout the essay, only their presence in the selected span.",
+      "next_check": "Review other sentences in the essay for similar grammatical errors to determine their frequency and impact on the overall argument."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Cohesion",
+      "evidence_span_ids": ["S1", "S2"],
+      "feature": "The essay transitions from discussing the reasons for allowing phone use to the idea of trusting students, with a clear shift marked by 'The big idea about this is trust'.",
+      "scoring_relevance": "This transition helps to connect the reasons for allowing phone use with the broader concept of trust, which is relevant to the Cohesion scoring dimension.",
+      "limitation": "This evidence does not establish the overall coherence of the essay, only the local connection between two ideas.",
+      "next_check": "Review the transitions between other paragraphs to see if they maintain a coherent flow of ideas throughout the essay."
+    }
+  ],
+  "insufficient_evidence": []
+}

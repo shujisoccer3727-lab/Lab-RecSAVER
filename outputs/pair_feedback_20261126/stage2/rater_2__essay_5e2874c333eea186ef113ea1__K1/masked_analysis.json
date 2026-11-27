@@ -1,0 +1,76 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent errors in sentence structure, grammar, and conventions tend to receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+          "quotes": [
+            "I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay contains multiple errors in sentence structure and grammar, which aligns with the lower scores."
+        },
+        {
+          "history_essay_id": "essay_0520259ee56a64211f076d55",
+          "quotes": [
+            "the city council should show not set a curfew becuase it can iterfere with teens daily life and not allow then to be active or allow then to have a job and get payed good."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay has grammatical and syntactical errors, which align with the lower scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by multiple essays, but the scores are not consistently low across all dimensions."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "to conserve energy and resources ,some businesses have adopten a four day work week ,with each day consisting often hours should your school follow this model by extending the school day two hours ?yes is a good idea for somepeople what need work after or before school because if you have work you need take 30 hours for two weeks miminum and them go to the school too in that same time"
+      ],
+      "observable_feature": "The sentence structure is complex and contains multiple errors in grammar and conventions.",
+      "evaluative_interpretation": "The sentence is difficult to read and understand due to the errors, which likely contributed to the lower scores.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Cohesion, Syntax, Grammar, and Conventions indicates that frequent errors impede communication and organization.",
+      "uncertainty": "The sentence is complex, but the errors are significant enough to affect the overall clarity."
+    }
+  ],
+  "decision_explanation": "The target essay contains multiple errors in sentence structure, grammar, and conventions, which align with the lower scores observed. This is consistent with the pattern observed in the history essays where similar errors result in lower scores.",
+  "insufficient_evidence": []
+}

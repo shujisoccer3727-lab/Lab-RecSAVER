@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_974fed9ae407d8cf69da8c85",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Overall", "Syntax", "Grammar", "Conventions"],
+        "pattern": "Essays with frequent grammatical errors, limited sentence variety, and inconsistent conventions tend to receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_c95defab5898fc1613b26c7c",
+            "quotes": ["Trying to conserve energy and resources, some businesses have adopted a four-day work week, with each day consisting of ten hours."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Syntax": 3,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay contains grammatical errors and limited sentence variety, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_877968498339559487d0d5a4",
+            "quotes": ["I think that have a good attitude is great."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Syntax": 2,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay has frequent grammatical errors and limited sentence variety, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_1982ecb00b93c55770d5a34a",
+            "quotes": ["Do we choose our own character traits or is our character formed by influences beyond our control?"],
+            "interpretation": "This essay has fewer grammatical errors and more varied sentence structures, which contrasts with the pattern of frequent errors and limited variety."
+          }
+        ],
+        "limitations": ["The pattern is not definitive, as some essays with fewer errors still receive a score of 3."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Overall", "Syntax", "Grammar", "Conventions"],
+        "quotes": ["I think is a great idea to have this type of learning program, very helpfull for students,"],
+        "observable_feature": "The sentence contains grammatical errors and lacks variety.",
+        "evaluative_interpretation": "The sentence structure and grammar errors are consistent with an Overall score of 3.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for Overall score 3 indicates limited facility in sentence formation and frequent errors in grammar and usage.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": ["Cohesion"],
+        "quotes": ["Here at school we are expose to so many things, You never know if anybody from outside will get in here with a gun, and will start shooting us, for no reason, or just because he is involved in bad things,"],
+        "observable_feature": "The text lacks clear logical sequencing and cohesive devices.",
+        "evaluative_interpretation": "The lack of cohesive devices and logical sequencing is consistent with a Cohesion score of 3.",
+        "linked_history_pattern_ids": [],
+        "rubric_connection": "The rubric for Cohesion score 3 indicates that the organization is generally controlled but with some repetitive or faulty use of cohesive devices.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay exhibits frequent grammatical errors and limited sentence variety, consistent with the pattern observed in history essays with an Overall score of 3. The lack of cohesive devices and logical sequencing supports a Cohesion score of 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The essay's frequent grammatical errors, limited sentence variety, and lack of cohesive devices align with an Overall score of 3. The Trait scores are consistent with this holistic judgment.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T2"],
+        "alignment": "The lack of cohesive devices and logical sequencing supports a Cohesion score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The limited sentence variety and frequent errors in sentence formation support a Syntax score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The vocabulary range is minimally adequate, with occasional attempts to use less common words, supporting a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The use of phrases is evident but limited in variety, supporting a Phraseology score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The frequent grammatical errors support a Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": [],
+        "alignment": "The developing use of conventions, with frequent and distracting errors, supports a Conventions score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The Trait scores do not fully distinguish between an Overall score of 3 and a slightly higher score."]
+  }
+}

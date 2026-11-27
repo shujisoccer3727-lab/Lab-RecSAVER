@@ -1,0 +1,23 @@
+```json
+{
+  "schema_version": "1.5",
+  "rater_id": "rater_13",
+  "pattern_status": "insufficient_evidence",
+  "pattern": null,
+  "pattern_limit": "The provided observations do not establish a consistent pattern of feature-to-evaluation relationship across multiple essays.",
+  "representative_observation_key": "essay_539c991b479db5f84e9be8a9::O1",
+  "quote_indices": [0, 1],
+  "textual_finding": "The essay connects the idea of working in groups with the benefit of sharing ideas and brainstorming, showing a cohesive argument.",
+  "evidence_limit": "This evidence does not establish the overall coherence of the essay or the consistency of the argument throughout.",
+  "rubric_review": {
+    "observed_band_ref_id": "Cohesion:3",
+    "comparison_band_ref_id": null,
+    "band_assessment": "indeterminate"
+  },
+  "next_check": {
+    "inspect": "Review the transitions between paragraphs to see if they maintain the flow of the argument about the benefits of group work.",
+    "distinguish": "Check if the writer maintains this level of cohesion throughout the essay.",
+    "reconsider_if": null
+  }
+}
+```

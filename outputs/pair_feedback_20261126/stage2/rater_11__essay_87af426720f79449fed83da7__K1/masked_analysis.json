@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with limited vocabulary, repetitive phrases, and frequent grammatical and syntactic errors tend to receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_c71f7198048e6f418c2b65e9",
+          "quotes": [
+            "There are some food that is being served to the students that is not healthy at all."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The sentence structure and vocabulary are limited, which aligns with the lower Trait scores."
+        },
+        {
+          "history_essay_id": "essay_865e64957ba87e7d8562c06b",
+          "quotes": [
+            "outdoor activities are good exercise for everyone for the soul reason of doing something outdoors than doing nothing indoors people are getting more lazy and stupider by the day because of technology humans wast most of they're lives on technology than the outdoors."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The sentence is long and contains multiple grammatical errors, which aligns with the lower Trait scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by multiple essays but does not account for all scoring nuances."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "I thing working with a group of persone it will be super good, because the time going more faster, and also that fell more good working with a group, and because we can helpind of each other, and I thing we can make more friends when you work with a group, what happend whent you work alone you can be bored really faster or sometinh like that, and you goind super slow and you dont not what to do to make the time going super faster, you cant talk with not body and finished it faster, and you fell the time goin slow and you dont know what to do to make the time going faster, and for example when you are working with a group of people you fell good, beacuse when you dont know something they can helpind you with the ting that you dont know, and thats how you can make a idea of how to doing it new time, and also if you work like that you can finished it super faster, lest suport that I working with a group of 4 persone each one have to do one part of the proyect that we doing it and explaint one part of the proyect but if one of us forget something we can help explait it, what happend if I work by my self on the presentation I have to reading and explaint everything not body can helping me with the presentacion or when I dont undestand something, a presentation have to be with a lot of anwer and explait much, thats why I thing is bettler work with a group of people."
+      ],
+      "observable_feature": "The text contains numerous grammatical errors, limited vocabulary, and repetitive phrases.",
+      "evaluative_interpretation": "The text demonstrates limited proficiency in language use, consistent with a lower score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text shows frequent errors in grammar and usage, limited vocabulary, and repetitive phrases, which align with the rubric for a score of [MASK].",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates limited proficiency in language use, with frequent grammatical errors, limited vocabulary, and repetitive phrases. This is consistent with the observed scores and the pattern seen in the history essays where similar features receive lower scores.",
+  "insufficient_evidence": []
+}

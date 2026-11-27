@@ -1,0 +1,64 @@
+{
+  "raw_rows": 8890,
+  "wide_rows": 17780,
+  "valid_records": 17731,
+  "raters": 27,
+  "raw_columns": [
+    "Filename",
+    "text_id_kaggle",
+    "Text",
+    "Rater_1",
+    "Overall_1",
+    "Cohesion_1",
+    "Syntax_1",
+    "Vocabulary_1",
+    "Phraseology_1",
+    "Grammar_1",
+    "Conventions_1",
+    "Identifying_Info_1",
+    "Rater_2",
+    "Overall_2",
+    "Cohesion_2",
+    "Syntax_2",
+    "Vocabulary_2",
+    "Phraseology_2",
+    "Grammar_2",
+    "Conventions_2",
+    "Identifying_Info_2"
+  ],
+  "raw_wide_equal": true,
+  "valid_definition": "Nonempty original text, rater, integer Overall + all six Traits in 1..5",
+  "identity_definition": "Connected components of exact Filename, nonempty kaggle ID, whitespace-normalized text SHA256",
+  "history_counts": [
+    {
+      "rater_id": "rater_12",
+      "valid_distinct_other_essays": 1218,
+      "selected": 20
+    },
+    {
+      "rater_id": "rater_13",
+      "valid_distinct_other_essays": 887,
+      "selected": 20
+    },
+    {
+      "rater_id": "rater_10",
+      "valid_distinct_other_essays": 779,
+      "selected": 20
+    },
+    {
+      "rater_id": "rater_11",
+      "valid_distinct_other_essays": 1365,
+      "selected": 20
+    },
+    {
+      "rater_id": "rater_2",
+      "valid_distinct_other_essays": 1599,
+      "selected": 20
+    },
+    {
+      "rater_id": "rater_7",
+      "valid_distinct_other_essays": 1210,
+      "selected": 20
+    }
+  ]
+}

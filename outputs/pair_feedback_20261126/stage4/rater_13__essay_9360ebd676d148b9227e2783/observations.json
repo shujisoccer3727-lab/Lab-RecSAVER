@@ -1,0 +1,21 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S1",
+      "S2"
+    ],
+    "feature": "The essay begins with a clear statement about the importance of listening to older individuals sharing wisdom, followed by a sentence that explains why this is important.",
+    "scoring_relevance": "This feature demonstrates cohesion by providing a logical flow from the initial statement to the explanation, which helps maintain the reader's understanding and engagement.",
+    "limitation": "This observation does not establish the overall coherence of the essay, only the local coherence between these two sentences.",
+    "next_check": "Review the transitions between other paragraphs to ensure they maintain a similar level of logical flow and coherence.",
+    "quotes": [
+      "If someone old or your older sibling is sharing wisdom with you stop what your doing and listen, because most of the time the person, he or she, is trying to tell you whats going to happen if you hit a certain age.",
+      " Its important to know something new, and because they experienced it they will know what to expect."
+    ],
+    "observation_key": "essay_9360ebd676d148b9227e2783::O1",
+    "target_essay_id": "essay_9360ebd676d148b9227e2783",
+    "observed_score": 3
+  }
+]

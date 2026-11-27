@@ -1,0 +1,158 @@
+{
+  "changes": [
+    {
+      "path": "/target_evidence/0/evaluative_interpretation",
+      "before": "The essay demonstrates a level of proficiency that is consistent with a score of 2, as it shows more errors and less coherence than the essays in the history that received a score of 3.",
+      "after": "The essay demonstrates a level of proficiency that is consistent with a score of [MASK], as it shows more errors and less coherence than the essays in the history that received a score of [MASK].",
+      "value_spans": [
+        {
+          "start": 81,
+          "end": 82,
+          "value": "2",
+          "replacement": "[MASK]"
+        },
+        {
+          "start": 183,
+          "end": 184,
+          "value": "3",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/0/rubric_connection",
+      "before": "The text shows occasional errors in grammar and syntax, limited vocabulary, and some repetition, which aligns with the rubric for a score of 2.",
+      "after": "The text shows occasional errors in grammar and syntax, limited vocabulary, and some repetition, which aligns with the rubric for a score of [MASK].",
+      "value_spans": [
+        {
+          "start": 141,
+          "end": 142,
+          "value": "2",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/target_evidence/0/uncertainty",
+      "before": "The essay's coherence and vocabulary range are somewhat underdeveloped, but the level of errors is not as pervasive as the rubric for a score of 1.",
+      "after": "The essay's coherence and vocabulary range are somewhat underdeveloped, but the level of errors is not as pervasive as the rubric for a score of [MASK].",
+      "value_spans": [
+        {
+          "start": 145,
+          "end": 146,
+          "value": "1",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/decision_explanation",
+      "before": "The essay's limited vocabulary, occasional grammatical errors, and some repetition align with the rater's pattern of scoring essays with similar features around 2 or 3. The observed score of 2 is consistent with the rater's history of scoring essays with more errors and less coherence lower.",
+      "after": "The essay's limited vocabulary, occasional grammatical errors, and some repetition align with the rater's pattern of scoring essays with similar features around 2 or 3. The observed score of [MASK] is consistent with the rater's history of scoring essays with more errors and less coherence lower.",
+      "value_spans": [
+        {
+          "start": 191,
+          "end": 192,
+          "value": "2",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 5,
+  "changed_fields": 4,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/status",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/pattern",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/1/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/1/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/1/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/limitations/0",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    }
+  ],
+  "quarantine": [],
+  "automatic_pass": true,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

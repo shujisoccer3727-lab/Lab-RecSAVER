@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with occasional language inaccuracies and some errors in grammar and syntax receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_926396d210817c7d960bd53a",
+          "quotes": [
+            "It simple, forgiving and doesnt take skills doesn't take time in the schedule and more Students will likely to pass the classes and both elective and art have the same principle with the same accomplishment."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay shows occasional language inaccuracies and some errors in grammar and syntax, consistent with an Overall score of 2."
+        },
+        {
+          "history_essay_id": "essay_b1cca193002635ed61a412bb",
+          "quotes": [
+            "Cell phones are powerful electronic tools for students to use in classroom. Cell phones are now the most popular device that we can take with us wherever we go because it provide useful information such as news and climate."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 2,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay shows occasional language inaccuracies and some errors in grammar and syntax, consistent with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Technology has positive effects on people's lives because they can help you with many information that your trying to look up for example if your trying to shop, play games, or even buy or read books."
+      ],
+      "observable_feature": "The sentence contains occasional language inaccuracies and some errors in grammar and syntax.",
+      "evaluative_interpretation": "This feature is consistent with an Overall score of [MASK], as it shows occasional language inaccuracies and some errors in grammar and syntax.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Overall score [MASK] indicates occasional language inaccuracies and some errors in grammar and syntax.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay shows occasional language inaccuracies and some errors in grammar and syntax, consistent with the observed Overall score of [MASK]. This is supported by the historical pattern observed in the rater's scoring of similar essays.",
+  "insufficient_evidence": []
+}

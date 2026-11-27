@@ -1,0 +1,69 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax"
+      ],
+      "pattern": "Essays with occasional errors in cohesion and syntax receive an Overall score of 4.",
+      "support": [
+        {
+          "history_essay_id": "essay_638225bbf7d533f35bc564dd",
+          "quotes": [
+            "\"Your character will be what you yourself choose to make it.\" I strongly disagree because we are influnced by the people we hang out with."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 4
+            }
+          },
+          "interpretation": "The essay shows occasional errors in cohesion and syntax, consistent with an Overall score of 4."
+        },
+        {
+          "history_essay_id": "essay_a1529bcd15e8ea2f608c49ef",
+          "quotes": [
+            "\"Mom what time is it\", said my brother"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3
+            }
+          },
+          "interpretation": "The essay demonstrates occasional errors in cohesion and syntax, consistent with an Overall score of 4."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax"
+      ],
+      "quotes": [
+        "Do you think failure lead you to do better? In this paper i will argue about never losing enthusiasm by falling and falling."
+      ],
+      "observable_feature": "The essay begins with a question and a statement that lacks clear connection, indicating occasional errors in cohesion and syntax.",
+      "evaluative_interpretation": "The lack of clear connection between the opening question and the subsequent statement suggests occasional errors in cohesion and syntax, consistent with a score of 3 in these dimensions.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Cohesion and Syntax at level 3 indicates occasional errors and limited range, which aligns with the observed features.",
+      "uncertainty": "The broader essay organization is not fully assessed here."
+    }
+  ],
+  "decision_explanation": "The target essay shows occasional errors in cohesion and syntax, similar to the history essays with Overall scores of 4. The observed scores of 3 in Cohesion and Syntax align with the pattern observed in the history.",
+  "insufficient_evidence": []
+}

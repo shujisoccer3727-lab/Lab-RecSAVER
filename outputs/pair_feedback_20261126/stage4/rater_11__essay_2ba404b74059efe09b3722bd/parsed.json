@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_2ba404b74059efe09b3722bd",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S7",
+        "S13"
+      ],
+      "feature": "The essay begins with a clear introduction (S1) and transitions to the first main point (S7) and the second main point (S13), each starting a new paragraph.",
+      "scoring_relevance": "This feature is relevant to the Cohesion dimension as it shows the writer's ability to structure the essay with clear transitions between main ideas, which helps in maintaining a coherent flow.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the presence of clear transitions between main points.",
+      "next_check": "Review the transitions between the paragraphs and within each paragraph to check for consistency and clarity in the flow of ideas."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S4"
+      ],
+      "feature": "The sentence in span S4 contains a grammatical error: 'you cant just go up to your teacher and tell them \"give me a pencil\" you should tell them \"may I please have a pencil\".' The use of 'cant' instead of 'can't' is a nonstandard verb form.",
+      "scoring_relevance": "This feature is relevant to the Grammar dimension as it highlights a specific grammatical error that affects the clarity and correctness of the sentence.",
+      "limitation": "This observation only identifies one instance of a grammatical error and does not establish the frequency or impact of such errors throughout the essay.",
+      "next_check": "Review other sentences in the essay for similar grammatical errors, particularly the use of contractions and verb forms."
+    }
+  ],
+  "insufficient_evidence": []
+}

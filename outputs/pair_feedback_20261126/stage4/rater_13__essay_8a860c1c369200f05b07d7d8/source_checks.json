@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S2",
+          "paragraph_id": "P2",
+          "start": 48,
+          "end": 105,
+          "text": "It's a bad idea to said that first impressions are almost"
+        },
+        {
+          "span_id": "S3",
+          "paragraph_id": "P3",
+          "start": 109,
+          "end": 130,
+          "text": "impossible to change."
+        }
+      ],
+      "reconstructed_quotes": [
+        "It's a bad idea to said that first impressions are almost",
+        "impossible to change."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S2",
+        "S3"
+      ],
+      "feature": "The sentence 'It's a bad idea to said that first impressions are almost impossible to change.' contains a nonstandard verb form 'to said' instead of 'to say'.",
+      "scoring_relevance": "The presence of nonstandard verb forms can affect the clarity and correctness of the writing, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation does not establish the frequency of such errors throughout the essay or their overall impact on the essay's coherence.",
+      "next_check": "Review other sentences for similar verb form errors to assess the consistency of grammar usage.",
+      "quotes": [
+        "It's a bad idea to said that first impressions are almost",
+        "impossible to change."
+      ]
+    }
+  ]
+}

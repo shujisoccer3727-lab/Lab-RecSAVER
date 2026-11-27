@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.5",
+  "rater_id": "rater_7",
+  "pattern_status": "insufficient_evidence",
+  "pattern": null,
+  "pattern_limit": "The provided observations do not show a consistent pattern of feature-to-evaluation relationship across multiple essays.",
+  "representative_observation_key": "essay_10bde717c719b4cc15923b78::O1",
+  "quote_indices": [0, 1],
+  "textual_finding": "The essay begins with a quote from Ralph Waldo Emerson and then provides a personal interpretation of the quote's meaning.",
+  "evidence_limit": "This observation does not establish the overall coherence of the essay, only the initial connection between the quote and the writer's interpretation.",
+  "rubric_review": {
+    "observed_band_ref_id": "Cohesion:2",
+    "comparison_band_ref_id": null,
+    "band_assessment": "indeterminate"
+  },
+  "next_check": {
+    "inspect": "Review the transitions between paragraphs to see if the writer maintains the connection to the initial quote throughout the essay.",
+    "distinguish": "Check if the writer's interpretation of the quote is maintained and developed throughout the essay.",
+    "reconsider_if": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 141,
+          "text": "The most enjoyable way to spend time outdoors is to hanging out with friends,spend time with family, and do fun activities or games outdoors."
+        }
+      ],
+      "reconstructed_quotes": [
+        "The most enjoyable way to spend time outdoors is to hanging out with friends,spend time with family, and do fun activities or games outdoors."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S1"
+      ],
+      "feature": "The sentence contains a grammatical error: 'The most enjoyable way to spend time outdoors is to hanging out with friends, spend time with family, and do fun activities or games outdoors.' The verb 'hanging' should be 'hang' to maintain grammatical correctness.",
+      "scoring_relevance": "This grammatical error affects the clarity and correctness of the sentence, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation is limited to a single sentence and does not provide a comprehensive view of the essay's grammatical accuracy.",
+      "next_check": "Review other sentences in the essay for similar grammatical errors, particularly with verb forms.",
+      "quotes": [
+        "The most enjoyable way to spend time outdoors is to hanging out with friends,spend time with family, and do fun activities or games outdoors."
+      ]
+    }
+  ]
+}

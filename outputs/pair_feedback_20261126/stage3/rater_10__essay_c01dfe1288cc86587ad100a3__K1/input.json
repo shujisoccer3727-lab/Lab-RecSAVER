@@ -1,0 +1,225 @@
+{
+  "rater_id": "rater_10",
+  "rubric": {
+    "title": "English Proficiency Scoring Rubric for English Language Learners",
+    "source_file": "ELL_Rubrics (1).docx",
+    "structure": {
+      "holistic": [
+        "Overall"
+      ],
+      "analytic": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ]
+    },
+    "scores": {
+      "5": {
+        "Overall": "Native-like facility in the use of language with syntactic variety, Appropriate word choice and phrases; well-controlled text organization; precise use of grammar and conventions; rare language inaccuracies that do not impede communication.",
+        "Cohesion": "Text organization consistently well controlled using a variety of effective linguistic features such as reference and transitional words and phrases to connect ideas across sentences and paragraphs; appropriate overlap of ideas.",
+        "Syntax": "Flexible and effective use of a full range of syntactic structures including simple, compound, and complex sentences; There may be rare minor and negligible errors in sentence formation.",
+        "Vocabulary": "Wide range of vocabulary flexibly and effectively used to convey precise meanings; skillful use of topic-related terms and less common words; rare negligible inaccuracies in word use.",
+        "Phraseology": "Flexible and effective use of a variety of phrases, such as idioms, collocations, and lexical bundles, to convey precise and subtle meanings; rare minor inaccuracies that are negligible.",
+        "Grammar": "Command of grammar and usage with few or no errors.",
+        "Conventions": "Consistent use of appropriate conventions to convey meaning; spelling, capitalization, and punctuation errors nonexistent or negligible."
+      },
+      "4": {
+        "Overall": "Facility in the use of language with syntactic variety and range of words and phrases; controlled organization; accuracy in grammar and conventions; occasional language inaccuracies that rarely impede communication.",
+        "Cohesion": "Organization generally well controlled; a range of cohesive devices used appropriately such as reference and transitional words and phrases to connect ideas; generally appropriate overlap of ideas",
+        "Syntax": "Appropriate use of a variety of syntactic structures, such as simple, compound, and complex sentences; occasional errors or inappropriateness in sentence formation.",
+        "Vocabulary": "Sufficient range of vocabulary to allow flexibility and precision; appropriate use of topic-related terms and less common lexical items",
+        "Phraseology": "Appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles; occasional inaccuracies and colloquialisms.",
+        "Grammar": "Minimal errors in grammar and usage.",
+        "Conventions": "Generally consistent use of appropriate conventions to convey meaning; spelling, capitalizatio n, and punctuation errors few and not distracting."
+      },
+      "3": {
+        "Overall": "Facility limited to the use of common structures and generic vocabulary; organization generally controlled although connection sometimes absent or unsuccessful; errors in grammar and syntax and usage. Communication is impeded by language inaccuracies in some cases.",
+        "Cohesion": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+        "Syntax": "Simple, compound, and complex syntactic structures present although the range may be limited; some apparent errors in sentence formation, especially in more complex sentences.",
+        "Vocabulary": "Minimally adequate range of vocabulary for the topic; no precise use of subtle word meanings; topic related terms only used occasionally; attempts to use less common vocabulary but with some inaccuracy",
+        "Phraseology": "Evident use of phrases such as idioms, collocations, and lexical bundles but without much variety; some noticeable repetitions and misuses.",
+        "Grammar": "Some errors in grammar and usage.",
+        "Conventions": "Developing use of conventions to convey meaning; errors in spelling, capitalization, and punctuation that are sometimes distracting."
+      },
+      "2": {
+        "Overall": "Inconsistent facility in sentence formation, word choice, and mechanics; organization partially developed but may be missing or unsuccessful. Communication impeded in many instances by language inaccuracies.",
+        "Cohesion": "Organization only partially developed with a lack of logical sequencing of ideas; some basic cohesive devices used but with inaccuracy or repetition.",
+        "Syntax": "Some sentence variation used; many sentence structure problems.",
+        "Vocabulary": "Narrow range of vocabulary to convey basic and elementary meaning; topic related terms used inappropri ately; errors in word formation and word choice that may distort meanings",
+        "Phraseology": "Narrow range of phrases, such as collocations and lexical bundles, used to convey basic and elementary meaning; many repetitions and /or misuses of phrases.",
+        "Grammar": "Many errors in grammar and usage.",
+        "Conventions": "Variable use of conventions; spelling, capitalization, and punctuation errors frequent and distracting."
+      },
+      "1": {
+        "Overall": "A limited range of familiar words or phrases loosely strung together; frequent errors in grammar (including syntax) and usage. Communication impeded in most cases by language inaccuracies.",
+        "Cohesion": "No clear control of organization; cohesive devices not present or unsuccessfully used; presentation of ideas unclear.",
+        "Syntax": "Pervasive and basic errors in sentence structure and word order that cause confusion; basic sentences errors common.",
+        "Vocabulary": "Limited vocabulary often inappropriately used; limited control of word choice and word forms; little attempt to use topic-related terms",
+        "Phraseology": "Memorized chunks of language, or simple phrasal patterns predominate; many repetitions and misuses of phrases.",
+        "Grammar": "Errors in grammar and usage throughout.",
+        "Conventions": "Minimal use of conventions; spelling, capitalizatio n, and punctuation errors throughout."
+      }
+    },
+    "key_terms_and_definitions": {
+      "Phrase": "Multiple word units",
+      "Grammar": "The rules by which words change their forms, including the use of word classes and grammatical morphology in English. Word classes include prepositions, pronouns, nouns, verbs, etc… Grammatical morphology includes third person, plural, possessive, etc…",
+      "Syntax": "Structuring sentences according to syntactic rules related to coordinating clauses, developing syntactic phrases (noun, verb, preposition phrases), phrasal and clausal dependency, and transformations such as passives, relative clauses, and negations.",
+      "Cohesive device": "Cohesive devices are used as links between two or more items (e.g., words, phrases, clauses) in a text to enhance text cohesion. These include the use of conjunctions (and, but, if, on the other hand), transitions (first, next, finally, for example), repetition of words, phrases, and ideas across sentences and paragraphs, and the use of anaphor (pronouns replacing nouns).",
+      "Simple, complex, and compound sentences": {
+        "Simple": "Independent clause",
+        "Complex": "Independent and dependent clauses",
+        "Compound": "Two of more independent clauses"
+      },
+      "Chunks": "Multiple words that combine to have a single meaning. Often memorized without knowing what the individual words mean (e.g., “How are you” for “Hello”)",
+      "Lexical bundles": "Multiple word units that are common in English but are not idiomatic (“There is”). More common than collocations",
+      "Collocations": "Two or more words that are often used together (e.g., save time, go to bed, fast food)",
+      "Idioms": "multi-word unit where meaning not deducible from those of the individual words (kick the bucket, rain cats and dogs)"
+    },
+    "notes": [
+      "Wording is preserved from the source DOCX; only whitespace/layout line breaks were normalized."
+    ]
+  },
+  "score_specification": {
+    "valid_overall_values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "valid_trait_values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "dimension_names": [
+      "Overall",
+      "Cohesion",
+      "Syntax",
+      "Vocabulary",
+      "Phraseology",
+      "Grammar",
+      "Conventions"
+    ],
+    "increment": 1,
+    "relationship": "Overall is the human holistic language proficiency judgment; no arithmetic or weighted relationship with Traits is defined."
+  },
+  "history": [
+    {
+      "essay_id": "essay_080335221a43c8077549c0de",
+      "text": "Some people may believe that true self-esteem comes from praising while others believe that it comes from achievement.The reality is that true self-esteem comes from both praising and achievement.Reason number one is that they try their best but don't get what they want or what they expect to get on their test.The other reason is that they get rewarded with certificates and trophies.While either reason one or two happens their parents are always supporting them or not supporting them.\r\n\r\nSome students may try their best but not get what they want or what they expect on their test.Most of the parents will encourage them to try harder which means that the students self-esteem will go higher.While the other parents of the students don't encourage them but get mad at them which would lower the students self-esteem.The point of this topic is to tell parents to encourage their children so that they will try their best to pass to get good grades.So that they can achieve what they want and get to where they want to be.With out their parents involvement they might end up in bad stuff like drugs and going to prison.Which no parent would want for their children to go to prison or end up in drugs.\r\n\r\nAnother reason that self-esteem comes from both praising and achievement is that they get rewarded with certificates and trophies.Which means that they are doing better than before because of their parents help or their parents involvement.Or that their parents were involved since the start of the school year.This means that parents encouraging their children to do better is a good idea an even better idea if they help their children with stuff they don't understand.Parents are the key to helping their children out with the classes that are hard for them and with their future.This means that the students self-esteem is higher because of their parents.\r\n\r\nSome may say that true self-esteem comes from praising while others may say that it comes from achievement.The fact remains that true self-esteem comes from both praising and achievement.One reason is that they don't get what they want or expect on a test but,their parents are encouraging them to do their best and supporting them to keep trying.The other reason is that they get rewarded with certificates and trophies.How is it that true self-esteem comes from praising and achievement? Well with parents and teachers support they can do their best and try their best.\r\n\r\nSome people may say that true self-esteem comes from praising while others may say that it comes from achievement.Some reasons for what some people may believe are.The fact that they don't get what they want or expect to get on a test.Also,that they get rewarded with certificates and trophies.This is why true self-esteem comes from both praising and achievement.                                      ",
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 4,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 4,
+        "Conventions": 4
+      }
+    },
+    {
+      "essay_id": "essay_b819379406aa9abe86991ac7",
+      "text": "Technology has positive effects on people's lives because they can help you with many information that your trying to look up for example if your trying to shop, play games, or even buy or read books. They help you do a lot when you really need it. Technology is not for only buying or doing any other things it's for doing projects in class or a if your doing your homework, applying for jobs, and applying for college. Here are my 3 reasons why technology is positive for people's lives.\r\n\r\nFirst, let's say that you want to go to college but you can't go to the college because you don't have time or maybe that you just can't go. What you can do is that you can go on your laptop and go to the website and apply there and you can take your time on it and not have to worry about going there. You can apply to many collleges online and that is really great so you can get accepted to many colleges out in other countries or states. When my brother was in 12th grade he wanted to go personaly to the colleges but he said some of them were too far and that he didnt want to go because he needed to do something really important and so what he did was that he went online and started applying for 5 colleges and he got accepted to 4 of them. He said it was not even hard. Having to fill papers with people takes up so much time that you will be there the whole day instead of you doing it online at home and not having to rush up anything and if you mess up the laptop tells you that there is something that you typed up is wrong.\r\n\r\nSecond, If you don't feel like going to the store because your just tired and you just don't want to go out but you need some clothes for that night and you don't have any then what you can do is go online and start shopping there and buy everything you need for that night and you will be fine with out the need of going to the mall or going to any other store. At the same time even tho your not going out if you shop online there is a posibility that your clothes that you ordered does not fit you or it might not come on time when you really need it. The process of returing it and everythig is just too much. That's why people prefer that it's better to go to the store and just buy it from there. If that was me I would prefer to go to the mall or the store to. When you go to the stores sometimes you have to handle some workers that are aggressive and they have a bad attitude. I don't like seeing people with bad attitude it makes me mad and it always makes me just go away and not look at them anymore.\r\n\r\nThird, In school sometimes you have projects and you have class work but you can't find information about your research or anything about your topic or about your class work then you have to find information online. When you ask your teachers what they would say is that go on your laptop and look it up and then go ask your classmates if you can't find anything. For my US VA History project are teachers gave us many different websites that we can use and they were very helpful I got all my information from there. I didn't even have to go ask him for help or anything. Also when you have test it's mostly technology because you don't really have test on paper anymore now it's on laptops and you don't have to write anything now it's only typed it is really easy and fast. Even essays it used to be essays on paper and now it's essays in laptops.\r\n\r\nIn conclusion, These were my 3 main reasons why technology has a positive effect on people's lives.There can be many positive effects on technology but theses 3 were mostly about how technology is even tho you do not interact with other humans face-to-face it is good doing online things. There are better chances that you get many things done and also you get the chance to have some time off of looking and talking to people. If I were to ask many people which side they prefer they would choose the positive effect side. \"It's better technology instead of talking to people\".",
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 2
+      }
+    },
+    {
+      "essay_id": "essay_00808a491692a94c9fa33b54",
+      "text": "The goal is graduated high school in three years instead of four years. Imagine youA,A'd have to stay at school after 2:30 pm to take extra subjects instead of doing any activities, or joining clubs. Imagine youA,A'd spend all the time in high school, just for studying, and doing homework. And do think it is actually good for student ?. ThatA,A's not good for student to finish high school in three years and enter college or the work force on year early.\r\n\r\nFirstly, every person is aware, that high school is a memorable time. StudentsA,A're not only going to school for learning, theyA,A're also going to school to have fun, make friends, and enjoy the time in high school. Eventhough adults, they wish;A,A\" They could go back to high school, and enjoy it one more time. So how could students enjoy high school time, if you force yourself to study all the time. Because of graduating one year early ?\r\n\r\nSecondly, the goal is graduated high school in three years. It sounds easy, but itA,A's not. There is no short way to reach the gate of success. WeA,A're all known to graduate you have to pass twenty-two\r\n\r\nclasses.Some of high school requires students to take credits from elective courses to graduate. Unfortunately, if youA,A're going for three years in high school, You have to get ready for the large number of works. The amount of homework is increasing, and the amount of time you have for yourself is decreasing. Additionally you have to take it over summer. I do not think;A,A\" StudentsA,A're not going to be stressed after thatA,A\"!\r\n\r\nThirdly, we have to know the definition of the wordA,A\" LearnA,A\". Learn is, we understand the lessons, a questions, or problems by working, practicing, and getting used to it over time. However studentsA,A're taking too many maths, sciences, or history in the same time, theyA,A're studying, not learning. TheyA,A're trying to pass the class to get credit. So how could students learn with ten hours at school, and the rest of time is doing homework at home. That is no point to graduate one year early.\r\n\r\nAfter all of that, The idea for students to finish high school in three years and enter college or the work force on year early is not good. The memorable time of high school should not be wasted. Do things for yourself, donA,A't let anybody force you. ItA,A's very stressful to graduate high school in three years. And the most important thing is learning natural, let the knowledge flows into your brain, and donA,A't rush it. Be a regular high school students, and enjoy the memorable time.",
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    }
+  ],
+  "target": {
+    "essay_id": "essay_c01dfe1288cc86587ad100a3",
+    "text": "I desagree for a reason we can speak their opinions, but sometime we can get trauble with their words can they said?\r\n\r\nPeople always said anything about any arguments, but the most opinions can they said are problem, because sometime people speak bad things their opinions they can said are not supported for other for reason can have bad impressions with the community. Sometime people can share your opinions becuase is good idea about a argument, the most important everyone had to support your opinios, if they are agree with you, but if they are desagree we have to change your mine in your head becuse if you said you can not change your opinions is impossible to create a new one also we need to enfocused to speak clear with other can supported your impression.\r\n\r\nI can have problem with any words can i need to said, but is not supported with other, becuase sometime, we speak bad things or we can said bad words people are can get\r\n\r\nangry in this situation, but sometime i need to speak if is a good time to said any argument can i think. I have to do it for any reason becuase if a scared to tell my opinions or share my tesist but i don't have idea if is good idea or bad idea an i silence\r\n\r\nother person can said my opinion him can have all credit because is not scared to tell and people are agree with him.\r\n\r\nI desagree for a reason we can speak their opinions, but sometime we can get problems with their words can they said, because we have to secure to any thinking or impressions, also you can help other person is the arguments are similar they can share their opinions because they are agree each other, something people can angry, desagree, search for fithing because people talking bad things or disgusted for any bad impressions or arguments because we have the opportunity to speak most of the people are disagree with you in this situation they lost a control and we started to say bad things and you are almost imposible to change.\r\n\r\nIn my future i need to speak clearly can get a good impression and people can speak\r\n\r\ngood things about me, but i have thinking also perfect becuase if i say something bad i lost my opportunity to cause good impressions in the society that is why, but if i'm do something bad\r\n\r\nand can i have problem to change i will be have to problem to change becuase i need to enfocused to get good impression.\r\n\r\nMy conclusion is we always have to cause good impression becuse is really good for thier life and you never scared about other opinions, but you have to thinking perfect becuase whent you ready said something can you will need to change because is really bad idea always we have to opportunity to cuase good impressions also only you need to enfocunsed went is time to tell the firts impression and don't be scared."
+  },
+  "reference_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax"
+        ],
+        "pattern": "Essays with generally controlled organization and occasional errors in sentence formation tend to receive a score of 3 for Overall.",
+        "support": [
+          {
+            "history_essay_id": "essay_080335221a43c8077549c0de",
+            "quotes": [
+              "\"Some people may believe that true self-esteem comes from praising while others believe that it comes from achievement. The reality is that true self-esteem comes from both praising and achievement.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4
+              }
+            },
+            "interpretation": "The essay demonstrates a generally controlled organization with occasional errors in sentence formation, consistent with a score of 3 for Overall."
+          },
+          {
+            "history_essay_id": "essay_00808a491692a94c9fa33b54",
+            "quotes": [
+              "\"The goal is graduated high school in three years instead of four years. Imagine youA,A'd have to stay at school after 2:30 pm to take extra subjects instead of doing any activities, or joining clubs.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3
+              }
+            },
+            "interpretation": "The essay shows a generally controlled organization with occasional errors in sentence formation, consistent with a score of 3 for Overall."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is supported by two essays, but more data would strengthen the interpretation."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax"
+        ],
+        "quotes": [
+          "\"People always said anything about any arguments, but the most opinions can they said are problem, because sometime people speak bad things their opinions they can said are not supported for other for reason can have bad impressions with the community.\""
+        ],
+        "observable_feature": "The essay demonstrates a generally controlled organization with occasional errors in sentence formation.",
+        "evaluative_interpretation": "This feature is consistent with a score of [MASK] for Overall, as it shows a generally controlled organization but with some errors in sentence formation.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The text organization is generally well-controlled, but there are occasional errors in sentence formation, which aligns with the rubric description for a score of [MASK].",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a generally controlled organization with occasional errors in sentence formation, consistent with the pattern observed in the history essays. This supports a score of [MASK] for Overall.",
+    "insufficient_evidence": []
+  }
+}

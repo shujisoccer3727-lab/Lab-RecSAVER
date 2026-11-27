@@ -1,0 +1,92 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with occasional language inaccuracies and some structural issues receive a score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_49235c74962f7281d4b2919a",
+          "quotes": [
+            "Self-reliance is the trust that you put in yourself believing that what you are doing is right."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and occasional errors, consistent with a score of 3."
+        },
+        {
+          "history_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+          "quotes": [
+            "To graduate in three years is not imposible when you have the time and the bocation to do it."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay shows controlled organization and occasional errors, consistent with a score of 3."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_7e0742469e97fef28d84a8fc",
+          "quotes": [
+            "People will start to make fun of you, if you dont make your decision by yourself because if you are asking someone to help you or give some advice to help you make the decision, other people or even your own guidance or family people love to gossip every person gossip and this is true."
+          ],
+          "interpretation": "This essay has more frequent errors and less controlled organization, but still received a score of 3, suggesting leniency."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by two essays, but the third essay shows more leniency, indicating variability."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "the people in the society following information or take ideas guidance for experts, the peoples sopport the ideas of other like in the polytechinic, in the religion and society."
+      ],
+      "observable_feature": "The sentence structure is awkward and contains multiple errors.",
+      "evaluative_interpretation": "The sentence demonstrates limited control over syntax and vocabulary, with errors that impede communication.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text shows limited facility in sentence formation and word choice, with errors that impede communication, consistent with a score of [MASK].",
+      "uncertainty": "The essay's overall coherence is underdetermined by this single excerpt."
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates limited control over language, with frequent errors that impede communication, consistent with a score of [MASK]. This is supported by the rater's history of assigning a score of [MASK] to essays with occasional inaccuracies and some structural issues.",
+  "insufficient_evidence": []
+}

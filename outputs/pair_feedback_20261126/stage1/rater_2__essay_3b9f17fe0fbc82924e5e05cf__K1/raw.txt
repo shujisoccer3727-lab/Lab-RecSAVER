@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_2",
+  "target_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, and a sufficient range of vocabulary receive scores around 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_5e2874c333eea186ef113ea1",
+            "quotes": ["should your school follow this model by extending the school day two hours ?yes is a good idea for somepeople what need work after or before school because if you have work you need take 30 hours for two weeks miminum and them go to the school too in that same time"],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 2,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay shows a partially developed organization and frequent errors in sentence formation, consistent with a score of 2."
+          },
+          {
+            "history_essay_id": "essay_ed4cc867caedf008a4e62621",
+            "quotes": ["The principal reason why I want to go is for my family influences, my grandma has been dreaming about me been an actress. I remember going to the theater with her, telling me that her biggest dream is, one day, see me on one of those performances or shows."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay demonstrates generally controlled organization and a sufficient range of vocabulary, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_598724e5b862459ca01d3ff2",
+            "quotes": ["In this essay I will discuss as to why curfews could be a necessary law for teenagers."],
+            "interpretation": "This essay shows a well-controlled organization and a wider range of vocabulary, which contrasts with the pattern of essays scoring around 3."
+          }
+        ],
+        "limitations": ["The pattern is supported by two essays, but the third essay shows a higher score despite similar features."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate."],
+        "observable_feature": "The essay demonstrates generally controlled organization, occasional errors in sentence formation, and a sufficient range of vocabulary.",
+        "evaluative_interpretation": "This feature is consistent with a score of 3, as it shows a generally controlled organization and a sufficient range of vocabulary, but with occasional errors in sentence formation.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay aligns with the rubric for a score of 3, showing generally controlled organization, occasional errors in sentence formation, and a sufficient range of vocabulary.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates generally controlled organization, occasional errors in sentence formation, and a sufficient range of vocabulary, consistent with a score of 3. This is supported by the historical pattern observed in essays with similar features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The essay's generally controlled organization, occasional errors in sentence formation, and sufficient range of vocabulary align with the observed Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally controlled organization, consistent with a score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows occasional errors in sentence formation, consistent with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary, but the observed score of 4 suggests a wider range than observed."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows occasional inaccuracies in phraseology, consistent with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates some errors in grammar, consistent with a score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows developing use of conventions, with frequent and distracting errors, consistent with a score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The observed Vocabulary score of 4 is higher than the evidence suggests."]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_926396d210817c7d960bd53a",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with frequent errors in sentence structure, word order, and punctuation receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_b819379406aa9abe86991ac7",
+            "quotes": [
+              "\"Technology has positive effects on people's lives because they can help you with many information that your trying to look up for example if your trying to shop, play games, or even buy or read books.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Grammar": 3,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay contains frequent errors in sentence structure and word order, which aligns with the lower scores."
+          },
+          {
+            "history_essay_id": "essay_9ac1f84a77b92c702fe842e5",
+            "quotes": [
+              "\"Some school offer programs that allow high school students to graduate in tree years instead traditional four years.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 2,
+                "Vocabulary": 2,
+                "Phraseology": 2,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay contains numerous errors in sentence structure, word order, and punctuation, which aligns with the lower scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is supported by two essays, but more data would strengthen the interpretation."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "\"It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the schedule and more Students will likely to pass the classes and both elective and art have the same principle with the same accomplishment.\""
+        ],
+        "observable_feature": "The sentence structure is inconsistent, with run-on sentences and missing punctuation.",
+        "evaluative_interpretation": "This feature aligns with the lower scores observed, as it shows a lack of control over sentence structure and punctuation.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for lower scores indicates frequent errors in sentence structure and word order, which is evident in the target essay.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay exhibits frequent errors in sentence structure and punctuation, consistent with the lower scores observed. This aligns with the pattern observed in the history essays, where similar features receive lower scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The target essay's frequent errors in sentence structure, word order, and punctuation align with the observed Overall score of 2. The Trait scores are consistent with the rubric for lower proficiency levels.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows limited control over text organization and cohesive devices, consistent with the observed score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay contains many sentence structure problems, consistent with the observed score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary, consistent with the observed score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay shows some use of phrases but with limited variety, consistent with the observed score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay contains many errors in grammar and usage, consistent with the observed score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay has frequent and distracting errors in spelling, capitalization, and punctuation, consistent with the observed score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S4",
+          "paragraph_id": "P1",
+          "start": 149,
+          "end": 227,
+          "text": "Some people doesnA,A't like to go home because they got nothing to do at home."
+        }
+      ],
+      "reconstructed_quotes": [
+        "Some people doesnA,A't like to go home because they got nothing to do at home."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S4"
+      ],
+      "feature": "The sentence contains a nonstandard contraction 'donA,A't' instead of 'don't'.",
+      "scoring_relevance": "The presence of nonstandard contractions can affect the clarity and correctness of the writing, which is relevant to the Grammar dimension.",
+      "limitation": "This single instance does not establish a pattern of grammatical errors throughout the essay.",
+      "next_check": "Review other sentences for similar contractions or grammatical errors.",
+      "quotes": [
+        "Some people doesnA,A't like to go home because they got nothing to do at home."
+      ]
+    }
+  ]
+}

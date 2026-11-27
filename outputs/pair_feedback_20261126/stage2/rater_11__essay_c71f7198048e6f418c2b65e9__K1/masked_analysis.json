@@ -1,0 +1,62 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion"
+      ],
+      "pattern": "Essays with limited cohesive devices receive a Cohesion score of 2.",
+      "support": [
+        {
+          "history_essay_id": "essay_865e64957ba87e7d8562c06b",
+          "quotes": [
+            "Outdoor activities are enjoyable for everyone people can play outside with they're friends and get a chance to meet some new friends."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2
+            }
+          },
+          "interpretation": "The lack of cohesive devices and the repetitive structure support a Cohesion score of 2."
+        },
+        {
+          "history_essay_id": "essay_7931f3c00f789a5697a5b58d",
+          "quotes": [
+            "I think you should seek guidance from those that have been through this experience before you for a ever long time."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2
+            }
+          },
+          "interpretation": "The repetitive structure and lack of cohesive devices support a Cohesion score of 2."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion"
+      ],
+      "quotes": [
+        "There are some food that is being served to the students that is not healthy at all."
+      ],
+      "observable_feature": "Limited use of cohesive devices and repetitive structure.",
+      "evaluative_interpretation": "The lack of cohesive devices and repetitive structure support a Cohesion score of [MASK].",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "Organization generally controlled; cohesive devices used but limited in type; Some repetitive, mechanical, or faulty use of cohesion use within and/or between sentences and paragraphs.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay's limited use of cohesive devices and repetitive structure align with the historical pattern observed in essays with a Cohesion score of [MASK]. This supports the observed Cohesion score of [MASK].",
+  "insufficient_evidence": []
+}

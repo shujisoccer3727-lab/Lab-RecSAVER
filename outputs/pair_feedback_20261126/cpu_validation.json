@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "check_count": 1996,
+  "regression_tests": 10,
+  "pair_stats": [
+    {
+      "pair_id": "pair_1",
+      "common": 278,
+      "gap3": 2,
+      "gap2": 13
+    },
+    {
+      "pair_id": "pair_2",
+      "common": 209,
+      "gap3": 2,
+      "gap2": 11
+    },
+    {
+      "pair_id": "pair_3",
+      "common": 439,
+      "gap3": 1,
+      "gap2": 11
+    }
+  ],
+  "invalid_records": 49,
+  "excluded_prior_smoke_reconstruction_ids": [
+    "rater_13__essay_3f4d5d459a296ccd2d5d0c8d__K1"
+  ],
+  "requests": 570,
+  "failures": []
+}

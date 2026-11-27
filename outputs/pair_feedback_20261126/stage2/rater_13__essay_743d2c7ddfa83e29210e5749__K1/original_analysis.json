@@ -1,0 +1,86 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a wide range of vocabulary and flexible use of phrases receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_8bd5008f795841fd07042ef2",
+          "quotes": [
+            "\"As a student myself, I think students would benefit from attending classes from home, because attending classes can help students manage their own time and learn how to self control, and can follow their own pace of learning.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 5,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 5,
+              "Vocabulary": 5,
+              "Phraseology": 5,
+              "Grammar": 5,
+              "Conventions": 5
+            }
+          },
+          "interpretation": "The essay demonstrates a wide range of vocabulary and flexible use of phrases, which aligns with the higher scores."
+        },
+        {
+          "history_essay_id": "essay_17116345036926ef7a1d51d2",
+          "quotes": [
+            "\"Imagination does not always bring good vibes to your mind. From all my life experiences and other people's life experiences, I learned that knowledge is more important than imagination. It's your reality, your understanding, and it makes you take good decisions to be someone very successful in life.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 5,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 5,
+              "Vocabulary": 5,
+              "Phraseology": 5,
+              "Grammar": 5,
+              "Conventions": 5
+            }
+          },
+          "interpretation": "The essay demonstrates a wide range of vocabulary and flexible use of phrases, which aligns with the higher scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"Do you have a positive attitude? If you do, are you enjoying your life? Today, many people living in U.S. and people has many attitude, and some peoples has good attitude that key to success in life, others has not good attitude.\""
+      ],
+      "observable_feature": "The essay demonstrates a limited range of vocabulary and repetitive use of phrases.",
+      "evaluative_interpretation": "The limited vocabulary and repetitive phrases suggest a score of 3, consistent with the observed Overall score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's limited vocabulary and repetitive phrases align with the rubric's description for a score of 3.",
+      "uncertainty": "The essay's use of some less common words and phrases suggests a higher score, but the overall pattern aligns with a score of 3."
+    }
+  ],
+  "decision_explanation": "The essay demonstrates a limited range of vocabulary and repetitive use of phrases, which aligns with the observed Overall score of 3. This is consistent with the pattern observed in the history where essays with a wide range of vocabulary and flexible use of phrases receive higher scores.",
+  "insufficient_evidence": []
+}

@@ -1,0 +1,63 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "pattern": "Essays with a wide range of vocabulary and effective use of cohesive devices tend to receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_bdeee4699532dec8dfaea224",
+          "quotes": [
+            "\"Your company is understandable to your employees. You treat them with respect and love as if they were your family.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Vocabulary": 4,
+              "Phraseology": 5
+            }
+          },
+          "interpretation": "The essay demonstrates a wide range of vocabulary and effective use of cohesive devices, which aligns with the higher scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_5c261ba25f1fd7836218065c",
+          "quotes": [
+            "\"The example is a good setting to influence other.\""
+          ],
+          "interpretation": "This essay lacks a wide range of vocabulary and cohesive devices, which aligns with its lower scores."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "quotes": [
+        "\"Being that I am enrolled in many classes that teach me most of what I'll need to know in the career I am pursuing, It'll maybe put me ahead of the pack wanting the same as I.\""
+      ],
+      "observable_feature": "The essay demonstrates a wide range of vocabulary and effective use of cohesive devices.",
+      "evaluative_interpretation": "This feature is consistent with higher scores in Cohesion, Vocabulary, and Phraseology.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows a wide range of vocabulary and effective use of cohesive devices, which aligns with the rubric criteria for higher scores.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates a wide range of vocabulary and effective use of cohesive devices, which aligns with the higher scores observed in the history. This is consistent with the observed Overall score of [MASK].",
+  "insufficient_evidence": []
+}

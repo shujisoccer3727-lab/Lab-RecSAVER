@@ -1,0 +1,90 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+          "quotes": [
+            "I am strongly agree with this option, in my opinion, the elective courses are the clases that make you be in high school for four years."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay demonstrates generally controlled organization and occasional errors in sentence formation, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_aadbe1b122974c2ac070659b",
+          "quotes": [
+            "Extracurricular activities can affect a student but also can help students."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows generally controlled organization and a minimally adequate range of vocabulary, consistent with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_2cc56c7ee59b6d3cc63f5128",
+          "quotes": [
+            "the people in the society following information or take ideas guidance for experts, the peoples sopport the ideas of other like in the polytechinic, in the religion and society."
+          ],
+          "interpretation": "This essay has more significant errors in sentence formation and vocabulary, leading to a lower Overall score of 2."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Yesterday i was in school and i was going to my science class and one of my friend told me to skip that class, and i was thinking if i skip that class my grade will go down and we were having a test on that day and i was ready for that test but my friend was forcing me to skip that class and i need to decide what to do."
+      ],
+      "observable_feature": "The essay demonstrates generally controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary.",
+      "evaluative_interpretation": "These features are consistent with an Overall score of 3, as seen in the rater's history.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text organization is generally well-controlled, with a range of vocabulary used to convey basic meanings, and occasional errors in sentence formation and grammar.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay's generally controlled organization, occasional errors in sentence formation, and minimally adequate range of vocabulary align with the rater's history of assigning an Overall score of 3 to similar essays.",
+  "insufficient_evidence": []
+}

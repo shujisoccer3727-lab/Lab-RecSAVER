@@ -1,0 +1,70 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Vocabulary"
+      ],
+      "pattern": "Essays with limited vocabulary and cohesive devices receive lower Overall scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_61fb7af14060a0077092fdc7",
+          "quotes": [
+            "Generic_City park it's located in Pennsylvania and is one of the places I would like to go there with my family."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 3
+            }
+          },
+          "interpretation": "The essay uses limited vocabulary and repetitive cohesive devices, consistent with a lower Overall score."
+        },
+        {
+          "history_essay_id": "essay_ebfd3052c9b185cd4b7c8fef",
+          "quotes": [
+            "Long break give student so many important priviteges, like having time to go spent some time with family."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 3
+            }
+          },
+          "interpretation": "The essay uses limited vocabulary and repetitive cohesive devices, consistent with a lower Overall score."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern does not account for essays with higher Overall scores despite similar features."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Vocabulary"
+      ],
+      "quotes": [
+        "Schools should have a partnership business to help all the students to reach their goals."
+      ],
+      "observable_feature": "The essay uses a limited range of vocabulary and repetitive cohesive devices.",
+      "evaluative_interpretation": "The limited vocabulary and repetitive cohesive devices suggest a lower Overall score, but the essay also demonstrates some flexibility and precision in vocabulary use.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's use of limited vocabulary and repetitive cohesive devices aligns with the rubric criteria for a lower Overall score, but the presence of some precise vocabulary use suggests a higher score.",
+      "uncertainty": "The essay's overall organization and vocabulary use are mixed, making the Overall score interpretation somewhat uncertain."
+    }
+  ],
+  "decision_explanation": "The essay demonstrates a limited range of vocabulary and repetitive cohesive devices, which aligns with the observed Overall score of [MASK]. However, the essay also shows some flexibility and precision in vocabulary use, which supports a higher score.",
+  "insufficient_evidence": []
+}

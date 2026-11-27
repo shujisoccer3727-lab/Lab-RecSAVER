@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_2",
+  "target_essay_id": "essay_23a8594b76f0bbd8dcb9f093",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, sufficient vocabulary range, occasional inaccuracies in phraseology, minimal errors in grammar, and developing use of conventions tend to receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_fc9f562ff8ca5faeda0a0cf1",
+            "quotes": [
+              "How we can see at the pass to the years the technology advance to fast around to the world, and thanks to the technology we forget how is the content in a book; in my personal opinion is happens."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 2,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates generally controlled organization and sufficient vocabulary range, with occasional inaccuracies in phraseology and minimal errors in grammar, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_7e0742469e97fef28d84a8fc",
+            "quotes": [
+              "Yesterday i was in school and i was going to my science class and one of my friend told me to skip that class, and i was thinking if i skip that class my grade will go down and we were having a test on that day and i was ready for that test but my friend was forcing me to skip that class and i need to decide what to do."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 2,
+                "Grammar": 2,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows generally controlled organization and sufficient vocabulary range, with occasional inaccuracies in phraseology and minimal errors in grammar, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "Dear Principal my thoughts about having phone's in school i think you should let students use phone in their own spar time because they don't use it during class and its not fair that most teachers at the school can use them during teaching it is a big distraction when the phone goes off during a test or some important project, but it well help if you let the student use their phone so they can plan their day by letting their parent know where there going after school or other events like school activities like soccer, basketball, and other great stuff the school has provide for all the students."
+        ],
+        "observable_feature": "The essay demonstrates generally controlled organization, sufficient vocabulary range, occasional inaccuracies in phraseology, and minimal errors in grammar and conventions.",
+        "evaluative_interpretation": "The essay's generally controlled organization and sufficient vocabulary range, with occasional inaccuracies in phraseology and minimal errors in grammar and conventions, support an Overall score of 3.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay aligns with the rubric's description for an Overall score of 3, showing facility limited to the use of common structures and generic vocabulary, generally controlled organization, and occasional errors in grammar and syntax.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay's generally controlled organization, sufficient vocabulary range, occasional inaccuracies in phraseology, and minimal errors in grammar and conventions align with the observed Overall score of 3, consistent with the rater's history of scoring similar essays.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 2,
+        "Grammar": 3,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The essay's generally controlled organization, sufficient vocabulary range, occasional inaccuracies in phraseology, and minimal errors in grammar and conventions align with the observed Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates generally controlled organization with cohesive devices used but limited in type, consistent with a Cohesion score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows some sentence variation used but with many sentence structure problems, consistent with a Syntax score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay uses a minimally adequate range of vocabulary for the topic, with no precise use of subtle word meanings, consistent with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay uses evident use of phrases such as idioms, collocations, and lexical bundles but without much variety, consistent with a Phraseology score of 2."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows some errors in grammar and usage, consistent with a Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a developing use of conventions to convey meaning, with errors in spelling, capitalization, and punctuation that are sometimes distracting, consistent with a Conventions score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

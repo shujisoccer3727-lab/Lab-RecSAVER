@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_c95defab5898fc1613b26c7c",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "pattern": "Essays with a wide range of vocabulary and phrases, and well-controlled text organization, tend to receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_56b47af1153e7884e4a981e9",
+            "quotes": [
+              "Online school is something really seroius to look into if tyour dealing with problems at home having so much stress in you and cant deal with more stress of school, or you just simply need to work to help out your family it could be a chance they need money but cant get enough to get bills paid and need help in paying them,maybe you dont really have time in showing up to school."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Vocabulary": 4,
+                "Phraseology": 4
+              }
+            },
+            "interpretation": "The essay demonstrates a wide range of vocabulary and phrases, and a generally controlled organization, consistent with the observed scores."
+          },
+          {
+            "history_essay_id": "essay_877968498339559487d0d5a4",
+            "quotes": [
+              "Finally, Have that positive mindset with every one if you don't is because you are have a bad day and you need to fix it when i play soccer i always go with feeling am going to do good score a good play good and be the best one on the team,at school you want to have a good attitude like if you have a test you don't want to say am going to fail, what your going to say is am going to pass am going to give everything i got and pass."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3
+              }
+            },
+            "interpretation": "The essay shows a sufficient range of vocabulary and phrases, and a generally controlled organization, consistent with the observed scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is supported by two essays, but more data would strengthen the interpretation."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "quotes": [
+          "In my opinion, schools should not follow this model because it does not help enough to conserve resources, too much time in school could be frustrate, and students need time for after school activities."
+        ],
+        "observable_feature": "The essay demonstrates a wide range of vocabulary and phrases, and a generally controlled organization.",
+        "evaluative_interpretation": "This feature is consistent with the observed scores, indicating a well-controlled text organization and a sufficient range of vocabulary and phrases.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The text organization is generally well-controlled, and a range of vocabulary and phrases are used appropriately, consistent with a score of 4 in Cohesion, Vocabulary, and Phraseology.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a wide range of vocabulary and phrases, and a generally controlled organization, consistent with the observed scores. This is supported by the historical pattern observed in essays with similar features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The target essay demonstrates a wide range of vocabulary and phrases, and a generally controlled organization, consistent with the observed Overall score of 3. The Trait scores are consistent with the rubric descriptors for a score of 3 or 4.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a wide range of vocabulary and phrases, and a generally controlled organization, consistent with a score of 4 in Cohesion."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates an appropriate use of a variety of syntactic structures, with occasional errors or inappropriateness in sentence formation, consistent with a score of 3 in Syntax."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary to allow flexibility and precision, consistent with a score of 4 in Vocabulary."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates an appropriate use of a variety of phrases, with occasional inaccuracies, consistent with a score of 4 in Phraseology."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates some errors in grammar and usage, consistent with a score of 3 in Grammar."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates a generally consistent use of appropriate conventions to convey meaning, with few and not distracting errors, consistent with a score of 4 in Conventions."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

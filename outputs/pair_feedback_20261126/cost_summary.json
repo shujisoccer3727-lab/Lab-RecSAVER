@@ -1,0 +1,54 @@
+{
+  "stages": {
+    "1": {
+      "actual_saved_requests": 240,
+      "comparison_requests": 240,
+      "diagnostic_requests": 0,
+      "prompt_tokens": 1466394,
+      "output_tokens": 315838,
+      "truncated": 0,
+      "allocation_request_counts": {
+        "0.8": 108,
+        "0.9": 132
+      }
+    },
+    "3": {
+      "actual_saved_requests": 233,
+      "comparison_requests": 232,
+      "diagnostic_requests": 1,
+      "prompt_tokens": 1344153,
+      "output_tokens": 54053,
+      "truncated": 0,
+      "allocation_request_counts": {
+        "0.8": 221,
+        "0.9": 12
+      }
+    },
+    "4": {
+      "actual_saved_requests": 89,
+      "comparison_requests": 89,
+      "diagnostic_requests": 0,
+      "prompt_tokens": 236872,
+      "output_tokens": 22559,
+      "truncated": 0,
+      "allocation_request_counts": {
+        "0.8": 85,
+        "0.9": 4
+      }
+    },
+    "5": {
+      "actual_saved_requests": 8,
+      "comparison_requests": 6,
+      "diagnostic_requests": 2,
+      "prompt_tokens": 56439,
+      "output_tokens": 2255,
+      "truncated": 0,
+      "allocation_request_counts": {
+        "0.8": 6,
+        "0.9": 2
+      }
+    }
+  },
+  "interrupted_requests_without_saved_output": 16,
+  "interrupted_token_counts": "Unavailable; interrupted batch returned no persisted output. No successful saved request was regenerated."
+}

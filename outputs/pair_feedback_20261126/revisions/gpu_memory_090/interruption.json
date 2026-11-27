@@ -1,0 +1,15 @@
+{
+  "time": "2026-11-26T17:47:55.133720+09:00",
+  "stage": 1,
+  "keys": [
+    "rater_11__essay_df9af22099cd0e471aff2f68__K1",
+    "rater_11__essay_df9af22099cd0e471aff2f68__K2",
+    "rater_11__essay_7012f54d55015706d1ad1ea0__K1",
+    "rater_11__essay_7012f54d55015706d1ad1ea0__K2",
+    "rater_11__essay_2ba404b74059efe09b3722bd__K1",
+    "rater_11__essay_2ba404b74059efe09b3722bd__K2",
+    "rater_11__essay_4b7a0e32804396ea66b470f0__K1",
+    "rater_11__essay_4b7a0e32804396ea66b470f0__K2"
+  ],
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/c/Users/GUESTUSER/Desktop/tsuruoka/Lab-RecSAVER/src/recsaver/pair_feedback_gpu.py\", line 84, in run\n    outputs = self.llm.generate([x[3] for x in batch], [SamplingParams(**x[4]) for x in batch], use_tqdm=True)\n  File \"/home/guestuser/miniforge3/envs/qwen3/lib/python3.10/site-packages/vllm/utils.py\", line 1021, in inner\n    return fn(*args, **kwargs)\n  File \"/home/guestuser/miniforge3/envs/qwen3/lib/python3.10/site-packages/vllm/entrypoints/llm.py\", line 462, in generate\n    outputs = self._run_engine(use_tqdm=use_tqdm)\n  File \"/home/guestuser/miniforge3/envs/qwen3/lib/python3.10/site-packages/vllm/entrypoints/llm.py\", line 1242, in _run_engine\n    step_outputs = self.llm_engine.step()\n  File \"/home/guestuser/miniforge3/envs/qwen3/lib/python3.10/site-packages/vllm/engine/llm_engine.py\", line 1340, in step\n    ) = self.scheduler[virtual_engine].schedule()\n  File \"/home/guestuser/miniforge3/envs/qwen3/lib/python3.10/site-packages/vllm/core/scheduler.py\", line 1339, in schedule\n    self.block_manager.get_common_computed_block_ids(\n  File \"/home/guestuser/miniforge3/envs/qwen3/lib/python3.10/site-packages/vllm/core/block_manager.py\", line 323, in get_common_computed_block_ids\n    self._computed_blocks_tracker.get_num_cached_tokens(seq))\n  File \"/home/guestuser/miniforge3/envs/qwen3/lib/python3.10/site-packages/vllm/core/block/prefix_caching_block.py\", line 1007, in get_num_cached_tokens\n    self._allocator.find_cached_blocks_prefix(block_hashes))\n  File \"/home/guestuser/miniforge3/envs/qwen3/lib/python3.10/site-packages/vllm/core/block/cpu_gpu_block_allocator.py\", line 359, in find_cached_blocks_prefix\n    return self._allocators[device].find_cached_blocks_prefix(block_hashes)\nKeyboardInterrupt\n"
+}

@@ -1,0 +1,92 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with occasional language inaccuracies, limited range of vocabulary, and some errors in grammar and syntax tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_0314ba6db386642614d33f2d",
+          "quotes": [
+            "Schools should have a partnership business to help all the students to reach their goals."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay has some errors in grammar and syntax, but the Overall score is 4, suggesting that the rater may have considered other dimensions."
+        },
+        {
+          "history_essay_id": "essay_47882f4c789d4b4f9a018d1a",
+          "quotes": [
+            "You are mainly not succesful without any failure."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay has occasional language inaccuracies and some errors in grammar, but the Overall score is 4, indicating that the rater may have considered other factors."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_08dada50d5b2515068a5bb5a",
+          "quotes": [
+            "Students would not benefit to attend classes from home because not just for studying in books but we go to school for another"
+          ],
+          "interpretation": "This essay has similar language inaccuracies and errors but received a lower Overall score of 2, suggesting that other factors may have influenced the score."
+        }
+      ],
+      "limitations": [
+        "The rater's scoring may be influenced by other dimensions beyond language accuracy and vocabulary range."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Some people feel inspired to the quote \" unless you do something beyond of you have mastered, you will never grow\" written by Author Ralph Waldo Emerson."
+      ],
+      "observable_feature": "The essay contains occasional language inaccuracies and some errors in grammar and syntax.",
+      "evaluative_interpretation": "The language inaccuracies and errors may limit the clarity and coherence of the essay, but the range of vocabulary and use of phrases are adequate.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay demonstrates a controlled organization with some errors in grammar and usage, consistent with the rubric for an Overall score of 3.",
+      "uncertainty": "The essay's overall coherence and clarity are somewhat affected by the language inaccuracies, but the range of vocabulary and phraseology are adequate."
+    }
+  ],
+  "decision_explanation": "The essay demonstrates occasional language inaccuracies and some errors in grammar and syntax, which aligns with the observed Overall score of 3. The range of vocabulary and use of phrases are adequate, but the coherence and clarity are somewhat affected by the language inaccuracies.",
+  "insufficient_evidence": []
+}

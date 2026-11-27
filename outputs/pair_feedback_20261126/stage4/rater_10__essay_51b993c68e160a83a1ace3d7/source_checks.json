@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S3",
+          "paragraph_id": "P1",
+          "start": 370,
+          "end": 735,
+          "text": "S Military because of my apprecation and loyaltly to my country and wanting to protect It with all I could, not only that but also how the job required you to be a hands on learner and that is undoubtly the learning style I've always excelled in but then growing up and maturing seeing the reality of that career path makes me wonder Is it really what I would want?"
+        },
+        {
+          "span_id": "S5",
+          "paragraph_id": "P1",
+          "start": 895,
+          "end": 1118,
+          "text": " I would much rather go down the much safer civlian route and hopefully obtain a career I'll love and want to come back to everyday, and that is why I am contacting you now, in hopes of getting this chance of having sucess."
+        }
+      ],
+      "reconstructed_quotes": [
+        "S Military because of my apprecation and loyaltly to my country and wanting to protect It with all I could, not only that but also how the job required you to be a hands on learner and that is undoubtly the learning style I've always excelled in but then growing up and maturing seeing the reality of that career path makes me wonder Is it really what I would want?",
+        " I would much rather go down the much safer civlian route and hopefully obtain a career I'll love and want to come back to everyday, and that is why I am contacting you now, in hopes of getting this chance of having sucess."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S3",
+        "S5"
+      ],
+      "feature": "The essay transitions from discussing the military aspiration to a preference for a civilian career path.",
+      "scoring_relevance": "This transition demonstrates the writer's ability to connect different ideas and show a progression in their reasoning, which is relevant to the cohesion dimension.",
+      "limitation": "This observation does not establish the overall coherence of the essay or the effectiveness of the transitions throughout the entire text.",
+      "next_check": "Review the transitions between other paragraphs and ideas to ensure they maintain a clear and logical flow.",
+      "quotes": [
+        "S Military because of my apprecation and loyaltly to my country and wanting to protect It with all I could, not only that but also how the job required you to be a hands on learner and that is undoubtly the learning style I've always excelled in but then growing up and maturing seeing the reality of that career path makes me wonder Is it really what I would want?",
+        " I would much rather go down the much safer civlian route and hopefully obtain a career I'll love and want to come back to everyday, and that is why I am contacting you now, in hopes of getting this chance of having sucess."
+      ]
+    }
+  ]
+}

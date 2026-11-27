@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 120,
+          "text": "If you ask me \" the school should be for the student attend class at home by internet,video,and website, then It's fine."
+        },
+        {
+          "span_id": "S2",
+          "paragraph_id": "P1",
+          "start": 120,
+          "end": 348,
+          "text": "\" Because I thight we will have many good benefit from it for the student and for the school; as for the school can control the student better , the student can study at any time they want, and student can get out the dangerous."
+        }
+      ],
+      "reconstructed_quotes": [
+        "If you ask me \" the school should be for the student attend class at home by internet,video,and website, then It's fine.",
+        "\" Because I thight we will have many good benefit from it for the student and for the school; as for the school can control the student better , the student can study at any time they want, and student can get out the dangerous."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S1",
+        "S2"
+      ],
+      "feature": "The sentence contains grammatical errors, such as 'the school should be for the student attend class at home' and 'I thight we will have many good benefit from it'.",
+      "scoring_relevance": "These grammatical errors affect the clarity and correctness of the sentences, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation is limited to the identified sentences and does not provide a comprehensive assessment of the essay's grammar.",
+      "next_check": "Review other sentences in the essay for similar grammatical errors, particularly in subject-verb agreement and sentence structure.",
+      "quotes": [
+        "If you ask me \" the school should be for the student attend class at home by internet,video,and website, then It's fine.",
+        "\" Because I thight we will have many good benefit from it for the student and for the school; as for the school can control the student better , the student can study at any time they want, and student can get out the dangerous."
+      ]
+    }
+  ]
+}

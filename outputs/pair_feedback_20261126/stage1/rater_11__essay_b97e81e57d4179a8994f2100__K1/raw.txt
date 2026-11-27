@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_b97e81e57d4179a8994f2100",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary receive scores around 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_5fa3fe80a6e18f042ade955b",
+            "quotes": ["\"A student has more benefits if they attend to classes in schools because if the student can not understand a topic or has questions about it, the teacher can not explain by video conferencing as a teacher that can explain face to face an be sure that student understood.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and occasional errors in sentence formation, consistent with a score of 3."
+          },
+          {
+            "history_essay_id": "essay_2ba404b74059efe09b3722bd",
+            "quotes": ["\"Being respectful is important to you and the people that surround you. For an example, you cant just go up to your teacher and tell them 'give me a pencil' you should tell them 'may I please have a pencil'.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 3,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows controlled organization and a minimally adequate range of vocabulary, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_df9af22099cd0e471aff2f68",
+            "quotes": ["\"What-help the people that they need help and care about people. and teach yourself how to help people. teach yourself how to be nice to people.\""],
+            "interpretation": "This essay has a lower score of 2, indicating that the organization and vocabulary are less controlled and adequate than the essays scoring 3."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["\"To begin, attend classes online is better than attend the classes at school in many ways. One of the ways is, it help to build a responsible personalty.\""],
+        "observable_feature": "The essay demonstrates controlled organization with occasional errors in sentence formation and a minimally adequate range of vocabulary.",
+        "evaluative_interpretation": "This is consistent with a score of 3, as the essay shows controlled organization and occasional errors in sentence formation, with a minimally adequate range of vocabulary.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay's controlled organization and occasional errors in sentence formation align with the rubric's description for a score of 3.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates controlled organization with occasional errors in sentence formation and a minimally adequate range of vocabulary, consistent with the observed scores of 3. This is supported by the historical pattern observed in essays with similar features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The essay's controlled organization and occasional errors in sentence formation align with the observed Overall score of 3. The Trait scores are consistent with the rubric's description for a score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates controlled organization but with some repetitive and mechanical use of cohesive devices, consistent with a score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows appropriate use of a variety of syntactic structures with occasional errors in sentence formation, consistent with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary for the topic, consistent with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows evident use of phrases with some noticeable repetitions and misuses, consistent with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates some errors in grammar and usage, consistent with a score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows developing use of conventions with errors in spelling, capitalization, and punctuation that are sometimes distracting, consistent with a score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "top_errors": [
+    "version/target mismatch"
+  ],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": false,
+      "reasons": [
+        "version/target mismatch"
+      ],
+      "source_spans": [
+        {
+          "span_id": "S2",
+          "paragraph_id": "P2",
+          "start": 186,
+          "end": 280,
+          "text": "The first reason it can help someone make a better choice because it can change your thinking."
+        },
+        {
+          "span_id": "S3",
+          "paragraph_id": "P2",
+          "start": 280,
+          "end": 431,
+          "text": " For example,If your thinking about something that didn't convinse you,then another person can give you an idea and it can help having a better choice."
+        }
+      ],
+      "reconstructed_quotes": [
+        "The first reason it can help someone make a better choice because it can change your thinking.",
+        " For example,If your thinking about something that didn't convinse you,then another person can give you an idea and it can help having a better choice."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": []
+}

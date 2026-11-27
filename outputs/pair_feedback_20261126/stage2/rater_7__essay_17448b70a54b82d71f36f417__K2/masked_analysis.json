@@ -1,0 +1,70 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent grammatical and conventional errors receive lower Overall scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_3dfff4ca368d9cdbf51424d4",
+          "quotes": [
+            "\"WHERE WERE YOU Generic_Name WE HAVE BEEN LOOKING ALL OVER FOR YOU\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay's frequent capitalization and punctuation errors align with a lower Overall score."
+        },
+        {
+          "history_essay_id": "essay_0314ba6db386642614d33f2d",
+          "quotes": [
+            "\"Schools should have a partnership business to help all the students to reach their goals.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay's grammatical and conventional errors are less frequent, aligning with a higher Overall score."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"If you lie it's not going to make you seem like a good person or help you in anyway.\""
+      ],
+      "observable_feature": "Frequent grammatical and conventional errors, such as missing articles and incorrect punctuation.",
+      "evaluative_interpretation": "These errors interfere with the clarity and coherence of the text, which is consistent with a lower Overall score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Overall score [MASK] indicates occasional language inaccuracies that impede communication.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay's frequent grammatical and conventional errors, as seen in 'T1', align with the pattern observed in 'H1' from the history. This supports the lower Overall score.",
+  "insufficient_evidence": []
+}

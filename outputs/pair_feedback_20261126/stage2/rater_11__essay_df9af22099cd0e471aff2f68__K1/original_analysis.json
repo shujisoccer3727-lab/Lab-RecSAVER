@@ -1,0 +1,92 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with limited syntactic variety, occasional errors in sentence formation, and minimal use of cohesive devices tend to receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_a690517b2f90c0b240a75b89",
+          "quotes": [
+            "\"Everyday we all learn new things in life\"."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates some syntactic variety and cohesive devices, but still has minor errors, consistent with a score of 4."
+        },
+        {
+          "history_essay_id": "essay_4dc0854257ce038ac2b8e35f",
+          "quotes": [
+            "\"the online classes will have a positive change in their daily life.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay has limited syntactic variety and cohesive devices, with some errors, consistent with a score of 3."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_7931f3c00f789a5697a5b58d",
+          "quotes": [
+            "\"Their are those that would say that they would like to make their own decisions weather they be right or wrong.\""
+          ],
+          "interpretation": "This essay has similar syntactic and cohesive issues but received a score of 3, suggesting that other factors may also influence the score."
+        }
+      ],
+      "limitations": [
+        "The pattern is not definitive due to the variability in scores for essays with similar features."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"Do- how to help\nWhat-help the people that they need help and care about people. and teach yourself how to help people. teach yourself how to be nice to people. don't care what people say how about you.\""
+      ],
+      "observable_feature": "The text has limited syntactic variety, frequent errors in sentence formation, and minimal cohesive devices.",
+      "evaluative_interpretation": "The essay demonstrates a limited range of syntactic structures and cohesive devices, with frequent errors, which is consistent with a lower score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for scores 2 and 3 indicates limited syntactic variety, frequent errors, and minimal cohesive devices, which aligns with the observed features.",
+      "uncertainty": "The essay's overall coherence and clarity are somewhat underdetermined by the provided excerpt."
+    }
+  ],
+  "decision_explanation": "The target essay exhibits limited syntactic variety, frequent errors in sentence formation, and minimal cohesive devices, consistent with the pattern observed in the history essays. The evidence from the target essay aligns with the rubric descriptors for scores 2 and 3, supporting the observed score of 2.",
+  "insufficient_evidence": []
+}

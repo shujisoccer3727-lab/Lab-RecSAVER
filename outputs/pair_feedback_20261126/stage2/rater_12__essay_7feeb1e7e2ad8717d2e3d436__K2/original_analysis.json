@@ -1,0 +1,82 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with generally well-controlled organization, a range of cohesive devices, sufficient vocabulary, appropriate phraseology, minimal grammar errors, and generally consistent conventions tend to receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_2548a450358fcc40a297da41",
+          "quotes": [
+            "\"Primarily technology's goal is to make certain tasks easier, not to make us anti-social or make us obese.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a well-controlled organization and a range of cohesive devices, which aligns with the observed scores."
+        },
+        {
+          "history_essay_id": "essay_81ed9fd0e9f7ec1ba50c9c63",
+          "quotes": [
+            "\"Second if people idea's are being ignored then the people ignoring are taking away their freedom of speech.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay shows a range of cohesive devices and sufficient vocabulary, but with some syntax issues, which aligns with the observed scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"In Thailand there are many different towns I want to visit. In the towns there are many cool things I could buy. Also I would probably see lots of animals there like birds, dogs, or even farm animals walking, or flying around, which I would I like to see.\""
+      ],
+      "observable_feature": "The essay demonstrates a range of cohesive devices, sufficient vocabulary, appropriate phraseology, minimal grammar errors, and generally consistent conventions.",
+      "evaluative_interpretation": "This feature aligns with the observed scores, indicating a well-controlled organization and sufficient vocabulary.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text shows a range of cohesive devices and sufficient vocabulary, which aligns with the rubric for a score of 4.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates a range of cohesive devices, sufficient vocabulary, appropriate phraseology, minimal grammar errors, and generally consistent conventions, which aligns with the observed scores and the historical pattern observed in the history essays.",
+  "insufficient_evidence": []
+}

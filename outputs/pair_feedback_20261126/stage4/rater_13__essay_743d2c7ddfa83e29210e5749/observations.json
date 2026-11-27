@@ -1,0 +1,23 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S7",
+      "S12",
+      "S18"
+    ],
+    "feature": "The essay uses transitional phrases such as 'First,' 'Second,' and 'Third' to introduce each main point.",
+    "scoring_relevance": "These transitional phrases help to organize the essay and indicate the structure of the argument, contributing to the overall cohesion of the text.",
+    "limitation": "The presence of transitional phrases does not guarantee that the essay is well-organized or that the ideas are logically connected.",
+    "next_check": "Review the content of each section to ensure that the ideas are logically connected and that the transitions effectively link the points.",
+    "quotes": [
+      "First, you do not stuck in same problem.",
+      "Second, you could become strong.",
+      "Third, you could have many supporters."
+    ],
+    "observation_key": "essay_743d2c7ddfa83e29210e5749::O1",
+    "target_essay_id": "essay_743d2c7ddfa83e29210e5749",
+    "observed_score": 3
+  }
+]

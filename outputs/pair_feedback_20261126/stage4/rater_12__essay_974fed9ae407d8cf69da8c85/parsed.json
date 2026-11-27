@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_974fed9ae407d8cf69da8c85",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S1"
+      ],
+      "feature": "The sentence 'I think is a great idea to have this type of learning program, very helpfull for students,' contains grammatical errors, such as the incorrect use of 'is' instead of 'it is' and the misspelling of 'helpful'.",
+      "scoring_relevance": "These grammatical errors can affect the clarity and correctness of the sentence, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation is limited to the first sentence and does not provide a comprehensive assessment of the entire essay's grammatical accuracy.",
+      "next_check": "Review other sentences in the essay for similar grammatical errors, such as subject-verb agreement and spelling mistakes."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S12",
+        "S13"
+      ],
+      "feature": "The sentence 'We all know that home is the place we all feel comfortable, I think that if we spend time studying at home we wil' is followed by 'like it.' This creates a fragmented thought, with the second part of the sentence separated into a new paragraph.",
+      "scoring_relevance": "The separation of a complete thought into two paragraphs can disrupt the flow and coherence of the essay, which is relevant to the Cohesion scoring dimension.",
+      "limitation": "This observation is limited to the specific paragraph and does not provide a comprehensive assessment of the essay's overall cohesion.",
+      "next_check": "Review the transitions and connections between paragraphs to ensure that thoughts are presented in a cohesive manner."
+    }
+  ],
+  "insufficient_evidence": []
+}

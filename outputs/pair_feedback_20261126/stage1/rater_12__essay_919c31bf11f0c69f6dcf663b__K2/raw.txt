@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_919c31bf11f0c69f6dcf663b",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Grammar", "Conventions"],
+        "pattern": "Essays with frequent errors in sentence structure, grammar, and conventions receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_974fed9ae407d8cf69da8c85",
+            "quotes": ["\"In my case it will help me in many ways as:\"", "\"I think this will also help the school, they will be saving some more money, they will save gas, and space.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Grammar": 3,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay has frequent errors in sentence structure and conventions, which aligns with lower scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by only one essay, which limits its generalizability."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Grammar", "Conventions"],
+        "quotes": ["\"What's next, what do you want to be when you grow up, A sienstest, teacher, astronaut, A soccer player, a singer, what is it,\""],
+        "observable_feature": "The sentence structure is fragmented and lacks coherence, with multiple run-on sentences and grammatical errors.",
+        "evaluative_interpretation": "The sentence structure and grammar errors significantly impede communication, which is consistent with a lower score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for Cohesion, Syntax, Grammar, and Conventions indicates that frequent errors in these areas result in lower scores.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": ["Vocabulary"],
+        "quotes": ["\"After elementary you go to middle school, Then high school, And then collage, But what's next, what do you want to be or when do you want to be after collage you get a job go to work make money, or even have a family,\""],
+        "observable_feature": "The vocabulary is basic and repetitive, with limited attempts to use topic-related terms.",
+        "evaluative_interpretation": "The limited vocabulary range and lack of precise word usage align with a score of 3 in Vocabulary.",
+        "linked_history_pattern_ids": [],
+        "rubric_connection": "The rubric for Vocabulary indicates that a minimally adequate range of vocabulary with no precise use of subtle word meanings is consistent with a score of 3.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay exhibits frequent errors in sentence structure, grammar, and conventions, which aligns with the observed scores of 2 in Cohesion, Syntax, Grammar, and Conventions. The limited vocabulary range and lack of precise word usage support a score of 3 in Vocabulary. These features are consistent with the pattern observed in the history essay 'essay_974fed9ae407d8cf69da8c85'.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The observed Overall score of 2 is consistent with the frequent errors in sentence structure, grammar, and conventions, which significantly impede communication. The Trait scores of 2 in Cohesion, Syntax, Grammar, and Conventions support this holistic judgment. The Vocabulary score of 3 is consistent with the limited vocabulary range and lack of precise word usage.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The fragmented sentence structure and lack of coherence support a score of 2, consistent with the rubric for Cohesion."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The frequent errors in sentence structure and grammar support a score of 2, consistent with the rubric for Syntax."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T2"],
+        "alignment": "The limited vocabulary range and lack of precise word usage support a score of 3, consistent with the rubric for Vocabulary."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The evidence does not provide sufficient detail to fully support the Phraseology score of 3, but the limited use of phrases and repetitions align with this score."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The frequent errors in grammar and usage support a score of 2, consistent with the rubric for Grammar."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The frequent errors in spelling, capitalization, and punctuation support a score of 2, consistent with the rubric for Conventions."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The Phraseology score of 3 is not fully supported by the evidence, but the limited use of phrases and repetitions align with this score."]
+  }
+}

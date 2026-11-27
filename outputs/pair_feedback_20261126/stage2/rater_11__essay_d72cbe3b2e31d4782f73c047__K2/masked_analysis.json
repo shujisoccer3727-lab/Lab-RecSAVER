@@ -1,0 +1,90 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a well-controlled organization, varied sentence structures, and a sufficient range of vocabulary tend to receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_837b28e168c36c93843c90ae",
+          "quotes": [
+            "A lot of students want to take their time off to think what their careers will be, so they continue their education to go to college and experience how life is like outside and how to take care of responsibility."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a well-controlled organization and varied sentence structures, which aligns with the higher scores."
+        },
+        {
+          "history_essay_id": "essay_7931f3c00f789a5697a5b58d",
+          "quotes": [
+            "I would seek guidance for health problems like depression. Honestly, you could seek guidance for anything."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows a controlled organization and varied sentence structures, which aligns with the moderate scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_7012f54d55015706d1ad1ea0",
+          "quotes": [
+            "When you take a adoption you really take a hours because the boy is not to really to see the another people was have on knew parents when this gay was young people he evertime he was remembre your past terrible when he go to the home and the he take a knew home to live when another person whin verry take in a adoption with he and the when this gay he need to live is very nessarity to check to adoctor with be he dont sick."
+          ],
+          "interpretation": "The essay lacks a well-controlled organization and varied sentence structures, which aligns with the lower scores."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "The first reason I agree with the prompt that positive attitude is the key to success because some people gain positive attitude from others the same way they had a positive attitude towards them."
+      ],
+      "observable_feature": "The essay demonstrates a controlled organization and varied sentence structures, with a sufficient range of vocabulary.",
+      "evaluative_interpretation": "The essay's organization and varied sentence structures support a higher score, but there are occasional inaccuracies in word use and phraseology.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows a controlled organization and varied sentence structures, which aligns with the rubric's description for a score of [MASK].",
+      "uncertainty": "The occasional inaccuracies in word use and phraseology could be seen as a limitation."
+    }
+  ],
+  "decision_explanation": "The essay demonstrates a controlled organization and varied sentence structures, with a sufficient range of vocabulary, which aligns with the higher scores observed in the history. The occasional inaccuracies in word use and phraseology are noted but do not significantly impede communication.",
+  "insufficient_evidence": []
+}

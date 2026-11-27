@@ -1,0 +1,69 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a wide range of vocabulary, appropriate use of cohesive devices, and minimal errors in grammar and conventions tend to receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_7feeb1e7e2ad8717d2e3d436",
+          "quotes": [
+            "In Thailand you can go to a really beautiful beach, visit different towns, and try or do new things."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a wide range of vocabulary and appropriate use of cohesive devices, which aligns with the higher scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_c33fcd11d24bca6c46d8d1cd",
+          "quotes": [
+            "When the school open the classes online,then students won't need go to school and study at home."
+          ],
+          "interpretation": "Despite having a wide range of vocabulary, this essay has more errors in grammar and conventions, which aligns with a lower score."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "People should follow their own instincts and ideas. First if people disagree with what people are saying then they can say what their idea is and put it to a vote to see who's ideas better."
+      ],
+      "observable_feature": "The essay demonstrates a wide range of vocabulary and appropriate use of cohesive devices, with minimal errors in grammar and conventions.",
+      "evaluative_interpretation": "This feature is consistent with a higher score, but the presence of some minor errors in sentence formation and occasional inaccuracies in phraseology may limit the score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text shows a wide range of vocabulary and appropriate use of cohesive devices, which aligns with the rubric for a score of [MASK], but minor errors in sentence formation and phraseology align with a score of [MASK].",
+      "uncertainty": "The minor errors in sentence formation and phraseology may limit the score to 3 rather than 4."
+    }
+  ],
+  "decision_explanation": "The essay demonstrates a wide range of vocabulary and appropriate use of cohesive devices, which aligns with a higher score. However, the presence of some minor errors in sentence formation and occasional inaccuracies in phraseology may limit the score to 3 rather than 4.",
+  "insufficient_evidence": []
+}

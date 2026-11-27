@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with controlled organization, varied sentence structures, and a range of vocabulary and phrases tend to receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_451fdda60292ad1aa247a11e",
+          "quotes": [
+            "\"Problems happen to everyone, the real deal comes to how you will respond to it.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and varied sentence structures, leading to higher scores."
+        },
+        {
+          "history_essay_id": "essay_0271e2a86409af270eb54ec8",
+          "quotes": [
+            "\"Success is not just a dream is a dedication to be engage in everyday activity also success\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows a range of vocabulary and phrases, contributing to higher scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"The first reason I disagree with this statement is that it would ruin certain summer activities or even business plans.\""
+      ],
+      "observable_feature": "The essay demonstrates controlled organization, varied sentence structures, and a range of vocabulary and phrases.",
+      "evaluative_interpretation": "These features are consistent with higher scores, as seen in the rater's history.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay aligns with the rubric criteria for a score of 5, showing native-like facility in language use.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates controlled organization, varied sentence structures, and a range of vocabulary and phrases, consistent with the rater's history of assigning higher scores to such features. This supports the observed Overall score of [MASK].",
+  "insufficient_evidence": []
+}

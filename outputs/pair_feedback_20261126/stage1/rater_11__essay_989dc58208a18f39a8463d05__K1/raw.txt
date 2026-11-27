@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_989dc58208a18f39a8463d05",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Overall", "Syntax"],
+        "pattern": "Essays with frequent syntax errors and limited sentence variety tend to receive lower Overall scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_7931f3c00f789a5697a5b58d",
+            "quotes": ["\"I think you should seek guidance from those that have been through this experience before you for a ever long time.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Syntax": 3
+              }
+            },
+            "interpretation": "The essay contains frequent syntax errors and limited sentence variety, consistent with a lower Overall score."
+          },
+          {
+            "history_essay_id": "essay_7012f54d55015706d1ad1ea0",
+            "quotes": ["\"Well my opinion for this cuestion is was you need to do frist have in one aponment.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Syntax": 3
+              }
+            },
+            "interpretation": "The essay contains frequent syntax errors and limited sentence variety, consistent with a lower Overall score."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_a690517b2f90c0b240a75b89",
+            "quotes": ["\"First, working in groups help the people to improve in school or at work because they learn new things.\""],
+            "interpretation": "This essay has fewer syntax errors and more varied sentence structures, receiving a higher Overall score."
+          }
+        ],
+        "limitations": ["The pattern is not definitive due to the limited number of essays."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Overall", "Syntax"],
+        "quotes": ["\"Do you think students would benefit from being able to attend classes from home? I think students would benefit themselfs by taking classes at home.\""],
+        "observable_feature": "The sentence contains a syntax error and limited sentence variety.",
+        "evaluative_interpretation": "This feature is consistent with a lower Overall score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for Overall score 3 indicates limited facility in sentence formation and word choice, which is evident in the syntax errors and limited sentence variety.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": ["Cohesion"],
+        "quotes": ["\"students would focus better if they did not have a other classmate talking to them. Some students can not foucs if someone else is talking it might bother them it also might bother them if other classmates are making loud noises.\""],
+        "observable_feature": "The text shows a logical sequence of ideas but with some mechanical use of cohesive devices.",
+        "evaluative_interpretation": "This feature is consistent with a Cohesion score of 3.",
+        "linked_history_pattern_ids": [],
+        "rubric_connection": "The rubric for Cohesion score 3 indicates generally controlled organization with cohesive devices used but limited in type.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay's frequent syntax errors and limited sentence variety, as seen in T1, align with the pattern observed in history essays with lower Overall scores. The logical sequence of ideas but with some mechanical use of cohesive devices, as seen in T2, supports a Cohesion score of 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay's frequent syntax errors and limited sentence variety support an Overall score of 3. The logical sequence of ideas but with some mechanical use of cohesive devices supports a Cohesion score of 3. The observed scores are consistent with the rubric descriptions.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T2"],
+        "alignment": "The logical sequence of ideas but with some mechanical use of cohesive devices supports a Cohesion score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The frequent syntax errors and limited sentence variety support a Syntax score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 51,
+          "text": "People should follow their own instincts and ideas."
+        },
+        {
+          "span_id": "S7",
+          "paragraph_id": "P1",
+          "start": 726,
+          "end": 864,
+          "text": " Finally people should have their voice heard and follow their instinct and ideas instead of being forced to listen to someone elses idea."
+        }
+      ],
+      "reconstructed_quotes": [
+        "People should follow their own instincts and ideas.",
+        " Finally people should have their voice heard and follow their instinct and ideas instead of being forced to listen to someone elses idea."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S7"
+      ],
+      "feature": "The essay begins with the statement 'People should follow their own instincts and ideas.' and concludes with 'Finally people should have their voice heard and follow their instinct and ideas instead of being forced to listen to someone else's idea.'",
+      "scoring_relevance": "The repetition of the idea of following one's own instincts and ideas at the beginning and end of the essay helps to maintain a cohesive argument, tying the essay's main points together.",
+      "limitation": "While the repetition of the main idea helps with cohesion, it does not establish the overall coherence of the essay or the logical flow between the supporting points.",
+      "next_check": "Review the transitions between the main points (S2 to S6) to check if they logically connect to the main idea and support the overall argument.",
+      "quotes": [
+        "People should follow their own instincts and ideas.",
+        " Finally people should have their voice heard and follow their instinct and ideas instead of being forced to listen to someone elses idea."
+      ]
+    }
+  ]
+}

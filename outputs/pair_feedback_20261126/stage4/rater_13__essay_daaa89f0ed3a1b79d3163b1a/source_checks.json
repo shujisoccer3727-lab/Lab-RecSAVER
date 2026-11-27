@@ -1,0 +1,39 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S2",
+          "paragraph_id": "P1",
+          "start": 70,
+          "end": 255,
+          "text": "Ok We do what we want, but not everthing we do it is correct There is will be correct some will be incorrect because we don't know all the information about this games, books, shop etc."
+        }
+      ],
+      "reconstructed_quotes": [
+        "Ok We do what we want, but not everthing we do it is correct There is will be correct some will be incorrect because we don't know all the information about this games, books, shop etc."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S2"
+      ],
+      "feature": "The sentence contains grammatical errors, such as 'everthing' instead of 'everything' and 'will be correct some will be incorrect' which lacks proper structure.",
+      "scoring_relevance": "These grammatical errors can affect the clarity and readability of the text, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation is limited to the specific sentence and does not provide a comprehensive evaluation of the essay's grammar.",
+      "next_check": "Review other sentences in the essay for similar grammatical errors, particularly in the use of subject-verb agreement and sentence structure.",
+      "quotes": [
+        "Ok We do what we want, but not everthing we do it is correct There is will be correct some will be incorrect because we don't know all the information about this games, books, shop etc."
+      ]
+    }
+  ]
+}

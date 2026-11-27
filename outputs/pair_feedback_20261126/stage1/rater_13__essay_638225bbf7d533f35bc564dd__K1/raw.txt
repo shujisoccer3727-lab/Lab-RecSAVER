@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_13",
+  "target_essay_id": "essay_638225bbf7d533f35bc564dd",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with generally controlled organization, varied sentence structures, sufficient vocabulary range, and minimal errors in grammar and conventions tend to receive a score of 4.",
+        "support": [
+          {
+            "history_essay_id": "essay_9360ebd676d148b9227e2783",
+            "quotes": ["\"If someone old or your older sibling is sharing wisdom with you stop what your doing and listen, because most of the time the person, he or she, is trying to tell you whats going to happen if you hit a certain age.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 3,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and varied sentence structures, consistent with a score of 4."
+          },
+          {
+            "history_essay_id": "essay_743d2c7ddfa83e29210e5749",
+            "quotes": ["\"First, you do not stuck in same problem. If you have problems about your job or in your life, and you do not know how to fix your problems, but If you have positive attitude you could think positive way to your problem, and do not need spend the so much time for your problems.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay shows sufficient vocabulary range and varied sentence structures, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is based on a limited number of essays and may not fully represent the rater's scoring tendencies."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["\"I disagree with what John Lubbock saids 'Your character will be what you yourself choose to make it.' I strongly disagree because we are influnced by the people we hang out with.\""],
+        "observable_feature": "The essay demonstrates controlled organization, varied sentence structures, sufficient vocabulary range, and minimal errors in grammar and conventions.",
+        "evaluative_interpretation": "The essay's controlled organization and varied sentence structures support a score of 4.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay aligns with the rubric's description for a score of 4, showing facility in the use of language with syntactic variety, controlled organization, and accuracy in grammar and conventions.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay's controlled organization, varied sentence structures, sufficient vocabulary range, and minimal errors in grammar and conventions align with the rater's scoring pattern observed in the history, supporting a score of 4.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 4,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 4,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay's controlled organization, varied sentence structures, sufficient vocabulary range, and minimal errors in grammar and conventions align with the rubric's description for a score of 4.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates controlled organization and varied sentence structures, consistent with a score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows varied sentence structures, consistent with a score of 4."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a sufficient vocabulary range, consistent with a score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a variety of phrases, consistent with a score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has minimal errors in grammar, consistent with a score of 4."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has developing use of conventions, consistent with a score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

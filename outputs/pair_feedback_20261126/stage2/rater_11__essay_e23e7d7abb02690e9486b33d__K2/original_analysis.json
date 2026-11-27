@@ -1,0 +1,74 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a clear structure, varied sentence structures, and a wide range of vocabulary receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_7931f3c00f789a5697a5b58d",
+          "quotes": [
+            "I think you should seek guidance from those that have been through this experience before you for a ever long time."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay has a clear structure and varied sentence structures, which aligns with the higher scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_620ee39e1867ab53101d90b4",
+          "quotes": [
+            "Plus theres not much reason to accomplish stuff in life, because we are in matrix/prison flat earth and after we die we keep coming back over and over non stop so theres nothing to really accomplish."
+          ],
+          "interpretation": "This essay lacks clear structure and varied sentence structures, which aligns with the lower scores."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by only two essays, which limits its generalizability."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Imagine if there was a world where everybody takes problems as chances to do their best. American Jazz legend Duke Ellington said, \"A problem is a chance for you to do your best.\""
+      ],
+      "observable_feature": "The essay demonstrates a clear structure, varied sentence structures, and a wide range of vocabulary.",
+      "evaluative_interpretation": "This feature aligns with the higher scores observed in the target essay.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows a controlled organization, a range of syntactic structures, and a sufficient range of vocabulary, which aligns with the rubric for a score of 4.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates a clear structure, varied sentence structures, and a wide range of vocabulary, which aligns with the higher scores observed in the target essay and is consistent with the pattern observed in the history essays.",
+  "insufficient_evidence": []
+}

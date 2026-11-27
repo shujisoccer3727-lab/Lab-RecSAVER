@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_13",
+  "target_essay_id": "essay_8a860c1c369200f05b07d7d8",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Grammar"],
+        "pattern": "Essays with limited sentence variety, frequent grammatical errors, and repetitive cohesive devices tend to receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_daaa89f0ed3a1b79d3163b1a",
+            "quotes": ["Everyone in the world not have all the information for Example: I know how to", "We can connect with each other the Technology not only do Shopping online, Playing games is also to connect with each other in Facebook , Twitter , Whatsapp etc."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Grammar": 3
+              }
+            },
+            "interpretation": "The essay shows limited sentence variety and frequent grammatical errors, consistent with the observed scores."
+          },
+          {
+            "history_essay_id": "essay_b2051a651afade78bb309d8f",
+            "quotes": ["Do you remember a time when someone ask you to make a great impression of yourself and recall what happened?", "Because of this you cant go back im time to change what happened in the passed bacause they might treat you the same or give the same impression as the first."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Grammar": 3
+              }
+            },
+            "interpretation": "The essay demonstrates repetitive cohesive devices and grammatical errors, consistent with the observed scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Grammar"],
+        "quotes": ["Why we need to change the first impressions?", "When you have your opportunity to change the first impressions you can but not just for your dress you need to represent with you intelligent your capacity to work with other people is who you are."],
+        "observable_feature": "The essay contains limited sentence variety and frequent grammatical errors, such as subject-verb agreement issues and awkward phrasing.",
+        "evaluative_interpretation": "These features are consistent with a lower score, as they impede clear communication.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for Cohesion, Syntax, and Grammar describes lower scores as having limited sentence variety and frequent errors, which aligns with the observed features.",
+        "uncertainty": "The essay's overall organization and vocabulary range are not sufficiently examined to determine if they contribute to the score."
+      }
+    ],
+    "decision_explanation": "The essay's limited sentence variety and frequent grammatical errors, as seen in quotes T1, are consistent with the lower scores observed in history essays with similar features, such as essay_daaa89f0ed3a1b79d3163b1a and essay_b2051a651afade78bb309d8f. This supports the observed scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay's limited sentence variety and frequent grammatical errors align with the observed Overall score of 3, as these features impede clear communication and are consistent with the rubric for lower scores.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates limited cohesive devices and repetitive phrasing, consistent with a score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows limited sentence variety and frequent errors in sentence formation, consistent with a score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay uses a minimally adequate range of vocabulary, which is consistent with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay uses a narrow range of phrases, with some repetitions and misuses, consistent with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay contains many errors in grammar and usage, consistent with a score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay shows developing use of conventions, with some distracting errors, consistent with a score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The essay's overall organization and vocabulary range are not sufficiently examined to determine if they contribute to the score."]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar"
+      ],
+      "pattern": "Essays with a well-controlled organization, varied vocabulary, and appropriate use of phrases receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_49235c74962f7281d4b2919a",
+          "quotes": [
+            "Self-reliance is the trust that you put in yourself believing that what you are doing is right."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a controlled organization and varied vocabulary, which aligns with the higher Trait scores."
+        },
+        {
+          "history_essay_id": "essay_926396d210817c7d960bd53a",
+          "quotes": [
+            "The difference about the two is art classes and electives how they would set a skills some sudents have good skills in drawing or writing"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 2
+            }
+          },
+          "interpretation": "The essay has a less controlled organization and limited vocabulary, which aligns with the lower Trait scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar"
+      ],
+      "quotes": [
+        "In this essay I will discuss as to why curfews could be a necessary law for teenagers."
+      ],
+      "observable_feature": "The essay demonstrates a well-controlled organization and varied vocabulary.",
+      "evaluative_interpretation": "The controlled organization and varied vocabulary are consistent with a higher score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows a range of vocabulary and cohesive devices, aligning with the rubric for a score of 4.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates a well-controlled organization and varied vocabulary, consistent with the higher Trait scores observed in the history. This supports the observed Overall score of 4.",
+  "insufficient_evidence": []
+}

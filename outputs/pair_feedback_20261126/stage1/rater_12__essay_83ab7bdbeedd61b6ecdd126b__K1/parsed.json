@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_83ab7bdbeedd61b6ecdd126b",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with controlled organization, varied sentence structures, and minimal errors in grammar and conventions tend to receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_7feeb1e7e2ad8717d2e3d436",
+            "quotes": [
+              "In Thailand you can go to a really beautiful beach, visit different towns, and try or do new things."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and varied sentence structures, which align with the observed scores."
+          },
+          {
+            "history_essay_id": "essay_81ed9fd0e9f7ec1ba50c9c63",
+            "quotes": [
+              "First if people disagree with what people are saying then they can say what their idea is and put it to a vote to see who's ideas better."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay shows controlled organization and varied sentence structures, but with some errors, which align with the observed scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is supported by two essays, but more data would strengthen the interpretation."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "Community parks provide a lot of fun ways to spend time outdoors. One of my three favorite ways to spend time outside would be playing sports, gardening and exercising."
+        ],
+        "observable_feature": "The essay demonstrates controlled organization, varied sentence structures, and minimal errors in grammar and conventions.",
+        "evaluative_interpretation": "These features are consistent with a high score, as they align with the criteria for a score of 5.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay shows a wide range of vocabulary and flexible use of a variety of syntactic structures, which aligns with the rubric for a score of 5.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates controlled organization, varied sentence structures, and minimal errors in grammar and conventions, which aligns with the observed scores. This is consistent with the pattern observed in the history essays, where controlled organization and varied sentence structures tend to receive higher scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 5,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 5,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 5,
+        "Conventions": 5
+      }
+    },
+    "overall_alignment": "The target essay demonstrates controlled organization, varied sentence structures, and minimal errors in grammar and conventions, which align with the observed Overall score of 5.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows controlled organization and varied sentence structures, which align with the observed score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 5,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a flexible and effective use of a full range of syntactic structures, which aligns with the observed score of 5."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows a sufficient range of vocabulary to allow flexibility and precision, which aligns with the observed score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates an appropriate use of a variety of phrases, such as idioms and collocations, which aligns with the observed score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 5,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows command of grammar and usage with few or no errors, which aligns with the observed score of 5."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 5,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates consistent use of appropriate conventions to convey meaning, which aligns with the observed score of 5."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

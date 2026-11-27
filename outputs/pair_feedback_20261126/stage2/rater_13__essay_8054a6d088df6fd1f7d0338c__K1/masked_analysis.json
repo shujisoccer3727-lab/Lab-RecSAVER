@@ -1,0 +1,86 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a mix of minor errors in grammar and syntax, adequate vocabulary, and generally controlled organization tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_8a860c1c369200f05b07d7d8",
+          "quotes": [
+            "\"It's a bad idea to said that first impressions are almost impossible to change.\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 2,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay contains minor grammatical errors and limited vocabulary, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_539c991b479db5f84e9be8a9",
+          "quotes": [
+            "\"Do you think working in groups is more easier?\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a higher level of proficiency, with fewer errors and more varied vocabulary, consistent with an Overall score of 4."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is based on two essays, which may not be sufficient to establish a stable preference."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "\"Do you like to spend time outside? What kind of activity do you like to enjoy? If you want to enjoy outdoors then you should start going outside and enjoying some activitys too because some people enjoy playing and hanging out with their friends and some people try out sports.\""
+      ],
+      "observable_feature": "The essay contains minor grammatical errors and limited vocabulary, with generally controlled organization.",
+      "evaluative_interpretation": "The essay demonstrates a level of proficiency consistent with an Overall score of [MASK], with minor errors and adequate vocabulary.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text organization is generally controlled, with a range of cohesive devices used appropriately, consistent with a Cohesion score of [MASK].",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates a level of proficiency consistent with an Overall score of [MASK], with minor errors in grammar and syntax, adequate vocabulary, and generally controlled organization. This is consistent with the observed scores and the pattern observed in the history.",
+  "insufficient_evidence": []
+}

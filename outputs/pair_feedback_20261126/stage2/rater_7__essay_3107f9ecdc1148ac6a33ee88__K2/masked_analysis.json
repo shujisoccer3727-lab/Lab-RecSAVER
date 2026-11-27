@@ -1,0 +1,96 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax"
+      ],
+      "pattern": "Essays with generally controlled organization and occasional errors in sentence formation tend to receive a Cohesion score of 3 and a Syntax score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_47882f4c789d4b4f9a018d1a",
+          "quotes": [
+            "Everyone goes to tough times which cuases failure, but once you fail you get up and better your self in order to succed."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3
+            }
+          },
+          "interpretation": "The essay shows generally controlled organization with occasional errors in sentence formation, consistent with the observed scores."
+        },
+        {
+          "history_essay_id": "essay_c5ed1eb2265344005456b10e",
+          "quotes": [
+            "I would go to Jamica because there are many places to go to do activites like a mountain or a beach."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4
+            }
+          },
+          "interpretation": "The essay demonstrates generally controlled organization with occasional errors in sentence formation, consistent with the observed scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax"
+      ],
+      "quotes": [
+        "Students believe in praising them builds their self esttem,even when the work is not at its full potential.But others say giveb praise for deficient work undermines the learning by lowering standards"
+      ],
+      "observable_feature": "The sentence structure is complex with occasional errors in sentence formation and punctuation.",
+      "evaluative_interpretation": "The sentence demonstrates generally controlled organization with occasional errors in sentence formation, consistent with a Cohesion score of [MASK] and a Syntax score of [MASK].",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text shows a range of cohesive devices used appropriately, with occasional errors in sentence formation, aligning with the rubric for Cohesion and Syntax.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Vocabulary"
+      ],
+      "quotes": [
+        "Praising a student builds their self esteem by making them feel good about the work that has been done."
+      ],
+      "observable_feature": "The vocabulary used is minimally adequate for the topic, with no precise use of subtle word meanings.",
+      "evaluative_interpretation": "The vocabulary demonstrates a minimally adequate range for the topic, consistent with a Vocabulary score of [MASK].",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The text uses a minimally adequate range of vocabulary for the topic, with no precise use of subtle word meanings, aligning with the rubric for Vocabulary.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T3",
+      "dimensions": [
+        "Phraseology"
+      ],
+      "quotes": [
+        "Praising students who produce deficient work encourages them to produce better the next time work is been given to them."
+      ],
+      "observable_feature": "The phraseology is evident but with limited variety, showing some repetitions and misuses of phrases.",
+      "evaluative_interpretation": "The phraseology demonstrates limited variety with some repetitions and misuses of phrases, consistent with a Phraseology score of [MASK].",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The text uses a narrow range of phrases to convey basic meaning, with many repetitions and misuses, aligning with the rubric for Phraseology.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates generally controlled organization with occasional errors in sentence formation, consistent with a Cohesion score of [MASK] and a Syntax score of [MASK]. The vocabulary is minimally adequate for the topic, consistent with a Vocabulary score of [MASK]. The phraseology shows limited variety with some repetitions and misuses, consistent with a Phraseology score of [MASK]. These observations align with the observed scores and the rater's history.",
+  "insufficient_evidence": []
+}

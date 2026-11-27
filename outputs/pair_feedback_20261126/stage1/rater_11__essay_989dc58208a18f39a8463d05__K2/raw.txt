@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_989dc58208a18f39a8463d05",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with moderate control over text organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary receive scores around 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_7931f3c00f789a5697a5b58d",
+            "quotes": ["\"I think you should seek guidance from those that have been through this experience before you for a ever long time.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows moderate control over text organization and occasional errors in sentence formation, consistent with a score of 3."
+          },
+          {
+            "history_essay_id": "essay_a690517b2f90c0b240a75b89",
+            "quotes": ["\"Many people believe that is better to work alone because they will concentrate more.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates a higher level of control over text organization and a wider range of vocabulary, consistent with a score of 4."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_7012f54d55015706d1ad1ea0",
+            "quotes": ["\"Well my opinion for this cuestion is was you need to do frist have in one aponment.\""],
+            "interpretation": "This essay shows less control over text organization and more frequent errors, consistent with a score of 2."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["\"students would focus better if they did not have a other classmate talking to them.\""],
+        "observable_feature": "The essay demonstrates moderate control over text organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary.",
+        "evaluative_interpretation": "This is consistent with a score of 3, as the text shows some control over organization and a range of vocabulary, but with occasional errors.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The text organization is generally controlled, with a range of vocabulary used, but with some errors in sentence formation and word choice.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay shows moderate control over text organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary, consistent with a score of 3. This is supported by the historical pattern observed in essays with similar features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay demonstrates moderate control over text organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary, consistent with an Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows generally controlled organization with a range of cohesive devices used appropriately, consistent with a score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates some sentence variation but with many sentence structure problems, consistent with a score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a minimally adequate range of vocabulary for the topic, consistent with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a variety of phrases, such as idioms and collocations, but with some noticeable repetitions and misuses, consistent with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has some errors in grammar and usage, consistent with a score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows a developing use of conventions with errors in spelling, capitalization, and punctuation that are sometimes distracting, consistent with a score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

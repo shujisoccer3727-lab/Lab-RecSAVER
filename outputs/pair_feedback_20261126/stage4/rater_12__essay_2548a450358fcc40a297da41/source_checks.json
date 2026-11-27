@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 42,
+          "text": "Technology, 21st centuries finest product."
+        },
+        {
+          "span_id": "S21",
+          "paragraph_id": "P5",
+          "start": 2395,
+          "end": 2511,
+          "text": "Finally all these great inventions, all of these dazzling things took our attention and isolated us from the others."
+        }
+      ],
+      "reconstructed_quotes": [
+        "Technology, 21st centuries finest product.",
+        "Finally all these great inventions, all of these dazzling things took our attention and isolated us from the others."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S21"
+      ],
+      "feature": "The essay begins with a statement about technology being a product of the 21st century and ends with a reflection on how technology has isolated people from each other.",
+      "scoring_relevance": "This feature shows that the essay has a clear opening and closing that relate to the topic of technology's impact on society, which is relevant to the cohesion dimension.",
+      "limitation": "The opening and closing statements alone do not establish the overall coherence of the essay. Further analysis of the middle paragraphs is needed to determine if the essay maintains a cohesive argument throughout.",
+      "next_check": "Review the middle paragraphs to see if they consistently develop the argument about technology's impact on social life and if they connect back to the opening and closing statements.",
+      "quotes": [
+        "Technology, 21st centuries finest product.",
+        "Finally all these great inventions, all of these dazzling things took our attention and isolated us from the others."
+      ]
+    }
+  ]
+}

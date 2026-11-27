@@ -1,0 +1,84 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with controlled organization, varied sentence structures, and minimal errors tend to receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_e6fd54937e6a3da25c2aeab2",
+          "quotes": [
+            "I believe working alone is better because, people won't be bothering you, you can listen to music, and also you can work on your own pace."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay shows controlled organization and varied sentence structures, but with some errors, consistent with a score of 3."
+        },
+        {
+          "history_essay_id": "essay_8054a6d088df6fd1f7d0338c",
+          "quotes": [
+            "The first reason why someone might find activitys enjoyable is because someone can enjoy playing with their friends or hanging out with them."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and varied sentence structures with minimal errors, consistent with a score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is based on a limited number of essays and may not fully represent the rater's preferences."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "First, the reason I would like to visit Germany is to see all the famous places and the landmarks that are all around Germany like the Rathausplatz, which is a plaza in Germany where they have a clock called the Glockenspiel, the special thing about the Glockenspiel is when it hits noon, the bells ring and tiny little figures dance and play music around the clock for some time."
+      ],
+      "observable_feature": "The essay demonstrates controlled organization, varied sentence structures, and minimal errors.",
+      "evaluative_interpretation": "This feature is consistent with a high score, as it shows a well-controlled text organization and a range of syntactic structures.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text organization is well controlled, and a range of cohesive devices are used appropriately, consistent with the rubric for a score of 5.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates controlled organization, varied sentence structures, and minimal errors, consistent with the pattern observed in the history essays. This evidence supports the observed high scores.",
+  "insufficient_evidence": []
+}

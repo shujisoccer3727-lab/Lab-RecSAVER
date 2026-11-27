@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_13",
+  "target_essay_id": "essay_a1529bcd15e8ea2f608c49ef",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "pattern": "Essays with a range of cohesive devices, varied vocabulary, and appropriate phraseology tend to receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_8bd5008f795841fd07042ef2",
+            "quotes": ["\"As a student myself, I think students would benefit from attending classes from home, because attending classes can help students manage their own time and learn how to self control, and can follow their own pace of learning.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 5,
+              "Traits": {
+                "Cohesion": 4,
+                "Vocabulary": 5,
+                "Phraseology": 5
+              }
+            },
+            "interpretation": "The essay demonstrates a range of cohesive devices and varied vocabulary, which aligns with the higher scores."
+          },
+          {
+            "history_essay_id": "essay_736c97018ee5429ef6ecbb50",
+            "quotes": ["\"First impressions are clearly not the best ones, but we can always make a choice on wheather change them or not.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3
+              }
+            },
+            "interpretation": "The essay lacks a range of cohesive devices and varied vocabulary, which aligns with the lower scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The sample size is small, and the comparison is based on two essays."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "quotes": ["\"Firstly the school board shouldn't add a hour and a half to school because after school activities would be longer. If after school activities have to be longer because of the school board adding a hour and a half to the school time. That means that less people are going to do after school activities.\""],
+        "observable_feature": "The essay uses a range of cohesive devices and varied vocabulary.",
+        "evaluative_interpretation": "The use of cohesive devices and varied vocabulary supports a higher score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay demonstrates a range of cohesive devices and varied vocabulary, which aligns with the rubric for a score of 4.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates a range of cohesive devices and varied vocabulary, which aligns with the higher scores observed in the history. This supports the observed Overall score of 4.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 4,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The essay demonstrates a range of cohesive devices and varied vocabulary, which aligns with the rubric for a score of 4. The observed Overall score of 4 is consistent with these features.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a range of cohesive devices, which aligns with the rubric for a score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates some sentence structure problems, which aligns with the rubric for a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary, which aligns with the rubric for a score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates appropriate use of a variety of phrases, which aligns with the rubric for a score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 4,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates minimal errors in grammar and usage, which aligns with the rubric for a score of 4."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates generally consistent use of appropriate conventions, which aligns with the rubric for a score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_81aa085b702d206e5f30f7f4",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax"],
+        "pattern": "Essays with frequent errors in sentence structure and cohesion receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_56b47af1153e7884e4a981e9",
+            "quotes": ["Students working from home is good for kids that could be getting buliud either they speack up but dont see a change, having problems with adults here at school that don't really help much but just bring the student down, or maybe just being an anti socicl person."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3
+              }
+            },
+            "interpretation": "The essay has frequent errors in sentence structure and cohesion, consistent with a lower score."
+          },
+          {
+            "history_essay_id": "essay_f3f5c6ca82999e9712ff95dc",
+            "quotes": ["Student will get help from any grade level kids.When a new kid come to the school any higher grade tell where to go."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2
+              }
+            },
+            "interpretation": "The essay has frequent errors in sentence structure and cohesion, consistent with a lower score."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax"],
+        "quotes": ["P.e is my favorite educational activity because i mostly enjoy it.Because all my friends are in that class.The most thing i do in that class is play basketball which i am trash at it but i still play with the boys and i enjoy the time ."],
+        "observable_feature": "The text contains frequent errors in sentence structure and cohesion, such as run-on sentences and missing punctuation.",
+        "evaluative_interpretation": "These errors interfere with the clarity and coherence of the text, which is consistent with a lower score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for Cohesion and Syntax at level 2 indicates pervasive and basic errors in sentence structure and word order that cause confusion, which aligns with the observed errors.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay exhibits frequent errors in sentence structure and cohesion, similar to the lower-scoring essays in the history. This is consistent with the observed scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The target essay's frequent errors in sentence structure and cohesion align with the observed Overall score of 2. The Trait scores for Cohesion and Syntax are consistent with the rubric for level 2, indicating pervasive and basic errors.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The frequent errors in sentence structure and cohesion align with the rubric for level 2, indicating pervasive and basic errors."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The frequent errors in sentence structure and cohesion align with the rubric for level 2, indicating pervasive and basic errors."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The vocabulary range is minimally adequate, with some attempts to use less common vocabulary but with some inaccuracy, consistent with the rubric for level 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The use of phrases is evident but without much variety, with some noticeable repetitions and misuses, consistent with the rubric for level 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay contains some errors in grammar and usage, consistent with the rubric for level 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": [],
+        "alignment": "The use of conventions is variable, with frequent and distracting errors in spelling, capitalization, and punctuation, consistent with the rubric for level 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The Trait scores for Vocabulary and Phraseology are higher than the Overall score, which may indicate that these aspects are not as problematic as the sentence structure and cohesion."]
+  }
+}

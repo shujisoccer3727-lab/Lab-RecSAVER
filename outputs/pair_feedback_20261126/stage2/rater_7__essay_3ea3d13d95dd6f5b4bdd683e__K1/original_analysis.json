@@ -1,0 +1,68 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Grammar"
+      ],
+      "pattern": "Essays with generally controlled organization and occasional errors in grammar and usage tend to receive a score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_0271e2a86409af270eb54ec8",
+          "quotes": [
+            "\"Success is not just a dream is a dedication to be engage in everyday activity also success\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Grammar": 3
+            }
+          },
+          "interpretation": "The essay shows generally controlled organization and occasional errors in grammar, consistent with a score of 3."
+        },
+        {
+          "history_essay_id": "essay_378cfd241bf32bd0f8b2be9f",
+          "quotes": [
+            "\"What Ralph Waldo said it's true, you never going to grow big if you don't try new things\""
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Grammar": 3
+            }
+          },
+          "interpretation": "The essay demonstrates generally controlled organization and occasional grammatical errors, consistent with a score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Grammar"
+      ],
+      "quotes": [
+        "\"I think its very important for all students here at Costa Mesa HS/MS to perform community service.\""
+      ],
+      "observable_feature": "The essay demonstrates generally controlled organization with occasional errors in grammar and usage.",
+      "evaluative_interpretation": "The organization is generally controlled, but there are occasional errors in grammar, such as the lack of apostrophes and the incorrect use of 'their' instead of 'there'.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "Consistent with the rubric for a score of 3, the essay shows generally controlled organization and occasional errors in grammar and usage.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay's generally controlled organization and occasional grammatical errors align with the observed scores of 3 for Cohesion and Grammar, consistent with the historical pattern observed in essays with similar features.",
+  "insufficient_evidence": []
+}

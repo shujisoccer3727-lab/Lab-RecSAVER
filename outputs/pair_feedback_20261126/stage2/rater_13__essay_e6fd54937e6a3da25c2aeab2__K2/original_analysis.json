@@ -1,0 +1,88 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Syntax",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent grammatical and syntactic errors, and inconsistent use of conventions, receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_9b43551316b3c07ac8834b51",
+          "quotes": [
+            "Imagine taking four-day school week and having 2 hours more during the school day that will be a big problem for us, we won expend the much time with our family, we need to work in the afternoon to help our parents with money."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Syntax": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay contains frequent grammatical and syntactic errors, and inconsistent use of conventions, which aligns with the observed Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_8054a6d088df6fd1f7d0338c",
+          "quotes": [
+            "Do you like to spend time outside? What kind of activity do you like to enjoy? If you want to enjoy outdoors then you should start going outside and enjoying some activitys too because some people enjoy playing and hanging out with their friends and some people try out sports."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Syntax": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay contains frequent grammatical and syntactic errors, and inconsistent use of conventions, which aligns with the observed Overall score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Syntax",
+        "Conventions"
+      ],
+      "quotes": [
+        "I believe working alone is better because,people won't be bothering you, you can listen to music, and also you can work on your own pace."
+      ],
+      "observable_feature": "The sentence contains a comma splice and lacks proper punctuation.",
+      "evaluative_interpretation": "The sentence demonstrates a lack of control over syntax and conventions, which is consistent with a score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Syntax and Conventions at level 3 indicates some errors in sentence formation and inconsistent use of conventions, which is evident in the target essay.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Overall",
+        "Syntax",
+        "Conventions"
+      ],
+      "quotes": [
+        "Imagaine your teacher gave your class an assignment and you were told you can work alone or you can work in a group. I would work by myself because i find it much easier to work, you don't have to worry about other people rushing you to finish so they can turn it in already or when your trying to listen to music but they're just talking about the most random things so you can't really focus."
+      ],
+      "observable_feature": "The paragraph contains multiple grammatical errors and lacks coherence.",
+      "evaluative_interpretation": "The paragraph demonstrates a lack of control over syntax and conventions, which is consistent with a score of 3.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Syntax and Conventions at level 3 indicates some errors in sentence formation and inconsistent use of conventions, which is evident in the target essay.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay exhibits frequent grammatical and syntactic errors, and inconsistent use of conventions, which aligns with the observed Overall score of 3. This is consistent with the pattern observed in the history essays, where similar features also received an Overall score of 3.",
+  "insufficient_evidence": []
+}

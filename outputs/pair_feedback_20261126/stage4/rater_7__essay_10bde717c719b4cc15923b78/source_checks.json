@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 153,
+          "text": "Some people feel inspired to the quote \" unless you do something beyond of you have mastered, you will never grow\" written by Author Ralph Waldo Emerson."
+        },
+        {
+          "span_id": "S3",
+          "paragraph_id": "P1",
+          "start": 371,
+          "end": 462,
+          "text": " I say its because to achieve an new goal, to be a bigger person, and discover the unknown."
+        }
+      ],
+      "reconstructed_quotes": [
+        "Some people feel inspired to the quote \" unless you do something beyond of you have mastered, you will never grow\" written by Author Ralph Waldo Emerson.",
+        " I say its because to achieve an new goal, to be a bigger person, and discover the unknown."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S3"
+      ],
+      "feature": "The essay begins with a quote from Ralph Waldo Emerson and then provides a personal interpretation of the quote's meaning.",
+      "scoring_relevance": "This feature is relevant to the Cohesion dimension as it shows the writer's ability to introduce a topic and connect it to their own perspective, establishing a clear link between the quote and the writer's argument.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the initial connection between the quote and the writer's interpretation.",
+      "next_check": "Review the transitions between paragraphs to see if the writer maintains the connection to the initial quote throughout the essay.",
+      "quotes": [
+        "Some people feel inspired to the quote \" unless you do something beyond of you have mastered, you will never grow\" written by Author Ralph Waldo Emerson.",
+        " I say its because to achieve an new goal, to be a bigger person, and discover the unknown."
+      ]
+    }
+  ]
+}

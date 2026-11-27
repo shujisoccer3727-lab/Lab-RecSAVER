@@ -1,0 +1,62 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion"
+      ],
+      "pattern": "Essays with limited cohesive devices receive a Cohesion score of 2.",
+      "support": [
+        {
+          "history_essay_id": "essay_865e64957ba87e7d8562c06b",
+          "quotes": [
+            "Outdoor activities are enjoyable for everyone people can play outside with they're friends and get a chance to meet some new friends."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2
+            }
+          },
+          "interpretation": "The lack of cohesive devices and the mechanical structure of the sentence support a Cohesion score of 2."
+        },
+        {
+          "history_essay_id": "essay_7931f3c00f789a5697a5b58d",
+          "quotes": [
+            "I think you should seek guidance from those that have been through this experience before you for a ever long time."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 2
+            }
+          },
+          "interpretation": "The sentence lacks cohesive devices and has a repetitive structure, supporting a Cohesion score of 2."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion"
+      ],
+      "quotes": [
+        "There are some food that is being served to the students that is not healthy at all."
+      ],
+      "observable_feature": "The sentence lacks cohesive devices and has a repetitive structure.",
+      "evaluative_interpretation": "This supports a Cohesion score of [MASK], consistent with the observed score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Cohesion score [MASK] indicates limited use of cohesive devices and repetitive structure.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay's limited use of cohesive devices and repetitive structure, as seen in the quoted sentence, aligns with the observed Cohesion score of [MASK]. This pattern is consistent with the rater's history, where similar features in other essays also received a Cohesion score of 2.",
+  "insufficient_evidence": []
+}

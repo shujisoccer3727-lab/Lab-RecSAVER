@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "essay_10bde717c719b4cc15923b78",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "pattern": "Essays with limited cohesive devices, repetitive vocabulary, and limited phraseology tend to receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_08dada50d5b2515068a5bb5a",
+            "quotes": [
+              "friends form school is the reason that students cloud go to school because they will get a good relationship and that mean they have a socialite"
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 3,
+                "Vocabulary": 2,
+                "Phraseology": 2
+              }
+            },
+            "interpretation": "The essay demonstrates limited cohesive devices and repetitive vocabulary, which aligns with the lower scores."
+          },
+          {
+            "history_essay_id": "essay_0314ba6db386642614d33f2d",
+            "quotes": [
+              "Partnership is easier, because if the business doesn't work out, then everyone will take the risk not only one person"
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 2,
+                "Vocabulary": 4,
+                "Phraseology": 3
+              }
+            },
+            "interpretation": "The essay shows limited cohesive devices and repetitive phrases, which aligns with the lower scores in cohesion and phraseology."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_47882f4c789d4b4f9a018d1a",
+            "quotes": [
+              "Failure is just meant to be a lesson for the next time so you can fix what you did wrong and work harder"
+            ],
+            "interpretation": "This essay has better cohesive devices and varied vocabulary, which weakens the pattern but does not invalidate it."
+          }
+        ],
+        "limitations": [
+          "The pattern is not consistent across all essays, suggesting that other factors may also influence the scores."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "quotes": [
+          "Some people feel inspired to the quote \" unless you do something beyond of you have mastered, you will never grow\" written by Author Ralph Waldo Emerson"
+        ],
+        "observable_feature": "The essay demonstrates limited cohesive devices and repetitive vocabulary.",
+        "evaluative_interpretation": "The limited cohesive devices and repetitive vocabulary suggest a lower score in cohesion and vocabulary.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for Cohesion and Vocabulary indicates that limited control and repetitive use of phrases and words lead to lower scores.",
+        "uncertainty": "The essay's overall coherence and vocabulary range are somewhat underdetermined by this single quote."
+      }
+    ],
+    "decision_explanation": "The essay's limited cohesive devices and repetitive vocabulary, as seen in T1, align with the lower scores observed in cohesion and vocabulary, consistent with the pattern H1 from the rater's history.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 2,
+        "Grammar": 2,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The observed Overall score of 3 is consistent with the essay's limited cohesive devices, repetitive vocabulary, and occasional errors in grammar and syntax.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates limited cohesive devices, which aligns with the observed score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows a minimally adequate range of vocabulary, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay uses a narrow range of phrases, which aligns with the observed score of 2."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": [],
+        "alignment": "The essay contains some errors in grammar and usage, which aligns with the observed score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": [
+      "The essay's overall coherence and vocabulary range are somewhat underdetermined by the available evidence."
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_a690517b2f90c0b240a75b89",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with clear organization, varied sentence structures, and a range of vocabulary and phrases tend to receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_eeb87df489f116eb7f0767b9",
+            "quotes": [
+              "\"Firstly honesty is the best policy, because it builds a good relationship.\"",
+              "\"Secondly, honesty is the best policy, because it builds trustworthiness.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates clear organization and varied sentence structures, which align with the higher scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_7012f54d55015706d1ad1ea0",
+            "quotes": [
+              "\"Well my opinion for this cuestion is was you need to do frist have in one aponment.\""
+            ],
+            "interpretation": "This essay lacks clear organization and varied sentence structures, which aligns with the lower scores."
+          }
+        ],
+        "limitations": []
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "\"First, working in groups help the people to improve in school or at work because they learn new things.\"",
+          "\"Second, working in groups help the people improve because they will understand better.\""
+        ],
+        "observable_feature": "The essay demonstrates clear organization and varied sentence structures.",
+        "evaluative_interpretation": "The clear organization and varied sentence structures support a higher score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay shows a range of vocabulary and phrases, which aligns with the rubric for higher scores.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates clear organization and varied sentence structures, which aligns with the higher scores observed in the history. This supports the observed Overall score of 4.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 4,
+        "Vocabulary": 4,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay demonstrates clear organization and varied sentence structures, which aligns with the observed Overall score of 4.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates clear organization, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates varied sentence structures, which aligns with the observed score of 4."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a range of vocabulary, which aligns with the observed score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a range of phrases, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates minimal errors in grammar, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates generally consistent use of conventions, which aligns with the observed score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

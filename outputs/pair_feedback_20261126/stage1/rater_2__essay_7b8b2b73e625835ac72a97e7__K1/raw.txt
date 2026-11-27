@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_2",
+  "target_essay_id": "essay_7b8b2b73e625835ac72a97e7",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "pattern": "Essays with generally controlled organization, sufficient vocabulary range, and appropriate use of phrases receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_598724e5b862459ca01d3ff2",
+            "quotes": ["In this essay I will discuss as to why curfews could be a necessary law for teenagers."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Vocabulary": 4,
+                "Phraseology": 4
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and a sufficient vocabulary range, which aligns with a higher score."
+          },
+          {
+            "history_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+            "quotes": ["To graduate in three years is not imposible when you have the time and the bocation to do it"],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Vocabulary": 4,
+                "Phraseology": 3
+              }
+            },
+            "interpretation": "The essay shows controlled organization and a sufficient vocabulary range, which aligns with a score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern does not account for essays with significant syntactic or grammatical errors."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "quotes": ["In a way failure can be a lession and I mean is by without feeling failure than what did you really learn from pursuiting to getting what you want."],
+        "observable_feature": "The essay demonstrates generally controlled organization, sufficient vocabulary range, and appropriate use of phrases.",
+        "evaluative_interpretation": "This feature aligns with a score of 3, as the essay shows controlled organization and a sufficient vocabulary range.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay's controlled organization and sufficient vocabulary range align with the rubric's description for a score of 3.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": ["Syntax"],
+        "quotes": ["Have you ever keep making or do something but it always ends up in failure, well that will happen but if you are trying to do something that you really love than don't stop trying even if you fail at it."],
+        "observable_feature": "The essay contains frequent errors in sentence structure and word order.",
+        "evaluative_interpretation": "This feature aligns with a score of 2, as the essay shows many sentence structure problems.",
+        "linked_history_pattern_ids": [],
+        "rubric_connection": "The essay's frequent errors in sentence structure and word order align with the rubric's description for a score of 2.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates generally controlled organization, sufficient vocabulary range, and appropriate use of phrases, which aligns with a score of 3. However, frequent errors in sentence structure and word order align with a score of 2. The overall score of 3 likely reflects a balance between these features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 4,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The essay's generally controlled organization, sufficient vocabulary range, and appropriate use of phrases align with a score of 3. However, frequent errors in sentence structure and word order align with a score of 2. The overall score of 3 likely reflects a balance between these features.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally controlled organization, which aligns with a score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T2"],
+        "alignment": "The essay contains frequent errors in sentence structure and word order, which aligns with a score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a sufficient vocabulary range, which aligns with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates appropriate use of phrases, which aligns with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 4,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates minimal errors in grammar and usage, which aligns with a score of 4."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates variable use of conventions, with frequent and distracting errors in spelling, capitalization, and punctuation, which aligns with a score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The essay's frequent errors in sentence structure and word order contrast with the higher scores in other dimensions, making the overall score of 3 somewhat underdetermined."]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent grammatical errors, poor sentence structure, and inconsistent conventions tend to receive lower Overall scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_926396d210817c7d960bd53a",
+          "quotes": [
+            "It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the schedule and more Students will likely to pass the classes and both elective and art have the same principle with the same accomplishment."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Syntax": 2,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay contains numerous grammatical errors, poor sentence structure, and inconsistent conventions, which align with the lower Overall score."
+        },
+        {
+          "history_essay_id": "essay_51b993c68e160a83a1ace3d7",
+          "quotes": [
+            "Being that I am enrolled in many classes that teach me most of what I'll need to know in the career I am pursuing, It'll maybe put me ahead of the pack wanting the same as I."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Syntax": 4,
+              "Grammar": 5,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates better control over grammar and conventions, which aligns with a higher Overall score."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_bdeee4699532dec8dfaea224",
+          "quotes": [
+            "Therefore, I choose your company because I feel like its great for me to start working in a place that i could be conformable with."
+          ],
+          "interpretation": "Despite some grammatical errors, the essay receives a higher Overall score, suggesting that other factors may also influence the score."
+        }
+      ],
+      "limitations": [
+        "The pattern is not consistent across all essays, indicating that other factors may also influence the Overall score."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "In this reason however l goona be agree with a positive attitude is the key to success in life because people in the all word the majority they dont have positive attitude so l am agree with people the have positive attitude,"
+      ],
+      "observable_feature": "The sentence structure is poor, with grammatical errors and inconsistent conventions.",
+      "evaluative_interpretation": "This feature is consistent with a lower Overall score, as it indicates limited control over language and frequent errors.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Overall score 2 indicates frequent errors in grammar and usage that impede communication.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Cohesion"
+      ],
+      "quotes": [
+        "somethings people always are angry for nah reason but they never know for other people they are bad person`s and they affect people`s around they are not agree, they have to change with the time because if nah good"
+      ],
+      "observable_feature": "The text lacks clear logical sequencing and cohesive devices, leading to a disjointed narrative.",
+      "evaluative_interpretation": "This feature is consistent with a Cohesion score of 3, indicating that while there is some control over organization, the use of cohesive devices is limited and sometimes faulty.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The rubric for Cohesion score 3 indicates generally controlled organization but with some repetitive or faulty use of cohesive devices.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay exhibits frequent grammatical errors, poor sentence structure, and inconsistent conventions, which align with the lower Overall score of 2. The Cohesion score of 3 is supported by the text's generally controlled organization but limited use of cohesive devices.",
+  "insufficient_evidence": []
+}

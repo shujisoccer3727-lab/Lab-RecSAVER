@@ -1,0 +1,80 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "pattern": "Essays with a wide range of vocabulary and appropriate use of phrases receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_47882f4c789d4b4f9a018d1a",
+          "quotes": [
+            "Everyone goes to tough times which cuases failure, but once you fail you get up and better your self in order to succed."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Vocabulary": 4,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay demonstrates a wide range of vocabulary and appropriate use of phrases, consistent with the observed scores."
+        },
+        {
+          "history_essay_id": "essay_3ea3d13d95dd6f5b4bdd683e",
+          "quotes": [
+            "Their are many places in the cities that need help it will be great that all students take part in community service."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Vocabulary": 3,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay shows a moderate range of vocabulary and appropriate use of phrases, consistent with the observed scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "quotes": [
+        "\"a problem is a chance for you to do your best.\""
+      ],
+      "observable_feature": "The essay includes a quote from Duke Ellington, demonstrating the use of a well-known phrase.",
+      "evaluative_interpretation": "The use of a well-known phrase suggests a wide range of vocabulary and appropriate phraseology.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Vocabulary and Phraseology at level 4 indicates a sufficient range of vocabulary and appropriate use of phrases.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Cohesion"
+      ],
+      "quotes": [
+        "Problems happen to everyone, the real deal comes to how you will respond to it."
+      ],
+      "observable_feature": "The essay repeats the same idea in different parts, indicating a lack of cohesive devices.",
+      "evaluative_interpretation": "The repetition of ideas without cohesive devices suggests limited control of organization.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The rubric for Cohesion at level 2 indicates limited control of organization and repetitive use of cohesive devices.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates a wide range of vocabulary and appropriate use of phrases, consistent with the observed scores of 4 in Vocabulary and Phraseology. However, the essay lacks cohesive devices, which is consistent with the lower score of 2 in Cohesion.",
+  "insufficient_evidence": []
+}

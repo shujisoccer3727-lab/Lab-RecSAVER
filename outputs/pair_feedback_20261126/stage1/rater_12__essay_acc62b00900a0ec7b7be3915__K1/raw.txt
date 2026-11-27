@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_acc62b00900a0ec7b7be3915",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with controlled organization, varied vocabulary, and occasional errors in grammar and conventions tend to receive an Overall score of 4.",
+        "support": [
+          {
+            "history_essay_id": "essay_8054a6d088df6fd1f7d0338c",
+            "quotes": ["Do you like to spend time outside? What kind of activity do you like to enjoy? If you want to enjoy outdoors then you should start going outside and enjoying some activitys too because some people enjoy playing and hanging out with their friends and some people try out sports."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay shows controlled organization and varied vocabulary but with occasional errors, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_c95defab5898fc1613b26c7c",
+            "quotes": ["Trying to conserve energy and resources, some businesses have adopted a four-day work week, with each day consisting of ten hours. Should schools follow this model by extending the school day two hours? Do you think is that a good idea? In my opinion, schools should not follow this model because it does not help enough to conserve resources, too much time in school could be frustrate, and students need time for after school activities."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and varied vocabulary but with occasional errors, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_83ab7bdbeedd61b6ecdd126b",
+            "quotes": ["Community parks provide a lot of fun ways to spend time outdoors. One of my three favorite ways to spend time outside would be playing sports, gardening and exercising. It's a productive way to spend your weekends."],
+            "interpretation": "This essay shows a higher level of proficiency, with a more varied vocabulary and fewer errors, consistent with an Overall score of 5."
+          }
+        ],
+        "limitations": ["The pattern is supported by essays with Overall scores of 3, but the target essay's score of 4 suggests a higher level of proficiency."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["The most enjoyable way to spend time outdoors is to hanging out with friends, spend time with family, and do fun activities or games outdoors. These are a few things to do in a sunny day outdoors."],
+        "observable_feature": "The essay demonstrates controlled organization, varied vocabulary, and occasional errors in grammar and conventions.",
+        "evaluative_interpretation": "The controlled organization and varied vocabulary are consistent with an Overall score of 4, while the occasional errors in grammar and conventions are also consistent with this score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay shows facility in the use of language with syntactic variety and a range of words and phrases, controlled organization, and accuracy in grammar and conventions with occasional language inaccuracies that rarely impede communication.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates controlled organization, varied vocabulary, and occasional errors in grammar and conventions, consistent with the observed Overall score of 4. This pattern is supported by the history essays with Overall scores of 3, which also show controlled organization and varied vocabulary but with occasional errors.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 4,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's controlled organization, varied vocabulary, and occasional errors in grammar and conventions are consistent with the observed Overall score of 4. The Trait scores are also consistent with this interpretation.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally well-controlled organization with a range of cohesive devices used appropriately, consistent with a Cohesion score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows appropriate use of a variety of syntactic structures, with occasional errors or inappropriateness in sentence formation, consistent with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary to allow flexibility and precision, with appropriate use of topic-related terms and less common lexical items, consistent with a Vocabulary score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows appropriate use of a variety of phrases, such as idioms, collocations, and lexical bundles, with occasional inaccuracies, consistent with a Phraseology score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates minimal errors in grammar and usage, consistent with a Grammar score of 4."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows developing use of conventions to convey meaning, with errors in spelling, capitalization, and punctuation that are sometimes distracting, consistent with a Conventions score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

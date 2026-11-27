@@ -1,0 +1,66 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with a wide range of vocabulary, varied sentence structures, and appropriate use of cohesive devices tend to receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_99e2936b1dd396e9cba66e5b",
+          "quotes": [
+            "When people ask for advice, it can help someone make a better choice because, it can change your thinking, it can give you a better idea, and you can know what other people are thinking."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "This essay demonstrates a wide range of vocabulary and varied sentence structures, which aligns with the higher scores observed."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by only one essay, limiting its generalizability."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Do we choose our own character traits or is our character formed by influences beyond our control? In my opinion we do choose our own traits, Here's why."
+      ],
+      "observable_feature": "The essay demonstrates a wide range of vocabulary, varied sentence structures, and appropriate use of cohesive devices.",
+      "evaluative_interpretation": "The essay shows a flexible and effective use of a wide range of vocabulary and varied sentence structures, which supports a higher score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay aligns with the rubric criteria for a score of [MASK], showing a sufficient range of vocabulary, varied sentence structures, and appropriate use of cohesive devices.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates a wide range of vocabulary, varied sentence structures, and appropriate use of cohesive devices, which aligns with the higher scores observed in the history essay 'essay_99e2936b1dd396e9cba66e5b'. This supports the observed Overall score of [MASK].",
+  "insufficient_evidence": []
+}

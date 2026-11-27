@@ -1,0 +1,108 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent errors in grammar, syntax, and vocabulary, and limited cohesive devices receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_5c261ba25f1fd7836218065c",
+          "quotes": [
+            "Even thought, example are more advantages and influence to other. Examples make the people to understand the idea."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 2,
+            "Traits": {
+              "Cohesion": 2,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 2,
+              "Grammar": 2,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay contains frequent grammatical and syntactic errors, limited vocabulary, and repetitive cohesive devices, consistent with a lower score."
+        },
+        {
+          "history_essay_id": "essay_b819379406aa9abe86991ac7",
+          "quotes": [
+            "If that was me I would prefer to go to the mall or the store to. When you go to the stores sometimes you have to handle some workers that are aggressive and they have a bad attitude."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 2,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay has some grammatical and syntactic errors, limited vocabulary, and repetitive cohesive devices, consistent with a moderate score."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Some school offer programs that allow high school students to graduate in tree years instead traditional four years."
+      ],
+      "observable_feature": "The sentence contains grammatical errors and limited vocabulary.",
+      "evaluative_interpretation": "The sentence demonstrates limited control over grammar and vocabulary, which is consistent with a lower score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Overall score 2 indicates frequent errors in grammar and vocabulary that impede communication.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "One reason that I agree with this chance that this programs it is offering. because must students like me need to take the high school diploma and try go to college or try to find job."
+      ],
+      "observable_feature": "The sentence has grammatical errors and limited cohesive devices.",
+      "evaluative_interpretation": "The sentence demonstrates limited control over grammar and cohesive devices, which is consistent with a lower score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for Overall score 2 indicates limited control over cohesive devices and frequent errors in grammar.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay contains frequent grammatical errors, limited vocabulary, and repetitive cohesive devices, consistent with the pattern observed in the history essays. The observed Overall score of 2 is consistent with the rubric criteria for frequent errors in grammar and vocabulary that impede communication.",
+  "insufficient_evidence": []
+}

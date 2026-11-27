@@ -1,0 +1,109 @@
+{
+  "changes": [
+    {
+      "path": "/target_evidence/0/rubric_connection",
+      "before": "The rubric for Overall score 2 indicates inconsistent facility in sentence formation and word choice, which is evident in the target essay.",
+      "after": "The rubric for Overall score [MASK] indicates inconsistent facility in sentence formation and word choice, which is evident in the target essay.",
+      "value_spans": [
+        {
+          "start": 29,
+          "end": 30,
+          "value": "2",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    },
+    {
+      "path": "/decision_explanation",
+      "before": "The target essay exhibits frequent syntactic errors and limited sentence variety, consistent with the observed Overall score of 2. This pattern is supported by the history essay 'essay_926396d210817c7d960bd53a', which also received a similar score.",
+      "after": "The target essay exhibits frequent syntactic errors and limited sentence variety, consistent with the observed Overall score of [MASK]. This pattern is supported by the history essay 'essay_926396d210817c7d960bd53a', which also received a similar score.",
+      "value_spans": [
+        {
+          "start": 128,
+          "end": 129,
+          "value": "2",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 2,
+  "changed_fields": 2,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "reason": "Scores explicitly attributed to a valid supplied history ID"
+    },
+    {
+      "path": "/history_patterns/0/support/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/history_patterns/0/support/1/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/1/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    }
+  ],
+  "quarantine": [
+    {
+      "path": "/history_patterns/0/support/1/history_essay_id",
+      "kind": "invalid_history_reference",
+      "text": "essay_1c3c1934d148a5d8acdae7ce",
+      "action": "quarantine; not automatically rewritten"
+    },
+    {
+      "path": "/history_patterns/0/support/1/relevant_observed_history_scores",
+      "kind": "unverified_history_score_attribution",
+      "text": "{\"Overall\": 2, \"Traits\": {\"Syntax\": 2}}",
+      "action": "quarantine; not automatically rewritten"
+    },
+    {
+      "kind": "invalid_or_self_history_id",
+      "path": "essay_1c3c1934d148a5d8acdae7ce"
+    }
+  ],
+  "automatic_pass": false,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

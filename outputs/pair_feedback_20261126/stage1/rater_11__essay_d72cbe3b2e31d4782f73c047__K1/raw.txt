@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_d72cbe3b2e31d4782f73c047",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with a clear structure, varied vocabulary, and minimal errors tend to receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_837b28e168c36c93843c90ae",
+            "quotes": ["A lot of students want to take their time off to think what their careers will be, so they continue their education to go to college and experience how life is like outside and how to take care of responsibility."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates a clear structure and varied vocabulary, which aligns with the higher Overall score."
+          },
+          {
+            "history_essay_id": "essay_7931f3c00f789a5697a5b58d",
+            "quotes": ["I would seek guidance for health problems like depression. Honestly, you could seek guidance for anything."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay has a clear structure and varied vocabulary, but with more errors, which aligns with the lower Overall score."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Overall", "Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["The first reason I agree with the prompt that positive attitude is the key to success because some people gain positive attitude from others the same way they had a positive attitude towards them."],
+        "observable_feature": "The essay demonstrates a clear structure and varied vocabulary with minimal errors.",
+        "evaluative_interpretation": "This feature is consistent with the higher Overall score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The text shows a controlled organization and varied vocabulary, which aligns with the rubric for a score of 4.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a clear structure and varied vocabulary with minimal errors, consistent with the higher Overall score. This aligns with the pattern observed in the history essays, where essays with similar features received higher scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 4,
+        "Vocabulary": 4,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The target essay demonstrates a clear structure and varied vocabulary with minimal errors, which aligns with the observed Overall score of 4. The Trait scores are consistent with the rubric descriptions for a score of 4.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a generally well-controlled organization with a range of cohesive devices used appropriately, which aligns with the rubric for a score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates an appropriate use of a variety of syntactic structures with occasional errors, which aligns with the rubric for a score of 4."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary to allow flexibility and precision, which aligns with the rubric for a score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates an appropriate use of a variety of phrases with occasional inaccuracies, which aligns with the rubric for a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates minimal errors in grammar and usage, which aligns with the rubric for a score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a generally consistent use of appropriate conventions with few errors, which aligns with the rubric for a score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

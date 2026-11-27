@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S7",
+          "paragraph_id": "P2",
+          "start": 690,
+          "end": 819,
+          "text": "As we all know everyone has morals but those morals are influnced by people, such as our friends, family, teachers and coworkers."
+        },
+        {
+          "span_id": "S8",
+          "paragraph_id": "P2",
+          "start": 819,
+          "end": 860,
+          "text": " Ones morals has a big role in character."
+        }
+      ],
+      "reconstructed_quotes": [
+        "As we all know everyone has morals but those morals are influnced by people, such as our friends, family, teachers and coworkers.",
+        " Ones morals has a big role in character."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S7",
+        "S8"
+      ],
+      "feature": "The writer explicitly connects the idea of morals being influenced by people to the role of morals in character building.",
+      "scoring_relevance": "This connection shows the writer's ability to link ideas logically, which is relevant to the cohesion dimension.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the local connection between these ideas.",
+      "next_check": "Review the transitions between paragraphs to see if the writer maintains this level of logical connection throughout the essay.",
+      "quotes": [
+        "As we all know everyone has morals but those morals are influnced by people, such as our friends, family, teachers and coworkers.",
+        " Ones morals has a big role in character."
+      ]
+    }
+  ]
+}

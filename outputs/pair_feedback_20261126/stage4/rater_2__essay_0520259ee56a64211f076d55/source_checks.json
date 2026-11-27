@@ -1,0 +1,59 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 54,
+          "text": "Should the city council change teenagers curfew time ."
+        },
+        {
+          "span_id": "S2",
+          "paragraph_id": "P1",
+          "start": 54,
+          "end": 153,
+          "text": " how would you feel if you had to be home at a certain time and if you don't your breaking the law."
+        },
+        {
+          "span_id": "S3",
+          "paragraph_id": "P1",
+          "start": 153,
+          "end": 263,
+          "text": " The city council shouldnt put a curfew time on teenagers because some teens play sports, and some teens work."
+        }
+      ],
+      "reconstructed_quotes": [
+        "Should the city council change teenagers curfew time .",
+        " how would you feel if you had to be home at a certain time and if you don't your breaking the law.",
+        " The city council shouldnt put a curfew time on teenagers because some teens play sports, and some teens work."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "feature": "The essay contains multiple grammatical errors, such as missing punctuation and incorrect verb forms. For example, in span S1, there is no question mark at the end of the sentence. In span S2, there is a missing period after 'law'. In span S3, 'shouldnt' is written without a space.",
+      "scoring_relevance": "These grammatical errors affect the clarity and readability of the essay, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation is limited to the identified grammatical errors and does not provide a comprehensive assessment of the essay's grammatical accuracy.",
+      "next_check": "Review the remaining text for similar grammatical errors, such as missing punctuation and incorrect contractions.",
+      "quotes": [
+        "Should the city council change teenagers curfew time .",
+        " how would you feel if you had to be home at a certain time and if you don't your breaking the law.",
+        " The city council shouldnt put a curfew time on teenagers because some teens play sports, and some teens work."
+      ]
+    }
+  ]
+}

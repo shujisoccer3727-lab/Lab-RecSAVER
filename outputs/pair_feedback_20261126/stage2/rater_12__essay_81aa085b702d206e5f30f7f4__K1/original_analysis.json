@@ -1,0 +1,71 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent errors in sentence structure, grammar, and conventions tend to receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_f3f5c6ca82999e9712ff95dc",
+          "quotes": [
+            "The school program will the help the a lot of school in state."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Syntax": 2,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The sentence structure and grammar errors in this excerpt align with the lower Trait scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by only one essay, limiting its generalizability."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Syntax",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "P.e is my favorite educational activity because i mostly enjoy it."
+      ],
+      "observable_feature": "The sentence lacks proper capitalization and punctuation, and the structure is simple with no complex clauses.",
+      "evaluative_interpretation": "This sentence demonstrates a lack of syntactic variety and frequent errors in grammar and conventions, which aligns with the observed lower Trait scores.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for scores 2 and 3 indicates frequent errors in sentence structure, grammar, and conventions, which is evident in this excerpt.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Cohesion"
+      ],
+      "quotes": [
+        "P.e is my favorite educational activity because i mostly enjoy it. Because all my friends are in that class."
+      ],
+      "observable_feature": "The use of 'Because' at the start of the second sentence lacks a cohesive transition.",
+      "evaluative_interpretation": "The lack of cohesive devices and the repetitive use of 'Because' suggest a limited control of text organization, consistent with the observed Cohesion score of 2.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The rubric for score 2 indicates a partially developed organization with a lack of logical sequencing of ideas.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay exhibits frequent errors in sentence structure, grammar, and conventions, as seen in evidence T1, which aligns with the observed lower Trait scores. The limited control of text organization, as seen in evidence T2, supports the Cohesion score of 2. These features are consistent with the historical pattern observed in essay_f3f5c6ca82999e9712ff95dc.",
+  "insufficient_evidence": []
+}

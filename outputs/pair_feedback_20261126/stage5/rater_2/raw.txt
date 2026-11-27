@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.5",
+  "rater_id": "rater_2",
+  "pattern_status": "insufficient_evidence",
+  "pattern": null,
+  "pattern_limit": "The provided observations do not establish a consistent pattern of feature-to-evaluation relationship across multiple essays.",
+  "representative_observation_key": "essay_3b9f17fe0fbc82924e5e05cf::O1",
+  "quote_indices": [0, 1],
+  "textual_finding": "The essay contains grammatical errors such as nonstandard verb forms and structures, which can affect the clarity and correctness of the argument.",
+  "evidence_limit": "This observation does not establish the frequency of such errors throughout the essay, only their presence in these specific sentences.",
+  "rubric_review": {
+    "observed_band_ref_id": "Grammar:3",
+    "comparison_band_ref_id": null,
+    "band_assessment": "indeterminate"
+  },
+  "next_check": {
+    "inspect": "Review other sentences in the essay for similar grammatical errors to assess the overall frequency and impact on the argument.",
+    "distinguish": "The frequency and impact of grammatical errors on the overall clarity and correctness of the argument.",
+    "reconsider_if": null
+  }
+}

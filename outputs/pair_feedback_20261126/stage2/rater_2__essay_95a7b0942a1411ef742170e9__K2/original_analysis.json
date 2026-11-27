@@ -1,0 +1,90 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary tend to receive an Overall score of 3.",
+      "support": [
+        {
+          "history_essay_id": "essay_aadbe1b122974c2ac070659b",
+          "quotes": [
+            "Extracurricular activities can affect a student but also can help students."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and occasional errors in sentence formation, consistent with an Overall score of 3."
+        },
+        {
+          "history_essay_id": "essay_0520259ee56a64211f076d55",
+          "quotes": [
+            "if there was a curfew for teen some wouldnt be able to work."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay shows controlled organization and a minimally adequate range of vocabulary, consistent with an Overall score of 3."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_ed918c3154eda0c8f90251c4",
+          "quotes": [
+            "I think we can control our character traits."
+          ],
+          "interpretation": "This essay has a more controlled organization and a wider range of vocabulary, which received an Overall score of 4, suggesting that the rater may give higher scores for more sophisticated language use."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Your character can be influenced by many things like your childhood, the people around you, also the internet."
+      ],
+      "observable_feature": "The essay demonstrates controlled organization with occasional errors in sentence formation and a minimally adequate range of vocabulary.",
+      "evaluative_interpretation": "This feature is consistent with an Overall score of 3, as it shows controlled organization but with some errors and limited vocabulary.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The text organization is generally controlled, and there are occasional errors in sentence formation and a limited range of vocabulary, which aligns with the rubric for an Overall score of 3.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay demonstrates controlled organization with occasional errors in sentence formation and a minimally adequate range of vocabulary, consistent with the rater's history of assigning an Overall score of 3 to similar essays.",
+  "insufficient_evidence": []
+}

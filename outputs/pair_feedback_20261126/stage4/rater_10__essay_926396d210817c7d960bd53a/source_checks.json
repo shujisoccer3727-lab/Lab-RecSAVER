@@ -1,0 +1,81 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 114,
+          "text": "It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the"
+        }
+      ],
+      "reconstructed_quotes": [
+        "It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the"
+      ],
+      "semantic_support_not_certified": true
+    },
+    {
+      "index": 1,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 114,
+          "text": "It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the"
+        },
+        {
+          "span_id": "S2",
+          "paragraph_id": "P2",
+          "start": 118,
+          "end": 231,
+          "text": "schedule and more Students will likely to pass the classes and both elective and art have the same principle with"
+        }
+      ],
+      "reconstructed_quotes": [
+        "It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the",
+        "schedule and more Students will likely to pass the classes and both elective and art have the same principle with"
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S1"
+      ],
+      "feature": "The sentence contains multiple grammatical errors, including missing articles and incorrect verb forms.",
+      "scoring_relevance": "These errors affect the clarity and correctness of the sentence, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation is limited to the first sentence and does not provide a comprehensive view of the essay's grammatical accuracy.",
+      "next_check": "Review other sentences in the essay to check for similar grammatical errors.",
+      "quotes": [
+        "It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the"
+      ]
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S2"
+      ],
+      "feature": "The first two sentences are connected by a logical progression, with the second sentence elaborating on the benefits of elective classes mentioned in the first.",
+      "scoring_relevance": "This logical progression contributes to the cohesion of the essay, which is relevant to the Cohesion scoring dimension.",
+      "limitation": "This observation is limited to the first two sentences and does not provide a comprehensive view of the essay's overall cohesion.",
+      "next_check": "Review the connections between other sentences and paragraphs to check for consistency in logical progression.",
+      "quotes": [
+        "It's better to have an elective class because it simple, forgiving and doesnt take skills doesn't take time in the",
+        "schedule and more Students will likely to pass the classes and both elective and art have the same principle with"
+      ]
+    }
+  ]
+}

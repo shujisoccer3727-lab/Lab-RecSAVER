@@ -1,0 +1,41 @@
+{
+  "version": "1.2",
+  "baseline_commit": "757a678",
+  "output_dir": "outputs/pair_feedback_20261126",
+  "raw_path": "data/raw/ellipsis_raw_rater_scores_anon_all_essay.csv",
+  "wide_path": "data/processed/rater_essay_wide.csv",
+  "rubric_path": "rubrics/ellipse_rubric_structured.json",
+  "seed": 20261126,
+  "history_count": 20,
+  "reference_count": 3,
+  "candidates": 2,
+  "timestamp_column": null,
+  "timestamp_evidence": "No rating timestamp exists in the raw or wide schema. Row and ID order are not chronology.",
+  "pairs": [
+    {"pair_id": "pair_1", "raters": ["rater_12", "rater_13"], "cases": [
+      {"filename": "AAAXMP138200001580432804_OR", "source_row_id": 6771, "overall": [2, 5]},
+      {"filename": "AAAXMP138200001666792812_OR", "source_row_id": 6788, "overall": [2, 5]}]},
+    {"pair_id": "pair_2", "raters": ["rater_10", "rater_11"], "cases": [
+      {"filename": "AAAXMP138190000293162108_OR", "source_row_id": 6652, "overall": [5, 2]},
+      {"filename": "AAAXMP138190000301142128_OR", "source_row_id": 6662, "overall": [5, 2]}]},
+    {"pair_id": "pair_3", "raters": ["rater_2", "rater_7"], "cases": [
+      {"filename": "AAAXMP138200001998652127_OR", "source_row_id": 8561, "overall": [2, 5]}]}
+  ],
+  "prompts": {
+    "1": "prompts/en/recsaver_01_reference_rationale_v1_2.txt",
+    "3": "prompts/en/recsaver_02_overall_reconstruction_v1_1.txt",
+    "4": "prompts/en/recsaver_03a_case_evidence_review_v1_6.txt",
+    "5": "prompts/en/recsaver_03b_integrated_feedback_v1_6.txt"
+  },
+  "model": {
+    "model_id": "Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4",
+    "quantization": "gptq_marlin", "tensor_parallel_size": 1,
+    "max_model_len": 32768, "gpu_memory_utilization": 0.8,
+    "runtime_options": {"max_num_seqs": 8, "enforce_eager": true, "enable_prefix_caching": true}
+  },
+  "generation": {"temperature": 0.2, "top_p": 0.8},
+  "max_tokens": {"1": 6500, "3": 1200, "4": 1800, "5": 2400},
+  "batch_size": 8,
+  "stage5_max_essays_per_side": 20,
+  "retry_policy": "Reuse completed success and terminal failures; interrupted requests without raw may resume; raw is reparsed, never regenerated. No format or mismatch resampling."
+}

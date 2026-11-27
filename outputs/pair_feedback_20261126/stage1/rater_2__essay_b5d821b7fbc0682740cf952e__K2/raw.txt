@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_2",
+  "target_essay_id": "essay_b5d821b7fbc0682740cf952e",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax"],
+        "pattern": "Essays with clear organization and varied sentence structures tend to receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_49235c74962f7281d4b2919a",
+            "quotes": ["Self-reliance have many goods outcomes for your life, some of them affects your personal inner you."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 4
+              }
+            },
+            "interpretation": "The essay demonstrates a generally controlled organization and varied sentence structures, which aligns with the higher scores."
+          },
+          {
+            "history_essay_id": "essay_ed918c3154eda0c8f90251c4",
+            "quotes": ["This is why I think we choose our character traits like being quiet."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3
+              }
+            },
+            "interpretation": "The essay shows a well-controlled organization and varied sentence structures, which aligns with the higher scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_cb38a1ffaf831ddf8a6a37b1",
+            "quotes": ["Sometimes I loose and sometimes I win."],
+            "interpretation": "The essay has some structural issues, but still received a higher score, suggesting that other factors may also influence the score."
+          }
+        ],
+        "limitations": ["The pattern is not consistently supported across all essays, indicating that other factors may also influence the scores."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax"],
+        "quotes": ["A person life, is like a little story, there way to think or act goes with what they have been though, some have gone from easiest to harder situations, there are many situations that people go through all the times."],
+        "observable_feature": "The sentence structure is simple and repetitive, with limited use of cohesive devices.",
+        "evaluative_interpretation": "The lack of varied sentence structures and cohesive devices suggests a lower score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for Cohesion and Syntax at band 2 indicates limited control of organization and frequent sentence structure problems.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": ["Vocabulary"],
+        "quotes": ["There are so many different opinions and ways to influence someone, they can be reasons or things that happened in the life of a person that will not necessary be inspired by a example of someones action, or life."],
+        "observable_feature": "The vocabulary is minimally adequate, with some attempts to use less common words but with inaccuracies.",
+        "evaluative_interpretation": "The vocabulary range is limited, but there are attempts to use topic-related terms.",
+        "linked_history_pattern_ids": [],
+        "rubric_connection": "The rubric for Vocabulary at band 3 indicates a minimally adequate range of vocabulary with occasional inaccuracies.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay shows limited control of organization and frequent sentence structure problems, which aligns with the observed scores. The vocabulary range is minimally adequate, but there are attempts to use topic-related terms.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 2,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's limited control of organization and frequent sentence structure problems align with the observed Overall score of 2. The vocabulary range is minimally adequate, but there are attempts to use topic-related terms, which aligns with the Vocabulary score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates limited control of organization and frequent sentence structure problems, which aligns with the observed score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows frequent sentence structure problems, which aligns with the observed score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T2"],
+        "alignment": "The vocabulary range is minimally adequate, but there are attempts to use topic-related terms, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 2,
+        "evidence_ids": [],
+        "alignment": "The essay shows limited use of phrases and some repetitions, which aligns with the observed score of 2."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay has some errors in grammar and usage, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay has developing use of conventions with some distracting errors, which aligns with the observed score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_bdeee4699532dec8dfaea224",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "pattern": "Essays with a range of cohesive devices, varied syntax, sufficient vocabulary, and appropriate phraseology tend to receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_40aaeae6f13c4a2faac1c297",
+            "quotes": [
+              "\"But staying occupied is the way to go if you wanna be successful and achieve things in life.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3
+              }
+            },
+            "interpretation": "The essay demonstrates a range of cohesive devices and varied syntax, which aligns with the observed scores."
+          },
+          {
+            "history_essay_id": "essay_9b45fee8148de9b3f0acb532",
+            "quotes": [
+              "\"Failure is important in peoples lives because it make people to not lose hope but also it makes them to dedicate on what they are trying to succeed.\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3
+              }
+            },
+            "interpretation": "The essay shows a range of cohesive devices and varied syntax, which aligns with the observed scores."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_1c3c1934d148a5d8acdae7ce",
+            "quotes": [
+              "\"Education change our life and teach you to think in a different way.\""
+            ],
+            "interpretation": "The essay lacks a range of cohesive devices and varied syntax, which weakens the pattern."
+          }
+        ],
+        "limitations": [
+          "The pattern is supported by two essays but weakened by one, indicating variability in the rater's scoring."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "quotes": [
+          "\"Therefore, I choose your company because I feel like it's great for me to start working in a place that I could be comfortable with.\""
+        ],
+        "observable_feature": "The essay demonstrates a range of cohesive devices, varied syntax, sufficient vocabulary, and appropriate phraseology.",
+        "evaluative_interpretation": "This feature aligns with the observed scores, indicating a controlled organization and appropriate use of language.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay shows a range of cohesive devices and varied syntax, which aligns with the rubric for a score of 4.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a range of cohesive devices, varied syntax, sufficient vocabulary, and appropriate phraseology, which aligns with the observed scores. This is consistent with the pattern observed in the history essays, where essays with similar features received higher scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 4,
+        "Syntax": 4,
+        "Vocabulary": 4,
+        "Phraseology": 5,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay demonstrates a range of cohesive devices, varied syntax, sufficient vocabulary, and appropriate phraseology, which aligns with the observed Overall score of 4.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a range of cohesive devices, which aligns with the observed score of 4."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows varied syntax, which aligns with the observed score of 4."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates sufficient vocabulary, which aligns with the observed score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 5,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows appropriate use of phrases, which aligns with the observed score of 5."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay has some errors in grammar and usage, which aligns with the observed score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay has developing use of conventions, which aligns with the observed score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_e789f306f3bbe15f8eb0b3d5",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with frequent errors in sentence structure, word order, and punctuation receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_5c261ba25f1fd7836218065c",
+            "quotes": [
+              "Even thought, example are more advantages and influence to other."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 2,
+                "Grammar": 2,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay contains frequent errors in sentence structure and word order, leading to a lower score."
+          },
+          {
+            "history_essay_id": "essay_b819379406aa9abe86991ac7",
+            "quotes": [
+              "If that was me I would prefer to go to the mall or the store to."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Grammar": 3,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay has some errors in sentence structure and word order, which contribute to a lower score."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is supported by two essays, but more data would strengthen the interpretation."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "Although I agree with Churchill`s statement about the important role that failure plays in the pursuit of success."
+        ],
+        "observable_feature": "The sentence structure is complex but contains errors in word order and punctuation.",
+        "evaluative_interpretation": "The sentence demonstrates a lack of control over syntax and conventions, which may contribute to a lower score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for a score of 2 indicates many sentence structure problems and frequent errors in grammar and usage.",
+        "uncertainty": ""
+      },
+      {
+        "evidence_id": "T2",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "Seconed example that I learn in my life is in the school."
+        ],
+        "observable_feature": "The sentence structure is simple but contains errors in word order and spelling.",
+        "evaluative_interpretation": "The sentence demonstrates a lack of control over syntax and conventions, which may contribute to a lower score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The rubric for a score of 2 indicates many sentence structure problems and frequent errors in grammar and usage.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay contains frequent errors in sentence structure, word order, and punctuation, which aligns with the pattern observed in the history essays. These features are consistent with the observed Overall score of 2 and Trait scores of 2 for Cohesion, Syntax, Grammar, and Conventions.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 2,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The target essay's frequent errors in sentence structure, word order, and punctuation align with the rubric for an Overall score of 2. The Trait scores for Cohesion, Syntax, Grammar, and Conventions are consistent with these errors.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1",
+          "T2"
+        ],
+        "alignment": "The essay demonstrates a lack of control over text organization and cohesive devices, consistent with the rubric for a score of 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1",
+          "T2"
+        ],
+        "alignment": "The essay contains many sentence structure problems, consistent with the rubric for a score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary, consistent with the rubric for a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1",
+          "T2"
+        ],
+        "alignment": "The essay shows limited use of phrases and some repetitions, consistent with the rubric for a score of 2."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1",
+          "T2"
+        ],
+        "alignment": "The essay contains many errors in grammar and usage, consistent with the rubric for a score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": [
+          "T1",
+          "T2"
+        ],
+        "alignment": "The essay has frequent and distracting errors in spelling, capitalization, and punctuation, consistent with the rubric for a score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

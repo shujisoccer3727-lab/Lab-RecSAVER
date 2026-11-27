@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_2",
+  "target_essay_id": "essay_7e0742469e97fef28d84a8fc",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary receive scores around 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+            "quotes": ["To graduate in three years is not imposible when you have the time and the bocation to do it, for example: if you take off all the elective cources in your clases, you are going to see that those clases are the ones that make u be at school one extra year more, then if you try to finish all the elective cources during the summer, you are going to have many extra time to complete the classes that you must need to graduate."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary, with occasional errors in sentence formation."
+          },
+          {
+            "history_essay_id": "essay_aadbe1b122974c2ac070659b",
+            "quotes": ["Extracurricular activities can affect a student but also can help students. Extracurricular activities should be left to the students and their families because students would do something they like, and students will concentrate more in class."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay shows controlled organization and a minimally adequate range of vocabulary, with occasional errors in sentence formation."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_2cc56c7ee59b6d3cc63f5128",
+            "quotes": ["the people in the society following information or take ideas guidance for experts, the peoples sopport the ideas of other like in the polytechinic, in the religion and society ."],
+            "interpretation": "This essay has more significant errors and less controlled organization, which contrasts with the pattern."
+          }
+        ],
+        "limitations": ["The pattern is supported by two essays but may not cover all cases."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["Yesterday i was in school and i was going to my science class and one of my friend told me to skip that class, and i was thinking if i skip that class my grade will go down and we were having a test on that day and i was ready for that test but my friend was forcing me to skip that class and i need to decide what to do. I decided to attend that class because i know that if i dont skip that class my grade will go up."],
+        "observable_feature": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary, with occasional errors in sentence formation.",
+        "evaluative_interpretation": "This is consistent with a score around 3, as the essay shows controlled organization and a minimally adequate range of vocabulary, with occasional errors in sentence formation.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The text organization is generally controlled, and a range of vocabulary is used, though with some errors in sentence formation.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary, with occasional errors in sentence formation, consistent with the observed scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 2,
+        "Grammar": 2,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay demonstrates controlled organization and a minimally adequate range of vocabulary, with occasional errors in sentence formation, consistent with the observed Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows controlled organization and a minimally adequate range of vocabulary, consistent with a score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has occasional errors in sentence formation, consistent with a score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a minimally adequate range of vocabulary, consistent with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a narrow range of phrases, consistent with a score of 2."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has some errors in grammar and usage, consistent with a score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has developing use of conventions, with some errors, consistent with a score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

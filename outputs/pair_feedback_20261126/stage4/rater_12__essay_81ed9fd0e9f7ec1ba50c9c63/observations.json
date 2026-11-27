@@ -1,0 +1,21 @@
+[
+  {
+    "observation_id": "O1",
+    "dimension": "Cohesion",
+    "evidence_span_ids": [
+      "S1",
+      "S7"
+    ],
+    "feature": "The essay begins with the statement 'People should follow their own instincts and ideas.' and concludes with 'Finally people should have their voice heard and follow their instinct and ideas instead of being forced to listen to someone else's idea.'",
+    "scoring_relevance": "The repetition of the idea of following one's own instincts and ideas at the beginning and end of the essay helps to maintain a cohesive argument, tying the essay's main points together.",
+    "limitation": "While the repetition of the main idea helps with cohesion, it does not establish the overall coherence of the essay or the logical flow between the supporting points.",
+    "next_check": "Review the transitions between the main points (S2 to S6) to check if they logically connect to the main idea and support the overall argument.",
+    "quotes": [
+      "People should follow their own instincts and ideas.",
+      " Finally people should have their voice heard and follow their instinct and ideas instead of being forced to listen to someone elses idea."
+    ],
+    "observation_key": "essay_81ed9fd0e9f7ec1ba50c9c63::O1",
+    "target_essay_id": "essay_81ed9fd0e9f7ec1ba50c9c63",
+    "observed_score": 4
+  }
+]

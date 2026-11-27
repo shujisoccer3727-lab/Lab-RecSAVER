@@ -1,0 +1,90 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with clear organization, varied sentence structures, and minimal errors receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_80a5758cb7742943dc89b66a",
+          "quotes": [
+            "The Curfews Keep Teenagers Out Of Trouble"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 5,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 5,
+              "Vocabulary": 5,
+              "Phraseology": 5,
+              "Grammar": 5,
+              "Conventions": 5
+            }
+          },
+          "interpretation": "The essay demonstrates clear organization and varied sentence structures, leading to higher scores."
+        },
+        {
+          "history_essay_id": "essay_539c991b479db5f84e9be8a9",
+          "quotes": [
+            "Working in groups helps us by sharing ideas"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 3,
+              "Conventions": 3
+            }
+          },
+          "interpretation": "The essay shows clear organization and varied sentence structures, leading to moderate scores."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_046d3822012f07f76c4d50e4",
+          "quotes": [
+            "we can accomplish something we wanted to do by facing our fear"
+          ],
+          "interpretation": "The essay lacks clear organization and varied sentence structures, leading to lower scores."
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Everyone in the world not have all the information for Example: I know how to bring the books online"
+      ],
+      "observable_feature": "The essay demonstrates limited organization and varied sentence structures.",
+      "evaluative_interpretation": "The essay's lack of clear organization and varied sentence structures is consistent with a lower score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's limited range of vocabulary and varied sentence structures align with the rubric for a score of 3.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay's limited organization and varied sentence structures, as seen in the quote, align with the rater's pattern of assigning lower scores to essays with similar features.",
+  "insufficient_evidence": []
+}

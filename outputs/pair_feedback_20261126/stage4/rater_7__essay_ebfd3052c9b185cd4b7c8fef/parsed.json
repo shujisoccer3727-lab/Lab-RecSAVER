@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.5",
+  "target_essay_id": "essay_ebfd3052c9b185cd4b7c8fef",
+  "observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Grammar",
+      "evidence_span_ids": [
+        "S1",
+        "S2"
+      ],
+      "feature": "The essay contains multiple grammatical errors, such as 'agee' instead of 'agree', 'belived' instead of 'believed', and 'agee' instead of 'agree'.",
+      "scoring_relevance": "These errors indicate a lack of proficiency in standard English grammar, which is relevant to the Grammar scoring dimension.",
+      "limitation": "This observation does not provide information on the overall frequency of grammatical errors in the essay.",
+      "next_check": "Review other sentences in the essay for similar grammatical errors."
+    },
+    {
+      "observation_id": "O2",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S6",
+        "S7"
+      ],
+      "feature": "The essay transitions from a general statement about long breaks to a specific reason why they are important, such as spending time with family.",
+      "scoring_relevance": "This transition demonstrates a clear connection between ideas, which is relevant to the Cohesion scoring dimension.",
+      "limitation": "This observation does not provide information on the overall coherence of the essay.",
+      "next_check": "Review other transitions in the essay to see if they maintain a clear connection between ideas."
+    }
+  ],
+  "insufficient_evidence": []
+}

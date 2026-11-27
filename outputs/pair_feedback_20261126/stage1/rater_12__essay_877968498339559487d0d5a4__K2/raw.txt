@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_12",
+  "target_essay_id": "essay_877968498339559487d0d5a4",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Grammar", "Conventions"],
+        "pattern": "Essays with occasional errors in sentence formation, cohesive devices, and conventions tend to receive scores around 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_99e2936b1dd396e9cba66e5b",
+            "quotes": ["When people ask for advice,it can help someone make a better choice because,it can change your thinking,it can give you a better idea,and you can know what other people are thinking."],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 4,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay shows occasional errors in sentence formation and cohesive devices, which aligns with a score of 3 in these dimensions."
+          },
+          {
+            "history_essay_id": "essay_56b47af1153e7884e4a981e9",
+            "quotes": ["Students working from home is good for kids that could be getting buliud either they speack up but dont see a change, having problems with adults here at school that don't really help much but just bring the student down, or maybe just being an anti socicl person."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 3,
+                "Grammar": 3,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates limited control over cohesive devices and sentence structure, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_81aa085b702d206e5f30f7f4",
+            "quotes": ["P.e is my favorite educational activity because i mostly enjoy it.Because all my friends are in that class.The most thing i do in that class is play basketball which i am trash at it but i still play with the boys and i enjoy the time ."],
+            "interpretation": "This essay has more frequent errors and receives a score of 2, suggesting that the pattern is not always consistent."
+          }
+        ],
+        "limitations": ["The pattern is not consistently applied across all essays, indicating variability in scoring."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Grammar", "Conventions"],
+        "quotes": ["First, when i walk into school am always mad about early we wake up to go to school but i always get that good attitude when i walk so people don't see why am so mad or why am mean, i always say good morning to every teacher to make think am not going through a struggle each morning."],
+        "observable_feature": "The sentence structure is somewhat varied but contains errors in sentence formation and cohesive devices.",
+        "evaluative_interpretation": "The essay demonstrates occasional errors in sentence formation and cohesive devices, which aligns with a score of 3.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The text shows a range of syntactic structures with occasional errors, consistent with the rubric for a score of 3.",
+        "uncertainty": "The essay's overall coherence and control over cohesive devices are somewhat underdetermined."
+      }
+    ],
+    "decision_explanation": "The target essay shows occasional errors in sentence formation and cohesive devices, consistent with the observed scores of 3 in Cohesion, Syntax, Grammar, and Conventions. This aligns with the pattern observed in the history essays, where similar features receive scores around 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The essay's occasional errors in sentence formation, cohesive devices, and conventions align with the observed Overall score of 3. The Trait scores are consistent with the rubric for a score of 3, with some dimensions showing slightly lower scores.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a generally controlled organization with a range of cohesive devices, consistent with a score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows some sentence structure problems, consistent with a score of 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay uses a minimally adequate range of vocabulary for the topic, consistent with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay uses a variety of phrases with occasional inaccuracies, consistent with a score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has some errors in grammar and usage, consistent with a score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay has developing use of conventions with some distracting errors, consistent with a score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The essay's overall coherence and control over cohesive devices are somewhat underdetermined, which could affect the Overall score."]
+  }
+}

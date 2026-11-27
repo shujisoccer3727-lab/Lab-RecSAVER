@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "essay_451fdda60292ad1aa247a11e",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "pattern": "Essays with a wide range of vocabulary and appropriate use of phrases receive higher scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_47882f4c789d4b4f9a018d1a",
+            "quotes": [
+              "Everyone goes to tough times which cuases failure, but once you fail you get up and better your self in order to succed."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Vocabulary": 4,
+                "Phraseology": 3
+              }
+            },
+            "interpretation": "The essay demonstrates a range of vocabulary and appropriate use of phrases, which aligns with higher Trait scores."
+          },
+          {
+            "history_essay_id": "essay_3ea3d13d95dd6f5b4bdd683e",
+            "quotes": [
+              "Their are many places in the cities that need help it will be great that all students take part in community service."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Vocabulary": 3,
+                "Phraseology": 3
+              }
+            },
+            "interpretation": "The essay shows a moderate range of vocabulary and phrases, which aligns with mid-range Trait scores."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is supported by two essays, but more data would strengthen the interpretation."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Vocabulary",
+          "Phraseology"
+        ],
+        "quotes": [
+          "Problems happen to everyone, the real deal comes to how you will respond to it."
+        ],
+        "observable_feature": "The essay demonstrates a wide range of vocabulary and appropriate use of phrases.",
+        "evaluative_interpretation": "The varied vocabulary and appropriate phraseology contribute to a higher Trait score.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay's use of a wide range of vocabulary and phrases aligns with the rubric's description for a score of 4.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a wide range of vocabulary and appropriate use of phrases, which aligns with the observed Trait scores for Vocabulary and Phraseology. This is consistent with the pattern observed in the history essays, where essays with similar features received higher scores.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The observed Overall score of 4 is consistent with the Trait scores, particularly the high scores in Vocabulary and Phraseology. The lower Cohesion score does not significantly detract from the overall proficiency.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": [],
+        "alignment": "The score of 2 for Cohesion is consistent with the essay's limited use of cohesive devices, which is a limitation despite the overall proficiency."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The score of 4 for Vocabulary is consistent with the essay's wide range of vocabulary and appropriate use of phrases."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The score of 4 for Phraseology is consistent with the essay's appropriate use of phrases and idiomatic expressions."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": [
+      "The lower Cohesion score contrasts with the higher Overall score, but the overall proficiency in other Traits supports the holistic judgment."
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_13",
+  "target_essay_id": "essay_9360ebd676d148b9227e2783",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with a score of 4 in Overall tend to have controlled organization, appropriate use of cohesive devices, a range of syntactic structures, sufficient vocabulary, appropriate use of phrases, minimal errors in grammar, and generally consistent conventions.",
+        "support": [
+          {
+            "history_essay_id": "essay_638225bbf7d533f35bc564dd",
+            "quotes": [
+              "\"I disagree with what John Lubbock saids 'Your character will be what you yourself choose to make it.'\""
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 4,
+                "Vocabulary": 4,
+                "Phraseology": 4,
+                "Grammar": 4,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay demonstrates controlled organization and appropriate use of cohesive devices, aligning with a score of 4."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_046d3822012f07f76c4d50e4",
+            "quotes": [
+              "\"do we accomplish more if we are always doing something or dose inactive server a purpose.\""
+            ],
+            "interpretation": "This essay has a score of 3, indicating less controlled organization and fewer cohesive devices, which contrasts with the pattern."
+          }
+        ],
+        "limitations": [
+          "The pattern is supported by only one essay with a score of 4, and the counterevidence is from an essay with a score of 3."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "\"If someone old or your older sibling is sharing wisdom with you stop what your doing and listen, because most of the time the person, he or she, is trying to tell you whats going to happen if you hit a certain age.\""
+        ],
+        "observable_feature": "The essay demonstrates controlled organization and appropriate use of cohesive devices, a range of syntactic structures, sufficient vocabulary, appropriate use of phrases, minimal errors in grammar, and generally consistent conventions.",
+        "evaluative_interpretation": "The essay's controlled organization and appropriate use of cohesive devices support a score of 4.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The text organization is generally well controlled, and a range of cohesive devices are used appropriately, aligning with a score of 4.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates controlled organization and appropriate use of cohesive devices, a range of syntactic structures, sufficient vocabulary, appropriate use of phrases, minimal errors in grammar, and generally consistent conventions, which aligns with the observed score of 4.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 4,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 4,
+        "Vocabulary": 3,
+        "Phraseology": 4,
+        "Grammar": 4,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay demonstrates controlled organization and appropriate use of cohesive devices, a range of syntactic structures, sufficient vocabulary, appropriate use of phrases, minimal errors in grammar, and generally consistent conventions, which aligns with the observed Overall score of 4.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates controlled organization and appropriate use of cohesive devices, aligning with a score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a range of syntactic structures, aligning with a score of 4."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates sufficient vocabulary, aligning with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates appropriate use of phrases, aligning with a score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates minimal errors in grammar, aligning with a score of 4."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates generally consistent conventions, aligning with a score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

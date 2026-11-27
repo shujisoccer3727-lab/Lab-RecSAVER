@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_11",
+  "target_essay_id": "essay_4b7a0e32804396ea66b470f0",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Grammar", "Conventions"],
+        "pattern": "Essays with frequent errors in sentence structure, grammar, and conventions tend to receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_7012f54d55015706d1ad1ea0",
+            "quotes": ["When you take a adoption you really take a hours because the boy is not to really to see the another people was have on knew parents when this gay was young people he evertime he was remembre your past terrible when he go to the home and the he take a knew home to live when another person whin verry take in a adoption with he and the when this gay he need to live is very nessarity to check to adoctor with be he dont sick."],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay contains numerous grammatical and syntactic errors, leading to a lower score."
+          },
+          {
+            "history_essay_id": "essay_11027e3f200638d5f82370c9",
+            "quotes": ["People always have some smile in there face and the other people think that their having a good day which they are, but in the inside you don't know what happen."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay has grammatical and syntactic errors, resulting in a lower score."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is supported by two essays, but more data would strengthen the interpretation."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Grammar", "Conventions"],
+        "quotes": ["We have to work for what we want nothing in this life is easy, All the people need to take a decision in life but firts we need to go to school and then graduated and look for a job and like that we are going to know more about life and make decision and kowing more about life but we always need the endorsement of our parent's."],
+        "observable_feature": "The sentence structure is complex and contains multiple grammatical and syntactic errors.",
+        "evaluative_interpretation": "The sentence is difficult to parse due to grammatical and syntactic errors, which likely contributed to the lower score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for scores 2 and 3 indicates frequent errors in sentence structure and grammar, which impede communication.",
+        "uncertainty": "The sentence is long and complex, making it difficult to determine if the errors are due to lack of proficiency or complexity."
+      }
+    ],
+    "decision_explanation": "The target essay contains frequent grammatical and syntactic errors, similar to the history essays with lower scores. This supports the observed score of 2, consistent with the pattern observed in the history.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 2,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 2,
+        "Vocabulary": 3,
+        "Phraseology": 2,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The target essay's frequent grammatical and syntactic errors align with the rubric for score 2, where communication is impeded by language inaccuracies.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay lacks clear organization and cohesive devices, consistent with the rubric for score 2."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay contains many sentence structure problems, aligning with the rubric for score 2."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [],
+        "alignment": "The essay uses a minimally adequate range of vocabulary, consistent with the rubric for score 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 2,
+        "evidence_ids": [],
+        "alignment": "The essay uses a narrow range of phrases, consistent with the rubric for score 2."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay contains many errors in grammar and usage, aligning with the rubric for score 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": [],
+        "alignment": "The essay has frequent and distracting errors in spelling, capitalization, and punctuation, consistent with the rubric for score 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The complexity of the sentence structure makes it difficult to determine if the errors are due to lack of proficiency or complexity."]
+  }
+}

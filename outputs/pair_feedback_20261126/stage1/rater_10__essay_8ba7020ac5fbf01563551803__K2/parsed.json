@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_8ba7020ac5fbf01563551803",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Overall",
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with a range of vocabulary and some errors in grammar and syntax tend to receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_926396d210817c7d960bd53a",
+            "quotes": [
+              "it simple, forgiving and doesnt take skills doesn't take time in the schedule and more Students will likely to pass the classes and both elective and art have the same principle with the same accomplishment."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 2,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay demonstrates a limited range of vocabulary and frequent errors in grammar and syntax, consistent with an Overall score of 2."
+          },
+          {
+            "history_essay_id": "essay_1c3c1934d148a5d8acdae7ce",
+            "quotes": [
+              "Education change our life and teach you to think in a different way. Some people rush trying to graduate from school or reach their gools ahead of time which it is not good."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay shows a limited range of vocabulary and frequent errors in grammar and syntax, consistent with an Overall score of 2."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_894803a8e81bb80efb90a3be",
+            "quotes": [
+              "Is it very advisable to let high school students complete school early within three year instead of four years? Imagine seeing the graduation rate of high school students go up. Won't that be a great feeling?"
+            ],
+            "interpretation": "This essay demonstrates a wide range of vocabulary and minimal errors, which contrasts with the pattern of essays receiving an Overall score of 3."
+          }
+        ],
+        "limitations": [
+          "The pattern is not consistent across all essays, as some essays with similar features receive different Overall scores."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Overall",
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "Distance learning school does not offer many personal benefits than you think, because there's some difficulties that people can have taking classes from their home."
+        ],
+        "observable_feature": "The essay demonstrates a range of vocabulary and some errors in grammar and syntax.",
+        "evaluative_interpretation": "The essay shows a sufficient range of vocabulary and occasional errors in grammar and syntax, which aligns with an Overall score of 3.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay's range of vocabulary and occasional errors in grammar and syntax align with the rubric's description for an Overall score of 3.",
+        "uncertainty": "The essay's coherence and organization are not explicitly addressed, which could affect the Overall score."
+      }
+    ],
+    "decision_explanation": "The essay demonstrates a sufficient range of vocabulary and occasional errors in grammar and syntax, consistent with the observed Overall score of 3. This is supported by the historical pattern where essays with similar features tend to receive an Overall score of 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay's range of vocabulary and occasional errors in grammar and syntax align with the rubric's description for an Overall score of 3. The coherence and organization are not explicitly addressed, which could affect the Overall score.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a generally controlled organization with some cohesive devices used appropriately, aligning with a Cohesion score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows an appropriate use of a variety of syntactic structures with occasional errors, aligning with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a sufficient range of vocabulary with appropriate use of topic-related terms, aligning with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows an appropriate use of a variety of phrases with occasional inaccuracies, aligning with a Phraseology score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates minimal errors in grammar and usage, aligning with a Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows a developing use of conventions with errors that are sometimes distracting, aligning with a Conventions score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": [
+      "The essay's coherence and organization are not explicitly addressed, which could affect the Overall score."
+    ]
+  }
+}

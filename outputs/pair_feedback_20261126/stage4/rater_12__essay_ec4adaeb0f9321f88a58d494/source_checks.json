@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S3",
+          "paragraph_id": "P1",
+          "start": 138,
+          "end": 278,
+          "text": " I think this will be an enjoyable activity for school because you can meet new people, work with a team, and most of all have a great time."
+        },
+        {
+          "span_id": "S18",
+          "paragraph_id": "P5",
+          "start": 1397,
+          "end": 1500,
+          "text": "Being in a play is and enjoyable activity because you can meet new people, work as a team,and have fun."
+        }
+      ],
+      "reconstructed_quotes": [
+        " I think this will be an enjoyable activity for school because you can meet new people, work with a team, and most of all have a great time.",
+        "Being in a play is and enjoyable activity because you can meet new people, work as a team,and have fun."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S3",
+        "S18"
+      ],
+      "feature": "The essay begins with a statement about the enjoyment of being in a school play and concludes with a similar statement, reinforcing the main idea.",
+      "scoring_relevance": "This feature demonstrates the writer's ability to maintain a clear and consistent focus on the topic, which is relevant to the cohesion dimension.",
+      "limitation": "This observation does not establish the overall coherence of the essay or the consistency of the argument throughout the text.",
+      "next_check": "Review the transitions between paragraphs to check if they maintain the flow of ideas and support the main argument.",
+      "quotes": [
+        " I think this will be an enjoyable activity for school because you can meet new people, work with a team, and most of all have a great time.",
+        "Being in a play is and enjoyable activity because you can meet new people, work as a team,and have fun."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "essay_8b2533d37e8ee7c07bd70db4",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "pattern": "Essays with a mix of minor errors in grammar, syntax, and vocabulary, but with generally clear communication, tend to receive an Overall score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_49ce2ad6d81d38170ce1bccb",
+            "quotes": [
+              "Some people might disagree on Ralph Waldo Emerson statement because, Some people like pushing there self more than other, and also they can get physical stronger by try to do something beyond what you have already mastered."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 2,
+                "Grammar": 1,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay contains minor errors in grammar and syntax but communicates the main ideas clearly, consistent with an Overall score of 3."
+          },
+          {
+            "history_essay_id": "essay_10bde717c719b4cc15923b78",
+            "quotes": [
+              "Everyday we want to achieve a new goal so we can grow as a whole. Scientist for an example, they discover more diseases and bacteria than we could ever know, they even found cures to the deadliest diseases like Chickenpox, and some cancers."
+            ],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 2,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 2,
+                "Grammar": 2,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay has a mix of minor errors but conveys the ideas effectively, consistent with an Overall score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": [
+          "The pattern is based on a limited number of essays and may not fully represent the rater's scoring tendencies."
+        ]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": [
+          "Cohesion",
+          "Syntax",
+          "Vocabulary",
+          "Phraseology",
+          "Grammar",
+          "Conventions"
+        ],
+        "quotes": [
+          "Did you know that Robotics is the most funnest job than any other jobs out there? what I like to pursue is doing Robotics because it's all about coding and building."
+        ],
+        "observable_feature": "The essay contains minor errors in grammar (e.g., 'funnest' instead of 'most fun') and syntax, but the main ideas are clear.",
+        "evaluative_interpretation": "The essay demonstrates a mix of minor errors but communicates the main ideas effectively, consistent with an Overall score of 3.",
+        "linked_history_pattern_ids": [
+          "H1"
+        ],
+        "rubric_connection": "The essay shows a controlled organization with some errors in grammar and syntax, consistent with the rubric description for an Overall score of 3.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates a mix of minor errors in grammar, syntax, and vocabulary, but the main ideas are communicated clearly. This is consistent with the observed Overall score of 3 and the pattern observed in the history essays.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 3,
+        "Grammar": 3,
+        "Conventions": 4
+      }
+    },
+    "overall_alignment": "The target essay demonstrates a mix of minor errors in grammar, syntax, and vocabulary, but the main ideas are communicated clearly, consistent with an Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay shows a controlled organization with some errors in grammar and syntax, consistent with a Cohesion score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a mix of minor errors in sentence formation, consistent with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay uses a sufficient range of vocabulary to convey precise meanings, consistent with a Vocabulary score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay uses a variety of phrases, including some inaccuracies, consistent with a Phraseology score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 3,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay contains some errors in grammar and usage, consistent with a Grammar score of 3."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 4,
+        "evidence_ids": [
+          "T1"
+        ],
+        "alignment": "The essay demonstrates a generally consistent use of conventions, with few distracting errors, consistent with a Conventions score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

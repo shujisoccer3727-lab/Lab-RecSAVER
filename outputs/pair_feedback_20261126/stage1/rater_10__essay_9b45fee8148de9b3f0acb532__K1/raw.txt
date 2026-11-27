@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_10",
+  "target_essay_id": "essay_9b45fee8148de9b3f0acb532",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with frequent language inaccuracies and errors in grammar and syntax receive lower scores.",
+        "support": [
+          {
+            "history_essay_id": "essay_1c3c1934d148a5d8acdae7ce",
+            "quotes": ["Education change our life and teach you to think in a different way."],
+            "relevant_observed_history_scores": {
+              "Overall": 2,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 3,
+                "Conventions": 2
+              }
+            },
+            "interpretation": "The essay contains numerous grammatical errors and awkward phrasing, consistent with a lower score."
+          },
+          {
+            "history_essay_id": "essay_c01dfe1288cc86587ad100a3",
+            "quotes": ["People always said anything about any arguments, but the most opinions can they said are problem, because sometime people speak bad things their opinions they can said are not supported for other for reason can have bad impressions with the community."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 3,
+                "Syntax": 2,
+                "Vocabulary": 4,
+                "Phraseology": 3,
+                "Grammar": 2,
+                "Conventions": 3
+              }
+            },
+            "interpretation": "The essay has frequent grammatical errors and awkward phrasing, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [
+          {
+            "history_essay_id": "essay_894803a8e81bb80efb90a3be",
+            "quotes": ["Giving high school students chances to graduate early increases graduation rates."],
+            "interpretation": "This essay demonstrates better control of language and fewer errors, receiving a higher score."
+          }
+        ],
+        "limitations": ["The pattern is supported by two essays with lower scores, but the third essay with higher scores shows a different profile."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["Winston Churchill once said that \"success consists of going from failure to failure without loss of enthusiasm.\" this means that if people fail they should get back up and try again and if they fail once more to never give up."],
+        "observable_feature": "The essay contains frequent grammatical errors and awkward phrasing.",
+        "evaluative_interpretation": "These errors and awkward phrasing are consistent with a lower score.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The rubric for scores 2 and 3 indicates frequent language inaccuracies and errors in grammar and syntax, which are evident in the target essay.",
+        "uncertainty": "The essay demonstrates some control of language, but the errors are frequent enough to justify a lower score."
+      }
+    ],
+    "decision_explanation": "The target essay contains frequent grammatical errors and awkward phrasing, consistent with the pattern observed in the history essays with lower scores. The essay demonstrates some control of language, but the errors are frequent enough to justify a score of 3.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 2,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 3,
+        "Grammar": 2,
+        "Conventions": 2
+      }
+    },
+    "overall_alignment": "The target essay's frequent grammatical errors and awkward phrasing are consistent with the observed Overall score of 3. The essay demonstrates some control of language, but the errors are frequent enough to justify this score.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay's frequent grammatical errors and awkward phrasing are consistent with a Cohesion score of 2, indicating limited control of text organization."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates some control of syntax, but frequent errors are consistent with a Syntax score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a minimally adequate range of vocabulary, consistent with a Vocabulary score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay uses a limited range of phrases, consistent with a Phraseology score of 3."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay contains frequent errors in grammar and usage, consistent with a Grammar score of 2."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 2,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay contains frequent errors in spelling, capitalization, and punctuation, consistent with a Conventions score of 2."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": ["The essay demonstrates some control of language, but the errors are frequent enough to justify a lower score."]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with frequent errors in grammar, syntax, and vocabulary receive lower scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_17448b70a54b82d71f36f417",
+          "quotes": [
+            "It'll make you into a bad person and might even get you use to lieing."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 3,
+              "Grammar": 2,
+              "Conventions": 2
+            }
+          },
+          "interpretation": "The essay contains frequent grammatical errors and awkward phrasing, which aligns with the lower scores."
+        },
+        {
+          "history_essay_id": "essay_3107f9ecdc1148ac6a33ee88",
+          "quotes": [
+            "Students believe in praising them builds their self esttem,even when the work is not at its full potential."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 3,
+              "Vocabulary": 3,
+              "Phraseology": 2,
+              "Grammar": 3,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay contains grammatical errors and awkward phrasing, which aligns with the lower scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern is supported by two essays, but more data would strengthen the interpretation."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Overall",
+        "Cohesion",
+        "Syntax",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "Some schools have a program that older student and the young ones that could help one another."
+      ],
+      "observable_feature": "The sentence structure is awkward, with grammatical errors and unclear phrasing.",
+      "evaluative_interpretation": "This feature aligns with a lower score due to frequent errors and lack of clarity.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The rubric for lower scores indicates frequent errors in grammar and syntax that impede communication.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The target essay contains frequent grammatical errors and awkward phrasing, similar to the lower-scoring essays in the history. This supports the observed score of 2.",
+  "insufficient_evidence": []
+}

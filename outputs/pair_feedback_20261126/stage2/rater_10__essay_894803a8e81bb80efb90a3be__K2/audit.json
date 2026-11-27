@@ -1,0 +1,95 @@
+{
+  "changes": [
+    {
+      "path": "/decision_explanation",
+      "before": "The essay demonstrates a wide range of vocabulary and effective use of cohesive devices, which aligns with the higher scores observed in the rater's history. This is consistent with the observed Overall score of 5.",
+      "after": "The essay demonstrates a wide range of vocabulary and effective use of cohesive devices, which aligns with the higher scores observed in the rater's history. This is consistent with the observed Overall score of [MASK].",
+      "value_spans": [
+        {
+          "start": 212,
+          "end": 213,
+          "value": "5",
+          "replacement": "[MASK]"
+        }
+      ],
+      "reason": "Explicit target-attributed score or numbered performance band/range; replace values only"
+    }
+  ],
+  "value_replacements": 1,
+  "changed_fields": 1,
+  "protected": [
+    {
+      "path": "/history_patterns/0/pattern_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/support/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/history_essay_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/history_patterns/0/counterevidence/0/interpretation",
+      "reason": "history-context prose tied to supplied history IDs; preserve history score values"
+    },
+    {
+      "path": "/target_evidence/0/evidence_id",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/dimensions",
+      "reason": "ID/dimension metadata preserved"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Source quotations preserved verbatim"
+    },
+    {
+      "path": "/target_evidence/0/quotes",
+      "reason": "Quotation not an exact substring; content finding, not repaired"
+    },
+    {
+      "path": "/target_evidence/0/linked_history_pattern_ids",
+      "reason": "ID/dimension metadata preserved"
+    }
+  ],
+  "quarantine": [
+    {
+      "path": "/history_patterns/0/support/0/history_essay_id",
+      "kind": "invalid_history_reference",
+      "text": "essay_bdeee46699532dec8dfaea224",
+      "action": "quarantine; not automatically rewritten"
+    },
+    {
+      "path": "/history_patterns/0/support/0/relevant_observed_history_scores",
+      "kind": "unverified_history_score_attribution",
+      "text": "{\"Overall\": 4, \"Traits\": {\"Cohesion\": 4, \"Vocabulary\": 4, \"Phraseology\": 5}}",
+      "action": "quarantine; not automatically rewritten"
+    },
+    {
+      "kind": "invalid_or_self_history_id",
+      "path": "essay_bdeee46699532dec8dfaea224"
+    }
+  ],
+  "automatic_pass": false,
+  "value_only_invariant": true,
+  "scope": "Conservative mechanical input screen, not semantic support certification or human review."
+}

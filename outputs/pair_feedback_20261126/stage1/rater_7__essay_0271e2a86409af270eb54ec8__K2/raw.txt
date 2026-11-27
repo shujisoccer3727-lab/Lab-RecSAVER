@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_7",
+  "target_essay_id": "essay_0271e2a86409af270eb54ec8",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "pattern": "Essays with a range of vocabulary and phraseology, but with some errors in cohesion and sentence structure, tend to receive a score of 3 or 4.",
+        "support": [
+          {
+            "history_essay_id": "essay_378cfd241bf32bd0f8b2be9f",
+            "quotes": ["\"What Ralph Waldo said it's true, you never going to grow big if you don't try new things, it might suck to say this but a lot of people keep on doing the same stuff that they already know.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 4,
+                "Vocabulary": 3,
+                "Phraseology": 3
+              }
+            },
+            "interpretation": "The essay shows a range of vocabulary and phraseology but has some cohesion issues, consistent with a score of 3."
+          },
+          {
+            "history_essay_id": "essay_451fdda60292ad1aa247a11e",
+            "quotes": ["\"Problems happen to everyone, the real deal comes to how you will respond to it. Many people take their time when they deal with something troubling, they all have their different strategies too.\""],
+            "relevant_observed_history_scores": {
+              "Overall": 4,
+              "Traits": {
+                "Cohesion": 2,
+                "Vocabulary": 4,
+                "Phraseology": 4
+              }
+            },
+            "interpretation": "The essay demonstrates a wide range of vocabulary and phraseology but has some cohesion issues, consistent with a score of 4."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern is based on two essays, which may not be sufficient to establish a stable preference."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Vocabulary", "Phraseology"],
+        "quotes": ["\"Success is not just a dream is a dedication to be engage in everyday activity also success also a role for humans to think whats ahead and not lookig back to seek old habits.\""],
+        "observable_feature": "The essay demonstrates a range of vocabulary and phraseology but has some cohesion issues.",
+        "evaluative_interpretation": "The essay shows a range of vocabulary and phraseology, but there are some cohesion issues, which is consistent with a score of 3.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The essay demonstrates a range of vocabulary and phraseology, but there are some cohesion issues, which aligns with the rubric for a score of 3.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The essay demonstrates a range of vocabulary and phraseology, but there are some cohesion issues, which aligns with the rubric for a score of 3. This is consistent with the rater's history of assigning scores of 3 or 4 to essays with similar features.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 4,
+        "Phraseology": 4,
+        "Grammar": 3,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The essay demonstrates a range of vocabulary and phraseology, but there are some cohesion issues, which aligns with the rubric for a score of 3. This is consistent with the rater's history of assigning scores of 3 or 4 to essays with similar features.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates some cohesion issues, which aligns with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a range of vocabulary, which aligns with a score of 4."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a range of phraseology, which aligns with a score of 4."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

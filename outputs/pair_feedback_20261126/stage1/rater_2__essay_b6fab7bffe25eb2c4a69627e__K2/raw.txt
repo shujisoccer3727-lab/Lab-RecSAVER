@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "rater_id": "rater_2",
+  "target_essay_id": "essay_b6fab7bffe25eb2c4a69627e",
+  "score_free_analysis": {
+    "history_patterns": [
+      {
+        "pattern_id": "H1",
+        "status": "recurring_in_supplied_history",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "pattern": "Essays with generally controlled organization, occasional errors in sentence formation, and a minimally adequate range of vocabulary receive a score of 3.",
+        "support": [
+          {
+            "history_essay_id": "essay_0520259ee56a64211f076d55",
+            "quotes": ["The city council shouldnt put a curfew time on teenagers because some teens play sports, and some teens work."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 3,
+                "Grammar": 4,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay demonstrates generally controlled organization and occasional errors in sentence formation, consistent with a score of 3."
+          },
+          {
+            "history_essay_id": "essay_cb38a1ffaf831ddf8a6a37b1",
+            "quotes": ["I lost 58 pounds to be exact. I feel lighter than ever."],
+            "relevant_observed_history_scores": {
+              "Overall": 3,
+              "Traits": {
+                "Cohesion": 4,
+                "Syntax": 3,
+                "Vocabulary": 3,
+                "Phraseology": 4,
+                "Grammar": 3,
+                "Conventions": 4
+              }
+            },
+            "interpretation": "The essay shows generally controlled organization and a minimally adequate range of vocabulary, consistent with a score of 3."
+          }
+        ],
+        "counterevidence": [],
+        "limitations": ["The pattern does not account for essays with significantly higher or lower scores."]
+      }
+    ],
+    "target_evidence": [
+      {
+        "evidence_id": "T1",
+        "dimensions": ["Cohesion", "Syntax", "Vocabulary", "Phraseology", "Grammar", "Conventions"],
+        "quotes": ["If a students have more time to do there class work then they will not have there class work as homework."],
+        "observable_feature": "The sentence demonstrates generally controlled organization and occasional errors in sentence formation.",
+        "evaluative_interpretation": "The sentence shows a minimally adequate range of vocabulary and occasional errors in sentence formation, consistent with a score of 3.",
+        "linked_history_pattern_ids": ["H1"],
+        "rubric_connection": "The text organization is generally controlled, and there are occasional errors in sentence formation, which aligns with the rubric for a score of 3.",
+        "uncertainty": ""
+      }
+    ],
+    "decision_explanation": "The target essay demonstrates generally controlled organization and occasional errors in sentence formation, consistent with the observed scores of 3. The evidence from the history essays supports this interpretation.",
+    "insufficient_evidence": []
+  },
+  "observed_score_alignment": {
+    "observed_target_scores": {
+      "Overall": 3,
+      "Traits": {
+        "Cohesion": 3,
+        "Syntax": 3,
+        "Vocabulary": 3,
+        "Phraseology": 4,
+        "Grammar": 4,
+        "Conventions": 3
+      }
+    },
+    "overall_alignment": "The target essay's generally controlled organization and occasional errors in sentence formation align with the observed Overall score of 3.",
+    "relevant_trait_alignment": [
+      {
+        "trait": "Cohesion",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates generally controlled organization, consistent with a score of 3."
+      },
+      {
+        "trait": "Syntax",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay shows occasional errors in sentence formation, consistent with a score of 3."
+      },
+      {
+        "trait": "Vocabulary",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a minimally adequate range of vocabulary, consistent with a score of 3."
+      },
+      {
+        "trait": "Phraseology",
+        "observed_score": 4,
+        "evidence_ids": [],
+        "alignment": "The essay uses a variety of phrases, such as idioms and collocations, with occasional inaccuracies, consistent with a score of 4."
+      },
+      {
+        "trait": "Grammar",
+        "observed_score": 4,
+        "evidence_ids": [],
+        "alignment": "The essay has minimal errors in grammar and usage, consistent with a score of 4."
+      },
+      {
+        "trait": "Conventions",
+        "observed_score": 3,
+        "evidence_ids": ["T1"],
+        "alignment": "The essay demonstrates a developing use of conventions, with some errors in spelling, capitalization, and punctuation, consistent with a score of 3."
+      }
+    ],
+    "explanatory_status": "partly_supported",
+    "unresolved_tensions": []
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "pattern": "Essays with generally controlled organization, sufficient vocabulary range, and appropriate use of phrases receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_598724e5b862459ca01d3ff2",
+          "quotes": [
+            "In this essay I will discuss as to why curfews could be a necessary law for teenagers."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Vocabulary": 4,
+              "Phraseology": 4
+            }
+          },
+          "interpretation": "The essay demonstrates controlled organization and a sufficient vocabulary range, which aligns with a higher score."
+        },
+        {
+          "history_essay_id": "essay_3b9f17fe0fbc82924e5e05cf",
+          "quotes": [
+            "To graduate in three years is not imposible when you have the time and the bocation to do it"
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4,
+              "Phraseology": 3
+            }
+          },
+          "interpretation": "The essay shows controlled organization and a sufficient vocabulary range, which aligns with a score of 3."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern does not account for essays with significant syntactic or grammatical errors."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology"
+      ],
+      "quotes": [
+        "In a way failure can be a lession and I mean is by without feeling failure than what did you really learn from pursuiting to getting what you want."
+      ],
+      "observable_feature": "The essay demonstrates generally controlled organization, sufficient vocabulary range, and appropriate use of phrases.",
+      "evaluative_interpretation": "This feature aligns with a score of [MASK], as the essay shows controlled organization and a sufficient vocabulary range.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's controlled organization and sufficient vocabulary range align with the rubric's description for a score of [MASK].",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Syntax"
+      ],
+      "quotes": [
+        "Have you ever keep making or do something but it always ends up in failure, well that will happen but if you are trying to do something that you really love than don't stop trying even if you fail at it."
+      ],
+      "observable_feature": "The essay contains frequent errors in sentence structure and word order.",
+      "evaluative_interpretation": "This feature aligns with a score of [MASK], as the essay shows many sentence structure problems.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The essay's frequent errors in sentence structure and word order align with the rubric's description for a score of [MASK].",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates generally controlled organization, sufficient vocabulary range, and appropriate use of phrases, which aligns with a score of [MASK]. However, frequent errors in sentence structure and word order align with a score of [MASK]. The overall score of [MASK] likely reflects a balance between these features.",
+  "insufficient_evidence": []
+}

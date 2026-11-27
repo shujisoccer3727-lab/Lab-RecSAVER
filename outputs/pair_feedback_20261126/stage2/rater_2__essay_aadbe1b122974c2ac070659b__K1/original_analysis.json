@@ -1,0 +1,68 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary"
+      ],
+      "pattern": "Essays with clear organization and a sufficient range of vocabulary receive higher scores.",
+      "support": [
+        {
+          "history_essay_id": "essay_d621ca9ba9e3092e50b6d5b5",
+          "quotes": [
+            "It is most beneficial working in a group then working alone because students can improve their social skills, have more ideas, and work faster together."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 4
+            }
+          },
+          "interpretation": "The essay demonstrates clear organization and a sufficient range of vocabulary, which aligns with the higher scores."
+        },
+        {
+          "history_essay_id": "essay_ed4cc867caedf008a4e62621",
+          "quotes": [
+            "The principal reason why I want to go is for my family influences, my grandma has been dreaming about me been an actress."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 3,
+            "Traits": {
+              "Cohesion": 3,
+              "Vocabulary": 3
+            }
+          },
+          "interpretation": "The essay shows a clear structure and adequate vocabulary, which aligns with the observed scores."
+        }
+      ],
+      "counterevidence": [],
+      "limitations": [
+        "The pattern does not account for essays with lower scores that may also have clear organization and sufficient vocabulary."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary"
+      ],
+      "quotes": [
+        "Extracurricular activities can affect a student but also can help students. Extracurricular activities should be left to the students and their families because students would do something they like, and students will concentrate more in class."
+      ],
+      "observable_feature": "The essay demonstrates clear organization and a sufficient range of vocabulary.",
+      "evaluative_interpretation": "This feature aligns with the observed scores, suggesting that the essay's clear structure and vocabulary contribute to its score.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay's clear organization and sufficient vocabulary align with the rubric's criteria for a score of 3 or 4.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay's clear organization and sufficient vocabulary align with the observed scores, suggesting that these features contribute to the score of 3. This is consistent with the pattern observed in the history essays.",
+  "insufficient_evidence": []
+}

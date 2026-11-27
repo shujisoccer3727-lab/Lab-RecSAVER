@@ -1,0 +1,86 @@
+{
+  "history_patterns": [
+    {
+      "pattern_id": "H1",
+      "status": "recurring_in_supplied_history",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "pattern": "Essays with generally well-controlled organization, appropriate use of cohesive devices, sufficient vocabulary range, and minimal errors in grammar and conventions tend to receive scores of 4.",
+      "support": [
+        {
+          "history_essay_id": "essay_2548a450358fcc40a297da41",
+          "quotes": [
+            "Primarily technology's goal is to make certain tasks easier, not to make us anti-social or make us obese."
+          ],
+          "relevant_observed_history_scores": {
+            "Overall": 4,
+            "Traits": {
+              "Cohesion": 4,
+              "Syntax": 4,
+              "Vocabulary": 4,
+              "Phraseology": 4,
+              "Grammar": 4,
+              "Conventions": 4
+            }
+          },
+          "interpretation": "The essay demonstrates a well-controlled organization and appropriate use of cohesive devices, supporting a score of 4."
+        }
+      ],
+      "counterevidence": [
+        {
+          "history_essay_id": "essay_919c31bf11f0c69f6dcf663b",
+          "quotes": [
+            "After elementary you go to middle school, Then high school, And then collage, But what's next, what do you want to be or when do you want to be after collage you get a job go to work make money, or even have a family,"
+          ],
+          "interpretation": "This essay has a less controlled organization and more errors, which contrasts with the pattern of essays receiving a score of 4."
+        }
+      ],
+      "limitations": [
+        "The pattern is supported by only two essays, limiting its generalizability."
+      ]
+    }
+  ],
+  "target_evidence": [
+    {
+      "evidence_id": "T1",
+      "dimensions": [
+        "Cohesion",
+        "Vocabulary",
+        "Phraseology",
+        "Grammar",
+        "Conventions"
+      ],
+      "quotes": [
+        "In Thailand there are many different towns I want to visit. In the towns there are many cool things I could buy."
+      ],
+      "observable_feature": "The essay demonstrates a generally well-controlled organization and appropriate use of cohesive devices.",
+      "evaluative_interpretation": "This feature supports a score of 4, as it aligns with the pattern observed in the history.",
+      "linked_history_pattern_ids": [
+        "H1"
+      ],
+      "rubric_connection": "The essay shows a controlled organization and appropriate use of cohesive devices, aligning with the rubric for a score of 4.",
+      "uncertainty": ""
+    },
+    {
+      "evidence_id": "T2",
+      "dimensions": [
+        "Syntax"
+      ],
+      "quotes": [
+        "There are many things to do in Thailand, some I probably have never done."
+      ],
+      "observable_feature": "The essay uses a variety of syntactic structures, but with occasional errors.",
+      "evaluative_interpretation": "This feature supports a score of 3 for Syntax, as it shows appropriate use of a variety of syntactic structures but with some errors.",
+      "linked_history_pattern_ids": [],
+      "rubric_connection": "The essay demonstrates appropriate use of a variety of syntactic structures, but with occasional errors, aligning with the rubric for a score of 3.",
+      "uncertainty": ""
+    }
+  ],
+  "decision_explanation": "The essay demonstrates a generally well-controlled organization and appropriate use of cohesive devices, aligning with the pattern observed in the history for a score of 4. The Syntax dimension shows occasional errors, supporting a score of 3.",
+  "insufficient_evidence": []
+}

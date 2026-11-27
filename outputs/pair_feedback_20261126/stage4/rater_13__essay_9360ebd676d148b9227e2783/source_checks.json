@@ -1,0 +1,49 @@
+{
+  "top_errors": [],
+  "checks": [
+    {
+      "index": 0,
+      "pass_": true,
+      "reasons": [],
+      "source_spans": [
+        {
+          "span_id": "S1",
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 214,
+          "text": "If someone old or your older sibling is sharing wisdom with you stop what your doing and listen, because most of the time the person, he or she, is trying to tell you whats going to happen if you hit a certain age."
+        },
+        {
+          "span_id": "S2",
+          "paragraph_id": "P1",
+          "start": 214,
+          "end": 314,
+          "text": " Its important to know something new, and because they experienced it they will know what to expect."
+        }
+      ],
+      "reconstructed_quotes": [
+        "If someone old or your older sibling is sharing wisdom with you stop what your doing and listen, because most of the time the person, he or she, is trying to tell you whats going to happen if you hit a certain age.",
+        " Its important to know something new, and because they experienced it they will know what to expect."
+      ],
+      "semantic_support_not_certified": true
+    }
+  ],
+  "passed_observations": [
+    {
+      "observation_id": "O1",
+      "dimension": "Cohesion",
+      "evidence_span_ids": [
+        "S1",
+        "S2"
+      ],
+      "feature": "The essay begins with a clear statement about the importance of listening to older individuals sharing wisdom, followed by a sentence that explains why this is important.",
+      "scoring_relevance": "This feature demonstrates cohesion by providing a logical flow from the initial statement to the explanation, which helps maintain the reader's understanding and engagement.",
+      "limitation": "This observation does not establish the overall coherence of the essay, only the local coherence between these two sentences.",
+      "next_check": "Review the transitions between other paragraphs to ensure they maintain a similar level of logical flow and coherence.",
+      "quotes": [
+        "If someone old or your older sibling is sharing wisdom with you stop what your doing and listen, because most of the time the person, he or she, is trying to tell you whats going to happen if you hit a certain age.",
+        " Its important to know something new, and because they experienced it they will know what to expect."
+      ]
+    }
+  ]
+}
